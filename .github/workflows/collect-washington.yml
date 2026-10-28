@@ -26,6 +26,9 @@ jobs:
       - name: Download and audit WA records
         run: python3 collectors/washington.py
 
+      - name: Normalize Spanish dual-language programs
+        run: python3 collectors/normalize_washington.py
+
       - name: Preserve outputs and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
