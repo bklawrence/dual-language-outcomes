@@ -1,5 +1,5 @@
 
-name: Collect Washington DL inventory, academics, and enrollment
+name: Collect and analyze Washington DL outcomes
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  collect:
+  collect-and-analyze:
     runs-on: ubuntu-latest
     timeout-minutes: 65
 
@@ -23,19 +23,38 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Download Washington DL program inventory
+      - name: Verify required scripts
+        run: |
+          test -f collectors/washington.py
+          test -f collectors/normalize_washington.py
+          test -f collectors/washington_academics.py
+          test -f collectors/washington_enrollment.py
+          test -f analysis/washington_regressions.py
+
+      - name: Collect Washington program inventory
         run: python3 collectors/washington.py
 
       - name: Normalize all-language DL programs
         run: python3 collectors/normalize_washington.py
 
-      - name: Collect Washington academic results
+      - name: Collect academic outcomes
         run: python3 collectors/washington_academics.py
 
-      - name: Collect Washington enrollment and demographics
+      - name: Collect enrollment and demographics
         run: python3 collectors/washington_enrollment.py
 
-      - name: Upload research data and diagnostics
+      - name: Install statistical dependencies
+        run: |
+          python3 -m pip install \
+            numpy==2.2.6 \
+            pandas==2.2.3 \
+            statsmodels==0.14.6
+
+      - name: Run Washington regressions
+        run: |
+          python3 analysis/washington_regressions.py
+
+      - name: Upload all research results
         if: always()
         uses: actions/upload-artifact@v4
         with:
