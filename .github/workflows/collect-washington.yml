@@ -1,5 +1,5 @@
 
-name: Collect Washington dual-language inventory and academics
+name: Collect Washington DL inventory, academics, and enrollment
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 65
 
     steps:
       - name: Check out repository
@@ -23,16 +23,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Download and audit Washington DL records
+      - name: Download Washington DL program inventory
         run: python3 collectors/washington.py
 
-      - name: Normalize dual-language programs in all languages
+      - name: Normalize all-language DL programs
         run: python3 collectors/normalize_washington.py
 
-      - name: Download and join Washington academic assessment results
+      - name: Collect Washington academic results
         run: python3 collectors/washington_academics.py
 
-      - name: Preserve data and audit outputs
+      - name: Collect Washington enrollment and demographics
+        run: python3 collectors/washington_enrollment.py
+
+      - name: Upload research data and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
