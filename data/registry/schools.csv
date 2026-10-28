@@ -1,0 +1,18 @@
+
+school_id,legacy_inventory_id,state,school_name,district_name,state_school_id,nces_school_id,id_status,screening_status
+IL-S001,1,IL,Academy for Global Citizenship,Chicago Public Schools 299,,,id_not_resolved,candidate
+IL-S002,2,IL,Barbour Two-Way Language Immersion,Rockford SD 205,,,id_not_resolved,candidate
+IL-S004,4,IL,Darwin Elementary School,Chicago Public Schools 299,150162990252148,,historical_match_unverified,excluded
+IL-S006,6,IL,Hawthorn School of Dual Language,Hawthorn CCSD 73,340490730042008,,historical_match_unverified,candidate
+IL-S007,7,IL,Inter-American Elementary Magnet School,Chicago Public Schools 299,150162990252358,,historical_match_unverified,candidate
+IL-S008,8,IL,International Prep Academy,Champaign CUSD 4,090100040262028,,historical_match_unverified,candidate
+IL-S009,9,IL,Lincoln-Irving Elementary School,Moline-Coal Valley CUSD 40,490810400222016,,historical_match_unverified,candidate
+IL-S010,10,IL,Lozano Elementary Bilingual & International Center,Chicago Public Schools 299,150162990252303,,historical_match_unverified,candidate
+IL-S011,11,IL,MacArthur International Spanish Academy,Schaumburg CCSD 54,050160540042019,,historical_match_unverified,candidate
+IL-S012,12,IL,Multicultural Dual Language Academy,Peoria Public Schools 150,,,id_not_resolved,excluded
+IL-S013,13,IL,Oak Terrace Elementary School,North Shore SD 112,340491120022007,,historical_match_unverified,candidate
+IL-S014,14,IL,Red Oak Elementary School,North Shore SD 112,340491120022006,,historical_match_unverified,candidate
+IL-S015,15,IL,Sabin Dual Language Magnet School,Chicago Public Schools,,,id_not_resolved,candidate
+IL-S016,16,IL,Talcott Fine Arts and Museum Academy,Chicago Public Schools 299,,,id_not_resolved,excluded
+IL-S017,17,IL,Washington Dual Language Academy,Maywood-Melrose Park-Broadview SD 89,060160890022012,,historical_match_district_review,candidate
+IL-S018,18,IL,Yankee Ridge Multilingual School,Urbana SD 116,090101160222009,,historical_match_unverified,excluded
