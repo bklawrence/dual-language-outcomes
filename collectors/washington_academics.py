@@ -1,22 +1,13 @@
 
 #!/usr/bin/env python3
-"""Collect Washington academic outcomes for DL schools.
+"""Collect Washington academic results for DL schools.
 
-Source:
-Washington OSPI Report Card Assessment
-School Years 2021-22 Through Present
+Uses the existing all-language Washington DL registry.
+Preserves source records, reported performance levels,
+student groups, school-year joins, and coverage audits.
 
-Uses the existing all-language DL inventory.
-
-Produces:
-- wa_academic_source_rows.csv
-- wa_academic_outcomes.csv
-- wa_academic_dl_join.csv
-- wa_academic_coverage.csv
-- wa_academic_report.json
-
-Results remain school-level outcomes, not necessarily
-outcomes of students enrolled in dual language.
+School results are NOT necessarily DL-participant results.
+Python standard library only.
 """
 
 import argparse
@@ -35,29 +26,63 @@ from urllib.request import Request, urlopen
 
 
 DATASET = "9fjj-2374"
-
-SOURCE = (
-    f"https://data.wa.gov/d/{DATASET}"
-)
-
-ENDPOINT = (
-    f"https://data.wa.gov/resource/{DATASET}.json"
-)
+SOURCE = f"https://data.wa.gov/d/{DATASET}"
+ENDPOINT = f"https://data.wa.gov/resource/{DATASET}.json"
 
 PAGE_SIZE = 5000
 SCHOOL_CHUNK = 20
 MAX_PER_CHUNK = 200000
 
+PREFLIGHT_FIELDS = (
+    "organizationlevel",
+    "schoolyear",
+    "schoolorganizationid",
+    "testsubject",
+    "gradelevel",
+    "studentgroup",
+    "percent_consistent_grade",
+)
+
+METRICS = (
+    ("percent_consistent_grade",
+     "pct_consistent_grade_or_above"),
+    ("percent_foundational_grade",
+     "pct_foundational_grade_or_above"),
+    ("percentlevel1_including",
+     "pct_level_1_including"),
+    ("percentlevel2_including",
+     "pct_level_2_including"),
+    ("percentlevel3_including",
+     "pct_level_3_including"),
+    ("percentlevel4_including",
+     "pct_level_4_including"),
+    ("percent_participation",
+     "pct_participation"),
+    ("percent_no_score",
+     "pct_no_score"),
+    ("percent_taking_alternative",
+     "pct_alternate_assessment"),
+)
+
+COUNTS = (
+    ("count_of_students_tested", "count_tested"),
+    ("count_of_students_expected", "count_expected"),
+    ("count_consistent_grade_level",
+     "count_consistent_grade_or_above"),
+    ("count_foundational_grade",
+     "count_foundational_grade_or_above"),
+)
+
 
 def read_csv(path):
     with path.open(
-        encoding="utf-8-sig",
-        newline=""
+        newline="",
+        encoding="utf-8-sig"
     ) as f:
         return list(csv.DictReader(f))
 
 
-def write_csv(path, rows, columns):
+def write_csv(path, rows, fields):
     path.parent.mkdir(
         parents=True,
         exist_ok=True
@@ -65,37 +90,16 @@ def write_csv(path, rows, columns):
 
     with path.open(
         "w",
-        encoding="utf-8-sig",
-        newline=""
+        newline="",
+        encoding="utf-8-sig"
     ) as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=columns,
+            fieldnames=fields,
             extrasaction="ignore"
         )
         writer.writeheader()
         writer.writerows(rows)
-
-
-def norm(text):
-    return re.sub(
-        r"[^a-z0-9]",
-        "",
-        str(text or "").lower()
-    )
-
-
-def find_col(columns, *names):
-    lookup = {
-        norm(s): s
-        for s in columns
-    }
-
-    for name in names:
-        if norm(name) in lookup:
-            return lookup[norm(name)]
-
-    return None
 
 
 def api_get(url):
@@ -106,7 +110,7 @@ def api_get(url):
                 headers={
                     "Accept": "application/json",
                     "User-Agent":
-                        "DualLanguageOutcomesResearch/0.2",
+                        "DualLanguageOutcomesResearch/0.3"
                 }
             )
 
@@ -118,22 +122,21 @@ def api_get(url):
 
             if (
                 not isinstance(result, list)
-                or any(
-                    not isinstance(x, dict)
-                    for x in result
+                or not all(
+                    isinstance(r, dict)
+                    for r in result
                 )
             ):
                 raise ValueError(
-                    "Unexpected assessment API format"
+                    "Unexpected API response format"
                 )
 
             return result
 
         except HTTPError as exc:
             if (
-                exc.code not in (
-                    429, 500, 502, 503, 504
-                )
+                exc.code not in
+                (429, 500, 502, 503, 504)
                 or attempt == 5
             ):
                 raise
@@ -151,12 +154,48 @@ def api_get(url):
         )
 
     raise RuntimeError(
-        "Washington API retry limit exceeded"
+        "API retry limit exceeded"
     )
 
 
-def get_rows(registry, fixture=None):
-    """Download academic rows for DL schools and years."""
+def preflight():
+    """Check actual published field names before download."""
+
+    url = ENDPOINT + "?" + urlencode({
+        "$select": ",".join(PREFLIGHT_FIELDS),
+        "$limit": 1
+    })
+
+    rows = api_get(url)
+
+    if not rows:
+        raise RuntimeError(
+            "Assessment API preflight returned no rows"
+        )
+
+    print(
+        "Assessment API preflight passed",
+        flush=True
+    )
+
+
+def collect(registry, fixture=None):
+    if fixture:
+        result = json.loads(
+            fixture.read_text(encoding="utf-8")
+        )
+        if (
+            not isinstance(result, list)
+            or not result
+            or not all(
+                isinstance(r, dict)
+                for r in result
+            )
+        ):
+            raise ValueError(
+                "Fixture must contain JSON records"
+            )
+        return result
 
     ids = sorted({
         r["state_school_id"].strip()
@@ -169,7 +208,7 @@ def get_rows(registry, fixture=None):
     })
 
     if any(
-        not re.fullmatch(r"[0-9]+", x)
+        not re.fullmatch(r"\d+", x)
         for x in ids
     ):
         raise ValueError(
@@ -178,7 +217,7 @@ def get_rows(registry, fixture=None):
 
     if any(
         not re.fullmatch(
-            r"20[0-9]{2}-[0-9]{2}", y
+            r"20\d\d-\d\d", y
         )
         for y in years
     ):
@@ -186,50 +225,38 @@ def get_rows(registry, fixture=None):
             "Unexpected school-year format"
         )
 
-    if fixture:
-        obj = json.loads(
-            fixture.read_text(
-                encoding="utf-8"
-            )
-        )
-
-        if not isinstance(obj, list) or not obj:
-            raise ValueError(
-                "Fixture must be a nonempty JSON list"
-            )
-
-        return obj
+    preflight()
 
     result = []
-
-    years_condition = ",".join(
-        "'" + y + "'"
-        for y in years
-    )
 
     for start in range(
         0, len(ids), SCHOOL_CHUNK
     ):
-        part = ids[
+        subset = ids[
             start:start + SCHOOL_CHUNK
         ]
 
-        ids_condition = ",".join(
+        quoted_ids = ",".join(
             "'" + x + "'"
-            for x in part
+            for x in subset
+        )
+
+        quoted_years = ",".join(
+            "'" + y + "'"
+            for y in years
         )
 
         where = (
             f"schoolorganizationid in "
-            f"({ids_condition}) "
+            f"({quoted_ids}) "
             f"and schoolyear in "
-            f"({years_condition})"
+            f"({quoted_years})"
         )
 
         print(
             f"Collecting schools "
             f"{start + 1}-"
-            f"{start + len(part)} "
+            f"{start + len(subset)} "
             f"of {len(ids)}",
             flush=True
         )
@@ -241,20 +268,17 @@ def get_rows(registry, fixture=None):
                 "$where": where,
                 "$limit": PAGE_SIZE,
                 "$offset": offset,
-                "$order": ":id",
+                "$order": ":id"
             })
 
             page = api_get(url)
-
-            if not page:
-                break
 
             if (
                 offset + len(page)
                 > MAX_PER_CHUNK
             ):
                 raise RuntimeError(
-                    "Pagination safety limit reached"
+                    "Pagination safety limit exceeded"
                 )
 
             result.extend(page)
@@ -270,24 +294,89 @@ def get_rows(registry, fixture=None):
 
     if not result:
         raise RuntimeError(
-            "No academic results returned "
-            "for the DL school identifiers"
+            "No academic records downloaded"
         )
 
     return result
 
 
-def subject_label(value):
-    x = norm(value)
+def field(row, name):
+    return str(
+        row.get(name) or ""
+    ).strip()
 
-    if x in (
+
+def number_status(raw):
+    raw = str(raw or "").strip()
+
+    if (
+        not raw
+        or raw.lower() in (
+            "null", "none", "n/a",
+            "na", "suppressed"
+        )
+        or raw in (
+            "*", "—", "-", "--"
+        )
+    ):
+        return "not_reported", ""
+
+    try:
+        num = float(
+            raw.rstrip("%").replace(",", "")
+        )
+    except ValueError:
+        return "non_numeric", ""
+
+    if not 0 <= num <= 100:
+        return "out_of_range", ""
+
+    return "numeric_unverified", num
+
+
+def count_status(raw):
+    raw = str(raw or "").strip()
+
+    if (
+        not raw
+        or raw.lower() in (
+            "null", "none", "n/a",
+            "na", "suppressed"
+        )
+        or raw in (
+            "*", "—", "-", "--"
+        )
+    ):
+        return "not_reported", ""
+
+    try:
+        num = float(
+            raw.replace(",", "")
+        )
+
+        if num < 0 or int(num) != num:
+            return "out_of_range", ""
+
+        return "numeric_unverified", int(num)
+
+    except ValueError:
+        return "non_numeric", ""
+
+
+def subject_label(raw):
+    text = re.sub(
+        r"[^a-z]", "",
+        str(raw).lower()
+    )
+
+    if text in (
         "ela",
         "englishlanguagearts",
         "englishlanguageartsliteracy"
     ):
         return "ELA"
 
-    if x in (
+    if text in (
         "math",
         "mathematics"
     ):
@@ -296,32 +385,32 @@ def subject_label(value):
     return ""
 
 
-def grade_label(value):
-    x = str(
-        value or ""
-    ).strip().lower()
+def grade_label(raw):
+    text = str(raw or "").strip().lower()
 
-    m = re.fullmatch(
-        r"(?:grade\s*)?(0?[3-8])",
-        x
+    match = re.fullmatch(
+        r"(?:grade\s*)?0?([3-8])"
+        r"(?:st|nd|rd|th)?"
+        r"(?:\s*grade)?",
+        text
     )
 
-    return (
-        str(int(m.group(1)))
-        if m else ""
+    return match.group(1) if match else ""
+
+
+def group_label(raw):
+    text = re.sub(
+        r"[^a-z]", "",
+        str(raw).lower()
     )
 
-
-def group_label(value):
-    x = norm(value)
-
-    if x in (
-        "allstudents",
-        "all"
+    if text in (
+        "all",
+        "allstudents"
     ):
         return "all_students"
 
-    if x in (
+    if text in (
         "englishlearners",
         "englishlearner",
         "englishlanguagelearners",
@@ -335,247 +424,178 @@ def group_label(value):
     return "other_reported_group"
 
 
-def percent_status(raw):
-    x = str(
-        raw or ""
-    ).strip()
-
-    if (
-        not x
-        or norm(x) in {
-            "null", "na", "suppressed",
-            "nlt10", "none"
-        }
-        or x in {
-            "*", "--", "—", "-"
-        }
-    ):
-        return "not_reported", ""
-
-    try:
-        value = float(
-            x.replace(",", "")
-            .removesuffix("%")
-        )
-
-    except ValueError:
-        return "non_numeric", ""
-
-    if not 0 <= value <= 100:
-        return "out_of_range", ""
-
-    return "numeric_published", value
-
-
 def process(registry, raw, output):
-    lookup = defaultdict(list)
-
-    for r in registry:
-        key = (
-            r["state_school_id"].strip(),
-            r["school_year"].strip()
-        )
-        lookup[key].append(r)
-
-    cols = sorted(
+    fields = sorted(
         set().union(
             *(r.keys() for r in raw)
         )
     )
 
-    mapping = {
-        "school_id": find_col(
-            cols, "schoolorganizationid"
-        ),
-        "school_year": find_col(
-            cols, "schoolyear"
-        ),
-        "level": find_col(
-            cols, "organizationlevel"
-        ),
-        "name": find_col(
-            cols, "schoolname"
-        ),
-        "district": find_col(
-            cols, "districtname"
-        ),
-        "subject": find_col(
-            cols, "testsubject"
-        ),
-        "grade": find_col(
-            cols, "gradelevel"
-        ),
-        "group": find_col(
-            cols, "studentgroup"
-        ),
-        "group_type": find_col(
-            cols, "studentgrouptype"
-        ),
-        "pct_met": find_col(
-            cols, "percentmetstandard"
-        ),
-        "administration": find_col(
-            cols,
-            "testadministration",
-            "assessmenttype"
-        ),
-        "n_tested": find_col(
-            cols,
-            "numbertested",
-            "counttested"
-        ),
-        "pct_tested": find_col(
-            cols, "percenttested"
-        ),
-    }
-
-    required = [
-        "school_id",
-        "school_year",
-        "level",
-        "subject",
-        "grade",
-        "group",
-        "pct_met"
-    ]
-
-    missing = [
-        x for x in required
-        if not mapping[x]
-    ]
-
-    if missing:
-        raise RuntimeError(
-            "Assessment API schema mismatch: "
-            + str(missing)
-            + "; source fields: "
-            + ", ".join(cols)
-        )
-
+    # Save original source before validation.
     write_csv(
         output / "wa_academic_source_rows.csv",
         raw,
-        cols
+        fields
     )
 
-    def field(row, key):
-        col = mapping[key]
+    required = (
+        "schoolorganizationid",
+        "schoolyear",
+        "organizationlevel",
+        "testsubject",
+        "gradelevel",
+        "studentgroup",
+        "percent_consistent_grade"
+    )
 
-        return str(
-            row.get(col, "")
-            if col else ""
-        ).strip()
+    missing = [
+        x for x in required
+        if x not in fields
+    ]
 
-    stats = Counter()
-    values = Counter()
-    normalized = []
-    joined = []
-    duplicate_check = Counter()
-
-    for r in raw:
-        sid = field(r, "school_id")
-        yr = field(r, "school_year")
-
-        if (
-            field(r, "level").casefold()
-            != "school"
-        ):
-            stats["not_school_level"] += 1
-            continue
-
-        program_rows = lookup.get(
-            (sid, yr), []
+    if missing:
+        raise ValueError(
+            f"Missing fields: {missing}. "
+            f"Available: {fields}"
         )
 
-        if not program_rows:
-            stats[
-                "not_in_dl_registry_year"
-            ] += 1
+    lookup = defaultdict(list)
+
+    for p in registry:
+        key = (
+            p["state_school_id"].strip(),
+            p["school_year"].strip()
+        )
+        lookup[key].append(p)
+
+    stats = Counter()
+    statuses = Counter()
+    assessment = []
+    joined = []
+    duplicates = Counter()
+    matched_keys = set()
+    year_counts = Counter()
+
+    for r in raw:
+        sid = field(
+            r, "schoolorganizationid"
+        )
+        year = field(r, "schoolyear")
+
+        if (
+            field(
+                r, "organizationlevel"
+            ).casefold() != "school"
+        ):
+            stats["non_school_rows"] += 1
+            continue
+
+        programs = lookup.get(
+            (sid, year), []
+        )
+
+        if not programs:
+            stats["unmatched_school_year"] += 1
             continue
 
         subject = subject_label(
-            field(r, "subject")
+            field(r, "testsubject")
         )
 
         grade = grade_label(
-            field(r, "grade")
+            field(r, "gradelevel")
         )
 
         if not subject or not grade:
-            stats[
-                "not_grade_3_8_ela_math"
-            ] += 1
+            stats["not_grade_3_8_ela_math"] += 1
             continue
 
-        raw_rate = field(r, "pct_met")
-
-        status, rate = percent_status(
-            raw_rate
-        )
-
-        group = field(r, "group")
-
-        stats[
-            "academic_source_rows"
-        ] += 1
-
-        values[status] += 1
+        group = field(r, "studentgroup")
 
         rec = {
             "state": "WA",
             "state_school_id": sid,
-            "school_year": yr,
-            "school_name": field(r, "name"),
+            "school_year": year,
+            "school_name": field(
+                r, "schoolname"
+            ),
             "district_name": field(
-                r, "district"
+                r, "districtname"
             ),
             "grade": grade,
             "subject": subject,
-            "test_administration_raw": field(
-                r, "administration"
-            ),
             "student_group": group,
             "student_group_type": field(
-                r, "group_type"
+                r, "studentgrouptype"
             ),
             "student_group_bucket":
                 group_label(group),
-            "percent_met_standard_raw":
-                raw_rate,
-            "percent_met_standard":
-                rate,
-            "percent_value_status":
-                status,
-            "number_tested_raw": field(
-                r, "n_tested"
+            "testadministration": field(
+                r, "testadministration"
             ),
-            "percent_tested_raw": field(
-                r, "pct_tested"
+            "test_administration_group": field(
+                r, "test_administration_group"
             ),
             "outcome_scope":
-                "school_reported_student_group_NOT_DL_participants",
+                "school_level_group_not_DL_participants",
             "source_dataset_id": DATASET,
-            "source_url": SOURCE,
+            "source_url": SOURCE
         }
 
-        normalized.append(rec)
+        for source_name, target in METRICS:
+            raw_value = field(
+                r, source_name
+            )
 
-        key = (
-            sid,
-            yr,
-            grade,
-            subject,
-            group,
-            rec["test_administration_raw"]
+            status, value = number_status(
+                raw_value
+            )
+
+            rec[target + "_raw"] = raw_value
+            rec[target] = value
+            rec[target + "_status"] = status
+
+            statuses[(target, status)] += 1
+
+        for source_name, target in COUNTS:
+            raw_value = field(
+                r, source_name
+            )
+
+            status, value = count_status(
+                raw_value
+            )
+
+            rec[target + "_raw"] = raw_value
+            rec[target] = value
+            rec[target + "_status"] = status
+
+        rec["percentage_definition_note"] = (
+            "OSPI 2026 republished assessment data; "
+            "see official data notes"
         )
 
-        duplicate_check[key] += 1
+        assessment.append(rec)
+        matched_keys.add((sid, year))
+        year_counts[year] += 1
 
-        for p in program_rows:
+        duplicate_key = (
+            sid,
+            year,
+            grade,
+            subject,
+            rec["student_group_type"],
+            group,
+            rec["testadministration"],
+            rec["test_administration_group"]
+        )
+
+        duplicates[duplicate_key] += 1
+
+        for p in programs:
             joined.append({
                 **rec,
-                "dl_school_id":
-                    p["school_id"],
+                "dl_school_id": p["school_id"],
                 "dl_language":
                     p["instructional_language"],
                 "dl_model_reported":
@@ -585,23 +605,26 @@ def process(registry, raw, output):
                 "dl_review_flags":
                     p["review_flags"],
                 "join_scope":
-                    "school_id_and_school_year_only_not_program_participants",
+                    "school_year_only_not_DL_participants",
                 "multiple_dl_languages_at_school":
-                    "yes"
-                    if len(program_rows) > 1
-                    else "no",
+                    "yes" if len(programs) > 1
+                    else "no"
             })
 
-    if not normalized:
-        raise RuntimeError(
-            "No grade 3-8 ELA/Math observations. "
-            "Inspect published categories."
+        stats[
+            "grade_3_8_ela_math_rows"
+        ] += 1
+
+    if not assessment:
+        raise ValueError(
+            "No school-level grade 3-8 ELA/Math "
+            "records identified"
         )
 
     write_csv(
         output / "wa_academic_outcomes.csv",
-        normalized,
-        list(normalized[0])
+        assessment,
+        list(assessment[0])
     )
 
     write_csv(
@@ -610,7 +633,7 @@ def process(registry, raw, output):
         list(joined[0])
     )
 
-    groups = defaultdict(list)
+    grouped = defaultdict(list)
 
     for r in joined:
         key = (
@@ -618,7 +641,7 @@ def process(registry, raw, output):
             r["school_year"],
             r["dl_language"]
         )
-        groups[key].append(r)
+        grouped[key].append(r)
 
     coverage = []
 
@@ -629,57 +652,59 @@ def process(registry, raw, output):
             p["instructional_language"]
         )
 
-        rows = groups[key]
+        rows = grouped[key]
 
-        selected = [
-            r for r in rows
-            if r["percent_value_status"]
-            == "numeric_published"
-        ]
+        def numeric(row):
+            return (
+                row[
+                    "pct_consistent_grade_or_above_status"
+                ] == "numeric_unverified"
+            )
 
         coverage.append({
             "state_school_id": key[0],
             "school_year": key[1],
-            "instructional_language":
-                key[2],
-            "school_name":
-                p["school_name"],
+            "instructional_language": key[2],
+            "school_name": p["school_name"],
             "reported_model":
                 p["reported_models"],
             "reported_design":
                 p["program_designs"],
-            "academic_rows":
-                len(rows),
-            "numeric_percent_rows":
-                len(selected),
-            "all_students_numeric_rows":
+            "academic_rows": len(rows),
+            "numeric_primary_proficiency_rows":
+                sum(numeric(r) for r in rows),
+            "all_students_primary_proficiency_rows":
                 sum(
-                    r["student_group_bucket"]
+                    numeric(r)
+                    and r["student_group_bucket"]
                     == "all_students"
-                    for r in selected
+                    for r in rows
                 ),
-            "english_learner_numeric_rows":
+            "english_learner_primary_proficiency_rows":
                 sum(
-                    r["student_group_bucket"]
+                    numeric(r)
+                    and r["student_group_bucket"]
                     == "reported_english_learners"
-                    for r in selected
+                    for r in rows
                 ),
-            "ela_numeric_rows":
+            "ela_primary_proficiency_rows":
                 sum(
-                    r["subject"] == "ELA"
-                    for r in selected
+                    numeric(r)
+                    and r["subject"] == "ELA"
+                    for r in rows
                 ),
-            "math_numeric_rows":
+            "math_primary_proficiency_rows":
                 sum(
-                    r["subject"] == "Math"
-                    for r in selected
+                    numeric(r)
+                    and r["subject"] == "Math"
+                    for r in rows
                 ),
-            "join_status":
+            "coverage_status":
                 "academic_rows_found"
                 if rows else
                 "no_matching_academic_rows",
             "outcome_scope":
-                "school_reported_not_dl_participants",
+                "school_not_DL_participants"
         })
 
     write_csv(
@@ -688,117 +713,131 @@ def process(registry, raw, output):
         list(coverage[0])
     )
 
-    duplicate_examples = [
-        list(k) + [n]
-        for k, n in duplicate_check.items()
-        if n > 1
-    ]
-
     report = {
-        "created_utc": datetime.now(
+        "generated_utc": datetime.now(
             timezone.utc
         ).isoformat(),
-
+        "source_dataset": DATASET,
         "source_url": SOURCE,
-        "source_dataset_id": DATASET,
-
         "source_rows_downloaded": len(raw),
-
-        "distinct_school_ids_in_registry":
-            len({
-                r["state_school_id"]
-                for r in registry
-            }),
-
-        "registry_school_language_year_rows":
+        "registry_school_language_years":
             len(registry),
-
-        "academic_rows_grade_3_8":
-            len(normalized),
-
-        "academic_rows_joined_school_language":
+        "school_years_matched":
+            len(matched_keys),
+        "grade_3_8_ela_math_source_rows":
+            len(assessment),
+        "school_language_year_joined_rows":
             len(joined),
-
-        "program_language_years_with_academics":
-            sum(
-                bool(x["academic_rows"])
-                for x in coverage
-            ),
-
-        "program_language_years_without_academics":
-            sum(
-                not bool(x["academic_rows"])
-                for x in coverage
-            ),
-
-        "distinct_schools_with_grade_3_8_academics":
+        "distinct_schools_with_ela_math":
             len({
                 r["state_school_id"]
-                for r in normalized
+                for r in assessment
             }),
-
-        "field_mapping": mapping,
-
-        "numeric_values_by_status":
-            dict(values),
-
-        "excluded_source_rows":
-            dict(stats),
-
-        "reported_student_groups_sample":
+        "program_language_years_with_results":
+            sum(
+                r["academic_rows"] > 0
+                for r in coverage
+            ),
+        "program_language_years_without_results":
+            sum(
+                r["academic_rows"] == 0
+                for r in coverage
+            ),
+        "primary_proficiency_rows_numeric":
+            sum(
+                r[
+                    "pct_consistent_grade_or_above_status"
+                ] == "numeric_unverified"
+                for r in assessment
+            ),
+        "english_learner_primary_proficiency_rows_numeric":
+            sum(
+                r["student_group_bucket"]
+                == "reported_english_learners"
+                and r[
+                    "pct_consistent_grade_or_above_status"
+                ] == "numeric_unverified"
+                for r in assessment
+            ),
+        "year_rows":
+            dict(sorted(year_counts.items())),
+        "test_administrations":
+            dict(Counter(
+                r["testadministration"]
+                for r in assessment
+            )),
+        "test_administration_groups":
+            dict(Counter(
+                r["test_administration_group"]
+                for r in assessment
+            )),
+        "student_groups_top_30":
             Counter(
                 r["student_group"]
-                for r in normalized
+                for r in assessment
             ).most_common(30),
-
-        "reported_test_administrations":
-            dict(
-                Counter(
-                    r["test_administration_raw"]
-                    for r in normalized
-                )
-            ),
-
+        "field_value_statuses": {
+            metric: {
+                status: count
+                for (name, status), count
+                in statuses.items()
+                if name == metric
+            }
+            for _, metric in METRICS
+        },
         "duplicate_assessment_keys":
-            len(duplicate_examples),
-
-        "duplicate_key_examples":
-            duplicate_examples[:15],
-
-        "cautions": [
-            "Results are school-level subgroup rates, not DL-participant outcomes.",
-            "Schoolwide results are repeated for each DL language at multi-language schools.",
-            "Test-administration variants are preserved separately.",
-            "No averages across schools, subjects, grades or models are calculated.",
-            "Numeric/range checks are not independent source-cell verification.",
-            "The 2026 revision changed tested-student denominator reporting and corrected some 2022-23 data.",
-            "Suppressed and missing values are not zero."
-        ],
+            sum(
+                count > 1
+                for count in duplicates.values()
+            ),
+        "duplicate_key_examples": [
+            list(key) + [count]
+            for key, count in duplicates.items()
+            if count > 1
+        ][:20],
+        "metric_definitions": {
+            "pct_consistent_grade_or_above":
+                "Levels 3-4; primary proficiency candidate",
+            "pct_foundational_grade_or_above":
+                "Levels 2-4; broader achievement measure",
+            "individual_levels":
+                "Source percentages preserved independently"
+        },
+        "warnings": [
+            "School results are not verified DL-participant outcomes.",
+            "Schoolwide results appear once per reported DL language in the joined file.",
+            "Suppressed and nonreported values are not zeros.",
+            "Published numeric percentages need independent verification.",
+            "OSPI revised reporting denominators in 2026.",
+            "OSPI corrected some historical level distributions in October 2026."
+        ]
     }
 
     (
         output / "wa_academic_report.json"
     ).write_text(
-        json.dumps(report, indent=2),
+        json.dumps(
+            report,
+            indent=2,
+            ensure_ascii=False
+        ),
         encoding="utf-8"
     )
 
     print(
-        json.dumps(
-            {
-                "source_rows_downloaded":
-                    len(raw),
-                "academic_rows":
-                    len(normalized),
-                "joined_rows":
-                    len(joined),
-                "school_language_years_with_academics":
-                    report[
-                        "program_language_years_with_academics"
-                    ]
-            },
-            indent=2
-        ),
+        json.dumps({
+            "downloaded": len(raw),
+            "academic_rows": len(assessment),
+            "joined_rows": len(joined),
+            "school_language_years_with_academics":
+                report[
+                    "program_language_years_with_results"
+                ],
+            "numeric_primary_proficiency":
+                report[
+                    "primary_proficiency_rows_numeric"
+                ]
+        }, indent=2),
         flush=True
     )
 
@@ -812,19 +851,19 @@ def main():
         default=Path(
             "output/washington/"
             "wa_all_dl_school_years.csv"
-        ),
+        )
     )
 
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("output/washington"),
+        default=Path("output/washington")
     )
 
     parser.add_argument(
         "--input-json",
         type=Path,
-        help="Optional local test fixture"
+        help="Optional local testing data"
     )
 
     args = parser.parse_args()
@@ -841,7 +880,7 @@ def main():
 
         if not registry:
             raise ValueError(
-                "No DL schools in normalized registry"
+                "Empty DL registry"
             )
 
         required = (
@@ -855,13 +894,15 @@ def main():
             "review_flags"
         )
 
-        for key in required:
-            if key not in registry[0]:
-                raise ValueError(
-                    f"DL registry missing: {key}"
-                )
+        if any(
+            k not in registry[0]
+            for k in required
+        ):
+            raise ValueError(
+                "DL registry missing required fields"
+            )
 
-        raw = get_rows(
+        raw = collect(
             registry,
             args.input_json
         )
@@ -874,8 +915,7 @@ def main():
 
     except Exception as exc:
         (
-            args.output /
-            "wa_academic_error.txt"
+            args.output / "wa_academic_error.txt"
         ).write_text(
             str(exc) + "\n",
             encoding="utf-8"
