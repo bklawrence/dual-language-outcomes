@@ -30,18 +30,40 @@ jobs:
           test -f collectors/washington_academics.py
           test -f collectors/washington_enrollment.py
           test -f analysis/washington_regressions.py
+          test -f analysis/state_dl/washington/clean_washington.py
 
       - name: Collect Washington program inventory
-        run: python3 collectors/washington.py
+        run: |
+          python3 collectors/washington.py
 
       - name: Normalize all-language DL programs
-        run: python3 collectors/normalize_washington.py
+        run: |
+          python3 collectors/normalize_washington.py
+
+      - name: Verify Washington normalization outputs
+        run: |
+          test -f output/washington/wa_spanish_dl_school_years.csv
+          test -f output/washington/wa_spanish_dl_schools.csv
+
+      - name: Clean Washington dual-language data
+        run: |
+          python3 analysis/state_dl/washington/clean_washington.py \
+            --school-years output/washington/wa_spanish_dl_school_years.csv \
+            --schools output/washington/wa_spanish_dl_schools.csv \
+            --out output/washington/cleaned
+
+      - name: Display Washington cleanup summary
+        run: |
+          echo "WASHINGTON DL CLEANUP SUMMARY"
+          cat output/washington/cleaned/wa_cleanup_summary.json
 
       - name: Collect academic outcomes
-        run: python3 collectors/washington_academics.py
+        run: |
+          python3 collectors/washington_academics.py
 
       - name: Collect enrollment and demographics
-        run: python3 collectors/washington_enrollment.py
+        run: |
+          python3 collectors/washington_enrollment.py
 
       - name: Install statistical dependencies
         run: |
