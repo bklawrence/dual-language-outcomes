@@ -1,19 +1,21 @@
 
 #!/usr/bin/env python3
 """
-Extract the 2026-27 Oregon dual-language directory.
+Extract Oregon's 2026-27 dual-language directory.
 
-Output:
+Fixes:
+- Separates actual PDF table rows
+- Prevents neighboring school records from merging
+- Preserves multiline names and notes
+- Handles schools listing multiple languages
+- Quarantines ambiguous records instead of guessing
+
+Outputs:
   data/registry/state_dl_programs_oregon.csv
   data/registry/oregon_2026_27_extraction_audit.csv
   data/registry/oregon_2026_27_summary.json
 
-The directory provides school, language,
-allocation, population model, program structure,
-year established, pathways, and notes.
-
-NCES IDs are deliberately left unmatched.
-Historical instructional models are not inferred.
+NCES IDs and historical models are not inferred.
 """
 
 import argparse
@@ -28,6 +30,7 @@ from pathlib import Path
 
 import pdfplumber
 import requests
+from pdfplumber.utils import extract_text
 
 
 SOURCE_URL = (
@@ -50,8 +53,6 @@ HEADERS = [
     "notes_raw",
 ]
 
-# Nine column boundaries in the Oregon PDF,
-# expressed as fractions of page width.
 CUTS = [
     .064, .175, .272, .344, .412,
     .511, .593, .657, .775, .921,
@@ -83,6 +84,35 @@ OUTPUT_FIELDS = [
     "nces_match_status",
 ]
 
+AUDIT_FIELDS = [
+    "page",
+    "row_top",
+    "row_bottom",
+    "extraction_issue",
+    *HEADERS,
+]
+
+KNOWN_LANGUAGES = (
+    "Mandarin Chinese",
+    "Spanish",
+    "Russian",
+    "French",
+    "Japanese",
+    "Chinese",
+    "Korean",
+    "Vietnamese",
+    "Arabic",
+    "German",
+    "Portuguese",
+    "Hawaiian",
+    "Indigenous",
+    "English",
+)
+
+
+# ==========================================
+# TEXT NORMALIZATION
+# ==========================================
 
 def clean(value):
     return re.sub(
@@ -91,14 +121,18 @@ def clean(value):
 
 
 def norm_na(value):
-    s = clean(value)
-    if s.lower() in ("", "n/a", "na", "none", "-"):
-        return ""
-    return s
+    text = clean(value)
+    return (
+        ""
+        if text.lower() in {
+            "", "n/a", "na", "none", "-"
+        }
+        else text
+    )
 
 
 def classify_model(raw):
-    value = (
+    val = (
         norm_na(raw)
         .lower()
         .replace("‐", "-")
@@ -106,16 +140,16 @@ def classify_model(raw):
     )
 
     if (
-        "two-way" in value
-        or "two way" in value
-        or "(twi)" in value
+        "two-way" in val
+        or "two way" in val
+        or "(twi)" in val
     ):
         return "two_way"
 
     if (
-        "one-way" in value
-        or "one way" in value
-        or "(owi)" in value
+        "one-way" in val
+        or "one way" in val
+        or "(owi)" in val
     ):
         return "one_way"
 
@@ -123,21 +157,21 @@ def classify_model(raw):
 
 
 def classify_structure(raw):
-    value = (
+    val = (
         norm_na(raw)
         .lower()
         .replace("-", " ")
     )
 
     if (
-        "whole school" in value
-        or "schoolwide" in value
+        "whole school" in val
+        or "schoolwide" in val
     ):
         return "whole_school"
 
     if (
-        "strand" in value
-        or "cohort within" in value
+        "strand" in val
+        or "cohort within" in val
     ):
         return "strand"
 
@@ -145,75 +179,135 @@ def classify_structure(raw):
 
 
 def classify_allocation(raw):
-    value = norm_na(raw)
-
     matches = re.findall(
         r"(?<!\d)(\d{1,3})\s*/\s*"
         r"(\d{1,3})(?!\d)",
-        value,
+        norm_na(raw),
     )
 
-    ratios = sorted({
+    ratios = {
         f"{int(a)}-{int(b)}"
         for a, b in matches
         if int(a) + int(b) == 100
-    })
+    }
 
     if len(ratios) == 1:
-        return ratios[0]
+        return next(iter(ratios))
 
     if len(ratios) > 1:
         return "varies_by_grade"
 
-    if value:
-        return "other"
-
-    return "unknown"
+    return (
+        "other"
+        if norm_na(raw)
+        else "unknown"
+    )
 
 
 def language_values(raw):
+    """
+    Separate recognizable language names.
+
+    'Mandarin Chinese' is one language.
+    'Spanish Russian' represents two languages.
+
+    Unrecognized text is quarantined.
+    """
+
     value = norm_na(raw)
 
     if not value:
-        return ["unknown"]
+        return [], "missing_language"
 
-    # Preserve the original language cell in
-    # the output. A multi-language cell will
-    # also receive a review flag.
-
-    items = [
-        clean(item)
-        for item in re.split(r";|\n", raw)
-        if clean(item)
+    lines = [
+        clean(x)
+        for x in re.split(r"[;\n]+", raw)
+        if clean(x)
     ]
 
-    return items or [value]
+    result = []
+    issues = []
+
+    for line in lines:
+        if line in KNOWN_LANGUAGES:
+            result.append(line)
+            continue
+
+        remaining = line
+        parsed = []
+
+        while remaining:
+            found = next(
+                (
+                    name
+                    for name in KNOWN_LANGUAGES
+                    if (
+                        remaining == name
+                        or remaining.startswith(
+                            name + " "
+                        )
+                    )
+                ),
+                None,
+            )
+
+            if not found:
+                break
+
+            parsed.append(found)
+
+            remaining = remaining[
+                len(found):
+            ].strip()
+
+        if parsed and not remaining:
+            result.extend(parsed)
+        else:
+            issues.append(
+                "unrecognized_language_text"
+            )
+
+    if issues:
+        return [], ";".join(
+            sorted(set(issues))
+        )
+
+    languages = list(
+        dict.fromkeys(result)
+    )
+
+    issue = (
+        "multi_language_cell"
+        if len(languages) > 1
+        else ""
+    )
+
+    return languages, issue
 
 
-# ========================================
-# PDF TABLE EXTRACTION
-# ========================================
+# ==========================================
+# LOCATE PDF TABLE
+# ==========================================
 
 def header_bottom(page):
     words = page.extract_words()
 
-    candidates = [
+    bottoms = [
         word["bottom"]
         for word in words
         if (
             word["text"].lower() == "district"
-            and word["top"] < .20 * page.height
-            and word["x0"] < .25 * page.width
+            and word["top"] < page.height * .20
+            and word["x0"] < page.width * .25
         )
     ]
 
-    if not candidates:
+    if not bottoms:
         raise RuntimeError(
-            "Could not locate the "
-            "School District table header."
+            "Oregon table header not found."
         )
 
-    return max(candidates) + 2
+    return max(bottoms) + 1.0
 
 
 def footer_top(page):
@@ -223,182 +317,354 @@ def footer_top(page):
         word["top"]
         for word in words
         if (
-            word["top"] > .82 * page.height
+            word["top"] > .77 * page.height
             and "patiño" in word["text"].lower()
         )
     ]
 
     if footers:
-        return min(footers) - 3
+        return min(footers) - 2
 
-    return page.height * .92
+    return .94 * page.height
 
 
-def row_spans(page, first_y, final_y):
+# ==========================================
+# DETECT COMPLETE TABLE ROWS
+# ==========================================
+
+def is_blue_fill(obj):
     """
-    Locate shaded rows in the PDF.
-
-    The alternating blue and white rows
-    provide row boundaries even when
-    individual cells contain several lines.
+    Identify Oregon's alternating
+    pale-blue row backgrounds.
     """
+
+    if obj.get("fill") is False:
+        return False
+
+    color = obj.get(
+        "non_stroking_color"
+    )
+
+    if (
+        not isinstance(color, (tuple, list))
+        or len(color) < 3
+    ):
+        return False
+
+    red, green, blue = color[:3]
+
+    return (
+        isinstance(red, (int, float))
+        and .45 <= red < .96
+        and green >= red
+        and blue > red + .035
+    )
+
+
+def shaded_bands(page, top, bottom):
+    """
+    Find complete shaded rows.
+
+    Crucially, do not use every rectangle
+    boundary independently as a row cut.
+    """
+
+    matches = []
+
+    for obj in (
+        list(page.rects)
+        + list(page.curves)
+    ):
+        x0 = obj.get("x0", -1)
+        x1 = obj.get("x1", -1)
+
+        y0 = obj.get("top", -1)
+        y1 = obj.get("bottom", -1)
+
+        if not (
+            top - 6 <= y0 < y1 <= bottom + 3
+        ):
+            continue
+
+        if not (
+            .052 * page.width <= x0
+            <= .085 * page.width
+            and x1 >= .16 * page.width
+        ):
+            continue
+
+        if not (
+            5 <= y1 - y0
+            <= .35 * page.height
+        ):
+            continue
+
+        if is_blue_fill(obj):
+            matches.append((
+                max(top, y0),
+                min(bottom, y1),
+            ))
+
+    matches.sort()
 
     bands = []
 
-    for item in (
-        list(page.rects) + list(page.curves)
-    ):
-
-        x0 = item.get("x0", -1)
-        x1 = item.get("x1", -1)
-
-        top = item.get("top", -1)
-        bottom = item.get("bottom", -1)
-
-        height = bottom - top
-
-        if not (
-            first_y < top < bottom < final_y
-        ):
-            continue
-
-        if not (
-            .045 * page.width <= x0
-            <= .09 * page.width
-            and x1 >= .16 * page.width
-            and 5 <= height <= 95
-        ):
-            continue
-
+    for start, stop in matches:
         if (
-            item.get("non_stroking_color")
-            is None
+            bands
+            and start <= bands[-1][1] + 1.5
         ):
-            continue
+            bands[-1] = (
+                min(start, bands[-1][0]),
+                max(stop, bands[-1][1]),
+            )
+        else:
+            bands.append((
+                start, stop
+            ))
 
-        bands.append((top, bottom))
+    return bands
 
-    unique = {}
 
-    for top, bottom in bands:
-        unique[
-            (round(top, 1), round(bottom, 1))
-        ] = (top, bottom)
+def candidate_spans(page, first, last):
+    """
+    Each shaded band is one row.
 
-    bands = sorted(unique.values())
+    Each white gap between shaded bands
+    is another row.
 
-    if len(bands) < 2:
+    This prevents the accidental creation
+    of overlapping composite school rows.
+    """
+
+    bands = shaded_bands(
+        page, first, last
+    )
+
+    if not bands:
         raise RuntimeError(
-            "Too few shaded table rows found. "
-            "The PDF layout may have changed."
+            "No blue table rows found. "
+            "Inspect PDF layout."
         )
 
-    edges = [first_y, final_y]
+    candidates = []
+    position = first
 
-    for top, bottom in bands:
-        edges.extend([top, bottom])
+    for start, stop in bands:
+        if start - position > 3:
+            candidates.append((
+                position,
+                start,
+                "white",
+            ))
 
-    edges.sort()
+        if stop - start > 3:
+            candidates.append((
+                start,
+                stop,
+                "blue",
+            ))
 
-    merged = []
+        position = max(
+            position, stop
+        )
 
-    for edge in edges:
+    if last - position > 3:
+        candidates.append((
+            position,
+            last,
+            "white",
+        ))
+
+    return candidates, len(bands)
+
+
+# ==========================================
+# EXTRACT CHARACTERS WITHIN EACH ROW
+# ==========================================
+
+def cell_text(chars, x0, x1, y0, y1):
+    """
+    Assign characters according to their
+    center coordinates.
+
+    This avoids borrowing text from a
+    neighboring row when the PDF's
+    character boxes overlap row boundaries.
+    """
+
+    selected = [
+        char
+        for char in chars
         if (
-            not merged
-            or edge - merged[-1] > 1.2
-        ):
-            merged.append(edge)
-
-    return [
-        (a, b)
-        for a, b in zip(
-            merged, merged[1:]
+            x0 <= (
+                char["x0"] + char["x1"]
+            ) / 2 < x1
+            and y0 <= (
+                char["top"] + char["bottom"]
+            ) / 2 < y1
         )
-        if b - a > 3
     ]
 
+    if not selected:
+        return ""
 
-def extract_rows(pdf_path):
+    return (
+        extract_text(
+            selected,
+            x_tolerance=2,
+            y_tolerance=3,
+        )
+        or ""
+    ).strip()
+
+
+def source_rows(pdf_path):
     rows = []
     diagnostics = []
 
     with pdfplumber.open(pdf_path) as doc:
 
-        for pageno, page in enumerate(
+        for page_no, page in enumerate(
             doc.pages, 1
         ):
+            first = header_bottom(page)
+            last = footer_top(page)
 
-            top = header_bottom(page)
-            bottom = footer_top(page)
-
-            spans = row_spans(
-                page, top, bottom
+            spans, band_count = (
+                candidate_spans(
+                    page, first, last
+                )
             )
 
             diagnostics.append({
-                "page": pageno,
+                "page": page_no,
                 "candidate_spans": len(spans),
+                "blue_bands": band_count,
                 "page_width": page.width,
                 "page_height": page.height,
                 "rectangles": len(page.rects),
             })
 
-            for y0, y1 in spans:
+            chars = [
+                char
+                for char in page.chars
+                if (
+                    first <= (
+                        char["top"]
+                        + char["bottom"]
+                    ) / 2 < last
+                )
+            ]
 
-                values = []
-
-                for a, b in zip(
-                    CUTS, CUTS[1:]
-                ):
-
-                    cropped = page.crop((
-                        page.width * a + .7,
-                        y0 + .4,
-                        page.width * b - .7,
-                        y1 - .4,
-                    ))
-
-                    text = (
-                        cropped.extract_text(
-                            x_tolerance=2,
-                            y_tolerance=3,
-                        )
-                        or ""
-                    ).strip()
-
-                    values.append(text)
+            for y0, y1, _ in spans:
+                cells = [
+                    cell_text(
+                        chars,
+                        a * page.width + .7,
+                        b * page.width - .7,
+                        y0 + .15,
+                        y1 - .15,
+                    )
+                    for a, b in zip(
+                        CUTS, CUTS[1:]
+                    )
+                ]
 
                 if (
-                    not clean(values[0])
-                    and not clean(values[1])
+                    not clean(cells[0])
+                    and not clean(cells[1])
                 ):
                     continue
 
-                if (
-                    "School District" in values[0]
-                    or "Dual Language Directory"
-                    in values[0]
-                ):
-                    continue
+                row = {
+                    "page": page_no,
+                    "row_top": round(y0, 2),
+                    "row_bottom": round(y1, 2),
+                    **dict(zip(
+                        HEADERS, cells
+                    )),
+                }
 
-                rows.append({
-                    "page": pageno,
-                    **dict(
-                        zip(HEADERS, values)
-                    ),
-                })
+                issues = []
+
+                district_lines = [
+                    x
+                    for x in cells[0].splitlines()
+                    if clean(x)
+                ]
+
+                if len(district_lines) > 1:
+                    issues.append(
+                        "multiple_district_lines"
+                    )
+
+                if (
+                    not norm_na(cells[0])
+                    or not norm_na(cells[1])
+                ):
+                    issues.append(
+                        "missing_school_or_district"
+                    )
+
+                if not norm_na(cells[2]):
+                    issues.append(
+                        "missing_language"
+                    )
+
+                if clean(cells[0]).lower().startswith(
+                    "school district"
+                ):
+                    issues.append(
+                        "header_contamination"
+                    )
+
+                row["extraction_issue"] = (
+                    ";".join(issues)
+                )
+
+                rows.append(row)
 
     return rows, diagnostics
 
 
-# ========================================
-# STANDARDIZE THE PROGRAM RECORDS
-# ========================================
+# ==========================================
+# CONSTRUCT SCHOOL PROGRAM RECORDS
+# ==========================================
 
 def build_records(rows, digest):
     records = []
+    ignored = Counter()
+    seen = set()
 
     for row in rows:
+
+        # Never publish a row that still
+        # contains an extraction ambiguity.
+
+        if row["extraction_issue"]:
+            ignored[
+                "quarantined_geometry"
+            ] += 1
+            continue
+
+        languages, lang_issue = (
+            language_values(
+                row["language_raw"]
+            )
+        )
+
+        if not languages:
+            ignored[
+                lang_issue
+                or "unrecognized_language"
+            ] += 1
+
+            row["extraction_issue"] = (
+                lang_issue
+                or "unrecognized_language"
+            )
+            continue
 
         district = clean(
             row["district_raw"]
@@ -408,69 +674,79 @@ def build_records(rows, digest):
             row["school_raw"]
         )
 
-        if not district or not school:
-            continue
+        # Do not publish school names that
+        # visibly begin with stray fragments
+        # or end with an isolated letter.
 
-        if not norm_na(
-            row["language_raw"]
-        ):
-            continue
-
-        original_text = (
-            row["model_raw"]
-            + " "
-            + row["notes_raw"]
+        suspect_school = (
+            re.match(
+                r"^(?:School\b|Charter\b|\(EIHS\))",
+                school,
+                re.I,
+            )
+            or re.search(
+                r"\b[A-Z]$",
+                school,
+            )
         )
 
-        if re.search(
-            r"Native Language Program"
-            r"|not a dual language",
-            original_text,
-            re.I,
-        ):
-            status = (
-                "needs_review_possible_non_DL"
+        if suspect_school:
+            row["extraction_issue"] = (
+                "school_name_fragment"
             )
-        else:
-            status = (
-                "listed_in_state_directory"
-            )
+
+            ignored[
+                "school_name_fragment"
+            ] += 1
+            continue
 
         raw_year = norm_na(
             row["year_established_raw"]
         )
 
-        if re.fullmatch(
-            r"(19|20)\d{2}",
-            raw_year,
-        ):
-            start = raw_year
-        else:
-            start = ""
-
-        languages = language_values(
-            row["language_raw"]
-        )
-
-        if (
-            len(languages) > 1
-            and status
-            == "listed_in_state_directory"
-        ):
-            status = (
-                "listed_multi_language_cell_"
-                "needs_review"
+        year = (
+            raw_year
+            if re.fullmatch(
+                r"(?:19|20)\d{2}",
+                raw_year,
             )
+            else ""
+        )
 
         for language in languages:
 
-            records.append({
+            status = (
+                "listed_in_state_directory"
+            )
+
+            if lang_issue:
+                status = (
+                    "listed_multi_language_cell_"
+                    "needs_review"
+                )
+
+            original_text = (
+                row["model_raw"]
+                + " "
+                + row["notes_raw"]
+            )
+
+            if re.search(
+                r"native language program"
+                r"|not a dual language",
+                original_text,
+                re.I,
+            ):
+                status = (
+                    "needs_review_possible_non_DL"
+                )
+
+            record = {
                 "state": "OR",
                 "school_year": YEAR,
 
                 "district_name": district,
                 "school_name": school,
-
                 "partner_language": language,
 
                 "instructional_allocation":
@@ -493,7 +769,7 @@ def build_records(rows, digest):
                         row["structure_raw"]
                     ),
 
-                "year_established": start,
+                "year_established": year,
 
                 "feeder_pathway":
                     norm_na(
@@ -542,10 +818,34 @@ def build_records(rows, digest):
 
                 "nces_match_status":
                     "not_yet_matched",
-            })
+            }
 
-    return records
+            key = (
+                district.casefold(),
+                school.casefold(),
+                language.casefold(),
+                row["page"],
+                record["allocation_detail"],
+                record[
+                    "source_population_model_raw"
+                ],
+            )
 
+            if key in seen:
+                ignored[
+                    "duplicate_source_observation"
+                ] += 1
+                continue
+
+            seen.add(key)
+            records.append(record)
+
+    return records, dict(ignored)
+
+
+# ==========================================
+# FILE OUTPUT
+# ==========================================
 
 def write_csv(path, fields, records):
     path.parent.mkdir(
@@ -558,7 +858,6 @@ def write_csv(path, fields, records):
         newline="",
         encoding="utf-8",
     ) as handle:
-
         writer = csv.DictWriter(
             handle,
             fieldnames=fields,
@@ -569,9 +868,9 @@ def write_csv(path, fields, records):
         writer.writerows(records)
 
 
-# ========================================
+# ==========================================
 # MAIN
-# ========================================
+# ==========================================
 
 def main():
     parser = argparse.ArgumentParser(
@@ -581,7 +880,7 @@ def main():
     parser.add_argument(
         "--pdf",
         type=Path,
-        help="Use a local PDF instead",
+        help="Read a local PDF instead",
     )
 
     parser.add_argument(
@@ -593,19 +892,17 @@ def main():
     args = parser.parse_args()
 
     output = args.output
-
     output.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    pdf_file = (
+    pdf_path = (
         args.pdf
         or output / "_oregon_source_temp.pdf"
     )
 
     if not args.pdf:
-
         response = requests.get(
             SOURCE_URL,
             timeout=120,
@@ -622,31 +919,30 @@ def main():
             b"%PDF"
         ):
             raise RuntimeError(
-                "Source did not return a PDF."
+                "Oregon source did not return a PDF."
             )
 
-        pdf_file.write_bytes(
+        pdf_path.write_bytes(
             response.content
         )
 
     try:
-
         digest = hashlib.sha256(
-            pdf_file.read_bytes()
+            pdf_path.read_bytes()
         ).hexdigest()
 
-        rows, diagnostics = extract_rows(
-            pdf_file
+        rows, diagnostics = source_rows(
+            pdf_path
         )
 
-        records = build_records(
+        records, excluded = build_records(
             rows, digest
         )
 
         write_csv(
             output
             / "oregon_2026_27_extraction_audit.csv",
-            ["page", *HEADERS],
+            AUDIT_FIELDS,
             rows,
         )
 
@@ -675,6 +971,15 @@ def main():
             "program_observations":
                 len(records),
 
+            "quarantined_source_rows":
+                sum(
+                    bool(r["extraction_issue"])
+                    for r in rows
+                ),
+
+            "exclusion_reasons":
+                excluded,
+
             "allocation_counts": dict(
                 Counter(
                     r["instructional_allocation"]
@@ -700,9 +1005,10 @@ def main():
                 diagnostics,
 
             "caution": (
-                "2026-27 observations only; "
-                "do not backfill earlier years "
-                "or infer NCES identifiers."
+                "2026-27 only. Quarantined rows "
+                "need source inspection. Do not "
+                "infer NCES IDs or historical "
+                "instructional models."
             ),
         }
 
@@ -713,7 +1019,7 @@ def main():
             json.dumps(
                 summary,
                 indent=2,
-            ),
+            ) + "\n",
             encoding="utf-8",
         )
 
@@ -724,44 +1030,48 @@ def main():
             )
         )
 
-        # Fail visibly if we have not
-        # extracted a plausible directory.
+        # Fail visibly if extraction is
+        # implausible or too ambiguous.
 
-        if not 70 <= len(rows) <= 350:
+        if (
+            not 70 <= len(rows) <= 350
+            or len(records) < 70
+        ):
             raise RuntimeError(
-                "Unexpected directory row count: "
-                f"{len(rows)}. Inspect audit."
-            )
-
-        if len(records) < 70:
-            raise RuntimeError(
-                "Too few program observations. "
+                "Implausible directory row count. "
                 "Inspect extraction audit."
             )
 
+        if (
+            summary["quarantined_source_rows"]
+            > max(15, len(rows) // 10)
+        ):
+            raise RuntimeError(
+                "Too many quarantined rows. "
+                "Inspect audit before publishing."
+            )
+
         for expected in (
-            "Aloha-Huber Park",
+            "Arco Iris",
             "Barnes Elementary",
             "Hazeldale Elementary",
         ):
-
             if not any(
-                expected.lower()
-                in r["school_name"].lower()
+                expected.casefold()
+                in r["school_name"].casefold()
                 for r in records
             ):
                 raise RuntimeError(
-                    "Known school not parsed: "
-                    f"{expected}"
+                    "Expected school not extracted: "
+                    + expected
                 )
 
     finally:
-
         if (
             not args.pdf
-            and pdf_file.exists()
+            and pdf_path.exists()
         ):
-            pdf_file.unlink()
+            pdf_path.unlink()
 
 
 if __name__ == "__main__":
