@@ -1,0 +1,94 @@
+{
+  "state": "OR",
+  "source_school_year": "2026-27",
+  "source_url": "https://www.oregon.gov/ode/schools-and-districts/MME/Documents/Dual%20Language%20Directory%202026-2027.pdf",
+  "extracted_utc": "2026-10-29T14:14:44.956842+00:00",
+  "source_sha256": "464e9020dbdd866b1f330e92a257188593cdf901d15900e3b5e4a8d31caf4ada",
+  "raw_directory_rows": 197,
+  "program_observations": 286,
+  "allocation_counts": {
+    "80-20": 84,
+    "other": 90,
+    "varies_by_grade": 19,
+    "90-10": 30,
+    "75-25": 1,
+    "70-30": 5,
+    "50-50": 57
+  },
+  "structure_counts": {
+    "whole_school": 38,
+    "strand": 127,
+    "unknown": 121
+  },
+  "population_model_counts": {
+    "unknown": 86,
+    "two_way": 186,
+    "one_way": 14
+  },
+  "page_diagnostics": [
+    {
+      "page": 1,
+      "candidate_spans": 23,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 55
+    },
+    {
+      "page": 2,
+      "candidate_spans": 19,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 60
+    },
+    {
+      "page": 3,
+      "candidate_spans": 33,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 80
+    },
+    {
+      "page": 4,
+      "candidate_spans": 29,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 71
+    },
+    {
+      "page": 5,
+      "candidate_spans": 25,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 73
+    },
+    {
+      "page": 6,
+      "candidate_spans": 29,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 71
+    },
+    {
+      "page": 7,
+      "candidate_spans": 27,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 72
+    },
+    {
+      "page": 8,
+      "candidate_spans": 17,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 60
+    },
+    {
+      "page": 9,
+      "candidate_spans": 4,
+      "page_width": 1841.86,
+      "page_height": 1423.26,
+      "rectangles": 42
+    }
+  ],
+  "caution": "2026-27 observations only; do not backfill earlier years or infer NCES identifiers."
+}
