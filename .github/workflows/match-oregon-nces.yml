@@ -1,0 +1,59 @@
+
+name: Match Oregon Schools to NCES
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  match-oregon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests
+
+      - name: Match Oregon schools to 2024-25 NCES directory
+        run: |
+          python3 analysis/state_dl/oregon/match_oregon_nces.py \
+            --programs data/registry/state_dl_programs_oregon.csv \
+            --out data/registry/oregon_nces
+
+      - name: Show matching summary
+        run: |
+          cat data/registry/oregon_nces/oregon_nces_match_summary.json
+
+      - name: Upload matching output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: oregon-nces-matching-results
+          path: data/registry/oregon_nces/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit matching output
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/registry/oregon_nces/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Oregon NCES school identity crosswalk"
+            git push
+          fi
