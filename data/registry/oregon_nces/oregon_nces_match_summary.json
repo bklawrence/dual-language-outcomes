@@ -1,0 +1,18 @@
+{
+  "oregon_program_source_observations": 223,
+  "dli_candidate_source_observations": 211,
+  "dli_unique_school_identities": 196,
+  "dli_unique_school_language_keys": 209,
+  "source_duplicate_observations_within_school_language": 2,
+  "nces_reference_year": "2024-25",
+  "nces_oregon_schools_in_reference": 1301,
+  "match_status_counts": {
+    "matched_exact_name_and_district": 165,
+    "review_suggested_candidate": 31
+  },
+  "caution": "2024-25 school identity is not proof of 2023-24 or 2026-27 operation. DLI eligibility and strand enrollment require separate validation. Source observations were not deleted.",
+  "nces_sources": {
+    "schools": "https://data-nces.opendata.arcgis.com/api/download/v1/items/10e02c7ba56b4ef4a6a050f212f75134/csv?layers=0",
+    "districts": "https://data-nces.opendata.arcgis.com/api/download/v1/items/c19e2bf4a9104f7d82633e59f47618ec/csv?layers=0"
+  }
+}
