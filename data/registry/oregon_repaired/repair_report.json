@@ -1,10 +1,11 @@
 {
   "original_directory_rows": 209,
-  "original_observations": 217,
-  "audit_composite_rows": 13,
-  "audit_candidate_single_rows": 196,
-  "provisional_observations": 190,
-  "provisional_flagged_for_check": 0,
-  "verified_school_records": 0,
-  "note": "Composite rows require PDF-coordinate reconstruction before NCES matching."
+  "original_observations": 223,
+  "unresolved_source_rows": 0,
+  "non_dli_source_rows": 12,
+  "non_dli_observations_excluded_from_candidates": 12,
+  "provisional_dli_candidate_observations": 211,
+  "candidate_observations_requiring_review": 27,
+  "verified_nces_matches": 0,
+  "note": "Multiline cells are allowed. Source listing is not outcome eligibility or NCES verification."
 }

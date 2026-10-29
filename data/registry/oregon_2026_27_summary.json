@@ -2,20 +2,24 @@
   "state": "OR",
   "source_school_year": "2026-27",
   "source_url": "https://www.oregon.gov/ode/schools-and-districts/MME/Documents/Dual%20Language%20Directory%202026-2027.pdf",
-  "extracted_utc": "2026-10-29T14:48:25.396073+00:00",
+  "extracted_utc": "2026-10-29T15:56:16.478515+00:00",
   "source_sha256": "464e9020dbdd866b1f330e92a257188593cdf901d15900e3b5e4a8d31caf4ada",
   "raw_directory_rows": 209,
-  "program_observations": 217,
-  "quarantined_source_rows": 6,
-  "exclusion_reasons": {
-    "school_name_fragment": 1,
-    "unrecognized_language_text": 2,
-    "quarantined_geometry": 3
+  "program_observations": 223,
+  "quarantined_source_rows": 0,
+  "exclusion_reasons": {},
+  "school_name_corrections": 4,
+  "language_cell_corrections": 1,
+  "verification_status_counts": {
+    "listed_in_state_directory": 184,
+    "listed_multi_language_cell_needs_review": 27,
+    "excluded_heritage_language_not_dli": 11,
+    "excluded_native_language_revitalization_not_dli": 1
   },
   "allocation_counts": {
-    "80-20": 50,
+    "80-20": 51,
     "unknown": 1,
-    "other": 98,
+    "other": 103,
     "varies_by_grade": 1,
     "90-10": 22,
     "50-50": 41,
@@ -25,12 +29,12 @@
   },
   "structure_counts": {
     "whole_school": 19,
-    "strand": 82,
-    "unknown": 116
+    "strand": 84,
+    "unknown": 120
   },
   "population_model_counts": {
-    "unknown": 102,
-    "two_way": 101,
+    "unknown": 105,
+    "two_way": 104,
     "one_way": 14
   },
   "page_diagnostics": [
@@ -107,5 +111,5 @@
       "rectangles": 42
     }
   ],
-  "caution": "2026-27 only. Quarantined rows need source inspection. Do not infer NCES IDs or historical instructional models."
+  "caution": "2026-27 only. Quarantined rows need source inspection; do not infer NCES IDs or historical instructional models."
 }
