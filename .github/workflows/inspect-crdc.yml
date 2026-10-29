@@ -1,0 +1,280 @@
+
+name: Inspect national CRDC 2023-24 data
+
+on:
+  workflow_dispatch:
+    inputs:
+      direct_url:
+        description: 'Optional direct ZIP URL'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install browser
+        run: |
+          python -m pip install playwright requests
+          python -m playwright install --with-deps chromium
+
+      - name: Download and inspect CRDC archive
+        env:
+          CRDC_DIRECT_URL: ${{ inputs.direct_url }}
+        run: |
+          python - <<'PY'
+          import csv
+          import json
+          import os
+          import re
+          import zipfile
+          from pathlib import Path
+
+          import requests
+          from playwright.sync_api import sync_playwright
+
+          out = Path("output/national_crdc/discovery")
+          out.mkdir(parents=True, exist_ok=True)
+
+          archive_path = out / "2023-24-crdc-source.zip"
+          direct_url = os.environ.get(
+              "CRDC_DIRECT_URL", ""
+          ).strip()
+
+          page_url = "https://ocrdata.ed.gov/data"
+
+          metadata = {
+              "landing_page": page_url,
+              "archive_source": None,
+              "archive_members": [],
+              "error": None,
+          }
+
+          try:
+              if direct_url:
+                  print("Downloading supplied ZIP URL.")
+
+                  with requests.get(
+                      direct_url,
+                      stream=True,
+                      timeout=(30, 600),
+                  ) as response:
+                      response.raise_for_status()
+
+                      with archive_path.open("wb") as f:
+                          for chunk in response.iter_content(
+                              chunk_size=1024 * 1024
+                          ):
+                              if chunk:
+                                  f.write(chunk)
+
+                  metadata["archive_source"] = direct_url
+
+              else:
+                  print("Opening federal CRDC website.")
+
+                  with sync_playwright() as playwright:
+                      browser = playwright.chromium.launch(
+                          headless=True
+                      )
+
+                      page = browser.new_page(
+                          accept_downloads=True
+                      )
+
+                      page.goto(
+                          page_url,
+                          wait_until="domcontentloaded",
+                          timeout=90000,
+                      )
+
+                      row = page.locator("tr").filter(
+                          has_text=re.compile(
+                              r"2023\s*[-–]\s*24"
+                          )
+                      ).first
+
+                      row.wait_for(timeout=90000)
+
+                      print(
+                          "Found:",
+                          row.inner_text()[:500]
+                      )
+
+                      page.screenshot(
+                          path=str(out / "download-page.png"),
+                          full_page=True,
+                      )
+
+                      # Third table column:
+                      # Downloadable Data Files
+                      link = row.locator(
+                          "td"
+                      ).nth(2).locator(
+                          "a,button"
+                      ).first
+
+                      metadata["archive_source"] = (
+                          link.get_attribute("href")
+                          or "2023-24 download click"
+                      )
+
+                      with page.expect_download(
+                          timeout=600000
+                      ) as download_info:
+                          link.click(timeout=30000)
+
+                      download = download_info.value
+
+                      print(
+                          "Downloaded:",
+                          download.suggested_filename
+                      )
+
+                      download.save_as(
+                          str(archive_path)
+                      )
+
+                      browser.close()
+
+              if not zipfile.is_zipfile(archive_path):
+                  raise ValueError(
+                      "The downloaded file is not a ZIP."
+                  )
+
+              print(
+                  "Archive size (MB):",
+                  round(
+                      archive_path.stat().st_size
+                      / 1_000_000,
+                      2,
+                  ),
+              )
+
+              with zipfile.ZipFile(archive_path) as z:
+                  for item in z.infolist():
+                      if item.is_dir():
+                          continue
+
+                      entry = {
+                          "name": item.filename,
+                          "bytes": item.file_size,
+                      }
+
+                      if item.filename.lower().endswith(
+                          (".csv", ".tsv")
+                      ):
+                          with z.open(item) as raw:
+                              line = raw.readline().decode(
+                                  "utf-8-sig",
+                                  errors="replace",
+                              )
+
+                          delimiter = (
+                              "\t"
+                              if item.filename.lower().endswith(
+                                  ".tsv"
+                              )
+                              else ","
+                          )
+
+                          columns = next(
+                              csv.reader(
+                                  [line],
+                                  delimiter=delimiter,
+                              ),
+                              [],
+                          )
+
+                          entry["column_count"] = len(
+                              columns
+                          )
+
+                          entry["column_sample"] = (
+                              columns[:20]
+                          )
+
+                          entry["el_related_columns"] = [
+                              c for c in columns
+                              if re.search(
+                                  r"ENR.*(?:EL|LEP)"
+                                  r"|(?:EL|LEP).*ENR"
+                                  r"|TOT_ENR"
+                                  r"|SCH_GRADE"
+                                  r"|NCES"
+                                  r"|COMBOKEY",
+                                  c,
+                                  re.I,
+                              )
+                          ][:80]
+
+                          print(
+                              "\nCSV:",
+                              item.filename,
+                          )
+
+                          print(
+                              "Columns:",
+                              len(columns),
+                          )
+
+                          print(
+                              "First columns:",
+                              columns[:18],
+                          )
+
+                          print(
+                              "Enrollment fields:",
+                              entry["el_related_columns"][:35],
+                          )
+
+                      metadata["archive_members"].append(
+                          entry
+                      )
+
+              metadata["status"] = (
+                  "archive_inspection_completed"
+              )
+
+              print(
+                  "\nArchive inspected successfully."
+              )
+
+          except Exception as error:
+              metadata["error"] = (
+                  f"{type(error).__name__}: {error}"
+              )
+              metadata["status"] = "failed"
+              print(metadata["error"])
+              raise
+
+          finally:
+              (out / "archive_manifest.json").write_text(
+                  json.dumps(metadata, indent=2),
+                  encoding="utf-8",
+              )
+          PY
+
+      - name: Upload inspection results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crdc-2023-24-inspection
+          path: |
+            output/national_crdc/discovery/archive_manifest.json
+            output/national_crdc/discovery/download-page.png
+          if-no-files-found: warn
+          retention-days: 30
