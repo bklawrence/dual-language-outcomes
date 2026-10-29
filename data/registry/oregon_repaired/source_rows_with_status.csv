@@ -1,267 +1,148 @@
-page,district_raw,school_raw,language_raw,allocation_raw,model_raw,structure_raw,year_established_raw,feeder_raw,notes_raw,audit_id,repair_status
-1,Beaverton SD 48J,"Arco Iris Spanish Immersion
-Charter",Spanish,"Allocation
-80/20",,Whole-School Model,"Established
-N/A",,,1,candidate_single_record
-1,"Beaverton SD 48J
-Beaverton SD 48J
-Beaverton SD 48J","Charter
-Barnes Elementary
-Hazeldale Elementary
-School
-Jacob Wismer Elementary
-School","Spanish
-Spanish
-Mandarin Chinese","80/20
-80/20
-80/20","N/A
-Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Whole-School Model
-Strand within a School
-Strand within a School","2024
-N/A","N/A
-N/A
-N/A","PreK - 5th
-PreK - 1st: 25-26 adding two classrooms
+page,row_top,row_bottom,extraction_issue,district_raw,school_raw,language_raw,allocation_raw,model_raw,structure_raw,year_established_raw,feeder_raw,notes_raw,audit_id,repair_status
+1,163.54,198.98,,Beaverton SD 48J,"Arco Iris Spanish Immersion
+Charter",Spanish,80/20,,Whole-School Model,,,,1,candidate_single_record
+1,198.98,216.28,,Beaverton SD 48J,Barnes Elementary,Spanish,80/20,,Whole-School Model,,,PreK - 5th,2,candidate_single_record
+1,216.28,322.05,,Beaverton SD 48J,"Hazeldale Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,2024,,"PreK - 1st: 25-26 adding two classrooms
 at Grade 1st. Hazeldale will be a hub
 school and will receive interested K-1
 students from Kinnaman. Students from
-Kinnaman will receive transportation.
-K-1st: 25-26 adding two classrooms at
+Kinnaman will receive transportation.",3,candidate_single_record
+1,322.05,409.68,,Beaverton SD 48J,"Jacob Wismer Elementary
+School",Mandarin Chinese,80/20,Two-Way Immersion (TWI),Strand within a School,,,"K-1st: 25-26 adding two classrooms at
 Grade 1. transportation will be provided
 for families interested in attending Jacob
 Wismer dual language program from Sato
-and Springville.",2,requires_pdf_geometry
-1,Beaverton SD 48J,"McKinley Elementary
+and Springville.",4,candidate_single_record
+1,409.68,445.12,,Beaverton SD 48J,"McKinley Elementary
 School",Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,"PreK-K: 25-26-Will add a kindergarten
-cohort with two Spanish classrooms.",3,candidate_single_record
-1,Beaverton SD 48J,"School
-Vose Elementary",Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,"cohort with two Spanish classrooms.
-PreK -5th",4,candidate_single_record
-1,"Beaverton SD 48J
-Beaverton SD 48J","Vose Elementary
-William Walker Elementary","Spanish
-Spanish","80/20
-N/A","Two-Way Immersion (TWI)
-N/A","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","PreK -5th
-K-2nd: 25-26 adding two classrooms at
-Grade 2.",5,requires_pdf_geometry
-1,Beaverton SD 48J,"Meadow Park Middle
+cohort with two Spanish classrooms.",5,candidate_single_record
+1,445.12,462.42,,Beaverton SD 48J,Vose Elementary,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,PreK -5th,6,candidate_single_record
+1,462.42,497.87,,Beaverton SD 48J,William Walker Elementary,Spanish,,,Strand within a School,,,"K-2nd: 25-26 adding two classrooms at
+Grade 2.",7,candidate_single_record
+1,497.87,567.91,,Beaverton SD 48J,"Meadow Park Middle
 School",Spanish,Other,,,,"Housing Middle school stage of
 the program (Barners
-Elementary)","Grade 2.
-6th-8th: Spanish Social Studies, Spanish
+Elementary)","6th-8th: Spanish Social Studies, Spanish
 Math, and Spanish Language Arts;
-Spanish PE are courses in Spanish",6,candidate_single_record
-1,Beaverton SD 48J,Whitford Middle School,Spanish,Other,,,,"Housing the Middle school stage
+Spanish PE are courses in Spanish",8,candidate_single_record
+1,567.91,620.93,,Beaverton SD 48J,Whitford Middle School,Spanish,Other,,,,"Housing the Middle school stage
 of the program (Vose Elementary)","Spanish Lit and Comp; Social Studies;
-Science in Spanish",7,candidate_single_record
-1,Beaverton SD 48J,Aloha High School,Spanish,Other,,,,"Housing High School stage of the
+Science in Spanish",9,candidate_single_record
+1,620.93,673.4,,Beaverton SD 48J,Aloha High School,Spanish,Other,,,,"Housing High School stage of the
 program (Aloha-Huber Park
 School)","Spanish Lit and Comp; Social Studies;
-Science in Spanish; Math in Spanish",8,candidate_single_record
-1,Beaverton SD 48J,Beaverton High School,Spanish,Other,,,,"School)
-Housing the High School stage of
+Science in Spanish; Math in Spanish",10,candidate_single_record
+1,673.4,744.0,,Beaverton SD 48J,Beaverton High School,Spanish,Other,,,,"Housing the High School stage of
 the program (Meadow Park
 Middle School and Whitford
 Middle School DL students)","Spanish Lit and Comp; Social Studies;
-Science; Math in Spanish",9,candidate_single_record
-1,Beaverton SD 48J,Southridge High School,Spanish,Other,,,,"Housing the High School stage of
+Science; Math in Spanish",11,candidate_single_record
+1,744.0,796.47,,Beaverton SD 48J,Southridge High School,Spanish,Other,,,,"Housing the High School stage of
 the program (Withford Middle
 School)","Spanish Lit and Comp; Social Studies;
-Science; Math in Spanish",10,candidate_single_record
-1,Beaverton SD 48J,Aloha-Huber Park School,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,"School)
-N/A","PreK-8th: Three out of five classes
-offering dual language in 25-26",11,candidate_single_record
-1,Beaverton SD 48J,Hope Chinese Charter,Mandarin Chinese,"K-2: 65/35
-3-5: 50/50",,Whole-School Model,,,"offering dual language in 25-26
-N/A",12,candidate_single_record
-1,Bend-LaPine SD 1,Bear Creek Elementary,Spanish,"3-5: 50/50
-80/20",,Strand within a School,,"Houses the Elementary and
+Science; Math in Spanish",12,candidate_single_record
+1,796.47,831.91,,Beaverton SD 48J,Aloha-Huber Park School,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,"PreK-8th: Three out of five classes
+offering dual language in 25-26",13,candidate_single_record
+1,831.91,866.79,,Beaverton SD 48J,Hope Chinese Charter,Mandarin Chinese,"K-2: 65/35
+3-5: 50/50",,Whole-School Model,,,,14,candidate_single_record
+1,866.79,919.82,,Bend-LaPine SD 1,Bear Creek Elementary,Spanish,80/20,,Strand within a School,,"Houses the Elementary and
 Middle School stages of the
-program",,13,candidate_single_record
-1,Bend-LaPine SD 1,Caldera High School,Spanish,Other,,Strand within a School,,"Housing incoming housing 9th
+program",,15,candidate_single_record
+1,919.82,1007.45,,Bend-LaPine SD 1,Caldera High School,Spanish,Other,,Strand within a School,,"Housing incoming housing 9th
 and 12th grade dual language
 students.","Social Studies, PE/Health for 9th/10th;
 Translation/Interpretation, AP Spanish
 Language for 11th; Seminario Avanzado
 (required) and AP Spanish Literature
-(recommended) for 12th grade.",14,candidate_single_record
-1,Bend-LaPine SD 1,High Desert Middle,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,,"Houses the Elementary and
+(recommended) for 12th grade.",16,candidate_single_record
+1,1007.45,1060.47,,Bend-LaPine SD 1,High Desert Middle,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,,"Houses the Elementary and
 Middle school stages of the
 program","Spanish Language Arts and Social
-Studies in Spanish",15,candidate_single_record
-1,Bend-LaPine SD 1,R.E. Jewell Elementary,Spanish,80/20,,Strand within a School,,,,16,candidate_single_record
-1,"Bend-LaPine SD 1
-Canby SD 86","R.E. Jewell Elementary
-Trost Elementary K-6","Spanish
-Spanish","80/20
-80/20",Two-Way Immersion (TWI),"Strand within a School
-Whole-School Model","N/A
-2005","N/A
-N/A","N/A
-N/A",17,requires_pdf_geometry
-1,"Canby SD 86
-Canby SD 86","Trost Elementary K-6
-Baker Prairie Middle School","Spanish
-Spanish","80/20
-Other","Two-Way Immersion (TWI)
-N/A","Whole-School Model
-N/A","2005
-N/A","N/A
-Housing Middle School stage of
-the program (Trost Elementary).","N/A
-Science & Humanities in Spanish",18,requires_pdf_geometry
-1,Canby SD 86,Canby High School,Spanish,Other,,,,"the program (Trost Elementary).
-Housing High School stage of the
+Studies in Spanish",17,candidate_single_record
+1,1060.47,1077.77,,Bend-LaPine SD 1,R.E. Jewell Elementary,Spanish,80/20,,Strand within a School,,,,18,candidate_single_record
+1,1077.77,1095.63,,Canby SD 86,Trost Elementary K-6,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,2005,,,19,candidate_single_record
+1,1095.63,1130.52,,Canby SD 86,Baker Prairie Middle School,Spanish,Other,,,,"Housing Middle School stage of
+the program (Trost Elementary).",Science & Humanities in Spanish,20,candidate_single_record
+1,1130.52,1183.54,,Canby SD 86,Canby High School,Spanish,Other,,,,"Housing High School stage of the
 program (Baker Prairie Middle
 School).","Language & Literature in Spanish and AP
-Spanish Language & Culture",19,candidate_single_record
-1,Central Point SD 6,Jewett Elementary School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,20,candidate_single_record
-1,"Central Point SD 6
-Central Point SD 6","Jewett Elementary School
-Hanby Middle School","Spanish
-Spanish","90/10
-50/50","Two-Way Immersion (TWI)
-N/A","Strand within a School
-N/A","N/A
-N/A","N/A
-Housing Middle School stage of
+Spanish Language & Culture",21,candidate_single_record
+1,1183.54,1200.84,,Central Point SD 6,Jewett Elementary School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,22,candidate_single_record
+1,1200.84,1253.87,,Central Point SD 6,Hanby Middle School,Spanish,50/50,,,,"Housing Middle School stage of
 the program (Jewett Elementary
-School).","N/A
-50/50 or 3/6 classes in Spanish",21,requires_pdf_geometry
-2,Central Point SD 6,Crater High School,Spanish,"Allocation
+School).",50/50 or 3/6 classes in Spanish,23,candidate_single_record
+2,156.81,216.28,,Central Point SD 6,Crater High School,Spanish,"Allocation
 75/25",,,"Established
 N/A","Housing High School stage of the
 program (Hanby Middle School).","75/25 block class that has 2/8 classes in
-Spanish.",22,candidate_single_record
-2,Central SD 13J,Independence Elementary S,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,"Adding a grade level per year,
-currently K-2",,23,candidate_single_record
-2,Corvallis SD 509J,Garfield Elementary,Spanish,70/30,Two-Way Immersion (TWI),,,"currently K-2
-N/A",,24,candidate_single_record
-2,"Corvallis SD 509J
-Corvallis SD 509J","Garfield Elementary
-Lincoln Elementary","Spanish
-Spanish","70/30
-70/30","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",25,requires_pdf_geometry
-2,"Corvallis SD 509J
-Corvallis SD 509J","Lincoln Elementary
-Linus Pauling Middle
-School","Spanish
-Spanish","70/30
-Other","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-Strand within a School","N/A
-N/A","N/A
-Housing Middle School stage of
-the program.","N/A
-DLI pathway through language arts
-curriculum",26,requires_pdf_geometry
-2,Corvallis SD 509J,"School
-Corvallis High School",Spanish,Other,Two-Way Immersion (TWI),Strand within a School,,"the program.
-Housing High School stage of the
-program.","curriculum
-DLI pathway through language arts
-curriculum",27,candidate_single_record
-2,David Douglas SD 40,Lincoln Park Elementary,Spanish,80/20,,Strand within a School,,"program.
-N/A","curriculum
-N/A",28,candidate_single_record
-2,"David Douglas SD 40
-Eagle Point SD 9","Lincoln Park Elementary
-Table Rock Elementary
-School","Spanish
-Spanish","80/20
-90/10","N/A
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-N/A",29,requires_pdf_geometry
-2,"Eugene SD 4J
-Eugene SD 4J
-Eugene SD 4J","School
-Buena Vista Spanish
+Spanish.",24,candidate_single_record
+2,216.28,251.73,school_name_fragment,Central SD 13J,Independence Elementary S,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,"Adding a grade level per year,
+currently K-2",,25,candidate_single_record
+2,251.73,269.03,,Corvallis SD 509J,Garfield Elementary,Spanish,70/30,Two-Way Immersion (TWI),,,,,26,candidate_single_record
+2,269.03,286.89,,Corvallis SD 509J,Lincoln Elementary,Spanish,70/30,Two-Way Immersion (TWI),,,,,27,candidate_single_record
+2,286.89,321.77,,Corvallis SD 509J,"Linus Pauling Middle
+School",Spanish,Other,Two-Way Immersion (TWI),Strand within a School,,"Housing Middle School stage of
+the program.","DLI pathway through language arts
+curriculum",28,candidate_single_record
+2,321.77,357.21,,Corvallis SD 509J,Corvallis High School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,,"Housing High School stage of the
+program.","DLI pathway through language arts
+curriculum",29,candidate_single_record
+2,357.21,374.52,,David Douglas SD 40,Lincoln Park Elementary,Spanish,80/20,,Strand within a School,,,,30,candidate_single_record
+2,374.52,409.96,,Eagle Point SD 9,"Table Rock Elementary
+School",Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,31,candidate_single_record
+2,409.96,462.42,,Eugene SD 4J,"Buena Vista Spanish
 Immersion Elementary
-School
-Charlemagne Elementary
-Hé Lin Chinese Immersion
-Elementary","Spanish
-French
-Chinese","50/50
-50/50
-50/50","Two-Way Immersion (TWI)
-One-Way Immersion (OWI)
-One-Way Immersion (OWI)","N/A
-N/A
-Whole-School Model","N/A
-N/A
-2017","N/A
-N/A
-N/A","N/A
-Science, social studies, art, physical
+School",Spanish,50/50,Two-Way Immersion (TWI),,,,,32,candidate_single_record
+2,462.42,603.35,,Eugene SD 4J,Charlemagne Elementary,French,50/50,One-Way Immersion (OWI),,,,"Science, social studies, art, physical
 education and history are taught in
 French. Math in our program will be
 provided primarily in English with some
 rudements in French (such as numbers
 and basic shapes). Students will receive
 increasing amounts of instruction in
-English in third, fourth and fifth grades.
-Our first group of students will graduate in
-2029",30,requires_pdf_geometry
-2,Eugene SD 4J,"Elementary
-River Road/El camino del
-río Elementary School",Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2009,,"2029
-N/A",31,candidate_single_record
-2,Eugene SD 4J,"río Elementary School
-Yujin Gakuen Japanese
+English in third, fourth and fifth grades.",33,candidate_single_record
+2,603.35,638.24,,Eugene SD 4J,"Hé Lin Chinese Immersion
+Elementary",Chinese,50/50,One-Way Immersion (OWI),Whole-School Model,2017,,"Our first group of students will graduate in
+2029",34,candidate_single_record
+2,638.24,673.68,,Eugene SD 4J,"River Road/El camino del
+río Elementary School",Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2009,,,35,candidate_single_record
+2,673.68,726.14,,Eugene SD 4J,"Yujin Gakuen Japanese
 Immersion Elementary
-School",Japanese,50/50,One-Way Immersion (OWI),,,,K - 5th,32,candidate_single_record
-2,Eugene SD 4J,"School
-Kelly Middle School",Japanese,Other,One-Way Immersion (OWI),,,,"6th - 8th: Japanese Lenguage Arts,
-Social Studies",33,candidate_single_record
-2,Eugene SD 4J,Kennedy Middle School,Mandarin Chinese,50/50,One-Way Immersion (OWI),Strand within a School,2017,,"Social Studies
-6th-8th: Mandarin Chinese Language
+School",Japanese,50/50,One-Way Immersion (OWI),,,,K - 5th,36,candidate_single_record
+2,726.14,761.59,,Eugene SD 4J,Kelly Middle School,Japanese,Other,One-Way Immersion (OWI),,,,"6th - 8th: Japanese Lenguage Arts,
+Social Studies",37,candidate_single_record
+2,761.59,866.79,,Eugene SD 4J,Kennedy Middle School,Mandarin Chinese,50/50,One-Way Immersion (OWI),Strand within a School,2017,,"6th-8th: Mandarin Chinese Language
 Arts, Mandarin Chinese Social Studies.
 2 class periods a day in Chinese. In 26-27
 that will be 1/3rd of the school day
 receiving Chinese Language Arts and
-Social Studies in Chinese.",34,candidate_single_record
-2,Eugene SD 4J,Monroe Middle School,Spanish,Other,,,,"Housing Middle School stage of
+Social Studies in Chinese.",38,candidate_single_record
+2,866.79,902.24,,Eugene SD 4J,Monroe Middle School,Spanish,Other,,,,"Housing Middle School stage of
 the program.","Language Arts, Global studies and
-vocabulary course.",35,candidate_single_record
-2,Eugene SD 4J,Roosevelt Middle School,French,Other,,,,"the program.
-Housing Middle School stage of
-the program.","vocabulary course.
-At the middle and high school levels,
+vocabulary course.",39,candidate_single_record
+2,902.24,1007.45,,Eugene SD 4J,Roosevelt Middle School,French,Other,,,,"Housing Middle School stage of
+the program.","At the middle and high school levels,
 students will enroll in one or two
 immersion courses that are primarily a
 content area such as geography that also
 reinforce their French language art skills.
-French LA 6-8; SS 6-8",36,candidate_single_record
-2,Eugene SD 4J,"Churchill High
+French LA 6-8; SS 6-8",40,candidate_single_record
+2,1007.45,1060.47,,Eugene SD 4J,"Churchill High
 School(EIHS)",Mandarin Chinese,Other,Two-Way Immersion (TWI),,2025,"Housing High School stage of the
 program","9th grade for 25-26. Mandarin Chinese
 Language Arts, Mandarin Chinese
-Elective",37,candidate_single_record
-2,Eugene SD 4J,North Eugene High School,Japanese,Other,One-Way Immersion (OWI),,,,"9th -12th: Japanese Lenguage Arts,
-Social Studies",38,candidate_single_record
-2,Eugene SD 4J,"Sheldon High School
+Elective",41,candidate_single_record
+2,1060.47,1095.35,,Eugene SD 4J,North Eugene High School,Japanese,Other,One-Way Immersion (OWI),,,,"9th -12th: Japanese Lenguage Arts,
+Social Studies",42,candidate_single_record
+2,1095.35,1165.96,,Eugene SD 4J,"Sheldon High School
 (EIHS)","French
 Spanish",Other,,,,"Housing High School stage of the
-program.","Social Studies
-Global geography; history of the Americas
+program.","Global geography; history of the Americas
 (ib); Spanish immersion literature &
 language; creativity, activity and service
-(CAS-IB)",39,requires_pdf_geometry
-3,Eugene SD 4J,"South Eugene High School
+(CAS-IB)",43,requires_pdf_geometry
+3,156.81,304.19,,Eugene SD 4J,"South Eugene High School
 (EIHS)","French
 Spanish","Allocation
 Other",,,"Established
@@ -272,408 +153,171 @@ At the middle and high school levels,
 students will enroll in one or two
 immersion courses that are primarily a
 content area such as geography that also
-reinforce their French language art skills.",40,requires_pdf_geometry
-3,Forest Grove SD 15,Cornelius Elementary,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,"Moving to 80/20 next year, starting with
-Prek, Kinder",41,candidate_single_record
-3,Forest Grove SD 15,Echo Shaw Elementary,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,"Prek, Kinder
-Moving to 80/20 next year, starting with
-Prek, Kinder",42,candidate_single_record
-3,Forest Grove SD 15,"Joseph Gale Elementary
-School",Spanish,80/20,,Strand within a School,2026,,"Prek, Kinder
-N/A",43,candidate_single_record
-3,Forest Grove SD 15,"School
-Tom McCall Upper
-Elementary",Spanish,50/50,,Strand within a School,,,,44,candidate_single_record
-3,Forest Grove SD 15,"Elementary
-Neil Armstrong Middle
+reinforce their French language art skills.",44,requires_pdf_geometry
+3,304.19,339.63,,Forest Grove SD 15,Cornelius Elementary,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,"Moving to 80/20 next year, starting with
+Prek, Kinder",45,candidate_single_record
+3,339.63,374.52,,Forest Grove SD 15,Echo Shaw Elementary,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,"Moving to 80/20 next year, starting with
+Prek, Kinder",46,candidate_single_record
+3,374.52,409.96,,Forest Grove SD 15,"Joseph Gale Elementary
+School",Spanish,80/20,,Strand within a School,2026,,,47,candidate_single_record
+3,409.96,444.84,,Forest Grove SD 15,"Tom McCall Upper
+Elementary",Spanish,50/50,,Strand within a School,,,,48,candidate_single_record
+3,444.84,480.28,,Forest Grove SD 15,"Neil Armstrong Middle
 School",Spanish,50/50,,Strand within a School,2025,"Housing Middle School stage of
 the program.","Moving toward 50/50; will be 2 of 7
-classes in 26-27",45,candidate_single_record
-3,Forest Grove SD 15,"School
-Forest Grove High School",Spanish,50/50,,Strand within a School,,"the program.
-Housing High School stage of the
-program.","classes in 26-27
-N/A",46,candidate_single_record
-3,Greater Albany Public SD 8J,"South Shore Elementary
-School",Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,2008,"program.
-N/A",,47,candidate_single_record
-3,Greater Albany Public SD 8J,"School
-Calapooia Middle School",Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2018,,,48,candidate_single_record
-3,"Greater Albany Public SD 8J
-Greater Albany Public SD 8J","Calapooia Middle School
-North Albany Middle School","Spanish
-Spanish","Other
-Other","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","2018
-2014","N/A
-N/A","N/A
-N/A",49,requires_pdf_geometry
-3,Greater Albany Public SD 8J,South Albany High School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2017,,,50,candidate_single_record
-3,"Greater Albany Public SD 8J
-Gresham-Barlow SD 10J","South Albany High School
-Highland Elementary
-School","Spanish
-Spanish","Other
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","2017
-2019","N/A
-N/A","N/A
-N/A",51,requires_pdf_geometry
-3,Gresham-Barlow SD 10J,"School
-North Gresham Elementary S",S Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2020,,,52,candidate_single_record
-3,"Gresham-Barlow SD 10J
-Gresham-Barlow SD 10J","North Gresham Elementary S
-Clear Creek Middle School","S Spanish
-Spanish","Other
-Other","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","2020
-2025","N/A
-N/A","N/A
-N/A",53,requires_pdf_geometry
-3,"Gresham-Barlow SD 10J
-Hillsboro SD 1J","Clear Creek Middle School
-Brookwood Elementary
-School","Spanish
-Spanish","Other
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Strand within a School
-N/A","2025
-2006","N/A
-N/A","N/A
-PK-6 Spanish Lit",54,requires_pdf_geometry
-3,Hillsboro SD 1J,"School
-Butternut Creek Elementary
-School",Spanish,Other,Heritage Language Program,,2023,,,55,candidate_single_record
-3,Hillsboro SD 1J,"School
-Eastwood Elementary",Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2011,,PreK-6th,56,candidate_single_record
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Eastwood Elementary
-Farmington View
-Elementary School","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Strand within a School
-N/A","2011
-2023","N/A
-N/A","PreK-6th
-K-6 Spanish Lit",57,requires_pdf_geometry
-3,Hillsboro SD 1J,"Elementary School
-Free Orchards Elementary",Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2013,,PreK-6th,58,candidate_single_record
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Free Orchards Elementary
-Imlay Elementary School","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Strand within a School
-N/A","2013
-2023","N/A
-N/A","PreK-6th
-K-6 Spanish Lit",59,requires_pdf_geometry
-3,Hillsboro SD 1J,"Ladd Acres Elementary
-School",Spanish,Other,Heritage Language Program,,2021,,K-6 Spanish Lit,60,candidate_single_record
-3,Hillsboro SD 1J,"School
-Lenox Elementary School",Spanish,Other,Heritage Language Program,,2026,,K-6 Spanish Lit,61,candidate_single_record
-3,Hillsboro SD 1J,Lincoln Street Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2012,,,62,candidate_single_record
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Lincoln Street Elementary
-Minter Bridge Elementary","Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","2012
-2007","N/A
-N/A","N/A
-PreK-6th",63,requires_pdf_geometry
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Minter Bridge Elementary
-Mooberry Elementary","Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","2007
-2013","N/A
-N/A","PreK-6th
-PreK-6th",64,requires_pdf_geometry
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Mooberry Elementary
-Orenco Elementary School","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Strand within a School
-N/A","2013
-2014","N/A
-N/A","PreK-6th
-K-6 Spanish Lit",65,requires_pdf_geometry
-3,Hillsboro SD 1J,"Paul L Patterson
-Elementary School",Spanish,Other,Heritage Language Program,,2017,,K-6 Spanish Lit,66,candidate_single_record
-3,Hillsboro SD 1J,"Elementary School
-Reedville Elementary",Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2012,,PreK-6th,67,candidate_single_record
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","Reedville Elementary
-Rosedale Elementary","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Whole-School Model
-N/A","2012
-2016","N/A
-N/A","PreK-6th
-K-6 Spanish Lit",68,requires_pdf_geometry
-3,Hillsboro SD 1J,"W Verne McKinney
-Elementary School",Spanish,Other,Heritage Language Program,,2003,,PK-6 Spanish Lit,69,candidate_single_record
-3,Hillsboro SD 1J,W.L. Henry Elementary,Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2003,,PreK-6th,70,candidate_single_record
-3,"Hillsboro SD 1J
-Hillsboro SD 1J","W.L. Henry Elementary
-West Union Elementary
-School","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Heritage Language Program","Whole-School Model
-N/A","2003
-2023","N/A
-N/A","PreK-6th
-N/A",71,requires_pdf_geometry
-3,Hillsboro SD 1J,Witch Hazel Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2012,,,72,candidate_single_record
-4,Hillsboro SD 1J,Evergreen Middle School,Spanish,"Allocation
-Other",,,"Established
-2019","Housing Middle School stage of
+classes in 26-27",49,candidate_single_record
+3,480.28,515.17,,Forest Grove SD 15,Forest Grove High School,Spanish,50/50,,Strand within a School,,"Housing High School stage of the
+program.",,50,candidate_single_record
+3,515.17,550.61,,Greater Albany Public SD 8J,"South Shore Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,2008,,,51,candidate_single_record
+3,550.61,567.91,,Greater Albany Public SD 8J,Calapooia Middle School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2018,,,52,candidate_single_record
+3,567.91,603.35,,Greater Albany Public SD 8J,North Albany Middle School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2014,,,53,candidate_single_record
+3,603.35,620.65,,Greater Albany Public SD 8J,South Albany High School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2017,,,54,candidate_single_record
+3,620.65,656.1,,Gresham-Barlow SD 10J,"Highland Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,2019,,,55,candidate_single_record
+3,656.1,673.4,unrecognized_language_text,Gresham-Barlow SD 10J,North Gresham Elementary,S Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2020,,,56,candidate_single_record
+3,673.4,691.26,,Gresham-Barlow SD 10J,Clear Creek Middle School,Spanish,Other,Two-Way Immersion (TWI),Strand within a School,2025,,,57,candidate_single_record
+3,691.26,726.14,,Hillsboro SD 1J,"Brookwood Elementary
+School",Spanish,Other,Heritage Language Program,,2006,,PK-6 Spanish Lit,58,candidate_single_record
+3,726.14,761.59,,Hillsboro SD 1J,"Butternut Creek Elementary
+School",Spanish,Other,Heritage Language Program,,2023,,,59,candidate_single_record
+3,761.59,778.89,,Hillsboro SD 1J,Eastwood Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2011,,PreK-6th,60,candidate_single_record
+3,778.89,814.33,,Hillsboro SD 1J,"Farmington View
+Elementary School",Spanish,Other,Heritage Language Program,,2023,,K-6 Spanish Lit,61,candidate_single_record
+3,814.33,831.63,,Hillsboro SD 1J,Free Orchards Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2013,,PreK-6th,62,candidate_single_record
+3,831.63,867.07,,Hillsboro SD 1J,Imlay Elementary School,Spanish,Other,Heritage Language Program,,2023,,K-6 Spanish Lit,63,candidate_single_record
+3,867.07,901.96,,Hillsboro SD 1J,"Ladd Acres Elementary
+School",Spanish,Other,Heritage Language Program,,2021,,K-6 Spanish Lit,64,candidate_single_record
+3,901.96,937.4,,Hillsboro SD 1J,Lenox Elementary School,Spanish,Other,Heritage Language Program,,2026,,K-6 Spanish Lit,65,candidate_single_record
+3,937.4,954.7,,Hillsboro SD 1J,Lincoln Street Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2012,,,66,candidate_single_record
+3,954.7,972.56,,Hillsboro SD 1J,Minter Bridge Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2007,,PreK-6th,67,candidate_single_record
+3,972.56,989.87,,Hillsboro SD 1J,Mooberry Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2013,,PreK-6th,68,candidate_single_record
+3,989.87,1025.31,,Hillsboro SD 1J,Orenco Elementary School,Spanish,Other,Heritage Language Program,,2014,,K-6 Spanish Lit,69,candidate_single_record
+3,1025.31,1060.19,,Hillsboro SD 1J,"Paul L Patterson
+Elementary School",Spanish,Other,Heritage Language Program,,2017,,K-6 Spanish Lit,70,candidate_single_record
+3,1060.19,1078.05,,Hillsboro SD 1J,Reedville Elementary,Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2012,,PreK-6th,71,candidate_single_record
+3,1078.05,1112.93,,Hillsboro SD 1J,Rosedale Elementary,Spanish,Other,Heritage Language Program,,2016,,K-6 Spanish Lit,72,candidate_single_record
+3,1112.93,1155.35,,Hillsboro SD 1J,"W Verne McKinney
+Elementary School",Spanish,Other,Heritage Language Program,,2003,,PK-6 Spanish Lit,73,candidate_single_record
+3,1155.35,1172.66,,Hillsboro SD 1J,W.L. Henry Elementary,Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,2003,,PreK-6th,74,candidate_single_record
+3,1172.66,1225.68,,Hillsboro SD 1J,"West Union Elementary
+School",Spanish,Other,Heritage Language Program,,2023,,,75,candidate_single_record
+3,1225.68,1337.86,,Hillsboro SD 1J,Witch Hazel Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,2012,,,76,candidate_single_record
+4,164.1,251.73,,Hillsboro SD 1J,Evergreen Middle School,Spanish,Other,,,2019,"Housing Middle School stage of
 the program (lincoln Street, Free
 Orchards and NonDL elementary
 schools providing Spanish
 literacy).","Spanish Language Arts and up to two
-additional core classes per grade level",73,candidate_single_record
-4,Hillsboro SD 1J,Poynter Middle School,Spanish,Other,,,2018,"Housing Middle School stage of
+additional core classes per grade level",77,candidate_single_record
+4,251.73,339.35,,Hillsboro SD 1J,Poynter Middle School,Spanish,Other,,,2018,"Housing Middle School stage of
 the program. (Eastwood &
 Mooberry and NonDL elementary
 schools providing Spanish
 literacy).","At least one Spanish Literacy course
 (equivalent to English Language Arts) and
-up to two additional core courses",74,candidate_single_record
-4,Hillsboro SD 1J,R.A. Brown Middle School,Spanish,Other,,,2018,"Housing Middle School stage of
+up to two additional core courses",78,candidate_single_record
+4,339.35,409.96,,Hillsboro SD 1J,R.A. Brown Middle School,Spanish,Other,,,2018,"Housing Middle School stage of
 the program (Reedville and
 NonDL elementary schools
 providing Spanish literacy).","Spanish Language Arts and one
-additional core class per grade level",75,candidate_single_record
-4,Hillsboro SD 1J,"South Meadows Middle
+additional core class per grade level",79,candidate_single_record
+4,409.96,462.42,,Hillsboro SD 1J,"South Meadows Middle
 School",Spanish,Other,,,2010,"Housing Middle School stage of
 the program (WL Henry, Minter
 Bridge, Witch Hazel).","Spanish Language Arts and up to two
-additional core classes per grade level",76,candidate_single_record
-4,Hillsboro SD 1J,Glencoe High School,Spanish,Other,,,2021,"Bridge, Witch Hazel).
-Housing High School stage of the
+additional core classes per grade level",80,candidate_single_record
+4,462.42,515.45,,Hillsboro SD 1J,Glencoe High School,Spanish,Other,,,2021,"Housing High School stage of the
 program (Evergreen).","Spanish Language Arts or AP Spanish
 and one additional core class at some
-grade levels",77,candidate_single_record
-4,Hillsboro SD 1J,Hillsboro High School,Spanish,Other,,,2012,"Housing High School stage of the
+grade levels",81,candidate_single_record
+4,515.45,550.33,,Hillsboro SD 1J,Hillsboro High School,Spanish,Other,,,2012,"Housing High School stage of the
 program (South Meadows).","Spanish Language Arts and up to two
-additional core classes per grade level",78,candidate_single_record
-4,Hillsboro SD 1J,Liberty High School,Spanish,Other,,,2020,"program (South Meadows).
-Housing High School stage of the
-program (Poynter).","additional core classes per grade level
-Spanish Language Arts or AP Spanish
+additional core classes per grade level",82,candidate_single_record
+4,550.33,603.35,,Hillsboro SD 1J,Liberty High School,Spanish,Other,,,2020,"Housing High School stage of the
+program (Poynter).","Spanish Language Arts or AP Spanish
 and up to two additional core classes per
-grade level",79,candidate_single_record
-4,Hood River County SD,"Mid Valley Elementary
-School",Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,Three classrooms per grade level K-5,80,candidate_single_record
-4,Hood River County SD,"School
-Wy'east Middle School",Spanish,Other,,Strand within a School,,,"Spanish Immersion Elective 6, SS 7,
-Immerision Elective 8",81,candidate_single_record
-4,Hood River County SD,Hood River Valley High Scho,o Spanish,Other,,,,"Housing High School stage of the
+grade level",83,candidate_single_record
+4,603.35,638.24,,Hood River County SD,"Mid Valley Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,,,Three classrooms per grade level K-5,84,candidate_single_record
+4,638.24,673.68,,Hood River County SD,Wy'east Middle School,Spanish,Other,,Strand within a School,,,"Spanish Immersion Elective 6, SS 7,
+Immerision Elective 8",85,candidate_single_record
+4,673.68,726.14,,Hood River County SD,Hood River Valley High Sch,Spanish,Other,,,,"Housing High School stage of the
 program (cohort within the
-school)","Immerision Elective 8
-9-12 (AP Spanish Language & Culture;
+school)","9-12 (AP Spanish Language & Culture;
 Spanish 1-4, and Spanish for Spanish
-speakers 1-3)",82,candidate_single_record
-4,Jefferson County SD 509J,Buff Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,"school)
-N/A","speakers 1-3)
-N/A",83,candidate_single_record
-4,"Jefferson County SD 509J
-Jefferson County SD 509J","Buff Elementary
-Madras Elementary","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",84,requires_pdf_geometry
-4,"Jefferson County SD 509J
-Jefferson County SD 509J","Madras Elementary
-Warm Springs K-8
-Academy","Spanish
-Ichishkiin
+speakers 1-3)",86,candidate_single_record
+4,726.14,744.0,,Jefferson County SD 509J,Buff Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,87,candidate_single_record
+4,744.0,761.31,,Jefferson County SD 509J,Madras Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,88,candidate_single_record
+4,761.31,814.33,unrecognized_language_text,Jefferson County SD 509J,"Warm Springs K-8
+Academy","Ichishkiin
 Kikshut
-Numu","80/20
-Other","Two-Way Immersion (TWI)
-Native Language
-Revitalization","N/A
-N/A","N/A
-N/A","N/A
-Students will have the opportunity
+Numu",Other,"Native Language
+Revitalization",,,"Students will have the opportunity
 to extend this learning at Madras
-High School.","N/A
-Language Classes.",85,requires_pdf_geometry
-4,Lake Oswego SD 7J,"Palisades World Language
+High School.",Language Classes.,89,requires_pdf_geometry
+4,814.33,849.21,,Lake Oswego SD 7J,"Palisades World Language
 School","Spanish
-Chinese",90/10,,Whole-School Model,,,,86,requires_pdf_geometry
-4,Lake Oswego SD 7J,"School
-Lakeridge Middle School","Chinese
-Spanish",90/10,One-Way Immersion (OWI),Strand within a School,,"Housing Middle School stage of
+Chinese",90/10,,Whole-School Model,,,,90,requires_pdf_geometry
+4,849.21,884.65,,Lake Oswego SD 7J,Lakeridge Middle School,Spanish,90/10,One-Way Immersion (OWI),Strand within a School,,"Housing Middle School stage of
 the program (Evergreen).","Social Studies in Spanish; Spanish
-Literacy",87,requires_pdf_geometry
-4,Lake Oswego SD 7J,Lakeridge High School,Spanish,90/10,One-Way Immersion (OWI),Strand within a School,,"the program (Evergreen).
-Housing High School stage of the
-program (Lakeridge).","Literacy
-World History/Geography and Spanish",88,candidate_single_record
-4,Medford SD 549C,Jackson Elementary School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,"program (Lakeridge).
-N/A",,89,candidate_single_record
-4,Milton-Freewater Unified SD 7,"Ferndale Elementary
-School",Spanish,50/50,Two-Way Immersion (TWI),,,,,90,candidate_single_record
-4,Milton-Freewater Unified SD 7,"School
-Gib Olinger Elementary
-School",Spanish,50/50,Two-Way Immersion (TWI),,,,,91,candidate_single_record
-4,Milton-Freewater Unified SD 7,"School
-Central Middle School",Spanish,50/50,Two-Way Immersion (TWI),,,,,92,candidate_single_record
-4,"Milton-Freewater Unified SD 7
-Molalla River SD 35","Central Middle School
-Molalla Elementary School","Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-N/A",93,requires_pdf_geometry
-4,"Molalla River SD 35
-Newberg SD 29J","Molalla Elementary School
-Edwards Elementary","Spanish
-Spanish","50/50
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-N/A",94,requires_pdf_geometry
-4,"Newberg SD 29J
-Newberg SD 29J","Edwards Elementary
-Mountain View Middle
-School","Spanish
-Spanish","80/20
-Other","Two-Way Immersion (TWI)
-N/A","Strand within a School
-N/A","N/A
-N/A","N/A
-Housing the Middle School stage
-of the program (Edwards)","N/A
-Language Arts is offered in English and
+Literacy",91,candidate_single_record
+4,884.65,919.54,,Lake Oswego SD 7J,Lakeridge High School,Spanish,90/10,One-Way Immersion (OWI),Strand within a School,,"Housing High School stage of the
+program (Lakeridge).",World History/Geography and Spanish,92,candidate_single_record
+4,919.54,954.98,,Medford SD 549C,Jackson Elementary School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,93,candidate_single_record
+4,954.98,989.87,,Milton-Freewater Unified SD 7,"Ferndale Elementary
+School",Spanish,50/50,Two-Way Immersion (TWI),,,,,94,candidate_single_record
+4,989.87,1025.31,,Milton-Freewater Unified SD 7,"Gib Olinger Elementary
+School",Spanish,50/50,Two-Way Immersion (TWI),,,,,95,candidate_single_record
+4,1025.31,1042.61,,Milton-Freewater Unified SD 7,Central Middle School,Spanish,50/50,Two-Way Immersion (TWI),,,,,96,candidate_single_record
+4,1042.61,1060.47,,Molalla River SD 35,Molalla Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,,97,candidate_single_record
+4,1060.47,1077.77,,Newberg SD 29J,Edwards Elementary,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,,98,candidate_single_record
+4,1077.77,1130.8,,Newberg SD 29J,"Mountain View Middle
+School",Spanish,Other,,,,"Housing the Middle School stage
+of the program (Edwards)","Language Arts is offered in English and
 Spanish, Science and Social Studies are
-in English",95,requires_pdf_geometry
-4,North Clackamas SD 12,Lot Whitcomb Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,96,candidate_single_record
-4,"North Clackamas SD 12
-North Clackamas SD 12","Lot Whitcomb Elementary
-Milwaukie El Puente
-Elementary","Spanish
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-N/A",97,requires_pdf_geometry
-4,North Clackamas SD 12,"Elementary
-Riverside Elementary",Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,98,candidate_single_record
-4,"North Clackamas SD 12
-North Clackamas SD 12","Riverside Elementary
-Alder Creek Middle School","Spanish
-Spanish","90/10
-Other","Two-Way Immersion (TWI)
-N/A","Strand within a School
-N/A","N/A
-N/A","N/A
-Housing the Middle School stage
-of the program.","N/A
-3 of 10 periods of instruction in Spanish.
+in English",99,candidate_single_record
+4,1130.8,1148.1,,North Clackamas SD 12,Lot Whitcomb Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,100,candidate_single_record
+4,1148.1,1183.54,,North Clackamas SD 12,"Milwaukie El Puente
+Elementary",Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,101,candidate_single_record
+4,1183.54,1200.84,,North Clackamas SD 12,Riverside Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,102,candidate_single_record
+4,1200.84,1253.87,,North Clackamas SD 12,Alder Creek Middle School,Spanish,Other,,,,"Housing the Middle School stage
+of the program.","3 of 10 periods of instruction in Spanish.
 The classes offered in Spanish are
-Language Arts and Social Studies",99,requires_pdf_geometry
-5,"North Clackamas SD 12
-North Clackamas SD 12
-North Wasco County SD 21","Wilbur Rowe Middle School
-Rex Putnam High School
-Chenowith Elementary","Spanish
-Spanish
-Spanish","Allocation
-Other
-Other
-80/20","N/A
-N/A
-Two-Way Immersion (TWI)","N/A
-N/A
-Strand within a School","Established
-N/A
-N/A
+Language Arts and Social Studies",103,candidate_single_record
+5,156.81,216.28,,North Clackamas SD 12,Wilbur Rowe Middle School,Spanish,"Allocation
+Other",,,"Established
 N/A","Housing the Middle School stage
-of the program.
-Housing High School stage of the
-program.
-N/A","3 of 10 periods of instruction in Spanish.
+of the program.","3 of 10 periods of instruction in Spanish.
 The classes offered in Spanish are
-Language Arts and Social Studies
-9th grade and 10th grade students can
+Language Arts and Social Studies",104,candidate_single_record
+5,216.28,322.05,,North Clackamas SD 12,Rex Putnam High School,Spanish,Other,,,,"Housing High School stage of the
+program.","9th grade and 10th grade students can
 take an advanced Spanish literacy class
 as part of the DLI program. 11th and 12th
 grade students can participate in Spanish
-International Baccalaureate (IB) classes.
-Adding a grade level per year, currently K-
-4.",100,requires_pdf_geometry
-5,Nyssa SD 26,Nyssa Elementary School,Spanish,50/50,Two-Way Immersion (TWI),,,,"4.
-K-5",101,candidate_single_record
-5,"Nyssa SD 26
-Nyssa SD 26","Nyssa Elementary School
-Nyssa Middle School","Spanish
-Spanish","50/50
-25/75","Two-Way Immersion (TWI)
-N/A","N/A
-N/A","N/A
-N/A","N/A
-Middle School stage of the
-program.","K-5
-N/A",102,requires_pdf_geometry
-5,"Oregon Department of
+International Baccalaureate (IB) classes.",105,candidate_single_record
+5,322.05,356.94,,North Wasco County SD 21,Chenowith Elementary,Spanish,80/20,Two-Way Immersion (TWI),Strand within a School,,,"Adding a grade level per year, currently K-
+4.",106,candidate_single_record
+5,356.94,374.8,,Nyssa SD 26,Nyssa Elementary School,Spanish,50/50,Two-Way Immersion (TWI),,,,K-5,107,candidate_single_record
+5,374.8,409.68,,Nyssa SD 26,Nyssa Middle School,Spanish,25/75,,,,"Middle School stage of the
+program.",,108,candidate_single_record
+5,409.68,462.7,multiple_district_lines,"Oregon Department of
 Education","Four Rivers Community
 Charter School-
-Community School",Spanish,Other,Two-Way Immersion (TWI),,,"program.
-N/A","K-5th: One week in full Spanish immersion
-and one week in full English immersion.",103,requires_pdf_geometry
-5,"Oregon Department of
-Education
-Oregon Department of
-Education
-Oregon City SD 62","Four Rivers Community
+Community School",Spanish,Other,Two-Way Immersion (TWI),,,,"K-5th: One week in full Spanish immersion
+and one week in full English immersion.",109,requires_pdf_geometry
+5,462.7,550.33,multiple_district_lines,"Oregon Department of
+Education","Four Rivers Community
 Charter School - Junior
-Prep
-Four Rivers Community
-Charter School - Senior
-Prep
-Candy Lane Elementary","Spanish
-Spanish
-Spanish","Other
-Other
-80/20","N/A
-N/A
-Two-Way Immersion (TWI)","N/A
-N/A
-Whole-School Model","N/A
-N/A
-1997","N/A
-N/A
-N/A","6th-8th: Four Rivers Junior Prep students
+Prep",Spanish,Other,,,,,"6th-8th: Four Rivers Junior Prep students
 take Spanish Language Arts, Spanish
 Language Development, Bilingual
 Mathematics and some electives are
-offered in Spanish.
-Four Rivers Sr. Prep is an Early College
+offered in Spanish.",110,requires_pdf_geometry
+5,550.33,726.42,multiple_district_lines,"Oregon Department of
+Education","Four Rivers Community
+Charter School - Senior
+Prep",Spanish,Other,,,,,"Four Rivers Sr. Prep is an Early College
 Model in collabortion with Treasure Valley
 Community College and the Four Rivers
 Cultural Center.
@@ -681,503 +325,197 @@ Cultural Center.
 students continue their Spanish language
 through Advanced Placement (AP)
 courses, Community Interpreting and
-Bilingual Language Arts.
-K-5th",104,requires_pdf_geometry
-5,"Oregon City SD 62
-Phoenix-Talent SD 4","Candy Lane Elementary
-Talent Elementary School","Spanish
-Spanish","80/20
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Whole-School Model
-Strand within a School",1997,"N/A
-N/A",K-5th,105,requires_pdf_geometry
-5,"Phoenix-Talent SD 4
-Oregon City SD 62","Talent Elementary School
-Gardiner Middle School","Spanish
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-N/A",2002,"N/A
-Housing Middle School stage of
+Bilingual Language Arts.",111,requires_pdf_geometry
+5,726.42,743.72,,Oregon City SD 62,Candy Lane Elementary,Spanish,80/20,Two-Way Immersion (TWI),Whole-School Model,1997,,K-5th,112,candidate_single_record
+5,743.72,761.59,,Phoenix-Talent SD 4,Talent Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,,113,candidate_single_record
+5,761.59,814.05,,Oregon City SD 62,Gardiner Middle School,Spanish,Other,Two-Way Immersion (TWI),,2002,"Housing Middle School stage of
 the program (Candy Lane
 Elementary).","6th-8th: Bilingual Math; Bilingual Science;
-Bilingual Advisory",106,requires_pdf_geometry
-5,Oregon City SD 62,Oregon City High School,Spanish,Other,Two-Way Immersion (TWI),,2025,"Elementary).
-Housing High School stage of the
+Bilingual Advisory",114,candidate_single_record
+5,814.05,867.07,,Oregon City SD 62,Oregon City High School,Spanish,Other,Two-Way Immersion (TWI),,2025,"Housing High School stage of the
 program (Gardiner Middle
 School):","9th-10th: Spanish Language Arts, Spanish
-Global Studies",107,candidate_single_record
-5,Phoenix-Talent SD 4,Phoenix Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,,108,candidate_single_record
-5,Pilot Rock SD 2,Pilot Rock Elementary Schoo,o Spanish,50/50,Two-Way Immersion (TWI),,,,,109,candidate_single_record
-5,"Pilot Rock SD 2
-Pilot Rock SD 2","Pilot Rock Elementary Schoo
-Pilor Rock Jr/Sr High School","o Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",110,requires_pdf_geometry
-5,"Pilot Rock SD 2
-Portland SD 1J","Pilor Rock Jr/Sr High School
-Ainsworth Elementary","Spanish
-Spanish","50/50
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-K-5th",111,requires_pdf_geometry
-5,"Portland SD 1J
-Portland SD 1J","Ainsworth Elementary
-Atkinson Elementary","Spanish
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","K-5th
-K-5th",112,requires_pdf_geometry
-5,"Portland SD 1J
-Portland SD 1J","Atkinson Elementary
-Beach Elementary","Spanish
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","K-5th
-K-5th",113,requires_pdf_geometry
-5,"Portland SD 1J
-Portland SD 1J","Beach Elementary
-César Chávez School","Spanish
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","K-5th
-K-8th.
+Global Studies",115,candidate_single_record
+5,867.07,901.96,,Phoenix-Talent SD 4,Phoenix Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,,116,candidate_single_record
+5,901.96,919.82,,Pilot Rock SD 2,Pilot Rock Elementary Scho,Spanish,50/50,Two-Way Immersion (TWI),,,,,117,candidate_single_record
+5,919.82,937.12,,Pilot Rock SD 2,Pilor Rock Jr/Sr High School,Spanish,50/50,Two-Way Immersion (TWI),,,,,118,candidate_single_record
+5,937.12,954.98,,Portland SD 1J,Ainsworth Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,K-5th,119,candidate_single_record
+5,954.98,972.28,,Portland SD 1J,Atkinson Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,K-5th,120,candidate_single_record
+5,972.28,990.14,,Portland SD 1J,Beach Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,K-5th,121,candidate_single_record
+5,990.14,1060.19,,Portland SD 1J,César Chávez School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,"K-8th.
 Spanish Language Arts and Social studies
-offered at the middle school level.",114,requires_pdf_geometry
-5,Portland SD 1J,Clark Elementary,Chinese,50/50,Two-Way Immersion (TWI),Strand within a School,,,,115,candidate_single_record
-5,"Portland SD 1J
-Portland SD 1J","Clark Elementary
-Dr. Martin Luther King Jr.
-Elementary School","Chinese
-Mandarin Chinese","50/50
-50/50","Two-Way Immersion (TWI)
-One-Way Immersion (OWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-K-5th",116,requires_pdf_geometry
-5,Portland SD 1J,"Elementary School
-James John Elementary",Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,117,candidate_single_record
-5,"Portland SD 1J
-Portland SD 1J","James John Elementary
-Kelly Elementary","Spanish
-Russian","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-K-5th",118,requires_pdf_geometry
-5,"Portland SD 1J
-Portland SD 1J","Kelly Elementary
-Lent K-5 School","Russian
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Whole-School Model","N/A
-N/A","N/A
-N/A","K-5th
-N/A",119,requires_pdf_geometry
-5,"Portland SD 1J
-Portland SD 1J","Lent K-5 School
-Richmond Elementary
-School","Spanish
-Japanese; Spanish","90/10
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Whole-School Model
-Whole-School Model","N/A
-N/A","N/A
-N/A","N/A
-K-5th",120,requires_pdf_geometry
-5,Portland SD 1J,"School
-Rigler School",Spanish,90/10,Two-Way Immersion (TWI),Whole-School Model,,,K-5th,121,candidate_single_record
-5,"Portland SD 1J
-Portland SD 1J","Rigler School
-Rose City Park Elementary
-School","Spanish
-Vietnamese","90/10
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Whole-School Model
-Strand within a School","N/A
-N/A","N/A
-N/A","K-5th
-N/A",122,requires_pdf_geometry
-5,Portland SD 1J,"School
-Scott Elementary",Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,123,candidate_single_record
-5,"Portland SD 1J
-Portland SD 1J","Scott Elementary
-Sitton Elementary School","Spanish
-Spanish","90/10
-90/10","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-N/A",124,requires_pdf_geometry
-6,Portland SD 1J,Woodstock Elementary,Mandarin Chinese,"Allocation
-50/50",Two-Way Immersion (TWI),Strand within a School,"Established
-N/A",,K-5th,125,candidate_single_record
-6,"Portland SD 1J
-Portland SD 1J","Woodstock Elementary
-Beaumont Middle School","Mandarin Chinese
-Spanish","50/50
-Other","Two-Way Immersion (TWI)
-N/A","Strand within a School
-N/A","N/A
-N/A","N/A
-Housing the Middle School stage
-of the program.","K-5th
-Spanish Language Arts & Social Studies",126,requires_pdf_geometry
-6,Portland SD 1J,George Middle School,Spanish,Other,,,,"of the program.
-Housing the Middle School stage
-of the program.",Spanish Language Arts & Social Studies,127,candidate_single_record
-6,Portland SD 1J,"Harriet Tubman Middle
-School",Mandarin Chinese,Other,,,,"of the program.
-Housing Middle School stage of
+offered at the middle school level.",122,candidate_single_record
+5,1060.19,1078.05,,Portland SD 1J,Clark Elementary,Chinese,50/50,Two-Way Immersion (TWI),Strand within a School,,,,123,candidate_single_record
+5,1078.05,1112.93,,Portland SD 1J,"Dr. Martin Luther King Jr.
+Elementary School",Mandarin Chinese,50/50,One-Way Immersion (OWI),Strand within a School,,,K-5th,124,candidate_single_record
+5,1112.93,1130.8,,Portland SD 1J,James John Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,125,candidate_single_record
+5,1130.8,1148.1,,Portland SD 1J,Kelly Elementary,Russian,90/10,Two-Way Immersion (TWI),Strand within a School,,,K-5th,126,candidate_single_record
+5,1148.1,1165.96,,Portland SD 1J,Lent K-5 School,Spanish,90/10,Two-Way Immersion (TWI),Whole-School Model,,,,127,candidate_single_record
+5,1165.96,1200.84,,Portland SD 1J,"Richmond Elementary
+School",Japanese; Spanish,50/50,Two-Way Immersion (TWI),Whole-School Model,,,K-5th,128,candidate_single_record
+5,1200.84,1218.7,,Portland SD 1J,Rigler School,Spanish,90/10,Two-Way Immersion (TWI),Whole-School Model,,,K-5th,129,candidate_single_record
+5,1218.7,1253.59,,Portland SD 1J,"Rose City Park Elementary
+School",Vietnamese,50/50,Two-Way Immersion (TWI),Strand within a School,,,,130,candidate_single_record
+5,1253.59,1271.45,,Portland SD 1J,Scott Elementary,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,131,candidate_single_record
+5,1271.45,1337.86,,Portland SD 1J,Sitton Elementary School,Spanish,90/10,Two-Way Immersion (TWI),Strand within a School,,,,132,candidate_single_record
+6,164.1,181.4,,Portland SD 1J,Woodstock Elementary,Mandarin Chinese,50/50,Two-Way Immersion (TWI),Strand within a School,,,K-5th,133,candidate_single_record
+6,181.4,216.28,,Portland SD 1J,Beaumont Middle School,Spanish,Other,,,,"Housing the Middle School stage
+of the program.",Spanish Language Arts & Social Studies,134,candidate_single_record
+6,216.28,251.73,,Portland SD 1J,George Middle School,Spanish,Other,,,,"Housing the Middle School stage
+of the program.",Spanish Language Arts & Social Studies,135,candidate_single_record
+6,251.73,321.77,,Portland SD 1J,"Harriet Tubman Middle
+School",Mandarin Chinese,Other,,,,"Housing Middle School stage of
 the program.","Students in the program continue their
 studies in middle school with Social
 Studies and Chinese Language Arts
-taught in Mandarin",128,candidate_single_record
-6,Portland SD 1J,"Harrison Park Middle
+taught in Mandarin",136,candidate_single_record
+6,321.77,392.38,,Portland SD 1J,"Harrison Park Middle
 School",Mandarin Chinese,Other,,,,"Housing Middle School stage of
-the program.","taught in Mandarin
-Students in the program continue their
+the program.","Students in the program continue their
 studies in middle school with Social
 Studies and Chinese Language Arts
-taught in Mandarin",129,candidate_single_record
-6,Portland SD 1J,Kellogg Middle School,Spanish,Other,,Strand within a School,,"Housing the Middle School stage
-of the program.",Spanish Language Arts & Social Studies,130,candidate_single_record
-6,Portland SD 1J,Lane Middle School,Russian,Other,,Strand within a School,,"of the program.
-Housing the Middle School stage
+taught in Mandarin",137,candidate_single_record
+6,392.38,427.26,,Portland SD 1J,Kellogg Middle School,Spanish,Other,,Strand within a School,,"Housing the Middle School stage
+of the program.",Spanish Language Arts & Social Studies,138,candidate_single_record
+6,427.26,480.28,,Portland SD 1J,Lane Middle School,Russian,Other,,Strand within a School,,"Housing the Middle School stage
 of the program.","Russian and Spanish Immersion Courses
 are offered at an advanced level in grades
-9-12.",131,candidate_single_record
-6,Portland SD 1J,Mt. Tabor Middle School,"Japanese
+9-12.",139,candidate_single_record
+6,480.28,515.17,,Portland SD 1J,Mt. Tabor Middle School,"Japanese
 Spanish",Other,,Strand within a School,,"Housing Middle School stage of
 the program.","6th-8th: Japanese - Japanese Language
-Arts & Social Studies",132,requires_pdf_geometry
-6,Portland SD 1J,"Ockley Green Middle
-School","Spanish
-Spanish",Other,,Strand within a School,,"the program.
-Housing the Middle School stage
-of the program.","Arts & Social Studies
-Spanish Language Arts & Social Studies",133,requires_pdf_geometry
-6,Portland SD 1J,"School
-Roseway Heights Middle Sc
+Arts & Social Studies",140,requires_pdf_geometry
+6,515.17,550.61,,Portland SD 1J,"Ockley Green Middle
+School",Spanish,Other,,Strand within a School,,"Housing the Middle School stage
+of the program.",Spanish Language Arts & Social Studies,141,candidate_single_record
+6,550.61,585.49,,Portland SD 1J,"Roseway Heights Middle Sc
 hool","Vietnamese
-Spanish",Other,,Strand within a School,,"of the program.
-Housing the Middle School stage
+Spanish",Other,,Strand within a School,,"Housing the Middle School stage
 of the program.","Social Studies and Partner Language Art
-taught in the partner language.",134,requires_pdf_geometry
-6,Portland SD 1J,"hool
-West Sylvan Middle School","Spanish
-Spanish",Other,,Strand within a School,,"of the program.
-Housing the Middle School stage
-of the program.","taught in the partner language.
-Spanish Language Arts & Social Studies",135,requires_pdf_geometry
-6,Portland SD 1J,"Leodis V. McDaniel High
+taught in the partner language.",142,requires_pdf_geometry
+6,585.49,620.93,,Portland SD 1J,West Sylvan Middle School,Spanish,Other,,Strand within a School,,"Housing the Middle School stage
+of the program.",Spanish Language Arts & Social Studies,143,candidate_single_record
+6,620.93,673.4,,Portland SD 1J,"Leodis V. McDaniel High
 School","Spanish
-Vietnamese",Other,,Strand within a School,,"of the program.
-Roseway Heights students will
+Vietnamese",Other,,Strand within a School,,"Roseway Heights students will
 then feed into Madison High
 School.","Students take Vietnamese language as
-one of their electives",136,requires_pdf_geometry
-6,Portland SD 1J,"School
-Cleveland High School",Mandarin Chinese,Other,,Strand within a School,,"School.
-N/A","Cleveland currently offers Mandarin
+one of their electives",144,requires_pdf_geometry
+6,673.4,726.42,,Portland SD 1J,Cleveland High School,Mandarin Chinese,Other,,Strand within a School,,,"Cleveland currently offers Mandarin
 Chinese language classes and content
-courses taught in Mandarin Chinese",137,candidate_single_record
-6,Portland SD 1J,Franklin High School,"Russian
+courses taught in Mandarin Chinese",145,candidate_single_record
+6,726.42,778.89,,Portland SD 1J,Franklin High School,"Russian
 Spanish",Other,,Strand within a School,,"Housing the High School stage of
 the programs.","Russian and Spanish Immersion Courses
 are offered at an advanced level in grades
-9-12.",138,requires_pdf_geometry
-6,Portland SD 1J,Grant High School,Japanese,Other,,Strand within a School,,"Housing High School stage of the
-program.","9-12.
-9th-12th: A language course in the
-immersion language",139,candidate_single_record
-6,Portland SD 1J,Jefferson High School,"Japanese
+9-12.",146,requires_pdf_geometry
+6,778.89,814.33,,Portland SD 1J,Grant High School,Japanese,Other,,Strand within a School,,"Housing High School stage of the
+program.","9th-12th: A language course in the
+immersion language",147,candidate_single_record
+6,814.33,937.12,,Portland SD 1J,Jefferson High School,"Japanese
 Mandarin Chinese
-Spanish",Other,,Strand within a School,,"program.
-Houses the High School stage of
+Spanish",Other,,Strand within a School,,"Houses the High School stage of
 the immersion track. Language
 courses in Japanese, Mandarin
-(Chinese), and Spanish.","immersion language
-Japanese 1/2
+(Chinese), and Spanish.","Japanese 1/2
 Mandarin/Chinese 1-2
 Mandarin/Chinese Immersion 1-2
 Spanish 1-2
 Spanish 3-4
-Spanish 5-6",140,requires_pdf_geometry
-6,Portland SD 1J,Lincoln High School,Spanish,Other,,Strand within a School,,"Housing the Middle School stage
+Spanish 5-6",148,requires_pdf_geometry
+6,937.12,972.56,,Portland SD 1J,Lincoln High School,Spanish,Other,,Strand within a School,,"Housing the Middle School stage
 of the program.","Students take Spanish language language
-as one of their electives",141,candidate_single_record
-6,Portland SD 1J,McDaniel High School,"Spanish
-Vietnamese",Other,,Strand within a School,,"of the program.
-Housing the High School stage of
-the programs.","as one of their electives
-Students take Spanish language as one of
-their electives; Vietnamese DLI courses",142,requires_pdf_geometry
-6,Portland SD 1J,Roosevelt High School,Spanish,Other,,,,"Housing the High School stage of
+as one of their electives",149,candidate_single_record
+6,972.56,1025.03,,Portland SD 1J,McDaniel High School,"Spanish
+Vietnamese",Other,,Strand within a School,,"Housing the High School stage of
 the programs.","Students take Spanish language as one of
-their electives",143,candidate_single_record
-6,Redmond SD 2J,"Hugh Hartman Elementary
-school",Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,"the programs.
-N/A","their electives
-6th-8th: Spanish language/Arts, and
+their electives; Vietnamese DLI courses",150,requires_pdf_geometry
+6,1025.03,1060.47,,Portland SD 1J,Roosevelt High School,Spanish,Other,,,,"Housing the High School stage of
+the programs.","Students take Spanish language as one of
+their electives",151,candidate_single_record
+6,1060.47,1130.52,,Redmond SD 2J,"Hugh Hartman Elementary
+school",Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,"6th-8th: Spanish language/Arts, and
 Social studies.
 In 26-27 will be stand alone magnet
-school.",144,candidate_single_record
-6,Redmond SD 2J,Obsidian Middle School,Spanish,.,,,,,"school.
-N/A",145,candidate_single_record
-6,"Redmond SD 2J
-Redmond SD 2J","Obsidian Middle School
-Ridgeview High School","Spanish
-Spanish",".
-Other","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-9th will be added in 26-27.
+school.",152,candidate_single_record
+6,1130.52,1148.38,,Redmond SD 2J,Obsidian Middle School,Spanish,.,,,,,,153,candidate_single_record
+6,1148.38,1200.84,,Redmond SD 2J,Ridgeview High School,Spanish,Other,,,,,"9th will be added in 26-27.
 Spanish Language/Arts and Social
-Studies.",146,requires_pdf_geometry
-6,Reynolds SD 7,Alder Elementary School,Spanish,80/20,One-Way Immersion (OWI),Strand within a School,,,"Studies.
-N/A",147,candidate_single_record
-6,"Reynolds SD 7
-Reynolds SD 7","Alder Elementary School
-Davis Elementary School","Spanish
-Spanish","80/20
-80/20","One-Way Immersion (OWI)
-One-Way Immersion (OWI)","Strand within a School
-Strand within a School","N/A
-2025","N/A
-N/A","N/A
-Currently has K; will add 1st in fall 2026",148,requires_pdf_geometry
-6,"Reynolds SD 7
-Reynolds SD 7","Davis Elementary School
-Hartley Elementary School","Spanish
-Spanish","80/20
-80/20","One-Way Immersion (OWI)
-One-Way Immersion (OWI)","Strand within a School
-Strand within a School","2025
-2026","N/A
-N/A","Currently has K; will add 1st in fall 2026
-Will start with K in fall 2026",149,requires_pdf_geometry
-6,"Reynolds SD 7
-Salem-Keizer SD 24J","Hartley Elementary School
-Auburn Elementary School","Spanish
-Spanish","80/20
-80/20","One-Way Immersion (OWI)
-Two-Way Immersion (TWI)","Strand within a School
-N/A","2026
-N/A","N/A
-N/A","Will start with K in fall 2026
-N/A",150,requires_pdf_geometry
-6,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Auburn Elementary School
-Bush Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",151,requires_pdf_geometry
-6,Salem-Keizer SD 24J,Bush Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,152,candidate_single_record
-7,Salem-Keizer SD 24J,Chavez Elementary School,Spanish,"Allocation
+Studies.",154,candidate_single_record
+6,1200.84,1218.7,,Reynolds SD 7,Alder Elementary School,Spanish,80/20,One-Way Immersion (OWI),Strand within a School,,,,155,candidate_single_record
+6,1218.7,1236.0,,Reynolds SD 7,Davis Elementary School,Spanish,80/20,One-Way Immersion (OWI),Strand within a School,2025,,Currently has K; will add 1st in fall 2026,156,candidate_single_record
+6,1236.0,1253.87,,Reynolds SD 7,Hartley Elementary School,Spanish,80/20,One-Way Immersion (OWI),Strand within a School,2026,,Will start with K in fall 2026,157,candidate_single_record
+6,1253.87,1271.17,,Salem-Keizer SD 24J,Auburn Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,158,candidate_single_record
+6,1271.17,1289.03,,Salem-Keizer SD 24J,Bush Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,159,candidate_single_record
+7,156.81,181.12,,Salem-Keizer SD 24J,Chavez Elementary School,Spanish,"Allocation
 80/20",Two-Way Immersion (TWI),,"Established
-N/A",,,153,candidate_single_record
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Chavez Elementary School
-Eyre Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",154,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Eyre Elementary School
-Four Corners Elementary
-School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",155,requires_pdf_geometry
-7,Salem-Keizer SD 24J,"School
-Grant Community School",Spanish,80/20,Two-Way Immersion (TWI),,,,,156,candidate_single_record
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Grant Community School
-Hallman Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",157,requires_pdf_geometry
-7,Salem-Keizer SD 24J,Harritt Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,158,candidate_single_record
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Harritt Elementary School
-Hoover Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",159,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Hoover Elementary School
-Keizer Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",160,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Keizer Elementary School
-Lamb Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",161,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Lamb Elementary School
-Lee Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",162,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Lee Elementary School
-Myers Elementary School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",163,requires_pdf_geometry
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Myers Elementary School
-Richmond Elementary
-School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",164,requires_pdf_geometry
-7,Salem-Keizer SD 24J,"School
-Scott Elementary School",Spanish,80/20,Two-Way Immersion (TWI),,,,,165,candidate_single_record
-7,"Salem-Keizer SD 24J
-Salem-Keizer SD 24J","Scott Elementary School
-Washington Elementary
-School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",166,requires_pdf_geometry
-7,Salem-Keizer SD 24J,"School
-Yoshikai Elementary School",Spanish,80/20,Two-Way Immersion (TWI),,,,,167,candidate_single_record
-7,Salem-Keizer SD 24J,Parrish Middle School,Spanish,Other,,,,"Housing the Middle School stage
+N/A",,,160,candidate_single_record
+7,181.12,198.98,,Salem-Keizer SD 24J,Eyre Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,161,candidate_single_record
+7,198.98,233.86,,Salem-Keizer SD 24J,"Four Corners Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),,,,,162,candidate_single_record
+7,233.86,251.73,,Salem-Keizer SD 24J,Grant Community School,Spanish,80/20,Two-Way Immersion (TWI),,,,,163,candidate_single_record
+7,251.73,286.61,,Salem-Keizer SD 24J,Hallman Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,164,candidate_single_record
+7,286.61,304.47,,Salem-Keizer SD 24J,Harritt Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,165,candidate_single_record
+7,304.47,321.77,,Salem-Keizer SD 24J,Hoover Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,166,candidate_single_record
+7,321.77,339.63,,Salem-Keizer SD 24J,Keizer Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,167,candidate_single_record
+7,339.63,356.94,,Salem-Keizer SD 24J,Lamb Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,168,candidate_single_record
+7,356.94,374.8,,Salem-Keizer SD 24J,Lee Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,169,candidate_single_record
+7,374.8,392.1,,Salem-Keizer SD 24J,Myers Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,170,candidate_single_record
+7,392.1,427.54,,Salem-Keizer SD 24J,"Richmond Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),,,,,171,candidate_single_record
+7,427.54,444.84,,Salem-Keizer SD 24J,Scott Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,172,candidate_single_record
+7,444.84,480.28,,Salem-Keizer SD 24J,"Washington Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),,,,,173,candidate_single_record
+7,480.28,515.17,,Salem-Keizer SD 24J,Yoshikai Elementary School,Spanish,80/20,Two-Way Immersion (TWI),,,,,174,candidate_single_record
+7,515.17,568.19,,Salem-Keizer SD 24J,Parrish Middle School,Spanish,Other,,,,"Housing the Middle School stage
 of the program.","A Spanish Language Arts course and one
 other course in Spanish during each
-grading period",168,candidate_single_record
-7,Salem-Keizer SD 24J,Walker Middle School,Spanish,Other,,,,"Housing the Middle School stage
+grading period",175,candidate_single_record
+7,568.19,620.66,,Salem-Keizer SD 24J,Walker Middle School,Spanish,Other,,,,"Housing the Middle School stage
 of the program.","A Spanish Language Arts course and one
 other course in Spanish during each
-grading period",169,candidate_single_record
-7,Salem-Keizer SD 24J,North Salem High School,Spanish,Other,,,,"Housing the High School stage of
-the program.","grading period
-Upper-level Spanish language classes as
-well as two years of Social Studies in
-Spanish",170,candidate_single_record
-7,Salem-Keizer SD 24J,West Salem High School,Spanish,Other,,,,"Housing the High School stage of
+grading period",176,candidate_single_record
+7,620.66,673.68,,Salem-Keizer SD 24J,North Salem High School,Spanish,Other,,,,"Housing the High School stage of
 the program.","Upper-level Spanish language classes as
 well as two years of Social Studies in
-Spanish",171,candidate_single_record
-7,Sherwood SD 88J,"Hawks View Elementary
-School",Spanish,80/20,Two-Way Immersion (TWI),,,,"Spanish
-N/A",172,candidate_single_record
-7,Springfield SD 19,"School
-Guy Lee Elementary School",Spanish,50/50,Two-Way Immersion (TWI),,,,,173,candidate_single_record
-7,Springfield SD 19,Hamlin Middle School,Spanish,Other,,,,"Housing Middle school stage of
+Spanish",177,candidate_single_record
+7,673.68,726.14,,Salem-Keizer SD 24J,West Salem High School,Spanish,Other,,,,"Housing the High School stage of
+the program.","Upper-level Spanish language classes as
+well as two years of Social Studies in
+Spanish",178,candidate_single_record
+7,726.14,761.59,,Sherwood SD 88J,"Hawks View Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),,,,,179,candidate_single_record
+7,761.59,796.47,,Springfield SD 19,Guy Lee Elementary School,Spanish,50/50,Two-Way Immersion (TWI),,,,,180,candidate_single_record
+7,796.47,849.49,,Springfield SD 19,Hamlin Middle School,Spanish,Other,,,,"Housing Middle school stage of
 the program (cohort within the
 school).","Humanities Elective - Spanish Language
-Arts and Spanish Social Studies",174,candidate_single_record
-7,Springfield SD 19,Springfield High School,Spanish,Other,,,,"Housing High School stage of the
+Arts and Spanish Social Studies",181,candidate_single_record
+7,849.49,901.96,,Springfield SD 19,Springfield High School,Spanish,Other,,,,"Housing High School stage of the
 program 9th-11th (cohort within
 the school).","9th - 11th Spanish Language Arts,
 Spanish Social Studies plus College Now
-Advanced Spanish",175,candidate_single_record
-7,Tigard-Tualatin SD 23J,"Bridgeport Elementary
-School",Spanish,90/10,Two-Way Immersion (TWI),,,"the school).
-N/A","Advanced Spanish
-N/A",176,candidate_single_record
-7,Tigard-Tualatin SD 23J,"School
-Metzger Elementary School",Spanish,90/10,Two-Way Immersion (TWI),,,,,177,candidate_single_record
-7,Tigard-Tualatin SD 23J,Fowler Middle School,Spanish,Other,,,,"Housing the Middle School stage
+Advanced Spanish",182,candidate_single_record
+7,901.96,937.4,,Tigard-Tualatin SD 23J,"Bridgeport Elementary
+School",Spanish,90/10,Two-Way Immersion (TWI),,,,,183,candidate_single_record
+7,937.4,972.28,,Tigard-Tualatin SD 23J,Metzger Elementary School,Spanish,90/10,Two-Way Immersion (TWI),,,,,184,candidate_single_record
+7,972.28,1025.31,,Tigard-Tualatin SD 23J,Fowler Middle School,Spanish,Other,,,,"Housing the Middle School stage
 of the program.","One Spanish Language Arts course, in
 addition to 2 content courses delivered in
-Spanish",178,candidate_single_record
-7,"Tigard-Tualatin SD 23J
-Tigard-Tualatin SD 23J","Hazelbrook Middle School
-Tigard High School","Spanish
-Spanish","Other
-Other","N/A
-N/A","N/A
-N/A","N/A
-N/A","Housing the Middle School stage
-of the program.
-Housing the High School stage of
-the program.","One Spanish Language Arts course, in
+Spanish",185,candidate_single_record
+7,1025.31,1077.77,,Tigard-Tualatin SD 23J,Hazelbrook Middle School,Spanish,Other,,,,"Housing the Middle School stage
+of the program.","One Spanish Language Arts course, in
 addition to 2 content courses delivered in
-Spanish
-Spanish Language & Literacy, IB Spanish
+Spanish",186,candidate_single_record
+7,1077.77,1218.7,,Tigard-Tualatin SD 23J,Tigard High School,Spanish,Other,,,,"Housing the High School stage of
+the program.","Spanish Language & Literacy, IB Spanish
 (9-12 grades, 4 credits)
 Biology and World History (9th grade, 2
 credits)
 US History (10th grade, 1 credit)
 Chemistry (10th or 11th grade, 1 credit)
 Government & Economics (12th grade, 1
-credit)",179,requires_pdf_geometry
-8,Tigard-Tualatin SD 23J,Tualatin High School,Spanish,"Allocation
+credit)",187,candidate_single_record
+8,156.81,304.19,,Tigard-Tualatin SD 23J,Tualatin High School,Spanish,"Allocation
 Other",,,"Established
 N/A","Housing the High School stage of
 the program.","Spanish Language & Literacy, IB Spanish
@@ -1187,158 +525,72 @@ credits)
 US History and Chemistry (10th grade, 2
 credits)
 Government & Economics (12th grade, 1
-credit)",180,candidate_single_record
-8,Tillamook SD 9,East Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,4th-6th,181,candidate_single_record
-8,"Tillamook SD 9
-Tillamook SD 9","East Elementary School
-Liberty Elementary","Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","4th-6th
-N/A",182,requires_pdf_geometry
-8,"Tillamook SD 9
-Tillamook SD 9","Liberty Elementary
-South Prairie Elementary
-School","Spanish
-Spanish","50/50
-50/50","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","Strand within a School
-Strand within a School","N/A
-N/A","N/A
-N/A","N/A
-2nd-3rd",183,requires_pdf_geometry
-8,Tillamook SD 9,"School
-Tillamook Junior High
+credit)",188,candidate_single_record
+8,304.19,322.05,,Tillamook SD 9,East Elementary School,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,4th-6th,189,candidate_single_record
+8,322.05,339.35,,Tillamook SD 9,Liberty Elementary,Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,,190,candidate_single_record
+8,339.35,374.8,,Tillamook SD 9,"South Prairie Elementary
+School",Spanish,50/50,Two-Way Immersion (TWI),Strand within a School,,,2nd-3rd,191,candidate_single_record
+8,374.8,409.68,,Tillamook SD 9,"Tillamook Junior High
 School",Spanish,Other,,,,,"7th-8th: Advanced Spanish Language &
-Literacy 7 and 8",184,candidate_single_record
-8,Tillamook SD 9,"School
-Tillamook High School",Spanish,Other,,,,,"Literacy 7 and 8
-9th-12th: Spanish Languages Arts,
+Literacy 7 and 8",192,candidate_single_record
+8,409.68,497.87,,Tillamook SD 9,Tillamook High School,Spanish,Other,,,,,"9th-12th: Spanish Languages Arts,
 Advanced Spanish Language & Literacy
 (continuation from junior high), and the
 elective courses, Intro to Agriculture, and
-History of México.",185,candidate_single_record
-8,Umatilla SD 6R,Columbia Vista Intermediate,Spanish,80/20,Two-Way Immersion (TWI),,,,,186,candidate_single_record
-8,"Umatilla SD 6R
-Umatilla SD 6R","Columbia Vista Intermediate
-McNary Heights Elementary
-School","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",187,requires_pdf_geometry
-8,West Linn-Wilsonville SD 3J,"School
-Bolton Primary School",Mandarin Chinese,50/50,One-Way Immersion (OWI),,,,"Literacy (Reading & Writing) and
-Mathematics in Spanish for grades 1-5",188,candidate_single_record
-8,West Linn-Wilsonville SD 3J,Lowrie Primary School,Spanish,50/50,Two-Way Immersion (TWI),,,,"Mathematics in Spanish for grades 1-5
-Literacy (Reading & Writing) and
-Mathematics in Spanish for grades 1-5",189,candidate_single_record
-8,West Linn-Wilsonville SD 3J,"Trillium Creek Primary
-School",Spanish,50/50,One-Way Immersion (OWI),,,,"Mathematics in Spanish for grades 1-5
-Literacy (Reading & Writing) and
-Mathematics in Spanish for grades 1-5",190,candidate_single_record
-8,West Linn-Wilsonville SD 3J,"School
-Inza R. Wood Middle
+History of México.",193,candidate_single_record
+8,497.87,515.17,,Umatilla SD 6R,Columbia Vista Intermediate,Spanish,80/20,Two-Way Immersion (TWI),,,,,194,candidate_single_record
+8,515.17,550.61,,Umatilla SD 6R,"McNary Heights Elementary
+School",Spanish,80/20,Two-Way Immersion (TWI),,,,,195,candidate_single_record
+8,550.61,585.49,,West Linn-Wilsonville SD 3J,Bolton Primary School,Mandarin Chinese,50/50,One-Way Immersion (OWI),,,,"Literacy (Reading & Writing) and
+Mathematics in Spanish for grades 1-5",196,candidate_single_record
+8,585.49,620.93,,West Linn-Wilsonville SD 3J,Lowrie Primary School,Spanish,50/50,Two-Way Immersion (TWI),,,,"Literacy (Reading & Writing) and
+Mathematics in Spanish for grades 1-5",197,candidate_single_record
+8,620.93,655.82,,West Linn-Wilsonville SD 3J,"Trillium Creek Primary
+School",Spanish,50/50,One-Way Immersion (OWI),,,,"Literacy (Reading & Writing) and
+Mathematics in Spanish for grades 1-5",198,candidate_single_record
+8,655.82,708.84,,West Linn-Wilsonville SD 3J,"Inza R. Wood Middle
 School",Spanish,Other,,,,"Housing the Middle school stage
-of the program (Lowrie).","Mathematics in Spanish for grades 1-5
-Spanish Language Arts and Social
+of the program (Lowrie).","Spanish Language Arts and Social
 Studies in Spanish, four additional classes
-in English",191,candidate_single_record
-8,"West Linn-Wilsonville SD 3J
-West Linn-Wilsonville SD 3J
-West Linn-Wilsonville SD 3J","Rosemont Ridge Middle
-School
-West Linn High School
-Wilsonville High School","Spanish
-Spanish
-Spanish","Other
-Other
-Other","N/A
-N/A
-N/A","N/A
-N/A
-N/A","N/A
-N/A
-N/A","Housing the Middle School stage
-of the program (Trillium).
-Housing the High School stage of
-the program (Rosemont Ridge).
-Housing the High School stage of
-the program (Inza R. Wood)","Spanish Language Arts and Social
+in English",199,candidate_single_record
+8,708.84,761.31,,West Linn-Wilsonville SD 3J,"Rosemont Ridge Middle
+School",Spanish,Other,,,,"Housing the Middle School stage
+of the program (Trillium).","Spanish Language Arts and Social
 Studies in Spanish, four additional classes
-in English
-Spanish Language & Literature I and II or
+in English",200,candidate_single_record
+8,761.31,884.65,,West Linn-Wilsonville SD 3J,West Linn High School,Spanish,Other,,,,"Housing the High School stage of
+the program (Rosemont Ridge).","Spanish Language & Literature I and II or
 Advanced Spahish course taken each of
 the four years of high school plus an
 additional content course in Spanish.
 Content courses include Biology,
 Chemistry, Film Study, Community
-Leadership elective
-Spanish Language & Literature I and II or
+Leadership elective",201,candidate_single_record
+8,884.65,1007.45,,West Linn-Wilsonville SD 3J,Wilsonville High School,Spanish,Other,,,,"Housing the High School stage of
+the program (Inza R. Wood)","Spanish Language & Literature I and II or
 Advanced Spahish course taken each of
 the four years of high school plus an
 additional content course in Spanish.
 Content courses include Biology, US
 History, Art , PE, Community Leadership
-elective",192,requires_pdf_geometry
-8,Woodburn SD 103,Heritage Elementary School,Spanish Russian,80/20,Two-Way Immersion (TWI),,,,,193,candidate_single_record
-8,Woodburn SD 103,Lincoln Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,194,candidate_single_record
-8,"Woodburn SD 103
-Woodburn SD 103","Lincoln Elementary
-Nellie Muir Elementary","Spanish
-Spanish","80/20
-80/20","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)","N/A
-N/A","N/A
-N/A","N/A
-N/A","N/A
-N/A",195,requires_pdf_geometry
-8,"Woodburn SD 103
-Woodburn SD 103
-Woodburn SD 103","Nellie Muir Elementary
-Washington Elementary
-French Prairie Middle
-School","Spanish
-Spanish
-Spanish","80/20
-80/20
-Other","Two-Way Immersion (TWI)
-Two-Way Immersion (TWI)
-N/A","N/A
-N/A
-N/A","N/A
-N/A
-N/A","N/A
-N/A
-Housing the Middle School stage
-of the program.","N/A
-N/A
-Spanish Math 6; Spanish Math 7; Spanish
+elective",202,candidate_single_record
+8,1007.45,1042.89,,Woodburn SD 103,Heritage Elementary School,Spanish Russian,80/20,Two-Way Immersion (TWI),,,,,203,candidate_single_record
+8,1042.89,1060.19,,Woodburn SD 103,Lincoln Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,204,candidate_single_record
+8,1060.19,1078.05,,Woodburn SD 103,Nellie Muir Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,205,candidate_single_record
+8,1078.05,1095.35,,Woodburn SD 103,Washington Elementary,Spanish,80/20,Two-Way Immersion (TWI),,,,,206,candidate_single_record
+8,1095.35,1218.7,,Woodburn SD 103,"French Prairie Middle
+School",Spanish,Other,,,,"Housing the Middle School stage
+of the program.","Spanish Math 6; Spanish Math 7; Spanish
 Math 8; Compacted 7/8 Math; Spanish
 Language Arts 6; Spanish Language Arts
 7; Spanish Language Arts 8; Spanish
 Social Studies; World Language Spanish
 1; World Language Spanish 2; World
-Language Spanish 3",196,requires_pdf_geometry
-9,"Woodburn SD 103
-Woodburn SD 103","Valor Middle School
-Woodburn High School","Spanish Russian
-Spanish Russian","Allocation
-Other
-Other","N/A
-N/A","N/A
-N/A","Established
-N/A
+Language Spanish 3",207,candidate_single_record
+9,156.81,339.35,,Woodburn SD 103,Valor Middle School,Spanish Russian,"Allocation
+Other",,,"Established
 N/A","Housing the Middle School stage
-of the program.
-Housing the High School stage of
-the program.","Spanish Algebra; Spanish Math 6;
+of the program.","Spanish Algebra; Spanish Math 6;
 Spanish Math 7; Compacted 7/8 Spanish
 Math; Spanish Math 8; Russian Language
 Arts 6; Russian Language Arts 7; Russian
@@ -1347,8 +599,9 @@ Spanish Language Arts 1; Spanish
 Language Arts 2; Spanish Language Arts
 3; World Language Spanish 1; World
 Language Spanish 2; World Language
-Spanish 3
-Algebra-Spanish;
+Spanish 3",208,candidate_single_record
+9,339.35,656.93,,Woodburn SD 103,Woodburn High School,Spanish Russian,Other,,,,"Housing the High School stage of
+the program.","Algebra-Spanish;
 Spanish Composition;
 World History - Spanish;
 AP Spanish Literature and Culture 1;
@@ -1364,4 +617,4 @@ Language & Literature 2; Russian
 Language & Literature 1; Russian
 Language & Literature 2; Russian 1;
 Russian 2; Spanish 1; Spanish 2; Spanish
-3; Health in Spanish, Latinx Studies",197,requires_pdf_geometry
+3; Health in Spanish, Latinx Studies",209,candidate_single_record
