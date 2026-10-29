@@ -26,26 +26,34 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install requests
 
-      - name: Match Oregon schools to 2024-25 NCES directory
+      - name: Match Oregon schools to NCES
         run: |
           python3 analysis/state_dl/oregon/match_oregon_nces.py \
             --programs data/registry/state_dl_programs_oregon.csv \
             --out data/registry/oregon_nces
 
-      - name: Show matching summary
+      - name: Reconcile Oregon school identities
         run: |
-          cat data/registry/oregon_nces/oregon_nces_match_summary.json
+          python3 analysis/state_dl/oregon/reconcile_oregon_nces.py \
+            --crosswalk data/registry/oregon_nces/oregon_nces_school_crosswalk.csv \
+            --candidates data/registry/oregon_nces/oregon_nces_match_candidates.csv \
+            --programs data/registry/state_dl_programs_oregon.csv \
+            --out data/registry/oregon_nces/reconciled
 
-      - name: Upload matching output
+      - name: Display reconciliation summary
+        run: |
+          cat data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json
+
+      - name: Upload Oregon NCES outputs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: oregon-nces-matching-results
+          name: oregon-nces-reconciled-results
           path: data/registry/oregon_nces/
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Commit matching output
+      - name: Commit Oregon NCES outputs
         if: success()
         run: |
           git config user.name "github-actions[bot]"
@@ -54,6 +62,6 @@ jobs:
           git add data/registry/oregon_nces/
 
           if ! git diff --cached --quiet; then
-            git commit -m "Add Oregon NCES school identity crosswalk"
+            git commit -m "Reconcile Oregon school identities with NCES"
             git push
           fi
