@@ -1,21 +1,23 @@
 
 #!/usr/bin/env python3
 """
-Screen the 2023-24 national CRDC for elementary
-schools with more than 20% English learners.
+National 2023-24 CRDC English Learner Screening.
 
-Usage (from repository root):
+Find elementary-serving schools with more than
+20% English learners.
 
-python3 analysis/national_crdc/screen_national_crdc.py \
-    /tmp/crdc/2023-24-crdc-data.zip \
-    --member 'SCH/Enrollment.csv' \
-    --directory /tmp/crdc/2023-24-crdc-data.zip \
-    --directory-member 'SCH/School Characteristics.csv' \
-    --output output/national_crdc/2023_24
+IMPORTANT:
+The federal 2023-24 public-use release redacts
+nonbinary enrollment fields with code -10.
 
-A high-EL flag identifies a school to investigate.
-It does not establish that the school offers
-dual-language instruction.
+Where those fields are redacted, the screening
+uses male + female reported enrollment only.
+These results are provisional screening estimates,
+not exact all-student percentages.
+
+No suppressed value is interpreted as zero.
+
+The existing GitHub Action can run this script.
 """
 
 import argparse
@@ -26,6 +28,7 @@ import re
 import zipfile
 
 from collections import Counter
+from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -42,57 +45,60 @@ WV WI WY
 """.split()
 
 STATE_NAMES = {
-    "ALABAMA": "AL",
-    "ALASKA": "AK",
-    "ARIZONA": "AZ",
-    "ARKANSAS": "AR",
-    "CALIFORNIA": "CA",
-    "COLORADO": "CO",
-    "CONNECTICUT": "CT",
-    "DELAWARE": "DE",
-    "DISTRICT OF COLUMBIA": "DC",
-    "FLORIDA": "FL",
-    "GEORGIA": "GA",
-    "HAWAII": "HI",
-    "IDAHO": "ID",
-    "ILLINOIS": "IL",
-    "INDIANA": "IN",
-    "IOWA": "IA",
-    "KANSAS": "KS",
-    "KENTUCKY": "KY",
-    "LOUISIANA": "LA",
-    "MAINE": "ME",
-    "MARYLAND": "MD",
-    "MASSACHUSETTS": "MA",
-    "MICHIGAN": "MI",
-    "MINNESOTA": "MN",
-    "MISSISSIPPI": "MS",
-    "MISSOURI": "MO",
-    "MONTANA": "MT",
-    "NEBRASKA": "NE",
-    "NEVADA": "NV",
-    "NEW HAMPSHIRE": "NH",
-    "NEW JERSEY": "NJ",
-    "NEW MEXICO": "NM",
-    "NEW YORK": "NY",
-    "NORTH CAROLINA": "NC",
-    "NORTH DAKOTA": "ND",
-    "OHIO": "OH",
-    "OKLAHOMA": "OK",
-    "OREGON": "OR",
-    "PENNSYLVANIA": "PA",
-    "RHODE ISLAND": "RI",
-    "SOUTH CAROLINA": "SC",
-    "SOUTH DAKOTA": "SD",
-    "TENNESSEE": "TN",
-    "TEXAS": "TX",
-    "UTAH": "UT",
-    "VERMONT": "VT",
-    "VIRGINIA": "VA",
-    "WASHINGTON": "WA",
-    "WEST VIRGINIA": "WV",
-    "WISCONSIN": "WI",
-    "WYOMING": "WY",
+    name.upper(): abbreviation
+    for name, abbreviation in [
+        ("Alabama", "AL"),
+        ("Alaska", "AK"),
+        ("Arizona", "AZ"),
+        ("Arkansas", "AR"),
+        ("California", "CA"),
+        ("Colorado", "CO"),
+        ("Connecticut", "CT"),
+        ("Delaware", "DE"),
+        ("District of Columbia", "DC"),
+        ("Florida", "FL"),
+        ("Georgia", "GA"),
+        ("Hawaii", "HI"),
+        ("Idaho", "ID"),
+        ("Illinois", "IL"),
+        ("Indiana", "IN"),
+        ("Iowa", "IA"),
+        ("Kansas", "KS"),
+        ("Kentucky", "KY"),
+        ("Louisiana", "LA"),
+        ("Maine", "ME"),
+        ("Maryland", "MD"),
+        ("Massachusetts", "MA"),
+        ("Michigan", "MI"),
+        ("Minnesota", "MN"),
+        ("Mississippi", "MS"),
+        ("Missouri", "MO"),
+        ("Montana", "MT"),
+        ("Nebraska", "NE"),
+        ("Nevada", "NV"),
+        ("New Hampshire", "NH"),
+        ("New Jersey", "NJ"),
+        ("New Mexico", "NM"),
+        ("New York", "NY"),
+        ("North Carolina", "NC"),
+        ("North Dakota", "ND"),
+        ("Ohio", "OH"),
+        ("Oklahoma", "OK"),
+        ("Oregon", "OR"),
+        ("Pennsylvania", "PA"),
+        ("Rhode Island", "RI"),
+        ("South Carolina", "SC"),
+        ("South Dakota", "SD"),
+        ("Tennessee", "TN"),
+        ("Texas", "TX"),
+        ("Utah", "UT"),
+        ("Vermont", "VT"),
+        ("Virginia", "VA"),
+        ("Washington", "WA"),
+        ("West Virginia", "WV"),
+        ("Wisconsin", "WI"),
+        ("Wyoming", "WY"),
+    ]
 }
 
 GRADES = ["PS", "KG"] + [
@@ -104,7 +110,7 @@ ELEMENTARY = {
     "G03", "G04", "G05",
 }
 
-SUMMARY_KEYS = [
+COUNT_KEYS = [
     "all_school_records",
     "elementary_serving",
     "elementary_only",
@@ -132,8 +138,10 @@ OUTPUT_COLS = [
     "el_percent",
     "flag_over_20",
     "status",
+    "measurement_basis",
     "unassessed_reason",
-    "sex_x_handling",
+    "x_total_code",
+    "x_el_code",
     "data_source",
     "source_url",
 ]
@@ -143,347 +151,250 @@ OUTPUT_COLS = [
 # FILE HANDLING
 # ========================================
 
+@contextmanager
 def open_csv(path, member=None):
     """
-    Open a CSV on disk or a CSV inside a ZIP.
-    Return the file handle and ZIP archive.
+    Open an ordinary CSV or a CSV within a ZIP.
     """
 
     if path.suffix.lower() != ".zip":
-        handle = path.open(
+        with path.open(
             "r",
             encoding="utf-8-sig",
             errors="replace",
             newline="",
-        )
-        return handle, None
+        ) as f:
+            yield f
 
-    archive = zipfile.ZipFile(path)
+        return
 
-    names = [
-        name
-        for name in archive.namelist()
-        if name.lower().endswith(".csv")
-    ]
+    with zipfile.ZipFile(path) as archive:
 
-    if not member:
-        if len(names) != 1:
-            archive.close()
+        members = [
+            name
+            for name in archive.namelist()
+            if name.lower().endswith(".csv")
+        ]
+
+        if member is None:
+            if len(members) != 1:
+                raise ValueError(
+                    "ZIP contains multiple CSVs. "
+                    "Specify --member."
+                )
+
+            member = members[0]
+
+        if member not in members:
             raise ValueError(
-                "Specify a CSV member with "
-                "--member or --directory-member"
+                f"CSV not found: {member}"
             )
-        member = names[0]
 
-    if member not in names:
-        archive.close()
-        raise ValueError(
-            f"CSV not found in ZIP: {member}"
-        )
-
-    handle = io.TextIOWrapper(
-        archive.open(member),
-        encoding="utf-8-sig",
-        errors="replace",
-        newline="",
-    )
-
-    return handle, archive
+        with archive.open(member) as raw:
+            with io.TextIOWrapper(
+                raw,
+                encoding="utf-8-sig",
+                errors="replace",
+                newline="",
+            ) as f:
+                yield f
 
 
-def get_column(
-    headers,
-    *candidates,
-    required=False,
-):
-    names = {
-        name.strip().upper(): name
-        for name in headers
+def field(headers, name, required=True):
+    lookup = {
+        h.upper(): h
+        for h in headers
     }
 
-    for candidate in candidates:
-        if candidate.upper() in names:
-            return names[candidate.upper()]
+    result = lookup.get(name.upper())
 
-    if required:
+    if result is None and required:
         raise ValueError(
-            "Missing required column: "
-            f"one of {candidates}"
+            f"Required CRDC column missing: {name}"
         )
+
+    return result
+
+
+# ========================================
+# SCHOOL IDENTIFICATION
+# ========================================
+
+def school_id(row, headers):
+    """
+    Return a 12-digit NCES school ID.
+    """
+
+    for name in (
+        "COMBOKEY",
+        "NCESSCH",
+        "NCES_SCH_ID",
+        "NCES_SCHOOL_ID",
+    ):
+        col = field(
+            headers,
+            name,
+            required=False,
+        )
+
+        if col:
+            value = str(
+                row.get(col) or ""
+            ).strip()
+
+            if re.fullmatch(
+                r"\d{12}",
+                value,
+            ):
+                return value
+
+    lea_col = field(
+        headers,
+        "LEAID",
+        required=False,
+    )
+
+    sch_col = field(
+        headers,
+        "SCHID",
+        required=False,
+    )
+
+    if lea_col and sch_col:
+
+        lea = str(
+            row.get(lea_col) or ""
+        ).strip()
+
+        sch = str(
+            row.get(sch_col) or ""
+        ).strip()
+
+        if (
+            lea.isdigit()
+            and sch.isdigit()
+            and len(lea) <= 7
+            and len(sch) <= 5
+        ):
+            return (
+                lea.zfill(7)
+                + sch.zfill(5)
+            )
+
+    return ""
+
+
+# ========================================
+# NUMERIC AND MISSING VALUE HANDLING
+# ========================================
+
+def parse_count(raw):
+    """
+    Accept nonnegative integer counts.
+
+    Negative reserve codes such as -2,
+    -9, and -10 are not numeric counts.
+    """
+
+    value = str(
+        raw if raw is not None else ""
+    ).strip().replace(",", "")
+
+    if re.fullmatch(
+        r"\d+(?:\.0+)?",
+        value,
+    ):
+        return int(float(value))
 
     return None
 
 
-# ========================================
-# COUNT AND CODE HANDLING
-# ========================================
-
-def int_count(raw):
+def code(raw):
     """
-    Accept nonnegative integer counts only.
-
-    Missing, suppressed, and negative CRDC
-    reserve codes return None, never zero.
-    """
-
-    raw = str(
-        raw if raw is not None else ""
-    ).strip().replace(",", "")
-
-    if not re.fullmatch(
-        r"\d+(?:\.0+)?",
-        raw,
-    ):
-        return None
-
-    return int(float(raw))
-
-
-def reserve_label(raw):
-    """
-    Record the kinds of reporting codes
-    encountered, for auditing.
-    """
-
-    raw = str(
-        raw if raw is not None else ""
-    ).strip()
-
-    if int_count(raw) is not None:
-        return "numeric"
-
-    if not raw:
-        return "blank"
-
-    return raw
-
-
-def is_not_applicable(raw):
-    """
-    CRDC reserve code -9 indicates
-    not applicable or skipped.
+    Preserve reporting-code information
+    for diagnostics.
     """
 
     value = str(
         raw if raw is not None else ""
     ).strip()
 
-    return value in ("-9", "-9.0")
+    if parse_count(value) is not None:
+        return "number"
+
+    return value or "blank"
 
 
-def is_yes(raw):
-    return str(raw or "").strip().upper() in (
+def yes(raw):
+    return str(
+        raw or ""
+    ).strip().upper() in {
         "YES", "Y", "TRUE", "1"
-    )
-
-
-# ========================================
-# SCHOOL IDENTIFIERS
-# ========================================
-
-def id_columns(headers):
-    return {
-        name: get_column(headers, name)
-        for name in (
-            "NCESSCH",
-            "NCES_SCH_ID",
-            "NCES_SCHOOL_ID",
-            "COMBOKEY",
-            "SCH_ID",
-            "LEAID",
-            "SCHID",
-        )
     }
 
 
-def school_id(row, columns):
-    """
-    Prefer a 12-digit NCES school ID.
-    Otherwise construct from LEAID/SCHID.
-    """
-
-    for key in (
-        "NCESSCH",
-        "NCES_SCH_ID",
-        "NCES_SCHOOL_ID",
-        "COMBOKEY",
-        "SCH_ID",
-    ):
-        field = columns.get(key)
-
-        value = (
-            str(row.get(field, "") or "").strip()
-            if field else ""
-        )
-
-        if (
-            len(value) == 12
-            and value.isdigit()
-        ):
-            return value
-
-    lea_field = columns.get("LEAID")
-    sch_field = columns.get("SCHID")
-
-    lea = (
-        str(
-            row.get(lea_field, "") or ""
-        ).strip()
-        if lea_field else ""
-    )
-
-    sch = (
-        str(
-            row.get(sch_field, "") or ""
-        ).strip()
-        if sch_field else ""
-    )
-
-    if (
-        lea.isdigit()
-        and sch.isdigit()
-        and len(lea) <= 7
-        and len(sch) <= 5
-    ):
-        return (
-            lea.zfill(7)
-            + sch.zfill(5)
-        )
-
-    return ""
-
-
 # ========================================
-# SCHOOL GRADE DIRECTORY
+# SCHOOL GRADE CONFIGURATIONS
 # ========================================
 
-def read_grade_directory(path, member):
+def read_school_grades(path, member):
     """
-    Read grades offered by each school
-    from SCH/School Characteristics.csv.
+    Read SCH/School Characteristics.csv
+    and identify grades served.
     """
 
-    grades_by_school = {}
+    result = {}
 
-    handle, archive = open_csv(
-        path, member
-    )
+    with open_csv(
+        path,
+        member,
+    ) as handle:
 
-    try:
         reader = csv.DictReader(handle)
         headers = reader.fieldnames or []
 
-        keys = id_columns(headers)
-
-        grade_fields = {
-            grade: get_column(
+        grade_columns = {
+            grade: field(
                 headers,
-                f"SCH_GRADE_{grade}",
+                "SCH_GRADE_" + grade,
+                required=False,
             )
             for grade in GRADES
         }
 
         if not any(
-            grade_fields.values()
+            grade_columns.values()
         ):
             raise ValueError(
-                "No SCH_GRADE_* columns "
-                "in School Characteristics"
+                "No school grade columns found."
             )
 
         for row in reader:
-            sid = school_id(row, keys)
+
+            sid = school_id(
+                row,
+                headers,
+            )
 
             if not sid:
                 continue
 
-            if sid in grades_by_school:
+            if sid in result:
                 raise ValueError(
-                    "Duplicate school in "
-                    f"characteristics: {sid}"
+                    f"Duplicate school ID: {sid}"
                 )
 
-            grades_by_school[sid] = [
+            offered = [
                 grade
-                for grade, field
-                in grade_fields.items()
+                for grade, col
+                in grade_columns.items()
                 if (
-                    field
-                    and is_yes(row.get(field))
+                    col
+                    and yes(row.get(col))
                 )
             ]
 
-    finally:
-        handle.close()
-
-        if archive:
-            archive.close()
-
-    return grades_by_school
-
-
-# ========================================
-# ENROLLMENT COLUMNS
-# ========================================
-
-def enrollment_columns(headers):
-    result = id_columns(headers)
-
-    choices = {
-        "state": (
-            "LEA_STATE", "STATE"
-        ),
-        "school": (
-            "SCH_NAME", "SCHOOL_NAME"
-        ),
-        "district": (
-            "LEA_NAME", "DISTRICT_NAME"
-        ),
-        "city": (
-            "SCH_CITY", "LEA_CITY"
-        ),
-        "el_m": (
-            "SCH_ENR_EL_M",
-        ),
-        "el_f": (
-            "SCH_ENR_EL_F",
-        ),
-        "el_x": (
-            "SCH_ENR_EL_X",
-        ),
-        "tot_m": (
-            "TOT_ENR_M",
-        ),
-        "tot_f": (
-            "TOT_ENR_F",
-        ),
-        "tot_x": (
-            "TOT_ENR_X",
-        ),
-    }
-
-    required = {
-        "state",
-        "el_m",
-        "el_f",
-        "tot_m",
-        "tot_f",
-    }
-
-    for key, names in choices.items():
-        result[key] = get_column(
-            headers,
-            *names,
-            required=key in required,
-        )
-
-    if bool(result["el_x"]) != bool(
-        result["tot_x"]
-    ):
-        raise ValueError(
-            "Only one of the paired X-category "
-            "enrollment fields exists"
-        )
+            result[sid] = offered
 
     return result
 
@@ -492,188 +403,207 @@ def enrollment_columns(headers):
 # ENGLISH LEARNER CALCULATION
 # ========================================
 
-def evaluate_counts(
-    row,
-    columns,
-    diagnostic_pairs,
-):
+def evaluate(row, columns, diagnostic):
     """
-    Calculate EL enrollment and total
-    enrollment.
+    Calculate the EL proportion.
 
-    Male and female counts are required.
+    When X enrollment is suppressed,
+    use male + female counts as a
+    provisional screening denominator.
 
-    Additional sex-category X counts:
-      - Include when numeric.
-      - Exclude if both fields are -9.
-      - Do not convert suppressed or
-        missing values to zero.
-
-    Returns:
-      el, total, status, reason, x_handling
+    Suppressed X counts are not zero.
     """
 
-    em = int_count(
-        row.get(columns["el_m"])
-    )
+    values = {}
 
-    ef = int_count(
-        row.get(columns["el_f"])
-    )
+    for name in (
+        "el_m",
+        "el_f",
+        "total_m",
+        "total_f",
+    ):
+        raw = row.get(
+            columns[name]
+        )
 
-    tm = int_count(
-        row.get(columns["tot_m"])
-    )
+        value = parse_count(raw)
 
-    tf = int_count(
-        row.get(columns["tot_f"])
-    )
+        diagnostic[
+            "core_code_counts"
+        ][
+            f"{name}:{code(raw)}"
+        ] += 1
 
-    if None in (em, ef, tm, tf):
+        values[name] = value
+
+    # Male and female counts must be usable.
+
+    if any(
+        value is None
+        for value in values.values()
+    ):
         return (
             None,
             None,
-            "unassessed",
+            "",
             "missing_or_suppressed_male_female",
-            "not_evaluated",
         )
 
-    el = em + ef
-    total = tm + tf
+    el = (
+        values["el_m"]
+        + values["el_f"]
+    )
 
-    x_handling = "no_x_columns"
+    total = (
+        values["total_m"]
+        + values["total_f"]
+    )
 
-    if columns["el_x"]:
-        el_raw = row.get(
+    basis = "male_female_only"
+
+    # ------------------------------------
+    # Handle X category separately.
+    # ------------------------------------
+
+    if (
+        columns["el_x"]
+        and columns["total_x"]
+    ):
+
+        raw_el_x = row.get(
             columns["el_x"]
         )
 
-        tot_raw = row.get(
-            columns["tot_x"]
+        raw_total_x = row.get(
+            columns["total_x"]
         )
 
-        ex = int_count(el_raw)
-        tx = int_count(tot_raw)
+        el_x = parse_count(
+            raw_el_x
+        )
+
+        total_x = parse_count(
+            raw_total_x
+        )
 
         pattern = (
-            f"EL_X={reserve_label(el_raw)};"
-            f"TOT_X={reserve_label(tot_raw)}"
+            f"el:{code(raw_el_x)}"
+            f"|total:{code(raw_total_x)}"
         )
 
-        diagnostic_pairs[pattern] += 1
+        diagnostic[
+            "x_field_pairs"
+        ][pattern] += 1
 
         if (
-            ex is not None
-            and tx is not None
+            el_x is not None
+            and total_x is not None
         ):
-            el += ex
-            total += tx
 
-            x_handling = (
-                "included_reported_x"
+            el += el_x
+            total += total_x
+
+            basis = (
+                "all_reported_sex_categories"
             )
 
         elif (
-            is_not_applicable(el_raw)
-            and is_not_applicable(tot_raw)
+            code(raw_el_x) in ("-9", "-9.0")
+            and code(raw_total_x)
+            in ("-9", "-9.0")
         ):
-            # Both fields are explicitly
-            # not applicable.
-            # Use the male/female totals.
 
-            x_handling = (
-                "x_not_applicable_both_minus9"
+            basis = (
+                "male_female_x_not_applicable"
             )
 
         elif (
-            tx == 0
-            and is_not_applicable(el_raw)
+            code(raw_el_x) in ("-10", "-10.0")
+            or code(raw_total_x)
+            in ("-10", "-10.0")
         ):
-            # A reported total of zero in
-            # this category implies zero
-            # English learners in it.
 
-            x_handling = (
-                "x_zero_total_el_not_applicable"
+            # Federal 2023-24 release
+            # redacts these fields.
+            #
+            # We can use M+F for screening,
+            # but not claim an exact
+            # all-student percentage.
+
+            basis = (
+                "male_female_only_x_redacted"
             )
 
         else:
-            # Suppressed or inconsistent X
-            # values cannot safely be
-            # assumed to equal zero.
 
-            return (
-                None,
-                None,
-                "unassessed",
-                "missing_or_suppressed_x",
-                "x_unusable",
+            basis = (
+                "male_female_only_x_unavailable"
             )
 
     if total <= 0:
+
         return (
             None,
             None,
-            "unassessed",
-            "zero_or_invalid_total",
-            x_handling,
+            basis,
+            "zero_total",
         )
 
     if el > total:
+
         return (
             None,
             None,
-            "unassessed",
-            "el_greater_than_total",
-            x_handling,
+            basis,
+            "el_exceeds_total",
         )
 
     return (
         el,
         total,
-        "assessed",
+        basis,
         "",
-        x_handling,
     )
 
 
 # ========================================
-# NATIONAL SCREEN
+# NATIONAL SCREENING
 # ========================================
 
-def screen(
+def run(
     input_file,
-    output_dir,
     member,
     directory,
     directory_member,
+    output,
 ):
 
     if directory is None:
         raise ValueError(
-            "--directory must point to "
-            "the CRDC school-characteristics "
-            "CSV or ZIP"
+            "Use --directory to specify "
+            "School Characteristics."
         )
+
+    output.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     print(
         "Reading national school "
-        "grade configurations..."
+        "grade configurations...",
+        flush=True,
     )
 
-    grade_directory = read_grade_directory(
+    grades_by_school = read_school_grades(
         directory,
         directory_member,
     )
 
     print(
-        f"Loaded {len(grade_directory):,} "
-        "school identities."
-    )
-
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True,
+        f"Loaded {len(grades_by_school):,} "
+        "school characteristics records.",
+        flush=True,
     )
 
     counts = {
@@ -681,333 +611,391 @@ def screen(
         for state in STATES
     }
 
-    other = Counter()
-    reasons = Counter()
-    x_pairs = Counter()
+    excluded = Counter()
+
+    diagnostic = {
+        "core_code_counts": Counter(),
+        "x_field_pairs": Counter(),
+        "unassessed_reasons": Counter(),
+        "measurement_bases": Counter(),
+    }
 
     seen = set()
 
-    handle, archive = open_csv(
-        input_file,
-        member,
+    all_path = (
+        output
+        / "school_screen_all_2023_24.csv"
     )
 
-    try:
-        reader = csv.DictReader(handle)
+    candidate_path = (
+        output
+        / "candidates_over_20_2023_24.csv"
+    )
+
+    with (
+        open_csv(
+            input_file,
+            member,
+        ) as source,
+        all_path.open(
+            "w",
+            newline="",
+            encoding="utf-8",
+        ) as full_file,
+        candidate_path.open(
+            "w",
+            newline="",
+            encoding="utf-8",
+        ) as candidate_file,
+    ):
+
+        reader = csv.DictReader(
+            source
+        )
 
         headers = reader.fieldnames or []
 
-        cols = enrollment_columns(headers)
-
-        schema = {
-            "columns_used": cols,
-            "input": str(input_file),
-            "enrollment_member": member,
-            "characteristics_member":
-                directory_member,
+        columns = {
+            "state": field(
+                headers, "LEA_STATE"
+            ),
+            "school": field(
+                headers, "SCH_NAME"
+            ),
+            "district": field(
+                headers, "LEA_NAME"
+            ),
+            "el_m": field(
+                headers, "SCH_ENR_EL_M"
+            ),
+            "el_f": field(
+                headers, "SCH_ENR_EL_F"
+            ),
+            "total_m": field(
+                headers, "TOT_ENR_M"
+            ),
+            "total_f": field(
+                headers, "TOT_ENR_F"
+            ),
+            "el_x": field(
+                headers,
+                "SCH_ENR_EL_X",
+                required=False,
+            ),
+            "total_x": field(
+                headers,
+                "TOT_ENR_X",
+                required=False,
+            ),
         }
 
-        all_path = (
-            output_dir
-            / "school_screen_all_2023_24.csv"
+        full_writer = csv.DictWriter(
+            full_file,
+            fieldnames=OUTPUT_COLS,
         )
 
-        candidate_path = (
-            output_dir
-            / "candidates_over_20_2023_24.csv"
+        candidate_writer = csv.DictWriter(
+            candidate_file,
+            fieldnames=OUTPUT_COLS,
         )
 
-        with (
-            all_path.open(
-                "w",
-                newline="",
-                encoding="utf-8",
-            ) as fullfile,
-            candidate_path.open(
-                "w",
-                newline="",
-                encoding="utf-8",
-            ) as candidatefile,
-        ):
+        full_writer.writeheader()
+        candidate_writer.writeheader()
 
-            full_writer = csv.DictWriter(
-                fullfile,
-                fieldnames=OUTPUT_COLS,
+        print(
+            "Screening national enrollment...",
+            flush=True,
+        )
+
+        for row in reader:
+
+            raw_state = str(
+                row.get(
+                    columns["state"]
+                ) or ""
+            ).strip().upper()
+
+            state = STATE_NAMES.get(
+                raw_state,
+                raw_state,
             )
 
-            candidate_writer = csv.DictWriter(
-                candidatefile,
-                fieldnames=OUTPUT_COLS,
-            )
+            if state not in counts:
 
-            full_writer.writeheader()
-            candidate_writer.writeheader()
-
-            print(
-                "Screening national "
-                "enrollment records..."
-            )
-
-            for row in reader:
-
-                raw_state = str(
-                    row.get(
-                        cols["state"], ""
-                    ) or ""
-                ).strip().upper()
-
-                state = STATE_NAMES.get(
-                    raw_state,
-                    raw_state,
-                )
-
-                if state not in STATES:
-                    other[
-                        "outside_50_states_dc"
-                    ] += 1
-                    continue
-
-                count = counts[state]
-
-                count[
-                    "all_school_records"
+                excluded[
+                    "outside_50_states_dc"
                 ] += 1
 
-                sid = school_id(
-                    row,
-                    cols,
+                continue
+
+            count = counts[state]
+
+            count[
+                "all_school_records"
+            ] += 1
+
+            sid = school_id(
+                row,
+                headers,
+            )
+
+            if not sid:
+
+                count[
+                    "no_valid_nces_id"
+                ] += 1
+
+                continue
+
+            if sid in seen:
+                raise ValueError(
+                    f"Duplicate school record: {sid}"
                 )
 
-                if not sid:
-                    count[
-                        "no_valid_nces_id"
-                    ] += 1
-                    continue
+            seen.add(sid)
 
-                if (state, sid) in seen:
-                    raise ValueError(
-                        "Duplicate school record: "
-                        f"{state} {sid}"
-                    )
-
-                seen.add((state, sid))
-
-                grades = grade_directory.get(
+            grades = (
+                grades_by_school.get(
                     sid, []
                 )
+            )
 
-                if not grades:
-                    count[
-                        "no_grade_flags"
-                    ] += 1
-                    continue
-
-                if not ELEMENTARY.intersection(
-                    grades
-                ):
-                    count[
-                        "not_elementary_serving"
-                    ] += 1
-                    continue
+            if not grades:
 
                 count[
-                    "elementary_serving"
+                    "no_grade_flags"
                 ] += 1
 
-                number_grades = [
-                    int(g[1:])
-                    for g in grades
-                    if re.fullmatch(
-                        r"G\d{2}",
-                        g,
-                    )
-                ]
+                continue
 
-                high = max(
-                    number_grades,
-                    default=0,
+            if not ELEMENTARY.intersection(
+                grades
+            ):
+
+                count[
+                    "not_elementary_serving"
+                ] += 1
+
+                continue
+
+            count[
+                "elementary_serving"
+            ] += 1
+
+            numeric_grades = [
+                int(grade[1:])
+                for grade in grades
+                if re.fullmatch(
+                    r"G\d{2}",
+                    grade,
+                )
+            ]
+
+            highest = max(
+                numeric_grades,
+                default=0,
+            )
+
+            lowest = min(
+                numeric_grades,
+                default=0,
+            )
+
+            elementary_only = (
+                highest <= 5
+            )
+
+            if elementary_only:
+
+                count[
+                    "elementary_only"
+                ] += 1
+
+            # ----------------------------
+            # Calculate EL share.
+            # ----------------------------
+
+            (
+                el,
+                total,
+                basis,
+                reason,
+            ) = evaluate(
+                row,
+                columns,
+                diagnostic,
+            )
+
+            diagnostic[
+                "measurement_bases"
+            ][
+                basis or "unavailable"
+            ] += 1
+
+            flag = None
+            percent = None
+
+            if reason:
+
+                count[
+                    "unassessed"
+                ] += 1
+
+                diagnostic[
+                    "unassessed_reasons"
+                ][reason] += 1
+
+                status = "unassessed"
+
+            else:
+
+                percent = round(
+                    100 * el / total,
+                    6,
                 )
 
-                low = min(
-                    number_grades,
-                    default=0,
+                # Strictly greater than 20%.
+                # No rounding ambiguity.
+
+                flag = (
+                    5 * el > total
                 )
 
-                elementary_only = (
-                    high <= 5
+                count[
+                    "flagged"
+                    if flag
+                    else "not_flagged"
+                ] += 1
+
+                status = (
+                    "candidate_over_20"
+                    if flag
+                    else "at_or_below_20"
                 )
 
-                if elementary_only:
-                    count[
-                        "elementary_only"
-                    ] += 1
+            # ----------------------------
+            # Record each school.
+            # ----------------------------
 
-                (
-                    el,
-                    total,
-                    status,
-                    reason,
-                    x_handling,
-                ) = evaluate_counts(
-                    row,
-                    cols,
-                    x_pairs,
-                )
+            record = {
+                "state": state,
 
-                if status == "unassessed":
+                "school_year": "2023-24",
 
-                    count[
-                        "unassessed"
-                    ] += 1
+                "nces_school_id": sid,
 
-                    reasons[reason] += 1
+                "school_name": row.get(
+                    columns["school"], ""
+                ),
 
-                    pct = None
-                    flag = None
+                "district_name": row.get(
+                    columns["district"], ""
+                ),
 
-                    status = (
-                        "unassessed_missing_or_invalid"
+                "city": "",
+
+                "grade_low": (
+                    lowest
+                    if lowest
+                    else (
+                        "KG"
+                        if "KG" in grades
+                        else "PS"
                     )
+                ),
 
-                else:
-                    pct = round(
-                        100 * el / total,
-                        6,
+                "grade_high": (
+                    highest
+                    if highest
+                    else (
+                        "KG"
+                        if "KG" in grades
+                        else "PS"
                     )
+                ),
 
-                    # Strictly greater than 20%.
-                    # Integer arithmetic avoids
-                    # rounding errors.
+                "grades_served": (
+                    ";".join(grades)
+                ),
 
-                    flag = (
-                        5 * el > total
-                    )
+                "elementary_only": (
+                    str(
+                        elementary_only
+                    ).lower()
+                ),
 
-                    count[
-                        "flagged"
-                        if flag
-                        else "not_flagged"
-                    ] += 1
+                "el_count": (
+                    el
+                    if el is not None
+                    else ""
+                ),
 
-                    status = (
-                        "candidate_over_20"
-                        if flag
-                        else "at_or_below_20"
-                    )
+                "total_enrollment": (
+                    total
+                    if total is not None
+                    else ""
+                ),
 
-                record = {
-                    "state": state,
-                    "school_year": "2023-24",
-                    "nces_school_id": sid,
+                "el_percent": (
+                    percent
+                    if percent is not None
+                    else ""
+                ),
 
-                    "school_name": (
+                "flag_over_20": (
+                    str(flag).lower()
+                    if flag is not None
+                    else ""
+                ),
+
+                "status": status,
+
+                "measurement_basis": basis,
+
+                "unassessed_reason": reason,
+
+                "x_total_code": (
+                    code(
                         row.get(
-                            cols["school"], ""
+                            columns["total_x"]
                         )
-                        if cols["school"]
-                        else ""
-                    ),
+                    )
+                    if columns["total_x"]
+                    else "absent"
+                ),
 
-                    "district_name": (
+                "x_el_code": (
+                    code(
                         row.get(
-                            cols["district"], ""
+                            columns["el_x"]
                         )
-                        if cols["district"]
-                        else ""
-                    ),
+                    )
+                    if columns["el_x"]
+                    else "absent"
+                ),
 
-                    "city": (
-                        row.get(
-                            cols["city"], ""
-                        )
-                        if cols["city"]
-                        else ""
-                    ),
+                "data_source": (
+                    "US DOE CRDC 2023-24"
+                ),
 
-                    "grade_low": (
-                        low
-                        if low
-                        else (
-                            "KG"
-                            if "KG" in grades
-                            else "PS"
-                        )
-                    ),
+                "source_url": SOURCE,
+            }
 
-                    "grade_high": high,
+            full_writer.writerow(
+                record
+            )
 
-                    "grades_served": (
-                        ";".join(grades)
-                    ),
-
-                    "elementary_only": (
-                        str(
-                            elementary_only
-                        ).lower()
-                    ),
-
-                    "el_count": (
-                        el
-                        if el is not None
-                        else ""
-                    ),
-
-                    "total_enrollment": (
-                        total
-                        if total is not None
-                        else ""
-                    ),
-
-                    "el_percent": (
-                        pct
-                        if pct is not None
-                        else ""
-                    ),
-
-                    "flag_over_20": (
-                        str(flag).lower()
-                        if flag is not None
-                        else ""
-                    ),
-
-                    "status": status,
-
-                    "unassessed_reason": (
-                        reason
-                    ),
-
-                    "sex_x_handling": (
-                        x_handling
-                    ),
-
-                    "data_source": (
-                        "US DOE CRDC 2023-24"
-                    ),
-
-                    "source_url": SOURCE,
-                }
-
-                full_writer.writerow(
+            if flag:
+                candidate_writer.writerow(
                     record
                 )
-
-                if flag:
-                    candidate_writer.writerow(
-                        record
-                    )
-
-    finally:
-        handle.close()
-
-        if archive:
-            archive.close()
 
     # ====================================
     # STATE SUMMARY
     # ====================================
 
     state_path = (
-        output_dir
+        output
         / "state_summary_2023_24.csv"
     )
 
@@ -1021,18 +1009,20 @@ def screen(
             handle,
             fieldnames=[
                 "state",
-                *SUMMARY_KEYS,
+                *COUNT_KEYS,
             ],
         )
 
         writer.writeheader()
 
         for state in STATES:
+
             writer.writerow({
                 "state": state,
+
                 **{
                     key: counts[state][key]
-                    for key in SUMMARY_KEYS
+                    for key in COUNT_KEYS
                 },
             })
 
@@ -1045,13 +1035,13 @@ def screen(
             counts[state][key]
             for state in STATES
         )
-        for key in SUMMARY_KEYS
+        for key in COUNT_KEYS
     }
 
     result = {
         "dataset": (
-            "2023-24 CRDC school-level, "
-            "50 states and DC"
+            "US DOE CRDC 2023-24 "
+            "school-level, 50 states and DC"
         ),
 
         "generated_utc": (
@@ -1060,35 +1050,55 @@ def screen(
             ).isoformat()
         ),
 
-        "strict_threshold": (
-            ">20% EL of total reported "
-            "school enrollment"
+        "screening_threshold": (
+            "Strictly greater than 20%"
         ),
 
-        "not_a_dual_language_program_classifier":
+        "screening_note": (
+            "Uses M+F reported counts "
+            "where X is redacted; "
+            "not necessarily full-population "
+            "EL percentage."
+        ),
+
+        "not_a_dual_language_classifier":
             True,
 
         "national": national,
 
-        "unassessed_reasons": (
-            dict(reasons)
+        "measurement_bases": dict(
+            diagnostic[
+                "measurement_bases"
+            ]
         ),
 
-        "x_category_reporting_patterns": (
-            dict(x_pairs)
+        "unassessed_reasons": dict(
+            diagnostic[
+                "unassessed_reasons"
+            ]
         ),
 
-        "other_records": (
-            dict(other)
+        "x_field_pairs": dict(
+            diagnostic[
+                "x_field_pairs"
+            ]
+        ),
+
+        "core_code_counts": dict(
+            diagnostic[
+                "core_code_counts"
+            ]
+        ),
+
+        "outside_50_states_dc": dict(
+            excluded
         ),
     }
 
-    summary_path = (
-        output_dir
+    (
+        output
         / "national_summary.json"
-    )
-
-    summary_path.write_text(
+    ).write_text(
         json.dumps(
             result,
             indent=2,
@@ -1096,14 +1106,18 @@ def screen(
         encoding="utf-8",
     )
 
-    schema_path = (
-        output_dir
+    (
+        output
         / "source_schema.json"
-    )
-
-    schema_path.write_text(
+    ).write_text(
         json.dumps(
-            schema,
+            {
+                "columns_used": columns,
+                "members": [
+                    member,
+                    directory_member,
+                ],
+            },
             indent=2,
         ),
         encoding="utf-8",
@@ -1113,56 +1127,55 @@ def screen(
     # VALIDATION
     # ====================================
 
-    assessed = (
+    evaluated = (
         national["flagged"]
         + national["not_flagged"]
     )
 
-    if assessed == 0:
-        raise RuntimeError(
-            "Zero elementary schools evaluated. "
-            "See national_summary.json for "
-            "missing-value diagnostics. "
-            "Do not interpret zero as no "
-            "candidate schools."
-        )
-
     if (
-        assessed
+        evaluated
         + national["unassessed"]
         != national["elementary_serving"]
     ):
         raise AssertionError(
-            "Screening count "
-            "reconciliation failed"
+            "National school counts "
+            "did not reconcile."
+        )
+
+    # Print diagnostics BEFORE raising
+    # so the cause is visible in Actions.
+
+    print(
+        json.dumps(
+            {
+                "national": national,
+
+                "measurement_bases":
+                    result["measurement_bases"],
+
+                "unassessed_reasons":
+                    result["unassessed_reasons"],
+
+                "x_field_pairs":
+                    result["x_field_pairs"],
+            },
+            indent=2,
+        ),
+        flush=True,
+    )
+
+    if evaluated == 0:
+        raise RuntimeError(
+            "No schools evaluated. "
+            "Inspect national_summary.json "
+            "and reporting-code diagnostics."
         )
 
     print(
-        "\nNational screening completed."
-    )
-
-    print(
-        f"Elementary-serving schools: "
-        f"{national['elementary_serving']:,}"
-    )
-
-    print(
-        f"Above 20% ELL: "
-        f"{national['flagged']:,}"
-    )
-
-    print(
-        f"At or below 20%: "
-        f"{national['not_flagged']:,}"
-    )
-
-    print(
-        f"Unassessed: "
-        f"{national['unassessed']:,}"
-    )
-
-    print(
-        f"\nResults saved to {output_dir}"
+        f"Completed: "
+        f"{national['flagged']:,} candidates "
+        f"from {evaluated:,} evaluated schools.",
+        flush=True,
     )
 
     return result
@@ -1185,26 +1198,15 @@ def main():
 
     parser.add_argument(
         "--member",
-        help=(
-            "Enrollment CSV "
-            "inside the source ZIP"
-        ),
     )
 
     parser.add_argument(
         "--directory",
         type=Path,
-        help=(
-            "Characteristics CSV or ZIP"
-        ),
     )
 
     parser.add_argument(
         "--directory-member",
-        help=(
-            "Characteristics CSV "
-            "inside ZIP"
-        ),
     )
 
     parser.add_argument(
@@ -1228,31 +1230,21 @@ def main():
             args.file
         ) as archive:
 
-            for member in archive.infolist():
+            for name in archive.namelist():
 
-                if member.filename.lower().endswith(
+                if name.lower().endswith(
                     ".csv"
                 ):
-                    print(
-                        member.filename,
-                        member.file_size,
-                    )
+                    print(name)
 
         return
 
-    result = screen(
+    run(
         args.file,
-        args.output,
         args.member,
         args.directory,
         args.directory_member,
-    )
-
-    print(
-        json.dumps(
-            result,
-            indent=2,
-        )
+        args.output,
     )
 
 
