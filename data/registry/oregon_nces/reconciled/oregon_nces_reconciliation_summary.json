@@ -1,0 +1,18 @@
+{
+  "nces_reference_year": "2024-25",
+  "source_observations_retained": 223,
+  "dli_source_observations": 211,
+  "directory_school_identities": 196,
+  "matched_directory_identities": 195,
+  "distinct_nces_school_ids": 193,
+  "unmatched_new_school_identities": 1,
+  "school_language_keys": 209,
+  "reconciliation_decisions": 31,
+  "match_status_counts": {
+    "matched_exact_name_and_district": 165,
+    "reconciled_school_alias": 27,
+    "reconciled_shared_grade_band": 3,
+    "unmatched_new_school_after_reference_year": 1
+  },
+  "caution": "Identity match does not verify historical DLI cohorts or schoolwide outcome comparability."
+}
