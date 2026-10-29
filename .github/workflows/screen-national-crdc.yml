@@ -1,0 +1,121 @@
+
+name: Screen national CRDC for high-EL elementary schools
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install browser
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+
+      - name: Download 2023-24 federal CRDC archive
+        run: |
+          mkdir -p /tmp/crdc
+          python3 - <<'PY'
+          import re
+          import zipfile
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+
+          destination = Path(
+              '/tmp/crdc/2023-24-crdc-data.zip'
+          )
+
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True)
+              page = browser.new_page(
+                  accept_downloads=True
+              )
+
+              page.goto(
+                  'https://ocrdata.ed.gov/data',
+                  wait_until='domcontentloaded',
+                  timeout=90000
+              )
+
+              row = page.locator('tr').filter(
+                  has_text=re.compile(
+                      r'2023\s*[-–]\s*24'
+                  )
+              ).first
+
+              row.wait_for(timeout=90000)
+
+              link = row.locator(
+                  'td'
+              ).nth(2).locator(
+                  'a,button'
+              ).first
+
+              with page.expect_download(
+                  timeout=600000
+              ) as info:
+                  link.click(timeout=30000)
+
+              info.value.save_as(
+                  str(destination)
+              )
+
+              browser.close()
+
+          with zipfile.ZipFile(destination) as archive:
+              required = {
+                  'SCH/Enrollment.csv',
+                  'SCH/School Characteristics.csv'
+              }
+
+              missing = required.difference(
+                  archive.namelist()
+              )
+
+              if missing:
+                  raise RuntimeError(
+                      f'Missing CRDC members: {sorted(missing)}'
+                  )
+
+          print(
+              f'Archive downloaded and verified: '
+              f'{destination.stat().st_size / 1e6:.1f} MB'
+          )
+          PY
+
+      - name: Screen 50 states and DC
+        run: |
+          python3 analysis/national_crdc/screen_national_crdc.py \
+            /tmp/crdc/2023-24-crdc-data.zip \
+            --member 'SCH/Enrollment.csv' \
+            --directory /tmp/crdc/2023-24-crdc-data.zip \
+            --directory-member 'SCH/School Characteristics.csv' \
+            --output output/national_crdc/2023_24
+
+      - name: Print national and state summaries
+        run: |
+          cat output/national_crdc/2023_24/national_summary.json
+          head -n 55 output/national_crdc/2023_24/state_summary_2023_24.csv
+
+      - name: Upload national screening results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crdc-national-ell-screen-2023-24
+          path: output/national_crdc/2023_24/
+          if-no-files-found: warn
+          retention-days: 90
