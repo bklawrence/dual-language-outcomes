@@ -1,52 +1,27 @@
 
 #!/usr/bin/env python3
-"""Conservative repair of Oregon 2026-27 DLI extraction.
+"""Audit Oregon's coordinate-based extraction.
 
-Inputs:
-  oregon_2026_27_extraction_audit.csv
-  state_dl_programs_oregon.csv
-
-Outputs:
-  source_rows_with_status.csv
-  rows_requiring_geometry.csv
-  provisional_noncomposite_observations.csv
-  repair_report.json
-
-Composite PDF rows are quarantined, not automatically split.
+Multiline cells are not automatically composite rows.
+Non-DLI programs remain documented but are excluded
+from provisional dual-language candidate observations.
 """
 
 import argparse
 import json
-import pathlib
-import re
+from pathlib import Path
 
 import pandas as pd
-
-
-def normalized(value):
-    if pd.isna(value):
-        return ""
-    return re.sub(r"\s+", " ", str(value)).strip()
-
-
-def line_count(value):
-    return len([
-        line for line in str(value).splitlines()
-        if line.strip()
-    ])
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--audit", required=True)
     parser.add_argument("--programs", required=True)
-    parser.add_argument(
-        "--out",
-        default="data/state_dl/oregon_repaired"
-    )
+    parser.add_argument("--out", required=True)
     args = parser.parse_args()
 
-    out = pathlib.Path(args.out)
+    out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
     audit = pd.read_csv(
@@ -57,97 +32,110 @@ def main():
         args.programs, dtype=str
     ).fillna("")
 
-    # A PDF-extracted row is potentially composite if
-    # it contains multiple districts or language entries.
-    # Do not split school names on newline boundaries:
-    # legitimate school names can occupy several lines.
+    required = {
+        "extraction_issue",
+        "school_raw",
+        "district_raw",
+    }
 
-    composite = audit.apply(
-        lambda row: (
-            line_count(row["district_raw"]) > 1
-            or line_count(row["language_raw"]) > 1
-        ),
-        axis=1
-    )
+    if not required.issubset(audit.columns):
+        raise ValueError(
+            f"Missing audit columns: {required - set(audit.columns)}"
+        )
 
     audit["audit_id"] = range(1, len(audit) + 1)
 
-    audit["repair_status"] = composite.map({
-        True: "requires_pdf_geometry",
-        False: "candidate_single_record"
-    })
+    unresolved = (
+        audit["extraction_issue"].str.strip().ne("")
+    )
+
+    non_dli = audit["model_raw"].str.contains(
+        r"Heritage Language Program|Native Language\s+Revitalization",
+        regex=True,
+        case=False,
+        na=False,
+    )
+
+    audit["repair_status"] = "parsed_directory_row"
+
+    audit.loc[
+        non_dli, "repair_status"
+    ] = "source_non_dli_program"
+
+    audit.loc[
+        unresolved, "repair_status"
+    ] = "requires_source_review"
 
     audit.to_csv(
         out / "source_rows_with_status.csv",
-        index=False
+        index=False,
     )
 
-    audit[composite].to_csv(
+    audit.loc[unresolved].to_csv(
         out / "rows_requiring_geometry.csv",
-        index=False
+        index=False,
     )
 
-    # Retain existing non-review observations.
-    # These remain provisional, not source-verified.
+    # Exclude explicitly non-DLI programs.
+    # Retain other candidates as provisional,
+    # not verified NCES school records.
 
-    candidates = programs[
-        ~programs["verification_status"].str.contains(
-            "needs_review",
-            case=False,
-            na=False
-        )
-    ].copy()
+    excluded = (
+        programs["verification_status"]
+        .str.startswith("excluded_")
+    )
+
+    candidates = programs.loc[~excluded].copy()
 
     candidates["repair_status"] = (
-        "provisional_single_record_unverified"
+        "provisional_not_nces_matched"
     )
 
-    candidates["school_name"] = (
-        candidates["school_name"].map(normalized)
+    needs_review = (
+        candidates["verification_status"]
+        .str.contains(
+            "needs_review",
+            case=False,
+            regex=False,
+            na=False,
+        )
     )
-
-    # Detect suspicious fragments caused by
-    # extraction across column or row boundaries.
-
-    bad_school = candidates["school_name"].str.match(
-        r"^(School\b|Charter\b|\(EIHS\))",
-        case=False
-    )
-
-    bad_language = candidates["partner_language"].str.contains(
-        r"^(o |S )|Spanish Russian",
-        case=False,
-        regex=True
-    )
-
-    suspect = bad_school | bad_language
 
     candidates.loc[
-        suspect, "repair_status"
-    ] = "requires_manual_school_or_language_check"
+        needs_review, "repair_status"
+    ] = "program_review_needed"
 
     candidates.to_csv(
         out / "provisional_noncomposite_observations.csv",
-        index=False
+        index=False,
     )
 
     report = {
-        "original_directory_rows": len(audit),
-        "original_observations": len(programs),
-        "audit_composite_rows": int(composite.sum()),
-        "audit_candidate_single_rows": int((~composite).sum()),
-        "provisional_observations": len(candidates),
-        "provisional_flagged_for_check": int(suspect.sum()),
-        "verified_school_records": 0,
+        "original_directory_rows": int(len(audit)),
+        "original_observations": int(len(programs)),
+        "unresolved_source_rows": int(
+            unresolved.sum()
+        ),
+        "non_dli_source_rows": int(
+            non_dli.sum()
+        ),
+        "non_dli_observations_excluded_from_candidates":
+            int(excluded.sum()),
+        "provisional_dli_candidate_observations":
+            int(len(candidates)),
+        "candidate_observations_requiring_review":
+            int(needs_review.sum()),
+        "verified_nces_matches": 0,
         "note": (
-            "Composite rows require PDF-coordinate "
-            "reconstruction before NCES matching."
-        )
+            "Multiline cells are allowed. "
+            "Source listing is not outcome "
+            "eligibility or NCES verification."
+        ),
     }
 
     (out / "repair_report.json").write_text(
         json.dumps(report, indent=2) + "\n",
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
     print(json.dumps(report, indent=2))
