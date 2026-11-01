@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install headless browser
+      - name: Install browser dependencies
         run: |
           python3 -m pip install playwright==1.56.0
           python3 -m playwright install --with-deps chromium
@@ -31,15 +31,28 @@ jobs:
           test -f collectors/texas.py
           test -f collectors/texas_tapr_dli.py
 
-      - name: Recreate 2024-25 Texas campus roster
+      - name: Refresh campus roster
         run: python3 collectors/texas.py --out output/texas
 
-      - name: Download and extract 2023-24 TAPR campus DLI data
+      - name: Collect and validate 2023-24 TAPR DLI groups
         run: |
           python3 collectors/texas_tapr_dli.py \
             --roster output/texas/tx_2024_25_all_campuses.csv \
             --out output/texas/tapr \
-            --wait-seconds 300
+            --wait-seconds 180
+
+      - name: Print TAPR diagnostics
+        if: always()
+        run: |
+          if test -f output/texas/tapr/tx_tapr_download_debug.json; then
+            cat output/texas/tapr/tx_tapr_download_debug.json
+          fi
+          if test -f output/texas/tapr/tx_tapr_collector_failure.json; then
+            cat output/texas/tapr/tx_tapr_collector_failure.json
+          fi
+          if test -f output/texas/tapr/tx_tapr_2023_24_report.json; then
+            cat output/texas/tapr/tx_tapr_2023_24_report.json
+          fi
 
       - name: Upload source, extraction and diagnostics
         if: always()
