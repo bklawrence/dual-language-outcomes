@@ -1,0 +1,51 @@
+
+name: Collect Texas TAPR dual-language assessment groups
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tapr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install headless browser
+        run: |
+          python3 -m pip install playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+
+      - name: Verify collectors
+        run: |
+          test -f collectors/texas.py
+          test -f collectors/texas_tapr_dli.py
+
+      - name: Recreate 2024-25 Texas campus roster
+        run: python3 collectors/texas.py --out output/texas
+
+      - name: Download and extract 2023-24 TAPR campus DLI data
+        run: |
+          python3 collectors/texas_tapr_dli.py \
+            --roster output/texas/tx_2024_25_all_campuses.csv \
+            --out output/texas/tapr \
+            --wait-seconds 300
+
+      - name: Upload source, extraction and diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: texas-tapr-${{ github.run_number }}
+          path: output/texas/tapr/
+          if-no-files-found: warn
+          retention-days: 90
