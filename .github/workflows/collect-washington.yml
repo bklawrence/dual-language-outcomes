@@ -12,11 +12,17 @@ permissions:
 jobs:
   collect-and-analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 65
+    timeout-minutes: 80
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Show workflow revision and commit
+        run: |
+          echo "Washington workflow: ENROLLMENT REPAIR + NCES MATCH"
+          echo "Repository commit: $GITHUB_SHA"
+          echo "Branch or tag: $GITHUB_REF_NAME"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,17 +37,19 @@ jobs:
           test -f collectors/washington_enrollment.py
           test -f analysis/washington_regressions.py
           test -f analysis/state_dl/washington/clean_washington.py
+          test -f analysis/state_dl/washington/repair_washington_enrollment.py
+          test -f analysis/state_dl/washington/match_washington_nces.py
 
       - name: Collect Washington program inventory
-        run: |
-          python3 collectors/washington.py
+        run: python3 collectors/washington.py
 
       - name: Normalize all-language DL programs
-        run: |
-          python3 collectors/normalize_washington.py
+        run: python3 collectors/normalize_washington.py
 
-      - name: Verify Washington normalization outputs
+      - name: Verify normalized program data
         run: |
+          test -f output/washington/wa_all_dl_schools.csv
+          test -f output/washington/wa_all_dl_school_years.csv
           test -f output/washington/wa_spanish_dl_school_years.csv
           test -f output/washington/wa_spanish_dl_schools.csv
 
@@ -52,18 +60,52 @@ jobs:
             --schools output/washington/wa_spanish_dl_schools.csv \
             --out output/washington/cleaned
 
-      - name: Display Washington cleanup summary
-        run: |
-          echo "WASHINGTON DL CLEANUP SUMMARY"
-          cat output/washington/cleaned/wa_cleanup_summary.json
-
       - name: Collect academic outcomes
-        run: |
-          python3 collectors/washington_academics.py
+        run: python3 collectors/washington_academics.py
 
       - name: Collect enrollment and demographics
+        run: python3 collectors/washington_enrollment.py
+
+      - name: Repair grade 3-5 enrollment aggregations
         run: |
-          python3 collectors/washington_enrollment.py
+          python3 analysis/state_dl/washington/repair_washington_enrollment.py \
+            --base output/washington
+
+      - name: Verify enrollment repair really happened
+        run: |
+          python3 - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          base = Path('output/washington')
+          report = json.loads(
+              (base / 'wa_enrollment_report.json').read_text()
+          )
+          fixed = report.get(
+              'grade3_5_repair', {}
+          ).get('complete_school_years', 0)
+
+          with (base / 'wa_enrollment_school_years.csv').open(
+              newline=''
+          ) as f:
+              rows = list(csv.DictReader(f))
+
+          actual = sum(
+              r['grade3_5_complete'] == 'yes'
+              for r in rows
+          )
+
+          print(
+              f'Grade 3-5 complete school-years: '
+              f'{actual} of {len(rows)}'
+          )
+          assert fixed > 0, 'Enrollment repair did not run'
+          assert actual == fixed, (
+              f'Report/CSV disagreement: {fixed} vs {actual}'
+          )
+          PY
+          sha256sum output/washington/wa_enrollment_school_years.csv
 
       - name: Install statistical dependencies
         run: |
@@ -73,10 +115,73 @@ jobs:
             statsmodels==0.14.6
 
       - name: Run Washington regressions
-        run: |
-          python3 analysis/washington_regressions.py
+        run: python3 analysis/washington_regressions.py
 
-      - name: Upload all research results
+      - name: Match all Washington DLI schools to NCES 2024-25
+        run: |
+          python3 analysis/state_dl/washington/match_washington_nces.py \
+            --base output/washington
+
+      - name: Verify NCES outputs
+        run: |
+          python3 - <<'PY'
+          import csv
+          from pathlib import Path
+
+          base = Path('output/washington')
+          out = base / 'nces'
+
+          expected = (
+              'wa_nces_match_summary.json',
+              'wa_nces_school_crosswalk.csv',
+              'wa_nces_review_queue.csv',
+              'wa_nces_match_candidates.csv',
+              'wa_all_program_observations_with_nces.csv',
+          )
+
+          for name in expected:
+              assert (out / name).exists(), (
+                  f'Missing NCES output: {name}'
+              )
+
+          def count(name):
+              with (base / name).open(
+                  newline='', encoding='utf-8-sig'
+              ) as f:
+                  return sum(1 for _ in csv.DictReader(f))
+
+          roster_n = count('wa_all_dl_schools.csv')
+          obs_n = count('wa_all_dl_school_years.csv')
+          xwalk_n = count(
+              'nces/wa_nces_school_crosswalk.csv'
+          )
+          joined_n = count(
+              'nces/wa_all_program_observations_with_nces.csv'
+          )
+
+          assert xwalk_n == roster_n, 'NCES school loss'
+          assert joined_n == obs_n, 'NCES observation loss'
+
+          print(
+              f'NCES: {xwalk_n} school rows; '
+              f'{joined_n} program records'
+          )
+          print(
+              (out / 'wa_nces_match_summary.json').read_text()
+          )
+          PY
+
+      - name: Display cleanup and enrollment summaries
+        if: always()
+        run: |
+          if test -f output/washington/cleaned/wa_cleanup_summary.json; then
+            cat output/washington/cleaned/wa_cleanup_summary.json
+          fi
+          if test -f output/washington/wa_enrollment_report.json; then
+            cat output/washington/wa_enrollment_report.json
+          fi
+
+      - name: Upload all Washington research results
         if: always()
         uses: actions/upload-artifact@v4
         with:
