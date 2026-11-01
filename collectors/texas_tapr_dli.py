@@ -1,15 +1,17 @@
 
 #!/usr/bin/env python3
-"""Collect 2023-24 public TEA campus TAPR DLI assessment results.
+"""Collect Texas TAPR campus dual-language assessment subgroups.
 
-Uses browser automation because TEA supplies a data-selection form, not a
-verified static CSV URL. Default is 2023-24 (TEA report-year 2024).
-DLI outcomes are TEST-TAKER subgroup measures, NOT whole-program enrollment.
+Targets 2023-24 TAPR. DQ = two-way DLI; DT = one-way DLI.
+N/D/R suffixes identify numerator, denominator and rate.
 
-Outputs: raw download, compact DLI variables, campus evidence, audit, browser
-capture on failure. Diagnostic files are saved even on site changes.
+These are assessment subgroup statistics, not program enrollment.
+The collector fails safely when TEA refuses connections or when
+the required BE/ESL reporting group cannot be confirmed.
 """
+
 from __future__ import annotations
+
 import argparse
 import csv
 import gzip
@@ -18,543 +20,959 @@ import json
 import re
 import time
 import traceback
+import urllib.request
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-URL_2024 = (
-    'https://rptsvr1.tea.texas.gov/perfreport/tapr/2024/'
-    'Advance%20Download/download-data-adv.html'
+NEW_URL = (
+    "https://rptsvr1.tea.texas.gov/perfreport/tapr/"
+    "tapr_dd_download.html?year=2024"
 )
-GROUPS = {'DQ': 'two_way_dli', 'DT': 'one_way_dli'}
-METRICS = {'N': 'numerator', 'D': 'denominator', 'R': 'rate'}
+OLD_URL = (
+    "https://rptsvr1.tea.texas.gov/perfreport/tapr/2024/"
+    "Advance%20Download/download-data-adv.html"
+)
+
+GROUPS = {
+    "DQ": "two_way_dli",
+    "DT": "one_way_dli",
+}
+METRICS = {
+    "N": "numerator",
+    "D": "denominator",
+    "R": "rate",
+}
+
+CODE = re.compile(
+    r"^[A-Z]D([QT])[A-Z0-9_]+([NDR])$",
+    re.I,
+)
 
 
-def write_csv(path: Path, rows, cols):
+def save_json(path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('w', encoding='utf-8', newline='') as file:
-        w = csv.DictWriter(file, fieldnames=cols, extrasaction='raise')
-        w.writeheader()
-        w.writerows(rows)
+    path.write_text(
+        json.dumps(obj, indent=2, default=str) + "\n",
+        encoding="utf-8",
+    )
 
 
-def safe_text(path: Path, data: str):
-    path.write_text(data, encoding='utf-8', errors='replace')
+def csv_write(path, rows, names):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=names)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
-def sha(path: Path) -> str:
+def hash_file(path):
     h = hashlib.sha256()
-    with path.open('rb') as f:
-        for chunk in iter(lambda: f.read(1024 * 1024), b''):
+    with path.open("rb") as handle:
+        for chunk in iter(
+            lambda: handle.read(1024 * 1024), b""
+        ):
             h.update(chunk)
     return h.hexdigest()
 
 
-def source_controls(page):
-    """Control inventory for debugging a changed TEA form."""
-    return page.evaluate('''() => Array.from(document.querySelectorAll(
-        'input,select,button'
-    )).map((x, i) => ({
-        i, tag:x.tagName, type:x.type, name:x.name, id:x.id,
-        value:x.value, checked: x.checked || false,
-        nearby:(x.closest('label')?.innerText || x.parentElement?.innerText || '')
-            .replace(/\\s+/g,' ').slice(0,150)
-    }))''')
+def controls(page):
+    return page.evaluate(
+        """() => Array.from(document.querySelectorAll(
+          'select,input,button,a'
+        )).slice(0,500).map((x,i)=>({
+          index:i,
+          tag:x.tagName,
+          type:x.type||'',
+          id:x.id||'',
+          name:x.name||'',
+          value:x.value||'',
+          checked:!!x.checked,
+          disabled:!!x.disabled,
+          label:(
+            x.labels?.[0]?.innerText ||
+            x.getAttribute('aria-label') ||
+            x.parentElement?.innerText || ''
+          ).replace(/\\s+/g,' ').slice(0,130),
+          text:(x.innerText||'')
+            .replace(/\\s+/g,' ').slice(0,100),
+          options:x.tagName==='SELECT'
+            ? Array.from(x.options).map(o=>({
+                label:o.label.trim(),
+                value:o.value,
+                selected:o.selected
+              })).slice(0,250)
+            : undefined
+        }))"""
+    )
 
 
-def select_legacy_form(page):
-    """Select Campus and additional student group grade-3--8 category.
+def snapshot(page, out, name, log):
+    try:
+        (out / f"{name}.html").write_text(
+            page.content(), encoding="utf-8"
+        )
+        page.screenshot(
+            path=str(out / f"{name}.png"),
+            full_page=True,
+            timeout=12000,
+        )
+        log["snapshots"].append(name)
+        save_json(
+            out / f"{name}_controls.json",
+            controls(page),
+        )
+    except Exception as exc:
+        log["events"].append({
+            "snapshot_failure": str(exc)
+        })
 
-    The choices are made from the page DOM. We do not submit
-    fabricated POST fields or hard-code an unverified endpoint.
-    """
-    return page.evaluate('''() => {
-        const radios = Array.from(document.querySelectorAll(
-            'input[type="radio"]'
-        ));
-        if (radios.length < 7) {
-            throw new Error('Expected legacy radio form; got ' + radios.length);
-        }
-        const body = document.body.innerText || '';
-        if (!body.includes('Campus') ||
-            !body.includes('Additional Student Groups')) {
-            throw new Error('Unexpected page content; legacy form not detected');
-        }
 
-        // Legacy form orders reporting levels:
-        // Campus, District, Region, State.
-        let campus = radios[0];
-        let near = (campus.closest('label')?.innerText ||
-                    campus.parentElement?.innerText || '').trim();
-        if (near.length > 250) near = near.slice(0,250);
-        campus.click();
-
-        // Find the heading's actual text node, then its first radio.
-        const walk = document.createTreeWalker(document.body,
-            NodeFilter.SHOW_TEXT);
-        let heading = null, node;
-        while ((node = walk.nextNode())) {
-            if (/STAAR Assessment Data:\\s*Additional Student Groups/i
-                    .test(node.textContent || '')) {
-                heading = node;
-                break;
-            }
-        }
-        if (!heading) {
-            throw new Error('Additional-groups heading missing');
-        }
-
-        const following = radios.filter(r =>
-            Boolean(heading.compareDocumentPosition(r) &
-                Node.DOCUMENT_POSITION_FOLLOWING));
-
-        if (!following.length) {
-            throw new Error('No additional-group category');
-        }
-
-        const category = following[0];
-        category.click();
-
-        return {
-            campus: {
-                name: campus.name,
-                value: campus.value,
-                near
+def probe(url, seconds=12):
+    try:
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(compatible; research data collection)"
+                )
             },
-            category: {
-                name: category.name,
-                value: category.value,
-                near: (category.parentElement?.innerText || '').slice(0,250)
+        )
+        with urllib.request.urlopen(
+            request, timeout=seconds
+        ) as response:
+            return {
+                "url": url,
+                "http_status": response.status,
+                "final_url": response.url,
+                "content_type": response.headers.get(
+                    "Content-Type", ""
+                ),
             }
-        };
-    }''')
-
-
-def click_download(page):
-    """Press an existing site's submit/download control."""
-    return page.evaluate('''() => {
-        const all = Array.from(document.querySelectorAll(
-            'input[type="submit"],input[type="image"],input[type="button"],button'
-        )).filter(x => !x.disabled);
-
-        if (!all.length) {
-            throw new Error('No form submission control found');
+    except Exception as exc:
+        return {
+            "url": url,
+            "error": f"{type(exc).__name__}: {exc}",
         }
 
-        let button = all.find(x =>
-            /download|get data|submit|continue|next|go/i.test(
-                (x.value || '') + ' ' + (x.textContent || '')
+
+def choose_select(page, patterns, step):
+    """Choose a uniquely identified dropdown option."""
+    matches = []
+
+    for i in range(page.locator("select").count()):
+        sel = page.locator("select").nth(i)
+
+        if not sel.is_visible() or not sel.is_enabled():
+            continue
+
+        options = sel.evaluate(
+            """e=>Array.from(e.options).map(o=>({
+              label:o.label.trim(),
+              value:o.value
+            }))"""
+        )
+
+        found = [
+            option for option in options
+            if any(
+                re.search(pattern, option["label"], re.I)
+                for pattern in patterns
             )
-        );
+        ]
 
-        if (!button) button = all[all.length - 1];
+        if len(found) == 1:
+            matches.append((i, found[0]))
 
-        const detail = {
-            tag: button.tagName,
-            type: button.type,
-            name: button.name,
-            value: button.value,
-            text: (button.innerText || '').slice(0,100)
-        };
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Ambiguous {step} dropdowns: {matches}"
+        )
 
-        button.click();
-        return detail;
-    }''')
+    if not matches:
+        return False
 
+    index, option = matches[0]
 
-def fetch_public_csv(out: Path, timeout_seconds: int = 240) -> Path:
-    from playwright.sync_api import sync_playwright
+    page.locator("select").nth(index).select_option(
+        value=option["value"]
+    )
+    page.wait_for_timeout(700)
 
-    raw_path = out / 'tx_tapr_2023_24_campus_raw.csv'
-    debug = {
-        'page': URL_2024,
-        'timestamp_utc': datetime.now(timezone.utc).isoformat(),
-        'events': []
+    return {
+        "step": step,
+        "select": index,
+        "label": option["label"],
+        "value": option["value"],
     }
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=['--no-sandbox']
+
+def choose_labeled_control(page, patterns):
+    candidates = page.locator(
+        'input[type="checkbox"],input[type="radio"]'
+    )
+
+    hits = []
+
+    for i in range(candidates.count()):
+        loc = candidates.nth(i)
+
+        if not loc.is_visible() or not loc.is_enabled():
+            continue
+
+        description = loc.evaluate(
+            """e=>(
+              e.labels?.[0]?.innerText ||
+              e.parentElement?.innerText || ''
+            ).trim()"""
         )
 
-        context = browser.new_context(
-            accept_downloads=True,
-            viewport={'width': 1440, 'height': 980}
+        if any(
+            re.search(pattern, description, re.I)
+            for pattern in patterns
+        ):
+            hits.append((i, description))
+
+    if len(hits) != 1:
+        return False
+
+    index, description = hits[0]
+
+    candidates.nth(index).check(force=True)
+    page.wait_for_timeout(500)
+
+    return {
+        "control": index,
+        "label": description[:180],
+    }
+
+
+def select_options(page, log):
+    """Navigate form without assuming HTML control positions."""
+    actions = log["selections"]
+
+    selected = {
+        "year": False,
+        "advanced": False,
+        "campus": False,
+        "grades": False,
+        "be_esl": False,
+    }
+
+    targets = [
+        (
+            "year",
+            [r"2023\s*[-–/]\s*24", r"^2024$"],
+        ),
+        (
+            "advanced",
+            [
+                r"advanced.*(?:data|download)",
+                r"^advanced$",
+            ],
+        ),
+        (
+            "campus",
+            [
+                r"^campus(?:es)?$",
+                r"^all campuses$",
+            ],
+        ),
+        (
+            "grades",
+            [
+                r"grades?\s*3\s*(?:-|–|to)\s*8",
+                r"grades? 3 to 8",
+            ],
+        ),
+        (
+            "be_esl",
+            [
+                r"\bBE\s*[/&-]\s*ESL\b",
+                r"bilingual.*ESL",
+                r"dual.language.*(?:one.way|two.way)",
+            ],
+        ),
+    ]
+
+    for _ in range(9):
+        progress = False
+
+        for key, patterns in targets:
+            if selected[key]:
+                continue
+
+            result = choose_select(
+                page, patterns, key
+            )
+
+            if not result and key in (
+                "campus", "grades", "be_esl"
+            ):
+                result = choose_labeled_control(
+                    page, patterns
+                )
+
+            if result:
+                actions.append(result)
+                selected[key] = True
+                progress = True
+
+        if selected["be_esl"] and selected["campus"]:
+            break
+
+        if not progress:
+            buttons = page.get_by_role(
+                "button",
+                name=re.compile(
+                    r"^(next|continue)$", re.I
+                ),
+            )
+
+            if (
+                buttons.count() == 1
+                and buttons.first.is_enabled()
+            ):
+                buttons.first.click()
+                page.wait_for_timeout(650)
+                actions.append({"step": "next"})
+            else:
+                break
+
+    if (
+        not selected["year"]
+        and "year=2024" in page.url
+    ):
+        selected["year"] = True
+        actions.append({
+            "step": "year",
+            "label": "2024 URL parameter",
+        })
+
+    log["selected"] = selected
+
+    if not selected["be_esl"]:
+        raise RuntimeError(
+            "Could not explicitly select BE/ESL group. "
+            "Captured form for review; no download requested."
         )
 
-        downloads = []
+    if not selected["campus"]:
+        raise RuntimeError(
+            "Campus reporting level not confirmed"
+        )
 
-        def watch(page):
-            page.on('download', lambda d: downloads.append(d))
+    if not selected["grades"]:
+        raise RuntimeError(
+            "Grades 3-8 assessment category not confirmed"
+        )
 
-        context.on('page', watch)
-        page = context.new_page()
+    for pattern in (
+        r"^numerators?$",
+        r"^denominators?$",
+    ):
+        result = choose_labeled_control(
+            page, [pattern]
+        )
+        if result:
+            actions.append(result)
 
-        try:
-            page.goto(
-                URL_2024,
-                wait_until='domcontentloaded',
-                timeout=90000
+
+def fetch_public(out, wait_seconds):
+    from playwright.sync_api import sync_playwright
+
+    log = {
+        "utc": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "urls": [NEW_URL, OLD_URL],
+        "events": [],
+        "snapshots": [],
+        "selections": [],
+        "probes": [
+            probe(NEW_URL),
+            probe(OLD_URL),
+        ],
+    }
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(
+                headless=True,
+                args=["--no-sandbox"],
             )
-            page.wait_for_timeout(1500)
 
-            debug['page_title'] = page.title()
-            debug['before_controls'] = source_controls(page)
-
-            safe_text(
-                out / 'tx_tapr_form_before.html',
-                page.content()
-            )
-            page.screenshot(
-                path=str(out / 'tx_tapr_form_before.png'),
-                full_page=True
+            context = browser.new_context(
+                accept_downloads=True
             )
 
-            debug['selection'] = select_legacy_form(page)
-            debug['after_selection_controls'] = source_controls(page)
-            debug['submit'] = click_download(page)
+            downloads = []
 
-            deadline = time.monotonic() + timeout_seconds
+            context.on(
+                "page",
+                lambda p: p.on(
+                    "download",
+                    lambda d: downloads.append(d),
+                ),
+            )
 
-            while not downloads and time.monotonic() < deadline:
-                page.wait_for_timeout(1000)
+            page = context.new_page()
+
+            page.on(
+                "download",
+                lambda d: downloads.append(d),
+            )
+
+            page.on(
+                "requestfailed",
+                lambda request: log["events"].append({
+                    "request_failed": request.url[:200],
+                    "reason": request.failure,
+                }),
+            )
+
+            reached = False
+
+            for label, url in (
+                ("new", NEW_URL),
+                ("legacy", OLD_URL),
+            ):
+                try:
+                    response = page.goto(
+                        url,
+                        wait_until="domcontentloaded",
+                        timeout=30000,
+                    )
+                    page.wait_for_timeout(700)
+
+                    log["events"].append({
+                        "page": label,
+                        "status": (
+                            response.status
+                            if response else None
+                        ),
+                        "final_url": page.url,
+                    })
+
+                    snapshot(
+                        page,
+                        out,
+                        f"tx_tapr_{label}_before",
+                        log,
+                    )
+
+                    reached = True
+                    break
+
+                except Exception as exc:
+                    log["events"].append({
+                        "page": label,
+                        "navigation_error": str(exc)[:700],
+                    })
+
+            if not reached:
+                raise RuntimeError(
+                    "TEA refused or failed both browser "
+                    "connections. This is a network/access "
+                    "failure, not a form-selector failure."
+                )
+
+            select_options(page, log)
+
+            snapshot(
+                page,
+                out,
+                "tx_tapr_after_selection",
+                log,
+            )
+
+            button = page.get_by_role(
+                "button",
+                name=re.compile(
+                    r"^(download|export|generate|"
+                    r"download data|download csv|submit)$",
+                    re.I,
+                ),
+            )
+
+            if button.count() == 1:
+                button.first.click()
+            else:
+                submit = page.locator(
+                    'input[type="submit"]'
+                )
+
+                if submit.count() == 1:
+                    submit.first.click()
+                else:
+                    raise RuntimeError(
+                        "No unambiguous export button found"
+                    )
+
+            deadline = (
+                time.monotonic() + wait_seconds
+            )
+
+            while (
+                not downloads
+                and time.monotonic() < deadline
+            ):
+                page.wait_for_timeout(900)
 
             if not downloads:
-                debug['after_submit_url'] = page.url
-                debug['after_submit_controls'] = source_controls(page)
-
-                safe_text(
-                    out / 'tx_tapr_form_after.html',
-                    page.content()
+                snapshot(
+                    page,
+                    out,
+                    "tx_tapr_after_submit_no_download",
+                    log,
                 )
-                page.screenshot(
-                    path=str(out / 'tx_tapr_form_after.png'),
-                    full_page=True
-                )
-
                 raise RuntimeError(
-                    'No CSV download emitted by TEA form; '
-                    'see captured HTML/controls'
+                    "No browser download emitted by TEA"
                 )
 
-            download = downloads[0]
-            debug['suggested_filename'] = download.suggested_filename
-
-            download.save_as(str(raw_path))
-
-            if raw_path.stat().st_size < 1000:
-                raise RuntimeError(
-                    'TEA supplied an unexpectedly small file'
-                )
-
-            with raw_path.open('rb') as f:
-                start = f.read(300).lstrip()
-
-            if start.lower().startswith((b'<!doctype html', b'<html')):
-                raise RuntimeError(
-                    'TEA returned HTML instead of CSV'
-                )
-
-            if start.startswith((b'PK\x03\x04', b'\x1f\x8b')):
-                raise RuntimeError(
-                    'TEA returned compressed data; inspect raw file'
-                )
-
-            debug['download_bytes'] = raw_path.stat().st_size
-            return raw_path
-
-        except Exception as ex:
-            debug['error'] = f'{type(ex).__name__}: {ex}'
-            debug['traceback'] = traceback.format_exc()[-4000:]
-            raise
-
-        finally:
-            safe_text(
-                out / 'tx_tapr_download_debug.json',
-                json.dumps(debug, indent=2, default=str) + '\n'
+            destination = (
+                out / "tx_tapr_2023_24_campus_raw.csv"
             )
+
+            log["suggested_filename"] = (
+                downloads[0].suggested_filename
+            )
+
+            downloads[0].save_as(
+                str(destination)
+            )
+
+            with destination.open("rb") as f:
+                head = f.read(400).lstrip().lower()
+
+            if (
+                len(head) < 20
+                or head.startswith((
+                    b"<!doctype",
+                    b"<html",
+                    b"pk\x03\x04",
+                ))
+            ):
+                raise RuntimeError(
+                    "Downloaded file is not recognized "
+                    "as CSV; inspect source file"
+                )
+
+            log["download_bytes"] = (
+                destination.stat().st_size
+            )
+
             context.close()
             browser.close()
 
+            return destination
 
-def usable_number(raw: str) -> bool:
-    return bool(re.fullmatch(
-        r'[-+]?(?:\d+(?:\.\d*)?|\.\d+)',
-        raw.strip().replace(',', '')
-    ))
+    except Exception as exc:
+        log["failure"] = (
+            f"{type(exc).__name__}: {exc}"
+        )
+        raise
+
+    finally:
+        save_json(
+            out / "tx_tapr_download_debug.json",
+            log,
+        )
 
 
-def audit_csv(source: Path, out: Path, roster: Path) -> dict:
-    """Extract TEA variables without guessing subject or grade."""
-    with roster.open(newline='', encoding='utf-8-sig') as f:
-        rd = csv.DictReader(f)
-        if not rd.fieldnames or 'texas_campus_id' not in rd.fieldnames:
+def read_roster(roster):
+    with roster.open(
+        newline="",
+        encoding="utf-8-sig",
+    ) as f:
+        rows = csv.DictReader(f)
+
+        if "texas_campus_id" not in (
+            rows.fieldnames or []
+        ):
             raise ValueError(
-                'Texas campus directory missing campus IDs'
+                "Texas roster lacks texas_campus_id"
             )
-        roster_ids = {
-            r['texas_campus_id']
-            for r in rd
+
+        return {
+            row["texas_campus_id"].strip()
+            for row in rows
         }
 
+
+def number(raw):
+    return bool(
+        re.fullmatch(
+            r"(?:\d+(?:\.\d*)?|\.\d+)",
+            raw.replace(",", "").strip(),
+        )
+    )
+
+
+def audit_csv(source, out, roster):
+    ids = read_roster(roster)
+
+    if not ids:
+        raise ValueError("Empty Texas roster")
+
     with source.open(
-        newline='',
-        encoding='utf-8-sig',
-        errors='replace'
+        newline="",
+        encoding="utf-8-sig",
+        errors="replace",
     ) as f:
-        reader = csv.DictReader(f)
+        reader = csv.reader(f)
 
-        if not reader.fieldnames:
-            raise ValueError('TAPR file has no column names')
+        first_rows = []
 
-        fields = reader.fieldnames
-        id_field = fields[0]
+        for _ in range(5):
+            try:
+                first_rows.append(next(reader))
+            except StopIteration:
+                break
+
+        scored = []
+
+        for i, row in enumerate(first_rows):
+            matches = [
+                code.strip().upper()
+                for code in row
+                if CODE.fullmatch(code.strip())
+            ]
+            scored.append((len(matches), i))
+
+        nfields, header_index = max(
+            scored, default=(0, 0)
+        )
+
+        if nfields == 0:
+            save_json(
+                out / "tx_tapr_header_audit.json",
+                {
+                    "first_rows_samples": [
+                        row[:60]
+                        for row in first_rows
+                    ],
+                    "first_rows_lengths": [
+                        len(row)
+                        for row in first_rows
+                    ],
+                    "note": (
+                        "No DQ/DT variable codes "
+                        "in first five rows"
+                    ),
+                },
+            )
+            raise ValueError(
+                "No DQ/DT headers found; "
+                "check download category"
+            )
+
+        f.seek(0)
+        reader = csv.reader(f)
+
+        for _ in range(header_index):
+            next(reader)
+
+        headers = next(reader)
 
         selected = [
             (
-                col,
-                GROUPS[col[1:3].upper()],
-                METRICS[col[-1].upper()]
+                i,
+                code.strip(),
+                GROUPS[code.strip()[1:3].upper()],
+                METRICS[code.strip()[-1].upper()],
             )
-            for col in fields
-            if re.fullmatch(
-                r'[A-Za-z]D[QT][A-Za-z0-9_]+[NDR]',
-                col,
-                re.I
-            )
-            and col[1:3].upper() in GROUPS
+            for i, code in enumerate(headers)
+            if CODE.fullmatch(code.strip())
         ]
 
         if not selected:
-            safe_text(
-                out / 'tx_tapr_header_audit.json',
-                json.dumps({
-                    'first_column': id_field,
-                    'column_count': len(fields),
-                    'first_80_columns': fields[:80],
-                    'columns_containing_DQ_or_DT': [
-                        x for x in fields
-                        if 'DQ' in x.upper() or 'DT' in x.upper()
-                    ][:100]
-                }, indent=2) + '\n'
-            )
-
             raise ValueError(
-                'No CDQ/CDT numerator/denominator/rate fields '
-                'found; see header audit'
+                "Header identification failed"
             )
 
-        columns = [
-            'texas_campus_id',
-            'school_year',
-            'student_group',
-            'variable_code',
-            'statistic',
-            'source_raw_value',
-            'numeric_value',
-            'value_status',
-            'present_in_2024_25_roster'
+        id_index = next(
+            (
+                i for i, name in enumerate(headers)
+                if re.search(
+                    r"campus.*(?:id|number)|^campus$",
+                    name,
+                    re.I,
+                )
+            ),
+            0,
+        )
+
+        dictionary = [
+            {
+                "variable_code": code,
+                "student_group": group,
+                "statistic": metric,
+            }
+            for _, code, group, metric in selected
         ]
 
-        per_campus = defaultdict(lambda: {
-            'one_way_dli': set(),
-            'two_way_dli': set()
-        })
+        csv_write(
+            out / (
+                "tx_tapr_2023_24_"
+                "dli_variable_dictionary.csv"
+            ),
+            dictionary,
+            [
+                "variable_code",
+                "student_group",
+                "statistic",
+            ],
+        )
 
-        values = Counter()
-        count_rows = 0
-        invalid_ids = 0
+        fields = [
+            "texas_campus_id",
+            "school_year",
+            "student_group",
+            "variable_code",
+            "statistic",
+            "raw_value",
+            "numeric_value",
+            "value_status",
+            "in_roster",
+        ]
+
+        counts = Counter()
+
+        seen = defaultdict(
+            lambda: {
+                "one_way_dli": set(),
+                "two_way_dli": set(),
+            }
+        )
+
+        rows_seen = 0
+        invalid = 0
 
         with gzip.open(
-            out / 'tx_tapr_2023_24_dli_variable_values.csv.gz',
-            'wt',
-            encoding='utf-8',
-            newline=''
-        ) as z:
-            w = csv.DictWriter(z, fieldnames=columns)
-            w.writeheader()
+            out / (
+                "tx_tapr_2023_24_"
+                "dli_variable_values.csv.gz"
+            ),
+            "wt",
+            newline="",
+            encoding="utf-8",
+        ) as gz:
 
-            for r in reader:
-                count_rows += 1
+            writer = csv.DictWriter(
+                gz, fieldnames=fields
+            )
+            writer.writeheader()
+
+            for row in reader:
+                if (
+                    not row
+                    or len(row) <= id_index
+                ):
+                    continue
+
+                rows_seen += 1
+
                 cid = (
-                    (r.get(id_field) or '')
+                    row[id_index]
                     .strip()
                     .lstrip("'\u2019")
                 )
 
-                if not re.fullmatch(r'\d{9}', cid):
-                    invalid_ids += 1
+                if not re.fullmatch(
+                    r"\d{9}", cid
+                ):
+                    invalid += 1
                     continue
 
-                for code, group, metric in selected:
-                    raw = (r.get(code) or '').strip()
+                for i, code, group, metric in selected:
+                    raw = (
+                        row[i].strip()
+                        if i < len(row)
+                        else ""
+                    )
 
                     if not raw:
                         continue
 
-                    state = (
-                        'numeric'
-                        if usable_number(raw)
-                        else 'masked_or_other'
+                    status = (
+                        "numeric"
+                        if number(raw)
+                        else "masked_or_other"
                     )
 
-                    w.writerow({
-                        'texas_campus_id': cid,
-                        'school_year': '2023-24',
-                        'student_group': group,
-                        'variable_code': code,
-                        'statistic': metric,
-                        'source_raw_value': raw,
-                        'numeric_value': (
-                            raw if state == 'numeric' else ''
+                    writer.writerow({
+                        "texas_campus_id": cid,
+                        "school_year": "2023-24",
+                        "student_group": group,
+                        "variable_code": code,
+                        "statistic": metric,
+                        "raw_value": raw,
+                        "numeric_value": (
+                            raw
+                            if status == "numeric"
+                            else ""
                         ),
-                        'value_status': state,
-                        'present_in_2024_25_roster': (
-                            'yes' if cid in roster_ids else 'no'
-                        )
+                        "value_status": status,
+                        "in_roster": (
+                            "yes"
+                            if cid in ids
+                            else "no"
+                        ),
                     })
 
-                    values[(group, metric, state)] += 1
+                    counts[
+                        (group, metric, status)
+                    ] += 1
 
                     if (
-                        metric == 'denominator'
-                        and state == 'numeric'
+                        metric == "denominator"
+                        and status == "numeric"
                         and float(raw) > 0
                     ):
-                        per_campus[cid][group].add(code)
+                        seen[cid][group].add(code)
 
-        by_campus = []
-
-        for cid, groups in sorted(per_campus.items()):
-            by_campus.append({
-                'texas_campus_id': cid,
-                'school_year': '2023-24',
-                'two_way_positive_assessment_denominator_variables':
-                    len(groups['two_way_dli']),
-                'one_way_positive_assessment_denominator_variables':
-                    len(groups['one_way_dli']),
-                'campus_in_2024_25_roster': (
-                    'yes' if cid in roster_ids else 'no'
+        campus_rows = [
+            {
+                "texas_campus_id": cid,
+                "school_year": "2023-24",
+                "one_way_positive_denominator_variables":
+                    len(groups["one_way_dli"]),
+                "two_way_positive_denominator_variables":
+                    len(groups["two_way_dli"]),
+                "in_2024_25_campus_roster": (
+                    "yes"
+                    if cid in ids
+                    else "no"
                 ),
-                'classification_caution':
-                    'TAPR test-taker subgroup; not DLI enrollment'
-            })
+            }
+            for cid, groups in sorted(seen.items())
+        ]
 
-        write_csv(
-            out / 'tx_tapr_2023_24_dli_campus_evidence.csv',
-            by_campus,
+        csv_write(
+            out / (
+                "tx_tapr_2023_24_"
+                "dli_campus_evidence.csv"
+            ),
+            campus_rows,
             [
-                'texas_campus_id',
-                'school_year',
-                'two_way_positive_assessment_denominator_variables',
-                'one_way_positive_assessment_denominator_variables',
-                'campus_in_2024_25_roster',
-                'classification_caution'
-            ]
-        )
-
-        write_csv(
-            out / 'tx_tapr_2023_24_dli_variable_dictionary.csv',
-            [
-                {
-                    'variable_code': c,
-                    'student_group': g,
-                    'statistic': m
-                }
-                for c, g, m in selected
+                "texas_campus_id",
+                "school_year",
+                "one_way_positive_denominator_variables",
+                "two_way_positive_denominator_variables",
+                "in_2024_25_campus_roster",
             ],
-            ['variable_code', 'student_group', 'statistic']
         )
 
-        report = {
-            'status': 'collected_and_extracted',
-            'source_url': URL_2024,
-            'source_sha256': sha(source),
-            'download_bytes': source.stat().st_size,
-            'source_rows': count_rows,
-            'source_columns': len(fields),
-            'source_id_column': id_field,
-            'invalid_campus_ids': invalid_ids,
-            'dli_variable_columns': len(selected),
-            'campuses_with_positive_dli_assessment_denominators':
-                len(by_campus),
-            'group_metric_value_counts': {
-                '|'.join(x): n
-                for x, n in sorted(values.items())
+        result = {
+            "status": "extracted",
+            "source_file": str(source),
+            "sha256": hash_file(source),
+            "header_row_number": header_index + 1,
+            "campus_id_field": headers[id_index],
+            "records_seen": rows_seen,
+            "invalid_campus_ids": invalid,
+            "dli_columns": len(selected),
+            "campuses_with_positive_dli_test_denominators":
+                len(campus_rows),
+            "values": {
+                "|".join(key): value
+                for key, value in sorted(counts.items())
             },
-            'caution': (
-                'These are test-taker group assessment statistics, '
-                'not DLI enrollment counts. Nonappearance or masking '
-                'does not imply a school lacks a program. '
-                'Raw variable codes are not labeled ELA/math or '
-                'grade until dictionary mapping is verified.'
-            )
+            "warning": (
+                "Assessment subgroup records, not "
+                "program enrollment. Suppressed or "
+                "missing values are not zero."
+            ),
         }
 
-        safe_text(
-            out / 'tx_tapr_2023_24_report.json',
-            json.dumps(report, indent=2) + '\n'
+        save_json(
+            out / "tx_tapr_2023_24_report.json",
+            result,
         )
 
-        return report
+        return result
 
 
 def main():
-    p = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
 
-    p.add_argument(
-        '--out',
+    parser.add_argument(
+        "--roster",
         type=Path,
-        default=Path('output/texas/tapr')
+        default=Path(
+            "output/texas/"
+            "tx_2024_25_all_campuses.csv"
+        ),
     )
 
-    p.add_argument(
-        '--roster',
+    parser.add_argument(
+        "--out",
         type=Path,
-        default=Path('output/texas/tx_2024_25_all_campuses.csv')
+        default=Path("output/texas/tapr"),
     )
 
-    p.add_argument(
-        '--input',
+    parser.add_argument(
+        "--input",
         type=Path,
-        help='Use an existing official TAPR CSV instead of web automation'
+        help=(
+            "Parse an existing TEA CSV "
+            "without opening the browser"
+        ),
     )
 
-    p.add_argument(
-        '--wait-seconds',
+    parser.add_argument(
+        "--wait-seconds",
         type=int,
-        default=240
+        default=180,
     )
 
-    args = p.parse_args()
-    args.out.mkdir(parents=True, exist_ok=True)
+    args = parser.parse_args()
+
+    args.out.mkdir(
+        parents=True, exist_ok=True
+    )
 
     try:
-        source = args.input or fetch_public_csv(
-            args.out,
-            args.wait_seconds
+        csvfile = (
+            args.input
+            or fetch_public(
+                args.out,
+                args.wait_seconds,
+            )
         )
 
         report = audit_csv(
-            source,
+            csvfile,
             args.out,
-            args.roster
+            args.roster,
         )
 
         print(json.dumps(report, indent=2))
 
-    except Exception as ex:
-        safe_text(
-            args.out / 'tx_tapr_collector_failure.json',
-            json.dumps({
-                'error': f'{type(ex).__name__}: {ex}',
-                'source_url': URL_2024,
-                'traceback': traceback.format_exc()[-4000:]
-            }, indent=2) + '\n'
+    except Exception as exc:
+        save_json(
+            args.out / (
+                "tx_tapr_collector_failure.json"
+            ),
+            {
+                "error": (
+                    f"{type(exc).__name__}: {exc}"
+                ),
+                "traceback": (
+                    traceback.format_exc()[-4500:]
+                ),
+                "new_url": NEW_URL,
+                "legacy_url": OLD_URL,
+                "note": (
+                    "Network failure cannot be repaired "
+                    "by changing form selectors."
+                ),
+            },
         )
         raise
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
