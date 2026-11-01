@@ -1,0 +1,102 @@
+
+name: Build Texas district PEIMS dual-language register
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 13 3 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  texas-district:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify collectors
+        run: |
+          test -f collectors/texas.py
+          test -f collectors/texas_peims_district.py
+
+      - name: Collect 2024-25 Texas campus directory
+        run: |
+          python3 collectors/texas.py --out output/texas
+
+      - name: Build district register and import TEA PEIMS files
+        run: |
+          python3 collectors/texas_peims_district.py \
+            --campuses output/texas/tx_2024_25_all_campuses.csv \
+            --candidates output/texas/tx_2024_25_dl_name_candidates.csv \
+            --source-dir input/texas/peims_eb_program_reports \
+            --out output/texas/peims_district
+
+      - name: Validate district register
+        run: |
+          python3 - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          base = Path('output/texas/peims_district')
+          report = json.loads(
+              (base / 'tx_peims_district_report.json').read_text()
+          )
+
+          with (
+              base / 'tx_peims_district_years.csv'
+          ).open(newline='') as f:
+              rows = list(csv.DictReader(f))
+
+          assert len(rows) == report['district_year_rows']
+
+          assert report['district_year_rows'] == (
+              7 * report['distinct_2024_25_districts']
+          )
+
+          assert all(
+              row['campus_dli_status']
+              == 'unknown_do_not_infer_from_district'
+              for row in rows
+          )
+
+          print(
+              'Districts:',
+              report['distinct_2024_25_districts']
+          )
+          print(
+              'District-year records:',
+              len(rows)
+          )
+          print(
+              'Imported PEIMS program observations:',
+              report['program_count_observations']
+          )
+
+          if report['requires_verified_TEA_program_exports']:
+              print(
+                  'SOURCE PENDING: no TEA PEIMS '
+                  'program exports supplied yet.'
+              )
+              print(
+                  'All uncollected program counts remain missing.'
+              )
+          PY
+
+      - name: Upload district register
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: texas-peims-district-${{ github.run_number }}
+          path: output/texas/peims_district/
+          if-no-files-found: warn
+          retention-days: 90
