@@ -1,0 +1,62 @@
+
+name: Collect Texas campus registry and DL screening candidates
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 13 2 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  collect-texas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify Texas script
+        run: test -f collectors/texas.py
+
+      - name: Collect complete 2024-25 Texas campus roster
+        run: python3 collectors/texas.py --out output/texas
+
+      - name: Validate outputs
+        run: |
+          python3 - <<'PY'
+          import csv
+          import json
+          from pathlib import Path
+
+          p = Path('output/texas')
+          report = json.loads((p / 'tx_2024_25_collection_report.json').read_text())
+          with (p / 'tx_2024_25_all_campuses.csv').open(newline='', encoding='utf-8') as f:
+              schools = list(csv.DictReader(f))
+          with (p / 'tx_2024_25_dl_name_candidates.csv').open(newline='', encoding='utf-8') as f:
+              candidates = list(csv.DictReader(f))
+
+          assert len(schools) == report['school_census_rows']
+          assert len(schools) >= 6000
+          assert len(candidates) == report['dl_name_candidates']
+          assert report['programs_verified'] == 0
+          assert report['source_is_a_school_directory_not_a_dli_roster']
+          print(f"Complete campus roster: {len(schools)}")
+          print(f"Name-screened DLI candidates for verification: {len(candidates)}")
+          print('No program classifications have been inferred.')
+          PY
+
+      - name: Upload all Texas stage-one outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: texas-campus-stage1-${{ github.run_number }}
+          path: output/texas/
+          if-no-files-found: warn
+          retention-days: 90
