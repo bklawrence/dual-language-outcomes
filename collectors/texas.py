@@ -1,16 +1,14 @@
 
 #!/usr/bin/env python3
-"""Collect the complete Texas 2024-25 campus identity roster from TEA AskTED.
+"""Collect the complete Texas 2024-25 AskTED campus directory.
 
-This is a school-census / DLI-candidate screening stage, NOT a verified DLI
-program inventory. Campus names alone cannot establish DLI program presence,
-one-way/two-way model, instructional allocation, or strand/whole-school design.
+This is a complete school roster plus a NAME-BASED DLI SCREENING QUEUE,
+not a verified DLI program list. Preserve all campuses for future comparisons.
 
-Source: TEA AskTED 2024-25 campus export hosted on the TEA open-data ArcGIS
-FeatureServer. Uses object-ID pagination to avoid ArcGIS 2,000-row limits.
+Texas AskTED uses leading apostrophes to preserve leading zeros in identifiers.
+Those apostrophes are formatting, not part of the school or NCES number.
 
-Usage: python3 collectors/texas.py
-       python3 collectors/texas.py --out output/texas
+Run: python3 collectors/texas.py --out output/texas
 Requires Python 3.10+ standard library only.
 """
 
@@ -33,6 +31,7 @@ LAYER = (
     "Schools_2024_to_2025/FeatureServer/0"
 )
 YEAR = "2024-25"
+
 FIELDS = [
     "ObjectID",
     "USER_District_Number",
@@ -50,6 +49,7 @@ FIELDS = [
     "USER_School_Zip",
     "USER_School_Web_Page_Address",
 ]
+
 CAMPUS_FIELDS = [
     "state", "school_year", "texas_campus_id", "texas_district_id",
     "texas_school_number", "school_name", "district_name",
@@ -61,253 +61,555 @@ CAMPUS_FIELDS = [
     "instructional_language", "one_way_two_way", "allocation_model",
     "whole_school_or_strand", "first_program_year", "program_source_url",
 ]
+
 CANDIDATE_FIELDS = CAMPUS_FIELDS + [
     "name_signal", "screening_reason", "review_priority",
 ]
 
 
-def query(params: dict) -> dict:
-    url = LAYER + "/query?" + urllib.parse.urlencode(params)
+def get_json(url: str) -> dict:
     for attempt in range(4):
         try:
-            req = urllib.request.Request(
-                url, headers={"User-Agent": "dual-language-outcomes-research/1.0"}
+            request = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": "dual-language-outcomes-research/1.1"
+                },
             )
-            with urllib.request.urlopen(req, timeout=75) as response:
-                payload = json.load(response)
-            if not isinstance(payload, dict) or "error" in payload:
-                raise RuntimeError(f"ArcGIS query error: {str(payload)[:700]}")
-            return payload
+            with urllib.request.urlopen(request, timeout=90) as response:
+                data = json.load(response)
+
+            if not isinstance(data, dict) or "error" in data:
+                raise RuntimeError(
+                    f"Unexpected ArcGIS response: {str(data)[:600]}"
+                )
+
+            return data
+
         except (urllib.error.URLError, TimeoutError, OSError) as exc:
             if attempt == 3:
-                raise RuntimeError("ArcGIS request failed after retries") from exc
+                raise RuntimeError(
+                    f"ArcGIS request failed: {url[:180]}"
+                ) from exc
+
             time.sleep(2 * (attempt + 1))
-    raise AssertionError("unreachable")
+
+    raise AssertionError("Unreachable")
+
+
+def query(params: dict) -> dict:
+    url = LAYER + "/query?" + urllib.parse.urlencode(params)
+    return get_json(url)
 
 
 def get_metadata() -> dict:
-    url = LAYER + "?f=pjson"
-    req = urllib.request.Request(
-        url, headers={"User-Agent": "dual-language-outcomes-research/1.0"}
-    )
-    with urllib.request.urlopen(req, timeout=75) as response:
-        obj = json.load(response)
-    if "error" in obj:
-        raise RuntimeError(f"Cannot fetch layer metadata: {obj['error']}")
-    available = {f["name"] for f in obj.get("fields", [])}
+    metadata = get_json(LAYER + "?f=pjson")
+    available = {
+        f["name"]
+        for f in metadata.get("fields", [])
+    }
+
     missing = set(FIELDS) - available
+
     if missing:
-        raise ValueError(f"ArcGIS fields changed; missing: {sorted(missing)}")
-    return obj
+        raise ValueError(
+            f"ArcGIS source changed; missing fields: {sorted(missing)}"
+        )
+
+    return metadata
 
 
-def val(record: dict, name: str) -> str:
-    value = record.get(name)
-    return "" if value is None else str(value).strip()
+def value(row: dict, field: str) -> str:
+    data = row.get(field)
+    return "" if data is None else str(data).strip()
 
 
-def identifier(raw: str, width: int) -> str:
-    raw = raw.strip()
-    if not raw or raw.lower() in {"nan", "null", "none"}:
-        return ""
-    # Never coerce arbitrary data into an identifier.
-    if re.fullmatch(rf"\d{{{width}}}", raw):
-        return raw
-    if re.fullmatch(rf"\d{{{width-1}}}", raw):
-        # Some GIS exports drop a single leading zero on numeric IDs.
-        return raw.zfill(width)
+def digits(raw: str) -> str:
+    """Remove AskTED spreadsheet apostrophes and known separators.
+
+    Examples:
+        "'001902" -> "001902"
+        "'001902001" -> "001902001"
+
+    Never invent identifiers or extract digits from arbitrary strings.
+    """
+    text = (raw or "").strip()
+
+    if text.startswith(("'", "\u2019")):
+        text = text[1:].strip()
+
+    if re.fullmatch(r"\d{3}-\d{3}(?:-\d{3})?", text):
+        text = text.replace("-", "")
+
+    return text if text.isascii() and text.isdigit() else ""
+
+
+def identifier(
+    raw: str,
+    width: int,
+    *,
+    allow_short: bool = False,
+) -> str:
+    d = digits(raw)
+
+    if len(d) == width:
+        return d
+
+    # Some numeric exports omit a single leading zero.
+    if allow_short and len(d) == width - 1:
+        return d.zfill(width)
+
     return ""
 
 
-def campus_id(district: str, school: str) -> str:
-    district_digits = identifier(district, 6)
-    if re.fullmatch(r"\d{9}", school):
-        return school
-    if re.fullmatch(r"\d{1,3}", school) and district_digits:
-        return district_digits + school.zfill(3)
-    if re.fullmatch(r"\d{8}", school):
-        return school.zfill(9)
+def campus_id(raw_district: str, raw_school: str) -> str:
+    district = identifier(
+        raw_district,
+        6,
+        allow_short=True,
+    )
+
+    school = digits(raw_school)
+
+    if not district or not school:
+        return ""
+
+    if len(school) == 9:
+        return school if school.startswith(district) else ""
+
+    if len(school) == 8:
+        nine = school.zfill(9)
+        return nine if nine.startswith(district) else ""
+
+    if 1 <= len(school) <= 3:
+        return district + school.zfill(3)
+
     return ""
 
 
 def screening(name: str) -> tuple[str, str, str]:
-    n = re.sub(r"\s+", " ", name.lower().replace("-", " "))
-    strong = [
-        (r"\bdual language\b", "dual language in school name"),
-        (r"\bdual immersion\b", "dual immersion in school name"),
-        (r"\btwo way immersion\b", "two-way immersion in school name"),
-        (r"\bbilingual\b", "bilingual in school name"),
-        (r"\bimmersion\b", "immersion in school name"),
-    ]
-    for pattern, label in strong:
-        if re.search(pattern, n):
-            return ("strong_name_signal", label, "high")
-    broad = [
-        (r"\blanguage (academy|school|magnet)\b", "language school/academy name"),
-        (r"\bmultilingual\b", "multilingual in school name"),
-    ]
-    for pattern, label in broad:
-        if re.search(pattern, n):
-            return ("broad_name_signal", label, "medium")
-    return ("", "", "")
+    text = re.sub(
+        r"\s+",
+        " ",
+        name.lower().replace("-", " "),
+    )
+
+    for regex, reason in [
+        (r"\bdual language\b", "dual language in campus name"),
+        (r"\bdual immersion\b", "dual immersion in campus name"),
+        (r"\btwo way immersion\b", "two-way immersion in campus name"),
+        (r"\bbilingual\b", "bilingual in campus name"),
+        (r"\bimmersion\b", "immersion in campus name"),
+    ]:
+        if re.search(regex, text):
+            return "strong_name_signal", reason, "high"
+
+    for regex, reason in [
+        (
+            r"\blanguage (academy|school|magnet)\b",
+            "language academy/school name",
+        ),
+        (r"\bmultilingual\b", "multilingual in campus name"),
+    ]:
+        if re.search(regex, text):
+            return "broad_name_signal", reason, "medium"
+
+    return "", "", ""
 
 
-def write_csv(path: Path, data: list[dict], headers: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=headers, extrasaction="raise")
+def write_csv(
+    path: Path,
+    rows: list[dict],
+    fields: list[str],
+) -> None:
+    with path.open(
+        "w",
+        newline="",
+        encoding="utf-8",
+    ) as fh:
+        writer = csv.DictWriter(
+            fh,
+            fieldnames=fields,
+            extrasaction="raise",
+        )
         writer.writeheader()
-        writer.writerows(data)
+        writer.writerows(rows)
 
 
 def collect(out: Path) -> dict:
-    out.mkdir(parents=True, exist_ok=True)
-    meta = get_metadata()
-    ids_result = query({"where": "1=1", "returnIdsOnly": "true", "f": "json"})
-    ids = ids_result.get("objectIds")
-    if not isinstance(ids, list):
-        raise RuntimeError("ArcGIS did not return an objectIds array")
-    ids = sorted(int(x) for x in ids)
-    if len(ids) != len(set(ids)) or len(ids) < 6000:
-        raise ValueError(f"Unexpected Texas ArcGIS object IDs: {len(ids)}")
+    out.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    metadata = get_metadata()
+
+    id_payload = query({
+        "where": "1=1",
+        "returnIdsOnly": "true",
+        "f": "json",
+    })
+
+    object_ids = id_payload.get("objectIds")
+
+    if not isinstance(object_ids, list):
+        raise RuntimeError(
+            "ArcGIS did not supply an objectIds array"
+        )
+
+    object_ids = sorted(
+        int(obj)
+        for obj in object_ids
+    )
+
+    if (
+        len(object_ids) < 6000
+        or len(set(object_ids)) != len(object_ids)
+    ):
+        raise ValueError(
+            f"Unexpected or duplicate ArcGIS object IDs: "
+            f"{len(object_ids)}"
+        )
 
     raw = []
-    # Object IDs, rather than offset pages, avoid skipped rows with page limits.
-    for start in range(0, len(ids), 150):
-        batch = ids[start : start + 150]
-        result = query({
+
+    for start in range(0, len(object_ids), 150):
+        batch = object_ids[start:start + 150]
+
+        response = query({
             "objectIds": ",".join(map(str, batch)),
             "outFields": ",".join(FIELDS),
             "returnGeometry": "false",
             "f": "json",
         })
-        features = result.get("features")
-        if not isinstance(features, list) or len(features) != len(batch):
+
+        features = response.get("features")
+
+        if (
+            not isinstance(features, list)
+            or len(features) != len(batch)
+        ):
             raise ValueError(
-                f"ArcGIS returned {len(features) if isinstance(features,list) else 'invalid'} "
-                f"features for {len(batch)} IDs, batch {start}"
+                "ArcGIS returned an unexpected number of features "
+                f"at offset {start}"
             )
-        for feature in features:
-            attrs = feature.get("attributes", {})
-            if not isinstance(attrs, dict):
-                raise ValueError("Missing attributes in ArcGIS feature")
-            raw.append(attrs)
 
-    fetched_ids = [int(r["ObjectID"]) for r in raw]
-    if sorted(fetched_ids) != ids:
-        raise ValueError("Missing, duplicate, or unexpected ArcGIS object IDs")
-
-    schools, missing_identifiers, candidates = [], [], []
-    for r in raw:
-        raw_district = val(r, "USER_District_Number")
-        raw_school = val(r, "USER_School_Number")
-        district = identifier(raw_district, 6)
-        campus = campus_id(raw_district, raw_school)
-        name = val(r, "USER_School_Name")
-        nces_raw = val(r, "USER_NCES_School_ID")
-        nces = identifier(nces_raw, 12)
-        nces_lea = identifier(val(r, "USER_NCES_District_ID"), 7)
-        status = (
-            "reported_id_unverified_against_nces" if nces
-            else ("source_id_missing" if not nces_raw else "source_id_invalid")
+        raw.extend(
+            f.get("attributes", {})
+            for f in features
         )
+
+    received_ids = sorted(
+        int(x["ObjectID"])
+        for x in raw
+    )
+
+    if received_ids != object_ids:
+        raise ValueError(
+            "Fetched ArcGIS object IDs do not match requested IDs"
+        )
+
+    schools = []
+    candidates = []
+    identity_review = []
+    identity_examples = []
+    nces_statuses = Counter()
+
+    for source in raw:
+        district_raw = value(
+            source,
+            "USER_District_Number",
+        )
+
+        school_raw = value(
+            source,
+            "USER_School_Number",
+        )
+
+        district = identifier(
+            district_raw,
+            6,
+            allow_short=True,
+        )
+
+        campus = campus_id(
+            district_raw,
+            school_raw,
+        )
+
+        name = value(
+            source,
+            "USER_School_Name",
+        )
+
+        raw_nces = value(
+            source,
+            "USER_NCES_School_ID",
+        )
+
+        nces = identifier(
+            raw_nces,
+            12,
+        )
+
+        nces_lea = identifier(
+            value(source, "USER_NCES_District_ID"),
+            7,
+        )
+
+        nces_status = (
+            "reported_id_unverified_against_nces"
+            if nces
+            else "source_id_invalid"
+            if raw_nces
+            else "source_id_missing"
+        )
+
+        nces_statuses[nces_status] += 1
+
         row = {
-            "state": "TX", "school_year": YEAR,
-            "texas_campus_id": campus, "texas_district_id": district,
-            "texas_school_number": raw_school,
+            "state": "TX",
+            "school_year": YEAR,
+            "texas_campus_id": campus,
+            "texas_district_id": district,
+            "texas_school_number": school_raw,
             "school_name": name,
-            "district_name": val(r, "USER_District_Name"),
+            "district_name": value(
+                source, "USER_District_Name"
+            ),
             "nces_school_id_reported": nces,
             "nces_district_id_reported": nces_lea,
-            "nces_id_status": status,
-            "grade_range": val(r, "USER_Grade_Range"),
-            "school_enrollment_oct_2024": val(r, "USER_School_Enrollment_as_of_Oc"),
-            "instruction_type_source": val(r, "USER_Instruction_Type"),
-            "city": val(r, "USER_School_City"),
-            "school_state": val(r, "USER_School_State"),
-            "street_address": val(r, "USER_School_Street_Address"),
-            "postal_code": val(r, "USER_School_Zip"),
-            "school_webpage": val(r, "USER_School_Web_Page_Address"),
-            "source_object_id": val(r, "ObjectID"),
+            "nces_id_status": nces_status,
+            "grade_range": value(
+                source, "USER_Grade_Range"
+            ),
+            "school_enrollment_oct_2024": value(
+                source, "USER_School_Enrollment_as_of_Oc"
+            ),
+            "instruction_type_source": value(
+                source, "USER_Instruction_Type"
+            ),
+            "city": value(
+                source, "USER_School_City"
+            ),
+            "school_state": value(
+                source, "USER_School_State"
+            ),
+            "street_address": value(
+                source, "USER_School_Street_Address"
+            ),
+            "postal_code": value(
+                source, "USER_School_Zip"
+            ),
+            "school_webpage": value(
+                source, "USER_School_Web_Page_Address"
+            ),
+            "source_object_id": value(
+                source, "ObjectID"
+            ),
             "source_url": LAYER,
             "program_verification_status": "not_checked",
-            # Intentionally blank: school name and directory are NOT program proof.
             "dual_language_reported": "",
-            "instructional_language": "", "one_way_two_way": "",
-            "allocation_model": "", "whole_school_or_strand": "",
-            "first_program_year": "", "program_source_url": "",
+            "instructional_language": "",
+            "one_way_two_way": "",
+            "allocation_model": "",
+            "whole_school_or_strand": "",
+            "first_program_year": "",
+            "program_source_url": "",
         }
+
         schools.append(row)
+
         if not campus or not district or not name:
-            missing_identifiers.append(row)
+            identity_review.append(row)
+
+            if len(identity_examples) < 8:
+                identity_examples.append({
+                    "object_id": value(
+                        source, "ObjectID"
+                    ),
+                    "raw_district": district_raw,
+                    "raw_school": school_raw,
+                    "name": name,
+                })
+
         signal, reason, priority = screening(name)
+
         if signal:
             candidates.append({
-                **row, "name_signal": signal,
-                "screening_reason": reason, "review_priority": priority,
+                **row,
+                "name_signal": signal,
+                "screening_reason": reason,
+                "review_priority": priority,
             })
 
-    campus_ids = [x["texas_campus_id"] for x in schools if x["texas_campus_id"]]
-    duplicated = [v for v, n in Counter(campus_ids).items() if n > 1]
-    if duplicated:
-        raise ValueError(
-            f"Duplicate Texas campus IDs; do not collapse source schools: {duplicated[:20]}"
-        )
-    if len(schools) < 6000:
-        raise ValueError("Texas school census unexpectedly small")
-    if len(missing_identifiers) > max(100, len(schools) // 20):
-        raise ValueError("Too many missing Texas campus identifiers or school names")
+    campus_ids = [
+        r["texas_campus_id"]
+        for r in schools
+        if r["texas_campus_id"]
+    ]
 
-    schools.sort(key=lambda r: (r["texas_campus_id"], r["school_name"]))
-    candidates.sort(key=lambda r: (
-        0 if r["review_priority"] == "high" else 1,
-        r["district_name"], r["school_name"],
-    ))
-    write_csv(out / "tx_2024_25_all_campuses.csv", schools, CAMPUS_FIELDS)
-    write_csv(out / "tx_2024_25_dl_name_candidates.csv", candidates, CANDIDATE_FIELDS)
-    write_csv(out / "tx_2024_25_identity_review.csv", missing_identifiers, CAMPUS_FIELDS)
+    duplicates = [
+        key
+        for key, count in Counter(campus_ids).items()
+        if count > 1
+    ]
+
+    schools.sort(
+        key=lambda r: (
+            r["texas_campus_id"],
+            r["school_name"],
+        )
+    )
+
+    candidates.sort(
+        key=lambda r: (
+            r["review_priority"] != "high",
+            r["district_name"],
+            r["school_name"],
+        )
+    )
+
+    # Save all results before validation fails, if a source
+    # formatting problem remains. GitHub can upload the
+    # diagnostic files even on a failed run.
+
     write_csv(
-        out / "tx_2024_25_source_attributes.csv", raw, FIELDS
+        out / "tx_2024_25_all_campuses.csv",
+        schools,
+        CAMPUS_FIELDS,
+    )
+
+    write_csv(
+        out / "tx_2024_25_dl_name_candidates.csv",
+        candidates,
+        CANDIDATE_FIELDS,
+    )
+
+    write_csv(
+        out / "tx_2024_25_identity_review.csv",
+        identity_review,
+        CAMPUS_FIELDS,
+    )
+
+    write_csv(
+        out / "tx_2024_25_source_attributes.csv",
+        raw,
+        FIELDS,
     )
 
     report = {
         "source": LAYER,
-        "source_description": "TEA AskTED 2024-25 school campus export",
+        "source_description": (
+            "TEA AskTED 2024-25 campus directory"
+        ),
         "source_snapshot_year": YEAR,
-        "collected_utc": datetime.now(timezone.utc).isoformat(),
-        "arcgis_metadata_last_edit_ms": (meta.get("editingInfo") or {}).get("lastEditDate"),
-        "arcgis_object_ids": len(ids),
+        "collected_utc": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "arcgis_object_ids": len(object_ids),
         "school_census_rows": len(schools),
-        "unique_nonempty_texas_campus_ids": len(set(campus_ids)),
-        "rows_missing_identity_fields": len(missing_identifiers),
-        "nces_ids_reported_12_digit": sum(bool(r["nces_school_id_reported"]) for r in schools),
+        "unique_nonempty_texas_campus_ids": len(
+            set(campus_ids)
+        ),
+        "duplicate_texas_campus_ids": duplicates[:25],
+        "rows_missing_identity_fields": len(
+            identity_review
+        ),
+        "missing_identity_examples": identity_examples,
+        "nces_id_status_counts": dict(nces_statuses),
+        "nces_ids_reported_12_digit": sum(
+            bool(r["nces_school_id_reported"])
+            for r in schools
+        ),
         "dl_name_candidates": len(candidates),
-        "candidate_signal_counts": dict(Counter(r["name_signal"] for r in candidates)),
+        "candidate_signal_counts": dict(
+            Counter(
+                r["name_signal"]
+                for r in candidates
+            )
+        ),
         "programs_verified": 0,
-        "programs_unverified_not_assumed_absent": len(schools),
+        "programs_unverified_not_assumed_absent": len(
+            schools
+        ),
         "source_is_a_school_directory_not_a_dli_roster": True,
         "warnings": [
-            "Name-based candidate signals have false positives and false negatives.",
-            "No Texas DLI participation, language, ratio, one/two-way or strand status has been inferred.",
-            "NCES identifiers are source-reported and need independent 2024-25 NCES cross-check.",
-            "This is a 2024-25 snapshot, not evidence that a program operated in any other year.",
-            "All campuses are retained to allow subsequent non-DLI / EL comparisons.",
+            (
+                "Leading apostrophes in AskTED identifiers "
+                "removed as Excel formatting."
+            ),
+            (
+                "Name signals have false positives "
+                "and false negatives."
+            ),
+            (
+                "No DLI program presence, language, "
+                "instructional ratio, or strand status inferred."
+            ),
+            (
+                "NCES IDs are source-reported and still "
+                "require independent verification."
+            ),
+            (
+                "All campuses retained for subsequent "
+                "comparison groups."
+            ),
         ],
         "upstream_fields": FIELDS,
     }
-    (out / "tx_2024_25_collection_report.json").write_text(
-        json.dumps(report, indent=2) + "\n", encoding="utf-8"
+
+    report_path = (
+        out / "tx_2024_25_collection_report.json"
     )
-    (out / "tx_2024_25_source_schema.json").write_text(
-        json.dumps({"fields": meta.get("fields", []), "source": LAYER}, indent=2) + "\n",
+
+    report_path.write_text(
+        json.dumps(report, indent=2) + "\n",
         encoding="utf-8",
     )
+
+    schema_path = (
+        out / "tx_2024_25_source_schema.json"
+    )
+
+    schema_path.write_text(
+        json.dumps({
+            "source": LAYER,
+            "fields": metadata.get("fields", []),
+        }, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     print(json.dumps(report, indent=2))
+
+    if duplicates:
+        raise ValueError(
+            f"Duplicate Texas campus IDs: {duplicates[:12]}"
+        )
+
+    if len(identity_review) > max(
+        100,
+        len(schools) // 20,
+    ):
+        raise ValueError(
+            f"Too many incomplete identities: "
+            f"{len(identity_review)} / {len(schools)}. "
+            "See tx_2024_25_identity_review.csv "
+            "and tx_2024_25_source_attributes.csv"
+        )
+
     return report
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--out", type=Path, default=Path("output/texas"))
+
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=Path("output/texas"),
+    )
+
     args = parser.parse_args()
     collect(args.out)
 
