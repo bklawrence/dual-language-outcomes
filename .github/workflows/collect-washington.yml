@@ -20,7 +20,7 @@ jobs:
 
       - name: Show workflow revision and commit
         run: |
-          echo "Washington workflow: ENROLLMENT REPAIR + NCES MATCH"
+          echo "Washington workflow: ENROLLMENT REPAIR + NCES RECONCILIATION"
           echo "Repository commit: $GITHUB_SHA"
           echo "Branch or tag: $GITHUB_REF_NAME"
 
@@ -39,6 +39,7 @@ jobs:
           test -f analysis/state_dl/washington/clean_washington.py
           test -f analysis/state_dl/washington/repair_washington_enrollment.py
           test -f analysis/state_dl/washington/match_washington_nces.py
+          test -f analysis/state_dl/washington/reconcile_washington_nces.py
 
       - name: Collect Washington program inventory
         run: python3 collectors/washington.py
@@ -82,13 +83,14 @@ jobs:
           report = json.loads(
               (base / 'wa_enrollment_report.json').read_text()
           )
+
           fixed = report.get(
               'grade3_5_repair', {}
           ).get('complete_school_years', 0)
 
-          with (base / 'wa_enrollment_school_years.csv').open(
-              newline=''
-          ) as f:
+          with (
+              base / 'wa_enrollment_school_years.csv'
+          ).open(newline='') as f:
               rows = list(csv.DictReader(f))
 
           actual = sum(
@@ -100,11 +102,17 @@ jobs:
               f'Grade 3-5 complete school-years: '
               f'{actual} of {len(rows)}'
           )
-          assert fixed > 0, 'Enrollment repair did not run'
+
+          assert fixed > 0, (
+              'Enrollment repair did not run'
+          )
+
           assert actual == fixed, (
-              f'Report/CSV disagreement: {fixed} vs {actual}'
+              f'Report/CSV disagreement: '
+              f'{fixed} vs {actual}'
           )
           PY
+
           sha256sum output/washington/wa_enrollment_school_years.csv
 
       - name: Install statistical dependencies
@@ -122,7 +130,7 @@ jobs:
           python3 analysis/state_dl/washington/match_washington_nces.py \
             --base output/washington
 
-      - name: Verify NCES outputs
+      - name: Verify initial NCES outputs
         run: |
           python3 - <<'PY'
           import csv
@@ -144,32 +152,37 @@ jobs:
                   f'Missing NCES output: {name}'
               )
 
-          def count(name):
-              with (base / name).open(
+          def count(path):
+              with path.open(
                   newline='', encoding='utf-8-sig'
               ) as f:
-                  return sum(1 for _ in csv.DictReader(f))
+                  return sum(
+                      1 for _ in csv.DictReader(f)
+                  )
 
-          roster_n = count('wa_all_dl_schools.csv')
-          obs_n = count('wa_all_dl_school_years.csv')
-          xwalk_n = count(
-              'nces/wa_nces_school_crosswalk.csv'
-          )
-          joined_n = count(
-              'nces/wa_all_program_observations_with_nces.csv'
-          )
+          assert (
+              count(out / 'wa_nces_school_crosswalk.csv')
+              == count(base / 'wa_all_dl_schools.csv')
+          ), 'School loss'
 
-          assert xwalk_n == roster_n, 'NCES school loss'
-          assert joined_n == obs_n, 'NCES observation loss'
+          assert (
+              count(
+                  out / 'wa_all_program_observations_with_nces.csv'
+              )
+              == count(base / 'wa_all_dl_school_years.csv')
+          ), 'Observation loss'
 
-          print(
-              f'NCES: {xwalk_n} school rows; '
-              f'{joined_n} program records'
-          )
           print(
               (out / 'wa_nces_match_summary.json').read_text()
           )
           PY
+
+      - name: Reconcile two verified Washington NCES exceptions
+        run: |
+          python3 analysis/state_dl/washington/reconcile_washington_nces.py \
+            --base output/washington
+
+          cat output/washington/nces/reconciled/wa_nces_reconciliation_summary.json
 
       - name: Display cleanup and enrollment summaries
         if: always()
@@ -177,6 +190,7 @@ jobs:
           if test -f output/washington/cleaned/wa_cleanup_summary.json; then
             cat output/washington/cleaned/wa_cleanup_summary.json
           fi
+
           if test -f output/washington/wa_enrollment_report.json; then
             cat output/washington/wa_enrollment_report.json
           fi
