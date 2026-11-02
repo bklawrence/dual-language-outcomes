@@ -1,13 +1,22 @@
 
 #!/usr/bin/env python3
-"""Texas TAPR campus DLI groups: cautious browser collection and extraction.
+"""Collect TEA 2023-24 TAPR BE/ESL campus assessment data.
 
-Run in GitHub Actions with Playwright. The downloader can fail if TEA refuses
-connections; it writes diagnosis rather than pretending that missing = zero.
+Verified from TEA's captured form:
+    #ccyy = 2024
+    #tapr = all_c
+    SASoutput iframe
+    dsname = BIL1
+    Next
 
-2023-24 official TAPR advanced data: subgroup DQ (two-way), DT (one-way),
-last character N/D/R for numerator/denominator/rate. This is assessment
-participation, not whole-program enrollment or a program census.
+Later stages are navigated conservatively. Unrecognized
+controls are recorded rather than guessed.
+
+DQ = two-way DLI
+DT = one-way DLI
+
+Assessment denominators are test-taker counts, not
+whole-program enrollment.
 """
 
 from __future__ import annotations
@@ -20,21 +29,15 @@ import json
 import re
 import time
 import traceback
-import urllib.request
 
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 
-NEW_URL = (
+URL = (
     "https://rptsvr1.tea.texas.gov/perfreport/tapr/"
     "tapr_dd_download.html?year=2024"
-)
-
-OLD_URL = (
-    "https://rptsvr1.tea.texas.gov/perfreport/tapr/2024/"
-    "Advance%20Download/download-data-adv.html"
 )
 
 GROUPS = {
@@ -48,88 +51,75 @@ METRICS = {
     "R": "rate",
 }
 
-# First character identifies dataset.
-# Second and third identify the student group.
 CODE = re.compile(
-    r"^[A-Z]D([QT])[A-Z0-9_]+([NDR])$",
+    r"^[A-Z]D[QT][A-Z0-9_]+[NDR]$",
     re.I,
 )
 
 
-def save_json(path, obj):
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
+def save_json(path, item):
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(
-            obj,
-            indent=2,
-            default=str,
+            item, indent=2, default=str
         ) + "\n",
         encoding="utf-8",
     )
 
 
-def csv_write(path, rows, names):
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
+def save_csv(path, rows, columns):
     with path.open(
-        "w",
-        newline="",
-        encoding="utf-8",
-    ) as handle:
-        writer = csv.DictWriter(
-            handle,
-            fieldnames=names,
+        "w", newline="", encoding="utf-8"
+    ) as f:
+        w = csv.DictWriter(
+            f, fieldnames=columns
         )
-        writer.writeheader()
-        writer.writerows(rows)
+        w.writeheader()
+        w.writerows(rows)
 
 
-def hash_file(path):
+def fingerprint(path):
     h = hashlib.sha256()
 
-    with path.open("rb") as handle:
-        for chunk in iter(
-            lambda: handle.read(1024 * 1024),
-            b"",
+    with path.open("rb") as f:
+        for block in iter(
+            lambda: f.read(1024 * 1024), b""
         ):
-            h.update(chunk)
+            h.update(block)
 
     return h.hexdigest()
 
 
-def controls(page):
-    """Inventory form controls for diagnostics."""
-
-    return page.evaluate(
-        """() => Array.from(document.querySelectorAll(
-            'select,input,button,a'
-        )).slice(0,500).map((x,i)=>({
-            index:i,
-            tag:x.tagName,
-            type:x.type||'',
-            id:x.id||'',
-            name:x.name||'',
-            value:x.value||'',
-            checked:!!x.checked,
-            disabled:!!x.disabled,
+def inventory(frame):
+    return frame.evaluate(
+        """() => [...document.querySelectorAll(
+            'input,select,button,a'
+        )].slice(0,600).map((e,i)=>({
+            i,
+            tag:e.tagName,
+            type:e.type||'',
+            name:e.name||'',
+            id:e.id||'',
+            value:e.value||'',
+            checked:!!e.checked,
+            disabled:!!e.disabled,
+            visible:!!(
+                e.offsetWidth ||
+                e.offsetHeight ||
+                e.getClientRects().length
+            ),
             label:(
-                x.labels?.[0]?.innerText ||
-                x.getAttribute('aria-label') ||
-                x.parentElement?.innerText ||
+                e.labels?.[0]?.innerText ||
+                e.getAttribute('aria-label') ||
+                e.parentElement?.innerText ||
                 ''
-            ).replace(/\\s+/g,' ').slice(0,130),
-            text:(x.innerText||'')
-                .replace(/\\s+/g,' ').slice(0,100),
-            options:x.tagName==='SELECT'
-                ? Array.from(x.options).map(o=>({
-                    label:o.label.trim(),
+            ).replace(/\\s+/g,' ').slice(0,160),
+            text:(e.innerText||'')
+                .replace(/\\s+/g,' ')
+                .slice(0,130),
+            options:e.tagName==='SELECT'
+                ? [...e.options].map(o=>({
+                    label:o.label,
                     value:o.value,
                     selected:o.selected
                 })).slice(0,250)
@@ -138,261 +128,52 @@ def controls(page):
     )
 
 
-def snapshot(page, out, name, log):
-    """Save HTML, screenshot and control inventory."""
-
+def step_value(frame):
     try:
-        (out / f"{name}.html").write_text(
-            page.content(),
+        x = frame.locator(
+            'input[name="step"]'
+        )
+        return (
+            x.first.input_value(timeout=1500)
+            if x.count()
+            else ""
+        )
+    except Exception:
+        return ""
+
+
+def capture(frame, out, label, report):
+    try:
+        (
+            out / f"tx_tapr_{label}.html"
+        ).write_text(
+            frame.content(),
             encoding="utf-8",
         )
 
-        page.screenshot(
-            path=str(out / f"{name}.png"),
-            full_page=True,
-            timeout=12000,
-        )
-
-        log["snapshots"].append(name)
-
         save_json(
-            out / f"{name}_controls.json",
-            controls(page),
+            out / f"tx_tapr_{label}_controls.json",
+            inventory(frame),
         )
+
+        report["stages"].append({
+            "stage": label,
+            "url": frame.url,
+            "step": step_value(frame),
+        })
 
     except Exception as exc:
-        log["events"].append({
-            "snapshot_failure": str(exc),
+        report["events"].append({
+            "capture_error": (
+                f"{label}: {exc}"
+            )
         })
 
 
-def probe(url, seconds=12):
-    """Check whether a TEA page is reachable."""
+def get_sas(page, timeout=60):
+    deadline = time.monotonic() + timeout
 
-    try:
-        request = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 "
-                    "(compatible; research data collection)"
-                ),
-            },
-        )
-
-        with urllib.request.urlopen(
-            request,
-            timeout=seconds,
-        ) as response:
-            return {
-                "url": url,
-                "http_status": response.status,
-                "final_url": response.url,
-                "content_type": response.headers.get(
-                    "Content-Type",
-                    "",
-                ),
-            }
-
-    except Exception as exc:
-        return {
-            "url": url,
-            "error": (
-                f"{type(exc).__name__}: {exc}"
-            ),
-        }
-
-
-def choose_select(page, patterns, step):
-    """Select one unambiguous option from a visible dropdown.
-
-    Does not guess based on DOM position. If the correct
-    choice is not identifiable, leave it unchanged.
-    """
-
-    matches = []
-
-    for i in range(
-        page.locator("select").count()
-    ):
-        sel = page.locator("select").nth(i)
-
-        if (
-            not sel.is_visible()
-            or not sel.is_enabled()
-        ):
-            continue
-
-        options = sel.evaluate(
-            """e=>Array.from(e.options).map(o=>({
-                label:o.label.trim(),
-                value:o.value
-            }))"""
-        )
-
-        found = [
-            option
-            for option in options
-            if any(
-                re.search(
-                    pattern,
-                    option["label"],
-                    re.I,
-                )
-                for pattern in patterns
-            )
-        ]
-
-        if len(found) == 1:
-            matches.append(
-                (i, found[0])
-            )
-
-    if len(matches) > 1:
-        raise RuntimeError(
-            f"Ambiguous {step} dropdowns: {matches}"
-        )
-
-    if not matches:
-        return False
-
-    index, option = matches[0]
-
-    page.locator("select").nth(
-        index
-    ).select_option(
-        value=option["value"]
-    )
-
-    page.wait_for_timeout(700)
-
-    return {
-        "step": step,
-        "select": index,
-        "label": option["label"],
-        "value": option["value"],
-    }
-
-
-def choose_labeled_control(page, terms):
-    """Select a checkbox or radio with an explicit label."""
-
-    candidates = page.locator(
-        'input[type="checkbox"],'
-        'input[type="radio"]'
-    )
-
-    hits = []
-
-    for i in range(candidates.count()):
-        loc = candidates.nth(i)
-
-        if (
-            not loc.is_visible()
-            or not loc.is_enabled()
-        ):
-            continue
-
-        description = loc.evaluate(
-            """e=>(
-                e.labels?.[0]?.innerText ||
-                e.parentElement?.innerText ||
-                ''
-            ).trim()"""
-        )
-
-        if any(
-            re.search(
-                term,
-                description,
-                re.I,
-            )
-            for term in terms
-        ):
-            hits.append(
-                (i, description)
-            )
-
-    if len(hits) != 1:
-        return False
-
-    index, description = hits[0]
-
-    candidates.nth(
-        index
-    ).check(force=True)
-
-    page.wait_for_timeout(500)
-
-    return {
-        "control": index,
-        "label": description[:180],
-    }
-
-
-def select_options(page, log, out):
-    """Select Campuses on the main page, then inspect SASoutput.
-
-    TEA's #tapr dropdown automatically submits the form
-    into an iframe named SASoutput.
-
-    The additional download choices are not necessarily
-    present on the outer document.
-    """
-
-    actions = log["selections"]
-
-    selected = {
-        "year": False,
-        "campus": False,
-        "grades": False,
-        "be_esl": False,
-    }
-
-    year = page.locator("#ccyy")
-    typ = page.locator("#tapr")
-
-    if (
-        year.count() != 1
-        or typ.count() != 1
-    ):
-        raise RuntimeError(
-            "Expected TEA #ccyy and #tapr "
-            "controls missing"
-        )
-
-    # 2024 identifies the 2023-24 reporting year.
-    year.select_option(value="2024")
-
-    selected["year"] = (
-        year.input_value() == "2024"
-    )
-
-    actions.append({
-        "step": "year",
-        "value": year.input_value(),
-    })
-
-    # all_c = statewide campus-level data.
-    #
-    # Selecting this value automatically submits
-    # TEA's form and loads the next interface
-    # into the SASoutput iframe.
-    typ.select_option(value="all_c")
-
-    selected["campus"] = (
-        typ.input_value() == "all_c"
-    )
-
-    actions.append({
-        "step": "campuses",
-        "value": typ.input_value(),
-    })
-
-    # Wait for the SAS application to load.
-    frame = None
-
-    for _ in range(35):
+    while time.monotonic() < deadline:
         frame = page.frame(
             name="SASoutput"
         )
@@ -401,217 +182,311 @@ def select_options(page, log, out):
             frame
             and "/cgi/sas/broker" in frame.url
         ):
-            break
+            try:
+                selector = frame.locator(
+                    'input[name="dsname"]'
+                    '[value="BIL1"]'
+                )
 
-        page.wait_for_timeout(1000)
+                if selector.count():
+                    return frame
+            except Exception:
+                pass
 
-    else:
-        log["frame_url"] = (
-            frame.url if frame else None
+        page.wait_for_timeout(700)
+
+    raise RuntimeError(
+        "SASoutput did not reach TEA's "
+        "Step 3 BIL1 form"
+    )
+
+
+def advance(frame, page, report, label):
+    before_step = step_value(frame)
+    before_url = frame.url
+    old = frame.content()
+
+    nexts = frame.locator(
+        'input[type="submit"],'
+        'button[type="submit"]'
+    )
+
+    choices = []
+
+    for i in range(nexts.count()):
+        el = nexts.nth(i)
+
+        desc = (
+            (el.get_attribute("value") or "")
+            + " "
+            + (el.inner_text() or "")
         )
 
+        if re.search(
+            r"next|continue", desc, re.I
+        ):
+            choices.append(i)
+
+    if len(choices) != 1:
         raise RuntimeError(
-            "TEA did not load the SAS result "
-            "iframe after Campuses selection"
+            f"{label}: expected one "
+            f"Next/Continue button; "
+            f"found {choices}"
         )
 
-    try:
-        frame.wait_for_load_state(
-            "domcontentloaded",
-            timeout=25000,
-        )
+    nexts.nth(choices[0]).click(
+        timeout=20000
+    )
 
-    except Exception as exc:
-        log["events"].append({
-            "iframe_load_warning": str(exc)[:300],
-        })
-
-    def capture(stage):
-        """Save the actual content of the SAS iframe."""
+    for _ in range(50):
+        page.wait_for_timeout(450)
 
         current = page.frame(
             name="SASoutput"
         )
 
         if not current:
-            return
+            continue
 
         try:
-            (out / f"tx_tapr_{stage}.html").write_text(
-                current.content(),
-                encoding="utf-8",
+            changed = (
+                step_value(current) != before_step
+                or current.url != before_url
+                or current.content() != old
             )
 
-            save_json(
-                out / f"tx_tapr_{stage}_controls.json",
-                controls(current),
-            )
-
-            log["events"].append({
-                "iframe_stage": stage,
-                "iframe_url": current.url,
-            })
-
-        except Exception as exc:
-            log["events"].append({
-                "iframe_capture_failure": (
-                    f"{stage}: {exc}"
-                )[:350],
-            })
-
-    # Capture TEA's actual second-stage form
-    # before trying to interact with it.
-    capture("sas_after_campus")
-
-    patterns = {
-        "grades": [
-            r"grades?\s*3\s*(?:-|–|to)\s*8",
-            r"\b3rd\b.*\b8th\b",
-            (
-                r"Approaches.*Meets.*"
-                r"Masters.*(?:3|Grades)"
-            ),
-        ],
-        "be_esl": [
-            r"\bBE\s*[/&-]\s*ESL\b",
-            r"bilingual.*ESL",
-            r"bilingual.*(?:student|group)",
-            (
-                r"dual.language.*"
-                r"(?:one.way|two.way)"
-            ),
-        ],
-    }
-
-    for attempt in range(10):
-        progress = False
-
-        frame = page.frame(
-            name="SASoutput"
-        )
-
-        if not frame:
-            break
-
-        for step in (
-            "grades",
-            "be_esl",
-        ):
-            if selected[step]:
-                continue
-
-            # Search dropdowns inside the iframe.
-            choice = choose_select(
-                frame,
-                patterns[step],
-                step,
-            )
-
-            # If no dropdown matched, try a
-            # uniquely labeled checkbox/radio.
-            if not choice:
-                choice = choose_labeled_control(
-                    frame,
-                    patterns[step],
-                )
-
-            if choice:
-                selected[step] = True
-
-                actions.append({
-                    "scope": "SASoutput",
-                    **choice,
+            if changed:
+                report["events"].append({
+                    "advance": label,
+                    "from_step": before_step,
+                    "to_step": step_value(current),
                 })
 
-                progress = True
+                return current
 
-                page.wait_for_timeout(1200)
+        except Exception:
+            pass
 
-                capture(
-                    f"sas_after_{step}"
-                )
-
-        if (
-            selected["grades"]
-            and selected["be_esl"]
-        ):
-            break
-
-        if not progress:
-            # Advance through a wizard only if
-            # there is one unambiguous Next/Continue
-            # button within the iframe.
-            next_button = frame.get_by_role(
-                "button",
-                name=re.compile(
-                    r"^(next|continue)$",
-                    re.I,
-                ),
-            )
-
-            if (
-                next_button.count() == 1
-                and next_button.first.is_enabled()
-            ):
-                next_button.first.click()
-
-                page.wait_for_timeout(1500)
-
-                actions.append({
-                    "scope": "SASoutput",
-                    "step": "continue",
-                })
-
-                capture(
-                    f"sas_after_continue_{attempt}"
-                )
-
-            else:
-                break
-
-    log["selected"] = selected
-
-    capture("sas_final")
-
-    if (
-        not selected["grades"]
-        or not selected["be_esl"]
-    ):
-        raise RuntimeError(
-            "Campus selected, but exact grades "
-            "3-8 / BE-ESL controls were not "
-            "established in SASoutput. "
-            "Inspect tx_tapr_sas_final_controls.json "
-            "and tx_tapr_sas_final.html before "
-            "changing selectors."
-        )
-
-    return page.frame(
-        name="SASoutput"
+    raise RuntimeError(
+        f"{label}: TEA did not advance "
+        f"from step {before_step}"
     )
 
 
-def fetch_public(out, wait_seconds):
-    """Retrieve TAPR campus CSV using browser automation."""
+def select_all_checkboxes(frame, report):
+    checks = frame.locator(
+        'input[type="checkbox"]'
+    )
 
+    available = []
+
+    for i in range(checks.count()):
+        el = checks.nth(i)
+
+        if (
+            el.is_enabled()
+            and el.is_visible()
+        ):
+            available.append(i)
+
+    if len(available) > 200:
+        raise RuntimeError(
+            "Too many selectable fields; "
+            "review controls before proceeding"
+        )
+
+    for i in available:
+        checks.nth(i).check(
+            timeout=10000
+        )
+
+    report["events"].append({
+        "checkboxes_selected": len(available)
+    })
+
+    return bool(available)
+
+
+def format_choices(frame, report):
+    """Select CSV if an explicit format choice exists."""
+
+    matched = 0
+
+    selects = frame.locator("select")
+
+    for i in range(selects.count()):
+        el = selects.nth(i)
+
+        if (
+            not el.is_visible()
+            or not el.is_enabled()
+        ):
+            continue
+
+        options = el.evaluate(
+            """e => [...e.options].map(o=>({
+                label:o.label,
+                value:o.value
+            }))"""
+        )
+
+        csvs = [
+            o for o in options
+            if re.search(
+                r"csv|comma.delimited",
+                o["label"],
+                re.I,
+            )
+        ]
+
+        if len(csvs) == 1:
+            el.select_option(
+                value=csvs[0]["value"]
+            )
+
+            matched += 1
+
+            report["events"].append({
+                "selected_format": csvs[0]
+            })
+
+    radios = frame.locator(
+        'input[type="radio"]'
+    )
+
+    radio_options = []
+
+    for i in range(radios.count()):
+        item = radios.nth(i)
+
+        if (
+            not item.is_enabled()
+            or not item.is_visible()
+        ):
+            continue
+
+        desc = item.evaluate(
+            """e =>
+                e.labels?.[0]?.innerText ||
+                e.parentElement?.innerText ||
+                ''
+            """
+        )
+
+        if re.search(
+            r"csv|comma.delimited",
+            desc,
+            re.I,
+        ):
+            radio_options.append(i)
+
+    if len(radio_options) == 1:
+        radios.nth(
+            radio_options[0]
+        ).check()
+
+        report["events"].append({
+            "selected_csv_radio":
+                radio_options[0]
+        })
+
+        matched += 1
+
+    return bool(matched)
+
+
+def click_export(frame, page, report):
+    """Click a clearly identified download control."""
+
+    submits = frame.locator(
+        'input[type="submit"],'
+        'button[type="submit"]'
+    )
+
+    choices = []
+
+    for i in range(submits.count()):
+        el = submits.nth(i)
+
+        desc = (
+            (el.get_attribute("value") or "")
+            + " "
+            + (el.inner_text() or "")
+        )
+
+        if re.search(
+            r"download|export|generate|get data",
+            desc,
+            re.I,
+        ):
+            choices.append(i)
+
+    if len(choices) == 1:
+        submits.nth(
+            choices[0]
+        ).click()
+
+        report["events"].append({
+            "clicked_export": True
+        })
+
+        return True
+
+    links = frame.locator('a[href]')
+    found = []
+
+    for i in range(links.count()):
+        link = links.nth(i)
+
+        href = (
+            link.get_attribute("href") or ""
+        )
+
+        label = (
+            link.inner_text() or ""
+        )
+
+        is_file = re.search(
+            r"\.(?:csv|dat|txt)(?:[?#]|$)",
+            href,
+            re.I,
+        )
+
+        is_export = re.fullmatch(
+            r"\s*download(?: csv| data)?\s*",
+            label,
+            re.I,
+        )
+
+        if is_file or is_export:
+            found.append(i)
+
+    if len(found) == 1:
+        links.nth(found[0]).click()
+
+        report["events"].append({
+            "clicked_export_link": True
+        })
+
+        return True
+
+    return False
+
+
+def fetch(out, wait_seconds):
     from playwright.sync_api import sync_playwright
 
-    log = {
-        "utc": datetime.now(
+    report = {
+        "started_utc": datetime.now(
             timezone.utc
         ).isoformat(),
-        "urls": [
-            NEW_URL,
-            OLD_URL,
-        ],
+        "source": URL,
         "events": [],
-        "snapshots": [],
-        "selections": [],
-        "probes": [
-            probe(NEW_URL),
-            probe(OLD_URL),
-        ],
+        "stages": [],
+        "verified_category": "BIL1",
     }
+
+    downloads = []
 
     try:
         with sync_playwright() as pw:
@@ -623,8 +498,6 @@ def fetch_public(out, wait_seconds):
             context = browser.new_context(
                 accept_downloads=True,
             )
-
-            downloads = []
 
             context.on(
                 "page",
@@ -641,104 +514,136 @@ def fetch_public(out, wait_seconds):
                 lambda d: downloads.append(d),
             )
 
-            page.on(
-                "requestfailed",
-                lambda request: log["events"].append({
-                    "request_failed": request.url[:200],
-                    "reason": request.failure,
-                }),
+            response = page.goto(
+                URL,
+                wait_until="domcontentloaded",
+                timeout=60000,
             )
 
-            reached = False
+            report["http_status"] = (
+                response.status
+                if response
+                else None
+            )
 
-            for label, url in (
-                ("new", NEW_URL),
-                ("legacy", OLD_URL),
+            if (
+                not response
+                or response.status != 200
             ):
-                try:
-                    response = page.goto(
-                        url,
-                        wait_until="domcontentloaded",
-                        timeout=30000,
-                    )
+                raise RuntimeError(
+                    "TEA main page returned "
+                    f"{report['http_status']}"
+                )
 
-                    page.wait_for_timeout(700)
+            # Step 1: 2023-24 school year.
+            page.locator(
+                "#ccyy"
+            ).select_option(value="2024")
 
-                    log["events"].append({
-                        "page": label,
-                        "status": (
-                            response.status
-                            if response
-                            else None
-                        ),
-                        "final_url": page.url,
-                    })
+            # Step 2: All Campuses.
+            page.locator(
+                "#tapr"
+            ).select_option(value="all_c")
 
-                    snapshot(
-                        page,
-                        out,
-                        f"tx_tapr_{label}_before",
-                        log,
-                    )
+            frame = get_sas(page)
 
-                    reached = True
+            capture(
+                frame,
+                out,
+                "step3_BIL1_choices",
+                report,
+            )
+
+            # Step 3: BE/ESL achievement category.
+            category = frame.locator(
+                'input[name="dsname"]'
+                '[value="BIL1"]'
+            )
+
+            category.check()
+
+            if not category.is_checked():
+                raise RuntimeError(
+                    "BIL1 radio was not selected"
+                )
+
+            frame = advance(
+                frame,
+                page,
+                report,
+                "select_BIL1",
+            )
+
+            capture(
+                frame,
+                out,
+                "step4_after_BIL1",
+                report,
+            )
+
+            # Proceed only through identifiable controls.
+            # Later TEA stages are not yet independently
+            # verified. Their HTML is captured.
+            for stage in range(4, 9):
+                if downloads:
                     break
 
-                except Exception as exc:
-                    log["events"].append({
-                        "page": label,
-                        "navigation_error": str(exc)[:700],
-                    })
+                current_step = step_value(frame)
 
-            if not reached:
-                raise RuntimeError(
-                    "TEA refused or failed both "
-                    "browser connections. This is "
-                    "a network/access failure, "
-                    "not a form-selector failure."
+                summary_text = (
+                    frame.locator("body")
+                    .inner_text(timeout=10000)[:1500]
                 )
 
-            # Select year and campus on outer page,
-            # then access the SASoutput iframe.
-            target = select_options(
-                page,
-                log,
-                out,
-            )
+                report["events"].append({
+                    "stage_loop": stage,
+                    "site_step": current_step,
+                    "body_excerpt":
+                        summary_text[:350],
+                })
 
-            snapshot(
-                page,
-                out,
-                "tx_tapr_after_selection",
-                log,
-            )
+                if click_export(
+                    frame, page, report
+                ):
+                    break
 
-            # Submit from the SAS iframe, not
-            # from the unrelated outer webpage.
-            button = target.get_by_role(
-                "button",
-                name=re.compile(
-                    r"^(download|export|generate|"
-                    r"download data|download csv|submit)$",
-                    re.I,
-                ),
-            )
-
-            if button.count() == 1:
-                button.first.click()
-
-            else:
-                submit = target.locator(
-                    'input[type="submit"]'
+                chosen = select_all_checkboxes(
+                    frame, report
                 )
 
-                if submit.count() == 1:
-                    submit.first.click()
+                chosen = (
+                    format_choices(frame, report)
+                    or chosen
+                )
 
-                else:
+                if not chosen:
                     raise RuntimeError(
-                        "No unambiguous export button found"
+                        "Cannot safely select options "
+                        f"at TEA step {current_step}; "
+                        "inspect saved SAS controls. "
+                        "No guessed submission."
                     )
+
+                capture(
+                    frame,
+                    out,
+                    f"step{stage}_selected",
+                    report,
+                )
+
+                frame = advance(
+                    frame,
+                    page,
+                    report,
+                    f"next_after_step{stage}",
+                )
+
+                capture(
+                    frame,
+                    out,
+                    f"step{stage + 1}_after_next",
+                    report,
+                )
 
             deadline = (
                 time.monotonic() + wait_seconds
@@ -748,64 +653,69 @@ def fetch_public(out, wait_seconds):
                 not downloads
                 and time.monotonic() < deadline
             ):
-                page.wait_for_timeout(900)
+                page.wait_for_timeout(700)
 
             if not downloads:
-                snapshot(
-                    page,
+                capture(
+                    page.frame(name="SASoutput")
+                    or page,
                     out,
-                    "tx_tapr_after_submit_no_download",
-                    log,
+                    "final_no_download",
+                    report,
                 )
 
                 raise RuntimeError(
-                    "No browser download emitted "
-                    "by TEA after export"
+                    "TEA did not emit a download; "
+                    "inspect final controls"
                 )
 
-            destination = (
-                out / "tx_tapr_2023_24_campus_raw.csv"
+            download = downloads[0]
+
+            suggested = (
+                download.suggested_filename
             )
 
-            log["suggested_filename"] = (
-                downloads[0].suggested_filename
+            destination = out / (
+                "tx_tapr_2023_24_campus_raw"
+                + Path(suggested).suffix.lower()
             )
 
-            downloads[0].save_as(
+            download.save_as(
                 str(destination)
             )
 
-            with destination.open("rb") as f:
-                head = (
-                    f.read(400)
-                    .lstrip()
-                    .lower()
-                )
+            report["download_filename"] = (
+                suggested
+            )
 
-            if (
-                len(head) < 20
-                or head.startswith((
-                    b"<!doctype",
-                    b"<html",
-                    b"pk\x03\x04",
-                ))
-            ):
-                raise RuntimeError(
-                    "Download not recognized as CSV; "
-                    "inspect the source file"
-                )
-
-            log["download_bytes"] = (
+            report["download_bytes"] = (
                 destination.stat().st_size
             )
 
-            context.close()
-            browser.close()
+            if destination.stat().st_size < 200:
+                raise RuntimeError(
+                    "Downloaded file unexpectedly short"
+                )
+
+            with destination.open("rb") as f:
+                head = (
+                    f.read(150)
+                    .lower()
+                    .lstrip()
+                )
+
+            if head.startswith((
+                b"<html",
+                b"<!doctype",
+            )):
+                raise RuntimeError(
+                    "TEA returned HTML, not data"
+                )
 
             return destination
 
     except Exception as exc:
-        log["failure"] = (
+        report["error"] = (
             f"{type(exc).__name__}: {exc}"
         )
         raise
@@ -813,185 +723,152 @@ def fetch_public(out, wait_seconds):
     finally:
         save_json(
             out / "tx_tapr_download_debug.json",
-            log,
+            report,
         )
 
 
-def read_roster(roster):
-    """Read the existing statewide Texas campus registry."""
+def parse_download(path, out, roster):
+    """Extract reported DQ/DT TAPR variables."""
+
+    if path.suffix.lower() not in (
+        ".csv", ".txt", ".dat"
+    ):
+        raise RuntimeError(
+            "Unsupported TEA download type "
+            f"{path.suffix}; original preserved"
+        )
+
+    delimiter = (
+        "\t"
+        if path.suffix.lower() in (
+            ".txt", ".dat"
+        )
+        else ","
+    )
 
     with roster.open(
         newline="",
         encoding="utf-8-sig",
     ) as f:
-        rows = csv.DictReader(f)
+        reader = csv.DictReader(f)
 
         if "texas_campus_id" not in (
-            rows.fieldnames or []
+            reader.fieldnames or []
         ):
             raise ValueError(
-                "Texas roster lacks texas_campus_id"
+                "Roster lacks texas_campus_id"
             )
 
-        return {
-            row["texas_campus_id"].strip()
-            for row in rows
+        roster_ids = {
+            x["texas_campus_id"].strip()
+            for x in reader
         }
 
-
-def number(raw):
-    """Determine whether a TAPR field is numeric."""
-
-    return bool(
-        re.fullmatch(
-            r"(?:\d+(?:\.\d*)?|\.\d+)",
-            raw.replace(",", "").strip(),
-        )
-    )
-
-
-def audit_csv(source, out, roster):
-    """Extract DLI variables from TAPR CSV.
-
-    TEA may supply a descriptive header followed
-    by a row of variable codes.
-
-    Missing and suppressed values remain missing.
-    """
-
-    ids = read_roster(roster)
-
-    if not ids:
-        raise ValueError(
-            "Empty Texas roster"
-        )
-
-    with source.open(
+    with path.open(
         newline="",
         encoding="utf-8-sig",
         errors="replace",
     ) as f:
+        reader = csv.reader(
+            f, delimiter=delimiter
+        )
 
-        reader = csv.reader(f)
+        head = [
+            next(reader, [])
+            for _ in range(5)
+        ]
 
-        first_rows = []
-
-        for _ in range(5):
-            try:
-                first_rows.append(
-                    next(reader)
-                )
-            except StopIteration:
-                break
-
-        # Identify which initial row contains
-        # the machine-readable DQ/DT variable names.
-        scored = []
-
-        for i, row in enumerate(first_rows):
-            matches = [
-                code.strip().upper()
-                for code in row
-                if CODE.fullmatch(
-                    code.strip()
-                )
-            ]
-
-            scored.append(
-                (len(matches), i)
+        ranked = [
+            (
+                sum(
+                    bool(CODE.fullmatch(c.strip()))
+                    for c in row
+                ),
+                i,
             )
+            for i, row in enumerate(head)
+        ]
 
-        nfields, header_index = max(
-            scored,
+        n, ix = max(
+            ranked,
             default=(0, 0),
         )
 
-        if nfields == 0:
+        if n == 0:
             save_json(
                 out / "tx_tapr_header_audit.json",
                 {
-                    "first_rows_samples": [
-                        row[:60]
-                        for row in first_rows
+                    "sample": [
+                        x[:80]
+                        for x in head
                     ],
-                    "first_rows_lengths": [
-                        len(row)
-                        for row in first_rows
+                    "sample_widths": [
+                        len(x)
+                        for x in head
                     ],
-                    "note": (
-                        "No DQ/DT variable codes "
-                        "in first five rows"
-                    ),
                 },
             )
 
             raise ValueError(
-                "No DQ/DT headers found: "
-                "check download category"
+                "No DQ/DT fields found "
+                "in first five rows"
             )
 
         f.seek(0)
 
-        reader = csv.reader(f)
+        reader = csv.reader(
+            f, delimiter=delimiter
+        )
 
-        for _ in range(header_index):
+        for _ in range(ix):
             next(reader)
 
-        headers = next(reader)
+        columns = next(reader)
 
         selected = [
             (
                 i,
-                code.strip(),
+                c.strip(),
                 GROUPS[
-                    code.strip()[1:3].upper()
+                    c.strip()[1:3].upper()
                 ],
                 METRICS[
-                    code.strip()[-1].upper()
+                    c.strip()[-1].upper()
                 ],
             )
-            for i, code in enumerate(headers)
-            if CODE.fullmatch(
-                code.strip()
-            )
+            for i, c in enumerate(columns)
+            if CODE.fullmatch(c.strip())
         ]
-
-        if not selected:
-            raise ValueError(
-                "Header identification failed"
-            )
 
         id_index = next(
             (
                 i
-                for i, name in enumerate(headers)
+                for i, c in enumerate(columns)
                 if re.search(
                     (
                         r"campus.*(?:id|number)"
                         r"|^campus$"
                     ),
-                    name,
+                    c,
                     re.I,
                 )
             ),
             0,
         )
 
-        dictionary = [
-            {
-                "variable_code": code,
-                "student_group": group,
-                "statistic": metric,
-            }
-            for _, code, group, metric in selected
-        ]
-
-        csv_write(
+        save_csv(
             out / (
                 "tx_tapr_2023_24_"
                 "dli_variable_dictionary.csv"
             ),
-            dictionary,
+            [
+                {
+                    "variable_code": code,
+                    "student_group": group,
+                    "statistic": kind,
+                }
+                for _, code, group, kind in selected
+            ],
             [
                 "variable_code",
                 "student_group",
@@ -999,7 +876,7 @@ def audit_csv(source, out, roster):
             ],
         )
 
-        fields = [
+        output_fields = [
             "texas_campus_id",
             "school_year",
             "student_group",
@@ -1011,17 +888,20 @@ def audit_csv(source, out, roster):
             "in_roster",
         ]
 
-        counts = Counter()
+        numeric = re.compile(
+            r"\d+(?:\.\d+)?$"
+        )
 
-        seen = defaultdict(
+        groups = defaultdict(
             lambda: {
-                "one_way_dli": set(),
                 "two_way_dli": set(),
+                "one_way_dli": set(),
             }
         )
 
-        rows_seen = 0
-        invalid = 0
+        value_counts = Counter()
+        source_rows = 0
+        invalid_ids = 0
 
         with gzip.open(
             out / (
@@ -1032,12 +912,10 @@ def audit_csv(source, out, roster):
             newline="",
             encoding="utf-8",
         ) as gz:
-
             writer = csv.DictWriter(
                 gz,
-                fieldnames=fields,
+                fieldnames=output_fields,
             )
-
             writer.writeheader()
 
             for row in reader:
@@ -1047,7 +925,7 @@ def audit_csv(source, out, roster):
                 ):
                     continue
 
-                rows_seen += 1
+                source_rows += 1
 
                 cid = (
                     row[id_index]
@@ -1056,19 +934,17 @@ def audit_csv(source, out, roster):
                 )
 
                 if not re.fullmatch(
-                    r"\d{9}",
-                    cid,
+                    r"\d{9}", cid
                 ):
-                    invalid += 1
+                    invalid_ids += 1
                     continue
 
                 for (
                     i,
                     code,
                     group,
-                    metric,
+                    kind,
                 ) in selected:
-
                     raw = (
                         row[i].strip()
                         if i < len(row)
@@ -1078,9 +954,17 @@ def audit_csv(source, out, roster):
                     if not raw:
                         continue
 
+                    value = raw.replace(
+                        ",", ""
+                    )
+
+                    is_numeric = bool(
+                        numeric.fullmatch(value)
+                    )
+
                     status = (
                         "numeric"
-                        if number(raw)
+                        if is_numeric
                         else "masked_or_other"
                     )
 
@@ -1089,35 +973,31 @@ def audit_csv(source, out, roster):
                         "school_year": "2023-24",
                         "student_group": group,
                         "variable_code": code,
-                        "statistic": metric,
+                        "statistic": kind,
                         "raw_value": raw,
                         "numeric_value": (
-                            raw
-                            if status == "numeric"
+                            value
+                            if is_numeric
                             else ""
                         ),
                         "value_status": status,
                         "in_roster": (
                             "yes"
-                            if cid in ids
+                            if cid in roster_ids
                             else "no"
                         ),
                     })
 
-                    counts[
-                        (
-                            group,
-                            metric,
-                            status,
-                        )
+                    value_counts[
+                        (group, kind, status)
                     ] += 1
 
                     if (
-                        metric == "denominator"
-                        and status == "numeric"
-                        and float(raw) > 0
+                        kind == "denominator"
+                        and is_numeric
+                        and float(value) > 0
                     ):
-                        seen[cid][group].add(
+                        groups[cid][group].add(
                             code
                         )
 
@@ -1125,28 +1005,22 @@ def audit_csv(source, out, roster):
             {
                 "texas_campus_id": cid,
                 "school_year": "2023-24",
-                "one_way_positive_denominator_variables": (
-                    len(
-                        groups["one_way_dli"]
-                    )
-                ),
-                "two_way_positive_denominator_variables": (
-                    len(
-                        groups["two_way_dli"]
-                    )
-                ),
+                "two_way_positive_denominator_variables":
+                    len(g["two_way_dli"]),
+                "one_way_positive_denominator_variables":
+                    len(g["one_way_dli"]),
                 "in_2024_25_campus_roster": (
                     "yes"
-                    if cid in ids
+                    if cid in roster_ids
                     else "no"
                 ),
             }
-            for cid, groups in sorted(
-                seen.items()
+            for cid, g in sorted(
+                groups.items()
             )
         ]
 
-        csv_write(
+        save_csv(
             out / (
                 "tx_tapr_2023_24_"
                 "dli_campus_evidence.csv"
@@ -1155,35 +1029,35 @@ def audit_csv(source, out, roster):
             [
                 "texas_campus_id",
                 "school_year",
-                "one_way_positive_denominator_variables",
                 "two_way_positive_denominator_variables",
+                "one_way_positive_denominator_variables",
                 "in_2024_25_campus_roster",
             ],
         )
 
         result = {
             "status": "extracted",
-            "source_file": str(source),
-            "sha256": hash_file(source),
-            "header_row_number": header_index + 1,
-            "campus_id_field": headers[id_index],
-            "records_seen": rows_seen,
-            "invalid_campus_ids": invalid,
-            "dli_columns": len(selected),
-            "campuses_with_positive_dli_test_denominators": (
-                len(campus_rows)
-            ),
-            "values": {
-                "|".join(key): value
-                for key, value in sorted(
-                    counts.items()
+            "source_file": str(path),
+            "source_sha256":
+                fingerprint(path),
+            "source_rows": source_rows,
+            "invalid_campus_ids": invalid_ids,
+            "header_row": ix + 1,
+            "id_column":
+                columns[id_index],
+            "DLI_fields": len(selected),
+            "campuses_with_positive_test_denominators":
+                len(campus_rows),
+            "metric_status_counts": {
+                "|".join(k): v
+                for k, v in sorted(
+                    value_counts.items()
                 )
             },
-            "warning": (
-                "Assessment subgroup records, "
-                "not program enrollment. "
-                "Suppressed or missing values "
-                "are not zero."
+            "caution": (
+                "Test-taker subgroup figures "
+                "are not program enrollments; "
+                "masking is not zero."
             ),
         }
 
@@ -1199,6 +1073,14 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
+        "--out",
+        type=Path,
+        default=Path(
+            "output/texas/tapr"
+        ),
+    )
+
+    parser.add_argument(
         "--roster",
         type=Path,
         default=Path(
@@ -1208,19 +1090,11 @@ def main():
     )
 
     parser.add_argument(
-        "--out",
-        type=Path,
-        default=Path(
-            "output/texas/tapr"
-        ),
-    )
-
-    parser.add_argument(
         "--input",
         type=Path,
         help=(
-            "Parse an existing TEA CSV "
-            "and skip browser automation"
+            "Use an official TAPR CSV "
+            "already downloaded"
         ),
     )
 
@@ -1238,23 +1112,21 @@ def main():
     )
 
     try:
-        csvfile = (
+        path = (
             args.input
-            or fetch_public(
+            or fetch(
                 args.out,
                 args.wait_seconds,
             )
         )
 
-        report = audit_csv(
-            csvfile,
-            args.out,
-            args.roster,
-        )
-
         print(
             json.dumps(
-                report,
+                parse_download(
+                    path,
+                    args.out,
+                    args.roster,
+                ),
                 indent=2,
             )
         )
@@ -1268,15 +1140,9 @@ def main():
                 "error": (
                     f"{type(exc).__name__}: {exc}"
                 ),
-                "traceback": (
-                    traceback.format_exc()[-4500:]
-                ),
-                "new_url": NEW_URL,
-                "legacy_url": OLD_URL,
-                "note": (
-                    "Network failure cannot be repaired "
-                    "by changing form selectors."
-                ),
+                "traceback":
+                    traceback.format_exc()[-4500:],
+                "source": URL,
             },
         )
 
