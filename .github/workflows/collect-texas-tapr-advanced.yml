@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   collect-texas-tapr:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
 
     steps:
@@ -26,6 +26,7 @@ jobs:
           python3 -m py_compile \
             collectors/texas_tapr_advanced_collect.py \
             collectors/texas_tapr_public_import.py
+
           python3 - <<'PY'
           import csv
           from pathlib import Path
@@ -35,6 +36,7 @@ jobs:
               'tapr_pilot_join_pass45.csv',
           ):
               path = Path('data/registry/texas') / name
+
               with path.open(
                   encoding='utf-8-sig',
                   newline=''
@@ -45,6 +47,7 @@ jobs:
                           if line.strip()
                       )
                   )
+
               print(f'{name}: {len(records)} records')
           PY
 
@@ -53,6 +56,7 @@ jobs:
           python3 -m pip install \
             --disable-pip-version-check \
             playwright==1.56.0
+
           python3 -m playwright install --with-deps chromium
 
       - name: Collect data from the public TEA site
@@ -77,6 +81,7 @@ jobs:
           IMPORT_OUTCOME: ${{ steps.import.outcome }}
         run: |
           mkdir -p results/texas
+
           printf 'Collection: %s\nImport: %s\n' \
             "$COLLECT_OUTCOME" "$IMPORT_OUTCOME" \
             > results/texas/collector_status.txt
@@ -105,5 +110,6 @@ jobs:
       - name: Mark unsuccessful collection as failed
         if: ${{ steps.collect.outcome != 'success' }}
         run: |
-          echo 'TEA download unsuccessful. See the diagnostics artifact and collector log.'
+          echo 'TEA download unsuccessful.'
+          echo 'See the diagnostics artifact and collector log.'
           exit 1
