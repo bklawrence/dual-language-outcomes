@@ -1,21 +1,16 @@
 
 #!/usr/bin/env python3
-"""Collect Texas 2023-24 TAPR campus BE/ESL assessment data.
+"""Texas 2023-24 TAPR campus BE/ESL (BIL1) collector.
 
-TEA's verified first steps are year=2024, all_c (all campuses), and
-SASoutput Step 3 dsname=BIL1 (BE/ESL achievement). The next stages are
-navigated conservatively; unfamiliar controls are saved for inspection.
+First tries TEA's observed Step-3 SAS GET URL. If unavailable,
+opens the regular TAPR page and selects year 2024 / all_c.
 
-Retries the TEA campus-to-SAS transition with fresh browser pages and
-captures HTML/control inventories from unsuccessful attempts.
+Then selects BIL1 on TEA's own form. Later stages are handled
+only when their controls are unambiguous; otherwise HTML and
+control inventories are saved for diagnosis.
 
-DQ = two-way dual-language assessment group; DT = one-way.
-These are test-taker statistics, NOT full program enrollment counts.
-
-Usage (existing GitHub Actions workflow):
-    python3 collectors/texas_tapr_dli.py \
-      --roster output/texas/tx_2024_25_all_campuses.csv \
-      --out output/texas/tapr --wait-seconds 180
+DQ = two-way DLI; DT = one-way DLI.
+These are assessment subgroup statistics, NOT full enrollment.
 """
 
 from __future__ import annotations
@@ -28,462 +23,492 @@ import json
 import re
 import time
 import traceback
+
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlencode
 
-URL = (
+
+LANDING_URL = (
     "https://rptsvr1.tea.texas.gov/perfreport/tapr/"
     "tapr_dd_download.html?year=2024"
 )
-GROUPS = {"DQ": "two_way_dli", "DT": "one_way_dli"}
-STATS = {"N": "numerator", "D": "denominator", "R": "rate"}
-CODE = re.compile(r"^[A-Z]D[QT][A-Z0-9_]+[NDR]$", re.I)
+
+# Parameters observed in the successful GitHub Actions
+# SASoutput iframe, rather than inferred from documentation.
+DIRECT_URL = (
+    "https://rptsvr1.tea.texas.gov/cgi/sas/broker?"
+    + urlencode({
+        "_service": "marykay",
+        "_program": "perfrept.perfmast.sas",
+        "_debug": "0",
+        "ccyy": "2024",
+        "tapr": "all_c",
+        "prgopt": "reports/tapr/dd/dd_tapr.sas",
+    })
+)
+
+CODE = re.compile(
+    r"^[A-Z]D[QT][A-Z0-9_]+[NDR]$",
+    re.I,
+)
+
+GROUP = {
+    "DQ": "two_way_dli",
+    "DT": "one_way_dli",
+}
+
+STAT = {
+    "N": "numerator",
+    "D": "denominator",
+    "R": "rate",
+}
+
+YEAR = "2023-24"
 
 
-def save_json(path: Path, value) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
+def save_json(path, obj):
+    path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
     path.write_text(
-        json.dumps(value, indent=2, default=str) + "\n",
-        encoding="utf-8"
+        json.dumps(
+            obj,
+            indent=2,
+            default=str,
+        ) + "\n",
+        encoding="utf-8",
     )
 
 
-def save_csv(path: Path, rows, columns) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", newline="", encoding="utf-8") as f:
+def write_csv(path, rows, columns):
+    path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with path.open(
+        "w",
+        newline="",
+        encoding="utf-8",
+    ) as fh:
         writer = csv.DictWriter(
-            f,
+            fh,
             fieldnames=columns,
-            extrasaction="raise"
+            extrasaction="raise",
         )
         writer.writeheader()
         writer.writerows(rows)
 
 
-def sha256(path: Path) -> str:
+def sha256(path):
     digest = hashlib.sha256()
-    with path.open("rb") as f:
+
+    with path.open("rb") as fh:
         for chunk in iter(
-            lambda: f.read(1024 * 1024), b""
+            lambda: fh.read(1024 * 1024),
+            b"",
         ):
             digest.update(chunk)
+
     return digest.hexdigest()
 
 
-def control_inventory(frame):
-    return frame.evaluate("""() => [...document.querySelectorAll(
-        'input,select,button,a')].slice(0,600).map((e,i)=>({
-          index:i, tag:e.tagName, type:e.type||'', name:e.name||'',
-          id:e.id||'', value:e.value||'', checked:!!e.checked,
-          disabled:!!e.disabled, visible:!!(e.offsetWidth ||
-              e.offsetHeight || e.getClientRects().length),
-          label:(e.labels?.[0]?.innerText ||
-                 e.getAttribute('aria-label') ||
-                 e.parentElement?.innerText || '')
-                 .replace(/\\s+/g,' ').slice(0,180),
+def controls(frame):
+    return frame.evaluate(
+        """() => [...document.querySelectorAll(
+          'input,select,button,a'
+        )].slice(0,600).map((e,i)=>({
+          index:i,
+          tag:e.tagName,
+          type:e.type||'',
+          id:e.id||'',
+          name:e.name||'',
+          value:e.value||'',
+          checked:!!e.checked,
+          disabled:!!e.disabled,
+          label:(
+            e.labels?.[0]?.innerText ||
+            e.getAttribute('aria-label') ||
+            e.parentElement?.innerText ||
+            ''
+          ).replace(/\\s+/g,' ').slice(0,160),
           options:e.tagName==='SELECT'
-              ? [...e.options].map(o=>({label:o.label,value:o.value,
-                  selected:o.selected})).slice(0,250) : undefined
-        }))""")
+            ? [...e.options].map(o=>({
+                label:o.label,
+                value:o.value,
+                selected:o.selected
+              })).slice(0,250)
+            : undefined
+        }))"""
+    )
 
 
-def step_value(frame) -> str:
+def current_frame(page, route):
+    if route == "direct_sas":
+        return page.main_frame
+
+    return page.frame(
+        name="SASoutput"
+    )
+
+
+def step_value(frame):
     try:
-        field = frame.locator('input[name="step"]')
+        x = frame.locator(
+            'input[name="step"]'
+        )
+
         return (
-            field.first.input_value(timeout=1500)
-            if field.count()
+            x.first.input_value(timeout=1200)
+            if x.count()
             else ""
         )
+
     except Exception:
         return ""
 
 
-def capture(frame, out: Path, label: str, log: dict) -> None:
-    """Always preserve TEA response before guessing or retrying."""
-    record = {
-        "label": label,
-        "utc": datetime.now(timezone.utc).isoformat()
+def capture(frame, out, name, log):
+    entry = {
+        "name": name,
+        "utc": datetime.now(
+            timezone.utc
+        ).isoformat(),
     }
 
-    try:
-        record["url"] = frame.url
-        record["step"] = step_value(frame)
-        record["body_excerpt"] = frame.locator("body").inner_text(
-            timeout=3000
-        )[:600]
+    if frame:
+        try:
+            entry["url"] = frame.url
+            entry["step"] = step_value(frame)
 
-        (out / f"tx_tapr_{label}.html").write_text(
-            frame.content(),
-            encoding="utf-8"
-        )
+            entry["body_excerpt"] = (
+                frame.locator("body")
+                .inner_text(timeout=3000)[:500]
+            )
 
-        save_json(
-            out / f"tx_tapr_{label}_controls.json",
-            control_inventory(frame)
-        )
+            (
+                out / f"tx_tapr_{name}.html"
+            ).write_text(
+                frame.content(),
+                encoding="utf-8",
+            )
 
-    except Exception as exc:
-        record["capture_error"] = str(exc)[:500]
+            save_json(
+                out / f"tx_tapr_{name}_controls.json",
+                controls(frame),
+            )
 
-    log["stages"].append(record)
-    save_json(out / "tx_tapr_download_debug.json", log)
+        except Exception as exc:
+            entry["capture_error"] = (
+                f"{type(exc).__name__}: {exc}"
+            )[:400]
 
+    log["captures"].append(entry)
 
-def start_campus(page, log: dict, attempt: int) -> None:
-    response = page.goto(
-        URL,
-        wait_until="domcontentloaded",
-        timeout=60000
+    save_json(
+        out / "tx_tapr_download_debug.json",
+        log,
     )
 
-    status = response.status if response else None
 
-    log["events"].append({
-        "attempt": attempt,
-        "main_http_status": status
-    })
-
-    if status != 200:
-        raise RuntimeError(
-            f"TEA main page returned HTTP {status}"
-        )
-
-    page.locator("#ccyy").wait_for(
-        state="visible",
-        timeout=15000
-    )
-
-    page.locator("#ccyy").select_option(value="2024")
-    page.locator("#tapr").select_option(value="all_c")
-
-    log["events"].append({
-        "attempt": attempt,
-        "selected_year": "2024",
-        "selected_type": "all_c"
-    })
-
-
-def wait_for_bil1(
-    page,
-    out: Path,
-    log: dict,
-    attempt: int,
-    timeout=40
-):
-    deadline = time.monotonic() + timeout
-    frame = None
-    previous_url = None
+def wait_for_step3(page, route, seconds):
+    deadline = time.monotonic() + seconds
 
     while time.monotonic() < deadline:
-        frame = page.frame(name="SASoutput")
+        frame = current_frame(
+            page,
+            route,
+        )
 
         if frame:
             try:
-                if frame.url != previous_url:
-                    log["events"].append({
-                        "attempt": attempt,
-                        "iframe_url": frame.url
-                    })
-                    previous_url = frame.url
-
-                if frame.locator(
+                selector = frame.locator(
                     'input[name="dsname"][value="BIL1"]'
-                ).count() == 1:
-                    capture(
-                        frame,
-                        out,
-                        f"attempt{attempt}_BIL1_ready",
-                        log
-                    )
+                )
+
+                if selector.count() == 1:
                     return frame
 
-            except Exception as exc:
-                log["events"].append({
-                    "attempt": attempt,
-                    "iframe_poll_error": str(exc)[:300]
-                })
+            except Exception:
+                pass
 
         page.wait_for_timeout(700)
 
-    capture(
-        frame if frame else page,
-        out,
-        f"attempt{attempt}_SAS_not_ready",
-        log
-    )
-
-    log["events"].append({
-        "attempt": attempt,
-        "result": "BIL1_not_found",
-        "last_iframe_url": frame.url if frame else None
-    })
-
-    save_json(out / "tx_tapr_download_debug.json", log)
     return None
 
 
 def next_button(frame):
-    """Return unique Next/Continue submit control."""
-
-    controls = frame.locator(
-        'input[type="submit"],button[type="submit"]'
+    candidates = frame.locator(
+        'input[type="submit"],'
+        'button[type="submit"]'
     )
 
-    candidates = []
+    matches = []
 
-    for i in range(controls.count()):
-        control = controls.nth(i)
+    for i in range(candidates.count()):
+        el = candidates.nth(i)
 
-        desc = (
-            (control.get_attribute("value") or "")
+        label = (
+            (el.get_attribute("value") or "")
             + " "
-            + (control.inner_text(timeout=2000) or "")
+            + (el.inner_text() or "")
         )
 
-        if re.search(r"next|continue", desc, re.I):
-            candidates.append(i)
+        if re.search(
+            r"next|continue",
+            label,
+            re.I,
+        ):
+            matches.append(i)
 
-    if len(candidates) != 1:
+    if len(matches) != 1:
         raise RuntimeError(
-            "Expected exactly one Next/Continue control; "
-            f"found {candidates}"
+            "Expected one Next/Continue button; "
+            f"found {len(matches)}"
         )
 
-    return controls.nth(candidates[0])
+    return candidates.nth(matches[0])
 
 
-def advance(
-    frame,
-    page,
-    out: Path,
-    log: dict,
-    label: str
-):
-    before_step = step_value(frame)
-    before_url = frame.url
-    before_html = frame.content()
+def advance(page, frame, route, out, log, name):
+    old_url = frame.url
+    old_step = step_value(frame)
+    old_html = frame.content()
 
-    next_button(frame).click(timeout=20000)
+    next_button(frame).click(
+        timeout=20000
+    )
 
     for _ in range(65):
-        page.wait_for_timeout(600)
-        current = page.frame(name="SASoutput")
+        page.wait_for_timeout(500)
 
-        if not current:
+        frame = current_frame(
+            page,
+            route,
+        )
+
+        if not frame:
             continue
 
         try:
             changed = (
-                step_value(current) != before_step
-                or current.url != before_url
-                or current.content() != before_html
+                frame.url != old_url
+                or step_value(frame) != old_step
+                or frame.content() != old_html
             )
 
             if changed:
-                log["events"].append({
-                    "advance": label,
-                    "from_step": before_step,
-                    "to_step": step_value(current)
-                })
-
-                capture(current, out, label, log)
-                return current
+                capture(
+                    frame,
+                    out,
+                    name,
+                    log,
+                )
+                return frame
 
         except Exception:
             pass
 
-    current = page.frame(name="SASoutput")
-
     capture(
-        current if current else page,
+        current_frame(page, route),
         out,
-        label + "_timeout",
-        log
+        name + "_timeout",
+        log,
     )
 
     raise RuntimeError(
-        f"TEA did not advance after {label}"
+        f"TEA did not advance from {name}; "
+        "see saved controls"
     )
 
 
-def select_csv_format(frame, log: dict) -> bool:
-    """Select an explicitly labeled CSV option."""
+def choose_fields_and_format(frame, log):
+    """Select visible checkboxes and explicit CSV options.
 
-    changed = False
+    Never guess the meaning of an unlabeled radio button.
+    """
+
+    selected = False
+
+    checks = frame.locator(
+        'input[type="checkbox"]'
+    )
+
+    visible = [
+        checks.nth(i)
+        for i in range(checks.count())
+        if (
+            checks.nth(i).is_visible()
+            and checks.nth(i).is_enabled()
+        )
+    ]
+
+    if len(visible) > 200:
+        raise RuntimeError(
+            "Too many fields to select safely"
+        )
+
+    for checkbox in visible:
+        checkbox.check(timeout=10000)
+        selected = True
+
+    if visible:
+        log["events"].append({
+            "checked_fields": len(visible),
+        })
+
     dropdowns = frame.locator("select")
 
     for i in range(dropdowns.count()):
-        select = dropdowns.nth(i)
+        selector = dropdowns.nth(i)
 
-        if not select.is_visible() or not select.is_enabled():
+        if (
+            not selector.is_visible()
+            or not selector.is_enabled()
+        ):
             continue
 
-        options = select.evaluate(
+        options = selector.evaluate(
             """e => [...e.options].map(o => ({
-              label:o.label, value:o.value
+              label:o.label,
+              value:o.value
             }))"""
         )
 
-        matches = [
+        csv_options = [
             o for o in options
             if re.search(
                 r"csv|comma.delimited",
                 o["label"],
-                re.I
+                re.I,
             )
         ]
 
-        if len(matches) == 1:
-            select.select_option(
-                value=matches[0]["value"]
+        if len(csv_options) == 1:
+            selector.select_option(
+                value=csv_options[0]["value"]
             )
 
             log["events"].append({
-                "selected_csv": matches[0]
+                "csv_option": csv_options[0],
             })
 
-            changed = True
+            selected = True
 
-    radios = frame.locator('input[type="radio"]')
-    matches = []
+    radios = frame.locator(
+        'input[type="radio"]'
+    )
+
+    csv_radio = []
 
     for i in range(radios.count()):
         radio = radios.nth(i)
 
-        if not radio.is_visible() or not radio.is_enabled():
-            continue
-
-        label = radio.evaluate(
-            """e => (
-              e.labels?.[0]?.innerText ||
-              e.parentElement?.innerText ||
-              ''
-            )"""
-        )
-
-        if re.search(
-            r"csv|comma.delimited",
-            label,
-            re.I
+        if (
+            radio.is_visible()
+            and radio.is_enabled()
         ):
-            matches.append(i)
+            label = radio.evaluate(
+                """e =>
+                  e.labels?.[0]?.innerText ||
+                  e.parentElement?.innerText ||
+                  ''
+                """
+            )
 
-    if len(matches) == 1:
-        radios.nth(matches[0]).check()
+            if re.search(
+                r"csv|comma.delimited",
+                label,
+                re.I,
+            ):
+                csv_radio.append(i)
+
+    if len(csv_radio) == 1:
+        radios.nth(
+            csv_radio[0]
+        ).check()
+
+        selected = True
 
         log["events"].append({
-            "selected_csv_radio": matches[0]
+            "csv_radio": csv_radio[0],
         })
 
-        changed = True
-
-    return changed
+    return selected
 
 
-def select_fields(frame, log: dict) -> bool:
-    """Choose fields when TEA presents a field checklist.
-
-    Does not select unlabeled radio buttons or invent
-    additional BE/ESL categories.
-    """
-
-    checkboxes = frame.locator(
-        'input[type="checkbox"]'
-    )
-
-    available = []
-
-    for i in range(checkboxes.count()):
-        checkbox = checkboxes.nth(i)
-
-        if (
-            checkbox.is_visible()
-            and checkbox.is_enabled()
-        ):
-            available.append(i)
-
-    if len(available) > 200:
-        raise RuntimeError(
-            "Too many field checkboxes; "
-            "inspect controls before selecting"
-        )
-
-    if not available:
-        return False
-
-    for i in available:
-        checkboxes.nth(i).check(timeout=10000)
-
-    log["events"].append({
-        "field_checkboxes_checked": len(available)
-    })
-
-    return True
-
-
-def click_export(frame, log: dict) -> bool:
-    controls = frame.locator(
-        'input[type="submit"],button[type="submit"]'
+def click_export(frame, log):
+    submits = frame.locator(
+        'input[type="submit"],'
+        'button[type="submit"]'
     )
 
     matches = []
 
-    for i in range(controls.count()):
-        control = controls.nth(i)
+    for i in range(submits.count()):
+        el = submits.nth(i)
 
-        desc = (
-            (control.get_attribute("value") or "")
+        label = (
+            (el.get_attribute("value") or "")
             + " "
-            + (control.inner_text(timeout=2000) or "")
+            + (el.inner_text() or "")
         )
 
         if re.search(
             r"download|export|generate|get data",
-            desc,
-            re.I
+            label,
+            re.I,
         ):
             matches.append(i)
 
     if len(matches) == 1:
-        controls.nth(matches[0]).click(timeout=20000)
+        submits.nth(
+            matches[0]
+        ).click(timeout=20000)
 
         log["events"].append({
-            "export_submit_clicked": True
+            "clicked_export_submit": True,
         })
 
         return True
 
-    links = frame.locator("a[href]")
-    candidates = []
+    links = frame.locator('a[href]')
+    matches = []
 
     for i in range(links.count()):
-        item = links.nth(i)
+        el = links.nth(i)
 
-        href = item.get_attribute("href") or ""
-        label = item.inner_text(timeout=2000) or ""
-
-        file_link = re.search(
-            r"\.(csv|dat|txt)([?#]|$)",
-            href,
-            re.I
+        href = (
+            el.get_attribute("href") or ""
         )
 
-        export_link = re.fullmatch(
-            r"\s*download(?: csv| data)?\s*",
-            label,
-            re.I
-        )
+        label = el.inner_text() or ""
 
-        if file_link or export_link:
-            candidates.append(i)
+        if (
+            re.search(
+                r"\.(csv|dat|txt)(\?|#|$)",
+                href,
+                re.I,
+            )
+            or re.fullmatch(
+                r"\s*download( csv| data)?\s*",
+                label,
+                re.I,
+            )
+        ):
+            matches.append(i)
 
-    if len(candidates) == 1:
-        links.nth(candidates[0]).click(timeout=20000)
+    if len(matches) == 1:
+        links.nth(
+            matches[0]
+        ).click(timeout=20000)
 
         log["events"].append({
-            "export_link_clicked": True
+            "clicked_export_link": True,
         })
 
         return True
@@ -491,26 +516,23 @@ def click_export(frame, log: dict) -> bool:
     return False
 
 
-def fetch(
-    out: Path,
-    wait_seconds: int,
-    attempts: int = 3
-) -> Path:
+def fetch(out, wait_seconds, attempts):
     from playwright.sync_api import sync_playwright
 
     log = {
         "started_utc": datetime.now(
             timezone.utc
         ).isoformat(),
-        "source": URL,
-        "verified_category": "BIL1",
+        "direct_url": DIRECT_URL,
+        "landing_url": LANDING_URL,
         "events": [],
-        "stages": []
+        "captures": [],
+        "selected_category": "BIL1",
     }
 
     save_json(
         out / "tx_tapr_download_debug.json",
-        log
+        log,
     )
 
     downloads = []
@@ -519,114 +541,190 @@ def fetch(
         with sync_playwright() as pw:
             browser = pw.chromium.launch(
                 headless=True,
-                args=["--no-sandbox"]
+                args=["--no-sandbox"],
             )
 
             context = browser.new_context(
-                accept_downloads=True
+                accept_downloads=True,
+            )
+
+            context.on(
+                "page",
+                lambda p: p.on(
+                    "download",
+                    downloads.append,
+                ),
             )
 
             try:
-                frame = None
                 page = None
+                frame = None
+                route_used = None
 
-                # Fresh page on every attempt.
-                for attempt in range(1, attempts + 1):
-                    trial = context.new_page()
-
-                    trial.on(
-                        "download",
-                        lambda d: downloads.append(d)
+                # Try the direct SAS URL first,
+                # then the normal TAPR website.
+                # Each route uses a fresh page.
+                for attempt in range(
+                    1,
+                    attempts + 1,
+                ):
+                    routes = (
+                        ("direct_sas", DIRECT_URL),
+                        ("landing_page", LANDING_URL),
                     )
 
-                    trial.on(
-                        "response",
-                        lambda r, a=attempt: log[
-                            "events"
-                        ].append({
-                            "attempt": a,
-                            "sas_http_status": r.status,
-                            "sas_url": r.url[:260]
-                        })
-                        if "/cgi/sas/broker" in r.url
-                        else None
-                    )
+                    for route, url in routes:
+                        trial = context.new_page()
 
-                    try:
-                        start_campus(
-                            trial,
-                            log,
-                            attempt
+                        trial.on(
+                            "download",
+                            downloads.append,
                         )
 
-                        stage3 = wait_for_bil1(
-                            trial,
-                            out,
-                            log,
-                            attempt
+                        trial.on(
+                            "response",
+                            lambda resp, a=attempt, r=route:
+                            log["events"].append({
+                                "attempt": a,
+                                "route": r,
+                                "sas_http_status": resp.status,
+                                "sas_url": resp.url[:240],
+                            })
+                            if "/cgi/sas/broker" in resp.url
+                            else None,
                         )
 
-                        if stage3:
+                        try:
+                            response = trial.goto(
+                                url,
+                                wait_until="domcontentloaded",
+                                timeout=35000,
+                            )
+
+                            status = (
+                                response.status
+                                if response
+                                else None
+                            )
+
+                            log["events"].append({
+                                "attempt": attempt,
+                                "route": route,
+                                "http_status": status,
+                            })
+
+                            if status != 200:
+                                raise RuntimeError(
+                                    f"HTTP {status}"
+                                )
+
+                            if route == "landing_page":
+                                trial.locator(
+                                    "#ccyy"
+                                ).select_option(
+                                    value="2024"
+                                )
+
+                                trial.locator(
+                                    "#tapr"
+                                ).select_option(
+                                    value="all_c"
+                                )
+
+                            candidate = wait_for_step3(
+                                trial,
+                                route,
+                                seconds=35,
+                            )
+
+                            if candidate is None:
+                                capture(
+                                    current_frame(
+                                        trial, route
+                                    ) or trial.main_frame,
+                                    out,
+                                    (
+                                        f"attempt{attempt}_"
+                                        f"{route}_not_ready"
+                                    ),
+                                    log,
+                                )
+
+                                raise RuntimeError(
+                                    "BIL1 form not returned"
+                                )
+
+                            capture(
+                                candidate,
+                                out,
+                                (
+                                    f"attempt{attempt}_"
+                                    f"{route}_BIL1_ready"
+                                ),
+                                log,
+                            )
+
                             page = trial
-                            frame = stage3
+                            frame = candidate
+                            route_used = route
+
                             break
 
-                    except Exception as exc:
-                        log["events"].append({
-                            "attempt": attempt,
-                            "error": (
-                                f"{type(exc).__name__}: "
-                                f"{exc}"
-                            )[:450]
-                        })
+                        except Exception as exc:
+                            log["events"].append({
+                                "attempt": attempt,
+                                "route": route,
+                                "error": (
+                                    f"{type(exc).__name__}: "
+                                    f"{exc}"
+                                )[:500],
+                            })
 
-                    save_json(
-                        out / "tx_tapr_download_debug.json",
-                        log
-                    )
+                            save_json(
+                                out / "tx_tapr_download_debug.json",
+                                log,
+                            )
 
-                    trial.close()
+                            trial.close()
+
+                    if frame is not None:
+                        break
 
                     if attempt < attempts:
                         time.sleep(2 * attempt)
 
-                if not frame:
+                if frame is None:
                     raise RuntimeError(
-                        f"BIL1 form not loaded after "
-                        f"{attempts} attempts; see "
-                        "tx_tapr_attempt*_SAS_not_ready.html "
-                        "and debug JSON"
+                        "Both TEA routes failed; "
+                        "see diagnostic JSON and HTML"
                     )
 
-                # Step 3: verified BE/ESL category.
-                category = frame.locator(
+                log["route_used"] = route_used
+
+                # Step 3: select the actual BE/ESL
+                # achievement category observed at TEA.
+                bil1 = frame.locator(
                     'input[name="dsname"][value="BIL1"]'
                 )
 
-                category.check(timeout=15000)
+                bil1.check(timeout=15000)
 
-                if not category.is_checked():
+                if not bil1.is_checked():
                     raise RuntimeError(
-                        "BIL1 selection did not persist"
+                        "BIL1 was not selected"
                     )
 
-                capture(
-                    frame,
-                    out,
-                    "step3_BIL1_selected",
-                    log
-                )
-
                 frame = advance(
-                    frame,
                     page,
+                    frame,
+                    route_used,
                     out,
                     log,
-                    "step4_after_BIL1"
+                    "step4_after_BIL1",
                 )
 
-                # Later steps: only proceed when
-                # controls are identifiable.
+                # Later steps are navigated only
+                # when controls are identifiable.
                 for stage in range(4, 10):
                     if downloads:
                         break
@@ -634,30 +732,27 @@ def fetch(
                     capture(
                         frame,
                         out,
-                        f"step{stage}_before_selection",
-                        log
+                        (
+                            f"step{stage}_"
+                            "before_selection"
+                        ),
+                        log,
                     )
 
                     if click_export(frame, log):
                         break
 
-                    picked = select_fields(
+                    selected = choose_fields_and_format(
                         frame,
-                        log
+                        log,
                     )
 
-                    picked = (
-                        select_csv_format(frame, log)
-                        or picked
-                    )
-
-                    if not picked:
+                    if not selected:
                         raise RuntimeError(
-                            "TEA Step "
+                            "Unrecognized TEA Step "
                             f"{step_value(frame) or stage} "
-                            "needs an unrecognized selection. "
-                            "Inspect "
-                            f"tx_tapr_step{stage}_"
+                            "controls; inspect "
+                            f"step{stage}_"
                             "before_selection_controls.json"
                         )
 
@@ -665,15 +760,16 @@ def fetch(
                         frame,
                         out,
                         f"step{stage}_selected",
-                        log
+                        log,
                     )
 
                     frame = advance(
-                        frame,
                         page,
+                        frame,
+                        route_used,
                         out,
                         log,
-                        f"step{stage + 1}_after_next"
+                        f"step{stage + 1}_after_next",
                     )
 
                 deadline = (
@@ -688,15 +784,17 @@ def fetch(
 
                 if not downloads:
                     capture(
-                        page.frame(name="SASoutput") or page,
+                        current_frame(
+                            page, route_used
+                        ) or page.main_frame,
                         out,
                         "final_no_download",
-                        log
+                        log,
                     )
 
                     raise RuntimeError(
-                        "TEA did not start a download; "
-                        "see final controls"
+                        "No TEA download event; "
+                        "inspect saved controls"
                     )
 
                 download = downloads[0]
@@ -708,7 +806,7 @@ def fetch(
                 if suffix not in (
                     ".csv",
                     ".txt",
-                    ".dat"
+                    ".dat",
                 ):
                     suffix = ".bin"
 
@@ -721,7 +819,7 @@ def fetch(
                     str(destination)
                 )
 
-                log["suggested_filename"] = (
+                log["download_original_name"] = (
                     download.suggested_filename
                 )
 
@@ -729,23 +827,22 @@ def fetch(
                     destination.stat().st_size
                 )
 
-                with destination.open("rb") as f:
-                    head = (
-                        f.read(300)
+                with destination.open("rb") as fh:
+                    prefix = (
+                        fh.read(300)
                         .lstrip()
                         .lower()
                     )
 
                 if (
                     destination.stat().st_size < 200
-                    or head.startswith((
+                    or prefix.startswith((
                         b"<html",
-                        b"<!doctype"
+                        b"<!doctype",
                     ))
                 ):
                     raise RuntimeError(
-                        "Downloaded TEA response "
-                        "is empty or HTML"
+                        "TEA download was empty or HTML"
                     )
 
                 return destination
@@ -763,45 +860,40 @@ def fetch(
     finally:
         save_json(
             out / "tx_tapr_download_debug.json",
-            log
+            log,
         )
 
 
-def parse_download(
-    path: Path,
-    out: Path,
-    roster: Path
-) -> dict:
+def parse_download(path, out, roster):
+    """Preserve reported values and masked data."""
+
     if path.suffix.lower() not in (
         ".csv",
         ".txt",
-        ".dat"
+        ".dat",
     ):
         raise ValueError(
-            "TEA returned unsupported file type "
+            "Unsupported downloaded file type: "
             f"{path.suffix}"
         )
 
-    delimiter = (
+    sep = (
         "\t"
-        if path.suffix.lower() in (
-            ".txt",
-            ".dat"
-        )
+        if path.suffix.lower() in (".txt", ".dat")
         else ","
     )
 
     with roster.open(
         newline="",
-        encoding="utf-8-sig"
-    ) as f:
-        rows = csv.DictReader(f)
+        encoding="utf-8-sig",
+    ) as fh:
+        rows = csv.DictReader(fh)
 
         if "texas_campus_id" not in (
             rows.fieldnames or []
         ):
             raise ValueError(
-                "Texas roster has no texas_campus_id"
+                "Roster missing texas_campus_id"
             )
 
         roster_ids = {
@@ -812,19 +904,19 @@ def parse_download(
     with path.open(
         newline="",
         encoding="utf-8-sig",
-        errors="replace"
-    ) as f:
+        errors="replace",
+    ) as fh:
         reader = csv.reader(
-            f,
-            delimiter=delimiter
+            fh,
+            delimiter=sep,
         )
 
-        initial = [
+        head = [
             next(reader, [])
             for _ in range(5)
         ]
 
-        ranks = [
+        counts = [
             (
                 sum(
                     bool(
@@ -832,74 +924,87 @@ def parse_download(
                     )
                     for c in row
                 ),
-                i
+                i,
             )
-            for i, row in enumerate(initial)
+            for i, row in enumerate(head)
         ]
 
-        number_of_codes, header_index = max(ranks)
+        matched, header_idx = max(counts)
 
-        if number_of_codes == 0:
+        if matched == 0:
             save_json(
                 out / "tx_tapr_header_audit.json",
                 {
-                    "sample_rows": [
+                    "first_rows": [
                         r[:80]
-                        for r in initial
+                        for r in head
                     ],
-                    "sample_widths": [
+                    "column_counts": [
                         len(r)
-                        for r in initial
-                    ]
-                }
+                        for r in head
+                    ],
+                },
             )
 
             raise ValueError(
-                "No DQ/DT variables found; "
-                "inspect header audit"
+                "No DQ/DT variable codes "
+                "in first five rows"
             )
 
-        f.seek(0)
+        fh.seek(0)
 
         reader = csv.reader(
-            f,
-            delimiter=delimiter
+            fh,
+            delimiter=sep,
         )
 
-        for _ in range(header_index):
+        for _ in range(header_idx):
             next(reader)
 
-        headers = next(reader)
+        columns = next(reader)
 
-        selected = [
+        variables = [
             (
                 i,
                 c.strip(),
-                GROUPS[
+                GROUP[
                     c.strip()[1:3].upper()
                 ],
-                STATS[
+                STAT[
                     c.strip()[-1].upper()
-                ]
+                ],
             )
-            for i, c in enumerate(headers)
+            for i, c in enumerate(columns)
             if CODE.fullmatch(c.strip())
         ]
 
-        id_index = next(
-            (
-                i
-                for i, c in enumerate(headers)
-                if re.search(
-                    r"campus.*(?:id|number)|^campus$",
-                    c,
-                    re.I
-                )
-            ),
-            0
-        )
+        id_cols = [
+            i
+            for i, c in enumerate(columns)
+            if re.search(
+                r"campus.*(?:id|number)|^campus$",
+                c,
+                re.I,
+            )
+        ]
 
-        save_csv(
+        if len(id_cols) != 1:
+            save_json(
+                out / "tx_tapr_header_audit.json",
+                {
+                    "header_sample": columns[:100],
+                    "id_column_matches": id_cols,
+                },
+            )
+
+            raise ValueError(
+                "Cannot identify unique "
+                "campus ID column"
+            )
+
+        id_index = id_cols[0]
+
+        write_csv(
             out / (
                 "tx_tapr_2023_24_"
                 "dli_variable_dictionary.csv"
@@ -908,18 +1013,18 @@ def parse_download(
                 {
                     "variable_code": code,
                     "student_group": group,
-                    "statistic": stat
+                    "statistic": stat,
                 }
-                for _, code, group, stat in selected
+                for _, code, group, stat in variables
             ],
             [
                 "variable_code",
                 "student_group",
-                "statistic"
-            ]
+                "statistic",
+            ],
         )
 
-        columns = [
+        fields = [
             "texas_campus_id",
             "school_year",
             "student_group",
@@ -928,19 +1033,19 @@ def parse_download(
             "raw_value",
             "numeric_value",
             "value_status",
-            "in_roster"
+            "in_roster",
         ]
 
-        seen = defaultdict(
+        positive = defaultdict(
             lambda: {
                 "one_way_dli": set(),
-                "two_way_dli": set()
+                "two_way_dli": set(),
             }
         )
 
-        counts = Counter()
-        source_rows = 0
-        invalid_ids = 0
+        stats = Counter()
+        rows_seen = 0
+        bad_ids = 0
 
         with gzip.open(
             out / (
@@ -949,11 +1054,11 @@ def parse_download(
             ),
             "wt",
             encoding="utf-8",
-            newline=""
-        ) as fz:
+            newline="",
+        ) as gz:
             writer = csv.DictWriter(
-                fz,
-                fieldnames=columns
+                gz,
+                fieldnames=fields,
             )
 
             writer.writeheader()
@@ -965,7 +1070,7 @@ def parse_download(
                 ):
                     continue
 
-                source_rows += 1
+                rows_seen += 1
 
                 cid = (
                     row[id_index]
@@ -975,12 +1080,17 @@ def parse_download(
 
                 if not re.fullmatch(
                     r"\d{9}",
-                    cid
+                    cid,
                 ):
-                    invalid_ids += 1
+                    bad_ids += 1
                     continue
 
-                for i, code, group, stat in selected:
+                for (
+                    i,
+                    code,
+                    group,
+                    stat,
+                ) in variables:
                     raw = (
                         row[i].strip()
                         if i < len(row)
@@ -990,60 +1100,55 @@ def parse_download(
                     if not raw:
                         continue
 
-                    number = raw.replace(
-                        ",",
-                        ""
+                    numeric_value = (
+                        raw.replace(",", "")
                     )
 
-                    valid = bool(
+                    usable = bool(
                         re.fullmatch(
                             r"\d+(?:\.\d+)?",
-                            number
+                            numeric_value,
                         )
+                    )
+
+                    status = (
+                        "numeric"
+                        if usable
+                        else "masked_or_other"
                     )
 
                     writer.writerow({
                         "texas_campus_id": cid,
-                        "school_year": "2023-24",
+                        "school_year": YEAR,
                         "student_group": group,
                         "variable_code": code,
                         "statistic": stat,
                         "raw_value": raw,
                         "numeric_value": (
-                            number if valid else ""
+                            numeric_value
+                            if usable
+                            else ""
                         ),
-                        "value_status": (
-                            "numeric"
-                            if valid
-                            else "masked_or_other"
-                        ),
+                        "value_status": status,
                         "in_roster": (
                             "yes"
                             if cid in roster_ids
                             else "no"
-                        )
+                        ),
                     })
 
-                    counts[
-                        (
-                            group,
-                            stat,
-                            (
-                                "numeric"
-                                if valid
-                                else "masked_or_other"
-                            )
-                        )
+                    stats[
+                        (group, stat, status)
                     ] += 1
 
                     if (
                         stat == "denominator"
-                        and valid
-                        and float(number) > 0
+                        and usable
+                        and float(numeric_value) > 0
                     ):
-                        seen[cid][group].add(code)
+                        positive[cid][group].add(code)
 
-        save_csv(
+        write_csv(
             out / (
                 "tx_tapr_2023_24_"
                 "dli_campus_evidence.csv"
@@ -1051,124 +1156,121 @@ def parse_download(
             [
                 {
                     "texas_campus_id": cid,
-                    "school_year": "2023-24",
-                    "one_way_positive_denominator_variables": (
-                        len(g["one_way_dli"])
-                    ),
-                    "two_way_positive_denominator_variables": (
-                        len(g["two_way_dli"])
-                    ),
+                    "school_year": YEAR,
+                    "one_way_positive_denominator_variables":
+                        len(g["one_way_dli"]),
+                    "two_way_positive_denominator_variables":
+                        len(g["two_way_dli"]),
                     "in_2024_25_campus_roster": (
                         "yes"
                         if cid in roster_ids
                         else "no"
-                    )
+                    ),
                 }
-                for cid, g in sorted(seen.items())
+                for cid, g in sorted(
+                    positive.items()
+                )
             ],
             [
                 "texas_campus_id",
                 "school_year",
                 "one_way_positive_denominator_variables",
                 "two_way_positive_denominator_variables",
-                "in_2024_25_campus_roster"
-            ]
+                "in_2024_25_campus_roster",
+            ],
         )
 
         report = {
             "status": "extracted",
             "source_file": str(path),
             "source_sha256": sha256(path),
-            "source_rows": source_rows,
-            "invalid_campus_ids": invalid_ids,
-            "header_row": header_index + 1,
-            "DLI_fields": len(selected),
-            "campuses_with_positive_assessment_denominators": (
-                len(seen)
-            ),
+            "source_rows": rows_seen,
+            "invalid_campus_ids": bad_ids,
+            "header_row": header_idx + 1,
+            "DLI_fields": len(variables),
+            "campuses_with_positive_assessment_denominators":
+                len(positive),
             "metric_status_counts": {
                 "|".join(k): v
-                for k, v in sorted(counts.items())
+                for k, v in sorted(
+                    stats.items()
+                )
             },
             "caution": (
-                "Test-taker groups are not full "
-                "program enrollment. Suppressed "
-                "or missing values are not zeros."
-            )
+                "Test takers only; masked or "
+                "missing values are not zero."
+            ),
         }
 
         save_json(
             out / "tx_tapr_2023_24_report.json",
-            report
+            report,
         )
 
         return report
 
 
 def main():
-    p = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
 
-    p.add_argument(
+    parser.add_argument(
         "--out",
         type=Path,
-        default=Path("output/texas/tapr")
+        default=Path("output/texas/tapr"),
     )
 
-    p.add_argument(
+    parser.add_argument(
         "--roster",
         type=Path,
         default=Path(
             "output/texas/"
             "tx_2024_25_all_campuses.csv"
-        )
+        ),
     )
 
-    p.add_argument(
+    parser.add_argument(
         "--input",
         type=Path,
-        help=(
-            "Use a previously downloaded "
-            "official TAPR CSV/TXT"
-        )
+        help="Existing official TAPR CSV/TXT",
     )
 
-    p.add_argument(
+    parser.add_argument(
         "--wait-seconds",
         type=int,
-        default=180
+        default=180,
     )
 
-    p.add_argument(
+    parser.add_argument(
         "--attempts",
         type=int,
-        default=3
+        default=3,
     )
 
-    args = p.parse_args()
+    args = parser.parse_args()
 
     args.out.mkdir(
         parents=True,
-        exist_ok=True
+        exist_ok=True,
     )
 
     try:
-        source = (
+        path = (
             args.input
             or fetch(
                 args.out,
                 args.wait_seconds,
-                args.attempts
+                args.attempts,
             )
         )
 
         print(
             json.dumps(
                 parse_download(
-                    source,
+                    path,
                     args.out,
-                    args.roster
+                    args.roster,
                 ),
-                indent=2
+                indent=2,
             )
         )
 
@@ -1179,13 +1281,12 @@ def main():
                 "error": (
                     f"{type(exc).__name__}: {exc}"
                 ),
-                "traceback": (
-                    traceback.format_exc()[-4500:]
-                ),
-                "source_url": URL
-            }
+                "traceback":
+                    traceback.format_exc()[-4500:],
+                "direct_sas_url": DIRECT_URL,
+                "landing_url": LANDING_URL,
+            },
         )
-
         raise
 
 
