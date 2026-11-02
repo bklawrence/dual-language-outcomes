@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       tapr_path:
-        description: 'Optional: path to an uploaded public TEA CSV or ZIP, e.g. data/raw/texas/tapr_2024_campus.csv'
+        description: 'Optional path to a public TEA CSV or ZIP'
         required: false
         default: ''
         type: string
@@ -16,8 +16,9 @@ permissions:
 jobs:
   import-texas-tapr:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out the repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
       - name: Install Python
@@ -25,29 +26,137 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate the pilot inputs and collector
+      - name: Validate collector and diagnose CSV files
         run: |
           python3 -m py_compile collectors/texas_tapr_public_import.py
+
           python3 - <<'PY'
           import csv
+          import sys
           from pathlib import Path
+          from collections import Counter
 
-          required = {
-              'data/registry/texas/tapr_pilot_campuses_pass46.csv': 66,
-              'data/registry/texas/tapr_pilot_join_pass45.csv': 134,
+          base = Path("data/registry/texas")
+
+          campus_file = base / "tapr_pilot_campuses_pass46.csv"
+          cohort_file = base / "tapr_pilot_join_pass45.csv"
+
+          def read_csv(path):
+              if not path.exists():
+                  print(f"ERROR: Missing {path}")
+                  sys.exit(1)
+
+              with path.open(
+                  encoding="utf-8-sig", newline=""
+              ) as f:
+                  reader = csv.DictReader(f)
+                  rows = list(reader)
+
+              return rows
+
+          campuses = read_csv(campus_file)
+          cohorts = read_csv(cohort_file)
+
+          print("=== TEXAS DATA VALIDATION ===")
+          print(f"Campus records: {len(campuses)} (expected 66)")
+          print(f"Cohort records: {len(cohorts)} (expected 134)")
+
+          campus_ids = [
+              (r.get("campus_id") or "").strip()
+              for r in campuses
+          ]
+
+          cohort_ids = {
+              (r.get("campus_id") or "").strip()
+              for r in cohorts
           }
-          for filename, expected_rows in required.items():
-              path = Path(filename)
-              if not path.is_file():
-                  raise SystemExit(f'Missing file: {filename}')
-              with path.open(encoding='utf-8-sig', newline='') as handle:
-                  rows = list(csv.DictReader(handle))
-              if len(rows) != expected_rows:
-                  raise SystemExit(
-                      f'{filename}: expected {expected_rows} rows, found {len(rows)}'
+
+          counts = Counter(campus_ids)
+
+          print(f"Unique campus IDs: {len(counts)}")
+          print()
+
+          problems = []
+
+          for i, row in enumerate(campuses, start=2):
+              cid = (row.get("campus_id") or "").strip()
+
+              if not cid.isdigit() or len(cid) != 9:
+                  problems.append(
+                      (i, "Invalid campus ID", row)
                   )
-              print(f'OK: {filename} ({len(rows)} rows)')
-          print('Collector and pilot inputs are ready.')
+
+              elif counts[cid] > 1:
+                  problems.append(
+                      (i, "Duplicate campus ID", row)
+                  )
+
+              elif cid not in cohort_ids:
+                  problems.append(
+                      (i, "Campus not in cohort registry", row)
+                  )
+
+              if None in row:
+                  problems.append(
+                      (i, "Extra CSV columns", row)
+                  )
+
+          if problems:
+              print("=== SUSPECTED EXTRA OR INVALID ROWS ===")
+              for line, reason, row in problems:
+                  print(f"LINE {line}: {reason}")
+                  print(f"  {row}")
+
+          if len(campuses) != 66:
+              print()
+              print("=== COMPLETE NUMBERED CAMPUS LIST ===")
+              for i, row in enumerate(campuses, start=2):
+                  print(
+                      f"LINE {i}: "
+                      f"{row.get('campus_id')} | "
+                      f"{row.get('district')} | "
+                      f"{row.get('campus')}"
+                  )
+
+          print()
+          print("=== FINAL RESULTS ===")
+
+          failed = False
+
+          if len(campuses) != 66:
+              print(
+                  f"FAIL: Expected 66 campuses, found {len(campuses)}"
+              )
+              failed = True
+          else:
+              print("PASS: Campus row count")
+
+          if len(counts) != 66:
+              print(
+                  f"FAIL: Expected 66 unique campus IDs, "
+                  f"found {len(counts)}"
+              )
+              failed = True
+          else:
+              print("PASS: Unique campus IDs")
+
+          if len(cohorts) != 134:
+              print(
+                  f"FAIL: Expected 134 cohorts, found {len(cohorts)}"
+              )
+              failed = True
+          else:
+              print("PASS: Cohort row count")
+
+          if problems:
+              print("FAIL: Invalid or unmatched campus records")
+              failed = True
+
+          if failed:
+              print("Validation failed. See diagnostic lines above.")
+              sys.exit(1)
+
+          print("All Texas pilot input checks passed.")
           PY
 
       - name: Import supplied public TAPR file
@@ -61,19 +170,28 @@ jobs:
 
           source = Path(os.environ['TEA_INPUT_PATH']).resolve()
           allowed = Path('data/raw/texas').resolve()
+
           if not source.is_relative_to(allowed):
-              raise SystemExit('Input must be inside data/raw/texas/')
+              raise SystemExit(
+                  'Input must be inside data/raw/texas/'
+              )
+
           if source.suffix.lower() not in {'.csv', '.zip'}:
-              raise SystemExit('Input must be a public TEA CSV or ZIP')
+              raise SystemExit(
+                  'Input must be a public TEA CSV or ZIP'
+              )
+
           if not source.is_file():
               raise SystemExit(f'Input not found: {source}')
-          print(f'Validated public-data input: {source}')
+
+          print(f'Validated public TEA file: {source}')
           PY
+
           python3 collectors/texas_tapr_public_import.py \
             --csv "$TEA_INPUT_PATH" \
             --outdir results/texas/tapr_public
 
-      - name: Upload results for review
+      - name: Upload results
         if: ${{ inputs.tapr_path != '' }}
         uses: actions/upload-artifact@v4
         with:
