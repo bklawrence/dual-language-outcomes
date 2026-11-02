@@ -2,15 +2,13 @@
 #!/usr/bin/env python3
 """Texas 2023-24 TAPR campus BE/ESL (BIL1) collector.
 
-First tries TEA's observed Step-3 SAS GET URL. If unavailable,
-opens the regular TAPR page and selects year 2024 / all_c.
+First tries TEA's observed Step-3 SAS GET URL. If unavailable, opens
+TEA's landing page and chooses year 2024 / all_c (campuses). Next chooses
+BIL1 on TEA's own form. Later steps are handled only when their controls
+are unambiguous; otherwise HTML + controls are saved for diagnosis.
 
-Then selects BIL1 on TEA's own form. Later stages are handled
-only when their controls are unambiguous; otherwise HTML and
-control inventories are saved for diagnosis.
-
-DQ = two-way DLI; DT = one-way DLI.
-These are assessment subgroup statistics, NOT full enrollment.
+DQ = two-way DLI; DT = one-way DLI. These are assessment subgroup
+statistics, NOT full DLI enrollment or definitive campus program listings.
 """
 
 from __future__ import annotations
@@ -23,7 +21,6 @@ import json
 import re
 import time
 import traceback
-
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -35,8 +32,6 @@ LANDING_URL = (
     "tapr_dd_download.html?year=2024"
 )
 
-# Parameters observed in the successful GitHub Actions
-# SASoutput iframe, rather than inferred from documentation.
 DIRECT_URL = (
     "https://rptsvr1.tea.texas.gov/cgi/sas/broker?"
     + urlencode({
@@ -69,31 +64,18 @@ YEAR = "2023-24"
 
 
 def save_json(path, obj):
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
-        json.dumps(
-            obj,
-            indent=2,
-            default=str,
-        ) + "\n",
+        json.dumps(obj, indent=2, default=str) + "\n",
         encoding="utf-8",
     )
 
 
 def write_csv(path, rows, columns):
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    path.parent.mkdir(parents=True, exist_ok=True)
 
     with path.open(
-        "w",
-        newline="",
-        encoding="utf-8",
+        "w", newline="", encoding="utf-8"
     ) as fh:
         writer = csv.DictWriter(
             fh,
@@ -151,16 +133,12 @@ def current_frame(page, route):
     if route == "direct_sas":
         return page.main_frame
 
-    return page.frame(
-        name="SASoutput"
-    )
+    return page.frame(name="SASoutput")
 
 
 def step_value(frame):
     try:
-        x = frame.locator(
-            'input[name="step"]'
-        )
+        x = frame.locator('input[name="step"]')
 
         return (
             x.first.input_value(timeout=1200)
@@ -175,9 +153,7 @@ def step_value(frame):
 def capture(frame, out, name, log):
     entry = {
         "name": name,
-        "utc": datetime.now(
-            timezone.utc
-        ).isoformat(),
+        "utc": datetime.now(timezone.utc).isoformat(),
     }
 
     if frame:
@@ -190,9 +166,7 @@ def capture(frame, out, name, log):
                 .inner_text(timeout=3000)[:500]
             )
 
-            (
-                out / f"tx_tapr_{name}.html"
-            ).write_text(
+            (out / f"tx_tapr_{name}.html").write_text(
                 frame.content(),
                 encoding="utf-8",
             )
@@ -219,10 +193,7 @@ def wait_for_step3(page, route, seconds):
     deadline = time.monotonic() + seconds
 
     while time.monotonic() < deadline:
-        frame = current_frame(
-            page,
-            route,
-        )
+        frame = current_frame(page, route)
 
         if frame:
             try:
@@ -279,17 +250,12 @@ def advance(page, frame, route, out, log, name):
     old_step = step_value(frame)
     old_html = frame.content()
 
-    next_button(frame).click(
-        timeout=20000
-    )
+    next_button(frame).click(timeout=20000)
 
     for _ in range(65):
         page.wait_for_timeout(500)
 
-        frame = current_frame(
-            page,
-            route,
-        )
+        frame = current_frame(page, route)
 
         if not frame:
             continue
@@ -302,12 +268,7 @@ def advance(page, frame, route, out, log, name):
             )
 
             if changed:
-                capture(
-                    frame,
-                    out,
-                    name,
-                    log,
-                )
+                capture(frame, out, name, log)
                 return frame
 
         except Exception:
@@ -327,11 +288,10 @@ def advance(page, frame, route, out, log, name):
 
 
 def choose_fields_and_format(frame, log):
-    """Select visible checkboxes and explicit CSV options.
+    """No guessed radio selections.
 
-    Never guess the meaning of an unlabeled radio button.
+    Only visible checkboxes and explicit CSV options.
     """
-
     selected = False
 
     checks = frame.locator(
@@ -374,8 +334,8 @@ def choose_fields_and_format(frame, log):
 
         options = selector.evaluate(
             """e => [...e.options].map(o => ({
-              label:o.label,
-              value:o.value
+                label:o.label,
+                value:o.value
             }))"""
         )
 
@@ -414,9 +374,9 @@ def choose_fields_and_format(frame, log):
         ):
             label = radio.evaluate(
                 """e =>
-                  e.labels?.[0]?.innerText ||
-                  e.parentElement?.innerText ||
-                  ''
+                    e.labels?.[0]?.innerText ||
+                    e.parentElement?.innerText ||
+                    ''
                 """
             )
 
@@ -428,10 +388,7 @@ def choose_fields_and_format(frame, log):
                 csv_radio.append(i)
 
     if len(csv_radio) == 1:
-        radios.nth(
-            csv_radio[0]
-        ).check()
-
+        radios.nth(csv_radio[0]).check()
         selected = True
 
         log["events"].append({
@@ -466,9 +423,9 @@ def click_export(frame, log):
             matches.append(i)
 
     if len(matches) == 1:
-        submits.nth(
-            matches[0]
-        ).click(timeout=20000)
+        submits.nth(matches[0]).click(
+            timeout=20000
+        )
 
         log["events"].append({
             "clicked_export_submit": True,
@@ -482,30 +439,28 @@ def click_export(frame, log):
     for i in range(links.count()):
         el = links.nth(i)
 
-        href = (
-            el.get_attribute("href") or ""
-        )
-
+        href = el.get_attribute("href") or ""
         label = el.inner_text() or ""
 
-        if (
-            re.search(
-                r"\.(csv|dat|txt)(\?|#|$)",
-                href,
-                re.I,
-            )
-            or re.fullmatch(
-                r"\s*download( csv| data)?\s*",
-                label,
-                re.I,
-            )
-        ):
+        file_link = re.search(
+            r"\.(csv|dat|txt)(\?|#|$)",
+            href,
+            re.I,
+        )
+
+        export_link = re.fullmatch(
+            r"\s*download( csv| data)?\s*",
+            label,
+            re.I,
+        )
+
+        if file_link or export_link:
             matches.append(i)
 
     if len(matches) == 1:
-        links.nth(
-            matches[0]
-        ).click(timeout=20000)
+        links.nth(matches[0]).click(
+            timeout=20000
+        )
 
         log["events"].append({
             "clicked_export_link": True,
@@ -548,11 +503,13 @@ def fetch(out, wait_seconds, attempts):
                 accept_downloads=True,
             )
 
+            # Use a normal callback, not list.append directly.
+            # This fixes the Playwright event handler error.
             context.on(
                 "page",
                 lambda p: p.on(
                     "download",
-                    downloads.append,
+                    lambda d: downloads.append(d),
                 ),
             )
 
@@ -561,13 +518,9 @@ def fetch(out, wait_seconds, attempts):
                 frame = None
                 route_used = None
 
-                # Try the direct SAS URL first,
-                # then the normal TAPR website.
-                # Each route uses a fresh page.
-                for attempt in range(
-                    1,
-                    attempts + 1,
-                ):
+                # Each attempt uses a fresh page.
+                # Try direct SAS first, then landing page.
+                for attempt in range(1, attempts + 1):
                     routes = (
                         ("direct_sas", DIRECT_URL),
                         ("landing_page", LANDING_URL),
@@ -577,21 +530,16 @@ def fetch(out, wait_seconds, attempts):
                         trial = context.new_page()
 
                         trial.on(
-                            "download",
-                            downloads.append,
-                        )
-
-                        trial.on(
                             "response",
                             lambda resp, a=attempt, r=route:
-                            log["events"].append({
-                                "attempt": a,
-                                "route": r,
-                                "sas_http_status": resp.status,
-                                "sas_url": resp.url[:240],
-                            })
-                            if "/cgi/sas/broker" in resp.url
-                            else None,
+                                log["events"].append({
+                                    "attempt": a,
+                                    "route": r,
+                                    "sas_http_status": resp.status,
+                                    "sas_url": resp.url[:240],
+                                })
+                                if "/cgi/sas/broker" in resp.url
+                                else None,
                         )
 
                         try:
@@ -643,10 +591,8 @@ def fetch(out, wait_seconds, attempts):
                                         trial, route
                                     ) or trial.main_frame,
                                     out,
-                                    (
-                                        f"attempt{attempt}_"
-                                        f"{route}_not_ready"
-                                    ),
+                                    f"attempt{attempt}_"
+                                    f"{route}_not_ready",
                                     log,
                                 )
 
@@ -657,10 +603,8 @@ def fetch(out, wait_seconds, attempts):
                             capture(
                                 candidate,
                                 out,
-                                (
-                                    f"attempt{attempt}_"
-                                    f"{route}_BIL1_ready"
-                                ),
+                                f"attempt{attempt}_"
+                                f"{route}_BIL1_ready",
                                 log,
                             )
 
@@ -696,13 +640,12 @@ def fetch(out, wait_seconds, attempts):
                 if frame is None:
                     raise RuntimeError(
                         "Both TEA routes failed; "
-                        "see diagnostic JSON and HTML"
+                        "see diagnostic JSON/HTML"
                     )
 
                 log["route_used"] = route_used
 
-                # Step 3: select the actual BE/ESL
-                # achievement category observed at TEA.
+                # Step 3: BE/ESL achievement.
                 bil1 = frame.locator(
                     'input[name="dsname"][value="BIL1"]'
                 )
@@ -723,8 +666,8 @@ def fetch(out, wait_seconds, attempts):
                     "step4_after_BIL1",
                 )
 
-                # Later steps are navigated only
-                # when controls are identifiable.
+                # Later steps only when controls
+                # can be identified reliably.
                 for stage in range(4, 10):
                     if downloads:
                         break
@@ -732,22 +675,16 @@ def fetch(out, wait_seconds, attempts):
                     capture(
                         frame,
                         out,
-                        (
-                            f"step{stage}_"
-                            "before_selection"
-                        ),
+                        f"step{stage}_before_selection",
                         log,
                     )
 
                     if click_export(frame, log):
                         break
 
-                    selected = choose_fields_and_format(
-                        frame,
-                        log,
-                    )
-
-                    if not selected:
+                    if not choose_fields_and_format(
+                        frame, log
+                    ):
                         raise RuntimeError(
                             "Unrecognized TEA Step "
                             f"{step_value(frame) or stage} "
@@ -804,38 +741,32 @@ def fetch(out, wait_seconds, attempts):
                 ).suffix.lower()
 
                 if suffix not in (
-                    ".csv",
-                    ".txt",
-                    ".dat",
+                    ".csv", ".txt", ".dat"
                 ):
                     suffix = ".bin"
 
-                destination = out / (
+                dest = out / (
                     "tx_tapr_2023_24_campus_raw"
                     + suffix
                 )
 
-                download.save_as(
-                    str(destination)
-                )
+                download.save_as(str(dest))
 
                 log["download_original_name"] = (
                     download.suggested_filename
                 )
 
                 log["download_bytes"] = (
-                    destination.stat().st_size
+                    dest.stat().st_size
                 )
 
-                with destination.open("rb") as fh:
+                with dest.open("rb") as fh:
                     prefix = (
-                        fh.read(300)
-                        .lstrip()
-                        .lower()
+                        fh.read(300).lstrip().lower()
                     )
 
                 if (
-                    destination.stat().st_size < 200
+                    dest.stat().st_size < 200
                     or prefix.startswith((
                         b"<html",
                         b"<!doctype",
@@ -845,7 +776,7 @@ def fetch(out, wait_seconds, attempts):
                         "TEA download was empty or HTML"
                     )
 
-                return destination
+                return dest
 
             finally:
                 context.close()
@@ -865,12 +796,10 @@ def fetch(out, wait_seconds, attempts):
 
 
 def parse_download(path, out, roster):
-    """Preserve reported values and masked data."""
+    """Keep raw variable codes, mask indicators and all reported values."""
 
     if path.suffix.lower() not in (
-        ".csv",
-        ".txt",
-        ".dat",
+        ".csv", ".txt", ".dat"
     ):
         raise ValueError(
             "Unsupported downloaded file type: "
@@ -919,9 +848,7 @@ def parse_download(path, out, roster):
         counts = [
             (
                 sum(
-                    bool(
-                        CODE.fullmatch(c.strip())
-                    )
+                    bool(CODE.fullmatch(c.strip()))
                     for c in row
                 ),
                 i,
@@ -936,12 +863,10 @@ def parse_download(path, out, roster):
                 out / "tx_tapr_header_audit.json",
                 {
                     "first_rows": [
-                        r[:80]
-                        for r in head
+                        r[:80] for r in head
                     ],
                     "column_counts": [
-                        len(r)
-                        for r in head
+                        len(r) for r in head
                     ],
                 },
             )
@@ -1086,10 +1011,7 @@ def parse_download(path, out, roster):
                     continue
 
                 for (
-                    i,
-                    code,
-                    group,
-                    stat,
+                    i, code, group, stat
                 ) in variables:
                     raw = (
                         row[i].strip()
@@ -1146,7 +1068,9 @@ def parse_download(path, out, roster):
                         and usable
                         and float(numeric_value) > 0
                     ):
-                        positive[cid][group].add(code)
+                        positive[cid][group].add(
+                            code
+                        )
 
         write_csv(
             out / (
@@ -1197,8 +1121,8 @@ def parse_download(path, out, roster):
                 )
             },
             "caution": (
-                "Test takers only; masked or "
-                "missing values are not zero."
+                "Test takers only; "
+                "masked/missing is not zero."
             ),
         }
 
@@ -1276,7 +1200,10 @@ def main():
 
     except Exception as exc:
         save_json(
-            args.out / "tx_tapr_collector_failure.json",
+            out_path := (
+                args.out /
+                "tx_tapr_collector_failure.json"
+            ),
             {
                 "error": (
                     f"{type(exc).__name__}: {exc}"
@@ -1287,6 +1214,7 @@ def main():
                 "landing_url": LANDING_URL,
             },
         )
+
         raise
 
 
