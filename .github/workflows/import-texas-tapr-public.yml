@@ -1,0 +1,82 @@
+
+name: Import Texas public TAPR data
+
+on:
+  workflow_dispatch:
+    inputs:
+      tapr_path:
+        description: 'Optional: path to an uploaded public TEA CSV or ZIP, e.g. data/raw/texas/tapr_2024_campus.csv'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  import-texas-tapr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate the pilot inputs and collector
+        run: |
+          python3 -m py_compile collectors/texas_tapr_public_import.py
+          python3 - <<'PY'
+          import csv
+          from pathlib import Path
+
+          required = {
+              'data/registry/texas/tapr_pilot_campuses_pass46.csv': 66,
+              'data/registry/texas/tapr_pilot_join_pass45.csv': 134,
+          }
+          for filename, expected_rows in required.items():
+              path = Path(filename)
+              if not path.is_file():
+                  raise SystemExit(f'Missing file: {filename}')
+              with path.open(encoding='utf-8-sig', newline='') as handle:
+                  rows = list(csv.DictReader(handle))
+              if len(rows) != expected_rows:
+                  raise SystemExit(
+                      f'{filename}: expected {expected_rows} rows, found {len(rows)}'
+                  )
+              print(f'OK: {filename} ({len(rows)} rows)')
+          print('Collector and pilot inputs are ready.')
+          PY
+
+      - name: Import supplied public TAPR file
+        if: ${{ inputs.tapr_path != '' }}
+        env:
+          TEA_INPUT_PATH: ${{ inputs.tapr_path }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          source = Path(os.environ['TEA_INPUT_PATH']).resolve()
+          allowed = Path('data/raw/texas').resolve()
+          if not source.is_relative_to(allowed):
+              raise SystemExit('Input must be inside data/raw/texas/')
+          if source.suffix.lower() not in {'.csv', '.zip'}:
+              raise SystemExit('Input must be a public TEA CSV or ZIP')
+          if not source.is_file():
+              raise SystemExit(f'Input not found: {source}')
+          print(f'Validated public-data input: {source}')
+          PY
+          python3 collectors/texas_tapr_public_import.py \
+            --csv "$TEA_INPUT_PATH" \
+            --outdir results/texas/tapr_public
+
+      - name: Upload results for review
+        if: ${{ inputs.tapr_path != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: texas-tapr-public-review-${{ github.run_number }}
+          path: results/texas/tapr_public/
+          if-no-files-found: error
