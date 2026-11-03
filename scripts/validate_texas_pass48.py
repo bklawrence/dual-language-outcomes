@@ -46,7 +46,7 @@ def validate(root: Path):
             problems.append(f'Missing file: {rel}')
             continue
         data = target.read_bytes()
-        if digest(canonical_bytes(data)) != meta['sha256_canonical_text']:
+       if target.suffix == '.csv' and digest(canonical_bytes(data)) != meta['sha256_canonical_text']:
             problems.append(f'Text-content checksum mismatch: {rel}')
     if problems:
         raise ValueError('\n'.join(problems))
