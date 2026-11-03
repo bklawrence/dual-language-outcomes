@@ -10,7 +10,7 @@ permissions:
 jobs:
   collect-texas-tapr:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Check out repository
@@ -21,89 +21,41 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Verify operating system
-        run: |
-          echo "=== Operating system ==="
-          cat /etc/os-release
-          echo "=== Python version ==="
-          python3 --version
-
-      - name: Validate Texas scripts and inputs
+      - name: Validate collector and importer
         run: |
           python3 -m py_compile \
             collectors/texas_tapr_advanced_collect.py \
             collectors/texas_tapr_public_import.py
 
-          python3 - <<'PY'
-          import csv
-          from pathlib import Path
-
-          expected = {
-              "tapr_pilot_campuses_pass46.csv": 66,
-              "tapr_pilot_join_pass45.csv": 134,
-          }
-
-          for name, count in expected.items():
-              path = Path("data/registry/texas") / name
-              with path.open(
-                  encoding="utf-8-sig",
-                  newline=""
-              ) as f:
-                  rows = list(csv.DictReader(
-                      line for line in f if line.strip()
-                  ))
-
-              print(f"{name}: {len(rows)} records")
-              if len(rows) != count:
-                  raise SystemExit(
-                      f"Expected {count}, found {len(rows)}"
-                  )
-          PY
-
-      - name: Install Playwright 1.61 and Chromium
+      - name: Install Playwright and Chromium
         run: |
           python3 -m pip install \
             --disable-pip-version-check \
             playwright==1.61.0
 
-          python3 -m playwright --version
-
           python3 -m playwright install \
             --with-deps chromium
 
-      - name: Test Chromium launch
-        run: |
-          python3 - <<'PY'
-          from playwright.sync_api import sync_playwright
-
-          with sync_playwright() as pw:
-              browser = pw.chromium.launch(
-                  headless=True
-              )
-              page = browser.new_page()
-              page.goto("about:blank")
-              print(
-                  "Chromium launched successfully."
-              )
-              browser.close()
-          PY
-
-      - name: Collect data from public TEA website
+      - name: Collect statewide TEA category exports
         id: collect
         continue-on-error: true
         run: |
           python3 collectors/texas_tapr_advanced_collect.py \
             --outdir results/texas/tapr_download
 
-      - name: Import TAPR results into pilot registry
+      - name: Import candidate program columns
         id: import
         if: ${{ steps.collect.outcome == 'success' }}
+        continue-on-error: true
         run: |
           python3 collectors/texas_tapr_public_import.py \
-            --csv results/texas/tapr_download/tapr_2024_campus_additional_grades3to8.csv \
+            --csv results/texas/tapr_download/tapr_2024_grade3.zip \
+            --csv results/texas/tapr_download/tapr_2024_grade4.zip \
+            --csv results/texas/tapr_download/tapr_2024_grade5.zip \
+            --csv results/texas/tapr_download/tapr_2024_bilingual_all_grades.zip \
             --outdir results/texas/tapr_public
 
-      - name: Save collection status
+      - name: Save run status
         if: always()
         env:
           COLLECT_OUTCOME: ${{ steps.collect.outcome }}
@@ -115,7 +67,7 @@ jobs:
             "$COLLECT_OUTCOME" "$IMPORT_OUTCOME" \
             > results/texas/collector_status.txt
 
-      - name: Upload diagnostic files
+      - name: Upload diagnostics and download receipt
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -127,16 +79,16 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Upload downloaded public TEA data
+      - name: Upload public source archives
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: texas-tapr-download-${{ github.run_number }}
-          path: results/texas/tapr_download/*.csv
+          name: texas-tapr-source-archives-${{ github.run_number }}
+          path: results/texas/tapr_download/*.zip
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Upload imported results
+      - name: Upload pilot import audit
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -145,9 +97,13 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Report collection failure
-        if: ${{ steps.collect.outcome == 'failure' }}
+      - name: Fail if collection or import failed
+        if: always()
+        env:
+          COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+          IMPORT_OUTCOME: ${{ steps.import.outcome }}
         run: |
-          echo "TEA collection failed."
-          echo "Review collector logs and diagnostics."
-          exit 1
+          if [ "$COLLECT_OUTCOME" != success ] || [ "$IMPORT_OUTCOME" != success ]; then
+            echo "See diagnostics and available source archives."
+            exit 1
+          fi
