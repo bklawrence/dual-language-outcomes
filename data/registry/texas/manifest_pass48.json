@@ -1,0 +1,43 @@
+
+{
+  "checkpoint": "Texas language-track and K-allocation evidence Pass 48",
+  "created_utc": "2026-11-03",
+  "status": "provisional_research_snapshot_not_verified_census",
+  "manifest_scope": "additive_pass48_only",
+  "checksum_method": "sha256_canonical_text normalizes CRLF/CR to LF and trailing newlines; original byte hashes retained as provenance",
+  "expected_counts": {
+    "campuses": 1610,
+    "registry_groups": 1856,
+    "language_tracks": 1862,
+    "reporting_groups_with_multiple_tracks": 6,
+    "unverified_language_tracks": 975,
+    "allocation_observations": 970,
+    "allocations_linked_to_track": 673,
+    "allocations_without_unambiguous_track_link": 297,
+    "verified_tested_cohort_exposures": 0
+  },
+  "files": {
+    "data/registry/texas/texas_language_program_tracks_pass48.csv": {
+      "sha256_canonical_text": "8243406c32bf3214f6b8f1aececeedf1d06e9786378821bff9e34f9cb6f3db52",
+      "sha256_original_bytes": "85fa67bcc07406de4691270e97806c1084f7b038fb11f8f6b3dc207a8dabf417",
+      "original_size_bytes": 770970,
+      "data_rows": 1862
+    },
+    "data/registry/texas/texas_k_allocation_evidence_pass48.csv": {
+      "sha256_canonical_text": "f4677d6ef883c27fbaefff1500e7e5f988f18b6415c1b407899b9eb574bf9761",
+      "sha256_original_bytes": "3cdde8f1832d9e9d60507cd4a64aba7426e79038cdea245857c1d77a30eb405f",
+      "original_size_bytes": 552836,
+      "data_rows": 970
+    },
+    "docs/texas/SCHEMA_LANGUAGE_TRACKS_PASS48.md": {
+      "sha256_canonical_text": "c84617534f5f4d8971c8f9f6334ad6a5d9489e4c62f710f0f1acd6245e5ba584",
+      "sha256_original_bytes": "c84617534f5f4d8971c8f9f6334ad6a5d9489e4c62f710f0f1acd6245e5ba584",
+      "original_size_bytes": 3384
+    },
+    "docs/texas/README_PASS48.md": {
+      "sha256_canonical_text": "79507f01bdd8ad5f21a8a8739579efff641a8f1b89fb1faea8cd93bfc2a10b96",
+      "sha256_original_bytes": "79507f01bdd8ad5f21a8a8739579efff641a8f1b89fb1faea8cd93bfc2a10b96",
+      "original_size_bytes": 3666
+    }
+  }
+}
