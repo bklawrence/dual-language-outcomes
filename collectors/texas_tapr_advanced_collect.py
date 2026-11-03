@@ -1,117 +1,109 @@
 
 #!/usr/bin/env python3
-"""Inspect 2023-24 Texas TAPR Grade 3 options after selecting All Campuses.
+"""Inspect the next stage of TEA's public 2023-24 campus TAPR download.
 
-The exact TEA Step 3 radio value is known from a captured public page.
-This collector does not call an outcome successfully collected until its
-student-group and grade definitions have been checked.
+This is a diagnostic collector. It uses the verified Step 3 form,
+selects Grade 3, and saves the following page without importing data.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import time
+import re
 from pathlib import Path
+from urllib.parse import urlencode
 
-URL = (
+from playwright.sync_api import TimeoutError as PlaywrightTimeout
+from playwright.sync_api import sync_playwright
+
+LANDING = (
     "https://rptsvr1.tea.texas.gov/perfreport/tapr/2024/"
     "Advance%20Download/download-data-adv.html"
 )
-VERSION = "2026-11-03-verified-step3-v4"
+SAS = "https://rptsvr1.tea.texas.gov/cgi/sas/broker"
+VERSION = "2026-11-03-stable-step3-v5"
 
-CATEGORIES = {
-    "3": "STAAR_GR3",
-    "4": "STAAR_GR4",
-    "5": "STAAR_GR5",
-    "bilingual": "BIL1",
+STEP3_PARAMS = {
+    "_service": "marykay",
+    "_program": "perfrept.perfmast.sas",
+    "_debug": "0",
+    "ccyy": "2024",
+    "tapr": "all_c",
+    "prgopt": "reports/tapr/dd/dd_tapr.sas",
 }
+STEP3_URL = SAS + "?" + urlencode(STEP3_PARAMS)
+
+RADIO = 'input[name="dsname"][value="STAAR_GR3"]'
+NEXT = 'input[type="submit"][value^="Next"]'
 
 
-def save_snapshot(page, folder: Path, label: str) -> None:
+def save_diagnostics(page, folder: Path, prefix: str) -> None:
     folder.mkdir(parents=True, exist_ok=True)
 
     for index, frame in enumerate(page.frames):
-        name = (
-            "main"
-            if frame == page.main_frame
-            else f"iframe_{index}"
-        )
-        stem = folder / f"{label}_{name}"
+        label = "main" if frame == page.main_frame else f"iframe_{index}"
+        stem = folder / f"{prefix}_{label}"
 
         try:
             stem.with_suffix(".html").write_text(
                 frame.content(),
-                encoding="utf-8"
+                encoding="utf-8",
             )
 
-            info = frame.locator(
-                "input,select,button,a"
+            inputs = frame.locator(
+                "input,button,select"
             ).evaluate_all(
                 """els => els.map(e => ({
-                    tag: e.tagName,
-                    type: e.type || '',
-                    id: e.id || '',
-                    name: e.name || '',
-                    value: e.value || '',
-                    text: (e.innerText || '')
-                        .trim().slice(0,120),
-                    context: (
-                        e.closest('tr,li,fieldset,label')
-                        ?.innerText || ''
-                    ).replace(/\\s+/g,' ')
-                        .trim().slice(0,180),
-                    options: e.tagName === 'SELECT'
-                        ? Array.from(e.options).map(
-                            o => ({
-                                text: o.text.trim(),
-                                value: o.value
-                            })
-                        )
-                        : null
+                  tag: e.tagName,
+                  type: e.type || '',
+                  name: e.name || '',
+                  value: e.value || '',
+                  label: e.closest('tr,li,label,fieldset')
+                    ?.innerText?.trim()?.slice(0,180) || '',
+                  options: e.tagName === 'SELECT'
+                    ? Array.from(e.options).map(o => ({
+                        value: o.value,
+                        text: o.text.trim()
+                      })) : null
                 }))"""
             )
 
-            (
-                folder / f"{label}_{name}_controls.json"
+            stem.with_name(
+                stem.name + "_controls.json"
             ).write_text(
                 json.dumps(
                     {
                         "url": frame.url,
-                        "controls": info
+                        "controls": inputs,
                     },
-                    indent=2
+                    indent=2,
                 ),
-                encoding="utf-8"
+                encoding="utf-8",
             )
 
         except Exception as exc:
             print(
-                f"Diagnostic warning for {name}: {exc}",
-                flush=True
+                f"Could not save {label}: {exc}",
+                flush=True,
             )
 
     try:
         page.screenshot(
-            path=str(folder / f"{label}.png"),
-            full_page=True
+            path=str(folder / f"{prefix}.png"),
+            full_page=True,
         )
-    except Exception as exc:
-        print(
-            f"Screenshot warning: {exc}",
-            flush=True
-        )
+    except Exception:
+        pass
 
 
-def collect(outdir: Path, category: str) -> None:
-    from playwright.sync_api import sync_playwright
-
-    diagnostics = outdir / "diagnostics"
-    diagnostics.mkdir(
+def collect(outdir: Path) -> None:
+    folder = outdir / "diagnostics"
+    folder.mkdir(
         parents=True,
-        exist_ok=True
+        exist_ok=True,
     )
 
-    events = []
+    sas_events = []
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(
@@ -129,46 +121,39 @@ def collect(outdir: Path, category: str) -> None:
 
         page.on(
             "download",
-            lambda item: downloads.append(item)
+            lambda item: downloads.append(item),
         )
 
-        page.on(
-            "response",
-            lambda response: events.append({
-                "status": response.status,
-                "url": response.url.split("?")[0]
-            })
-            if "/cgi/sas/broker" in response.url
-            else None
-        )
+        def log_response(response):
+            if response.url.startswith(SAS):
+                sas_events.append({
+                    "method": response.request.method,
+                    "status": response.status,
+                    "content_type": response.headers.get(
+                        "content-type", ""
+                    ),
+                })
+                print(
+                    f"SAS {response.request.method}: "
+                    f"HTTP {response.status}",
+                    flush=True,
+                )
+
+        page.on("response", log_response)
 
         try:
             page.goto(
-                URL,
-                wait_until="domcontentloaded",
-                timeout=90000
+                LANDING,
+                wait_until="load",
+                timeout=90000,
             )
-
-            # The two verified dropdown controls.
 
             page.locator("#ccyy").select_option(
-                "2024"
+                value="2024"
             )
 
-            page.locator("#tapr").select_option(
-                "all_c"
-            )
-
-            print(
-                "Selected 2023-24 and All Campuses",
-                flush=True
-            )
-
-            save_snapshot(
-                page,
-                diagnostics,
-                "01_all_campuses"
-            )
+            # Allow the year-change reset to finish
+            # before submitting the campus selection.
 
             frame = page.frame(
                 name="SASoutput"
@@ -176,133 +161,178 @@ def collect(outdir: Path, category: str) -> None:
 
             if frame is None:
                 raise RuntimeError(
-                    "The TEA SASoutput frame was not found"
+                    "SASoutput iframe not found"
                 )
 
-            # TEA Step 3: Select a data category.
-            # These exact values were recovered
-            # from the uploaded form diagnostics.
-
-            radio = frame.locator(
-                f'input[name="dsname"][value="{category}"]'
+            frame.wait_for_url(
+                re.compile(
+                    r"tapr_dd_blank_iframe\.html\?year=2024"
+                ),
+                timeout=30000,
             )
 
-            radio.wait_for(
-                state="visible",
-                timeout=90000
+            frame.wait_for_load_state(
+                "load",
+                timeout=30000,
+            )
+
+            page.locator("#tapr").select_option(
+                value="all_c"
             )
 
             print(
-                f"Step 3 loaded. Selecting {category}.",
-                flush=True
+                "Selected 2023-24 / All Campuses",
+                flush=True,
             )
 
-            save_snapshot(
+            frame = page.frame(
+                name="SASoutput"
+            )
+
+            save_diagnostics(
                 page,
-                diagnostics,
-                "02_step3"
+                folder,
+                "01_submitted",
             )
 
-            radio.check()
+            # Wait for the verified Grade 3 control.
+            # If the iframe was reset again, reload
+            # TEA's previously verified Step 3 URL.
 
-            next_button = frame.locator(
-                'input[type="submit"][value^="Next"]'
+            try:
+                frame.locator(RADIO).wait_for(
+                    state="visible",
+                    timeout=20000,
+                )
+
+            except PlaywrightTimeout:
+                print(
+                    "Step 3 was replaced or delayed; "
+                    "opening TEA's verified public "
+                    "Step 3 URL in the same iframe.",
+                    flush=True,
+                )
+
+                frame.goto(
+                    STEP3_URL,
+                    wait_until="domcontentloaded",
+                    timeout=90000,
+                )
+
+                frame.locator(RADIO).wait_for(
+                    state="visible",
+                    timeout=45000,
+                )
+
+            print(
+                "Verified Step 3: Grade 3 option "
+                "is visible",
+                flush=True,
             )
+
+            save_diagnostics(
+                page,
+                folder,
+                "02_step3",
+            )
+
+            frame.locator(RADIO).check()
+
+            next_button = frame.locator(NEXT)
 
             if next_button.count() != 1:
                 raise RuntimeError(
-                    "Cannot uniquely identify "
-                    "Step 3 Next button"
+                    "Step 3 Next button not "
+                    "uniquely identified"
                 )
 
             next_button.click(
-                timeout=45000
+                timeout=30000
             )
 
-            # The form submits into the same iframe.
-            # Wait for its content to change,
-            # rather than its URL.
+            # The form submits back into the same
+            # iframe. Wait until the old Grade 3
+            # option disappears.
 
-            deadline = time.monotonic() + 65
+            frame.locator(RADIO).wait_for(
+                state="detached",
+                timeout=90000,
+            )
 
-            while time.monotonic() < deadline:
-                body = frame.locator(
-                    "body"
-                ).inner_text(
-                    timeout=15000
+            frame.wait_for_load_state(
+                "domcontentloaded",
+                timeout=45000,
+            )
+
+            save_diagnostics(
+                page,
+                folder,
+                "03_after_next",
+            )
+
+            body = frame.locator(
+                "body"
+            ).inner_text(
+                timeout=20000
+            )
+
+            print(
+                "=== NEXT TEA FORM ===",
+                flush=True,
+            )
+
+            print(
+                body[:5000],
+                flush=True,
+            )
+
+            print(
+                "=== END NEXT FORM ===",
+                flush=True,
+            )
+
+            for i, download in enumerate(downloads):
+                path = (
+                    folder / f"download_{i}.bin"
                 )
 
-                if (
-                    "Step 3: Select a data category"
-                    not in body
-                ):
-                    break
+                download.save_as(path)
 
-                page.wait_for_timeout(500)
+                print(
+                    "Unexpected file saved "
+                    f"for review: {path}",
+                    flush=True,
+                )
 
-            save_snapshot(
-                page,
-                diagnostics,
-                "03_after_next"
-            )
-
-            print(
-                "=== TEA NEXT FORM TEXT ===",
-                flush=True
-            )
-
-            print(
-                frame.locator("body").inner_text()[:4000],
-                flush=True
-            )
-
-            print(
-                "=== END FORM TEXT ===",
-                flush=True
-            )
-
-            if downloads:
-                for i, item in enumerate(downloads):
-                    path = (
-                        diagnostics /
-                        f"unexpected_download_{i}.bin"
-                    )
-
-                    item.save_as(path)
-
-                    print(
-                        f"Download saved for audit: {path}",
-                        flush=True
-                    )
-
-            # We have not yet established which
-            # controls on the following form
-            # produce grade-specific program results.
-            # Preserve the evidence rather than
-            # importing potentially incorrect data.
+            # Stop for a documentation check
+            # before importing any outcome data.
 
             raise RuntimeError(
-                "Step 3 selected successfully. "
-                "Review 03_after_next_iframe_1.html "
-                "and its controls JSON to identify "
-                "the next TEA choices. "
-                "No outcomes imported."
+                "Captured TEA's next form. "
+                "Please upload "
+                "03_after_next_iframe_1.html and "
+                "03_after_next_iframe_1_controls.json "
+                "from the diagnostics artifact. "
+                "No data imported."
             )
 
         except Exception:
-            save_snapshot(
+            save_diagnostics(
                 page,
-                diagnostics,
-                "error"
+                folder,
+                "error",
             )
             raise
 
         finally:
             (
-                diagnostics / "sas_responses.json"
+                folder / "sas_responses.json"
             ).write_text(
-                json.dumps(events, indent=2),
-                encoding="utf-8"
+                json.dumps(
+                    sas_events,
+                    indent=2,
+                ),
+                encoding="utf-8",
             )
 
             browser.close()
@@ -318,30 +348,17 @@ def main() -> None:
         type=Path,
         default=Path(
             "results/texas/tapr_download"
-        )
-    )
-
-    parser.add_argument(
-        "--category",
-        choices=CATEGORIES,
-        default="3",
-        help=(
-            "Grade 3, 4, 5, "
-            "or bilingual program results"
-        )
+        ),
     )
 
     args = parser.parse_args()
 
     print(
         f"Collector version: {VERSION}",
-        flush=True
+        flush=True,
     )
 
-    collect(
-        args.outdir,
-        CATEGORIES[args.category]
-    )
+    collect(args.outdir)
 
 
 if __name__ == "__main__":
