@@ -10,7 +10,7 @@ permissions:
 jobs:
   collect-texas-tapr:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 75
 
     steps:
       - name: Check out repository
@@ -21,13 +21,14 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate collector and importer
+      - name: Validate Python scripts
         run: |
           python3 -m py_compile \
             collectors/texas_tapr_advanced_collect.py \
-            collectors/texas_tapr_public_import.py
+            collectors/texas_tapr_public_import.py \
+            scripts/texas_tapr_registry_crosswalk.py
 
-      - name: Install Playwright and Chromium
+      - name: Install Playwright
         run: |
           python3 -m pip install \
             --disable-pip-version-check \
@@ -36,16 +37,83 @@ jobs:
           python3 -m playwright install \
             --with-deps chromium
 
-      - name: Collect statewide TEA category exports
+      - name: Validate pilot registry inputs
+        run: |
+          python3 - <<'PY'
+          import csv
+          from pathlib import Path
+
+          base = Path("data/registry/texas")
+
+          required = {
+              "tapr_pilot_campuses_pass46.csv": 66,
+              "tapr_pilot_join_pass45.csv": 134,
+          }
+
+          for filename, expected in required.items():
+              path = base / filename
+
+              if not path.is_file():
+                  raise SystemExit(
+                      f"Missing registry file: {path}"
+                  )
+
+              with path.open(
+                  encoding="utf-8-sig",
+                  newline=""
+              ) as handle:
+                  rows = list(
+                      csv.DictReader(
+                          line for line in handle
+                          if line.strip()
+                      )
+                  )
+
+              print(
+                  f"{filename}: {len(rows)} rows",
+                  flush=True
+              )
+
+              if len(rows) != expected:
+                  raise SystemExit(
+                      f"Expected {expected} rows in "
+                      f"{filename}; found {len(rows)}"
+                  )
+
+          print("Pilot inputs validated.")
+          PY
+
+      - name: Collect statewide TEA exports
         id: collect
         continue-on-error: true
         run: |
           python3 collectors/texas_tapr_advanced_collect.py \
             --outdir results/texas/tapr_download
 
-      - name: Import candidate program columns
-        id: import
+      - name: Verify all four source archives
+        id: verify
         if: ${{ steps.collect.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          for category in \
+            grade3 \
+            grade4 \
+            grade5 \
+            bilingual_all_grades
+          do
+            file="results/texas/tapr_download/tapr_2024_${category}.zip"
+
+            if [ ! -s "$file" ]; then
+              echo "Missing or empty: $file"
+              exit 1
+            fi
+
+            echo "Verified: $file"
+          done
+
+      - name: Import statewide campus and program data
+        id: import
+        if: ${{ steps.verify.outcome == 'success' }}
         continue-on-error: true
         run: |
           python3 collectors/texas_tapr_public_import.py \
@@ -55,19 +123,154 @@ jobs:
             --csv results/texas/tapr_download/tapr_2024_bilingual_all_grades.zip \
             --outdir results/texas/tapr_public
 
-      - name: Save run status
+      - name: Verify statewide import
+        id: verify_import
+        if: ${{ steps.import.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          test -s results/texas/tapr_public/statewide_campus_index.csv
+          test -s results/texas/tapr_public/statewide_program_meets.csv
+          test -s results/texas/tapr_public/statewide_summary.json
+          test -s results/texas/tapr_public/cohort_register_with_tapr_flags.csv
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path(
+              "results/texas/tapr_public/statewide_summary.json"
+          )
+
+          summary = json.loads(path.read_text())
+
+          print(
+              "Statewide campuses:",
+              summary.get("statewide_distinct_campuses")
+          )
+
+          print(
+              "Pilot campuses matched:",
+              summary.get("matched_distinct_pilot_campuses")
+          )
+
+          print(
+              "Historical master status:",
+              summary.get("research_master_match_status")
+          )
+
+          print(
+              "Historical master campuses matched:",
+              summary.get("research_master_campuses_matched")
+          )
+
+          if summary.get("matched_distinct_pilot_campuses") != 66:
+              raise SystemExit(
+                  "Pilot campus coverage regressed."
+              )
+
+          if not summary.get("statewide_distinct_campuses"):
+              raise SystemExit(
+                  "No statewide campuses were imported."
+              )
+
+          print("Statewide import validated.")
+          PY
+
+      - name: Join historical Texas registry to TAPR
+        id: crosswalk
+        if: ${{ steps.verify_import.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          python3 scripts/texas_tapr_registry_crosswalk.py \
+            --campuses results/texas/tapr_public/statewide_campus_index.csv \
+            --program-meets results/texas/tapr_public/statewide_program_meets.csv \
+            --outdir results/texas/tapr_public
+
+      - name: Report historical registry coverage
+        if: ${{ steps.crosswalk.outcome == 'success' }}
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path(
+              "results/texas/tapr_public/"
+              "texas_registry_tapr_summary.json"
+          )
+
+          summary = json.loads(path.read_text())
+
+          print("HISTORICAL REGISTRY CROSSWALK")
+          print("-----------------------------")
+
+          print(
+              "Registry source:",
+              summary["registry_scope"]
+          )
+
+          print(
+              "Historical records:",
+              summary["historical_records"]
+          )
+
+          print(
+              "Distinct historical campuses:",
+              summary["distinct_historical_campuses"]
+          )
+
+          print(
+              "Campuses matched to TAPR:",
+              summary["matched_distinct_historical_campuses"]
+          )
+
+          print(
+              "Campuses with same-named program results:",
+              summary[
+                  "distinct_historical_campuses_with_same_named_program_numeric_meets"
+              ]
+          )
+
+          print(
+              "Confirmed cohort-specific outcomes:",
+              summary[
+                  "confirmed_grade_specific_program_cohort_outcomes"
+              ]
+          )
+
+          if (
+              summary["registry_scope"]
+              == "134_row_historical_pilot_ONLY"
+          ):
+              print()
+              print(
+                  "NOTE: The historical statewide master "
+                  "was not found. This run used the "
+                  "existing 134-row pilot registry."
+              )
+          PY
+
+      - name: Save workflow status
         if: always()
         env:
           COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+          VERIFY_OUTCOME: ${{ steps.verify.outcome }}
           IMPORT_OUTCOME: ${{ steps.import.outcome }}
+          VERIFY_IMPORT_OUTCOME: ${{ steps.verify_import.outcome }}
+          CROSSWALK_OUTCOME: ${{ steps.crosswalk.outcome }}
         run: |
           mkdir -p results/texas
 
-          printf 'Collection: %s\nImport: %s\n' \
-            "$COLLECT_OUTCOME" "$IMPORT_OUTCOME" \
-            > results/texas/collector_status.txt
+          {
+            echo "Collection: $COLLECT_OUTCOME"
+            echo "Archive verification: $VERIFY_OUTCOME"
+            echo "Statewide import: $IMPORT_OUTCOME"
+            echo "Statewide import verification: $VERIFY_IMPORT_OUTCOME"
+            echo "Historical crosswalk: $CROSSWALK_OUTCOME"
+          } > results/texas/collector_status.txt
 
-      - name: Upload diagnostics and download receipt
+          cat results/texas/collector_status.txt
+
+      - name: Upload diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -79,7 +282,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Upload public source archives
+      - name: Upload TEA source archives
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -88,22 +291,47 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
 
-      - name: Upload pilot import audit
+      - name: Upload statewide TAPR and registry results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: texas-tapr-results-${{ github.run_number }}
           path: results/texas/tapr_public/
-          if-no-files-found: ignore
+          if-no-files-found: warn
           retention-days: 30
 
-      - name: Fail if collection or import failed
+      - name: Report final workflow result
         if: always()
         env:
           COLLECT_OUTCOME: ${{ steps.collect.outcome }}
+          VERIFY_OUTCOME: ${{ steps.verify.outcome }}
           IMPORT_OUTCOME: ${{ steps.import.outcome }}
+          VERIFY_IMPORT_OUTCOME: ${{ steps.verify_import.outcome }}
+          CROSSWALK_OUTCOME: ${{ steps.crosswalk.outcome }}
         run: |
-          if [ "$COLLECT_OUTCOME" != success ] || [ "$IMPORT_OUTCOME" != success ]; then
-            echo "See diagnostics and available source archives."
+          if [ "$COLLECT_OUTCOME" != "success" ]; then
+            echo "TEA collection failed."
             exit 1
           fi
+
+          if [ "$VERIFY_OUTCOME" != "success" ]; then
+            echo "Source archive verification failed."
+            exit 1
+          fi
+
+          if [ "$IMPORT_OUTCOME" != "success" ]; then
+            echo "Statewide importer failed."
+            exit 1
+          fi
+
+          if [ "$VERIFY_IMPORT_OUTCOME" != "success" ]; then
+            echo "Statewide validation failed."
+            exit 1
+          fi
+
+          if [ "$CROSSWALK_OUTCOME" != "success" ]; then
+            echo "Historical registry crosswalk failed."
+            exit 1
+          fi
+
+          echo "Texas TAPR collection and crosswalk completed."
