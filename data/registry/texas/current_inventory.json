@@ -1,11 +1,12 @@
 {
-  "version": "pass50",
-  "campus_language_inventory": "data/registry/texas/texas_campus_language_inventory_pass50.csv",
-  "language_tracks": "data/registry/texas/texas_language_program_tracks_pass50.csv",
-  "k_allocation_evidence": "data/registry/texas/texas_k_allocation_evidence_pass50.csv",
-  "audit": "data/registry/texas/texas_language_classification_audit_pass50.csv",
-  "source_register": "data/registry/texas/pass50/source_register.csv",
+  "version": "pass51",
+  "campus_language_inventory": "data/registry/texas/texas_campus_language_inventory_pass51.csv",
+  "language_tracks": "data/registry/texas/texas_language_program_tracks_pass51.csv",
+  "k_allocation_evidence": "data/registry/texas/texas_k_allocation_evidence_pass51.csv",
+  "audit": "data/registry/texas/texas_language_classification_audit_pass51.csv",
+  "allocation_audit": "data/registry/texas/texas_allocation_cleanup_audit_pass51.csv",
+  "source_register": "data/registry/texas/pass51/source_register.csv",
   "assessment_year": "2023-24",
-  "evidence_dates": "Source-specific; do not backdate later offerings",
+  "evidence_dates": "Source-specific; new current policy observations are not backdated to reporting year",
   "status": "PROVISIONAL_RESEARCH_NOT_VERIFIED_CENSUS"
 }

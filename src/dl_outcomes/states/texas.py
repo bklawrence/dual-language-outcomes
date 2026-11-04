@@ -7,6 +7,19 @@ from urllib.parse import parse_qs, urlsplit
 from ..io import read_csv, record_id, school_year
 from ..measurements import parse_value
 
+GRADE_SUPPORT = {
+    "NOT_REVIEWED": "NOT_REVIEWED",
+    "DISTRICT_PK5_MODEL": "DISTRICT_GRADE_BAND_MODEL",
+    "CAMPUS_K5_MODEL": "CAMPUS_GRADE_BAND_MODEL",
+    "EXPLICIT_K": "EXPLICIT_GRADE",
+    "EXPLICIT_K_WITHIN_PK5": "EXPLICIT_GRADE",
+    "DISTRICT_K_ENTRY_MODEL": "DISTRICT_ENTRY_GRADE_MODEL",
+    "PREK_PROXY_NOT_K_QUANTIFIED": "EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED",
+    "MODEL_LABEL_MINUTES_DIFFER": "MODEL_LABEL_MINUTES_DIFFER",
+    "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD",
+    "UNRECOVERED": "UNRECOVERED",
+}
+
 
 def period_year(text):
     for match in re.finditer(r"(20\d{2})[-–](\d{2})(?!\d)", text or ""):
@@ -19,15 +32,27 @@ def period_year(text):
 
 def migrate(b):
     config = json.loads((b.root / "config/states/tx.json").read_text())["pilot"]
-    metadata = b.dataset("TX_TRACK_RESEARCH", "TX", "inventory", "Texas Pass 50 instructional-language evidence", "repo:data/registry/texas/", notes="Provisional reporting-group evidence; not a campus-program census.")
+    metadata = b.dataset("TX_TRACK_RESEARCH", "TX", "inventory", "Texas " + config["research_version"] + " instructional-language evidence", "repo:data/registry/texas/", notes="Provisional reporting-group evidence; not a campus-program census.")
     track_source = b.source_file(metadata, config["tracks"])
     allocation_source = b.source_file(metadata, config["allocations"])
-    source_register = b.source_file(metadata, "data/registry/texas/pass50/source_register.csv")
+    b.source_file(metadata, config["source_register"])
+    # Save review decisions, extracts and public evidence in the portable build.
+    review_manifest = b.track_input(config["review_manifest"])
+    review_provenance = json.loads(review_manifest.read_text())
+    for section in ("inputs", "files", "build_script"):
+        for path in review_provenance[section]:
+            b.track_input(path)
     citations = {}
-    for row in read_csv(b.root / "data/registry/texas/pass50/source_register.csv"):
-        citations[row["source_id"]] = b.citation(metadata, row["url"], key=row["source_id"],
-            period=row["evidence_period"] or "not_reported", retrieved=row["accessed_at_utc"] or None,
-            remote_hash=row["sha256_download"] or None)
+    for row in read_csv(b.root / config["source_register"]):
+        if row.get("archive_path"):
+            source = b.source_file(metadata, row["archive_path"], metadata=row["archive_metadata_path"])
+            b.tables["sources"][(source,)]["evidence_period_raw"] = row["evidence_period"]
+            b.tables["sources"][(source,)]["notes"] = "Saved public evidence; capture method: " + row["capture_method"] + ". Scope and limitations are in the Texas source register."
+            citations[row["source_id"]] = source
+        else:
+            citations[row["source_id"]] = b.citation(metadata, row["url"], key=row["source_id"],
+                period=row["evidence_period"] or "not_reported", retrieved=row["accessed_at_utc"] or None,
+                remote_hash=row["sha256_download"] or None)
     tracks = read_csv(b.root / config["tracks"])
     by_parent = defaultdict(set)
     track_sites = {}
@@ -82,12 +107,19 @@ def migrate(b):
     for row in read_csv(b.root / config["allocations"]):
         parent_year = row["registry_record_id"].split(":")[1]
         school = b.resolve("school", "TX_TEA_campus_id", row["campus_id"], year=parent_year, default="TX-S" + row["campus_id"])
+        reviewed_ids = list(filter(None, row.get("pass51_source_ids", "").split(";")))
+        source = citations[reviewed_ids[0]] if reviewed_ids else allocation_source
+        review_note = (" Pass 51 review: " + row["pass51_review_status"] + "; K support: " + row["pass51_k_support"] +
+                       "; origin: " + row["pass51_observation_origin"] + ".") if row.get("pass51_review_status") else ""
+        locator = row["allocation_record_id"] + ("; " + row["pass51_source_locator"] if row.get("pass51_source_locator") else "")
         b.add("allocation_schedules", schedule_id=record_id("schedule", "TX", row["allocation_record_id"]),
               school_id=school, site_id=track_sites.get(row["language_track_id_if_unambiguous"]),
               grade_scope=row["grade"], reported_model_label=row["allocation_label"], percentage_basis=row["allocation_interpretation"],
               schedule_status="reported_policy_requires_review", evidence_period_raw=row["source_period"],
-              tested_cohort_exposure="not_established", source_id=allocation_source, source_locator=row["allocation_record_id"],
-              notes=row["evidence_note"] + " Raw entry year: " + row["entry_school_year"] + "; cohort exposure remains unverified. Model label has not been converted to named-language shares.")
+              evidence_review_status=row.get("pass51_review_status"),
+              grade_support_status=GRADE_SUPPORT.get(row.get("pass51_k_support")),
+              tested_cohort_exposure="not_established", source_id=source, source_locator=locator,
+              notes=row["evidence_note"] + review_note + " Raw entry year: " + row["entry_school_year"] + "; cohort exposure remains unverified. Model label has not been converted to named-language shares.")
     # Preserve school-level structural evidence without assigning whole-school status to each language track.
     structure_path = "data/registry/texas/texas_structure_evidence_pass44.csv"
     structure_source = b.source_file(metadata, structure_path)
@@ -99,7 +131,7 @@ def migrate(b):
                 structure_source, f"CSV record {i}", year=period_year(row["evidence_period"]),
                 notes="Campus structural evidence only; whole-school DL does not mean each language track is whole-school.")
     migrate_outcomes(b, by_parent, track_source)
-    b.notes.append("Texas migrates 1,863 provisional evidence groups and 970 policy records; no new language or tested-cohort attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.")
+    b.notes.append("Texas migrates " + str(len(tracks)) + " provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.")
 
 
 def migrate_outcomes(b, by_parent, track_source):

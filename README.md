@@ -9,7 +9,7 @@ A longitudinal research dataset for dual-language programs across all **50 US st
 - [Architecture and interpretation](docs/methods/NATIONAL_DATA_MODEL.md)
 - [Table contracts and data dictionary](schemas/README.md)
 - [State/year/layer coverage](data/curated/coverage/state_year_layer_coverage.csv)
-- [Allocation coverage by state](docs/status/ALLOCATION_COVERAGE_2026_11_04.md)
+- [Allocation coverage by state — saved baseline](docs/status/ALLOCATION_COVERAGE_2026_11_04.md) and [Texas Pass 51 update](docs/status/TEXAS_CLEANUP_PASS51_2026_11_04.md)
 - [Build provenance and table counts](data/curated/manifest.json)
 - [Texas pilot](docs/states/TX.md) and [Washington pilot](docs/states/WA.md)
 - [Adding a source or state](docs/methods/ADDING_SOURCES.md)

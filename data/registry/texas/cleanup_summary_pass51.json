@@ -1,0 +1,56 @@
+{
+  "audit_date": "2026-11-04",
+  "pass_id": "pass51",
+  "track_records": 1863,
+  "parent_reporting_groups": 1856,
+  "campuses": 1610,
+  "language_pair_counts": {
+    "UNVERIFIED": 965,
+    "Spanish–English": 885,
+    "Vietnamese–English": 3,
+    "Mandarin–English": 7,
+    "Arabic–English": 1,
+    "French–English": 2
+  },
+  "verification_scope_counts": {
+    "UNVERIFIED": 965,
+    "DISTRICT_POLICY_ONLY": 792,
+    "CAMPUS_DOCUMENTED": 87,
+    "PRIOR_EVIDENCE_NOT_INDEPENDENTLY_RECONFIRMED": 19
+  },
+  "language_records_reviewed": 87,
+  "unknown_pair_records_resolved": 83,
+  "original_allocation_records_preserved": 970,
+  "original_allocation_records_reviewed": 115,
+  "new_current_policy_observations": 23,
+  "previously_uncited_allocation_rows_recovered": 26,
+  "reviewed_k_support_counts": {
+    "MODEL_LABEL_MINUTES_DIFFER": 31,
+    "PREK_PROXY_NOT_K_QUANTIFIED": 27,
+    "DISTRICT_K_ENTRY_MODEL": 4,
+    "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD": 23,
+    "EXPLICIT_K": 3,
+    "DISTRICT_PK5_MODEL": 45,
+    "UNRECOVERED": 1,
+    "CAMPUS_K5_MODEL": 3,
+    "EXPLICIT_K_WITHIN_PK5": 1
+  },
+  "original_coverage": {
+    "allocation_records": 970,
+    "campuses_with_any_label": 848,
+    "campuses_with_any_citation": 823,
+    "campuses_with_cited_candidate_language_link": 562,
+    "cited_candidate_language_link_rows": 646
+  },
+  "current_coverage": {
+    "allocation_records": 993,
+    "campuses_with_any_label": 848,
+    "campuses_with_any_citation": 848,
+    "campuses_with_cited_candidate_language_link": 622,
+    "cited_candidate_language_link_rows": 710
+  },
+  "newly_archived_sources": 17,
+  "verified_tested_cohort_exposures": 0,
+  "verified_language_specific_tapr_outcomes": 0,
+  "coverage_caution": "Citation/link counts are comparable research-policy coverage measures across mixed source periods, not verified K schedules or a 2025-26 operating census. Rejected old Spring rows and pre-K proxies remain visible; consult review status before analysis."
+}

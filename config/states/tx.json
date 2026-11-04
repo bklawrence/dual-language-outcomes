@@ -6,8 +6,11 @@
   "collection_status": "pilot",
   "notes": "Existing state research files remain available; not_migrated does not mean no data exist.",
   "pilot": {
-    "tracks": "data/registry/texas/texas_language_program_tracks_pass50.csv",
-    "allocations": "data/registry/texas/texas_k_allocation_evidence_pass50.csv",
+    "research_version": "Pass 51",
+    "tracks": "data/registry/texas/texas_language_program_tracks_pass51.csv",
+    "allocations": "data/registry/texas/texas_k_allocation_evidence_pass51.csv",
+    "source_register": "data/registry/texas/pass51/source_register.csv",
+    "review_manifest": "data/registry/texas/manifest_pass51.json",
     "dl_outcomes": "data/registry/texas/tprs_verified_observations_pass45.csv",
     "notes": "Four published school/district current-EL one-way DL groups; all tested grades, 2023\u201324. No track-specific or grade-specific disaggregation."
   }

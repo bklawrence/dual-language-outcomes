@@ -115,6 +115,9 @@ def validate_tables(tables, definition=None):
         if match and row["valid_from_year"] and row["valid_from_year"] < match[1]:
             errors.append("program_languages: later roster backdated to an earlier school year")
     for row in tables["allocation_schedules"]:
+        if row.get("grade_support_status") in {"EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED", "MODEL_LABEL_MINUTES_DIFFER", "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD", "UNRECOVERED"}:
+            if row["schedule_status"] != "reported_policy_requires_review" or allocations.get(row["schedule_id"]):
+                errors.append("allocation_schedules: unresolved grade evidence promoted to an accepted numeric schedule")
         if row["tested_cohort_exposure"] == "verified":
             evidence = [r for r in tables["evidence_claims"] if r["entity_type"] == "schedule" and r["entity_id"] == row["schedule_id"] and r["attribute"] == "tested_cohort_exposure" and r["verification_status"] == "documented"]
             if not row["entry_cohort_year"] or not evidence:

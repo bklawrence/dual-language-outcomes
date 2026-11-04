@@ -1,6 +1,6 @@
 # National data dictionary
 
-Schema version: **1.0.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
+Schema version: **1.1.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
 
 Empty CSV cells are null. IDs and school years remain strings. All listed headers are required, including in zero-row tables.
 
@@ -211,6 +211,8 @@ Path: `data/curated/program_history/allocation_schedules.csv`. Primary key: `sch
 | `reported_model_label` | string / null |  |
 | `percentage_basis` | string |  |
 | `schedule_status` | string | reported_policy_requires_review, documented_plan, observed_schedule |
+| `evidence_review_status` | string / null |  |
+| `grade_support_status` | string / null | NOT_REVIEWED, DISTRICT_GRADE_BAND_MODEL, CAMPUS_GRADE_BAND_MODEL, EXPLICIT_GRADE, DISTRICT_ENTRY_GRADE_MODEL, MODEL_LABEL_MINUTES_DIFFER, EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED, SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD, UNRECOVERED |
 | `evidence_period_raw` | string / null |  |
 | `tested_cohort_exposure` | string | not_established, verified |
 | `source_id` | string | sources.source_id |

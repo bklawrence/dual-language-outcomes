@@ -1,11 +1,11 @@
 {
-  "schema_version": "1.0.0",
-  "build_id": "build-f91cc552f7ea51ea96b3ff2a7ee7d6e4",
-  "built_at": "2026-11-04T16:18:03.826216+00:00",
-  "base_git_revision": "1d0427efdee70f9087c11d329fa501786d66ac9a",
+  "schema_version": "1.1.0",
+  "build_id": "build-a62f94bbfcdc5bf49ae9fc90ce9c2132",
+  "built_at": "2026-11-04T17:35:07.086016+00:00",
+  "base_git_revision": "7cc088f46df7bf2635b403dd9aacb633fd0da711",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
-    "config/project.json": "977403ba4bec5338e25febbe0045378b8471b248ddf044b60cd54cd6b353700e",
+    "config/project.json": "9850f12b4cbafc65fe8212f05276d30c14419a8d7833716b09e249c95996678b",
     "config/states/ak.json": "f91969ada0319a0d9b1e6005fec9344ee4f1375411569a92a37fd732bba1a998",
     "config/states/al.json": "0005015ba767d9731450fe47d2316b8e8e6be7425d1f0b7663b68f66faa5c02f",
     "config/states/ar.json": "b948513df6ba70fa53f0801c31f4375d5dfa5c6d1397b3239219490f30c0bf7b",
@@ -48,7 +48,7 @@
     "config/states/sc.json": "670fc91a46454f45bc03d189dc3474f68b59599af89183e43e507dd80530587f",
     "config/states/sd.json": "f4155759a8b5cfcac0bb41ceddd226f3ac884523cac2d8c26441a6b769171c1b",
     "config/states/tn.json": "dc1a8049a215c09fe3325f1a3093504467495e68caf08f44ec960d034c21f64c",
-    "config/states/tx.json": "dd6ee4b6d7705f4de29f733f2506462c4a54b6aa91e8a2128285cf6ceb95c224",
+    "config/states/tx.json": "24e1bbbce30fbbabbffe3825cfb7b674cc208cb2417a7cd54f2af814042a02e3",
     "config/states/ut.json": "09a3e77014114d0486a7e436781cfe9c3c50e125ac24de0188d0886582949a09",
     "config/states/va.json": "ed47dbf7421771942a7b55b1ffbb666c4cb54c1b0a8b747de2f2b465c4fd38e8",
     "config/states/vt.json": "9a89870bcde674cd590604ca907205455bf3aec0432d056bdfbf9cc12f3067fb",
@@ -62,6 +62,57 @@
     "data/raw/legacy_registry/pre_schema_v1/programs.csv": "3b78f2d15278b8aec53854792161ebc86ebd159ff3049dd4d830209aaa4bfa6d",
     "data/raw/legacy_registry/pre_schema_v1/schools.csv": "90099e1bf18ab0db581bbc1d88493d41c6f78c8bc321e739b034e850b2e4f985",
     "data/raw/legacy_registry/pre_schema_v1/sources.csv": "967baf899cc1ec70ab8929a6b0749ef9e0e8ee05552d27f43615c1255bf7a209",
+    "data/raw/tx/pass51/tx51_aldine_bussey23.metadata.json": "1411558f4856e29f74df27b391839e2d43d05b715ba291d969285e8396bdf5d7",
+    "data/raw/tx/pass51/tx51_aldine_bussey23.pdf": "79404f2797628e2f2d3dfb0c951e1be848c5c831de552aceb5048ce7978456f8",
+    "data/raw/tx/pass51/tx51_aldine_bussey23.txt": "6935551178b877e783ae67cfe005018667fe0b984fd14d1876fe460ae74c0397",
+    "data/raw/tx/pass51/tx51_aldine_oneway21.html": "a9cacb96c8a14379a9842175ccab15636e71c7571356c8d1269cb9988f1a79d0",
+    "data/raw/tx/pass51/tx51_aldine_oneway21.metadata.json": "8912755ce06019551b89846805296f10c0e594913246b8b6f1f78ffbaaa01b85",
+    "data/raw/tx/pass51/tx51_aldine_oneway21.txt": "319c4433ca83dfc900258ecf7ab3bea5ffcaf9d81e4571c61c05fa20ab78209c",
+    "data/raw/tx/pass51/tx51_aldine_twoway24.html": "b03ea7573253de5f060f0a85bded155d3343492877af8cd457bca9ee493332b0",
+    "data/raw/tx/pass51/tx51_aldine_twoway24.metadata.json": "f8b808e32233c937ab65327aba2813bf4eabd4c896e093da7826fe1ac9ea5cf8",
+    "data/raw/tx/pass51/tx51_aldine_twoway24.txt": "421bf46d83fda7592f61494151ad8030a897c96022916e56c0850eb9623efad9",
+    "data/raw/tx/pass51/tx51_austin_mandarin_curriculum.html": "25186e7a2c4f41ba1d4f4253c845fad8177f11c59d5b948f3f4ddfa9adc1d661",
+    "data/raw/tx/pass51/tx51_austin_mandarin_curriculum.metadata.json": "c6a3807e36a494e0d39d7f0df7555f0689fcb98b01f026ec45eb2c8a73f8f8be",
+    "data/raw/tx/pass51/tx51_austin_mandarin_curriculum.txt": "57dfcff5d6ed5f10103cc9cd25af31dd395672a3de3fbf4610b23aebfd40be13",
+    "data/raw/tx/pass51/tx51_doss_school.html": "87d99e7dad18d7b07fab4ceb2a19e7735bde448a6fc8e8943b5677444703cd04",
+    "data/raw/tx/pass51/tx51_doss_school.metadata.json": "bc467c5aef4e4b918ac5540b5c98210039d48a935644e2e713623dfd0cecbb41",
+    "data/raw/tx/pass51/tx51_doss_school.txt": "9de1aac67b3fd974ed5bf33f49684c62ed5ca981bbc9fbfafa06b0fb5d4e278d",
+    "data/raw/tx/pass51/tx51_govalle_school.html": "8e4ecad7299574c1b2487c2916b9fe433c9139cd4a0950b53d85b7e67d1929da",
+    "data/raw/tx/pass51/tx51_govalle_school.metadata.json": "b4e50338d0ea29ce6953f6443d1194b1d997b55a3abaf6bd6652d27a98675456",
+    "data/raw/tx/pass51/tx51_govalle_school.txt": "6a1524a0b8154f947c80794ddd898c2bbe22acc3214bd311ccb8c85ca824c51a",
+    "data/raw/tx/pass51/tx51_lajoya_bilingual.html": "ef0ebfec7a94e9ef6a7ebdf5b297a153537095cb94a4901caf6f0f2e69c9cd02",
+    "data/raw/tx/pass51/tx51_lajoya_bilingual.metadata.json": "411332446a8a0b0deaeb7f6f6ac4897858a4c659d678206aed9d3038e29760a6",
+    "data/raw/tx/pass51/tx51_lajoya_bilingual.txt": "6d99adbdecb3d5cb270df9cf0843155d7f8858d4fb0aab16cdab46595655a275",
+    "data/raw/tx/pass51/tx51_lajoya_dip19.metadata.json": "cee1aca9b3a51d2705ac98f40312110f2f548a6b6a69e676d24db5afe54ca602",
+    "data/raw/tx/pass51/tx51_lajoya_dip19.pdf": "918ca89f8e5c9cba3676c76ef9bf91273f5c58aebb1a1a37a452f71135e4c3ce",
+    "data/raw/tx/pass51/tx51_lajoya_dip19.txt": "7ee091c90b3768bb757b25bf500dcaa23cc7dcc0c385efdcc764b6f0bf449bf1",
+    "data/raw/tx/pass51/tx51_reilly_fact19.html": "f21c657e88485ebef61532476c8ca2145ea12e61c08a5de5c40dac295ea56e4f",
+    "data/raw/tx/pass51/tx51_reilly_fact19.metadata.json": "0c5a16117b3373dacf461dd13f4a945ce8669e60c7a6a3efba908f0eac3029a0",
+    "data/raw/tx/pass51/tx51_reilly_fact19.txt": "ef536c1e1c6fe5da28fbef991b832ef0b71fcac02e503dff25cf78266d5c0467",
+    "data/raw/tx/pass51/tx51_reilly_mandarin.html": "7274ac7a6e7d5ab67d28176433bb0d02556ff6961a8b19d6ef226f6180e6284f",
+    "data/raw/tx/pass51/tx51_reilly_mandarin.metadata.json": "7d24367795ba4047ffddd38507ceb82b69d973b9915a8f175692e1c46f201b48",
+    "data/raw/tx/pass51/tx51_reilly_mandarin.txt": "387b508a13d03974ecb9c81d5449dedef2eb1b87c947fe5b16962ad240ccf38e",
+    "data/raw/tx/pass51/tx51_spring_abc22.html": "ca75c9f23bf03c565fd856a46e85ba1d5d98dc6801b0917e49d84f233721c18c",
+    "data/raw/tx/pass51/tx51_spring_abc22.metadata.json": "0c22104e9560484141e9b157288eb17e7cf8da03ea16ef670f9f43eccd7a6d4f",
+    "data/raw/tx/pass51/tx51_spring_abc22.txt": "8008e303cc9a433ba4e0f1b45fae8fa3b5739f0d48bd4abd5076464159d93e16",
+    "data/raw/tx/pass51/tx51_spring_literacy.metadata.json": "7707c1996e3d32bbe055215320174e5da8942d7315c0de937018675e4654f3e5",
+    "data/raw/tx/pass51/tx51_spring_literacy.pdf": "5acd7197030486729758d92e5a85b87fd97cce6651b1496f1cde42522f812f76",
+    "data/raw/tx/pass51/tx51_spring_literacy.txt": "6ca82d687b0077dff654def933cc5534150a7958a31d978abb1004fb4e7abe0a",
+    "data/raw/tx/pass51/tx51_spring_programs.html": "b22e04b4a84ff5e8c997e31a5a76d4278b0c81a696d468ea22194ce2733c21c0",
+    "data/raw/tx/pass51/tx51_spring_programs.metadata.json": "588ca11a8418702cb5c7a175ab103beb5f257c6c5bcf75fb8bf18ee831dcc248",
+    "data/raw/tx/pass51/tx51_spring_programs.txt": "901e9c814392daa14c1bd75a090c0fbe74ab4aef84e7f3dfe9f8485259429a0b",
+    "data/raw/tx/pass51/tx51_summitt_faq.html": "0feee4d44cd11309b3cdfdbd5d7bf945455c56174b1b779c276ef307ba7d714d",
+    "data/raw/tx/pass51/tx51_summitt_faq.metadata.json": "b0ca2d08b1e8011e14131f8b44d01f20f2bab442bf4d986adbcff5ad0b23847b",
+    "data/raw/tx/pass51/tx51_summitt_faq.txt": "06f61f4ee03b3a69cd5aa3547457b2c37ca67bc8904f4d4bab5947171d1c1747",
+    "data/raw/tx/pass51/tx51_summitt_intro.html": "39010ef806f85ba80320e2847b4cab6979e1216a3a091217c9bfe6a9db4a20a8",
+    "data/raw/tx/pass51/tx51_summitt_intro.metadata.json": "2725f06ae5c6a45ae65d3eb078d18729d08b482455fa4dc874d70c241dcc4c6c",
+    "data/raw/tx/pass51/tx51_summitt_intro.txt": "4c7e5005e0877a124a608ff2732665ddcee6875f7566a0e413232aa340eb3a05",
+    "data/raw/tx/pass51/tx51_sunset_handbook.metadata.json": "eb39f7abbbb5a4a011042a19fa42f30a3fd437ae5defe2f11eb67f16d1be8591",
+    "data/raw/tx/pass51/tx51_sunset_handbook.pdf": "9167a872cd1fba648815a37db2110912c947d7653f40a030fa32955600f98eaa",
+    "data/raw/tx/pass51/tx51_sunset_handbook.txt": "687a31b9855bd00eda95916ec73a6546b5c981c2846abf0031b6d9b0d591577d",
+    "data/raw/tx/pass51/tx51_ysleta_study.metadata.json": "82269f3b6bf165b9909e41c948b62ef9f3f47f0d1da48e3b49c5b3e8b4c472e3",
+    "data/raw/tx/pass51/tx51_ysleta_study.pdf": "615ed840d55b670dbceee3e7772adb13cfab2f706b057e849c13b571d1e6f5f6",
+    "data/raw/tx/pass51/tx51_ysleta_study.txt": "bb85926633ef0b85236f8c7d64477176894c2bb78f6277aa0224080b86fe6249",
     "data/raw/wa/pilot_2026_11_04/academics.json": "2e48297aae2cf6fca4cc62060f92ccb9c790777b0e68cdf34d7e2f7b1ecab262",
     "data/raw/wa/pilot_2026_11_04/academics.metadata.json": "14e5a598c5de4e365c128fd94d6f6c5df803fb751c2a76627ccb652f616c83e5",
     "data/raw/wa/pilot_2026_11_04/demographics.json": "c98bf84dccd941ba616aa739348a740c2677ba620a8ae890e81a594273a8a4ff",
@@ -84,14 +135,32 @@
     "data/registry/state_dl_programs_oregon.csv": "328abbe234ec42a4f3fbaed1f5debec8e66bff2eb7c340f9522e716c93e4d19b",
     "data/registry/state_dl_programs_wyoming_2025_26.csv": "541b2cf6ef9aaa32811e1fbd31d8bd62240eeb5a09c0c98a029187300a429339",
     "data/registry/state_dl_programs_wyoming_2026_27.csv": "f7b7a7cb4f5c849a38f39d8dd68d57509d46820eb64991b523d3c3da51733814",
-    "data/registry/texas/pass50/source_register.csv": "d75b13d6ae6c725cb47e8b8195e11f7c53391711e4a4529dee3dcc085d57df91",
+    "data/registry/texas/cleanup_summary_pass51.json": "f049bbec5912112badca4f09eacd8cf616cd7550163cd650680e341fcc662cf2",
+    "data/registry/texas/current_inventory.json": "1344727e0089ae8a7654e2212d9367b76b47e82ef98e456d72c5b34cc912fbce",
+    "data/registry/texas/manifest_pass51.json": "04fda1db38ad07e46b859de8f9717d3083b1abd3c60e0bc57d849e58942d15c2",
+    "data/registry/texas/pass51/allocation_additions.json": "cf2e76fc3be64b41342fa14b21e33077917bfeea037959650c5ce58894d34ecc",
+    "data/registry/texas/pass51/allocation_reviews.json": "d07137f9413709be4aa389c66cac3ff878ce471ca9932d8e94dba183a09c5ceb",
+    "data/registry/texas/pass51/assessment_source_leads.json": "fae7d44a8756abf6594753d24763b38c3c01245a8e08e7358a93c985beae1278",
+    "data/registry/texas/pass51/change_and_gap_reviews.json": "531cc24138cb421e552702c4675d24fae0a9f23ddb5832f642dacd40453b2e79",
+    "data/registry/texas/pass51/language_decisions.json": "fa0bdfd8711239eed46fd9bdd94c3ccc9dddd11dac4e39822ed83bbb6b40f703",
+    "data/registry/texas/pass51/research_scope.json": "2d6a1fb59e8ed8657110824e1ea8300beef15c4e5eb1f426e21466f5f23916cb",
+    "data/registry/texas/pass51/retrieval_log.json": "582ee107d3cdfc65357abadd1d3d50fbadacb341de60a79eeac1260c2edb7d0a",
+    "data/registry/texas/pass51/search_log.json": "f8456fabc87ef9ccc8d8ad990658c2e1d17daf6276992ba78a70d9e5ba9d0858",
+    "data/registry/texas/pass51/source_register.csv": "f06d49f9a279c1f03427a1688663a5c1ccf0a2778ce849a91a91abf34aa4eee9",
+    "data/registry/texas/texas_allocation_cleanup_audit_pass51.csv": "6551afeb7979fe5fa868997b329e2918eda8f4be220bff273b11acfa553f8cca",
+    "data/registry/texas/texas_campus_language_inventory_pass51.csv": "d42bf8d5c4577515ab1ab30124f9772e70ad45bfd1f4ae4df3008a543fa4014a",
     "data/registry/texas/texas_k_allocation_evidence_pass50.csv": "34aaed356e4938157e84219c82f57271474b461f68983f6ac3c46a93fb367b3f",
+    "data/registry/texas/texas_k_allocation_evidence_pass51.csv": "997206484d5cdd3a6ebc589e52317fc3765f4abc464c815b2889cffca290a01e",
+    "data/registry/texas/texas_language_classification_audit_pass51.csv": "db1f31cfb96b8587dcdf74c09b6789e78235e9af4de0849a3b5c8ea21eda6a26",
     "data/registry/texas/texas_language_program_tracks_pass50.csv": "b63095cc23ea98e9f0593ef60d062a8153018a17780b88c29c5130f4bb6cec95",
+    "data/registry/texas/texas_language_program_tracks_pass51.csv": "9880ef8be4e2f6cc8b6d8febd677253011c33e1ae0cef5769a24b8459f073fec",
     "data/registry/texas/texas_structure_evidence_pass44.csv": "48e721e548b78a33958aeb46193705bd216561910a60dfc9620e3f73a00eb504",
     "data/registry/texas/tprs_verified_observations_pass45.csv": "7ee3db1533c3b339497f48848e1651abf8f2d7463c386474244e61ef39993e76",
     "pyproject.toml": "16de8e16c234f7fba087bed20934b2d9f846afb2b6a9ef62ec925ca4f51b8c13",
     "requirements-analytics-lock.txt": "6fe715aa8a0476437610741f0d976a9eaab15df980dda0123d31989a517866db",
-    "requirements-lock.txt": "6b5b1fb3eba0da0f4fb1bfa68b592173e3abd8e1dd9771fc4de2f4540c8b7e57"
+    "requirements-lock.txt": "6b5b1fb3eba0da0f4fb1bfa68b592173e3abd8e1dd9771fc4de2f4540c8b7e57",
+    "scripts/build_texas_cleanup_pass51.py": "163d7084c8be05207e7496b27190524d62cb39e15478a644dfaa2d28b7569e65",
+    "scripts/validate_texas_cleanup_pass51.py": "88c1755c7bb56a53897885585b50588762b9dbb6af9607cb90e16879ce1ab55e"
   },
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
@@ -107,12 +176,12 @@
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
     "src/dl_outcomes/release.py": "a2952fd758b24c8f2c08978052a37eee3b5b3b7bd23ed640892a4929353c9d5e",
-    "src/dl_outcomes/schemas/catalog.json": "263ba1fc9edfffc58bca7075c954f10b80109b9f960503f079e88c0e35c29a51",
+    "src/dl_outcomes/schemas/catalog.json": "7d0750cb468ddf3c92aa5cee2258670bbf9f065fdca86e9ba2d3e8a3f9a80ed7",
     "src/dl_outcomes/states/__init__.py": "0c9d52140859c1fb2edb7881a486c3336a597ffca0fe34aa39ba8cd9ce83a832",
     "src/dl_outcomes/states/illinois.py": "4ff0f32b50748bd0000a2d1e1ebbdc20c5c73e02cd7c877ff3eaff5894796a96",
-    "src/dl_outcomes/states/texas.py": "1e0ffa8ef6b66f1bc8ae8e8b5197b48517d8ce822ab422575ac7ededf20feeae",
+    "src/dl_outcomes/states/texas.py": "c3f9b1891c18c81d7af54dba8014b4f5c11c4eaf90ba35292ef53008520c4029",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
-    "src/dl_outcomes/validation.py": "770534049bcbd9dabd0a83cf60efc569ad9cc26750a21a2a80b0bf7ce8c32b82"
+    "src/dl_outcomes/validation.py": "1821762eafb63547d84c4333feee1dbdaa06e99031a246bb90aeb449884a5226"
   },
   "outputs": {
     "data/curated/registry/states.csv": {
@@ -120,12 +189,12 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "1ea7f8eec9effcf3e28c1ae681c7085e0dac97909986c843ec743018a28d86fe",
+      "sha256": "f5a55d4be19bfeeeda1dc80b5bdd3ae1868dc1680561e2084d7a009b1a692cd8",
       "rows": 12
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "daacc4c7ba01f7074971ddc8d08691373088d0e708a9f5b61c91e0078ac49dd3",
-      "rows": 121
+      "sha256": "4bd0e896ce2cb242fab202f8b2f0f41932990373919ab23e5a7ddc3c68d227cc",
+      "rows": 138
     },
     "data/curated/registry/districts.csv": {
       "sha256": "25d3f93a4a9907bebacecff38e183ca5db6e71da1e63edbc3f4c09b85106e64d",
@@ -136,39 +205,39 @@
       "rows": 1940
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "00933e025c72cdd8a8afdec7e7793f3dbb8445bb1a2027fb6f543ab51e32a6ff",
+      "sha256": "6339db637d7cdd11ceed3a64aedda05e5f0ae101b9591abbbc105ad52adebb42",
       "rows": 6198
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "58de98edddccd1454eb49a0b19af3143a1d607c267adda8cafd58f06d64c982f",
+      "sha256": "0d6923471b6f01700b36a0a4174ea1020f03d23bc1b9367ae23cfd940f0f8fc7",
       "rows": 2480
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "09275d0d5faf0121cbdf3e1d2dd156021917c15a0bb9700df293040a93833dc1",
+      "sha256": "399be3cd0e633832bddcc8b62aac05f220b7eaf41f3e6d07c2507a562a8a0f38",
       "rows": 2066
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "41a198a1bd6d3aa3df6202a4a678bd5228e3d74b1f98d43bfa8128d29de18e5a",
+      "sha256": "c610ad2ea8d3acb8445bd93271025a1659bfd714166e2b8733ba9aebba1d375c",
       "rows": 2066
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "eef0dd43b30ef546a3bc2ed0605b514d6d7a0c28ee43bf5de53d2249b1e60521",
-      "rows": 2182
+      "sha256": "89d79220c35ff2736cccb3419e13023d4c4773f1c5668832e77e8a43f8c1c46f",
+      "rows": 2348
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "f4aced5a643f39c66b80334524ca2e23f7776891d7c1f95747403af74dc2955f",
+      "sha256": "6738d7e9bbfda282b542043d8248a019d8cfb25647230286175d778d90658bed",
       "rows": 2391
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "02a97162fd759a9ea6be31cd7e24711ea7d5dec71b2fd965e8ae7a7fcb67b0c2",
-      "rows": 971
+      "sha256": "0731fba8ad72f9b14d2c6f94c8fc4c084bc65a67d621cb27ec5a2fa6cac691aa",
+      "rows": 994
     },
     "data/curated/program_history/instructional_allocations.csv": {
       "sha256": "6468f402d4aa0c33ea5e41be0e04022047c62d4a4a0bce23f655a34e8caf9f76",
       "rows": 2
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "7a139f472f28c114afc3d0fccc4c58600d1f034ec811dd115474e10f032c8543",
+      "sha256": "713394f3af2b8d98094978358c6fd3ba539e2c3238e632bb5eb1abe7f27d2449",
       "rows": 5245
     },
     "data/curated/registry/reporting_units.csv": {
@@ -212,7 +281,7 @@
       "rows": 0
     },
     "data/curated/links/observation_program_links.csv": {
-      "sha256": "baaf53f0ed8b7bdfdd72ffc8d8f7c3d9796447ce692679887bdcd14394f68459",
+      "sha256": "482ba8c17a50d23eeaa20bde809b8b7f348294c76191e3003ce1640b609652c4",
       "rows": 4492
     },
     "data/curated/el_exit/exit_policies.csv": {
@@ -226,7 +295,7 @@
   },
   "limitations": [
     "Illinois remains a provisional legacy seed. Its 2025–26 allocation is a published plan, not tested-cohort exposure.",
-    "Texas migrates 1,863 provisional evidence groups and 970 policy records; no new language or tested-cohort attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
+    "Texas migrates 1863 provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
     "Washington has source-native 2023–24 through 2025–26 program metadata. Academic/enrollment outcomes are a two-school pilot, not statewide outcome coverage or DL-participant results. No English partner, whole-school structure, cohort exposure or NCES match is inferred."
   ],
   "release_status": "pilot_partial_not_a_national_census"
