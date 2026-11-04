@@ -1,16 +1,17 @@
 {
-  "schema_version": "1.1.0",
-  "build_id": "build-a62f94bbfcdc5bf49ae9fc90ce9c2132",
-  "built_at": "2026-11-04T17:35:07.086016+00:00",
-  "base_git_revision": "7cc088f46df7bf2635b403dd9aacb633fd0da711",
+  "schema_version": "1.2.0",
+  "build_id": "build-0662e28710745a82a45217b4eee4f6ff",
+  "built_at": "2026-11-04T19:46:44.872409+00:00",
+  "base_git_revision": "349d474c0e09e080a4f00a36331f7a2786087d3f",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
-    "config/project.json": "9850f12b4cbafc65fe8212f05276d30c14419a8d7833716b09e249c95996678b",
+    "config/project.json": "0005700e7de367027ec8e1b4f3cdf9727b2e889c24b84f10c5d17c6e786267e2",
+    "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
     "config/states/ak.json": "f91969ada0319a0d9b1e6005fec9344ee4f1375411569a92a37fd732bba1a998",
     "config/states/al.json": "0005015ba767d9731450fe47d2316b8e8e6be7425d1f0b7663b68f66faa5c02f",
     "config/states/ar.json": "b948513df6ba70fa53f0801c31f4375d5dfa5c6d1397b3239219490f30c0bf7b",
     "config/states/az.json": "82ebb3b54f6dfd72206d896b87bd3c64584c64501f0773d9bdfeb73c0e2bd473",
-    "config/states/ca.json": "349c29b76aa7e92bb5c7984ecf19d8e864b1f81f105c196aab3b5c6c6e4ee229",
+    "config/states/ca.json": "dcd07dc9550ae8864d806d2d156dca565f151e96c4a19886258c03e450c98235",
     "config/states/co.json": "b6ea6e9aef5bd5980c0abf7f37cf9f96a65d6e1be04ef6d8516eb7fff170ccb9",
     "config/states/ct.json": "07d29c19d647a09f0bedfe1d05392687e75e62757cbad73fbbbbd53fcfc61e22",
     "config/states/de.json": "50a46d0cc1f165e0af1714d904b8e1f2615fa5d3a7ea23264d17e86a37eaa816",
@@ -18,7 +19,7 @@
     "config/states/ga.json": "d9d97fa3384e93302f3bf056d81a7915bfcd81911b0eec73cc8b8827af09e1d5",
     "config/states/hi.json": "8542ec3947c6b26792813b74547ff3ba17da0880bc4032a10708953c7b7a7025",
     "config/states/ia.json": "82d5af664e23ea21c629350f0ab6949ee74e4e75ce654c82187bf02bfb9774fc",
-    "config/states/id.json": "443ccc6332bd5f574a492ecaa08d4f5aa4e2a8219bd82bed7791b440558933cd",
+    "config/states/id.json": "af855acbabff9a7f03692af7924443e587a4ed1297b68dfe864b6b6d252c9159",
     "config/states/il.json": "1e7616eed32ca38c7855d6331db4cad68cc73cffa51656584dffae5317ffdb08",
     "config/states/in.json": "2e5da5f696605d76abeba6035c4e14ede07e001e93e7dc4f9cc7809279ddb1da",
     "config/states/ks.json": "a2e10549a280de825d9dce04db4d59e5a770fcbfcf1dc983c297880ddbb3a2a3",
@@ -31,18 +32,18 @@
     "config/states/mn.json": "bd5b93473fb963c0c8841484b2bc844b5be596781b77c2e0c8f59e3438d14b1a",
     "config/states/mo.json": "b2d1b17c025d3903fddbbd6d30008e63483ae2697d8a6c956cf3663711f7b06c",
     "config/states/ms.json": "8415635944f27618bfb7ffb56e318eee85e37c70ddaf50b640bac416a3162e4a",
-    "config/states/mt.json": "395d3ae1cb43c66885ad57e662a12c0fc80c5bee62a1f511cd0bb289885e199f",
+    "config/states/mt.json": "169edcc5974ea5d38a709a77061ba197159d599057f0f0922e6b709404bf2eb6",
     "config/states/nc.json": "0327b3a6ed5531d27d27151c5afb8c0d5b1762e31ff0f91b794ecdaaef6a20ed",
     "config/states/nd.json": "59fe9583ee2ff6b7063d7ff5380c6d4b70bd2c19fcef155b1fa4098bbf688100",
     "config/states/ne.json": "e8bdf4cf7717404ae947dafe8f1402e70dbc358abbcf5c16f4c83df6e393129d",
     "config/states/nh.json": "c1eac6f88908d4983aaadc62eda27e1e1780225aa759aff41f39907ffdd0b7d7",
     "config/states/nj.json": "9e9f8706dbc38e4bfdaa64e21fb3d6395c737c06439f8c2d205312ec3a2fbf4f",
     "config/states/nm.json": "ec68452dac3d27b6ff269bb7e5ba1a2543e61feed0d4a4d7773d6450193cba08",
-    "config/states/nv.json": "8bc006cfa8964206dac6ef81bfa510bf0b3dc0061709fc16d4cc58b365ac5617",
+    "config/states/nv.json": "c440945404028c02ecacc8d4b7b5cefbe9eca63d3bd0a136a0962b7020cab1a7",
     "config/states/ny.json": "2e430f252a0edef3246602e622fa09d58cb092c65136baab0329ac2f33254f28",
     "config/states/oh.json": "2056aef7b8949c92b625994fb88ca7e46b81a9906f1ca994447cf49e72f1af91",
     "config/states/ok.json": "4b2d231edb20b578729a9d5d8d549077e006e5b9000cd6077a12124e2be00666",
-    "config/states/or.json": "0cc90d75396e4d724d50c6a8967fec17610d5b4be09e813771cb78fbf4b4fec6",
+    "config/states/or.json": "ccd8450d1baf118174c5588ce5881fd8b816eb4ec6ec9b8c8abfa3060db210b5",
     "config/states/pa.json": "1729c9a18f22ba1d08dcde5cee49836dc596f72cfa0fc4c73a19379e3936254e",
     "config/states/ri.json": "0200ce65d5f56ed2028e87ed9ebf244f956ead574b81c8411310057a96c58a9c",
     "config/states/sc.json": "670fc91a46454f45bc03d189dc3474f68b59599af89183e43e507dd80530587f",
@@ -55,7 +56,7 @@
     "config/states/wa.json": "e3f8c33bb8ae746e652fcdb897cd35fa141c6520afe49831238914e9195659d2",
     "config/states/wi.json": "154e7729b2c7e8cb80d066593ffd70167f2f6eef34c9dec70a065c1ddc26b95f",
     "config/states/wv.json": "d7e1892c486e7cb0317213e0f564ee2facdab1e24ed5b1b7a2a58bca1ae32d16",
-    "config/states/wy.json": "563414433de7993111870b5832e067d0ecf024c509b052fa0f0e7e60a8bba5be",
+    "config/states/wy.json": "d5239bb96a73d725fd30fb0127d702706ba3cf63f2033ed3faade1ca70ab0da2",
     "data/raw/legacy_registry/pre_schema_v1/instructional_history.csv": "80af4f3ca48553dba53c1fce184bfc70d3413b26b96e4467d04090a47ac4adaf",
     "data/raw/legacy_registry/pre_schema_v1/manifest.json": "90b8ef1e6c78ba77ccc7e0d2bbb3e6179903984d0cc0636fd3eba9450587c2a3",
     "data/raw/legacy_registry/pre_schema_v1/program_sites.csv": "ddac53b36acf2acbbbfc03f262466788251145eada5f4e9736024acf68874411",
@@ -119,7 +120,25 @@
     "data/raw/wa/pilot_2026_11_04/demographics.metadata.json": "997f50449a25b3afaad7127364f1936a6f63b8ed40b1c7c5920cc74da818f512",
     "data/raw/wa/pilot_2026_11_04/programs.json": "54d9af37d73dd9746d0727d32f3a1a0c0f329cc352eb37ed444e2d3c6f956dbe",
     "data/raw/wa/pilot_2026_11_04/programs.metadata.json": "7ff9ee40dd867f736c59999811bbc079b4b314ff003ddea0d72e771d9c75ba45",
+    "data/registry/five_state_2025_26/change_events.csv": "c790351471e20d888753571f2a315b5a5ceac2ea49347101f37afcd08b117c2c",
+    "data/registry/five_state_2025_26/change_events.json": "435d3e5bad304d7a45c98bb99a44df34f83ded6a29cf759ef7b77bc7434c89c6",
+    "data/registry/five_state_2025_26/continuity_reviews.csv": "22f7960030fad0615202b1808d7f1ad1b554d68c21caaa3168ac252cfb072389",
+    "data/registry/five_state_2025_26/continuity_reviews.json": "3d15014bbf5338284e8473903de0226dee59b5eb869d2235186b32385da6a409",
+    "data/registry/five_state_2025_26/curated_claims.json": "ed2e219c035a7c63832dad2f54829959e13fc8d6888cdd3b3cc8652ef74aca80",
+    "data/registry/five_state_2025_26/evidence_ledger.csv": "2d9137132196e0177259a7a1d94f59a82158682e6d742d9e234626b9f8e4f6dd",
+    "data/registry/five_state_2025_26/source_snapshots/fresno_dli_schools_2025_26.pdf": "116f7c142179e63bd9312e6a16aebd6cb8e52df02f20985b391a50de857f49e0",
+    "data/registry/five_state_2025_26/sources.csv": "eadcb79d5f18e2d75c62d1e534295ea4a97339f217aae41102a895ede44d4fa6",
+    "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv": "f6c6165692a991eea2e76d4c2870cda4dbe3c515f5e4c4d2015acf80e95a2628",
+    "data/registry/five_state_2026_27/evidence_ledger.csv": "7d0f97156ed80169cbdf1f06359212d1e51deb07be605871be81ce59fe3afe1c",
+    "data/registry/five_state_2026_27/lausd_directory_snapshot.csv": "b89558340ad28f4045d818b7b8741dfd50314dcf3d33c6f37d56d74e0ee6be99",
+    "data/registry/five_state_2026_27/source_snapshots/cde_mlprograms_2024_25.xlsx": "f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215",
     "data/registry/instructional_history.csv": "8fcf987de892d2ef14ddabe5d098229e646aea7bf577ba26dcc06715e968499a",
+    "data/registry/oregon_2026_27_extraction_audit.csv": "bdc882f142956a78290a75abb5eaab7aa63b338a044b7574b62037500132ae3c",
+    "data/registry/oregon_2026_27_summary.json": "940b432985d47fd7d3982bf3fc717144e3968f528db5d1c83ad8bfb907cbbb40",
+    "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_audit.csv": "1c7303711651d3b4032180861a50617cc3d56545b34125a6d17c19d268f19623",
+    "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json": "8d4b6bdd701a4c99d7440edf2e741869e1253385d5bf6fbcbac301e532319f4c",
+    "data/registry/oregon_nces/reconciled/oregon_nces_school_crosswalk_reconciled.csv": "8a2050b6da5fa92a3a855c471e11faee02cbe78b00ed9bca4ff0da17ef08e901",
+    "data/registry/oregon_nces/reconciled/oregon_program_observations_with_nces_reconciled.csv": "a77de8f703720b1cc22bc5e8364c705573f3f55343060a89735d7e2e69dc838d",
     "data/registry/program_sites.csv": "716fa91c989499f5b50fd16cbf346ee9ac944ca347ae588206c29f1c16788e4e",
     "data/registry/programs.csv": "db0fe8beef043a06e5baa39fc525fabed68730c65b19478e87b2a8668f443ec1",
     "data/registry/schools.csv": "a72942f5ab7b61aa91d6259bd5d7c746c41a4f7020492b66d98ea2113369b01d",
@@ -166,22 +185,30 @@
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
-    "src/dl_outcomes/build.py": "82c081535ee7ce91faa08e0c9e41cb118f38a8ed2bff6685d318614d58a26c29",
+    "src/dl_outcomes/build.py": "302a053a0eb5cf9eb4ad6c3383b535b112018cf2be16de901491c53b9a1ba7a1",
     "src/dl_outcomes/cli.py": "5e87b27624fa806eb55627a3fc5f35232a4328b32e3e2d1314aebbae1259dfb1",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
-    "src/dl_outcomes/coverage.py": "33d2d4e7b9af4ddb567ee18d5eac0861b0c3fd1440844bece28537e8a44a7c8a",
+    "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
-    "src/dl_outcomes/release.py": "a2952fd758b24c8f2c08978052a37eee3b5b3b7bd23ed640892a4929353c9d5e",
-    "src/dl_outcomes/schemas/catalog.json": "7d0750cb468ddf3c92aa5cee2258670bbf9f065fdca86e9ba2d3e8a3f9a80ed7",
+    "src/dl_outcomes/release.py": "d6b3a446e81ff1533d4cd0cd29064bdbe98e612094dd6b6926ad714e3b5bc3ab",
+    "src/dl_outcomes/schemas/catalog.json": "92ba8f6c2bddce3658484eaad000ad4d86d4fc39285762204098aa4576f2d44b",
     "src/dl_outcomes/states/__init__.py": "0c9d52140859c1fb2edb7881a486c3336a597ffca0fe34aa39ba8cd9ce83a832",
+    "src/dl_outcomes/states/california.py": "30db9113e4f0bb2700198b08f24c5e8c569bd56273c8f426449741e81b669536",
+    "src/dl_outcomes/states/five_state.py": "d12a720bea2fb02749e9196fdcc225a75d95a3e3de60b11598f57d99e98caa9e",
+    "src/dl_outcomes/states/idaho.py": "8a911bc76cd242a9acfa25390e356ce0fa2c528d34c6d91f15c75a496f3251bc",
     "src/dl_outcomes/states/illinois.py": "4ff0f32b50748bd0000a2d1e1ebbdc20c5c73e02cd7c877ff3eaff5894796a96",
+    "src/dl_outcomes/states/montana.py": "3cb8d0c92effcdc0594fcd52fd8d66510b25deac17f3ce14f44200f96201942b",
+    "src/dl_outcomes/states/nevada.py": "8815357def593f7ee33aaa77b56ffaae35c53362ee84e5eb208d9e562c1ada00",
+    "src/dl_outcomes/states/oregon.py": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8",
     "src/dl_outcomes/states/texas.py": "c3f9b1891c18c81d7af54dba8014b4f5c11c4eaf90ba35292ef53008520c4029",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
-    "src/dl_outcomes/validation.py": "1821762eafb63547d84c4333feee1dbdaa06e99031a246bb90aeb449884a5226"
+    "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
+    "src/dl_outcomes/structural.py": "7ae8b3618e47bd711abf8bc590032986383a67b23abe5651b86bac29b394de39",
+    "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf"
   },
   "outputs": {
     "data/curated/registry/states.csv": {
@@ -189,56 +216,60 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "f5a55d4be19bfeeeda1dc80b5bdd3ae1868dc1680561e2084d7a009b1a692cd8",
-      "rows": 12
+      "sha256": "d669d091e66d988eef8936e84c6108163121423ab04c97b1797f1e279a885d5a",
+      "rows": 18
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "4bd0e896ce2cb242fab202f8b2f0f41932990373919ab23e5a7ddc3c68d227cc",
-      "rows": 138
+      "sha256": "a0cfffdfd0fac2667b5ead6cafe7f1c49633b9a99db75d465ef88c8720ed3071",
+      "rows": 285
     },
     "data/curated/registry/districts.csv": {
-      "sha256": "25d3f93a4a9907bebacecff38e183ca5db6e71da1e63edbc3f4c09b85106e64d",
-      "rows": 302
+      "sha256": "2ecda0b0bb8d8d1f9654973ef9feb4ed3a9986cf88c29590aef48b4555b0bd1b",
+      "rows": 678
     },
     "data/curated/registry/schools.csv": {
-      "sha256": "f69c09c918ff15f103cb2dd2f8f47fcb8c7b2ff9ac0af6d5679d25d262af3c7c",
-      "rows": 1940
+      "sha256": "7cfe781f5e30aba28e408badc7bce9c08d6a225eee6a2abde3dd802ced21dcb5",
+      "rows": 3633
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "6339db637d7cdd11ceed3a64aedda05e5f0ae101b9591abbbc105ad52adebb42",
-      "rows": 6198
+      "sha256": "29d60953f66452c10643e7c9f408b3df5090e1b1426c94e040a1443758f87497",
+      "rows": 9750
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "0d6923471b6f01700b36a0a4174ea1020f03d23bc1b9367ae23cfd940f0f8fc7",
-      "rows": 2480
+      "sha256": "6fff2e21cb711127f5e4aaf2ea280e4f050141e9c65054ed3155683249e88ce6",
+      "rows": 4306
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "399be3cd0e633832bddcc8b62aac05f220b7eaf41f3e6d07c2507a562a8a0f38",
-      "rows": 2066
+      "sha256": "658bc1f42e563780806168ae012dc31524bc5a87b4ec1ebd7a308f1f3ee98dc2",
+      "rows": 2613
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "c610ad2ea8d3acb8445bd93271025a1659bfd714166e2b8733ba9aebba1d375c",
-      "rows": 2066
+      "sha256": "868dd756d863535db5d56238a8afde8d572cfbfd81cec894e22d35221ae1eff6",
+      "rows": 2613
+    },
+    "data/curated/program_history/program_status_history.csv": {
+      "sha256": "7bdc342cb6fe96ebbd3edde68409b958d1f60f617d49dbb4bf8c40ff1b4d500b",
+      "rows": 547
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "89d79220c35ff2736cccb3419e13023d4c4773f1c5668832e77e8a43f8c1c46f",
-      "rows": 2348
+      "sha256": "6c003519101f5cabcaa6a17aa445404a1a02ae71d3d8ef7e91b014a50cf24424",
+      "rows": 3232
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "6738d7e9bbfda282b542043d8248a019d8cfb25647230286175d778d90658bed",
-      "rows": 2391
+      "sha256": "37be9ae66348fcf398662eb147f5dfe9ccfe8bc361e77bb251de20e714e95047",
+      "rows": 3472
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "0731fba8ad72f9b14d2c6f94c8fc4c084bc65a67d621cb27ec5a2fa6cac691aa",
-      "rows": 994
+      "sha256": "e0ae5c96d6a07b9bafd4dce87b813b7c9a1ee72f9c8592f46ac11085219448e6",
+      "rows": 1442
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "6468f402d4aa0c33ea5e41be0e04022047c62d4a4a0bce23f655a34e8caf9f76",
-      "rows": 2
+      "sha256": "9f231e4a97cc72d82b79f45e2c424679d9c799f958d256a6e7cdd6badbf4263b",
+      "rows": 104
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "713394f3af2b8d98094978358c6fd3ba539e2c3238e632bb5eb1abe7f27d2449",
-      "rows": 5245
+      "sha256": "5051488e71f9f584f0f945832660df374458235414c7b2946df003a40e1080df",
+      "rows": 11523
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -289,14 +320,31 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "930ec9181024f88f0c45f064ee263066fa1b2394a7d1461574420c7c981b891e",
-      "rows": 5200
+      "sha256": "3b593a1cc15984de4fe19a97bab0ad4597169ad1c2b641727980b7fb62175be5",
+      "rows": 5600
     }
   },
   "limitations": [
+    "California: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
+    "Idaho: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
     "Illinois remains a provisional legacy seed. Its 2025–26 allocation is a published plan, not tested-cohort exposure.",
+    "Montana: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
+    "Nevada: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
+    "Oregon: 223 reviewed 2026–27 source observations retain 211 DLI-directory observations and 12 separate screening records. McDaniel aliases and shared Four Rivers NCES identity are preserved. English pairing, composite track models and historical cohorts are not inferred; no assessment collection.",
     "Texas migrates 1863 provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
-    "Washington has source-native 2023–24 through 2025–26 program metadata. Academic/enrollment outcomes are a two-school pilot, not statewide outcome coverage or DL-participant results. No English partner, whole-school structure, cohort exposure or NCES match is inferred."
+    "Washington has source-native 2023–24 through 2025–26 program metadata. Academic/enrollment outcomes are a two-school pilot, not statewide outcome coverage or DL-participant results. No English partner, whole-school structure, cohort exposure or NCES match is inferred.",
+    "Wyoming: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration."
   ],
-  "release_status": "pilot_partial_not_a_national_census"
+  "release_status": "pilot_partial_not_a_national_census",
+  "reports": {
+    "data/reports/structural_integration_2026_11_04_program_view.csv": {
+      "sha256": "7ea03d57c13303c2e37edfb029e09b45d4cd8a24d44850b45eb07fe2fa4d7647"
+    },
+    "data/reports/structural_integration_2026_11_04_by_state.csv": {
+      "sha256": "07e4f66b08fd5ceee33fd7c4b324ba79e72a566fa121dafd3ebc5d9adf3aa460"
+    },
+    "data/reports/structural_integration_2026_11_04.json": {
+      "sha256": "051550d657fc5b9e13fb018cfe36542e4d5afb9f9e9c16ef491d524c82eb7f5c"
+    }
+  }
 }

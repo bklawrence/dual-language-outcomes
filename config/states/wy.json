@@ -2,7 +2,20 @@
   "state_code": "WY",
   "state_name": "Wyoming",
   "state_fips": "56",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "wyoming",
+  "collection_status": "integrated_partial",
+  "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+  "structural_inputs": {
+    "inventory": "data/registry/state_dl_programs_wyoming_2025_26.csv",
+    "prior_inventory": "data/registry/state_dl_programs_wyoming_2026_27.csv",
+    "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+    "sources": "data/registry/five_state_2025_26/sources.csv",
+    "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+    "change_events": "data/registry/five_state_2025_26/change_events.csv",
+    "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+    "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+    "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+    "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+    "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json"
+  }
 }

@@ -44,7 +44,13 @@ def closed_fixture(tables, definitions):
     for row in tables["observation_program_links"]:
         if (row["observation_id"],) in selected[row["observation_table"]]:
             add("observation_program_links", row)
+    # Keep one complete two-language plan in the small fixture. New state
+    # schedules must not make its percentage tests edit unrelated schedules.
+    pairs = {}
     for row in tables["instructional_allocations"]:
+        pairs.setdefault(row["schedule_id"], []).append(row)
+    pair = next(rows for rows in pairs.values() if {r["language_name"] for r in rows} == {"English", "Spanish"} and len(rows) == 2)
+    for row in pair:
         add("instructional_allocations", row)
     for row in tables["program_languages"]:
         if row["valid_from_year"] == "2026-27" and "roster" in (row["evidence_period_raw"] or ""):
@@ -249,6 +255,7 @@ class NationalModelTests(unittest.TestCase):
             actual = json.loads((root / "data/curated/manifest.json").read_text())
             self.assertEqual(result["build_id"], expected["build_id"])
             self.assertEqual(actual["outputs"], expected["outputs"])
+            self.assertEqual(actual.get("reports"), expected.get("reports"))
             validate(root)
             info = release(root, "test-only-local-release")
             with zipfile.ZipFile(root / info["bundle"]) as archive:

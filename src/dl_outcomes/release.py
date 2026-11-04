@@ -19,6 +19,7 @@ def release(root: Path, release_id: str):
         raise ValueError("Release already exists; choose a new ID. Frozen releases are never overwritten.")
     destination.mkdir(parents=True)
     paths = set(build_manifest["inputs"]) | set(build_manifest["pipeline_files"]) | set(build_manifest["outputs"])
+    paths.update(build_manifest.get("reports", {}))
     paths.update(["data/curated/manifest.json", "pyproject.toml", "requirements-lock.txt"])
     bundle = destination / "research_bundle.zip"
     with zipfile.ZipFile(bundle, "w", compression=zipfile.ZIP_DEFLATED) as archive:

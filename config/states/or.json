@@ -2,7 +2,17 @@
   "state_code": "OR",
   "state_name": "Oregon",
   "state_fips": "41",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "oregon",
+  "collection_status": "integrated_partial",
+  "notes": "Reconciled 2026-27 structural directory observations; NCES identity reference remains 2024-25. Composite language cells and non-DLI screening rows remain explicit. No new proficiency collection.",
+  "structural_inputs": {
+    "inventory": "data/registry/oregon_nces/reconciled/oregon_program_observations_with_nces_reconciled.csv",
+    "school_crosswalk": "data/registry/oregon_nces/reconciled/oregon_nces_school_crosswalk_reconciled.csv",
+    "reconciliation_audit": "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_audit.csv",
+    "reconciliation_summary": "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json",
+    "source_summary": "data/registry/oregon_2026_27_summary.json",
+    "original_inventory": "data/registry/state_dl_programs_oregon.csv",
+    "extraction_audit": "data/registry/oregon_2026_27_extraction_audit.csv",
+    "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json"
+  }
 }

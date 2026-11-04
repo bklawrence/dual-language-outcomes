@@ -31,6 +31,8 @@ jobs:
           python scripts/validate_texas_language_audit_pass50.py
       - name: Validate current Texas cleanup and archived evidence
         run: python scripts/validate_texas_cleanup_pass51.py
+      - name: Validate structural integration and preserved proficiency pilots
+        run: python scripts/validate_structural_integration.py
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py
