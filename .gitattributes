@@ -6,7 +6,7 @@
 *.yml text eol=lf
 *.txt text eol=lf
 # Source snapshots and research checkpoints retain their exact bytes.
-data/raw/** -text
+data/raw/** -text -whitespace
 data/registry/** -text
 # Source-derived CSV cells may contain intentional whitespace.
 *.csv -whitespace

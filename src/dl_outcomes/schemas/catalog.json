@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:dual-language-outcomes:catalog:1.0.0",
+  "$id": "urn:dual-language-outcomes:catalog:1.1.0",
   "title": "National longitudinal DL research contracts",
-  "x-schema-version": "1.0.0",
+  "x-schema-version": "1.1.0",
   "$defs": {
     "states": {
       "type": "object",
@@ -890,6 +890,15 @@
             "observed_schedule"
           ]
         },
+        "evidence_review_status": {
+          "type": ["string", "null"],
+          "description": "Source-specific review decision. Null means this qualifier was not collected; it does not affirm the policy."
+        },
+        "grade_support_status": {
+          "type": ["string", "null"],
+          "description": "Machine-readable distinction between a grade schedule, model label, earlier-grade proxy and unsupported source. This does not verify tested-cohort exposure.",
+          "enum": [null, "NOT_REVIEWED", "DISTRICT_GRADE_BAND_MODEL", "CAMPUS_GRADE_BAND_MODEL", "EXPLICIT_GRADE", "DISTRICT_ENTRY_GRADE_MODEL", "MODEL_LABEL_MINUTES_DIFFER", "EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED", "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD", "UNRECOVERED"]
+        },
         "evidence_period_raw": {
           "type": [
             "string",
@@ -929,6 +938,8 @@
         "reported_model_label",
         "percentage_basis",
         "schedule_status",
+        "evidence_review_status",
+        "grade_support_status",
         "evidence_period_raw",
         "tested_cohort_exposure",
         "source_id",

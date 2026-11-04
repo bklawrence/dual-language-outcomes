@@ -1,6 +1,6 @@
 # Texas dual-language research data
 
-**Current language audit: [Pass 50 (2026-11-04)](README_PASS50.md).** Use the [campus language table](../../data/registry/texas/texas_campus_language_inventory_pass50.csv), [provisional language-track data](../../data/registry/texas/texas_language_program_tracks_pass50.csv), and [classification audit](../../data/registry/texas/texas_language_classification_audit_pass50.csv). [current_inventory.json](../../data/registry/texas/current_inventory.json) identifies the preferred files. These supersede earlier language classifications for this research workflow; historical snapshots remain intact.
+**Current cleanup: [Pass 51 (2026-11-04)](README_PASS51.md).** Use the [campus language table](../../data/registry/texas/texas_campus_language_inventory_pass51.csv), [provisional language-track data](../../data/registry/texas/texas_language_program_tracks_pass51.csv), and [allocation evidence](../../data/registry/texas/texas_k_allocation_evidence_pass51.csv). [current_inventory.json](../../data/registry/texas/current_inventory.json) identifies the preferred files. Pass 51 repairs citations and qualifies grade/model evidence; the [Pass 50 language audit](README_PASS50.md) and earlier snapshots remain intact.
 
 The inventory includes English with Spanish, Mandarin, Vietnamese, French, Arabic, and unresolved language pairs. A campus may have separate tracks. Read source dates and confirmation scope before using a label; district policy support is not campus/year confirmation.
 

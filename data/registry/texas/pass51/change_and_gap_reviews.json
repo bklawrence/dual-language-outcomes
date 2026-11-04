@@ -1,0 +1,47 @@
+[
+  {
+    "district": "LA JOYA ISD",
+    "source_ids": [
+      "tx51_lajoya_dip19",
+      "tx51_lajoya_bilingual"
+    ],
+    "finding": "2019-20 one-way 50/50 policy and new two-way rollout fromPK in 2024-25 are separate program histories. No one-way termination established. One-way language pair remains unresolved.",
+    "next_action": "Seek dated one-way program manual naming both languages and later continuation or replacement."
+  },
+  {
+    "district": "ALDINE ISD",
+    "source_ids": [
+      "tx51_aldine_oneway21",
+      "tx51_aldine_bussey23"
+    ],
+    "finding": "Early-exit bilingual model phased toward OWDL startingPK/K 2021-22; Bussey plan corroborates grades 1-2 in 2023-24.27 K 80/20 entries remain pre-K proxies.",
+    "next_action": "Seek actual K articulation schedule and campus-year rollout roster; do not default K 80/20."
+  },
+  {
+    "district": "SPRING ISD",
+    "source_ids": [
+      "tx51_spring_literacy",
+      "tx51_spring_abc22",
+      "tx51_spring_programs"
+    ],
+    "finding": "2022 board adoption replaces earlier bilingual model.23 old citations do not establish K 50/50. Current districtOWDL 50/50 saved separately.",
+    "next_action": "Find dated campus/grade implementation schedule, especially 2023-24 and 2025-26; do not transfer 2021 two-way chart toone-wayK."
+  },
+  {
+    "district": "YSLETA ISD",
+    "source_ids": [
+      "tx51_ysleta_study"
+    ],
+    "finding": "PK-5 Spanish/English model is explicit;31 elementary reporting-group candidates receive policy support.6 secondary records remain unresolved. Third languages do not establish replacement core pairs.",
+    "next_action": "Obtain official campus/grade models and reconcile narrative 90/10 withFigure 1 subjectminutes."
+  },
+  {
+    "district": "AUSTIN ISD",
+    "campus_id": "227901116",
+    "source_ids": [
+      "tx51_govalle_school"
+    ],
+    "finding": "Current campus describes two-way Spanish/English; original one-way 90/10 citation is still missing. No ending indication found in this bounded search.",
+    "next_action": "Retrieve grant narrative or older campus handbook before affirming one-way 90/10."
+  }
+]

@@ -113,7 +113,9 @@ def validate(root=ROOT):
             if row[key] != old_row[key]:
                 errors.append(f"Altered historical allocation evidence: {row['allocation_record_id']} / {key}")
     pointer = json.loads((data / "current_inventory.json").read_text())
-    if pointer["version"] != "pass50" or pointer["language_tracks"] != "data/registry/texas/texas_language_program_tracks_pass50.csv":
+    # Later additive passes validate their own current pointers. This still
+    # validates the unchanged historical Pass 50 snapshot and its lineage.
+    if pointer["version"] == "pass50" and pointer["language_tracks"] != "data/registry/texas/texas_language_program_tracks_pass50.csv":
         errors.append("Current Texas pointer does not select the audited data")
     if errors:
         raise ValueError("\n".join(errors))
