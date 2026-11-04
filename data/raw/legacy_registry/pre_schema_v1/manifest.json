@@ -1,0 +1,40 @@
+{
+  "migration": "CSV header and whitespace normalization only",
+  "files": {
+    "data/registry/schools.csv": {
+      "original_snapshot": "data/raw/legacy_registry/pre_schema_v1/schools.csv",
+      "original_sha256": "90099e1bf18ab0db581bbc1d88493d41c6f78c8bc321e739b034e850b2e4f985",
+      "normalized_sha256": "a72942f5ab7b61aa91d6259bd5d7c746c41a4f7020492b66d98ea2113369b01d",
+      "row_count": 16,
+      "semantic_change": "none; source column names supplied where absent"
+    },
+    "data/registry/programs.csv": {
+      "original_snapshot": "data/raw/legacy_registry/pre_schema_v1/programs.csv",
+      "original_sha256": "3b78f2d15278b8aec53854792161ebc86ebd159ff3049dd4d830209aaa4bfa6d",
+      "normalized_sha256": "db0fe8beef043a06e5baa39fc525fabed68730c65b19478e87b2a8668f443ec1",
+      "row_count": 12,
+      "semantic_change": "none; source column names supplied where absent"
+    },
+    "data/registry/program_sites.csv": {
+      "original_snapshot": "data/raw/legacy_registry/pre_schema_v1/program_sites.csv",
+      "original_sha256": "ddac53b36acf2acbbbfc03f262466788251145eada5f4e9736024acf68874411",
+      "normalized_sha256": "716fa91c989499f5b50fd16cbf346ee9ac944ca347ae588206c29f1c16788e4e",
+      "row_count": 12,
+      "semantic_change": "none; source column names supplied where absent"
+    },
+    "data/registry/instructional_history.csv": {
+      "original_snapshot": "data/raw/legacy_registry/pre_schema_v1/instructional_history.csv",
+      "original_sha256": "80af4f3ca48553dba53c1fce184bfc70d3413b26b96e4467d04090a47ac4adaf",
+      "normalized_sha256": "8fcf987de892d2ef14ddabe5d098229e646aea7bf577ba26dcc06715e968499a",
+      "row_count": 1,
+      "semantic_change": "none; source column names supplied where absent"
+    },
+    "data/registry/sources.csv": {
+      "original_snapshot": "data/raw/legacy_registry/pre_schema_v1/sources.csv",
+      "original_sha256": "967baf899cc1ec70ab8929a6b0749ef9e0e8ee05552d27f43615c1255bf7a209",
+      "normalized_sha256": "04d7ebaaa639d2d44398d89d87aa77fc341a37808af8605e6d7ee697dfa33d9a",
+      "row_count": 4,
+      "semantic_change": "none; source column names supplied where absent"
+    }
+  }
+}

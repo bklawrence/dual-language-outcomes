@@ -1,9 +1,17 @@
 
 # National Dual-Language Program Registry
 
-This directory contains the master registry for a
-longitudinal study of Spanish-English dual-language
-education in the United States.
+This directory preserves earlier research working files and the compatible
+Illinois seed inputs for a longitudinal study of dual-language education in
+all instructional languages across the United States.
+
+**The shared national tables now live in [data/curated/](../curated/).** See the
+[national data model](../../docs/methods/NATIONAL_DATA_MODEL.md),
+[contracts](../../schemas/README.md), and
+[coverage inventory](../curated/coverage/state_year_layer_coverage.csv).
+The root CSVs documented below remain migration inputs, not a completed
+national census. Their original bytes were archived before header/whitespace
+normalization in [pre_schema_v1](../raw/legacy_registry/pre_schema_v1/manifest.json).
 
 ## Core datasets
 
@@ -33,8 +41,10 @@ For example, a school that changes from 50-50 to
 90-10 must retain separate histories for students
 who entered before and after the change.
 
-Actual language allocations by grade are recorded
-separately from advertised program labels.
+Actual language allocations by grade are recorded separately from advertised
+program labels. The legacy input still has Spanish/English columns for
+compatibility; the canonical [instructional allocation table](../curated/program_history/instructional_allocations.csv)
+uses one row per named instructional language, with a separate schedule record.
 
 ### sources.csv
 Tracks evidence supporting school identities,
@@ -81,6 +91,8 @@ assessment systems or proficiency definitions differ.
 
 ## Current status
 
-Registry structure established.
-School records and historical model classifications
-await migration and verification.
+Schema version 1.0.0 and an offline build/validation pipeline are established.
+The Illinois seed, Texas evidence and a Washington pilot have been migrated
+without upgrading provisional claims to verified program identities. Other
+state research remains preserved here and is identified in national coverage
+tracking where possible. Assessment and identity coverage remain incomplete.

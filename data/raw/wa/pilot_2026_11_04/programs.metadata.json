@@ -1,0 +1,14 @@
+{
+  "url": "https://data.wa.gov/resource/d4w4-82bk.json?%24where=organizationlevel%3D%27School%27&%24limit=10000&%24order=schoolyear%2Cschoolorganizationid%2Crowid",
+  "dataset_url": "https://data.wa.gov/d/d4w4-82bk",
+  "dataset_id": "d4w4-82bk",
+  "retrieved_at": "2026-11-04T15:25:42.146924+00:00",
+  "sha256": "54d9af37d73dd9746d0727d32f3a1a0c0f329cc352eb37ed444e2d3c6f956dbe",
+  "rows": 1002,
+  "selection": {
+    "$where": "organizationlevel='School'",
+    "$limit": 10000,
+    "$order": "schoolyear,schoolorganizationid,rowid"
+  },
+  "completeness": "school-level source rows; single-page completeness checked"
+}

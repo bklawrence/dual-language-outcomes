@@ -1,0 +1,67 @@
+name: Validate national longitudinal model
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install declared dependencies
+        run: python -m pip install -r requirements-lock.txt -e .
+      - name: Validate checked-in national data and provenance
+        run: dl-outcomes validate
+      - name: Check schema, grain, attribution and deterministic offline rebuilds
+        run: python -m unittest discover -s tests -v
+      - name: Preserve historical Texas checkpoints
+        run: |
+          python scripts/validate_texas_pass48.py
+          python scripts/validate_texas_language_audit_pass50.py
+      - name: Validate earlier five-state research
+        run: |
+          python scripts/validate_five_state_inventory_2025_26.py
+          python scripts/validate_five_state_inventory_2026_27.py
+
+  analytics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install pinned analytical environment
+        run: python -m pip install -r requirements-analytics-lock.txt -e .
+      - name: Export separate analytical tables
+        run: dl-outcomes export-analytics --destination "$RUNNER_TEMP/dl-analytics"
+      - name: Verify DuckDB and Parquet row counts
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          import duckdb
+          import pyarrow.parquet as pq
+          from dl_outcomes.contracts import catalog
+          destination = Path(os.environ['RUNNER_TEMP']) / 'dl-analytics'
+          manifest = json.loads(Path('data/curated/manifest.json').read_text())
+          connection = duckdb.connect(str(destination / 'research.duckdb'), read_only=True)
+          for name, definition in catalog()['$defs'].items():
+              expected = manifest['outputs'][definition['x-path']]['rows']
+              assert connection.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0] == expected
+              assert pq.read_metadata(destination / (name + '.parquet')).num_rows == expected
+          connection.close()
+          PY

@@ -1,0 +1,3 @@
+assessment_id,state_code,assessment_name,assessment_family,construct,assessment_version,scale_description,valid_from_year,valid_to_year,source_id
+TX_STAAR_TPRS_VERSION_NOT_REPORTED,TX,STAAR results reported in TPRS,STAAR,academic_achievement,not_reported,Percent meeting grade level or above; preserve source grade/population scope.,,,source-9457bc18b1495f9fae58d7e9ede37334
+WA_SBAC_TEST_VERSION_NOT_REPORTED,WA,Smarter Balanced as reported by OSPI,SBAC,academic_achievement,not_reported,Reported performance levels; published source fractions converted to percentages. Source vintage is separate from test version.,,,source-7608a73df4a0513da0268eaaddafa98f
