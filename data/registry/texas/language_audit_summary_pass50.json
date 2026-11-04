@@ -1,0 +1,38 @@
+{
+  "audit_date": "2026-11-04",
+  "track_records": 1863,
+  "parent_reporting_groups": 1856,
+  "campuses": 1610,
+  "language_pair_counts": {
+    "UNVERIFIED": 1048,
+    "Spanish–English": 802,
+    "Vietnamese–English": 3,
+    "Mandarin–English": 7,
+    "Arabic–English": 1,
+    "French–English": 2
+  },
+  "verification_scope_counts": {
+    "UNVERIFIED": 1048,
+    "DISTRICT_POLICY_ONLY": 708,
+    "CAMPUS_DOCUMENTED": 84,
+    "PRIOR_EVIDENCE_NOT_INDEPENDENTLY_RECONFIRMED": 23
+  },
+  "audit_change_counts": {
+    "REVIEWED": 1659,
+    "LANGUAGE_LABEL_CHANGED": 148,
+    "LANGUAGE_LABEL_REAFFIRMED": 55,
+    "ADDED_LANGUAGE_TRACK": 1
+  },
+  "spanish_pair_labels_withdrawn_pending_evidence": 63,
+  "partial_spanish_labels_marked_pair_unverified": 57,
+  "previously_unverified_rows_with_documented_pair": 26,
+  "campus_source_decisions": 65,
+  "district_policy_rules": 23,
+  "source_retrievals": 93,
+  "allocation_records": 970,
+  "allocation_links_retained": 648,
+  "allocation_links_cleared": 25,
+  "non_spanish_documented_campuses": 11,
+  "verified_language_specific_tapr_outcomes": 0,
+  "verified_tested_cohort_exposures": 0
+}

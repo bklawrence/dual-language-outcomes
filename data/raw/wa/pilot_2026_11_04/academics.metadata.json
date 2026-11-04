@@ -1,0 +1,14 @@
+{
+  "url": "https://data.wa.gov/resource/9fjj-2374.json?%24where=organizationlevel%3D%27School%27+AND+schoolorganizationid+in%28%27101039%27%2C%27101042%27%29+AND+schoolyear+in%28%272023-24%27%2C%272024-25%27%2C%272025-26%27%29+AND+gradelevel+in%28%2703%27%2C%2704%27%2C%2705%27%29+AND+testadministration%3D%27SBAC%27+AND+studentgroup+in%28%27All+Students%27%2C%27English+Language+Learners%27%2C%27English+Learners%27%2C%27Former+English+Language+Learners%27%2C%27Non-English+Language+Learners%27%29&%24limit=10000&%24order=schoolyear%2Cschoolorganizationid%2Cgradelevel%2Ctestsubject%2Cstudentgroup",
+  "dataset_url": "https://data.wa.gov/d/9fjj-2374",
+  "dataset_id": "9fjj-2374",
+  "retrieved_at": "2026-11-04T15:31:48.598996+00:00",
+  "sha256": "2e48297aae2cf6fca4cc62060f92ccb9c790777b0e68cdf34d7e2f7b1ecab262",
+  "rows": 108,
+  "selection": {
+    "$where": "organizationlevel='School' AND schoolorganizationid in('101039','101042') AND schoolyear in('2023-24','2024-25','2025-26') AND gradelevel in('03','04','05') AND testadministration='SBAC' AND studentgroup in('All Students','English Language Learners','English Learners','Former English Language Learners','Non-English Language Learners')",
+    "$limit": 10000,
+    "$order": "schoolyear,schoolorganizationid,gradelevel,testsubject,studentgroup"
+  },
+  "completeness": "complete for the recorded pilot selection; not statewide outcome coverage"
+}

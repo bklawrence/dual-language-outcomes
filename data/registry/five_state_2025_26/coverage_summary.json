@@ -1,0 +1,153 @@
+{
+  "WY": {
+    "distinct_program_records_including_candidates": 13,
+    "distinct_inventory_schools": 13,
+    "documented_content_records_excluding_future_discontinued": 11,
+    "confirmed_2025_26": 11,
+    "confirmed_with_year_specific_evidence": 0,
+    "confirmed_by_continuity_rule": 11,
+    "confirmed_year_listings_including_eligibility_candidates": 11,
+    "candidate_records": 2,
+    "candidate_schools_identified": 13,
+    "candidate_school_count_basis": "curated_inventory_schools",
+    "language_pairings_established": 11,
+    "kindergarten_allocations_established": 3,
+    "structures_established": 2,
+    "all_five_fields": 2,
+    "confirmed_with_all_five_fields": 2,
+    "records_requiring_further_research": 11,
+    "operating_status_counts": {
+      "probable_current_unconfirmed": 1,
+      "confirmed_2025_26": 11,
+      "historical_status_unknown": 1
+    },
+    "kindergarten_models": {
+      "90/10": 0,
+      "80/20": 0,
+      "50/50": 3,
+      "other": 0,
+      "unknown": 8
+    },
+    "statewide_completeness": "not_established"
+  },
+  "MT": {
+    "distinct_program_records_including_candidates": 9,
+    "distinct_inventory_schools": 9,
+    "documented_content_records_excluding_future_discontinued": 5,
+    "confirmed_2025_26": 5,
+    "confirmed_with_year_specific_evidence": 2,
+    "confirmed_by_continuity_rule": 3,
+    "confirmed_year_listings_including_eligibility_candidates": 7,
+    "candidate_records": 2,
+    "candidate_schools_identified": 9,
+    "candidate_school_count_basis": "curated_inventory_schools",
+    "language_pairings_established": 5,
+    "kindergarten_allocations_established": 2,
+    "structures_established": 2,
+    "all_five_fields": 2,
+    "confirmed_with_all_five_fields": 2,
+    "records_requiring_further_research": 7,
+    "operating_status_counts": {
+      "confirmed_2025_26": 7,
+      "confirmed_discontinued": 2
+    },
+    "kindergarten_models": {
+      "90/10": 0,
+      "80/20": 0,
+      "50/50": 2,
+      "other": 0,
+      "unknown": 3
+    },
+    "statewide_completeness": "not_established"
+  },
+  "ID": {
+    "distinct_program_records_including_candidates": 18,
+    "distinct_inventory_schools": 18,
+    "documented_content_records_excluding_future_discontinued": 18,
+    "confirmed_2025_26": 18,
+    "confirmed_with_year_specific_evidence": 3,
+    "confirmed_by_continuity_rule": 15,
+    "confirmed_year_listings_including_eligibility_candidates": 18,
+    "candidate_records": 0,
+    "candidate_schools_identified": 18,
+    "candidate_school_count_basis": "curated_inventory_schools",
+    "language_pairings_established": 18,
+    "kindergarten_allocations_established": 8,
+    "structures_established": 2,
+    "all_five_fields": 1,
+    "confirmed_with_all_five_fields": 1,
+    "records_requiring_further_research": 17,
+    "operating_status_counts": {
+      "confirmed_2025_26": 18
+    },
+    "kindergarten_models": {
+      "90/10": 0,
+      "80/20": 0,
+      "50/50": 8,
+      "other": 0,
+      "unknown": 10
+    },
+    "statewide_completeness": "not_established"
+  },
+  "NV": {
+    "distinct_program_records_including_candidates": 6,
+    "distinct_inventory_schools": 6,
+    "documented_content_records_excluding_future_discontinued": 5,
+    "confirmed_2025_26": 5,
+    "confirmed_with_year_specific_evidence": 0,
+    "confirmed_by_continuity_rule": 5,
+    "confirmed_year_listings_including_eligibility_candidates": 5,
+    "candidate_records": 1,
+    "candidate_schools_identified": 6,
+    "candidate_school_count_basis": "curated_inventory_schools",
+    "language_pairings_established": 5,
+    "kindergarten_allocations_established": 2,
+    "structures_established": 3,
+    "all_five_fields": 1,
+    "confirmed_with_all_five_fields": 1,
+    "records_requiring_further_research": 5,
+    "operating_status_counts": {
+      "confirmed_2025_26": 5,
+      "probable_current_unconfirmed": 1
+    },
+    "kindergarten_models": {
+      "90/10": 1,
+      "80/20": 0,
+      "50/50": 1,
+      "other": 0,
+      "unknown": 3
+    },
+    "statewide_completeness": "not_established"
+  },
+  "CA": {
+    "distinct_program_records_including_candidates": 292,
+    "distinct_inventory_schools": 264,
+    "documented_content_records_excluding_future_discontinued": 230,
+    "confirmed_2025_26": 230,
+    "confirmed_with_year_specific_evidence": 21,
+    "confirmed_by_continuity_rule": 209,
+    "confirmed_year_listings_including_eligibility_candidates": 237,
+    "candidate_records": 61,
+    "candidate_schools_identified": 1310,
+    "candidate_school_count_basis": "historical_CDE_lower_bound_with_unresolved_overlap",
+    "language_pairings_established": 230,
+    "kindergarten_allocations_established": 216,
+    "structures_established": 25,
+    "all_five_fields": 24,
+    "confirmed_with_all_five_fields": 24,
+    "records_requiring_further_research": 268,
+    "operating_status_counts": {
+      "confirmed_2025_26": 237,
+      "probable_current_unconfirmed": 54,
+      "planned_future": 1
+    },
+    "kindergarten_models": {
+      "90/10": 34,
+      "80/20": 6,
+      "50/50": 164,
+      "other": 12,
+      "unknown": 14
+    },
+    "statewide_completeness": "not_established"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://data.wa.gov/resource/rxjk-6ieq.json?%24where=organizationlevel%3D%27School%27+AND+schoolorganizationid+in%28%27101039%27%2C%27101042%27%29+AND+schoolyear+in%28%272023-24%27%2C%272024-25%27%2C%272025-26%27%29&%24limit=10000&%24order=schoolyear%2Cschoolorganizationid%2Cgradelevel",
+  "dataset_url": "https://data.wa.gov/d/rxjk-6ieq",
+  "dataset_id": "rxjk-6ieq",
+  "retrieved_at": "2026-11-04T15:31:49.356218+00:00",
+  "sha256": "c98bf84dccd941ba616aa739348a740c2677ba620a8ae890e81a594273a8a4ff",
+  "rows": 42,
+  "selection": {
+    "$where": "organizationlevel='School' AND schoolorganizationid in('101039','101042') AND schoolyear in('2023-24','2024-25','2025-26')",
+    "$limit": 10000,
+    "$order": "schoolyear,schoolorganizationid,gradelevel"
+  },
+  "completeness": "complete for the recorded pilot selection; not statewide outcome coverage"
+}

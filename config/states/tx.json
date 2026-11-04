@@ -1,0 +1,14 @@
+{
+  "state_code": "TX",
+  "state_name": "Texas",
+  "state_fips": "48",
+  "adapter": "texas",
+  "collection_status": "pilot",
+  "notes": "Existing state research files remain available; not_migrated does not mean no data exist.",
+  "pilot": {
+    "tracks": "data/registry/texas/texas_language_program_tracks_pass50.csv",
+    "allocations": "data/registry/texas/texas_k_allocation_evidence_pass50.csv",
+    "dl_outcomes": "data/registry/texas/tprs_verified_observations_pass45.csv",
+    "notes": "Four published school/district current-EL one-way DL groups; all tested grades, 2023\u201324. No track-specific or grade-specific disaggregation."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "pass50",
+  "campus_language_inventory": "data/registry/texas/texas_campus_language_inventory_pass50.csv",
+  "language_tracks": "data/registry/texas/texas_language_program_tracks_pass50.csv",
+  "k_allocation_evidence": "data/registry/texas/texas_k_allocation_evidence_pass50.csv",
+  "audit": "data/registry/texas/texas_language_classification_audit_pass50.csv",
+  "source_register": "data/registry/texas/pass50/source_register.csv",
+  "assessment_year": "2023-24",
+  "evidence_dates": "Source-specific; do not backdate later offerings",
+  "status": "PROVISIONAL_RESEARCH_NOT_VERIFIED_CENSUS"
+}

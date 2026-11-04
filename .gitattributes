@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+# Source snapshots and research checkpoints retain their exact bytes.
+data/raw/** -text
+data/registry/** -text
+# Source-derived CSV cells may contain intentional whitespace.
+*.csv -whitespace

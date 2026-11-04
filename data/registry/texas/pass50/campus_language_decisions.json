@@ -1,0 +1,929 @@
+[
+  {
+    "campus_id": "220901166",
+    "language_pairs": [
+      "Spanish–English",
+      "French–English"
+    ],
+    "source_ids": [
+      "tx50_arlington_wimbish"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "Mandarin: FLES elective grades 2–6; Spanish/French may also be FLES choices.",
+    "rationale": "Separate 50/50 core-content tracks; Mandarin is a FLES elective, not a third immersion track."
+  },
+  {
+    "campus_id": "220901137",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_arlington_corey"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Official campus description explicitly identifies Spanish/English core-content instruction."
+  },
+  {
+    "campus_id": "220901163",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_arlington_jones"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Official campus description explicitly identifies Spanish/English core-content instruction."
+  },
+  {
+    "campus_id": "057909147",
+    "language_pairs": [
+      "Spanish–English",
+      "Vietnamese–English"
+    ],
+    "source_ids": [
+      "tx50_lister_cip23",
+      "tx50_garland_programs"
+    ],
+    "evidence_period": "2023-24; generated 2023-09-28",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "2023–24 CIP identifies both one-way programs, not merely a multilingual parent-communication list."
+  },
+  {
+    "campus_id": "057909133",
+    "language_pairs": [
+      "Vietnamese–English"
+    ],
+    "source_ids": [
+      "tx50_garland_viet_news",
+      "tx50_garland_programs"
+    ],
+    "evidence_period": "2025-09-05",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "2025 district story confirms English/Vietnamese core-subject instruction; no new 2023–24 claim."
+  },
+  {
+    "campus_id": "227901132",
+    "language_pairs": [
+      "Spanish–English",
+      "Mandarin–English"
+    ],
+    "source_ids": [
+      "tx50_austin23",
+      "tx50_austin_main"
+    ],
+    "evidence_period": "2023-24 application; revised 2022-10",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Two named 2023–24 application choices; combined TAPR outcome cannot be split by language."
+  },
+  {
+    "campus_id": "227901138",
+    "language_pairs": [
+      "Vietnamese–English"
+    ],
+    "source_ids": [
+      "tx50_austin23",
+      "tx50_austin_main"
+    ],
+    "evidence_period": "2023-24 application; revised 2022-10",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "2023–24 application prints Summit; campus identity is Summitt Elementary."
+  },
+  {
+    "campus_id": "227901154",
+    "language_pairs": [
+      "Mandarin–English"
+    ],
+    "source_ids": [
+      "tx50_austin23",
+      "tx50_doss_school"
+    ],
+    "evidence_period": "2023-24 application; revised 2022-10",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Campus Mandarin program documented in 2023–24; this does not separately identify one-way versus two-way TAPR participant populations."
+  },
+  {
+    "campus_id": "227901198",
+    "language_pairs": [
+      "Spanish–English",
+      "Mandarin–English"
+    ],
+    "source_ids": [
+      "tx50_austin23",
+      "tx50_austin_main"
+    ],
+    "evidence_period": "2023-24 application; revised 2022-10",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Spanish and Mandarin choices documented. Application also permits a combined Spanish-and-Mandarin choice; a separate trilingual academic-content track is not established."
+  },
+  {
+    "campus_id": "227901144",
+    "language_pairs": [
+      "Spanish–English",
+      "Mandarin–English"
+    ],
+    "source_ids": [
+      "tx50_austin_finder",
+      "tx50_austin_main"
+    ],
+    "evidence_period": "2026-27 roster",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Current campus pairings only; Mandarin evidence is later than the 2023–24 parent data. Do not backcast either campus/year association."
+  },
+  {
+    "campus_id": "068901105",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_ector_cameron"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "French: third-language songs, music, theatre and arts; not a demonstrated French/English core track.",
+    "rationale": "Official core-content 50/50 Spanish/English description; French is a third-language enrichment offering."
+  },
+  {
+    "campus_id": "071902130",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_mesita_cwmu",
+      "tx50_policy_el_paso_isd"
+    ],
+    "evidence_period": "undated official campus page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "Mandarin: added third language; no separately documented Mandarin/English core-content track.",
+    "rationale": "Core model explicitly 50/50 English/Spanish. Mandarin is additional third-language study; do not replace Spanish or apply the generic new district schedule."
+  },
+  {
+    "campus_id": "165901113",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_hist_midland_official"
+    ],
+    "evidence_period": "2019 opening; current official page accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "French: foreign-language instruction begins grade 4; not a core French/English track.",
+    "rationale": "Ben Milam official Spanish/English two-way description; French is separately identified as a foreign-language class."
+  },
+  {
+    "campus_id": "101920119",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_sherwood_choice"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Source link restored to current official campus program description."
+  },
+  {
+    "campus_id": "101920124",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_hist_springbranch_cedar"
+    ],
+    "evidence_period": "undated official page, accessed 2026-11-04",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Source link restored to current official campus program description."
+  },
+  {
+    "campus_id": "101919122",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_spring_report24"
+    ],
+    "evidence_period": "2024-07-02 retrospective 2023-24 cohort report",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Retrospective 2024 district report names 2023–24 program participants; no new outcome attribution."
+  },
+  {
+    "campus_id": "101919130",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_spring_report24"
+    ],
+    "evidence_period": "2024-07-02 retrospective 2023-24 cohort report",
+    "historical_2023_24_campus_pair_status": "YES",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Retrospective 2024 district report names 2023–24 program participants; no new outcome attribution."
+  },
+  {
+    "campus_id": "101912042",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912043",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912049",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912051",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912055",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912104",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912109",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912112",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912115",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912117",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912120",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912124",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912130",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912132",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912144",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912148",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912149",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912153",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912162",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912167",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912170",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912173",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912175",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912180",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912198",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912204",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912216",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912223",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912231",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912233",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912237",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912239",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912242",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912251",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912252",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912256",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912257",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912263",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912273",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912286",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912289",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912382",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912383",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912396",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912460",
+    "language_pairs": [
+      "Mandarin–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24",
+      "tx50_mims_school"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912478",
+    "language_pairs": [
+      "Arabic–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24",
+      "tx50_aims_school"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912480",
+    "language_pairs": [
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  },
+  {
+    "campus_id": "101912483",
+    "language_pairs": [
+      "French–English",
+      "Spanish–English"
+    ],
+    "source_ids": [
+      "tx50_houston_roster24",
+      "tx50_markwhite_programs"
+    ],
+    "evidence_period": "2024-25; roster updated 2025-02-25",
+    "historical_2023_24_campus_pair_status": "NOT_ESTABLISHED",
+    "verification_status": "CAMPUS_PAIR_DOCUMENTED",
+    "additional_language_role": "",
+    "rationale": "Exact nine-digit TEA campus ID matched to official 2024–25 DL Lang roster. Source documents language offerings in 2024–25, not language-specific 2023–24 TAPR populations."
+  }
+]

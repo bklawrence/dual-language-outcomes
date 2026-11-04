@@ -1,0 +1,48 @@
+{
+  "research_status": "completed_bounded_confirmation_and_change_review",
+  "reference_school_year": "2025-26",
+  "research_recheck_date": "2026-11-04",
+  "research_timezone": "America/Chicago",
+  "completed_at_utc": "2026-11-04T13:17:48.304439+00:00",
+  "program_records": 338,
+  "qualifying_confirmed_2025_26": 269,
+  "confirmed_with_year_specific_evidence": 26,
+  "confirmed_by_user_authorized_continuity_rule": 243,
+  "candidate_records": 66,
+  "operating_status_counts_all_records": {
+    "confirmed_2025_26": 278,
+    "probable_current_unconfirmed": 56,
+    "planned_future": 1,
+    "historical_status_unknown": 1,
+    "confirmed_discontinued": 2
+  },
+  "kindergarten_allocations_established": 231,
+  "structures_established": 34,
+  "all_five_essential_fields": 30,
+  "review_scopes": 37,
+  "distinct_change_search_queries": 53,
+  "sourced_program_change_findings": 29,
+  "registered_source_documents": 115,
+  "program_claim_source_documents": 82,
+  "evidence_claims": 3480,
+  "confirmation_rule": "Established programs may be confirmed when targeted likely-source checks find no applicable ending indication; continuity is labeled separately from reference-year source evidence. This does not establish implementation, academic-content scope, public funding, or an unknown allocation.",
+  "statewide_completeness": "not_established",
+  "validation_result": {
+    "result": "passed",
+    "program_records_checked": 338,
+    "evidence_claims_checked": 3480,
+    "registered_sources": 115,
+    "review_scopes_checked": 37,
+    "lausd_source_rows_reconciled": 211,
+    "fresno_source_rows_reconciled": 25,
+    "fresno_distinct_programs": 24,
+    "statewide_completeness": "not_established"
+  },
+  "regression_tests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "earlier_2026_27_snapshot": "preserved",
+  "pushed_or_merged": false,
+  "environment_configuration_modified_or_published": false
+}

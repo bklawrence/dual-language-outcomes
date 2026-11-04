@@ -1,0 +1,1941 @@
+school_id,state_code,school_name,identity_status,screening_status
+IL-S001,IL,Academy for Global Citizenship,legacy_provisional,candidate
+IL-S002,IL,Barbour Two-Way Language Immersion,legacy_provisional,candidate
+IL-S004,IL,Darwin Elementary School,legacy_provisional,excluded
+IL-S006,IL,Hawthorn School of Dual Language,legacy_provisional,candidate
+IL-S007,IL,Inter-American Elementary Magnet School,legacy_provisional,candidate
+IL-S008,IL,International Prep Academy,legacy_provisional,candidate
+IL-S009,IL,Lincoln-Irving Elementary School,legacy_provisional,candidate
+IL-S010,IL,Lozano Elementary Bilingual & International Center,legacy_provisional,candidate
+IL-S011,IL,MacArthur International Spanish Academy,legacy_provisional,candidate
+IL-S012,IL,Multicultural Dual Language Academy,legacy_provisional,excluded
+IL-S013,IL,Oak Terrace Elementary School,legacy_provisional,candidate
+IL-S014,IL,Red Oak Elementary School,legacy_provisional,candidate
+IL-S015,IL,Sabin Dual Language Magnet School,legacy_provisional,candidate
+IL-S016,IL,Talcott Fine Arts and Museum Academy,legacy_provisional,excluded
+IL-S017,IL,Washington Dual Language Academy,legacy_provisional,candidate
+IL-S018,IL,Yankee Ridge Multilingual School,legacy_provisional,excluded
+TX-S002901101,TX,DEVONIAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S002901104,TX,UNDERWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S003903129,TX,SLACK EL,state_identifier,provisional_reporting_group_evidence
+TX-S007905103,TX,PLEASANTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S007906102,TX,POTEET INT,state_identifier,provisional_reporting_group_evidence
+TX-S008902102,TX,SELMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S008902104,TX,SEALY EL,state_identifier,provisional_reporting_group_evidence
+TX-S011902042,TX,ELGIN INT,state_identifier,provisional_reporting_group_evidence
+TX-S011902101,TX,BOOKER T WASHINGTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S011902102,TX,ELGIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S011902103,TX,NEIDIG EL,state_identifier,provisional_reporting_group_evidence
+TX-S014903104,TX,SOUTHWEST EL,state_identifier,provisional_reporting_group_evidence
+TX-S014903118,TX,CHISHOLM TRAIL EL,state_identifier,provisional_reporting_group_evidence
+TX-S014903120,TX,CHARTER OAK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015802001,TX,GEORGE GERVIN ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015901041,TX,ALAMO HEIGHTS J H,state_identifier,provisional_reporting_group_evidence
+TX-S015901101,TX,CAMBRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015901104,TX,WOODRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904001,TX,HARLANDALE H S,state_identifier,provisional_reporting_group_evidence
+TX-S015904042,TX,A LEAL JR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015904102,TX,BELLAIRE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904103,TX,COLLIER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904105,TX,STONEWALL/FLANDERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904106,TX,V M ADAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904107,TX,GILLETTE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904108,TX,H W SCHULZE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904113,TX,VESTAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904114,TX,WRIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S015904116,TX,E H GILBERT EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905104,TX,ROY CISNEROS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905112,TX,LOMA PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905113,TX,ROOSEVELT EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905114,TX,STAFFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905117,TX,H B GONZALEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S015905142,TX,LAS PALMAS LEADERSHIP SCHOOL FOR GIRLS,state_identifier,provisional_reporting_group_evidence
+TX-S015905144,TX,STAFFORD EL VISUAL AND PERFORMING ARTS,state_identifier,provisional_reporting_group_evidence
+TX-S015907001,TX,BRACKENRIDGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907002,TX,BURBANK H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907003,TX,EDISON H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907005,TX,HIGHLANDS H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907007,TX,JEFFERSON H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907008,TX,LANIER H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907023,TX,YOUNG WOMEN'S LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907027,TX,CAST TECH H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907028,TX,CAST MED H S,state_identifier,provisional_reporting_group_evidence
+TX-S015907043,TX,DAVIS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907044,TX,HOT WELLS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907047,TX,HARRIS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907050,TX,LONGFELLOW MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907051,TX,LOWELL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907059,TX,WHITTIER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907061,TX,TAFOLLA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015907101,TX,ARNOLD EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907103,TX,CHARLES C BALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907106,TX,BEACON HILL ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907107,TX,BONHAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907110,TX,J T BRACKENRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907112,TX,BRISCOE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907116,TX,COLLINS GARDEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907117,TX,AGNES COTTON ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907118,TX,DAVID CROCKETT ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907121,TX,DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907123,TX,FENWICK ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907126,TX,FRANKLIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907129,TX,CHARLES GRAEBNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907132,TX,HERFF EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907133,TX,RODRIGUEZ MONTESSORI EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907134,TX,HIGHLAND HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907135,TX,HIGHLAND PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907136,TX,HILLCREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907138,TX,IRVING DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907141,TX,ELOISE JAPHET ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907144,TX,SARAH S KING EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907146,TX,LAMAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907147,TX,BOWDEN ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907148,TX,MADISON EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907149,TX,MARGIL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907150,TX,MAVERICK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907153,TX,DORIE MILLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907155,TX,NEAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907157,TX,OGDEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907158,TX,PERSHING EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907160,TX,RIVERSIDE PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907161,TX,ROGERS ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907163,TX,MARK TWAIN DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907164,TX,SCHENCK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907165,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907168,TX,DEMOCRACY PREP AT STEWART ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907172,TX,WASHINGTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907174,TX,WILSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907175,TX,WOODLAWN ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015907176,TX,WOODLAWN HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015907241,TX,CARVAJAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015908104,TX,HUTCHINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015908107,TX,PRICE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015908109,TX,FIVE PALMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015908112,TX,MIGUEL CARRILLO JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S015908113,TX,ROY BENAVIDEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910002,TX,MACARTHUR H S,state_identifier,provisional_reporting_group_evidence
+TX-S015910041,TX,EISENHOWER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015910042,TX,GARNER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015910044,TX,NIMITZ MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015910048,TX,BRADLEY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015910057,TX,LOPEZ MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015910102,TX,COKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910103,TX,COLONIAL HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910105,TX,EAST TERRELL HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910107,TX,JACKSON-KELLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910108,TX,LARKSPUR EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910110,TX,OAK GROVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910111,TX,OLMOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910112,TX,RIDGEVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910114,TX,WALZEM EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910120,TX,REGENCY PLACE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910121,TX,EL DORADO EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910125,TX,STAHL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910133,TX,STONE OAK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910139,TX,ROAN FOREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910141,TX,STEUBING RANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S015910147,TX,VINEYARD RANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S015911110,TX,OAK CREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S015911111,TX,SALADO EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912042,TX,SHARON CHRISTA MCAULIFFE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015912045,TX,JUDITH A RESNIK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015912101,TX,SOUTHWEST EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912102,TX,SUN VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912103,TX,INDIAN CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912104,TX,BOB HOPE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912105,TX,SKY HARBOUR EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912106,TX,HIDDEN COVE STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S015912107,TX,BIG COUNTRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912108,TX,ELM CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015912111,TX,MEDIO CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915001,TX,HOLMES H S,state_identifier,provisional_reporting_group_evidence
+TX-S015915023,TX,BRANDEIS H S,state_identifier,provisional_reporting_group_evidence
+TX-S015915043,TX,ROSS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015915050,TX,STINSON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015915054,TX,LUNA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015915101,TX,CABLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915102,TX,GLENN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915105,TX,HULL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915106,TX,ALLEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915107,TX,FISHER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915108,TX,LEON VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915114,TX,WESTWOOD TERRACE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915116,TX,VILLARREAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915119,TX,HOWSMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915122,TX,PASSMORE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915124,TX,ESPARZA EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915138,TX,KNOWLTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915141,TX,FORESTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915148,TX,WANKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915157,TX,MAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915160,TX,MYERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915166,TX,BURKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915183,TX,WARD EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915187,TX,LANGLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915189,TX,MARTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915224,TX,MORA EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915228,TX,COLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015915234,TX,ELLISON EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916043,TX,WOODLAKE HILLS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015916044,TX,HENRY METZGER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015916102,TX,HOPKINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916104,TX,CORONADO VILLAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916106,TX,CRESTVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916110,TX,SPRING MEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916114,TX,WILLIAM PASCHALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S015916115,TX,MARY LOU HARTMAN,state_identifier,provisional_reporting_group_evidence
+TX-S015916124,TX,WORTHAM OAKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S015917001,TX,SOUTHSIDE H S,state_identifier,provisional_reporting_group_evidence
+TX-S015917041,TX,JULIUS L MATTHEY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015917043,TX,LOSOYA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S015917102,TX,W M PEARCE PRI,state_identifier,provisional_reporting_group_evidence
+TX-S015917104,TX,HERITAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S015917105,TX,FREEDOM EL,state_identifier,provisional_reporting_group_evidence
+TX-S015917106,TX,JULIAN C GALLARDO EL,state_identifier,provisional_reporting_group_evidence
+TX-S019907105,TX,HIGHLAND PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S019907109,TX,NASH EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901101,TX,ALVIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901103,TX,MARK TWAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901105,TX,E C MASON EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901107,TX,WALT DISNEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901108,TX,MELBA PASSMORE EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901109,TX,HOOD-CASE EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901110,TX,DON JETER EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901111,TX,MARY BURKS MAREK EL,state_identifier,provisional_reporting_group_evidence
+TX-S020901120,TX,BEL NAFEGAR SANCHEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S020902044,TX,ANGLETON J H SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S020902104,TX,WESTSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S020908101,TX,E A LAWHON EL,state_identifier,provisional_reporting_group_evidence
+TX-S020908104,TX,H C CARLESTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S020908105,TX,SAM JAMISON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S020908108,TX,LEON H SABLATURA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S020908113,TX,BARBARA COCKRELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S020908114,TX,MAGNOLIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S021901041,TX,COLLEGE STATION MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S021901042,TX,A & M CONSOLIDATED MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S021901043,TX,WELLBORN MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S021901101,TX,SOUTH KNOLL EL,state_identifier,provisional_reporting_group_evidence
+TX-S021901102,TX,COLLEGE HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S021901104,TX,SOUTHWOOD VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S021901201,TX,OAKWOOD INT,state_identifier,provisional_reporting_group_evidence
+TX-S021902045,TX,JANE LONG,state_identifier,provisional_reporting_group_evidence
+TX-S021902105,TX,CROCKETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S021902107,TX,HENDERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S021902108,TX,JOHNSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S027904102,TX,COLT EL,state_identifier,provisional_reporting_group_evidence
+TX-S027904103,TX,HIGHLAND LAKES EL,state_identifier,provisional_reporting_group_evidence
+TX-S028902103,TX,NAVARRO EL,state_identifier,provisional_reporting_group_evidence
+TX-S028902106,TX,ALMA BREWER STRAWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S031903107,TX,HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S031903109,TX,LAMAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S031903110,TX,BEN MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S031903116,TX,WILSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S031903123,TX,LEE H MEANS EL,state_identifier,provisional_reporting_group_evidence
+TX-S031912114,TX,LA PALOMA EL,state_identifier,provisional_reporting_group_evidence
+TX-S031912117,TX,ANGELA GERUSA LEAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S037904043,TX,NICHOLS INT,state_identifier,provisional_reporting_group_evidence
+TX-S037904102,TX,EAST SIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S037904103,TX,FRED DOUGLASS,state_identifier,provisional_reporting_group_evidence
+TX-S037904104,TX,WEST SIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S037904105,TX,JOE WRIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S043901114,TX,CARLENA CHANDLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S043902107,TX,ROSAMOND-SHERLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S043903101,TX,MARCY B LYKINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S043905106,TX,CHRISTIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S043905127,TX,CARROLL EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907102,TX,FINCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907104,TX,WEBB EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907105,TX,BURKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907107,TX,CALDWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907111,TX,SLAUGHTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907118,TX,ALBERT & IOLA LEE DAVIS MALVERN EL,state_identifier,provisional_reporting_group_evidence
+TX-S043907119,TX,JOSE DE JESUS AND MARIA LUISA VEGA EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910101,TX,JACKSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910102,TX,MEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910103,TX,MENDENHALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910104,TX,SIGLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910105,TX,MEMORIAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910109,TX,FORMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910112,TX,CHRISTIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910113,TX,WEATHERFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910117,TX,THOMAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910123,TX,BRINKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910124,TX,DAFFRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910126,TX,MITCHELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910143,TX,HICKEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S043910149,TX,BARRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S043912102,TX,JUDY RUCKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S043914042,TX,AB HARRISON INT,state_identifier,provisional_reporting_group_evidence
+TX-S043914046,TX,DR AL DRAPER INTERMED,state_identifier,provisional_reporting_group_evidence
+TX-S043914105,TX,R V GROVES EL,state_identifier,provisional_reporting_group_evidence
+TX-S043914106,TX,CHERI COX EL,state_identifier,provisional_reporting_group_evidence
+TX-S043914111,TX,GEORGE W BUSH EL,state_identifier,provisional_reporting_group_evidence
+TX-S043918101,TX,MCCLENDON EL,state_identifier,provisional_reporting_group_evidence
+TX-S043918105,TX,MARY LOU DODSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S046901103,TX,CARL SCHURZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S046901110,TX,VOSS FARMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S046902110,TX,ARLON R SEAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S046902117,TX,MORNINGSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S046902119,TX,CLEAR SPRING EL,state_identifier,provisional_reporting_group_evidence
+TX-S046902122,TX,KINDER RANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S049901104,TX,GAINESVILLE INT,state_identifier,provisional_reporting_group_evidence
+TX-S049901107,TX,W E CHALMERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S049903041,TX,VALLEY VIEW MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S049903101,TX,VALLEY VIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S050910104,TX,C R CLEMENTS/HOLLIE PARSONS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057841001,TX,EAST GRAND PREPARATORY ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057841002,TX,BUCKNER PREPARATORY,state_identifier,provisional_reporting_group_evidence
+TX-S057846001,TX,LEGACY PREP CHARTER ACADEMY MESQUITE WEST CAMPUS,state_identifier,provisional_reporting_group_evidence
+TX-S057903041,TX,FIELD MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057903042,TX,PERRY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057903044,TX,LONG MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057903046,TX,POLK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057903102,TX,CARROLLTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903103,TX,CENTRAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903105,TX,GOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903106,TX,STARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903109,TX,FARMERS BRANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903110,TX,BLANTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903111,TX,THOMPSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903113,TX,DAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903124,TX,MCKAMY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903125,TX,SHEFFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903129,TX,MCWHORTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903131,TX,BLAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057903135,TX,MCLAUGHLIN STRICKLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S057904105,TX,HIGHLANDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905002,TX,W H ADAMSON H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905005,TX,MOISES E MOLINA H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905006,TX,HILLCREST H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905013,TX,FRANKLIN D ROOSEVELT H S OF INNOVATION,state_identifier,provisional_reporting_group_evidence
+TX-S057905014,TX,W W SAMUELL H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905018,TX,SUNSET H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905021,TX,W T WHITE H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905022,TX,WOODROW WILSON H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905024,TX,NORTH DALLAS H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905026,TX,SCHOOL OF SCIENCE AND ENGINEERING,state_identifier,provisional_reporting_group_evidence
+TX-S057905032,TX,JAMES MADISON H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905033,TX,MARVIN E ROBINSON SCHOOL OF BUSINESS AND MGMT,state_identifier,provisional_reporting_group_evidence
+TX-S057905034,TX,BOOKER T WASHINGTON SPVA MAGNET,state_identifier,provisional_reporting_group_evidence
+TX-S057905036,TX,SCHOOL OF HEALTH PROFESSIONS,state_identifier,provisional_reporting_group_evidence
+TX-S057905039,TX,SCHOOL FOR THE TALENTED AND GIFTED,state_identifier,provisional_reporting_group_evidence
+TX-S057905049,TX,W E GREINER EXPLORATORY ARTS ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905053,TX,J L LONG MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057905056,TX,EWELL D WALKER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057905088,TX,TRINIDAD GARZA EARLY COLLEGE AT MT VIEW,state_identifier,provisional_reporting_group_evidence
+TX-S057905090,TX,DR WRIGHT L LASSITER JR EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S057905101,TX,JOHN Q ADAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905103,TX,GABE P ALLEN NEW TECH ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905104,TX,WILLIAM M ANDERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905105,TX,ARCADIA PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905107,TX,JOSE 'JOE' MAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905108,TX,BAYLES EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905109,TX,W A BLAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905110,TX,ANNIE WEBB BLANTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905112,TX,JAMES BOWIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905114,TX,JOHN NEELY BRYAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905115,TX,HARRELL BUDD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905116,TX,DAVID G BURNET EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905117,TX,RUFUS C BURLESON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905119,TX,CHAPEL HILL PREPARATORY-A PERSONALIZED LRNING SCH,state_identifier,provisional_reporting_group_evidence
+TX-S057905120,TX,F P CAILLET EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905121,TX,JOHN W CARPENTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905122,TX,C F CARR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905125,TX,CASA VIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905126,TX,CENTRAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905128,TX,DR MARTIN LUTHER KING JR ARTS ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905129,TX,S S CONNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905130,TX,LEILA P COWART EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905131,TX,IGNACIO ZARAGOZA EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905133,TX,BARBARA JORDAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905134,TX,GEORGE B DEALEY MONTESSORI ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905135,TX,EVERETTE LEE DEGOLYER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905136,TX,L O DONALD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905137,TX,JULIUS DORSEY LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905139,TX,PAUL L DUNBAR LEARNING CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057905141,TX,JILL STONE EL AT VICKERY MEADOW,state_identifier,provisional_reporting_group_evidence
+TX-S057905142,TX,J N ERVIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905145,TX,STEPHEN C FOSTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905147,TX,CHARLES A GILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905148,TX,TOM C GOOCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905149,TX,HALL PERSONALIZED LEARNING ACADEMY AT OAK CLIFF,state_identifier,provisional_reporting_group_evidence
+TX-S057905152,TX,MARGARET B HENDERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905153,TX,VICTOR H HEXTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905154,TX,LARRY G SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905155,TX,C A TATUM JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905156,TX,NATHANIEL HAWTHORNE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905157,TX,HOGG NEW TECH CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057905158,TX,LIDA HOOE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905159,TX,L L HOTCHKISS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905160,TX,PERSONALIZED LEARNING PREPARATORY AT SAM HOUSTON,state_identifier,provisional_reporting_group_evidence
+TX-S057905161,TX,SYLVIA MENDEZ CREW LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905162,TX,MOCKINGBIRD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905163,TX,CEDAR CREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905164,TX,ANSON JONES EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905166,TX,EDWIN J KIEST EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905167,TX,KLEBERG EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905168,TX,OBADIAH KNIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905169,TX,ARTHUR KRAMER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905170,TX,RICHARD LAGOW EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905171,TX,LAKEWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905172,TX,JIMMIE TYLER BRASHEAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905173,TX,JESUS MOROLES EXPRESSIVE ARTS VANGUARD,state_identifier,provisional_reporting_group_evidence
+TX-S057905174,TX,GENEVA HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905175,TX,UMPHREY LEE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905176,TX,JACK LOWE SR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905177,TX,WILLIAM LIPSCOMB EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905178,TX,H I HOLLAND EL AT LISBON,state_identifier,provisional_reporting_group_evidence
+TX-S057905180,TX,B H MACON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905181,TX,MAPLE LAWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905182,TX,MARCUS LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905183,TX,THOMAS L MARSALIS EL STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905184,TX,BEN MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905185,TX,WILLIAM B MILLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905186,TX,TRINITY HEIGHTS GIFTED AND TALENTED SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S057905187,TX,NANCY MOSELEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905188,TX,MOUNT AUBURN STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905189,TX,CLARA OLIVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905190,TX,GEORGE PEABODY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905191,TX,ELISHA M PEASE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905192,TX,JOHN F PEELER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905193,TX,JOHN J PERSHING EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905194,TX,K B POLK CENTER FOR ACADEMICALLY TALENTED & GIFTED,state_identifier,provisional_reporting_group_evidence
+TX-S057905195,TX,PRESTON HOLLOW EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905197,TX,JOHN H REAGAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905198,TX,MARTHA TURNER REILLY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905199,TX,REINHARDT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905202,TX,ORAN M ROBERTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905203,TX,DAN D ROGERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905205,TX,CLINTON P RUSSELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905206,TX,ALEX SANGER PREPARATORY SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S057905207,TX,SAN JACINTO EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905208,TX,SEAGOVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905209,TX,ASCHER SILBERSTEIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905210,TX,LESLIE A STEMMONS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905211,TX,STEVENS PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905213,TX,T G TERRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905216,TX,EDWARD TITCHE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905218,TX,GEORGE W TRUETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905220,TX,MARK TWAIN SCHOOL FOR THE TALENTED AND GIFTED,state_identifier,provisional_reporting_group_evidence
+TX-S057905222,TX,URBAN PARK STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905224,TX,WALNUT HILL INTERNATIONAL LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905225,TX,DANIEL WEBSTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905226,TX,MARTIN WEISS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905229,TX,WINNETKA EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905230,TX,HARRY C WITHERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905232,TX,BUCKNER TERRACE MONTESSORI,state_identifier,provisional_reporting_group_evidence
+TX-S057905233,TX,NATHAN ADAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905234,TX,HENRY B GONZALEZ PERSONALIZED LEARNING ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905235,TX,BIRDIE ALEXANDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905236,TX,NANCY J COCHRAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905237,TX,JOHN W RUNYON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905239,TX,ARTURO SALAZAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905240,TX,FRANK GUZICK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905244,TX,SEAGOVILLE NORTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905247,TX,ADELFA BOTELLO CALLEJO EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905250,TX,WHITNEY M YOUNG JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905260,TX,LORENZO DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905264,TX,RONALD E MCNAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905265,TX,ELADIO R MARTINEZ LEARNING CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057905266,TX,FREDERICK DOUGLASS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905270,TX,EDUARDO MATA MONTESSORI SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S057905271,TX,JULIAN T SALDIVAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905272,TX,MARIA MORENO STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905273,TX,PLEASANT GROVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905274,TX,MARY MCLEOD BETHUNE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905275,TX,LOUISE WOLFF KAHN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905276,TX,GILBERT CUELLAR SR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905277,TX,THOMAS TOLBERT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905278,TX,LEONIDES GONZALEZ CIGARROA MD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905279,TX,JERRY R JUNKINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905280,TX,ANNE FRANK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905281,TX,CESAR CHAVEZ LEARNING CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057905283,TX,ESPERANZA MEDRANO EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905284,TX,PERSONALIZED LEARNING ACADEMY AT HIGHLAND MEADOWS,state_identifier,provisional_reporting_group_evidence
+TX-S057905286,TX,LEE A MCSHAN JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905287,TX,CELESTINO MAURICIO SOTO JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905289,TX,FELIX G BOTELLO PERSONALIZED LEARNING EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905301,TX,WILMER-HUTCHINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905303,TX,THELMA ELIZABETH PAGE RICHARDSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905304,TX,GEORGE HERBERT WALKER BUSH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905305,TX,EBBY HALLIDAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905306,TX,SOLAR PREPARATORY SCHOOL FOR GIRLS AT BONHAM,state_identifier,provisional_reporting_group_evidence
+TX-S057905307,TX,H S THOMPSON LEARNING CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057905312,TX,EDDIE BERNICE JOHNSON STEM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905322,TX,PRESTONWOOD MONTESSORI AT E D WALKER,state_identifier,provisional_reporting_group_evidence
+TX-S057905340,TX,DALLAS HYBRID PREPARATORY AT STEPHEN J HAY,state_identifier,provisional_reporting_group_evidence
+TX-S057905359,TX,ROSEMONT UPPER,state_identifier,provisional_reporting_group_evidence
+TX-S057905361,TX,DOWNTOWN MONTESSORI AT IDA B WELLS ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057905363,TX,SCHOOL FOR THE TALENTED & GIFTED IN PLEASANT GROVE,state_identifier,provisional_reporting_group_evidence
+TX-S057905385,TX,MONTESSORI ACADEMY AT ONESIMO HERNANDEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S057905386,TX,SOLAR PREP FOR BOYS AT JOHN F KENNEDY,state_identifier,provisional_reporting_group_evidence
+TX-S057906108,TX,FRANK D MOATES EL,state_identifier,provisional_reporting_group_evidence
+TX-S057907101,TX,CENTRAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057907102,TX,FAIRMEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057907103,TX,MERRIFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057907107,TX,CHARLES ACTON LEADERSHP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057907108,TX,H BOB DANIEL SR INT,state_identifier,provisional_reporting_group_evidence
+TX-S057907109,TX,GLENN C HARDIN INT,state_identifier,provisional_reporting_group_evidence
+TX-S057907110,TX,GRACE R BRANDENBURG INT,state_identifier,provisional_reporting_group_evidence
+TX-S057907112,TX,JAMES R BILHARTZ JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909041,TX,AUSTIN ACAD FOR EXCELL,state_identifier,provisional_reporting_group_evidence
+TX-S057909048,TX,SELLERS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057909056,TX,COYLE MIDDLE TECHNOLOGY CENTER FOR MATH AND SCIENCE,state_identifier,provisional_reporting_group_evidence
+TX-S057909101,TX,BEAVER TECHNOLOGY CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057909102,TX,BULLOCK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909103,TX,CALDWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909105,TX,CENTERVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909107,TX,COOPER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909108,TX,DAUGHERTY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909109,TX,FREEMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909110,TX,HANDLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909112,TX,PARK CREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909113,TX,SOUTHGATE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909115,TX,WATSON TECHNOLOGY CENTER,state_identifier,provisional_reporting_group_evidence
+TX-S057909116,TX,WEAVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909117,TX,WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909119,TX,BRADFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909120,TX,SHOREHAVEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909121,TX,MONTCLAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909122,TX,WALNUT GLEN ACAD FOR EXCEL,state_identifier,provisional_reporting_group_evidence
+TX-S057909123,TX,GOLDEN MEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909124,TX,HEATHER GLEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909125,TX,HILLSIDE ACAD FOR EXCEL,state_identifier,provisional_reporting_group_evidence
+TX-S057909126,TX,DAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909127,TX,ROACH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909128,TX,ETHRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909129,TX,CLASSICAL CENTER AT VIAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909132,TX,CLUB HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909133,TX,HICKMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909134,TX,NORTHLAKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909136,TX,TOLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909137,TX,ROWLETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909138,TX,SPRING CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909140,TX,BACK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909141,TX,SHUGART EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909142,TX,HERFURTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909143,TX,ABBETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909146,TX,KATHERINE STEPHENS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909147,TX,VERNAL LISTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909148,TX,NORMA DORSEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909154,TX,STEADHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909156,TX,NITA PEARSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909157,TX,GLEN COUCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057909159,TX,GEORGE WASHINGTON CARVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910010,TX,JOHN A DUBISKI CAREER H S,state_identifier,provisional_reporting_group_evidence
+TX-S057910101,TX,STEPHEN F AUSTIN ENVIRONMENTAL SCIENCE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910102,TX,JAMES BOWIE FINE ARTS ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910104,TX,DAVID DANIELS EL ACADEMY OF SCIENCE & MATH,state_identifier,provisional_reporting_group_evidence
+TX-S057910109,TX,ELLEN OCHOA STEM ACADEMY AT BEN MILIAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910113,TX,DWIGHT D EISENHOWER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910118,TX,SAM RAYBURN EL STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910119,TX,LORENZO DE ZAVALA ENVIRONMENTAL SCIENCE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910120,TX,SUZANNA DICKINSON MONTESSORI ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910122,TX,GLOBAL LEADERSHIP ACADEMY AT BARBARA BUSH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910124,TX,HECTOR P GARCIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910126,TX,ERVIN C WHITT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910128,TX,JUAN N SEGUIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910129,TX,THURGOOD MARSHALL LEADERSHIP ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057910130,TX,MIKE MOSELEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910131,TX,HOBBS WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910132,TX,DELMAS F MORTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057910137,TX,WILLIAM B TRAVIS WORLD LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S057912003,TX,MACARTHUR H S,state_identifier,provisional_reporting_group_evidence
+TX-S057912043,TX,TRAVIS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S057912101,TX,BARTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912102,TX,BROWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912103,TX,BRITAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912105,TX,GOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912106,TX,HALEY J EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912107,TX,HALEY T EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912108,TX,JOHNSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912109,TX,KEYES EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912111,TX,LEE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912112,TX,LIVELY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912113,TX,FARINE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912114,TX,SCHULZE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912116,TX,BRANDENBURG EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912118,TX,ELLIOTT EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912121,TX,DAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912122,TX,GILBERT F M EL,state_identifier,provisional_reporting_group_evidence
+TX-S057912123,TX,JACKIE MAE TOWNSELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S057913102,TX,HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914101,TX,BLACK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914102,TX,FLORENCE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914103,TX,GALLOWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914104,TX,HANBY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914105,TX,HODGES EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914106,TX,MCWHORTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914107,TX,MOTLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914108,TX,RANGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914110,TX,RUTHERFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914111,TX,SHANDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914112,TX,TISINGER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914113,TX,TOSCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914114,TX,SEABOURN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914115,TX,LAWRENCE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914116,TX,FLOYD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914117,TX,PORTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914118,TX,MCKENZIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914121,TX,SHAW EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914124,TX,CANNADAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914128,TX,GRAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914129,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914130,TX,GENTRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914131,TX,MACKEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914132,TX,ACHZIGER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914133,TX,DR LINDA HENRIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057914134,TX,CROSS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916103,TX,DOVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916104,TX,GREENWOOD HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916106,TX,O HENRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916107,TX,LAKE HIGHLANDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916111,TX,RICHARDSON HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916113,TX,SPRING VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916114,TX,STULTS ROAD EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916115,TX,MARK TWAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916121,TX,NORTHLAKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916126,TX,SKYVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916137,TX,RISD ACAD,state_identifier,provisional_reporting_group_evidence
+TX-S057916144,TX,AUDELIA CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S057916145,TX,CAROLYN G BUKHAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S057922106,TX,WILSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S057922111,TX,DENTON CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901044,TX,STRICKLAND MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S061901049,TX,BETTYE MYERS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S061901104,TX,ALICE MOORE ALEXANDER,state_identifier,provisional_reporting_group_evidence
+TX-S061901105,TX,HODGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901106,TX,MCNAIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901107,TX,NEWTON RAYZOR EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901108,TX,RIVERA EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901109,TX,NETTE SHULTZ,state_identifier,provisional_reporting_group_evidence
+TX-S061901110,TX,GINNINGS EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901111,TX,BORMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901112,TX,EVERS PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901113,TX,RYAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S061901116,TX,PECAN CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902101,TX,CENTRAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902104,TX,LAKELAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902107,TX,CAMEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902109,TX,PETERS COLONY EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902116,TX,CREEKSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902124,TX,PARKWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902126,TX,PRAIRIE TRAIL EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902131,TX,SOUTHRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902138,TX,MARJORY VICKERY EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902142,TX,INDEPENDENCE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902143,TX,LEWISVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061902144,TX,MILL STREET EL,state_identifier,provisional_reporting_group_evidence
+TX-S061903102,TX,PILOT POINT EL,state_identifier,provisional_reporting_group_evidence
+TX-S061911107,TX,ROANOKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S061911111,TX,PRAIRIE VIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S061914103,TX,D H BRENT EL,state_identifier,provisional_reporting_group_evidence
+TX-S061914105,TX,HACKBERRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S061914108,TX,OAK POINT EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901042,TX,BONHAM MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S068901043,TX,BOWIE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S068901044,TX,CROCKETT MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S068901045,TX,WILSON & YOUNG MEDAL OF HONOR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S068901046,TX,NIMITZ MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S068901102,TX,AUSTIN MONTESSORI MAGNET,state_identifier,provisional_reporting_group_evidence
+TX-S068901103,TX,BURLESON EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901105,TX,CAMERON DUAL LANGUAGE MAGNET,state_identifier,provisional_reporting_group_evidence
+TX-S068901107,TX,DOWLING EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901110,TX,GOLIAD EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901111,TX,GONZALES EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901112,TX,EL MAGNET AT HAYS,state_identifier,provisional_reporting_group_evidence
+TX-S068901113,TX,SAM HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901116,TX,EL MAGNET AT MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901118,TX,EL MAGNET AT REAGAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901122,TX,EL MAGNET AT TRAVIS,state_identifier,provisional_reporting_group_evidence
+TX-S068901124,TX,NOEL EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901126,TX,MURRY FLY EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901127,TX,EL MAGNET AT BLACKSHEAR,state_identifier,provisional_reporting_group_evidence
+TX-S068901128,TX,L B JOHNSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901129,TX,BARBARA JORDAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901130,TX,LAURO CAVAZOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901131,TX,EDWARD K DOWNING EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901132,TX,G E 'BUDDY' WEST EL,state_identifier,provisional_reporting_group_evidence
+TX-S068901133,TX,LEE BUICE EL,state_identifier,provisional_reporting_group_evidence
+TX-S070801002,TX,OAK CLIFF FAITH FAMILY ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S070903101,TX,AUSTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S070903102,TX,HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S070903103,TX,BOWIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S070905105,TX,LUCY MAE MCDONALD EL,state_identifier,provisional_reporting_group_evidence
+TX-S070908107,TX,J A VITOVSKY EL,state_identifier,provisional_reporting_group_evidence
+TX-S070911102,TX,WOODEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S070911107,TX,RUSSELL P SCHUPMANN EL,state_identifier,provisional_reporting_group_evidence
+TX-S070912043,TX,HOWARD J H,state_identifier,provisional_reporting_group_evidence
+TX-S070912106,TX,DUNAWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S070912108,TX,WEDGEWORTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S071801004,TX,THE LINGUISTIC ACAD OF EL PASO-CULTURAL DEMO SITE,state_identifier,provisional_reporting_group_evidence
+TX-S071807101,TX,LA FE PREPARATORY SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S071901044,TX,HORIZON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071901045,TX,RICARDO ESTRADA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071901101,TX,WM DAVID SURRATT EL,state_identifier,provisional_reporting_group_evidence
+TX-S071901102,TX,RED SANDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071901103,TX,DESERT HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071901104,TX,MONTANA VISTA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071901105,TX,FRANK MACIAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071901106,TX,CARROLL T WELCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902006,TX,EL PASO H S,state_identifier,provisional_reporting_group_evidence
+TX-S071902052,TX,WIGGS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071902053,TX,HORNEDO MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071902056,TX,BROWN MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071902059,TX,BOBBY JOE HILL PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071902103,TX,AOY EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902110,TX,COLDWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902111,TX,COOLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902112,TX,CROCKETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902114,TX,DOUGLASS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902118,TX,HART EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902119,TX,HAWKINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902121,TX,HILLSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902125,TX,LAMAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902128,TX,LOGAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902129,TX,GENERAL DOUGLAS MACARTHUR PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071902130,TX,MESITA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902133,TX,NEWMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902134,TX,PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902135,TX,PUTNAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902138,TX,RUSK EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902141,TX,STANTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902143,TX,TRAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902146,TX,WESTERN HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902147,TX,ZACH WHITE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902148,TX,ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902149,TX,CLENDENIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902150,TX,SUNRISE MOUNTAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902151,TX,CIELO VISTA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902153,TX,WHITAKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902156,TX,RIVERA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902159,TX,POLK EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902161,TX,NIXON EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902162,TX,GREEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902163,TX,GUERRERO EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902165,TX,BARRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902166,TX,KOHLBERG EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902167,TX,MORENO EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902168,TX,TIPPIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902169,TX,H R MOYE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902170,TX,DR JOSEFINA VILLAMIL TINAJERO PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071902172,TX,CHARLES Q MURPHREE PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071902173,TX,COACH WALLY HARTLEY PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071902174,TX,WILLIAM C HERRERA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902177,TX,MARGUERITE J LUNDY EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902178,TX,TOM LEA JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902182,TX,DR JOSEPH TORRES EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902183,TX,COACH ARCHIE DURAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071902184,TX,DON HASKINS PK-8,state_identifier,provisional_reporting_group_evidence
+TX-S071903041,TX,FABENS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071903103,TX,JOHANNA ODONNELL INT,state_identifier,provisional_reporting_group_evidence
+TX-S071903105,TX,FABENS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071904101,TX,L G ALARCON EL,state_identifier,provisional_reporting_group_evidence
+TX-S071904104,TX,ALFONSO BORREGO SR EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905001,TX,BEL AIR H S,state_identifier,provisional_reporting_group_evidence
+TX-S071905002,TX,EASTWOOD H S,state_identifier,provisional_reporting_group_evidence
+TX-S071905008,TX,DEL VALLE H S,state_identifier,provisional_reporting_group_evidence
+TX-S071905043,TX,EASTWOOD MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071905055,TX,BEL AIR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071905105,TX,DOLPHIN TERRACE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905106,TX,EASTWOOD KNOLLS INTERNATIONAL,state_identifier,provisional_reporting_group_evidence
+TX-S071905107,TX,EDGEMERE INTERNATIONAL SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S071905109,TX,LOMA TERRACE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905112,TX,NORTH LOOP EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905113,TX,PARKLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905114,TX,RAMONA EL STEM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S071905116,TX,SAGELAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905117,TX,SCOTSDALE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905119,TX,YSLETA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905120,TX,EAST POINT EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905122,TX,PASODALE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905123,TX,PRESA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905124,TX,EASTWOOD HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905127,TX,CAPISTRANO EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905128,TX,VISTA HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905129,TX,GLEN COVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905131,TX,PEBBLE HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905132,TX,TIERRA DEL SOL EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905133,TX,LANCASTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905135,TX,MISSION VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905136,TX,DESERTAIRE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905138,TX,ALICIA R CHACON INTERNATIONAL,state_identifier,provisional_reporting_group_evidence
+TX-S071905141,TX,ROBBIN E L WASHINGTON INTERNATIONAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905142,TX,NORTH STAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905145,TX,DEL VALLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071905146,TX,THOMAS MANOR,state_identifier,provisional_reporting_group_evidence
+TX-S071905148,TX,RIVERSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S071906041,TX,ANTHONY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S071906101,TX,ANTHONY EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907101,TX,CANUTILLO EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907102,TX,DEANNA DAVENPORT EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907103,TX,JOSE H DAMIAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907104,TX,BILL CHILDRESS EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907105,TX,GONZALO AND SOFIA GARCIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S071907106,TX,CONGRESSMAN SILVESTRE & CAROLINA SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S071908044,TX,TORNILLO INT,state_identifier,provisional_reporting_group_evidence
+TX-S071909109,TX,MYRTLE COOPER EL,state_identifier,provisional_reporting_group_evidence
+TX-S071909126,TX,DR SUE A SHOOK SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S072903103,TX,GILBERT INT,state_identifier,provisional_reporting_group_evidence
+TX-S072903104,TX,HOOK EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901101,TX,BEASLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901102,TX,BOWIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901105,TX,JANE LONG EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901107,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901108,TX,TRAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901109,TX,TAYLOR RAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901116,TX,T L PINK EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901118,TX,JACKSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901143,TX,THOMAS R CULVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S079901144,TX,TAMARRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S079910102,TX,STAFFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S080901103,TX,MT VERNON EL,state_identifier,provisional_reporting_group_evidence
+TX-S084901042,TX,DUNBAR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S084901043,TX,JOHN AND SHAMARION BARBER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S084901101,TX,KENNETH E LITTLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S084901105,TX,JAKE SILBERNAGEL EL,state_identifier,provisional_reporting_group_evidence
+TX-S084901107,TX,BAY COLONY EL,state_identifier,provisional_reporting_group_evidence
+TX-S084901108,TX,SAN LEON EL,state_identifier,provisional_reporting_group_evidence
+TX-S084901109,TX,CALDER ROAD EL,state_identifier,provisional_reporting_group_evidence
+TX-S084910043,TX,CLEAR LAKE INT,state_identifier,provisional_reporting_group_evidence
+TX-S084910050,TX,BAYSIDE INT,state_identifier,provisional_reporting_group_evidence
+TX-S084910051,TX,CLEAR CREEK INT,state_identifier,provisional_reporting_group_evidence
+TX-S084910103,TX,LEAGUE CITY EL,state_identifier,provisional_reporting_group_evidence
+TX-S084910106,TX,LAVACE STEWART EL,state_identifier,provisional_reporting_group_evidence
+TX-S084910107,TX,MARGARET S MCWHIRTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S084910112,TX,C D LANDOLT EL,state_identifier,provisional_reporting_group_evidence
+TX-S084910118,TX,BROOKWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S086901102,TX,FREDERICKSBURG EL,state_identifier,provisional_reporting_group_evidence
+TX-S091903045,TX,B MCDANIEL INT,state_identifier,provisional_reporting_group_evidence
+TX-S091903112,TX,MAYES EL,state_identifier,provisional_reporting_group_evidence
+TX-S091906042,TX,PINER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S091906104,TX,CRUTCHFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S091906109,TX,WASHINGTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S091906112,TX,DILLINGHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S092902101,TX,CHANDLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S092902107,TX,KILGORE INT,state_identifier,provisional_reporting_group_evidence
+TX-S092903122,TX,J L EVERHART MAGNET EL,state_identifier,provisional_reporting_group_evidence
+TX-S092903124,TX,CLARENCE W BAILEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S092903125,TX,WARE EL,state_identifier,provisional_reporting_group_evidence
+TX-S092903126,TX,NED E WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S092903127,TX,BRAMLETTE STEAM ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S094901104,TX,ORALIA R RODRIGUEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S094901108,TX,PATLAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S094901109,TX,KOENNECKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S094902103,TX,SCHERTZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S094902108,TX,LAURA INGALLS WILDER INT,state_identifier,provisional_reporting_group_evidence
+TX-S101802001,TX,SER-NINOS CHARTER HIGH,state_identifier,provisional_reporting_group_evidence
+TX-S101802041,TX,SER-NINOS CHARTER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101802101,TX,SER-NINOS CHARTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101802102,TX,SER-NINOS CHARTER EL II,state_identifier,provisional_reporting_group_evidence
+TX-S101804001,TX,GEORGE I SANCHEZ CHARTER,state_identifier,provisional_reporting_group_evidence
+TX-S101804004,TX,GEORGE I SANCHEZ NORTH,state_identifier,provisional_reporting_group_evidence
+TX-S101828001,TX,HOUSTON GATEWAY ACADEMY - CORAL CAMPUS,state_identifier,provisional_reporting_group_evidence
+TX-S101828002,TX,HOUSTON GATEWAY ACADEMY INC ELITE COLLEGE PREP,state_identifier,provisional_reporting_group_evidence
+TX-S101856101,TX,DRAW ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101902101,TX,ANDERSON ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101902103,TX,CARROLL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902105,TX,FRANCIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902106,TX,GOODMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902107,TX,CARTER ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101902110,TX,WORSHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902111,TX,OLESON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902114,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902115,TX,ODOM EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902117,TX,THOMPSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902118,TX,SAMMONS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902119,TX,STEPHENS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902121,TX,ERMEL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902122,TX,CARMICHAEL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902123,TX,CONLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902125,TX,GRAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902126,TX,BLACK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902128,TX,CALVERT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902129,TX,HARRIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902131,TX,BUSSEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902135,TX,GREENSPOINT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902136,TX,CYPRESSWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902138,TX,ESCAMILLA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902139,TX,STEHLIK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902141,TX,CARAWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902143,TX,REED ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101902144,TX,HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902145,TX,MARCELLA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101902146,TX,OGDEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903101,TX,YOUENS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903102,TX,BOONE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903103,TX,MARTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903104,TX,CHAMBERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903105,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903107,TX,KENNEDY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903109,TX,LIESTMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903110,TX,PETROSKY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903113,TX,REES EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903114,TX,ALEXANDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903115,TX,HEARNE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903116,TX,LANDIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903117,TX,SNEED EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903118,TX,BEST EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903120,TX,HICKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903121,TX,BUSH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903122,TX,COLLINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903123,TX,HORN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903124,TX,HOLMQUIST EL,state_identifier,provisional_reporting_group_evidence
+TX-S101903142,TX,YOUNGBLOOD INT,state_identifier,provisional_reporting_group_evidence
+TX-S101903143,TX,MATA INT,state_identifier,provisional_reporting_group_evidence
+TX-S101903144,TX,MILLER INT,state_identifier,provisional_reporting_group_evidence
+TX-S101905042,TX,B H HAMBLEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101905043,TX,AGUIRRE J H,state_identifier,provisional_reporting_group_evidence
+TX-S101905102,TX,DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101905103,TX,MCGHEE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101905104,TX,MCMULLAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101905105,TX,CRENSHAW EL,state_identifier,provisional_reporting_group_evidence
+TX-S101905106,TX,HARVEY S BROWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101906101,TX,NEWPORT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101906103,TX,BARRETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101906104,TX,DREW EL,state_identifier,provisional_reporting_group_evidence
+TX-S101908041,TX,DEEPWATER J H,state_identifier,provisional_reporting_group_evidence
+TX-S101908042,TX,DEER PARK J H,state_identifier,provisional_reporting_group_evidence
+TX-S101908102,TX,DEEPWATER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101908104,TX,SAN JACINTO EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910101,TX,CIMARRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910102,TX,CLOVERLEAF EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910104,TX,GALENA PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910105,TX,GREEN VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910106,TX,JACINTO CITY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910107,TX,MACARTHUR EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910108,TX,NORTH SHORE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910109,TX,PYBURN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910110,TX,WOODLAND ACRES EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910111,TX,TICE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910112,TX,PURPLE SAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910113,TX,JAMES B HAVARD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910114,TX,NORMANDY CROSSING EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910115,TX,DR SHIRLEY J WILLIAMSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101910116,TX,SAM HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911101,TX,ALAMO EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911102,TX,STEPHEN F AUSTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911108,TX,HIGHLANDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911111,TX,LAMAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911112,TX,SAN JACINTO EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911118,TX,CROCKETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911120,TX,DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911122,TX,VICTORIA WALKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101911125,TX,BANUELOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912002,TX,BELLAIRE H S,state_identifier,provisional_reporting_group_evidence
+TX-S101912008,TX,LAMAR H S,state_identifier,provisional_reporting_group_evidence
+TX-S101912012,TX,HEIGHTS H S,state_identifier,provisional_reporting_group_evidence
+TX-S101912042,TX,BLACK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912043,TX,BURBANK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912049,TX,HAMILTON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912050,TX,HOLLAND MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912051,TX,HARTMAN MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912052,TX,HENRY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912053,TX,HOGG MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912055,TX,MEYERLAND MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912057,TX,LANIER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912068,TX,TANGLEWOOD MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912081,TX,SHARPSTOWN INTERNATIONAL SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S101912099,TX,WEST BRIAR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101912104,TX,ALMEDA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912109,TX,BERRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912112,TX,BONNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912115,TX,DURHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912117,TX,BRISCOE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912120,TX,BROWNING EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912124,TX,BURNET EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912130,TX,CONDIT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912132,TX,COOP EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912144,TX,DURKEE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912148,TX,ELROD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912149,TX,EMERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912153,TX,FONDREN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912158,TX,GARDEN VILLAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912162,TX,GREGG EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912167,TX,HARRIS R P EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912170,TX,HELMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912173,TX,HEROD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912175,TX,HOBBY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912180,TX,ISAACS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912198,TX,LOVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912204,TX,MEMORIAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912216,TX,PATTERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912223,TX,PUGH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912231,TX,ROOSEVELT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912233,TX,RUCKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912237,TX,SCARBOROUGH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912239,TX,SHEARN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912242,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912251,TX,TWAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912252,TX,WAINWRIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912256,TX,WHARTON K-8 DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101912257,TX,WHIDBY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912263,TX,LAW EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912267,TX,WHITE E EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912273,TX,ASHFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912286,TX,HERRERA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912289,TX,MARTINEZ C EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912348,TX,HOUSTON ACADEMY FOR INTERNATIONAL STUDIES,state_identifier,provisional_reporting_group_evidence
+TX-S101912382,TX,REAGAN K-8 EDUCATIONAL CTR,state_identifier,provisional_reporting_group_evidence
+TX-S101912383,TX,DEANDA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912396,TX,RAY DAILY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912456,TX,H S AHEAD ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S101912460,TX,MANDARIN IMMERSION MAGNET SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S101912478,TX,ARABIC IMMERSION MAGNET SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S101912480,TX,MARSHALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101912483,TX,MARK WHITE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101913101,TX,HUMBLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101913103,TX,NORTH BEND EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914104,TX,MEMORIAL PARKWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914105,TX,ZELMA HUTSELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914106,TX,BEAR CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914110,TX,SUNDOWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914114,TX,EDNA MAE FIELDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914116,TX,MCROBERTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914118,TX,JAMES E WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914120,TX,ROBERT KING EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914121,TX,JEAN & BETTY SCHMALZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914123,TX,ROBERTA WRIGHT RYLANDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914125,TX,JACK & SHARON RHOADS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914126,TX,FRANZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914128,TX,URSULA STEPHENS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914130,TX,MORTON RANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914133,TX,TOM WILSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914140,TX,JENKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914143,TX,CAMPBELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914145,TX,MCELWAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101914148,TX,RUSSELL & CINDI FALDYN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915102,TX,NORTHAMPTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915108,TX,KAISER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915109,TX,BRILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915117,TX,KLENK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915128,TX,ZWINK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915129,TX,BERNSHAUSEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101915133,TX,FOX EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917048,TX,MILLER INT,state_identifier,provisional_reporting_group_evidence
+TX-S101917101,TX,BAILEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917102,TX,FISHER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917105,TX,GARFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917113,TX,POMEROY EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917137,TX,LAURA WELCH BUSH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101917141,TX,EARNESTEEN MILSTEAD MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101917145,TX,MARSHALL KENDRICK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101917148,TX,THOMAS HANCOCK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919102,TX,BAMMEL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919103,TX,PONDEROSA EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919105,TX,PAT REYNOLDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919106,TX,MEYER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919107,TX,MILDRED JENKINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919108,TX,PEARL M HIRSCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919109,TX,ANDERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919110,TX,JOAN LINK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919111,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919112,TX,BENEKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919114,TX,DELORAS E THOMPSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919115,TX,HERITAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919116,TX,CLARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919117,TX,SALYERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919119,TX,CHET BURCHETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919120,TX,MILTON COOPER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919121,TX,GINGER MCNABB EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919122,TX,NORTHGATE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919123,TX,DONNA LEWIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919124,TX,CAROLEE BOOKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919125,TX,HOYLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919126,TX,RALPH EICKENROHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919127,TX,HELEN MAJOR EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919128,TX,GLORIA MARSHALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101919130,TX,THE SCHOOL FOR INTERNATIONAL STUDIES AT BAMMEL,state_identifier,provisional_reporting_group_evidence
+TX-S101920003,TX,SPRING WOODS H S,state_identifier,provisional_reporting_group_evidence
+TX-S101920014,TX,WESTCHESTER ACADEMY FOR INTERNATIONAL STUDIES,state_identifier,provisional_reporting_group_evidence
+TX-S101920044,TX,SPRING WOODS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101920045,TX,SPRING FOREST MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S101920103,TX,EDGEWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920105,TX,HOLLIBROOK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920106,TX,HOUSMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920110,TX,PINE SHADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920111,TX,RIDGECREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920113,TX,SHADOW OAKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920114,TX,SPRING BRANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920116,TX,WESTWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920117,TX,WOODVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920119,TX,SHERWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920120,TX,SPRING SHADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920122,TX,TERRACE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920123,TX,THORNWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920124,TX,CEDAR BROOK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920125,TX,TREASURE FOREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S101920126,TX,BUFFALO CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S101921105,TX,TOMBALL INT,state_identifier,provisional_reporting_group_evidence
+TX-S101921110,TX,ROSEHILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101921111,TX,CANYON POINTE EL,state_identifier,provisional_reporting_group_evidence
+TX-S101921116,TX,OAKCREST INT,state_identifier,provisional_reporting_group_evidence
+TX-S101924102,TX,ROYALWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S101924104,TX,L E MONAHAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S101924108,TX,SHELDON EL,state_identifier,provisional_reporting_group_evidence
+TX-S101924109,TX,H M CARROLL EL,state_identifier,provisional_reporting_group_evidence
+TX-S101924111,TX,GARRETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S102902103,TX,CROCKETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S102902107,TX,SAM HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S102902108,TX,WM B TRAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S102902116,TX,PRICE T YOUNG EL,state_identifier,provisional_reporting_group_evidence
+TX-S105902101,TX,BOWIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S105902103,TX,DEZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S105902107,TX,HERNANDEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S105902108,TX,MENDEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S105904101,TX,DRIPPING SPRINGS EL,state_identifier,provisional_reporting_group_evidence
+TX-S105906112,TX,SCIENCE HALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S105906113,TX,BLANCO VISTA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108808101,TX,VANGUARD REMBRANDT,state_identifier,provisional_reporting_group_evidence
+TX-S108808103,TX,VANGUARD PICASSO,state_identifier,provisional_reporting_group_evidence
+TX-S108808104,TX,VANGUARD MOZART,state_identifier,provisional_reporting_group_evidence
+TX-S108808105,TX,VANGUARD BEETHOVEN,state_identifier,provisional_reporting_group_evidence
+TX-S108808106,TX,VANGUARD VAN GOGH,state_identifier,provisional_reporting_group_evidence
+TX-S108808107,TX,VANGUARD MONET,state_identifier,provisional_reporting_group_evidence
+TX-S108902046,TX,VETERANS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108902047,TX,DORA M SAUCEDA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108902102,TX,GUZMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902103,TX,T PRICE EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902104,TX,A M OCHOA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902106,TX,C STAINKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902112,TX,CAPT D SALINAS II EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902113,TX,PATRICIA S GARZA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902114,TX,MARIA ALICIA P MUNOZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902115,TX,LE NOIR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902116,TX,DANIEL SINGLETERRY SR,state_identifier,provisional_reporting_group_evidence
+TX-S108902117,TX,ELOY GARZA SALAZAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108902118,TX,JULIAN S ADAME,state_identifier,provisional_reporting_group_evidence
+TX-S108905101,TX,HIDALGO EL,state_identifier,provisional_reporting_group_evidence
+TX-S108905102,TX,JC KELLY EL,state_identifier,provisional_reporting_group_evidence
+TX-S108905103,TX,DR ALEJO SALINAS JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108905104,TX,HIDALGO PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906011,TX,ACHIEVE EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108906048,TX,MICHAEL E FOSSUM MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108906107,TX,JACKSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906111,TX,MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906114,TX,FIELDS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906123,TX,MCAULIFFE EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906124,TX,GONZALEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108906127,TX,BLANCA E SANCHEZ,state_identifier,provisional_reporting_group_evidence
+TX-S108906128,TX,DR PABLO PEREZ,state_identifier,provisional_reporting_group_evidence
+TX-S108908101,TX,BRYAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908102,TX,CASTRO EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908104,TX,MARCELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908105,TX,PEARSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908107,TX,ALTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908108,TX,CANTU EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908109,TX,LEAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908110,TX,MIMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908111,TX,OLLIE O'GRADY EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908112,TX,CARL C WAITZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908113,TX,SALINAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908114,TX,RAQUEL CAVAZOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908115,TX,HURLA M MIDKIFF EL,state_identifier,provisional_reporting_group_evidence
+TX-S108908116,TX,HILDA C ESCOBAR/ALICIA C RIOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909001,TX,PSJA EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909002,TX,PSJA MEMORIAL EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909003,TX,PSJA NORTH EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909006,TX,ELVIS J BALLEW H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909007,TX,PSJA SOUTHWEST EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909009,TX,PSJA THOMAS JEFFERSON T-STEM EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S108909016,TX,PSJA COLLEGIATE SCHOOL OF HEALTH PROFESSIONS,state_identifier,provisional_reporting_group_evidence
+TX-S108909041,TX,AUSTIN MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909042,TX,ALAMO MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909043,TX,LYNDON B JOHNSON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909045,TX,R YZAGUIRRE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909046,TX,KENNEDY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909047,TX,JAIME ESCALANTE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909048,TX,AUDIE MURPHY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108909101,TX,JOHN MCKEEVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909106,TX,JOHN DOEDYNS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909107,TX,GERALDINE PALMER EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909108,TX,HENRY FORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909110,TX,ZEFERINO FARIAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909112,TX,ALFRED SORENSEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909113,TX,AIDA C ESCOBAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909115,TX,RAUL LONGORIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909116,TX,DANIEL RAMIREZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909117,TX,KELLY-PHARR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909118,TX,AMANDA GARZA-PENA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909119,TX,EDITH & ETHEL CARMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909120,TX,ARNOLDO CANTU SR EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909121,TX,SANTOS LIVAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909122,TX,DRS REED - MOCK EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909123,TX,CESAR CHAVEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909124,TX,DR WILLIAM LONG EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909125,TX,VIDA N CLOVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909126,TX,AUGUSTO GUERRA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909127,TX,GRACIELA GARCIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909128,TX,CARMEN ANAYA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909129,TX,SGT LEONEL TREVINO EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909130,TX,ALLEN & WILLIAM ARNOLD EL,state_identifier,provisional_reporting_group_evidence
+TX-S108909134,TX,MARCIA R GARZA,state_identifier,provisional_reporting_group_evidence
+TX-S108909136,TX,BERTA S PALACIOS EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912007,TX,LA JOYA PALMVIEW H S,state_identifier,provisional_reporting_group_evidence
+TX-S108912043,TX,DR JAVIER SAENZ MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108912044,TX,MEMORIAL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108912048,TX,JUAN DE DIOS SALINAS MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108912049,TX,DOMINGO TREVINO MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S108912102,TX,JOHN F KENNEDY EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912104,TX,GUILLERMO FLORES EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912105,TX,ROSENDO BENAVIDES EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912106,TX,LEO J LEO EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912108,TX,E B REYNA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912109,TX,ELODIA R CHAPA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912110,TX,JOSE DE ESCANDON EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912111,TX,DIAZ-VILLARREAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912112,TX,NARCISO CAVAZOS,state_identifier,provisional_reporting_group_evidence
+TX-S108912113,TX,TABASCO EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912114,TX,PATRICIO PEREZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912115,TX,HENRY B GONZALEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912116,TX,LLOYD M BENTSEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912117,TX,SAM FORDYCE EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912118,TX,EMILIANO ZAPATA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912120,TX,JUAN SEGUIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912121,TX,ENRIQUE KIKI CAMARENA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912122,TX,DR AMERICO PAREDES EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912123,TX,WILLIAM J CLINTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912124,TX,CORINA PENA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912126,TX,EVANGELINA GARZA EL,state_identifier,provisional_reporting_group_evidence
+TX-S108912127,TX,DR MARIA PALMIRA MENDIOLA EL,state_identifier,provisional_reporting_group_evidence
+TX-S111901108,TX,JOHN AND LYNN BRAWNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S112901105,TX,TRAVIS PRI,state_identifier,provisional_reporting_group_evidence
+TX-S112901108,TX,SULPHUR SPRINGS EL,state_identifier,provisional_reporting_group_evidence
+TX-S115901101,TX,BENITO MARTINEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S116905102,TX,BOWIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S116905104,TX,CARVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S116905107,TX,TRAVIS INT,state_identifier,provisional_reporting_group_evidence
+TX-S126901104,TX,ALVARADO INT,state_identifier,provisional_reporting_group_evidence
+TX-S126902105,TX,JACK TAYLOR EL,state_identifier,provisional_reporting_group_evidence
+TX-S126903041,TX,LOWELL SMITH JR INT,state_identifier,provisional_reporting_group_evidence
+TX-S126903104,TX,IRVING EL,state_identifier,provisional_reporting_group_evidence
+TX-S126903107,TX,AD WHEAT MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S126903109,TX,COOKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S126903111,TX,SANTA FE EL,state_identifier,provisional_reporting_group_evidence
+TX-S126905103,TX,A G ELDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S126905106,TX,CADDO GROVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S126908101,TX,VENUS EL,state_identifier,provisional_reporting_group_evidence
+TX-S129901101,TX,W A MARTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S129902102,TX,CRISWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S129902110,TX,RHODES IS,state_identifier,provisional_reporting_group_evidence
+TX-S130901101,TX,CURINGTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S130901102,TX,FABRA EL,state_identifier,provisional_reporting_group_evidence
+TX-S130901104,TX,KENDALL EL,state_identifier,provisional_reporting_group_evidence
+TX-S130901107,TX,HERFF EL,state_identifier,provisional_reporting_group_evidence
+TX-S139909108,TX,JUSTISS EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901102,TX,NORTHSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901103,TX,SOUTHSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901104,TX,EASTSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901105,TX,COTTONWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901106,TX,PINE BURR EL,state_identifier,provisional_reporting_group_evidence
+TX-S146901107,TX,SANTA FE EL,state_identifier,provisional_reporting_group_evidence
+TX-S152901156,TX,BEAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S152901163,TX,HARWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S152901169,TX,MCWHORTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S152906105,TX,LUBBOCK-COOPER CENTRAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S152907001,TX,FRENSHIP H S,state_identifier,provisional_reporting_group_evidence
+TX-S152907042,TX,TERRA VISTA MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S152907106,TX,WILLOW BEND EL,state_identifier,provisional_reporting_group_evidence
+TX-S161906103,TX,LA VEGA INT H P MILES CAMPUS,state_identifier,provisional_reporting_group_evidence
+TX-S161906105,TX,LA VEGA EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914103,TX,BELL'S HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914105,TX,CEDAR RIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914106,TX,CRESTVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914107,TX,DEAN HIGHLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914112,TX,KENDRICK EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914121,TX,PROVIDENT HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S161914127,TX,LAKE AIR MONTESSORI SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S165901101,TX,BONHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901104,TX,BURNET EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901106,TX,DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901107,TX,FANNIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901112,TX,LONG EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901113,TX,MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901116,TX,RUSK EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901117,TX,SOUTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901130,TX,PEASE COMMUNICATIONS/TECHNOLOGY ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S165901132,TX,BARBARA YARBROUGH EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901133,TX,BARBARA FASKEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S165901134,TX,RALPH BUNCHE EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902045,TX,WILKERSON INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902056,TX,VETERAN'S MEMORIAL INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902068,TX,GRANGERLAND INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902069,TX,VOGEL INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902070,TX,TRAVIS INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902073,TX,CRYAR INTERMEDIATE,state_identifier,provisional_reporting_group_evidence
+TX-S170902078,TX,BOZMAN INT,state_identifier,provisional_reporting_group_evidence
+TX-S170902101,TX,ANDERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902102,TX,AUSTIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902103,TX,RUNYAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902104,TX,HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902105,TX,MILAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902106,TX,CREIGHTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902107,TX,ARMSTRONG EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902108,TX,LAMAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902109,TX,OAK RIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902111,TX,HOUSER EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902112,TX,FORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902114,TX,RICE EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902115,TX,SAN JACINTO EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902116,TX,GLEN LOCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902124,TX,REAVES EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902128,TX,PATTERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S170902134,TX,HOPE EL,state_identifier,provisional_reporting_group_evidence
+TX-S170903103,TX,MONTGOMERY EL,state_identifier,provisional_reporting_group_evidence
+TX-S170904103,TX,C C HARDY EL,state_identifier,provisional_reporting_group_evidence
+TX-S170906062,TX,BEAR BRANCH INT,state_identifier,provisional_reporting_group_evidence
+TX-S170906102,TX,MAGNOLIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S170906103,TX,J L LYON EL,state_identifier,provisional_reporting_group_evidence
+TX-S170906105,TX,WILLIE E WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S170906106,TX,CEDRIC C SMITH,state_identifier,provisional_reporting_group_evidence
+TX-S170906109,TX,MAGNOLIA PARKWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S170907101,TX,PEACH CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S170907102,TX,GREENLEAF EL,state_identifier,provisional_reporting_group_evidence
+TX-S170907104,TX,PINEY WOODS EL,state_identifier,provisional_reporting_group_evidence
+TX-S170907105,TX,TIMBER LAKES EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908101,TX,PORTER EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908102,TX,NEW CANEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908106,TX,ROBERT CRIPPEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908109,TX,VALLEY RANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908110,TX,SORTERS MILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908111,TX,BENS BRANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908113,TX,OAKLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908114,TX,TAVOLA EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908115,TX,DOGWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S170908116,TX,BROOKWOOD FOREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S174904043,TX,MCMICHAEL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S174904110,TX,THOMAS J RUSK EL,state_identifier,provisional_reporting_group_evidence
+TX-S174904112,TX,MIKE MOSES EL,state_identifier,provisional_reporting_group_evidence
+TX-S175903042,TX,COLLINS INT,state_identifier,provisional_reporting_group_evidence
+TX-S175903105,TX,SAM HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S179901102,TX,JAMES L WRIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S184903103,TX,WRIGHT EL,state_identifier,provisional_reporting_group_evidence
+TX-S184903109,TX,SEGUIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S184903110,TX,IKARD EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901106,TX,EMERSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901107,TX,FOREST HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901108,TX,GLENWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901111,TX,HUMPHREY'S HIGHLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901115,TX,PARK HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S188901125,TX,SANBORN EL,state_identifier,provisional_reporting_group_evidence
+TX-S199901102,TX,HOWARD DOBBS EL,state_identifier,provisional_reporting_group_evidence
+TX-S199901109,TX,DORRIS A JONES EL,state_identifier,provisional_reporting_group_evidence
+TX-S199901111,TX,OUIDA SPRINGER,state_identifier,provisional_reporting_group_evidence
+TX-S199902102,TX,DAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S199902104,TX,ANITA SCOTT EL,state_identifier,provisional_reporting_group_evidence
+TX-S199902105,TX,W R (BILL) FORT EL,state_identifier,provisional_reporting_group_evidence
+TX-S199902108,TX,HARRY HERNDON EL,state_identifier,provisional_reporting_group_evidence
+TX-S208902043,TX,SNYDER J H,state_identifier,provisional_reporting_group_evidence
+TX-S208902109,TX,SNYDER PRI,state_identifier,provisional_reporting_group_evidence
+TX-S208902110,TX,SNYDER INT,state_identifier,provisional_reporting_group_evidence
+TX-S212905102,TX,BELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S212905103,TX,BIRDWELL SCHOOL,state_identifier,provisional_reporting_group_evidence
+TX-S212905104,TX,BONNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S212905107,TX,DIXIE EL,state_identifier,provisional_reporting_group_evidence
+TX-S212909042,TX,CHAPEL HILL J H,state_identifier,provisional_reporting_group_evidence
+TX-S212909101,TX,WISE EL,state_identifier,provisional_reporting_group_evidence
+TX-S212909102,TX,JACKSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S212909103,TX,W L KISSAM INT,state_identifier,provisional_reporting_group_evidence
+TX-S214901102,TX,GRULLA EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901103,TX,LA UNION EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901104,TX,ALBERTO AND CELIA BARRERA EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901105,TX,JOHN & OLIVE HINOJOSA EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901107,TX,RINGGOLD EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901108,TX,ROQUE GUERRA JR EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901110,TX,ALTO BONITO EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901111,TX,GENERAL RICARDO SANCHEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S214901112,TX,DR MARIO E RAMIREZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S220901047,TX,GUNN J H,state_identifier,provisional_reporting_group_evidence
+TX-S220901137,TX,COREY FINE ARTS / DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220901163,TX,JONES FINE ARTS / DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220901166,TX,WIMBISH WORLD LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220902101,TX,BIRDVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902102,TX,DAVID E SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902104,TX,JACK C BINION EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902109,TX,CHENEY HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902110,TX,O H STOWE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902111,TX,WEST BIRDVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902113,TX,WATAUGA EL,state_identifier,provisional_reporting_group_evidence
+TX-S220902116,TX,ACADEMY AT CARRIE F THOMAS,state_identifier,provisional_reporting_group_evidence
+TX-S220905084,TX,WORLD LANGUAGES INSTITUTE,state_identifier,provisional_reporting_group_evidence
+TX-S220905105,TX,WEST HANDLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905107,TX,BURTON HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905110,TX,CARROLL PEAK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905111,TX,CARTER PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905114,TX,MANUEL JARA EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905115,TX,GEORGE CLARKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905116,TX,LILY B CLAYTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905117,TX,COMO EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905119,TX,DAGGETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905120,TX,RUFINO MENDOZA SR EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905121,TX,DE ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905122,TX,DIAMOND HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905124,TX,MAUDE I LOGAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905125,TX,EASTERN HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905126,TX,EAST HANDLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905127,TX,CHRISTENE C MOSS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905132,TX,GLEN PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905133,TX,W M GREEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905134,TX,GREENBRIAR EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905135,TX,VAN ZANDT-GUINN EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905137,TX,HUBBARD EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905138,TX,HELBING EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905139,TX,KIRKPATRICK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905141,TX,MEADOWBROOK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905143,TX,MCRAE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905144,TX,MITCHELL BOULEVARD EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905146,TX,MOORE M H EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905147,TX,MORNINGSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905148,TX,CHARLES NASH EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905149,TX,NORTH HI MOUNT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905150,TX,OAKHURST EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905151,TX,NATHA HOWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905153,TX,A M PATE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905154,TX,M L PHILLIPS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905157,TX,LUELLA MERRETT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905159,TX,VERSIA WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905160,TX,MAUDRIE WALTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905161,TX,SAM ROSEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905162,TX,SAGAMORE HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905165,TX,RICHARD J WILSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905166,TX,SOUTH HI MOUNT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905167,TX,SOUTH HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905168,TX,SPRINGDALE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905172,TX,W J TURNER EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905175,TX,WASHINGTON HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905176,TX,WAVERLY PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905177,TX,WESTCLIFF EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905178,TX,WESTCREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905180,TX,WESTERN HILLS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905184,TX,WORTH HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905208,TX,T A SIMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905216,TX,WOODWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905219,TX,LOWERY ROAD,state_identifier,provisional_reporting_group_evidence
+TX-S220905220,TX,ALICE D CONTRERAS,state_identifier,provisional_reporting_group_evidence
+TX-S220905222,TX,CLIFFORD DAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905223,TX,CESAR CHAVEZ PRI,state_identifier,provisional_reporting_group_evidence
+TX-S220905225,TX,BONNIE BRAE,state_identifier,provisional_reporting_group_evidence
+TX-S220905226,TX,SEMINARY HILLS PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220905227,TX,DOLORES HUERTA EL,state_identifier,provisional_reporting_group_evidence
+TX-S220906101,TX,CANNON EL,state_identifier,provisional_reporting_group_evidence
+TX-S220906104,TX,TIMBERLINE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220906110,TX,SILVER LAKE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220907042,TX,FOSSIL HILL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220907103,TX,PARKVIEW EL,state_identifier,provisional_reporting_group_evidence
+TX-S220907111,TX,NORTH RIVERSIDE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220907114,TX,PARKWOOD HILL INT,state_identifier,provisional_reporting_group_evidence
+TX-S220907117,TX,FREEDOM EL,state_identifier,provisional_reporting_group_evidence
+TX-S220907123,TX,TRINITY MEADOWS INT,state_identifier,provisional_reporting_group_evidence
+TX-S220907125,TX,CAPROCK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220907126,TX,BASSWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S220908042,TX,T A HOWARD MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220908043,TX,BROOKS WESTER MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220908101,TX,ALICE PONDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S220908109,TX,D P MORRIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220908113,TX,ERMA NASH EL,state_identifier,provisional_reporting_group_evidence
+TX-S220908201,TX,MARY ORR INT,state_identifier,provisional_reporting_group_evidence
+TX-S220908204,TX,DONNA SHEPARD ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220908205,TX,DELLA ICENHOWER INT,state_identifier,provisional_reporting_group_evidence
+TX-S220908207,TX,ASA E LOW JR INT,state_identifier,provisional_reporting_group_evidence
+TX-S220908208,TX,ALMA MARTINEZ INT,state_identifier,provisional_reporting_group_evidence
+TX-S220910104,TX,MARILYN MILLER LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220912001,TX,CROWLEY H S,state_identifier,provisional_reporting_group_evidence
+TX-S220912042,TX,CROWLEY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220912043,TX,SUMMER CREEK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220912044,TX,RICHARD ALLIE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220912102,TX,SYCAMORE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912103,TX,DEER CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912104,TX,MEADOWCREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912106,TX,PARKWAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912107,TX,OAKMONT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912109,TX,J A HARGRAVE EL,state_identifier,provisional_reporting_group_evidence
+TX-S220912113,TX,DAVID L WALKER ELT,state_identifier,provisional_reporting_group_evidence
+TX-S220912116,TX,CROWLEY MONTESSORI ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S220915102,TX,EAGLE HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S220917101,TX,A V CATO EL,state_identifier,provisional_reporting_group_evidence
+TX-S220917102,TX,CASTLEBERRY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220917104,TX,JOY JAMES ACADEMY OF LEADERSHIP,state_identifier,provisional_reporting_group_evidence
+TX-S220918041,TX,WAYSIDE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S220918101,TX,L A GILILLAND EL,state_identifier,provisional_reporting_group_evidence
+TX-S220918107,TX,REMINGTON POINT EL,state_identifier,provisional_reporting_group_evidence
+TX-S220918114,TX,WILLOW CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S220920101,TX,LIBERTY EL,state_identifier,provisional_reporting_group_evidence
+TX-S220920102,TX,NORTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S220920105,TX,TANNAHILL INT,state_identifier,provisional_reporting_group_evidence
+TX-S221901152,TX,ORTIZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S225902042,TX,P E WALLACE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S225902102,TX,ANNIE SIMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S225902104,TX,VIVIAN FOWLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S225907101,TX,HARTS BLUFF EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901002,TX,AUSTIN H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901004,TX,NAVARRO EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901007,TX,TRAVIS EARLY COLLEGE H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901008,TX,CROCKETT ECHS,state_identifier,provisional_reporting_group_evidence
+TX-S227901009,TX,ANDERSON H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901013,TX,BOWIE H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901017,TX,AKINS H S,state_identifier,provisional_reporting_group_evidence
+TX-S227901028,TX,RICHARDS SCH FOR YOUNG WOMEN LEADERS,state_identifier,provisional_reporting_group_evidence
+TX-S227901043,TX,LIVELY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901044,TX,KEALING MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901045,TX,LAMAR MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901046,TX,BURNET MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901053,TX,WEBB MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901054,TX,BEDICHEK MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901055,TX,DOBIE MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901057,TX,COVINGTON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901058,TX,MENDEZ MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901060,TX,SMALL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901061,TX,PAREDES MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901063,TX,GENERAL MARSHALL MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227901064,TX,GARCIA YMLA,state_identifier,provisional_reporting_group_evidence
+TX-S227901065,TX,SADLER MEANS YWLA,state_identifier,provisional_reporting_group_evidence
+TX-S227901101,TX,ALLISON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901102,TX,ANDREWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901104,TX,BECKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901106,TX,BLANTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901109,TX,BROWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901113,TX,CUNNINGHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901114,TX,DAWSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901116,TX,GOVALLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901118,TX,HARRIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901122,TX,MAPLEWOOD EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901126,TX,ORTEGA EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901127,TX,SANCHEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901129,TX,PECAN SPRINGS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901130,TX,PLEASANT HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901132,TX,REILLY EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901133,TX,RIDGETOP EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901136,TX,ST ELMO EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901138,TX,SUMMITT EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901140,TX,TRAVIS HTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901141,TX,WALNUT CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901144,TX,WOOTEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901145,TX,ZAVALA EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901146,TX,ZILKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901147,TX,MENCHACA EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901148,TX,OAK HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901149,TX,BARRINGTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901150,TX,NORMAN-SIMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901151,TX,PILLOW EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901152,TX,WOOLDRIDGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901154,TX,DOSS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901156,TX,ODOM EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901157,TX,WINN MONTESSORI,state_identifier,provisional_reporting_group_evidence
+TX-S227901158,TX,SUNSET VALLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901159,TX,GRAHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901160,TX,LINDER EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901161,TX,COOK EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901162,TX,HOUSTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901163,TX,HART EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901164,TX,PICKLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901165,TX,MCBEE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901166,TX,WILLIAMS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901168,TX,LANGFORD EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901171,TX,PALM EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901172,TX,KOCUREK EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901173,TX,CASEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901174,TX,RODRIGUEZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901175,TX,WIDEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901176,TX,GALINDO EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901178,TX,JORDAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901185,TX,BLAZIER EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901186,TX,GUERRERO THOMPSON,state_identifier,provisional_reporting_group_evidence
+TX-S227901188,TX,PADRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901189,TX,OVERTON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901190,TX,PEREZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901195,TX,BEAR CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S227901198,TX,JOSLIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904045,TX,DESSAU MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S227904101,TX,PFLUGERVILLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904102,TX,PARMER LANE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904105,TX,DESSAU EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904107,TX,RIVER OAKS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904109,TX,SPRINGHILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904111,TX,COPPERFIELD EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904113,TX,WILHELMINA DELCO EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904114,TX,CALDWELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904116,TX,HIGHLAND PARK EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904118,TX,RIOJAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227904119,TX,RUTH BARRON EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907102,TX,BLUEBONNET TRAIL EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907104,TX,DECKER EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907105,TX,BLAKE MANOR EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907106,TX,PRESIDENTIAL MEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907107,TX,OAK MEADOWS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227907109,TX,SHADOWGLEN EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910101,TX,POPHAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910106,TX,SMITH EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910107,TX,HILLCREST EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910108,TX,BATY EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910109,TX,HORNSBY-DUNLAP EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910110,TX,DEL VALLE EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910111,TX,CREEDMOOR EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910112,TX,JOSEPH GILBERT EL,state_identifier,provisional_reporting_group_evidence
+TX-S227910113,TX,NEWTON COLLINS EL,state_identifier,provisional_reporting_group_evidence
+TX-S227913101,TX,LAKE TRAVIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S232903001,TX,UVALDE H S,state_identifier,provisional_reporting_group_evidence
+TX-S232903044,TX,MORALES J H,state_identifier,provisional_reporting_group_evidence
+TX-S232903111,TX,UVALDE DUAL LANGUAGE ACADEMY,state_identifier,provisional_reporting_group_evidence
+TX-S235902106,TX,CRAIN EL,state_identifier,provisional_reporting_group_evidence
+TX-S237902101,TX,HEMPSTEAD EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903103,TX,NYE EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903107,TX,SALINAS EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903115,TX,RUIZ EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903120,TX,CHARLES BORCHERS EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903122,TX,COL SANTOS BENAVIDES EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903124,TX,JUDITH ZAFFIRINI EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903126,TX,JULIA BIRD JONES MULLER EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903127,TX,JOHN W ARNDT EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903128,TX,BONNIE L GARCIA EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903132,TX,RADCLIFFE & SUE KILLAM EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903133,TX,VETERANS MEMORIAL EL,state_identifier,provisional_reporting_group_evidence
+TX-S240903135,TX,SAN ISIDRO EL,state_identifier,provisional_reporting_group_evidence
+TX-S246904101,TX,ANNIE PURL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246904102,TX,CARVER EL,state_identifier,provisional_reporting_group_evidence
+TX-S246904104,TX,PAT COOPER EL,state_identifier,provisional_reporting_group_evidence
+TX-S246904107,TX,VILLAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S246904110,TX,JAMES E MITCHELL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246906103,TX,COTTONWOOD CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S246906104,TX,RAY EL,state_identifier,provisional_reporting_group_evidence
+TX-S246906106,TX,VETERANS HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246906108,TX,BENJAMIN DOC KERLEY EL,state_identifier,provisional_reporting_group_evidence
+TX-S246907103,TX,DOUBLE CREEK EL,state_identifier,provisional_reporting_group_evidence
+TX-S246908101,TX,LIBERTY HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909101,TX,CLAUDE BERKMAN EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909106,TX,XENIA VOIGT EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909109,TX,ANDERSON MILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909111,TX,VIC ROBERTSON EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909113,TX,PURPLE SAGE EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909115,TX,WELLS BRANCH EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909118,TX,BLUEBONNET EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909121,TX,GATTIS EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909122,TX,OLD TOWN EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909127,TX,CALDWELL HEIGHTS EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909136,TX,NEYSA CALLISON EL,state_identifier,provisional_reporting_group_evidence
+TX-S246909137,TX,UNION HILL EL,state_identifier,provisional_reporting_group_evidence
+TX-S246911102,TX,MAIN STREET EL,state_identifier,provisional_reporting_group_evidence
+TX-S246913044,TX,ARTIE L HENRY MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S246913049,TX,STACY KAYE DANIELSON MIDDLE,state_identifier,provisional_reporting_group_evidence
+TX-S246913101,TX,WHITESTONE EL,state_identifier,provisional_reporting_group_evidence
+TX-S246913109,TX,BAGDAD EL,state_identifier,provisional_reporting_group_evidence
+TX-S246913112,TX,PATRICIA KNOWLES EL,state_identifier,provisional_reporting_group_evidence
+TX-S246913124,TX,OFFICER LEONARD A REED EL,state_identifier,provisional_reporting_group_evidence
+TX-S247901104,TX,FLORESVILLE NORTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S247901106,TX,FLORESVILLE SOUTH EL,state_identifier,provisional_reporting_group_evidence
+TX-S247903041,TX,LA VERNIA J H,state_identifier,provisional_reporting_group_evidence
+TX-S247903104,TX,LA VERNIA INT,state_identifier,provisional_reporting_group_evidence
+TX-S249905101,TX,RANN EL,state_identifier,provisional_reporting_group_evidence
+WA-S100331,WA,Lutacaga Elementary,state_identifier,candidate
+WA-S100361,WA,Eastgate Elementary School,state_identifier,candidate
+WA-S100363,WA,Kennewick High School,state_identifier,candidate
+WA-S100366,WA,Highlands Middle School,state_identifier,candidate
+WA-S100369,WA,Park Middle School,state_identifier,candidate
+WA-S100370,WA,Kamiakin High School,state_identifier,candidate
+WA-S100381,WA,Amistad Elementary School,state_identifier,candidate
+WA-S100384,WA,Southridge High School,state_identifier,candidate
+WA-S100393,WA,River View High School,state_identifier,candidate
+WA-S100398,WA,Keene-Riverview Elementary,state_identifier,candidate
+WA-S100399,WA,Prosser High School,state_identifier,candidate
+WA-S100400,WA,Whitstran Elementary,state_identifier,candidate
+WA-S100402,WA,Prosser Heights Elementary,state_identifier,candidate
+WA-S100449,WA,Cascade High School,state_identifier,candidate
+WA-S100459,WA,Wenatchee High School,state_identifier,candidate
+WA-S100460,WA,Lewis And Clark Elementary Sch,state_identifier,candidate
+WA-S100470,WA,Foothills Middle School,state_identifier,candidate
+WA-S100480,WA,Port Angeles High School,state_identifier,candidate
+WA-S100484,WA,Stevens Middle School,state_identifier,candidate
+WA-S100503,WA,Neah Bay Elementary School,state_identifier,candidate
+WA-S100505,WA,Neah Bay Junior/ Senior High School,state_identifier,candidate
+WA-S100521,WA,Fort Vancouver High School,state_identifier,candidate
+WA-S100527,WA,Edgewood Elementary School,state_identifier,candidate
+WA-S100535,WA,Sarah J Anderson Elementary,state_identifier,candidate
+WA-S100537,WA,Benjamin Franklin Elementary,state_identifier,candidate
+WA-S100539,WA,Mcloughlin Middle School,state_identifier,candidate
+WA-S100540,WA,Columbia River High,state_identifier,candidate
+WA-S100543,WA,Jason Lee Middle School,state_identifier,candidate
+WA-S100546,WA,Martin Luther King Elementary,state_identifier,candidate
+WA-S100549,WA,Gaiser Middle School,state_identifier,candidate
+WA-S100559,WA,Roosevelt Elementary School,state_identifier,candidate
+WA-S100579,WA,Hathaway Elementary,state_identifier,candidate
+WA-S100598,WA,Marrion Elementary School,state_identifier,candidate
+WA-S100608,WA,Wyeast Middle School,state_identifier,candidate
+WA-S100609,WA,Mountain View High School,state_identifier,candidate
+WA-S100615,WA,Pioneer Elementary School,state_identifier,candidate
+WA-S100616,WA,Frontier Middle School,state_identifier,candidate
+WA-S100618,WA,Heritage High School,state_identifier,candidate
+WA-S100670,WA,Monticello Middle School,state_identifier,candidate
+WA-S100703,WA,Kelso High School,state_identifier,candidate
+WA-S100727,WA,Eastmont Senior High,state_identifier,candidate
+WA-S100732,WA,Eastmont Junior High,state_identifier,candidate
+WA-S100743,WA,Keller Elementary School,state_identifier,candidate
+WA-S100750,WA,Inchelium High School,state_identifier,candidate
+WA-S100752,WA,Inchelium Middle School,state_identifier,candidate
+WA-S100753,WA,Inchelium Elementary School,state_identifier,candidate
+WA-S100759,WA,Mcloughlin Middle School,state_identifier,candidate
+WA-S100761,WA,Longfellow Elementary,state_identifier,candidate
+WA-S100762,WA,Pasco Senior High School,state_identifier,candidate
+WA-S100763,WA,Emerson Elementary,state_identifier,candidate
+WA-S100764,WA,Mark Twain Elementary,state_identifier,candidate
+WA-S100765,WA,Stevens Middle School,state_identifier,candidate
+WA-S100766,WA,Edwin Markham Elementary,state_identifier,candidate
+WA-S100767,WA,Robert Frost Elementary,state_identifier,candidate
+WA-S100770,WA,Ruth Livingston Elementary,state_identifier,candidate
+WA-S100772,WA,James McGee Elementary,state_identifier,candidate
+WA-S100773,WA,Whittier Elementary,state_identifier,candidate
+WA-S100774,WA,Rowena Chess Elementary,state_identifier,candidate
+WA-S100775,WA,Ellen Ochoa Middle School,state_identifier,candidate
+WA-S100780,WA,Robert L Olds Junior High School,state_identifier,candidate
+WA-S100794,WA,Mattawa Elementary,state_identifier,candidate
+WA-S100795,WA,Morris Schott Elementary,state_identifier,candidate
+WA-S100797,WA,Saddle Mountain Elementary,state_identifier,candidate
+WA-S100809,WA,Warden High School,state_identifier,candidate
+WA-S100835,WA,Moses Lake High School,state_identifier,candidate
+WA-S100855,WA,Lake Roosevelt Jr/Sr High School,state_identifier,candidate
+WA-S100893,WA,Elma High School,state_identifier,candidate
+WA-S100910,WA,Ocosta Junior - Senior High,state_identifier,candidate
+WA-S100928,WA,North Whidbey Middle School,state_identifier,candidate
+WA-S101039,WA,Beacon Hill International School,state_identifier,candidate
+WA-S101042,WA,John Stanford International School,state_identifier,candidate
+WA-S101064,WA,Concord International School,state_identifier,candidate
+WA-S101086,WA,Hamilton International Middle School,state_identifier,candidate
+WA-S101098,WA,West Seattle Elementary School,state_identifier,candidate
+WA-S101107,WA,David T. Denny International Middle School,state_identifier,candidate
+WA-S101112,WA,Olympic Hills Elementary School,state_identifier,candidate
+WA-S101117,WA,Mercer International Middle School,state_identifier,candidate
+WA-S101118,WA,Chief Sealth International High School,state_identifier,candidate
+WA-S101145,WA,Dearborn Park International School,state_identifier,candidate
+WA-S101186,WA,Federal Way High School,state_identifier,candidate
+WA-S101193,WA,Evergreen Middle School,state_identifier,candidate
+WA-S101194,WA,Olympic View Elementary School,state_identifier,candidate
+WA-S101197,WA,Sunnycrest Elementary School,state_identifier,candidate
+WA-S101201,WA,Thomas Jefferson High School,state_identifier,candidate
+WA-S101210,WA,Decatur High School,state_identifier,candidate
+WA-S101226,WA,Todd Beamer High School,state_identifier,candidate
+WA-S101254,WA,Mount View Elementary,state_identifier,candidate
+WA-S101256,WA,Highline High School,state_identifier,candidate
+WA-S101260,WA,White Center Heights Elementary,state_identifier,candidate
+WA-S101261,WA,Hazel Valley Elementary,state_identifier,candidate
+WA-S101262,WA,McMicken Heights Elementary,state_identifier,candidate
+WA-S101266,WA,Shorewood Elementary,state_identifier,candidate
+WA-S101270,WA,Cedarhurst Elementary,state_identifier,candidate
+WA-S101271,WA,Sylvester Middle School,state_identifier,candidate
+WA-S101272,WA,Bow Lake Elementary,state_identifier,candidate
+WA-S101273,WA,North Hill Elementary,state_identifier,candidate
+WA-S101274,WA,Midway Elementary,state_identifier,candidate
+WA-S101280,WA,Marvista Elementary,state_identifier,candidate
+WA-S101281,WA,Chinook Middle School,state_identifier,candidate
+WA-S101282,WA,Evergreen High School,state_identifier,candidate
+WA-S101283,WA,Cascade Middle School,state_identifier,candidate
+WA-S101285,WA,Hilltop Elementary,state_identifier,candidate
+WA-S101290,WA,Madrona Elementary,state_identifier,candidate
+WA-S101291,WA,Mount Rainier High School,state_identifier,candidate
+WA-S101292,WA,Pacific Middle School,state_identifier,candidate
+WA-S101296,WA,Seahurst Elementary School,state_identifier,candidate
+WA-S101297,WA,Tyee High School,state_identifier,candidate
+WA-S101326,WA,Renton Senior High School,state_identifier,candidate
+WA-S101345,WA,Talbot Hill Elementary School,state_identifier,candidate
+WA-S101361,WA,Stevenson Elementary,state_identifier,candidate
+WA-S101362,WA,Highland Middle School,state_identifier,candidate
+WA-S101365,WA,Puesta del Sol Elementary School,state_identifier,candidate
+WA-S101366,WA,Lake Hills Elementary,state_identifier,candidate
+WA-S101367,WA,Sammamish Senior High,state_identifier,candidate
+WA-S101372,WA,Sherwood Forest Elementary,state_identifier,candidate
+WA-S101375,WA,Tillicum Middle School,state_identifier,candidate
+WA-S101377,WA,Newport Heights Elementary,state_identifier,candidate
+WA-S101379,WA,Newport Senior High School,state_identifier,candidate
+WA-S101383,WA,Interlake Senior High School,state_identifier,candidate
+WA-S101386,WA,Ardmore Elementary School,state_identifier,candidate
+WA-S101388,WA,Bennett Elementary School,state_identifier,candidate
+WA-S101397,WA,Showalter Middle School,state_identifier,candidate
+WA-S101398,WA,Foster Senior High School,state_identifier,candidate
+WA-S101399,WA,Cascade View Elementary,state_identifier,candidate
+WA-S101417,WA,Auburn Senior High School,state_identifier,candidate
+WA-S101420,WA,Pioneer Elementary School,state_identifier,candidate
+WA-S101432,WA,Auburn Riverside High School,state_identifier,candidate
+WA-S101450,WA,Mount Si High School,state_identifier,candidate
+WA-S101461,WA,Issaquah Middle School,state_identifier,candidate
+WA-S101469,WA,Issaquah Valley Elementary,state_identifier,candidate
+WA-S101491,WA,Briarcrest Elementary,state_identifier,candidate
+WA-S101501,WA,Shorecrest High School,state_identifier,candidate
+WA-S101502,WA,Kellogg Middle School,state_identifier,candidate
+WA-S101528,WA,Redmond Middle School,state_identifier,candidate
+WA-S101544,WA,Juanita High School,state_identifier,candidate
+WA-S101564,WA,Albert Einstein Elementary,state_identifier,candidate
+WA-S101565,WA,Eastlake High School,state_identifier,candidate
+WA-S101574,WA,Kent-Meridian High School,state_identifier,candidate
+WA-S101580,WA,Scenic Hill Elementary School,state_identifier,candidate
+WA-S101586,WA,Kentridge High School,state_identifier,candidate
+WA-S101598,WA,Kentwood High School,state_identifier,candidate
+WA-S101607,WA,Neely O Brien Elementary School,state_identifier,candidate
+WA-S101615,WA,Kentlake High School,state_identifier,candidate
+WA-S101616,WA,Kent Elementary School,state_identifier,candidate
+WA-S101642,WA,Woodin Elementary,state_identifier,candidate
+WA-S101675,WA,Naval Avenue Elementary School,state_identifier,candidate
+WA-S101676,WA,Armin Jahr Elementary,state_identifier,candidate
+WA-S101694,WA,Ordway Elementary,state_identifier,candidate
+WA-S101704,WA,David Wolfle Elementary,state_identifier,candidate
+WA-S101708,WA,Suquamish Elementary School,state_identifier,candidate
+WA-S101712,WA,Vinland Elementary,state_identifier,candidate
+WA-S101771,WA,Morgan Middle School,state_identifier,candidate
+WA-S101775,WA,Mt. Stuart Elementary,state_identifier,candidate
+WA-S101808,WA,Goldendale High School,state_identifier,candidate
+WA-S101870,WA,Oakview Elementary School,state_identifier,candidate
+WA-S101881,WA,Reardan Middle-Senior High School,state_identifier,candidate
+WA-S101912,WA,Evergreen Elementary School,state_identifier,candidate
+WA-S101931,WA,North Mason Senior High School,state_identifier,candidate
+WA-S101938,WA,Nespelem Elementary,state_identifier,candidate
+WA-S101972,WA,Tonasket Elementary School,state_identifier,candidate
+WA-S102015,WA,Cusick Jr Sr High School,state_identifier,candidate
+WA-S102041,WA,Waller Road Elementary,state_identifier,candidate
+WA-S102047,WA,Karshner Elementary,state_identifier,candidate
+WA-S102051,WA,Aylen Jr High,state_identifier,candidate
+WA-S102055,WA,Gov John Rogers High School,state_identifier,candidate
+WA-S102070,WA,Edward Zeiger Elem,state_identifier,candidate
+WA-S102102,WA,Blix Elementary School,state_identifier,candidate
+WA-S102107,WA,Sheridan Elementary School,state_identifier,candidate
+WA-S102112,WA,Lincoln High School,state_identifier,candidate
+WA-S102185,WA,Sumner High School,state_identifier,candidate
+WA-S102218,WA,Clover Park High School,state_identifier,candidate
+WA-S102229,WA,Hillside Elementary School,state_identifier,candidate
+WA-S102236,WA,Carter Lake Elementary School,state_identifier,candidate
+WA-S102237,WA,Thomas Middle School,state_identifier,candidate
+WA-S102271,WA,Franklin Pierce High School,state_identifier,candidate
+WA-S102273,WA,Harvard Elementary,state_identifier,candidate
+WA-S102275,WA,Morris Ford Middle School,state_identifier,candidate
+WA-S102296,WA,Chester H Thompson Elementary,state_identifier,candidate
+WA-S102297,WA,Spanaway Middle School,state_identifier,candidate
+WA-S102302,WA,Spanaway Lake High School,state_identifier,candidate
+WA-S102332,WA,Fife High School,state_identifier,candidate
+WA-S102366,WA,Burlington Edison High School,state_identifier,candidate
+WA-S102369,WA,West View Elementary,state_identifier,candidate
+WA-S102370,WA,Lucille Umbarger Elementary,state_identifier,candidate
+WA-S102371,WA,Allen Elementary,state_identifier,candidate
+WA-S102399,WA,La Conner High School,state_identifier,candidate
+WA-S102405,WA,Mount Vernon High School,state_identifier,candidate
+WA-S102407,WA,Washington Elementary School,state_identifier,candidate
+WA-S102408,WA,Madison Elementary,state_identifier,candidate
+WA-S102411,WA,La Venture Middle School,state_identifier,candidate
+WA-S102415,WA,Mount Baker Middle School,state_identifier,candidate
+WA-S102437,WA,Everett High School,state_identifier,candidate
+WA-S102440,WA,Silver Lake Elementary,state_identifier,candidate
+WA-S102448,WA,Emerson Elementary School,state_identifier,candidate
+WA-S102450,WA,Cascade High School,state_identifier,candidate
+WA-S102466,WA,Henry M. Jackson High School,state_identifier,candidate
+WA-S102493,WA,Mariner High School,state_identifier,candidate
+WA-S102503,WA,Horizon Elementary,state_identifier,candidate
+WA-S102526,WA,Mountlake Terrace Elementary,state_identifier,candidate
+WA-S102531,WA,Cedar Valley Elementary,state_identifier,candidate
+WA-S102532,WA,Spruce Elementary,state_identifier,candidate
+WA-S102552,WA,College Place Elementary,state_identifier,candidate
+WA-S102574,WA,Heritage School,state_identifier,candidate
+WA-S102589,WA,Marshall Elementary,state_identifier,candidate
+WA-S102607,WA,Frank Wagner Elementary,state_identifier,candidate
+WA-S102614,WA,Monroe High School,state_identifier,candidate
+WA-S102709,WA,Rogers High School,state_identifier,candidate
+WA-S102779,WA,Midway Elementary,state_identifier,candidate
+WA-S102851,WA,West Valley High School,state_identifier,candidate
+WA-S102877,WA,Wellpinit High School,state_identifier,candidate
+WA-S102878,WA,Wellpinit Middle School,state_identifier,candidate
+WA-S102917,WA,Southworth Elementary,state_identifier,candidate
+WA-S102925,WA,North Thurston High School,state_identifier,candidate
+WA-S102926,WA,Mountain View Elementary,state_identifier,candidate
+WA-S102927,WA,Lydia Hawk Elementary,state_identifier,candidate
+WA-S102935,WA,Evergreen Forest Elementary,state_identifier,candidate
+WA-S102938,WA,Pleasant Glade Elementary,state_identifier,candidate
+WA-S102943,WA,River Ridge High School,state_identifier,candidate
+WA-S102993,WA,Rochester Primary School,state_identifier,candidate
+WA-S103013,WA,Green Park Elementary School,state_identifier,candidate
+WA-S103016,WA,Edison Elementary School,state_identifier,candidate
+WA-S103017,WA,Pioneer Middle School,state_identifier,candidate
+WA-S103019,WA,Walla Walla High School,state_identifier,candidate
+WA-S103020,WA,Garrison Middle School,state_identifier,candidate
+WA-S103025,WA,Davis Elementary,state_identifier,candidate
+WA-S103032,WA,Columbia Elementary,state_identifier,candidate
+WA-S103065,WA,Shuksan Middle School,state_identifier,candidate
+WA-S103078,WA,Ferndale High School,state_identifier,candidate
+WA-S103084,WA,Vista Middle School,state_identifier,candidate
+WA-S103175,WA,Davis High School,state_identifier,candidate
+WA-S103176,WA,Garfield Elementary School,state_identifier,candidate
+WA-S103177,WA,Mckinley Elementary School,state_identifier,candidate
+WA-S103179,WA,Washington Middle School,state_identifier,candidate
+WA-S103182,WA,Ridgeview Elementary,state_identifier,candidate
+WA-S103185,WA,Adams Elementary School,state_identifier,candidate
+WA-S103186,WA,Hoover Elementary School,state_identifier,candidate
+WA-S103188,WA,Gilbert Elementary School,state_identifier,candidate
+WA-S103190,WA,Mcclure Elementary School,state_identifier,candidate
+WA-S103192,WA,Barge-Lincoln Elementary School,state_identifier,candidate
+WA-S103194,WA,Eisenhower High School,state_identifier,candidate
+WA-S103195,WA,Robertson Elementary,state_identifier,candidate
+WA-S103196,WA,Whitney Elementary,state_identifier,candidate
+WA-S103200,WA,Martin Luther King Jr Elementary,state_identifier,candidate
+WA-S103206,WA,Stanton Academy,state_identifier,candidate
+WA-S103208,WA,East Valley High School,state_identifier,candidate
+WA-S103209,WA,Moxee Elementary,state_identifier,candidate
+WA-S103211,WA,East Valley Central Middle School,state_identifier,candidate
+WA-S103225,WA,Artz Fox Elementary,state_identifier,candidate
+WA-S103230,WA,Mcclure Elementary School,state_identifier,candidate
+WA-S103232,WA,Thompson Elementary School,state_identifier,candidate
+WA-S103233,WA,Smith Elementary School,state_identifier,candidate
+WA-S103245,WA,Computer Academy Toppenish High School,state_identifier,candidate
+WA-S103252,WA,Toppenish High School,state_identifier,candidate
+WA-S103263,WA,Granger Middle School,state_identifier,candidate
+WA-S103265,WA,Roosevelt Elementary,state_identifier,candidate
+WA-S103276,WA,Wapato Middle School,state_identifier,candidate
+WA-S103277,WA,Satus Elementary,state_identifier,candidate
+WA-S103280,WA,Wapato High School,state_identifier,candidate
+WA-S103284,WA,Adams Elementary,state_identifier,candidate
+WA-S103297,WA,Mount Adams Middle School,state_identifier,candidate
+WA-S103298,WA,Harrah Elementary School,state_identifier,candidate
+WA-S103299,WA,White Swan High School,state_identifier,candidate
+WA-S103832,WA,Wellpinit Elementary School,state_identifier,candidate
+WA-S103859,WA,Columbia Junior High School,state_identifier,candidate
+WA-S103956,WA,Maya Angelou Elementary,state_identifier,candidate
+WA-S103974,WA,Muckleshoot Tribal School,state_identifier,candidate
+WA-S104031,WA,Mill Creek Middle School,state_identifier,candidate
+WA-S104036,WA,Virgie Robinson Elementary,state_identifier,candidate
+WA-S104138,WA,Bonney Lake High School,state_identifier,candidate
+WA-S104144,WA,General William H. Harrison Preparatory School,state_identifier,candidate
+WA-S104154,WA,Auburn Mountainview High School,state_identifier,candidate
+WA-S104156,WA,Park Place Middle School,state_identifier,candidate
+WA-S104777,WA,Wahluke Junior High,state_identifier,candidate
+WA-S104883,WA,Chiawana Senior High School,state_identifier,candidate
+WA-S104895,WA,Science and Math Institute,state_identifier,candidate
+WA-S105166,WA,McDonald International School,state_identifier,candidate
+WA-S105222,WA,Marysville Pilchuck High School,state_identifier,candidate
+WA-S105293,WA,Robert Lince Early Learning Center,state_identifier,candidate
+WA-S105533,WA,Mabton Jr. Sr. High,state_identifier,candidate
+WA-S105623,WA,Jing Mei Elementary School,state_identifier,candidate
+WA-S105634,WA,Chief Kitsap Academy,state_identifier,candidate
+WA-S105770,WA,Rosalind Franklin STEM Elementary,state_identifier,candidate
+WA-S105776,WA,Quil Ceda Tulalip Elementary,state_identifier,candidate
+WA-S105780,WA,Endeavor Middle School,state_identifier,candidate
+WA-S105805,WA,Lummi Nation School,state_identifier,candidate
+WA-S105888,WA,John Campbell Primary School,state_identifier,candidate
+WA-S105889,WA,Selah Intermediate School,state_identifier,candidate
+WA-S105890,WA,Selah Middle School,state_identifier,candidate
+WA-S105893,WA,Four Heroes Elementary,state_identifier,candidate
+WA-S105897,WA,Barbara McClintock STEM Elementary,state_identifier,candidate
+WA-S105898,WA,Captain Gray STEM Elementary,state_identifier,candidate
+WA-S105900,WA,Marie Curie STEM Elementary,state_identifier,candidate
+WA-S105980,WA,Quileute Tribal School,state_identifier,candidate
+WA-S106061,WA,Marysville Getchell High School,state_identifier,candidate
+WA-S106079,WA,Wa He Lut Indian School,state_identifier,candidate
+WA-S106152,WA,Fuerza Elementary,state_identifier,candidate
+WA-S106170,WA,Kalispel Language Immersion School,state_identifier,candidate
+WA-S106174,WA,Simcoe Elementary School,state_identifier,candidate
+WA-S106175,WA,Camas Elementary,state_identifier,candidate
+WA-S106182,WA,Chief Leschi Schools,state_identifier,candidate
+WA-S106183,WA,Yakama Nation Tribal School,state_identifier,candidate
+WA-S106200,WA,Glacier Middle School,state_identifier,candidate
+WA-S106205,WA,Three Rivers Elementary,state_identifier,candidate
+WA-S106206,WA,Dessie F Evans Elementary,state_identifier,candidate
+WA-S106238,WA,Harriet Rowley,state_identifier,candidate
+WA-S106405,WA,Columbia River Elementary,state_identifier,candidate
+WA-S106406,WA,Ray Reynolds Middle School,state_identifier,candidate
+WA-S106902,WA,Kiona-Benton City Elementary,state_identifier,candidate
+WA-S106905,WA,Bellevue Digital Discovery,state_identifier,candidate
+WA-S106911,WA,Tacoma Online High School,state_identifier,candidate
+WA-S106915,WA,Vanguard Academy,state_identifier,candidate
+WA-S106981,WA,Ruben Trejo Dual Language Academy,state_identifier,candidate
+WA-S106982,WA,Ruth Bader Ginsburg Elementary School,state_identifier,candidate
+WA-S106992,WA,Paschal Sherman Indian School,state_identifier,candidate

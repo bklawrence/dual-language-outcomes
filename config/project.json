@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "coverage_start_year": 2014,
+  "coverage_end_year": 2025,
+  "coverage_layers": [
+    "inventory",
+    "dl_participants",
+    "state_assessments",
+    "demographics",
+    "el_proficiency",
+    "el_exit_policy",
+    "el_exit_outcomes",
+    "seda"
+  ],
+  "notes": "Initial coverage tracking window only; import adapters retain historical observations outside it and the coverage builder expands to imported years. Uncollected cells are not evidence of source absence."
+}
