@@ -4,6 +4,12 @@
   "state_fips": "48",
   "adapter": "texas",
   "collection_status": "pilot",
+  "campus_grade_context": {
+    "raw_directory": "data/raw/tx/grade_context_2024_25_captured_2026_11_04",
+    "school_year": "2024-25",
+    "expected_directory_rows": 9739,
+    "scope": "Directory grade-range screening only; neither DL-programme grades nor a 2023-24 historical grade assignment."
+  },
   "notes": "Existing state research files remain available; not_migrated does not mean no data exist.",
   "pilot": {
     "research_version": "Pass 51",

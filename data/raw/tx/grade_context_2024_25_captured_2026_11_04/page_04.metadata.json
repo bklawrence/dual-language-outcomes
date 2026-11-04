@@ -1,0 +1,19 @@
+{
+  "url": "https://services2.arcgis.com/5MVN2jsqIrNZD4tP/ArcGIS/rest/services/Schools_2024_to_2025/FeatureServer/0/query?where=1%3D1&outFields=ObjectID%2CUSER_District_Number%2CUSER_School_Number%2CUSER_School_Name%2CUSER_Grade_Range&returnGeometry=false&orderByFields=ObjectID&resultRecordCount=2000&resultOffset=6000&f=json",
+  "dataset_url": "https://services2.arcgis.com/5MVN2jsqIrNZD4tP/ArcGIS/rest/services/Schools_2024_to_2025/FeatureServer/0",
+  "retrieved_at": "2026-11-04T22:25:48.206178+00:00",
+  "sha256": "21f4106d2466ac37fc62d62408a6798f2bdd19ce8d12c2c2af333ab342fbd3fc",
+  "school_year": "2024-25",
+  "selection": {
+    "where": "1=1",
+    "outFields": "ObjectID,USER_District_Number,USER_School_Number,USER_School_Name,USER_Grade_Range",
+    "returnGeometry": "false",
+    "orderByFields": "ObjectID",
+    "resultRecordCount": 2000,
+    "resultOffset": 6000,
+    "f": "json"
+  },
+  "rows": 2000,
+  "capture_method": "original_public_HTTP_response",
+  "limitations": "Directory campus grades only; not DL programme grades or 2023\u201324 operating confirmation."
+}

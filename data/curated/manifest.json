@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-3752ceac8819521bb019b012668b2b14",
-  "built_at": "2026-11-04T21:49:09.367857+00:00",
-  "base_git_revision": "96eea6c272d97c40ea579f5b309d2e1acfc13522",
+  "build_id": "build-2c6d196405d6560aaad645b1864c6f90",
+  "built_at": "2026-11-04T22:35:11.644642+00:00",
+  "base_git_revision": "75d62c02734d644b08295cf670fe6585e50c1b55",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -50,7 +50,7 @@
     "config/states/sc.json": "670fc91a46454f45bc03d189dc3474f68b59599af89183e43e507dd80530587f",
     "config/states/sd.json": "f4155759a8b5cfcac0bb41ceddd226f3ac884523cac2d8c26441a6b769171c1b",
     "config/states/tn.json": "dc1a8049a215c09fe3325f1a3093504467495e68caf08f44ec960d034c21f64c",
-    "config/states/tx.json": "24e1bbbce30fbbabbffe3825cfb7b674cc208cb2417a7cd54f2af814042a02e3",
+    "config/states/tx.json": "2fcd4ad2a1f7f04d52f3cc4b4ae79a2f9c8e9730d1c9be96664fdfc8302ec888",
     "config/states/ut.json": "e8a28293c886e48ec52bac585edfd4889d48250fd901e24b61df9c4bc4c87b7b",
     "config/states/va.json": "ed47dbf7421771942a7b55b1ffbb666c4cb54c1b0a8b747de2f2b465c4fd38e8",
     "config/states/vt.json": "9a89870bcde674cd590604ca907205455bf3aec0432d056bdfbf9cc12f3067fb",
@@ -64,6 +64,16 @@
     "data/raw/legacy_registry/pre_schema_v1/programs.csv": "3b78f2d15278b8aec53854792161ebc86ebd159ff3049dd4d830209aaa4bfa6d",
     "data/raw/legacy_registry/pre_schema_v1/schools.csv": "90099e1bf18ab0db581bbc1d88493d41c6f78c8bc321e739b034e850b2e4f985",
     "data/raw/legacy_registry/pre_schema_v1/sources.csv": "967baf899cc1ec70ab8929a6b0749ef9e0e8ee05552d27f43615c1255bf7a209",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_01.json": "35e76bf2771c6594f3cd7c2cbf15f5ae56fcc09c1780dfdc3ceea540c65a61e0",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_01.metadata.json": "56b5c15e290b5869fa7090f29f05c547b73cced7ec1e5de40e9e40964cdc2747",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_02.json": "cbc0863b966d149ff0b23d2dd2d68e4a2cf1b0a7fc006dd8c860d1ec49398f51",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_02.metadata.json": "c16e6a33b6ae551e13fa20ce7aaf75d7b66cdd026dd40e61414f8c155db537c9",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_03.json": "45c3500885abd5641344d2d08467b39c492caeae9820e74c086818edead54465",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_03.metadata.json": "b117de858da165f2ad2949a6565962d3e1665b6dfba001ec8933e35a3b0614cf",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_04.json": "21f4106d2466ac37fc62d62408a6798f2bdd19ce8d12c2c2af333ab342fbd3fc",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_04.metadata.json": "b5c03224c2a963c24bd0b433b0d6a5531581f4f5196c2b48387de51c64859e38",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_05.json": "02dfe4fcd69918f67a71ef801adaf99b4a047adb4d729e831b5d50d059db7242",
+    "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_05.metadata.json": "21be207a0e29820ab61748a685d4a0d4be870c273858e2ad2b2498dec94a1909",
     "data/raw/tx/pass51/tx51_aldine_bussey23.metadata.json": "1411558f4856e29f74df27b391839e2d43d05b715ba291d969285e8396bdf5d7",
     "data/raw/tx/pass51/tx51_aldine_bussey23.pdf": "79404f2797628e2f2d3dfb0c951e1be848c5c831de552aceb5048ce7978456f8",
     "data/raw/tx/pass51/tx51_aldine_bussey23.txt": "6935551178b877e783ae67cfe005018667fe0b984fd14d1876fe460ae74c0397",
@@ -403,10 +413,12 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/dl_outcomes/allocation_coverage.py": "edd48de227c4228ecf9bd01ae4a5a9c80af75324b0246a205fe388e844d89479",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
     "src/dl_outcomes/build.py": "302a053a0eb5cf9eb4ad6c3383b535b112018cf2be16de901491c53b9a1ba7a1",
     "src/dl_outcomes/cli.py": "5e87b27624fa806eb55627a3fc5f35232a4328b32e3e2d1314aebbae1259dfb1",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
+    "src/dl_outcomes/collectors/texas_grades.py": "a165d345b2cafc2bd2da1658ecd32392bf96340386305085232e73dc8c5b27ce",
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
@@ -428,12 +440,12 @@
     "src/dl_outcomes/states/nevada.py": "8815357def593f7ee33aaa77b56ffaae35c53362ee84e5eb208d9e562c1ada00",
     "src/dl_outcomes/states/new_mexico.py": "708940dfdd08e908408d71328fba6cd6a600348a6ccbcc1ff65a037a8de32737",
     "src/dl_outcomes/states/oregon.py": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8",
-    "src/dl_outcomes/states/texas.py": "c3f9b1891c18c81d7af54dba8014b4f5c11c4eaf90ba35292ef53008520c4029",
+    "src/dl_outcomes/states/texas.py": "e13c77a4ab6ae8a871b6e2834aaef3e34209df43099c039b5b0267e86b0c4241",
     "src/dl_outcomes/states/utah.py": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
     "src/dl_outcomes/states/western_plains.py": "a34c6e8568137dd80e9f09baf23e824083f07ae92fa33bcd64354121d49743b3",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "90e6fb1bafce9d20a206a50f1709d923b76058cbc40b603f9331a54105f497d7",
+    "src/dl_outcomes/structural.py": "2b4827f235df96ceac924be87d47b9572ebc99bfa60da1b1e9a44875968edfe4",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
     "src/dl_outcomes/western_plains_review.py": "807ab1fca433f7be95d7b274673a8caeefd27486a9cd86e019710dff21610ffd"
   },
@@ -443,12 +455,12 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "ce18c6d903235581faf7d4cea2aa7dccbad0a12dfd26b3f4e93bab61607d7ef3",
-      "rows": 24
+      "sha256": "30606532467e1d4b07964518c5bd261b861f0cd921f7e6510747421d3d4289ef",
+      "rows": 25
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "5a13c15f77bf56cc2ba20d1ac57fcd3d2f16222ac648d6b4d5004520d494d474",
-      "rows": 435
+      "sha256": "ad8db1e79edcd494a92a6190d259c4e68868c3432b23d2a3ff59c50410969b55",
+      "rows": 440
     },
     "data/curated/registry/districts.csv": {
       "sha256": "f8abe80bc90021c9069a3a084950a220ac2577d5c917e1bccf5ae1e66fbc9f2e",
@@ -495,8 +507,8 @@
       "rows": 416
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "57fbdfdd60975483644ecd7fae90bd7f8c695b65c124349ce3566b9f8ab60d35",
-      "rows": 14533
+      "sha256": "5536dfb30908c392af45692ae264bd6833914d18409bd886f7701562ca57e29e",
+      "rows": 16119
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -571,10 +583,31 @@
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
     "data/reports/structural_inventory_2026_11_04_program_view.csv": {
-      "sha256": "58986685bc77d87144fbbc7e9f5e0553116537e9608fb215ea9491f7a0be2cd9"
+      "sha256": "6a8cc5d8fa87fa8acacf67ac430ddd1d1f241255d8b7ccbe15f1d766bcb96723"
     },
     "data/reports/structural_inventory_2026_11_04_by_state.csv": {
-      "sha256": "b4bfb189296c933161cac384b120db2b78cc6009a7d97b56d2b190ee3295939f"
+      "sha256": "cb0271caf3b7f3ff56dce694841177c8bf6ab8ef931b24df25835127d6cdae36"
+    },
+    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_program.csv": {
+      "sha256": "c16583149ffa7a4185770408e6ef5da8b5dffc8abe73f93373274e0fc0ff3410"
+    },
+    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_school.csv": {
+      "sha256": "714ebc51dfb586e47ecb7d2ade1d6e4a1aa071851fd578ae7efb022b39db635e"
+    },
+    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_state.csv": {
+      "sha256": "5e50dba73b1fe8440842203497d79d954ea5ba3ac73e7c32dfd48eb84cc07603"
+    },
+    "data/registry/washington/wa_programs.csv": {
+      "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
+    },
+    "data/registry/washington/wa_dl_programs_2025_26.csv": {
+      "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
+    },
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_04.csv": {
+      "sha256": "a44b64769680de30a8a8ca3a9bb9dcf2a9abccc0c8e74ff439cbd064b1abcb40"
+    },
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_04.csv": {
+      "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
     "data/reports/western_plains_2026_11_04_program_view.csv": {
       "sha256": "317664c91b9fdb3d5b852596f1894c374b7e850485d8d1e4d6a0f6a399301b26"
@@ -592,7 +625,7 @@
       "sha256": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d"
     },
     "data/reports/structural_inventory_2026_11_04.json": {
-      "sha256": "e4c64e737e2014ea8fb4550bc5cf293cb53ee001bc96d274c2ea8018f299de49"
+      "sha256": "8142ef55e6aae6a977c8b9faf87f71ef2be2d317ac749f9770c0bcffe2cdc4d9"
     }
   }
 }

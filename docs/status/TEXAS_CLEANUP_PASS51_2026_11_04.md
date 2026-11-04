@@ -1,5 +1,7 @@
 # Texas allocation coverage after Pass 51
 
+**Saved milestone:** the percentages below use all provisional campuses. The [kindergarten coverage revision](KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md) excludes identified secondary and other non-K campuses, reports unknown grades separately and preserves these earlier counts.
+
 November 4, 2026. The denominator remains **1,610 provisional campuses** from 2023–24 TAPR reporting groups. This pass reviews La Joya, Austin, Aldine, Ysleta and Spring. It does not add campuses or establish a statewide DL census.
 
 | Within-inventory measure | Before | After |
