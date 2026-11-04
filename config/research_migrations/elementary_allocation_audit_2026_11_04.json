@@ -1,0 +1,153 @@
+{
+  "raw_directory": "data/raw/elementary_audit_2026_11_04",
+  "directory_school_year": "2024-25",
+  "source_api_year": 2024,
+  "school_aliases": [
+    {
+      "school_id": "CA-S-0044f2864ba8",
+      "ncessch": "061455010209",
+      "rationale": "NCES uses the full name Ezekiel Balderas Elementary in the same Fresno Unified district."
+    },
+    {
+      "school_id": "CA-S-513f48602e18",
+      "ncessch": "063441005640",
+      "rationale": "NCES places Leonard R. in parentheses after Flynn; same San Francisco Unified school."
+    },
+    {
+      "school_id": "CA-S-6701b8871b2a",
+      "ncessch": "063441005591",
+      "rationale": "NCES reverses given/surname as Harte (Bret) Elementary; San Francisco Unified, not another Bret Harte campus."
+    },
+    {
+      "school_id": "CA-S-6dd5f2b2a2e2",
+      "ncessch": "063384010358",
+      "rationale": "Same distinctive school name and Sacramento City Unified district; NCES calls this Cesar Chavez Intermediate, grades 4-6. Grade-context alias only."
+    },
+    {
+      "school_id": "CA-S-6e97e97a57fb",
+      "ncessch": "063384005224",
+      "rationale": "Bowling Green programme/academy name in Sacramento City Unified; NCES reports the campus as Bowling Green Elementary. Grade-context alias only."
+    },
+    {
+      "school_id": "CA-S-91254058f565",
+      "ncessch": "063441007841",
+      "rationale": "NCES reports Lilienthal (Claire) Elementary in San Francisco Unified, with K-8 grades."
+    },
+    {
+      "school_id": "CA-S-9e386b085be3",
+      "ncessch": "063441005671",
+      "rationale": "NCES full name King (Thomas Starr) Elementary in San Francisco Unified; distinct from Martin Luther King middle school."
+    },
+    {
+      "school_id": "CA-S-d24b0ad72953",
+      "ncessch": "063441005654",
+      "rationale": "NCES reports Revere (Paul) Elementary, grades K-8, in San Francisco Unified."
+    },
+    {
+      "school_id": "CA-S-e75b1b53f20f",
+      "ncessch": "063441005600",
+      "rationale": "NCES places Daniel in parentheses after Webster; San Francisco Unified district."
+    },
+    {
+      "school_id": "CA-S-f3185c93340e",
+      "ncessch": "063441005635",
+      "rationale": "NCES places Jose in parentheses after Ortega; San Francisco Unified district."
+    },
+    {
+      "school_id": "ID-S-f0cdc55e16e4",
+      "ncessch": "160036000078",
+      "rationale": "Exact school name; research Boise School District corresponds to CCD BOISE INDEPENDENT DISTRICT. Grade-context match only."
+    },
+    {
+      "school_id": "IL-S002",
+      "ncessch": "173451003607",
+      "rationale": "NCES abbreviates Language as Lang; same Rockford SD 205."
+    },
+    {
+      "school_id": "IL-S010",
+      "ncessch": "170993000901",
+      "rationale": "NCES abbreviates the identical bilingual/international name; Chicago Public Schools District 299."
+    },
+    {
+      "school_id": "IL-S011",
+      "ncessch": "173474003649",
+      "rationale": "NCES abbreviates International Spanish Academy as Intrntl Spanish Acad; Schaumburg CCSD 54."
+    },
+    {
+      "school_id": "IL-S015",
+      "ncessch": "170993004916",
+      "rationale": "Sabin programme label versus CCD Sabin Elem Magnet School; Chicago district. Grade context only."
+    },
+    {
+      "school_id": "MT-S-86a6fdd277b9",
+      "ncessch": "301331000392",
+      "rationale": "NCES lists Crow Agency School under Hardin Elem, within the researched Hardin public school system."
+    },
+    {
+      "school_id": "MT-S-d91a72ff8cb7",
+      "ncessch": "301331000396",
+      "rationale": "Exact school name; Hardin Elem is the directory district label for this primary school."
+    },
+    {
+      "school_id": "MT-S-d0ceddf0a3dd",
+      "ncessch": "302880000804",
+      "rationale": "Exact school name; NCES district is Wyola Elem. Distinct from the separate Wyola 7-8 school."
+    },
+    {
+      "school_id": "NV-S-8df1dbaed1ac",
+      "ncessch": "320006000092",
+      "rationale": "NCES orders the name Lake Robert E ES; Clark County district."
+    },
+    {
+      "school_id": "NV-S-98d856d1c699",
+      "ncessch": "320006000014",
+      "rationale": "NCES orders the name Ronnow C C ES; Clark County district."
+    },
+    {
+      "school_id": "WP-CO-S-84965224b847",
+      "ncessch": "080336006482",
+      "rationale": "Exact unique school name; Denver Public Schools is CCD School District No. 1 in the county of Denver. Full school grades K-8, despite a secondary-only French programme record."
+    },
+    {
+      "school_id": "WP-CO-S-637b0d5d7f72",
+      "ncessch": "080002006503",
+      "rationale": "Exact distinctive school name; CCD identifies its actual reporting LEA as State Charter School Institute. This grade-only context does not add an inferred district membership."
+    },
+    {
+      "school_id": "WP-KS-S-ccfcad3d86a4",
+      "ncessch": "201226001115",
+      "rationale": "NCES reports Scott Dual Language Magnet in Topeka Public Schools; same named campus with PK-5 grades."
+    },
+    {
+      "school_id": "WY-S-8252c7505da7",
+      "ncessch": "560451000232",
+      "rationale": "NCES separates the initials as C Y Middle School; same Natrona County School District 1."
+    },
+    {
+      "school_id": "ID-S-14099d5dda3c",
+      "ncessch": "160036000079",
+      "rationale": "Exact school name; Boise public-school district naming differs from the CCD BOISE INDEPENDENT DISTRICT label. Grade context only."
+    }
+  ],
+  "notes": "Elementary means at least one grade K-5, including mixed and upper-elementary campuses; schools starting in grade 6 or later are excluded. Grade-directory matches are audit context, not DL confirmation or new durable identity crosswalks.",
+  "manual_school_grades": [
+    {
+      "school_id": "OR-ae03b6c0a594",
+      "low": 4,
+      "high": 6,
+      "snapshot_path": "data/raw/elementary_audit_2026_11_04/columbia_vista.html",
+      "locator": "Umatilla School District article 2361487; Columbia Vista Intermediate facility paragraph",
+      "evidence_period_raw": "official opening article; grade range 4-6; separate from 2026-27 programme-directory reference",
+      "excerpt": "Serving students in grades 4–6, Columbia Vista Intermediate is a 64,650-square-foot facility."
+    },
+    {
+      "school_id": "MT-S-d44d1bd46ede",
+      "low": 0,
+      "high": 8,
+      "snapshot_path": "data/raw/elementary_audit_2026_11_04/stlabre_education.html",
+      "locator": "Education profile; Pretty Eagle Catholic Academy K-8, St. Xavier, MT",
+      "evidence_period_raw": "undated official operator profile; captured 2026-11-04",
+      "excerpt": "Pretty Eagle Catholic Academy K-8 ... provides a tuition-free education from kindergarten through 8th grade."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=31&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "dataset_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/",
+  "publisher": "Urban Institute Education Data Portal, NCES CCD directory",
+  "retrieved_at": "2026-11-04T23:00:10.076837+00:00",
+  "sha256": "aecdba7c0006212a2b0bdc6965c7fb723b846fe0f17c136e171bc45edc08aed8",
+  "rows": 1115,
+  "selection": {
+    "fips": 31,
+    "fields": "year,ncessch,school_name,lea_name,state_leaid,seasch,lowest_grade_offered,highest_grade_offered,school_level,school_status,fips"
+  },
+  "source_api_year": 2024,
+  "evidence_period_raw": "CCD directory API year=2024",
+  "capture_method": "original_public_HTTP_response",
+  "limitations": "School-grade context only; no DL programme confirmation, programme grade allocation or historical cohort exposure inferred."
+}

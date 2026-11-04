@@ -1,5 +1,7 @@
 # Washington national-model pilot
 
+The [elementary model-availability audit](../status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md) adds dated school-grade context: the 2025–26 working set contains **126 elementary-serving schools and 49 secondary-only schools**. All 126 elementary schools have a published numerical model label. This is 100% elementary **model-label availability**, distinct from verified K-programme grades or timetables.
+
 The structural records are available as checked-in CSVs: [all 1,002 annual source rows](../../data/registry/washington/wa_programs.csv), [195 DL rows across 175 schools in 2025–26](../../data/registry/washington/wa_dl_programs_2025_26.csv), and [field/provenance notes](../../data/registry/washington/README.md). Rebuilding is offline. The [K-coverage school view](../../data/reports/washington_kindergarten_allocation_coverage_2026_11_04.csv) retains secondary candidates and unknown grade scopes.
 
 The earlier **100%** meant every listed 2025–26 DL school had an annual model label. It did not establish kindergarten allocation coverage. The current K denominator remains unknown for these 175 schools because the source does not report programme grades; the revised percentage is blank, not 0% or 100%. See the [denominator rules](../status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md).

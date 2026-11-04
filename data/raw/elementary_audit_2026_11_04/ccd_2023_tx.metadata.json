@@ -1,0 +1,7 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2023/?fips=48&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-04T23:14:38.064244+00:00",
+  "sha256": "df08edbd770ae13ae87b20dbe7ee3efc3d95845e65095b8685325e52f3aa0d59",
+  "snapshot_path": "data/raw/elementary_audit_2026_11_04/ccd_2023_tx.json",
+  "evidence_period_raw": "2023-24"
+}

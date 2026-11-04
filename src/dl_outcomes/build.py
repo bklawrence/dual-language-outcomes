@@ -165,6 +165,9 @@ class Build:
 
     def finish(self):
         from .coverage import build_coverage
+        if (self.root/'config/research_migrations/elementary_allocation_audit_2026_11_04.json').exists():
+            from .elementary_audit import prepare_grade_context
+            prepare_grade_context(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue

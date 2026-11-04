@@ -1,5 +1,7 @@
 # Kindergarten allocation coverage: revised denominator
 
+For the broader question covering any elementary grade, including first-grade entry and 3–6 schools, use the [elementary model-availability audit](ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md). The saved K-specific view below uses its narrower denominator and earlier grade-context selection.
+
 November 4, 2026. This review supersedes the earlier all-campus allocation/model-label percentages for kindergarten coverage. Secondary DL continuations remain in the inventory. Their K-allocation status is **not applicable**, rather than missing or undefined.
 
 The denominator includes identified programmes serving kindergarten, deduplicated to schools. A K–8/K–12 campus with a documented K programme counts once. A programme beginning in first grade, an upper-elementary continuation or a secondary-only programme is excluded. Unknown programme grades are listed separately; they are not counted as missing K allocations. A ratio label or the word “Elementary” in a school name cannot establish K eligibility. Texas's explicitly flagged campus proxies are described below.

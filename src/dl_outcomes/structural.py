@@ -205,6 +205,9 @@ def generate_report(root, *, check=False):
     }
     from .allocation_coverage import render_reports as allocation_reports
     contents.update(allocation_reports(root, tables))
+    if (root/'config/research_migrations/elementary_allocation_audit_2026_11_04.json').exists():
+        from .elementary_audit import render_reports as elementary_reports
+        contents.update(elementary_reports(root,tables))
     batch_summary = None
     if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
         from .western_plains_review import render_reports

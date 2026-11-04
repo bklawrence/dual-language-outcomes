@@ -6,6 +6,8 @@ State-level evidence claims retain discovery/screening rows whose school or lang
 
 ## Entities, candidates and time
 
+The [elementary allocation audit](../status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md) measures cited numerical-model availability for schools serving any K–5 grade, including mixed and upper-elementary campuses. It keeps reference working inventories and all recorded hosts in separate views, preserves grade/model source periods, and counts each school once across tracks. Grade-context claims do not alter durable identity crosswalks or establish DL programme participation.
+
 Kindergarten allocation completeness uses a separate [grade-eligibility denominator](../status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md). Secondary and other non-K continuations remain programme records with K allocation marked not applicable; their course/content language can remain useful evidence. Unknown grades and K-serving-campus proxies are explicit, and annual model labels do not establish K schedules. The current review views expose these distinctions without rewriting earlier source observations.
 
 `schools` and `districts` identify research entities. State/NCES/other native identifiers belong in `identifier_crosswalk`, with namespace, source, review status and known year validity. Identifiers are strings. Names are labels and dated evidence, not automatic join keys.
