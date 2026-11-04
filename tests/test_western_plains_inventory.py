@@ -6,6 +6,7 @@ import unittest
 
 from dl_outcomes.io import digest
 from dl_outcomes.validation import load, validate_tables
+from dl_outcomes.states.western_plains import CODES
 from dl_outcomes.western_plains_review import AUDIT, audit_errors, inputs, source_id
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,6 +91,8 @@ class WesternPlainsTests(unittest.TestCase):
         self.assertFalse(apache['allocations'])
         asl = self.record('NM', 'Albuquerque Sign Language')
         self.assertTrue(any(o['languages'] == ['English', 'American Sign Language'] for o in asl['observations']))
+        self.assertIsNone(CODES.get('Keres'))
+        self.assertIsNone(CODES.get('Tiwa'))
 
     def test_model_ordering_and_primary_corrections_remain_visible(self):
         armijo = self.record('NM', 'Armijo')
@@ -196,6 +199,12 @@ class WesternPlainsTests(unittest.TestCase):
         self.assertNotIn(b'supabase',raw)
         self.assertNotEqual(metadata['sha256'],metadata['full_response_sha256'])
         self.assertIn('excerpt',metadata['archive_kind'])
+        for doc in self.sources.values():
+            meta = json.loads((ROOT/doc['metadata_path']).read_text())
+            if meta['capture_method'] == 'public_browser_rendered_html':
+                self.assertIn('rendered',meta['archive_kind'])
+                self.assertIsNone(meta['full_response_sha256'])
+                self.assertEqual(meta['full_capture_sha256'],meta['sha256'])
 
 
 if __name__ == '__main__':

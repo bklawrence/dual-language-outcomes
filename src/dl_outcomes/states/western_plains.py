@@ -8,7 +8,8 @@ from .five_state import LANGUAGE_CODES, exact_year
 STATES = {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 BASE = 'data/registry/western_plains_2026_11_04'
 CODES = {**LANGUAGE_CODES, 'Portuguese': 'pt', 'Navajo': 'nv', 'ASL': 'ase',
-         'American Sign Language': 'ase', 'Hebrew': 'he', 'Keres': 'ker', 'Tewa': 'tew'}
+         'American Sign Language': 'ase', 'Hebrew': 'he', 'Tewa': 'tew'}
+# Unspecified Keres/Tiwa varieties remain uncoded; "ker" identifies Kera.
 
 
 def school_key(state, district, school):

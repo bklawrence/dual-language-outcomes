@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-66ea1cdbd7b45edfac335b770f4d9bdd",
-  "built_at": "2026-11-04T21:39:00.088426+00:00",
-  "base_git_revision": "baa8f76c61ace81661d5f8351f884d7c8c3c9ed6",
+  "build_id": "build-3752ceac8819521bb019b012668b2b14",
+  "built_at": "2026-11-04T21:49:09.367857+00:00",
+  "base_git_revision": "96eea6c272d97c40ea579f5b309d2e1acfc13522",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -134,11 +134,11 @@
     "data/raw/western_plains_2026_11_04/wp_az_kyrene.html": "b006b1bc710b59bfddaf7edf49500ffe7969cfcddcca7267ba3aa8fd19d7f234",
     "data/raw/western_plains_2026_11_04/wp_az_kyrene.html.metadata.json": "ac1972faf151854f4d606045e0229148bbaafe4172bbc1a0bf75c61f6e6f40f6",
     "data/raw/western_plains_2026_11_04/wp_az_mesa_guerrero_rendered.html": "d87b5c8a1bf8eff52036601053405a5c0c58a186ddc468f903b8847f84e49895",
-    "data/raw/western_plains_2026_11_04/wp_az_mesa_guerrero_rendered.html.metadata.json": "dee397653874238a46508244d831cd88a95e04c97264fa19ddb8839d559c7933",
+    "data/raw/western_plains_2026_11_04/wp_az_mesa_guerrero_rendered.html.metadata.json": "f31528f1767b74e7e1fc0bb9ee1bd41cf1ca51303c6e0e9f5ab1d8f460a1b179",
     "data/raw/western_plains_2026_11_04/wp_az_mesa_hermosa25_rendered.html": "376649249f1fe78fefd4a1edb39212fd030f55353de4f2eacad2ce5981863498",
-    "data/raw/western_plains_2026_11_04/wp_az_mesa_hermosa25_rendered.html.metadata.json": "bcb50d257266e199ec7969db23e23f9348c8bc318906e075aed457cd7da07b1c",
+    "data/raw/western_plains_2026_11_04/wp_az_mesa_hermosa25_rendered.html.metadata.json": "278074ed31c1362b6ef04b2fefe7d2460db361d3692e78aa5cff87b11739456a",
     "data/raw/western_plains_2026_11_04/wp_az_mesa_rendered.html": "bdd6ac737e72a63e6c101d040b972a74ee0988539b0d0536fb68ddcd89569466",
-    "data/raw/western_plains_2026_11_04/wp_az_mesa_rendered.html.metadata.json": "7e42e814590fa5912b8c632e7c1785460f32a6a6bbec6aca21c5a86ff181f941",
+    "data/raw/western_plains_2026_11_04/wp_az_mesa_rendered.html.metadata.json": "441ba648481cd8919dc730dd4fa179362a0f20118dde0503f4116215856da29e",
     "data/raw/western_plains_2026_11_04/wp_az_navegante_js.js": "0538e01b612232ea4a6a1a942350a226eed4f05c51488d6becdc396f8ee26802",
     "data/raw/western_plains_2026_11_04/wp_az_navegante_js.js.metadata.json": "66babab93aed93b31330c260047d77fb09271060f8acb8b1773ad98796a7edd7",
     "data/raw/western_plains_2026_11_04/wp_az_osborn.html": "6f23f2e9ebfb004a5d5a56047a8e808e554e164e8239997219126babaf6098dd",
@@ -168,13 +168,13 @@
     "data/raw/western_plains_2026_11_04/wp_az_scottsdale.html": "b3b6a1a3cb0dc551032e05972bc11f9a866285a652f3ddf98c9f003e495d7ee8",
     "data/raw/western_plains_2026_11_04/wp_az_scottsdale.html.metadata.json": "e6561c8e136412a617f6d674c419c1c0e6eee8271050d2773e13b9528d1ca5e8",
     "data/raw/western_plains_2026_11_04/wp_az_tarwater_rendered.html": "2c139a2d5aa481529b4d556a27a26adc1fd77a334d898d921a6ef33a296d41cc",
-    "data/raw/western_plains_2026_11_04/wp_az_tarwater_rendered.html.metadata.json": "ed5ffeeefac5b228faa504423e4d075997300b8497933cd2905712ec8301c84c",
+    "data/raw/western_plains_2026_11_04/wp_az_tarwater_rendered.html.metadata.json": "77050e2dc2b1e1159679f503b9443c0791741833cce3c3bab7cd108d53eefd2b",
     "data/raw/western_plains_2026_11_04/wp_az_tusd_article23_rendered.html": "8eafd82e123900b9907d8688652953288fa18a9081cbce17c959b33ae38fec68",
-    "data/raw/western_plains_2026_11_04/wp_az_tusd_article23_rendered.html.metadata.json": "8e909bc07c8c4afab0362421e89f86e0b4a81f5cf9cbfea3dfd18fae2b9d45e2",
+    "data/raw/western_plains_2026_11_04/wp_az_tusd_article23_rendered.html.metadata.json": "5460943f36070e7240a024ba9e9d4edab52776ed3232bc0adb6ea183716f9afc",
     "data/raw/western_plains_2026_11_04/wp_az_tusd_pathways23.pdf": "b94af673bab297ec2881ed565846ffb34c6474e7c9ec016d6bffe1a1d10118e5",
     "data/raw/western_plains_2026_11_04/wp_az_tusd_pathways23.pdf.metadata.json": "d4168e230f9407ed264efdd358f30c5a6262d8392169e00390a66a257d833cca",
     "data/raw/western_plains_2026_11_04/wp_az_tusd_program_rendered.html": "8f776604f5a72790381a8ea9b2228e198da242d78f1546b500d1c4f826b74ca3",
-    "data/raw/western_plains_2026_11_04/wp_az_tusd_program_rendered.html.metadata.json": "a216f94bf50f3e14d7c6cbfa30f87d9011fbcd0cdc961ca8e8d22806b70ca644",
+    "data/raw/western_plains_2026_11_04/wp_az_tusd_program_rendered.html.metadata.json": "11566a058e0439155bddb0dc58a79f1adfac9160f832338c96b7398874d08098",
     "data/raw/western_plains_2026_11_04/wp_co_axis_elem.html": "bea92e8777e3b3581be2137e5276ddb665c8f141cc0bc28b4bbcffb493b20bc6",
     "data/raw/western_plains_2026_11_04/wp_co_axis_elem.html.metadata.json": "5b2fbf7a9ae62fe0b0338bf0f8cf05d185c484a8e5558c516221ea4e9832558f",
     "data/raw/western_plains_2026_11_04/wp_co_boltz.html": "8f2321e6ab691045b66fceca9d80b3c0fa4686ae80c8efc9d35eeb7dd3310fd9",
@@ -268,7 +268,7 @@
     "data/raw/western_plains_2026_11_04/wp_ne_fremont_news24.html": "5682ca63aca8215e76930b116398f468dfe6f45fdf34a7e0992a6f9322cdff62",
     "data/raw/western_plains_2026_11_04/wp_ne_fremont_news24.html.metadata.json": "ef707cca1a6ec0148a6deb7b938a517286479e7f01cd48dc280cc658a493b5da",
     "data/raw/western_plains_2026_11_04/wp_ne_fremont_rendered.html": "b2d105361718b7be886775bbd4d946e1448a6a5319d60ab715f2d6134b2faf69",
-    "data/raw/western_plains_2026_11_04/wp_ne_fremont_rendered.html.metadata.json": "c4a65db68213ca9685d0fd025fa3bb9c5432f47355aa0f0a004f9a8352da01b0",
+    "data/raw/western_plains_2026_11_04/wp_ne_fremont_rendered.html.metadata.json": "894214f289c2f410fe268f345acc1e375bf21f8d082bfb328b6c790d71b96af5",
     "data/raw/western_plains_2026_11_04/wp_ne_friedel.html": "6e23f78d8c0525f4a9c256f5202819557379dcbd296fc1e997b543c7020a4fa9",
     "data/raw/western_plains_2026_11_04/wp_ne_friedel.html.metadata.json": "4c3e894c53d6c0a72d4b1490b00f4ca3eef72aecb125d9c31bdb1905e6632655",
     "data/raw/western_plains_2026_11_04/wp_ne_lex.html": "6bb0310c4755c308201fbfe40e12208b243b04f00625474e3cec23ddc41493bd",
@@ -391,7 +391,7 @@
     "data/registry/western_plains_2026_11_04/reviews.json": "04c6cf36c3ef87e0e725900f5835f81dfc8f9b2c97c7f340803410a0830a8557",
     "data/registry/western_plains_2026_11_04/search_results.json": "e14662924779627cffab974e9661874eca16efd829cdc8de9724e8d972f6d9d1",
     "data/registry/western_plains_2026_11_04/selection_summary.json": "f3ea4f8e224054bd6f0b8dc2ac77fd8ce7bff9b2dc5024cb4e38fd0ea7422a5a",
-    "data/registry/western_plains_2026_11_04/sources.json": "439a13cf23f876fdf0382379260301d2883fe0533ce5eae356958a88be50d8c4",
+    "data/registry/western_plains_2026_11_04/sources.json": "067bf38313e9f5b514f92da25c6e1b418a427a0bd0243bce5c48ae6c1ee8d668",
     "data/registry/western_plains_2026_11_04/ut_programmes.json": "9a03a4747c4750ec1be6790a8d76eae1dfb7c6ea935a49914d18a95ee8a23aa5",
     "data/registry/western_plains_2026_11_04/ut_screening.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "pyproject.toml": "16de8e16c234f7fba087bed20934b2d9f846afb2b6a9ef62ec925ca4f51b8c13",
@@ -431,7 +431,7 @@
     "src/dl_outcomes/states/texas.py": "c3f9b1891c18c81d7af54dba8014b4f5c11c4eaf90ba35292ef53008520c4029",
     "src/dl_outcomes/states/utah.py": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
-    "src/dl_outcomes/states/western_plains.py": "de9df4e8091e8e02fbb8717aaa59fcd7ee8313fe583adef627f7f73d1a315bbd",
+    "src/dl_outcomes/states/western_plains.py": "a34c6e8568137dd80e9f09baf23e824083f07ae92fa33bcd64354121d49743b3",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
     "src/dl_outcomes/structural.py": "90e6fb1bafce9d20a206a50f1709d923b76058cbc40b603f9331a54105f497d7",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
@@ -447,7 +447,7 @@
       "rows": 24
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "af8c2d54f44a81abcf94dddf5f05d62189d810849e94e2c31eb59fa7bed3ddb6",
+      "sha256": "5a13c15f77bf56cc2ba20d1ac57fcd3d2f16222ac648d6b4d5004520d494d474",
       "rows": 435
     },
     "data/curated/registry/districts.csv": {
@@ -592,7 +592,7 @@
       "sha256": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d"
     },
     "data/reports/structural_inventory_2026_11_04.json": {
-      "sha256": "011ffe05912894c7eabe470adbb350c07a828c7e98ba6cf92493fbbfa0a7a3d5"
+      "sha256": "e4c64e737e2014ea8fb4550bc5cf293cb53ee001bc96d274c2ea8018f299de49"
     }
   }
 }
