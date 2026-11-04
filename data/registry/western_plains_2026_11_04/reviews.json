@@ -1,0 +1,458 @@
+[
+  {
+    "review_id": "UT_TOO_CONTROL",
+    "state": "UT",
+    "query_keys": [
+      "wp_q_ut_continuity"
+    ],
+    "source_keys": [
+      "wp_ut_tooele"
+    ],
+    "outcome": "Explicit 2025–26 pathways; Chinese, Russian and German no longer accept entry applications, which does not establish whole-program closure.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": []
+  },
+  {
+    "review_id": "UT_DAVIS",
+    "state": "UT",
+    "query_keys": [
+      "wp_q_ut_continuity"
+    ],
+    "source_keys": [
+      "wp_ut_davis",
+      "wp_ut_davis_change25"
+    ],
+    "outcome": "Lincoln Spanish closure was rejected. South Davis French ends after 2025–26 and consolidates into Mueller Park. The page retains the 2025–26 mid-year application; other campus temporal scopes remain qualified.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-UT-P-8889d4ffb8b2",
+      "WP-UT-P-70b189ab6822",
+      "WP-UT-P-100721cb9ce1",
+      "WP-UT-P-94c77501ed07",
+      "WP-UT-P-5ea0f53deee4",
+      "WP-UT-P-5fe40e1dac96",
+      "WP-UT-P-d81b08920a64",
+      "WP-UT-P-f6b315a5a463",
+      "WP-UT-P-0f7ff97ed13e",
+      "WP-UT-P-7dca4b95bdc8",
+      "WP-UT-P-873cc8d3a14e",
+      "WP-UT-P-316cba318776"
+    ]
+  },
+  {
+    "review_id": "UT_GRANITE",
+    "state": "UT",
+    "query_keys": [
+      "wp_b_ut25",
+      "wp_q_ut_continuity"
+    ],
+    "source_keys": [
+      "wp_ut_granite"
+    ],
+    "outcome": "Page explicitly references current 2025–26 enrollment and distinguishes Hunter Jr/Hunter High offerings from elementary entry. Dos Mundos opening timing remains unresolved.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-UT-P-c26f0e9df9e3",
+      "WP-UT-P-a23f445672aa",
+      "WP-UT-P-d3b947dae589",
+      "WP-UT-P-82379b4300d7",
+      "WP-UT-P-eae5a7f4a9b1",
+      "WP-UT-P-0f411e615430",
+      "WP-UT-P-7246dea18e5e",
+      "WP-UT-P-6a1410c17ad8"
+    ]
+  },
+  {
+    "review_id": "UT_SLC",
+    "state": "UT",
+    "query_keys": [
+      "wp_q_ut_rosterhistorical"
+    ],
+    "source_keys": [
+      "wp_ut_slc"
+    ],
+    "outcome": "Nibley Park neighborhood DLI began 2024–25 and remains listed. Secondary language and culture continuations are not assigned the elementary ratio.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-UT-P-6cf309aa9e60"
+    ]
+  },
+  {
+    "review_id": "CO_SALIDA",
+    "state": "CO",
+    "query_keys": [
+      "wp_q_co"
+    ],
+    "source_keys": [
+      "wp_co_salidadelsol",
+      "wp_co_salida_model"
+    ],
+    "outcome": "Primary model page dates establishment to 2014 and current schoolwide DL remains offered; no ending indication in inspected primary pages.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-CO-P-820aca7f6c8d"
+    ]
+  },
+  {
+    "review_id": "CO_HARRIS",
+    "state": "CO",
+    "query_keys": [
+      "wp_q_co_poudre"
+    ],
+    "source_keys": [
+      "wp_co_harris",
+      "wp_co_boltz"
+    ],
+    "outcome": "Long-established 25-year programme; source documents Boltz continuation since 2018; no ending indication in reviewed school sources.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-CO-P-36f45e4a145b",
+      "WP-CO-P-9c81d1d2da2c"
+    ]
+  },
+  {
+    "review_id": "CO_SUMMIT_dillonvalleyelementary",
+    "state": "CO",
+    "query_keys": [
+      "wp_q_co_districts4"
+    ],
+    "source_keys": [
+      "wp_co_summit"
+    ],
+    "outcome": "Dillon Valley established 2005; Silverthorne schoolwide since 2022–23. Current district page continues both; no ending indication in inspected source.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-CO-P-d5b0185c7956"
+    ]
+  },
+  {
+    "review_id": "CO_SUMMIT_silverthorneelementary",
+    "state": "CO",
+    "query_keys": [
+      "wp_q_co_districts4"
+    ],
+    "source_keys": [
+      "wp_co_summit"
+    ],
+    "outcome": "Dillon Valley established 2005; Silverthorne schoolwide since 2022–23. Current district page continues both; no ending indication in inspected source.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-CO-P-d5804e628968"
+    ]
+  },
+  {
+    "review_id": "CO_GVA_NORTH",
+    "state": "CO",
+    "query_keys": [
+      "wp_q_co_gvamod"
+    ],
+    "source_keys": [
+      "wp_co_gva_russian",
+      "wp_co_gva25"
+    ],
+    "outcome": "Named Russian immersion programme has 2024/2025 participation artifacts and continuing 2026 content instruction; no ending indication in inspected primary pages.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-CO-P-555c2b0e0095"
+    ]
+  },
+  {
+    "review_id": "NM_REPORT_MAP",
+    "state": "NM",
+    "query_keys": [
+      "wp_b_nm26",
+      "wp_q_nm_continuity",
+      "wp_q_nm_tres",
+      "wp_q_nm_apache"
+    ],
+    "source_keys": [
+      "wp_nm_eric_pdf",
+      "wp_nm_features",
+      "wp_nm_unm",
+      "wp_nm_farmington",
+      "wp_nm_corrales",
+      "wp_nm_armijo",
+      "wp_nm_asla_story"
+    ],
+    "outcome": "2024–25 report reconciles to 137 DL flags. December 2025 public university map supplies continuity for matched DLI entries. Model/language/grade conflicts remain; directory descriptions are not observed schedules.",
+    "limitations": "The university map is non-exhaustive, not independently phone-verified for many entries, and does not establish exact source applicability dates. Unmatched/contradictory rows are not confirmed by silence.",
+    "program_ids": [
+      "WP-NM-P-6259ad0ba911",
+      "WP-NM-P-303e7d54ab39",
+      "WP-NM-P-6614a72432e4",
+      "WP-NM-P-e5e01cea7e63",
+      "WP-NM-P-d34b0d4a931a",
+      "WP-NM-P-5dd6bd90a5a9",
+      "WP-NM-P-b3ee68a84e0f",
+      "WP-NM-P-b3f31bcef589",
+      "WP-NM-P-7e422ab0dd18",
+      "WP-NM-P-68633bc474a9",
+      "WP-NM-P-5ce34df8810d",
+      "WP-NM-P-079149ca2748",
+      "WP-NM-P-63565c48872a",
+      "WP-NM-P-75594d7d59bf",
+      "WP-NM-P-74827d00667c",
+      "WP-NM-P-a17392153b90",
+      "WP-NM-P-315a5474b484",
+      "WP-NM-P-443d5a172b62",
+      "WP-NM-P-64a610d92c3b",
+      "WP-NM-P-9ed5d1f6dede",
+      "WP-NM-P-f5e846a5c0cd",
+      "WP-NM-P-803b57aed00c",
+      "WP-NM-P-f3de5cd35590",
+      "WP-NM-P-d5f8830bdc14",
+      "WP-NM-P-c96b825a3f8a",
+      "WP-NM-P-c56c91dbaf3d",
+      "WP-NM-P-c265c189d1e9",
+      "WP-NM-P-fbe47bf50c16",
+      "WP-NM-P-c81acb66dc03",
+      "WP-NM-P-37ae18fb6e0f",
+      "WP-NM-P-7389b299e975",
+      "WP-NM-P-8c92e7247723",
+      "WP-NM-P-157d2319dc35",
+      "WP-NM-P-36fe6c61fb2c",
+      "WP-NM-P-3db6e0ab4ed5",
+      "WP-NM-P-bd5593c354c1",
+      "WP-NM-P-ec6d5567f66b",
+      "WP-NM-P-1af1c21582bd",
+      "WP-NM-P-3403a6c2a93b",
+      "WP-NM-P-3dd20b770583",
+      "WP-NM-P-7388dc8c408e",
+      "WP-NM-P-bbf42f36cc3e",
+      "WP-NM-P-95274baec366",
+      "WP-NM-P-6820e6c7706b",
+      "WP-NM-P-e05e32e4dc46",
+      "WP-NM-P-f40ba13e8b8d",
+      "WP-NM-P-5af6cd7da814",
+      "WP-NM-P-4ffaa982d3ea",
+      "WP-NM-P-12a24f54860c",
+      "WP-NM-P-8fa6fd72f25d",
+      "WP-NM-P-19c0f84135f3",
+      "WP-NM-P-86cf211f8512",
+      "WP-NM-P-746e7feea574",
+      "WP-NM-P-3323172568d8",
+      "WP-NM-P-c0d476f1630e",
+      "WP-NM-P-b6ff50eb0287",
+      "WP-NM-P-cfa12a32fe3d",
+      "WP-NM-P-17b04bec57aa",
+      "WP-NM-P-50198b94a630",
+      "WP-NM-P-a8dfe3a757f4",
+      "WP-NM-P-defc6eb55a45",
+      "WP-NM-P-1baa15d71805",
+      "WP-NM-P-461864c79f8e",
+      "WP-NM-P-a0374f33c221",
+      "WP-NM-P-da5a1089edff",
+      "WP-NM-P-699f35b2481a",
+      "WP-NM-P-c4369092f57c",
+      "WP-NM-P-86a96de381ec",
+      "WP-NM-P-63bb485f9d00",
+      "WP-NM-P-f9b7915114aa",
+      "WP-NM-P-d42b7bf3946d",
+      "WP-NM-P-94c670dc966a",
+      "WP-NM-P-f31cf0698aff",
+      "WP-NM-P-ae9687983375",
+      "WP-NM-P-91a2cf1a1926",
+      "WP-NM-P-05735e740aa8",
+      "WP-NM-P-56bb9ddd39a3",
+      "WP-NM-P-d0a031762d91",
+      "WP-NM-P-a7e7047fa851",
+      "WP-NM-P-16a81da12919",
+      "WP-NM-P-2e9af3243562",
+      "WP-NM-P-41b35e02d0c0",
+      "WP-NM-P-50194af31011",
+      "WP-NM-P-110bb875cffd",
+      "WP-NM-P-7209866261a2",
+      "WP-NM-P-b68e717ff123",
+      "WP-NM-P-6b66e642579c",
+      "WP-NM-P-091970b5209a",
+      "WP-NM-P-779426dab6bf",
+      "WP-NM-P-97de431b34cd",
+      "WP-NM-P-4621139fde37",
+      "WP-NM-P-e53a47b74fc1",
+      "WP-NM-P-7b1993b1c8f5",
+      "WP-NM-P-52410fa49ecd",
+      "WP-NM-P-c40b2c82db5e",
+      "WP-NM-P-25aabe6bf7ef",
+      "WP-NM-P-a6faeaa79fb0",
+      "WP-NM-P-709f15309f9b",
+      "WP-NM-P-8d70b8c4cbf4",
+      "WP-NM-P-c00b10c5c777",
+      "WP-NM-P-206ac7025172",
+      "WP-NM-P-e772d63916c5",
+      "WP-NM-P-2ef058094b19",
+      "WP-NM-P-0c80086e1d01",
+      "WP-NM-P-62efc0d9c19e",
+      "WP-NM-P-492d37ff0143",
+      "WP-NM-P-d5440ec6174c",
+      "WP-NM-P-d01030bef09b",
+      "WP-NM-P-a8e1f8e94411",
+      "WP-NM-P-85e384c7d48f",
+      "WP-NM-P-e4e6fecd46a2",
+      "WP-NM-P-74416ff806cd",
+      "WP-NM-P-89f10c0421af",
+      "WP-NM-P-81e547964d8d",
+      "WP-NM-P-b133ddee9685",
+      "WP-NM-P-09e5b71ce812",
+      "WP-NM-P-e719fc945109",
+      "WP-NM-P-b2f74e0618d8",
+      "WP-NM-P-368f72b4bd6c",
+      "WP-NM-P-6a0f1c751d9b"
+    ]
+  },
+  {
+    "review_id": "AZ_PHOENIX",
+    "state": "AZ",
+    "query_keys": [
+      "wp_q_az_phx1"
+    ],
+    "source_keys": [
+      "wp_az_phoenix1_25",
+      "wp_az_phoenix1_handbook"
+    ],
+    "outcome": "Lowell programme explicitly returns in 2025–26 for K–1. Future grade rollouts are plans; no K–8 backfill.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": []
+  },
+  {
+    "review_id": "AZ_PUENTE",
+    "state": "AZ",
+    "query_keys": [
+      "wp_q_az_flagstaff",
+      "wp_b_az_ending"
+    ],
+    "source_keys": [
+      "wp_az_puente",
+      "wp_az_puente_policy",
+      "wp_az_puente_dine"
+    ],
+    "outcome": "2020/2021 primary language policy names both programmes; current primary curriculum confirms academic content through Diné and Spanish. No ending indication in reviewed programme sources.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-AZ-P-7617f9d4e937",
+      "WP-AZ-P-af4b1df884f8"
+    ]
+  },
+  {
+    "review_id": "AZ_MESA_GUERRERO",
+    "state": "AZ",
+    "query_keys": [
+      "wp_q_az_mesa25",
+      "wp_q_az_mesa_change"
+    ],
+    "source_keys": [
+      "wp_az_mesa_guerrero_rendered",
+      "wp_az_mesa_rendered"
+    ],
+    "outcome": "Guerrero primary page announces fall 2023 K launch and retains its English/Spanish two-way academic programme. No ending evidence in the bounded review; cohort growth is not calculated into observed grades.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-AZ-P-2a7a31d0b0c4"
+    ]
+  },
+  {
+    "review_id": "NE_FREMONT_WASHINGTON",
+    "state": "NE",
+    "query_keys": [
+      "wp_q_ne_fremont24",
+      "wp_q_ne_fremont_dual2",
+      "wp_q_ne_fremont_history"
+    ],
+    "source_keys": [
+      "wp_ne_fremont_rendered",
+      "wp_ne_fremont_news24",
+      "wp_ne_state"
+    ],
+    "outcome": "June 2024 reporting confirms Washington academic English/Spanish teaching; current primary page continues the programme. No ending evidence in reviewed sources; later-only JCAC/Middle listings are not projected backward.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-NE-P-3ce05fd2cb8e"
+    ]
+  },
+  {
+    "review_id": "NE_DLA",
+    "state": "NE",
+    "query_keys": [
+      "wp_q_ne"
+    ],
+    "source_keys": [
+      "wp_ne_dla",
+      "wp_ne_state"
+    ],
+    "outcome": "School dates opening to fall 2018 and a grade-8 expansion to 2026–27; confirms continuing academic Spanish bilingual programme. Public-program funding not established.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-NE-P-356bf57c03a3"
+    ]
+  },
+  {
+    "review_id": "KS_TOPEKA",
+    "state": "KS",
+    "query_keys": [
+      "wp_q_ks_broad25",
+      "wp_q_ks_topeka25"
+    ],
+    "source_keys": [
+      "wp_ks_topeka",
+      "wp_ks_topeka_elementary",
+      "wp_ks_topeka_secondary"
+    ],
+    "outcome": "District dates its PK–12 programme to national recognition in 2022 and continues to name Scott, Landon and Topeka High; no ending indication in inspected district pages. Campus-specific start dates are not verified.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-KS-P-53413592f970",
+      "WP-KS-P-f5247f0d1f20",
+      "WP-KS-P-d2676a0d50d9"
+    ]
+  },
+  {
+    "review_id": "KS_OLATHE",
+    "state": "KS",
+    "query_keys": [
+      "wp_q_ks_olathe",
+      "wp_q_ks_olathe_change"
+    ],
+    "source_keys": [
+      "wp_ks_olathe",
+      "wp_ks_olathe_brochure25",
+      "wp_ks_olathe_change26"
+    ],
+    "outcome": "Brochure publicly versioned September 2025 names both elementary sites; current district page continues them. Adopted Black Bob school closure is after 2026–27, with an immersion move to Arbor Creek; Manchester Park remains.",
+    "limitations": "Brochure URL upload/version date and nondiscrimination footer 05/22 do not establish an annual allocation year; model remains undated.",
+    "program_ids": [
+      "WP-KS-P-3d7910e7b53e",
+      "WP-KS-P-8f8e2e52b7d5"
+    ]
+  },
+  {
+    "review_id": "KS_BLUE_VALLEY",
+    "state": "KS",
+    "query_keys": [
+      "wp_q_ks_bluevalley"
+    ],
+    "source_keys": [
+      "wp_ks_bv_elem",
+      "wp_ks_bv_middle",
+      "wp_ks_bv_middle_info",
+      "wp_ks_bv_change26"
+    ],
+    "outcome": "Wolf Springs started 2017–18; Valley Park started 2018–19 and explicitly serves grades 3–5 in 2025–26 during phase-out. October 2026 reporting announces a later programme end; exact implementation year requires district confirmation.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": [
+      "WP-KS-P-0fe2d86cf422"
+    ]
+  },
+  {
+    "review_id": "KS_KCK",
+    "state": "KS",
+    "query_keys": [
+      "wp_q_ks_kckhist"
+    ],
+    "source_keys": [
+      "wp_ks_kck_dl",
+      "wp_ks_newstanley_change25"
+    ],
+    "outcome": "District implementation table explicitly includes 2025–26 K–2. New Stanley closure proposed November 2025 was reversed in December; article directly describes its Spanish/English DL programme. Current admission FAQ and timeline have inconsistent launch language, retained as a source conflict.",
+    "limitations": "Bounded public-source review; not a review of every board packet. No contact with schools or individuals.",
+    "program_ids": []
+  }
+]

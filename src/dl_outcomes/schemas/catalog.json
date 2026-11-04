@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:dual-language-outcomes:catalog:1.2.0",
+  "$id": "urn:dual-language-outcomes:catalog:1.3.0",
   "title": "National longitudinal DL research contracts",
-  "x-schema-version": "1.2.0",
+  "x-schema-version": "1.3.0",
   "$defs": {
     "states": {
       "type": "object",
@@ -1183,7 +1183,8 @@
             "district",
             "program",
             "site",
-            "schedule"
+            "schedule",
+            "state"
           ]
         },
         "entity_id": {

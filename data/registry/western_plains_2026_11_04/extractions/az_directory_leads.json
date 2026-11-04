@@ -1,0 +1,1382 @@
+[
+  {
+    "id": "1",
+    "name": "Lowell Elementary",
+    "district": "Phoenix Elementary #1",
+    "address": "1121 S 3rd Ave, Phoenix, AZ 85003",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "State-Approved 50/50 SEI Dual Language",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "2",
+    "name": "Carl Hayden High School",
+    "district": "Phoenix Union",
+    "address": "3333 W Roosevelt St, Phoenix, AZ 85009",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "State-Approved 50/50 SEI Dual Language",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "3",
+    "name": "Arizona Language Prep",
+    "district": "Charter",
+    "address": "9207 N 19th Ave, Phoenix, AZ 85021",
+    "grades": "K-8",
+    "bilingualLanguage": "Trilingual",
+    "programType": "Trilingual Immersion (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "4",
+    "name": "Kyrene de los Lagos",
+    "district": "Kyrene ESD",
+    "address": "777 N Desert Breeze Blvd, Chandler, AZ 85226",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language Immersion (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "5",
+    "name": "Biltmore Prep",
+    "district": "Creighton Schools",
+    "address": "3737 E McDowell Rd, Phoenix, AZ 85008",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language 50/50 (verify SEI status with school)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "6",
+    "name": "Osborn Elementary",
+    "district": "Osborn ESD",
+    "address": "1226 W Osborn Rd, Phoenix, AZ 85013",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "7",
+    "name": "Las Brisas Academy",
+    "district": "Liberty ESD",
+    "address": "3222 W Greenway Rd, Phoenix, AZ 85053",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "8",
+    "name": "Cartwright Elementary",
+    "district": "Cartwright ESD",
+    "address": "3401 N 67th Ave, Phoenix, AZ 85033",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "9",
+    "name": "Deer Valley Elementary",
+    "district": "Deer Valley USD",
+    "address": "20402 N 15th Ave, Phoenix, AZ 85027",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "10",
+    "name": "Madison Elementary",
+    "district": "Madison ESD",
+    "address": "5601 N 16th St, Phoenix, AZ 85016",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Spanish Immersion (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "11",
+    "name": "Mission View Elementary",
+    "district": "Tucson USD",
+    "address": "5951 S Mission Rd, Tucson, AZ 85746",
+    "grades": "K-5",
+    "bilingualLanguage": "Spanish",
+    "programType": "Board-Approved Dual Language Immersion (Spanish/English)",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "12",
+    "name": "Isaac Elementary",
+    "district": "Isaac ESD",
+    "address": "3648 W Catalina Dr, Phoenix, AZ 85019",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "SEI with EL Supports",
+    "programModel": "el-services"
+  },
+  {
+    "id": "13",
+    "name": "Maryvale High School",
+    "district": "Phoenix Union",
+    "address": "3415 N 59th Ave, Phoenix, AZ 85033",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Support + World Language",
+    "programModel": "el-services"
+  },
+  {
+    "id": "14",
+    "name": "Alhambra High School",
+    "district": "Phoenix Union",
+    "address": "3839 W Camelback Rd, Phoenix, AZ 85019",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Services (verify bilingual program with school)",
+    "programModel": "el-services"
+  },
+  {
+    "id": "15",
+    "name": "Trevor Browne High School",
+    "district": "Phoenix Union",
+    "address": "7402 W Catalina Dr, Phoenix, AZ 85033",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Support + World Language",
+    "programModel": "el-services"
+  },
+  {
+    "id": "16",
+    "name": "South Mountain High School",
+    "district": "Phoenix Union",
+    "address": "5401 S 7th St, Phoenix, AZ 85040",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Services (verify bilingual program with school)",
+    "programModel": "el-services"
+  },
+  {
+    "id": "17",
+    "name": "César Chávez High School",
+    "district": "Phoenix Union",
+    "address": "3921 W Baseline Rd, Laveen, AZ 85339",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Support + World Language",
+    "programModel": "el-services"
+  },
+  {
+    "id": "18",
+    "name": "Tolleson Union High School",
+    "district": "Tolleson Union",
+    "address": "9419 W Van Buren St, Tolleson, AZ 85353",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "19",
+    "name": "Westview High School",
+    "district": "Tolleson Union",
+    "address": "10850 W Garden Lakes Pkwy, Avondale, AZ 85392",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Support + World Language",
+    "programModel": "el-services"
+  },
+  {
+    "id": "20",
+    "name": "Glendale High School",
+    "district": "Glendale Union",
+    "address": "7650 N 43rd Ave, Glendale, AZ 85301",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "21",
+    "name": "Esperanza Elementary",
+    "district": "Roosevelt ESD",
+    "address": "2828 N 47th Ave, Phoenix, AZ 85035",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language 90/10 (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "22",
+    "name": "Fowler Elementary",
+    "district": "Fowler ESD",
+    "address": "1617 S 67th Ave, Phoenix, AZ 85043",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "23",
+    "name": "Murphy Elementary",
+    "district": "Murphy ESD",
+    "address": "2802 W Durango St, Phoenix, AZ 85009",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "EL Support + World Language",
+    "programModel": "el-services"
+  },
+  {
+    "id": "24",
+    "name": "Pendergast Elementary",
+    "district": "Pendergast ESD",
+    "address": "3802 N 91st Ave, Phoenix, AZ 85037",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Dual Language (waiver may be required)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "25",
+    "name": "Metro Tech High School",
+    "district": "Phoenix Union",
+    "address": "1900 W Thomas Rd, Phoenix, AZ 85015",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Support + Seal of Biliteracy",
+    "programModel": "el-services"
+  },
+  {
+    "id": "26",
+    "name": "Camelback High School",
+    "district": "Phoenix Union",
+    "address": "4612 N 28th St, Phoenix, AZ 85016",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Services + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "27",
+    "name": "North High School",
+    "district": "Phoenix Union",
+    "address": "1101 E Thomas Rd, Phoenix, AZ 85014",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "IB + Spanish Heritage",
+    "programModel": "el-services"
+  },
+  {
+    "id": "28",
+    "name": "Independence High School",
+    "district": "Glendale Union",
+    "address": "6602 N 75th Ave, Glendale, AZ 85303",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Supports + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "29",
+    "name": "Apollo High School",
+    "district": "Glendale Union",
+    "address": "8045 N 47th Ave, Glendale, AZ 85302",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Supports + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "30",
+    "name": "Dobson High School",
+    "district": "Mesa Public Schools",
+    "address": "1501 W Guadalupe Rd, Mesa, AZ 85202",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Services + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "31",
+    "name": "Westwood High School",
+    "district": "Mesa Public Schools",
+    "address": "945 W Rio Salado Pkwy, Mesa, AZ 85201",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "IB + EL Supports",
+    "programModel": "el-services"
+  },
+  {
+    "id": "32",
+    "name": "Chandler High School",
+    "district": "Chandler USD",
+    "address": "350 N Arizona Ave, Chandler, AZ 85225",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Seal of Biliteracy + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "33",
+    "name": "Hamilton High School",
+    "district": "Chandler USD",
+    "address": "3700 S Arizona Ave, Chandler, AZ 85248",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Supports + Advanced Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "34",
+    "name": "Mountain Pointe High School",
+    "district": "Tempe Union",
+    "address": "4201 E Knox Rd, Phoenix, AZ 85044",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "ELD + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "35",
+    "name": "Sunnyside High School",
+    "district": "Sunnyside USD",
+    "address": "1725 E Bilby Rd, Tucson, AZ 85706",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Supports + Heritage Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "36",
+    "name": "Desert View High School",
+    "district": "Sunnyside USD",
+    "address": "4101 E Valencia Rd, Tucson, AZ 85706",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Services + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "37",
+    "name": "Flowing Wells High School",
+    "district": "Flowing Wells USD",
+    "address": "3725 N Flowing Wells Rd, Tucson, AZ 85705",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL Supports + Spanish",
+    "programModel": "el-services"
+  },
+  {
+    "id": "38",
+    "name": "Nogales High School",
+    "district": "Nogales Unified",
+    "address": "1905 N Apache Blvd, Nogales, AZ 85621",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Bilingual Environment + EL Services",
+    "programModel": "el-services"
+  },
+  {
+    "id": "39",
+    "name": "Rio Rico High School",
+    "district": "Santa Cruz Valley USD",
+    "address": "590 N Camino Galindo, Rio Rico, AZ 85648",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "EL + Spanish Language Courses",
+    "programModel": "el-services"
+  },
+  {
+    "id": "46",
+    "name": "Rudy G Bologna Elementary",
+    "district": "Chandler USD",
+    "address": "1450 W Erie St, Chandler, AZ 85224",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "47",
+    "name": "Desert Sun Academy",
+    "district": "Cave Creek USD",
+    "address": "7575 E Wilderness Trail, Cave Creek, AZ 85331",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "48",
+    "name": "Robert and Danell Tarwater Elementary",
+    "district": "Chandler USD",
+    "address": "2300 W Chandler Blvd, Chandler, AZ 85224",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "49",
+    "name": "Sunrise Drive Elementary School",
+    "district": "Catalina Foothills USD",
+    "address": "4801 E Sunrise Dr, Tucson, AZ 85718",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "50",
+    "name": "Gilbert Elementary School",
+    "district": "Gilbert USD",
+    "address": "50 N Greenfield Rd, Gilbert, AZ 85234",
+    "grades": "K-6",
+    "bilingualLanguage": "Spanish",
+    "programType": "Bilingual 50/50 - Dual Language Immersion",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "51",
+    "name": "Weitzel's Puente de Hozho Bilingual Magnet School",
+    "district": "Flagstaff USD",
+    "address": "2200 E Cedar Ave, Flagstaff, AZ 86004",
+    "grades": "K-8",
+    "bilingualLanguage": "Spanish/Navajo",
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "52",
+    "name": "Paseo Pointe School",
+    "district": "Laveen ESD",
+    "address": "7610 S 43rd Ave, Phoenix, AZ 85339",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "53",
+    "name": "Guerrero Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "2505 S Extension Rd, Mesa, AZ 85210",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "54",
+    "name": "Hermosa Vista Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1145 S Hermosa Dr, Mesa, AZ 85204",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "55",
+    "name": "Keller Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1456 S Keller, Mesa, AZ 85204",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "56",
+    "name": "Ida Redbird Elementary",
+    "district": "Mesa Public Schools",
+    "address": "2525 E Broadway Rd, Mesa, AZ 85204",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "57",
+    "name": "Pomeroy Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "6835 E Brown Rd, Mesa, AZ 85205",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "58",
+    "name": "Mendoza Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1245 S Westwood, Mesa, AZ 85210",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "59",
+    "name": "Edison Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "545 N Horne, Mesa, AZ 85203",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "60",
+    "name": "Holmes Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1535 E 5th St, Mesa, AZ 85203",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "61",
+    "name": "Whitman Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1545 W University Dr, Mesa, AZ 85201",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "62",
+    "name": "Robson Elementary School",
+    "district": "Mesa Public Schools",
+    "address": "1234 W University Dr, Mesa, AZ 85201",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "63",
+    "name": "Summit Academy",
+    "district": "Mesa Public Schools",
+    "address": "1650 W University Dr, Mesa, AZ 85201",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "64",
+    "name": "Pueblo Elementary School",
+    "district": "Scottsdale USD",
+    "address": "8414 E Osborn Rd, Scottsdale, AZ 85251",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "65",
+    "name": "Desert Canyon Elementary School",
+    "district": "Scottsdale USD",
+    "address": "30620 N Pima Rd, Scottsdale, AZ 85266",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "66",
+    "name": "Lakin Prep Academy",
+    "district": "Littleton ESD",
+    "address": "1900 W Durango St, Phoenix, AZ 85009",
+    "grades": "K-7",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "67",
+    "name": "Bloom Elementary",
+    "district": "Tucson USD",
+    "address": "2544 N Dodge Blvd, Tucson, AZ 85716",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "68",
+    "name": "Davis Bilingual Magnet School",
+    "district": "Tucson USD",
+    "address": "500 W Saint Marys Rd, Tucson, AZ 85701",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "69",
+    "name": "Grijalva Elementary",
+    "district": "Tucson USD",
+    "address": "1490 W Ajo Way, Tucson, AZ 85713",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "70",
+    "name": "VanBuskirk Elementary",
+    "district": "Tucson USD",
+    "address": "750 S VanBuskirk Way, Tucson, AZ 85710",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "71",
+    "name": "John E. White Elementary",
+    "district": "Tucson USD",
+    "address": "701 W Michigan St, Tucson, AZ 85714",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "72",
+    "name": "Hollinger K-8",
+    "district": "Tucson USD",
+    "address": "6900 E Stella Rd, Tucson, AZ 85730",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "73",
+    "name": "McCorkle Academy of Excellence",
+    "district": "Tucson USD",
+    "address": "7350 E 22nd St, Tucson, AZ 85710",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "74",
+    "name": "Roskruge Bilingual Magnet",
+    "district": "Tucson USD",
+    "address": "501 E 6th St, Tucson, AZ 85705",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "75",
+    "name": "Magee Middle School",
+    "district": "Tucson USD",
+    "address": "3275 N Shannon Rd, Tucson, AZ 85716",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "76",
+    "name": "Pistor Middle School",
+    "district": "Tucson USD",
+    "address": "5455 S Cardinal Ave, Tucson, AZ 85746",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "77",
+    "name": "Pueblo High School",
+    "district": "Tucson USD",
+    "address": "3500 S 12th Ave, Tucson, AZ 85713",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "78",
+    "name": "Ochoa Community Magnet School",
+    "district": "Tucson USD",
+    "address": "101 W 25th St, Tucson, AZ 85713",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "79",
+    "name": "Esperanza Elementary School",
+    "district": "Isaac School District",
+    "address": "4550 W McDowell Rd, Phoenix, AZ 85035",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "80",
+    "name": "Isaac Middle School",
+    "district": "Isaac School District",
+    "address": "3402 W McDowell Rd, Phoenix, AZ 85009",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "81",
+    "name": "Moya Elementary School",
+    "district": "Isaac School District",
+    "address": "4125 W Osborn Rd, Phoenix, AZ 85019",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "82",
+    "name": "P.T. Coe Elementary School",
+    "district": "Isaac School District",
+    "address": "3305 W Highland Ave, Phoenix, AZ 85017",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "83",
+    "name": "Sutton Elementary School",
+    "district": "Isaac School District",
+    "address": "3825 W Campbell Ave, Phoenix, AZ 85019",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "84",
+    "name": "Esperanza Elementary School",
+    "district": "Sunnyside Unified",
+    "address": "6855 S Randolph Way, Tucson, AZ 85756",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "85",
+    "name": "Gallego Primary Fine Arts Magnet",
+    "district": "Sunnyside Unified",
+    "address": "1751 E Bilby Rd, Tucson, AZ 85706",
+    "grades": "K-3",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "86",
+    "name": "Liberty Elementary School",
+    "district": "Sunnyside Unified",
+    "address": "845 W Elvado Rd, Tucson, AZ 85756",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "87",
+    "name": "Los Amigos Technology Academy",
+    "district": "Sunnyside Unified",
+    "address": "3450 S 12th Ave, Tucson, AZ 85713",
+    "grades": "K-5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "88",
+    "name": "Sierra 2-8 School",
+    "district": "Sunnyside Unified",
+    "address": "7755 E 22nd St, Tucson, AZ 85710",
+    "grades": "2-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "89",
+    "name": "Lagos Dual Language Academy",
+    "district": "Kyrene School District",
+    "address": "777 N Desert Breeze Blvd, Chandler, AZ 85226",
+    "grades": "PreK-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "90",
+    "name": "Gavilan Peak School",
+    "district": "Deer Valley Unified",
+    "address": "41610 N Gavilan Peak Pkwy, Anthem, AZ 85086",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "91",
+    "name": "Canyon Springs STEM Academy",
+    "district": "Deer Valley Unified",
+    "address": "2727 W Union Hills Dr, Phoenix, AZ 85027",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "92",
+    "name": "Desert Cove Elementary School",
+    "district": "Paradise Valley USD",
+    "address": "3225 E Cactus Rd, Phoenix, AZ 85032",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "93",
+    "name": "Echo Canyon School",
+    "district": "Paradise Valley USD",
+    "address": "8400 E Cactus Rd, Scottsdale, AZ 85260",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "94",
+    "name": "Whispering Wind Academy",
+    "district": "Paradise Valley USD",
+    "address": "2115 E Utopia Rd, Phoenix, AZ 85024",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "95",
+    "name": "Lone Mountain Elementary School",
+    "district": "Paradise Valley USD",
+    "address": "6225 E Dove Valley Rd, Cave Creek, AZ 85331",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "96",
+    "name": "Valley View School",
+    "district": "Roosevelt School District",
+    "address": "2302 E Virginia Ave, Phoenix, AZ 85006",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "97",
+    "name": "Cloves C. Campbell Sr. Elementary",
+    "district": "Roosevelt School District",
+    "address": "3340 S 16th St, Phoenix, AZ 85040",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "98",
+    "name": "Biltmore Preparatory Academy",
+    "district": "Creighton School District",
+    "address": "2039 E Glenrosa Ave, Phoenix, AZ 85016",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "99",
+    "name": "Loma Linda Elementary School",
+    "district": "Creighton School District",
+    "address": "2002 E Clarendon Ave, Phoenix, AZ 85016",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "100",
+    "name": "American Elementary School",
+    "district": "Glendale Elementary",
+    "address": "6801 N 61st Ave, Glendale, AZ 85301",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "101",
+    "name": "Discovery Elementary School",
+    "district": "Glendale Elementary",
+    "address": "12420 N 67th Ave, Glendale, AZ 85304",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "102",
+    "name": "Horizon Elementary School",
+    "district": "Glendale Elementary",
+    "address": "17802 N 68th Ave, Glendale, AZ 85308",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "103",
+    "name": "CTA Liberty Elementary School",
+    "district": "Chandler USD",
+    "address": "1700 S Arizona Ave, Chandler, AZ 85286",
+    "grades": "K-6",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "104",
+    "name": "Puente de Hózhó Elementary School",
+    "district": "Flagstaff USD",
+    "address": "2200 E Cedar Ave, Flagstaff, AZ 86004",
+    "grades": "K-5",
+    "bilingualLanguage": "Spanish/Navajo",
+    "programType": "Board-Approved 50/50 SEI Dual Language Model - Spanish/Navajo",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "105",
+    "name": "Sinagua Middle School",
+    "district": "Flagstaff USD",
+    "address": "3950 E Butler Ave, Flagstaff, AZ 86004",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "106",
+    "name": "Coconino High School",
+    "district": "Flagstaff USD",
+    "address": "2801 N Izabel St, Flagstaff, AZ 86004",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "academia-del-pueblo",
+    "name": "Academia del Pueblo Charter School",
+    "district": "Charter",
+    "address": "201 E Durango St, Phoenix, AZ 85004",
+    "grades": "K-8",
+    "bilingualLanguage": "Spanish",
+    "programType": "Dual Language (Spanish-English)",
+    "programModel": "waiver-required"
+  },
+  {
+    "id": "brophy-college-prep",
+    "name": "Brophy College Preparatory",
+    "district": "Private",
+    "address": "4701 N Central Ave, Phoenix, AZ 85012",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "xavier-college-prep",
+    "name": "Xavier College Preparatory",
+    "district": "Private",
+    "address": "4710 N 5th St, Phoenix, AZ 85012",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "phoenix-country-day",
+    "name": "Phoenix Country Day School",
+    "district": "Private",
+    "address": "3901 E Stanford Dr, Paradise Valley, AZ 85253",
+    "grades": "K-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "sunnyslope-high",
+    "name": "Sunnyslope High School",
+    "district": "Glendale Union High School District",
+    "address": "35 W Dunlap Ave, Phoenix, AZ 85021",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "arcadia-high",
+    "name": "Arcadia High School",
+    "district": "Scottsdale Unified School District",
+    "address": "4703 E Indian School Rd, Phoenix, AZ 85018",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "camelback-high",
+    "name": "Camelback High School",
+    "district": "Phoenix Union High School District",
+    "address": "4612 N 28th St, Phoenix, AZ 85016",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "central-high",
+    "name": "Central High School",
+    "district": "Phoenix Union High School District",
+    "address": "4525 N Central Ave, Phoenix, AZ 85012",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "north-high",
+    "name": "North High School",
+    "district": "Phoenix Union High School District",
+    "address": "1101 E Thomas Rd, Phoenix, AZ 85014",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "shadow-mountain-high",
+    "name": "Shadow Mountain High School",
+    "district": "Paradise Valley Unified School District",
+    "address": "2902 E Shea Blvd, Phoenix, AZ 85028",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "pinnacle-high",
+    "name": "Pinnacle High School",
+    "district": "Paradise Valley Unified School District",
+    "address": "3535 E Mayo Blvd, Phoenix, AZ 85050",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "horizon-high",
+    "name": "Horizon High School",
+    "district": "Paradise Valley Unified School District",
+    "address": "5601 E Greenway Rd, Scottsdale, AZ 85254",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "paradise-valley-high",
+    "name": "Paradise Valley High School",
+    "district": "Paradise Valley Unified School District",
+    "address": "3950 E Bell Rd, Phoenix, AZ 85032",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "moon-valley-high",
+    "name": "Moon Valley High School",
+    "district": "Glendale Union High School District",
+    "address": "3625 W Cactus Rd, Phoenix, AZ 85029",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "thunderbird-high",
+    "name": "Thunderbird High School",
+    "district": "Glendale Union High School District",
+    "address": "1750 W Thunderbird Rd, Phoenix, AZ 85023",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "mountain-pointe-high",
+    "name": "Mountain Pointe High School",
+    "district": "Tempe Union High School District",
+    "address": "4201 E Knox Rd, Phoenix, AZ 85044",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "desert-vista-high",
+    "name": "Desert Vista High School",
+    "district": "Tempe Union High School District",
+    "address": "16440 S 32nd St, Phoenix, AZ 85048",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "corona-del-sol-high",
+    "name": "Corona del Sol High School",
+    "district": "Tempe Union High School District",
+    "address": "1001 E Knox Rd, Tempe, AZ 85284",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "chaparral-high",
+    "name": "Chaparral High School",
+    "district": "Scottsdale Unified School District",
+    "address": "6935 E Gold Dust Ave, Scottsdale, AZ 85253",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "desert-mountain-high",
+    "name": "Desert Mountain High School",
+    "district": "Scottsdale Unified School District",
+    "address": "12575 E Via Linda, Scottsdale, AZ 85259",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "scottsdale-prep",
+    "name": "Scottsdale Preparatory Academy",
+    "district": "Charter",
+    "address": "3420 N Hayden Rd, Scottsdale, AZ 85251",
+    "grades": "6-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "basis-scottsdale",
+    "name": "BASIS Scottsdale",
+    "district": "Charter",
+    "address": "10400 N 128th St, Scottsdale, AZ 85259",
+    "grades": "5-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "great-hearts-arcadia",
+    "name": "Great Hearts Academies - Arcadia",
+    "district": "Charter",
+    "address": "5765 E River Rd, Tucson, AZ 85750",
+    "grades": "K-12",
+    "bilingualLanguage": null,
+    "programType": "Traditional",
+    "programModel": "traditional"
+  },
+  {
+    "id": "107",
+    "name": "Continental Elementary School",
+    "district": "Continental ESD",
+    "address": "420 W Continental Rd, Green Valley, AZ 85614",
+    "grades": "K-8",
+    "bilingualLanguage": "Spanish",
+    "programType": "Spanish Dual Language Enrichment Program",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "108",
+    "name": "Cottonwood Elementary School",
+    "district": "Vail USD",
+    "address": "550 S Houghton Rd, Vail, AZ 85641",
+    "grades": "K-5",
+    "bilingualLanguage": "Spanish",
+    "programType": "Spanish Immersion Program",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "109",
+    "name": "Cholla High Magnet School",
+    "district": "Tucson USD",
+    "address": "2001 W Starr Pass Blvd, Tucson, AZ 85713",
+    "grades": "9-12",
+    "bilingualLanguage": "Spanish",
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "marcos-de-niza-high",
+    "name": "Marcos de Niza High School",
+    "district": "Tempe Union High School District",
+    "address": "6000 S Lakeshore Dr, Tempe, AZ 85283",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "kyrene-middle",
+    "name": "Kyrene Middle School",
+    "district": "Kyrene School District",
+    "address": "1050 E Kyrene Rd, Tempe, AZ 85284",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "akimel-middle",
+    "name": "Akimel A-al Middle School",
+    "district": "Kyrene School District",
+    "address": "11610 S 51st St, Phoenix, AZ 85044",
+    "grades": "6-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "encanto-school",
+    "name": "Encanto School",
+    "district": "Osborn ESD",
+    "address": "1420 W Osborn Rd, Phoenix, AZ 85015",
+    "grades": "K-3",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "desert-thunder",
+    "name": "Desert Thunder School",
+    "district": "Avondale Elementary School District",
+    "address": "16750 W Garfield Dr, Goodyear, AZ 85338",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "aguilar-elementary",
+    "name": "Aguilar Elementary School",
+    "district": "Tempe ESD",
+    "address": "1401 E Alameda Dr, Tempe, AZ 85282",
+    "grades": "K-4",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "starlight-park-prep",
+    "name": "Starlight Park Preparatory & Community School",
+    "district": "Cartwright ESD",
+    "address": "7810 W Osborn Rd, Phoenix, AZ 85033",
+    "grades": "K-8",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "pvschools-mandarin",
+    "name": "PVSchools Mandarin Immersion Program",
+    "district": "Paradise Valley Unified School District",
+    "address": "15002 N 32nd St, Phoenix, AZ 85032",
+    "grades": "K-8",
+    "bilingualLanguage": "Mandarin",
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "little-big-minds",
+    "name": "Little Big Minds Spanish Immersion Preschool",
+    "district": "Private",
+    "address": "6225 N 12th St, Phoenix, AZ 85014",
+    "grades": "Pre-K",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "international-school-az",
+    "name": "International School of Arizona",
+    "district": "Private",
+    "address": "7101 E Lincoln Dr, Scottsdale, AZ 85253",
+    "grades": "Pre-K–5",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "saguaro-high",
+    "name": "Saguaro High School",
+    "district": "Scottsdale Unified School District",
+    "address": "6250 N 82nd St, Scottsdale, AZ 85250",
+    "grades": "9-12",
+    "bilingualLanguage": null,
+    "programType": "Board-Approved 50/50 SEI Dual Language Model",
+    "programModel": "sei-dual-language"
+  },
+  {
+    "id": "santa-rosa-elementary",
+    "name": "Santa Rosa Elementary School",
+    "district": "Maricopa Unified School District",
+    "address": "21400 N Santa Rosa Dr, Maricopa, AZ 85138",
+    "grades": "K-5",
+    "bilingualLanguage": "Spanish",
+    "programType": "Dual Language Immersion (Preschool-4th, verify SEI status with school)",
+    "programModel": "waiver-required"
+  }
+]

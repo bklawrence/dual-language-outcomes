@@ -1,0 +1,100 @@
+{
+  "reference_school_year": "2025-26",
+  "collection_phase": "structural_inventory",
+  "programme_evidence_groups": 650,
+  "school_units_with_programme_evidence": 568,
+  "public_source_documents": 96,
+  "source_extraction_counts": {
+    "ut_roster_rows": 280,
+    "ut_school_language_cells": 348,
+    "co_roster_rows": 52,
+    "nm_report_school_rows": 419,
+    "nm_report_DL_flags": 137,
+    "nm_map_rows": 398,
+    "az_directory_leads": 138
+  },
+  "state_summary": [
+    {
+      "state": "UT",
+      "school_units_with_programme_evidence": 282,
+      "provisional_programme_evidence_groups": 351,
+      "confirmed_qualifying_2025_26_school_units": 33,
+      "confirmed_qualifying_2025_26_evidence_groups": 34,
+      "school_units_with_some_allocation_description_any_source_period": 32,
+      "school_units_with_named_language_share_plan_any_source_period": 32,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 25,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    },
+    {
+      "state": "CO",
+      "school_units_with_programme_evidence": 68,
+      "provisional_programme_evidence_groups": 80,
+      "confirmed_qualifying_2025_26_school_units": 9,
+      "confirmed_qualifying_2025_26_evidence_groups": 10,
+      "school_units_with_some_allocation_description_any_source_period": 21,
+      "school_units_with_named_language_share_plan_any_source_period": 18,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 5,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    },
+    {
+      "state": "NM",
+      "school_units_with_programme_evidence": 143,
+      "provisional_programme_evidence_groups": 143,
+      "confirmed_qualifying_2025_26_school_units": 117,
+      "confirmed_qualifying_2025_26_evidence_groups": 117,
+      "school_units_with_some_allocation_description_any_source_period": 10,
+      "school_units_with_named_language_share_plan_any_source_period": 2,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 2,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    },
+    {
+      "state": "AZ",
+      "school_units_with_programme_evidence": 46,
+      "provisional_programme_evidence_groups": 47,
+      "confirmed_qualifying_2025_26_school_units": 5,
+      "confirmed_qualifying_2025_26_evidence_groups": 6,
+      "school_units_with_some_allocation_description_any_source_period": 40,
+      "school_units_with_named_language_share_plan_any_source_period": 27,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 5,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    },
+    {
+      "state": "NE",
+      "school_units_with_programme_evidence": 18,
+      "provisional_programme_evidence_groups": 18,
+      "confirmed_qualifying_2025_26_school_units": 2,
+      "confirmed_qualifying_2025_26_evidence_groups": 2,
+      "school_units_with_some_allocation_description_any_source_period": 11,
+      "school_units_with_named_language_share_plan_any_source_period": 1,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 1,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    },
+    {
+      "state": "KS",
+      "school_units_with_programme_evidence": 11,
+      "provisional_programme_evidence_groups": 11,
+      "confirmed_qualifying_2025_26_school_units": 8,
+      "confirmed_qualifying_2025_26_evidence_groups": 8,
+      "school_units_with_some_allocation_description_any_source_period": 10,
+      "school_units_with_named_language_share_plan_any_source_period": 6,
+      "confirmed_2025_26_school_units_with_named_share_plan_any_source_period": 5,
+      "statewide_completeness": "not_established",
+      "allocation_interpretation": "Any-source-period plan counts; may be older, undated or later. Not a statewide coverage percentage or proof of reference-year grade allocation."
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; prior pilot outputs unchanged",
+  "limitations": [
+    "Provisional research keys are not official programme counts or NCES matches.",
+    "419 New Mexico Appendix F school-name rows and 524 model flags are retained as printed; narrative totals say 415 schools and 525 programmes. The 137 DL flags reconcile to every printed district total.",
+    "Public university map is non-exhaustive; many entries were not independently phone-verified. Mixed-language/model rows remain unresolved unless a source distinguishes them.",
+    "Utah 2026–27 roster is a later listing and includes secondary continuations. It is not backdated wholesale.",
+    "Arizona third-party directory supplies 138 extracted discovery records. It does not supply verified DL models, pairs or a complete census.",
+    "Any-source-period allocation data do not verify the same schedule, grade, or cohort in 2025–26."
+  ]
+}

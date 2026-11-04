@@ -1,0 +1,27 @@
+{
+  "verified_at_utc": "2026-11-04T21:44:15.242526+00:00",
+  "for_build_id": "build-66ea1cdbd7b45edfac335b770f4d9bdd",
+  "schema_version": "1.3.0",
+  "checks": {
+    "national_validation": "PASS",
+    "western_plains_source_scope_audit": "PASS",
+    "national_structural_integration_and_prior_preservation": "PASS",
+    "regression_tests": {
+      "result": "PASS",
+      "count": 94
+    },
+    "texas_pass48": "PASS",
+    "texas_pass50": "PASS",
+    "texas_pass51": "PASS",
+    "five_state_2025_26": "PASS",
+    "five_state_2026_27": "PASS",
+    "analytics": {
+      "status": "PASS",
+      "build_id": "build-66ea1cdbd7b45edfac335b770f4d9bdd",
+      "tables": 28,
+      "row_counts_and_field_order": "PASS"
+    },
+    "prior_assessment_definition_link_outputs_unchanged": 12
+  },
+  "interpretation": "Dated local verification receipt. The build is partial structural research, not a statewide census or observed participant exposure."
+}

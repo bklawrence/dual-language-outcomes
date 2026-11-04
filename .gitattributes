@@ -8,5 +8,7 @@
 # Source snapshots and research checkpoints retain their exact bytes.
 data/raw/** -text -whitespace
 data/registry/** -text
+# Verbatim structural PDF text keeps the whitespace from extraction.
+data/registry/western_plains_2026_11_04/extractions/nm_report_appendix_F_text.txt -whitespace
 # Source-derived CSV cells may contain intentional whitespace.
 *.csv -whitespace

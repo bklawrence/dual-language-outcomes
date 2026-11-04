@@ -1,6 +1,8 @@
 # National longitudinal data model
 
-Schema version: **1.2.0**. Scope: all 50 US states and all instructional languages. This is a public aggregate-data research model, with source-specific observations and explicit uncertainty. Structural research for California, Idaho, Montana, Nevada, Oregon and Wyoming is integrated alongside the Illinois seed and Texas/Washington pilots. All nine states remain partial inventories. Additional proficiency collection follows completion of the 50-state structural program work.
+Schema version: **1.3.0**. Scope: all 50 US states and all instructional languages. This is a public aggregate-data research model, with source-specific observations and explicit uncertainty. Partial structural working sets now cover 15 states, including the Utah, Colorado, New Mexico, Arizona, Nebraska and Kansas first pass. Additional proficiency collection follows completion of the 50-state structural program work.
+
+State-level evidence claims retain discovery/screening rows whose school or language-track identity has not been reviewed. They reference an existing state identity and do not create a programme, school or district/LEA match. A source reporting-group heading such as New Mexico's “State Charter Schools” is retained as context, not manufactured into one district. School/program IDs in the six-state batch are provisional research keys; no NCES matches were inferred.
 
 ## Entities, candidates and time
 

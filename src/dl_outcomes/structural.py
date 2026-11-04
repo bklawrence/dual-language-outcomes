@@ -11,7 +11,8 @@ from .validation import load
 
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
-REPORT = 'data/reports/structural_integration_2026_11_04'
+REPORT = 'data/reports/structural_inventory_2026_11_04'
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 
 
 def migration_errors(root, tables, *, check_hashes=True):
@@ -105,6 +106,10 @@ def migration_errors(root, tables, *, check_hashes=True):
     if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='structural_inventory':
         if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments for r in tables['datasets']):
             errors.append('New non-structural dataset collected before the structural phase is finished')
+    batch_audit = root / 'config/research_migrations/western_plains_2026_11_04.json'
+    if batch_audit.exists():
+        from .western_plains_review import audit_errors
+        errors.extend(audit_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -158,8 +163,8 @@ def report_rows(root, tables):
             registry_school_units_including_screening=len(registry), program_site_school_units=len({r['school_id'] for r in current}),
             provisional_program_evidence_groups=len({r['program_id'] for r in current}),
             status_history_rows=len(state_status),
-            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in FIVE else None,
-            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in FIVE else None,
+            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES else None,
+            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES else None,
             program_groups_with_some_population_model=len({r['program_id'] for r in current if r['population_models_all_source_periods']}),
             program_groups_with_some_delivery_structure=len({r['program_id'] for r in current if r['delivery_structures_all_source_periods']}),
             statewide_completeness='not_established',
@@ -185,6 +190,11 @@ def generate_report(root, *, check=False):
         REPORT + '_program_view.csv':csv_text(inventory),
         REPORT + '_by_state.csv':csv_text(summary),
     }
+    batch_summary = None
+    if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
+        from .western_plains_review import render_reports
+        batch_contents, batch_summary = render_reports(root, tables)
+        contents.update(batch_contents)
     audit = dict(migration_date='2026-11-04', build_id=manifest['build_id'],schema_version=manifest['schema_version'],
         collection_phase='structural_inventory', proficiency_collection='deferred_until_50_state_structural_inventories_finished',
         states_with_integrated_program_evidence=[r['state_code'] for r in summary],
@@ -194,8 +204,10 @@ def generate_report(root, *, check=False):
         oregon_source_observations=223,oregon_directory_program_evidence_groups=209,
         historical_CDE_screening_school_leads=1310,oregon_separate_language_screening_rows=12,
         original_assessment_outputs_unchanged=True, statewide_completeness='not_established',
-        view_interpretation='Source-period unions for review, not a current operating census or assumed historically stable configurations.',
+        view_interpretation='Source-period unions for review, not a current operating census or assumed historically stable configurations. The earlier nine-state integration report is a preserved milestone; this is the current inventory view.',
         reports={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()})
+    if batch_summary:
+        audit['western_plains_batch'] = {k: batch_summary[k] for k in ['programme_evidence_groups', 'school_units_with_programme_evidence', 'public_source_documents', 'source_extraction_counts']}
     contents[REPORT+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

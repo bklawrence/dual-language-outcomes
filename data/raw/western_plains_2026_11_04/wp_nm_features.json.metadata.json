@@ -1,0 +1,11 @@
+{
+  "url": "https://services6.arcgis.com/zbiOJznElr9EGpUY/arcgis/rest/services/12_6_Updated_LanguagePrograms/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+  "retrieved_at": "2026-11-04T20:41:14.163775+00:00",
+  "sha256": "e3495778d2cfd258b07817380844e6d96d040e148010393ce284391cbb192ac0",
+  "title": "wp_nm_features",
+  "http_status": 200,
+  "final_url": "https://services6.arcgis.com/zbiOJznElr9EGpUY/arcgis/rest/services/12_6_Updated_LanguagePrograms/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+  "capture_method": "public_http_response_bytes",
+  "archive_kind": "full_public_response",
+  "full_response_sha256": "e3495778d2cfd258b07817380844e6d96d040e148010393ce284391cbb192ac0"
+}

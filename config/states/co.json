@@ -2,7 +2,18 @@
   "state_code": "CO",
   "state_name": "Colorado",
   "state_fips": "08",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "colorado",
+  "collection_status": "integrated_partial",
+  "notes": "Six-state structural first pass: 2025\u201326 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+  "structural_inputs": {
+    "programmes": "data/registry/western_plains_2026_11_04/co_programmes.json",
+    "screening": "data/registry/western_plains_2026_11_04/co_screening.json",
+    "sources": "data/registry/western_plains_2026_11_04/sources.json",
+    "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+    "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+    "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+    "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+    "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+    "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json"
+  }
 }

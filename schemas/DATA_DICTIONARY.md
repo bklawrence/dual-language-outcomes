@@ -1,6 +1,6 @@
 # National data dictionary
 
-Schema version: **1.2.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
+Schema version: **1.3.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
 
 Empty CSV cells are null. IDs and school years remain strings. All listed headers are required, including in zero-row tables.
 
@@ -274,7 +274,7 @@ Path: `data/curated/sources/evidence_claims.csv`. Primary key: `claim_id`.
 | Column | Type | Allowed values / reference |
 |---|---|---|
 | `claim_id` | string |  |
-| `entity_type` | string | school, district, program, site, schedule |
+| `entity_type` | string | school, district, program, site, schedule, state |
 | `entity_id` | string |  |
 | `attribute` | string |  |
 | `reported_value` | string / null |  |
