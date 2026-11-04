@@ -1,4 +1,10 @@
-# Texas dual-language research data — Passes 44–46 (2026-11-02)
+# Texas dual-language research data
+
+**Current language audit: [Pass 50 (2026-11-04)](README_PASS50.md).** Use the [campus language table](../../data/registry/texas/texas_campus_language_inventory_pass50.csv), [provisional language-track data](../../data/registry/texas/texas_language_program_tracks_pass50.csv), and [classification audit](../../data/registry/texas/texas_language_classification_audit_pass50.csv). [current_inventory.json](../../data/registry/texas/current_inventory.json) identifies the preferred files. These supersede earlier language classifications for this research workflow; historical snapshots remain intact.
+
+The inventory includes English with Spanish, Mandarin, Vietnamese, French, Arabic, and unresolved language pairs. A campus may have separate tracks. Read source dates and confirmation scope before using a label; district policy support is not campus/year confirmation.
+
+## Historical working files — Passes 44–46 (2026-11-02)
 
 These are research working files, not definitive campus-program census data. This update is designed to be merged into the existing `dual-language-outcomes` project without replacing `collectors/texas.py`, `collectors/texas_tapr_dli.py`, or the national `data/registry/` tables.
 
@@ -24,7 +30,7 @@ The accompanying `manifest.json` lists original filenames, row counts, and SHA-2
 - The **134-record pilot** comprises 90 dated-policy candidate cohorts and 44 provisional records (32 preliminary Houston, 12 Round Rock prospective schedules), across **66 campuses**.
 - The **four all-grade observations** are **not** 2023–24 grade-three/four/five treatment-group results; one is a districtwide aggregate. They are useful context only.
 - Whole-school / strand evidence may refer to a different school year or grade. `unknown` must remain unknown until dated evidence supports an update.
-- The labels 90/10, 80/20, 70/30, 50/50 refer to the **Spanish/English allocation in kindergarten in the cohort's entry year**, not pre-K or tested-grade ratios. A marketing/program title is not a substitute for an explicit contradictory timetable.
+- The labels 90/10, 80/20, 70/30, 50/50 refer to the **non-English partner/English allocation in kindergarten in the cohort's entry year**, not pre-K or tested-grade ratios. Verify the partner language for the particular track; a numeric model does not establish Spanish. A marketing/program title is not a substitute for an explicit contradictory timetable.
 - Schoolwide SEDA outcomes and program-specific TEA outcomes are analytically different measures; they are never merged into a single undifferentiated outcome.
 
 ## Public TAPR collector / importer

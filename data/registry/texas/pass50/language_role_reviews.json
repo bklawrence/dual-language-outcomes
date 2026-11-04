@@ -1,0 +1,149 @@
+[
+  {
+    "campus_id": "057909116",
+    "campus": "WEAVER EL",
+    "district": "GARLAND ISD",
+    "candidate_languages": "Mandarin–English",
+    "language_role": "POSSIBLE_HISTORICAL_IMMERSION_REQUIRES_CORE_CONTENT_PROOF",
+    "source_ids": [
+      "tx50_weaver_mandarin_parent",
+      "tx50_mip_xlsx",
+      "tx50_weaver_cip_actual",
+      "tx50_weaver_signature_about",
+      "tx50_garland_programs"
+    ],
+    "evidence_period": "historical 2015 context; 2024-25 plan; 2026 directory and 2026-27 Spanish roster",
+    "decision": "Retain separately sourced current Spanish description; flag possible additional Mandarin track. No evidence justifies replacing Spanish with Mandarin or dating the Mandarin offering to 2023–24.",
+    "next_evidence_needed": "Dated campus timetable, program handbook, board document or archived campus description establishing Mandarin academic-content instruction and operating years."
+  },
+  {
+    "campus_id": "079910102",
+    "campus": "STAFFORD EL",
+    "district": "STAFFORD MSD",
+    "candidate_languages": "Chinese–English; Vietnamese–English; Spanish–English",
+    "language_role": "PRIMARY_PROGRAMS_ELEMENTARY_CAMPUS_YEAR_UNRESOLVED",
+    "source_ids": [
+      "tx50_stafford_school",
+      "tx50_stafford_abc10",
+      "tx50_mip_xlsx"
+    ],
+    "evidence_period": "2010 proposed Primary launch; undated Elementary page referring to Primary; 2026 directory",
+    "decision": "Keep Elementary TAPR pairing UNVERIFIED. Official text documents Chinese/English and Vietnamese/English at Primary and separately Spanish/English bilingual classes; do not collapse all Stafford programs to Spanish or transfer across campuses.",
+    "next_evidence_needed": "Elementary-campus dated language roster and continuation/closure documents; distinguish Primary campus and one-way/two-way population."
+  },
+  {
+    "campus_id": "220901047",
+    "campus": "GUNN J H",
+    "district": "ARLINGTON ISD",
+    "candidate_languages": "Spanish–English continuation",
+    "language_role": "CONTINUATION_LANGUAGE_AND_CORE_CONTENT_NOT_INDEPENDENTLY_CONFIRMED",
+    "source_ids": [
+      "tx50_arlington_gunn",
+      "tx50_arlington_corey",
+      "tx50_arlington_jones"
+    ],
+    "evidence_period": "undated current school pages",
+    "decision": "Keep pairing UNVERIFIED; feeder continuation alone does not prove the instructional language or immersion model in the historical reporting group.",
+    "next_evidence_needed": "Dated secondary course/subject language plan."
+  },
+  {
+    "campus_id": "",
+    "campus": "COLONY MEADOWS ES",
+    "district": "FORT BEND ISD",
+    "candidate_languages": "Mandarin–English",
+    "language_role": "LATER_PROGRAM_OUTSIDE_2023_24_PARENT_UNIVERSE",
+    "source_ids": [
+      "tx50_fbisd_mandarin_details",
+      "tx50_fbisd_mandarin_flyer"
+    ],
+    "evidence_period": "current official page; 2027-28 incoming-kindergarten recruitment",
+    "decision": "Record later Mandarin/English academic-content program as context; do not insert or backdate a 2023–24 TAPR track.",
+    "next_evidence_needed": "Dated launch/operating-year documentation for any future year-specific inventory."
+  },
+  {
+    "campus_id": "071905107",
+    "campus": "EDGEMERE INTERNATIONAL SCHOOL",
+    "district": "YSLETA ISD",
+    "candidate_languages": "Core pair UNVERIFIED; third-language study described",
+    "language_role": "THIRD_LANGUAGE_NOT_CORE_PARTNER_PROOF",
+    "source_ids": [
+      "tx50_ysleta_programs",
+      "tx50_ysleta_lote"
+    ],
+    "evidence_period": "undated official pages accessed 2026-11-04",
+    "decision": "Do not substitute a third-language course for the core immersion partner or default the unresolved pair to Spanish.",
+    "next_evidence_needed": "Campus-specific dated language-allocation/core-subject description."
+  },
+  {
+    "campus_id": "071905106",
+    "campus": "EASTWOOD KNOLLS INTERNATIONAL",
+    "district": "YSLETA ISD",
+    "candidate_languages": "Core pair UNVERIFIED; third-language study described",
+    "language_role": "THIRD_LANGUAGE_NOT_CORE_PARTNER_PROOF",
+    "source_ids": [
+      "tx50_ysleta_programs",
+      "tx50_ysleta_lote"
+    ],
+    "evidence_period": "undated official pages accessed 2026-11-04",
+    "decision": "Do not substitute a third-language course for the core immersion partner or default the unresolved pair to Spanish.",
+    "next_evidence_needed": "Campus-specific dated language-allocation/core-subject description."
+  },
+  {
+    "campus_id": "071905138",
+    "campus": "ALICIA R CHACON INTERNATIONAL",
+    "district": "YSLETA ISD",
+    "candidate_languages": "Core pair UNVERIFIED; third-language study described",
+    "language_role": "THIRD_LANGUAGE_NOT_CORE_PARTNER_PROOF",
+    "source_ids": [
+      "tx50_ysleta_programs",
+      "tx50_ysleta_lote"
+    ],
+    "evidence_period": "undated official pages accessed 2026-11-04",
+    "decision": "Do not substitute a third-language course for the core immersion partner or default the unresolved pair to Spanish.",
+    "next_evidence_needed": "Campus-specific dated language-allocation/core-subject description."
+  },
+  {
+    "campus_id": "071905141",
+    "campus": "ROBBIN E L WASHINGTON INTERNATIONAL EL",
+    "district": "YSLETA ISD",
+    "candidate_languages": "Core pair UNVERIFIED; third-language study described",
+    "language_role": "THIRD_LANGUAGE_NOT_CORE_PARTNER_PROOF",
+    "source_ids": [
+      "tx50_ysleta_programs",
+      "tx50_ysleta_lote"
+    ],
+    "evidence_period": "undated official pages accessed 2026-11-04",
+    "decision": "Do not substitute a third-language course for the core immersion partner or default the unresolved pair to Spanish.",
+    "next_evidence_needed": "Campus-specific dated language-allocation/core-subject description."
+  },
+  {
+    "campus_id": "071905112",
+    "campus": "NORTH LOOP EL",
+    "district": "YSLETA ISD",
+    "candidate_languages": "Core pair UNVERIFIED; third-language study described",
+    "language_role": "THIRD_LANGUAGE_NOT_CORE_PARTNER_PROOF",
+    "source_ids": [
+      "tx50_ysleta_programs",
+      "tx50_ysleta_lote"
+    ],
+    "evidence_period": "undated official pages accessed 2026-11-04",
+    "decision": "Do not substitute a third-language course for the core immersion partner or default the unresolved pair to Spanish.",
+    "next_evidence_needed": "Campus-specific dated language-allocation/core-subject description."
+  },
+  {
+    "campus_id": "101912483",
+    "campus": "MARK WHITE EL",
+    "district": "HOUSTON ISD",
+    "candidate_languages": "French–English historical track; reported 2026-27 enrichment change",
+    "language_role": "FRENCH_MODEL_CHANGE_REPORTED_IMPLEMENTATION_NOT_CONFIRMED",
+    "source_ids": [
+      "tx50_markwhite_change_chronicle",
+      "tx50_markwhite_change_hoodline",
+      "tx50_markwhite_programs",
+      "tx50_houston_roster24"
+    ],
+    "evidence_period": "2024-25 official roster; 2025-26 campus description; 2026-02 reports about 2026-27",
+    "decision": "Retain historical French/English and Spanish/English tracks. A February 2026 report describes a proposed change to English core subjects with French enrichment for grades 1–5; PK/K would retain French immersion. Do not claim uninterrupted 2026–27 immersion from the older page.",
+    "next_evidence_needed": "Official final decision or implemented 2026–27 campus language/subject schedule."
+  }
+]

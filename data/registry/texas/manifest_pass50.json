@@ -1,0 +1,22 @@
+{
+  "audit_date": "2026-11-04",
+  "files": {
+    "data/registry/texas/texas_language_program_tracks_pass50.csv": "b63095cc23ea98e9f0593ef60d062a8153018a17780b88c29c5130f4bb6cec95",
+    "data/registry/texas/texas_k_allocation_evidence_pass50.csv": "34aaed356e4938157e84219c82f57271474b461f68983f6ac3c46a93fb367b3f",
+    "data/registry/texas/texas_language_classification_audit_pass50.csv": "e7ac31bdfb4103a17e8f3d2e6df0173668ef8a926e2d9ae69d3be719218aa551",
+    "data/registry/texas/texas_language_role_reviews_pass50.csv": "e01b60c925d8a7987abb37b389976f67adb6741012d4567c4b98da1475165c7d",
+    "data/registry/texas/texas_campus_language_inventory_pass50.csv": "8674bd8f11f3f4f90c74aeb767e147e97691b0090e21e06a697942da7f78ca05",
+    "data/registry/texas/language_audit_summary_pass50.json": "c75dd75152f5b976bab38b383bb7db5feb4a072e3311111c994de63bc6008199",
+    "data/registry/texas/pass50/campus_language_decisions.json": "63fdb9516532188a029b9014f37d948646aa1e96b7f9c46224f429f650e03728",
+    "data/registry/texas/pass50/district_language_rules.csv": "2c5234f4da602d9da53e8fb5c2c143cae22048e1f8548af89f6b27c06485747d",
+    "data/registry/texas/pass50/houston_official_dl_roster_2024_25.csv": "ec9c5ceb29fc467b7818ed9237759faedf1e1818acd4388de4ce20e5a7c05e49",
+    "data/registry/texas/pass50/language_role_reviews.json": "b9e421105744eda65c2f8dac732f7878b7c43bef3a5cc0c6ddcb52b39e60e751",
+    "data/registry/texas/pass50/search_log.json": "a62804e3398b7d5c93301b250ac554b0a79944b8f2101bec3c9edd69249013ae",
+    "data/registry/texas/pass50/source_register.csv": "d75b13d6ae6c725cb47e8b8195e11f7c53391711e4a4529dee3dcc085d57df91"
+  },
+  "input_snapshots": {
+    "data/registry/texas_language_program_tracks_pass49_provisional.csv": "f2698af858a6455a5b6a69559d1a08a56e7f9b4ebf7db3ace47423cc472313c1",
+    "data/registry/texas/texas_language_program_tracks_pass48.csv": "85fa67bcc07406de4691270e97806c1084f7b038fb11f8f6b3dc207a8dabf417",
+    "data/registry/texas/texas_k_allocation_evidence_pass48.csv": "3cdde8f1832d9e9d60507cd4a64aba7426e79038cdea245857c1d77a30eb405f"
+  }
+}

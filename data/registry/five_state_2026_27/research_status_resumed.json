@@ -1,0 +1,51 @@
+{
+  "research_status": "partial_source_documented_inventory",
+  "supersedes": "research_status.json (earlier access-blocked checkpoint preserved)",
+  "reference_school_year": "2026-27",
+  "research_date_local": "2026-11-03",
+  "research_timezone": "America/Chicago",
+  "completed_at_utc": "2026-11-04T01:44:19.609511+00:00",
+  "network_access": "public_source_access_working; no environment configuration changes during resumed research",
+  "program_records": 314,
+  "qualifying_confirmed_2026_27": 16,
+  "candidate_records": 63,
+  "documented_content_records_including_future_and_discontinued": 251,
+  "evidence_claims": 2993,
+  "registered_source_documents": 71,
+  "source_documents_supporting_program_claims": 61,
+  "kindergarten_allocations_established_any_source_year": 218,
+  "school_structures_established_any_source_year": 31,
+  "all_five_essential_fields_any_source_year": 27,
+  "all_five_fields_and_confirmed_2026_27": 1,
+  "statewide_completeness": "not_established",
+  "state_counts": {
+    "WY": 12,
+    "MT": 7,
+    "ID": 18,
+    "NV": 6,
+    "CA": 271
+  },
+  "validation_result": {
+    "result": "passed",
+    "program_records_checked": 314,
+    "evidence_claims_checked": 2993,
+    "source_documents_checked": 71,
+    "historical_CDE_school_candidates_checked": 1310,
+    "LAUSD_source_rows_reconciled": 211,
+    "statewide_completeness": "not_established",
+    "unresolved_classifications": "retained explicitly; see coverage summary and research notes"
+  },
+  "regression_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "existing_texas_validation": "passed",
+  "git_branch": "research/five-state-inventory-2026-27",
+  "pushed_or_merged": false,
+  "environment_draft_modified_or_published": false,
+  "reports": [
+    "docs/five_state_2026_27/README.md",
+    "docs/five_state_2026_27/COVERAGE_REPORT.md",
+    "docs/five_state_2026_27/RESEARCH_NOTES.md"
+  ]
+}
