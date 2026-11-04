@@ -117,12 +117,12 @@ class Build:
                  school_id=school, district_id=district, school_year=year,
                  validity_status="source_year" if year else "snapshot_only", source_id=source, source_locator=locator)
 
-    def claim(self, entity_type, entity, attribute, value, source, locator, *, year=None, status="provisional", method="source_record", import_source=None, notes=None):
+    def claim(self, entity_type, entity, attribute, value, source, locator, *, year=None, period=None, status="provisional", method="source_record", import_source=None, notes=None):
         self.add("evidence_claims", claim_id=record_id("claim", entity_type, entity, attribute, source, locator),
                  entity_type=entity_type, entity_id=entity, attribute=attribute, reported_value=value,
                  valid_from_year=year, valid_to_year=year, grade_scope="not_reported", verification_status=status,
                  confirmation_method=method, source_id=source, source_locator=locator,
-                 import_source_id=import_source, notes=notes)
+                 import_source_id=import_source, notes=notes, evidence_period_raw=period)
 
     def reporting_unit(self, state, entity_type, entity, label, *, group=None):
         rid = record_id("reporting_unit", state, entity_type, entity, group)
@@ -204,6 +204,12 @@ class Build:
                     "limitations": self.notes, "release_status": "pilot_partial_not_a_national_census"}
         path = self.root / "data/curated/manifest.json"
         path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+        if json.loads((self.root / "config/project.json").read_text()).get("structural_review_report"):
+            from .structural import generate_report, REPORT
+            report = generate_report(self.root)
+            report_paths = [*report["reports"], REPORT + ".json"]
+            manifest["reports"] = {rel: {"sha256": digest(self.root / rel)} for rel in report_paths}
+            path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
         return {"build_id": fingerprint, "table_rows": {name: len(self.rows(name)) for name in self.tables}, "limitations": self.notes}
 
 

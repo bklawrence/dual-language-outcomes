@@ -114,8 +114,17 @@ def validate_tables(tables, definition=None):
         match = re.match(r"^(20\d{2}-\d{2}) roster", row["evidence_period_raw"] or "")
         if match and row["valid_from_year"] and row["valid_from_year"] < match[1]:
             errors.append("program_languages: later roster backdated to an earlier school year")
+    for row in tables["program_status_history"]:
+        reference = re.fullmatch(r"confirmed_(\d{4})_(\d{2})", row["operating_status"])
+        if reference and row["school_year"] != reference[1] + "-" + reference[2]:
+            errors.append("program_status_history: confirmation assigned to a different reference year")
+        if row["confirmation_method"] == "continuity_no_end_indication":
+            site = indices["program_sites"].get((row["site_id"],))
+            evidence = [claim for claim in tables["evidence_claims"] if site and claim["entity_type"] == "program" and claim["entity_id"] == site["program_id"] and claim["attribute"] == "continuity_review" and claim["valid_from_year"] == row["school_year"] and claim["confirmation_method"] == "continuity_review"]
+            if not evidence:
+                errors.append("program_status_history: continuity confirmation lacks its saved review")
     for row in tables["allocation_schedules"]:
-        if row.get("grade_support_status") in {"EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED", "MODEL_LABEL_MINUTES_DIFFER", "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD", "UNRECOVERED"}:
+        if row.get("grade_support_status") in {"EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED", "MODEL_LABEL_MINUTES_DIFFER", "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD", "UNRECOVERED", "PUBLISHED_MODEL_ONLY", "CONFLICTING_SOURCE_CLAIMS", "SOURCE_GRADE_SCOPE_NOT_REPORTED", "COMPOSITE_TRACK_SCOPE_UNRESOLVED"}:
             if row["schedule_status"] != "reported_policy_requires_review" or allocations.get(row["schedule_id"]):
                 errors.append("allocation_schedules: unresolved grade evidence promoted to an accepted numeric schedule")
         if row["tested_cohort_exposure"] == "verified":
@@ -254,6 +263,9 @@ def validate(root: Path, *, verify_manifest=True):
         for relative, info in manifest["outputs"].items():
             if digest(root / relative) != info["sha256"]:
                 errors.append(f"Manifest output changed: {relative}")
+        for relative, info in manifest.get("reports", {}).items():
+            if not (root / relative).is_file() or digest(root / relative) != info["sha256"]:
+                errors.append(f"Manifest review report changed: {relative}")
     for source in tables["sources"]:
         if source["snapshot_path"]:
             path = root / source["snapshot_path"]

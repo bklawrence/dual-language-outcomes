@@ -4,7 +4,7 @@ Start from the [national model](NATIONAL_DATA_MODEL.md) and [table contracts](..
 
 ## Add a state adapter
 
-1. Review the state's existing research and `config/states/<state>.json`. Do not interpret `not_migrated` as no existing data. Coverage currently recognizes earlier state-directory research without claiming a completed migration.
+1. Review the state's existing research and `config/states/<state>.json`. The current phase is structural inventory for all 50 states; defer new proficiency collection until that work is finished. Six earlier state inventories are now `integrated_partial`; do not interpret a different state's `not_migrated` profile as proof that no earlier sources exist.
 2. Save original public source bytes under a new `data/raw/<state>/<vintage>/` directory. Keep source URL, exact query/selection, retrieval timestamp, data-as-of/version, row count, completeness limits and SHA-256 in metadata. Preserve earlier snapshots. For large future downloads, use versioned artifact storage and a reproducible download manifest; the current pilot uses small local snapshots.
 3. Add a module under `src/dl_outcomes/states/` exposing `migrate(build)`. Configure its module name in the state JSON `adapter` field. The offline builder discovers enabled adapters from these configs.
 4. Register datasets and saved source releases with `Build.dataset` and `Build.source_file`. Citation-only documents use `Build.citation` and remain explicitly metadata-only. Do not fabricate retrieval dates for older research.

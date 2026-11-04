@@ -25,6 +25,12 @@ def build_coverage(b):
             state = b.tables["schools"][(site["school_id"],)]["state_code"]
             years.add(row["school_year"])
             found[(state, row["school_year"], "inventory")].append(("school", row["grade_scope"], "program_metadata_only", row["source_id"]))
+    for row in b.rows("program_status_history"):
+        if row["school_year"]:
+            site = b.tables["program_sites"][(row["site_id"],)]
+            state = b.tables["schools"][(site["school_id"],)]["state_code"]
+            years.add(row["school_year"])
+            found[(state, row["school_year"], "inventory")].append(("school", "not_reported", "program_status_and_eligibility_review", row["source_id"]))
     for row in b.rows("evidence_claims"):
         if row["valid_from_year"] and row["entity_type"] == "program":
             state = b.tables["programs"][(row["entity_id"],)]["state_code"]
@@ -52,7 +58,7 @@ def build_coverage(b):
         if not year or not re.fullmatch(r"20\d{2}-\d{2}", year):
             continue
         years.add(year)
-        dataset = b.dataset(state + "_EXISTING_RESEARCH", state, "inventory", "Existing state program research snapshots", "repo:data/registry/", notes="Recognized for coverage; not migrated by the Texas/Washington pilot.")
+        dataset = b.dataset(state + "_EXISTING_RESEARCH", state, "inventory", "Existing state program research snapshots", "repo:data/registry/", notes="Retained research vintages. Their target years are not automatically verified annual observations; normalized source-specific records determine collected coverage.")
         identified[(state, year, "inventory")] = b.source_file(dataset, path)
     for state in b.rows("states"):
         for year in sorted(years):
@@ -60,17 +66,19 @@ def build_coverage(b):
                 key = (state["state_code"], year, layer)
                 records = found.get(key, [])
                 notes = "Not collected in the shared pipeline. This is not evidence that the state lacks publicly reported data."
+                if config.get("collection_phase") == "structural_inventory" and layer != "inventory":
+                    notes += " New assessment/context/EL/SEDA collection is deferred until the 50-state structural inventories are finished; existing pilot observations remain available."
                 source, unit, grade, population, status = identified.get(key), "not_established", "not_established", "not_established", "not_collected"
                 if source:
                     status = "source_identified"
-                    notes = "Existing research file recognized; its records have not been migrated into the common registry. See the legacy file's own verification status."
+                    notes = "Existing research vintage recognized. A target/reference year alone does not establish year-specific operation or design. Consult normalized records and the original snapshot's verification status; do not treat an archived vintage as a second annual census."
                 if records:
                     status = "pilot_partial"
                     unit = "school" if any(r[0] == "school" for r in records) else "district" if any(r[0] == "district" for r in records) else "state"
                     grade = " | ".join(sorted({r[1] for r in records}))
                     population = " | ".join(sorted({r[2] for r in records}))
                     source = sorted({r[3] for r in records})[0]
-                    notes = "Pilot records exist at the stated scope; this does not establish statewide or historical completeness. Source-specific populations and vintages are retained."
+                    notes = "Partial source/review records exist at the stated scope; this does not establish statewide or historical completeness, or that every candidate operated. Status, eligibility, source dates and vintages remain separate."
                 b.add("coverage", coverage_id=record_id("coverage", *key), state_code=key[0], school_year=year, layer=layer,
                       collection_status=status, smallest_available_unit=unit, grade_scope=grade, population_scope=population,
                       availability_basis="collected_source_scope" if records else "not_established",

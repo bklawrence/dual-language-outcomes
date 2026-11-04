@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:dual-language-outcomes:catalog:1.1.0",
+  "$id": "urn:dual-language-outcomes:catalog:1.2.0",
   "title": "National longitudinal DL research contracts",
-  "x-schema-version": "1.1.0",
+  "x-schema-version": "1.2.0",
   "$defs": {
     "states": {
       "type": "object",
@@ -595,6 +595,109 @@
       },
       "x-unique": []
     },
+    "program_status_history": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Dated research assessments of program operation and eligibility, kept separate from the dates of language, design and allocation evidence. Retains closures, future plans and continuity reviews.",
+      "properties": {
+        "status_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "site_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "school_year": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}$"
+        },
+        "operating_status": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Source/review operating or listing status for this reference year; a listing is not observed implementation."
+        },
+        "eligibility_status": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Separate content-instruction/public-program screening status; confirmed operation alone does not establish study eligibility."
+        },
+        "instructional_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "public_funding_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confirmation_method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status_id",
+        "site_id",
+        "school_year",
+        "operating_status",
+        "eligibility_status",
+        "instructional_scope",
+        "public_funding_status",
+        "confirmation_method",
+        "evidence_period_raw",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "x-path": "data/curated/program_history/program_status_history.csv",
+      "x-primary-key": [
+        "status_id"
+      ],
+      "x-foreign-keys": {
+        "site_id": {
+          "table": "program_sites",
+          "column": "site_id"
+        },
+        "source_id": {
+          "table": "sources",
+          "column": "source_id"
+        }
+      },
+      "x-unique": [
+        [
+          "site_id",
+          "school_year",
+          "source_id"
+        ]
+      ]
+    },
     "program_languages": {
       "type": "object",
       "additionalProperties": false,
@@ -891,13 +994,34 @@
           ]
         },
         "evidence_review_status": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "Source-specific review decision. Null means this qualifier was not collected; it does not affirm the policy."
         },
         "grade_support_status": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "Machine-readable distinction between a grade schedule, model label, earlier-grade proxy and unsupported source. This does not verify tested-cohort exposure.",
-          "enum": [null, "NOT_REVIEWED", "DISTRICT_GRADE_BAND_MODEL", "CAMPUS_GRADE_BAND_MODEL", "EXPLICIT_GRADE", "DISTRICT_ENTRY_GRADE_MODEL", "MODEL_LABEL_MINUTES_DIFFER", "EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED", "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD", "UNRECOVERED"]
+          "enum": [
+            null,
+            "NOT_REVIEWED",
+            "DISTRICT_GRADE_BAND_MODEL",
+            "CAMPUS_GRADE_BAND_MODEL",
+            "EXPLICIT_GRADE",
+            "DISTRICT_ENTRY_GRADE_MODEL",
+            "MODEL_LABEL_MINUTES_DIFFER",
+            "EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED",
+            "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD",
+            "UNRECOVERED",
+            "PUBLISHED_MODEL_ONLY",
+            "CONFLICTING_SOURCE_CLAIMS",
+            "SOURCE_GRADE_SCOPE_NOT_REPORTED",
+            "COMPOSITE_TRACK_SCOPE_UNRESOLVED"
+          ]
         },
         "evidence_period_raw": {
           "type": [
@@ -1138,6 +1262,13 @@
             "string",
             "null"
           ]
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Source applicability exactly as reported, including undated, fiscal-year, multi-year and change-period descriptions. It is separate from source publication date and a study reference year."
         }
       },
       "required": [
@@ -1155,7 +1286,8 @@
         "source_id",
         "source_locator",
         "import_source_id",
-        "notes"
+        "notes",
+        "evidence_period_raw"
       ],
       "x-path": "data/curated/sources/evidence_claims.csv",
       "x-primary-key": [

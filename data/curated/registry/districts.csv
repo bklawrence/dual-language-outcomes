@@ -1,4 +1,306 @@
 district_id,state_code,district_name,identity_status
+CA-D0110017,CA,Alameda County Office of Education,state_identifier
+CA-D0131617,CA,California School for the Deaf-Fremont (State Special Schl),state_identifier
+CA-D0161143,CA,Berkeley Unified,state_identifier
+CA-D0161150,CA,Castro Valley Unified,state_identifier
+CA-D0161176,CA,Fremont Unified,state_identifier
+CA-D0161192,CA,Hayward Unified,state_identifier
+CA-D0161200,CA,Livermore Valley Joint Unified,state_identifier
+CA-D0161234,CA,Newark Unified,state_identifier
+CA-D0161242,CA,New Haven Unified,state_identifier
+CA-D0161259,CA,Oakland Unified,state_identifier
+CA-D0161291,CA,San Leandro Unified,state_identifier
+CA-D0161309,CA,San Lorenzo Unified,state_identifier
+CA-D0175101,CA,Pleasanton Unified,state_identifier
+CA-D0461424,CA,Chico Unified,state_identifier
+CA-D0561556,CA,Bret Harte Union High,state_identifier
+CA-D0661622,CA,Williams Unified,state_identifier
+CA-D0761648,CA,Antioch Unified,state_identifier
+CA-D0761754,CA,Mt. Diablo Unified,state_identifier
+CA-D0761788,CA,Pittsburg Unified,state_identifier
+CA-D0761796,CA,West Contra Costa Unified,state_identifier
+CA-D0961838,CA,Buckeye Union Elementary,state_identifier
+CA-D0961903,CA,Lake Tahoe Unified,state_identifier
+CA-D0961952,CA,Placerville Union Elementary,state_identifier
+CA-D1010108,CA,Fresno County Office of Education,state_identifier
+CA-D1062166,CA,Fresno Unified School District,state_identifier
+CA-D1062265,CA,Kings Canyon Joint Unified,state_identifier
+CA-D1062281,CA,Laton Joint Unified,state_identifier
+CA-D1062331,CA,Orange Center,state_identifier
+CA-D1062364,CA,Parlier Unified,state_identifier
+CA-D1062414,CA,Sanger Unified,state_identifier
+CA-D1062430,CA,Selma Unified,state_identifier
+CA-D1073809,CA,Firebaugh-Las Deltas Unified,state_identifier
+CA-D1075127,CA,Mendota Unified,state_identifier
+CA-D1075234,CA,Golden Plains Unified,state_identifier
+CA-D1175481,CA,Orland Joint Unified,state_identifier
+CA-D1176562,CA,Hamilton Unified,state_identifier
+CA-D1262950,CA,McKinleyville Union Elementary,state_identifier
+CA-D1275374,CA,Ferndale Unified,state_identifier
+CA-D1363073,CA,Brawley Elementary,state_identifier
+CA-D1363099,CA,Calexico Unified,state_identifier
+CA-D1363115,CA,Central Union High,state_identifier
+CA-D1363123,CA,El Centro Elementary,state_identifier
+CA-D1363131,CA,Heber Elementary,state_identifier
+CA-D1363149,CA,Holtville Unified,state_identifier
+CA-D1363164,CA,Imperial Unified,state_identifier
+CA-D1476687,CA,Bishop Unified,state_identifier
+CA-D1563313,CA,Arvin Union,state_identifier
+CA-D1563321,CA,Bakersfield City,state_identifier
+CA-D1563404,CA,Delano Union Elementary,state_identifier
+CA-D1563487,CA,General Shafter Elementary,state_identifier
+CA-D1563503,CA,Greenfield Union,state_identifier
+CA-D1563560,CA,Lamont Elementary,state_identifier
+CA-D1563578,CA,Richland Union Elementary,state_identifier
+CA-D1663875,CA,Armona Union Elementary,state_identifier
+CA-D1663917,CA,Hanford Elementary,state_identifier
+CA-D1964212,CA,ABC Unified,state_identifier
+CA-D1964279,CA,Azusa Unified,state_identifier
+CA-D1964287,CA,Baldwin Park Unified,state_identifier
+CA-D1964295,CA,Bassett Unified,state_identifier
+CA-D1964303,CA,Bellflower Unified,state_identifier
+CA-D1964337,CA,Burbank Unified,state_identifier
+CA-D1964352,CA,Centinela Valley Union High,state_identifier
+CA-D1964394,CA,Claremont Unified,state_identifier
+CA-D1964436,CA,Covina-Valley Unified,state_identifier
+CA-D1964444,CA,Culver City Unified,state_identifier
+CA-D1964451,CA,Downey Unified,state_identifier
+CA-D1964469,CA,Duarte Unified,state_identifier
+CA-D1964485,CA,East Whittier City Elementary,state_identifier
+CA-D1964501,CA,El Monte City,state_identifier
+CA-D1964527,CA,El Rancho Unified,state_identifier
+CA-D1964550,CA,Garvey Elementary,state_identifier
+CA-D1964568,CA,Glendale Unified School District,state_identifier
+CA-D1964576,CA,Glendora Unified,state_identifier
+CA-D1964592,CA,Hawthorne,state_identifier
+CA-D1964634,CA,Inglewood Unified,state_identifier
+CA-D1964667,CA,Lancaster Elementary,state_identifier
+CA-D1964683,CA,Las Virgenes Unified,state_identifier
+CA-D1964691,CA,Lawndale Elementary,state_identifier
+CA-D1964709,CA,Lennox,state_identifier
+CA-D1964725,CA,Long Beach Unified,state_identifier
+CA-D1964733,CA,Los Angeles Unified School District,state_identifier
+CA-D1964774,CA,Lynwood Unified,state_identifier
+CA-D1964790,CA,Monrovia Unified,state_identifier
+CA-D1964808,CA,Montebello Unified,state_identifier
+CA-D1964816,CA,Mountain View Elementary,state_identifier
+CA-D1964832,CA,Newhall,state_identifier
+CA-D1964840,CA,Norwalk-La Mirada Unified,state_identifier
+CA-D1964857,CA,Palmdale Elementary,state_identifier
+CA-D1964873,CA,Paramount Unified,state_identifier
+CA-D1964881,CA,Pasadena Unified School District,state_identifier
+CA-D1964907,CA,Pomona Unified,state_identifier
+CA-D1964964,CA,San Marino Unified,state_identifier
+CA-D1964980,CA,Santa Monica-Malibu Unified,state_identifier
+CA-D1964998,CA,Saugus Union,state_identifier
+CA-D1965029,CA,South Pasadena Unified,state_identifier
+CA-D1965037,CA,South Whittier Elementary,state_identifier
+CA-D1965060,CA,Torrance Unified,state_identifier
+CA-D1965094,CA,West Covina Unified,state_identifier
+CA-D1965110,CA,Whittier City,state_identifier
+CA-D1965136,CA,William S. Hart Union High,state_identifier
+CA-D1973437,CA,Compton Unified,state_identifier
+CA-D1973445,CA,Hacienda la Puente Unified,state_identifier
+CA-D1973452,CA,Rowland Unified,state_identifier
+CA-D1973460,CA,Walnut Valley Unified,state_identifier
+CA-D1975291,CA,San Gabriel Unified,state_identifier
+CA-D1975341,CA,Redondo Beach Unified,state_identifier
+CA-D2065243,CA,Madera Unified,state_identifier
+CA-D2165417,CA,Novato Unified,state_identifier
+CA-D2165458,CA,San Rafael City Elementary,state_identifier
+CA-D2365540,CA,Anderson Valley Unified,state_identifier
+CA-D2365607,CA,Round Valley Unified,state_identifier
+CA-D2365615,CA,Ukiah Unified,state_identifier
+CA-D2465631,CA,Atwater Elementary,state_identifier
+CA-D2465698,CA,Hilmar Unified,state_identifier
+CA-D2465722,CA,Le Grand Union Elementary,state_identifier
+CA-D2465730,CA,Le Grand Union High,state_identifier
+CA-D2465748,CA,Livingston Union,state_identifier
+CA-D2465755,CA,Los Banos Unified,state_identifier
+CA-D2465821,CA,Planada Elementary,state_identifier
+CA-D2475366,CA,Delhi Unified,state_identifier
+CA-D2673692,CA,Mammoth Unified,state_identifier
+CA-D2765961,CA,Alisal Union,state_identifier
+CA-D2765995,CA,Chualar Union,state_identifier
+CA-D2766050,CA,King City Union,state_identifier
+CA-D2766092,CA,Monterey Peninsula Unified,state_identifier
+CA-D2766142,CA,Salinas City Elementary,state_identifier
+CA-D2773825,CA,North Monterey County Unified,state_identifier
+CA-D2775440,CA,Soledad Unified,state_identifier
+CA-D2775473,CA,Gonzales Unified,state_identifier
+CA-D2866266,CA,Napa Valley Unified,state_identifier
+CA-D2966332,CA,Grass Valley Elementary,state_identifier
+CA-D3010306,CA,Orange County Department of Education,state_identifier
+CA-D3064766,CA,Lowell Joint,state_identifier
+CA-D3066423,CA,Anaheim Elementary,state_identifier
+CA-D3066431,CA,Anaheim Union High,state_identifier
+CA-D3066449,CA,Brea-Olinda Unified,state_identifier
+CA-D3066464,CA,Capistrano Unified,state_identifier
+CA-D3066472,CA,Centralia Elementary,state_identifier
+CA-D3066506,CA,Fullerton Elementary,state_identifier
+CA-D3066522,CA,Garden Grove Unified,state_identifier
+CA-D3066563,CA,La Habra City Elementary,state_identifier
+CA-D3066589,CA,Magnolia Elementary,state_identifier
+CA-D3066597,CA,Newport-Mesa Unified,state_identifier
+CA-D3066613,CA,Ocean View,state_identifier
+CA-D3066621,CA,Orange Unified,state_identifier
+CA-D3066647,CA,Placentia-Yorba Linda Unified,state_identifier
+CA-D3066670,CA,Santa Ana Unified,state_identifier
+CA-D3066746,CA,Westminster School District,state_identifier
+CA-D3073635,CA,Saddleback Valley Unified,state_identifier
+CA-D3073643,CA,Tustin Unified,state_identifier
+CA-D3073650,CA,Irvine Unified,state_identifier
+CA-D3166944,CA,Tahoe-Truckee Unified,state_identifier
+CA-D3166951,CA,Western Placer Unified,state_identifier
+CA-D3175085,CA,Rocklin Unified,state_identifier
+CA-D3310330,CA,Riverside County Office of Education,state_identifier
+CA-D3331625,CA,California School for the Deaf-Riverside (State Special Schl),state_identifier
+CA-D3366977,CA,Alvord Unified,state_identifier
+CA-D3366985,CA,Banning Unified,state_identifier
+CA-D3366993,CA,Beaumont Unified,state_identifier
+CA-D3367033,CA,Corona-Norco Unified,state_identifier
+CA-D3367058,CA,Desert Sands Unified,state_identifier
+CA-D3367082,CA,Hemet Unified,state_identifier
+CA-D3367090,CA,Jurupa Unified,state_identifier
+CA-D3367124,CA,Moreno Valley Unified,state_identifier
+CA-D3367173,CA,Palm Springs Unified,state_identifier
+CA-D3367199,CA,Perris Elementary,state_identifier
+CA-D3367215,CA,Riverside Unified,state_identifier
+CA-D3367249,CA,San Jacinto Unified,state_identifier
+CA-D3373676,CA,Coachella Valley Unified,state_identifier
+CA-D3375176,CA,Lake Elsinore Unified,state_identifier
+CA-D3375242,CA,Val Verde Unified,state_identifier
+CA-D3467348,CA,Galt Joint Union Elementary,state_identifier
+CA-D3467413,CA,River Delta Joint Unified,state_identifier
+CA-D3467421,CA,Robla Elementary,state_identifier
+CA-D3467439,CA,Sacramento City Unified School District,state_identifier
+CA-D3467447,CA,San Juan Unified,state_identifier
+CA-D3476505,CA,Twin Rivers Unified,state_identifier
+CA-D3567470,CA,Hollister,state_identifier
+CA-D3575259,CA,Aromas - San Juan Unified,state_identifier
+CA-D3610363,CA,San Bernardino County Office of Education,state_identifier
+CA-D3667587,CA,Adelanto Elementary,state_identifier
+CA-D3667678,CA,Chino Valley Unified,state_identifier
+CA-D3667686,CA,Colton Joint Unified,state_identifier
+CA-D3667710,CA,Fontana Unified,state_identifier
+CA-D3667819,CA,Ontario-Montclair,state_identifier
+CA-D3667850,CA,Rialto Unified,state_identifier
+CA-D3667876,CA,San Bernardino City Unified,state_identifier
+CA-D3675069,CA,Upland Unified,state_identifier
+CA-D3767967,CA,Alpine Union Elementary,state_identifier
+CA-D3767991,CA,Cajon Valley Union,state_identifier
+CA-D3768023,CA,Chula Vista Elementary,state_identifier
+CA-D3768056,CA,Del Mar Union Elementary,state_identifier
+CA-D3768080,CA,Encinitas Union Elementary,state_identifier
+CA-D3768098,CA,Escondido Union,state_identifier
+CA-D3768114,CA,Fallbrook Union Elementary,state_identifier
+CA-D3768122,CA,Fallbrook Union High,state_identifier
+CA-D3768189,CA,Lakeside Union Elementary,state_identifier
+CA-D3768197,CA,La Mesa-Spring Valley,state_identifier
+CA-D3768205,CA,Lemon Grove,state_identifier
+CA-D3768213,CA,Mountain Empire Unified,state_identifier
+CA-D3768221,CA,National Elementary,state_identifier
+CA-D3768296,CA,Poway Unified,state_identifier
+CA-D3768338,CA,San Diego Unified,state_identifier
+CA-D3768346,CA,San Dieguito Union High,state_identifier
+CA-D3768379,CA,San Ysidro Elementary,state_identifier
+CA-D3768395,CA,South Bay Union,state_identifier
+CA-D3768411,CA,Sweetwater Union High,state_identifier
+CA-D3768452,CA,Vista Unified,state_identifier
+CA-D3773569,CA,Oceanside Unified,state_identifier
+CA-D3773791,CA,San Marcos Unified,state_identifier
+CA-D3775614,CA,Valley Center-Pauma Unified,state_identifier
+CA-D3777156,CA,SBE - Vista Springs Charter,state_identifier
+CA-D3868478,CA,San Francisco Unified School District,state_identifier
+CA-D3968502,CA,Escalon Unified,state_identifier
+CA-D3968569,CA,Lincoln Unified,state_identifier
+CA-D3968585,CA,Lodi Unified,state_identifier
+CA-D3968676,CA,Stockton Unified,state_identifier
+CA-D3975499,CA,Tracy Joint Unified,state_identifier
+CA-D4068809,CA,San Luis Coastal Unified,state_identifier
+CA-D4075457,CA,Paso Robles Joint Unified,state_identifier
+CA-D4168882,CA,Burlingame Elementary,state_identifier
+CA-D4168890,CA,Cabrillo Unified,state_identifier
+CA-D4168965,CA,Menlo Park City Elementary,state_identifier
+CA-D4168999,CA,Ravenswood City Elementary,state_identifier
+CA-D4169005,CA,Redwood City Elementary,state_identifier
+CA-D4169039,CA,San Mateo-Foster City,state_identifier
+CA-D4269120,CA,Santa Maria-Bonita,state_identifier
+CA-D4269146,CA,Carpinteria Unified,state_identifier
+CA-D4269195,CA,Goleta Union Elementary,state_identifier
+CA-D4269203,CA,Guadalupe Union Elementary,state_identifier
+CA-D4269229,CA,Lompoc Unified,state_identifier
+CA-D4269336,CA,Solvang Elementary,state_identifier
+CA-D4276786,CA,Santa Barbara Unified,state_identifier
+CA-D4310439,CA,Santa Clara County Office of Education,state_identifier
+CA-D4369369,CA,Alum Rock Union Elementary,state_identifier
+CA-D4369377,CA,Berryessa Union Elementary,state_identifier
+CA-D4369393,CA,Campbell Union,state_identifier
+CA-D4369419,CA,Cupertino Union,state_identifier
+CA-D4369427,CA,East Side Union High,state_identifier
+CA-D4369435,CA,Evergreen Elementary,state_identifier
+CA-D4369450,CA,Franklin-McKinley School District,state_identifier
+CA-D4369484,CA,Gilroy Unified,state_identifier
+CA-D4369583,CA,Morgan Hill Unified,state_identifier
+CA-D4369591,CA,Mountain View Whisman,state_identifier
+CA-D4369617,CA,Mount Pleasant Elementary,state_identifier
+CA-D4369625,CA,Oak Grove Elementary,state_identifier
+CA-D4369666,CA,San Jose Unified,state_identifier
+CA-D4369674,CA,Santa Clara Unified,state_identifier
+CA-D4369690,CA,Sunnyvale,state_identifier
+CA-D4373387,CA,Milpitas Unified,state_identifier
+CA-D4469765,CA,Live Oak Elementary,state_identifier
+CA-D4469799,CA,Pajaro Valley Unified,state_identifier
+CA-D4469815,CA,Santa Cruz City Elementary,state_identifier
+CA-D4469849,CA,Soquel Union Elementary,state_identifier
+CA-D4569914,CA,Cascade Union Elementary,state_identifier
+CA-D4570110,CA,Redding Elementary,state_identifier
+CA-D4770508,CA,Yreka Union Elementary,state_identifier
+CA-D4773684,CA,Butte Valley Unified,state_identifier
+CA-D4870532,CA,Dixon Unified,state_identifier
+CA-D4870540,CA,Fairfield-Suisun Unified,state_identifier
+CA-D4870573,CA,Vacaville Unified,state_identifier
+CA-D4870581,CA,Vallejo City Unified,state_identifier
+CA-D4970615,CA,Bellevue Union,state_identifier
+CA-D4970847,CA,Old Adobe Union,state_identifier
+CA-D4970854,CA,Petaluma City Elementary,state_identifier
+CA-D4970862,CA,Petaluma Joint Union High,state_identifier
+CA-D4970912,CA,Santa Rosa Elementary,state_identifier
+CA-D4970920,CA,Santa Rosa High,state_identifier
+CA-D4970953,CA,Sonoma Valley Unified,state_identifier
+CA-D4975358,CA,Windsor Unified,state_identifier
+CA-D5071043,CA,Ceres Unified,state_identifier
+CA-D5071068,CA,Denair Unified,state_identifier
+CA-D5071167,CA,Modesto City Elementary,state_identifier
+CA-D5071217,CA,Patterson Joint Unified,state_identifier
+CA-D5073601,CA,Newman-Crows Landing Unified,state_identifier
+CA-D5075556,CA,Riverbank Unified,state_identifier
+CA-D5075739,CA,Turlock Unified,state_identifier
+CA-D5171449,CA,Sutter Union High,state_identifier
+CA-D5471803,CA,Alpaugh Unified,state_identifier
+CA-D5471837,CA,Burton Elementary,state_identifier
+CA-D5471860,CA,Cutler-Orosi Joint Unified,state_identifier
+CA-D5471944,CA,Hope Elementary,state_identifier
+CA-D5471993,CA,Lindsay Unified,state_identifier
+CA-D5472082,CA,Richgrove Elementary,state_identifier
+CA-D5472298,CA,Woodville Union Elementary,state_identifier
+CA-D5475325,CA,Farmersville Unified,state_identifier
+CA-D5475523,CA,Porterville Unified,state_identifier
+CA-D5572363,CA,Jamestown Elementary,state_identifier
+CA-D5672462,CA,Hueneme Elementary,state_identifier
+CA-D5672512,CA,Ocean View,state_identifier
+CA-D5672538,CA,Oxnard,state_identifier
+CA-D5672553,CA,Pleasant Valley,state_identifier
+CA-D5672561,CA,Rio Elementary,state_identifier
+CA-D5672603,CA,Simi Valley Unified,state_identifier
+CA-D5672652,CA,Ventura Unified,state_identifier
+CA-D5673759,CA,Conejo Valley Unified,state_identifier
+CA-D5673940,CA,Moorpark Unified,state_identifier
+CA-D5676828,CA,Santa Paula Unified,state_identifier
+CA-D5772678,CA,Davis Joint Unified,state_identifier
+CA-D5772694,CA,Washington Unified,state_identifier
+CA-D5772702,CA,Winters Joint Unified,state_identifier
+CA-D5772710,CA,Woodland Joint Unified,state_identifier
 TX-D002901,TX,ANDREWS ISD,state_identifier
 TX-D003903,TX,LUFKIN ISD,state_identifier
 TX-D007905,TX,PLEASANTON ISD,state_identifier
@@ -290,14 +592,88 @@ WA-D106074,WA,WA HE LUT Indian School Agency,state_identifier
 WA-D106180,WA,Chief Leschi Schools,state_identifier
 WA-D106181,WA,Yakama Nation Tribal Compact,state_identifier
 WA-D106989,WA,Paschal Sherman Indian School,state_identifier
+district-019bc4bd3ce65b088d9025b87aaf57f7,OR,Woodburn SD 103,provisional_name_group
+district-01ff4531bb955936b4aa2c74b873abdb,WY,Natrona County School District 1,provisional_name_group
+district-0229e949bc0b5d55a0b1739c2980cba1,OR,Eagle Point SD 9,provisional_name_group
+district-035538c4491857a0bf152ce37dd5df2e,OR,Bend-LaPine SD 1,provisional_name_group
+district-041ab474f7875cf591689eec13d8ee99,OR,Medford SD 549C,provisional_name_group
+district-07d17a7637835956aa15481ffbe6ed4e,OR,West Linn-Wilsonville SD 3J,provisional_name_group
+district-0aa2ba3edc365463aec4f5d778c598ea,OR,Eugene SD 4J,provisional_name_group
+district-0c21cf99d4ea5fb599a0faca687d2527,OR,Tillamook SD 9,provisional_name_group
+district-107c1ec9046457eeb2efbf87fefbe484,CA,Sacramento City Unified School District,provisional_name_group
+district-144d427ed63d5051bb0ba28be435048c,OR,Gresham-Barlow SD 10J,provisional_name_group
 district-17c0b5a94dcf5b8cbb7b14a407e8dbae,IL,Chicago Public Schools 299,provisional_name_group
+district-1959b64ebd42567eb0bca7b8f09f2037,MT,Piegan Institute (independent school operator; district affiliation unconfirmed),provisional_name_group
+district-1a876f06ec4e5b83ad116aabd5b69e18,ID,Nampa School District 131,provisional_name_group
+district-1bde19a23bf857f0ba129b07b2cf63e8,ID,Blaine County School District,provisional_name_group
+district-1d89d66e673458cd83afbee139a2407a,NV,Washoe County School District,provisional_name_group
+district-1debb929b3045497978c7ec37077ce92,OR,Hood River County SD,provisional_name_group
+district-1e4a9d9cf2285a639770e3f36e61af85,OR,Redmond SD 2J,provisional_name_group
+district-211e0a07c16953a7a483368b718eda81,OR,Corvallis SD 509J,provisional_name_group
+district-30e966c9d16054228632cd59e99d7021,OR,David Douglas SD 40,provisional_name_group
 district-325d2010b1d95348b3e2bd55dc6cc819,IL,Maywood-Melrose Park-Broadview SD 89,provisional_name_group
+district-338390fd40a35485af9e3b035ddf09e9,OR,Newberg SD 29J,provisional_name_group
+district-338f26ad16cc5f74bca4d59767005dac,ID,Chief Tahgee Elementary Academy School District 483,state_identifier
 district-34ce98c267fa5249b7cad13188572454,IL,Champaign CUSD 4,provisional_name_group
+district-34d4c6e4c0cc5553ad9af75b9bd5348b,ID,Jerome School District 261,provisional_name_group
+district-367574ad722552c0baeacfe5f54369f3,WY,Campbell County School District 1,provisional_name_group
+district-37e2268608505bc68126e538fc2dcf3c,MT,Hardin Public Schools,provisional_name_group
 district-3913b4356cd656d3ad64b8b715264dd4,IL,Peoria Public Schools 150,provisional_name_group
+district-4211f346e5f454a0b02f467b036e2eba,WY,Teton County School District 1,provisional_name_group
+district-435f5b87d494576787b42d7538ad4b15,OR,Oregon Department of Education,provisional_name_group
+district-488b0aff354d5f8385777e408a8b7e3d,ID,Boise School District,provisional_name_group
 district-49e4d7e2ca5953629e556f29876cf54e,IL,Moline-Coal Valley CUSD 40,provisional_name_group
 district-50ced5e03dc959478b21e6ed2c092a82,IL,Hawthorn CCSD 73,provisional_name_group
+district-5a8adaaebf2a56bca2d44e5543c4582c,MT,Little Big Horn College (operator),provisional_name_group
+district-5b6ac4953e2f5834b09ccfbc6d517a24,OR,Lake Oswego SD 7J,provisional_name_group
+district-5c67e356807b5710bf750373432c7080,CA,Glendale Unified School District,provisional_name_group
+district-621963283d495d679631c3c3e572fd12,OR,Springfield SD 19,provisional_name_group
+district-6262de5ad8fb5401b836fb7700640bd8,OR,North Clackamas SD 12,provisional_name_group
+district-6773989922675db2b405aa7684a5ed22,CA,Westminster School District,provisional_name_group
+district-683c8eb5ec08593ca145894c1f110da6,CA,San Francisco Unified School District,provisional_name_group
+district-68806e4b5db559a3b851471a505d0540,CA,Alameda County Office of Education (charter authorizer),provisional_name_group
 district-691e4ed9edbe5d75925e2310e5cc26d1,IL,Schaumburg CCSD 54,provisional_name_group
 district-6e78cbe5f53c50a399874cdd4fa9270b,IL,Urbana SD 116,provisional_name_group
+district-718780cac6745767b83410812e03ae52,ID,Twin Falls School District 411,provisional_name_group
+district-72f0504d17f8545c91dc78fce9237341,ID,Kuna School District,provisional_name_group
+district-7445e6601682594a9e0eea04bd3827a3,OR,North Wasco County SD 21,provisional_name_group
+district-756182cdf8fe5e32b0edfc344a9d0de8,OR,Forest Grove SD 15,provisional_name_group
+district-773cccce2ec9554b802fe5312ad1af80,MT,Nk̓ʷusm (independent school operator; district affiliation unconfirmed),provisional_name_group
 district-7a7aa1728577540bb727822cfc8ba91f,IL,Rockford SD 205,provisional_name_group
+district-7c3db8e490555553b0559829233e6ba1,ID,Jefferson Joint School District 251,provisional_name_group
 district-7c721c06755c5c228f98298c781b2705,IL,Chicago Public Schools,provisional_name_group
+district-7f917576880856eb9508994e6b2e862b,OR,Reynolds SD 7,provisional_name_group
+district-7fb4357ac8245a89b546c492cdbf3dd0,OR,Tigard-Tualatin SD 23J,provisional_name_group
+district-80b669dd178b5221ab90e26dd6c79c1f,OR,Salem-Keizer SD 24J,provisional_name_group
+district-840a6e48ca9451ac962729c4d529a693,ID,Teton School District 401,provisional_name_group
+district-8b474686cc7c544db06ebbe1a457fe97,WY,Laramie County School District 1,provisional_name_group
+district-8ef2b2024a68553fb1e584c261d34035,OR,Oregon City SD 62,provisional_name_group
+district-930a1e46dfca53349c11a199c4e085d9,CA,Fresno Unified School District,provisional_name_group
+district-93944d1386235a52bde13355cb22a0ee,CA,Klamath-Trinity Joint Unified School District,provisional_name_group
+district-9dfc2c3d38bc54f09040129f4456f392,MT,Missoula County Public Schools,provisional_name_group
+district-a085d652bc8b5613ac2f43d119f5ee12,OR,Nyssa SD 26,provisional_name_group
+district-a65f83fd70e75c9ba849e59fddf93e41,NV,Washoe County School District (charter sponsor),provisional_name_group
+district-b3aeb2eb3df75c048662a31a65d54c3e,NV,Clark County School District,provisional_name_group
+district-b45c8acc866b5cf5865c618d5d4451b3,OR,Central Point SD 6,provisional_name_group
+district-be6db6e5a6935f9a98d4bee067fa2312,OR,Pilot Rock SD 2,provisional_name_group
+district-c16d7352e1855b789e8f297330006649,OR,Molalla River SD 35,provisional_name_group
+district-c677166d58735909b370459f5ca86c0e,OR,Hillsboro SD 1J,provisional_name_group
+district-cf2fcee686a755ac91cd03c45fbcb73d,OR,Portland SD 1J,provisional_name_group
+district-d282c6480c3452999b4168e8307cc354,WY,St. Stephens Indian School District (BIE-funded),provisional_name_group
+district-d4b6f894b7f6539d813161348b607bc0,OR,Beaverton SD 48J,provisional_name_group
+district-d56451138fd35e3080cc99975f9335d2,MT,Browning Public Schools,provisional_name_group
+district-d837592a72f353a3ac934cdeca046f6b,OR,Umatilla SD 6R,provisional_name_group
+district-d980312ab6fd5fbaafed5e7701136ace,NV,City of Las Vegas (public charter sponsor),provisional_name_group
+district-daf9da27532e5e7197521363660b3037,OR,Phoenix-Talent SD 4,provisional_name_group
+district-dbabc6d9906b55d7b5eaf843394800de,MT,Wyola School District,provisional_name_group
+district-dcc7a13cdbb258c3b5cad4bded4257fb,CA,Los Angeles Unified School District,provisional_name_group
+district-dd8127bc4c655ba29b3e7935f4e9c1ff,OR,Greater Albany Public SD 8J,provisional_name_group
+district-e1f547c8f8a55bfe832aae8f46237def,ID,American Falls School District #381,provisional_name_group
+district-e33752c4fe1856a19202be89862c5722,CA,Pasadena Unified School District,provisional_name_group
+district-e8d6936401b150e7a69368744ca88bca,OR,Canby SD 86,provisional_name_group
 district-ed87fb58a07357b792df4a372837166e,IL,North Shore SD 112,provisional_name_group
+district-f021cdf16fdd587f90b728855047d2fd,OR,Central SD 13J,provisional_name_group
+district-f14f973013285c2a8d2848a1d6016e75,MT,St. Labre Schools,provisional_name_group
+district-f275c3ba378f5608b1adea13662101f1,OR,Sherwood SD 88J,provisional_name_group
+district-f4fada15f5955d969dc6e279030cf134,OR,Milton-Freewater Unified SD 7,provisional_name_group
+district-f8d5b973fa015795aebdd7f0b5e09279,OR,Jefferson County SD 509J,provisional_name_group

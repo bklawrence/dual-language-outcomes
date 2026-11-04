@@ -2,12 +2,13 @@
 
 A longitudinal research dataset for dual-language programs across all **50 US states**, including all instructional languages. The national model separates school/program histories from three assessment layers: DL-participant reports, state assessments and context, and Stanford SEDA estimates.
 
-**Current status: a validated national structure with Illinois seed data and Texas/Washington pilots.** State configurations and coverage tracking include all 50 states. This is not a completed national program census. ELP assessments, EL exit policies/rates and SEDA have contracts and empty tables; they have not yet been collected into this pipeline.
+**Current phase: finish the structural program inventories for all 50 states before collecting additional proficiency data.** Existing research is integrated for California, Idaho, Montana, Nevada, Oregon and Wyoming, alongside the Texas/Washington pilots and Illinois seed. These nine states have partial structural evidence; this is not a completed national census. The other 41 states remain ahead. Existing assessment pilots are preserved; new proficiency, EL exit and SEDA collection is deferred.
 
 ## Start here
 
 - [Architecture and interpretation](docs/methods/NATIONAL_DATA_MODEL.md)
 - [Table contracts and data dictionary](schemas/README.md)
+- [Structural integration status](docs/status/STRUCTURAL_INTEGRATION_2026_11_04.md), [state summary](data/reports/structural_integration_2026_11_04_by_state.csv) and [program review view](data/reports/structural_integration_2026_11_04_program_view.csv)
 - [State/year/layer coverage](data/curated/coverage/state_year_layer_coverage.csv)
 - [Allocation coverage by state — saved baseline](docs/status/ALLOCATION_COVERAGE_2026_11_04.md) and [Texas Pass 51 update](docs/status/TEXAS_CLEANUP_PASS51_2026_11_04.md)
 - [Build provenance and table counts](data/curated/manifest.json)
@@ -26,7 +27,7 @@ python3 -m venv .venv
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-`build` is offline and deterministic for the saved input/config/code bytes. It creates all contract tables, including headers for uncollected layers, and validates them. `validate` checks source hashes, reporting grain, populations, identities, dates and attribution. It does not independently verify every reported research claim.
+`build` is offline and deterministic for the saved input/config/code bytes. It creates all 28 contract tables, the structural review views and headers for uncollected layers, then validates them. `validate` checks source/report hashes, reporting grain, populations, identities, dates and attribution. It does not independently verify every reported research claim.
 
 The pilot currently contains eight Texas subject results from four published one-way-DL/current-EL reporting groups, plus Washington school-level academic and enrollment observations for two multilingual elementary schools across 2023–24, 2024–25 and 2025–26. Washington program metadata covers a broader set of schools and preserves related heritage/tribal records for review. Program evidence groups are not verified distinct program counts.
 
@@ -70,4 +71,4 @@ For larger analytical extracts:
 
 This exports separate typed Parquet tables and a DuckDB database. Keep large future source snapshots/bundles in versioned artifact storage and retain their manifests and checksums. Source vintages remain distinct: analyses must explicitly select releases and compatible definitions.
 
-Earlier Texas and five-state checkpoints remain in their original locations. The five national seed CSVs have standardized headers and whitespace; their original bytes and migration checksums are in [the legacy snapshot](data/raw/legacy_registry/pre_schema_v1/manifest.json).
+Earlier Texas and five-state checkpoints remain in their original locations. Their integrated records retain closures, future proposals, funding/content candidates, continuity reviews and source-specific design dates. California's historical CDE school leads and Oregon's related language-class listings remain screening evidence rather than extra confirmed programs. The five national seed CSVs have standardized headers and whitespace; their original bytes and migration checksums are in [the legacy snapshot](data/raw/legacy_registry/pre_schema_v1/manifest.json).

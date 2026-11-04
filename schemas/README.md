@@ -4,7 +4,7 @@ The machine-readable source of truth is the packaged [JSON Schema catalog](../sr
 
 Each `$defs` entry describes one table row and includes its output path, primary key, additional uniqueness constraints and foreign keys. All CSV headers are required and ordered; additional columns require a contract change. Empty cells become JSON null for validation. Numeric columns are converted explicitly; identifier columns remain strings, preserving leading zeros. An uncollected table contains its complete header and no fabricated rows.
 
-Current schema: **1.1.0**. Allocation schedules now include nullable `evidence_review_status` and `grade_support_status` qualifiers, so unsupported citations, earlier-grade proxies and model/minute discrepancies can be filtered explicitly. Null means the qualifier was not collected, not that the schedule was confirmed. The earlier frozen 1.0.0 release retains its original contract.
+Current schema: **1.2.0**, with 28 tables. `program_status_history` separates reference-year operation/eligibility from source-dated structural choices. `evidence_claims.evidence_period_raw` retains fiscal, multi-year and undated applicability without inventing annual validity. Allocation review qualifiers distinguish model-only, conflicting and composite source evidence from explicit grade plans. Null means a qualifier was not collected, not that the schedule was confirmed. Earlier frozen releases retain their original contracts.
 
 See the generated [data dictionary](DATA_DICTIONARY.md) for every field, enum, key and reference. Regenerate it after changing the catalog:
 

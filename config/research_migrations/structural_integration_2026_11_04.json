@@ -1,0 +1,64 @@
+{
+  "migration": "six_state_structural_integration",
+  "date": "2026-11-04",
+  "baseline_commit": "349d474c0e09e080a4f00a36331f7a2786087d3f",
+  "collection_phase": "structural_inventory",
+  "assessment_collection": "deferred_until_50_state_structure_finished",
+  "legacy_inputs": {
+    "data/registry/five_state_2025_26/change_events.csv": "c790351471e20d888753571f2a315b5a5ceac2ea49347101f37afcd08b117c2c",
+    "data/registry/five_state_2025_26/change_events.json": "435d3e5bad304d7a45c98bb99a44df34f83ded6a29cf759ef7b77bc7434c89c6",
+    "data/registry/five_state_2025_26/continuity_reviews.csv": "22f7960030fad0615202b1808d7f1ad1b554d68c21caaa3168ac252cfb072389",
+    "data/registry/five_state_2025_26/continuity_reviews.json": "3d15014bbf5338284e8473903de0226dee59b5eb869d2235186b32385da6a409",
+    "data/registry/five_state_2025_26/curated_claims.json": "ed2e219c035a7c63832dad2f54829959e13fc8d6888cdd3b3cc8652ef74aca80",
+    "data/registry/five_state_2025_26/evidence_ledger.csv": "2d9137132196e0177259a7a1d94f59a82158682e6d742d9e234626b9f8e4f6dd",
+    "data/registry/five_state_2025_26/source_snapshots/fresno_dli_schools_2025_26.pdf": "116f7c142179e63bd9312e6a16aebd6cb8e52df02f20985b391a50de857f49e0",
+    "data/registry/five_state_2025_26/sources.csv": "eadcb79d5f18e2d75c62d1e534295ea4a97339f217aae41102a895ede44d4fa6",
+    "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv": "f6c6165692a991eea2e76d4c2870cda4dbe3c515f5e4c4d2015acf80e95a2628",
+    "data/registry/five_state_2026_27/evidence_ledger.csv": "7d0f97156ed80169cbdf1f06359212d1e51deb07be605871be81ce59fe3afe1c",
+    "data/registry/five_state_2026_27/lausd_directory_snapshot.csv": "b89558340ad28f4045d818b7b8741dfd50314dcf3d33c6f37d56d74e0ee6be99",
+    "data/registry/five_state_2026_27/source_snapshots/cde_mlprograms_2024_25.xlsx": "f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215",
+    "data/registry/oregon_2026_27_extraction_audit.csv": "bdc882f142956a78290a75abb5eaab7aa63b338a044b7574b62037500132ae3c",
+    "data/registry/oregon_2026_27_summary.json": "940b432985d47fd7d3982bf3fc717144e3968f528db5d1c83ad8bfb907cbbb40",
+    "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_audit.csv": "1c7303711651d3b4032180861a50617cc3d56545b34125a6d17c19d268f19623",
+    "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json": "8d4b6bdd701a4c99d7440edf2e741869e1253385d5bf6fbcbac301e532319f4c",
+    "data/registry/oregon_nces/reconciled/oregon_nces_school_crosswalk_reconciled.csv": "8a2050b6da5fa92a3a855c471e11faee02cbe78b00ed9bca4ff0da17ef08e901",
+    "data/registry/oregon_nces/reconciled/oregon_program_observations_with_nces_reconciled.csv": "a77de8f703720b1cc22bc5e8364c705573f3f55343060a89735d7e2e69dc838d",
+    "data/registry/state_dl_programs_california_2025_26.csv": "2ad4b16b9c90fdeb38c2d3179c7112af041773ebb415cd2fc0753accf49d0da0",
+    "data/registry/state_dl_programs_california_2026_27.csv": "59b53e638a5987e8c1c4570b7c1817dc43657c51d0b434e5ec2943a13127ea84",
+    "data/registry/state_dl_programs_idaho_2025_26.csv": "a84a401850a65b991cf9720742adda1d742f06ab17c09a6dff1cd7085922597b",
+    "data/registry/state_dl_programs_idaho_2026_27.csv": "17b19f439ecebf4cc3fbea77529345397b21bbef8114ca6f5432584b50436ae2",
+    "data/registry/state_dl_programs_montana_2025_26.csv": "db8f71164aa32296ac1c533811680b6a8d4028eda7a992fe2fec820ad9add082",
+    "data/registry/state_dl_programs_montana_2026_27.csv": "c8dfe2ff1a312839be83adabc4cc67dca9266d6b2a970127138a8218dd871995",
+    "data/registry/state_dl_programs_nevada_2025_26.csv": "bb3a4b21defd0b17828f081b89a1b6b7492067f1f88d1fb757c55c76052bc5dd",
+    "data/registry/state_dl_programs_nevada_2026_27.csv": "a70d9975f112f475d2f362d36178f734abff2006f268a1c18091ccb10b8bd62a",
+    "data/registry/state_dl_programs_oregon.csv": "328abbe234ec42a4f3fbaed1f5debec8e66bff2eb7c340f9522e716c93e4d19b",
+    "data/registry/state_dl_programs_wyoming_2025_26.csv": "541b2cf6ef9aaa32811e1fbd31d8bd62240eeb5a09c0c98a029187300a429339",
+    "data/registry/state_dl_programs_wyoming_2026_27.csv": "f7b7a7cb4f5c849a38f39d8dd68d57509d46820eb64991b523d3c3da51733814"
+  },
+  "unchanged_assessment_outputs": {
+    "data/curated/dl_participant_outcomes/observations.csv": "fdba8c134bd5c4763722867c94cf99484eea544a5ce59a93b5e4823e55cd0b9d",
+    "data/curated/state_assessments/observations.csv": "422fb4a99e0f6cfe79a543bd5087f479999111bc3a1e19e2e68f5e8316755eec",
+    "data/curated/demographics/observations.csv": "41bfbcb6625d2274941108826e934f9c078f7f0d1a037867825a7ce2167d9b45",
+    "data/curated/el_proficiency/observations.csv": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0",
+    "data/curated/el_exit_outcomes/observations.csv": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0",
+    "data/curated/seda/observations.csv": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0",
+    "data/curated/el_exit/exit_policies.csv": "322f42f4d5fdf1b742b15ab3e6100bdb0d0042ce362a6538c42c3f41aaeeb643",
+    "data/curated/links/observation_program_links.csv": "482ba8c17a50d23eeaa20bde809b8b7f348294c76191e3003ce1640b609652c4",
+    "data/curated/registry/reporting_units.csv": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
+    "data/curated/assessments/population_definitions.csv": "48c5235ff868041ad5e9af2a6c694294b5005587fa0c291615f89977c40da4d0",
+    "data/curated/assessments/assessment_definitions.csv": "d4527b364dfb87e3126de7080b04ce3846340e992e60aa150373e0576a702e2a",
+    "data/curated/assessments/metric_definitions.csv": "991b400ba489382226c242149ece287514bba51b4a20624805d2db72c573b538"
+  },
+  "baseline_identity_sets": {
+    "schools": {
+      "IL": "b58b1bb23fe1b673c4aa8cabed97fa1754145b0569477923c5c200802db30842",
+      "TX": "d70af033593c7c88db01c354d7d407bb79d89db3f56a723fc3e863a099993c4c",
+      "WA": "e714871beb20289cfd4027ae7a8278b9d517ecb4aa51bc3395e440622000a7eb"
+    },
+    "programs": {
+      "IL": "c74eb2e81688c0b6ee050af18427272412ce6bea02bfe5e739ababb2b31f6e32",
+      "TX": "9ed8691766c36bb335346ad99e948f029712d279f939dff88bea946001f1c5b1",
+      "WA": "148f8e4365c373425bc37d6232a6266716a3a0a0ac5fca0bb47dd78680096ed0"
+    }
+  }
+}

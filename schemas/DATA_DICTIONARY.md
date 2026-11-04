@@ -1,6 +1,6 @@
 # National data dictionary
 
-Schema version: **1.1.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
+Schema version: **1.2.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
 
 Empty CSV cells are null. IDs and school years remain strings. All listed headers are required, including in zero-row tables.
 
@@ -150,6 +150,31 @@ Path: `data/curated/registry/program_sites.csv`. Primary key: `site_id`.
 | `link_status` | string | documented, provisional, legacy_provisional |
 | `source_id` | string | sources.source_id |
 
+## program_status_history
+
+Dated research assessments of program operation and eligibility, kept separate from the dates of language, design and allocation evidence. Retains closures, future plans and continuity reviews.
+
+Path: `data/curated/program_history/program_status_history.csv`. Primary key: `status_id`.
+
+| Column | Type | Allowed values / reference |
+|---|---|---|
+| `status_id` | string |  |
+| `site_id` | string | program_sites.site_id |
+| `school_year` | string / null | pattern: ^\d{4}-\d{2}$ |
+| `operating_status` | string |  |
+| `eligibility_status` | string |  |
+| `instructional_scope` | string / null |  |
+| `public_funding_status` | string / null |  |
+| `confirmation_method` | string |  |
+| `evidence_period_raw` | string / null |  |
+| `source_id` | string | sources.source_id |
+| `source_locator` | string |  |
+| `notes` | string / null |  |
+
+Additional unique keys:
+
+- `site_id, school_year, source_id`
+
 ## program_languages
 
 Language-specific claims; an unreported partner language is never filled with English.
@@ -212,7 +237,7 @@ Path: `data/curated/program_history/allocation_schedules.csv`. Primary key: `sch
 | `percentage_basis` | string |  |
 | `schedule_status` | string | reported_policy_requires_review, documented_plan, observed_schedule |
 | `evidence_review_status` | string / null |  |
-| `grade_support_status` | string / null | NOT_REVIEWED, DISTRICT_GRADE_BAND_MODEL, CAMPUS_GRADE_BAND_MODEL, EXPLICIT_GRADE, DISTRICT_ENTRY_GRADE_MODEL, MODEL_LABEL_MINUTES_DIFFER, EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED, SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD, UNRECOVERED |
+| `grade_support_status` | string / null | NOT_REVIEWED, DISTRICT_GRADE_BAND_MODEL, CAMPUS_GRADE_BAND_MODEL, EXPLICIT_GRADE, DISTRICT_ENTRY_GRADE_MODEL, MODEL_LABEL_MINUTES_DIFFER, EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED, SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD, UNRECOVERED, PUBLISHED_MODEL_ONLY, CONFLICTING_SOURCE_CLAIMS, SOURCE_GRADE_SCOPE_NOT_REPORTED, COMPOSITE_TRACK_SCOPE_UNRESOLVED |
 | `evidence_period_raw` | string / null |  |
 | `tested_cohort_exposure` | string | not_established, verified |
 | `source_id` | string | sources.source_id |
@@ -263,6 +288,7 @@ Path: `data/curated/sources/evidence_claims.csv`. Primary key: `claim_id`.
 | `source_locator` | string |  |
 | `import_source_id` | string / null | sources.source_id |
 | `notes` | string / null |  |
+| `evidence_period_raw` | string / null |  |
 
 ## reporting_units
 
