@@ -50,7 +50,8 @@ def audit_errors(root, tables, *, check_hashes=True, batch=None):
                 errors.append('Seven-state public snapshot changed: ' + doc['key'])
     for state, expected in audit['programme_ids'].items():
         actual = {p['program_id'] for p in tables['programs'] if p['state_code'] == state}
-        if actual != set(expected):
+        allowed = set(settings.get('additional_programme_ids', {}).get(state, []))
+        if actual != set(expected) | allowed:
             errors.append('Seven-state programme set changed: ' + state)
     sites = {r['program_id']: r for r in tables['program_sites']}
     configs = {r['configuration_id']: r for r in tables['program_configurations']}

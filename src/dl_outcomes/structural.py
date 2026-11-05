@@ -17,6 +17,8 @@ REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND',
 
 
 def report_prefix(root):
+    historical=root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json'
+    if historical.exists():return json.loads(historical.read_text())['national_report_prefix']
     great_lakes=root/'config/research_migrations/great_lakes_2026_11_05.json'
     if great_lakes.exists():return json.loads(great_lakes.read_text())['national_report_prefix']
     batch=root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json'
@@ -128,6 +130,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/great_lakes_2026_11_05.json').exists():
         from .great_lakes_review import audit_errors as great_lakes_errors
         errors.extend(great_lakes_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
+        from .illinois_history import audit_errors as historical_errors
+        errors.extend(historical_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -267,11 +272,21 @@ def generate_report(root, *, check=False):
         audit['northern_central_ak_hi_batch'] = northern_summary
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in northern_contents.items()})
     if (root/'config/research_migrations/great_lakes_2026_11_05.json').exists():
-        from .great_lakes_review import render_reports as great_lakes_reports
-        batch_contents, batch_report = great_lakes_reports(root, tables)
+        if (root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
+            from .illinois_history import frozen_great_lakes_reports
+            batch_contents, batch_report = frozen_great_lakes_reports(root)
+        else:
+            from .great_lakes_review import render_reports as great_lakes_reports
+            batch_contents, batch_report = great_lakes_reports(root, tables)
         contents.update(batch_contents)
         audit['great_lakes_batch'] = batch_report
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in batch_contents.items()})
+    if (root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
+        from .illinois_history import render_reports as historical_reports
+        historical_contents, historical_report = historical_reports(root, tables, inventory)
+        contents.update(historical_contents)
+        audit['illinois_user_2021_22_history'] = historical_report
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in historical_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

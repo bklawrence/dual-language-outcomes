@@ -1,0 +1,59 @@
+{
+  "source_fields": [
+    "Name",
+    "Location",
+    "District",
+    "Level (Pre 1, Elem 2, Middle 3, High 4, Elem + Middle 5)",
+    "Language",
+    "Private 0/Public1/Charter 2",
+    "Neighborhood School",
+    "Contiguous Boundary",
+    "Model",
+    "Strand 0/Whole 1",
+    "Year Started"
+  ],
+  "level_codes": {
+    "1": "preschool",
+    "2": "elementary",
+    "3": "middle",
+    "4": "high",
+    "5": "elementary_and_middle"
+  },
+  "sector_codes": {
+    "0": "private",
+    "1": "public",
+    "2": "charter"
+  },
+  "delivery_codes": {
+    "0": "strand",
+    "1": "whole_school"
+  },
+  "source_school_year": "2021-22",
+  "collection_calendar_year": 2022,
+  "notes": [
+    "No one-way/two-way column supplied; none inferred.",
+    "Start year is a reported calendar year, not a fabricated programme start school year.",
+    "Blank values remain unknown, not zero.",
+    "Middle level codes do not establish actual starting grade.",
+    "Languages in a composite cell are not automatically separate immersion tracks.",
+    "Allocation labels do not alone establish named English/partner shares or observed exposure."
+  ],
+  "reviewed_district_name_aliases": {
+    "Barrington Community Unit SD": "Barrington Community Unit School District 220",
+    "Elgin Area SD U46": "School District U-46",
+    "Champaign Unit 4 SD": "Champaign CUSD 4",
+    "Chicago Public Schools": "Chicago Public Schools 299",
+    "Crystal Lake Elementary District 47": "Crystal Lake Elementary District 47",
+    "Evanston Skokie District 65": "Evanston/Skokie School District 65",
+    "North Shore SD 112": "North Shore SD 112",
+    "Schaumburg SD 54": "Schaumburg CCSD 54",
+    "SD 89": "Maywood-Melrose Park-Broadview SD 89",
+    "Naperville Community Unit SD": "Naperville Community Unit School District 203",
+    "Community Consolidated SD 15": "Community Consolidated School District 15",
+    "Rockford Public Schools": "Rockford SD 205",
+    "Urbana SD 116": "Urbana SD 116",
+    "Hawthorn SD 73": "Hawthorn CCSD 73",
+    "Woodstock CUSD 200": "Woodstock Community Unit School District 200",
+    "Community Consolodated SD 93": "Community Consolidated SD 93"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "source_school_year": "2021-22",
+  "collection_calendar_year": 2022,
+  "source_rows": 144,
+  "numerical_model_rows": 86,
+  "matched_existing_school_rows": 96,
+  "new_historical_school_units": 41,
+  "new_historical_programme_groups": 42,
+  "confirmed_2025_26_school_units": 123,
+  "reference_elementary_coverage": {
+    "audit_scope": "reference_working_set",
+    "state_code": "IL",
+    "reference_working_set_year": "2025-26",
+    "inventory_school_units": 123,
+    "elementary_school_units": 104,
+    "elementary_schools_with_numerical_model": 64,
+    "numerical_allocation_coverage_pct": 61.5,
+    "elementary_schools_missing_numerical_model": 40,
+    "elementary_schools_with_inferred_models": 0,
+    "elementary_schools_with_only_inferred_models": 0,
+    "secondary_6_plus_school_units_excluded": 19,
+    "preschool_only_school_units_excluded": 0,
+    "unresolved_grade_school_units": 0,
+    "programme_grade_proxy_school_units": 54,
+    "schools_with_flagged_model_evidence": 0,
+    "denominator_status": "classified_working_inventory",
+    "statewide_completeness": "not_established",
+    "interpretation": "School-level model availability across cited source periods. Includes schools serving any K-5 grade, including K-8 and 3-6; excludes schools starting grade 6+. Counts a reported allocation combination totaling 100, full immersion, or an accepted quantified equal-day/minute plan. Not exact K timetables, all-strand completeness, named-language shares or tested-cohort exposure."
+  },
+  "new_current_operation_confirmations": 0,
+  "proficiency_collection": "deferred",
+  "original_webpage_urls": "not_supplied; user compilation and clarifications archived",
+  "limitations": [
+    "Earlier and later records are source-specific observations, not assumed stable cohorts.",
+    "Additional languages in composite cells remain school-level research claims, not verified immersion strands.",
+    "Programme model labels do not supply exact K schedules or observed named-language shares.",
+    "Current numerical information availability includes dated historical research at already-confirmed hosts.",
+    "Historical-only hosts require current-operation checks; preschool/enrichment/blank-language rows remain screening."
+  ]
+}

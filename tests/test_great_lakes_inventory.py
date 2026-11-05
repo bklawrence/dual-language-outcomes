@@ -121,7 +121,12 @@ class GreatLakesInventoryTests(unittest.TestCase):
                      'MacArthur International Spanish Academy', 'Canterbury Elementary School',
                      'El Puente Elementary School']:
             self.assertFalse(self.programme(name)['allocations'])
-            self.assertEqual(self.school(name)['has_numerical_allocation_model'], 0)
+            if name in {'MacArthur International Spanish Academy','Canterbury Elementary School'}:
+                # Later historical research supplies a dated model, independent
+                # of the original pupil/literacy-only percentages.
+                self.assertIn('2021-22',self.school(name)['model_source_periods'])
+            else:
+                self.assertEqual(self.school(name)['has_numerical_allocation_model'], 0)
 
     def test_same_programme_inferences_keep_explicit_donors_and_review_flag(self):
         by_id = {p['program_id']: p for p in self.programmes}

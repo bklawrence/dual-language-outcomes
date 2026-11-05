@@ -9,6 +9,7 @@ import re
 import unicodedata
 
 from .allocation_coverage import csv_text, report_rows as k_report, select_grade_rows, reference_year
+from .policy_selection import current_policy_choices
 
 CONFIG = 'config/research_migrations/elementary_allocation_audit_2026_11_04.json'
 PREFIX = 'data/reports/elementary_allocation_coverage_2026_11_04'
@@ -194,6 +195,7 @@ def numeric_model(label):
 
 
 def report_rows(tables):
+    choices_by_year = {}
     k_details,_,_ = k_report(tables)
     current_sites = {r['site_id'] for r in k_details if r['in_reference_working_set']}
     k_by_school = defaultdict(list)
@@ -246,7 +248,12 @@ def report_rows(tables):
             site_ids = {r['site_id'] for r in eligible_sites}
             evidence = []
             for site in eligible_sites:
+                year=reference_year(state)
+                if year not in choices_by_year:
+                    choices_by_year[year] = current_policy_choices(tables, year)
+                choice = choices_by_year[year].get(site['site_id']) if scope=='reference_working_set' else None
                 for row in configs[site['site_id']]:
+                    if choice:continue
                     year=reference_year(state)
                     if state=='WA' and row['school_year']!='2025-26':continue
                     if scope=='reference_working_set' and year and row['school_year'] and row['school_year']>year:continue
@@ -256,6 +263,8 @@ def report_rows(tables):
             for row in schedules[sid]:
                 if row['site_id'] and row['site_id'] not in site_ids:continue
                 year=reference_year(state)
+                choice = choices_by_year[year].get(row['site_id']) if scope=='reference_working_set' else None
+                if choice and row['schedule_id']!=choice['selected_schedule_id']:continue
                 if scope=='reference_working_set' and year and row['school_year'] and row['school_year']>year:continue
                 if row['grade_support_status'] in {'SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD','UNRECOVERED','EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED'}:continue
                 if not (numeric_model(row['reported_model_label']) or plans[row['schedule_id']]) or elementary_scope(row['grade_scope']) in {'secondary_6_plus','preschool_only'}:continue
@@ -265,7 +274,8 @@ def report_rows(tables):
                 evidence.append(dict(record_id=row['schedule_id'],source_id=row['source_id'],label=label,
                     grade=row['grade_scope'],period=row['evidence_period_raw'],flag=row['grade_support_status'] or 'not_reported',
                     basis='inferred_same_programme' if row['evidence_review_status']=='USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE'
-                    else 'user_assigned' if row['evidence_review_status'] in {'USER_CONFIRMED_ELEMENTARY_MODEL','USER_AUTHORIZED_STATEWIDE_ELEMENTARY_MODEL'} else 'source_recorded'))
+                    else 'user_assigned' if row['evidence_review_status'] in {'USER_CONFIRMED_ELEMENTARY_MODEL','USER_AUTHORIZED_STATEWIDE_ELEMENTARY_MODEL'}
+                    else 'user_historical_district_website_research' if row['evidence_review_status']=='USER_HISTORICAL_2021_22_MODEL_LABEL' else 'source_recorded'))
             counted = eligibility=='elementary' and bool(evidence)
             details.append(dict(audit_scope=scope,state_code=state,reference_working_set_year=reference_year(state),
                 school_id=sid,school_name=school['school_name'],nces_grade_context_id=native,
@@ -338,6 +348,8 @@ def render_reports(root,tables):
     if batch.exists():prefix=json.loads(batch.read_text())['elementary_report_prefix']
     great_lakes=root/'config/research_migrations/great_lakes_2026_11_05.json'
     if great_lakes.exists():prefix=json.loads(great_lakes.read_text())['elementary_report_prefix']
+    historical=root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json'
+    if historical.exists():prefix=json.loads(historical.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

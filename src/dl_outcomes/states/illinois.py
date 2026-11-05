@@ -58,3 +58,6 @@ def migrate(b):
         migrate_reviewed_state(b, 'IL')
     else:
         b.notes.append("Illinois remains a provisional legacy seed. Its 2025–26 allocation is a published plan, not tested-cohort exposure.")
+    if (b.root / 'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
+        from ..illinois_history import migrate as migrate_history
+        migrate_history(b)
