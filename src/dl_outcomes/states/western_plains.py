@@ -8,7 +8,9 @@ from .five_state import LANGUAGE_CODES, exact_year
 STATES = {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 BASE = 'data/registry/western_plains_2026_11_04'
 CODES = {**LANGUAGE_CODES, 'Portuguese': 'pt', 'Navajo': 'nv', 'ASL': 'ase',
-         'American Sign Language': 'ase', 'Hebrew': 'he', 'Tewa': 'tew'}
+         'American Sign Language': 'ase', 'Hebrew': 'he', 'Tewa': 'tew',
+         'Hawaiian': 'haw', "Yup'ik": 'esu', 'Tlingit': 'tli', 'Iñupiaq': 'ik',
+         'Lakota': 'lkt', 'Dakota': 'dak', 'Ojibwe': 'oj'}
 # Unspecified Keres/Tiwa varieties remain uncoded; "ker" identifies Kera.
 
 
@@ -31,13 +33,21 @@ def membership(b, state, school, district, source, locator, *, year=None):
     b.membership(school, did, source, locator, year=year)
 
 
-def migrate_state(b, state):
-    if state not in STATES:
-        raise ValueError('Unexpected western/plains state: ' + state)
+def migrate_state(b, state, *, inventory=None):
+    """Load the common reviewed-source format; batch identities stay separate."""
+    options = inventory or {}
+    states = options.get('states', STATES)
+    base = options.get('base', BASE)
+    dataset_suffix = options.get('dataset_suffix', '_WESTERN_PLAINS_STRUCTURAL')
+    namespace = options.get('namespace', 'WP')
+    school_identity = options.get('school_key', school_key)
+    add_membership = options.get('membership', membership)
+    if state not in states:
+        raise ValueError('Unexpected reviewed inventory state: ' + state)
     config = json.loads((b.root / f'config/states/{state.lower()}.json').read_text())
-    dataset = b.dataset(state + '_WESTERN_PLAINS_STRUCTURAL', state, 'inventory',
+    dataset = b.dataset(state + dataset_suffix, state, 'inventory',
         config['state_name'] + ' structural research: 2025–26 reference with separate source vintages',
-        'repo:' + BASE, notes='Partial public-source inventory. Directory entries, plans, continuations, '
+        'repo:' + base, notes='Partial public-source inventory. Directory entries, plans, continuations, '
         'conflicts and operation/eligibility reviews are separate; no new proficiency collection.')
     paths = config['structural_inputs']
     files = {key: b.source_file(dataset, path) for key, path in paths.items()}
@@ -64,16 +74,16 @@ def migrate_state(b, state):
         sources[key] = source
     for p in programmes:
         pid, sid = p['program_id'], p['school_id']
-        if sid != school_key(state, p['district'], p['school']):
+        if sid != school_identity(state, p['district'], p['school']):
             raise ValueError('Reviewed research school identity changed: ' + pid)
-        b.school(sid, state, p['school'], files['programmes'], namespace='WP_reviewed_research_school_key',
+        b.school(sid, state, p['school'], files['programmes'], namespace=namespace + '_reviewed_research_school_key',
             native_id=sid, status='provisional',
             screening='reviewed_programme_host_including_candidates_plans_and_continuations')
-        membership(b, state, sid, p['district'], files['programmes'], pid)
+        add_membership(b, state, sid, p['district'], files['programmes'], pid)
         b.add('programs', program_id=pid, state_code=state, program_name=p['school'] + ' / ' + p['track'],
             identity_status='provisional_evidence_group', screening_status=p['reference']['eligibility'],
             notes='Reviewed source/track evidence key, not an official enduring programme ID. ' + p['notes'])
-        b.identifier('program', pid, 'WP_reviewed_research_programme_key', pid, files['programmes'],
+        b.identifier('program', pid, namespace + '_reviewed_research_programme_key', pid, files['programmes'],
                      status='reviewed_evidence_key_not_official_programme_identifier')
         site = record_id('site', pid, sid)
         b.add('program_sites', site_id=site, program_id=pid, school_id=sid, link_status='provisional', source_id=files['programmes'])
@@ -128,7 +138,7 @@ def migrate_state(b, state):
                 school_year=exact_year(allocation['period']), grade_scope=allocation['grade'],
                 reported_model_label=allocation['label'], percentage_basis=allocation['basis'],
                 schedule_status='documented_plan' if shares else 'reported_policy_requires_review',
-                evidence_review_status='NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE' if shares else 'SOURCE_DESCRIPTION_RETAINED_WITHOUT_NUMERIC_PLAN',
+                evidence_review_status=allocation.get('review_status', 'NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE' if shares else 'SOURCE_DESCRIPTION_RETAINED_WITHOUT_NUMERIC_PLAN'),
                 grade_support_status=allocation['grade_support'], evidence_period_raw=allocation['period'],
                 tested_cohort_exposure='not_established', source_id=source, source_locator=locator, notes=allocation['notes'])
             b.claim('schedule', schedule, 'allocation_source_selection', json.dumps(allocation, ensure_ascii=False, sort_keys=True),
@@ -150,8 +160,8 @@ def migrate_state(b, state):
             b.school(entity, state, lead['school'], source, namespace='WP_reviewed_research_school_key', native_id=entity,
                 status='provisional', screening='state_report_school_including_non_DL_bilingual_models')
             membership(b, state, entity, lead['district'], source, locator, year='2024-25')
-        b.claim(entity_type, entity, 'western_plains_screening_observation', json.dumps(lead, ensure_ascii=False, sort_keys=True),
+        b.claim(entity_type, entity, options.get('screening_attribute', 'western_plains_screening_observation'), json.dumps(lead, ensure_ascii=False, sort_keys=True),
             source, locator, year=exact_year(lead['period']), period=lead['period'], status='metadata_only',
             import_source=files['screening'], notes='Screening observation only. This row does not create a DL programme, assign a language pair or establish reference-year operation.')
-    b.notes.append(state + ': six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. '
+    b.notes.append(state + ': ' + options.get('batch_description', 'six-state structural first pass') + '; 2025–26 reference assessment remains separate from actual source periods. '
         'Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.')

@@ -35,6 +35,8 @@ jobs:
         run: python scripts/validate_structural_integration.py
       - name: Validate western and plains source vintages and programme scope
         run: python scripts/validate_western_plains_inventory.py
+      - name: Validate seven-state northern/central, Alaska and Hawaii inventory
+        run: python scripts/validate_northern_central_inventory.py
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py

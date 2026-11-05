@@ -1,0 +1,95 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 187,
+  "school_units": 172,
+  "public_source_documents": 115,
+  "state_summary": [
+    {
+      "state": "AK",
+      "programme_records": 20,
+      "school_units": 18,
+      "confirmed_qualifying_reference_school_units": 18,
+      "elementary_reference_school_units": 10,
+      "elementary_reference_schools_with_numerical_model": 6,
+      "elementary_reference_model_coverage_pct": 60.0,
+      "secondary_6_plus_reference_units_excluded": 8,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "HI",
+      "programme_records": 35,
+      "school_units": 35,
+      "confirmed_qualifying_reference_school_units": 34,
+      "elementary_reference_school_units": 20,
+      "elementary_reference_schools_with_numerical_model": 19,
+      "elementary_reference_model_coverage_pct": 95.0,
+      "secondary_6_plus_reference_units_excluded": 14,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "IA",
+      "programme_records": 13,
+      "school_units": 13,
+      "confirmed_qualifying_reference_school_units": 10,
+      "elementary_reference_school_units": 5,
+      "elementary_reference_schools_with_numerical_model": 5,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 5,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "MN",
+      "programme_records": 93,
+      "school_units": 83,
+      "confirmed_qualifying_reference_school_units": 79,
+      "elementary_reference_school_units": 45,
+      "elementary_reference_schools_with_numerical_model": 30,
+      "elementary_reference_model_coverage_pct": 66.7,
+      "secondary_6_plus_reference_units_excluded": 34,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "MO",
+      "programme_records": 14,
+      "school_units": 11,
+      "confirmed_qualifying_reference_school_units": 11,
+      "elementary_reference_school_units": 7,
+      "elementary_reference_schools_with_numerical_model": 2,
+      "elementary_reference_model_coverage_pct": 28.6,
+      "secondary_6_plus_reference_units_excluded": 4,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "ND",
+      "programme_records": 1,
+      "school_units": 1,
+      "confirmed_qualifying_reference_school_units": 0,
+      "elementary_reference_school_units": 0,
+      "elementary_reference_schools_with_numerical_model": 0,
+      "elementary_reference_model_coverage_pct": null,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "SD",
+      "programme_records": 11,
+      "school_units": 11,
+      "confirmed_qualifying_reference_school_units": 5,
+      "elementary_reference_school_units": 3,
+      "elementary_reference_schools_with_numerical_model": 3,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 2,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Programme/campus keys are provisional research identities, not NCES matches or official programme IDs.",
+    "North Dakota has a documented Indigenous academic school candidate; its public funding remains unresolved. A zero qualifying denominator is not evidence of no programmes.",
+    "Current directories and older descriptions do not establish the same annual grade roster, timetable or cohort exposure.",
+    "School-grade classification uses programme-scope proxies where a school-grade directory was not matched.",
+    "Published classroom-only models and conflicting model/minute descriptions carry review notes; they are not whole-day observed plans.",
+    "Preschool networks, unimplemented pathways, uncertain new hosts, nonpublic funding candidates and historical relocations remain separate."
+  ]
+}

@@ -2,7 +2,17 @@
   "state_code": "MO",
   "state_name": "Missouri",
   "state_fips": "29",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "missouri",
+  "collection_status": "integrated_partial",
+  "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+  "structural_inputs": {
+    "programmes": "data/registry/northern_central_ak_hi_2026_11_05/mo_programmes.json",
+    "screening": "data/registry/northern_central_ak_hi_2026_11_05/mo_screening.json",
+    "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json",
+    "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+    "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+    "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+    "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+    "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json"
+  }
 }

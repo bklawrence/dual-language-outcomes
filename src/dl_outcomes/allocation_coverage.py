@@ -12,7 +12,7 @@ import re
 
 PREFIX = 'data/reports/kindergarten_allocation_coverage_2026_11_04'
 WA_DIRECTORY = 'data/registry/washington'
-REVIEWED_STATES = {'CA', 'ID', 'MT', 'NV', 'WY', 'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
+REVIEWED_STATES = {'CA', 'ID', 'MT', 'NV', 'WY', 'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI'}
 SUPPORTED_K = {'EXPLICIT_GRADE', 'DISTRICT_ENTRY_GRADE_MODEL',
                'CAMPUS_GRADE_BAND_MODEL', 'DISTRICT_GRADE_BAND_MODEL'}
 REJECTED_K = {'SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD', 'UNRECOVERED',
@@ -273,6 +273,8 @@ def render_reports(root, tables):
     tag='2026_11_05' if followup.exists() else '2026_11_04'
     review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
     if review.exists():tag=json.loads(review.read_text())['report_tag']
+    batch=root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json'
+    if batch.exists():tag=json.loads(batch.read_text())['report_tag']
     prefix=PREFIX.replace('2026_11_04',tag)
     contents = {prefix+'_by_program.csv':csv_text(details), prefix+'_by_school.csv':csv_text(schools),
                 prefix+'_by_state.csv':csv_text(summary)}

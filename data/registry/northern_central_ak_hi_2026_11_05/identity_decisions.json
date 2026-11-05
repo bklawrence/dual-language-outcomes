@@ -1,0 +1,43 @@
+[
+  {
+    "state": "MN",
+    "names": [
+      "Academia Cesar Chavez",
+      "Academia In Lak’ech"
+    ],
+    "decision": "one_provisional_school_identity_with_both_names",
+    "source": "nc_mn_cc",
+    "rationale": "Operator explicitly announces the renaming process; no separate new school invented."
+  },
+  {
+    "state": "MN",
+    "names": [
+      "Ellen Hopkins Elementary",
+      "Probstfield Elementary"
+    ],
+    "decision": "distinct_hosts_same_district_pathway",
+    "source": "nc_mn_moorhead_news",
+    "rationale": "Programme relocated in 2023. Historical host excluded from the 2025–26 working set."
+  },
+  {
+    "state": "MN",
+    "names": [
+      "Gage Elementary",
+      "Riverside Central Elementary",
+      "Willow Creek Middle"
+    ],
+    "decision": "distinct_hosts_with_dated_transition",
+    "source": "nc_w9_4a93d459",
+    "rationale": "Elementary relocation and phased middle-school transition; not three simultaneous elementary programmes."
+  },
+  {
+    "state": "HI",
+    "names": [
+      "Hilo High / Nāwahīokalaniʻōpuʻu",
+      "Ke Kula ʻO Nāwahīokalaniʻōpuʻu Iki Lab PCS"
+    ],
+    "decision": "distinct_directory_administrative_hosts_on_shared_site",
+    "source": "nc_hi_directory",
+    "rationale": "State lists Hilo High 9–12 and charter K–8 separately; two K–8 satellites stay attached to the charter row."
+  }
+]
