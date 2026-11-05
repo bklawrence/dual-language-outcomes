@@ -1,0 +1,17 @@
+{
+  "review_date": "2026-11-05",
+  "review_round": 1,
+  "original_missing_model_campuses": 598,
+  "prior_followup_model_additions": 69,
+  "newly_classified_campuses": 22,
+  "cumulative_model_additions": 91,
+  "remaining_without_model": 507,
+  "programme_assignments": 29,
+  "campuses_with_programme_assignments": 25,
+  "assignment_basis_counts": {
+    "user_directive": 4,
+    "same_district_type_language_inference": 20,
+    "literal_district_endpoint": 5
+  },
+  "interpretation": "User-authorized classifications include inferred models. Source/legacy donor quality is retained. Kindergarten time shares, operation dates and cohort exposure are not established."
+}

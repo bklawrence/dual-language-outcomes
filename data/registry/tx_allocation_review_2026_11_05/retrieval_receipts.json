@@ -1,0 +1,34 @@
+[
+  {
+    "key": "tx_review_denton_rivera",
+    "url": "https://www.dentonisd.org/cms/lib/tx21000245/centricity/Domain/3480/Parent%20Involvment%20Policy.pdf",
+    "retrieved_at": "2026-11-05T16:39:48.799824+00:00",
+    "http_status": null,
+    "sha256": null,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "tx_review_irving_oneway2023",
+    "url": "https://www.txel.org/media/wxmlshbc/2-1-c-irving-dli-one-way.pdf",
+    "retrieved_at": "2026-11-05T16:39:48.800513+00:00",
+    "http_status": null,
+    "sha256": null,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "tx_review_irving_oneway",
+    "url": "https://www.irvingisd.net/departments-services/bilingual-esl-and-language-services/district-programs/dual-language-one-way-at-elementary",
+    "retrieved_at": "2026-11-05T16:39:48.801295+00:00",
+    "http_status": null,
+    "sha256": null,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "tx_review_denton_child71",
+    "url": "https://www.dentonisd.org/our-district/departments-services/innovative-design-models/two-way-dual-language",
+    "retrieved_at": "2026-11-05T16:39:48.801882+00:00",
+    "http_status": 200,
+    "sha256": "d5445a6c66e6d1bad26bdd6dcca67c1b6ffe5660cd38e8a674ed10ad355ed9f0",
+    "error": null
+  }
+]

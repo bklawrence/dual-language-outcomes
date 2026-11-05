@@ -252,7 +252,7 @@ def report_rows(tables):
                     if scope=='reference_working_set' and year and row['school_year'] and row['school_year']>year:continue
                     if numeric_model(row['reported_model_label']) and elementary_scope(row['grade_scope']) not in {'secondary_6_plus','preschool_only'}:
                         evidence.append(dict(record_id=row['configuration_id'],source_id=row['source_id'],
-                            label=row['reported_model_label'],grade=row['grade_scope'],period=row['evidence_period_raw'],flag='published_model_label'))
+                            label=row['reported_model_label'],grade=row['grade_scope'],period=row['evidence_period_raw'],flag='published_model_label',basis='source_recorded'))
             for row in schedules[sid]:
                 if row['site_id'] and row['site_id'] not in site_ids:continue
                 year=reference_year(state)
@@ -263,7 +263,9 @@ def report_rows(tables):
                 if plans[row['schedule_id']] and not numeric_model(label):
                     label += ' ['+'; '.join(r['language_name']+' '+str(r['instruction_share_pct'])+'%' for r in plans[row['schedule_id']])+']'
                 evidence.append(dict(record_id=row['schedule_id'],source_id=row['source_id'],label=label,
-                    grade=row['grade_scope'],period=row['evidence_period_raw'],flag=row['grade_support_status'] or 'not_reported'))
+                    grade=row['grade_scope'],period=row['evidence_period_raw'],flag=row['grade_support_status'] or 'not_reported',
+                    basis='inferred_same_programme' if row['evidence_review_status']=='USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE'
+                    else 'user_assigned' if row['evidence_review_status'] in {'USER_CONFIRMED_ELEMENTARY_MODEL','USER_AUTHORIZED_STATEWIDE_ELEMENTARY_MODEL'} else 'source_recorded'))
             counted = eligibility=='elementary' and bool(evidence)
             details.append(dict(audit_scope=scope,state_code=state,reference_working_set_year=reference_year(state),
                 school_id=sid,school_name=school['school_name'],nces_grade_context_id=native,
@@ -279,6 +281,7 @@ def report_rows(tables):
                 model_source_ids=' | '.join(sorted({r['source_id'] for r in evidence})),
                 model_source_periods=' | '.join(sorted({r['period'] or 'not_reported' for r in evidence})),
                 model_review_flags=' | '.join(sorted({r['flag'] for r in evidence})),
+                model_classification_bases=' | '.join(sorted({r['basis'] for r in evidence})),
                 programme_ids=' | '.join(sorted({r['program_id'] for r in eligible_sites})),
                 reference_working_set_member=int(in_working)))
     # Deduplicate research aliases within this audit without rewriting the
@@ -289,7 +292,7 @@ def report_rows(tables):
         units[(row['audit_scope'],row['state_code'],unit)].append(row)
     deduplicated=[]
     join_fields=['grade_evidence_ids','grade_source_ids','programme_grade_scopes','numerical_model_labels',
-                 'model_evidence_ids','model_source_ids','model_source_periods','model_review_flags','programme_ids']
+                 'model_evidence_ids','model_source_ids','model_source_periods','model_review_flags','model_classification_bases','programme_ids']
     for (_,_,unit),rows in sorted(units.items()):
         if len({r['elementary_classification'] for r in rows})!=1:
             raise ValueError('Audit aliases have conflicting grade classifications: '+unit)
@@ -312,6 +315,8 @@ def report_rows(tables):
                 elementary_schools_with_numerical_model=numerator,
                 numerical_allocation_coverage_pct=round(100*numerator/len(elementary),1) if elementary else None,
                 elementary_schools_missing_numerical_model=len(elementary)-numerator,
+                elementary_schools_with_inferred_models=sum('inferred_same_programme' in r['model_classification_bases'] for r in elementary),
+                elementary_schools_with_only_inferred_models=sum(r['model_classification_bases']=='inferred_same_programme' for r in elementary),
                 secondary_6_plus_school_units_excluded=sum(r['elementary_classification']=='secondary_6_plus' for r in rows),
                 preschool_only_school_units_excluded=sum(r['elementary_classification']=='preschool_only' for r in rows),
                 unresolved_grade_school_units=unknown,
@@ -327,6 +332,8 @@ def render_reports(root,tables):
     details,summary=report_rows(tables)
     followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
     prefix=json.loads(followup.read_text()).get('elementary_report_prefix',PREFIX) if followup.exists() else PREFIX
+    review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
+    if review.exists():prefix=json.loads(review.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

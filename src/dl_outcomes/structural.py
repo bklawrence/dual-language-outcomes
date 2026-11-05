@@ -16,6 +16,8 @@ REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 
 
 def report_prefix(root):
+    review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
+    if review.exists():return json.loads(review.read_text())['national_report_prefix']
     followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
     return json.loads(followup.read_text()).get('national_report_prefix',REPORT) if followup.exists() else REPORT
 
@@ -160,6 +162,7 @@ def report_rows(root, tables):
             model_labels_all_source_periods=joined(allocations[site_id],'reported_model_label',omit=('unknown','not_reported','Other','Allocation Other','.','N/A')) or joined(configurations[site_id],'reported_model_label',omit=('Other','Allocation Other','.','N/A')),
             allocation_grade_scopes=joined(allocations[site_id],'grade_scope'),
             allocation_review_flags=joined(allocations[site_id],'grade_support_status'),
+            allocation_evidence_review_statuses=joined(allocations[site_id],'evidence_review_status'),
             school_level_model_labels_all_source_periods=joined(campus_allocations[site['school_id']],'reported_model_label'),
             school_level_model_evidence_statuses=joined(campus_allocations[site['school_id']],'evidence_review_status'),
             kindergarten_allocation_eligibility=k_scope['k_eligibility'],
@@ -223,6 +226,9 @@ def generate_report(root, *, check=False):
     if (root/'config/research_migrations/ut_tx_allocations_2026_11_05.json').exists():
         from .allocation_enrichment import render_reports as enrichment_reports
         contents.update(enrichment_reports(root,tables))
+    if (root/'config/research_migrations/tx_allocation_review_2026_11_05.json').exists():
+        from .allocation_review import render_reports as reviewed_reports
+        contents.update(reviewed_reports(root,tables))
     batch_summary = None
     if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
         from .western_plains_review import render_reports

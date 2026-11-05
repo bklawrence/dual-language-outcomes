@@ -271,6 +271,8 @@ def render_reports(root, tables):
     details, schools, summary = report_rows(tables)
     followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
     tag='2026_11_05' if followup.exists() else '2026_11_04'
+    review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
+    if review.exists():tag=json.loads(review.read_text())['report_tag']
     prefix=PREFIX.replace('2026_11_04',tag)
     contents = {prefix+'_by_program.csv':csv_text(details), prefix+'_by_school.csv':csv_text(schools),
                 prefix+'_by_state.csv':csv_text(summary)}

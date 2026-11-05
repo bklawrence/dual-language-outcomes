@@ -1,0 +1,290 @@
+[
+  {
+    "case_id": "TX52-R01-DENTON",
+    "district_id": "061901",
+    "district": "DENTON ISD",
+    "campus_ids": [
+      "061901104",
+      "061901106",
+      "061901107",
+      "061901110",
+      "061901111",
+      "061901112",
+      "061901113"
+    ],
+    "source_keys": [
+      "tx_policy_061901_1"
+    ],
+    "resolution_status": "resolved_model_classification_with_inference",
+    "resolution": "Two-way elementary 50/50 follows the explicit user instruction. Like one-way Spanish/English candidates inherit Rivera’s existing 50/50 label, separately flagged as inference from an unreviewed legacy donor."
+  },
+  {
+    "case_id": "TX52-R02-RED_OAK",
+    "district_id": "070911",
+    "district": "RED OAK ISD",
+    "campus_ids": [
+      "070911102",
+      "070911107"
+    ],
+    "source_keys": [
+      "tx_policy_070911_1"
+    ],
+    "resolution_status": "type_confirmed_allocation_unknown",
+    "resolution": "Confirm one-way programme type at both campuses. Overall allocation and kindergarten allocation remain unknown; literacy-only percentages are not a full-day model."
+  },
+  {
+    "case_id": "TX52-R03-IRVING_SCOPE",
+    "district_id": "057912",
+    "district": "IRVING ISD",
+    "campus_ids": [
+      "057912106",
+      "057912107",
+      "057912111",
+      "057912122",
+      "057912123"
+    ],
+    "source_keys": [
+      "tx_detail_057912_3a32b506"
+    ],
+    "resolution_status": "resolved_model_classification_with_inference",
+    "resolution": "T Haley two-way inherits Spanish/English 50/50. Four one-way candidates inherit the existing one-way 80/20 label with the original NOT_REVIEWED donor flag and unavailable-source warning."
+  },
+  {
+    "case_id": "TX52-R04-TOMBALL_SCOPE",
+    "district_id": "101921",
+    "district": "TOMBALL ISD",
+    "campus_ids": [
+      "101921105",
+      "101921111",
+      "101921116"
+    ],
+    "source_keys": [
+      "tx_detail_101921_502c323c"
+    ],
+    "resolution_status": "held_different_programme_type",
+    "resolution": "Historical targets are one-way; the labelled donor policy is two-way. Current Canyon Pointe attendance wording does not establish a dated conversion of its historical one-way record."
+  },
+  {
+    "case_id": "TX52-R05-ELGIN_INTERMEDIATE",
+    "district_id": "011902",
+    "district": "ELGIN ISD",
+    "campus_ids": [
+      "011902042"
+    ],
+    "source_keys": [
+      "tx_policy_011902_2"
+    ],
+    "resolution_status": "resolved_model_classification_with_inference",
+    "resolution": "Apply the shared Spanish/English 50/50 model separately to the matching one-way and two-way primary-serving continuation strands; no secondary or entry-grade schedule is asserted."
+  },
+  {
+    "case_id": "TX52-R06-MIDLOTHIAN_ORDER",
+    "district_id": "070908",
+    "district": "MIDLOTHIAN ISD",
+    "campus_ids": [
+      "070908107"
+    ],
+    "source_keys": [
+      "tx_policy_070908_1"
+    ],
+    "resolution_status": "model_retained_language_order_unknown",
+    "resolution": "The recorded 70/30 label remains available. The rule supplies neither which language receives 70% nor a kindergarten allocation."
+  },
+  {
+    "case_id": "TX52-R07-AUSTIN",
+    "district_id": "227901",
+    "district": "AUSTIN ISD",
+    "campus_ids": [
+      "227901102",
+      "227901104",
+      "227901109",
+      "227901113",
+      "227901114",
+      "227901118",
+      "227901122",
+      "227901126",
+      "227901127",
+      "227901129",
+      "227901130",
+      "227901136",
+      "227901140",
+      "227901141",
+      "227901144",
+      "227901145",
+      "227901146",
+      "227901148",
+      "227901149",
+      "227901150",
+      "227901151",
+      "227901152",
+      "227901156",
+      "227901157",
+      "227901159",
+      "227901160",
+      "227901162",
+      "227901163",
+      "227901164",
+      "227901165",
+      "227901166",
+      "227901168",
+      "227901171",
+      "227901172",
+      "227901173",
+      "227901174",
+      "227901175",
+      "227901176",
+      "227901178",
+      "227901185",
+      "227901186",
+      "227901188",
+      "227901189",
+      "227901190",
+      "227901195",
+      "227901198"
+    ],
+    "source_keys": [
+      "tx_follow_227901_f9dc6ad0"
+    ],
+    "resolution_status": "held_conflicting_models_within_language_type",
+    "resolution": "Spanish programmes have differing 70/30, 80/20 and 90/10 records; Mandarin is explicitly described as 80/20 or 50/50. Programme type and language alone do not identify a unique model. Do not transfer a model between Spanish, Mandarin or Vietnamese strands."
+  },
+  {
+    "case_id": "TX52-R08-MT_PLEASANT_WALLACE",
+    "district_id": "225902",
+    "district": "MOUNT PLEASANT ISD",
+    "campus_ids": [
+      "225902042"
+    ],
+    "source_keys": [
+      "tx_detail_225902_3a6cdfe8"
+    ],
+    "resolution_status": "two_way_resolved_one_way_unknown",
+    "resolution": "Wallace’s two-way primary-serving continuation inherits the named elementary Spanish/English 50/50 model. Its separate one-way strand does not inherit a two-way model."
+  },
+  {
+    "case_id": "TX52-R09-GRAND_PRAIRIE",
+    "district_id": "057910",
+    "district": "GRAND PRAIRIE ISD",
+    "campus_ids": [
+      "057910101",
+      "057910102",
+      "057910104",
+      "057910109",
+      "057910113",
+      "057910118",
+      "057910119",
+      "057910120",
+      "057910122",
+      "057910124",
+      "057910126",
+      "057910128",
+      "057910129",
+      "057910130",
+      "057910131",
+      "057910132",
+      "057910137"
+    ],
+    "source_keys": [
+      "tx_detail_057910_6dc3b68a"
+    ],
+    "resolution_status": "held_no_explicit_overall_model",
+    "resolution": "There is no numerical overall model donor established in the checked district sources. Equal literacy is not an explicit whole-programme allocation label."
+  },
+  {
+    "case_id": "TX52-R10-ECTOR_CHANGE",
+    "district_id": "068901",
+    "district": "ECTOR COUNTY ISD",
+    "campus_ids": [
+      "068901102",
+      "068901103",
+      "068901107",
+      "068901110",
+      "068901111",
+      "068901112",
+      "068901113",
+      "068901116",
+      "068901118",
+      "068901122",
+      "068901124",
+      "068901126",
+      "068901127",
+      "068901128",
+      "068901129",
+      "068901130",
+      "068901131",
+      "068901132",
+      "068901133"
+    ],
+    "source_keys": [
+      "tx_target_068901_5e2f36a9"
+    ],
+    "resolution_status": "held_different_type_and_possible_change",
+    "resolution": "Cameron is a two-way donor; all 19 targets were reported as one-way. Do not extend its model across the type difference. Preserve possible transitional-programme change flags."
+  },
+  {
+    "case_id": "TX52-R11-GOOSE_CREEK",
+    "district_id": "101911",
+    "district": "GOOSE CREEK CISD",
+    "campus_ids": [
+      "101911101",
+      "101911102",
+      "101911108",
+      "101911111",
+      "101911112",
+      "101911118",
+      "101911120",
+      "101911122",
+      "101911125"
+    ],
+    "source_keys": [
+      "tx_document_101911_allocation"
+    ],
+    "resolution_status": "held_no_explicit_overall_model",
+    "resolution": "The detailed subject-language plan has no total-day percentage donor. Keep numerical allocation unknown."
+  },
+  {
+    "case_id": "TX52-R12-LONGVIEW",
+    "district_id": "092903",
+    "district": "LONGVIEW ISD",
+    "campus_ids": [
+      "092903122",
+      "092903124",
+      "092903125",
+      "092903126",
+      "092903127"
+    ],
+    "source_keys": [
+      "tx_policy_092903_1"
+    ],
+    "resolution_status": "literal_endpoint_recorded_classification_question_open",
+    "resolution": "Record the source’s literal 90% English/10% Spanish grade-5 endpoint. Keep earlier grades and K unknown, and retain the programme-definition/transition issue."
+  },
+  {
+    "case_id": "TX52-R13-JUDSON",
+    "district_id": "015916",
+    "district": "JUDSON ISD",
+    "campus_ids": [
+      "015916102",
+      "015916104",
+      "015916124"
+    ],
+    "source_keys": [
+      "tx_follow_015916_f096bb71"
+    ],
+    "resolution_status": "resolved_model_classification_with_inference",
+    "resolution": "The explicit 50/50 programme label supplies the classification for the matching two-way Spanish/English candidates. Retain this as user-authorized inference rather than measured time."
+  },
+  {
+    "case_id": "TX52-R14-SCUC_WILDER",
+    "district_id": "094902",
+    "district": "SCHERTZ-CIBOLO-U CITY ISD",
+    "campus_ids": [
+      "094902108"
+    ],
+    "source_keys": [
+      "tx_follow_094902_9b502af1"
+    ],
+    "resolution_status": "held_different_programme_type",
+    "resolution": "The historical Wilder candidate is two-way, while the Schertz/current profile is one-way. Do not inherit the model across that mismatch or invent a grade-5/6 allocation."
+  }
+]
