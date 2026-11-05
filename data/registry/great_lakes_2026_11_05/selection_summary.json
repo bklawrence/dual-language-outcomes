@@ -1,0 +1,29 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "WI",
+    "MI",
+    "IL",
+    "IN"
+  ],
+  "programme_records": {
+    "WI": 85,
+    "MI": 33,
+    "IL": 136,
+    "IN": 52
+  },
+  "programme_host_schools": {
+    "WI": 83,
+    "MI": 27,
+    "IL": 134,
+    "IN": 50
+  },
+  "screening_rows": {
+    "WI": 8,
+    "MI": 11,
+    "IL": 16,
+    "IN": 3
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

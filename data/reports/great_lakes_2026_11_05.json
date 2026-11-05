@@ -1,0 +1,63 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 306,
+  "school_units": 294,
+  "public_source_documents": 177,
+  "state_summary": [
+    {
+      "state": "IL",
+      "programme_records": 136,
+      "school_units": 134,
+      "confirmed_qualifying_reference_school_units": 123,
+      "elementary_reference_school_units": 104,
+      "elementary_reference_schools_with_numerical_model": 48,
+      "elementary_reference_model_coverage_pct": 46.2,
+      "secondary_6_plus_reference_units_excluded": 19,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "IN",
+      "programme_records": 52,
+      "school_units": 50,
+      "confirmed_qualifying_reference_school_units": 49,
+      "elementary_reference_school_units": 38,
+      "elementary_reference_schools_with_numerical_model": 17,
+      "elementary_reference_model_coverage_pct": 44.7,
+      "secondary_6_plus_reference_units_excluded": 11,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "MI",
+      "programme_records": 33,
+      "school_units": 27,
+      "confirmed_qualifying_reference_school_units": 27,
+      "elementary_reference_school_units": 16,
+      "elementary_reference_schools_with_numerical_model": 4,
+      "elementary_reference_model_coverage_pct": 25.0,
+      "secondary_6_plus_reference_units_excluded": 11,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "WI",
+      "programme_records": 85,
+      "school_units": 83,
+      "confirmed_qualifying_reference_school_units": 77,
+      "elementary_reference_school_units": 46,
+      "elementary_reference_schools_with_numerical_model": 26,
+      "elementary_reference_model_coverage_pct": 56.5,
+      "secondary_6_plus_reference_units_excluded": 31,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Partial structural inventory, not statewide completeness or a contemporaneous annual census.",
+    "Illinois original school/programme/site identities and legacy claims are retained; matched sources add evidence to those same identities.",
+    "Current directories, old descriptions and future starts retain their actual source periods; 2025–26 is a separate operation assessment.",
+    "School-grade classification uses source programme-scope proxies where a separately dated school-grade directory is not matched.",
+    "Preschool-only language programmes and language-as-a-subject classes are screening evidence, not automatically academic immersion.",
+    "Funding candidates and uncertain programme rollouts are retained but excluded from confirmed qualifying reference-year coverage.",
+    "Numerical allocation is school-level availability across source periods, not every strand or observed cohort exposure."
+  ]
+}

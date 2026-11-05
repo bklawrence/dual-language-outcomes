@@ -1,0 +1,32 @@
+[
+  {
+    "school": "North Central High School",
+    "district": "MSD Washington Township",
+    "source": "gl_w4_623a1325",
+    "period": "operator timeline: 2028 high-school entry",
+    "locator": "North Central High School",
+    "disposition": "future_secondary_rollout",
+    "reason": "District timeline schedules its first DLI grade-9 cohort for 2028; not an operating 2025–26 immersion host.",
+    "notes": ""
+  },
+  {
+    "school": "Mary Castle / Oaklandon Bilingual High Ability",
+    "district": "MSD Lawrence Township",
+    "source": "gl_w4_31846e16",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Mary Castle / Oaklandon Bilingual High Ability",
+    "disposition": "distinct_programme_scope_review",
+    "reason": "Bilingual high-ability placement appears in the location menu, but its separate immersion scope and daily ratio need verification before creating additional strands.",
+    "notes": ""
+  },
+  {
+    "school": "Global Prep / Monon Middle Academy",
+    "district": "Public charter operator: Global Prep Academy",
+    "source": "gl_in_globalprep",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Global Prep / Monon Middle Academy",
+    "disposition": "secondary_campus_date_and_identity_review",
+    "reason": "Current operator names a separate 6–8 campus; establish its opening date and official school identity before splitting the older Global Prep K–8 reporting unit or confirming an additional 2025–26 host.",
+    "notes": ""
+  }
+]

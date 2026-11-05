@@ -1,0 +1,112 @@
+[
+  {
+    "school": "Goodwillie Environmental School",
+    "district": "Forest Hills Public Schools",
+    "source": "gl_w3_6b7eb474",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Goodwillie Environmental School",
+    "disposition": "alternative_placement_scope_review",
+    "reason": "Mandarin students who entered K in 2023 or earlier may apply here instead for grades 5/6; page does not establish a separate Mandarin instructional programme at this alternate school.",
+    "notes": ""
+  },
+  {
+    "school": "Neinas Dual Language Learning Academy",
+    "district": "Detroit Public Schools Community District",
+    "source": "gl_mi_dpscd_p_33da4ea_about",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Neinas Dual Language Learning Academy",
+    "disposition": "academic_medium_and_language_role_review",
+    "reason": "Current description and principal biography mention learning Spanish; translated biography also mentions French. Academic-medium scope and separate language strands are not established by this page; school name alone does not establish immersion.",
+    "notes": ""
+  },
+  {
+    "school": "Zeeland High Schools",
+    "district": "Zeeland Public Schools",
+    "source": "gl_mi_zeeland",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Zeeland High Schools",
+    "disposition": "secondary_host_identity_review",
+    "reason": "District identifies grades 9–12 Spanish immersion at Zeeland High Schools collectively. East versus West programme-school identity and location are not resolved; do not create two assumed hosts.",
+    "notes": ""
+  },
+  {
+    "school": "Blair Elementary School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Blair Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "César E. Chávez Elementary School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "César E. Chávez Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "Fremont Christian School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Fremont Christian School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "Moon Elementary School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Moon Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "Oakland Christian School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Oakland Christian School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "Townline Elementary School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Townline Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "University Hills Elementary School",
+    "district": "",
+    "source": "gl_mi_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "University Hills Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Third-party directory lead; independent school-level academic-medium, operating-date and funding verification remains incomplete. Directory language filters are not school-specific evidence.",
+    "notes": ""
+  },
+  {
+    "school": "Academy of the Americas — Cub/Tiger campuses",
+    "district": "Detroit Public Schools Community District",
+    "source": "gl_mi_aoa",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Academy of the Americas — Cub/Tiger campuses",
+    "disposition": "campus_school_identity_review",
+    "reason": "Two named campus locations and grade spans are retained within one provisional school reporting unit; verify separate official school identifiers before splitting the school count.",
+    "notes": ""
+  }
+]

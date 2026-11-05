@@ -1,0 +1,443 @@
+[
+  {
+    "reported_school": "ALBANY PARK",
+    "school_id": "GL-IL-S-39693470d0eb",
+    "program_id": "GL-IL-P-a74664f18d64",
+    "cps_native_code": "610212",
+    "profile_source": "gl_cps_albany-park",
+    "school_grades": "7-8",
+    "reference_status": "planned_future"
+  },
+  {
+    "reported_school": "AVONDALE-LOGANDALE",
+    "school_id": "GL-IL-S-a6ee80d5d9a4",
+    "program_id": "GL-IL-P-10543ca2152c",
+    "cps_native_code": "610325",
+    "profile_source": "gl_cps_avondale-logandale",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "AZUELA",
+    "school_id": "GL-IL-S-e6f046e14230",
+    "program_id": "GL-IL-P-1567fa297c16",
+    "cps_native_code": "610544",
+    "profile_source": "gl_cps_azuela",
+    "school_grades": "K-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "BACK OF THE YARDS HS",
+    "school_id": "GL-IL-S-61cc530df0eb",
+    "program_id": "GL-IL-P-7b2305d1be83",
+    "cps_native_code": "610563",
+    "profile_source": "gl_cps_back-of-the-yards-hs",
+    "school_grades": "9-12",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "BARRY",
+    "school_id": "GL-IL-S-b02228b381a4",
+    "program_id": "GL-IL-P-f0a55a07aa60",
+    "cps_native_code": "609789",
+    "profile_source": "gl_cps_barry",
+    "school_grades": "PK-6",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "BATEMAN",
+    "school_id": "GL-IL-S-c0ef33955361",
+    "program_id": "GL-IL-P-629dd366146c",
+    "cps_native_code": "609792",
+    "profile_source": "gl_cps_bateman",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "BELMONT-CRAGIN",
+    "school_id": "GL-IL-S-b434ca650a4a",
+    "program_id": "GL-IL-P-97de1de2cfda",
+    "cps_native_code": "609922",
+    "profile_source": "gl_cps_belmont-cragin",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "BURBANK",
+    "school_id": "GL-IL-S-b565f94ed6c4",
+    "program_id": "GL-IL-P-108ccf662dde",
+    "cps_native_code": "609818",
+    "profile_source": "gl_cps_burbank",
+    "school_grades": "PK-8",
+    "reference_status": "planned_future"
+  },
+  {
+    "reported_school": "CALMECA",
+    "school_id": "GL-IL-S-02e0b6a6cce2",
+    "program_id": "GL-IL-P-533511dacc84",
+    "cps_native_code": "610353",
+    "profile_source": "gl_cps_calmeca",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "CARSON",
+    "school_id": "GL-IL-S-2127172e72fa",
+    "program_id": "GL-IL-P-824e62691248",
+    "cps_native_code": "609842",
+    "profile_source": "gl_cps_carson",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "CHASE",
+    "school_id": "GL-IL-S-a14da0f8792f",
+    "program_id": "GL-IL-P-b69c7945e3ba",
+    "cps_native_code": "609853",
+    "profile_source": "gl_cps_chase",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "CLEVELAND",
+    "school_id": "GL-IL-S-5177c3c7dc79",
+    "program_id": "GL-IL-P-483d5371a9bc",
+    "cps_native_code": "609857",
+    "profile_source": "gl_cps_cleveland",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "COOPER",
+    "school_id": "GL-IL-S-a02ff37f513a",
+    "program_id": "GL-IL-P-f26ed461fa3c",
+    "cps_native_code": "609867",
+    "profile_source": "gl_cps_cooper",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "DARWIN",
+    "school_id": "IL-S004",
+    "program_id": "GL-IL-P-a4574cd5d578",
+    "cps_native_code": "609875",
+    "profile_source": "gl_cps_darwin",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "DAVIS N",
+    "school_id": "GL-IL-S-167693847fe6",
+    "program_id": "GL-IL-P-46386a79a936",
+    "cps_native_code": "609876",
+    "profile_source": "gl_cps_davis-n",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "EBERHART",
+    "school_id": "GL-IL-S-3d270650f21f",
+    "program_id": "GL-IL-P-aeba94014721",
+    "cps_native_code": "609898",
+    "profile_source": "gl_cps_eberhart",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "EDWARDS",
+    "school_id": "GL-IL-S-4ac59f5dc0d8",
+    "program_id": "GL-IL-P-5f072ae09bf8",
+    "cps_native_code": "609903",
+    "profile_source": "gl_cps_edwards",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "ERIE",
+    "school_id": "GL-IL-S-1ac50467dbb1",
+    "program_id": "GL-IL-P-08e5151831e4",
+    "cps_native_code": "400039",
+    "profile_source": "gl_cps_erie",
+    "school_grades": "K-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "FUNSTON",
+    "school_id": "GL-IL-S-c86603c2c2ce",
+    "program_id": "GL-IL-P-544859bab40b",
+    "cps_native_code": "609930",
+    "profile_source": "gl_cps_funston",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "GLOBAL CITIZENSHIP",
+    "school_id": "IL-S001",
+    "program_id": "IL-P001",
+    "cps_native_code": "400009",
+    "profile_source": "gl_cps_global-citizenship",
+    "school_grades": "K-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "GOETHE",
+    "school_id": "GL-IL-S-9ce7aa9948cb",
+    "program_id": "GL-IL-P-1bed7b9dde94",
+    "cps_native_code": "609942",
+    "profile_source": "gl_cps_goethe",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "HERNANDEZ",
+    "school_id": "GL-IL-S-f059d279325f",
+    "program_id": "GL-IL-P-a1a6807d2809",
+    "cps_native_code": "610532",
+    "profile_source": "gl_cps_hernandez",
+    "school_grades": "6-8",
+    "reference_status": "planned_future"
+  },
+  {
+    "reported_school": "HIBBARD",
+    "school_id": "GL-IL-S-0eed5be186c5",
+    "program_id": "GL-IL-P-0f1a29297218",
+    "cps_native_code": "609994",
+    "profile_source": "gl_cps_hibbard",
+    "school_grades": "PK-6",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "HURLEY",
+    "school_id": "GL-IL-S-dc818b128fdd",
+    "program_id": "GL-IL-P-600f6b7bfc71",
+    "cps_native_code": "610006",
+    "profile_source": "gl_cps_hurley",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "INTER-AMERICAN",
+    "school_id": "IL-S007",
+    "program_id": "IL-P007",
+    "cps_native_code": "610078",
+    "profile_source": "gl_cps_inter-american",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "LITTLE VILLAGE",
+    "school_id": "GL-IL-S-f6f38b37a832",
+    "program_id": "GL-IL-P-054c2a937c03",
+    "cps_native_code": "609834",
+    "profile_source": "gl_cps_little-village",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "LLOYD",
+    "school_id": "GL-IL-S-ec08182400e9",
+    "program_id": "GL-IL-P-6b08551d36c0",
+    "cps_native_code": "610040",
+    "profile_source": "gl_cps_lloyd",
+    "school_grades": "PK-5",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "MOOS",
+    "school_id": "GL-IL-S-7a3bd23ebc14",
+    "program_id": "GL-IL-P-4c4e1e8ad860",
+    "cps_native_code": "610076",
+    "profile_source": "gl_cps_moos",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "MOZART",
+    "school_id": "GL-IL-S-41c47483acfa",
+    "program_id": "GL-IL-P-04144a8d67b6",
+    "cps_native_code": "610088",
+    "profile_source": "gl_cps_mozart",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "NAMASTE",
+    "school_id": "GL-IL-S-90e3df20c868",
+    "program_id": "GL-IL-P-993fbeee96fc",
+    "cps_native_code": "400050",
+    "profile_source": "gl_cps_namaste",
+    "school_grades": "K-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "NIXON",
+    "school_id": "GL-IL-S-4a8143b45576",
+    "program_id": "GL-IL-P-bab6519e5ec5",
+    "cps_native_code": "610097",
+    "profile_source": "gl_cps_nixon",
+    "school_grades": "PK-6",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "NOBEL",
+    "school_id": "GL-IL-S-72792da00258",
+    "program_id": "GL-IL-P-9b2339a5ae26",
+    "cps_native_code": "610098",
+    "profile_source": "gl_cps_nobel",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "PRIETO",
+    "school_id": "GL-IL-S-41dbf74af5e9",
+    "program_id": "GL-IL-P-c9fc5c978361",
+    "cps_native_code": "610533",
+    "profile_source": "gl_cps_prieto",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "ROOSEVELT HS",
+    "school_id": "GL-IL-S-1018327a77a7",
+    "program_id": "GL-IL-P-d32b49e08ad0",
+    "cps_native_code": "609728",
+    "profile_source": "gl_cps_roosevelt-hs",
+    "school_grades": "9-12",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SABIN",
+    "school_id": "IL-S015",
+    "program_id": "IL-P015",
+    "cps_native_code": "610342",
+    "profile_source": "gl_cps_sabin",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SADLOWSKI",
+    "school_id": "GL-IL-S-593818ed1a1c",
+    "program_id": "GL-IL-P-cf203c051d06",
+    "cps_native_code": "610586",
+    "profile_source": "gl_cps_sadlowski",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SALAZAR",
+    "school_id": "GL-IL-S-64e4e2be2c61",
+    "program_id": "GL-IL-P-223489c1ecb8",
+    "cps_native_code": "610250",
+    "profile_source": "gl_cps_salazar",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SANDOVAL",
+    "school_id": "GL-IL-S-374bed358ffa",
+    "program_id": "GL-IL-P-ad68e14f9653",
+    "cps_native_code": "610226",
+    "profile_source": "gl_cps_sandoval",
+    "school_grades": "PK-5",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SCHUBERT",
+    "school_id": "GL-IL-S-07cdf7fba458",
+    "program_id": "GL-IL-P-e9c0f7ee2aa5",
+    "cps_native_code": "610165",
+    "profile_source": "gl_cps_schubert",
+    "school_grades": "PK-5",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SCHURZ HS",
+    "school_id": "GL-IL-S-bec6aa4d4d2d",
+    "program_id": "GL-IL-P-4ec7ed9aba56",
+    "cps_native_code": "609729",
+    "profile_source": "gl_cps_schurz-hs",
+    "school_grades": "9-12",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "SPRY ES",
+    "school_id": "GL-IL-S-ed8ef227e306",
+    "program_id": "GL-IL-P-3f66bbbf483e",
+    "cps_native_code": "610184",
+    "profile_source": "gl_cps_spry-es",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "STOWE",
+    "school_id": "GL-IL-S-01cb1c2905cf",
+    "program_id": "GL-IL-P-6e3fe0c090ce",
+    "cps_native_code": "610192",
+    "profile_source": "gl_cps_stowe",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "TALCOTT",
+    "school_id": "IL-S016",
+    "program_id": "GL-IL-P-215438562ec7",
+    "cps_native_code": "610197",
+    "profile_source": "gl_cps_talcott",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "TARKINGTON",
+    "school_id": "GL-IL-S-d9b99312d6f3",
+    "program_id": "GL-IL-P-f7240c2dc15c",
+    "cps_native_code": "610396",
+    "profile_source": "gl_cps_tarkington",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "TELPOCHCALLI",
+    "school_id": "GL-IL-S-adedb3086e98",
+    "program_id": "GL-IL-P-c2839d3f6833",
+    "cps_native_code": "609921",
+    "profile_source": "gl_cps_telpochcalli",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "THOMAS",
+    "school_id": null,
+    "program_id": null,
+    "cps_native_code": "610504",
+    "profile_source": "gl_cps_thomas",
+    "school_grades": "PK",
+    "reference_status": "preschool_only_screening"
+  },
+  {
+    "reported_school": "VOLTA",
+    "school_id": "GL-IL-S-a76c404e6918",
+    "program_id": "GL-IL-P-25c06ce13e2c",
+    "cps_native_code": "610209",
+    "profile_source": "gl_cps_volta",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "VON LINNE",
+    "school_id": "GL-IL-S-ee7538496b07",
+    "program_id": "GL-IL-P-b30aa340d59e",
+    "cps_native_code": "610039",
+    "profile_source": "gl_cps_von-linne",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  },
+  {
+    "reported_school": "WHITTIER",
+    "school_id": "GL-IL-S-220387cbdff8",
+    "program_id": "GL-IL-P-a8d1e4ae8f22",
+    "cps_native_code": "610228",
+    "profile_source": "gl_cps_whittier",
+    "school_grades": "PK-8",
+    "reference_status": "confirmed_2025_26"
+  }
+]

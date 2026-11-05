@@ -44,8 +44,8 @@ class ElementaryAuditTests(unittest.TestCase):
         return next(r for r in self.working if r['state_code']==state and r['school_name']==name)
 
     def test_all_covered_states_have_auditable_balanced_denominators(self):
-        self.assertEqual(len(self.summary),44)
-        self.assertEqual(len({r['state_code'] for r in self.summary}),22)
+        self.assertEqual(len(self.summary),50)
+        self.assertEqual(len({r['state_code'] for r in self.summary}),25)
         self.assertEqual(len({(r['audit_scope'],r['school_id']) for r in self.details}),len(self.details))
         self.assertEqual(len({(r['audit_scope'],r['audit_school_id']) for r in self.details}),len(self.details))
         self.assertTrue(any(' | ' in r['research_school_ids'] for r in self.details if r['audit_scope']=='all_recorded_programme_hosts'))

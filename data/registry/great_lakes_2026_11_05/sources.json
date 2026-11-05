@@ -1,0 +1,1772 @@
+[
+  {
+    "key": "gl_cps_albany-park",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_albany-park.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_albany-park.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/albany-park",
+    "retrieved_at": "2026-11-05T19:57:41.859641+00:00",
+    "sha256": "309d8b1937d1c1ed9a59e1e7c93adfb718019edcca62134fd29bf0920fe74ff3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_avondale-logandale",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_avondale-logandale.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_avondale-logandale.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/avondale-logandale",
+    "retrieved_at": "2026-11-05T19:58:00.738968+00:00",
+    "sha256": "2472473e5a1b23343cb7c9aad2cc417370a9806430d9010a6782ab65bf28ac1d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_azuela",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_azuela.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_azuela.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/azuela",
+    "retrieved_at": "2026-11-05T19:57:50.359095+00:00",
+    "sha256": "2eff8d2b1042f72f5bb9231652faee3ee728dfd1a3d706dbf2f6863362326693",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_back-of-the-yards-hs",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_back-of-the-yards-hs.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_back-of-the-yards-hs.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/back-of-the-yards-hs",
+    "retrieved_at": "2026-11-05T19:57:46.378194+00:00",
+    "sha256": "1fd317fa8047c55fae50f3a26488aa29cf77484746ee4d8642a7af42e42de177",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_barry",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_barry.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_barry.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/barry",
+    "retrieved_at": "2026-11-05T19:57:43.581579+00:00",
+    "sha256": "01afd30aea88b99ec7e52851fbe1cb1dae72ce70cabec4bbea1b50839c513d0f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_bateman",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_bateman.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_bateman.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/bateman",
+    "retrieved_at": "2026-11-05T19:57:55.418017+00:00",
+    "sha256": "f3b7f2d8860658c448753c8f825ae0424a24d0082a2ef363831db996630ff3df",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_belmont-cragin",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_belmont-cragin.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_belmont-cragin.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/belmont-cragin",
+    "retrieved_at": "2026-11-05T19:57:44.945993+00:00",
+    "sha256": "9d782fda9cbee9ad0327a1fa04276a9f31f93ff64e7c411c89da03109b163f29",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_burbank",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_burbank.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_burbank.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/burbank",
+    "retrieved_at": "2026-11-05T19:57:51.610078+00:00",
+    "sha256": "eab3e0a71079748ec45c788207f4a022ea83991028c65f0ce573d741b85a33a9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_calmeca",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_calmeca.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_calmeca.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/calmeca",
+    "retrieved_at": "2026-11-05T19:57:52.922696+00:00",
+    "sha256": "2ef39120acb1408875f935d51d41732f169a3697b3986453787f3dbc0af8930e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_carson",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_carson.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_carson.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/carson",
+    "retrieved_at": "2026-11-05T19:57:47.832799+00:00",
+    "sha256": "fd276063757aa7a66391b6e244a9ed595dcd997af800dc059dccbb3db712c1bb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_chase",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_chase.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_chase.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/chase",
+    "retrieved_at": "2026-11-05T19:57:49.083439+00:00",
+    "sha256": "28fddc3909f33f03c5298d739f1964113f6f0c725993336239bb1812aeb96828",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_cleveland",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_cleveland.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_cleveland.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/cleveland",
+    "retrieved_at": "2026-11-05T19:57:56.751853+00:00",
+    "sha256": "729c5348aaf956fc19184279f059d3d4e0f9d6b3a09015300181b0e7bbc011fa",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_cooper",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_cooper.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_cooper.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/cooper",
+    "retrieved_at": "2026-11-05T19:57:57.982557+00:00",
+    "sha256": "050b78563cfb0b0bad0127b45b0034be419452d0195c43e6c2a744bdc3058162",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_darwin",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_darwin.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_darwin.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/darwin",
+    "retrieved_at": "2026-11-05T19:57:59.494378+00:00",
+    "sha256": "2936b0b1568c629d9788bebfad1237524adf495d528eb7e3d9de3415aba9811c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_davis-n",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_davis-n.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_davis-n.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/davis-n",
+    "retrieved_at": "2026-11-05T19:57:54.187060+00:00",
+    "sha256": "54d2d6fcb54c9243b1aee0c20193111693ae41db99d6209b4da8e785d210ff42",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_eberhart",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_eberhart.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_eberhart.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/eberhart",
+    "retrieved_at": "2026-11-05T19:58:01.954601+00:00",
+    "sha256": "658f132048aa451d10a5c2317de64b76a9f8e1f1364c9189039326043958d348",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_edwards",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_edwards.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_edwards.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/edwards",
+    "retrieved_at": "2026-11-05T19:58:03.206534+00:00",
+    "sha256": "043a474b087723f41c50db63fe6b43f4cd7897d7439035080bc066f8d5012b92",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_erie",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_erie.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_erie.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/erie",
+    "retrieved_at": "2026-11-05T19:58:04.403905+00:00",
+    "sha256": "aad80d8e9d2b96ea44284c16ee778faaed2fa86c6359eaf9e1d83c418b7be021",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_funston",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_funston.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_funston.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/funston",
+    "retrieved_at": "2026-11-05T19:58:05.699981+00:00",
+    "sha256": "4fa095c9add7ed25393f44c5b98705b15554551528dd328039c426c837c248c4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_global-citizenship",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_global-citizenship.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_global-citizenship.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/global-citizenship",
+    "retrieved_at": "2026-11-05T19:58:06.940569+00:00",
+    "sha256": "a9566bb3202300f10f0eb327a8629cd8a602caf4e71cf0e0377714ed23a8b367",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_goethe",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_goethe.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_goethe.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/goethe",
+    "retrieved_at": "2026-11-05T19:58:08.192301+00:00",
+    "sha256": "6a2140e70d4fe357bfb64653377106df46197e01bf22da0265bef0aab6b7e192",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_hernandez",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_hernandez.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_hernandez.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/hernandez",
+    "retrieved_at": "2026-11-05T19:58:09.443026+00:00",
+    "sha256": "2c17a6a38e124a506f3e867a1d4279669c6ffdfd50e55e3fbe2997691cda1502",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_hibbard",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_hibbard.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_hibbard.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/hibbard",
+    "retrieved_at": "2026-11-05T19:58:11.233421+00:00",
+    "sha256": "40579746070e7b6a2c1d98e753253e247e8ce662228436a74e3575ced3101e40",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_hurley",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_hurley.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_hurley.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/hurley",
+    "retrieved_at": "2026-11-05T19:58:12.583910+00:00",
+    "sha256": "41ad3d426be386e273ab00bc73ea85cfd4b9920502df8f2fd9fe4ea9354c364e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_inter-american",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_inter-american.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_inter-american.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/inter-american",
+    "retrieved_at": "2026-11-05T19:58:14.001162+00:00",
+    "sha256": "c9b5e1356ed1f3f1039845a2a6124c8d0536ff99bcc109def2e425883ecbadd2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_little-village",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_little-village.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_little-village.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/little-village",
+    "retrieved_at": "2026-11-05T19:58:15.278786+00:00",
+    "sha256": "576cbe2cc6a7a6c0b238f3cf90c76af92d234b1cab064c0c7acb83f7b8f5c5e0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_lloyd",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_lloyd.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_lloyd.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/lloyd",
+    "retrieved_at": "2026-11-05T19:58:16.603675+00:00",
+    "sha256": "d7a4a58afd08abfa348598b06f85dfa0f12db28b21ba09dd642d98bd2328e378",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_moos",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_moos.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_moos.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/moos",
+    "retrieved_at": "2026-11-05T19:58:18.151347+00:00",
+    "sha256": "35c8b768c552c2be30c12db6e28d75fe3730f78eb0693b1cf794d0b308141265",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_mozart",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_mozart.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_mozart.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/mozart",
+    "retrieved_at": "2026-11-05T19:58:19.482752+00:00",
+    "sha256": "086c5eb3a509319de9ab2a9a8bf85dd1c33da9df19634f38bf73dffcbb4f5523",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_namaste",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_namaste.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_namaste.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/namaste",
+    "retrieved_at": "2026-11-05T19:58:20.925725+00:00",
+    "sha256": "4952a84d8e398ac83992956d44e89eb48ed239d65deb098fbe253fa4b2f14541",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_nixon",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_nixon.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_nixon.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/nixon",
+    "retrieved_at": "2026-11-05T19:58:22.202991+00:00",
+    "sha256": "5fbd23807ed18ba8986daaa89cecd98d445575f67daf4bf0f9ba6c56c1a71059",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_nobel",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_nobel.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_nobel.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/nobel",
+    "retrieved_at": "2026-11-05T19:58:23.544591+00:00",
+    "sha256": "95434dbea328314d4da5bd343a7b00528da3cf47a90717ef6e946f8d615c1aee",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_prieto",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_prieto.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_prieto.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/prieto",
+    "retrieved_at": "2026-11-05T19:58:24.790181+00:00",
+    "sha256": "0917fc273075c14230089757745a660892ce7e097fd0081590a0849896f5d5ec",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_roosevelt-hs",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_roosevelt-hs.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_roosevelt-hs.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/roosevelt-hs",
+    "retrieved_at": "2026-11-05T19:58:26.040270+00:00",
+    "sha256": "196f8ebc873cae0153a1b15cca1eb45424280da2ca568593d79165b12f942158",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_sabin",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_sabin.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_sabin.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/sabin",
+    "retrieved_at": "2026-11-05T19:58:27.326844+00:00",
+    "sha256": "3035b84407b61660163e2719e02d749b48418db323e38b574ea9da9fe0b0c829",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_sadlowski",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_sadlowski.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_sadlowski.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/sadlowski",
+    "retrieved_at": "2026-11-05T19:58:28.641191+00:00",
+    "sha256": "43b010b4097aff48d30e0efb282aa5ef333f89e6bc614ee2a5fc18afaa6de7b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_salazar",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_salazar.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_salazar.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/salazar",
+    "retrieved_at": "2026-11-05T19:58:36.388867+00:00",
+    "sha256": "0fed6dd16a555bd6b6679e97c57feaaf9fea146b537e187a8b2065869ee3d1bf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_sandoval",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_sandoval.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_sandoval.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/sandoval",
+    "retrieved_at": "2026-11-05T19:58:31.274535+00:00",
+    "sha256": "b1a88087f3f63715d99e9c2df2d53103d1fe574ad5b4f069e1264d8a4aaed0b8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_schubert",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_schubert.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_schubert.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/schubert",
+    "retrieved_at": "2026-11-05T19:58:32.588110+00:00",
+    "sha256": "782c30b9d84c1c2b894a4feed1b2b6242ebf1cdf081278de23eb8f81b0e69945",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_schurz-hs",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_schurz-hs.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_schurz-hs.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/schurz-hs",
+    "retrieved_at": "2026-11-05T19:58:33.842129+00:00",
+    "sha256": "d7431ae21796cf8f2030a590479925a9fb252a6df3d322580d2ad0e2084bd44c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_spry-es",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_spry-es.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_spry-es.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/spry-es",
+    "retrieved_at": "2026-11-05T19:58:41.812178+00:00",
+    "sha256": "367b2300feed2d88205d5a53867424e43eea2753fe2b4c14764bd22105ab3eda",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_stowe",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_stowe.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_stowe.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/stowe",
+    "retrieved_at": "2026-11-05T19:58:29.998839+00:00",
+    "sha256": "ebabea9b0c9509a8e07d129ccdfcba922ddecc95616853cd0f922bb1c6861c1e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_talcott",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_talcott.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_talcott.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/talcott",
+    "retrieved_at": "2026-11-05T19:58:37.793104+00:00",
+    "sha256": "697b3618bf33b6617b76e1c0d8448a7bcbf2c19ad6193482c139ac045a9c38bb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_tarkington",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_tarkington.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_tarkington.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/tarkington",
+    "retrieved_at": "2026-11-05T19:58:39.069082+00:00",
+    "sha256": "cafe3b73bbd8c9d68ca57ba64ab9d0b4cb2ae5632bca4acbdd3cc25c975d8a6c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_telpochcalli",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_telpochcalli.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_telpochcalli.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/telpochcalli",
+    "retrieved_at": "2026-11-05T19:58:40.341490+00:00",
+    "sha256": "db17b2a918b99a8c06f8596e29ad7060f63ce3847c4a580edf35e23962ae4f23",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_thomas",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_thomas.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_thomas.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/thomas",
+    "retrieved_at": "2026-11-05T19:58:35.034555+00:00",
+    "sha256": "819dd756c18471295f5cdc9d19e70fb727395f5284f5feb2012c651d9293b94a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_volta",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_volta.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_volta.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/volta",
+    "retrieved_at": "2026-11-05T19:58:43.002340+00:00",
+    "sha256": "94e49c9aaf9d0a814ccb6d9ee61893470d9867cc448c99b411198bec973d7c9f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_von-linne",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_von-linne.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_von-linne.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/von-linne",
+    "retrieved_at": "2026-11-05T19:58:44.379891+00:00",
+    "sha256": "51a2dea9e24861b12a3b0fe737449cbb8da0e67f3c0eda08208eec2b85ec8286",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_cps_whittier",
+    "path": "data/raw/great_lakes_2026_11_05/gl_cps_whittier.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_cps_whittier.html.metadata.json",
+    "title": "School Overview | Chicago Public Schools",
+    "url": "https://www.cps.edu/schools/profiles/school-overview/whittier",
+    "retrieved_at": "2026-11-05T19:58:45.606064+00:00",
+    "sha256": "fa431efae7fbb18ddfcba27c62d12434872dcfc6fb825e3bf870dfd6c733c329",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_barbour",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_barbour.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_barbour.html.metadata.json",
+    "title": "What is Two-Way Language Immersion? | Two-Way Language Immersion at Barbour (K-8)",
+    "url": "https://barbour.rps205.com/o/twlib/page/what-is-two-way-language-immersion",
+    "retrieved_at": "2026-11-05T19:49:21.356767+00:00",
+    "sha256": "8a9e60ffb012cdbe59f42d93667edb7bdb88a675d7f70280a7318bfe4faa7c67",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_barrington_chinese",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_chinese.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_chinese.html.metadata.json",
+    "title": "Chinese Immersion - Barrington Community Unit 220 School District",
+    "url": "https://www.barrington220.org/departments/teaching-learning/chinese-immersion",
+    "retrieved_at": "2026-11-05T20:11:34.433018+00:00",
+    "sha256": "cb69b57ab2197b0a3e779e1a5cc3087c004288d2aba7f7e1d921b6f1b6a492cf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_barrington_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_dual.html.metadata.json",
+    "title": "Spanish Dual Language - Barrington Community Unit 220 School District",
+    "url": "https://www.barrington220.org/departments/teaching-learning/spanish-dual-language",
+    "retrieved_at": "2026-11-05T20:04:08.610398+00:00",
+    "sha256": "2f302d00aaf82c36b6bec8a79fbc8a9cbf24aec00d7393f1508a92c9ba1fa080",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_barrington_locations",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_locations.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_barrington_locations.html.metadata.json",
+    "title": "Language Program Location - Barrington Community Unit 220 School District",
+    "url": "https://www.barrington220.org/departments/teaching-learning/language-program-location",
+    "retrieved_at": "2026-11-05T20:09:12.315773+00:00",
+    "sha256": "3762655309c52e497056a8fd2227b7cf6cdac44cc232484cf89b6a4f9bfb96cd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_campanelli",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_campanelli.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_campanelli.html.metadata.json",
+    "title": "About Campanelli | Campanelli Elementary",
+    "url": "https://campanelli.sd54.org/o/campanelli/page/about-campanelli",
+    "retrieved_at": "2026-11-05T20:04:10.910473+00:00",
+    "sha256": "758220d2f1ee977d59608ecfa202d9a6dcd2e01266b3ccae73f6ad5afb31fb62",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_champaign_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_champaign_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_champaign_dual.html.metadata.json",
+    "title": "Dual Language | Champaign Unit 4 School District",
+    "url": "https://www.champaignschools.org/page/dual-language",
+    "retrieved_at": "2026-11-05T19:49:22.789786+00:00",
+    "sha256": "6d63cc1e8806d522846e712ca4cc7b852308009337fbf9422cfcd100d031cd5f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_cps_2025",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_cps_2025.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_cps_2025.html.metadata.json",
+    "title": "Chicago Public Schools Expands Dual Language and World Language Programs | Chicago Public Schools",
+    "url": "https://www.cps.edu/press-releases/2025/october/expands-dual-language-and-world-language-programs/",
+    "retrieved_at": "2026-11-05T19:30:24.773771+00:00",
+    "sha256": "c5b663ad50331d0319e415658698bddb6a44fa709011eef6aa11acbc6db3d7b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_cps_2026",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_cps_2026.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_cps_2026.html.metadata.json",
+    "title": "Chicago Public Schools Celebrates Seal of Biliteracy Achievements and Expands Dual Language and World Language Programs | Chicago Public Schools",
+    "url": "https://www.cps.edu/press-releases/2026/may/chicago-public-schools-celebrates-seal-of-biliteracy-achievements-and-expands-dual-language-and-world-language-programs/",
+    "retrieved_at": "2026-11-05T19:49:23.097777+00:00",
+    "sha256": "309d1031b633b5972fab5311ac982372a47bc591ec7c56c7577487bed6a39261",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_cps_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_cps_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_cps_dual.html.metadata.json",
+    "title": "Dual Language Education (DLE) | Chicago Public Schools",
+    "url": "https://www.cps.edu/academics/language-and-culture/dual-language-education-dle/",
+    "retrieved_at": "2026-11-05T19:30:24.776616+00:00",
+    "sha256": "387d060fa9b64daefd9b4dcdf2280f167b6ef244e8ac6f050f8bc1512cad3790",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_d47_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_d47_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_d47_dual.html.metadata.json",
+    "title": "Dual Language - Crystal Lake Consolidated School District 47",
+    "url": "https://www.d47.org/departments/student-learning/multilingual-programs/dual-language",
+    "retrieved_at": "2026-11-05T20:04:08.788278+00:00",
+    "sha256": "2d64ee03ee2fbbaae35ff40ea23fe7b06a6c5e73f6ec70d3833d888fc425814a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_directory",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_directory.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_directory.html.metadata.json",
+    "title": "Dual Language Schools in Illinois",
+    "url": "https://duallanguageschools.org/schools/il/",
+    "retrieved_at": "2026-11-05T19:18:55.868624+00:00",
+    "sha256": "cc25fd02c992bc5477d72d6755b91436b48dff2dae9a840479cb506d6fe06bc1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_dooley",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_dooley.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_dooley.html.metadata.json",
+    "title": "About Dooley | Dooley Elementary",
+    "url": "https://dooley.sd54.org/o/dooley/page/about-dooley",
+    "retrieved_at": "2026-11-05T20:04:10.758293+00:00",
+    "sha256": "6af3a9cf055eeeb70ef8de1f61f45b8e430586d9f0a5fdceaea4b61f5d156d9e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_iam",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_iam.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_iam.html.metadata.json",
+    "title": "Home - Dual Language  - Inter-American Magnet School",
+    "url": "https://iamschicago.com/apps/pages/index.jsp?uREC_ID=348075&type=d",
+    "retrieved_at": "2026-11-05T19:59:33.159774+00:00",
+    "sha256": "f821b8951ed2c5cf83f594ba5d7a968ccfa3c04f63fec818fcce7dbd0ffd4f8b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_ipa",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_ipa.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_ipa.html.metadata.json",
+    "title": "90/10 Dual Language Program | International Prep Academy",
+    "url": "https://ipa.champaignschools.org/o/ipa/page/9010-dual-language-teaching-model",
+    "retrieved_at": "2026-11-05T19:49:22.366924+00:00",
+    "sha256": "f97eb064986505098d38f0686c74538d3856df64e634b0f08793bba9b1540a5a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_macarthur_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_macarthur_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_macarthur_dual.html.metadata.json",
+    "title": "Dual Language Program | MacArthur International Spanish Academy",
+    "url": "https://www.sd54.org/o/macarthur/page/dual-language-program",
+    "retrieved_at": "2026-11-05T20:04:09.785021+00:00",
+    "sha256": "0f8500be26f52c56fbf88fda0ff502282257255e768471a0dbbff4daa3ee4efb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_moline_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_moline_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_moline_dual.html.metadata.json",
+    "title": "Dual Language - Moline Coal Valley School District",
+    "url": "https://www.molineschools.org/our-district/departments/bilingual-services/dual-language",
+    "retrieved_at": "2026-11-05T19:59:31.477759+00:00",
+    "sha256": "c38dd70712a0e69a3f6da4935070c39e6e2d2d74489846e0098548c2d5274e55",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_sd54_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_sd54_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_sd54_dual.html.metadata.json",
+    "title": "Dual Language and Immersion Programs | School District 54",
+    "url": "https://www.sd54.org/page/dual-language-and-immersion-programs/",
+    "retrieved_at": "2026-11-05T19:49:21.216149+00:00",
+    "sha256": "b08c0ccdbd4022c11b042f6656791ed76c6ce35415ccd3e0908bde2362a2b4cf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_u46_2526",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_u46_2526.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_u46_2526.pdf.metadata.json",
+    "title": "gl_il_u46_2526",
+    "url": "https://resources.finalsite.net/images/v1737732094/u46org/pbcavxryysjjukauopwr/MMED_Elementary_Program_Updates_for_SY_25-26.pdf",
+    "retrieved_at": "2026-11-05T19:58:42.370261+00:00",
+    "sha256": "8894d7d8cb45f2ab9f2a0f0ed0ff316763ed9d4d9f6f2317375b124017548ec1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_u46_p_90c274f",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_u46_p_90c274f.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_u46_p_90c274f.html.metadata.json",
+    "title": "Dual Language | SCHOOL DISTRICT U-46",
+    "url": "https://www.u-46.org/page/dual-language",
+    "retrieved_at": "2026-11-05T19:25:10.099377+00:00",
+    "sha256": "6d34b5243e595a4055e96cd62c658081997fc81c917a8babe219b0122b75d017",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_uic",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_uic.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_uic.html.metadata.json",
+    "title": "Dual Language Offerings in Illinois | Language in Context Research Group | University of Illinois Chicago University of Illinois Chicago Close search box University of Illinois Chicago Expand ¡Leamos! menu Expand Activities menu Down arrow icon Back to main content University of Illinois Chicago",
+    "url": "https://leamos.uic.edu/activities/dl-in-illinois/",
+    "retrieved_at": "2026-11-05T20:04:09.389539+00:00",
+    "sha256": "8282941f993d02237ebc008a40d86c003b2b1fcab398f7882771532ea9f1f9a3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_urbana_news",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_urbana_news.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_urbana_news.html.metadata.json",
+    "title": "Yankee Ridge Elementary School to become Urbana's first fully multilingual school - IPM Newsroom",
+    "url": "https://ipmnewsroom.org/yankee-ridge-elementary-school-to-become-urbanas-first-fully-multilingual-school/",
+    "retrieved_at": "2026-11-05T20:09:12.317904+00:00",
+    "sha256": "ac2b1d0e45c0e8872b8e23d619756bfeb2726b8199620f6fa5a848e190d00079",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_urbana_schools",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_urbana_schools.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_urbana_schools.html.metadata.json",
+    "title": "Bilingual Schools – Urbana School District 116 Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+    "url": "https://usd116.org/bilingualschools/",
+    "retrieved_at": "2026-11-05T19:59:32.867286+00:00",
+    "sha256": "be8fecbce60b6472fcd843b136c8aa26b70d3b8ca0ae0b0bff4edb5b63fbc51d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_washington",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_washington.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_washington.html.metadata.json",
+    "title": "Washington Dual Language Academy - About Washington",
+    "url": "https://washington.maywood89.org/about/",
+    "retrieved_at": "2026-11-05T19:58:43.001929+00:00",
+    "sha256": "9c75da915935590cb604768f94689e168f90e5aad994bb8af953577204a17a96",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_woodstock_mary",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_woodstock_mary.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_woodstock_mary.html.metadata.json",
+    "title": "Mary Endres / International Spanish Academy - Mary Endres Elementary School",
+    "url": "https://mee.woodstockschools.org/about-us/mary-endre-international-spanish-academy",
+    "retrieved_at": "2026-11-05T20:08:22.983516+00:00",
+    "sha256": "ad94df46b8599ef3d83488c21725d23686ea90f607cdc4c730f16a2ba39a83b1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_il_woodstock_verda_programmes",
+    "path": "data/raw/great_lakes_2026_11_05/gl_il_woodstock_verda_programmes.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_il_woodstock_verda_programmes.html.metadata.json",
+    "title": "Programs - Verda Dierzen Early Learning Center",
+    "url": "https://vdelc.woodstockschools.org/programs",
+    "retrieved_at": "2026-11-05T20:11:33.563640+00:00",
+    "sha256": "dec6d4b4a7250f4633ed3988b217c358030c12bc8261dfd5af5dc17395ad9482",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_in_globalprep",
+    "path": "data/raw/great_lakes_2026_11_05/gl_in_globalprep.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_in_globalprep.html.metadata.json",
+    "title": "Global Prep Academies – Dual Language Immersion Education",
+    "url": "https://www.globalprepindy.org/",
+    "retrieved_at": "2026-11-05T19:30:27.128525+00:00",
+    "sha256": "7086a8667f05ef2eb0e65f71986252ed3ae2c6bcb39ee60bd53256323d776576",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_in_grants_pdf",
+    "path": "data/raw/great_lakes_2026_11_05/gl_in_grants_pdf.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_in_grants_pdf.pdf.metadata.json",
+    "title": "gl_in_grants_pdf",
+    "url": "https://www.in.gov/doe/files/Indiana-Department-of-Education-Announces-Record-Dual-Language-Immersion-Grant-Recipients.pdf",
+    "retrieved_at": "2026-11-05T19:20:40.646658+00:00",
+    "sha256": "2e38e366af566596435c59435cc1e6eb78e42f55cad457e52eaf9b2bdee4d885",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_in_state",
+    "path": "data/raw/great_lakes_2026_11_05/gl_in_state.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_in_state.html.metadata.json",
+    "title": "Indiana Department of Education: Indiana Dual Language IN.gov",
+    "url": "https://www.in.gov/doe/grants/indiana-dual-language/",
+    "retrieved_at": "2026-11-05T19:20:40.643897+00:00",
+    "sha256": "3d1593592eba571cc938b9d538d74be5152e20874719681f5d3b8945e7622eaf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_aoa",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_aoa.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_aoa.html.metadata.json",
+    "title": "About Us",
+    "url": "https://academyoftheamericas.detroitk12.org/about-us",
+    "retrieved_at": "2026-11-05T19:59:29.810851+00:00",
+    "sha256": "0bbefca535cf4541f8879e0fe3eb9ce0b0e127668f1c629ff98c46390993913e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_directory",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_directory.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_directory.html.metadata.json",
+    "title": "Dual Language Schools in Michigan",
+    "url": "https://duallanguageschools.org/schools/mi/",
+    "retrieved_at": "2026-11-05T19:18:55.904085+00:00",
+    "sha256": "5885a8caf86da5541d48b4a57e51e7761a7f54376b7f98ebf1f13d58a395e240",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_dpscd_p_33da4ea_about",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_dpscd_p_33da4ea_about.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_dpscd_p_33da4ea_about.html.metadata.json",
+    "title": "Our School",
+    "url": "https://neinas.detroitk12.org/about-us",
+    "retrieved_at": "2026-11-05T19:57:38.760109+00:00",
+    "sha256": "05cc62492373a064f5fed73ff7e9f587d8a76c7e72bdb5538a7d4f39e4d8697c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_elsol_about",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_elsol_about.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_elsol_about.html.metadata.json",
+    "title": "About Us - El Sol Elementary",
+    "url": "https://elsol.kalamazoopublicschools.com/about-us-1",
+    "retrieved_at": "2026-11-05T19:59:29.810610+00:00",
+    "sha256": "5e2d6376afd89a1a3fc2e3bbd6b4d006f9cca0a887ca9a388fbba461e2d58bc1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_flics_about",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_flics_about.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_flics_about.html.metadata.json",
+    "title": "Our School",
+    "url": "https://flics.detroitk12.org/about-us",
+    "retrieved_at": "2026-11-05T19:57:38.759080+00:00",
+    "sha256": "15e6bdb7c2e98b0929e218b36322b3c52c45f1c03d6921557d62edffbbfa084b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_foresthills_p_be393b3",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_foresthills_p_be393b3.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_foresthills_p_be393b3.html.metadata.json",
+    "title": "Language Immersion - Forest Hills Public Schools",
+    "url": "https://www.fhps.net/education-experiences/language-immersion/",
+    "retrieved_at": "2026-11-05T19:25:09.725208+00:00",
+    "sha256": "ca3545f6f477da956b07c62dae429bb3eaeaef37053d30cac374e95054a2e892",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_grps_elem",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_grps_elem.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_grps_elem.html.metadata.json",
+    "title": "Southwest Elementary School - Academia Bilingüe",
+    "url": "https://grps.org/schools/elementary/southwest/",
+    "retrieved_at": "2026-11-05T19:59:29.809036+00:00",
+    "sha256": "2d858ae0d5bf379227715dd7b645ad847a3f388b90e81c68b9b3821d0c2aa0d2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_grps_sw",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_grps_sw.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_grps_sw.html.metadata.json",
+    "title": "Southwest Middle High School - Academia Bilingüe",
+    "url": "https://grps.org/schools/middle-school/southwest-mhs/",
+    "retrieved_at": "2026-11-05T19:58:43.050777+00:00",
+    "sha256": "8e5cdefeba76cb96fed7a0ed21fdd9bc307465cbde074c9f5ffc4d68637559fa",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_hla",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_hla.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_hla.html.metadata.json",
+    "title": "Holland Language Academy - Our Schools - Holland Public Schools",
+    "url": "https://www.hollandpublicschools.org/our-schools/holland-language-academy/",
+    "retrieved_at": "2026-11-05T19:59:29.808172+00:00",
+    "sha256": "c4e50221abd31dcd673fb283d340ea7eaf779325e8eeef88e9879fec10304bb1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_hla_2024",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_hla_2024.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_hla_2024.html.metadata.json",
+    "title": "State Educators visit Holland's TWBI Programs - Mar 21, 2024",
+    "url": "https://www.hollandpublicschools.org/pub/news/posts/2845",
+    "retrieved_at": "2026-11-05T20:08:22.985482+00:00",
+    "sha256": "244933c8e63822de2d6bd208dcdae373b5ba833a75c94f456d4c4813820e982b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_hla_handbook",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_hla_handbook.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_hla_handbook.html.metadata.json",
+    "title": "HLA Student Handbook - Holland Language Academy - Our Schools - Holland Public Schools",
+    "url": "https://www.hollandpublicschools.org/our-schools/holland-language-academy/hla-student-handbook/",
+    "retrieved_at": "2026-11-05T19:59:31.613978+00:00",
+    "sha256": "c6ff4995ce2dd6ec68f4cf55043a7c4762df8bbe763a82645fd55fbfe4d9e83e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_howell",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_howell.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_howell.html.metadata.json",
+    "title": "Dual Language Immersion Program - Howell Public Schools",
+    "url": "https://www.howellschools.com/academics/programs/dual_language_immersion_program",
+    "retrieved_at": "2026-11-05T19:49:23.919714+00:00",
+    "sha256": "b3c277d6f1b7f14226a1d63397d9dc162e4e355e35cf93b933170123775cdbbf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_jenison_p_2fb6e2c",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_jenison_p_2fb6e2c.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_jenison_p_2fb6e2c.html.metadata.json",
+    "title": "Secondary Spanish Immersion | Jenison Public Schools",
+    "url": "https://www.jpsonline.org/page/secondary-spanish-immersion",
+    "retrieved_at": "2026-11-05T19:25:10.057165+00:00",
+    "sha256": "f696fd7df802a436a45325e2cede4e98918fe4c8a1e699cf2535432629f210a8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_jenison_p_d5f3e32",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_jenison_p_d5f3e32.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_jenison_p_d5f3e32.html.metadata.json",
+    "title": "Jenison Spanish Immersion Program",
+    "url": "https://www.jpsonline.org/page/spanish-immersion",
+    "retrieved_at": "2026-11-05T19:25:09.950292+00:00",
+    "sha256": "eeedd2d366821c7db51218d535a0e610f93563b924b7732a1eb61e43228989b9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_lansing",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_lansing.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_lansing.html.metadata.json",
+    "title": "Spanish / Chinese Immersion - Academic Choices - Lansing School District Home",
+    "url": "https://www.lansingschools.net/academic-choices/spanish--chinese-immersion/",
+    "retrieved_at": "2026-11-05T19:30:29.847194+00:00",
+    "sha256": "9688c9dd198b4a727c731465377241fa224dce0aff369f8e1fd1903870cdaa6b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_loslagos_news25",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_loslagos_news25.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_loslagos_news25.html.metadata.json",
+    "title": "Los Lagos Bilingual Academy Boletín informativo | Newsletter - 12/5/2025 - West Ottawa Public Schools",
+    "url": "https://www.westottawa.net/los-lagos-bilingual-academy-boletin-informativo-newsletter-12-5-2025/",
+    "retrieved_at": "2026-11-05T20:09:12.314220+00:00",
+    "sha256": "6b25f418311ea732c280852584cc14b522cc8dc237133174868cb26a20aa272e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_niji",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_niji.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_niji.html.metadata.json",
+    "title": "Our School - Niji-Iro Japanese Immersion Elementary School",
+    "url": "https://niji-iro.livoniapublicschools.org/our-school",
+    "retrieved_at": "2026-11-05T19:56:42.158473+00:00",
+    "sha256": "f20b6de00a4070cb4eafad78f61096156f97f8851d53e6993b853c2156ce564e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_roguewood",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_roguewood.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_roguewood.html.metadata.json",
+    "title": "Roguewood - Elementary - Schools - Rockford Public Schools - Stories",
+    "url": "https://www.rockfordschools.org/schools/elementary/roguewood/",
+    "retrieved_at": "2026-11-05T19:59:29.807255+00:00",
+    "sha256": "27787cbd525f0b971ed1c9407961d07628ef6b08b3de78a13224b407a9dd52f1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_wo_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_wo_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_wo_dual.html.metadata.json",
+    "title": "Dual-Language Spanish Immersion Program (K-12) - West Ottawa Public Schools",
+    "url": "https://www.westottawa.net/academics/spanish-immersion/",
+    "retrieved_at": "2026-11-05T20:09:13.672633+00:00",
+    "sha256": "d3e73d84477e03223526f3242677968db7fe5635c1e695665f7a5ee7f98b83d3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_mi_zeeland",
+    "path": "data/raw/great_lakes_2026_11_05/gl_mi_zeeland.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_mi_zeeland.html.metadata.json",
+    "title": "Spanish Immersion - Programs - Schools - Zeeland Public Schools Home",
+    "url": "https://www.zps.org/schools/programs/spanish-immersion/",
+    "retrieved_at": "2026-11-05T19:49:24.213228+00:00",
+    "sha256": "439405790cdf897e366d2f7d45986001b4e4ed5ad56da42456d97985df8f8824",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w3_6b7eb474",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w3_6b7eb474.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w3_6b7eb474.html.metadata.json",
+    "title": "Mandarin Chinese Immersion - Forest Hills Public Schools",
+    "url": "https://www.fhps.net/education-experiences/language-immersion/mandarin-chinese-immersion/",
+    "retrieved_at": "2026-11-05T19:30:33.344268+00:00",
+    "sha256": "f82366c8fb42f718559ab6f557d1ec6412ac1482e9816f2ab906e19ace334f01",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w3_969d8786",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w3_969d8786.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w3_969d8786.html.metadata.json",
+    "title": "Spanish Immersion - Forest Hills Public Schools",
+    "url": "https://www.fhps.net/education-experiences/language-immersion/spanish-immersion/",
+    "retrieved_at": "2026-11-05T19:30:33.329061+00:00",
+    "sha256": "efd355e50f877d3f28ad0cdfc4fd3d1f23ca6d4fff5a1b7a422980b2a2951bcc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_26785457",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_26785457.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_26785457.html.metadata.json",
+    "title": "Dual Language Immersion Program | Lawrenceburg Community School Corporation",
+    "url": "https://www.lburg.k12.in.us/o/lawrenceburg-primary-school/page/dual-language-immersion-program",
+    "retrieved_at": "2026-11-05T19:38:47.683691+00:00",
+    "sha256": "a4fd6c95b006c4388048884aeefc6ce512aa64ef95cd02f32846cf33288f1522",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_2777bbc7",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_2777bbc7.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_2777bbc7.html.metadata.json",
+    "title": "Dual Language Immersion (DLI) | MSD OF WARREN TOWNSHIP",
+    "url": "https://www.warren.k12.in.us/page/dual-language-immersion-dli",
+    "retrieved_at": "2026-11-05T19:38:48.572739+00:00",
+    "sha256": "ba58425e1db60dff115dbe177dfa15e0cae32ca727cba23d7b3fd7c6b66ce7ae",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_27d3e4df",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_27d3e4df.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_27d3e4df.html.metadata.json",
+    "title": "Inmersión en Dos Idiomas - Dual Language Immersion  - Washington Community Schools, Washington, Indiana, Home of the Hatchets",
+    "url": "https://www.washingtoncommunityschools.org/academics/dual-language-immersion",
+    "retrieved_at": "2026-11-05T19:38:48.949533+00:00",
+    "sha256": "f38aa5921a3dd9283ef54400d6a7e4d71ca1692d5cd0fd0dccad87130d7fb3fc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_31846e16",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_31846e16.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_31846e16.html.metadata.json",
+    "title": "Dual Language - Metropolitan SD of Lawrence Township",
+    "url": "https://www.ltschools.org/academics/dual-language",
+    "retrieved_at": "2026-11-05T19:38:47.869785+00:00",
+    "sha256": "9ffdd858b07c49d95db3222c87a5c2d6fbf4d3590bffb8774cbb92e9869025bf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_4e120f49",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_4e120f49.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_4e120f49.html.metadata.json",
+    "title": "Los Lagos Bilingual Academy - West Ottawa Public Schools",
+    "url": "https://www.westottawa.net/schools/los-lagos-bilingual-academy/",
+    "retrieved_at": "2026-11-05T19:38:49.519023+00:00",
+    "sha256": "72be1e2cd52a94fe2eb9ad553af96e47cbb08fc84165cadd7d3ad56af5631f93",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_4e1ff147",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_4e1ff147.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_4e1ff147.html.metadata.json",
+    "title": "K-5: Two-Way Immersion (TWI) - Evanston-Skokie School District 65",
+    "url": "https://www.district65.net/learning/multilingual-learners/two-way-immersion",
+    "retrieved_at": "2026-11-05T19:38:45.130740+00:00",
+    "sha256": "72d41794fb88cb7ce31129d39f80718144e53f927c3330fb59327394215c50f9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_5796ae4e",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_5796ae4e.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_5796ae4e.html.metadata.json",
+    "title": "School of Dual Language -  School of Dual Language",
+    "url": "https://dl.hawthorn73.org",
+    "retrieved_at": "2026-11-05T19:38:44.960245+00:00",
+    "sha256": "2f6dcccb34c9fdd039e4726cf9bea2a8ae8f1abe0b1e39c82bc2af84dffd468e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_623a1325",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_623a1325.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_623a1325.html.metadata.json",
+    "title": "MSD Washington Township - Dual Language Immersion (DLI)",
+    "url": "https://www.msdwt.k12.in.us/dli",
+    "retrieved_at": "2026-11-05T19:38:48.592568+00:00",
+    "sha256": "903f40e6ce3f3bb9068c273fdbb2edfacbdc3791141b606c15b77b8e071465ec",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_7c5b95fe",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_7c5b95fe.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_7c5b95fe.html.metadata.json",
+    "title": "LEGADO SPANISH IMMERSION ACADEMY - Bartholomew Consolidated School Corporation",
+    "url": "https://www.bcscschools.org/programs/legado-spanish-immersion-academy",
+    "retrieved_at": "2026-11-05T19:38:45.804846+00:00",
+    "sha256": "11869f7c4ab7243f9472a566a2772d7b71502986eaa5037201475a25b3398058",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_8d839a67",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_8d839a67.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_8d839a67.html.metadata.json",
+    "title": "Language Allocation - Distribución del lenguaje",
+    "url": "https://www.naperville203.org/departments-services/learning-services/dual-language/language-allocation-distribucion-del-lenguaje",
+    "retrieved_at": "2026-11-05T19:38:42.451447+00:00",
+    "sha256": "051d0ed95d119f1877efe51efc47272a4dfd5e5bc2a80125076ba452db0d3d81",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_9b7564b2",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_9b7564b2.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_9b7564b2.html.metadata.json",
+    "title": "K-5 Dual Language Transition - North Shore School District 112",
+    "url": "https://www.nssd112.org/about/dual-language-program/k-5-dual-language-transition",
+    "retrieved_at": "2026-11-05T19:38:42.454945+00:00",
+    "sha256": "04ffb3f2fb28b7fd61d8088e6906a354501989692af30d674919c126b68093db",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_a0500fae",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_a0500fae.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_a0500fae.html.metadata.json",
+    "title": "Spanish Immersion Program - Academics - Rockford Public Schools - Stories",
+    "url": "https://www.rockfordschools.org/academics/spanish-immersion-program/",
+    "retrieved_at": "2026-11-05T19:38:49.377811+00:00",
+    "sha256": "211f3e370daedc8a9bda6ddc6bc17ab72953d1d2b3c4e69f9faaeceadffe88bd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_ab2453db",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_ab2453db.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_ab2453db.html.metadata.json",
+    "title": "Sites - Sitios",
+    "url": "https://www.naperville203.org/departments-services/learning-services/dual-language/sites-sitios",
+    "retrieved_at": "2026-11-05T19:38:42.450189+00:00",
+    "sha256": "97b6dbd9ae23b0349f19350bc79710fa1eca85ef865c0167f08d2e6873a4a121",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_c7dd5d28",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_c7dd5d28.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_c7dd5d28.html.metadata.json",
+    "title": "Language & Culture - Woodstock Community Unit School District 200",
+    "url": "https://www.woodstockschools.org/departments/language-culture",
+    "retrieved_at": "2026-11-05T19:38:42.452648+00:00",
+    "sha256": "b745d3f7a4f93940fe8ffd24cc471ef09a55eef300f6621f1f56488a6077ef46",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_c89235e4",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_c89235e4.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_c89235e4.html.metadata.json",
+    "title": "Dual Language Program - Hawthorn District 73",
+    "url": "https://www.hawthorn73.org/student-learning/english-learners",
+    "retrieved_at": "2026-11-05T19:38:45.016525+00:00",
+    "sha256": "51a319b99c21cef12abb2569f4e33890ba5699f775306384b1eb1711fb2246a5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_de6b5c1f",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_de6b5c1f.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_de6b5c1f.html.metadata.json",
+    "title": "Elementary - Primaria",
+    "url": "https://www.naperville203.org/departments-services/learning-services/dual-language/language-allocation-distribucion-del-lenguaje/elementary-primaria",
+    "retrieved_at": "2026-11-05T19:38:42.452107+00:00",
+    "sha256": "90ffd9f349cb4d492d92d1bfc32e12824911b0b708f12bdbc7055af50dabb317",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_e108ef63",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_e108ef63.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_e108ef63.html.metadata.json",
+    "title": "Spanish (Two-Way) Dual Language - Community Consolidated School District 15",
+    "url": "https://www.ccsd15.net/our-district/departments/multilingual-programs/spanish-two-way-dual-language",
+    "retrieved_at": "2026-11-05T19:38:45.435631+00:00",
+    "sha256": "58fce6fd342fe18d01abba8d3b939e85d820d3d28f3abbe470bfd3eb5bd4c0d3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_f8179353",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_f8179353.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_f8179353.html.metadata.json",
+    "title": "6-8: Dual Language - Evanston-Skokie School District 65",
+    "url": "https://www.district65.net/learning/multilingual-learners/dual-language",
+    "retrieved_at": "2026-11-05T19:38:45.145072+00:00",
+    "sha256": "a7bc16be881d90358c88d41cb9d5d78ca59d84badd813c2824554c9470e9c0cc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w4_f868a79c",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w4_f868a79c.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w4_f868a79c.html.metadata.json",
+    "title": "Dual Language Education Model - Theodore Potter School 74",
+    "url": "https://theodorepotter.myips.org/our-school/dual-language-education-model",
+    "retrieved_at": "2026-11-05T19:38:46.394109+00:00",
+    "sha256": "f9aac25ba917a48b483cd1fd25a44db2ba32062642bd1f6db3c8108abc4bbb52",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_2da637c6",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_2da637c6.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_2da637c6.html.metadata.json",
+    "title": "Leesburg Elementary School - Dual Language Immersion",
+    "url": "https://www.warsawschools.org/136530_3",
+    "retrieved_at": "2026-11-05T19:56:35.559831+00:00",
+    "sha256": "9eab8c3a52d076a415fcd106e2264aeceb86e08ff6f2c244103ce631a235cdcc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_3b368127",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_3b368127.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_3b368127.html.metadata.json",
+    "title": "Post Oak International Baccalaureate/Chinese - Lansing School District Home",
+    "url": "https://www.lansingschools.net/postoak/",
+    "retrieved_at": "2026-11-05T19:56:36.823673+00:00",
+    "sha256": "1d2a36d6e32d0e954132c7bf8006f255613f2fc8960070cd23e840383519409d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_45ceaf74",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_45ceaf74.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_45ceaf74.html.metadata.json",
+    "title": "Warsaw Community High School - Dual Language Immersion",
+    "url": "https://www.warsawschools.org/210767_3",
+    "retrieved_at": "2026-11-05T19:56:38.673553+00:00",
+    "sha256": "5d72c7063005e05aab82b37ed9b9377b94284c02d1b3593815ce2ada9af9dc94",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_4776313a",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_4776313a.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_4776313a.html.metadata.json",
+    "title": "Instructional Model | Batesville Community School Corporation",
+    "url": "https://batesvilleinschools.com/dli/instructional-model/",
+    "retrieved_at": "2026-11-05T19:56:32.575565+00:00",
+    "sha256": "06b4ee9b68222770eb783b9629d227683dd384c727b925c5093addb324f5629a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_5a34befa",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_5a34befa.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_5a34befa.html.metadata.json",
+    "title": "Lakeview Middle School - Dual Language Immersion",
+    "url": "https://www.warsawschools.org/210768_3",
+    "retrieved_at": "2026-11-05T19:56:37.002898+00:00",
+    "sha256": "a77e75d0cb0cf52c2de106333e28b79f6edf43678bdefd0a3a615f1f55df615c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_c4e9d546",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_c4e9d546.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_c4e9d546.html.metadata.json",
+    "title": "Eisenhower Elementary School - Dual Language Immersion",
+    "url": "https://www.warsawschools.org/136531_3",
+    "retrieved_at": "2026-11-05T19:56:33.871327+00:00",
+    "sha256": "a1c2d33e27708486c91599117579986970a78da07889b8f231415d3ff1cb8318",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w6_f0d98851",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w6_f0d98851.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w6_f0d98851.html.metadata.json",
+    "title": "Lewton Spanish/Global - Lansing School District Home",
+    "url": "https://www.lansingschools.net/lewton/",
+    "retrieved_at": "2026-11-05T19:56:38.159673+00:00",
+    "sha256": "ba58b7f5112d4bd3d76121363db7ccea13bc59ef71904a7b750b5fa78acd57e6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w7_b7274909",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w7_b7274909.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w7_b7274909.pdf.metadata.json",
+    "title": "gl_w7_b7274909",
+    "url": "https://www.woodstockschools.org/fs/resource-manager/view/fb9ea8f5-c2ac-40df-8d6b-2640522f9449",
+    "retrieved_at": "2026-11-05T19:57:40.296982+00:00",
+    "sha256": "a417161777e4fe99cde56783f0ad51acb66ac225f2bab9b6566c721965cf2f73",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w7_d861fa7f",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w7_d861fa7f.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w7_d861fa7f.pdf.metadata.json",
+    "title": "gl_w7_d861fa7f",
+    "url": "https://www.woodstockschools.org/fs/resource-manager/view/7811345e-2781-4cce-afe7-a8bba7391f18",
+    "retrieved_at": "2026-11-05T19:57:42.332959+00:00",
+    "sha256": "fb1560986cb192fe1d451d6758645b3e3d36e91d7b0122cb879eb74d68d2de35",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w7_f4b76291",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w7_f4b76291.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w7_f4b76291.pdf.metadata.json",
+    "title": "gl_w7_f4b76291",
+    "url": "https://www.woodstockschools.org/fs/resource-manager/view/48ec404a-f5a0-453d-8afa-b55e069ba3d9",
+    "retrieved_at": "2026-11-05T19:57:41.419600+00:00",
+    "sha256": "7f6687640573710c8183d3db6f2f44b59db271d8da922511995e6358dc38e931",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_4da2d552",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_4da2d552.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_4da2d552.html.metadata.json",
+    "title": "Home - Dual Language - Telpochcalli Dual-Language Elementary School",
+    "url": "https://www.telpochcalli.cps.edu/apps/pages/index.jsp?uREC_ID=629841&type=d",
+    "retrieved_at": "2026-11-05T20:02:15.014242+00:00",
+    "sha256": "268600fa9c10e52b7adaaa95fca05a99d023bd219825cd84d3eb5c123348ad8a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_596caf95",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_596caf95.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_596caf95.html.metadata.json",
+    "title": "Academy for Global Citizenship | Dual Language",
+    "url": "https://agcchicago.org/our-model/dual-language",
+    "retrieved_at": "2026-11-05T20:02:15.016034+00:00",
+    "sha256": "ec1f94892ca48c681e0355475b4e016a46996513aeaef8719a9ae92770234e1b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_84803528",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_84803528.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_84803528.html.metadata.json",
+    "title": "Dual Language Overview - NEWTON BATEMAN ELEMENTARY SCHOOL",
+    "url": "http://bateman.cps.edu/dual-language-overview.html",
+    "retrieved_at": "2026-11-05T20:02:15.012027+00:00",
+    "sha256": "df6934fe3bc8d3bab762ac844b4e29b9f71bc31a412f5fe4b74913e8d3a6f986",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_bc91d911",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_bc91d911.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_bc91d911.html.metadata.json",
+    "title": "Dual Language Education - Sabin Dual Language Magnet School",
+    "url": "https://sabin.cps.edu/apps/pages/index.jsp?uREC_ID=578191&type=d",
+    "retrieved_at": "2026-11-05T20:02:17.194269+00:00",
+    "sha256": "f62b61833438e1f8789b2565e9ce2f59d88af9b32ad67bb0ba03910844ff8fc5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_df74f266",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_df74f266.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_df74f266.html.metadata.json",
+    "title": "Dual Language – Talcott",
+    "url": "https://talcottfama.org/dual-language/",
+    "retrieved_at": "2026-11-05T20:02:15.011156+00:00",
+    "sha256": "e7483e1bfdbdb12c8c641298872e663ea0895d03a62a152783fbc6b9decaf380",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_w9_ed84ad88",
+    "path": "data/raw/great_lakes_2026_11_05/gl_w9_ed84ad88.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_w9_ed84ad88.html.metadata.json",
+    "title": "Frequently Asked Questions - Verona Area International School",
+    "url": "https://vais.verona.k12.wi.us/about/frequently-asked-questions",
+    "retrieved_at": "2026-11-05T20:02:28.416589+00:00",
+    "sha256": "447228c4e4e72bc0b2d23ec18fd7f327e31d8bff9c90a32038be6bd15cb4cad8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_appleton",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_appleton.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_appleton.html.metadata.json",
+    "title": "Our School - Appleton Bilingual School",
+    "url": "https://abs.aasd.k12.wi.us/our-school",
+    "retrieved_at": "2026-11-05T20:08:22.982699+00:00",
+    "sha256": "cbf49a8e99b13fc4649632e13b3b7f2da13bf97ce000a1981b27390babde3288",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_beloit_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_beloit_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_beloit_dual.html.metadata.json",
+    "title": "Dual Language Immersion",
+    "url": "https://www.sdb.k12.wi.us/programs/dual-language-immersion",
+    "retrieved_at": "2026-11-05T20:08:22.981840+00:00",
+    "sha256": "a33b8dce8ed0844d63bfa8bd9190a4ae8936663175fb40697ae93e48854f9ebc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_bilingual_report",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_bilingual_report.pdf",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_bilingual_report.pdf.metadata.json",
+    "title": "gl_wi_bilingual_report",
+    "url": "https://docs.legis.wisconsin.gov/misc/mandatedreports/2026/department_of_public_instruction/status_of_bilingual_bicultural_programs_received_1_5_2026.pdf",
+    "retrieved_at": "2026-11-05T20:04:05.869043+00:00",
+    "sha256": "074f5b357dae9a4c5bf31d0c0add7deb8acb1be7ba59e03562371d60d1b78a4f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_bull",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_bull.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_bull.html.metadata.json",
+    "title": "Home | Bull Early Education Center",
+    "url": "https://www.rusd.org/o/beec/",
+    "retrieved_at": "2026-11-05T20:04:07.388683+00:00",
+    "sha256": "c638b4e5d33c17ca9fcf82ee7e1fad52cb881a68fcac9ffd6cb5497babda07e8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_carey_secondary",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_carey_secondary.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_carey_secondary.html.metadata.json",
+    "title": "Official ribbon-cutting held for Lori Mann Carey Elementary School | Madison365",
+    "url": "https://madison365.com/official-ribbon-cutting-held-for-lori-mann-carey-elementary-school/",
+    "retrieved_at": "2026-11-05T20:11:33.562333+00:00",
+    "sha256": "26662e2f987419280efe81e0e8cdc8226d4c4a5b5e09165b161742880480e2d8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_dd_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_dd_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_dd_dual.html.metadata.json",
+    "title": "Dual Language Program | Delavan-Darien School District",
+    "url": "https://www.ddschools.org/page/dual-language",
+    "retrieved_at": "2026-11-05T20:04:05.867143+00:00",
+    "sha256": "3ebee0cc167d8b574d4c6c99ee72d75da113a430090f88ece2669d43553f18c2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_directory",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_directory.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_directory.html.metadata.json",
+    "title": "Dual Language Schools in Wisconsin",
+    "url": "https://duallanguageschools.org/schools/wi/",
+    "retrieved_at": "2026-11-05T19:18:55.904391+00:00",
+    "sha256": "4a403708c1407a91f15ce68be670bb1a25b40e2413ddef8a36d16d67dabd3872",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_french",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_french.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_french.html.metadata.json",
+    "title": "Milwaukee French Immersion School | K4–5th Grade",
+    "url": "https://mps.school/mfis/",
+    "retrieved_at": "2026-11-05T19:49:13.388826+00:00",
+    "sha256": "6033070cb78dc661f1972e67f093af74b02dd61c753b8bb537e8b27d6eda6322",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_french_academics",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_french_academics.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_french_academics.html.metadata.json",
+    "title": "Academics | Milwaukee French Immersion School",
+    "url": "https://mps.school/mfis/academics/",
+    "retrieved_at": "2026-11-05T19:57:38.756710+00:00",
+    "sha256": "6d65ebee8115789278c55b992c5a1afef0a012c60cff56c06cd7defbdc94f422",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_gb_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_gb_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_gb_dual.html.metadata.json",
+    "title": "Two-Way Dual Language Program - Green Bay Area Public School District",
+    "url": "https://www.gbaps.org/aboutgbaps/district-programs/two-way-language-program",
+    "retrieved_at": "2026-11-05T19:30:24.770747+00:00",
+    "sha256": "fa9600ca175ba9cc09fb3afdffd5b89494049fa5e22d37a0be69ec8a63f33de8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_german",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_german.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_german.html.metadata.json",
+    "title": "Milwaukee German Immersion School | K4–5th Grade",
+    "url": "https://mps.school/mgis/",
+    "retrieved_at": "2026-11-05T19:49:15.795251+00:00",
+    "sha256": "efedf36ae819ed3f1ac3ec09bc8dd8745d5d67255bd887d04a6ad3bf27d65bfc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_german_academics",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_german_academics.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_german_academics.html.metadata.json",
+    "title": "Academics | Milwaukee German Immersion School",
+    "url": "https://mps.school/mgis/academics/",
+    "retrieved_at": "2026-11-05T19:57:40.296671+00:00",
+    "sha256": "fc623ca49ba3654d42086cf3b7289e43d2c4096e4466babc35a32465f5dbfa66",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_greenbay",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_greenbay.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_greenbay.html.metadata.json",
+    "title": "Home - Green Bay Area Public School District",
+    "url": "https://www.gbaps.org/",
+    "retrieved_at": "2026-11-05T19:20:40.649997+00:00",
+    "sha256": "01d75241802c1c7a6277259555c21dc54008e03623a31641b0be7bc3e1aa14cb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_hais",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_hais.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_hais.html.metadata.json",
+    "title": "Home - Hmong American Immersion School",
+    "url": "https://hais.aasd.k12.wi.us/",
+    "retrieved_at": "2026-11-05T20:11:33.561272+00:00",
+    "sha256": "34f6d1ecdd7437b72b125db4ca881376c8badcb74f601d1354617482b3053527",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_hais_school",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_hais_school.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_hais_school.html.metadata.json",
+    "title": "Our School - Hmong American Immersion School",
+    "url": "https://hais.aasd.k12.wi.us/our-school",
+    "retrieved_at": "2026-11-05T20:13:17.865122+00:00",
+    "sha256": "b43cfea32a85c3849eaf0853eba189208d79bfdf438e6a5c944c1d46d7eac7d7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_hais_wpr",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_hais_wpr.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_hais_wpr.html.metadata.json",
+    "title": "New Wisconsin school offers education steeped in Hmong language, culture - WPR Menu Close Wisconsin Public Radio (WPR) Logo Wisconsin Public Radio (WPR) Logo Donate Icon Search Icon Wisconsin Public Radio (WPR) Logo Wisconsin Public Radio (WPR) Logo",
+    "url": "https://www.wpr.org/news/new-wisconsin-school-education-hmong-culture",
+    "retrieved_at": "2026-11-05T20:13:17.865981+00:00",
+    "sha256": "5fd265f6760d15788314384f0b576900d54cfb7d7ebafaa060cfc11afbfe92d1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_italian_timing",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_italian_timing.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_italian_timing.html.metadata.json",
+    "title": "MPS eyes relaunch of Italian immersion program in 2027",
+    "url": "https://www.wetheitalians.com/news/mps-eyes-relaunch-of-italian-immersion-program-in-2027",
+    "retrieved_at": "2026-11-05T20:13:17.870858+00:00",
+    "sha256": "36202c0ca3ed0ba2d331340822291f819c1dafbb81338e021c2a5c63cab695fb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_languages",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_languages.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_languages.html.metadata.json",
+    "title": "Milwaukee School of Languages | 6th–12th Grade",
+    "url": "https://mps.school/msl/",
+    "retrieved_at": "2026-11-05T19:49:19.352597+00:00",
+    "sha256": "f6cd446ca093f36f4c6ffe1b01e762fa463a8e8186bc04499c4c6b143605404a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_lco_school",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_lco_school.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_lco_school.html.metadata.json",
+    "title": "Waadookodaading – Schools – Lac Courte Oreilles Ojibwe School",
+    "url": "https://www.lcoosk12.org/apps/pages/index.jsp?uREC_ID=358508&type=d&pREC_ID=776444",
+    "retrieved_at": "2026-11-05T19:58:41.812885+00:00",
+    "sha256": "8c1e4281fa18f3b1a64c23e4e8dcf6b0cae3ee6a82049ce86ae1616dde07baba",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_lowell_about",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_lowell_about.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_lowell_about.html.metadata.json",
+    "title": "About Us | Lowell Elementary School",
+    "url": "https://sdw.waukesha.k12.wi.us/o/lowelles/page/about-us",
+    "retrieved_at": "2026-11-05T19:58:43.893783+00:00",
+    "sha256": "da67938ba36e927922db2bf59b095c34bae4c2d30ded71b1b78c57b21d4f534b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_madison_enroll",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_enroll.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_enroll.html.metadata.json",
+    "title": "DLI Enrollment and Lottery Information - Madison Metro School District",
+    "url": "https://www.madison.k12.wi.us/departments/multilingual-global-education/dual-language-immersion-dli/dli-enrollment-and-lottery-information",
+    "retrieved_at": "2026-11-05T19:49:13.386337+00:00",
+    "sha256": "752658f58fb1ae575b918dd10d6361140278d333e1067b08c5bb9f43a21b5e60",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_madison_sessions",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_sessions.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_sessions.html.metadata.json",
+    "title": "DLI Information Sessions - Madison Metro School District",
+    "url": "https://www.madison.k12.wi.us/departments/multilingual-global-education/dual-language-immersion-dli/dli-information-sessions",
+    "retrieved_at": "2026-11-05T19:49:27.822871+00:00",
+    "sha256": "c8fce8a7f292bb2a45895ebeac118f3cf4e8984b1549d389f37fe7e6d0bb1d27",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_madison_transitions",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_transitions.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_madison_transitions.html.metadata.json",
+    "title": "DLI Transitions - Madison Metro School District",
+    "url": "https://www.madison.k12.wi.us/departments/multilingual-global-education/dual-language-immersion-dli/dli-transitions",
+    "retrieved_at": "2026-11-05T19:49:21.215782+00:00",
+    "sha256": "9ae0192f812dbb69c94072d97a928ea56fee2964c7cf788b01246d7efc735d72",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_menasha_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_menasha_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_menasha_dual.html.metadata.json",
+    "title": "Menasha Joint School District - Two-Way Immersion (Dual Language) Program",
+    "url": "https://mjsd.k12.wi.us/departments/dual-language-program.cfm",
+    "retrieved_at": "2026-11-05T20:13:17.868643+00:00",
+    "sha256": "ef956795c84d1a406045c8c1a77b53deb36cad1dd99071f3a70ff018c09ffd2e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_menasha_middle",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_menasha_middle.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_menasha_middle.html.metadata.json",
+    "title": "Menasha Joint School District - Two Way Immersion",
+    "url": "https://mjsd.k12.wi.us/schools/intermediate/communications/twowayimmersion.cfm",
+    "retrieved_at": "2026-11-05T20:13:18.834131+00:00",
+    "sha256": "8185d43ec6fa4fe890041086f8f267641921e3c508aff53272d88fa8c06c851a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_mps",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_mps.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_mps.html.metadata.json",
+    "title": "Welcome to the Milwaukee Public Schools District Website",
+    "url": "https://mps.milwaukee.k12.wi.us/en/Programs/BilingualDual-Language.htm",
+    "retrieved_at": "2026-11-05T19:18:55.104610+00:00",
+    "sha256": "e1f89fca9057c4e8a41a33f19f4502fcc6a91c4ed80d84d902fc665ca7444f3f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_mps_dual",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_mps_dual.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_mps_dual.html.metadata.json",
+    "title": "Bilingual Dual Language Program - Milwaukee Public Schools",
+    "url": "https://www.milwaukeepublicschools.org/academics/multilingual-multicultural/dual-language",
+    "retrieved_at": "2026-11-05T19:30:24.770069+00:00",
+    "sha256": "c3af4fba3b54a4f065a55f09e16bd43a969659c38828f3ef37990ec1648713a1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_mps_immersion",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_mps_immersion.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_mps_immersion.html.metadata.json",
+    "title": "Language Immersion Programs - Milwaukee Public Schools",
+    "url": "https://www.milwaukeepublicschools.org/academics/multilingual-multicultural/immersion",
+    "retrieved_at": "2026-11-05T19:30:24.769253+00:00",
+    "sha256": "dafcd1086976f95e7ebe0fa7ac9c6f42360a545527b3128f90a5c7a785bae397",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_racine",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_racine.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_racine.html.metadata.json",
+    "title": "Home | Racine Unified School District",
+    "url": "https://www.rusd.org/",
+    "retrieved_at": "2026-11-05T19:20:40.651677+00:00",
+    "sha256": "9ef808a287711d6df1465f10ced6f84fb743027c5e7f2246c07f9f24f24746b2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_racine_p_d39b95f",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_racine_p_d39b95f.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_racine_p_d39b95f.html.metadata.json",
+    "title": "Dual Language Program | Racine Unified School District",
+    "url": "https://www.rusd.org/page/dual-language-program",
+    "retrieved_at": "2026-11-05T19:25:09.006029+00:00",
+    "sha256": "204bc6525a5fda00c2b52d88ac21a88b5cab6b756e19200bb7e9b04574e7c779",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_sheboygan_p_df83996",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_sheboygan_p_df83996.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_sheboygan_p_df83996.html.metadata.json",
+    "title": "Dual Language - Sheboygan Area School District",
+    "url": "https://www.sheboygan.k12.wi.us/programs-services/dual-language",
+    "retrieved_at": "2026-11-05T19:25:09.010007+00:00",
+    "sha256": "69d6e66cbd8703d282a54ea3f0c35d8eeac436435c4c41f383234113194636ed",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_spanish",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_spanish.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_spanish.html.metadata.json",
+    "title": "Milwaukee Spanish Immersion School | K4–1st Grade (Lower Campus) | 2nd–5th Grade (Upper Campus)",
+    "url": "https://mps.school/msis/",
+    "retrieved_at": "2026-11-05T19:49:18.132091+00:00",
+    "sha256": "4cda52bc50a0ef74d8648375233bcf8d4ee5a2b70cb28fdaaba77a1d25c313b1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_spanish_academics",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_spanish_academics.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_spanish_academics.html.metadata.json",
+    "title": "Academics | Milwaukee Spanish Immersion School",
+    "url": "https://mps.school/msis/academics/",
+    "retrieved_at": "2026-11-05T19:57:42.208200+00:00",
+    "sha256": "5081d891fd7ecbe53b19988307da4949cb2ef45a6881103ae892f31c7c970bd7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_sunprairie",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_sunprairie.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_sunprairie.html.metadata.json",
+    "title": "Sun Prairie Area School District - Sun Prairie Area School District",
+    "url": "https://www.sunprairieschools.org/",
+    "retrieved_at": "2026-11-05T19:20:41.159153+00:00",
+    "sha256": "3f7f02c0092e0ebc88002e8e4fe33b3abb674ca6316b55313829ec5151b37be6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_sunprairie_p_45034fd",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_sunprairie_p_45034fd.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_sunprairie_p_45034fd.html.metadata.json",
+    "title": "Dual Language Program  - Sun Prairie Area School District",
+    "url": "https://www.sunprairieschools.org/academics/dual-language-program-development",
+    "retrieved_at": "2026-11-05T19:25:09.008533+00:00",
+    "sha256": "e4796b3d9ec952c357f96f98e6eea076ae79a49412cad40ac88b5b79024a7bdb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_verona",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_verona.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_verona.html.metadata.json",
+    "title": "Home - Verona Area School District",
+    "url": "https://www.verona.k12.wi.us/",
+    "retrieved_at": "2026-11-05T19:20:40.990602+00:00",
+    "sha256": "f9df69b16b0d9a88f3aa1282cec0cacdca7f9aade5d0990a6a79729d28a1db1a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_verona_p_8d0c755",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_verona_p_8d0c755.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_verona_p_8d0c755.html.metadata.json",
+    "title": "Two-Way Spanish Immersion - Verona Area School District",
+    "url": "https://www.verona.k12.wi.us/departments/academic-services/multilingual-programs/two-way-spanish-immersion",
+    "retrieved_at": "2026-11-05T19:25:09.007149+00:00",
+    "sha256": "127ef640a2de8bd2d4f40e2f55c00365097c2641e70a78ed98b43265cd58f35a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_verona_p_f46c50e",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_verona_p_f46c50e.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_verona_p_f46c50e.html.metadata.json",
+    "title": "Chinese Immersion - Verona Area School District",
+    "url": "https://www.verona.k12.wi.us/departments/academic-services/multilingual-programs/chinese-immersion",
+    "retrieved_at": "2026-11-05T19:25:09.007874+00:00",
+    "sha256": "0f4610133fa132717547baee466da64936a4b86599e8a17b69afd313b241a6ee",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_victory_old",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_victory_old.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_victory_old.html.metadata.json",
+    "title": "Italian Immersion – Victory School",
+    "url": "https://k12.mps.school/victory/italian-immersion/",
+    "retrieved_at": "2026-11-05T20:09:12.316380+00:00",
+    "sha256": "36b3c3dd7c17cf2626d93b76355de647544ba20940ca5b9d524712b77767f12e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_waadoo_faq",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_waadoo_faq.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_waadoo_faq.html.metadata.json",
+    "title": "FAQs – Waadookodaading",
+    "url": "https://waadookodaading.org/faqs/",
+    "retrieved_at": "2026-11-05T19:58:40.341083+00:00",
+    "sha256": "5ebbe0956e63174774b5546325cf2122141dafb836675c7b6e0fc7c4b3bc0a95",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_waadoo_history",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_waadoo_history.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_waadoo_history.html.metadata.json",
+    "title": "History – Waadookodaading",
+    "url": "https://waadookodaading.org/history/",
+    "retrieved_at": "2026-11-05T19:30:24.772723+00:00",
+    "sha256": "f0c638d9ecda583fb07f1239ba11d74446f103b046d9a3ed8072a42774f4e062",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_waukesha_p_7ff476b",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_waukesha_p_7ff476b.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_waukesha_p_7ff476b.html.metadata.json",
+    "title": "Dual Language Program | School District of Waukesha",
+    "url": "https://sdw.waukesha.k12.wi.us/o/sdw/page/dual-language-program",
+    "retrieved_at": "2026-11-05T19:25:09.006578+00:00",
+    "sha256": "0d307fa3a4cc8af640ac004eebb3cc5309cc37fae58967d228bbbac2bd36b4e4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "gl_wi_wiitl",
+    "path": "data/raw/great_lakes_2026_11_05/gl_wi_wiitl.html",
+    "metadata_path": "data/raw/great_lakes_2026_11_05/gl_wi_wiitl.html.metadata.json",
+    "title": "wiitl.org",
+    "url": "https://wiitl.org/",
+    "retrieved_at": "2026-11-05T19:59:33.235203+00:00",
+    "sha256": "974b6ef4d0770b3a65680d991782442543d7641b4cbf2756bc955e356e5d1d01",
+    "archive_kind": "complete_original_HTTP_response"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cps.edu/schools/profiles/school-overview/chase",
+  "retrieved_at": "2026-11-05T19:57:49.083439+00:00",
+  "http_status": 200,
+  "final_url": "https://www.cps.edu/schools/profiles/school-overview/chase",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "28fddc3909f33f03c5298d739f1964113f6f0c725993336239bb1812aeb96828",
+  "bytes": 422508,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "School Overview | Chicago Public Schools",
+  "snapshot_path": "data/raw/great_lakes_2026_11_05/gl_cps_chase.html",
+  "full_response_sha256": "28fddc3909f33f03c5298d739f1964113f6f0c725993336239bb1812aeb96828"
+}

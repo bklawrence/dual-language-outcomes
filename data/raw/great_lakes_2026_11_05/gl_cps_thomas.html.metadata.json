@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cps.edu/schools/profiles/school-overview/thomas",
+  "retrieved_at": "2026-11-05T19:58:35.034555+00:00",
+  "http_status": 200,
+  "final_url": "https://www.cps.edu/schools/profiles/school-overview/thomas",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "819dd756c18471295f5cdc9d19e70fb727395f5284f5feb2012c651d9293b94a",
+  "bytes": 423518,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "School Overview | Chicago Public Schools",
+  "snapshot_path": "data/raw/great_lakes_2026_11_05/gl_cps_thomas.html",
+  "full_response_sha256": "819dd756c18471295f5cdc9d19e70fb727395f5284f5feb2012c651d9293b94a"
+}
