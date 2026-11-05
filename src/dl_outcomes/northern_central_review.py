@@ -177,7 +177,9 @@ def render_reports(root, tables, *, batch=None):
         ps = [p for p in programmes if p['state'] == state]
         eligible = [p for p in ps if p['reference']['status'] == 'confirmed_2025_26'
                     and p['reference']['eligibility'].startswith('documented_')]
-        cov = next(r for r in coverage if r['state_code'] == state and r['audit_scope'] == 'reference_working_set')
+        cov = next((r for r in coverage if r['state_code'] == state and r['audit_scope'] == 'reference_working_set'),
+                   dict(elementary_school_units=0, elementary_schools_with_numerical_model=0,
+                        numerical_allocation_coverage_pct=None, secondary_6_plus_school_units_excluded=0))
         summary.append(dict(state=state, programme_records=len(ps), school_units=len({p['school_id'] for p in ps}),
             confirmed_qualifying_reference_school_units=len({p['school_id'] for p in eligible}),
             elementary_reference_school_units=cov['elementary_school_units'],
@@ -221,8 +223,10 @@ def render_reports(root, tables, *, batch=None):
                 notes=p['notes']))
     contents[prefix + '_review_cases.csv'] = csv_text(cases)
     for state in sorted(settings['states']):
-        contents[settings['base'] + '/' + state.lower() + '_programmes.csv'] = csv_text([r for r in rows if r['state'] == state])
-        contents[settings['base'] + '/' + state.lower() + '_schools.csv'] = csv_text([r for r in schools if r['state'] == state])
+        contents[settings['base'] + '/' + state.lower() + '_programmes.csv'] = csv_text(
+            [r for r in rows if r['state'] == state], fields=list(rows[0]))
+        contents[settings['base'] + '/' + state.lower() + '_schools.csv'] = csv_text(
+            [r for r in schools if r['state'] == state], fields=list(schools[0]))
     report = dict(reference_school_year='2025-26', programme_records=len(programmes), school_units=len(schools),
         public_source_documents=len(sources), state_summary=summary, statewide_completeness='not_established',
         proficiency_collection='deferred; twelve existing assessment/context/EL/SEDA outputs preserved',

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.lpfi.net/schools",
+  "retrieved_at": "2026-11-05T22:10:15.567214+00:00",
+  "http_status": 200,
+  "final_url": "https://www.lpfi.net/schools",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "be830d500850eeab9a226e696bc358bd8fb55fb6267d3598856fd65249c97ab4",
+  "bytes": 266690,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "French Immersion Schools — Louisiana Parents for French Immersion",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_la_lpfi.html",
+  "full_response_sha256": "be830d500850eeab9a226e696bc358bd8fb55fb6267d3598856fd65249c97ab4"
+}

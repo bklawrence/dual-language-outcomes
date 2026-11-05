@@ -1,0 +1,62 @@
+[
+  {
+    "school": "Truman Elementary School",
+    "district": "Norman Public Schools",
+    "source": "sc_ok_norman",
+    "period": "2026-27",
+    "locator": "Truman Elementary School",
+    "disposition": "planned_upper_elementary_continuation_not_backdated",
+    "reason": "District describes planned grade 3–5 continuation and future annual expansion; implementation at this separate host in 2025–26 is not established.",
+    "notes": ""
+  },
+  {
+    "school": "Cherokee Immersion School – Kenwood",
+    "district": "Public charter operator: Cherokee Nation",
+    "source": "sc_ok_cnic",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Cherokee Immersion School – Kenwood",
+    "disposition": "satellite_implementation_review",
+    "reason": "Operator mentions planned Kenwood expansion and an inconsistent 2025 reference; dated May 2026 graduation story identifies only Tahlequah and Greasy as operating schools. Verify implementation and grades before adding another school.",
+    "notes": ""
+  },
+  {
+    "school": "Carnegie Elementary School",
+    "district": "",
+    "source": "sc_ok_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Carnegie Elementary School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead; academic-medium continuation, source year and school-specific operation need primary verification. Language electives and historical listings do not establish a current DL programme.",
+    "notes": ""
+  },
+  {
+    "school": "Heronville Elementary School",
+    "district": "",
+    "source": "sc_ok_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Heronville Elementary School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead; academic-medium continuation, source year and school-specific operation need primary verification. Language electives and historical listings do not establish a current DL programme.",
+    "notes": ""
+  },
+  {
+    "school": "Carver Middle School",
+    "district": "",
+    "source": "sc_ok_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Carver Middle School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead; academic-medium continuation, source year and school-specific operation need primary verification. Language electives and historical listings do not establish a current DL programme.",
+    "notes": ""
+  },
+  {
+    "school": "Edison Preparatory Middle School",
+    "district": "",
+    "source": "sc_ok_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Edison Preparatory Middle School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead; academic-medium continuation, source year and school-specific operation need primary verification. Language electives and historical listings do not establish a current DL programme.",
+    "notes": ""
+  }
+]

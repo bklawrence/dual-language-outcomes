@@ -10,7 +10,8 @@ BASE = 'data/registry/western_plains_2026_11_04'
 CODES = {**LANGUAGE_CODES, 'Portuguese': 'pt', 'Navajo': 'nv', 'ASL': 'ase',
          'American Sign Language': 'ase', 'Hebrew': 'he', 'Tewa': 'tew',
          'Hawaiian': 'haw', "Yup'ik": 'esu', 'Tlingit': 'tli', 'Iñupiaq': 'ik',
-         'Lakota': 'lkt', 'Dakota': 'dak', 'Ojibwe': 'oj'}
+         'Lakota': 'lkt', 'Dakota': 'dak', 'Ojibwe': 'oj',
+         'Cherokee': 'chr', 'Osage': 'osa', 'Yuchi': 'yuc'}
 # Unspecified Keres/Tiwa varieties remain uncoded; "ker" identifies Kera.
 
 

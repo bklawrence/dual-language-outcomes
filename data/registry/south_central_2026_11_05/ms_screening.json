@@ -1,0 +1,102 @@
+[
+  {
+    "school": "Clarkdale Elementary School",
+    "district": "Lauderdale County School District",
+    "source": "sc_ms_clarkdale_dir",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Clarkdale Elementary School",
+    "disposition": "unverified_directory_entry_name_collision_risk",
+    "reason": "Directory entry has Mississippi address/contact but no instructional-language or DL-model details. A similarly named Georgia school has DLI; do not transfer its programme to Mississippi.",
+    "notes": ""
+  },
+  {
+    "school": "Bogue Chitto Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Bogue Chitto Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Conehatta Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Conehatta Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Pearl River Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Pearl River Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Red Water Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Red Water Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Standing Pine Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Standing Pine Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Tucker Elementary School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Tucker Elementary School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Choctaw Central Middle School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Choctaw Central Middle School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Choctaw Central High School",
+    "district": "Tribal operator: Mississippi Band of Choctaw Indians",
+    "source": "sc_ms_choctaw",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Choctaw Central High School",
+    "disposition": "language_and_culture_classes_not_verified_academic_immersion",
+    "reason": "Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model.",
+    "notes": ""
+  },
+  {
+    "school": "Statewide discovery review",
+    "district": "",
+    "source": "sc_ms_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Statewide discovery review",
+    "disposition": "screened_no_verified_programme_not_statewide_absence",
+    "reason": "No qualifying programme confirmed in this bounded pass. Directory and tribal-school checks do not establish that the state has no DL schools; further discovery remains open.",
+    "notes": ""
+  }
+]

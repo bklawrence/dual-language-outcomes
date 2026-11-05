@@ -1,0 +1,15 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=40&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-05T22:31:26.725689+00:00",
+  "http_status": 200,
+  "final_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=40&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "sha256": "ff83994d575488a2d124a94b3ae944761c21b6ef7fd0f0d50cf08edc0e97a1d2",
+  "bytes": 428188,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "NCES CCD 2024–25 school directory grade context: OK",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_ccd2024_ok.json",
+  "full_response_sha256": "ff83994d575488a2d124a94b3ae944761c21b6ef7fd0f0d50cf08edc0e97a1d2"
+}

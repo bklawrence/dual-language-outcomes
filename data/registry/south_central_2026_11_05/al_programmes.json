@@ -1,0 +1,66 @@
+[
+  {
+    "program_id": "SC-AL-P-9a1c8a84a296",
+    "school_id": "SC-AL-S-51fefce394c1",
+    "state": "AL",
+    "district": "Birmingham City Schools",
+    "school": "Booker T. Washington K-8 School",
+    "track": "Spanish immersion",
+    "notes": "School programme page gives one DL class per K/1 grade with a general-education class alongside, plus PK. Half English speakers/half Spanish speakers describes pupil composition. Tentative timetable and variably taught specials do not supply a complete day allocation; model remains unfilled.",
+    "observations": [
+      {
+        "source": "sc_al_wash_program",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-1; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Booker T. Washington K-8 School / Spanish immersion",
+        "notes": "School programme page gives one DL class per K/1 grade with a general-education class alongside, plus PK. Half English speakers/half Spanish speakers describes pupil composition. Tentative timetable and variably taught specials do not supply a complete day allocation; model remains unfilled.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_al_wash_news",
+        "period": "2025-26",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "December 10, 2025 official open-house report confirms implementation; November 6, 2025 district launch article corroborates it. The K–8 school name is not the initial programme grade span.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_al_wash_start",
+        "year": "2025-26",
+        "status": "programme_launched",
+        "notes": "Official launch story published November 6, 2025."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "dated_2025_26_implementation_and_official_programme_page",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_al_wash_program",
+      "locator": "Booker T. Washington K-8 School / Spanish immersion",
+      "notes": "School programme page gives one DL class per K/1 grade with a general-education class alongside, plus PK. Half English speakers/half Spanish speakers describes pupil composition. Tentative timetable and variably taught specials do not supply a complete day allocation; model remains unfilled."
+    }
+  }
+]

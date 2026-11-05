@@ -1,0 +1,25 @@
+{
+  "url": "https://www.isl-edu.org/copy-of-home",
+  "retrieved_at": "2026-11-05T22:19:46.204388+00:00",
+  "http_status": 200,
+  "final_url": "https://www.isl-edu.org/copy-of-home",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "f0a1ee709307d4471669df1e008f3e9508e4ac55faa0b1442a638f0fac696247",
+  "bytes": 190410,
+  "capture_method": "public_HTTP_acquisition_then_documented_credential_redaction",
+  "archive_kind": "public_HTTP_response_with_embedded_credential_redacted",
+  "title": "Copy of HOME",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html",
+  "full_response_sha256": "2afdb0baa6d5a86b1639ebdf1c28c3ba41c103e1f218bee157024ea4a2f31190",
+  "full_response_bytes": 190465,
+  "redactions": [
+    {
+      "kind": "embedded_Mapbox_token",
+      "occurrences": 1,
+      "replacement": "[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]",
+      "scope": "common.mapbox.token configuration; visible and embedded programme text unchanged",
+      "reason": "GitHub push protection rejected the original public HTML"
+    }
+  ]
+}

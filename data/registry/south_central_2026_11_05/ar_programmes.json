@@ -1,0 +1,130 @@
+[
+  {
+    "program_id": "SC-AR-P-dbd1b6185b5c",
+    "school_id": "SC-AR-S-e12b9bdc140e",
+    "state": "AR",
+    "district": "Little Rock School District",
+    "school": "Chicot Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation.",
+    "observations": [
+      {
+        "source": "sc_ar_lr_launch",
+        "period": "2026-27",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Chicot Elementary School / Spanish immersion",
+        "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_ar_chicot",
+        "period": "2026-27",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "programme description",
+        "notes": "Explicit different population designs; future Lacey expansion is not another implemented school.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ar_lr_launch",
+        "year": "2026-27",
+        "status": "announced_first_public_district_launch",
+        "notes": "State approval April 10, 2026; named K launch fall 2026."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_later_start",
+      "period": "2026-27",
+      "source": "sc_ar_lr_launch",
+      "locator": "Chicot Elementary School / Spanish immersion",
+      "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation."
+    }
+  },
+  {
+    "program_id": "SC-AR-P-ed02a00ec13f",
+    "school_id": "SC-AR-S-1547a5392261",
+    "state": "AR",
+    "district": "Little Rock School District",
+    "school": "Watson Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation.",
+    "observations": [
+      {
+        "source": "sc_ar_lr_launch",
+        "period": "2026-27",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Watson Elementary School / Spanish immersion",
+        "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_ar_chicot",
+        "period": "2026-27",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "programme description",
+        "notes": "Explicit different population designs; future Lacey expansion is not another implemented school.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ar_lr_launch",
+        "year": "2026-27",
+        "status": "announced_first_public_district_launch",
+        "notes": "State approval April 10, 2026; named K launch fall 2026."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_later_start",
+      "period": "2026-27",
+      "source": "sc_ar_lr_launch",
+      "locator": "Watson Elementary School / Spanish immersion",
+      "notes": "District announcement April 24, 2026 names fall 2026 K entry and one added grade yearly. District-republished April 27 board report specifies all heritage Spanish speakers at Watson and a mixed English/Spanish cohort at Chicot. Most of K day in Spanish is not converted into an unsupported numeric allocation."
+    }
+  }
+]

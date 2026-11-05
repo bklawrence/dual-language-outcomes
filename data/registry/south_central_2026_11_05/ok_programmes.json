@@ -1,0 +1,1274 @@
+[
+  {
+    "program_id": "SC-OK-P-c03133e37b48",
+    "school_id": "SC-OK-S-f4719328ef27",
+    "state": "OK",
+    "district": "Jenks Public Schools",
+    "school": "East Intermediate School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_jenks_end",
+        "period": "November 19, 2023 parent-council report",
+        "grade": "5-6",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "East Intermediate School / Mandarin Chinese immersion",
+        "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_jenks_end",
+        "year": "2021-22",
+        "status": "reported_kindergarten_intake_phaseout",
+        "notes": "Source says no new kindergarten classes since 2021–22; wording does not resolve whether that was the last intake or first omitted year."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "reported_phaseout_requires_primary_confirmation",
+      "period": "November 19, 2023 parent-council report",
+      "source": "sc_ok_jenks_end",
+      "locator": "East Intermediate School / Mandarin Chinese immersion",
+      "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred."
+    },
+    "review_reasons": [
+      "Find a district/board source documenting intake cutoff and final continuation year."
+    ]
+  },
+  {
+    "program_id": "SC-OK-P-0a50e16670f2",
+    "school_id": "SC-OK-S-bd6780802031",
+    "state": "OK",
+    "district": "Jenks Public Schools",
+    "school": "Southeast Elementary School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_jenks_end",
+        "period": "November 19, 2023 parent-council report",
+        "grade": "elementary",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Southeast Elementary School / Mandarin Chinese immersion",
+        "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_jenks_end",
+        "year": "2021-22",
+        "status": "reported_kindergarten_intake_phaseout",
+        "notes": "Source says no new kindergarten classes since 2021–22; wording does not resolve whether that was the last intake or first omitted year."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "reported_phaseout_requires_primary_confirmation",
+      "period": "November 19, 2023 parent-council report",
+      "source": "sc_ok_jenks_end",
+      "locator": "Southeast Elementary School / Mandarin Chinese immersion",
+      "notes": "Parent-council report describes a phaseout with no new K cohort since 2021–22. Final continuation end year and 2025–26 operation remain unresolved. No current model or continuing K intake inferred."
+    },
+    "review_reasons": [
+      "Find a district/board source documenting intake cutoff and final continuation year."
+    ]
+  },
+  {
+    "program_id": "SC-OK-P-97ae38767f65",
+    "school_id": "SC-OK-S-e9735ef06078",
+    "state": "OK",
+    "district": "Norman Public Schools",
+    "school": "Truman Primary School",
+    "track": "Spanish immersion",
+    "notes": "September 22, 2025 district ribbon-cutting report confirms implementation at Truman Primary and a 50/50 academic curriculum. URL under Monroe is a republished district article, not a Monroe-host programme. Current 2026–27 page adds grade 2, kept as a separate later observation.",
+    "observations": [
+      {
+        "source": "sc_ok_norman_launch",
+        "period": "2025-26",
+        "grade": "PK-1; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Truman Primary School / Spanish immersion",
+        "notes": "September 22, 2025 district ribbon-cutting report confirms implementation at Truman Primary and a 50/50 academic curriculum. URL under Monroe is a republished district article, not a Monroe-host programme. Current 2026–27 page adds grade 2, kept as a separate later observation.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_ok_norman",
+        "period": "2026-27",
+        "grade": "PK-2; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "Current admission page names Truman Primary and a PK–2 programme, with later grade expansion. Not backdated to 2025–26.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_norman_launch",
+        "period": "2025-26",
+        "grade": "PK-1; includes K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Truman Primary School / published instructional model",
+        "notes": "September 22, 2025 district ribbon-cutting report confirms implementation at Truman Primary and a 50/50 academic curriculum. URL under Monroe is a republished district article, not a Monroe-host programme. Current 2026–27 page adds grade 2, kept as a separate later observation.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [
+      {
+        "source": "sc_ok_norman_launch",
+        "year": "2025-26",
+        "status": "programme_opened",
+        "notes": "Implementation begins with PK, K and grade 1 at Truman Primary."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "dated_2025_26_implementation_report",
+      "period": "2025-26",
+      "source": "sc_ok_norman_launch",
+      "locator": "Truman Primary School / Spanish immersion",
+      "notes": "September 22, 2025 district ribbon-cutting report confirms implementation at Truman Primary and a 50/50 academic curriculum. URL under Monroe is a republished district article, not a Monroe-host programme. Current 2026–27 page adds grade 2, kept as a separate later observation."
+    }
+  },
+  {
+    "program_id": "SC-OK-P-7aa77cd55de8",
+    "school_id": "SC-OK-S-4406b17fb592",
+    "state": "OK",
+    "district": "Oklahoma City Public Schools",
+    "school": "Adelaide Lee Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official school page explicitly says coming fall 2026; FAQ gives PK/K in 2026 with grade 1 only in 2027–28. This is not confirmed 2025–26 operation.",
+    "observations": [
+      {
+        "source": "sc_ok_lee_faq",
+        "period": "2026-27",
+        "grade": "PK-K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Adelaide Lee Elementary School / Spanish immersion",
+        "notes": "Official school page explicitly says coming fall 2026; FAQ gives PK/K in 2026 with grade 1 only in 2027–28. This is not confirmed 2025–26 operation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_lee",
+        "year": "2026-27",
+        "status": "announced_opening",
+        "notes": "Fall 2026 start, not an earlier-year programme."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_future_opening",
+      "period": "2026-27",
+      "source": "sc_ok_lee_faq",
+      "locator": "Adelaide Lee Elementary School / Spanish immersion",
+      "notes": "Official school page explicitly says coming fall 2026; FAQ gives PK/K in 2026 with grade 1 only in 2027–28. This is not confirmed 2025–26 operation."
+    }
+  },
+  {
+    "program_id": "SC-OK-P-3cf45ec49fc3",
+    "school_id": "SC-OK-S-e64c2fdef57c",
+    "state": "OK",
+    "district": "Private operator: Yuchi Language Project",
+    "school": "Yuchi Immersion School",
+    "track": "Yuchi immersion",
+    "notes": "May 2025 grant-partner account explicitly plans 1,200 hours of full-day Yuchi immersion in science, math, literacy and other subjects for 30 PK–5 students in 2025–26. Academic-medium scope is clear; public funding is unconfirmed, distinct from language-allocation uncertainty. No English partner or numeric daily model inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_yuchi2025",
+        "period": "2025-26",
+        "grade": "PK-5; includes K",
+        "languages": [
+          "Yuchi"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Yuchi Immersion School / Yuchi immersion",
+        "notes": "May 2025 grant-partner account explicitly plans 1,200 hours of full-day Yuchi immersion in science, math, literacy and other subjects for 30 PK–5 students in 2025–26. Academic-medium scope is clear; public funding is unconfirmed, distinct from language-allocation uncertainty. No English partner or numeric daily model inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "academic_immersion_public_funding_unconfirmed",
+      "scope": "academic_content_immersion",
+      "funding": "nonprofit_grant_support_public_funding_unresolved",
+      "method": "dated_operator_partner_report",
+      "period": "2025-26",
+      "source": "sc_ok_yuchi2025",
+      "locator": "Yuchi Immersion School / Yuchi immersion",
+      "notes": "May 2025 grant-partner account explicitly plans 1,200 hours of full-day Yuchi immersion in science, math, literacy and other subjects for 30 PK–5 students in 2025–26. Academic-medium scope is clear; public funding is unconfirmed, distinct from language-allocation uncertainty. No English partner or numeric daily model inferred."
+    },
+    "review_reasons": [
+      "Verify public funding and actual 2025–26 implementation beyond the dated grant plan."
+    ]
+  },
+  {
+    "program_id": "SC-OK-P-e940e8f488ff",
+    "school_id": "SC-OK-S-9caacefc9fc7",
+    "state": "OK",
+    "district": "Public charter operator: Cherokee Nation",
+    "school": "Cherokee Immersion School – Greasy",
+    "track": "Cherokee immersion",
+    "notes": "Official May 12, 2026 account documents the first three kindergarten graduates from Greasy, 12 current pupils and five teachers. This establishes actual K operation in 2025–26; wider grade span is not copied from the Tahlequah school. Cherokee academic curriculum is primarily Cherokee, not an elective.",
+    "observations": [
+      {
+        "source": "sc_ok_cherokee_grads",
+        "period": "2025-26",
+        "grade": "K",
+        "languages": [
+          "Cherokee"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Cherokee Immersion School – Greasy / Cherokee immersion",
+        "notes": "Official May 12, 2026 account documents the first three kindergarten graduates from Greasy, 12 current pupils and five teachers. This establishes actual K operation in 2025–26; wider grade span is not copied from the Tahlequah school. Cherokee academic curriculum is primarily Cherokee, not an elective.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_cherokee_change",
+        "year": "2026-27",
+        "status": "state_charter_ended_tribal_education_continues",
+        "notes": "Network governance changes after June 30, 2026; grade scope and public charter eligibility here refer to 2025–26."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_charter_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "state_public_charter_in_2025_26",
+      "method": "dated_2026_graduation_confirms_reference_school_year",
+      "period": "2025-26",
+      "source": "sc_ok_cherokee_grads",
+      "locator": "Cherokee Immersion School – Greasy / Cherokee immersion",
+      "notes": "Official May 12, 2026 account documents the first three kindergarten graduates from Greasy, 12 current pupils and five teachers. This establishes actual K operation in 2025–26; wider grade span is not copied from the Tahlequah school. Cherokee academic curriculum is primarily Cherokee, not an elective."
+    }
+  },
+  {
+    "program_id": "SC-OK-P-54e0896cef79",
+    "school_id": "SC-OK-S-f47bc891d530",
+    "state": "OK",
+    "district": "Public charter operator: Cherokee Nation",
+    "school": "Cherokee Nation Immersion School – Tahlequah",
+    "track": "Cherokee immersion",
+    "notes": "Cherokee is the academic medium, not an elective. May 6, 2026 chief memorandum confirms the state charter and related state/federal support continue through June 30, 2026. Exclusive/fully Cherokee is retained qualitatively without inventing an English partner or numerical daily schedule.",
+    "observations": [
+      {
+        "source": "sc_ok_cherokee",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-6; includes K; bridge programme grades 7-8",
+        "languages": [
+          "Cherokee"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Cherokee Nation Immersion School – Tahlequah / Cherokee immersion",
+        "notes": "Cherokee is the academic medium, not an elective. May 6, 2026 chief memorandum confirms the state charter and related state/federal support continue through June 30, 2026. Exclusive/fully Cherokee is retained qualitatively without inventing an English partner or numerical daily schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_ok_cnic",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-6; includes K",
+        "languages": [
+          "Cherokee"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "School history states Oklahoma grade-level standards taught exclusively in spoken/written Cherokee. Greasy and Kenwood expansion references do not silently become extra fully implemented K–6 campuses.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_cherokee_change",
+        "year": "2026-27",
+        "status": "state_charter_ended_tribal_education_continues",
+        "notes": "State charter expires June 30, 2026; proposed independent tribal governance starts for 2026–27. This is a governance/funding change, not closure of immersion teaching."
+      },
+      {
+        "source": "sc_ok_cherokee_independent",
+        "year": "2026-27",
+        "status": "independent_tribal_governance_enacted",
+        "notes": "June 25 legislation approved school independence; later tribal governance is distinct from reference-year state-charter status."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_charter_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "state_public_charter_in_2025_26",
+      "method": "dated_charter_term_and_operator_confirmation",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_cherokee",
+      "locator": "Cherokee Nation Immersion School – Tahlequah / Cherokee immersion",
+      "notes": "Cherokee is the academic medium, not an elective. May 6, 2026 chief memorandum confirms the state charter and related state/federal support continue through June 30, 2026. Exclusive/fully Cherokee is retained qualitatively without inventing an English partner or numerical daily schedule."
+    }
+  },
+  {
+    "program_id": "SC-OK-P-6088a02904f6",
+    "school_id": "SC-OK-S-4e7e6bd2d782",
+    "state": "OK",
+    "district": "Tribal operator: Osage Nation",
+    "school": "Daposka Ahnkodapi School",
+    "track": "Osage immersion",
+    "notes": "Nation-operated Osage immersion school includes K–8 and early childhood; one provisional school unit across two age-band locations pending official campus identity review. Government closure statement documents over $3 million annually in tribal funds. Numerical instructional share not supplied.",
+    "observations": [
+      {
+        "source": "sc_ok_osage",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8; also early childhood",
+        "languages": [
+          "Osage"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Daposka Ahnkodapi School / Osage immersion",
+        "notes": "Nation-operated Osage immersion school includes K–8 and early childhood; one provisional school unit across two age-band locations pending official campus identity review. Government closure statement documents over $3 million annually in tribal funds. Numerical instructional share not supplied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_osage_end",
+        "year": "2026-27",
+        "status": "closure_announced_effective_2026_08_05",
+        "notes": "Official August 5, 2026 immediate closure; 2025–26 operation retained."
+      },
+      {
+        "source": "sc_ok_osage_oct",
+        "year": "2026-27",
+        "status": "reopening_funds_approved_implementation_unverified",
+        "notes": "October 6, 2026 report: legislature appropriates funds that could reopen school. Funding approval alone does not establish reopening."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_tribal_government_funded_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "Osage_Nation_tribal_government_funds",
+      "method": "operator_2025_26_calendar_and_dated_funding_statement",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_osage",
+      "locator": "Daposka Ahnkodapi School / Osage immersion",
+      "notes": "Nation-operated Osage immersion school includes K–8 and early childhood; one provisional school unit across two age-band locations pending official campus identity review. Government closure statement documents over $3 million annually in tribal funds. Numerical instructional share not supplied."
+    },
+    "review_reasons": [
+      "Verify whether reopening occurred after October 2026 appropriation; preserve closure and funding events separately."
+    ]
+  },
+  {
+    "program_id": "SC-OK-P-8f609f5548c4",
+    "school_id": "SC-OK-S-0ba2ee0ca8ad",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Celia Clinton Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Celia Clinton Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Celia Clinton Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-8f609f5548c4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-20c67f207e24",
+    "school_id": "SC-OK-S-760917af703e",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Cooper Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Cooper Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Cooper Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-20c67f207e24-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-799f7c734fec",
+    "school_id": "SC-OK-S-712987424b76",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Disney Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Disney Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Disney Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-799f7c734fec-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-33409578200c",
+    "school_id": "SC-OK-S-c1a97ef4d3af",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Eisenhower International School",
+    "track": "French immersion",
+    "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Eisenhower International School / French immersion",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "90/10",
+        "shares": {
+          "French": 90,
+          "English": 10
+        },
+        "locator": "Eisenhower International School / published instructional model",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Eisenhower International School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-33409578200c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-07062b5d53e1",
+    "school_id": "SC-OK-S-c1a97ef4d3af",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Eisenhower International School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Eisenhower International School / Spanish immersion",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Eisenhower International School / published instructional model",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Eisenhower International School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-07062b5d53e1-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-afa64d8c6f96",
+    "school_id": "SC-OK-S-d0b079bc28c7",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Felicitas Mendez International School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-5; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Felicitas Mendez International School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "sc_ok_mendez",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "School-specific model: native-language literacy PK–1; one hour each Spanish and English literacy in grades 2–5, math in English and science/social studies in Spanish. No total-day split supplied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "sc_ok_mendez_about",
+        "year": null,
+        "status": "historical_name_alias",
+        "notes": "Current school was formerly Dual Language Academy. Directory aliases reuse this school identity; no additional school created."
+      },
+      {
+        "source": "sc_ok_tulsa_changes",
+        "year": "2027-28",
+        "status": "announced_campus_relocation_and_expansion",
+        "notes": "October 30, 2026 official plan: Zarrow moves to Hoover building; Felicitas Mendez moves to Anderson building starting 2027–28. Host-building changes do not create extra current schools."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Felicitas Mendez International School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-afa64d8c6f96-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-8f63dec09cdc",
+    "school_id": "SC-OK-S-88c604497f44",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Kendall-Whittier Elementary School",
+    "track": "Spanish one-way dual language",
+    "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Kendall-Whittier Elementary School / Spanish one-way dual language",
+        "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Kendall-Whittier Elementary School / Spanish one-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-8f63dec09cdc-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-47e8269a8400",
+    "school_id": "SC-OK-S-88c604497f44",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Kendall-Whittier Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Kendall-Whittier Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Kendall-Whittier Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-47e8269a8400-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-28ed941b4503",
+    "school_id": "SC-OK-S-5d635bdead3e",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Sequoyah Elementary School",
+    "track": "Spanish one-way dual language",
+    "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Sequoyah Elementary School / Spanish one-way dual language",
+        "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Sequoyah Elementary School / Spanish one-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-28ed941b4503-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-4c7bce615f10",
+    "school_id": "SC-OK-S-08bf16098503",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Skelly Elementary School",
+    "track": "Spanish one-way dual language",
+    "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Skelly Elementary School / Spanish one-way dual language",
+        "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Skelly Elementary School / Spanish one-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-4c7bce615f10-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-7698650d5a5c",
+    "school_id": "SC-OK-S-08bf16098503",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Skelly Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Skelly Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Skelly Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-7698650d5a5c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-f636e41a8454",
+    "school_id": "SC-OK-S-9b59b38cc9db",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Springdale Elementary School",
+    "track": "Spanish one-way dual language",
+    "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Springdale Elementary School / Spanish one-way dual language",
+        "notes": "Named one-way Spanish-dominant academic dual-language strand. The district quantifies equal literacy time in grade 2 but not total instructional time; no numerical day model inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Springdale Elementary School / Spanish one-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-f636e41a8454-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-4e518b8a4160",
+    "school_id": "SC-OK-S-9b59b38cc9db",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Springdale Elementary School",
+    "track": "Spanish two-way dual language",
+    "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Springdale Elementary School / Spanish two-way dual language",
+        "notes": "Named two-way academic strand; same-language one-way strands remain distinct. Source chart includes Skelly although its summary bullet list omits it. The 2027–28 cells for Cooper and Springdale concern grade-5 rollout, not first opening. Equal language-arts time is not an all-day 50/50 model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Springdale Elementary School / Spanish two-way dual language",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-4e518b8a4160-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-9f73f05807c7",
+    "school_id": "SC-OK-S-6360f7351e30",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Will Rogers Middle School",
+    "track": "Spanish immersion",
+    "notes": "Named middle-school academic dual-language continuation; retained outside elementary allocation denominator.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Will Rogers Middle School / Spanish immersion",
+        "notes": "Named middle-school academic dual-language continuation; retained outside elementary allocation denominator.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Will Rogers Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-9f73f05807c7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-7d2653735605",
+    "school_id": "SC-OK-S-33ddeb7a8629",
+    "state": "OK",
+    "district": "Tulsa Public Schools",
+    "school": "Zarrow International School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+    "observations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Zarrow International School / Spanish immersion",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_tulsa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Zarrow International School / published instructional model",
+        "notes": "District explicitly names French and Spanish at Eisenhower and Spanish at Zarrow; target-language instruction is 90% in K–2, increasing English to 50/50 by grade 5. The elementary model is not assigned to secondary continuations.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [
+      {
+        "source": "sc_ok_tulsa_changes",
+        "year": "2027-28",
+        "status": "announced_campus_relocation_and_expansion",
+        "notes": "October 30, 2026 official plan: Zarrow moves to Hoover building; Felicitas Mendez moves to Anderson building starting 2027–28. Host-building changes do not create extra current schools."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_tulsa",
+      "locator": "Zarrow International School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "SC-OK-P-7d2653735605-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SC-OK-P-6cd7511340d2",
+    "school_id": "SC-OK-S-31dcb46b8307",
+    "state": "OK",
+    "district": "Western Heights Public Schools",
+    "school": "Council Grove Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+    "observations": [
+      {
+        "source": "sc_ok_western",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Council Grove Elementary School / Spanish immersion",
+        "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_western",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Council Grove Elementary School / published instructional model",
+        "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "district_policy_school_mapping_requires_review",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_western",
+      "locator": "Council Grove Elementary School / Spanish immersion",
+      "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator."
+    },
+    "review_reasons": [
+      "Verify current host and district 90/10 policy-to-campus mapping; a directory lead plus an unnamed district programme is not current school confirmation."
+    ]
+  },
+  {
+    "program_id": "SC-OK-P-295b41c4e986",
+    "school_id": "SC-OK-S-f07caf105ed5",
+    "state": "OK",
+    "district": "Western Heights Public Schools",
+    "school": "John Glenn Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+    "observations": [
+      {
+        "source": "sc_ok_western",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "John Glenn Elementary School / Spanish immersion",
+        "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "sc_ok_western",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "John Glenn Elementary School / published instructional model",
+        "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "district_policy_school_mapping_requires_review",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "sc_ok_western",
+      "locator": "John Glenn Elementary School / Spanish immersion",
+      "notes": "District explicitly publishes Spanish 90/10 at PK/K, reaching 50/50 in grade 4. Earlier directory names this host, but the current saved district programme description does not name host schools. Model-to-campus/current operation mapping remains a review case; excluded from confirmed reference denominator."
+    },
+    "review_reasons": [
+      "Verify current host and district 90/10 policy-to-campus mapping; a directory lead plus an unnamed district programme is not current school confirmation."
+    ]
+  }
+]

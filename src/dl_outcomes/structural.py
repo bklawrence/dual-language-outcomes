@@ -13,10 +13,12 @@ from .identity_audit import preserved_identity_fingerprint
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS'}
 
 
 def report_prefix(root):
+    south_central=root/'config/research_migrations/south_central_2026_11_05.json'
+    if south_central.exists():return json.loads(south_central.read_text())['national_report_prefix']
     historical=root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json'
     if historical.exists():return json.loads(historical.read_text())['national_report_prefix']
     great_lakes=root/'config/research_migrations/great_lakes_2026_11_05.json'
@@ -133,6 +135,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
         from .illinois_history import audit_errors as historical_errors
         errors.extend(historical_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/south_central_2026_11_05.json').exists():
+        from .south_central_review import audit_errors as south_central_errors
+        errors.extend(south_central_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -287,6 +292,18 @@ def generate_report(root, *, check=False):
         contents.update(historical_contents)
         audit['illinois_user_2021_22_history'] = historical_report
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in historical_contents.items()})
+    if (root/'config/research_migrations/south_central_2026_11_05.json').exists():
+        from .south_central_review import render_reports as south_central_reports
+        new_contents, new_summary = south_central_reports(root, tables)
+        contents.update(new_contents)
+        audit['south_central_batch'] = new_summary
+        audit['states_with_screening_only_research'] = [r['state'] for r in new_summary['state_summary']
+            if r['programme_records']==0]
+        reviewed = set(audit['states_with_integrated_program_evidence']) | set(audit['states_with_screening_only_research'])
+        audit['states_with_structural_research'] = sorted(reviewed)
+        audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states']
+            if r['state_code'] not in reviewed]
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

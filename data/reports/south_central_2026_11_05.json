@@ -1,0 +1,91 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 101,
+  "school_units": 86,
+  "public_source_documents": 79,
+  "state_summary": [
+    {
+      "state": "AL",
+      "programme_records": 1,
+      "school_units": 1,
+      "confirmed_qualifying_reference_school_units": 1,
+      "elementary_reference_school_units": 1,
+      "elementary_reference_schools_with_numerical_model": 0,
+      "elementary_reference_model_coverage_pct": 0.0,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "AR",
+      "programme_records": 2,
+      "school_units": 2,
+      "confirmed_qualifying_reference_school_units": 0,
+      "elementary_reference_school_units": 0,
+      "elementary_reference_schools_with_numerical_model": 0,
+      "elementary_reference_model_coverage_pct": null,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "LA",
+      "programme_records": 73,
+      "school_units": 62,
+      "confirmed_qualifying_reference_school_units": 57,
+      "elementary_reference_school_units": 43,
+      "elementary_reference_schools_with_numerical_model": 20,
+      "elementary_reference_model_coverage_pct": 46.5,
+      "secondary_6_plus_reference_units_excluded": 14,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "MS",
+      "programme_records": 0,
+      "school_units": 0,
+      "confirmed_qualifying_reference_school_units": 0,
+      "elementary_reference_school_units": 0,
+      "elementary_reference_schools_with_numerical_model": 0,
+      "elementary_reference_model_coverage_pct": null,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "OK",
+      "programme_records": 25,
+      "school_units": 21,
+      "confirmed_qualifying_reference_school_units": 15,
+      "elementary_reference_school_units": 14,
+      "elementary_reference_schools_with_numerical_model": 3,
+      "elementary_reference_model_coverage_pct": 21.4,
+      "secondary_6_plus_reference_units_excluded": 1,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Partial structural research, not a statewide census or a contemporaneous annual roster.",
+    "2025–26 operation assessment is separate from source publication dates and later starts, moves, closures and governance changes.",
+    "Mississippi has screened sources but no verified programme in this pass; this is not evidence of statewide absence.",
+    "Government map and certified-site lists are different selections; actual source rows and aliases are retained.",
+    "School/campus keys are provisional reporting identities. Source grade context does not establish durable NCES programme crosswalks or stable cohorts.",
+    "Published percentage ranges and pupil-language balance do not become single instructional allocation models.",
+    "Numerical model information across source periods is not exact K exposure, named-language shares for every model, or every-strand completeness.",
+    "Language classes, adult provision and preschool/summer networks remain separate screening evidence.",
+    "New proficiency, context, EL-exit and SEDA collection remains deferred."
+  ],
+  "states_with_programme_records": [
+    "AL",
+    "AR",
+    "LA",
+    "OK"
+  ],
+  "screened_only_states": [
+    "MS"
+  ],
+  "source_reconciliation_counts": {
+    "codofil_actual_map_rows": 35,
+    "state_certification_site_rows": 24,
+    "calcasieu_language_school_rows": 13,
+    "jefferson_two_way_spanish_host_rows": 11
+  }
+}
