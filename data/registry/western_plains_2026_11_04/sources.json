@@ -1,0 +1,962 @@
+[
+  {
+    "key": "wp_az_bologna",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_bologna.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_bologna.html.metadata.json",
+    "title": "Spanish Dual Language Immersion",
+    "url": "https://bologna.cusd80.com/academics/spanish-dual-language-immersion",
+    "retrieved_at": "2026-11-04T21:07:13.963916+00:00",
+    "sha256": "06f7c685720bdba9c6a612efe195b0912439bbae26fc603b28eac7eadd9e6b2c",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_chandler",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_chandler.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_chandler.html.metadata.json",
+    "title": "Dual Language Immersion",
+    "url": "https://www.cusd80.com/departments/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:45:19.654722+00:00",
+    "sha256": "98134e95fde3cd0f42b45dac70455dbbe0ec87f37db3b471182c4cf9b96c8a9d",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_creighton",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_creighton.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_creighton.html.metadata.json",
+    "title": "Curriculum and Instruction - Creighton School District 14",
+    "url": "https://www.creightonschools.org/departments/curriculum-and-instruction",
+    "retrieved_at": "2026-11-04T20:43:35.584009+00:00",
+    "sha256": "374b27d2ce00faff1d62c297808f0adaaaf4706709ceae9745398b66f1667ce8",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_desertwillow",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_desertwillow.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_desertwillow.html.metadata.json",
+    "title": "Spanish Immersion - Desert Willow Elementary School",
+    "url": "https://dwes.ccusd93.org/spanish-immersion",
+    "retrieved_at": "2026-11-04T20:43:36.210301+00:00",
+    "sha256": "6274743c38e22b3f99fee2dafa8303bdd5e5a9617976196dece29650163ed866",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_higley_mandarin",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_higley_mandarin.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_higley_mandarin.html.metadata.json",
+    "title": "Mandarin",
+    "url": "https://www.husd.org/about-husd/kindergarten/mandarin",
+    "retrieved_at": "2026-11-04T20:45:19.657871+00:00",
+    "sha256": "7b89096a82b1236844c2784b7e8e73cfbb03402687384abb0abf913537443d03",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_kyrene",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_kyrene.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_kyrene.html.metadata.json",
+    "title": "Dual Language Immersion at Kyrene de los Lagos",
+    "url": "https://lag.kyrene.org/about-us/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:45:19.655516+00:00",
+    "sha256": "b006b1bc710b59bfddaf7edf49500ffe7969cfcddcca7267ba3aa8fd19d7f234",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_mesa_guerrero_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_mesa_guerrero_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_mesa_guerrero_rendered.html.metadata.json",
+    "title": "Dual Language | Guerrero Elementary",
+    "url": "https://guerrero.mpsaz.org/page/dual-language",
+    "retrieved_at": "2026-11-04T20:55:20.987127+00:00",
+    "sha256": "d87b5c8a1bf8eff52036601053405a5c0c58a186ddc468f903b8847f84e49895",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_az_mesa_hermosa25_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_mesa_hermosa25_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_mesa_hermosa25_rendered.html.metadata.json",
+    "title": "Programs & Activities | Hermosa Vista Elementary",
+    "url": "https://hermosavista.mpsaz.org/o/hermosa/page/programs-and-activities",
+    "retrieved_at": "2026-11-04T20:55:30.597445+00:00",
+    "sha256": "376649249f1fe78fefd4a1edb39212fd030f55353de4f2eacad2ce5981863498",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_az_mesa_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_mesa_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_mesa_rendered.html.metadata.json",
+    "title": "Dual Language | Mesa Public Schools",
+    "url": "https://www.mpsaz.org/page/dual-language",
+    "retrieved_at": "2026-11-04T20:55:24.489064+00:00",
+    "sha256": "bdd6ac737e72a63e6c101d040b972a74ee0988539b0d0536fb68ddcd89569466",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_az_navegante_js",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_navegante_js.js",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_navegante_js.js.metadata.json",
+    "title": "wp_az_navegante_js",
+    "url": "https://naveganteaz.com/assets/index-BpOI0y_9.js",
+    "retrieved_at": "2026-11-04T20:30:28.222229+00:00",
+    "sha256": "0538e01b612232ea4a6a1a942350a226eed4f05c51488d6becdc396f8ee26802",
+    "archive_kind": "exact_public_response_excerpt_bytes_516565_580803; full application bundle not archived"
+  },
+  {
+    "key": "wp_az_osborn",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_osborn.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_osborn.html.metadata.json",
+    "title": "Overview",
+    "url": "https://www.osbornschools.org/special-programs/dual-language-program/overview",
+    "retrieved_at": "2026-11-04T20:41:14.589564+00:00",
+    "sha256": "6f23f2e9ebfb004a5d5a56047a8e808e554e164e8239997219126babaf6098dd",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_osborn_longview_form",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_osborn_longview_form.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_osborn_longview_form.html.metadata.json",
+    "title": "Schedule a Tour of Longview Elementary ~  Programe una visita guiada a Escuela Primaria Longview",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdHvWuD5oSoNARztqQiE5tf8bT-XJbGkdpV_ow1yrJcvBUPWw/viewform?usp=header",
+    "retrieved_at": "2026-11-04T21:09:38.334125+00:00",
+    "sha256": "ee8759fb5be235816be597dabc1f8c75029d2672ae829fd6dae3017f81f7e582",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_osborn_sites",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_osborn_sites.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_osborn_sites.html.metadata.json",
+    "title": "Participating Schools/Grades",
+    "url": "https://www.osbornschools.org/special-programs/dual-language-program/participating-schoolsgrades",
+    "retrieved_at": "2026-11-04T20:47:29.921475+00:00",
+    "sha256": "eb6926f2aa863925174d1e32beab526a00cb48f4d76a0cd0f893867fd4c96eb5",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_osborn_solano_form",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_osborn_solano_form.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_osborn_solano_form.html.metadata.json",
+    "title": "Schedule a Tour of Solano Elementary ~  Programe una visita guiada a Escuela Primaria Solano",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSecH1UbiLs8R0_uhds7_WlRTTD6RbPPCOcXHdKY7C5x_SJPxA/viewform?usp=header",
+    "retrieved_at": "2026-11-04T21:09:38.334894+00:00",
+    "sha256": "0e7bcf775ce56502d18706e204cc65bb299878bea7be6b50b2cf4de4a890126b",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_phoenix1_25",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_phoenix1_25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_phoenix1_25.html.metadata.json",
+    "title": "Dual Language Immersion",
+    "url": "https://www.phxschools.org/district-82/reimagine-phoenix-1/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:43:35.582587+00:00",
+    "sha256": "0c0fa8c975fef9e50b7174b1cb9ab490c45758b5f84994e56b3ac324742831b1",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_phoenix1_handbook",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_phoenix1_handbook.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_phoenix1_handbook.pdf.metadata.json",
+    "title": "wp_az_phoenix1_handbook",
+    "url": "https://resources.finalsite.net/images/v1749470558/phxschoolsorg/vvnufeu4e2visklyvmip/dliprogramhandbook_k-8.pdf",
+    "retrieved_at": "2026-11-04T20:43:35.583356+00:00",
+    "sha256": "fa343a05b64e21cf3e1f60659c36658e5ed31282b4dbf7659333d4d9963b83ab",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_puente",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_puente.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_puente.html.metadata.json",
+    "title": "Puente de Hozho Elementary School - Academics",
+    "url": "https://pdh.fusd1.org/academics",
+    "retrieved_at": "2026-11-04T20:41:16.529483+00:00",
+    "sha256": "2f8e6ab4d247d804fd1d9edee56710bcb9e24689323b9fb12e9ccdfdfdaf32fd",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_puente_dine",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_puente_dine.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_puente_dine.html.metadata.json",
+    "title": "Puente de Hozho Elementary School - Dual Language Immersion",
+    "url": "https://pdh.fusd1.org/250604_2",
+    "retrieved_at": "2026-11-04T20:42:47.849520+00:00",
+    "sha256": "54bc3d49496ba51a9e3723cd75bc66abdbac7be337b46335223c7bb51f0b68e5",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_puente_policy",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_puente_policy.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_puente_policy.html.metadata.json",
+    "title": "Puente de Hozho Elementary School - Language Policy",
+    "url": "https://pdh.fusd1.org/250425_2",
+    "retrieved_at": "2026-11-04T20:42:47.850480+00:00",
+    "sha256": "7079bca32048b9543a800481b1681974156d4aaf898f614e59212653d73a74ae",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_pv_mandarin",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_pv_mandarin.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_pv_mandarin.html.metadata.json",
+    "title": "Mandarin Immersion Program - Paradise Valley Unified School District",
+    "url": "https://www.pvschools.net/fs/pages/10577",
+    "retrieved_at": "2026-11-04T20:48:01.862179+00:00",
+    "sha256": "e658d0bb844f97d2f3f2eb412351d3a13a62ba7de71171253d7e6642596be05f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_pv_spanish",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_pv_spanish.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_pv_spanish.html.metadata.json",
+    "title": "Spanish Immersion Program  - Paradise Valley Unified School District",
+    "url": "https://www.pvschools.net/fs/pages/10657",
+    "retrieved_at": "2026-11-04T20:48:02.556143+00:00",
+    "sha256": "7d617b4f6ae3420eed905c9f3201716cb2c7edc771377623e5ff80cdcd560e70",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_santan",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_santan.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_santan.html.metadata.json",
+    "title": "Dual Language Immersion Program - Spanish - San Tan Elementary School",
+    "url": "https://santan.husd.org/programsservices/dual-language-immersion-program-spanish",
+    "retrieved_at": "2026-11-04T20:45:19.657119+00:00",
+    "sha256": "8bcfe3beaa34b70bcd2b729c32cfb9623c7d6b16abbd7e519db3ae9ed96c305f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_scottsdale",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_scottsdale.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_scottsdale.html.metadata.json",
+    "title": "Dual Language Immersion - Scottsdale Unified School District 48",
+    "url": "https://www.susd.org/academics/academic-programs/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:41:14.998698+00:00",
+    "sha256": "b3b6a1a3cb0dc551032e05972bc11f9a866285a652f3ddf98c9f003e495d7ee8",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_tarwater_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_tarwater_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_tarwater_rendered.html.metadata.json",
+    "title": "Mandarin Program",
+    "url": "https://tarwater.cusd80.com/academics/mandarin-program",
+    "retrieved_at": "2026-11-04T20:45:00.170783+00:00",
+    "sha256": "2c139a2d5aa481529b4d556a27a26adc1fd77a334d898d921a6ef33a296d41cc",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_az_tusd_article23_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_tusd_article23_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_tusd_article23_rendered.html.metadata.json",
+    "title": "Two-Way Dual Language Program Details",
+    "url": "https://www.tusd1.org/article-20230227-two-way-dual-language",
+    "retrieved_at": "2026-11-04T20:59:45.536975+00:00",
+    "sha256": "8eafd82e123900b9907d8688652953288fa18a9081cbce17c959b33ae38fec68",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_az_tusd_pathways23",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_tusd_pathways23.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_tusd_pathways23.pdf.metadata.json",
+    "title": "TUSD Two-Way Dual Language Pathways March 2023",
+    "url": "https://www.tusd1.org/_theme/files/dual-language/22-23/202303-twdl-pathways-en.pdf",
+    "retrieved_at": "2026-11-04T21:07:53.839044+00:00",
+    "sha256": "b94af673bab297ec2881ed565846ffb34c6474e7c9ec016d6bffe1a1d10118e5",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_az_tusd_program_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_az_tusd_program_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_az_tusd_program_rendered.html.metadata.json",
+    "title": "Two Way Dual Language Programs",
+    "url": "https://www.tusd1.org/two-way-dual-language-program",
+    "retrieved_at": "2026-11-04T20:54:20.799393+00:00",
+    "sha256": "8f776604f5a72790381a8ea9b2228e198da242d78f1546b500d1c4f826b74ca3",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_co_axis_elem",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_axis_elem.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_axis_elem.html.metadata.json",
+    "title": "Elementary School – Programs – AXIS International Academy",
+    "url": "https://www.axiscolorado.org/apps/pages/index.jsp?uREC_ID=1542566&type=d&pREC_ID=1670645",
+    "retrieved_at": "2026-11-04T20:48:02.966975+00:00",
+    "sha256": "bea92e8777e3b3581be2137e5276ddb665c8f141cc0bc28b4bbcffb493b20bc6",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_boltz",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_boltz.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_boltz.html.metadata.json",
+    "title": "Dual Language Program | Boltz Middle School",
+    "url": "https://bol.psdschools.org/har/academics/dual-language-program",
+    "retrieved_at": "2026-11-04T20:45:42.060245+00:00",
+    "sha256": "8f2321e6ab691045b66fceca9d80b3c0fa4686ae80c8efc9d35eeb7dd3310fd9",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_bvsd",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_bvsd.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_bvsd.html.metadata.json",
+    "title": "Dual Language Programming - Boulder Valley School District",
+    "url": "https://www.bvsd.org/parents-students/academics/language-and-culture/dual-language-programming",
+    "retrieved_at": "2026-11-04T20:42:26.720225+00:00",
+    "sha256": "1f27a254556ae2457b05ba19d49915b29e7931fbf13d8aa8e91ca0dbd6da5fb5",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_cila_languages",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_cila_languages.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_cila_languages.html.metadata.json",
+    "title": "Colorado International Language Academy | Which Language to Choose",
+    "url": "https://cilaschool.org/curriculum-activities/language-immersion/which-language-to-choose/",
+    "retrieved_at": "2026-11-04T20:47:29.402802+00:00",
+    "sha256": "8527fbd417270203a5e2d73a4550d6190bceee4759f307116f135bf70d0e589c",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_denverlanguage",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_denverlanguage.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_denverlanguage.html.metadata.json",
+    "title": "About Us - Denver Language School",
+    "url": "https://www.denverlanguageschool.org/about-us",
+    "retrieved_at": "2026-11-04T20:45:40.951854+00:00",
+    "sha256": "421adb0c3895f262dc2dbe6c26f6e92996f3a6d1d33817fab0ec46ea2e8b843a",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_dps_glance",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_dps_glance.txt",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_dps_glance.txt.metadata.json",
+    "title": "wp_co_dps_glance",
+    "url": "https://docs.google.com/document/d/1dagplFEsVtbCMBZp6YvJrnMq7N3xEZuxHTpvwVttvBk/export?format=txt",
+    "retrieved_at": "2026-11-04T20:48:01.859495+00:00",
+    "sha256": "0b9d0099f08bf5df728d32f129e6a4cfea6a0954503835ab4b31398618aae3fd",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_eagle",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_eagle.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_eagle.html.metadata.json",
+    "title": "Dual Language - Eagle County School District Re-50J",
+    "url": "https://www.eagleschools.net/departments/multilingual-education/dual-language",
+    "retrieved_at": "2026-11-04T20:42:26.722629+00:00",
+    "sha256": "dee2e2327d19fee7b26962443fa6c7f1797ce472d7150756c8b9871333b2dcfa",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva25",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva25.html.metadata.json",
+    "title": "2025 Global Village Academy Community Report – GVAC Strategic Plan & Community Report – Global Village Academy Collaborative",
+    "url": "https://www.gvaschools.org/apps/pages/index.jsp?uREC_ID=4460970&type=d&pREC_ID=2731420",
+    "retrieved_at": "2026-11-04T20:42:27.585846+00:00",
+    "sha256": "68a9735f55ad35f75f3a8067ed083b1a900ceafff1c89f4c9492ba74a1441c6a",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva_aurora",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva_aurora.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva_aurora.html.metadata.json",
+    "title": "Global Village Academy Aurora calendar",
+    "url": "https://aurora.gvaschools.org/",
+    "retrieved_at": "2026-11-04T20:42:47.852952+00:00",
+    "sha256": "a32641d985021412931da4051252284609a311c9fa1540a12d53d55e81a89a50",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva_aurora_lang",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva_aurora_lang.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva_aurora_lang.html.metadata.json",
+    "title": "Which Language to Choose – Language Immersion – Global Village Academy Aurora",
+    "url": "https://aurora.gvaschools.org/apps/pages/index.jsp?uREC_ID=1528822&type=d&pREC_ID=1662904",
+    "retrieved_at": "2026-11-04T20:52:08.760682+00:00",
+    "sha256": "e79f3db6e0e7d3f88e4b7cc4bf4a405f79fc1205dc9860b445213f41425e6a26",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva_douglas",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva_douglas.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva_douglas.html.metadata.json",
+    "title": "Best Language Immersion Charter School in Parker CO | GVA",
+    "url": "https://douglascounty.gvaschools.org/",
+    "retrieved_at": "2026-11-04T20:42:48.566511+00:00",
+    "sha256": "ce5082451b8bf727f42d057311f2868f343c943a42d633ea32090802991c3c6d",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva_douglas_lang",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva_douglas_lang.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva_douglas_lang.html.metadata.json",
+    "title": "Which Language to Choose – Language Immersion – Global Village Academy Douglas County",
+    "url": "https://douglascounty.gvaschools.org/apps/pages/index.jsp?uREC_ID=1538199&type=d&pREC_ID=1668137",
+    "retrieved_at": "2026-11-04T20:52:08.761741+00:00",
+    "sha256": "236319b6bec8fa83ece496d76bf2dc46a4b25be13cb84acba42adda7fc60fa74",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_gva_russian",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_gva_russian.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_gva_russian.html.metadata.json",
+    "title": "Russian Student Award Winners – Russian Village – Global Village Academy North",
+    "url": "https://north.gvaschools.org/apps/pages/index.jsp?uREC_ID=4411284&type=d&pREC_ID=2642426",
+    "retrieved_at": "2026-11-04T20:52:35.896782+00:00",
+    "sha256": "dd50c3f00b603c7aa7fba6764a74638909576f3e402458a2f46a9ee5c926d068",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_harris",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_harris.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_harris.html.metadata.json",
+    "title": "Language Development | Harris Bilingual",
+    "url": "https://har.psdschools.org/bol/about-us/language-development",
+    "retrieved_at": "2026-11-04T20:45:41.569704+00:00",
+    "sha256": "91713a277b1bd1c7e703ee8824a1c4bd4f57237dff96239b21d585a867919eee",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_irish_model",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_irish_model.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_irish_model.html.metadata.json",
+    "title": "Dual Language Immersion | Irish Elementary Escuela Bilingüe",
+    "url": "https://iri.psdschools.org/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:50:13.609249+00:00",
+    "sha256": "2ead8fcd5041e683ee13bf7efc53b02c722bd18397ce78ee14879c1fb5e61713",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_jeffco",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_jeffco.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_jeffco.html.metadata.json",
+    "title": "Dual Language - Jeffco Public Schools",
+    "url": "https://www.jeffcopublicschools.org/learning/dual-language",
+    "retrieved_at": "2026-11-04T20:42:26.723413+00:00",
+    "sha256": "c4350e1caa93a32d4e273051c6b592e7562b175f72f2c008eb582505373a4018",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_mesa",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_mesa.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_mesa.html.metadata.json",
+    "title": "Culturally & Linguistically Diverse Education  - Mesa County Valley School District 51",
+    "url": "https://www.d51schools.org/academics01/teaching-and-learning/culturally-linguistically-diverse-education",
+    "retrieved_at": "2026-11-04T20:45:42.185342+00:00",
+    "sha256": "0f39b140335a921ebcb2ec72165300493055428e860245145b7c9c0eeb0bd54b",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_morgan",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_morgan.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_morgan.html.metadata.json",
+    "title": "About Us - Columbine Elementary School",
+    "url": "https://columbine.fortmorgank12.com/about/about-us",
+    "retrieved_at": "2026-11-04T21:00:48.404520+00:00",
+    "sha256": "0ab787dab59508a024e7308b8f706d4fa3844ef444b2eb4b23025ca5f8ffd1a7",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_riverview",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_riverview.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_riverview.html.metadata.json",
+    "title": "Dual Language - Riverview School",
+    "url": "https://rs.rfschools.com/en-US/dual-language-20e23b75",
+    "retrieved_at": "2026-11-04T20:45:42.707143+00:00",
+    "sha256": "2b3010e2bc066b2fbac9d0faecf458522215f536708404ae808c07d4c2933d56",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_rogers_district",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_rogers_district.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_rogers_district.html.metadata.json",
+    "title": "Dual Language Immersion Program / El Programa de Dos Idiomas - Colorado Springs Schools District 11",
+    "url": "https://www.d11.org/academics/dual-language-immersion-program-el-programa-de-dos-idiomas",
+    "retrieved_at": "2026-11-04T20:50:13.608593+00:00",
+    "sha256": "1c9c34b840ad608d1f5f350ef86dc7c3b50d2516a4897cc91f6d7e67e8ea810c",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_rogers_model",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_rogers_model.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_rogers_model.html.metadata.json",
+    "title": "Rogers Elementary School Dual Language Immersion (DLI) Program | Bilingual Education in Colorado Springs",
+    "url": "https://rogers.d11.org/dli/home",
+    "retrieved_at": "2026-11-04T20:50:13.607691+00:00",
+    "sha256": "130b089e7e5c74cdad83fd6e10a86a6da605b1bb745eab5be2de86f4a6586024",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_roster",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_roster.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_roster.html.metadata.json",
+    "title": "Districts & Schools Implementing - Colorado Department of Education",
+    "url": "https://ed.cde.state.co.us/clde/coloradoduallanguageimmersion/districtsandschoolsimplementingdli",
+    "retrieved_at": "2026-11-04T20:26:06.120956+00:00",
+    "sha256": "c2f2d7cfbdf0d06090ef1ea7972f6e9ee041245879a4c8899f81c539f911a7a9",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_salida_model",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_salida_model.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_salida_model.html.metadata.json",
+    "title": "Why Salida del Sol? | Salida del Sol Academy",
+    "url": "https://www.salidadelsolacademy.org/dual-language-model",
+    "retrieved_at": "2026-11-04T20:50:13.610095+00:00",
+    "sha256": "fac7cc2e9f3f9bf8b4e328cd3c5f81419dea82dedee6ab5fe1981e3a487317c0",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_salidadelsol",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_salidadelsol.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_salidadelsol.html.metadata.json",
+    "title": "Salida del Sol Academy | Dual Language Education",
+    "url": "https://www.salidadelsolacademy.org/",
+    "retrieved_at": "2026-11-04T20:49:30.286993+00:00",
+    "sha256": "0863f44b29939aaa39beff2a6a565d38f1e0a625b9a30046afa7d3325fdb28fc",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_stetson",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_stetson.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_stetson.html.metadata.json",
+    "title": "OWL Dual Language Immersion   - Stetson Elementary School",
+    "url": "https://ses.d49.org/classes-activities/owl-language-immersion",
+    "retrieved_at": "2026-11-04T20:45:40.943009+00:00",
+    "sha256": "655206757ab5ccd2fbe5302cc39f660d89023f5b3eeeb48ec9c8b18d7308ff25",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_stetson_faq",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_stetson_faq.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_stetson_faq.html.metadata.json",
+    "title": "OWL Frequently Asked Questions | Preguntas frecuentes",
+    "url": "https://ses.d49.org/classes-activities/owl-language-immersion/owl-frequently-asked-questions-preguntas-frecuentes",
+    "retrieved_at": "2026-11-04T20:45:40.943552+00:00",
+    "sha256": "c85aa89d83a87611694a00f8e3bc758e59524d6cef9870625496a1f1a4f1b4a1",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_stetson_model",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_stetson_model.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_stetson_model.html.metadata.json",
+    "title": "OWL Dual Language Immersion |Inmersi&#243;n Biling&#252;e OWL",
+    "url": "https://ses.d49.org/classes-activities/owl-language-immersion/owl-dual-language-immersion-inmersi243n-biling252e-owl",
+    "retrieved_at": "2026-11-04T20:47:29.405098+00:00",
+    "sha256": "af3afa73e963029c7c11c24085251444f99515e5b23599662087c3f90b673e5e",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_summit",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_summit.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_summit.html.metadata.json",
+    "title": "Dual Language Program - Summit School District",
+    "url": "https://www.summitk12.org/learning-services/dual-language-program",
+    "retrieved_at": "2026-11-04T20:42:27.356115+00:00",
+    "sha256": "57c8e087daa4fd8b169c3428d786c30d72927fa09c04fd41455efced0fb918d0",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_telluride",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_telluride.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_telluride.html.metadata.json",
+    "title": "Dual Immersion - Telluride School District R-1",
+    "url": "https://www.tellurideschool.org/dualimmersion",
+    "retrieved_at": "2026-11-04T20:45:42.825067+00:00",
+    "sha256": "47b43e2cd00f157011826b43e51a61197c252b9f75336080b1b5744479e0d5d7",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_co_thompson",
+    "path": "data/raw/western_plains_2026_11_04/wp_co_thompson.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_co_thompson.html.metadata.json",
+    "title": "Dual Language Program - Thompson School District",
+    "url": "https://www.tsd.org/academics/programs/dual-language",
+    "retrieved_at": "2026-11-04T20:42:26.724718+00:00",
+    "sha256": "3ab7a031740dd43c2f57ef86a507bd76f8aff29b2a852611e4ef0d8266afafec",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_bv_change26",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_bv_change26.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_bv_change26.html.metadata.json",
+    "title": "Blue Valley families question Chinese Immersion cut as district warns of $10M shortfall",
+    "url": "https://www.kctv5.com/2026/10/15/blue-valley-families-question-chinese-immersion-cut-district-warns-10m-shortfall/",
+    "retrieved_at": "2026-11-04T20:36:31.010203+00:00",
+    "sha256": "db1da79df8cc95914e543668189e5ff35dbde0541db77947734fc2ea4dd67449",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_bv_elem",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_bv_elem.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_bv_elem.html.metadata.json",
+    "title": "Elementary School Chinese Immersion - Blue Valley Unified School District 229",
+    "url": "https://www.bluevalleyk12.org/programs/immersion/elementary",
+    "retrieved_at": "2026-11-04T20:36:31.008706+00:00",
+    "sha256": "c8dba7c73061c2490cea7e830895622ee9878a60646ff548ed599fa3274bdd04",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_bv_middle",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_bv_middle.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_bv_middle.html.metadata.json",
+    "title": "Middle School Chinese Immersion - Blue Valley Unified School District 229",
+    "url": "https://www.bluevalleyk12.org/programs/immersion/middle-school-chinese-immersion",
+    "retrieved_at": "2026-11-04T20:36:31.009501+00:00",
+    "sha256": "27eccd88087a81ce291969c8c6285f919c8dc5e0d0044e4abb4b6a94d0cbd333",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_bv_middle_info",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_bv_middle_info.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_bv_middle_info.pdf.metadata.json",
+    "title": "wp_ks_bv_middle_info",
+    "url": "https://www.bluevalleyk12.org/fs/resource-manager/view/8c3708a7-7897-405a-819a-223a64cf5aca",
+    "retrieved_at": "2026-11-04T20:48:01.861534+00:00",
+    "sha256": "62c9547061b153baf9ca43cf6c92dda29a9e698bc2f25a7751ddd07fc620783b",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_kck_dl",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_kck_dl.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_kck_dl.html.metadata.json",
+    "title": "Kansas City, Kansas Public Schools - Dual Language Program",
+    "url": "https://www.kckschools.org/dual-language-program",
+    "retrieved_at": "2026-11-04T20:42:47.852300+00:00",
+    "sha256": "acb8dfe9d827bac2a2d46441e8cc5e2d86afa5c57997dfa2ad4937242e2da0de",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_newstanley_change25",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_newstanley_change25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_newstanley_change25.html.metadata.json",
+    "title": "New Stanley Elementary School to remain open for now - Beacon: Kansas City x linkedin",
+    "url": "https://thebeaconnews.org/stories/2025/12/10/new-stanley-elementary-school-open/",
+    "retrieved_at": "2026-11-04T20:44:20.948232+00:00",
+    "sha256": "0fd2740c6c77fbc8d0d5d8da9da9e26fb1591c39726e082a6139161eb4d46bf1",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_olathe",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_olathe.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_olathe.html.metadata.json",
+    "title": "Immersion Program",
+    "url": "https://www.olatheschools.org/academics/spanish-immersion-program",
+    "retrieved_at": "2026-11-04T20:33:55.466105+00:00",
+    "sha256": "4218f8f0e5b8fa0d1adde4dee4c313f779ee331136e9462788e39751b37a095f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_olathe_brochure25",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_olathe_brochure25.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_olathe_brochure25.pdf.metadata.json",
+    "title": "wp_ks_olathe_brochure25",
+    "url": "https://resources.finalsite.net/images/v1757949459/olatheschoolsorg/ambuh7g1kv6cyncbuk8h/dual-language-immersion-brochure-Spanish-091525.pdf",
+    "retrieved_at": "2026-11-04T20:33:55.466519+00:00",
+    "sha256": "0e77f69849d40ae1b8654e1e8a01e8a63b0fe6874bcaa5b5ac54d98a007ec85f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_olathe_change26",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_olathe_change26.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_olathe_change26.html.metadata.json",
+    "title": "Boundaries and School Closures - Olathe Public Schools",
+    "url": "https://www.olatheschools.org/students-and-families/boundaries-and-school-consolidations",
+    "retrieved_at": "2026-11-04T20:59:31.261482+00:00",
+    "sha256": "a6e1daf39f3d52bb354b08ed5b788c0559b89fc059cdfb78e4a742d3fc01b797",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_topeka",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_topeka.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_topeka.html.metadata.json",
+    "title": "Dual Language Program - Topeka Public Schools",
+    "url": "https://www.topekapublicschools.net/departments/cultural_innovation/dual_language_program",
+    "retrieved_at": "2026-11-04T20:28:22.166510+00:00",
+    "sha256": "af52c8b53ff276b93aa7f3e97d1be7f19949da336e053c0eb43e347e170b93e5",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_topeka_elementary",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_topeka_elementary.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_topeka_elementary.html.metadata.json",
+    "title": "Elementary Program - Topeka Public Schools",
+    "url": "https://www.topekapublicschools.net/departments/cultural_innovation/dual_language_program/elementary_program",
+    "retrieved_at": "2026-11-04T20:30:27.809843+00:00",
+    "sha256": "ba4a816d55767fb2e21dc384a61256860af43daf071ddab3c746826524c9092a",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_topeka_secondary",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_topeka_secondary.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_topeka_secondary.html.metadata.json",
+    "title": "Secondary Program - Topeka Public Schools",
+    "url": "https://www.topekapublicschools.net/departments/cultural_innovation/dual_language_program/secondary_program",
+    "retrieved_at": "2026-11-04T20:30:27.810026+00:00",
+    "sha256": "7cedd460aa46a542effcb5df0b8e0a2227377315619ff56a3b3c7dbbf599ab93",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ks_wichita_mann",
+    "path": "data/raw/western_plains_2026_11_04/wp_ks_wichita_mann.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ks_wichita_mann.html.metadata.json",
+    "title": "Our School - Horace Mann K-8 Dual Language Magnet",
+    "url": "https://horacemann.usd259.org/our-school",
+    "retrieved_at": "2026-11-04T20:36:31.010616+00:00",
+    "sha256": "d35405c1dc09f736ab625825ed9b9bbf889d73725ce1f9ac4cfa8d2ca49bbe44",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_connely",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_connely.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_connely.html.metadata.json",
+    "title": "Connely International Academy",
+    "url": "https://www.aesfukuoka.jp/cia",
+    "retrieved_at": "2026-11-04T20:49:10.630397+00:00",
+    "sha256": "cb43c4cf09fae953fac14d90402d0c895ce3d7866604a579176e5aebf4c39a3f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_dla",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_dla.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_dla.html.metadata.json",
+    "title": "Home - Dual Language Academy",
+    "url": "https://omahadla.org/",
+    "retrieved_at": "2026-11-04T20:49:10.205988+00:00",
+    "sha256": "7eb26b376630cca9a15ebe188d8ed870c207c2bed8f7525cee782fc1587f070b",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_fremont_news24",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_fremont_news24.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_fremont_news24.html.metadata.json",
+    "title": "Fremont residents say community embraces diversity, despite ordinance requiring legal status to rent property | Nebraska Public Media Nebraska Public Media Nebraska Public Media Search Close Menu Close Search Nebraska Public Media facebook twitter youtube instagram linkedin",
+    "url": "https://nebraskapublicmedia.org/en/news/news-articles/fremont-residents-say-community-embraces-diversity-despite-ordinance-requiring-legal-status-to-rent-property/",
+    "retrieved_at": "2026-11-04T20:42:48.753146+00:00",
+    "sha256": "5682ca63aca8215e76930b116398f468dfe6f45fdf34a7e0992a6f9322cdff62",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_fremont_rendered",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_fremont_rendered.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_fremont_rendered.html.metadata.json",
+    "title": "About Us | Washington Elementary School",
+    "url": "https://www.fremonttigers.org/o/wes/page/about-us/",
+    "retrieved_at": "2026-11-04T20:45:09.011631+00:00",
+    "sha256": "b2d105361718b7be886775bbd4d946e1448a6a5319d60ab715f2d6134b2faf69",
+    "archive_kind": "complete_rendered_public_HTML_snapshot; original HTTP body not archived"
+  },
+  {
+    "key": "wp_ne_friedel",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_friedel.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_friedel.html.metadata.json",
+    "title": "Judaic Studies | Friedel",
+    "url": "https://friedeljewishacademy.com/academics/judaic-studies/",
+    "retrieved_at": "2026-11-04T20:49:10.206969+00:00",
+    "sha256": "6e23f78d8c0525f4a9c256f5202819557379dcbd296fc1e997b543c7020a4fa9",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_lex",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_lex.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_lex.html.metadata.json",
+    "title": "Dual Language – Lexington Public Schools Icons",
+    "url": "https://lexschools.org/programs-services/dual-language/",
+    "retrieved_at": "2026-11-04T20:28:22.345629+00:00",
+    "sha256": "6bb0310c4755c308201fbfe40e12208b243b04f00625474e3cec23ddc41493bd",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_lex25",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_lex25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_lex25.html.metadata.json",
+    "title": "Dual Language Application 2025-26 – Lexington Public Schools",
+    "url": "https://lexschools.org/dual-language-application-2025-26/",
+    "retrieved_at": "2026-11-04T20:49:10.205459+00:00",
+    "sha256": "c5d63190889e4a117d629147e5ef96e30637d04d67f5722b74377d1327a00be3",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_ops",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_ops.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_ops.html.metadata.json",
+    "title": "Dual Language - Omaha Public Schools",
+    "url": "https://www.ops.org/departments/curriculum-and-instruction-support/dual-language",
+    "retrieved_at": "2026-11-04T20:28:22.247107+00:00",
+    "sha256": "c7a7ba92e518db322767b83114e1fba2f8f1e9314d43f7830b21523b30c0d3fa",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ne_state",
+    "path": "data/raw/western_plains_2026_11_04/wp_ne_state.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ne_state.html.metadata.json",
+    "title": "Dual Language Immersion in Nebraska – Nebraska Department of Education",
+    "url": "https://www.education.ne.gov/worldlanguage/dual-language/",
+    "retrieved_at": "2026-11-04T20:26:06.686082+00:00",
+    "sha256": "77b1ac17090ee7a86fa0c07697d1f5e76edb57935388ba0fbee0ede36d4aabb2",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_armijo",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_armijo.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_armijo.html.metadata.json",
+    "title": "Dual Language & English Strand Programs - Armijo Elementary School",
+    "url": "https://armijo.aps.edu/our-school/dual-language",
+    "retrieved_at": "2026-11-04T20:52:02.986178+00:00",
+    "sha256": "58f5188c68f48955964f29c174e6e611dee131f181654555c74d5bf6585cde94",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_asla_story",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_asla_story.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_asla_story.html.metadata.json",
+    "title": "Our Story - The ASL Academy",
+    "url": "https://www.aslacademy.com/our-story/",
+    "retrieved_at": "2026-11-04T20:52:35.897454+00:00",
+    "sha256": "4f50cd62193e8af06c2876d52000c48e710a16cec9dc9c74853ced77f352c970",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_corrales",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_corrales.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_corrales.html.metadata.json",
+    "title": "Bilingual Academics - Corrales International School",
+    "url": "https://corralesis.org/bilingual-academics/",
+    "retrieved_at": "2026-11-04T20:52:02.985681+00:00",
+    "sha256": "2f5cb8fb51f03d0404215eacee8da7ccff39c513ec5a44c5b962735400636644",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_eric_pdf",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_eric_pdf.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_eric_pdf.pdf.metadata.json",
+    "title": "wp_nm_eric_pdf",
+    "url": "https://files.eric.ed.gov/fulltext/ED680535.pdf",
+    "retrieved_at": "2026-11-04T20:30:27.214914+00:00",
+    "sha256": "afb3d0c4eecd6764bc1d8de7f245dd71048ec8cafcab20a8dc60ed987307491e",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_farmington",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_farmington.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_farmington.html.metadata.json",
+    "title": "Bilingual Programs - Farmington Municipal Schools",
+    "url": "https://www.farmingtonschools.us/language-and-culture/bilingual-programs",
+    "retrieved_at": "2026-11-04T20:44:19.783088+00:00",
+    "sha256": "1c02c920a43e11a2985dd67201141f112ec9cfdeaedbdc48582c518fb6fc9ee3",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_features",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_features.json",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_features.json.metadata.json",
+    "title": "wp_nm_features",
+    "url": "https://services6.arcgis.com/zbiOJznElr9EGpUY/arcgis/rest/services/12_6_Updated_LanguagePrograms/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=json",
+    "retrieved_at": "2026-11-04T20:41:14.163775+00:00",
+    "sha256": "e3495778d2cfd258b07817380844e6d96d040e148010393ce284391cbb192ac0",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_nm_unm",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_unm.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_unm.html.metadata.json",
+    "title": "Multilingual Programs in New Mexico Interactive Map :: \n    \n            Lobo Language Acquisition Lab | The University of New Mexico",
+    "url": "https://lobolanguage.unm.edu/community-outreach/multilingual-education-programs-in-new-mexico-interactive-map.html",
+    "retrieved_at": "2026-11-04T20:26:06.352150+00:00",
+    "sha256": "86880b8d1e090f8b520dc62a3fb5bc5306c4299b44bf8f1ee08ff34fd0f2d9a0",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_cache_changes",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_cache_changes.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_cache_changes.html.metadata.json",
+    "title": "DLI Committee - Cache County School District",
+    "url": "https://www.ccsdut.org/fs/pages/13872",
+    "retrieved_at": "2026-11-04T20:41:14.164553+00:00",
+    "sha256": "9877007e99b6deb460a7c3fdb163ab24d7a237fbf90f1a18397a25959623d259",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_cache_form25",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_cache_form25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_cache_form25.html.metadata.json",
+    "title": "CCSD Dual Language Immersion Acceptance and Commitment Form for the 2025-26 School Year",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfAoDvfk5QxpQfIjnOZD-vO9w8OeCEejaJIvkYQsFIa4AlxGQ/viewform",
+    "retrieved_at": "2026-11-04T20:48:01.860962+00:00",
+    "sha256": "559c33373b53f11595e10dfa5bacb2aecd0897f591d1dd42d7b6192476fcdb3d",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_cache_main",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_cache_main.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_cache_main.html.metadata.json",
+    "title": "Dual Language Immersion (DLI) - Cache County School District",
+    "url": "https://www.ccsdut.org/programs/dli",
+    "retrieved_at": "2026-11-04T20:41:14.165565+00:00",
+    "sha256": "11019d05b34769bfaa7739aa18b73c31cd082e3ae9ac143803498fe003665307",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_davis",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_davis.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_davis.html.metadata.json",
+    "title": "Elementary Dual Language Immersion | Davis School District",
+    "url": "https://www.davis.k12.ut.us/o/dsd/page/elementary-dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:40:20.807534+00:00",
+    "sha256": "de2b1356faa348a1c97b4d02b820d7b6672b2f661d2a1972f82e6dcd4597b4cd",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_davis_change25",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_davis_change25.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_davis_change25.html.metadata.json",
+    "title": "Davis School District officials vote to end French dual-language program â Deseret News Play audio Skip back 15 seconds Play audio Skip forward 15 seconds Decrease playback rate Increase playback rate Skip back 15 seconds Play audio Skip forward 15 seconds",
+    "url": "https://www.deseret.com/education/2025/11/20/davis-school-district-officials-vote-to-end-french-dual-language-program/",
+    "retrieved_at": "2026-11-04T20:54:29.884912+00:00",
+    "sha256": "4e6ea97a82cab7bb7682cd1d2045f8b3de26a05a80e7476b960a022861e9c3b3",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_granite",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_granite.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_granite.html.metadata.json",
+    "title": "Dual Language Immersion Schools safe-ut-svg",
+    "url": "https://www.graniteschools.org/curriculuminstruction/dual-immersion/dual-language-immersion-schools/",
+    "retrieved_at": "2026-11-04T20:30:28.029917+00:00",
+    "sha256": "a90432156b4f9ce087c5218c0b0a3cd732ce0b7ce93e4f25a75d870448d94c5f",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_parkcity",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_parkcity.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_parkcity.html.metadata.json",
+    "title": "Dual Language Immersion - Park City School District",
+    "url": "https://www.pcschools.us/departments/teaching-and-learning/dual-language-immersion/",
+    "retrieved_at": "2026-11-04T20:44:19.782481+00:00",
+    "sha256": "5a984adb09cc348a49b3a89deb2bf3793eb26372f9d59678069c747c4c4c1f28",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_roster26",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_roster26.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_roster26.pdf.metadata.json",
+    "title": "wp_ut_roster26",
+    "url": "https://schools.utah.gov/curr/dualimmersion/resources/DLI-Schools_2026-27.pdf",
+    "retrieved_at": "2026-11-04T20:26:06.119424+00:00",
+    "sha256": "d0c835edcb0de3b7d2fdf2920d52e0c6f7477a266a787141ce3c05c144b6ae52",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_slc",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_slc.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_slc.html.metadata.json",
+    "title": "Salt Lake City School District - Dual Language Immersion",
+    "url": "https://www.slcschools.org/dual-immersion",
+    "retrieved_at": "2026-11-04T20:44:19.781745+00:00",
+    "sha256": "45915d4b5c9f901302902767bd21d68f617ad8e812b649be747c659bcbeec538",
+    "archive_kind": "full_public_response"
+  },
+  {
+    "key": "wp_ut_tooele",
+    "path": "data/raw/western_plains_2026_11_04/wp_ut_tooele.html",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_ut_tooele.html.metadata.json",
+    "title": "Dual Language Immersion - Tooele County School District",
+    "url": "https://www.tooeleschools.org/departments/teaching-learning-2/dual-language-immersion",
+    "retrieved_at": "2026-11-04T20:43:37.364179+00:00",
+    "sha256": "3cc3362a859bb84efb22e371ae8c4513434c2c0bf2934e0526836180bf236ae2",
+    "archive_kind": "full_public_response"
+  }
+]

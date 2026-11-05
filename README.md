@@ -2,15 +2,19 @@
 
 A longitudinal research dataset for dual-language programs across all **50 US states**, including all instructional languages. The national model separates school/program histories from three assessment layers: DL-participant reports, state assessments and context, and Stanford SEDA estimates.
 
-**Current phase: finish the structural program inventories for all 50 states before collecting additional proficiency data.** Existing research is integrated for California, Idaho, Montana, Nevada, Oregon and Wyoming, alongside the Texas/Washington pilots and Illinois seed. These nine states have partial structural evidence; this is not a completed national census. The other 41 states remain ahead. Existing assessment pilots are preserved; new proficiency, EL exit and SEDA collection is deferred.
+**Current phase: finish the structural program inventories for all 50 states before collecting additional proficiency data.** Partial structural evidence is integrated for **15 states**: Arizona, California, Colorado, Idaho, Illinois, Kansas, Montana, Nebraska, Nevada, New Mexico, Oregon, Texas, Utah, Washington and Wyoming. The latest first pass adds Utah, Colorado, New Mexico, Arizona, Nebraska and Kansas. The other **35 states** have no integrated programme working set yet; the represented states still have collection and verification gaps. Existing assessment pilots are preserved; new proficiency, EL exit and SEDA collection is deferred.
 
 ## Start here
 
 - [Architecture and interpretation](docs/methods/NATIONAL_DATA_MODEL.md)
 - [Table contracts and data dictionary](schemas/README.md)
-- [Structural integration status](docs/status/STRUCTURAL_INTEGRATION_2026_11_04.md), [state summary](data/reports/structural_integration_2026_11_04_by_state.csv) and [program review view](data/reports/structural_integration_2026_11_04_program_view.csv)
+- [Six-state research status](docs/status/WESTERN_PLAINS_2026_11_04.md), [batch coverage](data/reports/western_plains_2026_11_04_by_state.csv), [programme review view](data/reports/western_plains_2026_11_04_program_view.csv) and [remaining gaps](data/reports/western_plains_2026_11_04_backlog.csv)
+- [Current national state summary](data/reports/structural_inventory_2026_11_04_by_state.csv), [national programme view](data/reports/structural_inventory_2026_11_04_program_view.csv) and [preserved earlier nine-state milestone](docs/status/STRUCTURAL_INTEGRATION_2026_11_04.md)
 - [State/year/layer coverage](data/curated/coverage/state_year_layer_coverage.csv)
-- [Allocation coverage by state — saved baseline](docs/status/ALLOCATION_COVERAGE_2026_11_04.md) and [Texas Pass 51 update](docs/status/TEXAS_CLEANUP_PASS51_2026_11_04.md)
+- [Elementary allocation-model audit](docs/status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md), [reference-state percentages](data/reports/elementary_allocation_coverage_2026_11_04_reference_by_state.csv), [all recorded hosts](data/reports/elementary_allocation_coverage_2026_11_04_all_records_by_state.csv) and [school-level evidence](data/reports/elementary_allocation_coverage_2026_11_04_by_school.csv)
+- [Kindergarten allocation coverage and denominator rules](docs/status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md), [current counts](data/reports/kindergarten_allocation_coverage_2026_11_04_by_state.csv) and [school exclusions/unknowns](data/reports/kindergarten_allocation_coverage_2026_11_04_by_school.csv)
+- [Washington saved CSVs](data/registry/washington/README.md), including the [2025–26 DL records](data/registry/washington/wa_dl_programs_2025_26.csv)
+- [Earlier allocation/model-label baseline](docs/status/ALLOCATION_COVERAGE_2026_11_04.md) and [Texas Pass 51 milestone](docs/status/TEXAS_CLEANUP_PASS51_2026_11_04.md)
 - [Build provenance and table counts](data/curated/manifest.json)
 - [Texas pilot](docs/states/TX.md) and [Washington pilot](docs/states/WA.md)
 - [Adding a source or state](docs/methods/ADDING_SOURCES.md)
@@ -29,7 +33,7 @@ python3 -m venv .venv
 
 `build` is offline and deterministic for the saved input/config/code bytes. It creates all 28 contract tables, the structural review views and headers for uncollected layers, then validates them. `validate` checks source/report hashes, reporting grain, populations, identities, dates and attribution. It does not independently verify every reported research claim.
 
-The pilot currently contains eight Texas subject results from four published one-way-DL/current-EL reporting groups, plus Washington school-level academic and enrollment observations for two multilingual elementary schools across 2023–24, 2024–25 and 2025–26. Washington program metadata covers a broader set of schools and preserves related heritage/tribal records for review. Program evidence groups are not verified distinct program counts.
+The unchanged assessment pilots contain eight Texas subject results from four published one-way-DL/current-EL reporting groups, plus Washington school-level academic and enrollment observations for two multilingual elementary schools across 2023–24, 2024–25 and 2025–26. Washington program metadata covers a broader set of schools and preserves related heritage/tribal records for review. Program evidence groups are not verified distinct program counts.
 
 ## Repository layout
 
@@ -51,7 +55,7 @@ tests/                     Schema, population, time, missingness and provenance 
 
 ## Source collection and releases
 
-The checked-in small public snapshots are sufficient to rebuild the pilot. A new acquisition must use a new vintage directory:
+The checked-in public snapshots and reviewed research inputs are sufficient to rebuild the dataset offline. A new acquisition must use a new vintage directory:
 
 ```bash
 .venv/bin/dl-outcomes collect-wa-pilot

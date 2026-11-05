@@ -1,0 +1,1037 @@
+[
+  {
+    "program_id": "WP-NE-P-fa6093626843",
+    "school_id": "WP-NE-S-895e29221938",
+    "state": "NE",
+    "district": "Fremont Public Schools",
+    "school": "Fremont Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Fremont Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_secondary_content_scope_requires_review",
+      "scope": "secondary_pathway_content_scope_unresolved",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "July 2026 state roster",
+      "source": "wp_ne_state",
+      "locator": "Fremont Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-ecacfff4c9b7",
+    "school_id": "WP-NE-S-af64d013c6dc",
+    "state": "NE",
+    "district": "Fremont Public Schools",
+    "school": "Johnson Crossing Academic Center",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "5-6 school; programme grade scope requires review",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Johnson Crossing Academic Center",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_secondary_content_scope_requires_review",
+      "scope": "secondary_pathway_content_scope_unresolved",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "July 2026 state roster",
+      "source": "wp_ne_state",
+      "locator": "Johnson Crossing Academic Center",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-3ce05fd2cb8e",
+    "school_id": "WP-NE-S-1df9fc9be67b",
+    "state": "NE",
+    "district": "Fremont Public Schools",
+    "school": "Washington Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_fremont_rendered",
+        "period": "undated",
+        "grade": "PK-4 school; DL grade coverage not fully specified",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Washington Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_fremont_news24",
+        "period": "2024-06-27",
+        "grade": "K",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Washington Elementary School",
+        "notes": "Reporting directly describes teaching all subjects in both languages, not a specials class.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "June 2024 reporting; undated primary continuation",
+      "source": "wp_ne_fremont_news24",
+      "locator": "Washington Elementary School",
+      "notes": "No instructional-time percentage inferred from the equal home-language pupil mix."
+    },
+    "continuity_review": "NE_FREMONT_WASHINGTON"
+  },
+  {
+    "program_id": "WP-NE-P-4e442b668a64",
+    "school_id": "WP-NE-S-14dbd21c72a4",
+    "state": "NE",
+    "district": "Lexington Public Schools",
+    "school": "Bryan Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_lex",
+        "period": "undated",
+        "grade": "K; later grades not specified",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Bryan Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_lex",
+        "period": "undated",
+        "grade": "K",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Bryan Elementary School; K",
+        "notes": "Instructional shares explicitly stated, independently of the 50/50 home-language population balance. Policy is undated; target-year K offering is separately sourced.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_ENTRY_GRADE_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_ne_lex25",
+      "locator": "Bryan Elementary School",
+      "notes": "Primary February 2025 notice explicitly recruits Bryan kindergarten for 2025–26."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-356bf57c03a3",
+    "school_id": "WP-NE-S-59f517fbed9a",
+    "state": "NE",
+    "district": "Omaha Catholic School Consortium",
+    "school": "Dual Language Academy",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_dla",
+        "period": "undated",
+        "grade": "PK-7; grade 8 planned 2026-27",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Dual Language Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "candidate_public_funding_unresolved",
+      "scope": "academic_immersion_described_private_school",
+      "funding": "private_school; qualifying_public_funding_not_established",
+      "method": "continuity_no_end_indication",
+      "period": "opened fall 2018; grade 8 planned 2026-27",
+      "source": "wp_ne_dla",
+      "locator": "Dual Language Academy",
+      "notes": "Programme operation confirmed by continuity; public funding remains a distinct unresolved criterion."
+    },
+    "continuity_review": "NE_DLA"
+  },
+  {
+    "program_id": "WP-NE-P-392ea1a881e6",
+    "school_id": "WP-NE-S-c4202e098e70",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Beveridge Middle",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Beveridge Middle",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "middle",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Beveridge Middle",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Beveridge Middle; middle",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Beveridge Middle",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-8123aab2b35c",
+    "school_id": "WP-NE-S-14b16330f893",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Castelar Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Castelar Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Castelar Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Castelar Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Castelar Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-98126a067e27",
+    "school_id": "WP-NE-S-c94649652c84",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Crestridge Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Crestridge Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Crestridge Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Crestridge Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Crestridge Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-604d0a863bda",
+    "school_id": "WP-NE-S-029b4f1fc413",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Gomez Heritage Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Gomez Heritage Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Gomez Heritage Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Gomez Heritage Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Gomez Heritage Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-988ee5c10992",
+    "school_id": "WP-NE-S-a0b8bd73dda9",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Jackson Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Jackson Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Jackson Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Jackson Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Jackson Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-05f802cb3b93",
+    "school_id": "WP-NE-S-bbc17a54df26",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Liberty Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Liberty Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Liberty Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Liberty Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Liberty Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-ffdbe866113b",
+    "school_id": "WP-NE-S-522b7bf7c17d",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Marrs Middle",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Marrs Middle",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "middle",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Marrs Middle",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Marrs Middle; middle",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Marrs Middle",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-822fb169b569",
+    "school_id": "WP-NE-S-4ecc9c87aae1",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Norris Middle",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Norris Middle",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "middle",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Norris Middle",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "middle",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Norris Middle; middle",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Norris Middle",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-a8f9e09abcb0",
+    "school_id": "WP-NE-S-a1a13967b715",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "South High",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "high school",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "South High",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "high school",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "South High",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "high school",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "South High; high school",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "South High",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-36054e2f02f5",
+    "school_id": "WP-NE-S-2c1f41fa9653",
+    "state": "NE",
+    "district": "Omaha Public Schools",
+    "school": "Spring Lake Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Spring Lake Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "elementary",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Spring Lake Elementary",
+        "notes": "Roster date is later than reference year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ne_ops",
+        "period": "undated",
+        "grade": "elementary",
+        "label": "half coursework in Spanish; half in English; high-school requirement is a content-credit minimum",
+        "shares": null,
+        "locator": "Spring Lake Elementary; elementary",
+        "notes": "District-wide K–12 description does not establish a common daily schedule at each grade. South High requires four years Spanish plus at least 12 credits in DL content courses.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_ops",
+      "locator": "Spring Lake Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-35155f219657",
+    "school_id": "WP-NE-S-0c2ce0edf8d6",
+    "state": "NE",
+    "district": "Private operator; public funding unresolved",
+    "school": "Connely International Academy",
+    "track": "Japanese",
+    "notes": "State non-Spanish listing cross-checked against operator, not treated as an English/Spanish programme.",
+    "observations": [
+      {
+        "source": "wp_ne_connely",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Japanese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Connely International Academy",
+        "notes": "State non-Spanish listing cross-checked against operator, not treated as an English/Spanish programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "additional_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_public_funding_and_content_scope_unresolved",
+      "scope": "language_class_vs_academic_immersion_requires_review",
+      "funding": "private_school; qualifying_public_funding_not_established",
+      "method": "future_intake_and_partial_operation_only",
+      "period": "undated",
+      "source": "wp_ne_connely",
+      "locator": "Connely International Academy",
+      "notes": "Operator advertises new students for calendar 2027 and foreign-language subjects; no evidence of a 2025–26 Japanese academic immersion programme."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-8ccbaa1c0dfa",
+    "school_id": "WP-NE-S-b73f62413f51",
+    "state": "NE",
+    "district": "Private operator; public funding unresolved",
+    "school": "Friedel Jewish Academy",
+    "track": "Hebrew",
+    "notes": "State non-Spanish listing cross-checked against operator, not treated as an English/Spanish programme. Hebrew immersion is described within Jewish Studies; non-language academic-content allocation is not established.",
+    "observations": [
+      {
+        "source": "wp_ne_friedel",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Hebrew"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Friedel Jewish Academy",
+        "notes": "State non-Spanish listing cross-checked against operator, not treated as an English/Spanish programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "additional_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_public_funding_and_content_scope_unresolved",
+      "scope": "language_class_vs_academic_immersion_requires_review",
+      "funding": "private_school; qualifying_public_funding_not_established",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ne_friedel",
+      "locator": "Friedel Jewish Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-NE-P-d10a1ec27688",
+    "school_id": "WP-NE-S-a58c1ad9df5e",
+    "state": "NE",
+    "district": "Schuyler Community Schools",
+    "school": "Schuyler Elementary School",
+    "track": "Spanish",
+    "notes": "School directory listing only; present school homepage does not supply the immersion structure or historical status.",
+    "observations": [
+      {
+        "source": "wp_ne_state",
+        "period": "July 2026 state roster",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Schuyler Elementary School",
+        "notes": "School directory listing only; present school homepage does not supply the immersion structure or historical status.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_primary_model_grade_scope_requires_review",
+      "scope": "academic_content_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "July 2026 state roster",
+      "source": "wp_ne_state",
+      "locator": "Schuyler Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  }
+]

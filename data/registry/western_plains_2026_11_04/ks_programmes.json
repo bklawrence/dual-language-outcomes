@@ -1,0 +1,684 @@
+[
+  {
+    "program_id": "WP-KS-P-c1792ba51b61",
+    "school_id": "WP-KS-S-86fc5a28f939",
+    "state": "KS",
+    "district": "Blue Valley Unified School District 229",
+    "school": "Valley Park Elementary",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ks_bv_elem",
+        "period": "undated",
+        "grade": "3-5",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Valley Park Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_bv_elem",
+        "period": "undated",
+        "grade": "3-5",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Valley Park Elementary; 3-5",
+        "notes": "Published elementary policy, kept undated. Valley Park’s target-year grade limit is separate; no K allocation for Valley Park.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "wp_ks_bv_elem",
+        "year": "2028-29",
+        "status": "planned_end_after_phase_out",
+        "notes": "Primary page says final Valley Park class exits after 2027–28; later October 2026 district-wide end announcement may supersede this schedule."
+      },
+      {
+        "source": "wp_ks_bv_change26",
+        "year": null,
+        "status": "announced_future_end",
+        "notes": "News dated October 15, 2026 reports the district will end Chinese immersion “next year”; exact academic implementation year not established in the reviewed primary source."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_ks_bv_elem",
+      "locator": "Valley Park Elementary",
+      "notes": "Explicit grades 3–5 for 2025–26; no kindergarten offering in this reference year."
+    }
+  },
+  {
+    "program_id": "WP-KS-P-0fe2d86cf422",
+    "school_id": "WP-KS-S-ea9e868af6e1",
+    "state": "KS",
+    "district": "Blue Valley Unified School District 229",
+    "school": "Wolf Springs Elementary",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ks_bv_elem",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Wolf Springs Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_bv_elem",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Wolf Springs Elementary; K-5",
+        "notes": "Published elementary policy, kept undated. Valley Park’s target-year grade limit is separate; no K allocation for Valley Park.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "wp_ks_bv_change26",
+        "year": null,
+        "status": "announced_future_end",
+        "notes": "News dated October 15, 2026 reports the district will end Chinese immersion “next year”; exact academic implementation year not established in the reviewed primary source."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "started 2017-18; continuing primary programme",
+      "source": "wp_ks_bv_elem",
+      "locator": "Wolf Springs Elementary",
+      "notes": "Established programme plus explicit target-year district pathway; no reference-year ending evidence."
+    },
+    "continuity_review": "KS_BLUE_VALLEY"
+  },
+  {
+    "program_id": "WP-KS-P-fe388a655d64",
+    "school_id": "WP-KS-S-e46bb9f8858f",
+    "state": "KS",
+    "district": "Kansas City Kansas Public Schools USD 500",
+    "school": "Frances Willard Elementary",
+    "track": "Spanish",
+    "notes": "The host webpage Morse Early Childhood is not a programme campus. School names are from the district’s school-offering FAQ.",
+    "observations": [
+      {
+        "source": "wp_ks_kck_dl",
+        "period": "2025-26 implementation table",
+        "grade": "K-2",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Frances Willard Elementary",
+        "notes": "The host webpage Morse Early Childhood is not a programme campus. School names are from the district’s school-offering FAQ.",
+        "label": null,
+        "verification": "published_plan_not_observed",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_kck_dl",
+        "period": "undated",
+        "grade": "K-2",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Frances Willard Elementary; K-2",
+        "notes": "Undated district model, not a refreshed target-year allocation. Grade K–2 comes from explicit 2025–26 implementation table.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_reference_year_offering",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "published_rollout_plan_implementation_unconfirmed",
+      "period": "2025-26",
+      "source": "wp_ks_kck_dl",
+      "locator": "Frances Willard Elementary",
+      "notes": "Implementation table explicitly lists K–2 in 2025–26; FAQ says programmes begin with 2026–27 entrants while its rollout starts 2023–24. Conflict remains visible; table is a plan, not observed implementation."
+    }
+  },
+  {
+    "program_id": "WP-KS-P-f2cb861803b0",
+    "school_id": "WP-KS-S-6ac54d974b7f",
+    "state": "KS",
+    "district": "Kansas City Kansas Public Schools USD 500",
+    "school": "New Stanley Elementary",
+    "track": "Spanish",
+    "notes": "The host webpage Morse Early Childhood is not a programme campus. School names are from the district’s school-offering FAQ.",
+    "observations": [
+      {
+        "source": "wp_ks_kck_dl",
+        "period": "2025-26 implementation table",
+        "grade": "K-2",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "New Stanley Elementary",
+        "notes": "The host webpage Morse Early Childhood is not a programme campus. School names are from the district’s school-offering FAQ.",
+        "label": null,
+        "verification": "published_plan_not_observed",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_kck_dl",
+        "period": "undated",
+        "grade": "K-2",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "New Stanley Elementary; K-2",
+        "notes": "Undated district model, not a refreshed target-year allocation. Grade K–2 comes from explicit 2025–26 implementation table.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "wp_ks_newstanley_change25",
+        "year": "2025-26",
+        "status": "closure_proposal_reversed",
+        "notes": "Board modified consolidation plan in December 2025; New Stanley remains open. Do not code proposed closure as an implemented end."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "contemporary_reference_year_reporting",
+      "period": "2025-26",
+      "source": "wp_ks_newstanley_change25",
+      "locator": "New Stanley Elementary",
+      "notes": "December 10, 2025 reporting confirms the bilingual programme and board decision to keep school open."
+    }
+  },
+  {
+    "program_id": "WP-KS-P-a01a07f3c34e",
+    "school_id": "WP-KS-S-8acdab687274",
+    "state": "KS",
+    "district": "Olathe Public Schools USD 233",
+    "school": "Arbor Creek Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ks_olathe_change26",
+        "period": "after 2026-27",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Arbor Creek Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "candidate_future_relocation",
+      "scope": "planned_academic_programme_relocation",
+      "funding": "public_program_directory_listing",
+      "method": "future_relocation_plan",
+      "period": "after 2026-27",
+      "source": "wp_ks_olathe_change26",
+      "locator": "Arbor Creek Elementary School",
+      "notes": "Future receiving school, not a 2025–26 host. School closure is adopted; programme-transfer wording on district page remains conditional."
+    }
+  },
+  {
+    "program_id": "WP-KS-P-3d7910e7b53e",
+    "school_id": "WP-KS-S-268a6d32a579",
+    "state": "KS",
+    "district": "Olathe Public Schools USD 233",
+    "school": "Black Bob Elementary School",
+    "track": "Spanish",
+    "notes": "District describes two programme classrooms within a school and a lottery; majority of students enter with no Spanish background. Population model not forced to two-way.",
+    "observations": [
+      {
+        "source": "wp_ks_olathe",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Black Bob Elementary School",
+        "notes": "District describes two programme classrooms within a school and a lottery; majority of students enter with no Spanish background. Population model not forced to two-way.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ks_olathe_brochure25",
+        "period": "undated brochure; URL version 2025-09-15; nondiscrimination footer 05/22",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "PDF pp2–4",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_olathe",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Black Bob Elementary School; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "wp_ks_olathe_change26",
+        "year": "2027-28",
+        "status": "planned_relocation",
+        "notes": "District approved Black Bob closure after 2026–27; describes proposed transfer of Spanish immersion to Arbor Creek. Programme closure is not inferred from building closure."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "September 2025 public brochure version; undated policy",
+      "source": "wp_ks_olathe_brochure25",
+      "locator": "PDF pp2–4",
+      "notes": "Contemporary brochure plus current named continuation and later adopted closure review; not a newly observed annual allocation."
+    },
+    "continuity_review": "KS_OLATHE"
+  },
+  {
+    "program_id": "WP-KS-P-8f8e2e52b7d5",
+    "school_id": "WP-KS-S-3c95fd3a69d1",
+    "state": "KS",
+    "district": "Olathe Public Schools USD 233",
+    "school": "Manchester Park Elementary School",
+    "track": "Spanish",
+    "notes": "District describes two programme classrooms within a school and a lottery; majority of students enter with no Spanish background. Population model not forced to two-way.",
+    "observations": [
+      {
+        "source": "wp_ks_olathe",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Manchester Park Elementary School",
+        "notes": "District describes two programme classrooms within a school and a lottery; majority of students enter with no Spanish background. Population model not forced to two-way.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_ks_olathe_brochure25",
+        "period": "undated brochure; URL version 2025-09-15; nondiscrimination footer 05/22",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "PDF pp2–4",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_olathe",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Manchester Park Elementary School; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "September 2025 public brochure version; undated policy",
+      "source": "wp_ks_olathe_brochure25",
+      "locator": "PDF pp2–4",
+      "notes": "Contemporary brochure plus current named continuation and later adopted closure review; not a newly observed annual allocation."
+    },
+    "continuity_review": "KS_OLATHE"
+  },
+  {
+    "program_id": "WP-KS-P-53413592f970",
+    "school_id": "WP-KS-S-8dcce86241aa",
+    "state": "KS",
+    "district": "Topeka Public Schools USD 501",
+    "school": "Landon Middle School",
+    "track": "Spanish",
+    "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+    "observations": [
+      {
+        "source": "wp_ks_topeka_secondary",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Landon Middle School",
+        "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_topeka_secondary",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "Spanish content courses may include math, biology, chemistry, finance and language arts",
+        "shares": null,
+        "locator": "Landon Middle School; 6-8",
+        "notes": "Possible course menu is not a common timetable or numerical allocation.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2022 programme recognition; undated named campus pathways",
+      "source": "wp_ks_topeka",
+      "locator": "Landon Middle School",
+      "notes": "User-authorized continuity review of established district pathway; does not date undated design to 2025–26."
+    },
+    "continuity_review": "KS_TOPEKA"
+  },
+  {
+    "program_id": "WP-KS-P-f5247f0d1f20",
+    "school_id": "WP-KS-S-ccfcad3d86a4",
+    "state": "KS",
+    "district": "Topeka Public Schools USD 501",
+    "school": "Scott Dual Language Magnet Elementary School",
+    "track": "Spanish",
+    "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+    "observations": [
+      {
+        "source": "wp_ks_topeka_elementary",
+        "period": "undated",
+        "grade": "PK-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Scott Dual Language Magnet Elementary School",
+        "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_topeka_elementary",
+        "period": "undated",
+        "grade": "PK-1",
+        "label": "Math in English; Science and Social Studies in Spanish; native-language literacy",
+        "shares": null,
+        "locator": "Scott Dual Language Magnet Elementary School; PK-1",
+        "notes": "The 50/50 figure on the page describes students’ home languages, not instructional time.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "wp_ks_topeka_elementary",
+        "period": "undated",
+        "grade": "2-5",
+        "label": "Math in English; Science and Social Studies in Spanish; literacy in both languages",
+        "shares": null,
+        "locator": "Scott Dual Language Magnet Elementary School; 2-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2022 programme recognition; undated named campus pathways",
+      "source": "wp_ks_topeka",
+      "locator": "Scott Dual Language Magnet Elementary School",
+      "notes": "User-authorized continuity review of established district pathway; does not date undated design to 2025–26."
+    },
+    "continuity_review": "KS_TOPEKA"
+  },
+  {
+    "program_id": "WP-KS-P-d2676a0d50d9",
+    "school_id": "WP-KS-S-e0d071d7f825",
+    "state": "KS",
+    "district": "Topeka Public Schools USD 501",
+    "school": "Topeka High School",
+    "track": "Spanish",
+    "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+    "observations": [
+      {
+        "source": "wp_ks_topeka_secondary",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Topeka High School",
+        "notes": "Gómez and Gómez model name is retained without inventing a time percentage.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_topeka_secondary",
+        "period": "undated",
+        "grade": "9-12",
+        "label": "Spanish content courses may include math, biology, chemistry, finance and language arts",
+        "shares": null,
+        "locator": "Topeka High School; 9-12",
+        "notes": "Possible course menu is not a common timetable or numerical allocation.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2022 programme recognition; undated named campus pathways",
+      "source": "wp_ks_topeka",
+      "locator": "Topeka High School",
+      "notes": "User-authorized continuity review of established district pathway; does not date undated design to 2025–26."
+    },
+    "continuity_review": "KS_TOPEKA"
+  },
+  {
+    "program_id": "WP-KS-P-e7107440c727",
+    "school_id": "WP-KS-S-07fb6804a0e1",
+    "state": "KS",
+    "district": "Wichita Public Schools USD 259",
+    "school": "Horace Mann K-8 Dual Language Magnet",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_ks_wichita_mann",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Horace Mann K-8 Dual Language Magnet",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_ks_wichita_mann",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "Math core in Spanish and intervention in English; science/social studies across both literacy blocks",
+        "shares": null,
+        "locator": "Horace Mann K-8 Dual Language Magnet; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "wp_ks_wichita_mann",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "Math in English; Spanish language arts and science/social studies in Spanish",
+        "shares": null,
+        "locator": "Horace Mann K-8 Dual Language Magnet; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_ks_wichita_mann",
+      "locator": "Horace Mann K-8 Dual Language Magnet",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  }
+]

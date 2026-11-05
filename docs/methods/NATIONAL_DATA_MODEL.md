@@ -1,8 +1,14 @@
 # National longitudinal data model
 
-Schema version: **1.2.0**. Scope: all 50 US states and all instructional languages. This is a public aggregate-data research model, with source-specific observations and explicit uncertainty. Structural research for California, Idaho, Montana, Nevada, Oregon and Wyoming is integrated alongside the Illinois seed and Texas/Washington pilots. All nine states remain partial inventories. Additional proficiency collection follows completion of the 50-state structural program work.
+Schema version: **1.3.0**. Scope: all 50 US states and all instructional languages. This is a public aggregate-data research model, with source-specific observations and explicit uncertainty. Partial structural working sets now cover 15 states, including the Utah, Colorado, New Mexico, Arizona, Nebraska and Kansas first pass. Additional proficiency collection follows completion of the 50-state structural program work.
+
+State-level evidence claims retain discovery/screening rows whose school or language-track identity has not been reviewed. They reference an existing state identity and do not create a programme, school or district/LEA match. A source reporting-group heading such as New Mexico's “State Charter Schools” is retained as context, not manufactured into one district. School/program IDs in the six-state batch are provisional research keys; no NCES matches were inferred.
 
 ## Entities, candidates and time
+
+The [elementary allocation audit](../status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md) measures cited numerical-model availability for schools serving any K–5 grade, including mixed and upper-elementary campuses. It keeps reference working inventories and all recorded hosts in separate views, preserves grade/model source periods, and counts each school once across tracks. Grade-context claims do not alter durable identity crosswalks or establish DL programme participation.
+
+Kindergarten allocation completeness uses a separate [grade-eligibility denominator](../status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md). Secondary and other non-K continuations remain programme records with K allocation marked not applicable; their course/content language can remain useful evidence. Unknown grades and K-serving-campus proxies are explicit, and annual model labels do not establish K schedules. The current review views expose these distinctions without rewriting earlier source observations.
 
 `schools` and `districts` identify research entities. State/NCES/other native identifiers belong in `identifier_crosswalk`, with namespace, source, review status and known year validity. Identifiers are strings. Names are labels and dated evidence, not automatic join keys.
 

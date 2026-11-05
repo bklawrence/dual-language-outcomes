@@ -1,0 +1,3183 @@
+[
+  {
+    "program_id": "WP-AZ-P-69b6fb4c75cb",
+    "school_id": "WP-AZ-S-63569178b0eb",
+    "state": "AZ",
+    "district": "Cave Creek Unified School District 93",
+    "school": "Desert Willow Elementary School",
+    "track": "Spanish",
+    "notes": "Primary page title confirms Spanish immersion label but its saved body does not provide the curriculum/ratio. Do not substitute a different district’s model.",
+    "observations": [
+      {
+        "source": "wp_az_desertwillow",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Desert Willow Elementary School",
+        "notes": "Primary page title confirms Spanish immersion label but its saved body does not provide the curriculum/ratio. Do not substitute a different district’s model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_primary_content_and_grade_scope_requires_review",
+      "scope": "academic_content_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_desertwillow",
+      "locator": "Desert Willow Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-8bdd22243523",
+    "school_id": "WP-AZ-S-2e42b7d4905a",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Arizona College Prep Middle School",
+    "track": "Spanish",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "7-8",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Arizona College Prep Middle School",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "7-8",
+        "label": "70/30",
+        "shares": null,
+        "locator": "Arizona College Prep Middle School; 7-8",
+        "notes": "Model label only until named instructional English/partner shares and rollout applicability are verified.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_chandler",
+      "locator": "Arizona College Prep Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-7f537bcb4faa",
+    "school_id": "WP-AZ-S-c3bd1b61078f",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Bogle Junior High School",
+    "track": "Mandarin Chinese",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "7-8",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bogle Junior High School",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "7-8",
+        "label": "70/30",
+        "shares": null,
+        "locator": "Bogle Junior High School; 7-8",
+        "notes": "Model label only until named instructional English/partner shares and rollout applicability are verified.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_chandler",
+      "locator": "Bogle Junior High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-a2d23dd5fe00",
+    "school_id": "WP-AZ-S-9b4bfeecfe2d",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Bologna Elementary School",
+    "track": "Spanish",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_bologna",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bologna Elementary School",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_bologna",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": null,
+        "locator": "Bologna Elementary School; K-5",
+        "notes": "Model label only until named instructional English/partner shares and rollout applicability are verified.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_bologna",
+      "locator": "Bologna Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-0004df5f50e0",
+    "school_id": "WP-AZ-S-ad140846084f",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Chandler Traditional Academy Freedom Campus",
+    "track": "Spanish",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "PK-2",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Chandler Traditional Academy Freedom Campus",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "PK-2",
+        "label": "50/50",
+        "shares": null,
+        "locator": "Chandler Traditional Academy Freedom Campus; PK-2",
+        "notes": "Model label only until named instructional English/partner shares and rollout applicability are verified.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_chandler",
+      "locator": "Chandler Traditional Academy Freedom Campus",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-f5d6992f9068",
+    "school_id": "WP-AZ-S-23963179dc6a",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Chandler Traditional Academy Liberty Campus",
+    "track": "Spanish",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "PK-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Chandler Traditional Academy Liberty Campus",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_chandler",
+        "period": "undated",
+        "grade": "PK-6",
+        "label": "50/50",
+        "shares": null,
+        "locator": "Chandler Traditional Academy Liberty Campus; PK-6",
+        "notes": "Model label only until named instructional English/partner shares and rollout applicability are verified.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_chandler",
+      "locator": "Chandler Traditional Academy Liberty Campus",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-79e871b45079",
+    "school_id": "WP-AZ-S-0c510192dc9b",
+    "state": "AZ",
+    "district": "Chandler Unified School District 80",
+    "school": "Tarwater Elementary School",
+    "track": "Mandarin Chinese",
+    "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+    "observations": [
+      {
+        "source": "wp_az_tarwater_rendered",
+        "period": "undated",
+        "grade": "K-6",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Tarwater Elementary School",
+        "notes": "District page has Bologna K–4 and Freedom PK–2 rollout labels; Bologna campus page says K–5. These undated vintages are not converted into a target-year cohort.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tarwater_rendered",
+        "period": "undated",
+        "grade": "K-6",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Tarwater Elementary School; K-6",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tarwater_rendered",
+      "locator": "Tarwater Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-fd1c554df350",
+    "school_id": "WP-AZ-S-3c9d0e74051e",
+    "state": "AZ",
+    "district": "Creighton School District 14",
+    "school": "Biltmore Preparatory Academy",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_creighton",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Biltmore Preparatory Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_creighton",
+        "period": "undated",
+        "grade": "K-8",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Biltmore Preparatory Academy; K-8",
+        "notes": "Primary district explicitly names both schools and the instructional percentages; no population model inferred from teacher count.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_creighton",
+      "locator": "Biltmore Preparatory Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-61bf108bfff8",
+    "school_id": "WP-AZ-S-355950362da5",
+    "state": "AZ",
+    "district": "Creighton School District 14",
+    "school": "The Creighton Academy",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_creighton",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "The Creighton Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_creighton",
+        "period": "undated",
+        "grade": "K-8",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "The Creighton Academy; K-8",
+        "notes": "Primary district explicitly names both schools and the instructional percentages; no population model inferred from teacher count.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_creighton",
+      "locator": "The Creighton Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-7617f9d4e937",
+    "school_id": "WP-AZ-S-86e5031d08db",
+    "state": "AZ",
+    "district": "Flagstaff Unified School District 1",
+    "school": "Puente de Hózhó Elementary School",
+    "track": "Navajo",
+    "notes": "Campus has two programmes: Diné/English and Spanish/English. No three-language per-student immersion or K–8 campus is inferred from third-party labels.",
+    "observations": [
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Navajo"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Puente de Hózhó Elementary School",
+        "notes": "Campus has two programmes: Diné/English and Spanish/English. No three-language per-student immersion or K–8 campus is inferred from third-party labels.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_puente_policy",
+        "period": "2020/2021 language policy",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Navajo"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Puente de Hózhó Elementary School",
+        "notes": "Older policy is retained without assigning its date to the current undated schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "K",
+        "label": "about 80% Diné",
+        "shares": null,
+        "locator": "Puente de Hózhó Elementary School; K",
+        "notes": "Approximate source wording is preserved without converting it to an exact 80/20 point.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "1",
+        "label": "about 70% Diné",
+        "shares": null,
+        "locator": "Puente de Hózhó Elementary School; 1",
+        "notes": "Approximate wording; no exact point estimate.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "2-5",
+        "label": "aims for 50/50 English and Diné",
+        "shares": {
+          "English": 50,
+          "Navajo": 50
+        },
+        "locator": "Organization of Instructional Time",
+        "notes": "Published balance target, not observed exposure.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2020/2021 policy; current undated programme description",
+      "source": "wp_az_puente_policy",
+      "locator": "Puente de Hózhó Elementary School",
+      "notes": "Existing programmes confirmed under the user’s continuity rule; grade-specific allocations keep their undated source period."
+    },
+    "continuity_review": "AZ_PUENTE"
+  },
+  {
+    "program_id": "WP-AZ-P-af4b1df884f8",
+    "school_id": "WP-AZ-S-86e5031d08db",
+    "state": "AZ",
+    "district": "Flagstaff Unified School District 1",
+    "school": "Puente de Hózhó Elementary School",
+    "track": "Spanish",
+    "notes": "Campus has two programmes: Diné/English and Spanish/English. No three-language per-student immersion or K–8 campus is inferred from third-party labels.",
+    "observations": [
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Puente de Hózhó Elementary School",
+        "notes": "Campus has two programmes: Diné/English and Spanish/English. No three-language per-student immersion or K–8 campus is inferred from third-party labels.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_puente_policy",
+        "period": "2020/2021 language policy",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Puente de Hózhó Elementary School",
+        "notes": "Older policy is retained without assigning its date to the current undated schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_puente_dine",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Spanish Programme Description",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2020/2021 policy; current undated programme description",
+      "source": "wp_az_puente_policy",
+      "locator": "Puente de Hózhó Elementary School",
+      "notes": "Existing programmes confirmed under the user’s continuity rule; grade-specific allocations keep their undated source period."
+    },
+    "continuity_review": "AZ_PUENTE"
+  },
+  {
+    "program_id": "WP-AZ-P-72afb3e5c465",
+    "school_id": "WP-AZ-S-5801d71d08f2",
+    "state": "AZ",
+    "district": "Higley Unified School District 60",
+    "school": "Coronado Elementary School",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_higley_mandarin",
+        "period": "undated",
+        "grade": "K-6",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Coronado Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_higley_mandarin",
+        "period": "undated",
+        "grade": "K",
+        "label": "Math/science in Mandarin; language arts/social studies in English",
+        "shares": null,
+        "locator": "Coronado Elementary School; K",
+        "notes": "Primary K page names subject-language assignments but supplies no time percentages. No Spanish track inferred from generic Higley choices.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_higley_mandarin",
+      "locator": "Coronado Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-e154be434d4f",
+    "school_id": "WP-AZ-S-e5e12dad091a",
+    "state": "AZ",
+    "district": "Higley Unified School District 60",
+    "school": "San Tan Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_santan",
+        "period": "2025-26",
+        "grade": "K-6",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "San Tan Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_santan",
+        "period": "2025-26",
+        "grade": "K-6",
+        "label": "English half day; Spanish half day",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "San Tan Elementary School; K-6",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_az_santan",
+      "locator": "San Tan Elementary School",
+      "notes": "Primary page explicitly refers to 2025–26 enrollment and names teacher teams K–6."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-dfbfc92b4368",
+    "school_id": "WP-AZ-S-53f5748d113e",
+    "state": "AZ",
+    "district": "Kyrene School District",
+    "school": "Kyrene Akimel A-al Middle School",
+    "track": "Spanish",
+    "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+    "observations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Kyrene Akimel A-al Middle School",
+        "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "30/70; Spanish language arts and social studies",
+        "shares": null,
+        "locator": "Kyrene Akimel A-al Middle School; 6-8",
+        "notes": "Middle-school model ordering is not converted to numeric shares; named academic Spanish courses establish content scope.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_kyrene",
+      "locator": "Kyrene Akimel A-al Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-882b3ae75593",
+    "school_id": "WP-AZ-S-decbcf34223a",
+    "state": "AZ",
+    "district": "Kyrene School District",
+    "school": "Kyrene Middle School",
+    "track": "Spanish",
+    "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+    "observations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Kyrene Middle School",
+        "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "30/70; Spanish language arts and social studies",
+        "shares": null,
+        "locator": "Kyrene Middle School; 6-8",
+        "notes": "Middle-school model ordering is not converted to numeric shares; named academic Spanish courses establish content scope.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_kyrene",
+      "locator": "Kyrene Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-defd2c0fa7ff",
+    "school_id": "WP-AZ-S-38fdf8b4080e",
+    "state": "AZ",
+    "district": "Kyrene School District",
+    "school": "Kyrene de los Lagos Dual Language Academy",
+    "track": "Spanish",
+    "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+    "observations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Kyrene de los Lagos Dual Language Academy",
+        "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Kyrene de los Lagos Dual Language Academy; K-5",
+        "notes": "Middle-school model ordering is not converted to numeric shares; named academic Spanish courses establish content scope.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_kyrene",
+      "locator": "Kyrene de los Lagos Dual Language Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-1a0b81a3568d",
+    "school_id": "WP-AZ-S-76e299234847",
+    "state": "AZ",
+    "district": "Kyrene School District",
+    "school": "Kyrene del Norte Dual Language Academy",
+    "track": "Spanish",
+    "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+    "observations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Kyrene del Norte Dual Language Academy",
+        "notes": "Tuition-based Bienvenidos preschool is language exploration and is not imported as the K–5 academic immersion programme.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_kyrene",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Kyrene del Norte Dual Language Academy; K-5",
+        "notes": "Middle-school model ordering is not converted to numeric shares; named academic Spanish courses establish content scope.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_kyrene",
+      "locator": "Kyrene del Norte Dual Language Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-2a7a31d0b0c4",
+    "school_id": "WP-AZ-S-badafca814cf",
+    "state": "AZ",
+    "district": "Mesa Public Schools",
+    "school": "Guerrero Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_mesa_guerrero_rendered",
+        "period": "undated",
+        "grade": "K; subsequent grade rollout not independently observed",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Guerrero Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_mesa_guerrero_rendered",
+        "period": "2023 launch model; undated continuing page",
+        "grade": "K",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Guerrero Elementary School; K",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "fall 2023 launch announcement; undated continuing primary page",
+      "source": "wp_az_mesa_guerrero_rendered",
+      "locator": "Guerrero Elementary School",
+      "notes": "No grade-2 coverage inferred from cohort arithmetic."
+    },
+    "continuity_review": "AZ_MESA_GUERRERO"
+  },
+  {
+    "program_id": "WP-AZ-P-69f2e3c0b6bd",
+    "school_id": "WP-AZ-S-3394ce267f80",
+    "state": "AZ",
+    "district": "Mesa Public Schools",
+    "school": "Hermosa Vista Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_mesa_hermosa25_rendered",
+        "period": "undated",
+        "grade": "K",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Hermosa Vista Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_mesa_hermosa25_rendered",
+        "period": "2025-26",
+        "grade": "K",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Hermosa Vista Elementary School",
+        "notes": "All K students; whole-school label remains unknown.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_mesa_rendered",
+        "period": "undated",
+        "grade": "K",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Hermosa Vista Elementary School; K",
+        "notes": "Undated district 50/50 model paired with separately sourced target-year K participation.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_az_mesa_hermosa25_rendered",
+      "locator": "Hermosa Vista Elementary School",
+      "notes": "Explicitly says all 2025–26 kindergarteners enroll in DLI. This is whole-grade participation, not whole-school evidence."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-e58810c915da",
+    "school_id": "WP-AZ-S-78d216d1307d",
+    "state": "AZ",
+    "district": "Mesa Public Schools",
+    "school": "Keller Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_mesa_rendered",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Keller Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_mesa_rendered",
+        "period": "undated",
+        "grade": "not_reported",
+        "label": "English/Spanish 50/50",
+        "shares": null,
+        "locator": "Keller Elementary School; not_reported",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_GRADE_SCOPE_NOT_REPORTED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_mesa_rendered",
+      "locator": "Keller Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-98adc0a07215",
+    "school_id": "WP-AZ-S-9d86348c5536",
+    "state": "AZ",
+    "district": "Osborn School District 8",
+    "school": "Clarendon School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_osborn_sites",
+        "period": "undated",
+        "grade": "4-6",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Clarendon School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_osborn",
+        "period": "undated",
+        "grade": "4-6",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Clarendon School",
+        "notes": "District names a programme established 1998; participating-school page supplies school/grade link. Osborn Middle’s description specifies Spanish Language Arts, so no elementary ratio inherited.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_osborn",
+        "period": "undated",
+        "grade": "4-6",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Clarendon School; 4-6",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_osborn_sites",
+      "locator": "Clarendon School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-ed4aadc9766e",
+    "school_id": "WP-AZ-S-c13d115985bc",
+    "state": "AZ",
+    "district": "Osborn School District 8",
+    "school": "Encanto School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_osborn_sites",
+        "period": "undated",
+        "grade": "PK-3",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Encanto School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_osborn",
+        "period": "undated",
+        "grade": "PK-3",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Encanto School",
+        "notes": "District names a programme established 1998; participating-school page supplies school/grade link. Osborn Middle’s description specifies Spanish Language Arts, so no elementary ratio inherited.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_osborn",
+        "period": "undated",
+        "grade": "PK-3",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Encanto School; PK-3",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_osborn_sites",
+      "locator": "Encanto School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-ff4781a7f499",
+    "school_id": "WP-AZ-S-e1aa5b48e2f4",
+    "state": "AZ",
+    "district": "Osborn School District 8",
+    "school": "Osborn Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_osborn_sites",
+        "period": "undated",
+        "grade": "7-8",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Osborn Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_az_osborn",
+        "period": "undated",
+        "grade": "7-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Osborn Middle School",
+        "notes": "District names a programme established 1998; participating-school page supplies school/grade link. Osborn Middle’s description specifies Spanish Language Arts, so no elementary ratio inherited.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_language_course_continuation",
+      "scope": "Spanish_language_arts_continuation",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_osborn_sites",
+      "locator": "Osborn Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-30ef54edbd96",
+    "school_id": "WP-AZ-S-9823a84fd776",
+    "state": "AZ",
+    "district": "Paradise Valley Unified School District",
+    "school": "Desert Shadows Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_pv_spanish",
+        "period": "undated",
+        "grade": "middle",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Desert Shadows Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_pv_spanish",
+        "period": "undated",
+        "grade": "middle",
+        "label": "Science, Social Studies and Spanish taught in Spanish",
+        "shares": null,
+        "locator": "Desert Shadows Middle School; middle",
+        "notes": "Course menu, not a numerical daily allocation.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_GRADE_SCOPE_NOT_REPORTED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_pv_spanish",
+      "locator": "Desert Shadows Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-7edd24c3229e",
+    "school_id": "WP-AZ-S-4415f17940f4",
+    "state": "AZ",
+    "district": "Paradise Valley Unified School District",
+    "school": "Sandpiper Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_pv_spanish",
+        "period": "undated",
+        "grade": "K-6",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Sandpiper Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_pv_spanish",
+        "period": "undated",
+        "grade": "K-6",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Sandpiper Elementary School; K-6",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_pv_spanish",
+      "locator": "Sandpiper Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-4d90c063f158",
+    "school_id": "WP-AZ-S-28f1a907bed6",
+    "state": "AZ",
+    "district": "Paradise Valley Unified School District",
+    "school": "Sunrise Middle School",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_pv_mandarin",
+        "period": "undated",
+        "grade": "middle",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Sunrise Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_pv_mandarin",
+        "period": "undated",
+        "grade": "middle",
+        "label": "Mandarin Language Arts and Chinese Culture",
+        "shares": null,
+        "locator": "Sunrise Middle School; middle",
+        "notes": "Course menu, not a numerical daily allocation.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_GRADE_SCOPE_NOT_REPORTED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_secondary_content_scope_requires_review",
+      "scope": "language_and_culture_continuation",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_pv_mandarin",
+      "locator": "Sunrise Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-9ff2a6b34d9b",
+    "school_id": "WP-AZ-S-32f3b1148ad4",
+    "state": "AZ",
+    "district": "Paradise Valley Unified School District",
+    "school": "Whispering Wind Academy",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_pv_mandarin",
+        "period": "undated",
+        "grade": "K-6",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Whispering Wind Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_pv_mandarin",
+        "period": "undated",
+        "grade": "K-6",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Whispering Wind Academy; K-6",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_pv_mandarin",
+      "locator": "Whispering Wind Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-7dd37cab63b4",
+    "school_id": "WP-AZ-S-5adf77ca2b5a",
+    "state": "AZ",
+    "district": "Phoenix Elementary School District 1",
+    "school": "Lowell Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_phoenix1_25",
+        "period": "2025-26",
+        "grade": "K-1",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lowell Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_phoenix1_25",
+        "period": "2025-26",
+        "grade": "K-1",
+        "label": "160 minutes English; 160 minutes Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Lowell Elementary School; K-1",
+        "notes": "50/50 core programme, not a measured share of the entire school day.",
+        "basis": "320 core instructional minutes; English specials/electives are outside this denominator",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_az_phoenix1_25",
+      "locator": "Lowell Elementary School",
+      "notes": "Explicit 2025–26 K–1 offering; handbook’s later grades are future plans."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-2d82a062839c",
+    "school_id": "WP-AZ-S-9a2fc626e556",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Desert Canyon Elementary School",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Desert Canyon Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "K-3",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Desert Canyon Elementary School; K-3",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "4-5",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "Desert Canyon Elementary School; 4-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Desert Canyon Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-90143c72fde1",
+    "school_id": "WP-AZ-S-3b262c2882e3",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Desert Canyon Middle School",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Desert Canyon Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "40% academic day / two periods in Mandarin Chinese",
+        "shares": null,
+        "locator": "Desert Canyon Middle School; 6-8",
+        "notes": "Named partner-language share preserved. Do not fabricate a 60% English remainder or impose the elementary 50/50 model.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Desert Canyon Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-50bb8e2e3c76",
+    "school_id": "WP-AZ-S-2b0cbe3ca439",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Desert Mountain High School",
+    "track": "Mandarin Chinese",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Desert Mountain High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "elective"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "not_qualifying_language_course_continuation",
+      "scope": "world_language_course_continuation",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Desert Mountain High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-30110dda4926",
+    "school_id": "WP-AZ-S-efda3541256c",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Mohave Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Mohave Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "6-8",
+        "label": "40% academic day / two periods in Spanish",
+        "shares": null,
+        "locator": "Mohave Middle School; 6-8",
+        "notes": "Named partner-language share preserved. Do not fabricate a 60% English remainder or impose the elementary 50/50 model.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Mohave Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-ee5b52b865dc",
+    "school_id": "WP-AZ-S-b68eb6726f89",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Pueblo Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Pueblo Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "K-3",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Pueblo Elementary School; K-3",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "4-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Pueblo Elementary School; 4-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Pueblo Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-657f21cb438f",
+    "school_id": "WP-AZ-S-0c1412d551c5",
+    "state": "AZ",
+    "district": "Scottsdale Unified School District 48",
+    "school": "Saguaro High School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_scottsdale",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Saguaro High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "elective"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "not_qualifying_language_course_continuation",
+      "scope": "world_language_course_continuation",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_scottsdale",
+      "locator": "Saguaro High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-6d0c529c7400",
+    "school_id": "WP-AZ-S-70c9d5fc9d29",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Bloom Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Bloom Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Bloom Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Bloom Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Bloom Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Bloom Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Bloom Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Bloom Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-03054d5c2d29",
+    "school_id": "WP-AZ-S-2b6d2214e16e",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Davis Bilingual Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Davis Bilingual Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Davis Bilingual Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Davis Bilingual Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Davis Bilingual Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Davis Bilingual Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Davis Bilingual Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Davis Bilingual Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-e4d400305b69",
+    "school_id": "WP-AZ-S-77da80a1bbd9",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Grijalva Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Grijalva Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Grijalva Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Grijalva Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Grijalva Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Grijalva Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Grijalva Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Grijalva Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-38d07851fa6a",
+    "school_id": "WP-AZ-S-bd32b3040369",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Hollinger K-8 School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Hollinger K-8 School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Hollinger K-8 School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Hollinger K-8 School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Hollinger K-8 School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Hollinger K-8 School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Hollinger K-8 School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_article23_rendered",
+        "period": "2023-02-27 policy publication; current campus link undated",
+        "grade": "6-8",
+        "label": "English/Spanish evenly divided; minimum Spanish Language Arts plus one content course",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Hollinger K-8 School; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Hollinger K-8 School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-e376e7b10ae0",
+    "school_id": "WP-AZ-S-62460c4bab05",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Magee Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Magee Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_article23_rendered",
+        "period": "2023-02-27 policy publication; current campus link undated",
+        "grade": "6-8",
+        "label": "English/Spanish evenly divided; minimum Spanish Language Arts plus one content course",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Magee Middle School; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Magee Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-c795d93549ae",
+    "school_id": "WP-AZ-S-dea7661bb1ef",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "McCorkle K-8 Academy",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "McCorkle K-8 Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "McCorkle K-8 Academy; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "McCorkle K-8 Academy; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "McCorkle K-8 Academy; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "McCorkle K-8 Academy; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "McCorkle K-8 Academy; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_article23_rendered",
+        "period": "2023-02-27 policy publication; current campus link undated",
+        "grade": "6-8",
+        "label": "English/Spanish evenly divided; minimum Spanish Language Arts plus one content course",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "McCorkle K-8 Academy; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "McCorkle K-8 Academy",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-7ff12b098985",
+    "school_id": "WP-AZ-S-b13032ada34d",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Mission View Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Mission View Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Mission View Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Mission View Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Mission View Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Mission View Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Mission View Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Mission View Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-c72d03a824dc",
+    "school_id": "WP-AZ-S-c5bc6f3db0c9",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Pistor Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Pistor Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_article23_rendered",
+        "period": "2023-02-27 policy publication; current campus link undated",
+        "grade": "6-8",
+        "label": "English/Spanish evenly divided; minimum Spanish Language Arts plus one content course",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Pistor Middle School; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Pistor Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-25f846d2b0cd",
+    "school_id": "WP-AZ-S-dc5df4362343",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Pueblo High School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Pueblo High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_secondary_content_scope_requires_review",
+      "scope": "advanced_language_course_pathway_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Pueblo High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-bb4b0dfc7e3a",
+    "school_id": "WP-AZ-S-63f5d1722519",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Roskruge K-8 School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Roskruge K-8 School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Roskruge K-8 School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Roskruge K-8 School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Roskruge K-8 School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Roskruge K-8 School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Roskruge K-8 School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_article23_rendered",
+        "period": "2023-02-27 policy publication; current campus link undated",
+        "grade": "6-8",
+        "label": "English/Spanish evenly divided; minimum Spanish Language Arts plus one content course",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Roskruge K-8 School; 6-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Roskruge K-8 School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-30e102b2c209",
+    "school_id": "WP-AZ-S-70911e4ec221",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Sahuaro High School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Sahuaro High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "candidate_secondary_content_scope_requires_review",
+      "scope": "advanced_language_course_pathway_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_later_opening",
+      "period": "2026-27",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Sahuaro High School",
+      "notes": "District marks this programme “in 26–27”; not a reference-year host."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-e23620bf0786",
+    "school_id": "WP-AZ-S-f6faa8840b6b",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "Van Buskirk Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Van Buskirk Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Van Buskirk Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Van Buskirk Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Van Buskirk Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Van Buskirk Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Van Buskirk Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "Van Buskirk Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-AZ-P-1ddc582c4757",
+    "school_id": "WP-AZ-S-fba53c7af8db",
+    "state": "AZ",
+    "district": "Tucson Unified School District",
+    "school": "White Elementary School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_az_tusd_program_rendered",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "White Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "K-1",
+        "label": "Spanish 90%; English 10%",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "White Elementary School; K-1",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "2",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "White Elementary School; 2",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "3",
+        "label": "Spanish 70%; English 30%",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "White Elementary School; 3",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "4",
+        "label": "Spanish 60%; English 40%",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "White Elementary School; 4",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_az_tusd_pathways23",
+        "period": "March 2023 district model; undated current campus link",
+        "grade": "5",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "White Elementary School; 5",
+        "notes": "Ratio ordering supplied by the 2023 primary article. Shared district plan, not proof the current campus implemented it in 2023 or 2025.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_az_tusd_program_rendered",
+      "locator": "White Elementary School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  }
+]

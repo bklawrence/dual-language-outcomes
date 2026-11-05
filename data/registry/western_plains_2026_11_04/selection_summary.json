@@ -1,0 +1,68 @@
+[
+  {
+    "state": "UT",
+    "program_evidence_groups": 351,
+    "school_units": 282,
+    "confirmed_qualifying_program_groups": 34,
+    "confirmed_qualifying_school_units": 33,
+    "groups_with_named_language_share_plans": 35,
+    "groups_with_allocation_description": 35,
+    "screening_observations": 0,
+    "statewide_completeness": "not_established"
+  },
+  {
+    "state": "CO",
+    "program_evidence_groups": 80,
+    "school_units": 68,
+    "confirmed_qualifying_program_groups": 10,
+    "confirmed_qualifying_school_units": 9,
+    "groups_with_named_language_share_plans": 20,
+    "groups_with_allocation_description": 25,
+    "screening_observations": 52,
+    "statewide_completeness": "not_established"
+  },
+  {
+    "state": "NM",
+    "program_evidence_groups": 143,
+    "school_units": 143,
+    "confirmed_qualifying_program_groups": 117,
+    "confirmed_qualifying_school_units": 117,
+    "groups_with_named_language_share_plans": 2,
+    "groups_with_allocation_description": 10,
+    "screening_observations": 817,
+    "statewide_completeness": "not_established"
+  },
+  {
+    "state": "AZ",
+    "program_evidence_groups": 47,
+    "school_units": 46,
+    "confirmed_qualifying_program_groups": 6,
+    "confirmed_qualifying_school_units": 5,
+    "groups_with_named_language_share_plans": 28,
+    "groups_with_allocation_description": 41,
+    "screening_observations": 140,
+    "statewide_completeness": "not_established"
+  },
+  {
+    "state": "NE",
+    "program_evidence_groups": 18,
+    "school_units": 18,
+    "confirmed_qualifying_program_groups": 2,
+    "confirmed_qualifying_school_units": 2,
+    "groups_with_named_language_share_plans": 1,
+    "groups_with_allocation_description": 11,
+    "screening_observations": 0,
+    "statewide_completeness": "not_established"
+  },
+  {
+    "state": "KS",
+    "program_evidence_groups": 11,
+    "school_units": 11,
+    "confirmed_qualifying_program_groups": 8,
+    "confirmed_qualifying_school_units": 8,
+    "groups_with_named_language_share_plans": 6,
+    "groups_with_allocation_description": 10,
+    "screening_observations": 1,
+    "statewide_completeness": "not_established"
+  }
+]

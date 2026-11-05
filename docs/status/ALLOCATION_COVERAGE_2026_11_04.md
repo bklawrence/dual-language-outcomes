@@ -1,5 +1,9 @@
 # Allocation coverage in the current working inventories
 
+**Current elementary-school comparison:** use the [elementary model-availability audit](ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md), which includes K–8 and upper-elementary campuses and excludes schools starting in sixth grade or later. This page preserves the earlier all-campus baseline.
+
+**Superseded for kindergarten coverage:** this preserved snapshot counted secondary campuses and annual model labels. Use the [kindergarten denominator review](KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md) and its linked CSVs. Washington's 100% below is model-label completeness, not established kindergarten allocation coverage.
+
 Snapshot date: November 4, 2026. Eight states have substantive inventory research, plus a small Illinois seed. All 50 states have configuration entries; this does not mean all 50 have collected school data.
 
 Counts below deduplicate schools across language tracks. A school counts in the numerator if at least one program has a selected allocation or published model with a source citation. Older policies and program-level model labels count, with their original limitations. These are within-inventory completeness percentages, not statewide coverage estimates or verified entering-cohort schedules.

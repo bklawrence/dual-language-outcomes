@@ -131,7 +131,42 @@ def migrate(b):
                 structure_source, f"CSV record {i}", year=period_year(row["evidence_period"]),
                 notes="Campus structural evidence only; whole-school DL does not mean each language track is whole-school.")
     migrate_outcomes(b, by_parent, track_source)
+    migrate_grade_context(b)
     b.notes.append("Texas migrates " + str(len(tracks)) + " provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.")
+
+
+def migrate_grade_context(b):
+    from ..collectors.texas_grades import LAYER
+    config = json.loads((b.root / 'config/states/tx.json').read_text())['campus_grade_context']
+    dataset = b.dataset('TX_CAMPUS_GRADE_CONTEXT', 'TX', 'inventory',
+        '2024–25 AskTED-derived campus grade ranges', LAYER,
+        notes='Directory context for excluding non-K campuses from allocation coverage. A K-serving campus does not establish K participation in its DL programme; no historical grade extrapolation.')
+    paths = sorted((b.root / config['raw_directory']).glob('page_*.metadata.json'))
+    if not paths:
+        raise ValueError('Texas grade context missing; collect a public directory snapshot first')
+    seen = set()
+    for page, metadata in enumerate(paths):
+        path = metadata.with_name(metadata.name.replace('.metadata.json', '.json'))
+        meta = json.loads(metadata.read_text())
+        if meta['school_year'] != config['school_year'] or meta['selection']['resultOffset'] != page * 2000:
+            raise ValueError('Directory year/pagination does not match the selected vintage')
+        source = b.source_file(dataset, path, metadata=metadata)
+        b.tables['sources'][(source,)]['evidence_period_raw'] = config['school_year']
+        payload = json.loads(path.read_text())
+        for feature in payload['features']:
+            row = feature['attributes']
+            native = (row['USER_School_Number'] or '').lstrip("'")
+            if not re.fullmatch(r'\d{9}', native) or native in seen:
+                raise ValueError('Invalid/duplicate campus directory identity: ' + native)
+            seen.add(native)
+            sid = b.resolve('school', 'TX_TEA_campus_id', native,
+                year=config['school_year'], default='TX-S' + native)
+            if (sid,) in b.tables['schools']:
+                b.claim('school', sid, 'campus_grade_range_context', json.dumps(row, sort_keys=True),
+                    source, 'ObjectID=' + str(row['ObjectID']), year=config['school_year'], status='documented',
+                    notes='Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.')
+    if len(seen) != config['expected_directory_rows'] or payload.get('exceededTransferLimit'):
+        raise ValueError('Campus directory snapshot is incomplete')
 
 
 def migrate_outcomes(b, by_parent, track_source):

@@ -1,0 +1,19 @@
+{
+  "UT": [
+    "data/registry/western_plains_2026_11_04/extractions/ut_roster_rows.json"
+  ],
+  "CO": [
+    "data/registry/western_plains_2026_11_04/extractions/co_roster_rows.json"
+  ],
+  "NM": [
+    "data/registry/western_plains_2026_11_04/extractions/nm_map_structural_rows.json",
+    "data/registry/western_plains_2026_11_04/extractions/nm_report_appendix_F_text.txt",
+    "data/registry/western_plains_2026_11_04/extractions/nm_report_rows.json",
+    "data/registry/western_plains_2026_11_04/extractions/nm_report_totals.json"
+  ],
+  "AZ": [
+    "data/registry/western_plains_2026_11_04/extractions/az_directory_leads.json"
+  ],
+  "NE": [],
+  "KS": []
+}

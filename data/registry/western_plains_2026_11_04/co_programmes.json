@@ -1,0 +1,5165 @@
+[
+  {
+    "program_id": "WP-CO-P-d2e65214d2ed",
+    "school_id": "WP-CO-S-0067022c8b41",
+    "state": "CO",
+    "district": "Aurora Public Schools",
+    "school": "Global Village Academy Aurora",
+    "track": "French",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 1",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 1",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-eee4d3e127c9",
+    "school_id": "WP-CO-S-0067022c8b41",
+    "state": "CO",
+    "district": "Aurora Public Schools",
+    "school": "Global Village Academy Aurora",
+    "track": "Mandarin Chinese",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 1",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 1",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-ea0c60574545",
+    "school_id": "WP-CO-S-0067022c8b41",
+    "state": "CO",
+    "district": "Aurora Public Schools",
+    "school": "Global Village Academy Aurora",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 1",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_aurora",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Aurora",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 1",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-0f321801335b",
+    "school_id": "WP-CO-S-615ba53821d3",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "Angevine Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 4",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Angevine Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Angevine Middle School",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 4",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-b4d4ed8dc226",
+    "school_id": "WP-CO-S-36e2e2cac5f3",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "Casey Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 5",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Casey Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Casey Middle School",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 5",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-153f762b6474",
+    "school_id": "WP-CO-S-f80986497501",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "Columbine Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 2",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Columbine Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "PK-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Columbine Elementary School",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 2",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-5872ba178cdb",
+    "school_id": "WP-CO-S-fec7d1d01211",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "Escuela Bilingüe Pioneer",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 6",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Escuela Bilingüe Pioneer",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 8",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "PK-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Escuela Bilingüe Pioneer",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 6",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-aed980bbe00c",
+    "school_id": "WP-CO-S-21a71408d4b7",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "Manhattan Middle School of Arts and Academics",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 3",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Manhattan Middle School of Arts and Academics",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Manhattan Middle School of Arts and Academics",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 3",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-ae5bbe61e5cd",
+    "school_id": "WP-CO-S-931ecb69276d",
+    "state": "CO",
+    "district": "Boulder Valley School District",
+    "school": "University Hill Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 7",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "University Hill Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 9",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_bvsd",
+        "period": "undated",
+        "grade": "PK-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "University Hill Elementary",
+        "notes": "Three elementary schools and three middle-school strands explicitly named. Elementary 50/50 versus 90/10 varies by campus.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 7",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a6e040903314",
+    "school_id": "WP-CO-S-68145c491ddc",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "AXIS International Academy",
+    "track": "French",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 38",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "AXIS International Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; French 50%",
+        "shares": {
+          "English": 50,
+          "French": 50
+        },
+        "locator": "AXIS International Academy; K-5",
+        "notes": "Three alternatives share a campus-wide DLI policy; track choice is explicit, whole-school scope is not assigned to each language.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 38",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-93cb93e0015a",
+    "school_id": "WP-CO-S-68145c491ddc",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "AXIS International Academy",
+    "track": "Mandarin Chinese",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 38",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "AXIS International Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Mandarin Chinese 50%",
+        "shares": {
+          "English": 50,
+          "Mandarin Chinese": 50
+        },
+        "locator": "AXIS International Academy; K-5",
+        "notes": "Three alternatives share a campus-wide DLI policy; track choice is explicit, whole-school scope is not assigned to each language.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 38",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-3f0502ed97fa",
+    "school_id": "WP-CO-S-68145c491ddc",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "AXIS International Academy",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 38",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "AXIS International Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_axis_elem",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "AXIS International Academy; K-5",
+        "notes": "Three alternatives share a campus-wide DLI policy; track choice is explicit, whole-school scope is not assigned to each language.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 38",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-34dcb2e8f9ae",
+    "school_id": "WP-CO-S-06c78d7d3ffe",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "Colorado International Language Academy",
+    "track": "German",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 10",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_cila_languages",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "German"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Colorado International Language Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 10",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-37e849db17fb",
+    "school_id": "WP-CO-S-06c78d7d3ffe",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "Colorado International Language Academy",
+    "track": "Mandarin Chinese",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 10",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_cila_languages",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Colorado International Language Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 10",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-9333ef8134ed",
+    "school_id": "WP-CO-S-06c78d7d3ffe",
+    "state": "CO",
+    "district": "Colorado Charter School Institute",
+    "school": "Colorado International Language Academy",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 10",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_cila_languages",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Colorado International Language Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 10",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-8a941e112419",
+    "school_id": "WP-CO-S-5270c21d9b2b",
+    "state": "CO",
+    "district": "Colorado Springs School District 11",
+    "school": "Rogers Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 11",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_rogers_model",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Rogers Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_rogers_model",
+        "period": "2025-26",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Rogers Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_rogers_district",
+        "period": "undated",
+        "grade": "K-3",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Rogers Elementary School",
+        "notes": "Older undated district scope differs from explicitly dated campus K–5 offering; not forced into the same year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_rogers_model",
+        "period": "2025-26",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Rogers Elementary School; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_co_rogers_model",
+      "locator": "Rogers Elementary School",
+      "notes": "Primary campus explicitly offers K–5 in 2025/2026; older district page lists fewer grades and is retained separately."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e8297325322e",
+    "school_id": "WP-CO-S-61502c596c09",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Academia Ana Marie Sandoval de Lenguaje Dual Montessori",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 16",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Academia Ana Marie Sandoval de Lenguaje Dual Montessori",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 16",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a9b7f6840a07",
+    "school_id": "WP-CO-S-6a917c8bd5b9",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Barnum Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "ECE-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Barnum Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Barnum Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-46d7c5575c4f",
+    "school_id": "WP-CO-S-96435044b2a5",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Bryant Webster Dual Language ECE-8 School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 14",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bryant Webster Dual Language ECE-8 School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 14",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-39589fd4893c",
+    "school_id": "WP-CO-S-277ef8404c45",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "CMS Community School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "K-7",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "CMS Community School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "CMS Community School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-64fdd4dcf966",
+    "school_id": "WP-CO-S-b4594a4424cd",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "DCIS at Fairmont",
+    "track": "language_unresolved",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 12",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_directory_scope_requires_review",
+      "scope": "academic_content_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 12",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-f6581897ebf9",
+    "school_id": "WP-CO-S-401be29e930b",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Denver Center for International Studies Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "6-7",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Denver Center for International Studies Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Denver Center for International Studies Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-5e0f949d0bd5",
+    "school_id": "WP-CO-S-84965224b847",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Denver Language School",
+    "track": "French",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 13",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_denverlanguage",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Denver Language School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "conflicting guide section/column years",
+        "grade": "6-8",
+        "label": "50/50 in 6-8",
+        "shares": null,
+        "locator": "Denver Language School; 6-8",
+        "notes": "Mixed guide years and the full-immersion denominator require review; no numerical shares or K French programme.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 13",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-46c10ce677f2",
+    "school_id": "WP-CO-S-84965224b847",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Denver Language School",
+    "track": "Mandarin Chinese",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 13",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_denverlanguage",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Denver Language School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "conflicting guide section/column years",
+        "grade": "K-8",
+        "label": "100% target language K-2; 80% target language 3-5; 50/50 6-8",
+        "shares": null,
+        "locator": "Denver Language School; K-8",
+        "notes": "Mixed guide years and the full-immersion denominator require review; no numerical shares or K French programme.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_co_denverlanguage",
+      "locator": "Denver Language School",
+      "notes": "Primary About page explicitly references the 2025–26 school year and its Spanish/Mandarin immersion school."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-cd3ef154ac98",
+    "school_id": "WP-CO-S-84965224b847",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Denver Language School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 13",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_denverlanguage",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Denver Language School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "conflicting guide section/column years",
+        "grade": "K-8",
+        "label": "100% target language K-2; 80% target language 3-5; 50/50 6-8",
+        "shares": null,
+        "locator": "Denver Language School; K-8",
+        "notes": "Mixed guide years and the full-immersion denominator require review; no numerical shares or K French programme.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_co_denverlanguage",
+      "locator": "Denver Language School",
+      "notes": "Primary About page explicitly references the 2025–26 school year and its Spanish/Mandarin immersion school."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-916929ccfa79",
+    "school_id": "WP-CO-S-0e1171e831f4",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Escuela Valdez",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 17",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Escuela Valdez",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 17",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a81d74b2526d",
+    "school_id": "WP-CO-S-2f1df00b77f3",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Farrell B. Howell ECE-8 School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "ECE-3",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Farrell B. Howell ECE-8 School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Farrell B. Howell ECE-8 School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e2d434686271",
+    "school_id": "WP-CO-S-4dbf7472ae54",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "French American School of Denver",
+    "track": "French",
+    "notes": "Guide charter section says 2025–26 while its grade header says 2026–27; period conflict retained without selecting a validity year.",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "French American School of Denver",
+        "notes": "Guide charter section says 2025–26 while its grade header says 2026–27; period conflict retained without selecting a validity year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "conflicting headers: 2025-26 charter section / 2026-27 grade column",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "French American School of Denver",
+        "notes": "",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_dps_glance",
+      "locator": "French American School of Denver",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-455a475c4d40",
+    "school_id": "WP-CO-S-8f2b2b7c5795",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "John F. Kennedy High School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "John F. Kennedy High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "John F. Kennedy High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-11f7e3ff7f87",
+    "school_id": "WP-CO-S-5c670b813229",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "KIPP Sunshine Peak Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 15",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "KIPP Sunshine Peak Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 15",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a55c04796b4a",
+    "school_id": "WP-CO-S-68e65209cc86",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Lake Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Lake Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Lake Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-8f8ac5ca4be7",
+    "school_id": "WP-CO-S-c2ae19fadd57",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "McMeen Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "ECE-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "McMeen Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "McMeen Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-35bd5036ac0c",
+    "school_id": "WP-CO-S-f0e0a542271f",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Monarch Montessori",
+    "track": "Spanish",
+    "notes": "Guide charter section says 2025–26 while its grade header says 2026–27; period conflict retained without selecting a validity year.",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Monarch Montessori",
+        "notes": "Guide charter section says 2025–26 while its grade header says 2026–27; period conflict retained without selecting a validity year.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_dps_glance",
+        "period": "conflicting headers: 2025-26 charter section / 2026-27 grade column",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Monarch Montessori",
+        "notes": "",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_dps_glance",
+      "locator": "Monarch Montessori",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-86e06277c723",
+    "school_id": "WP-CO-S-c38b950ead60",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "North High School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "North High School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "North High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-d1024492bfa3",
+    "school_id": "WP-CO-S-d5dc78f0999e",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Stedman Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Stedman Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Stedman Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-cb0e167c9efb",
+    "school_id": "WP-CO-S-356e7bdf0038",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Swansea Elementary",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "ECE-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Swansea Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Swansea Elementary",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-132e30e21921",
+    "school_id": "WP-CO-S-d5f24c4e4e6a",
+    "state": "CO",
+    "district": "Denver Public Schools",
+    "school": "Trevista at Horace Mann",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_dps_glance",
+        "period": "2026-27",
+        "grade": "ECE-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Trevista at Horace Mann",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "wp_co_dps_glance",
+        "year": "2026-27",
+        "status": "listed_in_district_directory",
+        "notes": "Explicit 2026–27 guide; no target-year backdating."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "2026-27",
+      "source": "wp_co_dps_glance",
+      "locator": "Trevista at Horace Mann",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-7905902c0bda",
+    "school_id": "WP-CO-S-60e0ed5c0d76",
+    "state": "CO",
+    "district": "Douglas County School District",
+    "school": "Global Village Academy Douglas County",
+    "track": "French",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 18",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 18",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-86728ad2ec7b",
+    "school_id": "WP-CO-S-60e0ed5c0d76",
+    "state": "CO",
+    "district": "Douglas County School District",
+    "school": "Global Village Academy Douglas County",
+    "track": "Mandarin Chinese",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 18",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 18",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-60fc9c8a926e",
+    "school_id": "WP-CO-S-60e0ed5c0d76",
+    "state": "CO",
+    "district": "Douglas County School District",
+    "school": "Global Village Academy Douglas County",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 18",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas_lang",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_gva_douglas",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy Douglas County",
+        "notes": "Campus homepage explicitly describes English plus a second language; campus language-choice page supplies the partner alternatives.",
+        "label": null,
+        "verification": "district_policy_only",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 18",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-4e28d9d7ea0a",
+    "school_id": "WP-CO-S-ff54686789bc",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Avon Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 19",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Avon Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Avon Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Avon Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 19",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-f2103db45931",
+    "school_id": "WP-CO-S-682180ae7dfa",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Berry Creek Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 20",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Berry Creek Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Berry Creek Middle School",
+        "notes": "Secondary strand; no elementary 50/50 schedule assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 20",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-991fd1526681",
+    "school_id": "WP-CO-S-81098ecb197e",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Eagle Valley Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 22",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Eagle Valley Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Eagle Valley Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Eagle Valley Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 22",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-5a5e19420866",
+    "school_id": "WP-CO-S-5745c3dd0149",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Eagle Valley Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Eagle Valley Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_eagle",
+      "locator": "Eagle Valley Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e3afaa5da66a",
+    "school_id": "WP-CO-S-2aa80a1e8899",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Edwards Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 21",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Edwards Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Edwards Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Edwards Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 21",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-cbc097c48400",
+    "school_id": "WP-CO-S-c7f0f81ed43e",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Gypsum Creek Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Gypsum Creek Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_eagle",
+      "locator": "Gypsum Creek Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-00a77f783317",
+    "school_id": "WP-CO-S-2e5cda90ee18",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Gypsum Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 23",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Gypsum Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Gypsum Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Gypsum Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 23",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-be3186a71d3f",
+    "school_id": "WP-CO-S-5407c010d8fa",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "Homestake Peak School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 24",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Homestake Peak School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Homestake Peak School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Homestake Peak School",
+        "notes": "Secondary strand; no elementary 50/50 schedule assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_eagle",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Homestake Peak School; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 24",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-3baccbe94feb",
+    "school_id": "WP-CO-S-25825a9b9572",
+    "state": "CO",
+    "district": "Eagle County School District",
+    "school": "June Creek Elementary",
+    "track": "language_unresolved",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained. Not in the current district DL roster; search found a closure lead, not sufficient primary closure proof.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 25",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_stale_directory_identity_requires_review",
+      "scope": "school_identity_and_operation_unresolved",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 25",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-9efc1bdb4fda",
+    "school_id": "WP-CO-S-c58fa022258f",
+    "state": "CO",
+    "district": "Falcon School District 49",
+    "school": "Stetson Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 26",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_stetson_model",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Stetson Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_stetson_faq",
+        "period": "2025-26",
+        "grade": "K-3",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Stetson Elementary School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_stetson_model",
+        "period": "undated",
+        "grade": "K-1",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Stetson Elementary School; K-1",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "wp_co_stetson",
+        "year": "2026-27",
+        "status": "closed",
+        "notes": "Official school notice: DLI concludes at end of 2025–26; older future expansion plans are superseded."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "explicit_reference_year_offering",
+      "period": "2025-26",
+      "source": "wp_co_stetson",
+      "locator": "Stetson Elementary School",
+      "notes": "Official notice says programme concludes at end of 2025–26; it operated during the reference year."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-b375e5cef7e3",
+    "school_id": "WP-CO-S-637b0d5d7f72",
+    "state": "CO",
+    "district": "Global Village Academy North public charter",
+    "school": "Global Village Academy North",
+    "track": "Mandarin Chinese",
+    "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+    "observations": [
+      {
+        "source": "wp_co_gva_russian",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy North",
+        "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_gva_russian",
+      "locator": "Global Village Academy North",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-555c2b0e0095",
+    "school_id": "WP-CO-S-637b0d5d7f72",
+    "state": "CO",
+    "district": "Global Village Academy North public charter",
+    "school": "Global Village Academy North",
+    "track": "Russian",
+    "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+    "observations": [
+      {
+        "source": "wp_co_gva_russian",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Russian"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy North",
+        "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "2024/2025 programme artifacts; current undated description",
+      "source": "wp_co_gva_russian",
+      "locator": "Global Village Academy North",
+      "notes": "Continuity of the Russian track; no participant results imported."
+    },
+    "continuity_review": "CO_GVA_NORTH"
+  },
+  {
+    "program_id": "WP-CO-P-670b84a99139",
+    "school_id": "WP-CO-S-637b0d5d7f72",
+    "state": "CO",
+    "district": "Global Village Academy North public charter",
+    "school": "Global Village Academy North",
+    "track": "Spanish",
+    "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+    "observations": [
+      {
+        "source": "wp_co_gva_russian",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Global Village Academy North",
+        "notes": "Primary campus page explicitly names these three immersion alternatives and English/Russian content instruction. Russian is not Spanish.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_gva_russian",
+      "locator": "Global Village Academy North",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-820aca7f6c8d",
+    "school_id": "WP-CO-S-f47c17ef9de4",
+    "state": "CO",
+    "district": "Greeley-Evans School District 6",
+    "school": "Salida del Sol Academy",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 27",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_salidadelsol",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Salida del Sol Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_salidadelsol",
+        "period": "undated",
+        "grade": "K-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Salida del Sol Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "established 2014; undated continuing programme",
+      "source": "wp_co_salidadelsol",
+      "locator": "Salida del Sol Academy",
+      "notes": "School founding and current academic DL description support continuity, not an annual allocation."
+    },
+    "continuity_review": "CO_SALIDA"
+  },
+  {
+    "program_id": "WP-CO-P-bee567a087a7",
+    "school_id": "WP-CO-S-8cdd59af3c8f",
+    "state": "CO",
+    "district": "Jefferson County School District R-1",
+    "school": "Edgewater Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 28",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Edgewater Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Edgewater Elementary School",
+        "notes": "Lasley is TWO-way; Lumberg is ONE-way. Eiber lists one-way grades 1–5, with a future two-way K start in fall 2027.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "K-end elementary",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Edgewater Elementary School; K-end elementary",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 28",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-9b7e6403c26a",
+    "school_id": "WP-CO-S-ee3615c4b4a8",
+    "state": "CO",
+    "district": "Jefferson County School District R-1",
+    "school": "Foster Dual Language PK-8",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 31",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Foster Dual Language PK-8",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "PK-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Foster Dual Language PK-8",
+        "notes": "Lasley is TWO-way; Lumberg is ONE-way. Eiber lists one-way grades 1–5, with a future two-way K start in fall 2027.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "K-8",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Foster Dual Language PK-8; K-8",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 31",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-b64bd8f77aa8",
+    "school_id": "WP-CO-S-d0c9587718c8",
+    "state": "CO",
+    "district": "Jefferson County School District R-1",
+    "school": "George E. Eiber Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 29",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "George E. Eiber Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "1-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "George E. Eiber Elementary School",
+        "notes": "Lasley is TWO-way; Lumberg is ONE-way. Eiber lists one-way grades 1–5, with a future two-way K start in fall 2027.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "3-end elementary",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "George E. Eiber Elementary School; 3-end elementary",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 29",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-429b1d1af71e",
+    "school_id": "WP-CO-S-0c528f3076fd",
+    "state": "CO",
+    "district": "Jefferson County School District R-1",
+    "school": "Lasley Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 30",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lasley Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Lasley Elementary",
+        "notes": "Lasley is TWO-way; Lumberg is ONE-way. Eiber lists one-way grades 1–5, with a future two-way K start in fall 2027.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "K-end elementary",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Lasley Elementary; K-end elementary",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 30",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-2a1e8e2adeaa",
+    "school_id": "WP-CO-S-98156597c6d2",
+    "state": "CO",
+    "district": "Jefferson County School District R-1",
+    "school": "Lumberg Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 32",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lumberg Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "elementary",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Lumberg Elementary",
+        "notes": "Lasley is TWO-way; Lumberg is ONE-way. Eiber lists one-way grades 1–5, with a future two-way K start in fall 2027.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "K",
+        "label": "Spanish 80%; English 20%",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Lumberg Elementary; K",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_ENTRY_GRADE_MODEL"
+      },
+      {
+        "source": "wp_co_jeffco",
+        "period": "undated",
+        "grade": "3-end elementary",
+        "label": "Spanish 50%; English 50%",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Lumberg Elementary; 3-end elementary",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 32",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a39551fd9440",
+    "school_id": "WP-CO-S-d520cf5e7135",
+    "state": "CO",
+    "district": "Mesa County School District 51",
+    "school": "Bookcliff Middle School",
+    "track": "Spanish",
+    "notes": "",
+    "observations": [
+      {
+        "source": "wp_co_mesa",
+        "period": "undated",
+        "grade": "middle; K-8 shared pathway",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bookcliff Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_mesa",
+      "locator": "Bookcliff Middle School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-b251726facdc",
+    "school_id": "WP-CO-S-1672ab2f3edd",
+    "state": "CO",
+    "district": "Mesa County School District 51",
+    "school": "Dual Immersion Academy",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 33",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_mesa",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Dual Immersion Academy",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_mesa",
+        "period": "undated",
+        "grade": "K-8 pathway; campus grade band unresolved",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Dual Immersion Academy",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_mesa",
+        "period": "undated",
+        "grade": "K-8 pathway; campus grade band unresolved",
+        "label": "English 50%; Spanish 50%",
+        "shares": null,
+        "locator": "Dual Immersion Academy; K-8 pathway; campus grade band unresolved",
+        "notes": "Shared K–8 pathway includes Dual Immersion Academy and Bookcliff; exact campus grade-band applicability is unresolved.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 33",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e957db7edb75",
+    "school_id": "WP-CO-S-428422b57d6f",
+    "state": "CO",
+    "district": "Morgan County School District Re-3",
+    "school": "Columbine Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 34",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_morgan",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Columbine Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 34",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-36f45e4a145b",
+    "school_id": "WP-CO-S-78d8acc3bd09",
+    "state": "CO",
+    "district": "Poudre School District",
+    "school": "Boltz Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 35",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_boltz",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Boltz Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_boltz",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Boltz Middle School",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "Harris names Boltz continuation since 2018; current undated primary programme",
+      "source": "wp_co_boltz",
+      "locator": "Boltz Middle School",
+      "notes": "Earlier named 6th/7th-grade continuation and current 6–8 primary offering support operation continuity. The current grade extent is not backdated."
+    },
+    "continuity_review": "CO_HARRIS"
+  },
+  {
+    "program_id": "WP-CO-P-9c81d1d2da2c",
+    "school_id": "WP-CO-S-4262db85ed1a",
+    "state": "CO",
+    "district": "Poudre School District",
+    "school": "Harris Bilingual Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 36",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_harris",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Harris Bilingual Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_harris",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Harris Bilingual Elementary School",
+        "notes": "",
+        "label": "K-2 60/40; 3-5 50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_harris",
+        "period": "undated",
+        "grade": "K-2",
+        "label": "60/40",
+        "shares": null,
+        "locator": "Harris Bilingual Elementary School; K-2",
+        "notes": "Primary page does not name the language ordering for 60/40; no numerical shares.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY"
+      },
+      {
+        "source": "wp_co_harris",
+        "period": "undated",
+        "grade": "3-5",
+        "label": "50/50",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Harris Bilingual Elementary School; 3-5",
+        "notes": "Both programme languages and equal 50/50 share explicit; K-2 ordering remains unresolved.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "undated",
+      "source": "wp_co_harris",
+      "locator": "Harris Bilingual Elementary School",
+      "notes": "Established school programme with current continuation; source design remains undated."
+    },
+    "continuity_review": "CO_HARRIS"
+  },
+  {
+    "program_id": "WP-CO-P-e25c13053c31",
+    "school_id": "WP-CO-S-6a4de2367e0f",
+    "state": "CO",
+    "district": "Poudre School District",
+    "school": "Irish Elementary Escuela Bilingüe",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 37",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_irish_model",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Irish Elementary Escuela Bilingüe",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_irish_model",
+        "period": "undated",
+        "grade": "not_reported",
+        "label": "English 50%; Spanish 50%",
+        "shares": null,
+        "locator": "Irish Elementary Escuela Bilingüe; not_reported",
+        "notes": "Source says time is adjusted at each grade; no grade-specific share is asserted.",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "SOURCE_GRADE_SCOPE_NOT_REPORTED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 37",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-a6ce973d1c43",
+    "school_id": "WP-CO-S-529d4936101f",
+    "state": "CO",
+    "district": "Roaring Fork School District",
+    "school": "Basalt Elementary School",
+    "track": "language_unresolved",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 39",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_directory_scope_requires_review",
+      "scope": "academic_content_scope_requires_review",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 39",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-4b87e37b30f8",
+    "school_id": "WP-CO-S-08b46162aedf",
+    "state": "CO",
+    "district": "Roaring Fork School District",
+    "school": "Riverview School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 40",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_riverview",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Riverview School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 40",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-d5b0185c7956",
+    "school_id": "WP-CO-S-09fe79510e77",
+    "state": "CO",
+    "district": "Summit School District",
+    "school": "Dillon Valley Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 41",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Dillon Valley Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Dillon Valley Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Dillon Valley Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "established 2005 / schoolwide since 2022-23; undated current programme",
+      "source": "wp_co_summit",
+      "locator": "Dillon Valley Elementary",
+      "notes": "Source explicitly dates earlier establishment and confirms continuing provision; allocation remains undated."
+    },
+    "continuity_review": "CO_SUMMIT_dillonvalleyelementary"
+  },
+  {
+    "program_id": "WP-CO-P-d5804e628968",
+    "school_id": "WP-CO-S-4765c2fa614d",
+    "state": "CO",
+    "district": "Summit School District",
+    "school": "Silverthorne Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 42",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Silverthorne Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Silverthorne Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "K-5",
+        "label": "English 50%; Spanish 50%",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Silverthorne Elementary; K-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "continuity_no_end_indication",
+      "period": "established 2005 / schoolwide since 2022-23; undated current programme",
+      "source": "wp_co_summit",
+      "locator": "Silverthorne Elementary",
+      "notes": "Source explicitly dates earlier establishment and confirms continuing provision; allocation remains undated."
+    },
+    "continuity_review": "CO_SUMMIT_silverthorneelementary"
+  },
+  {
+    "program_id": "WP-CO-P-b08f1fc66794",
+    "school_id": "WP-CO-S-27dd155a822e",
+    "state": "CO",
+    "district": "Summit School District",
+    "school": "Summit High School",
+    "track": "Spanish",
+    "notes": "Content and electives in Spanish in addition to language courses; up-to-40% is a ceiling, not a common pupil schedule.",
+    "observations": [
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Summit High School",
+        "notes": "Content and electives in Spanish in addition to language courses; up-to-40% is a ceiling, not a common pupil schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated",
+      "source": "wp_co_summit",
+      "locator": "Summit High School",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-bd0b87dd2210",
+    "school_id": "WP-CO-S-d4b0618a6641",
+    "state": "CO",
+    "district": "Summit School District",
+    "school": "Summit Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 43",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Summit Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_summit",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Summit Middle School",
+        "notes": "Spanish Language Arts with embedded Design Thinking; source says every-other-day extended block. Do not assign the optional up-to-40% ceiling as actual exposure.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_secondary_integrated_content_scope_requires_review",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 43",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-fad470a008c7",
+    "school_id": "WP-CO-S-637a6e19f54e",
+    "state": "CO",
+    "district": "Telluride R-1 School District",
+    "school": "Telluride Elementary School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 44",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_telluride",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Telluride Elementary School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 44",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-c925f24ef83a",
+    "school_id": "WP-CO-S-c988bf3d44cb",
+    "state": "CO",
+    "district": "Telluride R-1 School District",
+    "school": "Telluride Intermediate School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 45",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_telluride",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Telluride Intermediate School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 45",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-5430dfe6fa75",
+    "school_id": "WP-CO-S-acb1c8fcc1fc",
+    "state": "CO",
+    "district": "Telluride R-1 School District",
+    "school": "Telluride Middle/High School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 46",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_telluride",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Telluride Middle/High School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 46",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e7fd95196c34",
+    "school_id": "WP-CO-S-e6f22b94546f",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Bill Reed Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 47",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bill Reed Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Bill Reed Middle School",
+        "notes": "Named content courses in Spanish; no share inferred from a number of courses.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 47",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-fdefcd82c86f",
+    "school_id": "WP-CO-S-f14637bba11e",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Cottonwood Plains Dual Language Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 48",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Cottonwood Plains Dual Language Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Cottonwood Plains Dual Language Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "K-2",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Cottonwood Plains Dual Language Elementary; K-2",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "3-5",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Cottonwood Plains Dual Language Elementary; 3-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 48",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-094b699cea97",
+    "school_id": "WP-CO-S-141580b1d0a5",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Loveland High School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 49",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Loveland High School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "9-12",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Loveland High School",
+        "notes": "Named content courses in Spanish; no share inferred from a number of courses.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 49",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-63ceff7b822f",
+    "school_id": "WP-CO-S-c0d7b4107b7d",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Lucile Erwin Middle School",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 50",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lucile Erwin Middle School",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "6-8",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Lucile Erwin Middle School",
+        "notes": "Named content courses in Spanish; no share inferred from a number of courses.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 50",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-c168aabcacbc",
+    "school_id": "WP-CO-S-a631bd250eec",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Thompson Valley High School",
+    "track": "language_unresolved",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 51",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "candidate_current_secondary_offering_requires_review",
+      "scope": "not_in_current_named_district_programme_list",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 51",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  },
+  {
+    "program_id": "WP-CO-P-e88f3fd37f33",
+    "school_id": "WP-CO-S-25cd170be3a8",
+    "state": "CO",
+    "district": "Thompson School District",
+    "school": "Truscott Dual Language Elementary",
+    "track": "Spanish",
+    "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+    "observations": [
+      {
+        "source": "wp_co_roster",
+        "period": "undated voluntary state directory",
+        "grade": "not_reported",
+        "languages": [],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "List row 52",
+        "notes": "Voluntary state listing is not a complete census; raw aliases/duplicates retained.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "not_reported",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Truscott Dual Language Elementary",
+        "notes": "Language pair is from the primary source, not filled from a Spanish default. French at Denver Language School is a middle-grade track.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "K-5",
+        "languages": [
+          "English",
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Truscott Dual Language Elementary",
+        "notes": "",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "K-2",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Truscott Dual Language Elementary; K-2",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "wp_co_thompson",
+        "period": "undated",
+        "grade": "3-5",
+        "label": "half day English; half day Spanish",
+        "shares": {
+          "English": 50,
+          "Spanish": 50
+        },
+        "locator": "Truscott Dual Language Elementary; 3-5",
+        "notes": "",
+        "basis": "Share of instructional time; published policy, not observed exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "unconfirmed_reference_year",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_program_directory_listing",
+      "method": "source_year_does_not_establish_reference_year",
+      "period": "undated voluntary state directory",
+      "source": "wp_co_roster",
+      "locator": "List row 52",
+      "notes": "Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."
+    }
+  }
+]

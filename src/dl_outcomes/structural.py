@@ -11,7 +11,8 @@ from .validation import load
 
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
-REPORT = 'data/reports/structural_integration_2026_11_04'
+REPORT = 'data/reports/structural_inventory_2026_11_04'
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 
 
 def migration_errors(root, tables, *, check_hashes=True):
@@ -105,10 +106,18 @@ def migration_errors(root, tables, *, check_hashes=True):
     if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='structural_inventory':
         if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments for r in tables['datasets']):
             errors.append('New non-structural dataset collected before the structural phase is finished')
+    batch_audit = root / 'config/research_migrations/western_plains_2026_11_04.json'
+    if batch_audit.exists():
+        from .western_plains_review import audit_errors
+        errors.extend(audit_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
 def report_rows(root, tables):
+    from .allocation_coverage import report_rows as allocation_rows
+    allocation_details, _, allocation_summary = allocation_rows(tables)
+    allocation_by_site = {r['site_id']:r for r in allocation_details}
+    allocation_by_state = {r['state_code']:r for r in allocation_summary}
     schools = {r['school_id']: r for r in tables['schools']}
     programs = {r['program_id']: r for r in tables['programs']}
     sites = {r['site_id']: r for r in tables['program_sites']}
@@ -125,6 +134,7 @@ def report_rows(root, tables):
             share_claims[schedule_sites[claim['entity_id']]].append(claim['reported_value'])
     for site_id, site in sorted(sites.items()):
         program, school = programs[site['program_id']], schools[site['school_id']]
+        k_scope = allocation_by_site[site_id]
         def joined(rows, field, *, omit=()):
             return ' | '.join(sorted({r[field] for r in rows if r[field] and r[field] not in omit}))
         states = statuses[site_id]
@@ -141,6 +151,9 @@ def report_rows(root, tables):
             model_labels_all_source_periods=joined(allocations[site_id],'reported_model_label',omit=('unknown','not_reported','Other','Allocation Other','.','N/A')) or joined(configurations[site_id],'reported_model_label',omit=('Other','Allocation Other','.','N/A')),
             allocation_grade_scopes=joined(allocations[site_id],'grade_scope'),
             allocation_review_flags=joined(allocations[site_id],'grade_support_status'),
+            kindergarten_allocation_eligibility=k_scope['k_eligibility'],
+            kindergarten_allocation_status=k_scope['k_allocation_status'],
+            in_allocation_reference_working_set=k_scope['in_reference_working_set'],
             preserved_selected_share_claims=' | '.join(sorted(set(share_claims[site_id]))),
             interpretation='Source-period union for review, not a single contemporaneous configuration, verified program count or tested-cohort exposure. Blank operating status in legacy pilots means no status-history row collected.'))
     inventory.sort(key=lambda r:(r['state_code'],r['school_name'],r['program_id'],r['site_id']))
@@ -158,10 +171,15 @@ def report_rows(root, tables):
             registry_school_units_including_screening=len(registry), program_site_school_units=len({r['school_id'] for r in current}),
             provisional_program_evidence_groups=len({r['program_id'] for r in current}),
             status_history_rows=len(state_status),
-            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in FIVE else None,
-            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in FIVE else None,
+            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES else None,
+            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES else None,
             program_groups_with_some_population_model=len({r['program_id'] for r in current if r['population_models_all_source_periods']}),
             program_groups_with_some_delivery_structure=len({r['program_id'] for r in current if r['delivery_structures_all_source_periods']}),
+            k_allocation_denominator_school_units=allocation_by_state[code]['k_denominator_school_units'],
+            secondary_school_units_excluded_from_k_coverage=allocation_by_state[code]['secondary_school_units_excluded'],
+            other_non_k_school_units_excluded=allocation_by_state[code]['other_non_k_school_units_excluded'],
+            k_eligibility_unknown_school_units=allocation_by_state[code]['k_eligibility_unknown_school_units'],
+            k_allocation_denominator_status=allocation_by_state[code]['denominator_status'],
             statewide_completeness='not_established',
             notes='All-source-period structural evidence. Registry schools may include historical leads or non-DLI screening; program groups include candidates, closures and proposals. Status/eligibility must be filtered separately.'))
     return inventory, sorted(summary,key=lambda r:r['state_code'])
@@ -185,6 +203,16 @@ def generate_report(root, *, check=False):
         REPORT + '_program_view.csv':csv_text(inventory),
         REPORT + '_by_state.csv':csv_text(summary),
     }
+    from .allocation_coverage import render_reports as allocation_reports
+    contents.update(allocation_reports(root, tables))
+    if (root/'config/research_migrations/elementary_allocation_audit_2026_11_04.json').exists():
+        from .elementary_audit import render_reports as elementary_reports
+        contents.update(elementary_reports(root,tables))
+    batch_summary = None
+    if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
+        from .western_plains_review import render_reports
+        batch_contents, batch_summary = render_reports(root, tables)
+        contents.update(batch_contents)
     audit = dict(migration_date='2026-11-04', build_id=manifest['build_id'],schema_version=manifest['schema_version'],
         collection_phase='structural_inventory', proficiency_collection='deferred_until_50_state_structural_inventories_finished',
         states_with_integrated_program_evidence=[r['state_code'] for r in summary],
@@ -194,8 +222,10 @@ def generate_report(root, *, check=False):
         oregon_source_observations=223,oregon_directory_program_evidence_groups=209,
         historical_CDE_screening_school_leads=1310,oregon_separate_language_screening_rows=12,
         original_assessment_outputs_unchanged=True, statewide_completeness='not_established',
-        view_interpretation='Source-period unions for review, not a current operating census or assumed historically stable configurations.',
+        view_interpretation='Source-period unions for review, not a current operating census or assumed historically stable configurations. The earlier nine-state integration report is a preserved milestone; this is the current inventory view.',
         reports={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()})
+    if batch_summary:
+        audit['western_plains_batch'] = {k: batch_summary[k] for k in ['programme_evidence_groups', 'school_units_with_programme_evidence', 'public_source_documents', 'source_extraction_counts']}
     contents[REPORT+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

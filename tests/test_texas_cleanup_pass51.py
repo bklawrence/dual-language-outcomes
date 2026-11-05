@@ -89,9 +89,11 @@ class TexasCleanupTests(unittest.TestCase):
 
     def test_shared_tables_expose_qualifications_as_filterable_fields(self):
         definition, tables = load(ROOT)
-        proxy = next(r for r in tables['allocation_schedules'] if r['grade_support_status']=='EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED')
+        texas_schools = {r['school_id'] for r in tables['schools'] if r['state_code']=='TX'}
+        texas_schedules = [r for r in tables['allocation_schedules'] if r['school_id'] in texas_schools]
+        proxy = next(r for r in texas_schedules if r['grade_support_status']=='EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED')
         self.assertEqual(proxy['evidence_review_status'], 'RETAINED_PROXY_REQUIRES_K_SCHEDULE')
-        rejected = [r for r in tables['allocation_schedules'] if r['grade_support_status']=='SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD']
+        rejected = [r for r in texas_schedules if r['grade_support_status']=='SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD']
         self.assertEqual(len(rejected), 23)
         self.assertTrue(all(r['site_id'] is None for r in rejected))
         proxy['schedule_status']='observed_schedule'

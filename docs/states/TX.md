@@ -1,5 +1,7 @@
 # Texas national-model pilot
 
+For K-allocation coverage, use the [revised school view](../../data/reports/texas_kindergarten_allocation_coverage_2026_11_04.csv) and [denominator/evidence rules](../status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md). Secondary continuations and other non-K campuses remain in the inventory with K allocation marked not applicable. The archived 2024–25 campus directory provides dated grade-range context; K-serving-campus proxies remain separate from programme-grade confirmation, and unknown grades remain a review category. Earlier all-campus Pass 48–51 snapshots are preserved.
+
 Inputs are the additive Pass 51 language/linked-policy exports, Pass 44 structural evidence and the four saved Pass 45 TPRS observations. The [Texas cleanup report](../texas/README_PASS51.md) documents the evidence, dates and unresolved cases. Pass 50 and earlier snapshots remain intact.
 
 The pilot migrates 1,610 campus identities and 1,863 **provisional evidence groups**. The `TX_P50_language_track_id` namespace and existing program/site identities stay stable across the cleanup; these are not asserted to be 1,863 distinct programs. Pass 51 resolves 83 unknown pair records at their stated evidence scope, largely district policy. District policy is not backdated to a campus/year, and later Wooten evidence remains later evidence. Unknown pairings receive no invented language rows.
