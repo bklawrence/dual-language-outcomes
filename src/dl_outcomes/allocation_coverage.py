@@ -9,6 +9,7 @@ import csv
 import io
 import json
 import re
+from .policy_selection import current_policy_choices
 
 PREFIX = 'data/reports/kindergarten_allocation_coverage_2026_11_04'
 WA_DIRECTORY = 'data/registry/washington'
@@ -120,6 +121,7 @@ def report_rows(tables):
             directory[row['entity_id']] = row
     shares = {r['schedule_id'] for r in tables['instructional_allocations']}
     details = []
+    policy_cache = {}
     for site in sorted(tables['program_sites'], key=lambda r:r['site_id']):
         pid, sid = site['program_id'], site['school_id']
         program, school = programs[pid], schools[sid]
@@ -140,6 +142,11 @@ def report_rows(tables):
         schedules = [r for r in allocations[sid] if r['site_id'] in {None, site['site_id']}]
         year = reference_year(state)
         usable = [r for r in schedules if not r['school_year'] or not year or r['school_year'] <= year]
+        if year not in policy_cache:
+            policy_cache[year] = current_policy_choices(tables, year)
+        choice = policy_cache[year].get(site['site_id'])
+        if choice:
+            usable = [r for r in usable if r['schedule_id'] == choice['selected_schedule_id']]
         # An explicitly campus/programme-linked grade statement is evidence of
         # K scope; a bare ratio or district entry policy is not that statement.
         grade_schedules = [r for r in usable if r['site_id']==site['site_id']
@@ -277,6 +284,8 @@ def render_reports(root, tables):
     if batch.exists():tag=json.loads(batch.read_text())['report_tag']
     great_lakes=root/'config/research_migrations/great_lakes_2026_11_05.json'
     if great_lakes.exists():tag=json.loads(great_lakes.read_text())['report_tag']
+    historical=root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json'
+    if historical.exists():tag=json.loads(historical.read_text())['report_tag']
     prefix=PREFIX.replace('2026_11_04',tag)
     contents = {prefix+'_by_program.csv':csv_text(details), prefix+'_by_school.csv':csv_text(schools),
                 prefix+'_by_state.csv':csv_text(summary)}

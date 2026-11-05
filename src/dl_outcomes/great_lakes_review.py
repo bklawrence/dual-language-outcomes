@@ -21,7 +21,10 @@ SETTINGS = dict(base=BASE, states=STATES, audit=AUDIT, suffix=SUFFIX, report=REP
 
 
 def audit_errors(root, tables, *, check_hashes=True):
-    errors = reviewed_errors(root, tables, check_hashes=check_hashes, batch=SETTINGS)
+    from .illinois_history import authorized_additions
+    added_schools, added_programmes = authorized_additions(root)
+    settings = dict(SETTINGS, additional_programme_ids={'IL': added_programmes})
+    errors = reviewed_errors(root, tables, check_hashes=check_hashes, batch=settings)
     audit = json.loads((root / AUDIT).read_text())
     programmes, _ = inputs(root, base=BASE, states=STATES)
     if check_hashes:
@@ -38,6 +41,7 @@ def audit_errors(root, tables, *, check_hashes=True):
         expected = {p['school_id'] for p in programmes if p['state'] == state}
         if state == 'IL':
             expected |= set(audit['expanded_state_original_ids']['schools']['IL'])
+            expected |= added_schools
         actual = {r['school_id'] for r in tables['schools'] if r['state_code'] == state}
         if actual != expected:
             errors.append('Great Lakes school identities lost, invented or duplicated: ' + state)

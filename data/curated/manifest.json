@@ -1,13 +1,14 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-8e20cb659d5a56afa9d83a9ec4b0dca2",
-  "built_at": "2026-11-05T20:25:35.010807+00:00",
-  "base_git_revision": "91e6bb1eff7430d00fb65f453e69af34829f83fb",
+  "build_id": "build-5e2cb1ffe93b5867aadd7fc1689e81c7",
+  "built_at": "2026-11-05T21:45:36.662068+00:00",
+  "base_git_revision": "c234e5c6f49cc2ce4994929575c0c466b11cdf99",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
     "config/research_migrations/elementary_allocation_audit_2026_11_04.json": "670c6b22ce368b8f0340bae1d2dc6021c0e280d0324746ef48ddfec64f554906",
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
+    "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
     "config/research_migrations/northern_central_ak_hi_2026_11_05.json": "2e0bdaa2f69db527b7d7ef0e29ae7988dc0c5b5c50d6ebcf4fdf62b5c5c0ed70",
     "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
     "config/research_migrations/tx_allocation_review_2026_11_05.json": "182e0f8b209c8f47383845cf06c13b9ea2ec7e548c4efb083e82dcf16ccf11a9",
@@ -26,7 +27,7 @@
     "config/states/hi.json": "441b249083c64f65c569e0a4a5bd7e8ecf614780f3d3dabee9d37c5e4691b285",
     "config/states/ia.json": "e5829de8e35158ac5c83e3aa362566d593b676441277f17f443d6a4104a5a5a3",
     "config/states/id.json": "af855acbabff9a7f03692af7924443e587a4ed1297b68dfe864b6b6d252c9159",
-    "config/states/il.json": "f3af5b5f979d1b645e213dca897ec1a04b7047f3d445e85038ffd41e14154f8d",
+    "config/states/il.json": "95d0ce8903bf49f8dc0b3614c70c88e035d695be75ac53107b30fb40c4562c62",
     "config/states/in.json": "add0eac106860e565dd77e69f48d7e8f3d01ceeca79c795744c569ff15cdfd0d",
     "config/states/ks.json": "8a33b2ac628e4c4edee6abb892c3a715344ef36c7cf4631820d4d6001d70ed17",
     "config/states/ky.json": "b8d8af486e614a0525cb4319717aef1f1efb0ebde598228697978a0381a713a7",
@@ -467,6 +468,9 @@
     "data/raw/great_lakes_2026_11_05/gl_wi_waukesha_p_7ff476b.html.metadata.json": "727b77f67ee052d40b03111740788152652cca8811bd8c921e07ca784f560bdd",
     "data/raw/great_lakes_2026_11_05/gl_wi_wiitl.html": "974b6ef4d0770b3a65680d991782442543d7641b4cbf2756bc955e356e5d1d01",
     "data/raw/great_lakes_2026_11_05/gl_wi_wiitl.html.metadata.json": "57ef44622dd6706f873c792902e945722906a92d64dade82bbcaa720f842102f",
+    "data/raw/illinois_2021_22_user_2026_11_05/clarifications.json": "2a0d552540624cb79f55f4252e682aaf9ea0f720c5877b6580d972225e7bdf43",
+    "data/raw/illinois_2021_22_user_2026_11_05/inventory.tsv": "639b4ab83b474de306aed79df8a1574ed6a70284efdf52e2d74701b1d705f394",
+    "data/raw/illinois_2021_22_user_2026_11_05/metadata.json": "e32c411ebc16c4e78635fe8ad2467a33cb6d4d00df5d7f6444d538d522855034",
     "data/raw/legacy_registry/pre_schema_v1/instructional_history.csv": "80af4f3ca48553dba53c1fce184bfc70d3413b26b96e4467d04090a47ac4adaf",
     "data/raw/legacy_registry/pre_schema_v1/manifest.json": "90b8ef1e6c78ba77ccc7e0d2bbb3e6179903984d0cc0636fd3eba9450587c2a3",
     "data/raw/legacy_registry/pre_schema_v1/program_sites.csv": "ddac53b36acf2acbbbfc03f262466788251145eada5f4e9736024acf68874411",
@@ -1066,6 +1070,7 @@
     "data/registry/five_state_2026_27/evidence_ledger.csv": "7d0f97156ed80169cbdf1f06359212d1e51deb07be605871be81ce59fe3afe1c",
     "data/registry/five_state_2026_27/lausd_directory_snapshot.csv": "b89558340ad28f4045d818b7b8741dfd50314dcf3d33c6f37d56d74e0ee6be99",
     "data/registry/five_state_2026_27/source_snapshots/cde_mlprograms_2024_25.xlsx": "f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215",
+    "data/registry/great_lakes_2026_11_05/README.md": "e0df7a97ce26a6e728a02d4d23c42bc3f95a99ba109c098a60f33a38a96a601b",
     "data/registry/great_lakes_2026_11_05/extractions/gl_cps_albany-park.txt": "b12ff2db0b21de0cc6fd3edce89f8eb111110d05b21de13c8d1c57242a457ac4",
     "data/registry/great_lakes_2026_11_05/extractions/gl_cps_avondale-logandale.txt": "26d8d22b6cde3087120dfe117067ccbea4cf88b48ba7f5a049d9f4d237f34377",
     "data/registry/great_lakes_2026_11_05/extractions/gl_cps_azuela.txt": "3aa2be632a9ad90e6a3c2d2d5e80748e9ec2899add51975bec74df92ec7a456e",
@@ -1248,19 +1253,33 @@
     "data/registry/great_lakes_2026_11_05/extractions/in_state_directory_rows.json": "f295d816abceab12dca2b7d1ed9093cf989a509fba237e61c997f28cb338dcc7",
     "data/registry/great_lakes_2026_11_05/extractions/index.json": "7be90e3ef7bf94911ca9e26a2a08f64e1e3e4e41cd72e33582eeb7feb13d02e8",
     "data/registry/great_lakes_2026_11_05/identity_decisions.json": "1b0e22d50afc601d9aae3e563a6f3d45240922cb309b5f8e1f9eab8300b4cb83",
+    "data/registry/great_lakes_2026_11_05/il_programmes.csv": "f52d7155f79f938eb2220ca25a1d7f74f3533a8be05d8693b3d6bbe20d48b88a",
     "data/registry/great_lakes_2026_11_05/il_programmes.json": "89d1cc32dee2ec9f21ed12796833cda9626e4c71422618537dc05e806b6141b3",
+    "data/registry/great_lakes_2026_11_05/il_schools.csv": "322c5fbf247cb2a281d131952757bc16e4d0e867924e7d7fabcad3f3592f025c",
     "data/registry/great_lakes_2026_11_05/il_screening.json": "0ebe38dc6d27beeeb44c79fafcc3a5e79cf50a1a0e45264fe5aff731462ee954",
+    "data/registry/great_lakes_2026_11_05/in_programmes.csv": "8a51cebd6e90076beb632ca6338d043b5056f9e36bc6e0e9f3eaff684763996c",
     "data/registry/great_lakes_2026_11_05/in_programmes.json": "cafb359aab8ad4d655ae9df752ffff4d8d4dffc87484fa0c590a9c4887d83e44",
+    "data/registry/great_lakes_2026_11_05/in_schools.csv": "948a8ef5eae46b64dcabd21acb1c2cf53f638c70324b6aae7129262d4ab832dc",
     "data/registry/great_lakes_2026_11_05/in_screening.json": "93f0fba57169b6aed46a881f90bcddf3748937732b2ca5b3c44c09a49f4f8c9c",
     "data/registry/great_lakes_2026_11_05/legacy_illinois_rows.json": "507d38bc5e53e1747870571c65bc8f4fba23d3358ffecc4e75853fd13944780d",
+    "data/registry/great_lakes_2026_11_05/mi_programmes.csv": "20d457d19f9e470384e7ac77e10aabcbf725983ff967e3360770a1e69e5f191c",
     "data/registry/great_lakes_2026_11_05/mi_programmes.json": "d0a7b7434548e7abc3657cc5325538b6f753dded319f555cc68dc53fbb54a639",
+    "data/registry/great_lakes_2026_11_05/mi_schools.csv": "7e914b24c02a6c6addab8df87a73f28ac6f5144121ac0dfb27f432ffb50a899f",
     "data/registry/great_lakes_2026_11_05/mi_screening.json": "7dafadfc49900a9c43e5da7d07eedf286fee69e4660a378fe6f2cdc297c1b25f",
     "data/registry/great_lakes_2026_11_05/retrieval_log.csv": "0d79351c28da67af0a75d7acd099ef0bb16c64e0595d2a302fbe625780dc73ce",
     "data/registry/great_lakes_2026_11_05/reviews.json": "779b2c04e1e2b6ff18e10b3492b79aa147fafc3a711f2761a25ae9927c20ae41",
     "data/registry/great_lakes_2026_11_05/selection_summary.json": "ce9dca464efa3a77f8bb6d9e63878baeca9e6df695adf74fe502eb69d1c823f4",
+    "data/registry/great_lakes_2026_11_05/sources.csv": "23cb775b5ce9a71eb39e2d60328a8c08e337829e03d8ad144bca111bbba87af4",
     "data/registry/great_lakes_2026_11_05/sources.json": "359a4e0799bd7d5190c63f906073ee9358f386311a5bdfab69c570eab8002b36",
+    "data/registry/great_lakes_2026_11_05/wi_programmes.csv": "3808f36684e7ae37030ef1edd55b9740d8d601841058cd6ace9a6d8fcdc8cae0",
     "data/registry/great_lakes_2026_11_05/wi_programmes.json": "7d026183c836ccb17356199ba353a61e0afdfcdceec57e3d6a56dbe12c755cd4",
+    "data/registry/great_lakes_2026_11_05/wi_schools.csv": "13a7d7e049672745aee12f43a1744093d530ab10244d2cf78c37086781bb0b3b",
     "data/registry/great_lakes_2026_11_05/wi_screening.json": "05fe515a3f564b1d6f1781b07dd5e7d7a6a6654c4b6db63c82376c2275c187b5",
+    "data/registry/illinois_2021_22_user_2026_11_05/codebook.json": "edcf7d62edf905bdbe2b94d2daffef8eb257e63fae59681d11fcc14211ba4e8c",
+    "data/registry/illinois_2021_22_user_2026_11_05/new_programmes.json": "d3774805ffa8a9a2a1baa9820da8ebe547e10f360dc21c0ceccdb42446efdb54",
+    "data/registry/illinois_2021_22_user_2026_11_05/new_schools.json": "1943fcc219c06d2ecca6233a1e41476644a7ba3fedd101ac1a95d8633c68730a",
+    "data/registry/illinois_2021_22_user_2026_11_05/policy_decisions.json": "6c715fb2553be6a4d08959554a8eac7e3119caa77f077a3eae5ff135e52e7907",
+    "data/registry/illinois_2021_22_user_2026_11_05/records.json": "d4c83a9d53b5658a9aa22a5d9a19e3dd851c4f953b179d4241bd605012f296e3",
     "data/registry/instructional_history.csv": "8fcf987de892d2ef14ddabe5d098229e646aea7bf577ba26dcc06715e968499a",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.json": "bf3dd8907ce8e40f442447f43f2f2ab863816053e5feb2d103e9ce84b4f457cc",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_screening.json": "277de211683d7c411ad772ff71b7111d39714d9243d4177fd28973d861dfc923",
@@ -1500,6 +1519,10 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_all_records_by_state.csv": "41fee5ebba2f9029bdb716a0f1207b6967fe194731aff8d061d1e9c72b5b4c61",
     "data/reports/elementary_allocation_coverage_2026_11_05_by_school.csv": "c770632d0b25da921ba581d04be257a2b5e63dc62f1210103cfe74ed1dc3d981",
     "data/reports/elementary_allocation_coverage_2026_11_05_by_state.csv": "803691451f5b4780a74609fd4645a326079d50c4d17da42e59e0d1f4c151fa2f",
+    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_all_records_by_state.csv": "745fd362a7c82155b6d5e230fa7cb3b764199d8c1bf0fc8b6e72ea5914ca2484",
+    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_school.csv": "5c9a641b8b0ae00ccd3522590b6b8bc1ae47ed8c6da1b92fb382b7deed454663",
+    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_state.csv": "de62aadeb80aa8c7c9c306cde5ff853a11003158e38e8850278e1844aa09d60c",
+    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_reference_by_state.csv": "7c036f11ecf024814e692566ef0ff458b789bec002762ce8cf56a7bc97679065",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_all_records_by_state.csv": "247125d6875f676f9f7f18136ee871b7915201007b96c406b0750a417fc361f3",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "2f7400d48ca121c290dd40e21e0b88c88414b9d820257e2b30aa2da47db1029d",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "cfd739c7dbed3219d8c3d1b61ed27956179b867ffe21f3638ac0ca08ec2a668a",
@@ -1509,12 +1532,23 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_reviewed_by_school.csv": "25fc496e4373ad8e223753536571b4734cede5beefe94e6997a4cf4516595b51",
     "data/reports/elementary_allocation_coverage_2026_11_05_reviewed_by_state.csv": "6d53eab00d76b6958cb5e1e72249ce02090e0ae17dd091ee408eaf38632d4c14",
     "data/reports/elementary_allocation_coverage_2026_11_05_reviewed_reference_by_state.csv": "caebaeeb3b9821de024510b56df9a4a056abda63a5aaac2576c93827367d2f97",
+    "data/reports/great_lakes_2026_11_05.json": "f5dc3c4bc55cc769c5e60017553d03b93345067bf11095ca7a95d760a9749a3e",
+    "data/reports/great_lakes_2026_11_05_backlog.csv": "ffc47d8d555c995e2875898e54d84ecdb7eb869b120f044c711dc74a65ef8a0b",
+    "data/reports/great_lakes_2026_11_05_by_state.csv": "92fa33f7a7746e57ee6ee02f048ba167335e8b5f00b4c4bdd66494a326d0dd16",
+    "data/reports/great_lakes_2026_11_05_change_events.csv": "eb5a9be5a8b290c119648ce4f32e76180e1f112788df4af50a40dca9e16d78ed",
+    "data/reports/great_lakes_2026_11_05_program_view.csv": "a6bb7acb5bee6a62575aff7a12f93040a241cd087280a84c7a462eb2bb01ac06",
+    "data/reports/great_lakes_2026_11_05_review_cases.csv": "080eb22b21c5cacb3fe302d60bfc226940e0629aedd72093fb8a437952101837",
+    "data/reports/great_lakes_2026_11_05_schools.csv": "ab5ccae99f72d60a30c902e63884ec873d315e97b88f29d468d14489d9f8e0b2",
+    "data/reports/great_lakes_2026_11_05_screening.csv": "c115bf08e4e929e088d7aeceed454ebff18708eb33ff83a6846d46b6b4946e68",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_program.csv": "c16583149ffa7a4185770408e6ef5da8b5dffc8abe73f93373274e0fc0ff3410",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_school.csv": "714ebc51dfb586e47ecb7d2ade1d6e4a1aa071851fd578ae7efb022b39db635e",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_state.csv": "5e50dba73b1fe8440842203497d79d954ea5ba3ac73e7c32dfd48eb84cc07603",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_by_program.csv": "d4ea39ffb7e5bb1d230eeca5e060bbbf3964a4a787e304bcb02b209b0063ce7e",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_by_school.csv": "a908eb95b05dd8b7ad73fd04c228eca08df3af2e61ec3709648f88aa45dba610",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_by_state.csv": "d331a25215b2e2935c1eaa198afd750d5f81d65b053d8f39967a43e53a2c769b",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_program.csv": "461528718157d0c2c4b9bccf830ccc329cf8fd3eb7059a99c7d6f1ff1666b2db",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_school.csv": "fe9978c553d3546def0ab3d4e00588ae77b67e6a1e892b998094c06aed7ff289",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_state.csv": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_program.csv": "59a4e078f38a0c6c87d755a46d49504c61d1fda33d27a32f835bb6b1b120bb5d",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "b789635bfdcde6acf45a6507e18b37b4d6ff5d6e133a1f8f03656a4a9c65f6c7",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "9a8e75a59e101e7e40b44aecd595442967e7d04685961bf3772e591e6a4a4987",
@@ -1537,6 +1571,9 @@
     "data/reports/structural_inventory_2026_11_04_program_view.csv": "6a8cc5d8fa87fa8acacf67ac430ddd1d1f241255d8b7ccbe15f1d766bcb96723",
     "data/reports/structural_inventory_2026_11_05.json": "9c599006abdb96fb9232880bdda3cceef897059b4703e2cd4db5208a199be49b",
     "data/reports/structural_inventory_2026_11_05_by_state.csv": "cb0271caf3b7f3ff56dce694841177c8bf6ab8ef931b24df25835127d6cdae36",
+    "data/reports/structural_inventory_2026_11_05_great_lakes.json": "727997787a42d398d0e58535549c50fd75eced07f71b9ad2ca724bf891d8714e",
+    "data/reports/structural_inventory_2026_11_05_great_lakes_by_state.csv": "f92936b727e8190aafdc7853906e533f484fc5e3b68a77e434a92d1350ea8168",
+    "data/reports/structural_inventory_2026_11_05_great_lakes_program_view.csv": "4dec7a32fa7befcd838d27bc59233896309c27929d53bef6a12eaf8671dac9f6",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi.json": "6e6cca9ffbd15a51dcacdb5b1535fad592b588fbd70fcda7244d8f96475333d4",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_by_state.csv": "2b49d50973c55a1101774a6bc53b03ba87621bd499a4ba235c93a04dcd2cf926",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_program_view.csv": "70805faaad9ada6b96cfd9fb733ae4c79ed31d2f4e430f26c866a40428221fcf",
@@ -1552,6 +1589,7 @@
     "data/reports/texas_cleanup_coverage_pass51_2026_11_04.csv": "5e3ee71477f2e915ceaf4f34c2e2743f27b21891cdbf3936f19982b040dae19e",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_04.csv": "a44b64769680de30a8a8ca3a9bb9dcf2a9abccc0c8e74ff439cbd064b1abcb40",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/ut_tx_allocation_followup_2026_11_05_summary.json": "bedb2f4b69a4b3d19d158c3ef3795b65b44238546ec9cca88417836eeb3a3afe",
@@ -1563,6 +1601,7 @@
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_roster_reconciliation.csv": "61af3ffd73e5fc1a816b0302ce5515cf1a835cc842f4ace94dce1f980d56f646",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_04.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/western_plains_2026_11_04.json": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d",
@@ -1579,7 +1618,7 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
-    "src/dl_outcomes/allocation_coverage.py": "c7b0ef9d34428ddb3cf72c6794152669aed2779899ee2205367c8aa6bc440d81",
+    "src/dl_outcomes/allocation_coverage.py": "5a58f8d0b96cb08c2741c731693b0d295c2c0b25447e5f7139fce48b77c2ad0a",
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
@@ -1591,13 +1630,15 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
-    "src/dl_outcomes/elementary_audit.py": "f4da0a271a015d48ff712da8244021e3ff1a29a1f98d5230598ff14990c9714b",
-    "src/dl_outcomes/great_lakes_review.py": "dc66bfdaa9ad845338253827879da5d6d8b86f9ceb76aaad17307b69d528d17a",
+    "src/dl_outcomes/elementary_audit.py": "7e7d1c469e2aefddb2275fa1386faa1eccc1ce10649dab2653a74291666fbbc5",
+    "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
+    "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
-    "src/dl_outcomes/northern_central_review.py": "5a2be7140c06b8091bda5a4c3c316089da8be3e35688490ea5e39907f0937da4",
+    "src/dl_outcomes/northern_central_review.py": "3cb2dcf8902d0c8ee288ac23d6069341ced64094a229f4b7940f93c1e59280fb",
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
+    "src/dl_outcomes/policy_selection.py": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
     "src/dl_outcomes/release.py": "d6b3a446e81ff1533d4cd0cd29064bdbe98e612094dd6b6926ad714e3b5bc3ab",
     "src/dl_outcomes/schemas/catalog.json": "059ff07aa13f4902f9e36f0d2fc7a125d222479d7e7f7e79c8ee0b5dfd052bc2",
@@ -1610,7 +1651,7 @@
     "src/dl_outcomes/states/great_lakes.py": "55da5bd97a2f85e89c940649d0e124d02425c8853bc567bb601dba3fa5e5a3df",
     "src/dl_outcomes/states/hawaii.py": "9df847ed21f47c94471de653cac2d6f4b545979f22e932545578e21043a60c5e",
     "src/dl_outcomes/states/idaho.py": "8a911bc76cd242a9acfa25390e356ce0fa2c528d34c6d91f15c75a496f3251bc",
-    "src/dl_outcomes/states/illinois.py": "b916a90a264abda73f48207d860b04e64ba1a9a51e14ac5fe4aa179cf024fe58",
+    "src/dl_outcomes/states/illinois.py": "49541814b4c337ce661f0f685e871dea0a7526a5357c23707e50810b492a1981",
     "src/dl_outcomes/states/indiana.py": "0410952d2d8827549cff355e65786dcafbbad249bda56fc1c3baf6e028c20e64",
     "src/dl_outcomes/states/iowa.py": "8fb282dc976135b65086abb419bcb19b2175e6f55639615a1b351aebc24933ef",
     "src/dl_outcomes/states/kansas.py": "9abc6979878adedc35423d78463d38500926c944d4ce4650f74bb678446f534d",
@@ -1631,7 +1672,7 @@
     "src/dl_outcomes/states/western_plains.py": "ea4668229d03ffdacd9a05f850b80a998f6c4c96a65f9b6be292a7bee5c9d85a",
     "src/dl_outcomes/states/wisconsin.py": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "0ca841a64470898e305a834726a335aa79c216ade97ddcba9023f38dd04a0262",
+    "src/dl_outcomes/structural.py": "a58923cb5a2a2857063675fb249c2b09fb14aa37bad3bb67205ad45ce71f5f7c",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
     "src/dl_outcomes/western_plains_review.py": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
   },
@@ -1641,60 +1682,60 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "ed6e5addf3d641f78b85227a5d7ec0216a094e3251b6b417091a8f4062138697",
-      "rows": 40
+      "sha256": "5ee8568a76357c8505c346e5fac2358d4e385c6759e18aebddc3b73cc07553e0",
+      "rows": 41
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "e832bce77eb39e3fae7b7e54ad741337c22dd75e25ed28bf8c92a6b6c94941ef",
-      "rows": 908
+      "sha256": "232774c27e6b09695df4668bba205b0d20a084e6bf4d17fa0b7b5e1bb69c2aa8",
+      "rows": 912
     },
     "data/curated/registry/districts.csv": {
-      "sha256": "ddf1dd0d80976b17dce921f09b6fbc2dfdbd0f7a9c93797b2edcb0daeed8a62c",
-      "rows": 873
+      "sha256": "d983a260bb784dfe8e9faf2cdc10a97ffd567da51ab8f5f330f0fe3cfa9561e0",
+      "rows": 884
     },
     "data/curated/registry/schools.csv": {
-      "sha256": "1fe693e1736781566ca1538703e12c6b39d62ecde5a7d1932444c6136922fa95",
-      "rows": 4928
+      "sha256": "085f62947d45a1e21cec593f1fbc8cb340bfc832b491d8b02464befdc016c883",
+      "rows": 4969
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "692e532acac0b1d79ddb02838cf0754887e37840adbc59c5937206591d86d911",
-      "rows": 12564
+      "sha256": "249b446f2605cad8f3b833c7b16a18c794f93b3a5ff71ae722a6120be0131744",
+      "rows": 12769
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "6a84b77a2db21a4ad80f7db7f44b2c702a231bb4040af9301ee2267ce71fa438",
-      "rows": 5680
+      "sha256": "a5374f032766628e9c361c3a64f914c561ab71174ac0353a0b1189a91085fcc6",
+      "rows": 5806
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "fa6d8badb9caf89ae62c54170e8bb684776aad3c080868f711dca3e8d45493dd",
-      "rows": 3744
+      "sha256": "6a317f7e732b3489af1446b7ec3805f5f3f4ba061f6773035c431b03f3203eb7",
+      "rows": 3786
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "4c2f78963fc96f678cdb8b6fe440c98f197b228538432d8eea7ef18a13eb095c",
-      "rows": 3744
+      "sha256": "4ea6974a3d3983cd2a4f635c32d5646967c7848446d6434410bdaaef7416847a",
+      "rows": 3786
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "a2514e0eb7a59bc752d8ca199b8acef3b7f80dab81d171adeaafefe3f115a70c",
-      "rows": 2201
+      "sha256": "0327e9ad497852fd5a98b60dafae478a0eb78e159a0ea7a566f98ababe35a687",
+      "rows": 2335
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "696d0174ff974e4749da4215c72ec69894be7780ee105cc6a103261251cb3aa4",
-      "rows": 5654
+      "sha256": "615faf971d9d10995af3173f3649d5d3721f04fa83d61c096db2fbd7ac85200a",
+      "rows": 5787
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "c0ff591f68bd65b9565f222144d1f46565e335e51b27309ac98fb9a0d789a4e9",
-      "rows": 5165
+      "sha256": "a375e09cb2368aba2ace48abd1db7d04c6580f9e78da7c7cced93f7f0be0120f",
+      "rows": 5298
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "bc464a5b59a56d9014df72c5889147ee256ad915ad0fc559f1ebe8bf9ca56f7c",
-      "rows": 2048
+      "sha256": "3f38f9197a596b3c3877d3c53214e1879239c9e42e2b3bcc3e332a0144ff835d",
+      "rows": 2135
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "56dd9292e42dfc84dfebf780237292c2b19bf25d154bc2a4a018f949ce99d9a0",
-      "rows": 740
+      "sha256": "486a0b48129007da626dae23981189d5c971eb0886a7f4af92fc805895cb5a1f",
+      "rows": 742
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "ec843567ff2639770f1f09226f75e33350239477af0411df5e58f4d8efe2a0d5",
-      "rows": 21209
+      "sha256": "0c0029d6acdaea9327298116797519e3540d60e1a055b1fd13522328370d74c4",
+      "rows": 21565
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -1745,7 +1786,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "54318974c78ca576822002b38cd8219969370bb1d95cab80027902454086f46d",
+      "sha256": "d7f64782b3bbbbc95a0dec0750ab9e1766fd840c0baeecc794d5a4cf6047e1bc",
       "rows": 6400
     }
   },
@@ -1759,6 +1800,7 @@
     "Idaho: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
     "Illinois retains its original provisional seed alongside the expanded reviewed inventory. Published allocations are policies, not tested-cohort exposure.",
     "IL: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "Illinois: 144 user-researched 2021–22 rows retained; later IPA/Urbana changes are separate user-confirmed policies. Historical-only schools do not become confirmed 2025–26 hosts; proficiency remains deferred.",
     "IN: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "KS: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -1779,19 +1821,19 @@
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_05_great_lakes_program_view.csv": {
-      "sha256": "4dec7a32fa7befcd838d27bc59233896309c27929d53bef6a12eaf8671dac9f6"
+    "data/reports/structural_inventory_2026_11_05_illinois_2022_program_view.csv": {
+      "sha256": "2da3ff56248875559ce2146c44506047b9df566e04153002533f43c2c5e281f9"
     },
-    "data/reports/structural_inventory_2026_11_05_great_lakes_by_state.csv": {
-      "sha256": "f92936b727e8190aafdc7853906e533f484fc5e3b68a77e434a92d1350ea8168"
+    "data/reports/structural_inventory_2026_11_05_illinois_2022_by_state.csv": {
+      "sha256": "661e1776983a82d60fd9949a4cb14b85af56affec9f278fada68b1adc88f94f7"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_program.csv": {
-      "sha256": "461528718157d0c2c4b9bccf830ccc329cf8fd3eb7059a99c7d6f1ff1666b2db"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_program.csv": {
+      "sha256": "cd3327bad0d5f7537e57cae5944e7eb8dc5d4f9e35fc51991f4e7bea97d5c90b"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_school.csv": {
-      "sha256": "fe9978c553d3546def0ab3d4e00588ae77b67e6a1e892b998094c06aed7ff289"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": {
+      "sha256": "b8752a0bb3a797274e6aad2c07650363c1b1fb52a1ee6a7c5a4c0c0038032f74"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_state.csv": {
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": {
       "sha256": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd"
     },
     "data/registry/washington/wa_programs.csv": {
@@ -1800,23 +1842,23 @@
     "data/registry/washington/wa_dl_programs_2025_26.csv": {
       "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
     },
-    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": {
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": {
       "sha256": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6"
     },
-    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": {
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": {
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_school.csv": {
-      "sha256": "5c9a641b8b0ae00ccd3522590b6b8bc1ae47ed8c6da1b92fb382b7deed454663"
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": {
+      "sha256": "cf4c837a765f59d4a63f298751e73006e29904e26488fe555aa55a44402226dc"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_state.csv": {
-      "sha256": "de62aadeb80aa8c7c9c306cde5ff853a11003158e38e8850278e1844aa09d60c"
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": {
+      "sha256": "eb3abaacd78c0df1e807b9eb080e6e437e23f8033c175b4af0d6c6b159c3b387"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_reference_by_state.csv": {
-      "sha256": "7c036f11ecf024814e692566ef0ff458b789bec002762ce8cf56a7bc97679065"
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_reference_by_state.csv": {
+      "sha256": "a9d40d2002887dc4f70743c2a57daa7a9ea1407fb2c535d96b25f7b7771549cf"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_all_records_by_state.csv": {
-      "sha256": "745fd362a7c82155b6d5e230fa7cb3b764199d8c1bf0fc8b6e72ea5914ca2484"
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_all_records_by_state.csv": {
+      "sha256": "d8db443bc2e2f6ec554d50f81c65832f5e83eea720fe05c1e2503274b85e22ff"
     },
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
       "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
@@ -1989,8 +2031,35 @@
     "data/reports/great_lakes_2026_11_05.json": {
       "sha256": "f5dc3c4bc55cc769c5e60017553d03b93345067bf11095ca7a95d760a9749a3e"
     },
-    "data/reports/structural_inventory_2026_11_05_great_lakes.json": {
-      "sha256": "727997787a42d398d0e58535549c50fd75eced07f71b9ad2ca724bf891d8714e"
+    "data/registry/illinois_2021_22_user_2026_11_05/inventory_2021_22.csv": {
+      "sha256": "187ccdff0cdc83c7f3289d4004f9d6c2dddd8aa1ce8ce93e94f7f0b7e6b04f37"
+    },
+    "data/registry/illinois_2021_22_user_2026_11_05/identity_reconciliation.csv": {
+      "sha256": "0a236ba7419dff6321f8f465cc8192154869108339d01487baef787872ae92cc"
+    },
+    "data/registry/illinois_2021_22_user_2026_11_05/historical_models.csv": {
+      "sha256": "5cba10bda0e8ada236b656ee0e32c2be893f1f30e3bdf842c3b69668b2e37bfa"
+    },
+    "data/registry/illinois_2021_22_user_2026_11_05/il_schools.csv": {
+      "sha256": "d8f674cbd0b3cf12ece544e57ba77b5041fb096d3613bb779f1495debf2a22ea"
+    },
+    "data/registry/illinois_2021_22_user_2026_11_05/il_programmes.csv": {
+      "sha256": "e087403eceff70a177feccbde20fe1bda60a1f5fec20227331e5fdbf36b32184"
+    },
+    "data/reports/illinois_2021_22_user_2026_11_05_followup.csv": {
+      "sha256": "1c34cc0b8140e011e2ea1db4c2dcf3de828e8d81449a398f9ae75bfb450480e9"
+    },
+    "data/reports/illinois_2021_22_user_2026_11_05_policy_decisions.csv": {
+      "sha256": "fd753d81ec0bc87dc34ff0c51f87877327e9db1e70ee0262f9bbd6828c55a76f"
+    },
+    "data/reports/illinois_2021_22_user_2026_11_05_urbana_lineage.csv": {
+      "sha256": "13f329daade3d5d98580e2170b91d4a1de3803739386891c7390a2f6231026c3"
+    },
+    "data/reports/illinois_2021_22_user_2026_11_05.json": {
+      "sha256": "d16f85a245990c8f2d9dc50f86ef9cb2db833089bae7c11ec65d6c6336123566"
+    },
+    "data/reports/structural_inventory_2026_11_05_illinois_2022.json": {
+      "sha256": "25da3a58283207b1bdeda58398beb9422fd2452fbcb6d3b8c74a08a2cc420804"
     }
   }
 }

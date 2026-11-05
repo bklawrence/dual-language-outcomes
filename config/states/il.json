@@ -14,5 +14,13 @@
     "source_extractions": "data/registry/great_lakes_2026_11_05/extractions/index.json",
     "retrievals": "data/registry/great_lakes_2026_11_05/retrieval_log.csv",
     "identity_decisions": "data/registry/great_lakes_2026_11_05/identity_decisions.json"
+  },
+  "historical_research_inputs": {
+    "config": "config/research_migrations/illinois_2021_22_user_2026_11_05.json",
+    "records": "data/registry/illinois_2021_22_user_2026_11_05/records.json",
+    "new_schools": "data/registry/illinois_2021_22_user_2026_11_05/new_schools.json",
+    "new_programmes": "data/registry/illinois_2021_22_user_2026_11_05/new_programmes.json",
+    "codebook": "data/registry/illinois_2021_22_user_2026_11_05/codebook.json",
+    "policy_decisions": "data/registry/illinois_2021_22_user_2026_11_05/policy_decisions.json"
   }
 }

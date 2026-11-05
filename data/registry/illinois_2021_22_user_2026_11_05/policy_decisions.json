@@ -1,0 +1,32 @@
+[
+  {
+    "decision_id": "IL22-IPA-CURRENT",
+    "program_id": "IL-P008",
+    "site_id": "IL-PS008",
+    "school_id": "IL-S008",
+    "selected_schedule_id": "schedule-0a539e64a3f45a798f863d1cafff01be",
+    "model": "90/10",
+    "effective_from": "2025-26",
+    "reason": "User confirms IPA changed allocation. The snapshot records 50/50 in 2021–22; the preserved 2025–26 school plan and current school page support 90/10. Exact first year of change was not supplied."
+  },
+  {
+    "decision_id": "IL22-YANKEE-SPANISH-2024",
+    "program_id": "GL-IL-P-ce9126abf94e",
+    "site_id": "site-62efdef027ba557abd732a438ddfcec4",
+    "school_id": "IL-S018",
+    "selected_schedule_id": "schedule-f99b829cb0c05f61b5ee0e2096e195e9",
+    "model": "80/20",
+    "effective_from": "2024-25",
+    "reason": "User confirms Spanish switched to 80/20 in 2024–25 following consolidation from DPW/Leal at Yankee Ridge. Undated 90/10 website description is retained as a superseded/stale source claim."
+  },
+  {
+    "decision_id": "IL22-YANKEE-FRENCH-STABLE",
+    "program_id": "GL-IL-P-94b4faa3011b",
+    "site_id": "site-e7c94871eca556cf9c0b1d7d252da788",
+    "school_id": "IL-S018",
+    "selected_schedule_id": "schedule-528586a292025ca4b1c27442ff0a974e",
+    "model": "50/50",
+    "effective_from": null,
+    "reason": "User confirms French has remained 50/50 for its entire existence. Snapshot supports 2021–22 and the later school/district source also states 50/50; an unreported programme origin date is not invented."
+  }
+]
