@@ -2,7 +2,7 @@
 
 A longitudinal research dataset for dual-language programs across all **50 US states**, including all instructional languages. The national model separates school/program histories from three assessment layers: DL-participant reports, state assessments and context, and Stanford SEDA estimates.
 
-**Current phase: finish the structural program inventories for all 50 states before collecting additional proficiency data.** Partial structural evidence is integrated for **15 states**: Arizona, California, Colorado, Idaho, Illinois, Kansas, Montana, Nebraska, Nevada, New Mexico, Oregon, Texas, Utah, Washington and Wyoming. The latest first pass adds Utah, Colorado, New Mexico, Arizona, Nebraska and Kansas. The other **35 states** have no integrated programme working set yet; the represented states still have collection and verification gaps. Existing assessment pilots are preserved; new proficiency, EL exit and SEDA collection is deferred.
+**Current phase: finish the structural program inventories for all 50 states before collecting additional proficiency data.** Partial structural evidence is integrated for **15 states**: Arizona, California, Colorado, Idaho, Illinois, Kansas, Montana, Nebraska, Nevada, New Mexico, Oregon, Texas, Utah, Washington and Wyoming. The latest first pass adds Utah, Colorado, New Mexico, Arizona, Nebraska and Kansas. The other **35 states** have no integrated program working set yet; the represented states still have collection and verification gaps. Existing assessment pilots are preserved; new proficiency, EL exit and SEDA collection is deferred until structural data is collected for all states.
 
 ## Start here
 
