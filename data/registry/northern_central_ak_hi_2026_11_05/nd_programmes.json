@@ -1,0 +1,87 @@
+[
+  {
+    "program_id": "NC-ND-P-f79b1d40517a",
+    "school_id": "NC-ND-S-0beec96f6f2e",
+    "state": "ND",
+    "district": "Tribal operator: Sitting Bull College",
+    "school": "Wičhákini Owáyawa",
+    "track": "Lakota immersion",
+    "notes": "July 2023 college board-approved policy explicitly retains Wičhákini Owáyawa as a state-approved nonpublic school within the merged Wahóȟpi Kiŋ programme; students age 5+ in its immersion environment are school pupils. Current operator mission and 2024–25 calendar remain published; no ending indication found in checked sources. K–12 public funding remains unresolved, so this is a candidate rather than a confirmed qualifying public programme. The 2016 preschool-only 100% sentence is not used as K evidence; the later 2023 policy independently describes the shared school-age immersion environment.",
+    "observations": [
+      {
+        "source": "nc_nd_nest_collegefund",
+        "period": "2016-12-20",
+        "grade": "K-2",
+        "languages": [
+          "Lakota"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Wičhákini Owáyawa / Lakota immersion",
+        "notes": "Funder describes a separate K–2 academic classroom with science/art cultural-content lessons in Lakota. The 100% figure belongs explicitly to the preschool nest, not to K–2. Current operator mission mentions both Lakȟól’iyapi Wahóȟpi and Wičhákini Owáyawa, but current K–2 grade span, 2025–26 operation and school funding remain unresolved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_w9_b5ce6428",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "early childhood; grades not reported",
+        "languages": [
+          "Dakota",
+          "Lakota"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "operator mission and philosophy / both programme names",
+        "notes": "Current page uses Lakota/Dakota as collective language terminology; not evidence of two independent immersion strands or a named K–2 instructional pair.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      },
+      {
+        "source": "nc_nd_nest_policy",
+        "period": "July 2023 board-approved policy",
+        "grade": "K entry; approved school scope K-8",
+        "languages": [
+          "Dakota",
+          "Lakota"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "policy pp.9–10: merger and school-age pupils",
+        "notes": "Dakota/Lakota is a combined operator label, not evidence of two separately identified school strands. Approved K–8 scope is not an observed 2025–26 enrolment range.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_nd_nest_policy",
+        "period": "July 2023 board-approved policy",
+        "grade": "K entry; age 5+ immersion pupils",
+        "label": "100/0 (combined Dakota/Lakota environment)",
+        "shares": null,
+        "locator": "policy p.10: 100% primary immersion environment and Wičhákini school-age pupils",
+        "notes": "Policy places school-age pupils in their own or shared 100% Dakota/Lakota immersion environment. No split between Dakota and Lakota is invented, and no English instruction role is inferred. Public funding remains a separate unresolved criterion.",
+        "basis": "operator_primary_immersion_environment_policy",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "candidate_public_funding_unresolved",
+      "scope": "academic_content_immersion",
+      "funding": "K12_public_funding_not_established",
+      "method": "continuity_no_end_indication",
+      "period": "2016-12-20",
+      "source": "nc_nd_nest_collegefund",
+      "locator": "Wičhákini Owáyawa / Lakota immersion",
+      "notes": "July 2023 college board-approved policy explicitly retains Wičhákini Owáyawa as a state-approved nonpublic school within the merged Wahóȟpi Kiŋ programme; students age 5+ in its immersion environment are school pupils. Current operator mission and 2024–25 calendar remain published; no ending indication found in checked sources. K–12 public funding remains unresolved, so this is a candidate rather than a confirmed qualifying public programme."
+    },
+    "continuity_review": "NC-ND-P-f79b1d40517a-CONTINUITY-2025-26"
+  }
+]

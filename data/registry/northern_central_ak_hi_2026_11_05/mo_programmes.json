@@ -1,0 +1,715 @@
+[
+  {
+    "program_id": "NC-MO-P-0ee26da71f63",
+    "school_id": "NC-MO-S-3de85ace0542",
+    "state": "MO",
+    "district": "Carthage R-9 School District",
+    "school": "Carthage High School",
+    "track": "Spanish immersion",
+    "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+    "observations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "9-10",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Carthage High School / Spanish immersion",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25",
+      "source": "nc_mo_carthage_packet",
+      "locator": "Carthage High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-0ee26da71f63-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-7960a6c95c1a",
+    "school_id": "NC-MO-S-951d3f912f88",
+    "state": "MO",
+    "district": "Carthage R-9 School District",
+    "school": "Carthage Intermediate Center",
+    "track": "Spanish immersion",
+    "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+    "observations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "elementary (intermediate)",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Carthage Intermediate Center / Spanish immersion",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "elementary (intermediate)",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Carthage Intermediate Center / published instructional model",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25",
+      "source": "nc_mo_carthage_packet",
+      "locator": "Carthage Intermediate Center / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-7960a6c95c1a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-7e7f6a43c402",
+    "school_id": "NC-MO-S-bb2e0a14b523",
+    "state": "MO",
+    "district": "Carthage R-9 School District",
+    "school": "Carthage Junior High School",
+    "track": "Spanish immersion",
+    "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway. Secondary scope follows the source’s post-elementary continuation context; an exact junior-high grade range is not invented.",
+    "observations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "secondary; junior high",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Carthage Junior High School / Spanish immersion",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25",
+      "source": "nc_mo_carthage_packet",
+      "locator": "Carthage Junior High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-7e7f6a43c402-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-8c4937d265b9",
+    "school_id": "NC-MO-S-faeae0a14f3f",
+    "state": "MO",
+    "district": "Carthage R-9 School District",
+    "school": "Carthage Sixth Grade Center",
+    "track": "Spanish immersion",
+    "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+    "observations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Carthage Sixth Grade Center / Spanish immersion",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "label": "50/50 (elementary programme policy through grade 6)",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25",
+      "source": "nc_mo_carthage_packet",
+      "locator": "Carthage Sixth Grade Center / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-8c4937d265b9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-4a484a030d07",
+    "school_id": "NC-MO-S-3e63e2f8cde5",
+    "state": "MO",
+    "district": "Carthage R-9 School District",
+    "school": "Fairview Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+    "observations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "K entry; elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Fairview Elementary School / Spanish immersion",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_mo_carthage_packet",
+        "period": "2024-25",
+        "grade": "K entry; elementary",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Fairview Elementary School / published instructional model",
+        "notes": "Dated 2024–25 district packet names all five hosts and states elementary instruction 50% Spanish / 50% English, separately from pupil composition. Exact primary school endpoints not given. Sixth Grade Center retained but excluded from elementary denominator. Junior-high language arts is elective; grade-7 math in Spanish is year-specific. High-school extent was grades 9–10 in this source, not a claimed 2025–26 full 9–12 immersion pathway.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25",
+      "source": "nc_mo_carthage_packet",
+      "locator": "Fairview Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-4a484a030d07-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-e11b71af6c2f",
+    "school_id": "NC-MO-S-f021253744da",
+    "state": "MO",
+    "district": "Kansas City Public Schools",
+    "school": "Carver Dual Language School",
+    "track": "Spanish immersion",
+    "notes": "Spanish-medium regular day K–1; English Language Arts begins grade 2. No numeric ratio fabricated from unquantified narrative.",
+    "observations": [
+      {
+        "source": "nc_mo_carver_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Carver Dual Language School / Spanish immersion",
+        "notes": "Spanish-medium regular day K–1; English Language Arts begins grade 2. No numeric ratio fabricated from unquantified narrative.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_carver_about",
+      "locator": "Carver Dual Language School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-e11b71af6c2f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-6a5bff75301e",
+    "school_id": "NC-MO-S-275a3fa43b31",
+    "state": "MO",
+    "district": "Kansas City Public Schools",
+    "school": "Foreign Language Academy",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official school FAQ explicitly offers distinct Spanish and Mandarin Chinese tracks beginning K. Each track is a strand; the school overall is immersion. Numeric progression is an image and remains untranscribed pending image review.",
+    "observations": [
+      {
+        "source": "nc_mo_fla_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Foreign Language Academy / Mandarin Chinese immersion",
+        "notes": "Official school FAQ explicitly offers distinct Spanish and Mandarin Chinese tracks beginning K. Each track is a strand; the school overall is immersion. Numeric progression is an image and remains untranscribed pending image review.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_fla_progression",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "image K–1 panel",
+        "notes": "Core-subject language medium; no explicit all-day numerical ratio. Do not transfer a Spanish model to Mandarin or turn later 60–90 English minutes into a K ratio.",
+        "label": "full immersion (core classroom subjects; numerical daily ratio not stated)",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_directory",
+        "period": "undated state dual-language association directory; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Foreign Language Academy / association one-way heading",
+        "notes": "Association school-level population-model label; language strands and curriculum are established by the separately cited school page.",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_fla_about",
+      "locator": "Foreign Language Academy / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-6a5bff75301e-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-8202d82726e0",
+    "school_id": "NC-MO-S-275a3fa43b31",
+    "state": "MO",
+    "district": "Kansas City Public Schools",
+    "school": "Foreign Language Academy",
+    "track": "Spanish immersion",
+    "notes": "Official school FAQ explicitly offers distinct Spanish and Mandarin Chinese tracks beginning K. Each track is a strand; the school overall is immersion. Numeric progression is an image and remains untranscribed pending image review.",
+    "observations": [
+      {
+        "source": "nc_mo_fla_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Foreign Language Academy / Spanish immersion",
+        "notes": "Official school FAQ explicitly offers distinct Spanish and Mandarin Chinese tracks beginning K. Each track is a strand; the school overall is immersion. Numeric progression is an image and remains untranscribed pending image review.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_fla_progression",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "image K–1 panel",
+        "notes": "Core-subject language medium; no explicit all-day numerical ratio. Do not transfer a Spanish model to Mandarin or turn later 60–90 English minutes into a K ratio.",
+        "label": "full immersion (core classroom subjects; numerical daily ratio not stated)",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_directory",
+        "period": "undated state dual-language association directory; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Foreign Language Academy / association one-way heading",
+        "notes": "Association school-level population-model label; language strands and curriculum are established by the separately cited school page.",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_fla_about",
+      "locator": "Foreign Language Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-8202d82726e0-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-151ae4245f7f",
+    "school_id": "NC-MO-S-b46e0a039cfa",
+    "state": "MO",
+    "district": "Public charter operator: Académie Lafayette",
+    "school": "Académie Lafayette – Armour Middle School",
+    "track": "French immersion",
+    "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+    "observations": [
+      {
+        "source": "nc_mo_lafayette_schools",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Académie Lafayette – Armour Middle School / French immersion",
+        "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_lafayette_schools",
+      "locator": "Académie Lafayette – Armour Middle School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-151ae4245f7f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-bc9071964c02",
+    "school_id": "NC-MO-S-bc6b6f6502dc",
+    "state": "MO",
+    "district": "Public charter operator: Académie Lafayette",
+    "school": "Académie Lafayette – Cherry Campus",
+    "track": "French immersion",
+    "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+    "observations": [
+      {
+        "source": "nc_mo_lafayette_schools",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Académie Lafayette – Cherry Campus / French immersion",
+        "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_lafayette_schools",
+      "locator": "Académie Lafayette – Cherry Campus / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-bc9071964c02-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-b11593db411c",
+    "school_id": "NC-MO-S-fd0c6fdbbbc8",
+    "state": "MO",
+    "district": "Public charter operator: Académie Lafayette",
+    "school": "Académie Lafayette – Oak Campus",
+    "track": "French immersion",
+    "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+    "observations": [
+      {
+        "source": "nc_mo_lafayette_schools",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Académie Lafayette – Oak Campus / French immersion",
+        "notes": "Operator explicitly distinguishes two elementary campuses and Armour middle school. French immersion established by state association roster and continued French immersion description. Full immersion is not converted to a numeric daily ratio without support.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_lafayette_schools",
+      "locator": "Académie Lafayette – Oak Campus / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-b11593db411c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-8887bcf2e803",
+    "school_id": "NC-MO-S-c7868147161f",
+    "state": "MO",
+    "district": "Public charter operator: St. Louis Language Immersion School",
+    "school": "St. Louis Language Immersion School",
+    "track": "French immersion",
+    "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation.",
+    "observations": [
+      {
+        "source": "nc_mo_sllis_next_14b6c1f",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "St. Louis Language Immersion School / French immersion",
+        "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_directory",
+        "period": "undated state dual-language association directory; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "St. Louis Language Immersion School / association one-way heading",
+        "notes": "Association school-level population-model label; language strands and curriculum are established by the separately cited school page.",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_sllis_next_14b6c1f",
+      "locator": "St. Louis Language Immersion School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-8887bcf2e803-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-f35092484625",
+    "school_id": "NC-MO-S-c7868147161f",
+    "state": "MO",
+    "district": "Public charter operator: St. Louis Language Immersion School",
+    "school": "St. Louis Language Immersion School",
+    "track": "Chinese immersion",
+    "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation. Source says Chinese without independently verified variety; no Mandarin-specific code inferred.",
+    "observations": [
+      {
+        "source": "nc_mo_sllis_next_14b6c1f",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "St. Louis Language Immersion School / Mandarin Chinese immersion",
+        "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_directory",
+        "period": "undated state dual-language association directory; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "St. Louis Language Immersion School / association one-way heading",
+        "notes": "Association school-level population-model label; language strands and curriculum are established by the separately cited school page.",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_sllis_next_14b6c1f",
+      "locator": "St. Louis Language Immersion School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-f35092484625-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-MO-P-315b277cb464",
+    "school_id": "NC-MO-S-c7868147161f",
+    "state": "MO",
+    "district": "Public charter operator: St. Louis Language Immersion School",
+    "school": "St. Louis Language Immersion School",
+    "track": "Spanish immersion",
+    "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation.",
+    "observations": [
+      {
+        "source": "nc_mo_sllis_next_14b6c1f",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "St. Louis Language Immersion School / Spanish immersion",
+        "notes": "Free public language immersion. Three strands at one school. Gomez & Gomez named model does not itself establish a numeric time ratio. French/Spanish content-language assignments differ from Chinese. Language of the Day on 3/5 weekdays is informal interaction, not a 60/40 instructional allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_mo_directory",
+        "period": "undated state dual-language association directory; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "St. Louis Language Immersion School / association one-way heading",
+        "notes": "Association school-level population-model label; language strands and curriculum are established by the separately cited school page.",
+        "label": null,
+        "verification": "provisional",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_mo_sllis_next_14b6c1f",
+      "locator": "St. Louis Language Immersion School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-MO-P-315b277cb464-CONTINUITY-2025-26"
+  }
+]

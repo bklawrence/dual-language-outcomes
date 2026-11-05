@@ -1,0 +1,42 @@
+[
+  {
+    "school": "Wahóȟpi Kiŋ language nest",
+    "district": "Sitting Bull College",
+    "source": "nc_w9_b5ce6428",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Wahóȟpi Kiŋ language nest",
+    "disposition": "preschool_and_K12_scope_review",
+    "reason": "Language nest / early-childhood programme is not automatically a K–12 school. Its 2024–25 calendar and K–2 historical classroom need distinct temporal review.",
+    "notes": ""
+  },
+  {
+    "school": "North Dakota School for the Deaf",
+    "district": "",
+    "source": "nc_nd_deaf_instruction",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "North Dakota School for the Deaf",
+    "disposition": "bilingual_scope_not_established",
+    "reason": "Academic PK–8 provision and high-school inclusion/support are documented; ASL/English as a deliberate dual-language academic model is not established by this instructional policy.",
+    "notes": "IEP placement, interpreter access or signing ability do not by themselves demonstrate two-language content instruction."
+  },
+  {
+    "school": "Hidatsa Áabaci / MHA Language Project",
+    "district": "",
+    "source": "nc_nd_hidatsa",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Hidatsa Áabaci / MHA Language Project",
+    "disposition": "language_resources_not_school_confirmation",
+    "reason": "Dictionary/teaching resources do not establish an identified K–12 immersion host or numerical instructional allocation.",
+    "notes": ""
+  },
+  {
+    "school": "Fargo / West Fargo district screening",
+    "district": "",
+    "source": "nc_nd_fargo",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Fargo / West Fargo district screening",
+    "disposition": "bounded_screening_no_verified_host",
+    "reason": "No verified local academic immersion host was established from checked district programmes; this is not proof that none exist statewide.",
+    "notes": "Moorhead programmes are in Minnesota; Rapid City programmes are in South Dakota. Search-result geography must be checked against the actual school location."
+  }
+]

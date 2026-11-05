@@ -1,0 +1,1136 @@
+[
+  {
+    "program_id": "NC-AK-P-bda9b3373fd8",
+    "school_id": "NC-AK-S-b34017b9a431",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Begich Middle School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated district directory; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Begich Middle School / Mandarin Chinese immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated district directory; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion",
+      "locator": "Begich Middle School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-bda9b3373fd8-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-c861875e8819",
+    "school_id": "NC-AK-S-579186610ba0",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Chugiak Elementary School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_efdf192_f_4852a7",
+        "period": "January 2014 brochure; still linked by ASD",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Chugiak Elementary School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_efdf192_f_4852a7",
+        "period": "January 2014 brochure; still linked by ASD",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Chugiak Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "January 2014 brochure; still linked by ASD",
+      "source": "nc_ak_asd_immersion_d_efdf192_f_4852a7",
+      "locator": "Chugiak Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-c861875e8819-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-82a0191677fe",
+    "school_id": "NC-AK-S-8a556180889d",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Chugiak High School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk. Current school description calls advanced Spanish an elective; retained as a continuation, not an elementary full-day model.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_2ece278",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Chugiak High School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk. Current school description calls advanced Spanish an elective; retained as a continuation, not an elementary full-day model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_2ece278",
+      "locator": "Chugiak High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-82a0191677fe-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-605086901bdf",
+    "school_id": "NC-AK-S-ac8b82a16cdf",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "College Gate Elementary School",
+    "track": "Yup'ik immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk. Two cohorts exchange English and Yup’ik rooms at midday; Science/Social Studies in Yup’ik and Math/English Language Arts in English. 50/50 denotes the documented half-day split, not measured minutes.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_4d76525",
+        "period": "school page describing expansion through 2023-24",
+        "grade": "K-5",
+        "languages": [
+          "Yup'ik",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "College Gate Elementary School / Yup'ik immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk. Two cohorts exchange English and Yup’ik rooms at midday; Science/Social Studies in Yup’ik and Math/English Language Arts in English. 50/50 denotes the documented half-day split, not measured minutes.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Yup'ik"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_4d76525",
+        "period": "school page describing expansion through 2023-24",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Yup'ik": 50,
+          "English": 50
+        },
+        "locator": "College Gate Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk. Two cohorts exchange English and Yup’ik rooms at midday; Science/Social Studies in Yup’ik and Math/English Language Arts in English. 50/50 denotes the documented half-day split, not measured minutes.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "school page describing expansion through 2023-24",
+      "source": "nc_ak_asd_immersion_d_4d76525",
+      "locator": "College Gate Elementary School / Yup'ik immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-605086901bdf-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-3c9855fb2d50",
+    "school_id": "NC-AK-S-102c20807f2c",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Dimond High School",
+    "track": "Japanese immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated district directory; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Japanese"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Dimond High School / Japanese immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated district directory; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion",
+      "locator": "Dimond High School / Japanese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-3c9855fb2d50-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-05f849e466e5",
+    "school_id": "NC-AK-S-993ac3636f05",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Government Hill Elementary School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_00a887a",
+        "period": "May 2014 brochure; still linked by ASD",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Government Hill Elementary School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_00a887a",
+        "period": "May 2014 brochure; still linked by ASD",
+        "grade": "K-6",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Government Hill Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "May 2014 brochure; still linked by ASD",
+      "source": "nc_ak_asd_immersion_d_00a887a",
+      "locator": "Government Hill Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-05f849e466e5-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-0c8cfae6e200",
+    "school_id": "NC-AK-S-d571bdbd1c33",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Mears Middle School",
+    "track": "Japanese immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_c1fcd62",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Japanese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Mears Middle School / Japanese immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Japanese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_c1fcd62",
+      "locator": "Mears Middle School / Japanese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-0c8cfae6e200-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-608d62b0d04c",
+    "school_id": "NC-AK-S-b295597204ea",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Mirror Lake Middle School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_efdf192_f_4852a7",
+        "period": "January 2014 brochure; still linked by ASD",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Mirror Lake Middle School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "January 2014 brochure; still linked by ASD",
+      "source": "nc_ak_asd_immersion_d_efdf192_f_4852a7",
+      "locator": "Mirror Lake Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-608d62b0d04c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-12d9e9d3c5cc",
+    "school_id": "NC-AK-S-b6374b8a7332",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "O’Malley Elementary School",
+    "track": "French immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_59ef0c1_f_e158c5",
+        "period": "brochure advertising February 2026 enrolment for fall 2026",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "O’Malley Elementary School / French immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "French"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_59ef0c1_f_e158c5",
+        "period": "brochure advertising February 2026 enrolment for fall 2026",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "French": 50,
+          "English": 50
+        },
+        "locator": "O’Malley Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "brochure advertising February 2026 enrolment for fall 2026",
+      "source": "nc_ak_asd_immersion_d_59ef0c1_f_e158c5",
+      "locator": "O’Malley Elementary School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-12d9e9d3c5cc-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-57260936ce8d",
+    "school_id": "NC-AK-S-c611abc89a7f",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Rilke Schule Charter School",
+    "track": "German immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_65cc553_f_6d205d",
+        "period": "2023 parent information presentation",
+        "grade": "K-8",
+        "languages": [
+          "German",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Rilke Schule Charter School / German immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "German"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2023 parent information presentation",
+      "source": "nc_ak_asd_immersion_d_65cc553_f_6d205d",
+      "locator": "Rilke Schule Charter School / German immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-57260936ce8d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-b9a2062c1c30",
+    "school_id": "NC-AK-S-5a01f466fe96",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Romig Middle School",
+    "track": "Russian immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_99f9bdb",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Russian",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Romig Middle School / Russian immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Russian"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_99f9bdb",
+      "locator": "Romig Middle School / Russian immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-b9a2062c1c30-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-40068d08f3cb",
+    "school_id": "NC-AK-S-5a01f466fe96",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Romig Middle School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_00a887a",
+        "period": "May 2014 brochure; still linked by ASD",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Romig Middle School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "May 2014 brochure; still linked by ASD",
+      "source": "nc_ak_asd_immersion_d_00a887a",
+      "locator": "Romig Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-40068d08f3cb-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-4196a4dc7c88",
+    "school_id": "NC-AK-S-014dad84cbc0",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Sand Lake Elementary School",
+    "track": "Japanese immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_55ba1ac",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Japanese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Sand Lake Elementary School / Japanese immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Japanese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_55ba1ac",
+      "locator": "Sand Lake Elementary School / Japanese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-4196a4dc7c88-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-b1c4cba4b051",
+    "school_id": "NC-AK-S-e93e7011f63d",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Scenic Park Elementary School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_1547e17",
+        "period": "undated current school page with 2026 lottery dates; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Scenic Park Elementary School / Mandarin Chinese immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_1547e17",
+        "period": "undated current school page with 2026 lottery dates; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Mandarin Chinese": 50,
+          "English": 50
+        },
+        "locator": "Scenic Park Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page with 2026 lottery dates; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_1547e17",
+      "locator": "Scenic Park Elementary School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-b1c4cba4b051-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-08515b839112",
+    "school_id": "NC-AK-S-3abae1c9a88a",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Service High School",
+    "track": "German immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated district directory; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "German"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Service High School / German immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated district directory; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion",
+      "locator": "Service High School / German immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-08515b839112-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-6a86e762a09d",
+    "school_id": "NC-AK-S-c192c88964e1",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "Turnagain Elementary School",
+    "track": "Russian immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_a812f14",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Russian",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Turnagain Elementary School / Russian immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Russian"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "nc_ak_asd_immersion_d_a812f14",
+        "period": "undated current school page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Russian": 50,
+          "English": 50
+        },
+        "locator": "Turnagain Elementary School / published instructional model",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated current school page; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion_d_a812f14",
+      "locator": "Turnagain Elementary School / Russian immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-6a86e762a09d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-bb73d70a611f",
+    "school_id": "NC-AK-S-9c3f2fdfeacd",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "West High School",
+    "track": "Russian immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated district directory; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Russian"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "West High School / Russian immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated district directory; retrieved 2026-11-05",
+      "source": "nc_ak_asd_immersion",
+      "locator": "West High School / Russian immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-bb73d70a611f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-1f8627980df6",
+    "school_id": "NC-AK-S-9c3f2fdfeacd",
+    "state": "AK",
+    "district": "Anchorage School District",
+    "school": "West High School",
+    "track": "Spanish immersion",
+    "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+    "observations": [
+      {
+        "source": "nc_ak_asd_immersion_d_00a887a",
+        "period": "May 2014 brochure; still linked by ASD",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "West High School / Spanish immersion",
+        "notes": "ASD directory and school/brochure sources reconciled by named language pathway. K–6 versus K–5 and older middle-school grade bands are source-vintage differences; older grade rows are not a current school-grade crosswalk.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "nc_ak_asd_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "ASD language immersion school-language list",
+        "notes": "Directory target-language cell only; English role and grade details come from separate school/brochure sources.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "May 2014 brochure; still linked by ASD",
+      "source": "nc_ak_asd_immersion_d_00a887a",
+      "locator": "West High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-1f8627980df6-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-a8bd16eac3dc",
+    "school_id": "NC-AK-S-a67822075243",
+    "state": "AK",
+    "district": "Juneau School District",
+    "school": "Harborview Elementary – TCLL",
+    "track": "Tlingit immersion",
+    "notes": "Operator and current district TCLL page locate this school-within-school at Harborview. May 2025 board-funding report corroborates continuing district participation; no speculative move to Sayéik is made. Expansion to K–8 is preserved as source wording, not a claim that every grade used a fixed ratio in 2025–26. Quantified allocation unresolved.",
+    "observations": [
+      {
+        "source": "nc_ak_tcll",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Tlingit"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Harborview Elementary – TCLL / Tlingit immersion",
+        "notes": "Operator and current district TCLL page locate this school-within-school at Harborview. May 2025 board-funding report corroborates continuing district participation; no speculative move to Sayéik is made. Expansion to K–8 is preserved as source wording, not a claim that every grade used a fixed ratio in 2025–26. Quantified allocation unresolved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "nc_ak_tcll",
+      "locator": "Harborview Elementary – TCLL / Tlingit immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-a8bd16eac3dc-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NC-AK-P-58ae9de5e7f9",
+    "school_id": "NC-AK-S-ca5a8f994c81",
+    "state": "AK",
+    "district": "Lower Kuskokwim School District",
+    "school": "Ayaprun Elitnaurvik",
+    "track": "Yup'ik immersion",
+    "notes": "Public charter school in LKSD; new building opened September 2024. News explicitly says grades 7 and 8 were added in 2022 and 2023. Language-medium and traditional-content education documented; no precise K allocation taken from the preschool model or district-wide assumptions.",
+    "observations": [
+      {
+        "source": "nc_ak_ayaprun_news",
+        "period": "2024-09-11",
+        "grade": "K-8",
+        "languages": [
+          "Yup'ik"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Ayaprun Elitnaurvik / Yup'ik immersion",
+        "notes": "Public charter school in LKSD; new building opened September 2024. News explicitly says grades 7 and 8 were added in 2022 and 2023. Language-medium and traditional-content education documented; no precise K allocation taken from the preschool model or district-wide assumptions.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-09-11",
+      "source": "nc_ak_ayaprun_news",
+      "locator": "Ayaprun Elitnaurvik / Yup'ik immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NC-AK-P-58ae9de5e7f9-CONTINUITY-2025-26"
+  }
+]

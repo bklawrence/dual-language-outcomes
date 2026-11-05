@@ -1,0 +1,62 @@
+[
+  {
+    "school": "Académie Lafayette International High School",
+    "district": "Public charter operator: Académie Lafayette",
+    "source": "nc_mo_lafayette_schools",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Académie Lafayette International High School",
+    "disposition": "secondary_language_scope_review",
+    "reason": "School is an additional 9–12 public charter campus on the Armour site, but this source does not establish French-medium academic immersion there.",
+    "notes": ""
+  },
+  {
+    "school": "La Petite Ecole (Columbia)",
+    "district": "",
+    "source": "nc_mo_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "La Petite Ecole (Columbia)",
+    "disposition": "preschool_only_lead",
+    "reason": "Association explicitly groups this lead as preschool; no verified K–12 academic immersion and public-funding record.",
+    "notes": ""
+  },
+  {
+    "school": "Language Tree (Columbia)",
+    "district": "",
+    "source": "nc_mo_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Language Tree (Columbia)",
+    "disposition": "preschool_only_lead",
+    "reason": "Association explicitly groups this lead as preschool; no verified K–12 academic immersion and public-funding record.",
+    "notes": ""
+  },
+  {
+    "school": "International Schoolhouse (Richmond Heights)",
+    "district": "",
+    "source": "nc_mo_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "International Schoolhouse (Richmond Heights)",
+    "disposition": "preschool_only_lead",
+    "reason": "Association explicitly groups this lead as preschool; no verified K–12 academic immersion and public-funding record.",
+    "notes": ""
+  },
+  {
+    "school": "Casa de Ninos (Ballwin)",
+    "district": "",
+    "source": "nc_mo_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Casa de Ninos (Ballwin)",
+    "disposition": "preschool_only_lead",
+    "reason": "Association explicitly groups this lead as preschool; no verified K–12 academic immersion and public-funding record.",
+    "notes": ""
+  },
+  {
+    "school": "Missouri School for the Deaf",
+    "district": "",
+    "source": "nc_mo_msd",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Missouri School for the Deaf",
+    "disposition": "academic_language_scope_review",
+    "reason": "Public school programme exists, but an explicit ASL/English bilingual academic curriculum still requires source verification.",
+    "notes": ""
+  }
+]

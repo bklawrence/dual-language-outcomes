@@ -1,0 +1,15 @@
+{
+  "url": "https://www.fargo.k12.nd.us/",
+  "retrieved_at": "2026-11-05T17:22:11.121111+00:00",
+  "http_status": 200,
+  "final_url": "https://www.fargo.k12.nd.us/",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "32616dd11e3d60ebabb27621c4d3cd502734c92c357955504100e0c1272124e9",
+  "bytes": 191985,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Home - Fargo Public Schools",
+  "snapshot_path": "data/raw/northern_central_ak_hi_2026_11_05/nc_nd_fargo.html",
+  "full_response_sha256": "32616dd11e3d60ebabb27621c4d3cd502734c92c357955504100e0c1272124e9"
+}

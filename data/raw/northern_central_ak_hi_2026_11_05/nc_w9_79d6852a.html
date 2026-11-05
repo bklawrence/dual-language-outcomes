@@ -1,0 +1,685 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TGSNTWG');</script>
+		<!-- End Google Tag Manager -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["rum_v2"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"4237a0c993",applicationID:"235468232",browserID:"235468642"};;/*! For license information please see nr-loader-rum-1.324.1.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.1"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.1.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.1.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zuv39xzZ8AH/HwpVrtkixvcBuOFo2ydcFzMtXjx+3Iwr5g++inX+6YDH7J/8fOCAtBetz8aDyaYCRkGy2nnG/w=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.1.PROD"]=self["webpackChunk:NRBA-1.324.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<title>Compañeros – Northfield Public Schools</title>
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<link rel="canonical" href="https://northfieldschools.org/learning/programs/companeros-program/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Northfield Public Schools" />
+<meta property="og:title" content="Compañeros – Northfield Public Schools" />
+<meta property="og:url" content="https://northfieldschools.org/learning/programs/companeros-program/" />
+<meta property="og:image" content="https://northfieldschools.org/wp-content/uploads/nps-og-logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Compañeros – Northfield Public Schools" />
+<meta name="twitter:image" content="https://northfieldschools.org/wp-content/uploads/nps-og-logo.png" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://northfieldschools.org/#/schema/WebSite","url":"https://northfieldschools.org/","name":"Northfield Public Schools","description":"Minnesota ISD #659","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://northfieldschools.org/search/{search_term_string}/"},"query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","@id":"https://northfieldschools.org/#/schema/Organization","name":"Northfield Public Schools","url":"https://northfieldschools.org/"}},{"@type":"WebPage","@id":"https://northfieldschools.org/learning/programs/companeros-program/","url":"https://northfieldschools.org/learning/programs/companeros-program/","name":"Compañeros – Northfield Public Schools","inLanguage":"en-US","isPartOf":{"@id":"https://northfieldschools.org/#/schema/WebSite"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://northfieldschools.org/#/schema/BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":"https://northfieldschools.org/","name":"Northfield Public Schools"},{"@type":"ListItem","position":2,"item":"https://northfieldschools.org/learning/","name":"Learning"},{"@type":"ListItem","position":3,"item":"https://northfieldschools.org/learning/programs/","name":"Programs"},{"@type":"ListItem","position":4,"name":"Compañeros"}]},"potentialAction":{"@type":"ReadAction","target":"https://northfieldschools.org/learning/programs/companeros-program/"}}]}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 4.03ms meta | 0.29ms boot -->
+
+<link rel='dns-prefetch' href='//translate.google.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://northfieldschools.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnorthfieldschools.org%2Flearning%2Fprograms%2Fcompaneros-program%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://northfieldschools.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnorthfieldschools.org%2Flearning%2Fprograms%2Fcompaneros-program%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='nps-styles-css' href='https://northfieldschools.org/css/app.css?ver=1793871983' media='all' />
+<script id="jquery-core-js" src="https://northfieldschools.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://northfieldschools.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="google-translate-js" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&#038;ver=7.1.4"></script>
+<link rel="https://api.w.org/" href="https://northfieldschools.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://northfieldschools.org/wp-json/wp/v2/pages/295" /><!-- Start Fluid Video Embeds Style Tag -->
+<style type="text/css">
+/* Fluid Video Embeds */
+.fve-video-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    background-color: transparent;
+    padding-bottom: 56.25%;
+    margin: 0.5em 0;
+}
+.fve-video-wrapper iframe,
+.fve-video-wrapper object,
+.fve-video-wrapper embed {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.fve-video-wrapper a.hyperlink-image {
+    position: relative;
+    display: none;
+}
+.fve-video-wrapper a.hyperlink-image img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.fve-video-wrapper a.hyperlink-image .fve-play-button {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    right: 35%;
+    bottom: 35%;
+    z-index: 3;
+    background-color: rgba(40, 40, 40, 0.75);
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.fve-video-wrapper a.hyperlink-image:hover .fve-play-button {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+</style>
+<!-- End Fluid Video Embeds Style Tag -->
+<style id="wp-custom-css">
+.logo {
+	margin-top: 1.675rem;
+	margin-bottom: 1.675rem;
+}
+
+.alert p {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.global-alerts-content {
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+
+.global-alerts-content p {
+	margin-bottom: 0.75rem;
+}
+
+.global-alerts-intro h2 {
+	margin-right: 15px;
+}
+</style>
+
+			<meta name="facebook-domain-verification" content="2a0qwkyquje3tapy06w0hy9kg635cc" />
+</head>
+<body class="wp-singular page-template-default page page-id-295 page-child parent-pageid-293 wp-theme-nps" data-template="base.twig">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGSNTWG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="show-for-sr show-on-focus" href="#main-content">Skip to main content</a>
+<a class="show-for-sr show-on-focus" href="#main-menu">Skip to navigation</a>
+<div class="off-canvas spanish-alert position-top" id="offCanvas" data-off-canvas>
+	<button class="close-button" aria-label="Close menu" type="button" data-close>
+		<span aria-hidden="true">&times;</span>
+	</button>
+ 	<div class="row">
+ 		<div class="columns large-12 panel">
+ 			<h1>Bienvenidos a Northfield Public Schools!</h1>
+ 			<p>Por favor, elija traducir el sitio al español o <a href="/about/espanol/">visite esta página</a> para obtener más recursos en español.</p>
+ 			<div id="google_translate_element"></div>
+			<script type="text/javascript">
+			function googleTranslateElementInit() {
+			  new google.translate.TranslateElement({
+			  	pageLanguage: 'en',
+			  	includedLanguages: 'es',
+			  	gaTrack: true, gaId: 'UA-21125810-1'}, 'google_translate_element');
+			}
+			</script>
+ 		</div><!-- .columns -->
+ 	</div><!-- .row -->
+</div>
+<div class="off-canvas-content" data-off-canvas-content>
+<header class="page-header">
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="tab-language show-for-large">
+				<a href="/reimagine/"><svg class="icon-hardhat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M264 80l48 0c4.4 0 8 3.6 8 8l0 208c0 13.3 10.7 24 24 24s24-10.7 24-24l0-208c0-30.9-25.1-56-56-56l-48 0c-30.9 0-56 25.1-56 56l0 208c0 13.3 10.7 24 24 24s24-10.7 24-24l0-208c0-4.4 3.6-8 8-8zM559.4 384L16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9c0-9.2-7.4-16.6-16.6-16.6zM32 288l0 64 48 0 0-64c0-68.4 39-127.7 96-156.8l0-52.5C91.8 110.9 32 192.5 32 288zm464-2.2l0 66.2 48 0 0-64 0-2.4c-1-94.5-60.5-174.9-144-206.9l0 52.5c56.4 28.8 95.2 87.2 96 154.6z"/></svg><button class="updates" type="button" aria-label="NHS Updates">Reimagine NHS Updates</button></a>
+				<div class="search-box">
+					<script>
+					(function() {
+						var cx = '005796229432434085693:z2nbjlwhts4';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+					</script>
+					<gcse:searchbox-only></gcse:searchbox-only>
+					<button class="close-button close-search-box" aria-label="Close Search" type="button" data-close>
+						<span aria-hidden="true">Close</span>
+					</button>
+				</div><!--.search-box-->
+				<button class="search"><i class="icon icon-search" aria-hidden="true"></i>Search</button>
+				<button type="button" aria-label="Toggle to see translate options" data-toggle="offCanvas" aria-pressed="false" onclick="handleBtnClick(event)" onKeyPress="handleBtnKeyPress(event)">Español</button>
+			</div>
+			<h1 class="show-for-sr">Northfield Public Schools</h1>
+							<a class="logo" href="/"><img src="/images/northfield-schools-logo-150.svg" alt="Northfield Public Schools District Home" /></a>
+						<div class="top-bar-right">
+				<nav aria-label="Utility Navigation" class="utility menu show-for-large">
+	<ul class="menu" role="menubar">
+		<li class="enrollment-button" role="menuitem">
+							<a href="/about/enrollment/" class="button"><img src="/images/checkmark.svg" alt="icon-checkmark" width="31px" />Enroll</a>
+					</li>
+								
+		<li class="" role="menuitem"><a href="/parents/"><i class="icon icon-parents" aria-hidden="true"></i>Parents</a></li>
+		<li class="" role="menuitem"><a href="/staff/"><i class="icon icon-staff" aria-hidden="true"></i>Staff</a></li>
+		<li class="" role="menuitem"><a href="/community/"><i class="icon icon-community" aria-hidden="true"></i>Community</a></li>
+		<li role="menuitem"><a href="/about/volunteer/"><i class="icon icon-alumni" aria-hidden="true"></i>Volunteer</a></li>
+	</ul>
+</nav><!-- #utility -->
+			</div><!-- .top-bar-right -->
+		</div><!-- .columns -->
+	</div><!-- .row -->
+	
+<div class="main-nav">
+	<div class="row">
+		<div class="large-12 columns">
+			<nav id="main-navigation" aria-label="Main Navigation" class="main menu">
+				<div class="title-bar" data-toggle="off-canvas-mobile" data-hide-for="large">
+					<button class="menu-icon" type="button">Menu</button>
+				</div>
+				<ul role="menu" class="dropdown menu" data-responsive-menu="large-dropdown" data-click-open="false" id="main-menu">
+					<li id="menu-item-24518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24518"><a href="https://northfieldschools.org/about/">About</a>
+<ul class="menu submenu">
+	<li id="menu-item-24519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24519"><a href="https://northfieldschools.org/about/departments/">Departments &#038; Services</a></li>
+	<li id="menu-item-24521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24521"><a href="https://northfieldschools.org/about/strategic-plan/">Strategic Plan</a></li>
+	<li id="menu-item-28791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28791"><a href="https://northfieldschools.org/about/district-committees/">District Committees</a></li>
+	<li id="menu-item-24614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24614"><a href="https://northfieldschools.org/about/school-board/">School Board</a></li>
+	<li id="menu-item-24615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24615"><a href="https://northfieldschools.org/about/charter-school-support/">Charter School Support</a></li>
+	<li id="menu-item-24616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24616"><a href="https://northfieldschools.org/about/handbooks/">Handbooks</a></li>
+	<li id="menu-item-24636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24636"><a href="https://northfieldschools.org/about/directory/">Staff Directory</a></li>
+	<li id="menu-item-24637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24637"><a href="https://northfieldschools.org/about/enrollment/">Enrollment</a></li>
+	<li id="menu-item-24638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24638"><a href="https://northfieldschools.org/about/transportation/">Transportation</a></li>
+	<li id="menu-item-24640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24640"><a href="https://northfieldschools.org/about/volunteer/">Volunteer</a></li>
+	<li id="menu-item-50331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50331"><a href="https://northfieldschools.org/parents/school-closings/">Weather Related Disruptions and School Closings</a></li>
+</ul>
+</li>
+<li id="menu-item-24639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24639"><a href="https://northfieldschools.org/employment/">Employment</a></li>
+<li id="menu-item-24567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24567"><a href="https://northfieldschools.org/schools/">Schools</a>
+<ul class="menu submenu">
+	<li id="menu-item-24629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24629"><a href="https://northfieldschools.org/schools/area-learning-center/">Area Learning Center</a></li>
+	<li id="menu-item-24542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24542"><a href="https://northfieldschools.org/schools/bridgewater-elementary/">Bridgewater Elementary</a></li>
+	<li id="menu-item-47787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47787"><a href="https://northfieldschools.org/schools/community-education-center/">Community Education Center</a></li>
+	<li id="menu-item-24543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24543"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/">Greenvale Park Elementary</a></li>
+	<li id="menu-item-24576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24576"><a href="https://northfieldschools.org/schools/northfield-high-school/">Northfield High School</a></li>
+	<li id="menu-item-24572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24572"><a href="https://northfieldschools.org/schools/northfield-middle-school/">Northfield Middle School</a></li>
+	<li id="menu-item-41352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41352"><a href="https://northfieldschools.org/schools/portage-online/">Big 9 Online Learning Program</a></li>
+	<li id="menu-item-24568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24568"><a href="https://northfieldschools.org/schools/spring-creek-elementary/">Spring Creek Elementary</a></li>
+</ul>
+</li>
+<li id="menu-item-24580" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-24580"><a href="https://northfieldschools.org/learning/">Learning</a>
+<ul class="menu submenu">
+	<li id="menu-item-24546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24546"><a href="https://northfieldschools.org/learning/curriculum/">Curriculum</a></li>
+	<li id="menu-item-24581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24581"><a href="https://northfieldschools.org/learning/technology/">Technology</a></li>
+	<li id="menu-item-24582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24582"><a href="https://northfieldschools.org/learning/testing-assessment/">Testing &#038; Assessment</a></li>
+	<li id="menu-item-24583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24583"><a href="https://northfieldschools.org/learning/special-services/">Special Services</a></li>
+	<li id="menu-item-24584" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-24584"><a href="https://northfieldschools.org/learning/programs/">Programs</a></li>
+</ul>
+</li>
+<li id="menu-item-24586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24586"><a href="https://northfieldschools.org/communityeducation/">Community Education</a>
+<ul class="menu submenu">
+	<li id="menu-item-24539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24539"><a href="https://northfieldschools.org/communityeducation/about/">About</a></li>
+	<li id="menu-item-24540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24540"><a href="https://northfieldschools.org/communityeducation/early-childhood-school-age-care/">Early Childhood &#038; Ventures</a></li>
+	<li id="menu-item-24587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24587"><a href="https://northfieldschools.org/communityeducation/programs-for-youth/">Programs for Youth</a></li>
+	<li id="menu-item-24588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24588"><a href="https://northfieldschools.org/communityeducation/programs-for-adults/">Programs for Adults</a></li>
+	<li id="menu-item-24589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24589"><a href="https://northfieldschools.org/communityeducation/project-able/">Project ABLE</a></li>
+	<li id="menu-item-24590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24590"><a href="https://northfieldschools.org/communityeducation/advisory-council/">Advisory Council</a></li>
+	<li id="menu-item-24644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24644"><a href="https://northfieldschools.org/communityeducation/facility-use/">Facility Use</a></li>
+</ul>
+</li>
+<li id="menu-item-24617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24617"><a href="https://northfieldschools.org/calendars/">Calendars</a></li>
+
+				</ul>
+			</nav><!-- .main -->
+		</div><!-- .columns -->
+	</div><!-- .row -->
+</div><!-- .main-nav -->
+
+</header><!-- .page-header -->
+
+
+<main class="main-body" id="main-content">
+	<div class="alert milder">
+	<div class="row">
+		<div class="large-12 columns">
+							<i class="icon icon-bell" aria-hidden="true"></i>
+						<div class="global-alerts-intro">
+				<h2>
+											Attention
+									</h2>
+			</div>
+							<div class="global-alerts-content">
+					<p><b>Follow the Reimagine Northfield High School project. View regular construction updates</b> <a href="https://northfieldschools.org/reimagine/" target="_blank" rel="noopener"><b>here</b></a><b>.</b></p>
+
+				</div>
+					</div><!--.columns-->
+	</div><!--.row-->
+</div><!--.alert-->
+							
+			<div class="row hide-for-small-only">
+			<div class="large-12 columns">
+				<nav aria-label="Breadcrumb">
+					<ul class="breadcrumbs">
+																					<li><a href="https://northfieldschools.org/">Home</a></li>
+																												<li><a href="https://northfieldschools.org/learning/">Learning</a></li>
+																												<li><a href="https://northfieldschools.org/learning/programs/">Programs</a></li>
+																												<li><span class="show-for-sr">Current: </span> Compañeros</li>
+																		</ul>
+				</nav>
+			</div><!--.columns-->
+		</div>
+				<section class="row collapse">
+		<aside class="content-sidebar sidebar column small-12 medium-4 large-3 medium-order-1 small-order-2">
+			<nav class="nav-wrapper local-nav">
+		<h2><a href="https://northfieldschools.org/learning/" class="nav-section">Learning</a></h2>
+	
+<ul class="vertical menu nested">
+
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24548"><a href="https://northfieldschools.org/learning/curriculum/k-12-curriculum/">K-12 Curriculum</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24549"><a href="https://northfieldschools.org/learning/curriculum/multi-tiered-system-of-supports/">Multi-Tiered System of Supports</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24600"><a href="https://northfieldschools.org/learning/curriculum/title-ia-supplemental-instruction/">Title IA: Supplemental Instruction</a></li>
+	</ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24546"><a href="https://northfieldschools.org/learning/curriculum/">Curriculum</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24548"><a href="https://northfieldschools.org/learning/curriculum/k-12-curriculum/">K-12 Curriculum</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24549"><a href="https://northfieldschools.org/learning/curriculum/multi-tiered-system-of-supports/">Multi-Tiered System of Supports</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24600"><a href="https://northfieldschools.org/learning/curriculum/title-ia-supplemental-instruction/">Title IA: Supplemental Instruction</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24581"><a href="https://northfieldschools.org/learning/technology/">Technology</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24582"><a href="https://northfieldschools.org/learning/testing-assessment/">Testing &#038; Assessment</a></li>
+
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24526"><a href="https://northfieldschools.org/learning/special-services/assistive-technology/">Assistive Technology</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24527"><a href="https://northfieldschools.org/learning/special-services/counseling/">Counseling</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24545"><a href="https://northfieldschools.org/learning/special-services/english-learners/">English Learners</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24528"><a href="https://northfieldschools.org/learning/special-services/special-ed/">Special Ed</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24529"><a href="https://northfieldschools.org/learning/special-services/targeted-servicessummer-classes/">Targeted Services/Summer Classes</a></li>
+	</ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24583"><a href="https://northfieldschools.org/learning/special-services/">Special Services</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24526"><a href="https://northfieldschools.org/learning/special-services/assistive-technology/">Assistive Technology</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24527"><a href="https://northfieldschools.org/learning/special-services/counseling/">Counseling</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24545"><a href="https://northfieldschools.org/learning/special-services/english-learners/">English Learners</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24528"><a href="https://northfieldschools.org/learning/special-services/special-ed/">Special Ed</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24529"><a href="https://northfieldschools.org/learning/special-services/targeted-servicessummer-classes/">Targeted Services/Summer Classes</a></li>
+	</ul>
+</li>
+
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-295 current_page_item menu-item-24544"><a href="https://northfieldschools.org/learning/programs/companeros-program/" aria-current="page">Compañeros</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24585"><a href="https://northfieldschools.org/learning/programs/college-credit/">Dual Credit Options</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24641"><a href="https://northfieldschools.org/learning/programs/torch-tackling-obstacles-raising-college-hopes/">TORCH: Tackling Obstacles, Raising College Hopes</a></li>
+	</ul>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-24584"><a href="https://northfieldschools.org/learning/programs/">Programs</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-295 current_page_item menu-item-24544"><a href="https://northfieldschools.org/learning/programs/companeros-program/" aria-current="page">Compañeros</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24585"><a href="https://northfieldschools.org/learning/programs/college-credit/">Dual Credit Options</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24641"><a href="https://northfieldschools.org/learning/programs/torch-tackling-obstacles-raising-college-hopes/">TORCH: Tackling Obstacles, Raising College Hopes</a></li>
+	</ul>
+</li>
+</ul>
+
+</nav> <!--.local-nav-->
+			<div class="contact-block">
+	<i class="icon icon-map" aria-hidden="true"></i>
+						<h3>Northfield Public Schools, ISD #659</h3>
+							<address>
+				201 Orchard Street South<br />
+Northfield, MN 55057
+			</address>
+							<p class="phone"><strong>Phone:</strong> 507.663.0600</p>
+									<p class="phone"><strong>Fax: </strong> 507.663.0611</p>
+									<p class="phone"><a href="mailto:info@northfieldschools.org">Send an Email</a></p>
+				<p class="principal">
+			<strong>Tim Anderson, Ed.D.</strong>, Superintendent 			<br /><a href="mailto:tanderson@northfieldschools.org">Email the Superintendent</a>		</p>
+					<a class="button" href="/about/directory/?loc=DISTRICT&pos=">Staff Directory</a>
+					</div><!--.contact-block-->
+		</aside> <!--.column-->
+		<div class="subpage-body content-panels column small-12 medium-8 large-9 medium-order-2 small-order-1">
+				
+<section class="panel panel-accordions">
+			<div class="row">
+			<div class="column small-12 medium-12">
+				<h2>Compañeros</h2>
+			</div><!-- .column -->
+		</div><!-- .row -->
+				<div class="post-content">
+			<div class="row">
+				<div class="column small-12 medium-12">
+					<p>The Compañeros program is offered at all three elementary schools (Bridgewater, Greenvale Park and Spring Creek) in grades 1–5. It is a two-way immersion program where students learn to speak, read, write and listen in English and Spanish. Students in Compañeros spend half of their day receiving instruction in English and half their day receiving instruction in Spanish. In both Compañeros and English Only classrooms, teachers may incorporate two or three subjects into one lesson to complete integrated projects and activities. Compañeros and English Only teachers may collaborate during reading and math to meet the instructional needs of the students during a flexible group time.</p>
+<p><strong><span style="color: #470759; font-size: 20px; text-transform: uppercase;">Program Sites</span></strong></p>
+<ul>
+<li><a href="https://northfieldschools.org/schools/bridgewater-elementary/">Bridgewater Elementary</a></li>
+<li><a href="https://northfieldschools.org/schools/greenvale-park-elementary/">Greenvale Park Elementary</a></li>
+<li><a href="https://northfieldschools.org/schools/spring-creek-elementary/">Spring Creek Elementary</a></li>
+</ul>
+
+				</div><!-- .column -->
+			</div><!-- .row -->
+		</div> <!--.post-content-->
+		</section> <!--.panel-accordions-->
+	
+<section class="panel panel-columns">
+					<div class="row">
+					<div class="column small-12 medium-6">
+				<p><strong><a href="https://infograph.venngage.com/pl/6cScp6xM4iQ" target="_blank" rel="noopener">Grades 1-5 Compañeros Program</a></strong></p>
+<p><a href="https://infograph.venngage.com/pl/6cScp6xM4iQ" target="_blank" rel="noopener"><img loading="lazy" decoding="async" class="alignnone wp-image-52235" src="https://northfieldschools.org/wp-content/uploads/Comp1-595x767.png" alt="" width="425" height="548" srcset="https://northfieldschools.org/wp-content/uploads/Comp1-595x767.png 595w, https://northfieldschools.org/wp-content/uploads/Comp1-291x375.png 291w, https://northfieldschools.org/wp-content/uploads/Comp1.png 617w" sizes="auto, (max-width: 425px) 100vw, 425px" /></a></p>
+<p><strong><a href="https://infograph.venngage.com/pl/mbBUUY1zCZ4">Compañeros Program Instructional Day Example</a></strong></p>
+<p><a href="https://northfieldschools.org/updated-companeros-info-2-13/"><img loading="lazy" decoding="async" class="alignnone size-medium wp-image-57299" src="https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-620x767.jpg" alt="" width="620" height="767" srcset="https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-620x767.jpg 620w, https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-728x900.jpg 728w, https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-768x950.jpg 768w, https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-1242x1536.jpg 1242w, https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-1656x2048.jpg 1656w, https://northfieldschools.org/wp-content/uploads/Updated-Companeros-Info-2.13-303x375.jpg 303w" sizes="auto, (max-width: 620px) 100vw, 620px" /></a></p>
+
+			</div> <!--.column-->
+					<div class="column small-12 medium-6">
+				
+			</div> <!--.column-->
+				</div> <!--.row-->
+	</section> <!--.panel-columns-->					</div> <!--.column-->
+	</section> <!--.row-->
+	</main><!--.main-body-->
+
+<footer class="body-footer">
+	<div class="row">
+		<div class="columns large-6 medium-8 small-12 address">
+			<i class="icon icon-map orange" aria-hidden="true"></i>
+			<h2>Northfield Public Schools, <br />ISD #659</h2>
+			<address>201 Orchard Street South, Northfield, MN 55057<br />p 507.663.0600 / f 507.663.0611<br /><a class="button" href="/schools/">Our Schools</a></address>
+		</div><!--.columns-->
+		<nav class="columns quicklinks large-2 large-offset-1 medium-3 small-12">
+	<h2>Quick Links</h2>
+	<ul role="menubar">
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-44422" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/accessibility-form/">Accessibility Form</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-51" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/contact/">Contact</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-53" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/employment/">Employment</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-50" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/news/">News</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-30578" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/parents/report-an-absence/">Report an Absence</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-52" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/about/directory/">Staff Directory</a></li>
+					<li class="nav-main-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-49" role="menuitem"><a class="nav-main-link" href="https://northfieldschools.org/?page_id=47">Privacy Policy</a></li>
+			</ul>
+</nav><!--.columns-->
+		<div class="columns large-3 medium-12 buttons">
+			<a class="button" href="/sitemap/">Site Map</a>
+			<button class="button toTop" onclick="NPS_Global.focusLogo">Back to Top</button>
+		</div><!--.columns-->
+	</div><!--.row-->
+	<div class="row">
+		<div class="large-12 medium-12 columns">
+			<a class="facebook-icon" aria-label="Link to Facebook" href="https://www.facebook.com/NorthfieldPublicSchools"><i class="icon icon-facebook icon-sm" aria-hidden="true"></i></a>
+			<a class="instagram-icon" aria-label="Link to Instagram" href="https://www.instagram.com/northfieldpublicschools"><i class="icon icon-instagram icon-sm" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-12 medium-12 columns">
+			<p>&copy; 2026 Northfield Public Schools. All Rights Reserved.</p>
+		</div><!--.columns-->
+	</div><!--.row-->
+</footer><!--.body-footer-->
+</div> <!--.off-canvas-content-->
+<div class="off-canvas position-right" id="off-canvas-mobile" data-off-canvas>
+	<nav class="mobile-nav">
+		<div class="mobile-nav-title">Northfield Public Schools</div>
+		<ul class="vertical menu accordion-menu" role="menubar" data-accordion-menu data-submenu-toggle="true">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24517"><a href="https://northfieldschools.org/">Home</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26630"><a href="https://cse.google.com/cse?q=&#038;sa.x=11&#038;sa.y=11&#038;cx=005796229432434085693%3Az2nbjlwhts4&#038;ie=UTF-8#gsc.tab=0">Search</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24518"><a href="https://northfieldschools.org/about/">About</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24519"><a href="https://northfieldschools.org/about/departments/">Departments &#038; Services</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24520"><a href="https://northfieldschools.org/about/departments/buildings-grounds/">Buildings &#038; Grounds</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24593"><a href="https://northfieldschools.org/about/departments/child-nutrition-services/">Child Nutrition Services</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24594"><a href="https://northfieldschools.org/about/departments/cultural-liaison/">Cultural Liaison</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58831"><a href="https://northfieldschools.org/about/departments/american-indian-liasion/">American Indian Liasion</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24595"><a href="https://northfieldschools.org/about/departments/finance/">Finance</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24596"><a href="https://northfieldschools.org/about/departments/health-services/">Health Services</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24645"><a href="https://northfieldschools.org/about/departments/human-resources/">Human Resources</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24646"><a href="https://northfieldschools.org/about/departments/special-services/">Special Services</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24647"><a href="https://northfieldschools.org/about/departments/teaching-learning/">Instructional Services</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24648"><a href="https://northfieldschools.org/about/departments/technology-services/">Technology Services</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24521"><a href="https://northfieldschools.org/about/strategic-plan/">Strategic Plan</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28791"><a href="https://northfieldschools.org/about/district-committees/">District Committees</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24614"><a href="https://northfieldschools.org/about/school-board/">School Board</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24536"><a href="https://northfieldschools.org/about/school-board/members/">Members | Elections</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24537"><a href="https://northfieldschools.org/about/school-board/policies/">Policies</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24538"><a href="https://northfieldschools.org/about/school-board/meetings/">School Board Meetings</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24615"><a href="https://northfieldschools.org/about/charter-school-support/">Charter School Support</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24530"><a href="https://northfieldschools.org/about/charter-school-support/authorization/">Authorization</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24531"><a href="https://northfieldschools.org/about/charter-school-support/best-practices-collaboration/">Best Practices &#038; Collaboration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24532"><a href="https://northfieldschools.org/about/charter-school-support/policies-documents-forms/">Policies, Forms, Documents &#038; Reports</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24616"><a href="https://northfieldschools.org/about/handbooks/">Handbooks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24636"><a href="https://northfieldschools.org/about/directory/">Staff Directory</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24637"><a href="https://northfieldschools.org/about/enrollment/">Enrollment</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24638"><a href="https://northfieldschools.org/about/transportation/">Transportation</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24640"><a href="https://northfieldschools.org/about/volunteer/">Volunteer</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50331"><a href="https://northfieldschools.org/parents/school-closings/">Weather Related Disruptions and School Closings</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24639"><a href="https://northfieldschools.org/employment/">Employment</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24567"><a href="https://northfieldschools.org/schools/">Schools</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24629"><a href="https://northfieldschools.org/schools/area-learning-center/">Area Learning Center</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24553"><a href="https://northfieldschools.org/schools/area-learning-center/student-and-family-support/">Student and Family Support</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24554"><a href="https://northfieldschools.org/schools/area-learning-center/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24597"><a href="https://northfieldschools.org/schools/area-learning-center/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24598"><a href="https://northfieldschools.org/schools/area-learning-center/eligibility-and-enrollment/">Eligibility and Enrollment</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24542"><a href="https://northfieldschools.org/schools/bridgewater-elementary/">Bridgewater Elementary</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47783"><a href="https://northfieldschools.org/schools/community-school/">Community School</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24555"><a href="https://northfieldschools.org/schools/bridgewater-elementary/student-expectations/">Student Expectations</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24556"><a href="https://northfieldschools.org/schools/bridgewater-elementary/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24604"><a href="https://northfieldschools.org/schools/bridgewater-elementary/media-center/">Media Center</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24605"><a href="https://northfieldschools.org/schools/bridgewater-elementary/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24606"><a href="https://northfieldschools.org/schools/bridgewater-elementary/school-supplies/">School Supplies</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24642"><a href="https://northfieldschools.org/schools/bridgewater-elementary/volunteer/">Volunteer &#038; BBC Information</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59808"><a href="https://northfieldschools.org/schools/bridgewater-elementary/bridgewater-elementary-friday-updates/">Bridgewater Bear Tracks</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47787"><a href="https://northfieldschools.org/schools/community-education-center/">Community Education Center</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24543"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/">Greenvale Park Elementary</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47786"><a href="https://northfieldschools.org/schools/community-school/">Community School</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24557"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/student-expectations/">Student Expectations</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24558"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24607"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/media-center/">Media Center</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24608"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24609"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/school-supplies/">School Supplies</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24649"><a href="https://northfieldschools.org/schools/greenvale-park-elementary/volunteer/">Volunteer and PTO Information</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24576"><a href="https://northfieldschools.org/schools/northfield-high-school/">Northfield High School</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24563"><a href="https://northfieldschools.org/schools/northfield-high-school/student-support/">Student Support</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24564"><a href="https://northfieldschools.org/schools/northfield-high-school/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24577"><a href="https://northfieldschools.org/schools/northfield-high-school/media-center/">Media Center</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24578"><a href="https://northfieldschools.org/schools/northfield-high-school/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24579"><a href="https://northfieldschools.org/schools/northfield-high-school/incoming-freshmen/">Incoming Freshman</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24633"><a href="https://northfieldschools.org/schools/northfield-high-school/senior-class/">Senior Class</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24634"><a href="https://northfieldschools.org/schools/northfield-high-school/sports-and-activities/">Sports and Activities</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24635"><a href="https://northfieldschools.org/schools/northfield-high-school/volunteer/">Volunteer</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24572"><a href="https://northfieldschools.org/schools/northfield-middle-school/">Northfield Middle School</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24561"><a href="https://northfieldschools.org/schools/northfield-middle-school/student-support/">Student Support</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24562"><a href="https://northfieldschools.org/schools/northfield-middle-school/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24573"><a href="https://northfieldschools.org/schools/northfield-middle-school/media-center/">Media Center</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24574"><a href="https://northfieldschools.org/schools/northfield-middle-school/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24575"><a href="https://northfieldschools.org/schools/northfield-middle-school/communications/">School Communications</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24630"><a href="https://northfieldschools.org/schools/northfield-middle-school/new-students/">Class Registration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24631"><a href="https://northfieldschools.org/schools/northfield-middle-school/sports-and-activities/">Sports &#038; Activities</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24632"><a href="https://northfieldschools.org/schools/northfield-middle-school/volunteer/">Volunteer</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47788"><a href="https://northfieldschools.org/communityeducation/programs-for-youth/middle-school-youth-center/">Middle School Youth Center</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41352"><a href="https://northfieldschools.org/schools/portage-online/">Big 9 Online Learning Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24568"><a href="https://northfieldschools.org/schools/spring-creek-elementary/">Spring Creek Elementary</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47784"><a href="https://northfieldschools.org/schools/community-school/">Community School</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24559"><a href="https://northfieldschools.org/schools/spring-creek-elementary/student-expectations/">Student Expectations</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24560"><a href="https://northfieldschools.org/schools/spring-creek-elementary/learning/">Learning</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24569"><a href="https://northfieldschools.org/schools/spring-creek-elementary/media-center/">Spring Creek Media Center</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24570"><a href="https://northfieldschools.org/schools/spring-creek-elementary/daily-schedule/">Daily Schedule</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24571"><a href="https://northfieldschools.org/schools/spring-creek-elementary/school-supplies/">School Supplies</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24643"><a href="https://northfieldschools.org/schools/spring-creek-elementary/volunteer/">Volunteer and PTO Information</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-24580"><a href="https://northfieldschools.org/learning/">Learning</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24546"><a href="https://northfieldschools.org/learning/curriculum/">Curriculum</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24548"><a href="https://northfieldschools.org/learning/curriculum/k-12-curriculum/">K-12 Curriculum</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24549"><a href="https://northfieldschools.org/learning/curriculum/multi-tiered-system-of-supports/">Multi-Tiered System of Supports</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24600"><a href="https://northfieldschools.org/learning/curriculum/title-ia-supplemental-instruction/">Title IA: Supplemental Instruction</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24581"><a href="https://northfieldschools.org/learning/technology/">Technology</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24582"><a href="https://northfieldschools.org/learning/testing-assessment/">Testing &#038; Assessment</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24583"><a href="https://northfieldschools.org/learning/special-services/">Special Services</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24526"><a href="https://northfieldschools.org/learning/special-services/assistive-technology/">Assistive Technology</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24527"><a href="https://northfieldschools.org/learning/special-services/counseling/">Counseling</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24545"><a href="https://northfieldschools.org/learning/special-services/english-learners/">English Learners</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24528"><a href="https://northfieldschools.org/learning/special-services/special-ed/">Special Ed</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24529"><a href="https://northfieldschools.org/learning/special-services/targeted-servicessummer-classes/">Targeted Services/Summer Classes</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-24584"><a href="https://northfieldschools.org/learning/programs/">Programs</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-295 current_page_item menu-item-24544"><a href="https://northfieldschools.org/learning/programs/companeros-program/" aria-current="page">Compañeros</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24585"><a href="https://northfieldschools.org/learning/programs/college-credit/">Dual Credit Options</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24641"><a href="https://northfieldschools.org/learning/programs/torch-tackling-obstacles-raising-college-hopes/">TORCH: Tackling Obstacles, Raising College Hopes</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24586"><a href="https://northfieldschools.org/communityeducation/">Community Education</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24539"><a href="https://northfieldschools.org/communityeducation/about/">About</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24540"><a href="https://northfieldschools.org/communityeducation/early-childhood-school-age-care/">Early Childhood &#038; Ventures</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24565"><a href="https://northfieldschools.org/communityeducation/early-childhood-school-age-care/ventures-childcare/">Ventures Childcare</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24566"><a href="https://northfieldschools.org/communityeducation/early-childhood-school-age-care/early-childhood-programs/">Early Childhood Programs</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24587"><a href="https://northfieldschools.org/communityeducation/programs-for-youth/">Programs for Youth</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24534"><a href="https://northfieldschools.org/communityeducation/programs-for-youth/driver-education/">Driver’s Education</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24535"><a href="https://northfieldschools.org/communityeducation/programs-for-youth/middle-school-youth-center/">Middle School Youth Center</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24588"><a href="https://northfieldschools.org/communityeducation/programs-for-adults/">Programs for Adults</a>
+	<ul class="vertical menu nested">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24524"><a href="https://northfieldschools.org/communityeducation/programs-for-adults/adult-basic-education/">Adult Basic Education</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24525"><a href="https://northfieldschools.org/communityeducation/programs-for-adults/seasonal-community-opportunities/">Seasonal Community Opportunities</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24589"><a href="https://northfieldschools.org/communityeducation/project-able/">Project ABLE</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24590"><a href="https://northfieldschools.org/communityeducation/advisory-council/">Advisory Council</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24644"><a href="https://northfieldschools.org/communityeducation/facility-use/">Facility Use</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24617"><a href="https://northfieldschools.org/calendars/">Calendars</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24618"><a href="https://northfieldschools.org/espanol/">Español</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24619"><a href="https://northfieldschools.org/parents/">Parents</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24552"><a href="https://northfieldschools.org/parents/report-an-absence/">Report an Absence</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24591"><a href="https://northfieldschools.org/parents/tech-support/">Tech Access</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24592"><a href="https://northfieldschools.org/parents/school-closings/">Weather Related Disruptions and School Closings</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24620"><a href="https://northfieldschools.org/staff/">Staff</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24550"><a href="https://northfieldschools.org/staff/portal/">Portal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24551"><a href="https://northfieldschools.org/staff/finance-forms/">Finance Forms</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24601"><a href="https://northfieldschools.org/staff/hr-forms/">HR Forms</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24602"><a href="https://northfieldschools.org/staff/technology/">Technology</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24603"><a href="https://northfieldschools.org/staff/instructional-resources/">Special Education</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27253"><a href="https://northfieldschools.org/staff/curriculum/">Curriculum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50275"><a href="https://northfieldschools.org/staff/mtss-information/">MTSS Information</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30743"><a href="https://northfieldschools.org/staff/staff-wellness/">Staff Wellness</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24622"><a href="https://northfieldschools.org/community/">Community Members</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24624"><a href="https://northfieldschools.org/news/">News</a>
+<ul class="vertical menu nested">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24541"><a href="https://northfieldschools.org/parents/annual-notifications/">Annual Notifications</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24611"><a href="https://northfieldschools.org/news/news-archive/">News Archive</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24613"><a href="https://northfieldschools.org/news/comprehensive-achievement-and-civic-readiness-annual-report/">Comprehensive Achievement and Civic Readiness Annual Report</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24625"><a href="https://northfieldschools.org/nfldlead/">Superintendent’s Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24627"><a href="https://northfieldschools.org/?page_id=47">Privacy Policy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24623"><a href="https://northfieldschools.org/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36545"><a href="https://northfieldschools.org/connect/">Stay Connected</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38490"><a href="https://northfieldschools.org/special-services-20-21/">Special Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43897"><a href="https://northfieldschools.org/teachingfellows/">Northfield Teaching Fellows</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44419"><a href="https://northfieldschools.org/accessibility-form/">Accessibility Form</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47785"><a href="https://northfieldschools.org/schools/community-school/">Community School</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50999"><a href="https://northfieldschools.org/reimaginebond/">Reimagine Northfield High School Bond Referendum</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53370"><a href="https://northfieldschools.org/reimagine/">Reimagining Northfield High School — Project Updates</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55963"><a href="https://northfieldschools.org/big9music2026/">2026 Big Nine Conference Music Festival</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56676"><a href="https://northfieldschools.org/?page_id=56673">Request for Proposal</a></li>
+
+		</ul> <!--.menu-->
+		<button class="close-button" aria-label="Close menu" type="button" data-close onclick="NPS_Global.focusLogo">
+		  <span aria-hidden="true">&times;</span>
+		</button>
+	</nav> <!--.mobile-nav-->
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/nps/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="nps-scripts-js" src="https://northfieldschools.org/js/app.min.js?ver=1793871983"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"16803a6a39","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://northfieldschools.org/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LcAPAofAAAAAIepgvA5T2OFqw4X-DGlEXntE_Za"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6LcAPAofAAAAAIepgvA5T2OFqw4X-DGlEXntE_Za&#038;ver=2.2.2"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://northfieldschools.org/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4237a0c993","applicationID":"235468232","transactionName":"ZVAAYEVYWhBYUU0NClwaI1dDUFsNFkJYAwA=","queueTime":0,"applicationTime":495,"atts":"SRcDFg1CSR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

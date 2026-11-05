@@ -1,0 +1,41 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "ND",
+    "SD",
+    "MN",
+    "IA",
+    "MO",
+    "AK",
+    "HI"
+  ],
+  "programme_records": {
+    "ND": 1,
+    "SD": 11,
+    "MN": 93,
+    "IA": 13,
+    "MO": 14,
+    "AK": 20,
+    "HI": 35
+  },
+  "programme_host_schools": {
+    "ND": 1,
+    "SD": 11,
+    "MN": 83,
+    "IA": 13,
+    "MO": 11,
+    "AK": 18,
+    "HI": 35
+  },
+  "screening_rows": {
+    "ND": 4,
+    "SD": 1,
+    "MN": 4,
+    "IA": 1,
+    "MO": 6,
+    "AK": 5,
+    "HI": 1
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

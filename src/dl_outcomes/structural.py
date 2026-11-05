@@ -12,10 +12,12 @@ from .validation import load
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI'}
 
 
 def report_prefix(root):
+    batch=root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json'
+    if batch.exists():return json.loads(batch.read_text())['national_report_prefix']
     review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
     if review.exists():return json.loads(review.read_text())['national_report_prefix']
     followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
@@ -117,6 +119,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if batch_audit.exists():
         from .western_plains_review import audit_errors
         errors.extend(audit_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json').exists():
+        from .northern_central_review import audit_errors as northern_errors
+        errors.extend(northern_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -249,6 +254,12 @@ def generate_report(root, *, check=False):
         reports={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()})
     if batch_summary:
         audit['western_plains_batch'] = {k: batch_summary[k] for k in ['programme_evidence_groups', 'school_units_with_programme_evidence', 'public_source_documents', 'source_extraction_counts']}
+    if (root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json').exists():
+        from .northern_central_review import render_reports as northern_reports
+        northern_contents, northern_summary = northern_reports(root, tables)
+        contents.update(northern_contents)
+        audit['northern_central_ak_hi_batch'] = northern_summary
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in northern_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

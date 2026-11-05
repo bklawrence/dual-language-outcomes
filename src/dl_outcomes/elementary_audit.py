@@ -334,6 +334,8 @@ def render_reports(root,tables):
     prefix=json.loads(followup.read_text()).get('elementary_report_prefix',PREFIX) if followup.exists() else PREFIX
     review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
     if review.exists():prefix=json.loads(review.read_text())['elementary_report_prefix']
+    batch=root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json'
+    if batch.exists():prefix=json.loads(batch.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

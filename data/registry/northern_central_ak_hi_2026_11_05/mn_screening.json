@@ -1,0 +1,42 @@
+[
+  {
+    "school": "Windom / Sheridan historical names",
+    "district": "Minneapolis Public Schools",
+    "source": "nc_mn_masterlist",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Windom / Sheridan historical names",
+    "disposition": "historical_identity_and_programme_change_review",
+    "reason": "Historical list differs from the current MPS pathway: current primary hosts are Emerson, Green Central and Las Estrellas. Do not add old aliases as new current schools.",
+    "notes": "Las Estrellas is kept by its current official name; a durable Sheridan-to-Las Estrellas identity crosswalk is not asserted without a specific renaming source. Windom is not assumed to retain Spanish immersion."
+  },
+  {
+    "school": "Kennedy Community School",
+    "district": "St. Cloud Area School District 742",
+    "source": "nc_mn_stcloud_programme",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Kennedy Community School",
+    "disposition": "future_host_change",
+    "reason": "Current page labels the northside K–8 pathway as beginning 2026–27; do not backdate the new location.",
+    "notes": "Confirm whether Spanish moves from Clearview or is additional capacity. Chinese and Spanish pathways must not be swapped by page layout alone."
+  },
+  {
+    "school": "Riverview / Farmington search lead",
+    "district": "",
+    "source": "nc_mn_farmington_immersion",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Riverview / Farmington search lead",
+    "disposition": "out_of_state_short_term_programme_false_match",
+    "reason": "Search result describes a two-week programme beside the Farmington River in Connecticut, not a verified Minnesota K–12 academic immersion host.",
+    "notes": "Do not infer a Minnesota Riverview programme from matching school/city words. Minnesota district school page does not establish this programme."
+  },
+  {
+    "school": "Bdote Learning Center",
+    "district": "",
+    "source": "nc_mn_masterlist",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Bdote Learning Center",
+    "disposition": "historical_indigenous_immersion_identity_and_status_review",
+    "reason": "Historical directory lists Dakota/Ojibwe immersion; official bdote.org routes returned 404 during this pass. Current identity, grades, operation and any closure/move require a primary-source follow-up.",
+    "notes": "Targeted closure search produced no reliable ending report; inaccessible operator pages do not prove closure. The historical lead is retained rather than inventing a current strand or silently discarding it."
+  }
+]
