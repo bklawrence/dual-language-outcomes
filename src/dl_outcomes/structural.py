@@ -15,6 +15,13 @@ REPORT = 'data/reports/structural_inventory_2026_11_04'
 REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS'}
 
 
+def report_prefix(root):
+    review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
+    if review.exists():return json.loads(review.read_text())['national_report_prefix']
+    followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
+    return json.loads(followup.read_text()).get('national_report_prefix',REPORT) if followup.exists() else REPORT
+
+
 def migration_errors(root, tables, *, check_hashes=True):
     audit = json.loads((root / AUDIT).read_text())
     errors = []
@@ -122,6 +129,10 @@ def report_rows(root, tables):
     programs = {r['program_id']: r for r in tables['programs']}
     sites = {r['site_id']: r for r in tables['program_sites']}
     statuses, configurations, languages, allocations = [defaultdict(list) for _ in range(4)]
+    campus_allocations=defaultdict(list)
+    for row in tables['allocation_schedules']:
+        if not row['site_id']:
+            campus_allocations[row['school_id']].append(row)
     for table, index in [('program_status_history',statuses),('program_configurations',configurations),('program_languages',languages),('allocation_schedules',allocations)]:
         for row in tables[table]:
             if row['site_id']:
@@ -151,6 +162,9 @@ def report_rows(root, tables):
             model_labels_all_source_periods=joined(allocations[site_id],'reported_model_label',omit=('unknown','not_reported','Other','Allocation Other','.','N/A')) or joined(configurations[site_id],'reported_model_label',omit=('Other','Allocation Other','.','N/A')),
             allocation_grade_scopes=joined(allocations[site_id],'grade_scope'),
             allocation_review_flags=joined(allocations[site_id],'grade_support_status'),
+            allocation_evidence_review_statuses=joined(allocations[site_id],'evidence_review_status'),
+            school_level_model_labels_all_source_periods=joined(campus_allocations[site['school_id']],'reported_model_label'),
+            school_level_model_evidence_statuses=joined(campus_allocations[site['school_id']],'evidence_review_status'),
             kindergarten_allocation_eligibility=k_scope['k_eligibility'],
             kindergarten_allocation_status=k_scope['k_allocation_status'],
             in_allocation_reference_working_set=k_scope['in_reference_working_set'],
@@ -199,21 +213,30 @@ def generate_report(root, *, check=False):
         raise ValueError('\n'.join(errors))
     inventory, summary = report_rows(root,tables)
     manifest = json.loads((root/'data/curated/manifest.json').read_text())
+    prefix=report_prefix(root)
     contents = {
-        REPORT + '_program_view.csv':csv_text(inventory),
-        REPORT + '_by_state.csv':csv_text(summary),
+        prefix + '_program_view.csv':csv_text(inventory),
+        prefix + '_by_state.csv':csv_text(summary),
     }
     from .allocation_coverage import render_reports as allocation_reports
     contents.update(allocation_reports(root, tables))
     if (root/'config/research_migrations/elementary_allocation_audit_2026_11_04.json').exists():
         from .elementary_audit import render_reports as elementary_reports
         contents.update(elementary_reports(root,tables))
+    if (root/'config/research_migrations/ut_tx_allocations_2026_11_05.json').exists():
+        from .allocation_enrichment import render_reports as enrichment_reports
+        contents.update(enrichment_reports(root,tables))
+    if (root/'config/research_migrations/tx_allocation_review_2026_11_05.json').exists():
+        from .allocation_review import render_reports as reviewed_reports
+        contents.update(reviewed_reports(root,tables))
     batch_summary = None
     if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
         from .western_plains_review import render_reports
         batch_contents, batch_summary = render_reports(root, tables)
         contents.update(batch_contents)
-    audit = dict(migration_date='2026-11-04', build_id=manifest['build_id'],schema_version=manifest['schema_version'],
+    followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
+    report_date=json.loads(followup.read_text())['date'] if followup.exists() else '2026-11-04'
+    audit = dict(migration_date=report_date, build_id=manifest['build_id'],schema_version=manifest['schema_version'],
         collection_phase='structural_inventory', proficiency_collection='deferred_until_50_state_structural_inventories_finished',
         states_with_integrated_program_evidence=[r['state_code'] for r in summary],
         other_states_without_program_evidence=[r['state_code'] for r in tables['states'] if r['state_code'] not in {x['state_code'] for x in summary}],
@@ -226,7 +249,7 @@ def generate_report(root, *, check=False):
         reports={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()})
     if batch_summary:
         audit['western_plains_batch'] = {k: batch_summary[k] for k in ['programme_evidence_groups', 'school_units_with_programme_evidence', 'public_source_documents', 'source_extraction_counts']}
-    contents[REPORT+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
+    contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel
         if check:

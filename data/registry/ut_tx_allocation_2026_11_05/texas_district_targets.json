@@ -1,0 +1,3472 @@
+[
+  {
+    "district_id": "227901",
+    "district": "AUSTIN ISD",
+    "target_campus_ids": [
+      "227901102",
+      "227901149",
+      "227901104",
+      "227901109",
+      "227901113",
+      "227901114",
+      "227901159",
+      "227901118",
+      "227901162",
+      "227901160",
+      "227901122",
+      "227901150",
+      "227901148",
+      "227901156",
+      "227901126",
+      "227901129",
+      "227901151",
+      "227901130",
+      "227901127",
+      "227901136",
+      "227901140",
+      "227901141",
+      "227901166",
+      "227901157",
+      "227901152",
+      "227901144",
+      "227901145",
+      "227901146",
+      "227901178",
+      "227901168",
+      "227901171",
+      "227901172",
+      "227901175",
+      "227901176",
+      "227901163",
+      "227901173",
+      "227901174",
+      "227901165",
+      "227901164",
+      "227901185",
+      "227901186",
+      "227901188",
+      "227901189",
+      "227901190",
+      "227901198",
+      "227901195"
+    ],
+    "target_count": 46,
+    "directory_web_domains": [
+      [
+        "www.austinisd.org",
+        117
+      ]
+    ],
+    "root_url": "https://www.austinisd.org/"
+  },
+  {
+    "district_id": "068901",
+    "district": "ECTOR COUNTY ISD",
+    "target_campus_ids": [
+      "068901102",
+      "068901103",
+      "068901107",
+      "068901110",
+      "068901111",
+      "068901112",
+      "068901116",
+      "068901118",
+      "068901113",
+      "068901122",
+      "068901124",
+      "068901126",
+      "068901127",
+      "068901128",
+      "068901129",
+      "068901130",
+      "068901133",
+      "068901131",
+      "068901132"
+    ],
+    "target_count": 19,
+    "directory_web_domains": [
+      [
+        "www.ectorcountyisd.org",
+        3
+      ]
+    ],
+    "root_url": "https://www.ectorcountyisd.org/"
+  },
+  {
+    "district_id": "057910",
+    "district": "GRAND PRAIRIE ISD",
+    "target_campus_ids": [
+      "057910101",
+      "057910102",
+      "057910104",
+      "057910113",
+      "057910109",
+      "057910118",
+      "057910119",
+      "057910120",
+      "057910122",
+      "057910124",
+      "057910126",
+      "057910128",
+      "057910129",
+      "057910130",
+      "057910131",
+      "057910132",
+      "057910137"
+    ],
+    "target_count": 17,
+    "directory_web_domains": [
+      [
+        "www.gpisd.org",
+        36
+      ],
+      [
+        "passlearningcenter.gpsid.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.gpisd.org/"
+  },
+  {
+    "district_id": "043910",
+    "district": "PLANO ISD",
+    "target_campus_ids": [
+      "043910126",
+      "043910112",
+      "043910109",
+      "043910101",
+      "043910102",
+      "043910105",
+      "043910103",
+      "043910104",
+      "043910117",
+      "043910113",
+      "043910123",
+      "043910143",
+      "043910149",
+      "043910124"
+    ],
+    "target_count": 14,
+    "directory_web_domains": [
+      [
+        "www.pisd.edu",
+        81
+      ]
+    ],
+    "root_url": "https://www.pisd.edu/"
+  },
+  {
+    "district_id": "101920",
+    "district": "SPRING BRANCH ISD",
+    "target_campus_ids": [
+      "101920103",
+      "101920105",
+      "101920106",
+      "101920110",
+      "101920111",
+      "101920113",
+      "101920114",
+      "101920120",
+      "101920122",
+      "101920123",
+      "101920116",
+      "101920117",
+      "101920125",
+      "101920126"
+    ],
+    "target_count": 14,
+    "directory_web_domains": [
+      [
+        "mhs.springbranchisd.com",
+        1
+      ],
+      [
+        "nhs.springbranchisd.com",
+        1
+      ],
+      [
+        "guthriecenter.springbranchisd.com",
+        1
+      ],
+      [
+        "swh.springbranchisd.com",
+        1
+      ],
+      [
+        "springbranchisd.com",
+        1
+      ],
+      [
+        "ssh.springbranchisd.com",
+        1
+      ],
+      [
+        "wais.springbranchisd.com",
+        1
+      ],
+      [
+        "soc.springbranchisd.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.springbranchisd.com/"
+  },
+  {
+    "district_id": "057916",
+    "district": "RICHARDSON ISD",
+    "target_campus_ids": [
+      "057916103",
+      "057916104",
+      "057916107",
+      "057916121",
+      "057916106",
+      "057916111",
+      "057916126",
+      "057916113",
+      "057916114",
+      "057916115",
+      "057916137",
+      "057916144",
+      "057916145"
+    ],
+    "target_count": 13,
+    "directory_web_domains": [
+      [
+        "schools.risd.org",
+        48
+      ],
+      [
+        "www.tjjd.texas.gov",
+        1
+      ],
+      [
+        "risd.org",
+        1
+      ],
+      [
+        "www.richardson.k12.tx.us",
+        1
+      ]
+    ],
+    "root_url": "https://web.risd.org/"
+  },
+  {
+    "district_id": "101910",
+    "district": "GALENA PARK ISD",
+    "target_campus_ids": [
+      "101910101",
+      "101910102",
+      "101910104",
+      "101910105",
+      "101910106",
+      "101910107",
+      "101910108",
+      "101910109",
+      "101910111",
+      "101910113",
+      "101910114",
+      "101910115",
+      "101910112"
+    ],
+    "target_count": 13,
+    "directory_web_domains": [
+      [
+        "www.galenaparkisd.com",
+        23
+      ]
+    ],
+    "root_url": "https://www.galenaparkisd.com/"
+  },
+  {
+    "district_id": "101912",
+    "district": "HOUSTON ISD",
+    "target_campus_ids": [
+      "101912104",
+      "101912109",
+      "101912112",
+      "101912158",
+      "101912167",
+      "101912180",
+      "101912242",
+      "101912267",
+      "101912383",
+      "101912460",
+      "101912480",
+      "101912483",
+      "101912478"
+    ],
+    "target_count": 13,
+    "directory_web_domains": [
+      [
+        "www.houstonisd.org",
+        270
+      ],
+      [
+        "www.ymcpa.org",
+        1
+      ],
+      [
+        "www.houstonid.org",
+        1
+      ],
+      [
+        "schools.houstonisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.houstonisd.org/"
+  },
+  {
+    "district_id": "240903",
+    "district": "UNITED ISD",
+    "target_campus_ids": [
+      "240903115",
+      "240903103",
+      "240903107",
+      "240903122",
+      "240903124",
+      "240903126",
+      "240903127",
+      "240903120",
+      "240903128",
+      "240903132",
+      "240903133",
+      "240903135"
+    ],
+    "target_count": 12,
+    "directory_web_domains": [
+      [
+        "www.uisd.net",
+        43
+      ],
+      [
+        "uisd.net",
+        4
+      ]
+    ],
+    "root_url": "https://www.uisd.net/"
+  },
+  {
+    "district_id": "057909",
+    "district": "GARLAND ISD",
+    "target_campus_ids": [
+      "057909105",
+      "057909109",
+      "057909123",
+      "057909124",
+      "057909133",
+      "057909121",
+      "057909112",
+      "057909140",
+      "057909154",
+      "057909156",
+      "057909147"
+    ],
+    "target_count": 11,
+    "directory_web_domains": [
+      [
+        "www.garlandisd.net",
+        62
+      ],
+      [
+        "www.garlandisdschools.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.garlandisd.net/"
+  },
+  {
+    "district_id": "108902",
+    "district": "DONNA ISD",
+    "target_campus_ids": [
+      "108902104",
+      "108902106",
+      "108902102",
+      "108902112",
+      "108902103",
+      "108902113",
+      "108902114",
+      "108902115",
+      "108902116",
+      "108902117",
+      "108902118"
+    ],
+    "target_count": 11,
+    "directory_web_domains": [
+      [
+        "www.donnaisd.net",
+        19
+      ],
+      [
+        "www.donnasisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.donnaisd.net/"
+  },
+  {
+    "district_id": "165901",
+    "district": "MIDLAND ISD",
+    "target_campus_ids": [
+      "165901101",
+      "165901104",
+      "165901106",
+      "165901107",
+      "165901112",
+      "165901116",
+      "165901117",
+      "165901130",
+      "165901133",
+      "165901132",
+      "165901134"
+    ],
+    "target_count": 11,
+    "directory_web_domains": [
+      [
+        "www.midlandisd.net",
+        38
+      ]
+    ],
+    "root_url": "https://www.midlandisd.net/"
+  },
+  {
+    "district_id": "057903",
+    "district": "CARROLLTON-FARMERS BRANCH ISD",
+    "target_campus_ids": [
+      "057903102",
+      "057903103",
+      "057903113",
+      "057903109",
+      "057903105",
+      "057903110",
+      "057903129",
+      "057903131",
+      "057903135",
+      "057903125"
+    ],
+    "target_count": 10,
+    "directory_web_domains": [
+      [
+        "www.cfbisd.edu",
+        39
+      ]
+    ],
+    "root_url": "https://www.cfbisd.edu/"
+  },
+  {
+    "district_id": "170908",
+    "district": "NEW CANEY ISD",
+    "target_campus_ids": [
+      "170908102",
+      "170908101",
+      "170908106",
+      "170908109",
+      "170908111",
+      "170908110",
+      "170908113",
+      "170908114",
+      "170908115",
+      "170908116"
+    ],
+    "target_count": 10,
+    "directory_web_domains": [
+      [
+        "www.newcaneyisd.org",
+        19
+      ]
+    ],
+    "root_url": "https://www.newcaneyisd.org/"
+  },
+  {
+    "district_id": "015912",
+    "district": "SOUTHWEST ISD",
+    "target_campus_ids": [
+      "015912101",
+      "015912102",
+      "015912104",
+      "015912103",
+      "015912105",
+      "015912106",
+      "015912107",
+      "015912108",
+      "015912111"
+    ],
+    "target_count": 9,
+    "directory_web_domains": [
+      [
+        "swisd.net",
+        1
+      ],
+      [
+        "res.swisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://swisd.net/"
+  },
+  {
+    "district_id": "101911",
+    "district": "GOOSE CREEK CISD",
+    "target_campus_ids": [
+      "101911120",
+      "101911101",
+      "101911108",
+      "101911111",
+      "101911112",
+      "101911102",
+      "101911118",
+      "101911122",
+      "101911125"
+    ],
+    "target_count": 9,
+    "directory_web_domains": [
+      [
+        "gccisd.net",
+        2
+      ]
+    ],
+    "root_url": "https://gccisd.net/"
+  },
+  {
+    "district_id": "214901",
+    "district": "RIO GRANDE CITY GRULLA ISD",
+    "target_campus_ids": [
+      "214901102",
+      "214901103",
+      "214901104",
+      "214901107",
+      "214901108",
+      "214901105",
+      "214901110",
+      "214901111",
+      "214901112"
+    ],
+    "target_count": 9,
+    "directory_web_domains": [
+      [
+        "myrgcgisd.org",
+        8
+      ],
+      [
+        "rgccisd.org",
+        2
+      ],
+      [
+        "www.myrgcgisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://myrgcgisd.org/"
+  },
+  {
+    "district_id": "227910",
+    "district": "DEL VALLE ISD",
+    "target_campus_ids": [
+      "227910101",
+      "227910106",
+      "227910107",
+      "227910108",
+      "227910109",
+      "227910110",
+      "227910111",
+      "227910112",
+      "227910113"
+    ],
+    "target_count": 9,
+    "directory_web_domains": [
+      [
+        "sites.dvisd.net",
+        14
+      ]
+    ],
+    "root_url": "https://www.dvisd.net/"
+  },
+  {
+    "district_id": "020901",
+    "district": "ALVIN ISD",
+    "target_campus_ids": [
+      "020901101",
+      "020901105",
+      "020901103",
+      "020901108",
+      "020901107",
+      "020901109",
+      "020901111",
+      "020901120"
+    ],
+    "target_count": 8,
+    "directory_web_domains": [
+      [
+        "www.alvinisd.net",
+        24
+      ],
+      [
+        "alvinisdtx.sites.thrillshare.com",
+        11
+      ]
+    ],
+    "root_url": "https://www.alvinisd.net/"
+  },
+  {
+    "district_id": "057907",
+    "district": "DUNCANVILLE ISD",
+    "target_campus_ids": [
+      "057907110",
+      "057907107",
+      "057907101",
+      "057907102",
+      "057907103",
+      "057907108",
+      "057907109",
+      "057907112"
+    ],
+    "target_count": 8,
+    "directory_web_domains": [
+      [
+        "pace.duncanvilleisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.duncanvilleisd.org/"
+  },
+  {
+    "district_id": "015905",
+    "district": "EDGEWOOD ISD",
+    "target_campus_ids": [
+      "015905104",
+      "015905117",
+      "015905112",
+      "015905114",
+      "015905113",
+      "015905142",
+      "015905144"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "www.eisd.net",
+        16
+      ],
+      [
+        "learn4life.eisd.net",
+        1
+      ],
+      [
+        "roosevelt.eisd.net",
+        1
+      ],
+      [
+        "eisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.eisd.net/"
+  },
+  {
+    "district_id": "043907",
+    "district": "MCKINNEY ISD",
+    "target_campus_ids": [
+      "043907105",
+      "043907102",
+      "043907104",
+      "043907107",
+      "043907111",
+      "043907118",
+      "043907119"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "schools.mckinneyisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.mckinneyisd.net/"
+  },
+  {
+    "district_id": "061901",
+    "district": "DENTON ISD",
+    "target_campus_ids": [
+      "061901111",
+      "061901110",
+      "061901104",
+      "061901107",
+      "061901112",
+      "061901106",
+      "061901113"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "www.dentonisd.org",
+        43
+      ],
+      [
+        "ww.dentonisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.dentonisd.org/"
+  },
+  {
+    "district_id": "084901",
+    "district": "DICKINSON ISD",
+    "target_campus_ids": [
+      "084901042",
+      "084901101",
+      "084901105",
+      "084901107",
+      "084901043",
+      "084901108",
+      "084901109"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "www.dickinsonisd.org",
+        14
+      ]
+    ],
+    "root_url": "https://www.dickinsonisd.org/"
+  },
+  {
+    "district_id": "101917",
+    "district": "PASADENA ISD",
+    "target_campus_ids": [
+      "101917101",
+      "101917102",
+      "101917105",
+      "101917113",
+      "101917141",
+      "101917145",
+      "101917148"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [],
+    "root_url": "https://www.pasadenaisd.org/"
+  },
+  {
+    "district_id": "108906",
+    "district": "MCALLEN ISD",
+    "target_campus_ids": [
+      "108906114",
+      "108906107",
+      "108906111",
+      "108906123",
+      "108906128",
+      "108906127",
+      "108906124"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "memorial.mcallenisd.org",
+        1
+      ],
+      [
+        "mchi.mcallenisd.org",
+        1
+      ],
+      [
+        "ig.mcallenisd.org",
+        1
+      ],
+      [
+        "rowe.mcallenisd.org",
+        1
+      ],
+      [
+        "lamar.mcallenisd.org",
+        1
+      ],
+      [
+        "aechs.mcallenisd.org",
+        1
+      ],
+      [
+        "travis.mcallenisd.org",
+        1
+      ],
+      [
+        "morris.mcallenisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.mcallenisd.org/"
+  },
+  {
+    "district_id": "220907",
+    "district": "KELLER ISD",
+    "target_campus_ids": [
+      "220907103",
+      "220907111",
+      "220907114",
+      "220907117",
+      "220907123",
+      "220907125",
+      "220907126"
+    ],
+    "target_count": 7,
+    "directory_web_domains": [
+      [
+        "www.kellerisd.net",
+        40
+      ]
+    ],
+    "root_url": "https://www.kellerisd.net/"
+  },
+  {
+    "district_id": "101905",
+    "district": "CHANNELVIEW ISD",
+    "target_campus_ids": [
+      "101905102",
+      "101905103",
+      "101905104",
+      "101905105",
+      "101905042",
+      "101905106"
+    ],
+    "target_count": 6,
+    "directory_web_domains": [
+      [
+        "www.cvisd.org",
+        11
+      ]
+    ],
+    "root_url": "https://www.cvisd.org/"
+  },
+  {
+    "district_id": "188901",
+    "district": "AMARILLO ISD",
+    "target_campus_ids": [
+      "188901106",
+      "188901107",
+      "188901108",
+      "188901111",
+      "188901115",
+      "188901125"
+    ],
+    "target_count": 6,
+    "directory_web_domains": [
+      [
+        "sanbornamaisd.sharpschool.com",
+        2
+      ],
+      [
+        "ahsamaisd.sharpschool.com",
+        1
+      ],
+      [
+        "www.amaisd.org",
+        1
+      ],
+      [
+        "thsamaisd.sharpschool.com",
+        1
+      ],
+      [
+        "austinamaisd.sharpschool.com",
+        1
+      ],
+      [
+        "pdhsamaisd.sharpschool.com",
+        1
+      ],
+      [
+        "chsamaisd.sharpschool.com",
+        1
+      ],
+      [
+        "crockettamaisd.sharpschool.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.amaisd.org/"
+  },
+  {
+    "district_id": "227907",
+    "district": "MANOR ISD",
+    "target_campus_ids": [
+      "227907102",
+      "227907104",
+      "227907105",
+      "227907107",
+      "227907106",
+      "227907109"
+    ],
+    "target_count": 6,
+    "directory_web_domains": [
+      [
+        "mhs.manorisd.net",
+        1
+      ],
+      [
+        "mea.manorisd.net",
+        1
+      ],
+      [
+        "dms.manorisd.net",
+        1
+      ],
+      [
+        "mms.manorisd.net",
+        1
+      ],
+      [
+        "mnths.manorisd.net",
+        1
+      ],
+      [
+        "manorisd.net",
+        1
+      ],
+      [
+        "mntms.manorisd.net",
+        1
+      ],
+      [
+        "des.manorisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.manorisd.net/"
+  },
+  {
+    "district_id": "031903",
+    "district": "HARLINGEN CISD",
+    "target_campus_ids": [
+      "031903110",
+      "031903107",
+      "031903109",
+      "031903116",
+      "031903123"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "www.hcisd.org",
+        29
+      ]
+    ],
+    "root_url": "https://www.hcisd.org/"
+  },
+  {
+    "district_id": "037904",
+    "district": "JACKSONVILLE ISD",
+    "target_campus_ids": [
+      "037904102",
+      "037904104",
+      "037904105",
+      "037904103",
+      "037904043"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "www.jacksonvilleisd.org",
+        8
+      ]
+    ],
+    "root_url": "https://www.jacksonvilleisd.org/"
+  },
+  {
+    "district_id": "057912",
+    "district": "IRVING ISD",
+    "target_campus_ids": [
+      "057912106",
+      "057912107",
+      "057912111",
+      "057912122",
+      "057912123"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "www.irvingisd.net",
+        36
+      ]
+    ],
+    "root_url": "https://www.irvingisd.net/"
+  },
+  {
+    "district_id": "084910",
+    "district": "CLEAR CREEK ISD",
+    "target_campus_ids": [
+      "084910103",
+      "084910107",
+      "084910106",
+      "084910118",
+      "084910112"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "www.ccisd.net",
+        44
+      ]
+    ],
+    "root_url": "https://www.ccisd.net/"
+  },
+  {
+    "district_id": "092903",
+    "district": "LONGVIEW ISD",
+    "target_campus_ids": [
+      "092903126",
+      "092903125",
+      "092903124",
+      "092903122",
+      "092903127"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "220908",
+    "district": "MANSFIELD ISD",
+    "target_campus_ids": [
+      "220908201",
+      "220908204",
+      "220908205",
+      "220908207",
+      "220908208"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "timberview.mansfieldisd.org",
+        2
+      ],
+      [
+        "summit.mansfieldisd.org",
+        1
+      ],
+      [
+        "legacy.mansfieldisd.org",
+        1
+      ],
+      [
+        "lakeridge.mansfieldisd.org",
+        1
+      ],
+      [
+        "frontier.mansfieldisd.org",
+        1
+      ],
+      [
+        "mansfield.mansfieldisd.org",
+        1
+      ],
+      [
+        "aec.mansfieldisd.org",
+        1
+      ],
+      [
+        "worley.mansfieldisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.mansfieldisd.org/"
+  },
+  {
+    "district_id": "246904",
+    "district": "GEORGETOWN ISD",
+    "target_campus_ids": [
+      "246904102",
+      "246904101",
+      "246904104",
+      "246904107",
+      "246904110"
+    ],
+    "target_count": 5,
+    "directory_web_domains": [
+      [
+        "ghs.georgetownisd.org",
+        1
+      ],
+      [
+        "gap.georgetownisd.org",
+        1
+      ],
+      [
+        "tippit.georgetownisd.org",
+        1
+      ],
+      [
+        "evhs.georgetownisd.org",
+        1
+      ],
+      [
+        "richarte.georgetownisd.org",
+        1
+      ],
+      [
+        "benold.georgetownisd.org",
+        1
+      ],
+      [
+        "forbes.georgetownisd.org",
+        1
+      ],
+      [
+        "wagner.georgetownisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.georgetownisd.org/"
+  },
+  {
+    "district_id": "011902",
+    "district": "ELGIN ISD",
+    "target_campus_ids": [
+      "011902101",
+      "011902102",
+      "011902103",
+      "011902042"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.elginisd.net",
+        8
+      ]
+    ],
+    "root_url": "https://www.elginisd.net/"
+  },
+  {
+    "district_id": "015917",
+    "district": "SOUTHSIDE ISD",
+    "target_campus_ids": [
+      "015917102",
+      "015917104",
+      "015917105",
+      "015917106"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.southsideisd.org",
+        8
+      ]
+    ],
+    "root_url": "https://www.southsideisd.org/"
+  },
+  {
+    "district_id": "057905",
+    "district": "DALLAS ISD",
+    "target_campus_ids": [
+      "057905191",
+      "057905359",
+      "057905363",
+      "057905340"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.dallasisd.org",
+        232
+      ],
+      [
+        "dallasisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.dallasisd.org/"
+  },
+  {
+    "district_id": "101903",
+    "district": "ALIEF ISD",
+    "target_campus_ids": [
+      "101903110",
+      "101903142",
+      "101903143",
+      "101903144"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.aliefisd.net",
+        43
+      ],
+      [
+        "www.alief.isd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.aliefisd.net/"
+  },
+  {
+    "district_id": "102902",
+    "district": "MARSHALL ISD",
+    "target_campus_ids": [
+      "102902103",
+      "102902116",
+      "102902107",
+      "102902108"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.marshallisd.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.marshallisd.com/"
+  },
+  {
+    "district_id": "105902",
+    "district": "SAN MARCOS CISD",
+    "target_campus_ids": [
+      "105902101",
+      "105902107",
+      "105902103",
+      "105902108"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "smcisd.net",
+        8
+      ],
+      [
+        "www.smcisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://smcisd.net/"
+  },
+  {
+    "district_id": "126903",
+    "district": "CLEBURNE ISD",
+    "target_campus_ids": [
+      "126903041",
+      "126903104",
+      "126903109",
+      "126903111"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "c-isd.com",
+        7
+      ],
+      [
+        "www.cleburne.k12.tx.us",
+        2
+      ],
+      [
+        "www.c-isd.com",
+        1
+      ],
+      [
+        "cleburne.k12.tx.us",
+        1
+      ]
+    ],
+    "root_url": "https://c-isd.com/"
+  },
+  {
+    "district_id": "170907",
+    "district": "SPLENDORA ISD",
+    "target_campus_ids": [
+      "170907101",
+      "170907102",
+      "170907104",
+      "170907105"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.splendoraisd.org",
+        6
+      ],
+      [
+        "juvdet.conroeisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.splendoraisd.org/"
+  },
+  {
+    "district_id": "199902",
+    "district": "ROYSE CITY ISD",
+    "target_campus_ids": [
+      "199902102",
+      "199902104",
+      "199902105",
+      "199902108"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.rcisd.org",
+        10
+      ]
+    ],
+    "root_url": "https://www.rcisd.org/"
+  },
+  {
+    "district_id": "212905",
+    "district": "TYLER ISD",
+    "target_campus_ids": [
+      "212905102",
+      "212905103",
+      "212905104",
+      "212905107"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "246906",
+    "district": "HUTTO ISD",
+    "target_campus_ids": [
+      "246906103",
+      "246906104",
+      "246906106",
+      "246906108"
+    ],
+    "target_count": 4,
+    "directory_web_domains": [
+      [
+        "www.hipponation.org",
+        12
+      ]
+    ],
+    "root_url": "https://www.hipponation.org/"
+  },
+  {
+    "district_id": "014903",
+    "district": "BELTON ISD",
+    "target_campus_ids": [
+      "014903104",
+      "014903118",
+      "014903120"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.bisd.net",
+        15
+      ],
+      [
+        "www.bellcountytx.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.bisd.net/"
+  },
+  {
+    "district_id": "015916",
+    "district": "JUDSON ISD",
+    "target_campus_ids": [
+      "015916104",
+      "015916102",
+      "015916124"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "061914",
+    "district": "LITTLE ELM ISD",
+    "target_campus_ids": [
+      "061914103",
+      "061914105",
+      "061914108"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.littleelmisd.net",
+        9
+      ]
+    ],
+    "root_url": "https://www.littleelmisd.net/"
+  },
+  {
+    "district_id": "070903",
+    "district": "ENNIS ISD",
+    "target_campus_ids": [
+      "070903101",
+      "070903102",
+      "070903103"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.ennis.k12.tx.us",
+        10
+      ]
+    ],
+    "root_url": "https://www.ennis.k12.tx.us/"
+  },
+  {
+    "district_id": "091906",
+    "district": "SHERMAN ISD",
+    "target_campus_ids": [
+      "091906104",
+      "091906109",
+      "091906112"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.shermanisd.net",
+        11
+      ]
+    ],
+    "root_url": "https://www.shermanisd.net/"
+  },
+  {
+    "district_id": "094901",
+    "district": "SEGUIN ISD",
+    "target_campus_ids": [
+      "094901104",
+      "094901108",
+      "094901109"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.seguin.k12.tx.us",
+        14
+      ]
+    ],
+    "root_url": "https://www.seguin.k12.tx.us/"
+  },
+  {
+    "district_id": "101906",
+    "district": "CROSBY ISD",
+    "target_campus_ids": [
+      "101906101",
+      "101906103",
+      "101906104"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "101921",
+    "district": "TOMBALL ISD",
+    "target_campus_ids": [
+      "101921111",
+      "101921116",
+      "101921105"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.tomballisd.net",
+        22
+      ],
+      [
+        "eea.tomballisd.net",
+        1
+      ],
+      [
+        "tomballisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.tomballisd.net/"
+  },
+  {
+    "district_id": "116905",
+    "district": "GREENVILLE ISD",
+    "target_campus_ids": [
+      "116905102",
+      "116905104",
+      "116905107"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.greenvilleisd.com",
+        10
+      ]
+    ],
+    "root_url": "https://www.greenvilleisd.com/"
+  },
+  {
+    "district_id": "184903",
+    "district": "WEATHERFORD ISD",
+    "target_campus_ids": [
+      "184903103",
+      "184903109",
+      "184903110"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.weatherfordisd.com",
+        11
+      ]
+    ],
+    "root_url": "https://www.weatherfordisd.com/"
+  },
+  {
+    "district_id": "212909",
+    "district": "CHAPEL HILL ISD",
+    "target_campus_ids": [
+      "212909101",
+      "212909103",
+      "212909102"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.chapelhillisd.org",
+        5
+      ]
+    ],
+    "root_url": "https://www.chapelhillisd.org/"
+  },
+  {
+    "district_id": "220917",
+    "district": "CASTLEBERRY ISD",
+    "target_campus_ids": [
+      "220917101",
+      "220917102",
+      "220917104"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "truce.castleberryisd.net",
+        2
+      ],
+      [
+        "reach.castleberryisd.net",
+        1
+      ],
+      [
+        "chs.castleberryisd.net",
+        1
+      ],
+      [
+        "imms.castleberryisd.net",
+        1
+      ],
+      [
+        "avc.castleberryisd.net",
+        1
+      ],
+      [
+        "jje.castleberryisd.net",
+        1
+      ],
+      [
+        "ce23.castleberryisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.castleberryisd.net/"
+  },
+  {
+    "district_id": "220918",
+    "district": "EAGLE MT-SAGINAW ISD",
+    "target_campus_ids": [
+      "220918101",
+      "220918107",
+      "220918114"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.emsisd.com",
+        25
+      ],
+      [
+        "www.ems-isd.net",
+        3
+      ],
+      [
+        "tarrantcountyjjaep.com",
+        1
+      ],
+      [
+        "www.ems-isd.com",
+        1
+      ],
+      [
+        "ems.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.emsisd.com/"
+  },
+  {
+    "district_id": "220920",
+    "district": "WHITE SETTLEMENT ISD",
+    "target_campus_ids": [
+      "220920101",
+      "220920102",
+      "220920105"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "225902",
+    "district": "MOUNT PLEASANT ISD",
+    "target_campus_ids": [
+      "225902102",
+      "225902104",
+      "225902042"
+    ],
+    "target_count": 3,
+    "directory_web_domains": [
+      [
+        "www.mpisd.net",
+        8
+      ]
+    ],
+    "root_url": "https://www.mpisd.net/"
+  },
+  {
+    "district_id": "002901",
+    "district": "ANDREWS ISD",
+    "target_campus_ids": [
+      "002901101",
+      "002901104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.andrews.esc18.net",
+        6
+      ]
+    ],
+    "root_url": "https://www.andrews.esc18.net/"
+  },
+  {
+    "district_id": "008902",
+    "district": "SEALY ISD",
+    "target_campus_ids": [
+      "008902102",
+      "008902104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "sjh.sealyisd.com",
+        1
+      ],
+      [
+        "shs.sealyisd.com",
+        1
+      ],
+      [
+        "mbs.sealyisd.com",
+        1
+      ],
+      [
+        "ses.sealyisd.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.sealyisd.com/"
+  },
+  {
+    "district_id": "015901",
+    "district": "ALAMO HEIGHTS ISD",
+    "target_campus_ids": [
+      "015901101",
+      "015901104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.ahisd.net",
+        5
+      ]
+    ],
+    "root_url": "https://www.ahisd.net/"
+  },
+  {
+    "district_id": "015911",
+    "district": "EAST CENTRAL ISD",
+    "target_campus_ids": [
+      "015911110",
+      "015911111"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "019907",
+    "district": "TEXARKANA ISD",
+    "target_campus_ids": [
+      "019907105",
+      "019907109"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.txkisd.net",
+        11
+      ]
+    ],
+    "root_url": "https://www.txkisd.net/"
+  },
+  {
+    "district_id": "020908",
+    "district": "PEARLAND ISD",
+    "target_campus_ids": [
+      "020908105",
+      "020908108"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.pearlandisd.org",
+        23
+      ]
+    ],
+    "root_url": "https://www.pearlandisd.org/"
+  },
+  {
+    "district_id": "021902",
+    "district": "BRYAN ISD",
+    "target_campus_ids": [
+      "021902105",
+      "021902045"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.bryanisd.org",
+        2
+      ],
+      [
+        "bryanhs.bryanisd.org",
+        1
+      ],
+      [
+        "rudderhs.bryanisd.org",
+        1
+      ],
+      [
+        "bcollegiate.bryanisd.org",
+        1
+      ],
+      [
+        "long.bryanisd.org",
+        1
+      ],
+      [
+        "mcharris.bryanisd.org",
+        1
+      ],
+      [
+        "rayburn.bryanisd.org",
+        1
+      ],
+      [
+        "davila.bryanisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.bryanisd.org/"
+  },
+  {
+    "district_id": "027904",
+    "district": "MARBLE FALLS ISD",
+    "target_campus_ids": [
+      "027904102",
+      "027904103"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.mfisd.txed.org",
+        7
+      ]
+    ],
+    "root_url": "https://www.mfisd.txed.org/"
+  },
+  {
+    "district_id": "028902",
+    "district": "LOCKHART ISD",
+    "target_campus_ids": [
+      "028902103",
+      "028902106"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "031912",
+    "district": "SAN BENITO CISD",
+    "target_campus_ids": [
+      "031912114",
+      "031912117"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "rms.sbcisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.sbcisd.net/"
+  },
+  {
+    "district_id": "043905",
+    "district": "FRISCO ISD",
+    "target_campus_ids": [
+      "043905106",
+      "043905127"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.friscoisd.org",
+        67
+      ],
+      [
+        "schools.friscoisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.friscoisd.org/"
+  },
+  {
+    "district_id": "043914",
+    "district": "WYLIE ISD",
+    "target_campus_ids": [
+      "043914042",
+      "043914046"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.wylieisd.net",
+        10
+      ]
+    ],
+    "root_url": "https://www.wylieisd.net/"
+  },
+  {
+    "district_id": "043918",
+    "district": "COMMUNITY ISD",
+    "target_campus_ids": [
+      "043918101",
+      "043918105"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "chs.communityisd.org",
+        1
+      ],
+      [
+        "ctms.communityisd.org",
+        1
+      ],
+      [
+        "edge.communityisd.org",
+        1
+      ],
+      [
+        "www.communityisd.org",
+        1
+      ],
+      [
+        "mcclendon.communityisd.org",
+        1
+      ],
+      [
+        "nesmith.communityisd.org",
+        1
+      ],
+      [
+        "dodson.communityisd.org",
+        1
+      ],
+      [
+        "roderick.communityisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.communityisd.org/"
+  },
+  {
+    "district_id": "049901",
+    "district": "GAINESVILLE ISD",
+    "target_campus_ids": [
+      "049901104",
+      "049901107"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.gainesvilleisd.org",
+        5
+      ]
+    ],
+    "root_url": "https://www.gainesvilleisd.org/"
+  },
+  {
+    "district_id": "049903",
+    "district": "VALLEY VIEW ISD",
+    "target_campus_ids": [
+      "049903101",
+      "049903041"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.vvisd.net",
+        3
+      ]
+    ],
+    "root_url": "https://www.vvisd.net/"
+  },
+  {
+    "district_id": "057841",
+    "district": "CITYSCAPE SCHOOLS",
+    "target_campus_ids": [
+      "057841001",
+      "057841002"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.cityscapeschools.org",
+        1
+      ],
+      [
+        "cityscapeschools.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.cityscapeschools.org/"
+  },
+  {
+    "district_id": "061911",
+    "district": "NORTHWEST ISD",
+    "target_campus_ids": [
+      "061911107",
+      "061911111"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "nhs.nisdtx.org",
+        1
+      ],
+      [
+        "bnhs.nisdtx.org",
+        1
+      ],
+      [
+        "sahs.nisdtx.org",
+        1
+      ],
+      [
+        "ehs.nisdtx.org",
+        1
+      ],
+      [
+        "pike.nisdtx.org",
+        1
+      ],
+      [
+        "medlin.nisdtx.org",
+        1
+      ],
+      [
+        "chisholm.nisdtx.org",
+        1
+      ],
+      [
+        "adams.nisdtx.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.nisdtx.org/"
+  },
+  {
+    "district_id": "070911",
+    "district": "RED OAK ISD",
+    "target_campus_ids": [
+      "070911102",
+      "070911107"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.redoakisd.org",
+        7
+      ]
+    ],
+    "root_url": "https://www.redoakisd.org/"
+  },
+  {
+    "district_id": "070912",
+    "district": "WAXAHACHIE ISD",
+    "target_campus_ids": [
+      "070912106",
+      "070912108"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.wisd.org",
+        16
+      ]
+    ],
+    "root_url": "https://www.wisd.org/"
+  },
+  {
+    "district_id": "071904",
+    "district": "SAN ELIZARIO ISD",
+    "target_campus_ids": [
+      "071904101",
+      "071904104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.seisd.net",
+        5
+      ],
+      [
+        "seisdsehs.ss4.sharpschool.com",
+        1
+      ],
+      [
+        "seisdlgloya.ss4.sharpschool.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.seisd.net/"
+  },
+  {
+    "district_id": "071909",
+    "district": "SOCORRO ISD",
+    "target_campus_ids": [
+      "071909109",
+      "071909126"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.sisd.net",
+        40
+      ]
+    ],
+    "root_url": "https://www.sisd.net/"
+  },
+  {
+    "district_id": "072903",
+    "district": "STEPHENVILLE ISD",
+    "target_campus_ids": [
+      "072903103",
+      "072903104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "091903",
+    "district": "DENISON ISD",
+    "target_campus_ids": [
+      "091903112",
+      "091903045"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "denisonisd.net",
+        8
+      ],
+      [
+        "www.denisonisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://denisonisd.net/"
+  },
+  {
+    "district_id": "092902",
+    "district": "KILGORE ISD",
+    "target_campus_ids": [
+      "092902101",
+      "092902107"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.kisd.org",
+        4
+      ]
+    ],
+    "root_url": "https://www.kisd.org/"
+  },
+  {
+    "district_id": "094902",
+    "district": "SCHERTZ-CIBOLO-U CITY ISD",
+    "target_campus_ids": [
+      "094902103",
+      "094902108"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.scucisd.org",
+        17
+      ]
+    ],
+    "root_url": "https://www.scucisd.org/"
+  },
+  {
+    "district_id": "101802",
+    "district": "SER-NINOS CHARTER SCHOOL",
+    "target_campus_ids": [
+      "101802101",
+      "101802102"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "101804",
+    "district": "GEORGE I SANCHEZ CHARTER",
+    "target_campus_ids": [
+      "101804001",
+      "101804004"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "101828",
+    "district": "HOUSTON GATEWAY ACADEMY INC",
+    "target_campus_ids": [
+      "101828001",
+      "101828002"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "101908",
+    "district": "DEER PARK ISD",
+    "target_campus_ids": [
+      "101908102",
+      "101908104"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.dpisd.org",
+        11
+      ]
+    ],
+    "root_url": "https://www.dpisd.org/"
+  },
+  {
+    "district_id": "101913",
+    "district": "HUMBLE ISD",
+    "target_campus_ids": [
+      "101913101",
+      "101913103"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.humbleisd.net",
+        43
+      ],
+      [
+        "humbleisd.net",
+        4
+      ]
+    ],
+    "root_url": "https://www.humbleisd.net/"
+  },
+  {
+    "district_id": "105906",
+    "district": "HAYS CISD",
+    "target_campus_ids": [
+      "105906112",
+      "105906113"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.hayscisd.net",
+        22
+      ],
+      [
+        "hayscisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.hayscisd.net/"
+  },
+  {
+    "district_id": "112901",
+    "district": "SULPHUR SPRINGS ISD",
+    "target_campus_ids": [
+      "112901105",
+      "112901108"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "schools.ssisd.net",
+        2
+      ],
+      [
+        "chools.ssisd.net",
+        1
+      ],
+      [
+        "www.ssisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.ssisd.net/"
+  },
+  {
+    "district_id": "126905",
+    "district": "JOSHUA ISD",
+    "target_campus_ids": [
+      "126905103",
+      "126905106"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.joshuaisd.org",
+        10
+      ]
+    ],
+    "root_url": "https://www.joshuaisd.org/"
+  },
+  {
+    "district_id": "129902",
+    "district": "FORNEY ISD",
+    "target_campus_ids": [
+      "129902102",
+      "129902110"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "forneyisd.net",
+        17
+      ]
+    ],
+    "root_url": "https://forneyisd.net/"
+  },
+  {
+    "district_id": "152901",
+    "district": "LUBBOCK ISD",
+    "target_campus_ids": [
+      "152901156",
+      "152901169"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "161906",
+    "district": "LA VEGA ISD",
+    "target_campus_ids": [
+      "161906103",
+      "161906105"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "174904",
+    "district": "NACOGDOCHES ISD",
+    "target_campus_ids": [
+      "174904110",
+      "174904112"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.nacisd.org",
+        9
+      ]
+    ],
+    "root_url": "https://www.nacisd.org/"
+  },
+  {
+    "district_id": "175903",
+    "district": "CORSICANA ISD",
+    "target_campus_ids": [
+      "175903042",
+      "175903105"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.cisd.org",
+        7
+      ],
+      [
+        "cisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.cisd.org/"
+  },
+  {
+    "district_id": "208902",
+    "district": "SNYDER ISD",
+    "target_campus_ids": [
+      "208902110",
+      "208902109"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.snyderisd.net",
+        3
+      ]
+    ],
+    "root_url": "https://www.snyderisd.net/"
+  },
+  {
+    "district_id": "220912",
+    "district": "CROWLEY ISD",
+    "target_campus_ids": [
+      "220912107",
+      "220912116"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.crowley.k12.tx.us",
+        20
+      ],
+      [
+        "www.crowleyisdtx.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.crowley.k12.tx.us/"
+  },
+  {
+    "district_id": "227904",
+    "district": "PFLUGERVILLE ISD",
+    "target_campus_ids": [
+      "227904101",
+      "227904118"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.pflugervilleisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.pflugervilleisd.net/"
+  },
+  {
+    "district_id": "247901",
+    "district": "FLORESVILLE ISD",
+    "target_campus_ids": [
+      "247901104",
+      "247901106"
+    ],
+    "target_count": 2,
+    "directory_web_domains": [
+      [
+        "www.fisd.us",
+        6
+      ]
+    ],
+    "root_url": "https://www.fisd.us/"
+  },
+  {
+    "district_id": "003903",
+    "district": "LUFKIN ISD",
+    "target_campus_ids": [
+      "003903129"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.lufkinisd.org",
+        15
+      ],
+      [
+        "www.angelinacounty.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.lufkinisd.org/"
+  },
+  {
+    "district_id": "007905",
+    "district": "PLEASANTON ISD",
+    "target_campus_ids": [
+      "007905103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.pisd.us",
+        4
+      ]
+    ],
+    "root_url": "https://www.pisd.us/"
+  },
+  {
+    "district_id": "007906",
+    "district": "POTEET ISD",
+    "target_campus_ids": [
+      "007906102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.poteetisd.org",
+        4
+      ]
+    ],
+    "root_url": "https://www.poteetisd.org/"
+  },
+  {
+    "district_id": "015802",
+    "district": "GEORGE GERVIN ACADEMY",
+    "target_campus_ids": [
+      "015802001"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.gervin-school.org",
+        2
+      ]
+    ],
+    "root_url": "https://www.gervin-school.org/"
+  },
+  {
+    "district_id": "015908",
+    "district": "SOUTH SAN ANTONIO ISD",
+    "target_campus_ids": [
+      "015908112"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.southsanisd.net",
+        13
+      ]
+    ],
+    "root_url": "https://www.southsanisd.net/"
+  },
+  {
+    "district_id": "020902",
+    "district": "ANGLETON ISD",
+    "target_campus_ids": [
+      "020902104"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "angletonisd.net",
+        9
+      ],
+      [
+        "www.angletonisd.net",
+        2
+      ]
+    ],
+    "root_url": "https://angletonisd.net/"
+  },
+  {
+    "district_id": "021901",
+    "district": "COLLEGE STATION ISD",
+    "target_campus_ids": [
+      "021901201"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "amchs.csisd.org",
+        1
+      ],
+      [
+        "cshs.csisd.org",
+        1
+      ],
+      [
+        "amcms.csisd.org",
+        1
+      ],
+      [
+        "sk.csisd.org",
+        1
+      ],
+      [
+        "ch.csisd.org",
+        1
+      ],
+      [
+        "swv.csisd.org",
+        1
+      ],
+      [
+        "rp.csisd.org",
+        1
+      ],
+      [
+        "csms.csisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.csisd.org/"
+  },
+  {
+    "district_id": "043901",
+    "district": "ALLEN ISD",
+    "target_campus_ids": [
+      "043901114"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.allenisd.org",
+        23
+      ]
+    ],
+    "root_url": "https://www.allenisd.org/"
+  },
+  {
+    "district_id": "043902",
+    "district": "ANNA ISD",
+    "target_campus_ids": [
+      "043902107"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.annaisd.net",
+        4
+      ],
+      [
+        "www.annaisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.annaisd.net/"
+  },
+  {
+    "district_id": "043903",
+    "district": "CELINA ISD",
+    "target_campus_ids": [
+      "043903101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.celinaisd.com",
+        5
+      ]
+    ],
+    "root_url": "https://www.celinaisd.com/"
+  },
+  {
+    "district_id": "043912",
+    "district": "PROSPER ISD",
+    "target_campus_ids": [
+      "043912102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.prosper-isd.net",
+        32
+      ]
+    ],
+    "root_url": "https://www.prosper-isd.net/"
+  },
+  {
+    "district_id": "050910",
+    "district": "COPPERAS COVE ISD",
+    "target_campus_ids": [
+      "050910104"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.ccisd.com",
+        11
+      ]
+    ],
+    "root_url": "https://www.ccisd.com/"
+  },
+  {
+    "district_id": "057846",
+    "district": "LEGACY PREPARATORY",
+    "target_campus_ids": [
+      "057846001"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.legacypreparatory.com",
+        1
+      ],
+      [
+        "www.legacypca.com",
+        1
+      ]
+    ],
+    "root_url": "https://www.legacypreparatory.com/"
+  },
+  {
+    "district_id": "057904",
+    "district": "CEDAR HILL ISD",
+    "target_campus_ids": [
+      "057904105"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.chisd.net",
+        11
+      ]
+    ],
+    "root_url": "https://www.chisd.net/"
+  },
+  {
+    "district_id": "057906",
+    "district": "DESOTO ISD",
+    "target_campus_ids": [
+      "057906108"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.desotoisd.org",
+        9
+      ],
+      [
+        "rubyyounges.desotoisd.org",
+        1
+      ],
+      [
+        "amberterrace.desotoisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.desotoisd.org/"
+  },
+  {
+    "district_id": "057913",
+    "district": "LANCASTER ISD",
+    "target_campus_ids": [
+      "057913102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "061903",
+    "district": "PILOT POINT ISD",
+    "target_campus_ids": [
+      "061903102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.pilotpointisd.com",
+        4
+      ]
+    ],
+    "root_url": "https://www.pilotpointisd.com/"
+  },
+  {
+    "district_id": "070801",
+    "district": "FAITH FAMILY ACADEMY",
+    "target_campus_ids": [
+      "070801002"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.faithfamilyacademy.org",
+        2
+      ]
+    ],
+    "root_url": "https://www.faithfamilyacademy.org/"
+  },
+  {
+    "district_id": "070905",
+    "district": "FERRIS ISD",
+    "target_campus_ids": [
+      "070905105"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "070908",
+    "district": "MIDLOTHIAN ISD",
+    "target_campus_ids": [
+      "070908107"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.midlothianisd.org",
+        11
+      ],
+      [
+        "www.misd.gs",
+        2
+      ]
+    ],
+    "root_url": "https://www.midlothianisd.org/"
+  },
+  {
+    "district_id": "071801",
+    "district": "BURNHAM WOOD CHARTER SCHOOL DISTRICT",
+    "target_campus_ids": [
+      "071801004"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.burnhamwood.org",
+        2
+      ]
+    ],
+    "root_url": "https://www.burnhamwood.org/"
+  },
+  {
+    "district_id": "071807",
+    "district": "LA FE PREPARATORY SCHOOL",
+    "target_campus_ids": [
+      "071807101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "071903",
+    "district": "FABENS ISD",
+    "target_campus_ids": [
+      "071903103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.fabensisd.net",
+        3
+      ]
+    ],
+    "root_url": "https://www.fabensisd.net/"
+  },
+  {
+    "district_id": "071906",
+    "district": "ANTHONY ISD",
+    "target_campus_ids": [
+      "071906101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.anthonyisd.net",
+        5
+      ]
+    ],
+    "root_url": "https://www.anthonyisd.net/"
+  },
+  {
+    "district_id": "071908",
+    "district": "TORNILLO ISD",
+    "target_campus_ids": [
+      "071908044"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.tisd.us",
+        4
+      ]
+    ],
+    "root_url": "https://www.tisd.us/"
+  },
+  {
+    "district_id": "079910",
+    "district": "STAFFORD MSD",
+    "target_campus_ids": [
+      "079910102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.staffordmsd.org",
+        4
+      ],
+      [
+        "staffordmsd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.staffordmsd.org/"
+  },
+  {
+    "district_id": "080901",
+    "district": "MOUNT VERNON ISD",
+    "target_campus_ids": [
+      "080901103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.mtvernonisd.net",
+        3
+      ]
+    ],
+    "root_url": "https://www.mtvernonisd.net/"
+  },
+  {
+    "district_id": "086901",
+    "district": "FREDERICKSBURG ISD",
+    "target_campus_ids": [
+      "086901102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.fisd.org",
+        6
+      ]
+    ],
+    "root_url": "https://www.fisd.org/"
+  },
+  {
+    "district_id": "101856",
+    "district": "DRAW ACADEMY",
+    "target_campus_ids": [
+      "101856101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "105904",
+    "district": "DRIPPING SPRINGS ISD",
+    "target_campus_ids": [
+      "105904101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.dsisdtx.us",
+        6
+      ],
+      [
+        "www.dsisd.txed.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.dsisdtx.us/"
+  },
+  {
+    "district_id": "111901",
+    "district": "GRANBURY ISD",
+    "target_campus_ids": [
+      "111901108"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.granburyisd.org",
+        10
+      ]
+    ],
+    "root_url": "https://www.granburyisd.org/"
+  },
+  {
+    "district_id": "115901",
+    "district": "FT HANCOCK ISD",
+    "target_campus_ids": [
+      "115901101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.forthancockisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.forthancockisd.net/"
+  },
+  {
+    "district_id": "126901",
+    "district": "ALVARADO ISD",
+    "target_campus_ids": [
+      "126901104"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "alvaradoisd.net",
+        5
+      ],
+      [
+        "www.alvaradoisd.net",
+        2
+      ]
+    ],
+    "root_url": "https://alvaradoisd.net/"
+  },
+  {
+    "district_id": "126902",
+    "district": "BURLESON ISD",
+    "target_campus_ids": [
+      "126902105"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.burlesonisd.net",
+        2
+      ],
+      [
+        "bhs.burlesonisd.net",
+        1
+      ],
+      [
+        "crossroads.burlesonisd.net",
+        1
+      ],
+      [
+        "chs.burlesonisd.net",
+        1
+      ],
+      [
+        "bchs.burlesonisd.net",
+        1
+      ],
+      [
+        "kerr.burlesonisd.net",
+        1
+      ],
+      [
+        "academy.burlesonisd.net",
+        1
+      ],
+      [
+        "hughes.burlesonisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.burlesonisd.net/"
+  },
+  {
+    "district_id": "126908",
+    "district": "VENUS ISD",
+    "target_campus_ids": [
+      "126908101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "jjaep.org",
+        1
+      ],
+      [
+        "vhs.venusisd.net",
+        1
+      ],
+      [
+        "ves.venusisd.net",
+        1
+      ],
+      [
+        "vps.venusisd.net",
+        1
+      ],
+      [
+        "vms.venusisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://jjaep.org/"
+  },
+  {
+    "district_id": "129901",
+    "district": "CRANDALL ISD",
+    "target_campus_ids": [
+      "129901101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.crandall-isd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.crandall-isd.net/"
+  },
+  {
+    "district_id": "130901",
+    "district": "BOERNE ISD",
+    "target_campus_ids": [
+      "130901107"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.boerne-isd.net",
+        9
+      ],
+      [
+        "boerneisd.net",
+        2
+      ],
+      [
+        "www.boerneisd.net",
+        2
+      ]
+    ],
+    "root_url": "https://www.boerne-isd.net/"
+  },
+  {
+    "district_id": "139909",
+    "district": "PARIS ISD",
+    "target_campus_ids": [
+      "139909108"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "phs.parisisd.net",
+        1
+      ],
+      [
+        "pas.parisisd.net",
+        1
+      ],
+      [
+        "pjh.parisisd.net",
+        1
+      ],
+      [
+        "gec.parisisd.net",
+        1
+      ],
+      [
+        "jes.parisisd.net",
+        1
+      ],
+      [
+        "lch.parisisd.net",
+        1
+      ],
+      [
+        "aes.parisisd.net",
+        1
+      ],
+      [
+        "cis.parisisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.parisisd.net/"
+  },
+  {
+    "district_id": "152906",
+    "district": "LUBBOCK-COOPER ISD",
+    "target_campus_ids": [
+      "152906105"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.lcisd.net",
+        10
+      ]
+    ],
+    "root_url": "https://www.lcisd.net/"
+  },
+  {
+    "district_id": "152907",
+    "district": "FRENSHIP ISD",
+    "target_campus_ids": [
+      "152907106"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.frenship.net",
+        1
+      ],
+      [
+        "www.frenship.us",
+        1
+      ],
+      [
+        "rw.frenship.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.frenship.net/"
+  },
+  {
+    "district_id": "170903",
+    "district": "MONTGOMERY ISD",
+    "target_campus_ids": [
+      "170903103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "montgomeryhs.misd.org",
+        1
+      ],
+      [
+        "lakecreekhs.misd.org",
+        1
+      ],
+      [
+        "oakhillsjh.misd.org",
+        1
+      ],
+      [
+        "montgomeryjh.misd.org",
+        1
+      ],
+      [
+        "montgomeryes.misd.org",
+        1
+      ],
+      [
+        "lonestares.misd.org",
+        1
+      ],
+      [
+        "lincolnes.misd.org",
+        1
+      ],
+      [
+        "stewartcreekes.misd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.misd.org/"
+  },
+  {
+    "district_id": "170904",
+    "district": "WILLIS ISD",
+    "target_campus_ids": [
+      "170904103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.willisisd.org",
+        12
+      ]
+    ],
+    "root_url": "https://www.willisisd.org/"
+  },
+  {
+    "district_id": "170906",
+    "district": "MAGNOLIA ISD",
+    "target_campus_ids": [
+      "170906062"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "mhs.magnoliaisd.org",
+        1
+      ],
+      [
+        "mwhs.magnoliaisd.org",
+        1
+      ],
+      [
+        "daep.magnoliaisd.org",
+        1
+      ],
+      [
+        "stephensacademy.magnoliaisd.org",
+        1
+      ],
+      [
+        "mjhs.magnoliaisd.org",
+        1
+      ],
+      [
+        "bbjh.magnoliaisd.org",
+        1
+      ],
+      [
+        "mes.magnoliaisd.org",
+        1
+      ],
+      [
+        "les.magnoliaisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.magnoliaisd.org/"
+  },
+  {
+    "district_id": "179901",
+    "district": "PERRYTON ISD",
+    "target_campus_ids": [
+      "179901102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.perrytonisd.com",
+        6
+      ]
+    ],
+    "root_url": "https://www.perrytonisd.com/"
+  },
+  {
+    "district_id": "220910",
+    "district": "LAKE WORTH ISD",
+    "target_campus_ids": [
+      "220910104"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.lwisd.org",
+        5
+      ],
+      [
+        "wwwlwisd.org",
+        1
+      ]
+    ],
+    "root_url": "https://www.lwisd.org/"
+  },
+  {
+    "district_id": "220915",
+    "district": "AZLE ISD",
+    "target_campus_ids": [
+      "220915102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.azleisd.net",
+        12
+      ]
+    ],
+    "root_url": "https://www.azleisd.net/"
+  },
+  {
+    "district_id": "221901",
+    "district": "ABILENE ISD",
+    "target_campus_ids": [
+      "221901152"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.abileneisd.org",
+        24
+      ]
+    ],
+    "root_url": "https://www.abileneisd.org/"
+  },
+  {
+    "district_id": "225907",
+    "district": "HARTS BLUFF ISD",
+    "target_campus_ids": [
+      "225907101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.hbisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.hbisd.net/"
+  },
+  {
+    "district_id": "227913",
+    "district": "LAKE TRAVIS ISD",
+    "target_campus_ids": [
+      "227913101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "232903",
+    "district": "UVALDE CISD",
+    "target_campus_ids": [
+      "232903111"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "uhs.uvaldecisd.net",
+        1
+      ],
+      [
+        "www.ucisd.net",
+        1
+      ],
+      [
+        "mjh.uvaldecisd.net",
+        1
+      ],
+      [
+        "flores.uvaldecisd.net",
+        1
+      ],
+      [
+        "batesville.uvaldecisd.net",
+        1
+      ],
+      [
+        "dalton.uvaldecisd.net",
+        1
+      ]
+    ],
+    "root_url": "https://www.uvaldecisd.net/"
+  },
+  {
+    "district_id": "235902",
+    "district": "VICTORIA ISD",
+    "target_campus_ids": [
+      "235902106"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.visd.com",
+        2
+      ],
+      [
+        "www.visd.net",
+        2
+      ]
+    ],
+    "root_url": "https://www.visd.com/"
+  },
+  {
+    "district_id": "237902",
+    "district": "HEMPSTEAD ISD",
+    "target_campus_ids": [
+      "237902101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [],
+    "root_url": null
+  },
+  {
+    "district_id": "246907",
+    "district": "JARRELL ISD",
+    "target_campus_ids": [
+      "246907103"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.jarrellisd.org",
+        4
+      ],
+      [
+        "jarrellisd.org",
+        3
+      ]
+    ],
+    "root_url": "https://www.jarrellisd.org/"
+  },
+  {
+    "district_id": "246908",
+    "district": "LIBERTY HILL ISD",
+    "target_campus_ids": [
+      "246908101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.libertyhill.txed.net",
+        2
+      ]
+    ],
+    "root_url": "https://www.libertyhill.txed.net/"
+  },
+  {
+    "district_id": "246911",
+    "district": "TAYLOR ISD",
+    "target_campus_ids": [
+      "246911102"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.taylorisd.org",
+        5
+      ]
+    ],
+    "root_url": "https://www.taylorisd.org/"
+  },
+  {
+    "district_id": "247903",
+    "district": "LA VERNIA ISD",
+    "target_campus_ids": [
+      "247903104"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.lvisd.org",
+        4
+      ]
+    ],
+    "root_url": "https://www.lvisd.org/"
+  },
+  {
+    "district_id": "249905",
+    "district": "DECATUR ISD",
+    "target_campus_ids": [
+      "249905101"
+    ],
+    "target_count": 1,
+    "directory_web_domains": [
+      [
+        "www.decaturisd.us",
+        5
+      ]
+    ],
+    "root_url": "https://www.decaturisd.us/"
+  }
+]

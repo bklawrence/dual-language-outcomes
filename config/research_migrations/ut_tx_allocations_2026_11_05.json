@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-05",
+  "baseline_build": "build-d18d850ce4e3559eb5c5efc49de9fa7a",
+  "sources": "data/registry/ut_tx_allocation_2026_11_05/sources.json",
+  "texas_targets": "data/registry/ut_tx_allocation_2026_11_05/texas_598_targets.csv",
+  "texas_decisions": "data/registry/ut_tx_allocation_2026_11_05/texas_model_decisions.json",
+  "texas_reviews": "data/registry/ut_tx_allocation_2026_11_05/texas_review_cases.json",
+  "texas_research_log": "data/registry/ut_tx_allocation_2026_11_05/texas_research_log.json",
+  "utah_rule": {
+    "model": "50/50",
+    "grade_scope": "elementary DLI programme; entry grade not inferred",
+    "basis": "user_authorized_statewide_elementary_model",
+    "user_instruction": "I think we can safely label all Utah elementary schools as 50-50 programs.",
+    "corroborating_source": "ut_davis_policy",
+    "roster_source": "ut_roster27",
+    "roster_school_year": "2026-27",
+    "source_quote": "All state-sponsored schools with Dual Language Immersion programs are required to implement the fifty-fifty model",
+    "limitations": "Statewide model assignment, not an observed campus timetable, exact entering-cohort allocation or confirmation of 2025-26 operation. Secondary-only and unresolved-grade campuses do not inherit elementary models."
+  },
+  "elementary_report_prefix": "data/reports/elementary_allocation_coverage_2026_11_05",
+  "national_report_prefix": "data/reports/structural_inventory_2026_11_05",
+  "texas_targets_sha256": "197e9273df12fa88fe0ac46198e8f49757f212878b2c70a4e04efd58c65abe9c"
+}

@@ -1,0 +1,22 @@
+{
+  "starting_texas_campuses": 598,
+  "districts": 162,
+  "campuses_with_model_added": 69,
+  "remaining_without_model": 529,
+  "unfilled_campuses_pending_user_review": 119,
+  "review_cases": 14,
+  "campuses_with_model_and_separate_review": 1,
+  "district_research_receipts": 162,
+  "unfilled_status_counts": {
+    "retrieval_or_programme_discovery_incomplete": 80,
+    "no_quantified_model_in_checked_sources": 323,
+    "pending_user_review": 119,
+    "model_found_campus_scope_unresolved": 7
+  },
+  "utah_elementary_policy_assignments": 127,
+  "utah_roster_language_cells": 348,
+  "utah_roster_school_rows": 280,
+  "utah_roster_source_year": "2026-27",
+  "utah_roster_reconciliation_basis": "Fresh PDF is byte-identical to the already extracted official roster; all cells map to retained programme groups.",
+  "interpretation": "Model availability across source periods; no campus-year operating confirmation, track-specific timetable, language pair or tested-cohort exposure inferred."
+}
