@@ -1,0 +1,666 @@
+[
+  {
+    "decision_id": "TX52_ELGIN_PRIMARY",
+    "district_id": "011902",
+    "district": "ELGIN ISD",
+    "campus_ids": [
+      "011902101",
+      "011902102",
+      "011902103"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "K-5",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_011902_2"
+    ],
+    "source_locator": "Programme description: 50% del día instruccional",
+    "source_quote": "an el inglés. Los estudiantes aprenden el contenido requerido por el estado en español e inglés por 50% del día instruccional en Kinder a 5º grado. Escuela Programa Grado BTW ES Program de Inmersión Unidireccional Prekinder a 5to grado Elgin ES Programa de Inmersión Unidireccional Prekinder a 5to grado Neidig ES Program de Inmersión Bidireccional 1º a 5to grado Harvest Ridge ES Program de Inmersión Unidireccional Prekinder a 5to grado Trinity Ranch ES Program de Inmersión Unidirec",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_GEORGETOWN",
+    "district_id": "246904",
+    "district": "GEORGETOWN ISD",
+    "campus_ids": [
+      "246904101",
+      "246904102",
+      "246904104",
+      "246904107",
+      "246904110"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 in PreK; 50/50 by grade 3",
+    "grade_scope": "PreK entry model and grade 3 endpoint; intervening grades unquantified",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_246904_1",
+      "tx_policy_246904_2"
+    ],
+    "source_locator": "Overview / CURRENT BILINGUAL/ESL PROGRAMS IN GISD; corroborated by Dual Language Program model page",
+    "source_quote": "Our current program model follows a 90/10 structure in PreK, to subsequently land on a 50/50 model in 3rd grade.",
+    "rationale": "The official DLI page identifies the 90/10 entry programme for incoming kindergarten applicants. The district overview separately states 50/50 by grade 3. Model evidence is district policy, not verified campus/cohort delivery.",
+    "grade_support_status": "PUBLISHED_MODEL_ONLY"
+  },
+  {
+    "decision_id": "TX52_CASTLEBERRY",
+    "district_id": "220917",
+    "district": "CASTLEBERRY ISD",
+    "campus_ids": [
+      "220917101",
+      "220917102",
+      "220917104"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 entry model; English increases in later grades",
+    "grade_scope": "PK-5 elementary one-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_220917_1"
+    ],
+    "source_locator": "Programme description: 90/10 instructional model",
+    "source_quote": "Way Dual Language Program for students in Prekindergarten through 5th grade. The program follows an 90/10 instructional model, providing instruction in both Spanish and English to support strong language development and academic success. The program follows a 90/10 instructional model, meaning: Students receive 90% of instruction in Spanish and 10% in English in the early grades. English instruction gradually increases each year. By the upper elementary grades, students are learni",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_KILGORE",
+    "district_id": "092902",
+    "district": "KILGORE ISD",
+    "campus_ids": [
+      "092902101",
+      "092902107"
+    ],
+    "status": "accepted",
+    "model_label": "50/50 by grade 2",
+    "grade_scope": "2-5",
+    "school_year": null,
+    "percentage_basis": "English/Spanish instructional time is equal by grade 2; no equal-time claim is made for K or pre-K.",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_092902_1"
+    ],
+    "source_locator": "Programme description: 50/50 biliteracy model",
+    "source_quote": "through fifth grade. This includes both one-way and two-way dual language classrooms , based on the 50/50 biliteracy model —meaning that by 2nd grade students learn in both English and Spanish equally throughout the school day. This approach helps students build strong skills in both languages, reach high academic achievement, and develop cultural awareness and appreciation. Both native English and native Spanish speakers benefit from this model, learning side by side and growi",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_SAN_ELIZARIO",
+    "district_id": "071904",
+    "district": "SAN ELIZARIO ISD",
+    "campus_ids": [
+      "071904101",
+      "071904104"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary DLI programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_071904_2"
+    ],
+    "source_locator": "Programme description: 50% English/50% Spanish instruction",
+    "source_quote": "above in both Spanish and English. Here are some features: Students are immersed in both languages. 50% English/50% Spanish instruction will take place, as they study the same subjects as all other students at the school. The teacher does not translate for the students. Children have a natural language-learning capacity, and using a second language to learn interesting things at school is a natural way to pick up that language. Students need the full support of their families to succeed. Th",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_HARTS_BLUFF",
+    "district_id": "225907",
+    "district": "HARTS BLUFF ISD",
+    "campus_ids": [
+      "225907101"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary two-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_225907_1"
+    ],
+    "source_locator": "Programme description: 50% of instructional time in each language",
+    "source_quote": " The Two-Way Dual Language Program provides instruction in both English and Spanish for an equal of 50% of instructional time in each language. The Goal To develop bilingualism, biliteracy, and bicultural for both populations being served in the program with special attention given to EBs participating in the program. The core content curriculum remains the same whether presented in English or Spanish. Only the language of instruction changes in the delivery of the content. Bilingual and ESL Handb",
+    "rationale": "The district operates the named elementary campus and explicitly describes equal English/Spanish instructional time for its two-way programme. No tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_MIDLOTHIAN",
+    "district_id": "070908",
+    "district": "MIDLOTHIAN ISD",
+    "campus_ids": [
+      "070908107"
+    ],
+    "status": "accepted",
+    "model_label": "70/30 (language ordering not stated)",
+    "grade_scope": "elementary one-way programme",
+    "school_year": null,
+    "percentage_basis": "Unordered published 70/30 programme label. The captured HTML does not identify which language receives 70%; no named-language percentages are created.",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_070908_1"
+    ],
+    "source_locator": "Programme description: Dual Language One-Way (70/30)",
+    "source_quote": "emic skills in the primary language. The bilingual/biliteracy program model we implement in MISD is Dual Language One-Way (70/30). Bilingual Education Program (English) (PDF) Bilingual Education Program (Spanish) (PDF) Bilingual Education Program (Vietnamese) (PDF) English as a Second Language English as a Second Language (ESL) is designed to provide English instruction to second language learners. Students in pre-kindergarten through high school who speak or hear a language other tha",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_LUBBOCK_COOPER",
+    "district_id": "152906",
+    "district": "LUBBOCK-COOPER ISD",
+    "campus_ids": [
+      "152906105"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 entry model; 50/50 in grade 5",
+    "grade_scope": "elementary two-way programme",
+    "school_year": null,
+    "percentage_basis": "Spanish/English entry allocation 90/10, with English increasing to 50/50 in grade 5 as explicitly described.",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_152906_1"
+    ],
+    "source_locator": "Programme description: 90% of instruction is delivered in Spanish",
+    "source_quote": " of the students are 1st language English speakers. The program is based on a 90/10 model, in which 90% of instruction is delivered in Spanish and 10% is delivered in English. Each year English instruction increases, while Spanish instruction decreases resulting in a 5th grade class that consists of an even distribution of 50% English language instruction and 50% Spanish language instruction. Dual language programs are designed to develop English/home language fluency ,content knowledge, and acade",
+    "rationale": "The official district describes this as its elementary DLI instructional model. Linked at district-policy scope to the existing candidate campuses; no programme identity, language pair, operating year or tested-cohort exposure is inferred."
+  },
+  {
+    "decision_id": "TX52_LIBERTY_HILL",
+    "district_id": "246908",
+    "district": "LIBERTY HILL ISD",
+    "campus_ids": [
+      "246908101"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 entry model; 50/50 in grade 5",
+    "grade_scope": "PK-5",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_246908_1"
+    ],
+    "source_locator": "Programme description: 90/10 Program Model",
+    "source_quote": "ill Elementary School. Classroom instruction is taught in both Spanish and English according to the 90/10 Program Model. This means the program begins with 90% Spanish/10% English instruction and ends in 5th grade with 50% Spanish/50% English instruction. Students must meet the eligibility requirements to participate. ANNOUNCEMENT: DLI One-Way will be implemented and phased in starting with the 2025-2026 school year. DLI Two-Way will be phased out starting with the remaining",
+    "rationale": "The district names Liberty Hill Elementary and explicitly describes 90% Spanish/10% English initially and 50/50 in grade 5. The same page announces one-way phase-in and two-way phase-out from 2025-26. Preserve the earlier TAPR categories and do not assume a cohort-specific timetable."
+  },
+  {
+    "decision_id": "TX52_ANTHONY",
+    "district_id": "071906",
+    "district": "ANTHONY ISD",
+    "campus_ids": [
+      "071906101"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary one-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_detail_071906_acc56245"
+    ],
+    "source_locator": "Programme description: This model provides instruction in 50% English and 50% Spanish",
+    "source_quote": "nglish in a • Parents can become involved at home by encouraging their child, providing him/her a • This model provides instruction in 50% English and 50% Spanish, in an Bilingual Education program? place to study and showing interest in his/her instructional setting where language • Yes, the mastery of English listening, speaking, school work. learning is integrated with content reading and writing skills are required in the Bilingual Education program. • Parents can volunteer and help in classroom instruction. acti",
+    "rationale": "Anthony Elementary brochure explicitly answers what instructional model Anthony ISD uses. Archived path includes 2018/2023; publication date is unverified and capture date is not an operating year."
+  },
+  {
+    "decision_id": "TX52_DEER_PARK",
+    "district_id": "101908",
+    "district": "DEER PARK ISD",
+    "campus_ids": [
+      "101908102",
+      "101908104"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "K-5 two-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_detail_101908_baf36a18"
+    ],
+    "source_locator": "Programme description: Our program is based on a 50/50 model",
+    "source_quote": "glish and Spanish while mastering grade level knowledge and skills in all elementary content areas. Our program is based on a 50/50 model, in which 50% of the instruction is delivered in English and the other 50% is delivered in Spanish. The program is designed to teach children a second language in a natural way through subject content instruction and everyday classroom conversation. Program Implementation: The Dual Language program was first implemented in the 2008-2009 school year at Carpe",
+    "rationale": "The source names both target campuses, Deepwater and San Jacinto, among participating schools. 50% instruction in each language applies to its two-way elementary programme, not to secondary continuation courses."
+  },
+  {
+    "decision_id": "TX52_CLEAR_CREEK_MCWHIRTER",
+    "district_id": "084910",
+    "district": "CLEAR CREEK ISD",
+    "campus_ids": [
+      "084910107"
+    ],
+    "status": "accepted",
+    "model_label": "80/20 in K-2; 70/30 grade 3; 60/40 grade 4; 50/50 grade 5",
+    "grade_scope": "K-5 two-way programme",
+    "school_year": "2024-25",
+    "percentage_basis": "Brochure table explicitly labels Spanish/English instructional percentages by grade; instructional proportions are distinct from its separate half/half student composition.",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "2024-25",
+    "source_keys": [
+      "tx_detail_084910_4ad7fa27"
+    ],
+    "source_locator": "Programme description: Dual Language Program follows a 80/20 model",
+    "source_quote": "rticipate in a Dual Language Information Meeting. Sign the Dual Language Program Compact grade. The Dual Language Program follows a 80/20 model. Commitment. Pledge to offer academic support to their We will contact you to schedule an oral language child at home. assessment for your child. Agree to provide volunteer support to the 80% Spanish K-2nd Dual Language Program. 20% English Instruction Only those students whose oral language test results indicate them as Fluent English Speakers and who have",
+    "rationale": "Campus-specific McWhirter brochure references the 24-25 lottery. Keep this as 2024-25 evidence; do not apply it to the other Clear Creek campuses or backdate it to 2023-24."
+  },
+  {
+    "decision_id": "TX52_CLEAR_CREEK_LANDOLT",
+    "district_id": "084910",
+    "district": "CLEAR CREEK ISD",
+    "campus_ids": [
+      "084910112"
+    ],
+    "status": "accepted",
+    "model_label": "80/20",
+    "grade_scope": "K-5 two-way programme; entry model",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_detail_084910_5922ab88"
+    ],
+    "source_locator": "Programme description: Dual Language Program follows an 80/20",
+    "source_quote": "ng: speakers and 1/2 native English speakers. language assessment, participating in an orienta- The Dual Language Program follows an 80/20 tion, and interviewing with the Landolt staff. Commit to their child participating in the model, as illustrated below: Students whose parents sign the Dual Language Dual Language Program through the end of Compact Commitment and whose oral language fifth grade Grade Literacy Math, Science, skills are adequate to participate in the Dual Lan- Grado (Reading,",
+    "rationale": "Campus-specific Landolt brochure states its instructional model separately from its half/half student composition. Later-grade content language assignments do not give a complete numerical progression."
+  },
+  {
+    "decision_id": "TX52_CLEAR_CREEK_STEWART",
+    "district_id": "084910",
+    "district": "CLEAR CREEK ISD",
+    "campus_ids": [
+      "084910106"
+    ],
+    "status": "accepted",
+    "model_label": "80/20",
+    "grade_scope": "K-5 two-way programme; entry model",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_detail_084910_e1b5ab0a"
+    ],
+    "source_locator": "Programme description: Dual Language Program follows an 80/20",
+    "source_quote": "ng: speakers and 1/2 native English speakers. language assessment, participating in an orienta- The Dual Language Program follows an 80/20 tion, and interviewing with the Stewart staff. Commit to their child participating in the model, as illustrated below: Students whose parents sign the Dual Language Dual Language Program through the end of Compact Commitment and whose oral language fifth grade Grade Literacy Math, Science, skills are adequate to participate in the Dual Lan- Grado (Reading,",
+    "rationale": "Campus-specific Stewart brochure states its instructional model separately from its half/half student composition. Later-grade content language assignments do not give a complete numerical progression."
+  },
+  {
+    "decision_id": "TX52_MT_PLEASANT_ELEMENTARY",
+    "district_id": "225902",
+    "district": "MOUNT PLEASANT ISD",
+    "campus_ids": [
+      "225902102",
+      "225902104"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary two-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_detail_225902_3a6cdfe8"
+    ],
+    "source_locator": "Programme description: 50/50 split of English and Spanish",
+    "source_quote": "come  Enhance communication skills immersed in each language to achieve a bilingual and biliterate 50/50 split of English and Spanish.  Develop an appreciation for diversity Students  Gain in personal future benefits such as increased career and  Spanish-dominant and English- travel opportunities dominant speakers or speakers of other languages Student Enrollment  Students of all socio-economic levels  Requires parental permission  Students who begin in Pre-K or kindergarten and con",
+    "rationale": "Brochure names Annie Sims and Vivian Fowler and explicitly describes daily language immersion, separately from its student composition. The URL archive path is 2017/04, not a verified operating year. P E Wallace is not named and is withheld."
+  },
+  {
+    "decision_id": "TX52_TAYLOR_2026_PLAN",
+    "district_id": "246911",
+    "district": "TAYLOR ISD",
+    "campus_ids": [
+      "246911102"
+    ],
+    "status": "accepted",
+    "model_label": "50/50 in K-5; PreK 90/10",
+    "grade_scope": "K-5 one-way programme",
+    "school_year": "2026-27",
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "2026-27",
+    "source_keys": [
+      "tx_detail_246911_ec96efc2"
+    ],
+    "source_locator": "Programme description: 50% Spanish 50%",
+    "source_quote": " in their second language. Grade/ PreK Kinder Grades 1st-2nd Grades 3rd-5th content 90% Spanish 10% 50% Spanish 50% 50% Spanish 50% English 50% Spanish 50% English English English 260 Instructional Minutes 260 Instructional Minutes 370 Instructional 260 Instructional Minutes Minutes Spanish Language 120 minutes 70 minutes 85 min 70 minutes Arts (Reading and Writing) + Social Emotional Learning English Language 30 minutes ELA 40 1st grade: ELA 35 + 30 ELD ELA 60 min and L",
+    "rationale": "Explicitly dated 2026-27 one-way framework. Link as later district policy evidence only, not confirmation of 2023-24 or 2025-26 delivery. PreK remains separately labelled 90/10."
+  },
+  {
+    "decision_id": "TX52_SHERMAN",
+    "district_id": "091906",
+    "district": "SHERMAN ISD",
+    "campus_ids": [
+      "091906104",
+      "091906109",
+      "091906112"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 in PreK; 50/50 by grade 3",
+    "grade_scope": "PreK entry model and grade 3 endpoint; intervening grades unquantified",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_policy_091906_2"
+    ],
+    "source_locator": "Programme description: half of their instruction in English and half in Spanish by third grade",
+    "source_quote": "ey get older, the amount of instruction they receive in English increases, until they are receiving half of their instruction in English and half in Spanish by third grade. Students continuing to need English language support transition to our ESL program in middle school. Bilingual students develop reading, writing, listening, and speaking skills in English through the English Language Proficiency Standards (ELPS) in conjunction with grade-level academic instruction in the Texas Essential Knowledge and Skills (TEKS) for all ",
+    "rationale": "The district explicitly gives PreK 90/10 and a third-grade 50/50 endpoint. Do not infer the intervening kindergarten or grade 1-2 percentages.",
+    "grade_support_status": "PUBLISHED_MODEL_ONLY"
+  },
+  {
+    "decision_id": "TX52_MONTGOMERY_2026",
+    "district_id": "170903",
+    "district": "MONTGOMERY ISD",
+    "campus_ids": [
+      "170903103"
+    ],
+    "status": "accepted",
+    "model_label": "50/50 in K-1",
+    "grade_scope": "K-1 two-way programme",
+    "school_year": "2026-27",
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "2026-27",
+    "source_keys": [
+      "tx_follow_170903_d0ea7961"
+    ],
+    "source_locator": "Programme description: Instructional time is divided 50% English and 50% Spanish for Kindergarten through 1st grade",
+    "source_quote": "are formed with approximately the same number of native English speakers and emergent bilinguals. • Instructional time is divided 50% English and 50% Spanish for Kindergarten through 1st grade. 2nd through 5th grade will transition students to their second language (L2) in reading. • Reading/Writing/Word Study are taught in the students’ primary language (L1) until second 2nd grade. • Math is taught in English with Spanish support. • Science is taught in Spanish with vocabulary in both languages. • Social Studies is taught in Spanish with vocabul",
+    "rationale": "Explicitly dated 2026-27 district guidelines name Montgomery Elementary. Numerical ratio is stated for K-1 only; grades 2-5 reading transition does not establish the full-day percentages. Preserve source year; no backdating."
+  },
+  {
+    "decision_id": "TX52_PEARLAND_2026",
+    "district_id": "020908",
+    "district": "PEARLAND ISD",
+    "campus_ids": [
+      "020908105",
+      "020908108"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "K-6 two-way programme",
+    "school_year": "2026-27",
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "2026-27",
+    "source_keys": [
+      "tx_target_020908_8c8889f7",
+      "tx_detail_020908_d25477e2"
+    ],
+    "source_locator": "Programme description: 50% of instruction in English and 50% in Spanish",
+    "source_quote": "learn two languages simultaneously. English speaking students and Spanish speaking students receive 50% of instruction in English and 50% in Spanish. The primary goals of the program are for students to attain bilingualism, biliteracy, and positive attitudes towards other cultures fostering participation in our global society. Participation Process Parents must attend one of the Dual Language Informational Meetings held at the Virgil Gant Education Support Center at 1928 N. Main St., Pearland, TX 77581 ",
+    "rationale": "The 2026-27 participation document describes a K-6 programme. The official Spanish programme page separately locates grades 5-6 at Jamison and Sablatura; those primary-serving campuses are in scope despite the middle-school names. Retain this later source period, not 2023-24 delivery."
+  },
+  {
+    "decision_id": "TX52_SPRING_BRANCH",
+    "district_id": "101920",
+    "district": "SPRING BRANCH ISD",
+    "campus_ids": [
+      "101920103",
+      "101920105",
+      "101920106",
+      "101920110",
+      "101920111",
+      "101920113",
+      "101920114",
+      "101920116",
+      "101920117",
+      "101920120",
+      "101920122",
+      "101920123",
+      "101920125",
+      "101920126"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary one-way and two-way programmes",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_render_101920_multilingual"
+    ],
+    "source_locator": "Programme description: Both programs follow a 50/50 instructional approach",
+    "source_quote": "elop language proficiency, achieve academic success and build an appreciation for diverse cultures. Both programs follow a 50/50 instructional approach, with instruction delivered in Spanish and English. Two-Way Dual Language One-Way Dual Language English as a Second Language (ESL) ESL Languages Other Than English (LOTE) Mission and vision Languages offered Resources Explore Dual Language in Spring Branch ISD. View in Vimeo. Academics About 2017 Bond 2022 Bond 2025 Bond A-Z index Board of Trustees Contact ",
+    "rationale": "The district explicitly says both its one-way and two-way programmes use 50/50 in Spanish/English. The public Apptegy page required browser rendering; the archive is labelled rendered DOM, not original response HTML. This is district policy evidence, not a verified school-year timetable."
+  },
+  {
+    "decision_id": "TX52_FRISCO",
+    "district_id": "043905",
+    "district": "FRISCO ISD",
+    "campus_ids": [
+      "043905106",
+      "043905127"
+    ],
+    "status": "accepted",
+    "model_label": "80/20 PK-K; 70/30 grade 1; 60/40 grade 2; 50/50 grades 3-5",
+    "grade_scope": "K-5 one-way programme; PreK separately quantified",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_043905_feb3722e"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: Frisco ISD adopted the 80/20 One-Way Dual Language program",
+    "source_quote": "chers and administrators, to use to make decisions about effective instruction. Language Allocation Frisco ISD adopted the 80/20 One-Way Dual Language program, a bilingual/biliteracy program model in which students who are identified as English learners and students who do not qualify as English learners are served in both English and Spanish. “Students are taught literacy and academic content in English and a partner language aim[ing] to help students develop high levels of language proficiency and literacy in b",
+    "rationale": "The official page explicitly states district adoption and gives Spanish/English allocation by grade. Extracted from HTML fragments in its application/json Nuxt page payload; original HTTP response archived. No cohort-specific implementation is inferred.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_GREENVILLE_PRIMARY",
+    "district_id": "116905",
+    "district": "GREENVILLE ISD",
+    "campus_ids": [
+      "116905102",
+      "116905104"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 PK-1; 50/50 grades 2-5",
+    "grade_scope": "PK-5 programmes; percentages refer to primary/second language",
+    "school_year": null,
+    "percentage_basis": "The district specifies primary language 90%/second language 10% in PK-1, and 50/50 in grades 2-5. Do not translate primary-language shares into Spanish shares for all student groups.",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_116905_7e561373"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: Our district language allocation policy is:",
+    "source_quote": "Immersion program, please check district communications for upcoming parent informational meetings. Our district language allocation policy is: Pre-Kindergarten through First Grade: 90% instruction in the primary language and 10% in the second language. Second Grade through Fifth Grade: 50% instruction in the primary language and 50% in the second language. Parents or guardians of identified Emergent Bilingual students who do not choose the One-Way or Two-Way Dual Language Immersion program will re",
+    "rationale": "Embedded Nuxt programme content names Bowie for two-way and Carver for one-way. District policy language ordering is retained literally. Travis Intermediate is outside the named primary sites and is held for review.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_ALAMO_HEIGHTS",
+    "district_id": "015901",
+    "district": "ALAMO HEIGHTS ISD",
+    "campus_ids": [
+      "015901101",
+      "015901104"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 in grade 1; Spanish decreases later",
+    "grade_scope": "grade 1 two-way programme; later percentages not stated",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_015901_c4f5060a"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: 90-10 Dual Language Program Model",
+    "source_quote": " English speaking students and for English Language Learners (ELL). Students will be exposed to the 90-10 Dual Language Program Model where 90% of instruction in first grade in all content areas is in Spanish. This Spanish instruction decreases slightly over the progression of grade levels. English speaking students are learning Spanish, while the ELL students are learning English. Students are integrated in a two-way immersion model in the dual-language classroom. This program is availab",
+    "rationale": "The official embedded page content names Cambridge and Woodridge elementary and explicitly says grade 1 instruction is 90% Spanish. It does not establish a kindergarten ratio or exact later-grade progression.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_TYLER_ONEWAY",
+    "district_id": "212905",
+    "district": "TYLER ISD",
+    "campus_ids": [
+      "212905102",
+      "212905104",
+      "212905107"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "elementary one-way programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_212905_ad59c9ea"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: native language for academic instruction 50 percent of the time",
+    "source_quote": "ingual academic program where students learn in both English and Spanish. It utilizes the students’ native language for academic instruction 50 percent of the time, and English instruction for the other 50 percent. Students in this program are native Spanish speakers and receive the same curriculum as the general education program, through enrichment methods and strategies. To increase students’ proficiency in Spanish To acquire listening, speaking, reading, and writing skills in English To develop high self-esteem To",
+    "rationale": "The FAQ explicitly attributes this 50/50 instructional split to the One Way programme for native Spanish speakers. The separate two-way Birdwell programme is withheld; its allocation is not established by this one-way answer. Source is embedded official page content.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_SCUC_SCHERTZ",
+    "district_id": "094902",
+    "district": "SCHERTZ-CIBOLO-U CITY ISD",
+    "campus_ids": [
+      "094902103"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 entry model; 50/50 in later grades",
+    "grade_scope": "PK-6 one-way programme; exact later transition grade unstated",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_094902_9b502af1"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: How the 90/10 Model Works:",
+    "source_quote": " Our goal is for every student to graduate the program fully bilingual, biliterate, and bicultural. How the 90/10 Model Works: Instruction begins with 90% of the day taught in Spanish and 10% in English. As students progress through the grades, English instruction systematically increases until a balanced 50/50 split is achieved. Strengthening your child's native language while strategically adding English for lifelong biliteracy. Dual Language Campuses Schertz Elementary Wilder In",
+    "rationale": "Current district embedded programme description gives an instructional 90/10-to-50/50 progression and names Schertz Elementary. Wilder Intermediate is named too, but its historical two-way category conflicts with the current one-way heading and is separately held for review.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed",
+    "grade_support_status": "PUBLISHED_MODEL_ONLY"
+  },
+  {
+    "decision_id": "TX52_LUFKIN_SLACK_2026",
+    "district_id": "003903",
+    "district": "LUFKIN ISD",
+    "campus_ids": [
+      "003903129"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "grades 3-5 two-way programme",
+    "school_year": "2026-27",
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "2026-27",
+    "source_keys": [
+      "tx_follow_003903_c5ce1860"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: instruction is delivered in a 50/50 teaching model",
+    "source_quote": "m. All Dual Language students attend Burley Primary for K-2nd and Slack Elementary for 3rd-5th. The instruction is delivered in a 50/50 teaching model where students receive Spanish and English instruction daily in core content areas. Students have the opportunity to continue advanced Spanish courses at Lufkin Middle School and Lufkin High School. Applications for the Dual Language program will open on February 6, 2026 Check Back Soon! Thank you for your interest in the Dual Language program! If you have ",
+    "rationale": "The embedded official choice-programme description for 2026-27 explicitly names Slack for grades 3-5 and Burley for K-2. The shared model is 50/50 instruction in the core subjects; preserve its later source period.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_ROYSE_CITY_NAMED",
+    "district_id": "199902",
+    "district": "ROYSE CITY ISD",
+    "campus_ids": [
+      "199902102",
+      "199902108"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 PreK; 80/20 K; 70/30 grade 1; 60/40 grade 2; 50/50 grades 3-5",
+    "grade_scope": "K-5 one-way programme; PreK separately quantified",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "undated public programme description; captured 2026-11-05",
+    "source_keys": [
+      "tx_follow_199902_9322e18a"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: 90% Spanish 80% Spanish 70% Spanish 60% Spanish",
+    "source_quote": "mary language for the duration of the program. PRE-K KINDER GRADE 1 GRADE 2 GRADE 3 GRADE 4 GRADE 5 90% Spanish 80% Spanish 70% Spanish 60% Spanish 50% Spanish 50% Spanish 50% Spanish 10% English 20% English 30% English 40% English 50% English 50% English 50% English The goal of ESL programs shall be to enable emergent bilingual students to become proficient in listening, speaking, reading, and writing in the English language through the integrated use of content-based language instructional methods. T",
+    "rationale": "The official embedded page table gives an explicit grade-by-language progression. Only Davis and Herndon are named as current elementary bilingual hosts. Anita Scott and W R Fort remain unresolved rather than receiving a present-day policy by default.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_ALVIN_ONEWAY_2026",
+    "district_id": "020901",
+    "district": "ALVIN ISD",
+    "campus_ids": [
+      "020901101",
+      "020901103",
+      "020901105",
+      "020901107",
+      "020901109",
+      "020901111",
+      "020901120"
+    ],
+    "status": "accepted",
+    "model_label": "50/50",
+    "grade_scope": "PK-5 one-way programme",
+    "school_year": "2026-27",
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "campus_documented",
+    "evidence_period_raw": "2026-27",
+    "source_keys": [
+      "tx_target_020901_0de317c0"
+    ],
+    "source_locator": "Embedded Nuxt page payload / Programme description: 50% of instruction delivered in Spanish",
+    "source_quote": "des PKto 5th. This program is for native Spanish speakers. Spanish literacy is a primary focus with 50% of instruction delivered in Spanish, and 50% instruction is delivered in English. Elementary Bilingual Program Availability 2026-2027 Attending Program at Campus: Residing Campus Alvin Elementary Alvin Elementary & Passmore Elementary Nelson Elementary Nelson Elementary Mark Twain Elementary Mark Twain Elementary & Bill Hasse Elementary RL Stevenson Elementary RL Stevenson Elementary Walt Dis",
+    "rationale": "The official embedded 2026-27 brochure gives explicit instructional percentages and a campus/feeder table. Only named receiving target campuses are filled. Passmore appears as a residing/feeder campus and as a two-way host elsewhere, so it does not inherit this one-way model. Mary Marek receives a one-way policy only; no two-way track timetable is inferred.",
+    "extraction_basis": "HTML-valued fragments in the official page application/json payload; original HTTP response preserved; no JavaScript executed"
+  },
+  {
+    "decision_id": "TX52_SOUTH_SAN_CHART",
+    "district_id": "015908",
+    "district": "SOUTH SAN ANTONIO ISD",
+    "campus_ids": [
+      "015908112"
+    ],
+    "status": "accepted",
+    "model_label": "90/10 K; 80/20 grade 1; 70/30 grade 2; 60/40 grade 3; 50/50 grades 4-5",
+    "grade_scope": "K-5 dual-language programme",
+    "school_year": null,
+    "percentage_basis": "Published instructional allocation model; language ordering and grade scope only as stated in the source",
+    "evidence_scope": "district_policy_only",
+    "evidence_period_raw": "Page URL/title 2025-2026; displayed heading 2023-2024; year conflict retained; captured 2026-11-05",
+    "source_keys": [
+      "tx_image_015908_framework",
+      "tx_render_015908_6201661d"
+    ],
+    "source_locator": "South San ISD Bilingual Framework image: Spanish (dark blue) / English (grey); y-axis 0-100",
+    "source_quote": "Researcher transcription of Spanish/English bar boundaries: Kinder 90/10; First 80/20; Second 70/30; Third 60/40; Fourth 50/50; Fifth 50/50.",
+    "rationale": "Numerical profile is a researcher transcription of the official linked bar chart, with blue Spanish and grey English segments on a 0-100 axis. The page URL/title says 2025-2026 but its displayed heading says 2023-2024, so no single operating year is assigned. Archive both the page and its original JPEG image, despite the image URL ending in .png.",
+    "source_quote_kind": "researcher_visual_transcription_not_verbatim"
+  }
+]

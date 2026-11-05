@@ -325,6 +325,8 @@ def report_rows(tables):
 
 def render_reports(root,tables):
     details,summary=report_rows(tables)
-    return {PREFIX+'_by_school.csv':csv_text(details),PREFIX+'_by_state.csv':csv_text(summary),
-            PREFIX+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
-            PREFIX+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}
+    followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
+    prefix=json.loads(followup.read_text()).get('elementary_report_prefix',PREFIX) if followup.exists() else PREFIX
+    return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
+            prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
+            prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

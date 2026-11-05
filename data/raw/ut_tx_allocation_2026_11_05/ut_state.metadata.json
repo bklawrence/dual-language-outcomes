@@ -1,0 +1,14 @@
+{
+  "key": "ut_state",
+  "url": "https://schools.utah.gov/curr/dualimmersion",
+  "retrieved_at": "2026-11-05T14:27:47.515623+00:00",
+  "http_status": 200,
+  "final_url": "https://schools.utah.gov/curr/dualimmersion",
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "2a36f6449b212ecd3f117dcb6fc3702cefb91b5287b8100785c2628c463fd345",
+  "bytes": 55804,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Dual Language Immersion",
+  "snapshot_path": "data/raw/ut_tx_allocation_2026_11_05/ut_state.html"
+}

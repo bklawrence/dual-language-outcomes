@@ -168,6 +168,9 @@ class Build:
         if (self.root/'config/research_migrations/elementary_allocation_audit_2026_11_04.json').exists():
             from .elementary_audit import prepare_grade_context
             prepare_grade_context(self)
+        if (self.root/'config/research_migrations/ut_tx_allocations_2026_11_05.json').exists():
+            from .allocation_enrichment import migrate as enrich_allocations
+            enrich_allocations(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue
@@ -208,9 +211,9 @@ class Build:
         path = self.root / "data/curated/manifest.json"
         path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
         if json.loads((self.root / "config/project.json").read_text()).get("structural_review_report"):
-            from .structural import generate_report, REPORT
+            from .structural import generate_report, report_prefix
             report = generate_report(self.root)
-            report_paths = [*report["reports"], REPORT + ".json"]
+            report_paths = [*report["reports"], report_prefix(self.root) + ".json"]
             manifest["reports"] = {rel: {"sha256": digest(self.root / rel)} for rel in report_paths}
             path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
         return {"build_id": fingerprint, "table_rows": {name: len(self.rows(name)) for name in self.tables}, "limitations": self.notes}

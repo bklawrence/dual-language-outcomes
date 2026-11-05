@@ -1,13 +1,14 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-d18d850ce4e3559eb5c5efc49de9fa7a",
-  "built_at": "2026-11-04T23:25:22.906158+00:00",
-  "base_git_revision": "e593997808e4d2ab25a43ea3b4ef0a668c764782",
+  "build_id": "build-af6d5a3f9f815f8895e557337ef2a086",
+  "built_at": "2026-11-05T16:02:48.791062+00:00",
+  "base_git_revision": "11f1f67f00c77fa5b3d7d8634fd12df94332ecfc",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
     "config/research_migrations/elementary_allocation_audit_2026_11_04.json": "670c6b22ce368b8f0340bae1d2dc6021c0e280d0324746ef48ddfec64f554906",
     "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
+    "config/research_migrations/ut_tx_allocations_2026_11_05.json": "1405f312de921fc74d1dbeced9e7a421c6b275ef20beeacb0afa61f5c9257d12",
     "config/research_migrations/western_plains_2026_11_04.json": "d2cac451a9d64008336dc47bd63f7870d525f03d2c216dfd34ad8ac844a8aa4d",
     "config/states/ak.json": "f91969ada0319a0d9b1e6005fec9344ee4f1375411569a92a37fd732bba1a998",
     "config/states/al.json": "0005015ba767d9731450fe47d2316b8e8e6be7425d1f0b7663b68f66faa5c02f",
@@ -176,6 +177,96 @@
     "data/raw/tx/pass51/tx51_ysleta_study.metadata.json": "82269f3b6bf165b9909e41c948b62ef9f3f47f0d1da48e3b49c5b3e8b4c472e3",
     "data/raw/tx/pass51/tx51_ysleta_study.pdf": "615ed840d55b670dbceee3e7772adb13cfab2f706b057e849c13b571d1e6f5f6",
     "data/raw/tx/pass51/tx51_ysleta_study.txt": "bb85926633ef0b85236f8c7d64477176894c2bb78f6277aa0224080b86fe6249",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_020908_d25477e2.html": "1325c339ce4bbbaa407f5928ace035bbc778cb96cb7cbc45b69dcc7bf5b39c9c",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_020908_d25477e2.metadata.json": "863661b6de042e1a810d0418f25f2add02fe545579d22388f62a336723ba1112",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_057910_6dc3b68a.html": "e968e8a9e8c95ad44b0d869a7804fbffd886395699c429f28f68d548a65a9fdf",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_057910_6dc3b68a.metadata.json": "ac4142bd5b0ebfa7c44208d0988e9f41e73a4168717d77d48a92a89e70bea9ba",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_057912_3a32b506.html": "aa704e3f079348e84a7bcccb77dedd8ef646412d5e695edec1ebc145f4215db5",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_057912_3a32b506.metadata.json": "80bf2a54fd15f0eb65a12671a92ac02cbedb712905c0287fa01d71ba848ec0f6",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_071906_acc56245.metadata.json": "abc08dc641968d46fa5b655b2dd570b779bc1f6fb9bd176cd1c9a1662ff1c164",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_071906_acc56245.pdf": "bf7a234896950e692a7bbc738ea7d094a4cb222e35d9a2ff64fdc639c06e48c5",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_4ad7fa27.metadata.json": "c31c13ed43ab91baec6ae862db6f2c063e79e7e21e9bf5b2d335481793bfe165",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_4ad7fa27.pdf": "4effcd94e176a29a8980af1b9124de91b10b60eb09d1dc551e49293f62b0b1a8",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_5922ab88.metadata.json": "9d609ed2e16c17781823764a85454ec1bb3c40550d54a3fc7abb26657aaa4f8a",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_5922ab88.pdf": "b3e81aef4e46e1a154466c76bebd3bafa438e62e6d03d5a9f56a62054e4e1388",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_e1b5ab0a.metadata.json": "94e7876e194e126ee2c1a96e8de97921e051aef0ea7d00753ea4782154a8d46d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_084910_e1b5ab0a.pdf": "faac295bc01b8ef23734644b4cf6c8610f19d6fdf7d6d14f7dc2bac3b40d73b4",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_101908_baf36a18.html": "509fe659c9ad3274f3338b36c16f1c94b724756edb73cd7c14a41a53dc4dd115",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_101908_baf36a18.metadata.json": "f87a828e95407440c1229af675fcc23b856388b234d97d31e9d06c3a7752b1b1",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_101921_502c323c.html": "29f625933d6fe42565980c20685e6121e961138f6ef34e2401e1b9928a62e6eb",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_101921_502c323c.metadata.json": "5457739577a0664ad8d69736136ab688f4975e7a55539b8bb7d82a11a5910d2c",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_225902_3a6cdfe8.metadata.json": "89f0246d0323c688d8189e71ea4b38e27f7fc4851f18052d0b2f038ba5b8563d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_225902_3a6cdfe8.pdf": "c43b0e07976fcc7793364aa4a1af0bbe949fa3f104e6727537117bd99d119a04",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_246911_ec96efc2.metadata.json": "30ad6481003bff43c3a49a153a7a3ecb8e3b4cd388440a177e94c772360c241e",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_detail_246911_ec96efc2.pdf": "7dfa81a6dbd0e70144f9e0be1079c08e6690ebeabb4462f0d549af81ab36d20f",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_document_101911_allocation.metadata.json": "06279994acbf0e5e3a96ece37f5a94474494753614d9aa6849bbadfe6c50673d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_document_101911_allocation.pdf": "9dcc9ace39e37e6c8285737286e0fb827347a3bc0e0a63ad1419173b1587b7af",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_003903_c5ce1860.html": "e0fcd108abdb1a7db5fb9cf936ad9ecd96cc5ddd9620f0d9401141703c224e85",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_003903_c5ce1860.metadata.json": "94756a7339f7ee707404ea00703c16ad0ded15d5022025dc393105d661ad159b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_015901_c4f5060a.html": "9200a8069b667f267ab9e534286a8c725f98b73b5d91cf18f83df1e3fbd31a62",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_015901_c4f5060a.metadata.json": "1deec7eec93fe064c69a5fa19077e412fe66c9b4d8122676d1e5a222ef6f803d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_015916_f096bb71.html": "aec0ba3f98ef27ceeb8d64e8ca06322f9befa7b378b9ce3a256d7183e1d974c2",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_015916_f096bb71.metadata.json": "4dd176cd26007679e5f5c9e3aca1a09b932a0e021789b592e96fb424b23224a1",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_043905_feb3722e.html": "f123cb15e10aadf84a400500358f45053469bc5d57b15724d7c7ceba55ca4690",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_043905_feb3722e.metadata.json": "673a1cfb321a990b7219fc3c9e4e39c81e3c5747673089924238fa0226c79941",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_094902_9b502af1.html": "d8ebf67888c693ecd2c4adedc4d5f3566c0f03428f27aacea74238188497e8f0",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_094902_9b502af1.metadata.json": "d5be7b3d23c787b4d2bdfe9f6b15ea828393658aad3a06c86a4c786243f0c22c",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_116905_7e561373.html": "43442aa14a2aa33a6e44b9fe18a02ec57a2400c16d0cc183c1d83ba023e100e5",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_116905_7e561373.metadata.json": "9701f9e304ff39877451c20ee27eb14a0c20b9989dc1a06d550b9364dbd9e535",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_170903_d0ea7961.metadata.json": "c093798b28dc804168376d944b646c9ef54049a83f3418d8f65de3255fe8077b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_170903_d0ea7961.pdf": "93fcfd3bafc6c8da105c3cf3b0cfb2e223e56a1f478a57d4ba12ea147538e44b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_199902_9322e18a.html": "bba392e05390bfcbcba125664499fe2749c4db5042d75f20df67242aa14cfeb3",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_199902_9322e18a.metadata.json": "0263d754f248208b9fb8d4250247bb8b4e33ca6ef159fea53e12bce62f8208cc",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_212905_ad59c9ea.html": "f4efd2b6bacfd7568f3813c7b1940b4b37e1052d3728fbdecb59632d4e2c1b3b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_212905_ad59c9ea.metadata.json": "38b3eaabcb28c7f8f57b86c6a293f29470d8d80da0c9981339d24ef22edd1c3e",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_227901_f9dc6ad0.html": "03d588aac4588d3ed74364c43a5dabe2d55d0a763f3366383f8045a8e1ff8d2d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_follow_227901_f9dc6ad0.metadata.json": "d6fc00f3cddae6d165f933cadbf2e3fca7ef3efbf8cee8464fb730425d29f886",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_image_015908_framework.jpg": "dc6865348dccaf47302f66350d3b73a961b2f9049d959962de2750d80804d326",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_image_015908_framework.metadata.json": "2f9edb41f0e9f3ea72cec5cc0f49e2e552535993523886465ca69632d97ae5b1",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_011902_2.html": "d7043e5ab20b3ccb56f03c9d9adba9acc71665e3c0833aa39030458ed4b27bf1",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_011902_2.metadata.json": "2561cb0e378a340ca6ec7d7c0d43b0c275e74e2dd6f89f017ba3356e3dfcaaa4",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_061901_1.html": "6bb2145b67d9678d70cc20915fdcf32af75a10001206048a7529165b40702bca",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_061901_1.metadata.json": "a68909e7e2e905bfbcc3dc87d71bf9c56c5bc0139b3d648de7312a1b61408307",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_070908_1.html": "3a847234f61d726d1e10c6635083324e5563f6e303ed0df35935fe0f17b2abe9",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_070908_1.metadata.json": "beb2a9153ee9a3e0ffc64307512be4c3d97469681a9a4deb274739c00eafab55",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_070911_1.html": "194c0981992f23a021ad7dd7b61da2361c18a19a8a2e8b52dd49475532d90779",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_070911_1.metadata.json": "6dce807f7b309ebed9226759c9d43bb70a606d3cdbc791ab6bdb4a835e00ce9b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_071904_2.html": "dfac5fccecbf0f42edc6669cf757d52c99bfbf0e7fe7cdf1fbb0046edeae5e82",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_071904_2.metadata.json": "773ddc61eeba1d33bdd6df4ff3e83fc188fc58399f13025b503df8f3facd2ffd",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_091906_2.html": "a34935476d2d19dc3ef632c81cc388b57a68d7bcc314c0a398ca27086c3fef8f",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_091906_2.metadata.json": "380ac0a537c6d57d45e7144ae6e917d84fd91b17ba1f76d885d39e54ab8042da",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_092902_1.html": "63536b163af8102cba3763a079be355476ed449456d81feff4bcb8dee09d8602",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_092902_1.metadata.json": "37d7ff02216e40b43b844be46b05461ccbc26b1ddd03743b313dce4f0d5032ff",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_092903_1.html": "bb644a4ade74c06f6c007ab117d7684639263865f8e8a8750cbe9e8dfae3f894",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_092903_1.metadata.json": "0d2692dab7c4905b0c15709c5ce718966632962b88bbf449fd55e78137a35476",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_152906_1.html": "b7528a137e1dd7bda0092d94de633f4dc6f6dbbb9f46934699f0456d193301f7",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_152906_1.metadata.json": "90d36bd0dd742f85f52b5ff98e716e125ed33042346db8fd2d50404f7498d48b",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_220917_1.html": "305fec3d27f5474b9720e20a5a1224b7df02842555b2024dd70d70f1aa202292",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_220917_1.metadata.json": "e2aac50096ce4b53bd8810251edda2f5045721f22ee217c354939a94dc90fd9e",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_225907_1.html": "55ea3c263f6045e4415a8c0a0f2708e375688b97258a347d88eb2e74b47e6bfb",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_225907_1.metadata.json": "77b0aa1e466b9c37b24969dd3f11e235a78b34009de4352ae3fd6494bbf902d4",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246904_1.html": "f137c76b1a186b3bd422e6ad3979819c2540c1ec8b33fdd2e7cc6c07f3c4fb84",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246904_1.metadata.json": "e1bb9b7568c9cdfb3d0148c3983969138ac821cf327d47b50b07459cc18379fe",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246904_2.html": "ba955671721e3ca4775e91dde8f5515b6b6e582046b212e789b66ffc464df013",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246904_2.metadata.json": "89de93aea52578d53bd74759bf462da88fd12d25b3bdb97d9005c30bb612456c",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246908_1.html": "52df60b7b0290e16f287b673e351ca3f091b02c1ad3f3e2455b42402c6a12219",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_policy_246908_1.metadata.json": "15d49526a4afbbe858c5d6ff0491da7948e331f2215fd4cd5f82d01111e9da89",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_render_015908_6201661d.html": "86792d74d2026cd9381845c741b24b840c920803d601e546da2a15f4b8b2dd79",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_render_015908_6201661d.metadata.json": "58104983729d4d43fd58f5f273c9f5def0b2013f852cdc6a67c813cb5334d024",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_render_101920_multilingual.html": "7637afaafef1d3cfa58ddfe6ef270671d53c47b9b1812a557531eeac20b4b188",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_render_101920_multilingual.metadata.json": "6e343c382e68565f3d217acd77ecc29aad19082a40d229ef9b30d2219a2ade34",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_020901_0de317c0.html": "7f711a836328447a75ed9360c6c88e6271857936193f7fa33ac3cc1a6ac9ae1c",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_020901_0de317c0.metadata.json": "e3e3c6c17e1b0ae4daf96a886844b80635edd74c3dabfed91b8cec7a0e67f80d",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_020908_8c8889f7.metadata.json": "b6ef67f408a0259558e91369233809e475d89821cc7f090631bdda7f81468d29",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_020908_8c8889f7.pdf": "0b67a59cb8fc0a574b8b210966e4cf5c4dd890994321afee42834ed0fa0fc386",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_068901_5e2f36a9.metadata.json": "163640472af3231f03cd4dbaa935216a15e310f9e4f45b4d3dd3638f6801afec",
+    "data/raw/ut_tx_allocation_2026_11_05/tx_target_068901_5e2f36a9.pdf": "d1325f3324baa412a4d578072f737c99a96552c23d71639474978788da4480c0",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_davis_policy.html": "a910530d8d62ba4f24c496fc25f3e1d2a559dfc3f00a32f1b7d45a4cf0feff96",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_davis_policy.metadata.json": "373a0c7143f2195973b75074610403c0ffb44dec6f4b993ca9cb167ef89f5cda",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_roster27.metadata.json": "e4ed866c3ca45b2c40537ed86059b1787dd304f7308021e7ad04fd919c3a3aea",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_roster27.pdf": "d0c835edcb0de3b7d2fdf2920d52e0c6f7477a266a787141ce3c05c144b6ae52",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_state.html": "2a36f6449b212ecd3f117dcb6fc3702cefb91b5287b8100785c2628c463fd345",
+    "data/raw/ut_tx_allocation_2026_11_05/ut_state.metadata.json": "45e0393ac95c5ffaefdc622227ba846dba7f4c7db9509adbaeebd436649be233",
     "data/raw/wa/pilot_2026_11_04/academics.json": "2e48297aae2cf6fca4cc62060f92ccb9c790777b0e68cdf34d7e2f7b1ecab262",
     "data/raw/wa/pilot_2026_11_04/academics.metadata.json": "14e5a598c5de4e365c128fd94d6f6c5df803fb751c2a76627ccb652f616c83e5",
     "data/raw/wa/pilot_2026_11_04/demographics.json": "c98bf84dccd941ba616aa739348a740c2677ba620a8ae890e81a594273a8a4ff",
@@ -429,6 +520,24 @@
     "data/registry/texas/texas_language_program_tracks_pass51.csv": "9880ef8be4e2f6cc8b6d8febd677253011c33e1ae0cef5769a24b8459f073fec",
     "data/registry/texas/texas_structure_evidence_pass44.csv": "48e721e548b78a33958aeb46193705bd216561910a60dfc9620e3f73a00eb504",
     "data/registry/texas/tprs_verified_observations_pass45.csv": "7ee3db1533c3b339497f48848e1651abf8f2d7463c386474244e61ef39993e76",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_003903_c5ce1860.embedded.txt": "91c4eabae36278bbd8b7885c78650801c9e43fe6a83ffc954333c65319d0453d",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_015901_c4f5060a.embedded.txt": "71d985230732570600e575b28ef765821b9a9180c471c9c9d18ae0795d434114",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_015916_f096bb71.embedded.txt": "e8fea1a688799ab49cc7d0636b3e207c26600a958d3883e8f6c259e7337fbb68",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_043905_feb3722e.embedded.txt": "fd46ee3477cf536a664655ee4276c1c7dd6a2d706dc9b073ae001b03f6a4f7d4",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_094902_9b502af1.embedded.txt": "5ee5042f10a83448dc3f74e113608fc7135e72eb08c51806232fae8b3e46b0a0",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_116905_7e561373.embedded.txt": "0c29c927d163820d90dd17b6924c72b73fe7a94e0045767ee9b02e408a03d267",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_199902_9322e18a.embedded.txt": "5e961b339cae0d4a1639c29d7db6a1995eeb7aeab5f53570f46cd22295926519",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_212905_ad59c9ea.embedded.txt": "c6323e963d34a8cd0f3257f793dda67adaeff9e846426e563731ab5bb969d574",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_policy_092903_1.embedded.txt": "9dbb3604da195ee824d38ca22cf09357661fc52dd425e8de8d1e4260fb17f6dc",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_policy_152906_1.embedded.txt": "5f0db8dacffe3d69e44d0504b2d6bedee1135a9c9fe814abf05e2caf911e036b",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_render_101920_multilingual.embedded.txt": "78ba0398230080917a600346c7771f7fd05be3194f99fe2ec721ddad0c4fa84f",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_target_020901_0de317c0.embedded.txt": "72982dcdb3227851390021edc646b29c1185fb8648342cc08941a860bf43a668",
+    "data/registry/ut_tx_allocation_2026_11_05/extractions/ut_davis_policy.embedded.txt": "297d63b44c81f7e8f63142bd1aec23463f58c2b99fc246d8cd2eee5efdf4c8c5",
+    "data/registry/ut_tx_allocation_2026_11_05/sources.json": "dc679db2175853e963d10b1c100b3a6b32f251e539ce4e6dee888af1d7c6f0ec",
+    "data/registry/ut_tx_allocation_2026_11_05/texas_598_targets.csv": "197e9273df12fa88fe0ac46198e8f49757f212878b2c70a4e04efd58c65abe9c",
+    "data/registry/ut_tx_allocation_2026_11_05/texas_model_decisions.json": "5b1adc5251654e08633ea60cf8caf3cd6076923aeff267299ae0ee58a3dc39c5",
+    "data/registry/ut_tx_allocation_2026_11_05/texas_research_log.json": "9860d512d4973a4e7daf9b6ea62dff5dcf3d4a7160374b20d19bff593e7735e9",
+    "data/registry/ut_tx_allocation_2026_11_05/texas_review_cases.json": "c9bcfa333f8f3d79578f14eea21ccc607d124c626c14a93032519caf043573ea",
     "data/registry/western_plains_2026_11_04/az_programmes.json": "e4b7b46bc2817913ee6b54cd943eb958fba11ffb24e8b1471438451a0814476c",
     "data/registry/western_plains_2026_11_04/az_screening.json": "048ea46b43331cf7d3d66a46f275ca732cb156d737b8408c47103a68daedc52d",
     "data/registry/western_plains_2026_11_04/co_programmes.json": "408149b67f3e31d4746d016c38c63e04948a061220631929709080b7c71b0305",
@@ -464,9 +573,10 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
-    "src/dl_outcomes/allocation_coverage.py": "edd48de227c4228ecf9bd01ae4a5a9c80af75324b0246a205fe388e844d89479",
+    "src/dl_outcomes/allocation_coverage.py": "3dd91f0e1cd17b84d3ca4ed59e5984be9d8be2bf685a801b02a474c015807007",
+    "src/dl_outcomes/allocation_enrichment.py": "ae3b3419e4590379a2c255e8fc5f77f7268cf9b26f2fb2f57918706d45effff9",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
-    "src/dl_outcomes/build.py": "9c346a7d808feefab202e37d23652ddc9e6485ded46ef170be834f2269a64e45",
+    "src/dl_outcomes/build.py": "1110bcdbb88f955ca877b36200d194d76fa839cca1e871779c7d1663a2be4d77",
     "src/dl_outcomes/cli.py": "5e87b27624fa806eb55627a3fc5f35232a4328b32e3e2d1314aebbae1259dfb1",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
     "src/dl_outcomes/collectors/elementary_grades.py": "5669af7a3b35acdc4c2a648b2a1e2fbf16fadd38df3b8af9b5b004e4157862ea",
@@ -474,9 +584,10 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
-    "src/dl_outcomes/elementary_audit.py": "49b656b1383eb31fd84743ee5129d1bbf278f55303fb15b610273919436ad302",
+    "src/dl_outcomes/elementary_audit.py": "75ae4cdb39188e8539ebb5c062b913ebf4a8787d0710934b20029c7d6885ba70",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
+    "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
     "src/dl_outcomes/release.py": "d6b3a446e81ff1533d4cd0cd29064bdbe98e612094dd6b6926ad714e3b5bc3ab",
     "src/dl_outcomes/schemas/catalog.json": "059ff07aa13f4902f9e36f0d2fc7a125d222479d7e7f7e79c8ee0b5dfd052bc2",
@@ -498,7 +609,7 @@
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
     "src/dl_outcomes/states/western_plains.py": "a34c6e8568137dd80e9f09baf23e824083f07ae92fa33bcd64354121d49743b3",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "b42b0b0e8a9e33e49132c2cf711791d209354dc34f24954ab3c8d067791d4923",
+    "src/dl_outcomes/structural.py": "587dd152db09749bc9aaab2774edf72d422b92c25f1ae6d91d91330bfbc7cdb8",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
     "src/dl_outcomes/western_plains_review.py": "807ab1fca433f7be95d7b274673a8caeefd27486a9cd86e019710dff21610ffd"
   },
@@ -508,12 +619,12 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "4a9cd2e3c938016e9eacd39f0905a20fc80b2693e0dde09bff65130dbd358e9f",
-      "rows": 26
+      "sha256": "c31d0b923cdce889e8be5a4d4a826a9b8ce6994b5d4e7d86486d98c58ab83133",
+      "rows": 28
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "a4b62c00364d948f8394e1a1f86c2b5fdda995fc9683686ff96d4988b30a046e",
-      "rows": 465
+      "sha256": "44e87b5a6e136f7d7f8c75130b23de16b523cb32227bcdc1415a4f2a4060c934",
+      "rows": 511
     },
     "data/curated/registry/districts.csv": {
       "sha256": "f8abe80bc90021c9069a3a084950a220ac2577d5c917e1bccf5ae1e66fbc9f2e",
@@ -552,16 +663,16 @@
       "rows": 4424
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "3f0131f94a533db4c89260a5648ad43844ce90cd973a6367b957a5650b8bc5e2",
-      "rows": 1648
+      "sha256": "677d3e99864176f6e562ba218e433efd759343348d054e850d930bed2002086e",
+      "rows": 1844
     },
     "data/curated/program_history/instructional_allocations.csv": {
       "sha256": "8b543ca6fc9f6db6c383e2938809105e57d7aec3c42a8f5f0e146692b939cc5b",
       "rows": 416
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "272f560901b41fe5c5f4150f0715bc432f5723fa93006fb2d820c234d3bb38f9",
-      "rows": 18716
+      "sha256": "6ecabab020fecf2ec00370e17d5dbd86afe34834b09eaa80f2f2abe5df3fe5d0",
+      "rows": 19033
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -612,7 +723,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "616454e130985ae1ca1c84acc8ce4c11c2946f5f2254d0ee493671ab5705e7fb",
+      "sha256": "35eae4b2acdf44c84cac338f48e044c80d32f2b4e26e19e9c5d385f2598a1666",
       "rows": 6000
     }
   },
@@ -635,20 +746,20 @@
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_04_program_view.csv": {
-      "sha256": "6a8cc5d8fa87fa8acacf67ac430ddd1d1f241255d8b7ccbe15f1d766bcb96723"
+    "data/reports/structural_inventory_2026_11_05_program_view.csv": {
+      "sha256": "cfd8749796313c56d4d96fe6ed43ffce81a8a8bbfc95780b5d18ce48e29654c2"
     },
-    "data/reports/structural_inventory_2026_11_04_by_state.csv": {
+    "data/reports/structural_inventory_2026_11_05_by_state.csv": {
       "sha256": "cb0271caf3b7f3ff56dce694841177c8bf6ab8ef931b24df25835127d6cdae36"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_program.csv": {
-      "sha256": "c16583149ffa7a4185770408e6ef5da8b5dffc8abe73f93373274e0fc0ff3410"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_by_program.csv": {
+      "sha256": "d4ea39ffb7e5bb1d230eeca5e060bbbf3964a4a787e304bcb02b209b0063ce7e"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_school.csv": {
-      "sha256": "714ebc51dfb586e47ecb7d2ade1d6e4a1aa071851fd578ae7efb022b39db635e"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_by_school.csv": {
+      "sha256": "a908eb95b05dd8b7ad73fd04c228eca08df3af2e61ec3709648f88aa45dba610"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_04_by_state.csv": {
-      "sha256": "5e50dba73b1fe8440842203497d79d954ea5ba3ac73e7c32dfd48eb84cc07603"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_by_state.csv": {
+      "sha256": "d331a25215b2e2935c1eaa198afd750d5f81d65b053d8f39967a43e53a2c769b"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -656,23 +767,44 @@
     "data/registry/washington/wa_dl_programs_2025_26.csv": {
       "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
     },
-    "data/reports/texas_kindergarten_allocation_coverage_2026_11_04.csv": {
-      "sha256": "a44b64769680de30a8a8ca3a9bb9dcf2a9abccc0c8e74ff439cbd064b1abcb40"
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05.csv": {
+      "sha256": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6"
     },
-    "data/reports/washington_kindergarten_allocation_coverage_2026_11_04.csv": {
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05.csv": {
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_04_by_school.csv": {
-      "sha256": "6afa46f37e152756c90adc9eb28dcadcf81cf6ca889a391374a5cba261560486"
+    "data/reports/elementary_allocation_coverage_2026_11_05_by_school.csv": {
+      "sha256": "c770632d0b25da921ba581d04be257a2b5e63dc62f1210103cfe74ed1dc3d981"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_04_by_state.csv": {
-      "sha256": "adbe38873ad156abd5fd109ebbef3b0e42a8e3b16f70b08088b941a7302d49bd"
+    "data/reports/elementary_allocation_coverage_2026_11_05_by_state.csv": {
+      "sha256": "803691451f5b4780a74609fd4645a326079d50c4d17da42e59e0d1f4c151fa2f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_04_reference_by_state.csv": {
-      "sha256": "0a5d67b50197650de551f7553f254e823e4d9e2625d01cc432a30b22358a6f03"
+    "data/reports/elementary_allocation_coverage_2026_11_05_reference_by_state.csv": {
+      "sha256": "907f1bf87b75a73097ff1b1538f7cfbc7a61562b9852f7453a20bd17da5582ed"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_04_all_records_by_state.csv": {
-      "sha256": "4f51e1786361819226ac73fcc655e7f1801ecc16b411f6316bcce67699532810"
+    "data/reports/elementary_allocation_coverage_2026_11_05_all_records_by_state.csv": {
+      "sha256": "41fee5ebba2f9029bdb716a0f1207b6967fe194731aff8d061d1e9c72b5b4c61"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
+      "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_utah_roster_reconciliation.csv": {
+      "sha256": "61af3ffd73e5fc1a816b0302ce5515cf1a835cc842f4ace94dce1f980d56f646"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_texas_598_status.csv": {
+      "sha256": "954a8edef5e25d8ee89f1b0744a3dd2cd7e471d281d322579b29b052d93060d9"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_texas_added_models.csv": {
+      "sha256": "d6db0480991dd44f9a88166d009d7db9ced1caed1774520357f36e62d78174e6"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_texas_review.csv": {
+      "sha256": "4e7a64998365a66c61dc3afd37fea2d21a12e7c5f24aa6c6a21cafd4149eb8fe"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_texas_review.md": {
+      "sha256": "a3668973b17809004ac8cd03c5c4ca80993a83c9279b58332f8c22995fba47a0"
+    },
+    "data/reports/ut_tx_allocation_followup_2026_11_05_summary.json": {
+      "sha256": "bedb2f4b69a4b3d19d158c3ef3795b65b44238546ec9cca88417836eeb3a3afe"
     },
     "data/reports/western_plains_2026_11_04_program_view.csv": {
       "sha256": "317664c91b9fdb3d5b852596f1894c374b7e850485d8d1e4d6a0f6a399301b26"
@@ -689,8 +821,8 @@
     "data/reports/western_plains_2026_11_04.json": {
       "sha256": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d"
     },
-    "data/reports/structural_inventory_2026_11_04.json": {
-      "sha256": "2572ca277d38046dff02e37d90681dbcaa4ff1b4842ad214e8a63f3906f19d8d"
+    "data/reports/structural_inventory_2026_11_05.json": {
+      "sha256": "77907931dd82eaeca6fa7b56ba54c35ef69ee097865347f0aeda10cb0bdc92ca"
     }
   }
 }
