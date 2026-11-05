@@ -1,0 +1,33 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "OK",
+    "AR",
+    "LA",
+    "AL",
+    "MS"
+  ],
+  "programme_records": {
+    "OK": 25,
+    "AR": 2,
+    "LA": 73,
+    "AL": 1,
+    "MS": 0
+  },
+  "programme_host_schools": {
+    "OK": 21,
+    "AR": 2,
+    "LA": 62,
+    "AL": 1,
+    "MS": 0
+  },
+  "screening_rows": {
+    "OK": 6,
+    "AR": 2,
+    "LA": 7,
+    "AL": 5,
+    "MS": 10
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

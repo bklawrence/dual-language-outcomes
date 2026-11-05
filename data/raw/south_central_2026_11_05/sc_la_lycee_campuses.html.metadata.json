@@ -1,0 +1,15 @@
+{
+  "url": "https://www.lfi.us/campuses",
+  "retrieved_at": "2026-11-05T22:23:32.378990+00:00",
+  "http_status": 200,
+  "final_url": "https://www.lfi.us/campuses",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "8406e96a211e657a62337ca201cd5190d67e6c26707dedbde5e81bbed4ed72de",
+  "bytes": 45764,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Campuses - Lycee Francais de la Nouvelle-Orleans",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_la_lycee_campuses.html",
+  "full_response_sha256": "8406e96a211e657a62337ca201cd5190d67e6c26707dedbde5e81bbed4ed72de"
+}

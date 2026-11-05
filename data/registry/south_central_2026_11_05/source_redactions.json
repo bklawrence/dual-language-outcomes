@@ -1,0 +1,46 @@
+[
+  {
+    "key": "sc_la_isl",
+    "original_path": "data/raw/south_central_2026_11_05/sc_la_isl.html",
+    "original_metadata": "data/raw/south_central_2026_11_05/sc_la_isl.html.metadata.json",
+    "redacted_path": "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html",
+    "redacted_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html.metadata.json",
+    "original_response_sha256": "1affdcd6e4b690fd49de60b47f00eb4f7c2ff9168942d640466d2d19f47e0077",
+    "saved_redacted_sha256": "119d8c859bc3ae2077e34f26ea897b5792c156ef7db893bde4f762e83a5adb29",
+    "occurrences": 1,
+    "programme_text_unchanged": true
+  },
+  {
+    "key": "sc_la_isl_admissions",
+    "original_path": "data/raw/south_central_2026_11_05/sc_la_isl_admissions.html",
+    "original_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_admissions.html.metadata.json",
+    "redacted_path": "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html",
+    "redacted_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html.metadata.json",
+    "original_response_sha256": "c8302c64e609a76d7ff1b883bf832786aec0ee9d34681157d5822591d4ecd0f3",
+    "saved_redacted_sha256": "17df13b33a528750c2da0bba0f7b759259382e8570e5c512d3010edfe9901d69",
+    "occurrences": 1,
+    "programme_text_unchanged": true
+  },
+  {
+    "key": "sc_la_isl_copy",
+    "original_path": "data/raw/south_central_2026_11_05/sc_la_isl_copy.html",
+    "original_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_copy.html.metadata.json",
+    "redacted_path": "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html",
+    "redacted_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html.metadata.json",
+    "original_response_sha256": "2afdb0baa6d5a86b1639ebdf1c28c3ba41c103e1f218bee157024ea4a2f31190",
+    "saved_redacted_sha256": "f0a1ee709307d4471669df1e008f3e9508e4ac55faa0b1442a638f0fac696247",
+    "occurrences": 1,
+    "programme_text_unchanged": true
+  },
+  {
+    "key": "sc_la_isl_curriculum",
+    "original_path": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum.html",
+    "original_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum.html.metadata.json",
+    "redacted_path": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html",
+    "redacted_metadata": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html.metadata.json",
+    "original_response_sha256": "d3b9a437945abf1f41c57d1585da65797e65f2d20f1d9168cebf03f9c61f4d76",
+    "saved_redacted_sha256": "c60a55407bd3e99a9aff2be933b1c353b154465034a1e7debe460ef631855ad7",
+    "occurrences": 1,
+    "programme_text_unchanged": true
+  }
+]

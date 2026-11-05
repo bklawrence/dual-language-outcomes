@@ -1,0 +1,52 @@
+[
+  {
+    "school": "Academy for Science and Foreign Language",
+    "district": "Huntsville City Schools",
+    "source": "sc_al_asfl_lang",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Academy for Science and Foreign Language",
+    "disposition": "daily_language_instruction_not_verified_content_immersion",
+    "reason": "Provider describes daily French as a subject K–5 and a French/Spanish choice in middle school; academic subjects taught through the language are not established.",
+    "notes": ""
+  },
+  {
+    "school": "Ashford Elementary School",
+    "district": "",
+    "source": "sc_al_ashford",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Ashford Elementary School",
+    "disposition": "directory_lead_without_programme_details",
+    "reason": "Directory lists the school but supplies no language, instructional model or immersion evidence. Retained for primary verification, not confirmed from a directory label.",
+    "notes": ""
+  },
+  {
+    "school": "Harvest Elementary School",
+    "district": "",
+    "source": "sc_al_harvest",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Harvest Elementary School",
+    "disposition": "directory_lead_without_programme_details",
+    "reason": "Directory lists the school but supplies no language, instructional model or immersion evidence. Retained for primary verification, not confirmed from a directory label.",
+    "notes": ""
+  },
+  {
+    "school": "Hoover High School",
+    "district": "",
+    "source": "sc_al_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Hoover High School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead only; language course offerings do not establish academic immersion.",
+    "notes": ""
+  },
+  {
+    "school": "Parrish Elementary/Middle School",
+    "district": "",
+    "source": "sc_al_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Parrish Elementary/Middle School",
+    "disposition": "directory_lead_requires_primary_confirmation",
+    "reason": "Directory lead only; language course offerings do not establish academic immersion.",
+    "notes": ""
+  }
+]

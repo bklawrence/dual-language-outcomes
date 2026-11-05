@@ -1,0 +1,792 @@
+[
+  {
+    "key": "sc_al_asfl_lang",
+    "path": "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html.metadata.json",
+    "title": "Foreign Language - ACADEMY FOR SCIENCE AND FOREIGN LANGUAGE",
+    "url": "https://www.asflmagnethsv.org/foreign-language.html",
+    "retrieved_at": "2026-11-05T22:13:29.433843+00:00",
+    "sha256": "11fb7f1ec0d43069de92c5b3b2cf31a76dcac3362a93b2388d954de26691eb57",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_ashford",
+    "path": "data/raw/south_central_2026_11_05/sc_al_ashford.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_ashford.html.metadata.json",
+    "title": "Ashford Elementary School - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/ashford-elementary-school/",
+    "retrieved_at": "2026-11-05T22:13:33.912958+00:00",
+    "sha256": "bbdd8f0a62d309eff40096bf23a8cc61df14711d10b9f4683d31914e964201d1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_directory",
+    "path": "data/raw/south_central_2026_11_05/sc_al_directory.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_directory.html.metadata.json",
+    "title": "Dual Language Schools in Alabama",
+    "url": "https://duallanguageschools.org/schools/al/",
+    "retrieved_at": "2026-11-05T22:10:16.993168+00:00",
+    "sha256": "060ec1b8dc71c1dd11d9f375f2f90b1f2ecc5e0abf74ac7e2c9a0880456815bf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_harvest",
+    "path": "data/raw/south_central_2026_11_05/sc_al_harvest.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_harvest.html.metadata.json",
+    "title": "Harvest Elementary - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/harvest-elementary/",
+    "retrieved_at": "2026-11-05T22:13:30.839828+00:00",
+    "sha256": "89d7316f64932cafdd9be2c22b9e055b7680bc1b8846430a09d1b3b2735b747f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_wash_news",
+    "path": "data/raw/south_central_2026_11_05/sc_al_wash_news.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_wash_news.html.metadata.json",
+    "title": "Dual Language Immersion at Washington K-8 Teaches Bilingual Skills at Elementary Level | Birmingham City Schools",
+    "url": "https://www.bhamcityschools.org/article/2605077",
+    "retrieved_at": "2026-11-05T22:11:50.269039+00:00",
+    "sha256": "1eede55c16146be22632c3cf4bf6309603b2b515292f90641b39ef8819a9374a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_wash_program",
+    "path": "data/raw/south_central_2026_11_05/sc_al_wash_program.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_wash_program.html.metadata.json",
+    "title": "Dual Language Immersion Program  | Booker T. Washington K-8 School",
+    "url": "https://www.bhamcityschools.org/o/ws/page/dual-language-immersion",
+    "retrieved_at": "2026-11-05T22:11:49.026768+00:00",
+    "sha256": "6065f44273065563a6e7aa711c44bd368e0b922237f3e7fb630161c2775881ce",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_al_wash_start",
+    "path": "data/raw/south_central_2026_11_05/sc_al_wash_start.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_al_wash_start.html.metadata.json",
+    "title": "Dual Language Immersion Classes Begin at Washington K-8  | Birmingham City Schools",
+    "url": "https://www.bhamcityschools.org/o/bcs/article/2532865",
+    "retrieved_at": "2026-11-05T22:10:17.794773+00:00",
+    "sha256": "0b1381cec790650cd80b3ad13d6f5ef2cd03ff5c12957c5d76f9bb19c65e0a4e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ar_casa",
+    "path": "data/raw/south_central_2026_11_05/sc_ar_casa.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ar_casa.html.metadata.json",
+    "title": "Casa Castillo - Spanish Immersion Preschool and Childcare Center in NWA",
+    "url": "https://www.casacastillonwa.com/",
+    "retrieved_at": "2026-11-05T22:15:46.528378+00:00",
+    "sha256": "d5342009587ba0bb792733ea98f67370440bc44c9711ac182b9368b817947fb5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ar_chicot",
+    "path": "data/raw/south_central_2026_11_05/sc_ar_chicot.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ar_chicot.html.metadata.json",
+    "title": "Dual Language Instruction Coming to Little Rock District Elementary Schools | Chicot Elementary & Early Childhood Center",
+    "url": "https://www.lrsd.org/o/chicot/article/2844421",
+    "retrieved_at": "2026-11-05T22:11:50.142455+00:00",
+    "sha256": "9777213a60adf18176195c169a013b06316c6113962b6fb4368e0c6287411cbb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ar_lr_launch",
+    "path": "data/raw/south_central_2026_11_05/sc_ar_lr_launch.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ar_lr_launch.html.metadata.json",
+    "title": "Two Languages, Endless Possibilities: LRSD Launches State’s First Dual Language Immersion Program | LITTLE ROCK",
+    "url": "https://www.lrsd.org/article/2843325",
+    "retrieved_at": "2026-11-05T22:11:48.506408+00:00",
+    "sha256": "adeffbe37264b240d532f54ba668efd9ff42c04384de0d9c826b88875243a3db",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ccd2024_al",
+    "path": "data/raw/south_central_2026_11_05/sc_ccd2024_al.json",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ccd2024_al.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: AL",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=1&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-05T22:31:34.064731+00:00",
+    "sha256": "41381c72c36f7423e4999a2d816d61000d494fae6e22659fb01691bee67e4271",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ccd2024_la",
+    "path": "data/raw/south_central_2026_11_05/sc_ccd2024_la.json",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ccd2024_la.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: LA",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=22&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-05T22:31:22.070066+00:00",
+    "sha256": "875c05351a0aca9eeebb95159868f9b50d6aefd8c5b6be7615e2689634071503",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ccd2024_ok",
+    "path": "data/raw/south_central_2026_11_05/sc_ccd2024_ok.json",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ccd2024_ok.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: OK",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=40&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-05T22:31:26.725689+00:00",
+    "sha256": "ff83994d575488a2d124a94b3ae944761c21b6ef7fd0f0d50cf08edc0e97a1d2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_audubon",
+    "path": "data/raw/south_central_2026_11_05/sc_la_audubon.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_audubon.html.metadata.json",
+    "title": "French Program Home - French Program - Audubon Uptown",
+    "url": "https://uptown.auduboncharter.org/apps/pages/index.jsp?uREC_ID=535812&type=d&pREC_ID=1029958",
+    "retrieved_at": "2026-11-05T22:14:37.539905+00:00",
+    "sha256": "26bf458bbf2953398ba162cf5209550820d654bab5bc6cc9ec908a57bdb52dc8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_boudreaux",
+    "path": "data/raw/south_central_2026_11_05/sc_la_boudreaux.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_boudreaux.html.metadata.json",
+    "title": "Dual Language Immersion Program - Boudreaux Elementary School",
+    "url": "https://boudreaux.jpschools.org/students/dual-language-immersion-program",
+    "retrieved_at": "2026-11-05T22:14:36.169450+00:00",
+    "sha256": "72e25f054260c13f46933b8484cc688e51fb6cb8a2b6a8cf847e899e58135ea5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_brflaim_faq",
+    "path": "data/raw/south_central_2026_11_05/sc_la_brflaim_faq.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_brflaim_faq.html.metadata.json",
+    "title": "FAQ",
+    "url": "https://www.brflaim.org/faqs-for-prospective-families",
+    "retrieved_at": "2026-11-05T22:15:41.468774+00:00",
+    "sha256": "26615c73c12422f2e28569bfdbed51ad4be82b3712735c18a423c34ae905220f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_calcasieu",
+    "path": "data/raw/south_central_2026_11_05/sc_la_calcasieu.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_calcasieu.html.metadata.json",
+    "title": "Home - Calcasieu Parish School Board",
+    "url": "https://www.cpsb.org/curriculum/world-languages/home",
+    "retrieved_at": "2026-11-05T22:15:41.467054+00:00",
+    "sha256": "9d0d368ce537b39a0794ae6d0b291efa0ba9451d4b29fd64d29ebc0ce95bc00f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_certified25",
+    "path": "data/raw/south_central_2026_11_05/sc_la_certified25.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_certified25.pdf.metadata.json",
+    "title": "Louisiana State Certified World Language Immersion Schools, Fall 2025",
+    "url": "https://doe.louisiana.gov/docs/default-source/academic-standards/state-certified-immersion-schools-in-louisiana.pdf?sfvrsn=abdc831f_8",
+    "retrieved_at": "2026-11-05T22:10:14.563429+00:00",
+    "sha256": "67b4a3e518432f909a0f748007dad5d73a7d6490b373fb8c7127d82227394300",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_codofil",
+    "path": "data/raw/south_central_2026_11_05/sc_la_codofil.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_codofil.html.metadata.json",
+    "title": "Carte de l'immersion en français | CODOFIL",
+    "url": "https://codofil.org/fr/immersion-francaise/carte/",
+    "retrieved_at": "2026-11-05T22:10:15.176166+00:00",
+    "sha256": "c55c8404c98cb65757ee34fb00ae785f20160c8548783a494701e8c0c50e9428",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_codofil_objects5",
+    "path": "data/raw/south_central_2026_11_05/sc_la_codofil_objects5.json",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_codofil_objects5.json.metadata.json",
+    "title": "CODOFIL public French immersion map: all 35 objects, perpage=1000",
+    "url": "https://codofil.org/wp-json/mapsvg/v1/objects/objects_5?perpage=1000",
+    "retrieved_at": "2026-11-05T22:14:39.839092+00:00",
+    "sha256": "cbe479e343450dc50ff636997051e9ace97c2f35741aebacfe3fa79389263709",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_cp_handbook24",
+    "path": "data/raw/south_central_2026_11_05/sc_la_cp_handbook24.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_cp_handbook24.pdf.metadata.json",
+    "title": "Cecilia Primary Student Handbook 2024–2025",
+    "url": "https://resources.finalsite.net/images/v1722865291/saintmartinschoolsorg/uyxog5cjz5h04p6gkz4a/CPStudentHandbook24-25-GoogleDocs.pdf",
+    "retrieved_at": "2026-11-05T22:25:38.689338+00:00",
+    "sha256": "28d04eab2afe729d29fa4715d45dc82605a60f4fd169c10e0c188ec285bf2ed7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_ebr_flaim",
+    "path": "data/raw/south_central_2026_11_05/sc_la_ebr_flaim.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_ebr_flaim.html.metadata.json",
+    "title": "BRFLAIM - EBR Schools",
+    "url": "https://ebrschools.org/schools/brflaim/",
+    "retrieved_at": "2026-11-05T22:14:33.359802+00:00",
+    "sha256": "1adf7480c998cba50980b5083287430161b97862d76b60e38501882b927d74d2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_ebr_westdale",
+    "path": "data/raw/south_central_2026_11_05/sc_la_ebr_westdale.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_ebr_westdale.html.metadata.json",
+    "title": "Westdale Middle School - EBR Schools",
+    "url": "https://ebrschools.org/schools/westdalemiddle/",
+    "retrieved_at": "2026-11-05T22:14:35.122909+00:00",
+    "sha256": "9a67b6904393994794798d70c38c7adc75dd81478e88aebbc71035c2e97cc85a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_fairfield_start",
+    "path": "data/raw/south_central_2026_11_05/sc_la_fairfield_start.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_fairfield_start.html.metadata.json",
+    "title": "French immersion program launches at Fairfield Elementary Magnet | News | ktbs.com",
+    "url": "https://www.ktbs.com/news/french-immersion-program-launches-at-fairfield-elementary-magnet/article_332b5350-46b8-11ee-9918-dbb35fc42237.html",
+    "retrieved_at": "2026-11-05T22:22:19.286552+00:00",
+    "sha256": "ed50123e28c30497215bd964ad36ba6ae63c7f4c026353d7cb347cd0eca0d34e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_glenview25",
+    "path": "data/raw/south_central_2026_11_05/sc_la_glenview25.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_glenview25.html.metadata.json",
+    "title": "French Immersion Registration | Glen View Elementary School",
+    "url": "https://glenview.lincolnschools.org/o/gves/article/2006862",
+    "retrieved_at": "2026-11-05T22:19:48.174708+00:00",
+    "sha256": "dc8d6eec12aa0b84d51d80cb06c2ab4a69d76ab8eb8d474efc53065b5427a022",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_glenview_flyer",
+    "path": "data/raw/south_central_2026_11_05/sc_la_glenview_flyer.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_glenview_flyer.html.metadata.json",
+    "title": "Glen View Elementary French immersion registration flyer linked February 3, 2025",
+    "url": "https://core-docs.s3.amazonaws.com/lincoln_parish_schools_ar/picture/data/731878/content_k4LleNfi6xBtC-WSp1qu0A.jpeg",
+    "retrieved_at": "2026-11-05T22:31:22.067782+00:00",
+    "sha256": "9d3acfd963473cc051f3c26cec8d559fffcd938b94c771f0d9e3ef96f50c877f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_hynes_handbook25",
+    "path": "data/raw/south_central_2026_11_05/sc_la_hynes_handbook25.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_hynes_handbook25.pdf.metadata.json",
+    "title": "Hynes Charter Schools Student Handbook 2025–2026",
+    "url": "https://www.hynesschool.com/wp-content/uploads/2025/09/2526.STUDENT%20HANDBOOK%20HYNES%20CHARTER%20SCHOOLS-2.pdf",
+    "retrieved_at": "2026-11-05T22:19:46.489770+00:00",
+    "sha256": "0b340026b910ff1afdd321b33aca6e12c72348616000e2ec8c03e83fb365079b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_isl",
+    "path": "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html.metadata.json",
+    "title": "HOME",
+    "url": "https://www.isl-edu.org/",
+    "retrieved_at": "2026-11-05T22:13:35.234049+00:00",
+    "sha256": "119d8c859bc3ae2077e34f26ea897b5792c156ef7db893bde4f762e83a5adb29",
+    "archive_kind": "public_HTTP_response_with_embedded_credential_redacted"
+  },
+  {
+    "key": "sc_la_isl_admissions",
+    "path": "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html.metadata.json",
+    "title": "Admissions",
+    "url": "https://www.isl-edu.org/admissions",
+    "retrieved_at": "2026-11-05T22:15:41.470226+00:00",
+    "sha256": "17df13b33a528750c2da0bba0f7b759259382e8570e5c512d3010edfe9901d69",
+    "archive_kind": "public_HTTP_response_with_embedded_credential_redacted"
+  },
+  {
+    "key": "sc_la_isl_copy",
+    "path": "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html.metadata.json",
+    "title": "Copy of HOME",
+    "url": "https://www.isl-edu.org/copy-of-home",
+    "retrieved_at": "2026-11-05T22:19:46.204388+00:00",
+    "sha256": "f0a1ee709307d4471669df1e008f3e9508e4ac55faa0b1442a638f0fac696247",
+    "archive_kind": "public_HTTP_response_with_embedded_credential_redacted"
+  },
+  {
+    "key": "sc_la_isl_curriculum",
+    "path": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html.metadata.json",
+    "title": "Curriculum",
+    "url": "https://www.isl-edu.org/curriculum",
+    "retrieved_at": "2026-11-05T22:19:43.751694+00:00",
+    "sha256": "c60a55407bd3e99a9aff2be933b1c353b154465034a1e7debe460ef631855ad7",
+    "archive_kind": "public_HTTP_response_with_embedded_credential_redacted"
+  },
+  {
+    "key": "sc_la_jp25policy",
+    "path": "data/raw/south_central_2026_11_05/sc_la_jp25policy.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_jp25policy.pdf.metadata.json",
+    "title": "sc_la_jp25policy",
+    "url": "https://resources.finalsite.net/images/v1749244291/jpschoolsorg/yf7slylprcrg1ip9vpfb/March2025FinalApproved-Formatted-PoliciesProcedures-2025-06-06.pdf",
+    "retrieved_at": "2026-11-05T22:23:32.988178+00:00",
+    "sha256": "e5486f70380e94371501e9e76fa54bbc3d5a00a273f3a737be558e11b66f7a90",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_jp_dual",
+    "path": "data/raw/south_central_2026_11_05/sc_la_jp_dual.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_jp_dual.html.metadata.json",
+    "title": "Dual Language Program - Jefferson Parish Schools",
+    "url": "https://www.jpschools.org/departments/teaching-learning/esl-program/dual-language",
+    "retrieved_at": "2026-11-05T22:14:35.122515+00:00",
+    "sha256": "35570c6de771e348307fb30b7b296bf52f7678433bf316c173021c3348786190",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_jp_ellis",
+    "path": "data/raw/south_central_2026_11_05/sc_la_jp_ellis.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_jp_ellis.html.metadata.json",
+    "title": "Mission & Vision - J.C. Ellis Elementary School",
+    "url": "https://ellis.jpschools.org/our-school/mission-vision",
+    "retrieved_at": "2026-11-05T22:16:55.187883+00:00",
+    "sha256": "e1fcd803b118c7fb19ca3f7ab398997b68f865733aaf85c65d99ca1d72f6fff4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_jp_magnet",
+    "path": "data/raw/south_central_2026_11_05/sc_la_jp_magnet.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_jp_magnet.html.metadata.json",
+    "title": "Magnet School Programs - Jefferson Parish Schools",
+    "url": "https://www.jpschools.org/families/asa-school-choice-program/magnet-school-programs",
+    "retrieved_at": "2026-11-05T22:14:36.103875+00:00",
+    "sha256": "050864410b6c546bb7a56844c430bdf6d502e530f04459fa9f4cfd76c9303041",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_landry_faq",
+    "path": "data/raw/south_central_2026_11_05/sc_la_landry_faq.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_landry_faq.html.metadata.json",
+    "title": "FAQs | École St-Landry",
+    "url": "https://www.ecolestlandry.org/faqs",
+    "retrieved_at": "2026-11-05T22:19:47.537490+00:00",
+    "sha256": "a4eb5345e54b3a5ccc2350e54bbbf6126779f03b3d5e1d2ca4a1b8115f687dd5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_leblanc_imm",
+    "path": "data/raw/south_central_2026_11_05/sc_la_leblanc_imm.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_leblanc_imm.html.metadata.json",
+    "title": "Vermilion French Immersion | Leblanc Elementary",
+    "url": "https://les.vpsb.net/page/vermilion-french-immersion/",
+    "retrieved_at": "2026-11-05T22:25:38.688606+00:00",
+    "sha256": "cbc4443530f62473f64f789c498ed743853b1c0c8805bb8951659ce564f155b8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_lpfi",
+    "path": "data/raw/south_central_2026_11_05/sc_la_lpfi.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_lpfi.html.metadata.json",
+    "title": "French Immersion Schools — Louisiana Parents for French Immersion",
+    "url": "https://www.lpfi.net/schools",
+    "retrieved_at": "2026-11-05T22:10:15.567214+00:00",
+    "sha256": "be830d500850eeab9a226e696bc358bd8fb55fb6267d3598856fd65249c97ab4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_lrca_language",
+    "path": "data/raw/south_central_2026_11_05/sc_la_lrca_language.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_lrca_language.html.metadata.json",
+    "title": "Home - World Languages - Educational Support - Lafayette Renaissance Charter Middle School",
+    "url": "https://www.lafayettechartermiddle.org/apps/pages/?type=d&uREC_ID=597299&pREC_ID=1150906",
+    "retrieved_at": "2026-11-05T22:22:16.253878+00:00",
+    "sha256": "0886d7ca9dfda5adb5a6c8958c758a7f8544ebbe8bb2996502f250886d5607c2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_lycee_campuses",
+    "path": "data/raw/south_central_2026_11_05/sc_la_lycee_campuses.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_lycee_campuses.html.metadata.json",
+    "title": "Campuses - Lycee Francais de la Nouvelle-Orleans",
+    "url": "https://www.lfi.us/campuses",
+    "retrieved_at": "2026-11-05T22:23:32.378990+00:00",
+    "sha256": "8406e96a211e657a62337ca201cd5190d67e6c26707dedbde5e81bbed4ed72de",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_lycee_open",
+    "path": "data/raw/south_central_2026_11_05/sc_la_lycee_open.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_lycee_open.html.metadata.json",
+    "title": "The French Quarter’s Last Remaining School Reopens",
+    "url": "https://www.frenchquarterjournal.com/archives/last-french-quarter-school-lycee-francais-opens",
+    "retrieved_at": "2026-11-05T22:25:38.690045+00:00",
+    "sha256": "e08345de55e58b3c0f7a49bc15df469c49b3f4ec8d533c480329c1f8ec4a30e9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_lycee_priestley",
+    "path": "data/raw/south_central_2026_11_05/sc_la_lycee_priestley.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_lycee_priestley.html.metadata.json",
+    "title": "Priestley Secondary Campus - Lycee Francais de la Nouvelle-Orleans",
+    "url": "https://www.lfi.us/campuses/priestley-secondary-campus",
+    "retrieved_at": "2026-11-05T22:23:34.648774+00:00",
+    "sha256": "61ba95bb985866410a460ec5df4486ac2793445d4f56a6c03f82c9a3893f9e76",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_mamou_imm",
+    "path": "data/raw/south_central_2026_11_05/sc_la_mamou_imm.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_mamou_imm.html.metadata.json",
+    "title": "Mamou Elementary - French Immersion",
+    "url": "https://me.epsb.com/29200",
+    "retrieved_at": "2026-11-05T22:22:17.849460+00:00",
+    "sha256": "812da9714b70d6bf3e96b7c3b925c818fc0a5e5b87d1e9dfbf5d1bdc3b3505fc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_mandarin_link_15",
+    "path": "data/raw/south_central_2026_11_05/sc_la_mandarin_link_15.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_mandarin_link_15.html.metadata.json",
+    "title": "Lafayette school board votes to end Chinese immersion | Education | theadvocate.com",
+    "url": "https://www.theadvocate.com/acadiana/news/education/lafayette-school-board-votes-to-end-chinese-immersion/article_2b4f25be-e139-11ee-adfe-c36d9ba5042b.html",
+    "retrieved_at": "2026-11-05T22:23:35.548827+00:00",
+    "sha256": "2eb428fd356cc4e68ff8bf3e6a1c1fe7bee93eb8a8695ccace38d63d689dad8a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_map_1",
+    "path": "data/raw/south_central_2026_11_05/sc_la_map_1.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_map_1.html.metadata.json",
+    "title": "Private, French-immersion since 1998. Ecole Bilingue de la Nouvelle-Orléans Ecole Bilingue de la Nouvelle-Orléans - Ecole Bilingue de la Nouvelle-Orléans",
+    "url": "https://www.ebnola.net",
+    "retrieved_at": "2026-11-05T22:15:56.799488+00:00",
+    "sha256": "2805a9fbb80a4fb6257da72f4ade5bff18df51f4f9426232a3245d7f68159c4f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_map_2",
+    "path": "data/raw/south_central_2026_11_05/sc_la_map_2.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_map_2.html.metadata.json",
+    "title": "Pierre Part Elementary — Assumption Parish Schools",
+    "url": "https://assumptionschools.com/ppe",
+    "retrieved_at": "2026-11-05T22:15:56.350102+00:00",
+    "sha256": "8b7a0dc5018433950b63adcda070c703b5c1ec912a28d6f5c18c8c7a0cdbb795",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_northlewis",
+    "path": "data/raw/south_central_2026_11_05/sc_la_northlewis.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_northlewis.html.metadata.json",
+    "title": "North Lewis Elementary - French Immersion at NLE",
+    "url": "https://nle.iberiaschools.org/38623",
+    "retrieved_at": "2026-11-05T22:15:43.799793+00:00",
+    "sha256": "af6b29427a3e679a8910810f5da673515b5feae7690e0a21cc130131750b632b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_pointe2025",
+    "path": "data/raw/south_central_2026_11_05/sc_la_pointe2025.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_pointe2025.html.metadata.json",
+    "title": "Historic French Immersion School in Terrebonne Parish is now enrolling students for 2025-2026 school year - The Times of Houma/Thibodaux",
+    "url": "https://houmatimes.com/news/historic-french-immersion-school-in-terrebonne-parish-is-now-enrolling-students-for-2025-2026-school-year/",
+    "retrieved_at": "2026-11-05T22:19:47.748592+00:00",
+    "sha256": "fc693514cd87a45c2ec54a3b59b75579b84cd0fdb4180978dba2afd6086def03",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_rougon_current",
+    "path": "data/raw/south_central_2026_11_05/sc_la_rougon_current.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_rougon_current.html.metadata.json",
+    "title": "Home | Rougon Elementary School",
+    "url": "https://www.pcpsb.net/o/roes",
+    "retrieved_at": "2026-11-05T22:47:25.591952+00:00",
+    "sha256": "962b0910bcdbf3ff3d6dd3054e40d6724cf52e0d1ec5cc24d9ac5c4acdf19aa7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_rougon_old",
+    "path": "data/raw/south_central_2026_11_05/sc_la_rougon_old.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_rougon_old.html.metadata.json",
+    "title": "French Immersion Now in PRE-K  | Smore Newsletters",
+    "url": "https://secure.smore.com/n/9a2gn-french-immersion-now-in-pre-k",
+    "retrieved_at": "2026-11-05T22:22:19.290158+00:00",
+    "sha256": "0db8c689dd6a471270b0beb3b1277405276016439b0780e1debcdaa869580263",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_ruppel_program",
+    "path": "data/raw/south_central_2026_11_05/sc_la_ruppel_program.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_ruppel_program.html.metadata.json",
+    "title": "Ruppel Academie Francaise - Jefferson Parish Schools",
+    "url": "https://www.jpschools.org/families/asa-school-choice-program/ruppel-academie-francaise",
+    "retrieved_at": "2026-11-05T22:24:35.290064+00:00",
+    "sha256": "339ebd96c1f33d9f2be6160e3ee036200f5c37da75ca9686316fc7df001587c4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_state_world",
+    "path": "data/raw/south_central_2026_11_05/sc_la_state_world.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_state_world.html.metadata.json",
+    "title": "World Languages + Immersion",
+    "url": "https://doe.louisiana.gov/educators/instructional-support/world-languages-immersion",
+    "retrieved_at": "2026-11-05T22:11:51.217240+00:00",
+    "sha256": "ce58009920d1b8be8f12ef32fdc43ecbb0672ae3327e17b43de727a95e523147",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_la_vermilion_pamphlet25",
+    "path": "data/raw/south_central_2026_11_05/sc_la_vermilion_pamphlet25.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_la_vermilion_pamphlet25.pdf.metadata.json",
+    "title": "Vermilion K Immersion Pamphlet: November 2025 recruitment for 2026–27",
+    "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2619/Vpsd/e72f016f-8f05-43cc-b947-1e689519d6b2/K_Immersion_Pamphlet_2025__1_.pdf?disposition=inline",
+    "retrieved_at": "2026-11-05T22:25:38.687830+00:00",
+    "sha256": "c5eb212550e802558726c2cee53e427dab21f6f1becfcb65d1836894f09223f1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ms_choctaw",
+    "path": "data/raw/south_central_2026_11_05/sc_ms_choctaw.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ms_choctaw.html.metadata.json",
+    "title": "Choctaw Language",
+    "url": "https://www.choctawtribalschools.com/choctawlanguage",
+    "retrieved_at": "2026-11-05T22:11:50.035085+00:00",
+    "sha256": "af0d831fda84fd9cd458c30aa89c50d9a4f199edca57ef23ff2de5a8d7fb9787",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ms_clarkdale_dir",
+    "path": "data/raw/south_central_2026_11_05/sc_ms_clarkdale_dir.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ms_clarkdale_dir.html.metadata.json",
+    "title": "Clarkdale Elementary School - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/clarkdale-elementary-school/",
+    "retrieved_at": "2026-11-05T22:13:36.325304+00:00",
+    "sha256": "da552c3c9c2e8485e9adca0296133a94fa4b4d6c80f92ddcd24c528f92e2674f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ms_directory",
+    "path": "data/raw/south_central_2026_11_05/sc_ms_directory.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ms_directory.html.metadata.json",
+    "title": "Dual Language Schools in",
+    "url": "https://duallanguageschools.org/schools/ms/",
+    "retrieved_at": "2026-11-05T22:10:19.375244+00:00",
+    "sha256": "262d10b817ba9cb6a823e11b551594c4721a66cc6921780261f283c06c4a124d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_cherokee",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_cherokee.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_cherokee.html.metadata.json",
+    "title": "Cherokee Nation: Cherokee Language Immersion School Cherokee Nation Menu",
+    "url": "https://language.cherokee.gov/language-programs/cherokee-language-immersion-school/",
+    "retrieved_at": "2026-11-05T22:10:17.797850+00:00",
+    "sha256": "7c25323ae41e3dd48141b5099fbb6990e04e26eca67d2197fcc6e1b1ec2e8c34",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_cherokee_change",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_change.pdf",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_change.pdf.metadata.json",
+    "title": "sc_ok_cherokee_change",
+    "url": "https://www.cherokee.gov/media/houfbgjw/memoadminmemoimmersioncharterchfinal20260506.pdf",
+    "retrieved_at": "2026-11-05T22:15:45.075226+00:00",
+    "sha256": "7b3fcec14439a47ed3e95a1c6011b703b8852bf0ac38466b583b2d3fb7f7ca94",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_cherokee_grads",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_grads.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_grads.html.metadata.json",
+    "title": "Cherokee Immersion School graduates Kindergarten and 8th grade classes",
+    "url": "https://anadisgoi.com/index.php/government-stories/cherokee-immersion-school-graduates-kindergarten-and-8th-grade-classes",
+    "retrieved_at": "2026-11-05T22:19:48.653253+00:00",
+    "sha256": "f8fb447f64858e988a6cc9f70ac5ae99cca279b48def7bc274969460538c2165",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_cherokee_independent",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_independent.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_cherokee_independent.html.metadata.json",
+    "title": "Cherokee Nation language immersion school now independent | News | cherokeephoenix.org",
+    "url": "https://www.cherokeephoenix.org/news/cherokee-nation-language-immersion-school-now-independent/article_d601dec4-1c80-4dc0-a74b-1ba81ab5684b.html",
+    "retrieved_at": "2026-11-05T22:15:45.377052+00:00",
+    "sha256": "636fcd2960d535c65ba0f3f68d119f7f8b4b87880393770b6d1a94502a08bae5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_cnic",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_cnic.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_cnic.html.metadata.json",
+    "title": "Cherokee Nation Immersion School | Cherokee Immersion Charter School",
+    "url": "https://www.cwyschools.org/page/cherokee-nation-immersion-school",
+    "retrieved_at": "2026-11-05T22:10:18.269801+00:00",
+    "sha256": "336ac57e216f097e70de456ad68b1bd83533ffe0b27a73e9b343d85c25bf5c23",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_directory",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_directory.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_directory.html.metadata.json",
+    "title": "Dual Language Schools in Oklahoma",
+    "url": "https://duallanguageschools.org/schools/ok/",
+    "retrieved_at": "2026-11-05T22:10:11.667740+00:00",
+    "sha256": "75bce732f374f8a02d37c9cac7e2a37ee33183424d2d0a0f4d21dc91ed09237f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_eisenhower",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_eisenhower.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_eisenhower.html.metadata.json",
+    "title": "Immersion Program - Eisenhower International School",
+    "url": "https://eisenhower.tulsaschools.org/programsactivities/immersion-program",
+    "retrieved_at": "2026-11-05T22:11:44.260149+00:00",
+    "sha256": "02b3b9b87585dffeb30d7d968c85097e9d1978ea186bdf24e0bf700bee1edaa6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_jenks_end",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_jenks_end.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_jenks_end.html.metadata.json",
+    "title": "Oklahoma loses its only Mandarin immersion program – Mandarin Immersion Parents Council",
+    "url": "https://miparentscouncil.org/2023/11/19/oklahoma-loses-its-only-mandarin-immersion-program/",
+    "retrieved_at": "2026-11-05T22:11:47.712660+00:00",
+    "sha256": "f0e56c68626cc25f22dd8512ae6226172c5a1c4c6b209103eefd92fb7420d663",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_lee",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_lee.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_lee.html.metadata.json",
+    "title": "Dual Language Program - Adelaide Lee Elementary",
+    "url": "https://lee.okcps.org/dual-language-program",
+    "retrieved_at": "2026-11-05T22:11:45.380693+00:00",
+    "sha256": "22d2b211499c87159fac5bb1cfc52d6e160fb19454ec74acf10cd3ec5881c7c3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_lee_faq",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_lee_faq.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_lee_faq.html.metadata.json",
+    "title": "Dual Language FAQ - Adelaide Lee Elementary",
+    "url": "https://lee.okcps.org/dual-language-program/faq",
+    "retrieved_at": "2026-11-05T22:11:47.714014+00:00",
+    "sha256": "eb3b1492a64b1362d25648ae363ed0ae95b2d207322eda8686bba14cb247713f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_mendez",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_mendez.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_mendez.html.metadata.json",
+    "title": "Academics - Felicitas Mendez",
+    "url": "https://mendez.tulsaschools.org/academics",
+    "retrieved_at": "2026-11-05T22:11:44.364477+00:00",
+    "sha256": "7a52a97510519d735fc88f0a835c859d7593224bd8dc6eaeff6cb6f0770eae75",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_mendez_about",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_mendez_about.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_mendez_about.html.metadata.json",
+    "title": "About Us - Felicitas Mendez",
+    "url": "https://mendez.tulsaschools.org/about-us",
+    "retrieved_at": "2026-11-05T22:14:38.853440+00:00",
+    "sha256": "efa7d9f4bd135185e77340e5cdcf4e4942ab6c30e70274be8a8ba1671a8c84fe",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_norman",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_norman.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_norman.html.metadata.json",
+    "title": "Spanish Language Academy | Norman Public Schools",
+    "url": "https://www.normanpublicschools.org/page/spanish-language-academy",
+    "retrieved_at": "2026-11-05T22:11:47.043990+00:00",
+    "sha256": "410fccbc7e05236a79911a037ebf9c857fb44503d12a161700f34eb92130bb5e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_norman_launch",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_norman_launch.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_norman_launch.html.metadata.json",
+    "title": "Norman Public Schools Celebrates Launch of Spanish Language Academy | Monroe Elementary",
+    "url": "https://www.normanpublicschools.org/o/moes/article/2437309",
+    "retrieved_at": "2026-11-05T22:13:23.514662+00:00",
+    "sha256": "e6c277f47923d65ef6077eda2b62b001d476d63e4631fca9f7a2da64e32f9e11",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_osage",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_osage.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_osage.html.metadata.json",
+    "title": "Daposka Ahnkodapi Schools | Osage Nation",
+    "url": "https://www.osagenation-nsn.gov/services/education-services/daposka-ahnkodapi-elementary",
+    "retrieved_at": "2026-11-05T22:13:26.181623+00:00",
+    "sha256": "8a757e9d234f20b16f9379a009a3c19124aec1647838bf03df7925b8b93752b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_osage_end",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_osage_end.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_osage_end.html.metadata.json",
+    "title": "Osage Nation Declares State of Emergency and Announces Strategic Budget Reductions to Preserve Core Services, Fund Assisted Living Facility/Funeral Home | Osage Nation",
+    "url": "https://www.osagenation-nsn.gov/news-events/news/osage-nation-declares-state-emergency-and-announces-strategic-budget-reductions",
+    "retrieved_at": "2026-11-05T22:13:28.063690+00:00",
+    "sha256": "aa0673f19498f08816a6ad4eb5254c1de1f5af6a335dd158d432d36a530da3c1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_osage_oct",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_osage_oct.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_osage_oct.html.metadata.json",
+    "title": "Osage Congress votes to have say in data center discussion, fund immersion school | KGOU - Oklahoma's NPR Source",
+    "url": "https://www.kgou.org/indigenous-news/2026-10-06/osage-congress-votes-to-have-say-in-data-center-discussion-fund-immersion-school",
+    "retrieved_at": "2026-11-05T22:15:46.408405+00:00",
+    "sha256": "382807b10234c42e1a70d825697ce48642a96f9932f10931fd31430ecd2a2f36",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_tulsa",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_tulsa.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_tulsa.html.metadata.json",
+    "title": "Dual Language Programs - Tulsa Public Schools",
+    "url": "https://www.tulsaschools.org/about/teams/language-cultural-services/dual-language-immersion/multilingual-and-language-immersion-programs",
+    "retrieved_at": "2026-11-05T22:11:41.137542+00:00",
+    "sha256": "08f2226fd14055501b00331808377f5109e44981fd074d5603bc0bd6d3ced39b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_tulsa11",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_tulsa11.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_tulsa11.html.metadata.json",
+    "title": "Tulsa Public Schools offers dual language programs at 11 schools across the district | News Item - Independent School District No. 1 of Tulsa County,",
+    "url": "https://www.tulsaschools.org/about/news/news-item/~board/district-news/post/tulsa-public-schools-offers-dual-language-programs-at-11-schools",
+    "retrieved_at": "2026-11-05T22:11:44.259803+00:00",
+    "sha256": "f4f91ed16d92dbc39770a63f7524373da940c9fec7c05f223ce7a364bba06eca",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_tulsa_changes",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_tulsa_changes.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_tulsa_changes.html.metadata.json",
+    "title": "Tulsa Public Schools unveils growth strategy with the goal of expanding by 1,200 new seats | News Item - Independent School District No. 1 of Tulsa County,",
+    "url": "https://www.tulsaschools.org/about/news/news-item/~board/district-news/post/tulsa-public-schools-unveils-growth-strategy-with-the-goal-of-expanding-by-1200-new-seats",
+    "retrieved_at": "2026-11-05T22:22:20.704060+00:00",
+    "sha256": "014be5762c28507306e4d2b12fa6b025a8458749a70620b7b682b25858963cea",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_western",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_western.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_western.html.metadata.json",
+    "title": "Dual Language Education | Western Heights School District",
+    "url": "https://www.westernheights.k12.ok.us/page/dual-language/",
+    "retrieved_at": "2026-11-05T22:13:25.163108+00:00",
+    "sha256": "74facab7968607ee98edd09ec9dc29bd933184e3130e7346a90ff0b2794d9ccb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_ok_yuchi2025",
+    "path": "data/raw/south_central_2026_11_05/sc_ok_yuchi2025.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_ok_yuchi2025.html.metadata.json",
+    "title": "“yUdjEhanAnô sôKAnAnô” — “We, Yuchi people, we are still here.” - Indian Youth",
+    "url": "https://indianyouth.org/yuchi-language-project-may-2025/",
+    "retrieved_at": "2026-11-05T22:13:29.356330+00:00",
+    "sha256": "2fe742a5183cf83422dfa1428fc29ae0f112e5610971709052976c9b0e474d1b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "sc_search_la_lpss_burke",
+    "path": "data/raw/south_central_2026_11_05/sc_search_la_lpss_burke.html",
+    "metadata_path": "data/raw/south_central_2026_11_05/sc_search_la_lpss_burke.html.metadata.json",
+    "title": "Lafayette Spanish immersion Burke - Yahoo Search Results",
+    "url": "https://search.yahoo.com/search?p=Lafayette+%22Spanish+immersion%22+%22Burke%22",
+    "retrieved_at": "2026-11-05T22:22:13.897704+00:00",
+    "sha256": "68c783e404a5878f78ce72672574dc329a28c0bfd736130119b7461dc611fb5a",
+    "archive_kind": "complete_original_HTTP_response"
+  }
+]

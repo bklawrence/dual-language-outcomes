@@ -41,6 +41,8 @@ jobs:
         run: python scripts/validate_great_lakes_inventory.py
       - name: Validate historical Illinois research and scoped policy corrections
         run: python scripts/validate_illinois_history.py
+      - name: Validate south-central sources, screening and dated programme changes
+        run: python scripts/validate_south_central_inventory.py
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py

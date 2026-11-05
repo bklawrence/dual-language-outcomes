@@ -1,0 +1,25 @@
+{
+  "url": "https://www.isl-edu.org/",
+  "retrieved_at": "2026-11-05T22:13:35.234049+00:00",
+  "http_status": 200,
+  "final_url": "https://www.isl-edu.org/",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "119d8c859bc3ae2077e34f26ea897b5792c156ef7db893bde4f762e83a5adb29",
+  "bytes": 243708,
+  "capture_method": "public_HTTP_acquisition_then_documented_credential_redaction",
+  "archive_kind": "public_HTTP_response_with_embedded_credential_redacted",
+  "title": "HOME",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html",
+  "full_response_sha256": "1affdcd6e4b690fd49de60b47f00eb4f7c2ff9168942d640466d2d19f47e0077",
+  "full_response_bytes": 243763,
+  "redactions": [
+    {
+      "kind": "embedded_Mapbox_token",
+      "occurrences": 1,
+      "replacement": "[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]",
+      "scope": "common.mapbox.token configuration; visible and embedded programme text unchanged",
+      "reason": "GitHub push protection rejected the original public HTML"
+    }
+  ]
+}

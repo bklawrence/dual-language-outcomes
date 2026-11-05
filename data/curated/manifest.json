@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-5e2cb1ffe93b5867aadd7fc1689e81c7",
-  "built_at": "2026-11-05T21:45:36.662068+00:00",
-  "base_git_revision": "c234e5c6f49cc2ce4994929575c0c466b11cdf99",
+  "build_id": "build-e9644c9a74605745b7b8f1c859a19321",
+  "built_at": "2026-11-05T22:58:24.174479+00:00",
+  "base_git_revision": "4af352c04ed639b304fa2871c07bd76813607caf",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -10,13 +10,14 @@
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
     "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
     "config/research_migrations/northern_central_ak_hi_2026_11_05.json": "2e0bdaa2f69db527b7d7ef0e29ae7988dc0c5b5c50d6ebcf4fdf62b5c5c0ed70",
+    "config/research_migrations/south_central_2026_11_05.json": "d6ff7e6ddea584b4e3ec2b06cbc379c7b4641b31a4ffe391b4874c2d2b326375",
     "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
     "config/research_migrations/tx_allocation_review_2026_11_05.json": "182e0f8b209c8f47383845cf06c13b9ea2ec7e548c4efb083e82dcf16ccf11a9",
     "config/research_migrations/ut_tx_allocations_2026_11_05.json": "1405f312de921fc74d1dbeced9e7a421c6b275ef20beeacb0afa61f5c9257d12",
     "config/research_migrations/western_plains_2026_11_04.json": "d2cac451a9d64008336dc47bd63f7870d525f03d2c216dfd34ad8ac844a8aa4d",
     "config/states/ak.json": "bee0416f06616ae3803ecdceab455f7e88a33b1123e45c28d179512e085773a8",
-    "config/states/al.json": "0005015ba767d9731450fe47d2316b8e8e6be7425d1f0b7663b68f66faa5c02f",
-    "config/states/ar.json": "b948513df6ba70fa53f0801c31f4375d5dfa5c6d1397b3239219490f30c0bf7b",
+    "config/states/al.json": "456d65382d1b8f3ba625f85b65da1c26ac16884c3e0811025d5c964e8bcf8868",
+    "config/states/ar.json": "6e86f0b1010eca8268d58d7e6131f576762321f6b01aad775910bf0da916468d",
     "config/states/az.json": "208d0418e0abee494bd2553dd793f113d60fcc031841b00f414e52db6814cc03",
     "config/states/ca.json": "dcd07dc9550ae8864d806d2d156dca565f151e96c4a19886258c03e450c98235",
     "config/states/co.json": "4e47a7cfed5904006113f05f617e4e5be5ac9683a4fcf035a5d494b1d4f56ff9",
@@ -31,14 +32,14 @@
     "config/states/in.json": "add0eac106860e565dd77e69f48d7e8f3d01ceeca79c795744c569ff15cdfd0d",
     "config/states/ks.json": "8a33b2ac628e4c4edee6abb892c3a715344ef36c7cf4631820d4d6001d70ed17",
     "config/states/ky.json": "b8d8af486e614a0525cb4319717aef1f1efb0ebde598228697978a0381a713a7",
-    "config/states/la.json": "4f8a9a39004dbcccebed5a69437092139e311b5e1752ca39cbe0d1949e51be38",
+    "config/states/la.json": "8372f30007a87fcf9d2f48954b258b1655e039ba178a9e8a61c8e040bc5b2134",
     "config/states/ma.json": "375f376fa5756f3ef6499959a913d815b03cbab3f002c408c6f7d2b92dffada9",
     "config/states/md.json": "3af11bd860b0b1cb7048d8cbcdb0cab94946cfeadf4fd05c738cd60311495583",
     "config/states/me.json": "55130654fccf77b0cf5880530fde4d84c627630ef9434f260a5fb32d851bee0d",
     "config/states/mi.json": "4692aaf98d8d92d217274c528557582eff2e966eb436c6551bbe5d29a36660ff",
     "config/states/mn.json": "2c926ac3a3c3d2f3e9a3f08e2f8b0f2eb59cb266768dc0c187c5af69411d55b1",
     "config/states/mo.json": "2729de4292f723c1cb7fc68b4dc7ae6457798f6d8544ccbe442b4d0f0625eb31",
-    "config/states/ms.json": "8415635944f27618bfb7ffb56e318eee85e37c70ddaf50b640bac416a3162e4a",
+    "config/states/ms.json": "5811949ce1a48af80dacc4b95efd320888268181be4e6cdce59739dc7f0c1743",
     "config/states/mt.json": "169edcc5974ea5d38a709a77061ba197159d599057f0f0922e6b709404bf2eb6",
     "config/states/nc.json": "0327b3a6ed5531d27d27151c5afb8c0d5b1762e31ff0f91b794ecdaaef6a20ed",
     "config/states/nd.json": "bf4d279b3d8b2dd9d5bf777e547344cbb5f7e962990a0a1811b3bc5c59c5ad49",
@@ -49,7 +50,7 @@
     "config/states/nv.json": "c440945404028c02ecacc8d4b7b5cefbe9eca63d3bd0a136a0962b7020cab1a7",
     "config/states/ny.json": "2e430f252a0edef3246602e622fa09d58cb092c65136baab0329ac2f33254f28",
     "config/states/oh.json": "2056aef7b8949c92b625994fb88ca7e46b81a9906f1ca994447cf49e72f1af91",
-    "config/states/ok.json": "4b2d231edb20b578729a9d5d8d549077e006e5b9000cd6077a12124e2be00666",
+    "config/states/ok.json": "7a51158ef648b06b3fe7d34c7a160f4e978ed5c943fb7de0c1925b3501cb9937",
     "config/states/or.json": "ccd8450d1baf118174c5588ce5881fd8b816eb4ec6ec9b8c8abfa3060db210b5",
     "config/states/pa.json": "1729c9a18f22ba1d08dcde5cee49836dc596f72cfa0fc4c73a19379e3936254e",
     "config/states/ri.json": "0200ce65d5f56ed2028e87ed9ebf244f956ead574b81c8411310057a96c58a9c",
@@ -707,6 +708,164 @@
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_b5ce6428.html.metadata.json": "5e7ba6f392e9eff0a0656b9dd5ee59191aed62714d3611e0bbcca576115da0ad",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_d0ed4220.html": "7d7616684646ca323a9d0933eb41c23c5dfbb009def82c1ddf4fef4722db2b60",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_d0ed4220.html.metadata.json": "431a55155cdaa9d409f1ed6ac03be50d11feedf6c242d59741437fe5aa421461",
+    "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html": "11fb7f1ec0d43069de92c5b3b2cf31a76dcac3362a93b2388d954de26691eb57",
+    "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html.metadata.json": "e3ed74f31c08fe1b7c06739e0e591826a659bca3dee8ceb30db43e06aaee99ce",
+    "data/raw/south_central_2026_11_05/sc_al_ashford.html": "bbdd8f0a62d309eff40096bf23a8cc61df14711d10b9f4683d31914e964201d1",
+    "data/raw/south_central_2026_11_05/sc_al_ashford.html.metadata.json": "830132064a13bf29feb20aef29f73800bd7d24d4fe6161172c9ede514b242f6f",
+    "data/raw/south_central_2026_11_05/sc_al_directory.html": "060ec1b8dc71c1dd11d9f375f2f90b1f2ecc5e0abf74ac7e2c9a0880456815bf",
+    "data/raw/south_central_2026_11_05/sc_al_directory.html.metadata.json": "f7f7c3be3acfd0160c1c0e32ced1a240078e9a5a70c2a7365f89f5d7f2bf216e",
+    "data/raw/south_central_2026_11_05/sc_al_harvest.html": "89d7316f64932cafdd9be2c22b9e055b7680bc1b8846430a09d1b3b2735b747f",
+    "data/raw/south_central_2026_11_05/sc_al_harvest.html.metadata.json": "4e45685ac44bc45a978a6bc054cac92c6e8f85987b87f6b2372ee350923a7901",
+    "data/raw/south_central_2026_11_05/sc_al_wash_news.html": "1eede55c16146be22632c3cf4bf6309603b2b515292f90641b39ef8819a9374a",
+    "data/raw/south_central_2026_11_05/sc_al_wash_news.html.metadata.json": "71ddcedde41d44710caa0da0168db3e8ec3cd37bc8da77c7afba7a1eca003608",
+    "data/raw/south_central_2026_11_05/sc_al_wash_program.html": "6065f44273065563a6e7aa711c44bd368e0b922237f3e7fb630161c2775881ce",
+    "data/raw/south_central_2026_11_05/sc_al_wash_program.html.metadata.json": "9d73c0a34bf49acd4dc7ec285d17860138c8360af6f6ebf95cf39210028c6e0c",
+    "data/raw/south_central_2026_11_05/sc_al_wash_start.html": "0b1381cec790650cd80b3ad13d6f5ef2cd03ff5c12957c5d76f9bb19c65e0a4e",
+    "data/raw/south_central_2026_11_05/sc_al_wash_start.html.metadata.json": "99b01287536dc37d51744785e50736f2e4af50f73efcdee5a25cac77c9679a4a",
+    "data/raw/south_central_2026_11_05/sc_ar_casa.html": "d5342009587ba0bb792733ea98f67370440bc44c9711ac182b9368b817947fb5",
+    "data/raw/south_central_2026_11_05/sc_ar_casa.html.metadata.json": "87ba3859b91e1be01a36a91dd8143e4790041938d4a96cbe20b0d1750de2efaa",
+    "data/raw/south_central_2026_11_05/sc_ar_chicot.html": "9777213a60adf18176195c169a013b06316c6113962b6fb4368e0c6287411cbb",
+    "data/raw/south_central_2026_11_05/sc_ar_chicot.html.metadata.json": "37a4e63a38942cc5c4471cef396ca41915e15452fd2866c86a88fc320c16e49d",
+    "data/raw/south_central_2026_11_05/sc_ar_lr_launch.html": "adeffbe37264b240d532f54ba668efd9ff42c04384de0d9c826b88875243a3db",
+    "data/raw/south_central_2026_11_05/sc_ar_lr_launch.html.metadata.json": "27fca85a3022246a2fbdc13e751b16f6a81394c9ba6c5f78c0749e236584a563",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_al.json": "41381c72c36f7423e4999a2d816d61000d494fae6e22659fb01691bee67e4271",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_al.json.metadata.json": "2a6c903347cce678257827b7395b6627edd223e845e79e24472c67002286b577",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_la.json": "875c05351a0aca9eeebb95159868f9b50d6aefd8c5b6be7615e2689634071503",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_la.json.metadata.json": "be4685b23306b318e95ebe0897eb3e03445563402224c9204349e15396397372",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_ok.json": "ff83994d575488a2d124a94b3ae944761c21b6ef7fd0f0d50cf08edc0e97a1d2",
+    "data/raw/south_central_2026_11_05/sc_ccd2024_ok.json.metadata.json": "8161b5b4a29d4cbfb88e68d75f2cf1c615cfd68e5ae667627879572774f89442",
+    "data/raw/south_central_2026_11_05/sc_la_audubon.html": "26bf458bbf2953398ba162cf5209550820d654bab5bc6cc9ec908a57bdb52dc8",
+    "data/raw/south_central_2026_11_05/sc_la_audubon.html.metadata.json": "d2efa93114eda27e4058b653755df40485ef190934db7343e935e48b5f34bad3",
+    "data/raw/south_central_2026_11_05/sc_la_boudreaux.html": "72e25f054260c13f46933b8484cc688e51fb6cb8a2b6a8cf847e899e58135ea5",
+    "data/raw/south_central_2026_11_05/sc_la_boudreaux.html.metadata.json": "4621329f31ccd78eb209e04be92baf7eb97c22a78bf5cfce050c76874cfe4223",
+    "data/raw/south_central_2026_11_05/sc_la_brflaim_faq.html": "26615c73c12422f2e28569bfdbed51ad4be82b3712735c18a423c34ae905220f",
+    "data/raw/south_central_2026_11_05/sc_la_brflaim_faq.html.metadata.json": "e251d058ee6820f4b0146f8d07a78af3b372fabd73d93a0e5d3a0ef78e828788",
+    "data/raw/south_central_2026_11_05/sc_la_calcasieu.html": "9d0d368ce537b39a0794ae6d0b291efa0ba9451d4b29fd64d29ebc0ce95bc00f",
+    "data/raw/south_central_2026_11_05/sc_la_calcasieu.html.metadata.json": "2a719e74531545489a0394178f6bb54e9d1c466865c436cc6d3fea7cf4dd10b6",
+    "data/raw/south_central_2026_11_05/sc_la_certified25.pdf": "67b4a3e518432f909a0f748007dad5d73a7d6490b373fb8c7127d82227394300",
+    "data/raw/south_central_2026_11_05/sc_la_certified25.pdf.metadata.json": "bbf31b17675ca68eb559903fce88655f9c46457b42f1d4040294c18f5836de48",
+    "data/raw/south_central_2026_11_05/sc_la_codofil.html": "c55c8404c98cb65757ee34fb00ae785f20160c8548783a494701e8c0c50e9428",
+    "data/raw/south_central_2026_11_05/sc_la_codofil.html.metadata.json": "4aefa7822a87b63899e71bf8fd60b6165d308516f0a05fbbe0adbdcd65f21147",
+    "data/raw/south_central_2026_11_05/sc_la_codofil_objects5.json": "cbe479e343450dc50ff636997051e9ace97c2f35741aebacfe3fa79389263709",
+    "data/raw/south_central_2026_11_05/sc_la_codofil_objects5.json.metadata.json": "ca03f7c95d4256daf756e15684fc36d293477248c0adb429c533db434ef18a76",
+    "data/raw/south_central_2026_11_05/sc_la_cp_handbook24.pdf": "28d04eab2afe729d29fa4715d45dc82605a60f4fd169c10e0c188ec285bf2ed7",
+    "data/raw/south_central_2026_11_05/sc_la_cp_handbook24.pdf.metadata.json": "6731460125ce5a7e1f31056f680e97e91667ce85af23044c327bb0bed9fff866",
+    "data/raw/south_central_2026_11_05/sc_la_ebr_flaim.html": "1adf7480c998cba50980b5083287430161b97862d76b60e38501882b927d74d2",
+    "data/raw/south_central_2026_11_05/sc_la_ebr_flaim.html.metadata.json": "6b1ca44ac10b95721d71180f2122c8a2bfab1456a12e8c1ed11993dfd9f2c9fb",
+    "data/raw/south_central_2026_11_05/sc_la_ebr_westdale.html": "9a67b6904393994794798d70c38c7adc75dd81478e88aebbc71035c2e97cc85a",
+    "data/raw/south_central_2026_11_05/sc_la_ebr_westdale.html.metadata.json": "9fd7923e5607e0e886146252222b0dab4d5ee80ba3ca27bf26cff22adab8d3b1",
+    "data/raw/south_central_2026_11_05/sc_la_fairfield_start.html": "ed50123e28c30497215bd964ad36ba6ae63c7f4c026353d7cb347cd0eca0d34e",
+    "data/raw/south_central_2026_11_05/sc_la_fairfield_start.html.metadata.json": "107ece2e40cd96b81c6bed2eac95e5d10fe4b3a65975be711c57bc59a4f25dbd",
+    "data/raw/south_central_2026_11_05/sc_la_glenview25.html": "dc8d6eec12aa0b84d51d80cb06c2ab4a69d76ab8eb8d474efc53065b5427a022",
+    "data/raw/south_central_2026_11_05/sc_la_glenview25.html.metadata.json": "8354d1d5330db819393f40d7514f8a94634bb23bb1e5146a937090232c0fd13c",
+    "data/raw/south_central_2026_11_05/sc_la_glenview_flyer.html": "9d3acfd963473cc051f3c26cec8d559fffcd938b94c771f0d9e3ef96f50c877f",
+    "data/raw/south_central_2026_11_05/sc_la_glenview_flyer.html.metadata.json": "2a07da29191a8b6d43449dac9237b35215923abc68119dea6f6cecb41cd7dd66",
+    "data/raw/south_central_2026_11_05/sc_la_hynes_handbook25.pdf": "0b340026b910ff1afdd321b33aca6e12c72348616000e2ec8c03e83fb365079b",
+    "data/raw/south_central_2026_11_05/sc_la_hynes_handbook25.pdf.metadata.json": "c05ba3ccea25fadc7b6481d602484edf624864a7550aa8875c8a28dcbfcaa355",
+    "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html": "17df13b33a528750c2da0bba0f7b759259382e8570e5c512d3010edfe9901d69",
+    "data/raw/south_central_2026_11_05/sc_la_isl_admissions_redacted.html.metadata.json": "c2ec23b16cbda5e952fbe4be54d072657f923fad3d788913594f76bf3bc0a334",
+    "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html": "f0a1ee709307d4471669df1e008f3e9508e4ac55faa0b1442a638f0fac696247",
+    "data/raw/south_central_2026_11_05/sc_la_isl_copy_redacted.html.metadata.json": "dd3a08eb9becf8a2e2bfa02234c74b078a339197887134d15cdfe665437d4cdf",
+    "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html": "c60a55407bd3e99a9aff2be933b1c353b154465034a1e7debe460ef631855ad7",
+    "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html.metadata.json": "6249aedcc3ec9a90c0a7560d15676c7ddde0b1182b92912466d697e177e6dd68",
+    "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html": "119d8c859bc3ae2077e34f26ea897b5792c156ef7db893bde4f762e83a5adb29",
+    "data/raw/south_central_2026_11_05/sc_la_isl_redacted.html.metadata.json": "183a7d4d9f7e14bf9c719d3e31fd709f39fc1989672bdb6f3619193c55ed729d",
+    "data/raw/south_central_2026_11_05/sc_la_jp25policy.pdf": "e5486f70380e94371501e9e76fa54bbc3d5a00a273f3a737be558e11b66f7a90",
+    "data/raw/south_central_2026_11_05/sc_la_jp25policy.pdf.metadata.json": "6cfa8d10f69f5ccbe46886e0d87f6f0cb764f72b203933fd86a1c1763c033d73",
+    "data/raw/south_central_2026_11_05/sc_la_jp_dual.html": "35570c6de771e348307fb30b7b296bf52f7678433bf316c173021c3348786190",
+    "data/raw/south_central_2026_11_05/sc_la_jp_dual.html.metadata.json": "88e41280ee1d9329199ab039d1ed6010a101ce5b1878bb8c0706e3293bd7a7f0",
+    "data/raw/south_central_2026_11_05/sc_la_jp_ellis.html": "e1fcd803b118c7fb19ca3f7ab398997b68f865733aaf85c65d99ca1d72f6fff4",
+    "data/raw/south_central_2026_11_05/sc_la_jp_ellis.html.metadata.json": "7753d3c345d30f3951f2b44706b6636629ff4e907a69674ad18d028104e57a4f",
+    "data/raw/south_central_2026_11_05/sc_la_jp_magnet.html": "050864410b6c546bb7a56844c430bdf6d502e530f04459fa9f4cfd76c9303041",
+    "data/raw/south_central_2026_11_05/sc_la_jp_magnet.html.metadata.json": "374f8e18a06ad34a2d613a960e0f37cf1214c05ba175f506dc0b2d3c44261e4c",
+    "data/raw/south_central_2026_11_05/sc_la_landry_faq.html": "a4eb5345e54b3a5ccc2350e54bbbf6126779f03b3d5e1d2ca4a1b8115f687dd5",
+    "data/raw/south_central_2026_11_05/sc_la_landry_faq.html.metadata.json": "1442fa0073f6fbe48e5bde68c4aa35a1409c8646edfc4f9627b54567a3d5d1b1",
+    "data/raw/south_central_2026_11_05/sc_la_leblanc_imm.html": "cbc4443530f62473f64f789c498ed743853b1c0c8805bb8951659ce564f155b8",
+    "data/raw/south_central_2026_11_05/sc_la_leblanc_imm.html.metadata.json": "900358c5da6547514c69cf0966e550cc6d300b9093752a0df1f48cb6071ce0e6",
+    "data/raw/south_central_2026_11_05/sc_la_lpfi.html": "be830d500850eeab9a226e696bc358bd8fb55fb6267d3598856fd65249c97ab4",
+    "data/raw/south_central_2026_11_05/sc_la_lpfi.html.metadata.json": "935efdaef82d655f6e856a043d9d95b0e62b8b26e6856f84928ba11ae6a9945a",
+    "data/raw/south_central_2026_11_05/sc_la_lrca_language.html": "0886d7ca9dfda5adb5a6c8958c758a7f8544ebbe8bb2996502f250886d5607c2",
+    "data/raw/south_central_2026_11_05/sc_la_lrca_language.html.metadata.json": "3116e7669fdc9293b57516be22a85b968ed9953c35d27ab41ab55ff83a40f2dd",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_campuses.html": "8406e96a211e657a62337ca201cd5190d67e6c26707dedbde5e81bbed4ed72de",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_campuses.html.metadata.json": "6a3658cb143c2731474b8a6feed9a0bd07087559d500b5a083ac916b9c466103",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_open.html": "e08345de55e58b3c0f7a49bc15df469c49b3f4ec8d533c480329c1f8ec4a30e9",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_open.html.metadata.json": "fdd1dab9517d9df219480e50df895c61e5c4657834d105596e334faba04c862b",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_priestley.html": "61ba95bb985866410a460ec5df4486ac2793445d4f56a6c03f82c9a3893f9e76",
+    "data/raw/south_central_2026_11_05/sc_la_lycee_priestley.html.metadata.json": "29957eb607fd631585866c58671013656abf6061e5a40c224616c81805f72b85",
+    "data/raw/south_central_2026_11_05/sc_la_mamou_imm.html": "812da9714b70d6bf3e96b7c3b925c818fc0a5e5b87d1e9dfbf5d1bdc3b3505fc",
+    "data/raw/south_central_2026_11_05/sc_la_mamou_imm.html.metadata.json": "4ef90566c832e837319112bff29818f48b716625917eb0e0d5ee3f243937e494",
+    "data/raw/south_central_2026_11_05/sc_la_mandarin_link_15.html": "2eb428fd356cc4e68ff8bf3e6a1c1fe7bee93eb8a8695ccace38d63d689dad8a",
+    "data/raw/south_central_2026_11_05/sc_la_mandarin_link_15.html.metadata.json": "3509cedf7b6d2b1c261f9f2b1bd837d27b2af6e75c290cdaedb712fa9749fc9f",
+    "data/raw/south_central_2026_11_05/sc_la_map_1.html": "2805a9fbb80a4fb6257da72f4ade5bff18df51f4f9426232a3245d7f68159c4f",
+    "data/raw/south_central_2026_11_05/sc_la_map_1.html.metadata.json": "cb3cd4328fd79fbf6542147eceafa9810f27179c9b46c5d23f78a21c301368af",
+    "data/raw/south_central_2026_11_05/sc_la_map_2.html": "8b7a0dc5018433950b63adcda070c703b5c1ec912a28d6f5c18c8c7a0cdbb795",
+    "data/raw/south_central_2026_11_05/sc_la_map_2.html.metadata.json": "5f8d5190ecbf725c9b5e6b843c1f1aab8cf504d3f7767584c272b87a197e3814",
+    "data/raw/south_central_2026_11_05/sc_la_northlewis.html": "af6b29427a3e679a8910810f5da673515b5feae7690e0a21cc130131750b632b",
+    "data/raw/south_central_2026_11_05/sc_la_northlewis.html.metadata.json": "e425d73ca7ac2c44c5e19c91c260f871cac9d104e6778107b528851e3eec31bd",
+    "data/raw/south_central_2026_11_05/sc_la_pointe2025.html": "fc693514cd87a45c2ec54a3b59b75579b84cd0fdb4180978dba2afd6086def03",
+    "data/raw/south_central_2026_11_05/sc_la_pointe2025.html.metadata.json": "09bd8fd8dd3309e96a702427b42740fd26f6ff103fa713d63e4ba9c59e120a01",
+    "data/raw/south_central_2026_11_05/sc_la_rougon_current.html": "962b0910bcdbf3ff3d6dd3054e40d6724cf52e0d1ec5cc24d9ac5c4acdf19aa7",
+    "data/raw/south_central_2026_11_05/sc_la_rougon_current.html.metadata.json": "dc51b6bb0b2d776b353527362da1a95fae9ed2670d8351e8d2b0f210bdf6d29f",
+    "data/raw/south_central_2026_11_05/sc_la_rougon_old.html": "0db8c689dd6a471270b0beb3b1277405276016439b0780e1debcdaa869580263",
+    "data/raw/south_central_2026_11_05/sc_la_rougon_old.html.metadata.json": "6b3bc729edbe646fcbb150df0ea0a1a23181644df0ce90e20086bab6ae8409bd",
+    "data/raw/south_central_2026_11_05/sc_la_ruppel_program.html": "339ebd96c1f33d9f2be6160e3ee036200f5c37da75ca9686316fc7df001587c4",
+    "data/raw/south_central_2026_11_05/sc_la_ruppel_program.html.metadata.json": "2d81ead3113cc0ac5d279450e2ab3f9d270a83d1f8a65472a86289cb236c2bb2",
+    "data/raw/south_central_2026_11_05/sc_la_state_world.html": "ce58009920d1b8be8f12ef32fdc43ecbb0672ae3327e17b43de727a95e523147",
+    "data/raw/south_central_2026_11_05/sc_la_state_world.html.metadata.json": "1da798499f5e4700f8b8e35813a9696cc1e14fc7a893b8ada42e7894a53c14a8",
+    "data/raw/south_central_2026_11_05/sc_la_vermilion_pamphlet25.pdf": "c5eb212550e802558726c2cee53e427dab21f6f1becfcb65d1836894f09223f1",
+    "data/raw/south_central_2026_11_05/sc_la_vermilion_pamphlet25.pdf.metadata.json": "e47fde8d3e251f2b93d286085858d3581646d6c1864ba9671526fcf3a92620f6",
+    "data/raw/south_central_2026_11_05/sc_ms_choctaw.html": "af0d831fda84fd9cd458c30aa89c50d9a4f199edca57ef23ff2de5a8d7fb9787",
+    "data/raw/south_central_2026_11_05/sc_ms_choctaw.html.metadata.json": "7d8d449f37bedf3fb4cb16214f0141f56d648783fbec0fac8020c83a9293853a",
+    "data/raw/south_central_2026_11_05/sc_ms_clarkdale_dir.html": "da552c3c9c2e8485e9adca0296133a94fa4b4d6c80f92ddcd24c528f92e2674f",
+    "data/raw/south_central_2026_11_05/sc_ms_clarkdale_dir.html.metadata.json": "8f631f27d7e2e72d221b69c85982e7e2f864ffcf975028b0275e40fb101ca31f",
+    "data/raw/south_central_2026_11_05/sc_ms_directory.html": "262d10b817ba9cb6a823e11b551594c4721a66cc6921780261f283c06c4a124d",
+    "data/raw/south_central_2026_11_05/sc_ms_directory.html.metadata.json": "8107540f309a2cbcaffcfb032497066d763cbc3378bfcfd245603c349ccf2283",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee.html": "7c25323ae41e3dd48141b5099fbb6990e04e26eca67d2197fcc6e1b1ec2e8c34",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee.html.metadata.json": "6edeef48fe16ff598d776ab71fbef4da5303e093cb394984bb79bfee8e1671e6",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_change.pdf": "7b3fcec14439a47ed3e95a1c6011b703b8852bf0ac38466b583b2d3fb7f7ca94",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_change.pdf.metadata.json": "62fdb7caae3bf126f04d0e00912d36cb0ee4c548cc54d3cbd73d2138ab4ee58b",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_grads.html": "f8fb447f64858e988a6cc9f70ac5ae99cca279b48def7bc274969460538c2165",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_grads.html.metadata.json": "a3baa78a1facc8e3247c70887fb89e044185bcbf62563be79d927740b84a05a8",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_independent.html": "636fcd2960d535c65ba0f3f68d119f7f8b4b87880393770b6d1a94502a08bae5",
+    "data/raw/south_central_2026_11_05/sc_ok_cherokee_independent.html.metadata.json": "e0979625ef0e4eb21a15db4d40e2498c76dad803e70f241e31093105338d2709",
+    "data/raw/south_central_2026_11_05/sc_ok_cnic.html": "336ac57e216f097e70de456ad68b1bd83533ffe0b27a73e9b343d85c25bf5c23",
+    "data/raw/south_central_2026_11_05/sc_ok_cnic.html.metadata.json": "35c22fbdef36a3fb2cd83e06db387a73e03cb48355633ab8d4a5f258055ff0b3",
+    "data/raw/south_central_2026_11_05/sc_ok_directory.html": "75bce732f374f8a02d37c9cac7e2a37ee33183424d2d0a0f4d21dc91ed09237f",
+    "data/raw/south_central_2026_11_05/sc_ok_directory.html.metadata.json": "49af5acf70c6542fc608866b01f9250b8728aa603fa776cb35adc19deaa42488",
+    "data/raw/south_central_2026_11_05/sc_ok_eisenhower.html": "02b3b9b87585dffeb30d7d968c85097e9d1978ea186bdf24e0bf700bee1edaa6",
+    "data/raw/south_central_2026_11_05/sc_ok_eisenhower.html.metadata.json": "6653878516b679264c29e73dfd95c7a054fb69d121b90ab31e4ba366e9a78f7b",
+    "data/raw/south_central_2026_11_05/sc_ok_jenks_end.html": "f0e56c68626cc25f22dd8512ae6226172c5a1c4c6b209103eefd92fb7420d663",
+    "data/raw/south_central_2026_11_05/sc_ok_jenks_end.html.metadata.json": "0da23e8d538bdc3311a34f90b0fddc7c0100963d32985a12355b8c1bbefbc9d1",
+    "data/raw/south_central_2026_11_05/sc_ok_lee.html": "22d2b211499c87159fac5bb1cfc52d6e160fb19454ec74acf10cd3ec5881c7c3",
+    "data/raw/south_central_2026_11_05/sc_ok_lee.html.metadata.json": "6969d3b206fb4ae63c93186f11c2a4bba75ec30c5c98d20b4fa0a8d30e64aabe",
+    "data/raw/south_central_2026_11_05/sc_ok_lee_faq.html": "eb3b1492a64b1362d25648ae363ed0ae95b2d207322eda8686bba14cb247713f",
+    "data/raw/south_central_2026_11_05/sc_ok_lee_faq.html.metadata.json": "16eb4e65d3eae42ca2d81a02bc912f33acd319ced10d18e6c31f8e5c085d964e",
+    "data/raw/south_central_2026_11_05/sc_ok_mendez.html": "7a52a97510519d735fc88f0a835c859d7593224bd8dc6eaeff6cb6f0770eae75",
+    "data/raw/south_central_2026_11_05/sc_ok_mendez.html.metadata.json": "8e7dde16e611c01349420c748c8ebff45906e86f4e3b9b3f7c47e307802109b5",
+    "data/raw/south_central_2026_11_05/sc_ok_mendez_about.html": "efa7d9f4bd135185e77340e5cdcf4e4942ab6c30e70274be8a8ba1671a8c84fe",
+    "data/raw/south_central_2026_11_05/sc_ok_mendez_about.html.metadata.json": "319b4aeea87738c739ecb2b0d675f71d96beab299e63d187080a9e2b6e800bd5",
+    "data/raw/south_central_2026_11_05/sc_ok_norman.html": "410fccbc7e05236a79911a037ebf9c857fb44503d12a161700f34eb92130bb5e",
+    "data/raw/south_central_2026_11_05/sc_ok_norman.html.metadata.json": "4f3cf215eb5a6fd716b9ea2d8c60cf6d34cba4d8e7045b50a06c27b995e0c4db",
+    "data/raw/south_central_2026_11_05/sc_ok_norman_launch.html": "e6c277f47923d65ef6077eda2b62b001d476d63e4631fca9f7a2da64e32f9e11",
+    "data/raw/south_central_2026_11_05/sc_ok_norman_launch.html.metadata.json": "355adfb455995151cdc0658ec4430a8dd8bd612f5af325471a8d4ff7f5d213c9",
+    "data/raw/south_central_2026_11_05/sc_ok_osage.html": "8a757e9d234f20b16f9379a009a3c19124aec1647838bf03df7925b8b93752b3",
+    "data/raw/south_central_2026_11_05/sc_ok_osage.html.metadata.json": "8a443760b3749d48b3629ae39efb6be82eca95595f6016bc77ea7f9aa1ed5411",
+    "data/raw/south_central_2026_11_05/sc_ok_osage_end.html": "aa0673f19498f08816a6ad4eb5254c1de1f5af6a335dd158d432d36a530da3c1",
+    "data/raw/south_central_2026_11_05/sc_ok_osage_end.html.metadata.json": "20ab9ca225fefdfeb2a6b722f82bf4eba08adb10b6a13b3ce88b13d3f62c5199",
+    "data/raw/south_central_2026_11_05/sc_ok_osage_oct.html": "382807b10234c42e1a70d825697ce48642a96f9932f10931fd31430ecd2a2f36",
+    "data/raw/south_central_2026_11_05/sc_ok_osage_oct.html.metadata.json": "f5849dba89334b81116ed42c00cc173889603e8c98f82d2f7fc5015571394692",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa.html": "08f2226fd14055501b00331808377f5109e44981fd074d5603bc0bd6d3ced39b",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa.html.metadata.json": "9484eed255eee20f7ce0d2b6651d8a67fa8d28b00cd7e6b93f34bb644d0a6452",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa11.html": "f4f91ed16d92dbc39770a63f7524373da940c9fec7c05f223ce7a364bba06eca",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa11.html.metadata.json": "da748761449974840c0595a64827d775335345a0ac0b6143bf77bf28ea904e9e",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa_changes.html": "014be5762c28507306e4d2b12fa6b025a8458749a70620b7b682b25858963cea",
+    "data/raw/south_central_2026_11_05/sc_ok_tulsa_changes.html.metadata.json": "fc4fa21c0433b0122f36d79457909e4f87ea4d6df00d1e12125cc7ece4ed2e96",
+    "data/raw/south_central_2026_11_05/sc_ok_western.html": "74facab7968607ee98edd09ec9dc29bd933184e3130e7346a90ff0b2794d9ccb",
+    "data/raw/south_central_2026_11_05/sc_ok_western.html.metadata.json": "e20e884738540c461c0d39d1a3ee69c14fd5cc59f111ea7ffca08a3c17ac8b72",
+    "data/raw/south_central_2026_11_05/sc_ok_yuchi2025.html": "2fe742a5183cf83422dfa1428fc29ae0f112e5610971709052976c9b0e474d1b",
+    "data/raw/south_central_2026_11_05/sc_ok_yuchi2025.html.metadata.json": "2049a1b7070a5b66ac8f9535c1f7941c316d46d9118c7201357e80a3927bd5a5",
+    "data/raw/south_central_2026_11_05/sc_search_la_lpss_burke.html": "68c783e404a5878f78ce72672574dc329a28c0bfd736130119b7461dc611fb5a",
+    "data/raw/south_central_2026_11_05/sc_search_la_lpss_burke.html.metadata.json": "b8d7212d91e4687a0e05e2f9e695e6c9344db5221d69e9e076039a20e5653566",
     "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_01.json": "35e76bf2771c6594f3cd7c2cbf15f5ae56fcc09c1780dfdc3ceea540c65a61e0",
     "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_01.metadata.json": "56b5c15e290b5869fa7090f29f05c547b73cced7ec1e5de40e9e40964cdc2747",
     "data/raw/tx/grade_context_2024_25_captured_2026_11_04/page_02.json": "cbc0863b966d149ff0b23d2dd2d68e4a2cf1b0a7fc006dd8c860d1ec49398f51",
@@ -1058,18 +1217,38 @@
     "data/raw/western_plains_2026_11_04/wp_ut_slc.html.metadata.json": "e65df22a1342994f7ddaff48f65eca56af3eca01d3f7c4a0f0a1d425f7f61aaf",
     "data/raw/western_plains_2026_11_04/wp_ut_tooele.html": "3cc3362a859bb84efb22e371ae8c4513434c2c0bf2934e0526836180bf236ae2",
     "data/raw/western_plains_2026_11_04/wp_ut_tooele.html.metadata.json": "7bf822447d3451ca64d05544b6eb7c8e601c1081b11711b626cd16e567b22ef6",
+    "data/registry/README.md": "d59fde959fb34422b2c5ea5c34a1d3c2080a9d4c6c97b49ae7048a07a56c648f",
     "data/registry/five_state_2025_26/change_events.csv": "c790351471e20d888753571f2a315b5a5ceac2ea49347101f37afcd08b117c2c",
     "data/registry/five_state_2025_26/change_events.json": "435d3e5bad304d7a45c98bb99a44df34f83ded6a29cf759ef7b77bc7434c89c6",
+    "data/registry/five_state_2025_26/change_search_results.csv": "f206335bfd95e62a9d79700a39bca229bab6e582b8b933cf17a36c27e509c0f8",
     "data/registry/five_state_2025_26/continuity_reviews.csv": "22f7960030fad0615202b1808d7f1ad1b554d68c21caaa3168ac252cfb072389",
     "data/registry/five_state_2025_26/continuity_reviews.json": "3d15014bbf5338284e8473903de0226dee59b5eb869d2235186b32385da6a409",
+    "data/registry/five_state_2025_26/coverage_summary.json": "e9e2bc4861576e1a5be4b765dd522f81c599562a62af243890792eaa19a1311d",
     "data/registry/five_state_2025_26/curated_claims.json": "ed2e219c035a7c63832dad2f54829959e13fc8d6888cdd3b3cc8652ef74aca80",
     "data/registry/five_state_2025_26/evidence_ledger.csv": "2d9137132196e0177259a7a1d94f59a82158682e6d742d9e234626b9f8e4f6dd",
+    "data/registry/five_state_2025_26/fresno_roster_crosswalk.csv": "98c35f3adadd704ec492d9756d3d095b9497da7930a7fd969ffaefd0faedbdb0",
+    "data/registry/five_state_2025_26/kindergarten_instruction_languages.csv": "9217f0563b201a7c9b4c356085c37f247046b23c27638ee778ab93b2d86778f5",
+    "data/registry/five_state_2025_26/language_pairing_counts.csv": "0d5ebd5b8e534bc239c95570f4881a7ef9115d4b98abc5a3c5104656511dfdd7",
+    "data/registry/five_state_2025_26/research_status.json": "cae189098b46f4da3c287365e79e10bc22bc09722431b2e85f5e2223c632452c",
+    "data/registry/five_state_2025_26/source_index.json": "8ec8e9a6fe6e96d002f382b563bc998c24768fb7e6b828714c833124b0a46528",
     "data/registry/five_state_2025_26/source_snapshots/fresno_dli_schools_2025_26.pdf": "116f7c142179e63bd9312e6a16aebd6cb8e52df02f20985b391a50de857f49e0",
     "data/registry/five_state_2025_26/sources.csv": "eadcb79d5f18e2d75c62d1e534295ea4a97339f217aae41102a895ede44d4fa6",
+    "data/registry/five_state_2025_26/validation_results.json": "75ec7dfdb87fbe198ae6d7eb5a1b5f12705d566e73010c4459227fea7315a1e4",
     "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv": "f6c6165692a991eea2e76d4c2870cda4dbe3c515f5e4c4d2015acf80e95a2628",
+    "data/registry/five_state_2026_27/coverage_summary.json": "b4d6e7eb9e512c58361749684944e89315406d05039f3b2faae031c2e15d50d6",
+    "data/registry/five_state_2026_27/curated_claims.json": "a96131a271e766b84535e0101ee1e62e202cb133225f6df5a6bfa8df15621d4f",
     "data/registry/five_state_2026_27/evidence_ledger.csv": "7d0f97156ed80169cbdf1f06359212d1e51deb07be605871be81ce59fe3afe1c",
+    "data/registry/five_state_2026_27/kindergarten_instruction_languages.csv": "a156e65354fcbcf3386b7a2bb571e66d4915351ab54162a228082f067a804752",
+    "data/registry/five_state_2026_27/language_pairing_counts.csv": "d7211ea46ed763084d694a22c72a656f48ee7b91a1369a22f632accd242d1019",
     "data/registry/five_state_2026_27/lausd_directory_snapshot.csv": "b89558340ad28f4045d818b7b8741dfd50314dcf3d33c6f37d56d74e0ee6be99",
+    "data/registry/five_state_2026_27/research_status.json": "1667e0fbfa19492853b538ad1a8e172fb2771c87c7342f56b893bcaa5bea4d26",
+    "data/registry/five_state_2026_27/research_status_resumed.json": "9a0b17639bea213fe52a1c7bf756834cc551284fdd8abfb3e4fb658385c362a4",
+    "data/registry/five_state_2026_27/screening_decisions.csv": "6c36b5146a5ae525693c584d6c877ba3065b03fa702a401aa78aeec65d2dba5d",
+    "data/registry/five_state_2026_27/source_access.csv": "069cb0354db10e0d7e04f1829b70eaf877bf3bc7a6afcf4fec5b0c3672723c0b",
+    "data/registry/five_state_2026_27/source_index.json": "8d87398740e1f941c6d2937e94f131a2c08be2f1916afd062884d57d4b30ff9a",
     "data/registry/five_state_2026_27/source_snapshots/cde_mlprograms_2024_25.xlsx": "f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215",
+    "data/registry/five_state_2026_27/sources.csv": "8f227af0214233f977bc03b2a941e3aeeefaddacbbd5fb2edb4722fd1790c41d",
+    "data/registry/five_state_2026_27/validation_results.json": "b1ca9f1fe01354bebe465fcadee87437be00f602819046c9290481b114f0a24e",
     "data/registry/great_lakes_2026_11_05/README.md": "e0df7a97ce26a6e728a02d4d23c42bc3f95a99ba109c098a60f33a38a96a601b",
     "data/registry/great_lakes_2026_11_05/extractions/gl_cps_albany-park.txt": "b12ff2db0b21de0cc6fd3edce89f8eb111110d05b21de13c8d1c57242a457ac4",
     "data/registry/great_lakes_2026_11_05/extractions/gl_cps_avondale-logandale.txt": "26d8d22b6cde3087120dfe117067ccbea4cf88b48ba7f5a049d9f4d237f34377",
@@ -1275,13 +1454,22 @@
     "data/registry/great_lakes_2026_11_05/wi_programmes.json": "7d026183c836ccb17356199ba353a61e0afdfcdceec57e3d6a56dbe12c755cd4",
     "data/registry/great_lakes_2026_11_05/wi_schools.csv": "13a7d7e049672745aee12f43a1744093d530ab10244d2cf78c37086781bb0b3b",
     "data/registry/great_lakes_2026_11_05/wi_screening.json": "05fe515a3f564b1d6f1781b07dd5e7d7a6a6654c4b6db63c82376c2275c187b5",
+    "data/registry/illinois_2021_22_user_2026_11_05/README.md": "e0c1ba4d6f5474f36222561d69c564ed5347262b28abf3dd55a99b2950a23632",
     "data/registry/illinois_2021_22_user_2026_11_05/codebook.json": "edcf7d62edf905bdbe2b94d2daffef8eb257e63fae59681d11fcc14211ba4e8c",
+    "data/registry/illinois_2021_22_user_2026_11_05/historical_models.csv": "5cba10bda0e8ada236b656ee0e32c2be893f1f30e3bdf842c3b69668b2e37bfa",
+    "data/registry/illinois_2021_22_user_2026_11_05/identity_reconciliation.csv": "0a236ba7419dff6321f8f465cc8192154869108339d01487baef787872ae92cc",
+    "data/registry/illinois_2021_22_user_2026_11_05/il_programmes.csv": "e087403eceff70a177feccbde20fe1bda60a1f5fec20227331e5fdbf36b32184",
+    "data/registry/illinois_2021_22_user_2026_11_05/il_schools.csv": "d8f674cbd0b3cf12ece544e57ba77b5041fb096d3613bb779f1495debf2a22ea",
+    "data/registry/illinois_2021_22_user_2026_11_05/inventory_2021_22.csv": "187ccdff0cdc83c7f3289d4004f9d6c2dddd8aa1ce8ce93e94f7f0b7e6b04f37",
     "data/registry/illinois_2021_22_user_2026_11_05/new_programmes.json": "d3774805ffa8a9a2a1baa9820da8ebe547e10f360dc21c0ceccdb42446efdb54",
     "data/registry/illinois_2021_22_user_2026_11_05/new_schools.json": "1943fcc219c06d2ecca6233a1e41476644a7ba3fedd101ac1a95d8633c68730a",
     "data/registry/illinois_2021_22_user_2026_11_05/policy_decisions.json": "6c715fb2553be6a4d08959554a8eac7e3119caa77f077a3eae5ff135e52e7907",
     "data/registry/illinois_2021_22_user_2026_11_05/records.json": "d4c83a9d53b5658a9aa22a5d9a19e3dd851c4f953b179d4241bd605012f296e3",
     "data/registry/instructional_history.csv": "8fcf987de892d2ef14ddabe5d098229e646aea7bf577ba26dcc06715e968499a",
+    "data/registry/northern_central_ak_hi_2026_11_05/README.md": "45e1d17893200272dcc189788ccd880f6b76b37b82c1bd3c602a2deb7c820f4f",
+    "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.csv": "240271d6caf59266d71aa02c94cd91501ea8100dcba292fa6fa28e4ad192be44",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.json": "bf3dd8907ce8e40f442447f43f2f2ab863816053e5feb2d103e9ce84b4f457cc",
+    "data/registry/northern_central_ak_hi_2026_11_05/ak_schools.csv": "04e24c71bc41e6e53444bed1f122d61e729ffd03be3dfdc58d5bbc88e125a950",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_screening.json": "277de211683d7c411ad772ff71b7111d39714d9243d4177fd28973d861dfc923",
     "data/registry/northern_central_ak_hi_2026_11_05/extractions/ak_asd_school_language_cells.json": "53b205aea0666a5dd6cf336cef2200bd60d5eb8de69bec24e326130e75114359",
     "data/registry/northern_central_ak_hi_2026_11_05/extractions/hi_directory_rows.json": "0e607606e24f4bf6b117dda6f71db77f06a8961b9ee705497cccb1ae8035962f",
@@ -1402,33 +1590,156 @@
     "data/registry/northern_central_ak_hi_2026_11_05/extractions/nc_w9_a6f40d22.txt": "977798c562878ab44ba9e1be4b1a8ee3a022e886dadbeacd1d1f54e50b1e8c88",
     "data/registry/northern_central_ak_hi_2026_11_05/extractions/nc_w9_b5ce6428.txt": "38b643f178f9eb1e825aea80c6eb1ac1ff7d6986d077a9947dd4a1628cd2e2e9",
     "data/registry/northern_central_ak_hi_2026_11_05/extractions/nc_w9_d0ed4220.txt": "ce73d72eae6233bb33fc0ff1843913964915f1d51507578953e89090b601ec0e",
+    "data/registry/northern_central_ak_hi_2026_11_05/hi_programmes.csv": "2fab4a218559be40cfc14649c6777f0cbb3c4dbc1e4daeb80cdf7e1093a27195",
     "data/registry/northern_central_ak_hi_2026_11_05/hi_programmes.json": "d6bc256bd5012f50d5c6385363ffc06d0f9b8ef2324b1498768f91c5e099c5d9",
+    "data/registry/northern_central_ak_hi_2026_11_05/hi_schools.csv": "7a6c683bbcc5af3e172f1496de55820f0d42797e865ce7fe6983d10a186c9724",
     "data/registry/northern_central_ak_hi_2026_11_05/hi_screening.json": "507d2799ca9412fd25f557f080abd230c2e32726c536509eb0a7ef12264af8e0",
+    "data/registry/northern_central_ak_hi_2026_11_05/ia_programmes.csv": "8304c5e993398d212d01cf9149a6b3d38c47589df5a1c7adfd80ffe69074bd1a",
     "data/registry/northern_central_ak_hi_2026_11_05/ia_programmes.json": "cd36bac9974bb86fc7525a1c5b96797be0d7e730fd8debcaca737038ec565be3",
+    "data/registry/northern_central_ak_hi_2026_11_05/ia_schools.csv": "1302b8b1db0f1e6fc0957cb3f8a6403e45a58f5bcd80f359a979d720e055b112",
     "data/registry/northern_central_ak_hi_2026_11_05/ia_screening.json": "4e762eac07005b933e46c20c989264b891f148cb53e0a1bbdf2802270d48b132",
     "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json": "abcf85da99ce94053ab481d28658e85f745608a9fe8f993a3da466f1c60f7298",
+    "data/registry/northern_central_ak_hi_2026_11_05/mn_programmes.csv": "07bef920906a0c56b5feedc3ef1cbada409c9ddc3a12265233722f1048440eed",
     "data/registry/northern_central_ak_hi_2026_11_05/mn_programmes.json": "7d426dc95bb912510644280b1631d3b590bec096cbe67c12bc876d91435a5592",
+    "data/registry/northern_central_ak_hi_2026_11_05/mn_schools.csv": "475e2f61da4da2ffc27e8ed2478f8553170b585af24e87a69d44f70493966c10",
     "data/registry/northern_central_ak_hi_2026_11_05/mn_screening.json": "92316a108a782f080e42174e2c5b2d8a2b32ee3c699a657671056dede5c0d911",
+    "data/registry/northern_central_ak_hi_2026_11_05/mo_programmes.csv": "af8bcbeafff8aad375222ca168c653f559965bf694949f39293cd713efa454cc",
     "data/registry/northern_central_ak_hi_2026_11_05/mo_programmes.json": "75fbaffe9354adf29e49a28d432251da0f7d24148fc73782b7e3d1b96993d475",
+    "data/registry/northern_central_ak_hi_2026_11_05/mo_schools.csv": "19184c99890fe0ca566fe5eb0f7a21b5d7c7b49b2497eb684c35bfc481ac7afe",
     "data/registry/northern_central_ak_hi_2026_11_05/mo_screening.json": "38323422acd92e0fe8e6addfe1f7acf0d8af2a2fdd5e1991a468280e7213242e",
+    "data/registry/northern_central_ak_hi_2026_11_05/nd_programmes.csv": "e48132ed3fce908a20a38a499d2ff22f988ac6f52af8bedf9b3944f7cbd01e29",
     "data/registry/northern_central_ak_hi_2026_11_05/nd_programmes.json": "5542aee2186870778269995a4abb46f5417bd89b433d9fd102c12b37e1f88f75",
+    "data/registry/northern_central_ak_hi_2026_11_05/nd_schools.csv": "44254a4faa21c0d2849dfe45bdc260298ad729f54df2803f1c92789cddc7dc0d",
     "data/registry/northern_central_ak_hi_2026_11_05/nd_screening.json": "65b512021a9bb570784a45f1cd8be81ca7d27cc8b6d5e353f72b6ca8f942bf1b",
     "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv": "22f03a8933e12c04fc76767a491252523c682b9477022cda930585a240ee24ba",
     "data/registry/northern_central_ak_hi_2026_11_05/reviews.json": "2519f970d5be0af5c8a4a80bc53b9f7abeaefda1bbf9530a8def625671fb7bed",
+    "data/registry/northern_central_ak_hi_2026_11_05/sd_programmes.csv": "c74c631f9dd073031a505164c32c55da92c9af9a7e4ef234ccdb9de0023b913a",
     "data/registry/northern_central_ak_hi_2026_11_05/sd_programmes.json": "2f30fe848e93611d0d815d953079a918c2b97fd636058a3c080c923543aabfd6",
+    "data/registry/northern_central_ak_hi_2026_11_05/sd_schools.csv": "b982478a39d1dfec574202655e50a5b12e2057f35303238a652db88a02431baf",
     "data/registry/northern_central_ak_hi_2026_11_05/sd_screening.json": "4b64c88bf4fd5f7c923d4f18893d37e5098aec2adc4bb2934d878406fab1cd49",
     "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json": "e845dceb5df8c58272b8517dad77db273762c72de27f2e6c86984babd04576e7",
+    "data/registry/northern_central_ak_hi_2026_11_05/sources.csv": "94b1aa84c17e1a4315b70a2415cc1866dcdf91d8c95b302ddea36cabb18ee34c",
     "data/registry/northern_central_ak_hi_2026_11_05/sources.json": "b9268a77375a5f7772d303144b2612210838f1cd5ef8c203854efa5e92325b4a",
     "data/registry/oregon_2026_27_extraction_audit.csv": "bdc882f142956a78290a75abb5eaab7aa63b338a044b7574b62037500132ae3c",
     "data/registry/oregon_2026_27_summary.json": "940b432985d47fd7d3982bf3fc717144e3968f528db5d1c83ad8bfb907cbbb40",
+    "data/registry/oregon_nces/oregon_nces_match_candidates.csv": "d2ed5bde50c648f0fc6bd8d65434ef2213e7057c20830a44ed78ba4f94d16b4d",
+    "data/registry/oregon_nces/oregon_nces_match_summary.json": "0eba372321c1886b6e069bd14653d3fbda189e15b49a2d291de9ec9165beaeeb",
+    "data/registry/oregon_nces/oregon_nces_school_crosswalk.csv": "bb4eda49bce73bc40319c22ff2d71388176b30bd73d83c4070b460b3371feedd",
+    "data/registry/oregon_nces/oregon_program_observations_with_nces.csv": "7d774f8db808734b02e766883789b37df550ec9c3f8a51b8a8a0e082320dec70",
     "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_audit.csv": "1c7303711651d3b4032180861a50617cc3d56545b34125a6d17c19d268f19623",
     "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json": "8d4b6bdd701a4c99d7440edf2e741869e1253385d5bf6fbcbac301e532319f4c",
     "data/registry/oregon_nces/reconciled/oregon_nces_school_crosswalk_reconciled.csv": "8a2050b6da5fa92a3a855c471e11faee02cbe78b00ed9bca4ff0da17ef08e901",
     "data/registry/oregon_nces/reconciled/oregon_program_observations_with_nces_reconciled.csv": "a77de8f703720b1cc22bc5e8364c705573f3f55343060a89735d7e2e69dc838d",
+    "data/registry/oregon_repaired/provisional_noncomposite_observations.csv": "113318e7489a580991b545ace02accf65d50dae3df6e01898581ccaa6053f410",
+    "data/registry/oregon_repaired/repair_report.json": "dc6cb84ce8f41183246558fc463762a1d40c44ff52d7d49662264c7f13e5f217",
+    "data/registry/oregon_repaired/rows_requiring_geometry.csv": "609b69579417ec62fbb811c65330cd19b8fcd91ba7c338b68592a6b7e5044d03",
+    "data/registry/oregon_repaired/source_rows_with_status.csv": "b81a36e162533ba86bfb19fff7a082e423b2344b9be916ee6f2c5904582f1dff",
     "data/registry/program_sites.csv": "716fa91c989499f5b50fd16cbf346ee9ac944ca347ae588206c29f1c16788e4e",
     "data/registry/programs.csv": "db0fe8beef043a06e5baa39fc525fabed68730c65b19478e87b2a8668f443ec1",
     "data/registry/schools.csv": "a72942f5ab7b61aa91d6259bd5d7c746c41a4f7020492b66d98ea2113369b01d",
     "data/registry/sources.csv": "04d7ebaaa639d2d44398d89d87aa77fc341a37808af8605e6d7ee697dfa33d9a",
+    "data/registry/south_central_2026_11_05/al_programmes.json": "c6b002da78e8c5694f29da780ec6a6b0e1a89ffd3659691a8971ff267997777c",
+    "data/registry/south_central_2026_11_05/al_screening.json": "d507d3d4c92e2ab639cb7aab60a262a0764eb9ef6a94ebd6d17bccde3c6eb012",
+    "data/registry/south_central_2026_11_05/ar_programmes.json": "b311e099c4181abf4f2ea5b9b606fc392021f2cbbe9cae7bf656bf66808eb6f0",
+    "data/registry/south_central_2026_11_05/ar_screening.json": "013e7c7d194d21e2d38ad5f7cf59937bbfab275114ebb53af8ce422e5eb5dd48",
+    "data/registry/south_central_2026_11_05/extractions/index.json": "54cd1e86136ec9045c502a5b6e9b1d74e69cfff02573e992874ebf4d6c3d667f",
+    "data/registry/south_central_2026_11_05/extractions/la_calcasieu_directory_rows.json": "5461b00cddbbdac08b9e4f67781db94ab638feb973104a976808622af2b4fcf9",
+    "data/registry/south_central_2026_11_05/extractions/la_codofil_map_rows.json": "4b5e9762102c071dbeabb1265580955cd610c1b1863ce41c579cbd0e10bcf26c",
+    "data/registry/south_central_2026_11_05/extractions/la_glen_view_flyer_transcription.json": "66e8ce09ef1ce9cdc0855f7b726d6a80bf72f39cb2a4c25d7a009fa9ca6c376e",
+    "data/registry/south_central_2026_11_05/extractions/la_jefferson_two_way_rows.json": "003c6b4c1093881513788400d535d93ac6adbc5629cd02882f500aa03093fece",
+    "data/registry/south_central_2026_11_05/extractions/la_state_certified_rows.json": "1bd66874bb32e2e019709821b53ce2cdaa7391eaa4bcaf731faee875d5f1fdd5",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_asfl_lang.txt": "d01ca6c6c00ea0f041b44d0f3f65a7f5d3c879c4c76520fe298d6b36a7f5fdb0",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_ashford.txt": "f2d942298b059dc2b1b3766350108de4dbaf182ec3c309367fa57c95f0ab2a17",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_directory.txt": "741215d9c6dd061dbe37739549e6a9d1491d72631f8365acdce4851f22446ce4",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_harvest.txt": "9b548db6dd055aedb4cdc4966af4dd03e66fa938c0246e296c88b2f14bf5d3ef",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_wash_news.txt": "3620b32633724e9f36ff57fe767174893afa1f68809a78edb53a9620598f7617",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_wash_program.txt": "f5ab9f3eb01a3d44cb178961aadcb01984477f58799901a2409cd777485e8c02",
+    "data/registry/south_central_2026_11_05/extractions/sc_al_wash_start.txt": "337afffe7e14cabe2e8ce32dbfcbafd43b8fe439d5cadceb653259afce4316be",
+    "data/registry/south_central_2026_11_05/extractions/sc_ar_casa.txt": "d66f2992782170f37972465e51ccdc13e99ebe9178b62258b5482de8e1e0e4ef",
+    "data/registry/south_central_2026_11_05/extractions/sc_ar_chicot.txt": "64b8c9f804b9b7ed22905c6cc8ca8c420f177886ae49ddc23cf5d06a35beb5e8",
+    "data/registry/south_central_2026_11_05/extractions/sc_ar_lr_launch.txt": "67f07342d2783ba8b066978beb9ea4f3e3d74d506131d2809a08a0bc23300a62",
+    "data/registry/south_central_2026_11_05/extractions/sc_ccd2024_al.txt": "a822bc5fe9c7b678306a74ad7c208b851a71256cde4c6f761ba12a43279c01af",
+    "data/registry/south_central_2026_11_05/extractions/sc_ccd2024_la.txt": "2f765b1c15a0d659c15cb53d9a5e11bdea578a6c170a73ca49d70f0e354114ad",
+    "data/registry/south_central_2026_11_05/extractions/sc_ccd2024_ok.txt": "57ebf96db2b5aca6d5bf1ab16e520933498e7e6940658be3bde06e35962e213d",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_audubon.txt": "e3f80dc1312d5a8ee813277abb6d33b36be3b130a87073c6d4083c3ed4819a20",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_boudreaux.txt": "164263736531f4ce74b106530c9672c88a260733a8e2c9c4c7a8c06f8185ebc7",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_brflaim_faq.txt": "4bc142fd31e8953bffca2d6fe1932456b30560e09ca1f100df1927444ea665c7",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_calcasieu.txt": "1a20e22c2b19a0a9f81b9a82362f19af816e89678bbadf6e9a7347ccb3b95c03",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_certified25.txt": "a65cbfea0ce9b308f69b98da723aeef546253bfecac27e761c100d13254b8e72",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_codofil.txt": "85a93091b54634dcddee128f6d8b9761c81e6298d4a9be4d213b1f1b9b0d4799",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_codofil_objects5.txt": "c6c7494f977596ddf5a81c06556baa2f5732e774cedb8531ed6d453be57db638",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_cp_handbook24.txt": "77c6fc7341432b0a9da168ac51ddfbbd1c6d19288c71cf541a203504be1900c8",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_ebr_flaim.txt": "687ec86c89ff756f44e55488cb3855cfec5b7212dd867a63c9d5c97a13d6eef2",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_ebr_westdale.txt": "39eb0d781b29691fa9f22aaf018358bf51a14b3b03f1c1c9ff1f1f1fc2f3d113",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_fairfield_start.txt": "d1567ca0b0ab57719b92db2edb4fa3ac141c46d9b9aa3da1b942f0ac7119d00e",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_glenview25.txt": "d3c7a01db51239c55407a52574720b3abc53448f5515bfdf8eb2a52cf5c753e0",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_glenview_flyer.txt": "31917bc0dbb9f20cda41550d70624956570b6bbbdcaaa43eab6e85cc32338e72",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_hynes_handbook25.txt": "faa45b286893c2ed210410f717752492c34b3f7b12157b2c5f2ab7779a8272e3",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_isl.txt": "9e940139a04e80444a9d8148dca9841ce03657b3aa9a1d2be0d4cf0ecd23293d",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_isl_admissions.txt": "bdf1422ef7ab852d2c1d2af51ec2aeb09e998ce14e2ee96bb570e51f5993fa7b",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_isl_copy.txt": "c9bc54744855ce3c4b11a6efaea850809b45582fe4ec5f48c9a830e12f4c7861",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_isl_curriculum.txt": "3b847a7966a17269eb813f824a5dfdcfef40636573ab288e94b606b413b50f2c",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_jp25policy.txt": "9b1b4b2de7c7be025861a57cc66a1fc982427a456a60f9ed3eceb3e3532ce296",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_jp_dual.txt": "b6703f9fd272218b9374fd3ac5d0162c52edbc7a271099a745b2e6e572a6fa1a",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_jp_ellis.txt": "9cd6ef20fd2cd7b6e7c475422aca9d1d4473fd2c29cd028c65ff644fac2e5f56",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_jp_magnet.txt": "08371049c3a02562255185b9b694b2b198103bb0014875aab978118fbffce45c",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_landry_faq.txt": "eb5b4083bb8e3ac9ffef686b386eed373bb35c5b585be2ce3d446b5ea5db500d",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_leblanc_imm.txt": "2f994368ca9e1a6f89d1eab0d152c1c1c493e7fc372dae6b676c2388a19d767e",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_lpfi.txt": "ad6b5f9eea7569d38ea4a704721c2ea5c06ad8dad7b27e8ac2482f044f3a8bb2",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_lrca_language.txt": "a9ab64d99698ec2a8ca4df58ddb2286f454f4b4d224bf1a03abaa8204da4fb08",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_lycee_campuses.txt": "ce4208af5d328ad058908e1e1e7a23be48815df0b1b5dffaf431b3ee77ef91e3",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_lycee_open.txt": "83795b4b6219580ce91f00ee7fced46172b6f7af4fc7c9e920ffab6864810cb2",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_lycee_priestley.txt": "eee1650d00342d6756401af9d050511b75a35aca47d415a28c1de38122b54375",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_mamou_imm.txt": "edb5f0b9237f3f572232e76bc5cf56625be79755941cfd3c0ebe7c37678b17ec",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_mandarin_link_15.txt": "d0557a98210ecfc3f20f95cd3624dfe653e6ad8dac6b4199562b60f122aecfcf",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_map_1.txt": "57f5a8d25198e959588aff2e8de57c99252183901832e5db57965f593805ff82",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_map_2.txt": "beb545f334f74f4bc5364d6f196535491bfe30c5927cc701a518747bf38d637a",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_northlewis.txt": "b6111b74b66d85dfcc97c170e40dc2476f6e5c990dc566713550ba1e4911a3e5",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_pointe2025.txt": "cf3a2a19d3e75e85a922a72b58067adcddeb3ad9f2bbb89e598dcb5019dc29aa",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_rougon_current.txt": "4a6a64ce0acb58d0ae88bf83d2bc5a2b9f4184a62535e2023f337236e084ef27",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_rougon_old.txt": "243d89623d72c6c1d9d6848047d61c24cbedfac26d08fccf044217571b625685",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_ruppel_program.txt": "ed2989851787161bc14387b92e896a1a87e2488796e9b6a0c3c2534117df5deb",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_state_world.txt": "27ffd285838c51f11b27aa09a1e0f55b7cb4f95da1165258272684f0ffda866f",
+    "data/registry/south_central_2026_11_05/extractions/sc_la_vermilion_pamphlet25.txt": "fb2082efd8c41160fc446fe6d0148f7f28e17fd2ffa3bd79d20ca01268ce6f8b",
+    "data/registry/south_central_2026_11_05/extractions/sc_ms_choctaw.txt": "5603e09c0edc19f2c7fbae46bfab9182dc3e63ab94a0eea981dc7b1c2d90fdf0",
+    "data/registry/south_central_2026_11_05/extractions/sc_ms_clarkdale_dir.txt": "ddce9497bd09e43aec6833d7e4e6d64e4020c8a5b7889265139457ca5910f4b2",
+    "data/registry/south_central_2026_11_05/extractions/sc_ms_directory.txt": "1c3f71e078642ffbe29dbdbbf952199e78a60c636a224a0d41e12984c054b93a",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_cherokee.txt": "c4c1a67e9328b4260933157e35a0eced7abc72f37b3dc15fdcbd3eefcafd1086",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_cherokee_change.txt": "57edc46a1ea25c9b3a87b98edd87bf1c478aaddc81c6d53ecda699616a074cc9",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_cherokee_grads.txt": "0b8ebbf2f62616ee56e8801cff144cc143396c7880e34b15fbc3bb90dfa75a6d",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_cherokee_independent.txt": "597c5410d67652c46646ab77f03aa5f871d8b867ed816cb2f4218c26367a9d97",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_cnic.txt": "73e8bf4320576cbd09ed3841eb982ed2f1d337f3ca5c9c217721706850b163aa",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_directory.txt": "05ad00a08dcd277de5173c9284548d400d4b96b4e095d8f05401bf05df805514",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_eisenhower.txt": "bf4dd1a3b2fae193ba66c0142e44a5a96f465932419ccceae183145be78ec12e",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_jenks_end.txt": "6df1c124198d971bdeb64e9e1148c47dbe42970dda15bb3034eb1152b191abd5",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_lee.txt": "fff4a803ec6defbff0ec535d460f2ab9b13c0d4e873d5ebf21a15507ace739cb",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_lee_faq.txt": "23bb98c4b6b8dfaa1a9421419ad300823baa2e823ce2fb699e619c91baba9d55",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_mendez.txt": "cc345817ef475ff0f9458dfa858e8c0ad5b98ad224d11f51bfcebe7d52212a69",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_mendez_about.txt": "333a5cfc9a5a2e5844c7a00bad0e38f61d60f617c58084c052d917ded8c7ca89",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_norman.txt": "8d3e7b9c24590c97fe9d6e9f8f07b95d9136783b3fbf44dd5e6147bfc0226e52",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_norman_launch.txt": "6823e7388426c13fc5a1982ed78114e7cbd34c245cfad8cbce8a54501ed9cf8c",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_osage.txt": "2ccc916756c964166e540b346db3ad2cc12abc1a8daa5eabbf38e388902201b4",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_osage_end.txt": "6b1140c3b06ea15e26952ccabc2eda0d33eae81b28ab79b40d43db7e81bbf282",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_osage_oct.txt": "f31da0405dc573e133a205d122245a89d4a358117d5553f24f8f28bedfc63a45",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_tulsa.txt": "82b780410642bd39963a4c8ee988c1e528228471a6e207b46fb0f45079aa15c2",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_tulsa11.txt": "9ae82b384f79a1ea152eec30833d8fcfa8c4efbdf05ac6a54e4e0803b9c32508",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_tulsa_changes.txt": "412c6d21200c268a2ce966613ea72339f4ae17c4b1425310a405740d03b501a6",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_western.txt": "a335e3ac3b52df9731a6e638de327b8db0903898522958ca1bf61881bb3cfcfa",
+    "data/registry/south_central_2026_11_05/extractions/sc_ok_yuchi2025.txt": "98a34eb1f13e6298c60ca188bf2b54e13c6e88af346ed437a21ccaed9f378c29",
+    "data/registry/south_central_2026_11_05/extractions/sc_search_la_lpss_burke.txt": "fc44f67c76b6206da7ce5ffaae7dc4aa3b99370b98ae8bdf7c24ce1744990390",
+    "data/registry/south_central_2026_11_05/grade_context_decisions.json": "37160e092f90caff94ead34849690721a04735eac5ae627131c4d3dc157fcb9c",
+    "data/registry/south_central_2026_11_05/identity_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/south_central_2026_11_05/la_programmes.json": "754301507ef394a2c17e42fd37da04e460b09731f631542b54281af7567991d8",
+    "data/registry/south_central_2026_11_05/la_screening.json": "03419b78ce6166a2b8f34c50e88f1cf8950197b62391ee29edfec42d4853fd98",
+    "data/registry/south_central_2026_11_05/ms_programmes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/south_central_2026_11_05/ms_screening.json": "d7fd2d028d48edc5ee1dbd7628858aab14eca555c75ed0e30b7a1d55fd948bd2",
+    "data/registry/south_central_2026_11_05/ok_programmes.json": "5431396c2bbb548a4870ca746552fd33030a349ec0daf46c4def10d3e358c49b",
+    "data/registry/south_central_2026_11_05/ok_screening.json": "9a0c9db227026b5b3dcb9735011ae7176b8c89cfb2d427869ee389734f5a4850",
+    "data/registry/south_central_2026_11_05/retrieval_log.csv": "47613899a8caff93943f51d9b84f4bda07a8a79f4e1ade9ad1c93f161c6f773a",
+    "data/registry/south_central_2026_11_05/reviews.json": "bdd61635bbb55195de20987d139a1b990dc652811fad1826a612e54ceba34330",
+    "data/registry/south_central_2026_11_05/selection_summary.json": "8fc23199543a0b84351745d32c414e5c07e0d19442c93fd13fcd5ef72a72de6f",
+    "data/registry/south_central_2026_11_05/source_redactions.json": "609ce36aab91c7b55c3805a7e030962cf37d6b9f2a8d49ab4dd9fd31eae2e3b7",
+    "data/registry/south_central_2026_11_05/sources.json": "33730dec64b8627771235fb6f3e28dd6b00eedc15fcf250d2f26baee07ded722",
     "data/registry/state_dl_programs_california_2025_26.csv": "2ad4b16b9c90fdeb38c2d3179c7112af041773ebb415cd2fc0753accf49d0da0",
     "data/registry/state_dl_programs_california_2026_27.csv": "59b53e638a5987e8c1c4570b7c1817dc43657c51d0b434e5ec2943a13127ea84",
     "data/registry/state_dl_programs_idaho_2025_26.csv": "a84a401850a65b991cf9720742adda1d742f06ab17c09a6dff1cd7085922597b",
@@ -1442,7 +1753,17 @@
     "data/registry/state_dl_programs_wyoming_2026_27.csv": "f7b7a7cb4f5c849a38f39d8dd68d57509d46820eb64991b523d3c3da51733814",
     "data/registry/texas/cleanup_summary_pass51.json": "f049bbec5912112badca4f09eacd8cf616cd7550163cd650680e341fcc662cf2",
     "data/registry/texas/current_inventory.json": "1344727e0089ae8a7654e2212d9367b76b47e82ef98e456d72c5b34cc912fbce",
+    "data/registry/texas/historical_cohort_additions_pass44.csv": "d61e996df7489cbba6e9c6feca769cc71ab4c5ce8d9dbec404e2c6999317cd1b",
+    "data/registry/texas/language_audit_summary_pass50.json": "c75dd75152f5b976bab38b383bb7db5feb4a072e3311111c994de63bc6008199",
+    "data/registry/texas/manifest_pass48.json": "f9b1509bef03a7365458aa3be2b0b508a92f1c41dece2426b7d0ac5ac7f39037",
+    "data/registry/texas/manifest_pass50.json": "e59597ac20dc3da31d3b6e0f3adc4a53ecef0dd8f05489bcda1a48be930164c7",
     "data/registry/texas/manifest_pass51.json": "04fda1db38ad07e46b859de8f9717d3083b1abd3c60e0bc57d849e58942d15c2",
+    "data/registry/texas/pass50/campus_language_decisions.json": "63fdb9516532188a029b9014f37d948646aa1e96b7f9c46224f429f650e03728",
+    "data/registry/texas/pass50/district_language_rules.csv": "2c5234f4da602d9da53e8fb5c2c143cae22048e1f8548af89f6b27c06485747d",
+    "data/registry/texas/pass50/houston_official_dl_roster_2024_25.csv": "ec9c5ceb29fc467b7818ed9237759faedf1e1818acd4388de4ce20e5a7c05e49",
+    "data/registry/texas/pass50/language_role_reviews.json": "b9e421105744eda65c2f8dac732f7878b7c43bef3a5cc0c6ddcb52b39e60e751",
+    "data/registry/texas/pass50/search_log.json": "a62804e3398b7d5c93301b250ac554b0a79944b8f2101bec3c9edd69249013ae",
+    "data/registry/texas/pass50/source_register.csv": "d75b13d6ae6c725cb47e8b8195e11f7c53391711e4a4529dee3dcc085d57df91",
     "data/registry/texas/pass51/allocation_additions.json": "cf2e76fc3be64b41342fa14b21e33077917bfeea037959650c5ce58894d34ecc",
     "data/registry/texas/pass51/allocation_reviews.json": "d07137f9413709be4aa389c66cac3ff878ce471ca9932d8e94dba183a09c5ceb",
     "data/registry/texas/pass51/assessment_source_leads.json": "fae7d44a8756abf6594753d24763b38c3c01245a8e08e7358a93c985beae1278",
@@ -1452,15 +1773,26 @@
     "data/registry/texas/pass51/retrieval_log.json": "582ee107d3cdfc65357abadd1d3d50fbadacb341de60a79eeac1260c2edb7d0a",
     "data/registry/texas/pass51/search_log.json": "f8456fabc87ef9ccc8d8ad990658c2e1d17daf6276992ba78a70d9e5ba9d0858",
     "data/registry/texas/pass51/source_register.csv": "f06d49f9a279c1f03427a1688663a5c1ccf0a2778ce849a91a91abf34aa4eee9",
+    "data/registry/texas/tapr_pilot_campuses_pass46.csv": "2f647a6a565e451d7873ba146cb97e8f86c2428077c3047ed8e95b954eaefb3f",
+    "data/registry/texas/tapr_pilot_join_pass45.csv": "5e8bfad9b3eca1b839c87ff2dbd3dcaf214a01aeca9488c85fd8679c2f58c664",
     "data/registry/texas/texas_allocation_cleanup_audit_pass51.csv": "6551afeb7979fe5fa868997b329e2918eda8f4be220bff273b11acfa553f8cca",
+    "data/registry/texas/texas_campus_language_inventory_pass50.csv": "8674bd8f11f3f4f90c74aeb767e147e97691b0090e21e06a697942da7f78ca05",
     "data/registry/texas/texas_campus_language_inventory_pass51.csv": "d42bf8d5c4577515ab1ab30124f9772e70ad45bfd1f4ae4df3008a543fa4014a",
+    "data/registry/texas/texas_k_allocation_evidence_pass48.csv": "3cdde8f1832d9e9d60507cd4a64aba7426e79038cdea245857c1d77a30eb405f",
     "data/registry/texas/texas_k_allocation_evidence_pass50.csv": "34aaed356e4938157e84219c82f57271474b461f68983f6ac3c46a93fb367b3f",
     "data/registry/texas/texas_k_allocation_evidence_pass51.csv": "997206484d5cdd3a6ebc589e52317fc3765f4abc464c815b2889cffca290a01e",
+    "data/registry/texas/texas_language_classification_audit_pass50.csv": "e7ac31bdfb4103a17e8f3d2e6df0173668ef8a926e2d9ae69d3be719218aa551",
     "data/registry/texas/texas_language_classification_audit_pass51.csv": "db1f31cfb96b8587dcdf74c09b6789e78235e9af4de0849a3b5c8ea21eda6a26",
+    "data/registry/texas/texas_language_program_tracks_pass48.csv": "85fa67bcc07406de4691270e97806c1084f7b038fb11f8f6b3dc207a8dabf417",
     "data/registry/texas/texas_language_program_tracks_pass50.csv": "b63095cc23ea98e9f0593ef60d062a8153018a17780b88c29c5130f4bb6cec95",
     "data/registry/texas/texas_language_program_tracks_pass51.csv": "9880ef8be4e2f6cc8b6d8febd677253011c33e1ae0cef5769a24b8459f073fec",
+    "data/registry/texas/texas_language_role_reviews_pass50.csv": "e01b60c925d8a7987abb37b389976f67adb6741012d4567c4b98da1475165c7d",
     "data/registry/texas/texas_structure_evidence_pass44.csv": "48e721e548b78a33958aeb46193705bd216561910a60dfc9620e3f73a00eb504",
+    "data/registry/texas/texas_structure_source_register.csv": "378240457c242dfca9b76c01ebf3a83b7c7dedf01734a435fe53cd47e30889f5",
     "data/registry/texas/tprs_verified_observations_pass45.csv": "7ee3db1533c3b339497f48848e1651abf8f2d7463c386474244e61ef39993e76",
+    "data/registry/texas_language_program_tracks_pass49_provisional.csv": "f2698af858a6455a5b6a69559d1a08a56e7f9b4ebf7db3ace47423cc472313c1",
+    "data/registry/texas_partner_language_evidence_pass49_initial.csv": "8dd078152df971fd1062e3d49fb2521da0cb64b61b64d18b906a5cea92f3bf51",
+    "data/registry/tx_allocation_review_2026_11_05/README.md": "7b0d6b4af4428fc7a9524d89f00e5956710175dea59345dfbb7edfb967c14ae2",
     "data/registry/tx_allocation_review_2026_11_05/case_resolutions.json": "bdf7cf870c023a045d00556a8113936ce11b9e78f435428dc1f2a8ecbabb7ded",
     "data/registry/tx_allocation_review_2026_11_05/decisions.json": "5dfd90f6b7fa4740f8dfae5afed4847dbf48a9e7b5a07245da5fba84bc263f86",
     "data/registry/tx_allocation_review_2026_11_05/retrieval_receipts.json": "628d1c623ad01d1db7c80b92d5f25b441b1de9ac4fb06c92166e2ac94877417b",
@@ -1485,6 +1817,10 @@
     "data/registry/ut_tx_allocation_2026_11_05/texas_model_decisions.json": "5b1adc5251654e08633ea60cf8caf3cd6076923aeff267299ae0ee58a3dc39c5",
     "data/registry/ut_tx_allocation_2026_11_05/texas_research_log.json": "9860d512d4973a4e7daf9b6ea62dff5dcf3d4a7160374b20d19bff593e7735e9",
     "data/registry/ut_tx_allocation_2026_11_05/texas_review_cases.json": "c9bcfa333f8f3d79578f14eea21ccc607d124c626c14a93032519caf043573ea",
+    "data/registry/washington/README.md": "972386365ec3fa2406b1de33e0776a123ad0f7377e5df6c1fef72cb646bab7a3",
+    "data/registry/washington/wa_dl_programs_2025_26.csv": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00",
+    "data/registry/washington/wa_programs.csv": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8",
+    "data/registry/western_plains_2026_11_04/README.md": "931e73febca70d5e53e92969e775e78b731926bcacb08fc176ec31c475edf924",
     "data/registry/western_plains_2026_11_04/az_programmes.json": "e4b7b46bc2817913ee6b54cd943eb958fba11ffb24e8b1471438451a0814476c",
     "data/registry/western_plains_2026_11_04/az_screening.json": "048ea46b43331cf7d3d66a46f275ca732cb156d737b8408c47103a68daedc52d",
     "data/registry/western_plains_2026_11_04/co_programmes.json": "408149b67f3e31d4746d016c38c63e04948a061220631929709080b7c71b0305",
@@ -1508,9 +1844,11 @@
     "data/registry/western_plains_2026_11_04/reviews.json": "04c6cf36c3ef87e0e725900f5835f81dfc8f9b2c97c7f340803410a0830a8557",
     "data/registry/western_plains_2026_11_04/search_results.json": "e14662924779627cffab974e9661874eca16efd829cdc8de9724e8d972f6d9d1",
     "data/registry/western_plains_2026_11_04/selection_summary.json": "f3ea4f8e224054bd6f0b8dc2ac77fd8ce7bff9b2dc5024cb4e38fd0ea7422a5a",
+    "data/registry/western_plains_2026_11_04/sources.csv": "2d2974261ca9f8180c4dcbb06ad4eaddd1d0ade8043b95326bb7f707b0237f13",
     "data/registry/western_plains_2026_11_04/sources.json": "067bf38313e9f5b514f92da25c6e1b418a427a0bd0243bce5c48ae6c1ee8d668",
     "data/registry/western_plains_2026_11_04/ut_programmes.json": "9a03a4747c4750ec1be6790a8d76eae1dfb7c6ea935a49914d18a95ee8a23aa5",
     "data/registry/western_plains_2026_11_04/ut_screening.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/western_plains_2026_11_04/validation_results.json": "e179b6bd33e0a89b9153d4f9b1fb460b1f4db33aed301fba94215a8e07283474",
     "data/reports/allocation_coverage_by_state_2026_11_04.csv": "148258cfcb814e6afba567689380bcd36689684e52ac56bff828793b17f900a5",
     "data/reports/elementary_allocation_coverage_2026_11_04_all_records_by_state.csv": "4f51e1786361819226ac73fcc655e7f1801ecc16b411f6316bcce67699532810",
     "data/reports/elementary_allocation_coverage_2026_11_04_by_school.csv": "6afa46f37e152756c90adc9eb28dcadcf81cf6ca889a391374a5cba261560486",
@@ -1523,6 +1861,10 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_school.csv": "5c9a641b8b0ae00ccd3522590b6b8bc1ae47ed8c6da1b92fb382b7deed454663",
     "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_by_state.csv": "de62aadeb80aa8c7c9c306cde5ff853a11003158e38e8850278e1844aa09d60c",
     "data/reports/elementary_allocation_coverage_2026_11_05_great_lakes_reference_by_state.csv": "7c036f11ecf024814e692566ef0ff458b789bec002762ce8cf56a7bc97679065",
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_all_records_by_state.csv": "d8db443bc2e2f6ec554d50f81c65832f5e83eea720fe05c1e2503274b85e22ff",
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": "cf4c837a765f59d4a63f298751e73006e29904e26488fe555aa55a44402226dc",
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": "eb3abaacd78c0df1e807b9eb080e6e437e23f8033c175b4af0d6c6b159c3b387",
+    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_reference_by_state.csv": "a9d40d2002887dc4f70743c2a57daa7a9ea1407fb2c535d96b25f7b7771549cf",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_all_records_by_state.csv": "247125d6875f676f9f7f18136ee871b7915201007b96c406b0750a417fc361f3",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "2f7400d48ca121c290dd40e21e0b88c88414b9d820257e2b30aa2da47db1029d",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "cfd739c7dbed3219d8c3d1b61ed27956179b867ffe21f3638ac0ca08ec2a668a",
@@ -1540,6 +1882,10 @@
     "data/reports/great_lakes_2026_11_05_review_cases.csv": "080eb22b21c5cacb3fe302d60bfc226940e0629aedd72093fb8a437952101837",
     "data/reports/great_lakes_2026_11_05_schools.csv": "ab5ccae99f72d60a30c902e63884ec873d315e97b88f29d468d14489d9f8e0b2",
     "data/reports/great_lakes_2026_11_05_screening.csv": "c115bf08e4e929e088d7aeceed454ebff18708eb33ff83a6846d46b6b4946e68",
+    "data/reports/illinois_2021_22_user_2026_11_05.json": "d16f85a245990c8f2d9dc50f86ef9cb2db833089bae7c11ec65d6c6336123566",
+    "data/reports/illinois_2021_22_user_2026_11_05_followup.csv": "1c34cc0b8140e011e2ea1db4c2dcf3de828e8d81449a398f9ae75bfb450480e9",
+    "data/reports/illinois_2021_22_user_2026_11_05_policy_decisions.csv": "fd753d81ec0bc87dc34ff0c51f87877327e9db1e70ee0262f9bbd6828c55a76f",
+    "data/reports/illinois_2021_22_user_2026_11_05_urbana_lineage.csv": "13f329daade3d5d98580e2170b91d4a1de3803739386891c7390a2f6231026c3",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_program.csv": "c16583149ffa7a4185770408e6ef5da8b5dffc8abe73f93373274e0fc0ff3410",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_school.csv": "714ebc51dfb586e47ecb7d2ade1d6e4a1aa071851fd578ae7efb022b39db635e",
     "data/reports/kindergarten_allocation_coverage_2026_11_04_by_state.csv": "5e50dba73b1fe8440842203497d79d954ea5ba3ac73e7c32dfd48eb84cc07603",
@@ -1549,6 +1895,9 @@
     "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_program.csv": "461528718157d0c2c4b9bccf830ccc329cf8fd3eb7059a99c7d6f1ff1666b2db",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_school.csv": "fe9978c553d3546def0ab3d4e00588ae77b67e6a1e892b998094c06aed7ff289",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_great_lakes_by_state.csv": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_program.csv": "cd3327bad0d5f7537e57cae5944e7eb8dc5d4f9e35fc51991f4e7bea97d5c90b",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": "b8752a0bb3a797274e6aad2c07650363c1b1fb52a1ee6a7c5a4c0c0038032f74",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_program.csv": "59a4e078f38a0c6c87d755a46d49504c61d1fda33d27a32f835bb6b1b120bb5d",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "b789635bfdcde6acf45a6507e18b37b4d6ff5d6e133a1f8f03656a4a9c65f6c7",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "9a8e75a59e101e7e40b44aecd595442967e7d04685961bf3772e591e6a4a4987",
@@ -1574,6 +1923,9 @@
     "data/reports/structural_inventory_2026_11_05_great_lakes.json": "727997787a42d398d0e58535549c50fd75eced07f71b9ad2ca724bf891d8714e",
     "data/reports/structural_inventory_2026_11_05_great_lakes_by_state.csv": "f92936b727e8190aafdc7853906e533f484fc5e3b68a77e434a92d1350ea8168",
     "data/reports/structural_inventory_2026_11_05_great_lakes_program_view.csv": "4dec7a32fa7befcd838d27bc59233896309c27929d53bef6a12eaf8671dac9f6",
+    "data/reports/structural_inventory_2026_11_05_illinois_2022.json": "25da3a58283207b1bdeda58398beb9422fd2452fbcb6d3b8c74a08a2cc420804",
+    "data/reports/structural_inventory_2026_11_05_illinois_2022_by_state.csv": "661e1776983a82d60fd9949a4cb14b85af56affec9f278fada68b1adc88f94f7",
+    "data/reports/structural_inventory_2026_11_05_illinois_2022_program_view.csv": "2da3ff56248875559ce2146c44506047b9df566e04153002533f43c2c5e281f9",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi.json": "6e6cca9ffbd15a51dcacdb5b1535fad592b588fbd70fcda7244d8f96475333d4",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_by_state.csv": "2b49d50973c55a1101774a6bc53b03ba87621bd499a4ba235c93a04dcd2cf926",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_program_view.csv": "70805faaad9ada6b96cfd9fb733ae4c79ed31d2f4e430f26c866a40428221fcf",
@@ -1590,6 +1942,7 @@
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_04.csv": "a44b64769680de30a8a8ca3a9bb9dcf2a9abccc0c8e74ff439cbd064b1abcb40",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/ut_tx_allocation_followup_2026_11_05_summary.json": "bedb2f4b69a4b3d19d158c3ef3795b65b44238546ec9cca88417836eeb3a3afe",
@@ -1602,6 +1955,7 @@
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_04.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/western_plains_2026_11_04.json": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d",
@@ -1618,7 +1972,7 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
-    "src/dl_outcomes/allocation_coverage.py": "5a58f8d0b96cb08c2741c731693b0d295c2c0b25447e5f7139fce48b77c2ad0a",
+    "src/dl_outcomes/allocation_coverage.py": "05b0bdfe60f8903ad94e09a1bd8a6f3230b0b5f61c5e89aad12a2968db4db131",
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
@@ -1630,21 +1984,24 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
-    "src/dl_outcomes/elementary_audit.py": "7e7d1c469e2aefddb2275fa1386faa1eccc1ce10649dab2653a74291666fbbc5",
+    "src/dl_outcomes/elementary_audit.py": "b1b690598946dc15710c5bb2050ba192f6efd539723f08db0c634a1677fba04b",
     "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
-    "src/dl_outcomes/northern_central_review.py": "3cb2dcf8902d0c8ee288ac23d6069341ced64094a229f4b7940f93c1e59280fb",
+    "src/dl_outcomes/northern_central_review.py": "82d89b198b573aacb5ba525c893d1bb04b353fe74a2b24fc64f1a115140616c6",
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
     "src/dl_outcomes/policy_selection.py": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
     "src/dl_outcomes/release.py": "d6b3a446e81ff1533d4cd0cd29064bdbe98e612094dd6b6926ad714e3b5bc3ab",
     "src/dl_outcomes/schemas/catalog.json": "059ff07aa13f4902f9e36f0d2fc7a125d222479d7e7f7e79c8ee0b5dfd052bc2",
+    "src/dl_outcomes/south_central_review.py": "ca6bfd090273a99623d392d9afa18a151ba64b23df8f39a477732c8c1cbf1fe1",
     "src/dl_outcomes/states/__init__.py": "0c9d52140859c1fb2edb7881a486c3336a597ffca0fe34aa39ba8cd9ce83a832",
+    "src/dl_outcomes/states/alabama.py": "0c80c7ac2040bf7143d3410e74b286b69b73cea42c1ff5c45ab3452a819cd027",
     "src/dl_outcomes/states/alaska.py": "5f02112e692ca52e5aee5a789c485c2cf69a5941357383725bbd9eeb3dab969d",
     "src/dl_outcomes/states/arizona.py": "9be855f0322feb97304e2b86872b27b9d90eaf875c6a9fc857873127385c3446",
+    "src/dl_outcomes/states/arkansas.py": "119caf26a038f4ebd03b8d43f9706b80d64a1bb560f3e3bd83c28f73f9b0ded1",
     "src/dl_outcomes/states/california.py": "30db9113e4f0bb2700198b08f24c5e8c569bd56273c8f426449741e81b669536",
     "src/dl_outcomes/states/colorado.py": "3318001fc31fbf21909074a7affb78176bb30ba9aafb101fd2c53fa58948f0b7",
     "src/dl_outcomes/states/five_state.py": "d12a720bea2fb02749e9196fdcc225a75d95a3e3de60b11598f57d99e98caa9e",
@@ -1655,8 +2012,10 @@
     "src/dl_outcomes/states/indiana.py": "0410952d2d8827549cff355e65786dcafbbad249bda56fc1c3baf6e028c20e64",
     "src/dl_outcomes/states/iowa.py": "8fb282dc976135b65086abb419bcb19b2175e6f55639615a1b351aebc24933ef",
     "src/dl_outcomes/states/kansas.py": "9abc6979878adedc35423d78463d38500926c944d4ce4650f74bb678446f534d",
+    "src/dl_outcomes/states/louisiana.py": "a697a3d942514581ee2b5afd6b58dbc31c967cc7d4a8a56500de69a8254e2fc4",
     "src/dl_outcomes/states/michigan.py": "7d33c5d4f319259b66d159718d6e919e1fe7b0ce5a473f1ca83f26a53335818a",
     "src/dl_outcomes/states/minnesota.py": "451c9bf54cf6d481e2bd830a24426c9d61b4c03ac4d9036bfbe3810d089683c5",
+    "src/dl_outcomes/states/mississippi.py": "f9f7768a104796f84f78270ec36c7b35f80579b5fbb55374b8438788b6d6dce2",
     "src/dl_outcomes/states/missouri.py": "3d0c36120c458b86c7e619abbe17348d88b292b07c8f8444e373a3edbf7c0cfb",
     "src/dl_outcomes/states/montana.py": "3cb8d0c92effcdc0594fcd52fd8d66510b25deac17f3ce14f44200f96201942b",
     "src/dl_outcomes/states/nebraska.py": "c1674ca2f0f3455a2a66eb3c5959552b4669f6d8c551e7d4ff52ffec8d77a88d",
@@ -1664,15 +2023,17 @@
     "src/dl_outcomes/states/new_mexico.py": "708940dfdd08e908408d71328fba6cd6a600348a6ccbcc1ff65a037a8de32737",
     "src/dl_outcomes/states/north_dakota.py": "13e96295482a862f6c278b5ced5584d3519f6275a00c70fc14e107c824c2494a",
     "src/dl_outcomes/states/northern_central.py": "9a888a76db9cf653a9d1cf6b92af466fed60d5ed1faeadb0e0d2f34c1525ff95",
+    "src/dl_outcomes/states/oklahoma.py": "b1f3cadabdb203f3e913adc87b69889d822f84bb806e68059ceb8cd6ef7d4b0a",
     "src/dl_outcomes/states/oregon.py": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8",
+    "src/dl_outcomes/states/south_central.py": "31e6e3bc972d4fbac9416cf57b9033302fd716af2336c2dad13f56d574b74c22",
     "src/dl_outcomes/states/south_dakota.py": "edd759f3919cb659702c8c862648e0ecf93f25da1a100366fd93a1f20856ab4f",
     "src/dl_outcomes/states/texas.py": "e13c77a4ab6ae8a871b6e2834aaef3e34209df43099c039b5b0267e86b0c4241",
     "src/dl_outcomes/states/utah.py": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
-    "src/dl_outcomes/states/western_plains.py": "ea4668229d03ffdacd9a05f850b80a998f6c4c96a65f9b6be292a7bee5c9d85a",
+    "src/dl_outcomes/states/western_plains.py": "3b6f2e77ce6550049b95fc60d58849ab9b34f7039c2d7d1eaeeefbe1335dad69",
     "src/dl_outcomes/states/wisconsin.py": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "a58923cb5a2a2857063675fb249c2b09fb14aa37bad3bb67205ad45ce71f5f7c",
+    "src/dl_outcomes/structural.py": "6c0f0c46a1e2521c3706f1375a473a5761620b6b6374c3a5fb0bb492c88c9613",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
     "src/dl_outcomes/western_plains_review.py": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
   },
@@ -1682,60 +2043,60 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "5ee8568a76357c8505c346e5fac2358d4e385c6759e18aebddc3b73cc07553e0",
-      "rows": 41
+      "sha256": "3a8c74cba818ac3fcaed99da03a44f7ffead6495b74f8fe220558faae1b41566",
+      "rows": 46
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "232774c27e6b09695df4668bba205b0d20a084e6bf4d17fa0b7b5e1bb69c2aa8",
-      "rows": 912
+      "sha256": "92e2a315486556048fe6f63a31a98e805b1a025b52625cf56ddff509d367db95",
+      "rows": 1035
     },
     "data/curated/registry/districts.csv": {
-      "sha256": "d983a260bb784dfe8e9faf2cdc10a97ffd567da51ab8f5f330f0fe3cfa9561e0",
-      "rows": 884
+      "sha256": "fbe5babdd89db401254431754ef6b80029edd88372b14c0052576dc55b5798e4",
+      "rows": 903
     },
     "data/curated/registry/schools.csv": {
-      "sha256": "085f62947d45a1e21cec593f1fbc8cb340bfc832b491d8b02464befdc016c883",
-      "rows": 4969
+      "sha256": "07102140b3191d86117aa21e07572b0b81e96dc8a0dc8987652708f6781f0441",
+      "rows": 5055
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "249b446f2605cad8f3b833c7b16a18c794f93b3a5ff71ae722a6120be0131744",
-      "rows": 12769
+      "sha256": "2d3c1276730b843acabce724704f259835df1f303dd2e63a3e23c3fa5c7f9569",
+      "rows": 12975
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "a5374f032766628e9c361c3a64f914c561ab71174ac0353a0b1189a91085fcc6",
-      "rows": 5806
+      "sha256": "2169d4c4b41ee44d3dd2e33f935e4553bd86834df44903114f6df6c3fa84acde",
+      "rows": 5875
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "6a317f7e732b3489af1446b7ec3805f5f3f4ba061f6773035c431b03f3203eb7",
-      "rows": 3786
+      "sha256": "634a1b6042c7ff8302f193e90699079e2e4689019897d0899ee0c41ce66dc3e6",
+      "rows": 3887
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "4ea6974a3d3983cd2a4f635c32d5646967c7848446d6434410bdaaef7416847a",
-      "rows": 3786
+      "sha256": "465e69eed86c7ca1549b6a3f549db024646884e9dd81622d5e3d1a7fdf984935",
+      "rows": 3887
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "0327e9ad497852fd5a98b60dafae478a0eb78e159a0ea7a566f98ababe35a687",
-      "rows": 2335
+      "sha256": "7b89c7163b9b5498f724be559d43874d5ffbe73cdd64075a3f58a5d4fae0cf64",
+      "rows": 2454
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "615faf971d9d10995af3173f3649d5d3721f04fa83d61c096db2fbd7ac85200a",
-      "rows": 5787
+      "sha256": "44f412888e020cd7595e2b344afb8b97d9a5138a3aca224c6c10d0364ed2d77a",
+      "rows": 6014
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "a375e09cb2368aba2ace48abd1db7d04c6580f9e78da7c7cced93f7f0be0120f",
-      "rows": 5298
+      "sha256": "c70dcef3b8c22bfea9e35d20985a9de03da79a4c976a6300394e4759cb60b49e",
+      "rows": 5481
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "3f38f9197a596b3c3877d3c53214e1879239c9e42e2b3bcc3e332a0144ff835d",
-      "rows": 2135
+      "sha256": "b947c7767a59bb2fe93a674f85d54936e6afd9e00174d0f218a0259fa2a986f7",
+      "rows": 2167
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "486a0b48129007da626dae23981189d5c971eb0886a7f4af92fc805895cb5a1f",
-      "rows": 742
+      "sha256": "901f268ec6168cb069e534e8bd08df82c0d904bf8bebaa8d1f51f323040954c3",
+      "rows": 778
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "0c0029d6acdaea9327298116797519e3540d60e1a055b1fd13522328370d74c4",
-      "rows": 21565
+      "sha256": "ae128b9656daed18183a81a3e9d1a75986b9c1a8da862fc569e9ed725edb3e9a",
+      "rows": 22078
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -1786,12 +2147,14 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "d7f64782b3bbbbc95a0dec0750ab9e1766fd840c0baeecc794d5a4cf6047e1bc",
+      "sha256": "7229b46c421d0c667a4271a2a0665206a4155fecba99b024fee08af187211136",
       "rows": 6400
     }
   },
   "limitations": [
     "AK: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "AL: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "AR: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "AZ: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "California: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
     "CO: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -1803,14 +2166,17 @@
     "Illinois: 144 user-researched 2021–22 rows retained; later IPA/Urbana changes are separate user-confirmed policies. Historical-only schools do not become confirmed 2025–26 hosts; proficiency remains deferred.",
     "IN: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "KS: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "LA: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MN: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MO: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "MS: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Montana: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
     "ND: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NE: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NM: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Nevada: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
+    "OK: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Oregon: 223 reviewed 2026–27 source observations retain 211 DLI-directory observations and 12 separate screening records. McDaniel aliases and shared Four Rivers NCES identity are preserved. English pairing, composite track models and historical cohorts are not inferred; no assessment collection.",
     "SD: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Texas migrates 1863 provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
@@ -1821,20 +2187,20 @@
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_05_illinois_2022_program_view.csv": {
-      "sha256": "2da3ff56248875559ce2146c44506047b9df566e04153002533f43c2c5e281f9"
+    "data/reports/structural_inventory_2026_11_05_south_central_program_view.csv": {
+      "sha256": "b55fa9615f2966be03f81771bb5a18e981d7f506e4ac1af51309c92f77484add"
     },
-    "data/reports/structural_inventory_2026_11_05_illinois_2022_by_state.csv": {
-      "sha256": "661e1776983a82d60fd9949a4cb14b85af56affec9f278fada68b1adc88f94f7"
+    "data/reports/structural_inventory_2026_11_05_south_central_by_state.csv": {
+      "sha256": "e2d3c2e42f6149654f06ab116ffb0b51f83684e3c1afae3ba1b2e5cb4ef276cb"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_program.csv": {
-      "sha256": "cd3327bad0d5f7537e57cae5944e7eb8dc5d4f9e35fc51991f4e7bea97d5c90b"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_program.csv": {
+      "sha256": "c8f3b79207ea94990e5800e367405f492ad65cee6a116a7dd1b0b25bb1fd48e6"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": {
-      "sha256": "b8752a0bb3a797274e6aad2c07650363c1b1fb52a1ee6a7c5a4c0c0038032f74"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_school.csv": {
+      "sha256": "bf1b55f55f75c76a7bf917dfc82be1213c718e52c1ef7d41acb858bdb7dca34a"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": {
-      "sha256": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_state.csv": {
+      "sha256": "8101fc15194f66a1763bb10c63892b7d72cc240c0ba29c4d7302112501a5f449"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -1842,23 +2208,23 @@
     "data/registry/washington/wa_dl_programs_2025_26.csv": {
       "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
     },
-    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": {
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_south_central.csv": {
       "sha256": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6"
     },
-    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": {
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_south_central.csv": {
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": {
-      "sha256": "cf4c837a765f59d4a63f298751e73006e29904e26488fe555aa55a44402226dc"
+    "data/reports/elementary_allocation_coverage_2026_11_05_south_central_by_school.csv": {
+      "sha256": "8c5066c9226c7bcf56893c51a5c49e847d87fd09953da71864435a22f18af449"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": {
-      "sha256": "eb3abaacd78c0df1e807b9eb080e6e437e23f8033c175b4af0d6c6b159c3b387"
+    "data/reports/elementary_allocation_coverage_2026_11_05_south_central_by_state.csv": {
+      "sha256": "0cf6f99c70ee22e9cb7975aeb7b7b540c8bd6a199e1d9c22dc80bd6a9988964f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_reference_by_state.csv": {
-      "sha256": "a9d40d2002887dc4f70743c2a57daa7a9ea1407fb2c535d96b25f7b7771549cf"
+    "data/reports/elementary_allocation_coverage_2026_11_05_south_central_reference_by_state.csv": {
+      "sha256": "87652748ae7238c8fdc86e474adada36270ad549c23d8ca2b3998ce922421baf"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_all_records_by_state.csv": {
-      "sha256": "d8db443bc2e2f6ec554d50f81c65832f5e83eea720fe05c1e2503274b85e22ff"
+    "data/reports/elementary_allocation_coverage_2026_11_05_south_central_all_records_by_state.csv": {
+      "sha256": "1ff90c6d3ed77c581202ba6a882f31d790893ff761a6e80acef0c4bbbc57788b"
     },
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
       "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
@@ -2058,8 +2424,80 @@
     "data/reports/illinois_2021_22_user_2026_11_05.json": {
       "sha256": "d16f85a245990c8f2d9dc50f86ef9cb2db833089bae7c11ec65d6c6336123566"
     },
-    "data/reports/structural_inventory_2026_11_05_illinois_2022.json": {
-      "sha256": "25da3a58283207b1bdeda58398beb9422fd2452fbcb6d3b8c74a08a2cc420804"
+    "data/reports/south_central_2026_11_05_program_view.csv": {
+      "sha256": "3baf1bf597bc64ea547db2c08126ad875686e2a26a9ad165b350e3a4bdaa9821"
+    },
+    "data/reports/south_central_2026_11_05_schools.csv": {
+      "sha256": "bcee3821c167e681ad0a4edbb5a0b0151d22694241cde44d98c89d13845bff4e"
+    },
+    "data/reports/south_central_2026_11_05_by_state.csv": {
+      "sha256": "627a60e75a6302f2cca5f1496bd707a2b9a9280bc1fa210de2c71df199b1a81a"
+    },
+    "data/reports/south_central_2026_11_05_backlog.csv": {
+      "sha256": "ad33dab338a91dfd4f3e48a2706692849c465fc83e83357c79efa58f846654e5"
+    },
+    "data/reports/south_central_2026_11_05_screening.csv": {
+      "sha256": "a238cd3743e51512f0b9c3efee1c10cae3ccbe57f591c09f234e9872f462f0d2"
+    },
+    "data/registry/south_central_2026_11_05/sources.csv": {
+      "sha256": "a0e65419417ad130446ae09b0610853407c19c2144443d9fd416793a62747ea2"
+    },
+    "data/reports/south_central_2026_11_05_change_events.csv": {
+      "sha256": "37772582be937df74bb420e2d1ed56cd39cc9e125d871c5a0906582f6b7e62b7"
+    },
+    "data/reports/south_central_2026_11_05_review_cases.csv": {
+      "sha256": "d90d346fba934407f19fc552ca30fca90838cefb060aa237995b952945dd1f5a"
+    },
+    "data/registry/south_central_2026_11_05/al_programmes.csv": {
+      "sha256": "dfb357ebcbda48477794be65c808389d916d5345f4df44ca077433ad1115cfa4"
+    },
+    "data/registry/south_central_2026_11_05/al_schools.csv": {
+      "sha256": "d92ca0b8ae868ef10668fb9a7077a61e0622b38c26a1cbfc8219a3f84a75d6f5"
+    },
+    "data/registry/south_central_2026_11_05/ar_programmes.csv": {
+      "sha256": "904e8fcb4018dfbf7910d95b5b0fc929a9dc6489490dee04376078a137603b90"
+    },
+    "data/registry/south_central_2026_11_05/ar_schools.csv": {
+      "sha256": "06d1de25a085cb83bc6a1bf756e5f798a6a200d031c6200c5d5d5deb210d4a60"
+    },
+    "data/registry/south_central_2026_11_05/la_programmes.csv": {
+      "sha256": "760442e8ccf8c4f9da6ab97d856b326e823a309af93b9b517b4ac1f1780dc326"
+    },
+    "data/registry/south_central_2026_11_05/la_schools.csv": {
+      "sha256": "d4ab93c6d4833e7b6ed7f296d8ccae8f22ba18edebd6f3160589fb0dc86f20dd"
+    },
+    "data/registry/south_central_2026_11_05/ms_programmes.csv": {
+      "sha256": "4a81949750872d56672e6257226f50e86e3d8bf5a968d9a37cd780b637f7638c"
+    },
+    "data/registry/south_central_2026_11_05/ms_schools.csv": {
+      "sha256": "18d6dcfc988299697f7a53a0f2a06859059e53b206da3e88d887f83765277d68"
+    },
+    "data/registry/south_central_2026_11_05/ok_programmes.csv": {
+      "sha256": "b96b3f2f7bd35ddeb6b91fb4503a22586ada8f0887218fb829c01d0e3e642247"
+    },
+    "data/registry/south_central_2026_11_05/ok_schools.csv": {
+      "sha256": "069f0ead38b48d306545f7ce7f7a6f585250a2b91e53bb817891db66a119426f"
+    },
+    "data/reports/south_central_2026_11_05.json": {
+      "sha256": "3cdf0d2dc9cede1780bc111e05b141166efee0a488b68d83404c81137fd3cfb5"
+    },
+    "data/registry/south_central_2026_11_05/al_screening.csv": {
+      "sha256": "20d0a2a29e02577351d8f4ac537b682d3b141b7cf0337c3da9f5cb1e425de41f"
+    },
+    "data/registry/south_central_2026_11_05/ar_screening.csv": {
+      "sha256": "c43a44545bce48df13789bad6cb4a8cc4f6b5be8fea3a941a8e4db820b6e76c4"
+    },
+    "data/registry/south_central_2026_11_05/la_screening.csv": {
+      "sha256": "0066e20c123e6adc59a760be563db6ee93c952abf80b9d14a43de80e9573faa7"
+    },
+    "data/registry/south_central_2026_11_05/ms_screening.csv": {
+      "sha256": "01173f88f087c5841976dba3917d2d4b8a416f96194600560a10c12021e8d88b"
+    },
+    "data/registry/south_central_2026_11_05/ok_screening.csv": {
+      "sha256": "03ad9e75fb2a37ebb677bc8a328df8a9bf7bf8aa5714037ffb89001632e08619"
+    },
+    "data/reports/structural_inventory_2026_11_05_south_central.json": {
+      "sha256": "80c24e65f645c2b1a0dfeda7c2d5bb31f776b810b225a375f6e3371dded07057"
     }
   }
 }

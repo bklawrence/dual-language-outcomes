@@ -1,0 +1,72 @@
+[
+  {
+    "school": "Ruppel Academie Francaise",
+    "district": "Jefferson Parish Schools",
+    "source": "sc_la_ruppel_program",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Ruppel Academie Francaise",
+    "disposition": "explicitly_not_content_immersion",
+    "reason": "District explicitly says this is NOT a French immersion school: core content is English with daily French classes.",
+    "notes": ""
+  },
+  {
+    "school": "Frederick Douglass Elementary School",
+    "district": "Jefferson Parish Schools",
+    "source": "sc_la_lpfi",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Frederick Douglass Elementary School",
+    "disposition": "historical_directory_host_requires_change_check",
+    "reason": "Older parent directory lists French; current 2025 reference operation/ending unresolved and government map omits it. Omission alone is not proof of closure.",
+    "notes": ""
+  },
+  {
+    "school": "Charles M. Burke Elementary School",
+    "district": "Lafayette Parish School System",
+    "source": "sc_search_la_lpss_burke",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Charles M. Burke Elementary School",
+    "disposition": "primary_source_retrieval_followup",
+    "reason": "Search identifies official Spanish two-way news, but source page retrieval fails. Preserve as a discovery lead pending direct/archived primary evidence; search snippets do not certify a programme.",
+    "notes": ""
+  },
+  {
+    "school": "Lafayette Parish source acquisition",
+    "district": "Lafayette Parish School System",
+    "source": "sc_la_state_world",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Lafayette Parish source acquisition",
+    "disposition": "source_access_and_discovery_gap",
+    "reason": "District World Language and magnet pages returned 503 during bounded acquisition. Government and certified-school sources support named French schools; remaining Spanish hosts and allocation details need follow-up.",
+    "notes": ""
+  },
+  {
+    "school": "Hynes Parkview",
+    "district": "Public charter operator: Hynes Charter Schools",
+    "source": "sc_la_hynes_handbook25",
+    "period": "2025-26",
+    "locator": "Hynes Parkview",
+    "disposition": "network_policy_not_transferred_to_unlisted_campus",
+    "reason": "Shared network handbook explicitly maps K–5 French immersion to Lakeview and UNO; Parkview is not given an assumed French strand.",
+    "notes": ""
+  },
+  {
+    "school": "Lycée Français – Acadiana Campus",
+    "district": "Public charter operator: Lycée Français International de la Louisiane",
+    "source": "sc_la_lycee_campuses",
+    "period": "2027-28",
+    "locator": "Lycée Français – Acadiana Campus",
+    "disposition": "future_campus_not_current",
+    "reason": "Operator says third campus opens fall 2027; not a current or 2025–26 host.",
+    "notes": ""
+  },
+  {
+    "school": "CODOFIL directory reconciliation",
+    "district": "",
+    "source": "sc_la_codofil",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "CODOFIL directory reconciliation",
+    "disposition": "headline_and_actual_directory_row_count_difference",
+    "reason": "Map page headline says 36 schools, but the public map API returns 35 objects with hasMore=false at perpage=1000. All 35 real rows are retained; no missing 36th school is invented.",
+    "notes": ""
+  }
+]

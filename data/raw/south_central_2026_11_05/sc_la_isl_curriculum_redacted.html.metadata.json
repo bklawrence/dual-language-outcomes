@@ -1,0 +1,25 @@
+{
+  "url": "https://www.isl-edu.org/curriculum",
+  "retrieved_at": "2026-11-05T22:19:43.751694+00:00",
+  "http_status": 200,
+  "final_url": "https://www.isl-edu.org/curriculum",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "c60a55407bd3e99a9aff2be933b1c353b154465034a1e7debe460ef631855ad7",
+  "bytes": 88455,
+  "capture_method": "public_HTTP_acquisition_then_documented_credential_redaction",
+  "archive_kind": "public_HTTP_response_with_embedded_credential_redacted",
+  "title": "Curriculum",
+  "snapshot_path": "data/raw/south_central_2026_11_05/sc_la_isl_curriculum_redacted.html",
+  "full_response_sha256": "d3b9a437945abf1f41c57d1585da65797e65f2d20f1d9168cebf03f9c61f4d76",
+  "full_response_bytes": 88510,
+  "redactions": [
+    {
+      "kind": "embedded_Mapbox_token",
+      "occurrences": 1,
+      "replacement": "[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]",
+      "scope": "common.mapbox.token configuration; visible and embedded programme text unchanged",
+      "reason": "GitHub push protection rejected the original public HTML"
+    }
+  ]
+}
