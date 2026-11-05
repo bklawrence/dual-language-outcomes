@@ -242,7 +242,7 @@ def render_reports(root,tables):
         review_text.extend(['## '+row['case_id']+' — '+row['district'],'',
             '**Campuses ('+str(len(row['campus_ids']))+'):** '+', '.join(row['campus_names']),
             '',row['issue'],'','Source: '+'; '.join(urls),'',
-            '> '+row['source_quote'],'',row['question'],'',
+            '> '+row['source_quote'].rstrip(),'',row['question'],'',
             *['- '+choice for choice in row['choices']],''])
     filled=set(accepted)
     pending_ids=set(pending)-filled

@@ -55,7 +55,7 @@ The source specifies two-way programmes; all three target campuses were reported
 
 Source: https://www.tomballisd.net/about-tisd/departments/academics/multilingual/two-way-dual-language
 
-> sis. Please contact Multilingual Programs for more information at 281-357-3100. Program Description TWDL is a 50/50 model - 50% of the instructional minutes each day are in English and 50% of the instructional minutes are in Spanish. Non-instructional minutes (transitions, lunch, recess, etc.) are not included in the count of instructional minutes nor is time in Specials (PE, Art, and Music). Teachers are tasked with staying in the language of instruction during instructional 
+> sis. Please contact Multilingual Programs for more information at 281-357-3100. Program Description TWDL is a 50/50 model - 50% of the instructional minutes each day are in English and 50% of the instructional minutes are in Spanish. Non-instructional minutes (transitions, lunch, recess, etc.) are not included in the count of instructional minutes nor is time in Specials (PE, Art, and Music). Teachers are tasked with staying in the language of instruction during instructional
 
 Should the current 50/50 policy be linked only to Canyon Pointe, with the historical one-way classification kept separate?
 
