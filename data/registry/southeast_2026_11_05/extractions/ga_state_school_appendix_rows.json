@@ -1,0 +1,1827 @@
+[
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 1,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Benteen ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30315",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-616fa6bbf38c"
+    ],
+    "school_ids": [
+      "SE-GA-S-7317ffb73e7e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 2,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Bolton Academy",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30318",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-70e7e09254ef"
+    ],
+    "school_ids": [
+      "SE-GA-S-bb30d86e0717"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 3,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "E. Rivers ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30305",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-43b3bfc45abe"
+    ],
+    "school_ids": [
+      "SE-GA-S-1d6507a4c985"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 4,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Garden Hills ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30305",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-1abe5ed1ec6b"
+    ],
+    "school_ids": [
+      "SE-GA-S-74e79a79c1d4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 5,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "King MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30312",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-0fe245624ffc"
+    ],
+    "school_ids": [
+      "SE-GA-S-13a5c27a7075"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 6,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Morris Brandon ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30327",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-fa5d4376e850"
+    ],
+    "school_ids": [
+      "SE-GA-S-997abb71bace"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 7,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "North Atlanta HS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "9",
+      "zip_code": "30327",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-74ebaaedf370"
+    ],
+    "school_ids": [
+      "SE-GA-S-8299983a31b3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 8,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Sarah Smith ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30342",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-479e9ae34e70"
+    ],
+    "school_ids": [
+      "SE-GA-S-a5d37fb98027"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 9,
+    "raw": {
+      "district": "Atlanta Public Schools",
+      "source_school": "Sutton MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30305",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-a6cef676e46e"
+    ],
+    "school_ids": [
+      "SE-GA-S-8b3b5270cae5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 10,
+    "raw": {
+      "district": "Clarke County Schools",
+      "source_school": "Burney-Harris-Lyons MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30606",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-2300e4d3063c"
+    ],
+    "school_ids": [
+      "SE-GA-S-8e1ede1a9609"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 11,
+    "raw": {
+      "district": "Clarke County Schools",
+      "source_school": "Oglethorpe Ave ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30606",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-7370f5e7cc51"
+    ],
+    "school_ids": [
+      "SE-GA-S-d52e52b6cc03"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 12,
+    "raw": {
+      "district": "Clayton County Schools",
+      "source_school": "Kilpatrick ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30236",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-bdf9acaa872d"
+    ],
+    "school_ids": [
+      "SE-GA-S-8b5be68ab884"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 13,
+    "raw": {
+      "district": "Clayton County Schools",
+      "source_school": "Morrow MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30260",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-6a19a1ca9810"
+    ],
+    "school_ids": [
+      "SE-GA-S-bc7ac58fb266"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 14,
+    "raw": {
+      "district": "Clayton County Schools",
+      "source_school": "Unidos Dual Language School",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30297",
+      "source_page": 14
+    },
+    "program_ids": [
+      "SE-GA-P-46ddbd149792"
+    ],
+    "school_ids": [
+      "SE-GA-S-5679f3f80bd4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 15,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Campbell HS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "9-12",
+      "zip_code": "30080",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-b95b6b68048a"
+    ],
+    "school_ids": [
+      "SE-GA-S-cbdf072a69ea"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 16,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Campbell MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30080",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-def1b8074c6a"
+    ],
+    "school_ids": [
+      "SE-GA-S-6fb67d1b8400"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 17,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Dowell ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30064",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-ae351d8ca302"
+    ],
+    "school_ids": [
+      "SE-GA-S-1634918860f2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 18,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Floyd MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30126",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-f973b0f7871b"
+    ],
+    "school_ids": [
+      "SE-GA-S-533ea448bca2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 19,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Mableton ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30126",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-844801ccc92a"
+    ],
+    "school_ids": [
+      "SE-GA-S-94be7bbbe8e2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 20,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Nickajack ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30082",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-991669fcd9fc"
+    ],
+    "school_ids": [
+      "SE-GA-S-f6dda34322d5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 21,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Russell ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30082",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-c58554c4d8ee"
+    ],
+    "school_ids": [
+      "SE-GA-S-b9f7aa58f706"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 22,
+    "raw": {
+      "district": "Cobb County Schools",
+      "source_school": "Smyrna ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30082",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-057f09f9fdec"
+    ],
+    "school_ids": [
+      "SE-GA-S-757328130bc2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 23,
+    "raw": {
+      "district": "Crisp County Schools",
+      "source_school": "Crisp County Primary",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-2",
+      "zip_code": "31015",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-0cc51fb1d52c"
+    ],
+    "school_ids": [
+      "SE-GA-S-7b6945382345"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 24,
+    "raw": {
+      "district": "Dalton Public Schools",
+      "source_school": "Brookwood ES",
+      "languages": [
+        "German"
+      ],
+      "grade": "K-5",
+      "zip_code": "30813",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-fbfdfdce225c"
+    ],
+    "school_ids": [
+      "SE-GA-S-ae5c37d43403"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 25,
+    "raw": {
+      "district": "Dalton Public Schools",
+      "source_school": "City Park ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-1",
+      "zip_code": "30720",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-8a59ed17b6de"
+    ],
+    "school_ids": [
+      "SE-GA-S-f522dc278391"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 26,
+    "raw": {
+      "district": "Dalton Public Schools",
+      "source_school": "Hammond Creek MS",
+      "languages": [
+        "German"
+      ],
+      "grade": "6-7",
+      "zip_code": "30721",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-7a6c7bbddc9b"
+    ],
+    "school_ids": [
+      "SE-GA-S-7007a003c5ea"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 27,
+    "raw": {
+      "district": "Dalton Public Schools",
+      "source_school": "Westwood ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-4",
+      "zip_code": "30720",
+      "source_page": 15
+    },
+    "program_ids": [
+      "SE-GA-P-1cc6c8b69d56"
+    ],
+    "school_ids": [
+      "SE-GA-S-1c1a8edef3a3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 28,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Ashford Park ES",
+      "languages": [
+        "German"
+      ],
+      "grade": "K-5",
+      "zip_code": "30319",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-8bc83cb9f39d"
+    ],
+    "school_ids": [
+      "SE-GA-S-97737211ca45"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 29,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Barack Obama ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30316",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-a74a528b3d45"
+    ],
+    "school_ids": [
+      "SE-GA-S-e0fb8b1910b2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 30,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Chamblee MS",
+      "languages": [
+        "German"
+      ],
+      "grade": "6-8",
+      "zip_code": "30341",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-92b0dec45ecd"
+    ],
+    "school_ids": [
+      "SE-GA-S-baefb3da0bff"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 31,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Evansdale ES",
+      "languages": [
+        "French"
+      ],
+      "grade": "K-5",
+      "zip_code": "30340",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-35b74627522c"
+    ],
+    "school_ids": [
+      "SE-GA-S-80ab87061408"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 32,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Henderson MS",
+      "languages": [
+        "French"
+      ],
+      "grade": "6-8",
+      "zip_code": "30341",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-d82e34e8535e"
+    ],
+    "school_ids": [
+      "SE-GA-S-a0cddaee71af"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 33,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Pleasantdale ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30340",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-6780020195bf"
+    ],
+    "school_ids": [
+      "SE-GA-S-b78f78bff7dc"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 34,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Rockbridge ES",
+      "languages": [
+        "French"
+      ],
+      "grade": "K-5",
+      "zip_code": "30083",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-bb068215093f"
+    ],
+    "school_ids": [
+      "SE-GA-S-8604791325fc"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 35,
+    "raw": {
+      "district": "DeKalb County Schools",
+      "source_school": "Stone Mountain MS",
+      "languages": [
+        "French"
+      ],
+      "grade": "6-8",
+      "zip_code": "30083",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-a0cbf396f302"
+    ],
+    "school_ids": [
+      "SE-GA-S-a0774fb24e69"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 36,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Brandywine ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30004",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-56e53a443e71"
+    ],
+    "school_ids": [
+      "SE-GA-S-61f7a13f1d58"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 37,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Cumming ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30040",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-736887b644db"
+    ],
+    "school_ids": [
+      "SE-GA-S-ce45ed8ad8ec"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 38,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "DeSana MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30004",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-1966bcd2ace4"
+    ],
+    "school_ids": [
+      "SE-GA-S-3f58c77bd078"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 39,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Hendricks MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30040",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-b5f638e142ab"
+    ],
+    "school_ids": [
+      "SE-GA-S-1203b1f82564"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 40,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Kelly Mill ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30040",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-b162cb5e4eb7"
+    ],
+    "school_ids": [
+      "SE-GA-S-e1dadeceac09"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 41,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Mashburn ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-4",
+      "zip_code": "30041",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-3446baaea4ce"
+    ],
+    "school_ids": [
+      "SE-GA-S-85ed354e944b"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 42,
+    "raw": {
+      "district": "Forsyth County Schools",
+      "source_school": "Otwell MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30040",
+      "source_page": 16
+    },
+    "program_ids": [
+      "SE-GA-P-c4e2c2af0096"
+    ],
+    "school_ids": [
+      "SE-GA-S-4f0da161f132"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 43,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Elkins Pointe MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-7",
+      "zip_code": "30076",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-f9318388f4b4"
+    ],
+    "school_ids": [
+      "SE-GA-S-bc2ae400d06c"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 44,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Hapeville ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30354",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-b1eff2b60d54"
+    ],
+    "school_ids": [
+      "SE-GA-S-be5b97969280"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 45,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Haynes Bridge MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-7",
+      "zip_code": "30022",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-bbbb20c1b976"
+    ],
+    "school_ids": [
+      "SE-GA-S-75a83a6abf2b"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 46,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Lake Forest ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30328",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-91e2144dfb9d"
+    ],
+    "school_ids": [
+      "SE-GA-S-4adc9260ec1f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 47,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Mimosa ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30076",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-65557a924456"
+    ],
+    "school_ids": [
+      "SE-GA-S-d2974e6752a3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 48,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Paul D. West MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30344",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-bca76e3eedea"
+    ],
+    "school_ids": [
+      "SE-GA-S-e5130f1e0023"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 49,
+    "raw": {
+      "district": "Fulton County Schools",
+      "source_school": "Ridgeview Charter MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-7",
+      "zip_code": "30342",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-64608b48d00f"
+    ],
+    "school_ids": [
+      "SE-GA-S-48cb7598da14"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 50,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "Chicopee Woods ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30507",
+      "source_page": 17
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 51,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "Lyman Hall ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30504",
+      "source_page": 17
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 52,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "McEver Arts Academy ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30504",
+      "source_page": 17
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 53,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "Sandra Dunagan Deal ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30501",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-f2345a863c27"
+    ],
+    "school_ids": [
+      "SE-GA-S-f0540b42b1d2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 54,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "Sardis ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30504",
+      "source_page": 17
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 55,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "Sugar Hill ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK",
+      "zip_code": "30506",
+      "source_page": 17
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 56,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "World Language Academy ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "PreK-5",
+      "zip_code": "30542",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-52c98a07d701"
+    ],
+    "school_ids": [
+      "SE-GA-S-d3448e7d57d3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 57,
+    "raw": {
+      "district": "Hall County Schools",
+      "source_school": "World Language Academy MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30507",
+      "source_page": 17
+    },
+    "program_ids": [
+      "SE-GA-P-d751b11fd36e"
+    ],
+    "school_ids": [
+      "SE-GA-S-171b2b5bba61"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 58,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Annistown ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30039",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-c0be4d231665"
+    ],
+    "school_ids": [
+      "SE-GA-S-1a6aa4605da3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 59,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Baldwin ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30071",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-b3526df2a265"
+    ],
+    "school_ids": [
+      "SE-GA-S-d79e247fda75"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 60,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Bay Creek MS",
+      "languages": [
+        "French"
+      ],
+      "grade": "6-8",
+      "zip_code": "30017",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-6218222a3056"
+    ],
+    "school_ids": [
+      "SE-GA-S-e91276059f4a"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 61,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Berkmar HS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "9-10",
+      "zip_code": "30047",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-8c18054e11f4"
+    ],
+    "school_ids": [
+      "SE-GA-S-c31b81eddf7f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 62,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Bethesda ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30044",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-20d3f49c2586"
+    ],
+    "school_ids": [
+      "SE-GA-S-91daefb7331f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 63,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Camp Creek ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30047",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-fc313df07fa2"
+    ],
+    "school_ids": [
+      "SE-GA-S-1c620a1819ad"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 64,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Grayson HS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "9-10",
+      "zip_code": "30052",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-fa45b1c10f82"
+    ],
+    "school_ids": [
+      "SE-GA-S-d71c20cda5fb"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 65,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Hopkins ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K",
+      "zip_code": "30047",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-d854fbfbfa6a"
+    ],
+    "school_ids": [
+      "SE-GA-S-1d1653a6d646"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 66,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Ivy Creek ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30519",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-bab3c5ae7c58"
+    ],
+    "school_ids": [
+      "SE-GA-S-555aa529417f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 67,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Jones MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30519",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-a344a35a0d9c"
+    ],
+    "school_ids": [
+      "SE-GA-S-ae2ef57877dc"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 68,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Level Creek ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30024",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-cabded443f85"
+    ],
+    "school_ids": [
+      "SE-GA-S-9a70b4dcb033"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 69,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Meadowcreek ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30093",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-5b0b59cadb15"
+    ],
+    "school_ids": [
+      "SE-GA-S-a05fd2aa4748"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 70,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Mulberry ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30011",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-35048b4c570e"
+    ],
+    "school_ids": [
+      "SE-GA-S-dd79e1e7bac0"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 71,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "North Gwinnett MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30518",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-32ffa5afc21d"
+    ],
+    "school_ids": [
+      "SE-GA-S-4017560ae85c"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 72,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Parsons ES",
+      "languages": [
+        "Korean"
+      ],
+      "grade": "K-5",
+      "zip_code": "30024",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-797233e58682"
+    ],
+    "school_ids": [
+      "SE-GA-S-d7ab8f929109"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 73,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Radloff MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6",
+      "zip_code": "30096",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-d81da4604792"
+    ],
+    "school_ids": [
+      "SE-GA-S-6827ffa520de"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 74,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Shiloh HS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "9-10",
+      "zip_code": "30039",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-927ae1b551b7"
+    ],
+    "school_ids": [
+      "SE-GA-S-6da78ef04969"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 75,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Shiloh MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30039",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-2c5d5072fa65"
+    ],
+    "school_ids": [
+      "SE-GA-S-e0ee8aea3a1f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 76,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Summerour MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30071",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-f2c1e77df30c"
+    ],
+    "school_ids": [
+      "SE-GA-S-e1133a45f831"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 77,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Sweetwater MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30044",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-a39c0ce46018"
+    ],
+    "school_ids": [
+      "SE-GA-S-f2f3bd6998e9"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 78,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Trickum MS",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "6-8",
+      "zip_code": "30039",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-34a12d8c2f64"
+    ],
+    "school_ids": [
+      "SE-GA-S-9d71506b145a"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 79,
+    "raw": {
+      "district": "Gwinnett County Schools",
+      "source_school": "Trip ES",
+      "languages": [
+        "French"
+      ],
+      "grade": "K-5",
+      "zip_code": "30017",
+      "source_page": 18
+    },
+    "program_ids": [
+      "SE-GA-P-0da5760df5c3"
+    ],
+    "school_ids": [
+      "SE-GA-S-1f3b5aa2256d"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 80,
+    "raw": {
+      "district": "Marietta City Schools",
+      "source_school": "Dunlieth ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30008",
+      "source_page": 19
+    },
+    "program_ids": [
+      "SE-GA-P-941099eeec20"
+    ],
+    "school_ids": [
+      "SE-GA-S-e2d4fbd7399e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 81,
+    "raw": {
+      "district": "Marietta City Schools",
+      "source_school": "Park Street ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30060",
+      "source_page": 19
+    },
+    "program_ids": [
+      "SE-GA-P-202c39852604"
+    ],
+    "school_ids": [
+      "SE-GA-S-fdc68182e50e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 82,
+    "raw": {
+      "district": "Savannah-Chatham Co. Schools",
+      "source_school": "Carrie Gould ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-2",
+      "zip_code": "31405",
+      "source_page": 19
+    },
+    "program_ids": [
+      "SE-GA-P-6c1f4efb3cce"
+    ],
+    "school_ids": [
+      "SE-GA-S-5977de0b6b8d"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 83,
+    "raw": {
+      "district": "Rockdale County Schools",
+      "source_school": "C J Hicks ES",
+      "languages": [
+        "Spanish"
+      ],
+      "grade": "K-5",
+      "zip_code": "30012",
+      "source_page": 19
+    },
+    "program_ids": [
+      "SE-GA-P-76ffe7edb3f7"
+    ],
+    "school_ids": [
+      "SE-GA-S-b6dc271ece59"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 84,
+    "raw": {
+      "district": "Public charter operator: International Charter Academy of Georgia",
+      "source_school": "International Charter Academy of Georgia",
+      "languages": [
+        "Japanese"
+      ],
+      "grade": "K-6",
+      "zip_code": "30092",
+      "source_page": 20
+    },
+    "program_ids": [
+      "SE-GA-P-884af9786f12"
+    ],
+    "school_ids": [
+      "SE-GA-S-84ffc2d2d244"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 85,
+    "raw": {
+      "district": "Public charter operator: The GLOBE Academy",
+      "source_school": "The GLOBE Academy",
+      "languages": [
+        "Spanish",
+        "Chinese",
+        "French"
+      ],
+      "grade": "K-8",
+      "zip_code": "30345",
+      "source_page": 20
+    },
+    "program_ids": [
+      "SE-GA-P-04b2a876e764",
+      "SE-GA-P-148437f19b30",
+      "SE-GA-P-600e282d6273"
+    ],
+    "school_ids": [
+      "SE-GA-S-0b9e24238752",
+      "SE-GA-S-0b9e24238752",
+      "SE-GA-S-0b9e24238752"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 86,
+    "raw": {
+      "district": "Public charter operator: International Charter School of Atlanta",
+      "source_school": "International Charter School of Atlanta",
+      "languages": [
+        "Spanish",
+        "Chinese",
+        "French",
+        "German"
+      ],
+      "grade": "K-8",
+      "zip_code": "30076",
+      "source_page": 20
+    },
+    "program_ids": [
+      "SE-GA-P-b1b35d417233",
+      "SE-GA-P-8c4e049bc848",
+      "SE-GA-P-aa56d2b2c5f7",
+      "SE-GA-P-4571589ea93e"
+    ],
+    "school_ids": [
+      "SE-GA-S-f2582e3e9324",
+      "SE-GA-S-f2582e3e9324",
+      "SE-GA-S-f2582e3e9324",
+      "SE-GA-S-f2582e3e9324"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_ga_guidance25",
+    "source_row": 87,
+    "raw": {
+      "district": "Public charter operator: Yi Hwang Academy of Language Excellence",
+      "source_school": "Yi Hwang Academy of Language Excellence",
+      "languages": [
+        "Chinese",
+        "Korean"
+      ],
+      "grade": "K-5",
+      "zip_code": "30096",
+      "source_page": 20
+    },
+    "program_ids": [
+      "SE-GA-P-c7682e332736",
+      "SE-GA-P-5929d4c2e42c"
+    ],
+    "school_ids": [
+      "SE-GA-S-0ad389217d93",
+      "SE-GA-S-0ad389217d93"
+    ],
+    "disposition": "integrated"
+  }
+]

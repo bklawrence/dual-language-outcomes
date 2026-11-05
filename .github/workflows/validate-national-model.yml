@@ -43,6 +43,8 @@ jobs:
         run: python scripts/validate_illinois_history.py
       - name: Validate south-central sources, screening and dated programme changes
         run: python scripts/validate_south_central_inventory.py
+      - name: Validate southeast sources, roster conservation and dated programme scope
+        run: python scripts/validate_southeast_inventory.py
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py

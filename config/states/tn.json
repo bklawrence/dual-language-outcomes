@@ -2,7 +2,20 @@
   "state_code": "TN",
   "state_name": "Tennessee",
   "state_fips": "47",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "tennessee",
+  "collection_status": "integrated_partial",
+  "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+  "structural_inputs": {
+    "programmes": "data/registry/southeast_2026_11_05/tn_programmes.json",
+    "screening": "data/registry/southeast_2026_11_05/tn_screening.json",
+    "sources": "data/registry/southeast_2026_11_05/sources.json",
+    "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+    "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+    "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+    "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+    "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+    "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+    "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+    "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json"
+  }
 }

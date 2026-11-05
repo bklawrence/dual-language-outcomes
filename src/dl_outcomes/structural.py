@@ -13,10 +13,12 @@ from .identity_audit import preserved_identity_fingerprint
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN'}
 
 
 def report_prefix(root):
+    southeast=root/'config/research_migrations/southeast_2026_11_05.json'
+    if southeast.exists():return json.loads(southeast.read_text())['national_report_prefix']
     south_central=root/'config/research_migrations/south_central_2026_11_05.json'
     if south_central.exists():return json.loads(south_central.read_text())['national_report_prefix']
     historical=root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json'
@@ -138,6 +140,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/south_central_2026_11_05.json').exists():
         from .south_central_review import audit_errors as south_central_errors
         errors.extend(south_central_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/southeast_2026_11_05.json').exists():
+        from .southeast_review import audit_errors as southeast_errors
+        errors.extend(southeast_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -300,6 +305,19 @@ def generate_report(root, *, check=False):
         audit['states_with_screening_only_research'] = [r['state'] for r in new_summary['state_summary']
             if r['programme_records']==0]
         reviewed = set(audit['states_with_integrated_program_evidence']) | set(audit['states_with_screening_only_research'])
+        audit['states_with_structural_research'] = sorted(reviewed)
+        audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states']
+            if r['state_code'] not in reviewed]
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/southeast_2026_11_05.json').exists():
+        from .southeast_review import render_reports as southeast_reports
+        new_contents, new_summary = southeast_reports(root, tables)
+        contents.update(new_contents)
+        audit['southeast_batch'] = new_summary
+        screened = set(audit.get('states_with_screening_only_research', []))
+        screened.update(r['state'] for r in new_summary['state_summary'] if r['programme_records']==0)
+        audit['states_with_screening_only_research'] = sorted(screened)
+        reviewed = set(audit['states_with_integrated_program_evidence']) | screened
         audit['states_with_structural_research'] = sorted(reviewed)
         audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states']
             if r['state_code'] not in reviewed]

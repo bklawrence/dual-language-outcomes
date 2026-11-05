@@ -1,0 +1,212 @@
+[
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 1,
+    "raw": {
+      "school": "Angier Elementary School",
+      "grade_section": "elementary"
+    },
+    "program_ids": [
+      "SE-NC-P-ebd73e398d5a"
+    ],
+    "school_ids": [
+      "SE-NC-S-f9558ccd8852"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 2,
+    "raw": {
+      "school": "Boone Trail Elementary School",
+      "grade_section": "elementary"
+    },
+    "program_ids": [
+      "SE-NC-P-d92094ffdd34"
+    ],
+    "school_ids": [
+      "SE-NC-S-583d4c4966bf"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 3,
+    "raw": {
+      "school": "Coats Elementary School",
+      "grade_section": "elementary"
+    },
+    "program_ids": [
+      "SE-NC-P-f7673686d330"
+    ],
+    "school_ids": [
+      "SE-NC-S-4c9971f06acd"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 4,
+    "raw": {
+      "school": "Dunn Elementary",
+      "grade_section": "PK-5"
+    },
+    "program_ids": [
+      "SE-NC-P-7d597bb20005"
+    ],
+    "school_ids": [
+      "SE-NC-S-c0c8e0541d92"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 5,
+    "raw": {
+      "school": "Highland Elementary",
+      "grade_section": "K-5"
+    },
+    "program_ids": [
+      "SE-NC-P-3e89d776f21e"
+    ],
+    "school_ids": [
+      "SE-NC-S-f52787e5afc4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 6,
+    "raw": {
+      "school": "Johnsonville Elementary School",
+      "grade_section": "elementary"
+    },
+    "program_ids": [
+      "SE-NC-P-763801ec8b75"
+    ],
+    "school_ids": [
+      "SE-NC-S-2c517d5442d9"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 7,
+    "raw": {
+      "school": "North Harnett Primary School",
+      "grade_section": "elementary primary"
+    },
+    "program_ids": [
+      "SE-NC-P-abd698078062"
+    ],
+    "school_ids": [
+      "SE-NC-S-a8108502d558"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 8,
+    "raw": {
+      "school": "Coats Erwin Middle School",
+      "grade_section": "6-8"
+    },
+    "program_ids": [
+      "SE-NC-P-acb7df7cfa97"
+    ],
+    "school_ids": [
+      "SE-NC-S-22561dc0e897"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 9,
+    "raw": {
+      "school": "Harnett Central Middle School",
+      "grade_section": "6-8"
+    },
+    "program_ids": [
+      "SE-NC-P-95e9f52b09cb"
+    ],
+    "school_ids": [
+      "SE-NC-S-82fe0a3ec99c"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 10,
+    "raw": {
+      "school": "Western Harnett Middle School",
+      "grade_section": "6-8"
+    },
+    "program_ids": [
+      "SE-NC-P-ccdc22f6c696"
+    ],
+    "school_ids": [
+      "SE-NC-S-60dba2ba98b4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 11,
+    "raw": {
+      "school": "Dunn Middle School",
+      "grade_section": "6-8"
+    },
+    "program_ids": [
+      "SE-NC-P-ffe8d99c3eaf"
+    ],
+    "school_ids": [
+      "SE-NC-S-9c71ac1e9719"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 12,
+    "raw": {
+      "school": "Highland Middle School",
+      "grade_section": "6-8"
+    },
+    "program_ids": [
+      "SE-NC-P-eb43c0fbb7c7"
+    ],
+    "school_ids": [
+      "SE-NC-S-e206ccc91fe4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 13,
+    "raw": {
+      "school": "Triton High School",
+      "grade_section": "9-12"
+    },
+    "program_ids": [
+      "SE-NC-P-cfb84570e790"
+    ],
+    "school_ids": [
+      "SE-NC-S-bf94091f9c9a"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_nc_district_32",
+    "source_row": 14,
+    "raw": {
+      "school": "Harnett Central High School",
+      "grade_section": "9-12"
+    },
+    "program_ids": [
+      "SE-NC-P-f8e140fe864b"
+    ],
+    "school_ids": [
+      "SE-NC-S-3604c1441aca"
+    ],
+    "disposition": "integrated"
+  }
+]

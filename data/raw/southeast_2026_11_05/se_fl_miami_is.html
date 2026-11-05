@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://www.bilingualmdcps.com/xmlrpc.php">
+
+    <title>International Studies &#8211; MDCPS Department of Bilingual Education and World Languages</title>
+    <script>
+      var bwg_admin_ajax = 'https://www.bilingualmdcps.com/wp-admin/admin-ajax.php?action=shortcode_bwg';
+      var bwg_ajax_url = 'https://www.bilingualmdcps.com/wp-admin/admin-ajax.php?action';
+      var bwg_plugin_url = 'https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery';
+      document.addEventListener('DOMContentLoaded', function(){ // Analog of $(document).ready(function(){
+        bwg_check_ready = function () {}
+        document.onkeyup = function(e){
+          if ( e.key == 'Escape' ) {
+            bwg_remove_loading_block();
+          }
+        };
+      });
+
+      // Set shortcode popup dimensions.
+      function bwg_set_shortcode_popup_dimensions() {
+        var H = jQuery(window).height(), W = jQuery(window).width();
+        jQuery("#TB_title").hide().first().show();
+        // New
+        var tbWindow = jQuery('#TB_window');
+        if (tbWindow.size()) {
+          tbWindow.width(W).height(H);
+          jQuery('#TB_iframeContent').width(W).height(H);
+          tbWindow.attr('style',
+            'top:'+ '0px !important;' +
+            'left:' + '0px !important;' +
+            'margin-left:' + '0;' +
+            'z-index:' + '1000500;' +
+            'max-width:' + 'none;' +
+            'max-height:' + 'none;' +
+            '-moz-transform:' + 'none;' +
+            '-webkit-transform:' + 'none'
+          );
+        }
+        // Edit
+        var tbWindow = jQuery('.mce-window[aria-label="Photo Gallery"]');
+        if (tbWindow.length) {
+          // To prevent wp centering window with old sizes.
+          setTimeout(function() {
+            tbWindow.width(W).height(H);
+            tbWindow.css({'top': 0, 'left': 0, 'margin-left': '0', 'z-index': '1000500'});
+            tbWindow.find('.mce-window-body').width(W).height(H);
+          }, 10);
+        }
+      }
+      // Create loading block.
+      function bwg_create_loading_block() {
+        jQuery('body').append('<div class="loading_div" style="display:block; width: 100%; height: 100%; opacity: 0.6; position: fixed; background-color: #000000; background-image: url('+ bwg_plugin_url +'/images/spinner.gif); background-position: center; background-repeat: no-repeat; background-size: 50px; z-index: 1001000; top: 0; left: 0;"></div>');
+      }
+      // Remove loading block.
+      function bwg_remove_loading_block() {
+        jQuery(".loading_div", window.parent.document).remove();
+        jQuery('.loading_div').remove();
+      }
+	  </script>
+        <script>
+      var fm_site_url = 'https://www.bilingualmdcps.com/';
+      var admin_url = 'https://www.bilingualmdcps.com/wp-admin/admin.php';
+      var plugin_url = 'https://www.bilingualmdcps.com/wp-content/plugins/form-maker';
+      var upload_url = 'https://www.bilingualmdcps.com/wp-content/uploads';
+      var nonce_fm = '5365e4051d';
+      // Set shortcode popup dimensions.
+      function fm_set_shortcode_popup_dimensions(tbWidth, tbHeight) {
+        var tbWindow = jQuery('#TB_window'), H = jQuery(window).height(), W = jQuery(window).width(), w, h;
+        w = (tbWidth && tbWidth < W - 90) ? tbWidth : W - 40;
+        h = (tbHeight && tbHeight < H - 60) ? tbHeight : H - 40;
+        if (tbWindow.length) {
+          tbWindow.width(w).height(h);
+          jQuery('#TB_iframeContent').width(w).height(h - 27);
+          tbWindow.css({'margin-left': '-' + parseInt((w / 2), 10) + 'px'});
+          if (typeof document.body.style.maxWidth != 'undefined') {
+            tbWindow.css({'top': (H - h) / 2, 'margin-top': '0'});
+          }
+        }
+      }
+    </script>
+        <script>
+      var wds_thickDims, wds_tbWidth, wds_tbHeight;
+      wds_tbWidth = 400;
+      wds_tbHeight = 200;
+      wds_thickDims = function() {
+        var tbWindow = jQuery('#TB_window'), H = jQuery(window).height(), W = jQuery(window).width(), w, h;
+        w = (wds_tbWidth && wds_tbWidth < W - 90) ? wds_tbWidth : W - 40;
+        h = (wds_tbHeight && wds_tbHeight < H - 60) ? wds_tbHeight : H - 40;
+        if (tbWindow.size()) {
+          tbWindow.width(w).height(h);
+          jQuery('#TB_iframeContent').width(w).height(h - 27);
+          tbWindow.css({'margin-left': '-' + parseInt((w / 2),10) + 'px'});
+          if (typeof document.body.style.maxWidth != 'undefined') {
+            tbWindow.css({'top':(H-h)/2,'margin-top':'0'});
+          }
+        }
+      };
+    </script>
+    <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//cdn.datatables.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="MDCPS Department of Bilingual Education and World Languages &raquo; Feed" href="https://www.bilingualmdcps.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MDCPS Department of Bilingual Education and World Languages &raquo; Comments Feed" href="https://www.bilingualmdcps.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bilingualmdcps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bilingualmdcps.com%2Finternational-studies%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bilingualmdcps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bilingualmdcps.com%2Finternational-studies%2F&#038;format=xml" />
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.woff" as="font" type="font/woff2" crossorigin="anonymous">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='twb-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&#038;display=swap&#038;ver=7.1.4' media='all' />
+<link rel='stylesheet' id='twb-global-css' href='https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster/assets/css/global.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='pt-cv-public-style-css' href='https://www.bilingualmdcps.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2' media='all' />
+<link rel='stylesheet' id='pt-cv-public-pro-style-css' href='https://www.bilingualmdcps.com/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css?ver=6.3.1' media='all' />
+<link rel='stylesheet' id='owl-css-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/css/owl.carousel.css?ver=5.0.73' media='all' />
+<link rel='stylesheet' id='bootstrap-css-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/css/bootstrap.css?ver=5.0.73' media='all' />
+<link rel='stylesheet' id='frontend_main-css-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/css/frontend_main.css?ver=5.0.73' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.bilingualmdcps.com/wp-includes/css/dashicons.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='elusive-css' href='https://www.bilingualmdcps.com/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/elusive.min.css?ver=2.0' media='all' />
+<link rel='stylesheet' id='menu-icon-font-awesome-css' href='https://www.bilingualmdcps.com/wp-content/plugins/menu-icons/css/fontawesome/css/all.min.css?ver=5.15.4' media='all' />
+<link rel='stylesheet' id='foundation-icons-css' href='https://www.bilingualmdcps.com/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/foundation-icons.min.css?ver=3.0' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://www.bilingualmdcps.com/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/genericons.min.css?ver=3.4' media='all' />
+<link rel='stylesheet' id='menu-icons-extra-css' href='https://www.bilingualmdcps.com/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.13.26' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+
+<link rel='stylesheet' id='datatables-css' href='https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='datatables-responsive-css' href='https://cdn.datatables.net/responsive/2.3.0/css/responsive.dataTables.min.css?ver=7.1.4' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #0700ce;--wp--preset--color--green: #62C27C;--wp--preset--color--red: #C22828;--wp--preset--color--brown: #de9a4e;--wp--preset--color--coral: #EB484D;--wp--preset--color--gray: #666666;--wp--preset--color--background: #ffffff;--wp--preset--color--foreground: #444444;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.156), 16px);--wp--preset--font-size--large: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.469), 20px);--wp--preset--font-size--x-large: clamp(17.905px, 1.119rem + ((1vw - 3.2px) * 0.789), 28px);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--small: 20px;--wp--preset--spacing--medium: 40px;--wp--preset--spacing--large: 60px;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: min(800px, calc(100% - 64px));--wp--style--global--wide-size: min(910px, calc(100% - 48px)); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 20px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 20px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 20px;}:root :where(.is-layout-grid){gap: 20px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--primary);}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-green-color{color: var(--wp--preset--color--green) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-brown-color{color: var(--wp--preset--color--brown) !important;}.has-coral-color{color: var(--wp--preset--color--coral) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-green-background-color{background-color: var(--wp--preset--color--green) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-brown-background-color{background-color: var(--wp--preset--color--brown) !important;}.has-coral-background-color{background-color: var(--wp--preset--color--coral) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-green-border-color{border-color: var(--wp--preset--color--green) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-brown-border-color{border-color: var(--wp--preset--color--brown) !important;}.has-coral-border-color{border-color: var(--wp--preset--color--coral) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='fl-builder-layout-12064-css' href='https://www.bilingualmdcps.com/wp-content/uploads/bb-plugin/cache/12064-layout.css?ver=bffab752c3e1b189326810ddb9274e20' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css' href='https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' media='all' />
+<link rel='stylesheet' id='sumoselect-css' href='https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.4.6' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css' href='https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=3.1.5' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts-css' href='https://fonts.googleapis.com/css?family=Ubuntu&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css' href='https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/css/styles.min.css?ver=2.8.23' media='all' />
+<link rel='stylesheet' id='ffwd_frontend-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/css/ffwd_frontend.css?ver=5.2.9' media='all' />
+<link rel='stylesheet' id='ffwd_fonts-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/css/fonts.css?ver=5.2.9' media='all' />
+<link rel='stylesheet' id='ffwd_mCustomScrollbar-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/css/jquery.mCustomScrollbar.css?ver=5.2.9' media='all' />
+<link rel='stylesheet' id='megamenu-css' href='https://www.bilingualmdcps.com/wp-content/uploads/maxmegamenu/style.css?ver=d06c46' media='all' />
+<link rel='stylesheet' id='zoom-theme-utils-css-css' href='https://www.bilingualmdcps.com/wp-content/themes/presence/functions/wpzoom/assets/css/theme-utils.css?ver=2.2.9' media='all' />
+<link rel='stylesheet' id='presence-google-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700%2C700i%2Citalic%7CLibre+Franklin%3Aregular%2C600%2C700&#038;subset=latin&#038;display=swap&#038;ver=2.0.14' media='all' />
+<link rel='stylesheet' id='presence-style-css' href='https://www.bilingualmdcps.com/wp-content/themes/presence/style.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='media-queries-css' href='https://www.bilingualmdcps.com/wp-content/themes/presence/css/media-queries.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='presence-style-color-default-css' href='https://www.bilingualmdcps.com/wp-content/themes/presence/styles/default.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://www.bilingualmdcps.com/wp-content/plugins/social-icons-widget-pro/assets/css/wpzoom-social-icons-styles.css?ver=1792431966' media='all' />
+<link rel='stylesheet' id='magnificPopup-css' href='https://www.bilingualmdcps.com/wp-content/plugins/wpzoom-addons-for-beaver-builder/assets/css/magnific-popup.css?ver=1.4.0' media='all' />
+<script id="jquery-core-js" src="https://www.bilingualmdcps.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.bilingualmdcps.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="twb-circle-js" src="https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster/assets/js/circle-progress.js?ver=1.2.2"></script>
+<script id="twb-global-js-extra">
+var twb = {"nonce":"46afea00e5","ajax_url":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","plugin_url":"https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster","href":"https://www.bilingualmdcps.com/wp-admin/admin.php?page=twb_form-maker"};
+var twb = {"nonce":"46afea00e5","ajax_url":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","plugin_url":"https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster","href":"https://www.bilingualmdcps.com/wp-admin/admin.php?page=twb_form-maker"};
+var twb = {"nonce":"46afea00e5","ajax_url":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","plugin_url":"https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster","href":"https://www.bilingualmdcps.com/wp-admin/admin.php?page=twb_facebook-feed"};
+//# sourceURL=twb-global-js-extra
+</script>
+<script id="twb-global-js" src="https://www.bilingualmdcps.com/wp-content/plugins/form-maker/booster/assets/js/global.js?ver=1.0.0"></script>
+<script id="gmwd_util-js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/js/util.js?ver=7.1.4"></script>
+<script id="gmwd_map-js-js" src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&#038;v=3.exp&#038;key=AIzaSyA2dVsnnJ7U1cqTLv-53_tH5Df4FEFe1B8&#038;ver=7.1.4"></script>
+<script id="frontend_init_map-js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/js/init_map.js?ver=5.0.73"></script>
+<script id="frontend_main-js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/js/frontend_main.js?ver=5.0.73"></script>
+<script id="sumoselect-js" src="https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.4.6"></script>
+<script id="bwg_mobile-js" src="https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/js/tocca.min.js?ver=2.0.9"></script>
+<script id="mCustomScrollbar-js" src="https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=3.1.5"></script>
+<script id="jquery-fullscreen-js" src="https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/js/jquery.fullscreen.min.js?ver=0.6.0"></script>
+<script id="bwg_frontend-js-extra">
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"1","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/images/ajax_loader.png","front_ajax":"0","bwg_tag_see_all":"see all tags","bwg_tag_see_less":"see less tags"};
+//# sourceURL=bwg_frontend-js-extra
+</script>
+<script id="bwg_frontend-js" src="https://www.bilingualmdcps.com/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=2.8.23"></script>
+<script id="ffwd_cache-js-extra">
+var ffwd_cache = {"ajax_url":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","update_data":"[]","need_update":"false"};
+//# sourceURL=ffwd_cache-js-extra
+</script>
+<script id="ffwd_cache-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/js/ffwd_cache.js?ver=5.2.9"></script>
+<script id="ffwd_frontend-js-extra">
+var ffwd_frontend_text = {"comment_reply":"Reply","view":"View","more_comments":"more comments","year":"year","years":"years","hour":"hour","hours":"hours","months":"months","month":"month","weeks":"weeks","week":"week","days":"days","day":"day","minutes":"minutes","minute":"minute","seconds":"seconds","second":"second","ago":"ago","ajax_url":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","and":"and","others":"others"};
+//# sourceURL=ffwd_frontend-js-extra
+</script>
+<script id="ffwd_frontend-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/js/ffwd_frontend.js?ver=5.2.9"></script>
+<script id="ffwd_jquery_mobile-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/js/jquery.mobile.js?ver=5.2.9"></script>
+<script id="ffwd_mCustomScrollbar-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/js/jquery.mCustomScrollbar.concat.min.js?ver=5.2.9"></script>
+<script id="ffwd_gallery_box-js-extra">
+var ffwd_objectL10n = {"ffwd_field_required":"field is required.","ffwd_mail_validation":"This is not a valid email address.","ffwd_search_result":"There are no images matching your search."};
+//# sourceURL=ffwd_gallery_box-js-extra
+</script>
+<script id="ffwd_gallery_box-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-facebook-feed/js/ffwd_gallery_box.js?ver=5.2.9"></script>
+<script id="wpgmza_data-js-extra">
+var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
+//# sourceURL=wpgmza_data-js-extra
+</script>
+<script id="wpgmza_data-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wp-google-maps/wpgmza_data.js?ver=7.1.4"></script>
+<link rel="https://api.w.org/" href="https://www.bilingualmdcps.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bilingualmdcps.com/wp-json/wp/v2/pages/12064" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bilingualmdcps.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel="canonical" href="https://www.bilingualmdcps.com/international-studies/" />
+<link rel='shortlink' href='https://www.bilingualmdcps.com/?p=12064' />
+<!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="Presence 2.0.14" />
+<meta name="generator" content="WPZOOM Framework 2.2.9" />
+
+<!-- Begin Theme Custom CSS -->
+<style type="text/css" id="presence-custom-css">
+.brand-wrap .tagline{display:none;}.sb-search{display:none;}a, .zoom-twitter-widget a{color:#0700ce;}.main-navbar{background:#000000;}.main-navbar .sf-menu > li > a{color:#ffffff;}.main-navbar .sf-menu > li a:hover{color:#23bae0;}.main-navbar .navbar-wpz > .current-menu-item > a, .main-navbar .navbar-wpz > .current_page_item > a{color:#23bae0;}.site-footer{background-color:#069cd3;color:#ffffff;}body{font-family:'Montserrat', sans-serif;}.navbar-brand-wpz h1 a{font-family:'Montserrat', sans-serif;font-weight:normal;}.top-navbar .navbar-wpz a{font-family:'Montserrat', sans-serif;font-size:14px;}.main-navbar a{font-family:'Montserrat', sans-serif;font-size:14px;}.slicknav_nav a{font-family:'Montserrat', sans-serif;}.page h1.entry-title{font-family:'Montserrat', sans-serif;font-weight:normal;}.single h1.entry-title{font-family:'Montserrat', sans-serif;font-weight:normal;}
+@media screen and (min-width: 769px){body{font-size:14px;}.navbar-brand-wpz h1 a{font-size:55px;}.navbar-brand-wpz .tagline{font-size:18px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:40px;}.slides .slide_button{font-size:16px;}.homepage_full .widget h3.title{font-size:26px;}.homepage_widgets .home_column h3.title{font-size:22px;}.page h1.entry-title{font-size:40px;}.single h1.entry-title{font-size:40px;}.section-title{font-size:28px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:26px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:23px;}}
+@media screen and (max-width: 768px){body{font-size:16px;}.navbar-brand-wpz h1 a{font-size:34px;}.navbar-brand-wpz .tagline{font-size:14px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:36px;}.slides .slide_button{font-size:14px;}.homepage_full .widget h3.title{font-size:26px;}.homepage_widgets .home_column h3.title{font-size:22px;}.page h1.entry-title{font-size:30px;}.single h1.entry-title{font-size:30px;}.section-title{font-size:24px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:24px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:20px;}}
+@media screen and (max-width: 480px){body{font-size:16px;}.navbar-brand-wpz h1 a{font-size:26px;}.navbar-brand-wpz .tagline{font-size:14px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:22px;}.slides .slide_button{font-size:14px;}.homepage_full .widget h3.title{font-size:20px;}.homepage_widgets .home_column h3.title{font-size:20px;}.page h1.entry-title{font-size:28px;}.single h1.entry-title{font-size:28px;}.section-title{font-size:22px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:22px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:20px;}}
+</style>
+<!-- End Theme Custom CSS -->
+<link rel="icon" href="https://www.bilingualmdcps.com/wp-content/uploads/cropped-Bilingual_NewLogo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.bilingualmdcps.com/wp-content/uploads/cropped-Bilingual_NewLogo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bilingualmdcps.com/wp-content/uploads/cropped-Bilingual_NewLogo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.bilingualmdcps.com/wp-content/uploads/cropped-Bilingual_NewLogo-270x270.png" />
+<style id="wp-custom-css">
+#navbar-main {
+  padding-right: 0;
+}
+
+.navbar-wpz {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-wpz > li {
+  padding: 0 9px;
+}
+
+.navbar-wpz > li:first-child {
+  padding-left: 0;
+}
+
+.navbar-wpz > li:last-child {
+  margin-right: 0;
+}
+
+.navbar-wpz a {
+  padding: 8px 0;
+}
+
+.navbar-wpz ul {
+  background-color: #000;
+  text-align: left;
+  margin: 0;
+  padding: 1px;
+  font-size: 16px;
+  left: 2px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+.navbar-wpz .sub-menu li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.single-post #sidebar {
+  display: none;
+}
+
+@media screen and (max-width: 1420px) {
+  .single-post .content-area {
+    width: 100%;
+  }
+  .single-post #sidebar {
+    display: none;
+  }
+}
+
+.slicknav_menu .slicknav_menutxt {
+  color: #fff;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+
+ul.sub-menu {
+  background-color: #000;
+  min-width: 260px;
+}
+
+.sub-menu li a {
+  font-size: 15px !important;
+  color: #fff !important;
+}
+
+.sub-menu li a:hover {
+  color: #23bae0 !important;
+}
+
+.top-navbar {
+  background-color: #f8f8f8;
+  padding: 3px 0;
+  font-size: 15px;
+  position: relative;
+}
+
+.brand-wrap.left .navbar-brand-wpz {
+  margin: 0;
+}
+
+.brand-wrap.left .inner-wrap {
+  padding: 0;
+  max-width: 100%;
+}
+
+.brand-wrap.left a {
+  font-size: inherit;
+}
+
+/* Slide Style 2 */
+.slide-style-2 .slides li .slide-header {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  margin: 0;
+  padding: 20px 10px;
+}
+
+</style>
+<link rel='stylesheet' id='wpda_org_chart_front_css-css' href='https://www.bilingualmdcps.com/wp-content/plugins/organization-chart/front/css/front_css.css?ver=2.0' media='all' />
+<link rel='stylesheet' id='wpda_org_chart_front_popup_effects-css' href='https://www.bilingualmdcps.com/wp-content/plugins/organization-chart/front/css/popup_effects.css?ver=2.0' media='all' />
+<link rel='stylesheet' id='fl-builder-wp-editor-css' href='https://www.bilingualmdcps.com/wp-content/plugins/bb-plugin/css/build/wp-editor.bundle.min.css?ver=2.11.2' media='all' />
+
+</head>
+
+
+<body class="wp-singular page-template page-template-page-templates page-template-full-width-builder-bb page-template-page-templatesfull-width-builder-bb-php page page-id-12064 wp-custom-logo wp-theme-presence wpz_layout_full fl-builder fl-builder-2-11-2 fl-no-js do-etfw mega-menu-primary">
+
+    <div class="page-wrap">
+
+        <header class="site-header">
+
+            <nav class="top-navbar" role="navigation">
+
+                <div class="inner-wrap">
+
+                    <div class="header_social">
+                        
+                    </div>
+
+                    <div id="navbar-top">
+
+                        
+                    </div><!-- #navbar-top -->
+
+                </div><!-- /.inner-wrap -->
+
+            </nav><!-- .navbar -->
+
+            <div class="clear"></div>
+
+            <div class="brand-wrap left">
+
+                <div class="inner-wrap">
+
+                    <div class="navbar-brand-wpz">
+
+                            
+                            <a href="https://www.bilingualmdcps.com/" class="custom-logo-link" rel="home" itemprop="url"><img width="2560" height="512" src="https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-scaled.png" class="custom-logo no-lazyload no-lazy a3-notlazy" alt="MDCPS Department of Bilingual Education and World Languages" itemprop="logo" decoding="async" fetchpriority="high" srcset="https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-scaled.png 2560w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-300x60.png 300w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-1024x205.png 1024w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-768x154.png 768w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-1536x307.png 1536w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-2048x410.png 2048w, https://www.bilingualmdcps.com/wp-content/uploads/BilingualBanner-03-800x160.png 800w" sizes="(max-width: 2560px) 100vw, 2560px" /></a>
+                            
+                        <p class="tagline"></p>
+
+                    </div><!-- .navbar-brand-wpz -->
+
+
+                    
+                </div><!-- .inner-wrap -->
+
+            </div><!-- .brand-wrap -->
+
+
+            <nav class="main-navbar left" role="navigation">
+
+                <div class="inner-wrap">
+
+                    <div id="sb-search" class="sb-search">
+                        <form method="get" id="searchform" action="https://www.bilingualmdcps.com/">
+	<input type="search" class="sb-search-input" placeholder="Enter your keywords..."  name="s" id="s" />
+    <input type="submit" id="searchsubmit" class="sb-search-submit" value="Search" />
+    <span class="sb-icon-search"></span>
+</form>                    </div>
+
+                    <div class="navbar-header-main">
+                        
+                           <div id="menu-main-slide" class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-9743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-9743"><a href="https://www.bilingualmdcps.com/"><i class="_mi dashicons dashicons-admin-home" aria-hidden="true" style="font-size:1.4em;"></i><span class="visuallyhidden">Home</span></a></li>
+<li id="menu-item-11987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11987"><a href="#">Assessments</a>
+<ul class="sub-menu">
+	<li id="menu-item-11986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11986"><a href="https://www.bilingualmdcps.com/elp-assessment/">ELP Assessment</a></li>
+</ul>
+</li>
+<li id="menu-item-11988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11988"><a href="https://www.bilingualmdcps.com/district-ell-plan/">District ELL Plan</a></li>
+<li id="menu-item-12082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12082"><a href="#">ESOL</a>
+<ul class="sub-menu">
+	<li id="menu-item-12083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12083"><a href="https://www.bilingualmdcps.com/esol-curriculum/">ESOL Curriculum</a></li>
+	<li id="menu-item-12084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12084"><a href="https://www.bilingualmdcps.com/esol-compliance/">ESOL Compliance</a></li>
+	<li id="menu-item-11991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11991"><a href="https://www.bilingualmdcps.com/forms/">Forms</a></li>
+</ul>
+</li>
+<li id="menu-item-11992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11992"><a href="https://www.bilingualmdcps.com/parent-resources/">Parent Resources</a></li>
+<li id="menu-item-11993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11993"><a href="https://www.bilingualmdcps.com/title-iii-programs/">Title III Programs</a></li>
+<li id="menu-item-11994" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-11994"><a href="https://www.bilingualmdcps.com/k-12-language-programs/">K-12 Language Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-12040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12040"><a href="https://www.bilingualmdcps.com/bilingual-school-organization/">Bilingual School Organization</a></li>
+	<li id="menu-item-12058" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12058"><a href="https://www.bilingualmdcps.com/extended-foreign-language/">Extended Foreign Language</a></li>
+	<li id="menu-item-12213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12213"><a href="https://www.bilingualmdcps.com/florida-seal-of-biliteracy/">Florida Seal of Biliteracy</a></li>
+	<li id="menu-item-12073" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12064 current_page_item menu-item-12073"><a href="https://www.bilingualmdcps.com/international-studies/" aria-current="page">International Studies</a></li>
+	<li id="menu-item-12118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12118"><a href="https://www.bilingualmdcps.com/world-language-spanish/">World Language Spanish</a></li>
+</ul>
+</li>
+<li id="menu-item-12138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12138"><a href="https://www.bilingualmdcps.com/staff-directory/">Staff Directory</a></li>
+<li id="menu-item-12164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12164"><a target="_blank" href="https://www3.dadeschools.net/home">Explore MDCPS</a></li>
+</ul></div>
+                    </div>
+
+                    <div id="navbar-main">
+
+                        <div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0' id='mega-toggle-block-0'><button aria-controls="mega-menu-primary" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide_left" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-home mega-menu-item-9743 menu-item" id="mega-menu-item-9743"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/"><i class="_mi dashicons dashicons-admin-home" aria-hidden="true" style="font-size:1.4em;"></i><span class="visuallyhidden">Home</span></a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-11987 menu-item" id="mega-menu-item-11987"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-11987">Assessments<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-11987'>
+<li class="mega-menu-row menu-item" id="mega-menu-11987-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-4-of-12 menu-item" style="--columns:12; --span:4" id="mega-menu-11987-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11986 menu-item" id="mega-menu-item-11986"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/elp-assessment/">ELP Assessment</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11988 menu-item" id="mega-menu-item-11988"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/district-ell-plan/">District ELL Plan</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-12082 menu-item" id="mega-menu-item-12082"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-12082">ESOL<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-12082'>
+<li class="mega-menu-row menu-item" id="mega-menu-12082-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-12082-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12083 menu-item" id="mega-menu-item-12083"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/esol-curriculum/">ESOL Curriculum</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12084 menu-item" id="mega-menu-item-12084"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/esol-compliance/">ESOL Compliance</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11991 menu-item" id="mega-menu-item-11991"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/forms/">Forms</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11992 menu-item" id="mega-menu-item-11992"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/parent-resources/">Parent Resources</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11993 menu-item" id="mega-menu-item-11993"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/title-iii-programs/">Title III Programs</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-ancestor mega-current-menu-parent mega-current_page_parent mega-current_page_ancestor mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-11994 menu-item" id="mega-menu-item-11994"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/k-12-language-programs/" aria-expanded="false" aria-controls="mega-sub-menu-11994">K-12 Language Programs<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-11994'>
+<li class="mega-menu-row menu-item" id="mega-menu-11994-0">
+	<ul class="mega-sub-menu" style='--columns:2' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-1-of-2 menu-item" style="--columns:2; --span:1" id="mega-menu-11994-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12040 menu-item" id="mega-menu-item-12040"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/bilingual-school-organization/">Bilingual School Organization</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12058 menu-item" id="mega-menu-item-12058"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/extended-foreign-language/">Extended Foreign Language</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12213 menu-item" id="mega-menu-item-12213"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/florida-seal-of-biliteracy/">Florida Seal of Biliteracy</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-1-of-2 menu-item" style="--columns:2; --span:1" id="mega-menu-11994-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-page_item mega-page-item-12064 mega-current_page_item mega-menu-item-12073 menu-item" id="mega-menu-item-12073"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/international-studies/" aria-current="page">International Studies</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12118 menu-item" id="mega-menu-item-12118"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/world-language-spanish/">World Language Spanish</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12138 menu-item" id="mega-menu-item-12138"><a class="mega-menu-link" href="https://www.bilingualmdcps.com/staff-directory/">Staff Directory</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-12164 menu-item" id="mega-menu-item-12164"><a target="_blank" class="mega-menu-link" href="https://www3.dadeschools.net/home">Explore MDCPS</a></li></ul><button aria-controls="mega-menu-primary" aria-label="Close" class='mega-close'></button></div>
+
+                    </div><!-- #navbar-main -->
+
+                </div><!-- .inner-wrap -->
+
+            </nav><!-- .main-navbar -->
+
+            <div class="clear"></div>
+
+        </header><!-- .site-header -->
+
+        <div class="inner-wrap">
+
+</div><!-- /.inner-wrap -->
+
+    
+        <main id="main" class="site-main full-width-page" role="main">
+
+            <div class="builder-wrap">
+
+                <article id="post-12064" class="post-12064 page type-page status-publish hentry">
+
+                    <div class="fl-builder-content fl-builder-content-12064 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="12064"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-sjmn5ixd4eb8 fl-row-default-height fl-row-align-center" data-node="sjmn5ixd4eb8">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-8ly9cn2gbprz" data-node="8ly9cn2gbprz">
+			<div class="fl-col fl-node-c9auodfhk57q fl-col-bg-color" data-node="c9auodfhk57q">
+	<div class="fl-col-content fl-node-content"><h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-uvcedt5248h1 fl-animation fl-fade-down" data-node="uvcedt5248h1" data-animation-delay="0" data-animation-duration="1">
+			K-12 Language Program	</h4>
+<style>.fl-node-uvcedt5248h1.fl-animation:not(.fl-animated){opacity:0}</style><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-473ija1m9qh2 fl-animation fl-fade-up" data-node="473ija1m9qh2" data-animation-delay="0" data-animation-duration="1">
+			International Studies (IS)	</h2>
+<style>.fl-node-473ija1m9qh2.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-kaut9r5qb3vi fl-row-default-height fl-row-align-center" data-node="kaut9r5qb3vi">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-mg8pndr4e0bv" data-node="mg8pndr4e0bv">
+			<div class="fl-col fl-node-95xguw6pdb8h fl-col-bg-color" data-node="95xguw6pdb8h">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-rich-text fl-rich-text fl-node-7mbk80qzov1n fl-animation fl-fade-right" data-node="7mbk80qzov1n" data-animation-delay="0" data-animation-duration="1">
+	<p>In the IS program, students pursue an academic curriculum with an international focus that meets the rigorous standards of both the U.S. and European Union (EU) educational systems.</p>
+</div>
+<style>.fl-node-7mbk80qzov1n.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-4r6vlgch9b0t fl-row-default-height fl-row-align-center" data-node="4r6vlgch9b0t">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-n0xaup6te2iz fl-col-group-equal-height fl-col-group-align-center" data-node="n0xaup6te2iz">
+			<div class="fl-col fl-node-p9f5tejcuk40 fl-col-bg-color fl-col-small" data-node="p9f5tejcuk40">
+	<div class="fl-col-content fl-node-content"><div role="figure" class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-omvzisybf37w fl-animation fl-fade-left" data-node="omvzisybf37w" data-animation-delay="0" data-animation-duration="1" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+					<img decoding="async" class="fl-photo-img wp-image-12056 size-medium" src="https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star-300x300.png" alt="EFL_Star" height="300" width="300" title="EFL_Star" loading="lazy" itemprop="image" srcset="https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star-300x300.png 300w, https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star-150x150.png 150w, https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star-360x360.png 360w, https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star-100x100.png 100w, https://www.bilingualmdcps.com/wp-content/uploads/EFL_Star.png 600w" sizes="auto, (max-width: 300px) 100vw, 300px" />
+					</div>
+	</div>
+<style>.fl-node-omvzisybf37w.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+			<div class="fl-col fl-node-3ce16gm95y4j fl-col-bg-color" data-node="3ce16gm95y4j">
+	<div class="fl-col-content fl-node-content"><h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-mx0jnlvfiq1k" data-node="mx0jnlvfiq1k">
+			Elementary	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-mxpnyl04tjga fl-animation fl-fade-right" data-node="mxpnyl04tjga" data-animation-delay="0" data-animation-duration="1">
+	<p>At the elementary level, the program is delivered through an extended-day model. In addition to studying the standard subject areas in English, students receive up to three hours of instruction in their language of choice.</p>
+</div>
+<style>.fl-node-mxpnyl04tjga.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-aqe9iz4nyd6f fl-row-default-height fl-row-align-center" data-node="aqe9iz4nyd6f">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5a9mw8rvju2z fl-col-group-equal-height fl-col-group-align-center" data-node="5a9mw8rvju2z">
+			<div class="fl-col fl-node-9xz78twup5ks fl-col-bg-color fl-col-small" data-node="9xz78twup5ks">
+	<div class="fl-col-content fl-node-content"><div role="figure" class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-pkym7ezoxla6 fl-animation fl-fade-left" data-node="pkym7ezoxla6" data-animation-delay="0" data-animation-duration="1" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+					<img decoding="async" class="fl-photo-img wp-image-12068 size-thumbnail" src="https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars-150x150.png" alt="IS_TwoStars" height="150" width="150" title="IS_TwoStars" loading="lazy" itemprop="image" srcset="https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars-150x150.png 150w, https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars-300x300.png 300w, https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars-360x360.png 360w, https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars-100x100.png 100w, https://www.bilingualmdcps.com/wp-content/uploads/IS_TwoStars.png 600w" sizes="auto, (max-width: 150px) 100vw, 150px" />
+					</div>
+	</div>
+<style>.fl-node-pkym7ezoxla6.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+			<div class="fl-col fl-node-34y2chlmvuqi fl-col-bg-color" data-node="34y2chlmvuqi">
+	<div class="fl-col-content fl-node-content"><h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-8yxtue7fhoaj" data-node="8yxtue7fhoaj">
+			Secondary	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-r35ynwz4gais fl-animation fl-fade-right" data-node="r35ynwz4gais" data-animation-delay="0" data-animation-duration="1">
+	<p>At the secondary level, students study literature, mathematics, and social sciences in the target language and are encouraged to pursue Honors and Advanced Placement (AP) courses in English at the highest levels.</p>
+</div>
+<style>.fl-node-r35ynwz4gais.fl-animation:not(.fl-animated){opacity:0}</style><div  class="fl-module fl-module-rich-text fl-rich-text fl-node-eudfrk8chg01 fl-animation fl-fade-right" data-node="eudfrk8chg01" data-animation-delay="0" data-animation-duration="1">
+	<p><strong>Time requirements (Required):</strong></p>
+<ul>
+<li>300 minutes per week of instruction in language arts/reading/writing in the target world language</li>
+<li>Additional instruction in two core subject areas in the target world language</li>
+</ul>
+</div>
+<style>.fl-node-eudfrk8chg01.fl-animation:not(.fl-animated){opacity:0}</style></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-xvrny6wlq1g5 fl-row-default-height fl-row-align-center" data-node="xvrny6wlq1g5">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-cqfmy3dk1vwz fl-col-group-equal-height fl-col-group-align-center" data-node="cqfmy3dk1vwz">
+			<div class="fl-col fl-node-sgn98eb2mkzt fl-col-bg-color fl-col-small" data-node="sgn98eb2mkzt">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-2w641yr0flep" data-node="2w641yr0flep">
+			Schools offering this program:	</h2>
+</div>
+</div>
+			<div class="fl-col fl-node-uojivy3t691b fl-col-bg-color fl-col-small" data-node="uojivy3t691b">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-button fl-node-984l3tmbunwq fl-button-wrap fl-button-width-full fl-button-left" data-node="984l3tmbunwq"><a href="https://www.bilingualmdcps.com/wp-content/uploads/International-Studies-Schools.pdf" target="_blank" rel="noopener" class="fl-button"><span class="fl-button-text">Download List</span></a></div></div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div>
+                </article><!-- #post-## -->
+
+            </div>
+
+        </main><!-- #main -->
+
+    
+
+<div class="inner-wrap">
+
+
+    <div class="clear"></div>
+
+    </div><!-- .inner-wrap -->
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+
+        <div class="inner-wrap">
+
+            
+                <div class="footer-widgets widgets widget-columns-3">
+                    
+                        <div class="column">
+                            <div class="widget widget_text" id="text-5"><h3 class="title">Department of Bilingual Education and World Languages</h3>			<div class="textwidget"><div style="text-align: left;">
+<p class="ng-scope" style="margin: 0;">1450 NE 2nd Avenue<br />
+Miami, FL 33132<br />
+(305) 274-8889</p>
+<section class="widget zoom-social-icons-shortcode">
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--align-left">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://twitter.com/mdcpsbilingual?lang=en"
+			target="_blank"			>
+									
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#1da1f2" style="fill : #ffffff; width: 24px; height: auto; max-height: 24px; padding:8px" >				<svg role="img" viewBox="0 0 24 24" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>			</span>
+
+						<span class="zoom-social_icons-list__label">Follow us!</span>
+					</a>
+	</li>
+
+	
+</ul>
+
+		</section>
+</div>
+</div>
+		<div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                        <div class="column">
+                            <div class="widget_text widget widget_custom_html" id="custom_html-4"><div class="textwidget custom-html-widget"><style>
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+
+<img src="https://www.bilingualmdcps.com/wp-content/uploads/MDCPS_BestChoiceLogo_WHI.png" alt="Description" class="center-image">
+</div><div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                        <div class="column">
+                            <div class="widget_text widget widget_custom_html" id="custom_html-2"><div class="textwidget custom-html-widget"><div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <img src="https://www.bilingualmdcps.com/wp-content/uploads/2019/05/MDCPS-LOGO-2018.png" 
+       alt="MDCPS Logo" 
+       style="width:35%; height:auto; display:block; margin-top:20px;">
+</div>
+</div><div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                    <div class="clear"></div>
+                </div><!-- .footer-widgets -->
+
+            
+
+            
+
+            <div class="site-info">
+
+                <p class="copyright">Copyright © 2026 MDCPS Department of Bilingual Education and World Languages</p>
+
+
+
+            </div><!-- .site-info -->
+
+        </div>
+
+    </footer><!-- #colophon -->
+
+</div><!-- .page-wrap -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/presence/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="gtranslate_wrapper" id="gt-wrapper-32238847"></div><script>
+              (function(e){
+                  var el = document.createElement('script');
+                  el.setAttribute('data-account', 'gWvoKcAkOR');
+                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
+                  document.body.appendChild(el);
+                })();
+              </script><script id="owl-js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wd-google-maps/js/owl.carousel.js?ver=5.0.73"></script>
+<script id="jquery-waypoints-js" src="https://www.bilingualmdcps.com/wp-content/plugins/bb-plugin/js/libs/jquery.waypoints.min.js?ver=2.11.2"></script>
+<script id="fl-builder-layout-12064-js" src="https://www.bilingualmdcps.com/wp-content/uploads/bb-plugin/cache/12064-layout.js?ver=5bc34b242b596d275b62804be87dfabd"></script>
+<script id="pt-cv-content-views-script-js-extra">
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"7cbd01a7fe","is_admin":"","is_mobile":"","ajaxurl":"https://www.bilingualmdcps.com/wp-admin/admin-ajax.php","lang":"","loading_image_src":"data:image/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM/DJKZNLND/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"No posts found.","lf__separator":","};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+//# sourceURL=pt-cv-content-views-script-js-extra
+</script>
+<script id="pt-cv-content-views-script-js" src="https://www.bilingualmdcps.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=4.5.1.2"></script>
+<script id="pt-cv-public-pro-script-js" src="https://www.bilingualmdcps.com/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js?ver=6.3.1"></script>
+<script id="wpzoom-share-tracking-js-extra">
+var wpzoomShareTracking = {"restUrl":"https://www.bilingualmdcps.com/wp-json/wpzoom-social-icons/v1/track-click","likeStatusUrl":"https://www.bilingualmdcps.com/wp-json/wpzoom-social-icons/v1/like-status","nonce":"5a2c1f4836","postId":"12064","enableClickTracking":"1","openBehavior":"popup","copiedLabel":"Copied!"};
+//# sourceURL=wpzoom-share-tracking-js-extra
+</script>
+<script id="wpzoom-share-tracking-js" src="https://www.bilingualmdcps.com/wp-content/plugins/social-icons-widget-pro/assets/js/share-tracking.js?ver=2.3.1"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://www.bilingualmdcps.com/wp-includes/js/comment-reply.min.js?ver=7.1.4"></script>
+<script id="slicknav-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/jquery.slicknav.min.js?ver=2.0.14"></script>
+<script id="flickity-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/flickity.pkgd.min.js?ver=2.0.14"></script>
+<script id="fitvids-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/jquery.fitvids.js?ver=2.0.14"></script>
+<script id="flexslider-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/flexslider.js?ver=2.0.14"></script>
+<script id="underscore-js" src="https://www.bilingualmdcps.com/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="retina-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/retina.min.js?ver=2.0.14"></script>
+<script id="superfish-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/superfish.min.js?ver=2.0.14"></script>
+<script id="search_button-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/search_button.js?ver=2.0.14"></script>
+<script id="presence-script-js-extra">
+var zoomOptions = {"slideshow_auto":"1","slideshow_speed":"4000"};
+//# sourceURL=presence-script-js-extra
+</script>
+<script id="presence-script-js" src="https://www.bilingualmdcps.com/wp-content/themes/presence/js/functions.js?ver=2.0.14"></script>
+<script id="do-etfw-twitter-widgets-js" src="https://www.bilingualmdcps.com/wp-content/plugins/easy-twitter-feed-widget/js/twitter-widgets.js?ver=1.0"></script>
+<script id="zoom-social-icons-widget-frontend-js" src="https://www.bilingualmdcps.com/wp-content/plugins/social-icons-widget-pro/assets/js/social-icons-widget-frontend.js?ver=1792431966"></script>
+<script id="magnificPopup-js" src="https://www.bilingualmdcps.com/wp-content/plugins/wpzoom-addons-for-beaver-builder/assets/js/jquery.magnific-popup.min.js?ver=1.4.0"></script>
+<script id="hoverIntent-js" src="https://www.bilingualmdcps.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="megamenu-js" src="https://www.bilingualmdcps.com/wp-content/plugins/megamenu/js/maxmegamenu.min.js?ver=3.10.9"></script>
+<script id="wpda_org_chart_front_js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/organization-chart/front/js/front_js.js?ver=2.0"></script>
+<script id="wpda_org_chart_front_popup_js-js-extra">
+var wpda_org_chart_responsive_sizes = {"tablet":"1000","mobile":"450"};
+//# sourceURL=wpda_org_chart_front_popup_js-js-extra
+</script>
+<script id="wpda_org_chart_front_popup_js-js" src="https://www.bilingualmdcps.com/wp-content/plugins/organization-chart/front/js/front_popup.js?ver=2.0"></script>
+<script id="gt_widget_script_32238847-js-before">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['32238847'] = {"default_language":"en","languages":["en","ht","pt","es"],"url_structure":"none","flag_style":"2d","flag_size":16,"wrapper_selector":"#gt-wrapper-32238847","alt_flags":{"en":"usa"},"switcher_open_direction":"top","switcher_horizontal_position":"right","switcher_vertical_position":"top","switcher_text_color":"#666","switcher_arrow_color":"#666","switcher_border_color":"#ccc","switcher_background_color":"#fff","switcher_background_shadow_color":"#efefef","switcher_background_hover_color":"#fff","dropdown_text_color":"#000","dropdown_hover_color":"#fff","dropdown_background_color":"#eee","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_32238847-js-before
+</script><script src="https://www.bilingualmdcps.com/wp-content/plugins/gtranslate/js/dwf.js?ver=5.0.2" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/international-studies/" data-gt-orig-domain="www.bilingualmdcps.com" data-gt-widget-id="32238847" defer></script><script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.bilingualmdcps.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.bilingualmdcps.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>

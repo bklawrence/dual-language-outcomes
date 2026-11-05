@@ -352,6 +352,8 @@ def render_reports(root,tables):
     if historical.exists():prefix=json.loads(historical.read_text())['elementary_report_prefix']
     south_central=root/'config/research_migrations/south_central_2026_11_05.json'
     if south_central.exists():prefix=json.loads(south_central.read_text())['elementary_report_prefix']
+    southeast=root/'config/research_migrations/southeast_2026_11_05.json'
+    if southeast.exists():prefix=json.loads(southeast.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

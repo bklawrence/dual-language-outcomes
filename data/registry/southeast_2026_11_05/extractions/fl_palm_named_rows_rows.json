@@ -1,0 +1,642 @@
+[
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 1,
+    "raw": {
+      "school": "Barton Elementary",
+      "grade": "K-4",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-d90b70d112fb"
+    ],
+    "school_ids": [
+      "SE-FL-S-5c03ff381320"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 2,
+    "raw": {
+      "school": "Belvedere Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-abea8c680e50"
+    ],
+    "school_ids": [
+      "SE-FL-S-f6398787b0ba"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 3,
+    "raw": {
+      "school": "Berkshire Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-1ee157272e74"
+    ],
+    "school_ids": [
+      "SE-FL-S-ff1ffa31cd44"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 4,
+    "raw": {
+      "school": "CO Taylor/Kirklane Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-ba52ec910cd2"
+    ],
+    "school_ids": [
+      "SE-FL-S-c52635dee080"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 5,
+    "raw": {
+      "school": "Cholee Lake Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-d237e6c166fc"
+    ],
+    "school_ids": [
+      "SE-FL-S-54d9f6e7a230"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 6,
+    "raw": {
+      "school": "Diamond View Elementary",
+      "grade": "K-1",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-e07e5a1077b5"
+    ],
+    "school_ids": [
+      "SE-FL-S-b8129d4367a6"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 7,
+    "raw": {
+      "school": "Forest Hill Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-13d1d5fab0ce"
+    ],
+    "school_ids": [
+      "SE-FL-S-7a7c27440307"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 8,
+    "raw": {
+      "school": "Freedom Shores Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-521e32337f47"
+    ],
+    "school_ids": [
+      "SE-FL-S-4a03ca69c397"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 9,
+    "raw": {
+      "school": "Gove Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-d0c6c076e1a1"
+    ],
+    "school_ids": [
+      "SE-FL-S-c4af098bfa1a"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 10,
+    "raw": {
+      "school": "Greenacres Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-175636d59507"
+    ],
+    "school_ids": [
+      "SE-FL-S-fd7a0d4fe03b"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 11,
+    "raw": {
+      "school": "Hagen Road Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-8c15f7d5020b"
+    ],
+    "school_ids": [
+      "SE-FL-S-084d0a879935"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 12,
+    "raw": {
+      "school": "Highland Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-3196dc9c5520"
+    ],
+    "school_ids": [
+      "SE-FL-S-016eb297a8a9"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 13,
+    "raw": {
+      "school": "Hope Centennial Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-f6f54630db0b"
+    ],
+    "school_ids": [
+      "SE-FL-S-f6d41cf827e9"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 14,
+    "raw": {
+      "school": "Indian Pines Elementary",
+      "grade": "K-3",
+      "language": "Haitian Creole"
+    },
+    "program_ids": [
+      "SE-FL-P-3f08197b6dca"
+    ],
+    "school_ids": [
+      "SE-FL-S-61719f87e241"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 15,
+    "raw": {
+      "school": "Jupiter Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-38aa71e2a775"
+    ],
+    "school_ids": [
+      "SE-FL-S-4f566e6e06b3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 16,
+    "raw": {
+      "school": "Lake Park Elementary",
+      "grade": "K-3",
+      "language": "Haitian Creole"
+    },
+    "program_ids": [
+      "SE-FL-P-8770670b7144"
+    ],
+    "school_ids": [
+      "SE-FL-S-f05d9eef74ae"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 17,
+    "raw": {
+      "school": "Liberty Park Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-8dd0a161b041"
+    ],
+    "school_ids": [
+      "SE-FL-S-467addfe2372"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 18,
+    "raw": {
+      "school": "Meadow Park Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-b9b3961c1530"
+    ],
+    "school_ids": [
+      "SE-FL-S-b090dc572ab8"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 19,
+    "raw": {
+      "school": "Melaleuca Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-fa102d55805a"
+    ],
+    "school_ids": [
+      "SE-FL-S-8ed549026c34"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 20,
+    "raw": {
+      "school": "New Horizons Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-cd862c5963ea"
+    ],
+    "school_ids": [
+      "SE-FL-S-2b977fd504c2"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 21,
+    "raw": {
+      "school": "North Grade Elementary",
+      "grade": "K-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-33ec5abf40a2"
+    ],
+    "school_ids": [
+      "SE-FL-S-8f0b66bdc337"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 22,
+    "raw": {
+      "school": "Northmore Elementary",
+      "grade": "K-3",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-38838a25424d"
+    ],
+    "school_ids": [
+      "SE-FL-S-debb8296d53a"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 23,
+    "raw": {
+      "school": "Palm Springs Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-1ad53deed3a0"
+    ],
+    "school_ids": [
+      "SE-FL-S-7bd7022decf8"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 24,
+    "raw": {
+      "school": "Plumosa Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-57f4082b73c6"
+    ],
+    "school_ids": [
+      "SE-FL-S-ca647704444e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 25,
+    "raw": {
+      "school": "Rolling Green Elementary",
+      "grade": "K-4",
+      "language": "Haitian Creole"
+    },
+    "program_ids": [
+      "SE-FL-P-4d9dfb749b3f"
+    ],
+    "school_ids": [
+      "SE-FL-S-279c7829094e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 26,
+    "raw": {
+      "school": "South Grade Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-6ae088e5ad7c"
+    ],
+    "school_ids": [
+      "SE-FL-S-30be89a21091"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 27,
+    "raw": {
+      "school": "West Gate Elementary",
+      "grade": "K-5",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-8ade2bd4aa71"
+    ],
+    "school_ids": [
+      "SE-FL-S-20ba5c53be6b"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 28,
+    "raw": {
+      "school": "Conniston Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-66b688ea0a5d"
+    ],
+    "school_ids": [
+      "SE-FL-S-b11351f30106"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 29,
+    "raw": {
+      "school": "Jeaga Middle",
+      "grade": "6",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-6fb724a0ef37"
+    ],
+    "school_ids": [
+      "SE-FL-S-5ee0ce87f37c"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 30,
+    "raw": {
+      "school": "LC Swain Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-96d8b674f098"
+    ],
+    "school_ids": [
+      "SE-FL-S-da58dd35025f"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 31,
+    "raw": {
+      "school": "Lake Worth Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-c63d49115a4c"
+    ],
+    "school_ids": [
+      "SE-FL-S-1b0d44a4efa0"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 32,
+    "raw": {
+      "school": "Okeeheelee Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-0e21a888efd2"
+    ],
+    "school_ids": [
+      "SE-FL-S-aa62c8a8d983"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 33,
+    "raw": {
+      "school": "Palm Springs Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-0dd7c759348e"
+    ],
+    "school_ids": [
+      "SE-FL-S-3f1483af217e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 34,
+    "raw": {
+      "school": "Polo Park Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-a77ac2089753"
+    ],
+    "school_ids": [
+      "SE-FL-S-68a3f8c574e4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 35,
+    "raw": {
+      "school": "Tradewinds Middle",
+      "grade": "6-8",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-950f3e3d0c78"
+    ],
+    "school_ids": [
+      "SE-FL-S-c0719f8ee0d5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 36,
+    "raw": {
+      "school": "Dr. Joaquin Garcia High",
+      "grade": "9-12",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-b0bdcee7b6e6"
+    ],
+    "school_ids": [
+      "SE-FL-S-a4a2ac060488"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 37,
+    "raw": {
+      "school": "Forest Hill High",
+      "grade": "9-12",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-1662adcea62d"
+    ],
+    "school_ids": [
+      "SE-FL-S-164ff4599d55"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 38,
+    "raw": {
+      "school": "John I Leonard High",
+      "grade": "9-12",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-d6006f5def6e"
+    ],
+    "school_ids": [
+      "SE-FL-S-9729e6b16162"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 39,
+    "raw": {
+      "school": "Lake Worth High",
+      "grade": "9-12",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-f5f456b00668"
+    ],
+    "school_ids": [
+      "SE-FL-S-298bafa4e4e8"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_palm",
+    "source_row": 40,
+    "raw": {
+      "school": "Santaluces Community High",
+      "grade": "9-10",
+      "language": "Spanish"
+    },
+    "program_ids": [
+      "SE-FL-P-d7c9ef597126"
+    ],
+    "school_ids": [
+      "SE-FL-S-cc5a89bca769"
+    ],
+    "disposition": "integrated"
+  }
+]
