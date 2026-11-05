@@ -1,0 +1,86 @@
+[
+  {
+    "school": "Sheboygan Early Learning Center",
+    "district": "Sheboygan Area School District",
+    "source": "gl_wi_sheboygan_p_df83996",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Sheboygan Early Learning Center",
+    "disposition": "preschool_only_programme",
+    "reason": "Programme is explicitly 4K (preschool) only; preserve separately rather than adding a K–12 school.",
+    "notes": ""
+  },
+  {
+    "school": "Victory School / Italian Immersion",
+    "district": "Milwaukee Public Schools",
+    "source": "gl_wi_mps_immersion",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Victory School / Italian Immersion",
+    "disposition": "host_specific_immersion_verification_required",
+    "reason": "District describes partial Italian immersion, but current Victory academic page is generic and homepage contains placeholder text. Host-specific active scope and numerical allocation require a substantive school source.",
+    "notes": ""
+  },
+  {
+    "school": "Waaswaaganing Indigenous Institute of Teaching and Learning",
+    "district": "Tribal operator: WIITL",
+    "source": "gl_wi_wiitl",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Waaswaaganing Indigenous Institute of Teaching and Learning",
+    "disposition": "school_grade_academic_medium_and_funding_review",
+    "reason": "Current operator describes all-age cultural/educational activity and 2024–25 family circles. Does not establish an operating K–12 academic immersion school or public school funding.",
+    "notes": ""
+  },
+  {
+    "school": "Bull Early Education Center",
+    "district": "Racine Unified School District",
+    "source": "gl_wi_bull",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Bull Early Education Center",
+    "disposition": "preschool_only_programme",
+    "reason": "School explicitly specializes in 3- and 4-year-olds. Although the Racine DLI page names it, this is preschool-only provision; do not infer ordinary K or include it in the elementary denominator.",
+    "notes": ""
+  },
+  {
+    "school": "All Beloit Intermediate Schools",
+    "district": "School District of Beloit",
+    "source": "gl_wi_beloit_dual",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "All Beloit Intermediate Schools",
+    "disposition": "unnamed_intermediate_hosts_and_grade_followup",
+    "reason": "District says all intermediate schools have DLI but does not name the buildings in the programme body. Current versus older intermediate/middle reorganizations and grade 4/5 coverage require a dated roster.",
+    "notes": ""
+  },
+  {
+    "school": "Delavan-Darien Dual Language Programme",
+    "district": "Delavan-Darien School District",
+    "source": "gl_wi_dd_dual",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Delavan-Darien Dual Language Programme",
+    "disposition": "school_host_mapping_followup",
+    "reason": "District explicitly publishes a 50/50 ordinary-K English/Spanish academic model (4K is a separate higher-Spanish share) and a 2014 launch. Host/grade mapping needs a school-specific source before assigning this model to buildings.",
+    "notes": ""
+  },
+  {
+    "school": "Hmong American Immersion School",
+    "district": "Appleton Area School District",
+    "source": "gl_wi_hais_school",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Hmong American Immersion School",
+    "disposition": "public_school_academic_language_medium_requires_verification",
+    "reason": "Public charter funding, PK–5 scope and fall-2025 opening are verified by the operator and public-radio opening account. Available descriptions emphasize cultural immersion and Hmong language; they do not establish the share of academic content taught through Hmong. Hold for academic-medium verification, not public-funding uncertainty.",
+    "notes": "Corroborating archived sources gl_wi_hais and gl_wi_hais_wpr document actual September 2, 2025 opening. Co-located Johnston is not automatically another Hmong programme.",
+    "additional_sources": [
+      "gl_wi_hais",
+      "gl_wi_hais_wpr"
+    ]
+  },
+  {
+    "school": "State bilingual-bicultural report",
+    "district": "",
+    "source": "gl_wi_bilingual_report",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "State bilingual-bicultural report",
+    "disposition": "state_service_report_scope_distinguished_from_DLI_roster",
+    "reason": "State report discusses bilingual/EL service delivery and resources; it is not a school-level DLI host/model census. No state assessment, demographic or exit-rate observations are imported in this structural phase.",
+    "notes": ""
+  }
+]

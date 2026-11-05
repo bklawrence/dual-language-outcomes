@@ -1,0 +1,850 @@
+{
+  "schools": [
+    {
+      "school_id": "IL-S001",
+      "state_code": "IL",
+      "school_name": "Academy for Global Citizenship",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S002",
+      "state_code": "IL",
+      "school_name": "Barbour Two-Way Language Immersion",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S004",
+      "state_code": "IL",
+      "school_name": "Darwin Elementary School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "excluded"
+    },
+    {
+      "school_id": "IL-S006",
+      "state_code": "IL",
+      "school_name": "Hawthorn School of Dual Language",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S007",
+      "state_code": "IL",
+      "school_name": "Inter-American Elementary Magnet School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S008",
+      "state_code": "IL",
+      "school_name": "International Prep Academy",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S009",
+      "state_code": "IL",
+      "school_name": "Lincoln-Irving Elementary School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S010",
+      "state_code": "IL",
+      "school_name": "Lozano Elementary Bilingual & International Center",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S011",
+      "state_code": "IL",
+      "school_name": "MacArthur International Spanish Academy",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S012",
+      "state_code": "IL",
+      "school_name": "Multicultural Dual Language Academy",
+      "identity_status": "legacy_provisional",
+      "screening_status": "excluded"
+    },
+    {
+      "school_id": "IL-S013",
+      "state_code": "IL",
+      "school_name": "Oak Terrace Elementary School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S014",
+      "state_code": "IL",
+      "school_name": "Red Oak Elementary School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S015",
+      "state_code": "IL",
+      "school_name": "Sabin Dual Language Magnet School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S016",
+      "state_code": "IL",
+      "school_name": "Talcott Fine Arts and Museum Academy",
+      "identity_status": "legacy_provisional",
+      "screening_status": "excluded"
+    },
+    {
+      "school_id": "IL-S017",
+      "state_code": "IL",
+      "school_name": "Washington Dual Language Academy",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate"
+    },
+    {
+      "school_id": "IL-S018",
+      "state_code": "IL",
+      "school_name": "Yankee Ridge Multilingual School",
+      "identity_status": "legacy_provisional",
+      "screening_status": "excluded"
+    }
+  ],
+  "programs": [
+    {
+      "program_id": "IL-P001",
+      "state_code": "IL",
+      "program_name": "Academy for Global Citizenship DL program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    },
+    {
+      "program_id": "IL-P002",
+      "state_code": "IL",
+      "program_name": "Barbour Two-Way Language Immersion",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Program type requires source verification"
+    },
+    {
+      "program_id": "IL-P006",
+      "state_code": "IL",
+      "program_name": "Hawthorn School of Dual Language program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    },
+    {
+      "program_id": "IL-P007",
+      "state_code": "IL",
+      "program_name": "Inter-American Elementary Magnet program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    },
+    {
+      "program_id": "IL-P008",
+      "state_code": "IL",
+      "program_name": "International Prep Academy program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Instructional allocation changed historically"
+    },
+    {
+      "program_id": "IL-P009",
+      "state_code": "IL",
+      "program_name": "Lincoln-Irving Elementary program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "One-way or two-way classification pending"
+    },
+    {
+      "program_id": "IL-P010",
+      "state_code": "IL",
+      "program_name": "Lozano Elementary bilingual program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "DL program classification pending"
+    },
+    {
+      "program_id": "IL-P011",
+      "state_code": "IL",
+      "program_name": "MacArthur International Spanish Academy program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    },
+    {
+      "program_id": "IL-P013",
+      "state_code": "IL",
+      "program_name": "Oak Terrace Elementary program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Schoolwide participation share unknown"
+    },
+    {
+      "program_id": "IL-P014",
+      "state_code": "IL",
+      "program_name": "Red Oak Elementary program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Schoolwide participation share unknown"
+    },
+    {
+      "program_id": "IL-P015",
+      "state_code": "IL",
+      "program_name": "Sabin Dual Language Magnet program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    },
+    {
+      "program_id": "IL-P017",
+      "state_code": "IL",
+      "program_name": "Washington Dual Language Academy program",
+      "identity_status": "legacy_provisional",
+      "screening_status": "candidate",
+      "notes": "Working program label"
+    }
+  ],
+  "program_sites": [
+    {
+      "site_id": "IL-PS001",
+      "program_id": "IL-P001",
+      "school_id": "IL-S001",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS002",
+      "program_id": "IL-P002",
+      "school_id": "IL-S002",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS006",
+      "program_id": "IL-P006",
+      "school_id": "IL-S006",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS007",
+      "program_id": "IL-P007",
+      "school_id": "IL-S007",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS008",
+      "program_id": "IL-P008",
+      "school_id": "IL-S008",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS009",
+      "program_id": "IL-P009",
+      "school_id": "IL-S009",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS010",
+      "program_id": "IL-P010",
+      "school_id": "IL-S010",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS011",
+      "program_id": "IL-P011",
+      "school_id": "IL-S011",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS013",
+      "program_id": "IL-P013",
+      "school_id": "IL-S013",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS014",
+      "program_id": "IL-P014",
+      "school_id": "IL-S014",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS015",
+      "program_id": "IL-P015",
+      "school_id": "IL-S015",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    },
+    {
+      "site_id": "IL-PS017",
+      "program_id": "IL-P017",
+      "school_id": "IL-S017",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "link_status": "legacy_provisional",
+      "source_id": "source-de4d601fbe595f57ab66d48566da1f0b"
+    }
+  ],
+  "program_languages": [
+    {
+      "language_record_id": "language-0d8762335ffe54a8aa44cd3ce1cb39a8",
+      "site_id": "IL-PS006",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P006",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-0fb34c25320e58d786df41feef6cd772",
+      "site_id": "IL-PS011",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P011",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-148ef0d0837d51938ec87461a8184282",
+      "site_id": "IL-PS009",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P009",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-26bac1e3000453e6811bcd469228b4be",
+      "site_id": "IL-PS017",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P017",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-288881252ef65ba88f4fda0769f3946f",
+      "site_id": "IL-PS008",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P008",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-3b89700d9fbc5ec8a27260acdccd2bde",
+      "site_id": "IL-PS009",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P009",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-3e17586ad39d55a5894016d6b0f4cb45",
+      "site_id": "IL-PS015",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P015",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-4193a4b864c35296b8605cecec2a0491",
+      "site_id": "IL-PS014",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P014",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-5a68242c00d5508e8b901bcb487f7cf2",
+      "site_id": "IL-PS010",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P010",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-7ec7f2d217ce52a597b59fd27ddafbdb",
+      "site_id": "IL-PS007",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P007",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-7ef576fc346556ce9dd5561f407e7e07",
+      "site_id": "IL-PS010",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P010",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-8754834cf1ad5caeb184ad0dd8fa6fc3",
+      "site_id": "IL-PS017",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P017",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-9e48bc7a0b67515397f1ae99d35d3f34",
+      "site_id": "IL-PS013",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P013",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-a439f566929356cb9da4314ea17a3eaf",
+      "site_id": "IL-PS015",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P015",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-a87e8b1dc5d0517a9e7161ff88b46981",
+      "site_id": "IL-PS014",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P014",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-ad45c9394a7558fa9e2c06851c0e3a65",
+      "site_id": "IL-PS011",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P011",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-b0265670b67e5b04906af274081ec39d",
+      "site_id": "IL-PS006",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P006",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-b9d4b07051295c4783bc8fe08df4b506",
+      "site_id": "IL-PS002",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P002",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-c1ea3f903a035c8288f026ee977f97b3",
+      "site_id": "IL-PS007",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P007",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-c523c97ae3f35554ba0f000356ae521e",
+      "site_id": "IL-PS001",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P001",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-d413cc0affc3535ab03743a4a993ea94",
+      "site_id": "IL-PS001",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P001",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-d961d75af453558596e0793465e63a95",
+      "site_id": "IL-PS013",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P013",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-dd61b51c6662544f8df1aaeb57578883",
+      "site_id": "IL-PS008",
+      "language_code": "es",
+      "language_name": "Spanish",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P008",
+      "notes": "Legacy label retained; no new pairing verification."
+    },
+    {
+      "language_record_id": "language-fe98e506ed355508816f6acd9216091f",
+      "site_id": "IL-PS002",
+      "language_code": "en",
+      "language_name": "English",
+      "language_role": "instruction_language",
+      "valid_from_year": null,
+      "valid_to_year": null,
+      "evidence_period_raw": null,
+      "verification_status": "unverified",
+      "source_id": "source-30323f7a4fc5588fadd2037ca6ac8758",
+      "source_locator": "IL-P002",
+      "notes": "Legacy label retained; no new pairing verification."
+    }
+  ],
+  "allocation_schedules": [
+    {
+      "schedule_id": "schedule-0a539e64a3f45a798f863d1cafff01be",
+      "school_id": "IL-S008",
+      "site_id": "IL-PS008",
+      "school_year": "2025-26",
+      "entry_cohort_year": "2025-26",
+      "grade_scope": "K",
+      "reported_model_label": "90-10",
+      "percentage_basis": "advertised_share_of_day",
+      "schedule_status": "documented_plan",
+      "evidence_review_status": null,
+      "grade_support_status": null,
+      "evidence_period_raw": "2025-26",
+      "tested_cohort_exposure": "not_established",
+      "source_id": "citation-067975d1ab2f5eb5841378875f715405",
+      "source_locator": "IL-H001",
+      "notes": "2025-26 kindergarten allocation; transition start year unknown"
+    }
+  ],
+  "instructional_allocations": [
+    {
+      "allocation_id": "allocation-20283680534152babb5ba32c0b80cb1b",
+      "schedule_id": "schedule-0a539e64a3f45a798f863d1cafff01be",
+      "language_name": "English",
+      "language_code": "en",
+      "instruction_share_pct": 10.0,
+      "evidence_type": "documented_plan",
+      "source_id": "citation-067975d1ab2f5eb5841378875f715405",
+      "source_locator": "IL-H001"
+    },
+    {
+      "allocation_id": "allocation-553b40d81eb85f9c9f85c27b1d1e52de",
+      "schedule_id": "schedule-0a539e64a3f45a798f863d1cafff01be",
+      "language_name": "Spanish",
+      "language_code": "es",
+      "instruction_share_pct": 90.0,
+      "evidence_type": "documented_plan",
+      "source_id": "citation-067975d1ab2f5eb5841378875f715405",
+      "source_locator": "IL-H001"
+    }
+  ],
+  "school_district_history": [
+    {
+      "membership_id": "membership-06ea03366be157148e425064b38659ac",
+      "school_id": "IL-S011",
+      "district_id": "district-691e4ed9edbe5d75925e2310e5cc26d1",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S011"
+    },
+    {
+      "membership_id": "membership-16a892da56a85832bb85d9fe67d5b398",
+      "school_id": "IL-S015",
+      "district_id": "district-7c721c06755c5c228f98298c781b2705",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S015"
+    },
+    {
+      "membership_id": "membership-1c029701691c5ed3a184ba728ec0da1c",
+      "school_id": "IL-S008",
+      "district_id": "district-34ce98c267fa5249b7cad13188572454",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S008"
+    },
+    {
+      "membership_id": "membership-2615c05d2824562dbcf8e7801c44ead3",
+      "school_id": "IL-S007",
+      "district_id": "district-17c0b5a94dcf5b8cbb7b14a407e8dbae",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S007"
+    },
+    {
+      "membership_id": "membership-35598ff6842c582d9c4d1e5c0618707e",
+      "school_id": "IL-S018",
+      "district_id": "district-6e78cbe5f53c50a399874cdd4fa9270b",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S018"
+    },
+    {
+      "membership_id": "membership-483bdf79373751c6b794fd065383c5c2",
+      "school_id": "IL-S006",
+      "district_id": "district-50ced5e03dc959478b21e6ed2c092a82",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S006"
+    },
+    {
+      "membership_id": "membership-4ea5a22c1032507ba167399f6a187b5e",
+      "school_id": "IL-S017",
+      "district_id": "district-325d2010b1d95348b3e2bd55dc6cc819",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S017"
+    },
+    {
+      "membership_id": "membership-51815d6e23c55c96b9eafd40b4efc4c5",
+      "school_id": "IL-S002",
+      "district_id": "district-7a7aa1728577540bb727822cfc8ba91f",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S002"
+    },
+    {
+      "membership_id": "membership-5d56bccc0ed6589c90813ccd77cef13b",
+      "school_id": "IL-S013",
+      "district_id": "district-ed87fb58a07357b792df4a372837166e",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S013"
+    },
+    {
+      "membership_id": "membership-7be7d3f8953a51fdb4b2f2615af4edef",
+      "school_id": "IL-S004",
+      "district_id": "district-17c0b5a94dcf5b8cbb7b14a407e8dbae",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S004"
+    },
+    {
+      "membership_id": "membership-8c548ba12e6a5a688d0d44cbda4a0fda",
+      "school_id": "IL-S001",
+      "district_id": "district-17c0b5a94dcf5b8cbb7b14a407e8dbae",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S001"
+    },
+    {
+      "membership_id": "membership-8fcc866c5b7f525aada81281065a8077",
+      "school_id": "IL-S009",
+      "district_id": "district-49e4d7e2ca5953629e556f29876cf54e",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S009"
+    },
+    {
+      "membership_id": "membership-9b62c70962c253e5b5f0c2e21c365664",
+      "school_id": "IL-S014",
+      "district_id": "district-ed87fb58a07357b792df4a372837166e",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S014"
+    },
+    {
+      "membership_id": "membership-c3bd84258f405cb68a77486b44d87e22",
+      "school_id": "IL-S012",
+      "district_id": "district-3913b4356cd656d3ad64b8b715264dd4",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S012"
+    },
+    {
+      "membership_id": "membership-e107d68cba2155c5869482f016b1a167",
+      "school_id": "IL-S010",
+      "district_id": "district-17c0b5a94dcf5b8cbb7b14a407e8dbae",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S010"
+    },
+    {
+      "membership_id": "membership-e1aa5fd6bc34589488f4c799b602438c",
+      "school_id": "IL-S016",
+      "district_id": "district-17c0b5a94dcf5b8cbb7b14a407e8dbae",
+      "school_year": null,
+      "validity_status": "snapshot_only",
+      "source_id": "source-4bf6a189a2df52fbbb309f0d468deb1c",
+      "source_locator": "IL-S016"
+    }
+  ]
+}

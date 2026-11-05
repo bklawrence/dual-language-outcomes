@@ -4,7 +4,7 @@ Start from the [national model](NATIONAL_DATA_MODEL.md) and [table contracts](..
 
 ## Add a state adapter
 
-1. Review the state's existing research and `config/states/<state>.json`. The current phase is structural inventory for all 50 states; defer new proficiency collection until that work is finished. Six earlier state inventories are now `integrated_partial`; do not interpret a different state's `not_migrated` profile as proof that no earlier sources exist.
+1. Review the state's existing research and `config/states/<state>.json`. The current phase is structural inventory for all 50 states; defer new proficiency collection until that work is finished. Earlier inventories remain `integrated_partial`; do not interpret a different state's `not_migrated` profile as proof that no earlier sources exist.
 2. Save original public source bytes under a new `data/raw/<state>/<vintage>/` directory. Keep source URL, exact query/selection, retrieval timestamp, data-as-of/version, row count, completeness limits and SHA-256 in metadata. Preserve earlier snapshots. For large future downloads, use versioned artifact storage and a reproducible download manifest; the current pilot uses small local snapshots.
 3. Add a module under `src/dl_outcomes/states/` exposing `migrate(build)`. Configure its module name in the state JSON `adapter` field. The offline builder discovers enabled adapters from these configs.
 4. Register datasets and saved source releases with `Build.dataset` and `Build.source_file`. Citation-only documents use `Build.citation` and remain explicitly metadata-only. Do not fabricate retrieval dates for older research.
@@ -14,6 +14,8 @@ Start from the [national model](NATIONAL_DATA_MODEL.md) and [table contracts](..
 8. Rebuild, regenerate the dictionary if contracts changed, validate, and run tests. Add a state profile describing native definitions, source availability and remaining gaps.
 
 The Illinois, Texas and Washington adapters demonstrate legacy migration, narrow participant-group reports, annual metadata, school-grade academic results, enrollment counts and derived shares. Existing standalone collectors can continue producing source files while common adapters are added; they do not need to be rewritten simultaneously.
+
+When expanding an already represented state, preserve reviewed school/programme/site IDs and original claims. Illinois demonstrates an append-only expansion: explicit identity decisions reuse matching entities; an independently frozen original-row snapshot and earlier ID checksums guard preservation, while the new batch separately checks the entire expanded ID set. Do not weaken historical guards or rewrite old inputs to accommodate additions. Supporting screening sources must be registered as build inputs too, so the portable bundle can reproduce every source check.
 
 ## Add another source vintage
 

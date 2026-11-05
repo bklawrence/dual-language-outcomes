@@ -6,6 +6,7 @@ import io
 import json
 
 from .io import digest, record_id
+from .identity_audit import preserved_identity_fingerprint
 from .states.five_state import exact_year
 from .states.western_plains import BASE, STATES
 
@@ -32,7 +33,7 @@ def audit_errors(root, tables, *, check_hashes=True):
         field = 'school_id' if table == 'schools' else 'program_id'
         for state, expected in states.items():
             ids = sorted(r[field] for r in tables[table] if r['state_code'] == state)
-            actual = hashlib.sha256(json.dumps(ids, separators=(',', ':')).encode()).hexdigest()
+            actual = preserved_identity_fingerprint(root, table, state, ids, expected)
             if actual != expected:
                 errors.append('Six-state batch changed prior identity set: ' + table + '/' + state)
     if check_hashes:

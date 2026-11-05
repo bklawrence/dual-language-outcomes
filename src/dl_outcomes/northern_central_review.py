@@ -5,6 +5,7 @@ import json
 
 from .elementary_audit import elementary_scope, numeric_model, report_rows as elementary_rows
 from .io import digest, record_id
+from .identity_audit import preserved_identity_fingerprint
 from .states.five_state import exact_year
 from .states.northern_central import BASE, STATES
 from .western_plains_review import csv_text
@@ -14,27 +15,29 @@ REPORT = 'data/reports/northern_central_ak_hi_2026_11_05'
 SUFFIX = '_NORTHERN_CENTRAL_AK_HI_STRUCTURAL'
 
 
-def inputs(root):
-    base = root / BASE
-    programmes = [p for s in sorted(STATES)
+def inputs(root, *, base=BASE, states=STATES):
+    base = root / base
+    programmes = [p for s in sorted(states)
                   for p in json.loads((base / (s.lower() + '_programmes.json')).read_text())]
     sources = {s['key']: s for s in json.loads((base / 'sources.json').read_text())}
     return programmes, sources
 
 
-def source_id(state, key, sources):
-    return record_id('source', state + SUFFIX, sources[key]['sha256'])
+def source_id(state, key, sources, *, suffix=SUFFIX):
+    return record_id('source', state + suffix, sources[key]['sha256'])
 
 
-def audit_errors(root, tables, *, check_hashes=True):
-    audit = json.loads((root / AUDIT).read_text())
-    programmes, sources = inputs(root)
+def audit_errors(root, tables, *, check_hashes=True, batch=None):
+    settings = dict(base=BASE, states=STATES, audit=AUDIT, suffix=SUFFIX)
+    settings.update(batch or {})
+    audit = json.loads((root / settings['audit']).read_text())
+    programmes, sources = inputs(root, base=settings['base'], states=settings['states'])
     errors = []
     for table, states in audit['prior_identity_sets'].items():
         key = 'school_id' if table == 'schools' else 'program_id'
         for state, expected in states.items():
             ids = sorted(r[key] for r in tables[table] if r['state_code'] == state)
-            actual = hashlib.sha256(json.dumps(ids, separators=(',', ':')).encode()).hexdigest()
+            actual = preserved_identity_fingerprint(root, table, state, ids, expected)
             if actual != expected:
                 errors.append('Seven-state batch changed prior identities: ' + table + '/' + state)
     if check_hashes:
@@ -66,8 +69,8 @@ def audit_errors(root, tables, *, check_hashes=True):
             errors.append('Seven-state programme host changed: ' + pid)
             continue
         sid = site['site_id']
-        import_id = record_id('source', state + SUFFIX,
-                             digest(root / BASE / (state.lower() + '_programmes.json')))
+        import_id = record_id('source', state + settings['suffix'],
+                             digest(root / settings['base'] / (state.lower() + '_programmes.json')))
         ref = [r for r in statuses[sid] if r['source_id'] == import_id and r['school_year'] == '2025-26']
         expected = dict(operating_status=p['reference']['status'], eligibility_status=p['reference']['eligibility'],
                         instructional_scope=p['reference']['scope'], public_funding_status=p['reference']['funding'],
@@ -75,7 +78,7 @@ def audit_errors(root, tables, *, check_hashes=True):
         if len(ref) != 1 or any(ref[0][k] != v for k, v in expected.items()):
             errors.append('Seven-state reference operation/funding distinction changed: ' + pid)
         for i, o in enumerate(p['observations']):
-            source = source_id(state, o['source'], sources)
+            source = source_id(state, o['source'], sources, suffix=settings['suffix'])
             locator = pid + ':observation:' + str(i) + '; ' + o['locator']
             row = configs.get(record_id('configuration', sid, source, locator))
             expected = dict(school_year=exact_year(o['period']), grade_scope=o['grade'],
@@ -89,7 +92,7 @@ def audit_errors(root, tables, *, check_hashes=True):
                            or r['valid_from_year'] != exact_year(o['period']) for r in ls)):
                 errors.append('Seven-state source languages/roles/dates changed: ' + locator)
         for i, a in enumerate(p['allocations']):
-            source = source_id(state, a['source'], sources)
+            source = source_id(state, a['source'], sources, suffix=settings['suffix'])
             locator = pid + ':allocation:' + str(i) + '; ' + a['locator']
             row = schedules.get(record_id('schedule', sid, source, locator))
             expected = dict(school_year=exact_year(a['period']), grade_scope=a['grade'],
@@ -105,6 +108,8 @@ def audit_errors(root, tables, *, check_hashes=True):
                 errors.append('Seven-state elementary allocation attached to secondary scope: ' + locator)
             if a.get('review_status') and row['evidence_review_status'] != a['review_status']:
                 errors.append('Seven-state inferred allocation lost its review flag: ' + locator)
+    if batch:
+        return errors
     hi = json.loads((root / BASE / 'extractions/hi_directory_rows.json').read_text())
     ak = json.loads((root / BASE / 'extractions/ak_asd_school_language_cells.json').read_text())
     if (len(hi), sum(r['sector'] == 'HIDOE' for r in hi), len(ak), len({r['school'] for r in ak})) != (34, 27, 18, 16):
@@ -114,10 +119,13 @@ def audit_errors(root, tables, *, check_hashes=True):
     return errors
 
 
-def render_reports(root, tables):
-    programmes, sources = inputs(root)
+def render_reports(root, tables, *, batch=None):
+    settings = dict(base=BASE, states=STATES, report=REPORT)
+    settings.update(batch or {})
+    programmes, sources = inputs(root, base=settings['base'], states=settings['states'])
     detail, coverage = elementary_rows(tables)
-    elementary = {(r['audit_scope'], r['school_id']): r for r in detail}
+    elementary = {(r['audit_scope'], sid): r for r in detail
+                  for sid in r['research_school_ids'].split(' | ')}
     rows, backlog, schools = [], [], []
     by_school = defaultdict(list)
     for p in programmes:
@@ -164,7 +172,7 @@ def render_reports(root, tables):
             model_source_periods=all_row['model_source_periods'], model_review_flags=all_row['model_review_flags'],
             interpretation='One provisional school/campus unit; multiple rows in the programme CSV are distinct language strands. Coverage is within the reviewed working inventory, not a statewide census.'))
     summary = []
-    for state in sorted(STATES):
+    for state in sorted(settings['states']):
         ps = [p for p in programmes if p['state'] == state]
         eligible = [p for p in ps if p['reference']['status'] == 'confirmed_2025_26'
                     and p['reference']['eligibility'].startswith('documented_')]
@@ -176,11 +184,17 @@ def render_reports(root, tables):
             elementary_reference_model_coverage_pct=cov['numerical_allocation_coverage_pct'],
             secondary_6_plus_reference_units_excluded=cov['secondary_6_plus_school_units_excluded'],
             statewide_completeness='not_established'))
-    screening = [dict(state=s, **lead) for s in sorted(STATES)
-                 for lead in json.loads((root / BASE / (s.lower() + '_screening.json')).read_text())]
-    contents = {REPORT + '_program_view.csv': csv_text(rows), REPORT + '_schools.csv': csv_text(schools),
-                REPORT + '_by_state.csv': csv_text(summary), REPORT + '_backlog.csv': csv_text(backlog),
-                REPORT + '_screening.csv': csv_text(screening), BASE + '/sources.csv': csv_text(list(sources.values()))}
+    screening = [dict(state=s, **lead) for s in sorted(settings['states'])
+                 for lead in json.loads((root / settings['base'] / (s.lower() + '_screening.json')).read_text())]
+    if batch:
+        fields = list(dict.fromkeys(key for row in screening for key in row))
+        screening = [{key: json.dumps(row[key], ensure_ascii=False)
+                      if isinstance(row.get(key), (list, dict)) else row.get(key, '')
+                      for key in fields} for row in screening]
+    prefix = settings['report']
+    contents = {prefix + '_program_view.csv': csv_text(rows), prefix + '_schools.csv': csv_text(schools),
+                prefix + '_by_state.csv': csv_text(summary), prefix + '_backlog.csv': csv_text(backlog),
+                prefix + '_screening.csv': csv_text(screening), settings['base'] + '/sources.csv': csv_text(list(sources.values()))}
     changes = [dict(state=p['state'], school=p['school'], program_id=p['program_id'],
                     event_status=e['status'], event_year=e['year'], source_url=sources[e['source']]['url'], notes=e['notes'])
                for p in programmes for e in p['events']]
@@ -188,7 +202,7 @@ def render_reports(root, tables):
                      event_status=p['reference']['status'], event_year='2025-26 reference assessment',
                      source_url=sources[p['reference']['source']]['url'], notes=p['reference']['notes'])
                 for p in programmes if p['reference']['status'] != 'confirmed_2025_26']
-    contents[REPORT + '_change_events.csv'] = csv_text(changes)
+    contents[prefix + '_change_events.csv'] = csv_text(changes)
     cases = []
     for p in programmes:
         reason = None
@@ -204,10 +218,10 @@ def render_reports(root, tables):
             cases.append(dict(state=p['state'], school=p['school'], program_id=p['program_id'],
                 review_reason=reason, source_url=sources[p['reference']['source']]['url'],
                 notes=p['notes']))
-    contents[REPORT + '_review_cases.csv'] = csv_text(cases)
-    for state in sorted(STATES):
-        contents[BASE + '/' + state.lower() + '_programmes.csv'] = csv_text([r for r in rows if r['state'] == state])
-        contents[BASE + '/' + state.lower() + '_schools.csv'] = csv_text([r for r in schools if r['state'] == state])
+    contents[prefix + '_review_cases.csv'] = csv_text(cases)
+    for state in sorted(settings['states']):
+        contents[settings['base'] + '/' + state.lower() + '_programmes.csv'] = csv_text([r for r in rows if r['state'] == state])
+        contents[settings['base'] + '/' + state.lower() + '_schools.csv'] = csv_text([r for r in schools if r['state'] == state])
     report = dict(reference_school_year='2025-26', programme_records=len(programmes), school_units=len(schools),
         public_source_documents=len(sources), state_summary=summary, statewide_completeness='not_established',
         proficiency_collection='deferred; twelve existing assessment/context/EL/SEDA outputs preserved',
@@ -217,5 +231,7 @@ def render_reports(root, tables):
             'School-grade classification uses programme-scope proxies where a school-grade directory was not matched.',
             'Published classroom-only models and conflicting model/minute descriptions carry review notes; they are not whole-day observed plans.',
             'Preschool networks, unimplemented pathways, uncertain new hosts, nonpublic funding candidates and historical relocations remain separate.'])
-    contents[REPORT + '.json'] = json.dumps(report, ensure_ascii=False, indent=2) + '\n'
+    if batch and batch.get('limitations'):
+        report['limitations'] = batch['limitations']
+    contents[prefix + '.json'] = json.dumps(report, ensure_ascii=False, indent=2) + '\n'
     return contents, report

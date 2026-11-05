@@ -62,6 +62,7 @@ def migrate_state(b, state, *, inventory=None):
     needed = {x['source'] for p in programmes for field in ['observations', 'allocations', 'events'] for x in p[field]}
     needed |= {p['reference']['source'] for p in programmes if p['reference']['source']}
     needed |= {r['source'] for r in leads}
+    needed |= {key for r in leads for key in r.get('additional_sources', [])}
     needed |= {key for r in reviews.values() if r['state'] == state for key in r['source_keys']}
     sources = {}
     for key in sorted(needed):
@@ -76,17 +77,34 @@ def migrate_state(b, state, *, inventory=None):
         pid, sid = p['program_id'], p['school_id']
         if sid != school_identity(state, p['district'], p['school']):
             raise ValueError('Reviewed research school identity changed: ' + pid)
-        b.school(sid, state, p['school'], files['programmes'], namespace=namespace + '_reviewed_research_school_key',
-            native_id=sid, status='provisional',
-            screening='reviewed_programme_host_including_candidates_plans_and_continuations')
+        reuse = options.get('reuse_existing_entities', False)
+        if not reuse or (sid,) not in b.tables['schools']:
+            b.school(sid, state, p['school'], files['programmes'], namespace=namespace + '_reviewed_research_school_key',
+                native_id=sid, status='provisional',
+                screening='reviewed_programme_host_including_candidates_plans_and_continuations')
+        else:
+            b.identifier('school', sid, namespace + '_reviewed_research_school_key', sid,
+                         files['programmes'])
+            b.claim('school', sid, 'reviewed_source_school_name', p['school'], files['programmes'],
+                    pid + ':school_name', status='documented',
+                    notes='Reviewed name match reuses the existing identity; original registry fields and source claims remain.')
         add_membership(b, state, sid, p['district'], files['programmes'], pid)
-        b.add('programs', program_id=pid, state_code=state, program_name=p['school'] + ' / ' + p['track'],
-            identity_status='provisional_evidence_group', screening_status=p['reference']['eligibility'],
-            notes='Reviewed source/track evidence key, not an official enduring programme ID. ' + p['notes'])
+        if not reuse or (pid,) not in b.tables['programs']:
+            b.add('programs', program_id=pid, state_code=state, program_name=p['school'] + ' / ' + p['track'],
+                identity_status='provisional_evidence_group', screening_status=p['reference']['eligibility'],
+                notes='Reviewed source/track evidence key, not an official enduring programme ID. ' + p['notes'])
         b.identifier('program', pid, namespace + '_reviewed_research_programme_key', pid, files['programmes'],
                      status='reviewed_evidence_key_not_official_programme_identifier')
-        site = record_id('site', pid, sid)
-        b.add('program_sites', site_id=site, program_id=pid, school_id=sid, link_status='provisional', source_id=files['programmes'])
+        site = p.get('site_id') if reuse else None
+        site = site or record_id('site', pid, sid)
+        if reuse and (site,) in b.tables['program_sites']:
+            existing = b.tables['program_sites'][(site,)]
+            if existing['program_id'] != pid or existing['school_id'] != sid:
+                raise ValueError('Reviewed existing programme/site match changed: ' + pid)
+        else:
+            if p.get('site_id'):
+                raise ValueError('An existing site override must already exist: ' + site)
+            b.add('program_sites', site_id=site, program_id=pid, school_id=sid, link_status='provisional', source_id=files['programmes'])
         ref = p['reference']
         b.add('program_status_history', status_id=record_id('status', site, files['programmes'], ref['year']),
             site_id=site, school_year=ref['year'], operating_status=ref['status'], eligibility_status=ref['eligibility'],

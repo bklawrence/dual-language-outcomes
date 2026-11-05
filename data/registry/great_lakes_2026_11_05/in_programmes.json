@@ -1,0 +1,3074 @@
+[
+  {
+    "program_id": "GL-IN-P-4001ca2d1ef9",
+    "school_id": "GL-IN-S-0e005ab3c890",
+    "state": "IN",
+    "district": "Bartholomew Consolidated School Corporation",
+    "school": "Clifty Creek Elementary",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; PK-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Legado page explicitly places the pathway at Clifty Creek; the name Academy does not create another school. Entry allocation 80% Spanish / 20% English through grade 2; later 50/50 is not K. Page retains 2024–25 applications, and its grade scope differs from the older state PK–4 row.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "PK-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Clifty Creek Elementary / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; PK-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "PK-4",
+          "reported_school": "Clifty Creek Elementary",
+          "reported_district": "Bartholomew Consolidated School Corporation"
+        }
+      },
+      {
+        "source": "gl_w4_7c5b95fe",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Clifty Creek Elementary / current operator programme",
+        "notes": "Legado page explicitly places the pathway at Clifty Creek; the name Academy does not create another school. Entry allocation 80% Spanish / 20% English through grade 2; later 50/50 is not K. Page retains 2024–25 applications, and its grade scope differs from the older state PK–4 row.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_7c5b95fe",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Clifty Creek Elementary / explicit instructional model",
+        "notes": "Legado page explicitly places the pathway at Clifty Creek; the name Academy does not create another school. Entry allocation 80% Spanish / 20% English through grade 2; later 50/50 is not K. Page retains 2024–25 applications, and its grade scope differs from the older state PK–4 row.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Clifty Creek Elementary / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-4001ca2d1ef9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-b3708f9d25bd",
+    "school_id": "GL-IN-S-9713375892df",
+    "state": "IN",
+    "district": "Batesville Community School Corporation",
+    "school": "Batesville Intermediate School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin, One-Way Immersion; 3-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "3-5",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Batesville Intermediate School / Mandarin Chinese immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin, One-Way Immersion; 3-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Mandarin, One-Way Immersion",
+          "grade_cell": "3-5",
+          "reported_school": "Batesville Intermediate School",
+          "reported_district": "Batesville Community School Corporation"
+        }
+      },
+      {
+        "source": "gl_w6_4776313a",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "3-5",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Batesville Intermediate School / current operator programme",
+        "notes": "District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Batesville Intermediate School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-b3708f9d25bd-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-e6012f7ee3b0",
+    "school_id": "GL-IN-S-4ad899c2e2a3",
+    "state": "IN",
+    "district": "Batesville Community School Corporation",
+    "school": "Batesville Middle School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin, One-Way Immersion; 6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "6",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Batesville Middle School / Mandarin Chinese immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin, One-Way Immersion; 6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Mandarin, One-Way Immersion",
+          "grade_cell": "6",
+          "reported_school": "Batesville Middle School",
+          "reported_district": "Batesville Community School Corporation"
+        }
+      },
+      {
+        "source": "gl_w6_4776313a",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Batesville Middle School / current operator programme",
+        "notes": "District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Batesville Middle School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-e6012f7ee3b0-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-2e6fa3af48ac",
+    "school_id": "GL-IN-S-09a5415cf458",
+    "state": "IN",
+    "district": "Batesville Community School Corporation",
+    "school": "Batesville Primary School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin One-Way Immersion; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-2",
+        "languages": [
+          "Mandarin Chinese"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Batesville Primary School / Mandarin Chinese immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Mandarin One-Way Immersion; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Mandarin One-Way Immersion",
+          "grade_cell": "K-2",
+          "reported_school": "Batesville Primary School",
+          "reported_district": "Batesville Community School Corporation"
+        }
+      },
+      {
+        "source": "gl_w6_4776313a",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Batesville Primary School / current operator programme",
+        "notes": "District instructional plan describes Mandarin math, science and literacy; English social studies, ELA, reinforcement and allied arts. Full immersion wording is not an all-day numerical allocation; no 50/50 assumed from the grant minimum.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Batesville Primary School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-2e6fa3af48ac-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-4414445ac762",
+    "school_id": "GL-IN-S-e24cc6bd95c8",
+    "state": "IN",
+    "district": "Eastbrook Community Schools",
+    "school": "Eastbrook South Elementary",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-3",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Eastbrook South Elementary / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-3",
+          "reported_school": "Eastbrook South Elementary",
+          "reported_district": "Eastbrook Community Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Eastbrook South Elementary / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-4414445ac762-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-6ee90d57a3f7",
+    "school_id": "GL-IN-S-ab2f21f95600",
+    "state": "IN",
+    "district": "Franklin Township Community School Corporation",
+    "school": "Thompson Crossing Elementary",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Thompson Crossing Elementary / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K",
+          "reported_school": "Thompson Crossing Elementary",
+          "reported_district": "Franklin Township Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Thompson Crossing Elementary / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-6ee90d57a3f7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-3b137ba73646",
+    "school_id": "GL-IN-S-d6e7287b2bee",
+    "state": "IN",
+    "district": "Goshen Community Schools",
+    "school": "Waterford Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Waterford Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-5",
+          "reported_school": "Waterford Elementary School",
+          "reported_district": "Goshen Community Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Waterford Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-3b137ba73646-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-f34e4943164b",
+    "school_id": "GL-IN-S-c2f5dfcafac4",
+    "state": "IN",
+    "district": "Indianapolis Public Schools",
+    "school": "H.L. Harshman Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 6-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Named continuation in the current IPS table; source FAQ has older grade spans. No kindergarten model assigned.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "6-8",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "H.L. Harshman Middle School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 6-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "6-8",
+          "reported_school": "H.L. Harshman Middle School",
+          "reported_district": "Indianapolis Public Schools"
+        }
+      },
+      {
+        "source": "gl_w4_f868a79c",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "H.L. Harshman Middle School / current operator programme",
+        "notes": "Named continuation in the current IPS table; source FAQ has older grade spans. No kindergarten model assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "H.L. Harshman Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-f34e4943164b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-f95f086a7203",
+    "school_id": "GL-IN-S-c49c9df982f4",
+    "state": "IN",
+    "district": "Indianapolis Public Schools",
+    "school": "Theodore Potter Elementary School #74",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current IPS model names Theodore Potter K–5 and Harshman 6–8. Older state/FAQ K–6 and 7–8 ranges remain earlier source statements.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Theodore Potter Elementary School #74 / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Theodore Potter Elementary School #74",
+          "reported_district": "Indianapolis Public Schools"
+        }
+      },
+      {
+        "source": "gl_w4_f868a79c",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Theodore Potter Elementary School #74 / current operator programme",
+        "notes": "Current IPS model names Theodore Potter K–5 and Harshman 6–8. Older state/FAQ K–6 and 7–8 ranges remain earlier source statements.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_f868a79c",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Theodore Potter Elementary School #74 / explicit instructional model",
+        "notes": "Current IPS model names Theodore Potter K–5 and Harshman 6–8. Older state/FAQ K–6 and 7–8 ranges remain earlier source statements.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Theodore Potter Elementary School #74 / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-f95f086a7203-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-8372d8c98ef3",
+    "school_id": "GL-IN-S-6380556cbb86",
+    "state": "IN",
+    "district": "Lawrenceburg Community School Corporation",
+    "school": "Central Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; 3-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "3-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Central Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; 3-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "3-4",
+          "reported_school": "Central Elementary School",
+          "reported_district": "Lawrenceburg Community School Corporation"
+        }
+      },
+      {
+        "source": "gl_w4_26785457",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "3-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Central Elementary School / current operator programme",
+        "notes": "District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_26785457",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "3-4",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Central Elementary School / explicit instructional model",
+        "notes": "District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Central Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-8372d8c98ef3-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-32a99a6af9e7",
+    "school_id": "GL-IN-S-36d1a6a40919",
+    "state": "IN",
+    "district": "Lawrenceburg Community School Corporation",
+    "school": "Lawrenceburg Primary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-2",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Lawrenceburg Primary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way",
+          "grade_cell": "K-2",
+          "reported_school": "Lawrenceburg Primary School",
+          "reported_district": "Lawrenceburg Community School Corporation"
+        }
+      },
+      {
+        "source": "gl_w4_26785457",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Lawrenceburg Primary School / current operator programme",
+        "notes": "District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_26785457",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Lawrenceburg Primary School / explicit instructional model",
+        "notes": "District explicitly describes K–5 50/50 Spanish and English and dates programme launch to 2019–20. Different primary buildings retain their source grade spans.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Lawrenceburg Primary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-32a99a6af9e7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-7a4cd045b283",
+    "school_id": "GL-IN-S-50fcc9fcd6e0",
+    "state": "IN",
+    "district": "Logansport Community School Corporation",
+    "school": "Columbia Sixth Grade Academy",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Columbia Sixth Grade Academy / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "6",
+          "reported_school": "Columbia Sixth Grade Academy",
+          "reported_district": "Logansport Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Columbia Sixth Grade Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-7a4cd045b283-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-411cd1f17fb9",
+    "school_id": "GL-IN-S-03dd763e868a",
+    "state": "IN",
+    "district": "Logansport Community School Corporation",
+    "school": "Landis Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Landis Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-5",
+          "reported_school": "Landis Elementary School",
+          "reported_district": "Logansport Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Landis Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-411cd1f17fb9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-afb3b845142d",
+    "school_id": "GL-IN-S-55036ef7ae13",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Belzer Middle School",
+    "track": "Spanish immersion",
+    "notes": "Named current district continuation, additional to the older state roster.",
+    "observations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "middle school",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Belzer Middle School / Spanish immersion",
+        "notes": "Named current district continuation, additional to the older state roster.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_31846e16",
+      "locator": "Belzer Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-afb3b845142d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-0786b0d078ca",
+    "school_id": "GL-IN-S-9275541238a3",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "ELC Brook Park",
+    "track": "Spanish immersion",
+    "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme.",
+    "observations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "ELC Brook Park / Spanish immersion",
+        "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "ELC Brook Park / published instructional model",
+        "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme. Allocation inferred under user-authorized same-district/same-language/same-type rule from explicitly quantified one-way elementary donors; source calls ELC delivery similar.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL",
+        "review_status": "USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE",
+        "inference": {
+          "rule": "user_authorized_same_district_language_and_population_type",
+          "language": "Spanish",
+          "population_model": "one_way",
+          "district": "MSD Lawrence Township",
+          "donor_program_ids": [
+            "GL-IN-P-1ee287979f4a",
+            "GL-IN-P-acd1ad05ae8a",
+            "GL-IN-P-52e67c0e17ce"
+          ],
+          "source": "gl_w4_31846e16",
+          "source_scope": "kindergarten classrooms use a similar one-way model"
+        }
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_31846e16",
+      "locator": "ELC Brook Park / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-0786b0d078ca-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-5ffac2ac6aa7",
+    "school_id": "GL-IN-S-385ac6ed2297",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "ELC Winding Ridge",
+    "track": "Spanish immersion",
+    "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme.",
+    "observations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "ELC Winding Ridge / Spanish immersion",
+        "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "ELC Winding Ridge / published instructional model",
+        "notes": "Current district explicitly says kindergarten classrooms at the two named Early Learning Centers use a similar one-way model. Preschool grades are not inferred; this record is the stated K academic programme. Allocation inferred under user-authorized same-district/same-language/same-type rule from explicitly quantified one-way elementary donors; source calls ELC delivery similar.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL",
+        "review_status": "USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE",
+        "inference": {
+          "rule": "user_authorized_same_district_language_and_population_type",
+          "language": "Spanish",
+          "population_model": "one_way",
+          "district": "MSD Lawrence Township",
+          "donor_program_ids": [
+            "GL-IN-P-1ee287979f4a",
+            "GL-IN-P-acd1ad05ae8a",
+            "GL-IN-P-52e67c0e17ce"
+          ],
+          "source": "gl_w4_31846e16",
+          "source_scope": "kindergarten classrooms use a similar one-way model"
+        }
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_31846e16",
+      "locator": "ELC Winding Ridge / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-5ffac2ac6aa7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-b4e1f6c17444",
+    "school_id": "GL-IN-S-0191dceb8934",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Fall Creek Valley Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 6-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District names this Spanish/English dual-language continuation; no elementary ratio assigned.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "6-8",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Fall Creek Valley Middle School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 6-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "6-8",
+          "reported_school": "Fall Creek Valley Middle School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Fall Creek Valley Middle School / current operator programme",
+        "notes": "District names this Spanish/English dual-language continuation; no elementary ratio assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Fall Creek Valley Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-b4e1f6c17444-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-1a4151fd32b3",
+    "school_id": "GL-IN-S-4b402342993e",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Forest Glen Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; PK-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "PK-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Forest Glen Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; PK-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "PK-6",
+          "reported_school": "Forest Glen Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Forest Glen Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Forest Glen Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Forest Glen Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-1a4151fd32b3-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-1ee287979f4a",
+    "school_id": "GL-IN-S-cbb5d3dc30f8",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Harrison Hill Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Harrison Hill Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Harrison Hill Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Harrison Hill Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Harrison Hill Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Harrison Hill Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-1ee287979f4a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-88a5c45aa9c8",
+    "school_id": "GL-IN-S-cbb5d3dc30f8",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Harrison Hill Elementary School",
+    "track": "Spanish two-way dual language (grade 1)",
+    "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+    "observations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Harrison Hill Elementary School / Spanish two-way dual language (grade 1)",
+        "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Harrison Hill Elementary School / published instructional model",
+        "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_31846e16",
+      "locator": "Harrison Hill Elementary School / Spanish two-way dual language (grade 1)",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-88a5c45aa9c8-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-acd1ad05ae8a",
+    "school_id": "GL-IN-S-c4ecdd910f9b",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Indian Creek Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Indian Creek Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Indian Creek Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Indian Creek Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Indian Creek Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Indian Creek Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-acd1ad05ae8a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-f7fd0c8836c4",
+    "school_id": "GL-IN-S-c4ecdd910f9b",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Indian Creek Elementary School",
+    "track": "Spanish two-way dual language (grade 1)",
+    "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+    "observations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Indian Creek Elementary School / Spanish two-way dual language (grade 1)",
+        "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Indian Creek Elementary School / published instructional model",
+        "notes": "Current district explicitly lists a two-way programme in first grade only, alongside its one-way pathway. Do not create a kindergarten allocation for this strand.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_31846e16",
+      "locator": "Indian Creek Elementary School / Spanish two-way dual language (grade 1)",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-f7fd0c8836c4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-c24ed1e2ff9b",
+    "school_id": "GL-IN-S-c85090a59afb",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Lawrence North High School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 9-12. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District names this Spanish/English dual-language continuation; no elementary ratio assigned.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "9-12",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Lawrence North High School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 9-12. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "9-12",
+          "reported_school": "Lawrence North High School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Lawrence North High School / current operator programme",
+        "notes": "District names this Spanish/English dual-language continuation; no elementary ratio assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Lawrence North High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-c24ed1e2ff9b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-52e67c0e17ce",
+    "school_id": "GL-IN-S-4e291da92f66",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Mary Castle Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Mary Castle Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Mary Castle Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Mary Castle Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Mary Castle Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Mary Castle Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-52e67c0e17ce-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-3c2593b484c4",
+    "school_id": "GL-IN-S-b9c175271a4f",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Skiles Test Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Skiles Test Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-5",
+          "reported_school": "Skiles Test Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Skiles Test Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Skiles Test Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Skiles Test Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-3c2593b484c4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-db8881b430dd",
+    "school_id": "GL-IN-S-d7f321c01187",
+    "state": "IN",
+    "district": "MSD Lawrence Township",
+    "school": "Sunnyside Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Sunnyside Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Sunnyside Elementary School",
+          "reported_district": "MSD Lawrence Township"
+        }
+      },
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Sunnyside Elementary School / current operator programme",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "label": "80/20",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_31846e16",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Sunnyside Elementary School / explicit instructional model",
+        "notes": "Current district separately describes two-way and one-way Spanish programmes with K–1 80/20, grade-2 70/30, grade-3 60/40 and grades 4–6 50/50. The older state row gives a different population label at some sites; preserve both periods rather than replacing old evidence.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Sunnyside Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-db8881b430dd-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Older IDOE roster says one-way; current district page says two-way. Preserve source periods and determine effective change year before longitudinal comparisons."
+    ]
+  },
+  {
+    "program_id": "GL-IN-P-9e0b0d5fbe6d",
+    "school_id": "GL-IN-S-73742258422d",
+    "state": "IN",
+    "district": "MSD Martinsville",
+    "school": "Bell Intermediate Academy",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; 5-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "5-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Bell Intermediate Academy / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; 5-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish One-Way Dual Language",
+          "grade_cell": "5-6",
+          "reported_school": "Bell Intermediate Academy",
+          "reported_district": "MSD Martinsville"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Bell Intermediate Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-9e0b0d5fbe6d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-7793e4f410af",
+    "school_id": "GL-IN-S-082a14337f66",
+    "state": "IN",
+    "district": "MSD Martinsville",
+    "school": "John R. Wooden Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; 7. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "7",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "John R. Wooden Middle School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; 7. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish One-Way Dual Language",
+          "grade_cell": "7",
+          "reported_school": "John R. Wooden Middle School",
+          "reported_district": "MSD Martinsville"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "John R. Wooden Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-7793e4f410af-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-5103d1dcd336",
+    "school_id": "GL-IN-S-01d4723cc3ec",
+    "state": "IN",
+    "district": "MSD Martinsville",
+    "school": "Poston Road Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Poston Road Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish One-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish One-Way Dual Language",
+          "grade_cell": "K-4",
+          "reported_school": "Poston Road Elementary School",
+          "reported_district": "MSD Martinsville"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Poston Road Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-5103d1dcd336-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-df849c43d511",
+    "school_id": "GL-IN-S-8a0351151699",
+    "state": "IN",
+    "district": "MSD Warren Township",
+    "school": "Pleasant Run Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Pleasant Run Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "K-4",
+          "reported_school": "Pleasant Run Elementary School",
+          "reported_district": "MSD Warren Township"
+        }
+      },
+      {
+        "source": "gl_w4_2777bbc7",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Pleasant Run Elementary School / current operator programme",
+        "notes": "District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_2777bbc7",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-4",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Pleasant Run Elementary School / explicit instructional model",
+        "notes": "District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Pleasant Run Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-df849c43d511-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-67875a32b7b2",
+    "school_id": "GL-IN-S-5ba9484e5275",
+    "state": "IN",
+    "district": "MSD Warren Township",
+    "school": "Stonybrook Intermediate and Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 5-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "5-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Stonybrook Intermediate and Middle School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; 5-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "5-6",
+          "reported_school": "Stonybrook Intermediate and Middle School",
+          "reported_district": "MSD Warren Township"
+        }
+      },
+      {
+        "source": "gl_w4_2777bbc7",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "5-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Stonybrook Intermediate and Middle School / current operator programme",
+        "notes": "District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_2777bbc7",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "5-6",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Stonybrook Intermediate and Middle School / explicit instructional model",
+        "notes": "District explicitly describes 50% core academic instruction in Spanish and 50% English and names both buildings. Stonybrook includes grades 5–6 and therefore remains in elementary coverage; older state row says 5–6.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Stonybrook Intermediate and Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-67875a32b7b2-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-0a8aad153a46",
+    "school_id": "GL-IN-S-b9d67f30cb53",
+    "state": "IN",
+    "district": "MSD Washington Township",
+    "school": "Westlane Middle School",
+    "track": "Spanish immersion",
+    "notes": "District timeline pairs its 2025 expansion with grade 6 at Westlane, following its 2019 kindergarten launch. No elementary ratio assigned.",
+    "observations": [
+      {
+        "source": "gl_w4_623a1325",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Westlane Middle School / Spanish immersion",
+        "notes": "District timeline pairs its 2025 expansion with grade 6 at Westlane, following its 2019 kindergarten launch. No elementary ratio assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "operator_2025_rollout_timeline",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_623a1325",
+      "locator": "Westlane Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-IN-P-bf89eb4c992c",
+    "school_id": "GL-IN-S-c808c136de2c",
+    "state": "IN",
+    "district": "MSD Washington Township",
+    "school": "Willow Lake Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-3",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Willow Lake Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish Two-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish Two-Way Dual Language",
+          "grade_cell": "K-3",
+          "reported_school": "Willow Lake Elementary School",
+          "reported_district": "MSD Washington Township"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Willow Lake Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-bf89eb4c992c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-e3bebc1d8a85",
+    "school_id": "GL-IN-S-f315ec3f7d3e",
+    "state": "IN",
+    "district": "Manchester Community Schools",
+    "school": "Manchester Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-1. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-1",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Manchester Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-1. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-1",
+          "reported_school": "Manchester Elementary School",
+          "reported_district": "Manchester Community Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Manchester Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-e3bebc1d8a85-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-edf33f97c80f",
+    "school_id": "GL-IN-S-f476fd8ecfb8",
+    "state": "IN",
+    "district": "Monroe County Community School Corporation",
+    "school": "Batchelor Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 7. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "7",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Batchelor Middle School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; 7. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "7",
+          "reported_school": "Batchelor Middle School",
+          "reported_district": "Monroe County Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Batchelor Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-edf33f97c80f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-b83042511b6c",
+    "school_id": "GL-IN-S-5beaa4e6a245",
+    "state": "IN",
+    "district": "Monroe County Community School Corporation",
+    "school": "Clear Creek Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Clear Creek Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Clear Creek Elementary School",
+          "reported_district": "Monroe County Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Clear Creek Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-b83042511b6c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-1cfffc1246d4",
+    "school_id": "GL-IN-S-02df00b4fc2f",
+    "state": "IN",
+    "district": "Monroe County Community School Corporation",
+    "school": "Summit Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Summit Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Summit Elementary School",
+          "reported_district": "Monroe County Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Summit Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-1cfffc1246d4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-dda05f866a6d",
+    "school_id": "GL-IN-S-5daaec9748d1",
+    "state": "IN",
+    "district": "Muncie Community Schools",
+    "school": "West View Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "West View Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-5",
+          "reported_school": "West View Elementary School",
+          "reported_district": "Muncie Community Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "West View Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-dda05f866a6d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-6ef1835f9e53",
+    "school_id": "GL-IN-S-7f8fef4162d0",
+    "state": "IN",
+    "district": "Public charter operator: Global Prep Academy",
+    "school": "Global Prep Academy",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Operator now describes Riverside K–5 and Monon Middle Academy 6–8 as two campuses. Original state-roster reporting unit is retained pending official school-ID and change-date reconciliation; no extra school inferred from address alone.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-8",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Global Prep Academy / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-8. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-8",
+          "reported_school": "Global Prep Academy",
+          "reported_district": "Global Prep Academy"
+        }
+      },
+      {
+        "source": "gl_in_globalprep",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Global Prep Academy / current operator programme",
+        "notes": "Operator now describes Riverside K–5 and Monon Middle Academy 6–8 as two campuses. Original state-roster reporting unit is retained pending official school-ID and change-date reconciliation; no extra school inferred from address alone.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "documented_public_charter",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Global Prep Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-6ef1835f9e53-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-699ae9acf581",
+    "school_id": "GL-IN-S-2a281d3259f0",
+    "state": "IN",
+    "district": "School City of East Chicago",
+    "school": "Benjamin Harrison Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; Enrolling for the 2023-2024 School Year. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Benjamin Harrison Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; Enrolling for the 2023-2024 School Year. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "Enrolling for the 2023-2024 School Year",
+          "reported_school": "Benjamin Harrison Elementary School",
+          "reported_district": "School City of East Chicago"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_scope_requires_grade_review",
+      "funding": "public_district_programme",
+      "method": "announced_2023_entry_current_implementation_requires_check",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Benjamin Harrison Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "review_reasons": [
+      "IDOE roster is enrolment-only for 2023–24. The saved district source has not yet verified implementation or a programme ending; keep reference operation unconfirmed."
+    ]
+  },
+  {
+    "program_id": "GL-IN-P-50514437acd6",
+    "school_id": "GL-IN-S-0e085a8aecbd",
+    "state": "IN",
+    "district": "School City of Hammond",
+    "school": "Washington Irving Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Washington Irving Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-4",
+          "reported_school": "Washington Irving Elementary School",
+          "reported_district": "School City of Hammond"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Washington Irving Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-50514437acd6-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-c8ea340c7bdf",
+    "school_id": "GL-IN-S-b53f0b85f593",
+    "state": "IN",
+    "district": "South Bend Community School Corporation",
+    "school": "Harrison Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-3",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Harrison Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-3",
+          "reported_school": "Harrison Elementary School",
+          "reported_district": "South Bend Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Harrison Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-c8ea340c7bdf-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-93b660356c3f",
+    "school_id": "GL-IN-S-cc4eef750f73",
+    "state": "IN",
+    "district": "South Bend Community School Corporation",
+    "school": "McKinley Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "McKinley Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-4",
+          "reported_school": "McKinley Elementary School",
+          "reported_district": "South Bend Community School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "McKinley Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-93b660356c3f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-0d788e96fb40",
+    "school_id": "GL-IN-S-6f18e662c8a6",
+    "state": "IN",
+    "district": "Southwest Dubois County School Corporation",
+    "school": "Huntingburg Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-2",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Huntingburg Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-2. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-2",
+          "reported_school": "Huntingburg Elementary School",
+          "reported_district": "Southwest Dubois County School Corporation"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Huntingburg Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-0d788e96fb40-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-e3d879c91aba",
+    "school_id": "GL-IN-S-50eb7120917f",
+    "state": "IN",
+    "district": "Valparaiso Community Schools",
+    "school": "Parkview Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Parkview Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-5",
+          "reported_school": "Parkview Elementary School",
+          "reported_district": "Valparaiso Community Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Parkview Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-e3d879c91aba-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-0f392d18b17f",
+    "school_id": "GL-IN-S-a6f3ee38466c",
+    "state": "IN",
+    "district": "Wabash City Schools",
+    "school": "L. H. Carpenter ELC",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; PK-K. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "PK-K",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "L. H. Carpenter ELC / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; PK-K. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "PK-K",
+          "reported_school": "L. H. Carpenter ELC",
+          "reported_district": "Wabash City Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "L. H. Carpenter ELC / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-0f392d18b17f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-bbbbaf8d0ae7",
+    "school_id": "GL-IN-S-725abed58af0",
+    "state": "IN",
+    "district": "Wabash City Schools",
+    "school": "O.J. Neighbours Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; 1-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "1-5",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "O.J. Neighbours Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; 1-5. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "1-5",
+          "reported_school": "O.J. Neighbours Elementary School",
+          "reported_district": "Wabash City Schools"
+        }
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "O.J. Neighbours Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-bbbbaf8d0ae7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-d5f728c45d50",
+    "school_id": "GL-IN-S-825790987470",
+    "state": "IN",
+    "district": "Warsaw Community Schools",
+    "school": "Eisenhower Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-6",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Eisenhower Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-6. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, One-Way Dual Language",
+          "grade_cell": "K-6",
+          "reported_school": "Eisenhower Elementary School",
+          "reported_district": "Warsaw Community Schools"
+        }
+      },
+      {
+        "source": "gl_w6_c4e9d546",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Eisenhower Elementary School / current operator programme",
+        "notes": "School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w6_c4e9d546",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-6",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Eisenhower Elementary School / explicit instructional model",
+        "notes": "School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Eisenhower Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-d5f728c45d50-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-f9d0e02be567",
+    "school_id": "GL-IN-S-dae715067bbb",
+    "state": "IN",
+    "district": "Warsaw Community Schools",
+    "school": "Lakeview Middle School",
+    "track": "Spanish immersion",
+    "notes": "Operator names an operating grades 7–8 DLI pathway, distinct from ordinary beginner Spanish.",
+    "observations": [
+      {
+        "source": "gl_w6_5a34befa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Lakeview Middle School / Spanish immersion",
+        "notes": "Operator names an operating grades 7–8 DLI pathway, distinct from ordinary beginner Spanish.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w6_5a34befa",
+      "locator": "Lakeview Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-f9d0e02be567-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-b1c2afa7348a",
+    "school_id": "GL-IN-S-367883810b61",
+    "state": "IN",
+    "district": "Warsaw Community Schools",
+    "school": "Leesburg Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "K-4",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Leesburg Elementary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; K-4. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "K-4",
+          "reported_school": "Leesburg Elementary School",
+          "reported_district": "Warsaw Community Schools"
+        }
+      },
+      {
+        "source": "gl_w6_2da637c6",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Leesburg Elementary School / current operator programme",
+        "notes": "School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w6_2da637c6",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "K-6",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Leesburg Elementary School / explicit instructional model",
+        "notes": "School programme pages and district K–12 overview explicitly describe half-day Spanish and half-day English in elementary DLI. Current Leesburg scope is K–6, broader than older state K–4 row.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_in_state",
+      "locator": "Leesburg Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-IN-P-b1c2afa7348a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-IN-P-910440050e91",
+    "school_id": "GL-IN-S-59c75a8e4d90",
+    "state": "IN",
+    "district": "Warsaw Community Schools",
+    "school": "Warsaw Community High School",
+    "track": "Spanish immersion",
+    "notes": "Source identifies current grade 9 and planned grade 10 in 2026–27. Retain grade-9 scope for the reference year, rather than automatically all four high-school grades.",
+    "observations": [
+      {
+        "source": "gl_w6_45ceaf74",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Warsaw Community High School / Spanish immersion",
+        "notes": "Source identifies current grade 9 and planned grade 10 in 2026–27. Retain grade-9 scope for the reference year, rather than automatically all four high-school grades.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "operator_grade_9_current_before_2026_27_rollout",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w6_45ceaf74",
+      "locator": "Warsaw Community High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-IN-P-c198f9f10f7a",
+    "school_id": "GL-IN-S-5366547d3b70",
+    "state": "IN",
+    "district": "Washington Community Schools",
+    "school": "Washington Primary School",
+    "track": "Spanish immersion",
+    "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; Enrolling for the 2023-2024 School Year. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence. Current operator describes an operating 50/50 English/Spanish academic programme, resolving the old state enrolment-only note. Exact current K grade remains a separate follow-up.",
+    "observations": [
+      {
+        "source": "gl_in_state",
+        "period": "undated state programme directory; includes 2023-24 enrolment notes",
+        "grade": "not_reported",
+        "languages": [
+          "Spanish"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Washington Primary School / Spanish immersion",
+        "notes": "Official state roster language/type and programme grades preserved as reported: Spanish, Two-Way Dual Language; Enrolling for the 2023-2024 School Year. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "reported_instruction_language",
+        "raw": {
+          "language_and_type": "Spanish, Two-Way Dual Language",
+          "grade_cell": "Enrolling for the 2023-2024 School Year",
+          "reported_school": "Washington Primary School",
+          "reported_district": "Washington Community Schools"
+        }
+      },
+      {
+        "source": "gl_w4_27d3e4df",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary entry programme",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Washington Primary School / current operator programme",
+        "notes": "Current operator describes an operating 50/50 English/Spanish academic programme, resolving the old state enrolment-only note. Exact current K grade remains a separate follow-up.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w4_27d3e4df",
+        "period": "undated operator programme policy; retrieved 2026-11-05",
+        "grade": "elementary",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Washington Primary School / explicit instructional model",
+        "notes": "Current operator describes an operating 50/50 English/Spanish academic programme, resolving the old state enrolment-only note. Exact current K grade remains a separate follow-up.",
+        "basis": "published_instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_scope_requires_grade_review",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated state programme directory; includes 2023-24 enrolment notes",
+      "source": "gl_w4_27d3e4df",
+      "locator": "Washington Primary School / Spanish immersion",
+      "notes": "Current district programme description corroborates the older 2023–24 enrolment listing; no ending indication in checked sources. Exact numerical grade placement is not manufactured."
+    },
+    "continuity_review": "GL-IN-P-c198f9f10f7a-CONTINUITY-2025-26"
+  }
+]

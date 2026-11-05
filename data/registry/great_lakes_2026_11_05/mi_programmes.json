@@ -1,0 +1,1466 @@
+[
+  {
+    "program_id": "GL-MI-P-1514c981e0e1",
+    "school_id": "GL-MI-S-ebe2ac3bcc20",
+    "state": "MI",
+    "district": "Detroit Public Schools Community District",
+    "school": "Academy of the Americas",
+    "track": "Spanish immersion",
+    "notes": "Operator describes Cub Campus K–3 with explicit 90/10 and Tiger Campus PK/4–12 with high-school 50/50. One provisional programme-school reporting unit is retained pending official campus school-ID reconciliation; two addresses are not assumed to be two separate NCES schools. The later high-school 50/50 is not assigned to kindergarten.",
+    "observations": [
+      {
+        "source": "gl_mi_aoa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-12; includes K; two named campuses",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Academy of the Americas / Spanish immersion",
+        "notes": "Operator describes Cub Campus K–3 with explicit 90/10 and Tiger Campus PK/4–12 with high-school 50/50. One provisional programme-school reporting unit is retained pending official campus school-ID reconciliation; two addresses are not assumed to be two separate NCES schools. The later high-school 50/50 is not assigned to kindergarten.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "gl_mi_aoa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "4-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Tiger Campus / high-school paragraph",
+        "notes": "Main campus includes PK and grades 4–12; the numeric 50/50 applies to high-school pupils only. It does not establish elementary grade-4/5 allocation.",
+        "label": "50/50 at high-school level only",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_mi_aoa",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-3",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Academy of the Americas / published instructional model",
+        "notes": "Operator describes Cub Campus K–3 with explicit 90/10 and Tiger Campus PK/4–12 with high-school 50/50. One provisional programme-school reporting unit is retained pending official campus school-ID reconciliation; two addresses are not assumed to be two separate NCES schools. The later high-school 50/50 is not assigned to kindergarten.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_aoa",
+      "locator": "Academy of the Americas / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-1514c981e0e1-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-fdbaed3cd82c",
+    "school_id": "GL-MI-S-4f6fc37d3629",
+    "state": "MI",
+    "district": "Detroit Public Schools Community District",
+    "school": "Foreign Language Immersion and Cultural Studies (FLICS)",
+    "track": "French immersion",
+    "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+    "observations": [
+      {
+        "source": "gl_mi_flics_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / French immersion",
+        "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+        "label": "Partial immersion; numerical allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_2025_26_principal_message",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_flics_about",
+      "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-MI-P-0aba2df924af",
+    "school_id": "GL-MI-S-4f6fc37d3629",
+    "state": "MI",
+    "district": "Detroit Public Schools Community District",
+    "school": "Foreign Language Immersion and Cultural Studies (FLICS)",
+    "track": "Japanese immersion",
+    "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+    "observations": [
+      {
+        "source": "gl_mi_flics_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Japanese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Japanese immersion",
+        "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+        "label": "Partial immersion; numerical allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_2025_26_principal_message",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_flics_about",
+      "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Japanese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-MI-P-31b8fd33aa57",
+    "school_id": "GL-MI-S-4f6fc37d3629",
+    "state": "MI",
+    "district": "Detroit Public Schools Community District",
+    "school": "Foreign Language Immersion and Cultural Studies (FLICS)",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+    "observations": [
+      {
+        "source": "gl_mi_flics_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Mandarin Chinese immersion",
+        "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+        "label": "Partial immersion; numerical allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_2025_26_principal_message",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_flics_about",
+      "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-MI-P-7aac075e5e0a",
+    "school_id": "GL-MI-S-4f6fc37d3629",
+    "state": "MI",
+    "district": "Detroit Public Schools Community District",
+    "school": "Foreign Language Immersion and Cultural Studies (FLICS)",
+    "track": "Spanish immersion",
+    "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+    "observations": [
+      {
+        "source": "gl_mi_flics_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Spanish immersion",
+        "notes": "Official school page explicitly calls this a foreign-language partial-immersion programme in four tracks and includes a 25–26 principal message. One school, four target-language programme records. Partial immersion is qualitative here; not automatically 50/50.",
+        "label": "Partial immersion; numerical allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_2025_26_principal_message",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_flics_about",
+      "locator": "Foreign Language Immersion and Cultural Studies (FLICS) / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-MI-P-40d91f02c6e8",
+    "school_id": "GL-MI-S-9d07689242c0",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Ada Vista Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+    "observations": [
+      {
+        "source": "gl_w3_969d8786",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Ada Vista Elementary School / Spanish immersion",
+        "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+        "label": "Early-total one-way immersion; numerical day allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_969d8786",
+      "locator": "Ada Vista Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-40d91f02c6e8-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-818ecd0fbdb3",
+    "school_id": "GL-MI-S-e6b747217293",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Forest Hills Northern High School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+    "observations": [
+      {
+        "source": "gl_w3_6b7eb474",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Forest Hills Northern High School / Mandarin Chinese immersion",
+        "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_6b7eb474",
+      "locator": "Forest Hills Northern High School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-818ecd0fbdb3-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-b54e7949a09a",
+    "school_id": "GL-MI-S-e6b747217293",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Forest Hills Northern High School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+    "observations": [
+      {
+        "source": "gl_w3_969d8786",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Forest Hills Northern High School / Spanish immersion",
+        "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+        "label": "Secondary continuing dual-language immersion",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_969d8786",
+      "locator": "Forest Hills Northern High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-b54e7949a09a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-b98540b8ec8f",
+    "school_id": "GL-MI-S-7f209573475c",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Meadow Brook Elementary School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+    "observations": [
+      {
+        "source": "gl_w3_6b7eb474",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Meadow Brook Elementary School / Mandarin Chinese immersion",
+        "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_w3_6b7eb474",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "label": "50/50",
+        "shares": {
+          "Mandarin Chinese": 50,
+          "English": 50
+        },
+        "locator": "Meadow Brook Elementary School / published instructional model",
+        "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_6b7eb474",
+      "locator": "Meadow Brook Elementary School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-b98540b8ec8f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-208e963ea02b",
+    "school_id": "GL-MI-S-a9637e736d32",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Northern Hills Middle School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+    "observations": [
+      {
+        "source": "gl_w3_6b7eb474",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "7-8",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Northern Hills Middle School / Mandarin Chinese immersion",
+        "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_6b7eb474",
+      "locator": "Northern Hills Middle School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-208e963ea02b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-aa5112148cbf",
+    "school_id": "GL-MI-S-a9637e736d32",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Northern Hills Middle School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+    "observations": [
+      {
+        "source": "gl_w3_969d8786",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Northern Hills Middle School / Spanish immersion",
+        "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+        "label": "Secondary continuing dual-language immersion",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_969d8786",
+      "locator": "Northern Hills Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-aa5112148cbf-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-657bb56434cb",
+    "school_id": "GL-MI-S-d58711dab422",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Northern Trails 5/6 School",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+    "observations": [
+      {
+        "source": "gl_w3_6b7eb474",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "5-6",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Northern Trails 5/6 School / Mandarin Chinese immersion",
+        "notes": "Mandarin policy explicitly starts in K at Meadow Brook with half-day Mandarin and half-day English; this is independent of the Spanish early-total model. Northern Trails 5/6 has 110+ Mandarin minutes and middle/high 55 minutes, not a transferred 50/50 K policy. Counter text says 460 minutes across K–12 but is inconsistent with these detailed grade-specific descriptions and is not used as a schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_6b7eb474",
+      "locator": "Northern Trails 5/6 School / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-657bb56434cb-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-c096847f63ba",
+    "school_id": "GL-MI-S-d58711dab422",
+    "state": "MI",
+    "district": "Forest Hills Public Schools",
+    "school": "Northern Trails 5/6 School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+    "observations": [
+      {
+        "source": "gl_w3_969d8786",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "5-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Northern Trails 5/6 School / Spanish immersion",
+        "notes": "District explicitly names the K–12 Spanish pathway, first graduates in 2012, early-total one-way K–6 and secondary continuation. Ada Vista K–1 core instruction is fully Spanish, but music/art may be English. No all-day numeric share is manufactured from full-immersion wording; Northern Trails includes grade 5 and stays in the elementary denominator.",
+        "label": "Early-total one-way immersion; numerical day allocation not reported",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w3_969d8786",
+      "locator": "Northern Trails 5/6 School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-c096847f63ba-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-b4dbef55791a",
+    "school_id": "GL-MI-S-16f07dcd2b9d",
+    "state": "MI",
+    "district": "Grand Rapids Public Schools",
+    "school": "Southwest Elementary School – Academia Bilingüe",
+    "track": "Spanish immersion",
+    "notes": "Official school pages identify Spanish/English academic dual immersion and exact grade spans. The older directory name Southwest Community Campus is not added as a duplicate. No numerical daily allocation stated.",
+    "observations": [
+      {
+        "source": "gl_mi_grps_elem",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-6; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Southwest Elementary School – Academia Bilingüe / Spanish immersion",
+        "notes": "Official school pages identify Spanish/English academic dual immersion and exact grade spans. The older directory name Southwest Community Campus is not added as a duplicate. No numerical daily allocation stated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_grps_elem",
+      "locator": "Southwest Elementary School – Academia Bilingüe / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-b4dbef55791a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-eb8bc09657b0",
+    "school_id": "GL-MI-S-02455c597fa4",
+    "state": "MI",
+    "district": "Grand Rapids Public Schools",
+    "school": "Southwest Middle High School – Academia Bilingüe",
+    "track": "Spanish immersion",
+    "notes": "Official school pages identify Spanish/English academic dual immersion and exact grade spans. The older directory name Southwest Community Campus is not added as a duplicate. No numerical daily allocation stated.",
+    "observations": [
+      {
+        "source": "gl_mi_grps_sw",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "7-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Southwest Middle High School – Academia Bilingüe / Spanish immersion",
+        "notes": "Official school pages identify Spanish/English academic dual immersion and exact grade spans. The older directory name Southwest Community Campus is not added as a duplicate. No numerical daily allocation stated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_grps_sw",
+      "locator": "Southwest Middle High School – Academia Bilingüe / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-eb8bc09657b0-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-97830baf66ed",
+    "school_id": "GL-MI-S-caec6b89107b",
+    "state": "MI",
+    "district": "Holland Public Schools",
+    "school": "Holland Language Academy",
+    "track": "Spanish immersion",
+    "notes": "School homepage explicitly identifies the two-way bilingual immersion programme; handbook says K–5 content curriculum is primarily Spanish. Primarily is not converted to an invented percentage.",
+    "observations": [
+      {
+        "source": "gl_mi_hla_handbook",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Holland Language Academy / Spanish immersion",
+        "notes": "School homepage explicitly identifies the two-way bilingual immersion programme; handbook says K–5 content curriculum is primarily Spanish. Primarily is not converted to an invented percentage.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_hla_handbook",
+      "locator": "Holland Language Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-97830baf66ed-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-99e04b50bfb7",
+    "school_id": "GL-MI-S-2afd51f0e423",
+    "state": "MI",
+    "district": "Holland Public Schools",
+    "school": "Holland Middle School",
+    "track": "Spanish immersion",
+    "notes": "Dated March 21, 2024 district account explicitly describes a state educator visit to academic TWBI at both HLA and Holland Middle. Established continuation accepted under bounded continuity; high-school seal eligibility alone does not create a separate high-school content immersion host.",
+    "observations": [
+      {
+        "source": "gl_mi_hla_2024",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "middle school",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Holland Middle School / Spanish immersion",
+        "notes": "Dated March 21, 2024 district account explicitly describes a state educator visit to academic TWBI at both HLA and Holland Middle. Established continuation accepted under bounded continuity; high-school seal eligibility alone does not create a separate high-school content immersion host.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_hla_2024",
+      "locator": "Holland Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-99e04b50bfb7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-2b0eb5af122b",
+    "school_id": "GL-MI-S-848cf223a179",
+    "state": "MI",
+    "district": "Howell Public Schools",
+    "school": "Three Fires Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Academia Bilingüe is a programme within Three Fires, not a second school. District says the regular academic curriculum is taught in Spanish with English development; current 2026–27 enrolment describes an established programme and current pupils. No numerical share has yet been verified.",
+    "observations": [
+      {
+        "source": "gl_mi_howell",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K entry; elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Three Fires Elementary School / Spanish immersion",
+        "notes": "Academia Bilingüe is a programme within Three Fires, not a second school. District says the regular academic curriculum is taught in Spanish with English development; current 2026–27 enrolment describes an established programme and current pupils. No numerical share has yet been verified.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_howell",
+      "locator": "Three Fires Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-2b0eb5af122b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-1c254d9aa9e9",
+    "school_id": "GL-MI-S-07ead91c3029",
+    "state": "MI",
+    "district": "Jenison Public Schools",
+    "school": "El Puente Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+    "observations": [
+      {
+        "source": "gl_mi_jenison_p_d5f3e32",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "El Puente Elementary School / Spanish immersion",
+        "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+        "label": "Full immersion in K–2; English specials; numeric share not stated",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_jenison_p_d5f3e32",
+      "locator": "El Puente Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-1c254d9aa9e9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-5c493a06df3a",
+    "school_id": "GL-MI-S-f3e7f152d8ac",
+    "state": "MI",
+    "district": "Jenison Public Schools",
+    "school": "Jenison High School",
+    "track": "Spanish immersion",
+    "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+    "observations": [
+      {
+        "source": "gl_mi_jenison_p_d5f3e32",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Jenison High School / Spanish immersion",
+        "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_jenison_p_d5f3e32",
+      "locator": "Jenison High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-5c493a06df3a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-8c4da67f9ba7",
+    "school_id": "GL-MI-S-beb0c03492a0",
+    "state": "MI",
+    "district": "Jenison Public Schools",
+    "school": "Jenison Junior High School",
+    "track": "Spanish immersion",
+    "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+    "observations": [
+      {
+        "source": "gl_mi_jenison_p_d5f3e32",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Jenison Junior High School / Spanish immersion",
+        "notes": "District names the entire K–12 pathway and its first graduating class in 2023. El Puente K–2 full-immersion wording is retained qualitatively: specials are English; no unsupported all-day 100/0 assigned. Grades 3–6 add 60–90 English minutes and social studies; later English is not the K model.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_jenison_p_d5f3e32",
+      "locator": "Jenison Junior High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-8c4da67f9ba7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-a5bac5234358",
+    "school_id": "GL-MI-S-6317144c10b0",
+    "state": "MI",
+    "district": "Kalamazoo Public Schools",
+    "school": "El Sol Elementary School",
+    "track": "Spanish immersion",
+    "notes": "School explicitly says all students receive 50 percent of instructional time in English and 50 percent in Spanish; full-day K is included. This is an instructional-time statement, not a student population percentage.",
+    "observations": [
+      {
+        "source": "gl_mi_elsol_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K entry; elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "El Sol Elementary School / Spanish immersion",
+        "notes": "School explicitly says all students receive 50 percent of instructional time in English and 50 percent in Spanish; full-day K is included. This is an instructional-time statement, not a student population percentage.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_mi_elsol_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K entry; elementary",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "El Sol Elementary School / published instructional model",
+        "notes": "School explicitly says all students receive 50 percent of instructional time in English and 50 percent in Spanish; full-day K is included. This is an instructional-time statement, not a student population percentage.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_elsol_about",
+      "locator": "El Sol Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-a5bac5234358-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-b8a728e8486a",
+    "school_id": "GL-MI-S-0531fca2171d",
+    "state": "MI",
+    "district": "Lansing School District",
+    "school": "Lewton at Woodcreek Spanish Immersion / Global Studies",
+    "track": "Spanish immersion",
+    "notes": "District lists PK–8 academic immersion with education in both languages. Chinese programme began in 2006 at preschool level and continues at Post Oak; Spanish began at Averill in 2007, expanded to Lewton in 2012 and consolidated at Lewton in fall 2017. Current host is labelled Lewton at Woodcreek. Prior sites are history, not additional contemporary schools. No numerical allocation sourced.",
+    "observations": [
+      {
+        "source": "gl_mi_lansing",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lewton at Woodcreek Spanish Immersion / Global Studies / Spanish immersion",
+        "notes": "District lists PK–8 academic immersion with education in both languages. Chinese programme began in 2006 at preschool level and continues at Post Oak; Spanish began at Averill in 2007, expanded to Lewton in 2012 and consolidated at Lewton in fall 2017. Current host is labelled Lewton at Woodcreek. Prior sites are history, not additional contemporary schools. No numerical allocation sourced.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "gl_mi_lansing",
+        "year": "2017-18",
+        "status": "historical_host_consolidation",
+        "notes": "Averill and Lewton Spanish pathway consolidated at Lewton; current page labels Lewton at Woodcreek. Exact Woodcreek move date remains unresolved."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_lansing",
+      "locator": "Lewton at Woodcreek Spanish Immersion / Global Studies / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-b8a728e8486a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-946d19c82019",
+    "school_id": "GL-MI-S-f9642f45df37",
+    "state": "MI",
+    "district": "Lansing School District",
+    "school": "Post Oak International Baccalaureate / Chinese Immersion",
+    "track": "Mandarin Chinese immersion",
+    "notes": "District lists PK–8 academic immersion with education in both languages. Chinese programme began in 2006 at preschool level and continues at Post Oak; Spanish began at Averill in 2007, expanded to Lewton in 2012 and consolidated at Lewton in fall 2017. Current host is labelled Lewton at Woodcreek. Prior sites are history, not additional contemporary schools. No numerical allocation sourced.",
+    "observations": [
+      {
+        "source": "gl_mi_lansing",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-8; includes K",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Post Oak International Baccalaureate / Chinese Immersion / Mandarin Chinese immersion",
+        "notes": "District lists PK–8 academic immersion with education in both languages. Chinese programme began in 2006 at preschool level and continues at Post Oak; Spanish began at Averill in 2007, expanded to Lewton in 2012 and consolidated at Lewton in fall 2017. Current host is labelled Lewton at Woodcreek. Prior sites are history, not additional contemporary schools. No numerical allocation sourced.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_lansing",
+      "locator": "Post Oak International Baccalaureate / Chinese Immersion / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-946d19c82019-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-63aaea33d93a",
+    "school_id": "GL-MI-S-fc74cf64d2a3",
+    "state": "MI",
+    "district": "Livonia Public Schools",
+    "school": "Niji-Iro Japanese Immersion Elementary School",
+    "track": "Japanese immersion",
+    "notes": "Official page includes 2025–26 registration, full-day K, grades 1–6 proficiency entry and tuition-free district magnet status. Two-way English/Japanese academic curriculum combines Michigan and Japanese standards; the numerical instructional split is not stated in the saved page.",
+    "observations": [
+      {
+        "source": "gl_mi_niji",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Japanese",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Niji-Iro Japanese Immersion Elementary School / Japanese immersion",
+        "notes": "Official page includes 2025–26 registration, full-day K, grades 1–6 proficiency entry and tuition-free district magnet status. Two-way English/Japanese academic curriculum combines Michigan and Japanese standards; the numerical instructional split is not stated in the saved page.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_2025_26_registration_reference",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_niji",
+      "locator": "Niji-Iro Japanese Immersion Elementary School / Japanese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    }
+  },
+  {
+    "program_id": "GL-MI-P-64fc3af8e8a1",
+    "school_id": "GL-MI-S-77db27c43805",
+    "state": "MI",
+    "district": "Rockford Public Schools",
+    "school": "North Rockford Middle School",
+    "track": "Spanish immersion",
+    "notes": "District names the 6–8 North Rockford pathway and describes high-school grade 9–12 content/language continuation. Other high-school world-language electives are not additional immersion programmes.",
+    "observations": [
+      {
+        "source": "gl_w4_a0500fae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "North Rockford Middle School / Spanish immersion",
+        "notes": "District names the 6–8 North Rockford pathway and describes high-school grade 9–12 content/language continuation. Other high-school world-language electives are not additional immersion programmes.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_a0500fae",
+      "locator": "North Rockford Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-64fc3af8e8a1-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-e6b1d89e153d",
+    "school_id": "GL-MI-S-71ab570b5954",
+    "state": "MI",
+    "district": "Rockford Public Schools",
+    "school": "Rockford High School",
+    "track": "Spanish immersion",
+    "notes": "District names the 6–8 North Rockford pathway and describes high-school grade 9–12 content/language continuation. Other high-school world-language electives are not additional immersion programmes.",
+    "observations": [
+      {
+        "source": "gl_w4_a0500fae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Rockford High School / Spanish immersion",
+        "notes": "District names the 6–8 North Rockford pathway and describes high-school grade 9–12 content/language continuation. Other high-school world-language electives are not additional immersion programmes.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_w4_a0500fae",
+      "locator": "Rockford High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-e6b1d89e153d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-4576e734980e",
+    "school_id": "GL-MI-S-12fe2b76ca26",
+    "state": "MI",
+    "district": "Rockford Public Schools",
+    "school": "Roguewood Elementary School",
+    "track": "Spanish immersion",
+    "notes": "School identifies its principal as K–5 Spanish Immersion lead. District academic page separately describes early-total one-way immersion and full Spanish K–2, with English added from grade 3. No numerical all-day share manufactured.",
+    "observations": [
+      {
+        "source": "gl_mi_roguewood",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Roguewood Elementary School / Spanish immersion",
+        "notes": "School identifies its principal as K–5 Spanish Immersion lead. District academic page separately describes early-total one-way immersion and full Spanish K–2, with English added from grade 3. No numerical all-day share manufactured.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_roguewood",
+      "locator": "Roguewood Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-4576e734980e-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-8f96dc5700f2",
+    "school_id": "GL-MI-S-37df604735bc",
+    "state": "MI",
+    "district": "West Ottawa Public Schools",
+    "school": "Harbor Lights Middle School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly identifies this immersion continuation host and contact. No elementary entry ratio assigned to secondary students.",
+    "observations": [
+      {
+        "source": "gl_mi_wo_dual",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Harbor Lights Middle School / Spanish immersion",
+        "notes": "District explicitly identifies this immersion continuation host and contact. No elementary entry ratio assigned to secondary students.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_wo_dual",
+      "locator": "Harbor Lights Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-8f96dc5700f2-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-0b18896af806",
+    "school_id": "GL-MI-S-7db90f88b0ab",
+    "state": "MI",
+    "district": "West Ottawa Public Schools",
+    "school": "Los Lagos Bilingual Academy",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names K–5 at Los Lagos and 90% of the school day in Spanish starting in K, falling by 10 points yearly to 50/50 in grade 4. Official school newsletter is dated December 5, 2025. An older parent testimonial mentions Lakeshore; no extra current Lakeshore host is created from that historical testimonial.",
+    "observations": [
+      {
+        "source": "gl_mi_wo_dual",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Los Lagos Bilingual Academy / Spanish immersion",
+        "notes": "District explicitly names K–5 at Los Lagos and 90% of the school day in Spanish starting in K, falling by 10 points yearly to 50/50 in grade 4. Official school newsletter is dated December 5, 2025. An older parent testimonial mentions Lakeshore; no extra current Lakeshore host is created from that historical testimonial.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "gl_mi_wo_dual",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Los Lagos Bilingual Academy / published instructional model",
+        "notes": "District explicitly names K–5 at Los Lagos and 90% of the school day in Spanish starting in K, falling by 10 points yearly to 50/50 in grade 4. Official school newsletter is dated December 5, 2025. An older parent testimonial mentions Lakeshore; no extra current Lakeshore host is created from that historical testimonial.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_wo_dual",
+      "locator": "Los Lagos Bilingual Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-0b18896af806-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-b7f1997fd1e5",
+    "school_id": "GL-MI-S-533e01ede216",
+    "state": "MI",
+    "district": "West Ottawa Public Schools",
+    "school": "West Ottawa High School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly identifies this immersion continuation host and contact. No elementary entry ratio assigned to secondary students.",
+    "observations": [
+      {
+        "source": "gl_mi_wo_dual",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "West Ottawa High School / Spanish immersion",
+        "notes": "District explicitly identifies this immersion continuation host and contact. No elementary entry ratio assigned to secondary students.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_wo_dual",
+      "locator": "West Ottawa High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-b7f1997fd1e5-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-8bbe6401d980",
+    "school_id": "GL-MI-S-63e2fd91ebc0",
+    "state": "MI",
+    "district": "Zeeland Public Schools",
+    "school": "Cityside Middle School",
+    "track": "Spanish immersion",
+    "notes": "Named middle immersion continuation. No elementary entry ratio assigned.",
+    "observations": [
+      {
+        "source": "gl_mi_zeeland",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Cityside Middle School / Spanish immersion",
+        "notes": "Named middle immersion continuation. No elementary entry ratio assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_language_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_zeeland",
+      "locator": "Cityside Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-8bbe6401d980-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "GL-MI-P-cbcbc9097f3c",
+    "school_id": "GL-MI-S-ea3d406f0837",
+    "state": "MI",
+    "district": "Zeeland Public Schools",
+    "school": "Lincoln Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District explicitly names K–5 immersion at Lincoln. English instruction starts in grade 3. Full immersion is not converted to an all-day numerical policy without a quantified source.",
+    "observations": [
+      {
+        "source": "gl_mi_zeeland",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Lincoln Elementary School / Spanish immersion",
+        "notes": "District explicitly names K–5 immersion at Lincoln. English instruction starts in grade 3. Full immersion is not converted to an all-day numerical policy without a quantified source.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "gl_mi_zeeland",
+      "locator": "Lincoln Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "GL-MI-P-cbcbc9097f3c-CONTINUITY-2025-26"
+  }
+]

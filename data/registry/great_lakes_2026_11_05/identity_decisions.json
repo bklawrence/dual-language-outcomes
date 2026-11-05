@@ -1,0 +1,167 @@
+[
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools 299",
+    "school": "Darwin Elementary School",
+    "school_id": "IL-S004",
+    "program_id": "GL-IL-P-a4574cd5d578",
+    "site_id": null,
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools 299",
+    "school": "Academy for Global Citizenship",
+    "school_id": "IL-S001",
+    "program_id": "IL-P001",
+    "site_id": "IL-PS001",
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools 299",
+    "school": "Inter-American Elementary Magnet School",
+    "school_id": "IL-S007",
+    "program_id": "IL-P007",
+    "site_id": "IL-PS007",
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools",
+    "school": "Sabin Dual Language Magnet School",
+    "school_id": "IL-S015",
+    "program_id": "IL-P015",
+    "site_id": "IL-PS015",
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools 299",
+    "school": "Talcott Fine Arts and Museum Academy",
+    "school_id": "IL-S016",
+    "program_id": "GL-IL-P-215438562ec7",
+    "site_id": null,
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Chicago Public Schools 299",
+    "school": "Lozano Elementary Bilingual & International Center",
+    "school_id": "IL-S010",
+    "program_id": "IL-P010",
+    "site_id": "IL-PS010",
+    "source": "gl_il_cps_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Rockford SD 205",
+    "school": "Barbour Two-Way Language Immersion",
+    "school_id": "IL-S002",
+    "program_id": "IL-P002",
+    "site_id": "IL-PS002",
+    "source": "gl_il_barbour",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Champaign CUSD 4",
+    "school": "International Prep Academy",
+    "school_id": "IL-S008",
+    "program_id": "IL-P008",
+    "site_id": "IL-PS008",
+    "source": "gl_il_ipa",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Moline-Coal Valley CUSD 40",
+    "school": "Lincoln-Irving Elementary School",
+    "school_id": "IL-S009",
+    "program_id": "IL-P009",
+    "site_id": "IL-PS009",
+    "source": "gl_il_moline_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Maywood-Melrose Park-Broadview SD 89",
+    "school": "Washington Dual Language Academy",
+    "school_id": "IL-S017",
+    "program_id": "IL-P017",
+    "site_id": "IL-PS017",
+    "source": "gl_il_washington",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Hawthorn CCSD 73",
+    "school": "Hawthorn School of Dual Language",
+    "school_id": "IL-S006",
+    "program_id": "IL-P006",
+    "site_id": "IL-PS006",
+    "source": "gl_w4_c89235e4",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "North Shore SD 112",
+    "school": "Oak Terrace Elementary School",
+    "school_id": "IL-S013",
+    "program_id": "IL-P013",
+    "site_id": "IL-PS013",
+    "source": "gl_w4_9b7564b2",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "North Shore SD 112",
+    "school": "Red Oak Elementary School",
+    "school_id": "IL-S014",
+    "program_id": "IL-P014",
+    "site_id": "IL-PS014",
+    "source": "gl_w4_9b7564b2",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Schaumburg CCSD 54",
+    "school": "MacArthur International Spanish Academy",
+    "school_id": "IL-S011",
+    "program_id": "IL-P011",
+    "site_id": "IL-PS011",
+    "source": "gl_il_sd54_dual",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  },
+  {
+    "state": "IL",
+    "district": "Urbana SD 116",
+    "school": "Yankee Ridge Multilingual School",
+    "school_id": "IL-S018",
+    "program_id": "GL-IL-P-ce9126abf94e",
+    "site_id": null,
+    "source": "gl_il_urbana_schools",
+    "decision": "reuse_reviewed_existing_school_and_matching_Spanish_programme",
+    "rationale": "Same canonical school and district; source-specific names and programme status are retained without replacing original seed rows. No new NCES match inferred."
+  }
+]

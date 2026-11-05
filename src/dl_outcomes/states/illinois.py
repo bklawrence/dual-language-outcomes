@@ -52,4 +52,9 @@ def migrate(b):
                 b.add("instructional_allocations", allocation_id=record_id("allocation", schedule, language),
                       schedule_id=schedule, language_name=language, language_code=code, instruction_share_pct=float(row[field]),
                       evidence_type="documented_plan", source_id=source, source_locator=row["history_id"])
-    b.notes.append("Illinois remains a provisional legacy seed. Its 2025–26 allocation is a published plan, not tested-cohort exposure.")
+    if (b.root / 'config/research_migrations/great_lakes_2026_11_05.json').exists():
+        from .great_lakes import migrate_reviewed_state
+        b.notes.append("Illinois retains its original provisional seed alongside the expanded reviewed inventory. Published allocations are policies, not tested-cohort exposure.")
+        migrate_reviewed_state(b, 'IL')
+    else:
+        b.notes.append("Illinois remains a provisional legacy seed. Its 2025–26 allocation is a published plan, not tested-cohort exposure.")

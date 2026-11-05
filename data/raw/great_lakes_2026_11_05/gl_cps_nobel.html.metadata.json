@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cps.edu/schools/profiles/school-overview/nobel",
+  "retrieved_at": "2026-11-05T19:58:23.544591+00:00",
+  "http_status": 200,
+  "final_url": "https://www.cps.edu/schools/profiles/school-overview/nobel",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "95434dbea328314d4da5bd343a7b00528da3cf47a90717ef6e946f8d615c1aee",
+  "bytes": 423568,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "School Overview | Chicago Public Schools",
+  "snapshot_path": "data/raw/great_lakes_2026_11_05/gl_cps_nobel.html",
+  "full_response_sha256": "95434dbea328314d4da5bd343a7b00528da3cf47a90717ef6e946f8d615c1aee"
+}

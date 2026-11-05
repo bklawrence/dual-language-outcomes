@@ -8,14 +8,17 @@ import re
 
 from .io import digest, read_csv
 from .validation import load
+from .identity_audit import preserved_identity_fingerprint
 
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN'}
 
 
 def report_prefix(root):
+    great_lakes=root/'config/research_migrations/great_lakes_2026_11_05.json'
+    if great_lakes.exists():return json.loads(great_lakes.read_text())['national_report_prefix']
     batch=root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json'
     if batch.exists():return json.loads(batch.read_text())['national_report_prefix']
     review=root/'config/research_migrations/tx_allocation_review_2026_11_05.json'
@@ -38,7 +41,7 @@ def migration_errors(root, tables, *, check_hashes=True):
         field = 'school_id' if table=='schools' else 'program_id'
         for state, expected in states.items():
             ids = sorted(r[field] for r in tables[table] if r['state_code']==state)
-            fingerprint = hashlib.sha256(json.dumps(ids, separators=(',', ':')).encode()).hexdigest()
+            fingerprint = preserved_identity_fingerprint(root, table, state, ids, expected)
             if fingerprint != expected:
                 errors.append('Previously integrated identity set changed: ' + table + '/' + state)
     programs = {r['program_id']: r for r in tables['programs']}
@@ -122,6 +125,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json').exists():
         from .northern_central_review import audit_errors as northern_errors
         errors.extend(northern_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/great_lakes_2026_11_05.json').exists():
+        from .great_lakes_review import audit_errors as great_lakes_errors
+        errors.extend(great_lakes_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -260,6 +266,12 @@ def generate_report(root, *, check=False):
         contents.update(northern_contents)
         audit['northern_central_ak_hi_batch'] = northern_summary
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in northern_contents.items()})
+    if (root/'config/research_migrations/great_lakes_2026_11_05.json').exists():
+        from .great_lakes_review import render_reports as great_lakes_reports
+        batch_contents, batch_report = great_lakes_reports(root, tables)
+        contents.update(batch_contents)
+        audit['great_lakes_batch'] = batch_report
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in batch_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

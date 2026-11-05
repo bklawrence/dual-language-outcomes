@@ -28,8 +28,8 @@ class StructuralIntegrationTests(unittest.TestCase):
 
     def test_review_views_and_source_preservation_audit_are_current(self):
         report = generate_report(ROOT,check=True)
-        self.assertEqual(len(report['states_with_integrated_program_evidence']),22)
-        self.assertEqual(len(report['other_states_without_program_evidence']),28)
+        self.assertEqual(len(report['states_with_integrated_program_evidence']),25)
+        self.assertEqual(len(report['other_states_without_program_evidence']),25)
         self.assertEqual(migration_errors(ROOT,self.tables),[])
 
     def test_original_attribute_values_and_raw_dates_are_all_retained(self):
