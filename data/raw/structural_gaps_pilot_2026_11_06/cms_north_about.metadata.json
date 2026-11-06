@@ -1,0 +1,15 @@
+{
+  "key": "cms_north_about",
+  "url": "https://northacademyk8.cmsk12.org/our-school/about-us",
+  "retrieved_at": "2026-11-06T18:02:12.627174+00:00",
+  "http_status": 200,
+  "final_url": "https://northacademyk8.cmsk12.org/our-school/about-us",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "71f95a5d542709d0ff5928d1904d37897cbb06143581e25b4a683b57b30d1c71",
+  "bytes": 56239,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "About Us",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_north_about.html"
+}

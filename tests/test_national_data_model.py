@@ -225,7 +225,26 @@ class NationalModelTests(unittest.TestCase):
     def test_texas_unknown_pair_has_no_invented_named_languages(self):
         programs = {r["entity_id"] for r in self.tables["evidence_claims"] if r["attribute"] == "language_pair" and r["reported_value"] == "UNVERIFIED"}
         sites = {r["site_id"] for r in self.tables["program_sites"] if r["program_id"] in programs}
-        self.assertFalse(any(r["site_id"] in sites for r in self.tables["program_languages"]))
+        from dl_outcomes.evidence_scope import reference_bounds
+        bounds = reference_bounds(self.tables)
+        reviewed = {}
+        for claim in self.tables['evidence_claims']:
+            if claim['attribute'] != 'structural_gap_pilot_observation':
+                continue
+            observation = json.loads(claim['reported_value'])
+            if observation['variable'] == 'instruction_languages':
+                for key in observation['canonical_evidence_ids']:
+                    reviewed[key] = observation
+        for row in self.tables['program_languages']:
+            if row['site_id'] not in sites:
+                continue
+            # An older unknown remains intact. Later named languages need
+            # source-backed field review and cannot silently fill that year.
+            review = reviewed[row['language_record_id']]
+            self.assertIn(row['language_name'], review['value'])
+            self.assertIn(row['source_id'], review['supporting_source_ids'])
+            self.assertTrue(review['source_quote'])
+            self.assertGreater(bounds[('program_languages',row['language_record_id'])], '2023-24')
 
     def test_uncollected_layers_do_not_claim_no_public_data(self):
         for row in self.tables["coverage"]:

@@ -1,0 +1,96 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 596,
+  "school_units": 552,
+  "public_source_documents": 155,
+  "state_summary": [
+    {
+      "state": "FL",
+      "programme_records": 146,
+      "school_units": 138,
+      "confirmed_qualifying_reference_school_units": 137,
+      "elementary_reference_school_units": 107,
+      "elementary_reference_schools_with_numerical_model": 55,
+      "elementary_reference_model_coverage_pct": 51.4,
+      "secondary_6_plus_reference_units_excluded": 30,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "GA",
+      "programme_records": 88,
+      "school_units": 82,
+      "confirmed_qualifying_reference_school_units": 81,
+      "elementary_reference_school_units": 50,
+      "elementary_reference_schools_with_numerical_model": 39,
+      "elementary_reference_model_coverage_pct": 78.0,
+      "secondary_6_plus_reference_units_excluded": 31,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "NC",
+      "programme_records": 314,
+      "school_units": 293,
+      "confirmed_qualifying_reference_school_units": 284,
+      "elementary_reference_school_units": 181,
+      "elementary_reference_schools_with_numerical_model": 56,
+      "elementary_reference_model_coverage_pct": 30.9,
+      "secondary_6_plus_reference_units_excluded": 103,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "SC",
+      "programme_records": 40,
+      "school_units": 31,
+      "confirmed_qualifying_reference_school_units": 31,
+      "elementary_reference_school_units": 19,
+      "elementary_reference_schools_with_numerical_model": 12,
+      "elementary_reference_model_coverage_pct": 63.2,
+      "secondary_6_plus_reference_units_excluded": 12,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "TN",
+      "programme_records": 8,
+      "school_units": 8,
+      "confirmed_qualifying_reference_school_units": 8,
+      "elementary_reference_school_units": 6,
+      "elementary_reference_schools_with_numerical_model": 4,
+      "elementary_reference_model_coverage_pct": 66.7,
+      "secondary_6_plus_reference_units_excluded": 2,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Partial structural review, not a statewide census. Official rosters differ in date, selection and level of detail.",
+    "2025–26 reference operation is distinct from actual source dates, launch-year cells, later policy descriptions and closure/move events.",
+    "Live NC directory Full/Partial/Continuing categories do not establish numerical time allocations; all 316 source rows are reconciled.",
+    "Georgia FY25 appendix has 87 schools and 93 language-school cells, including preschool entries; typically 50/50 is not a universal state rule.",
+    "FL BISO and International Studies academic programmes are distinguished from 47 EFL leads whose academic content scope needs review.",
+    "Broward daily-hour ranges and pupil ratios are not single instructional models. Osceola working-toward language is not implemented 50/50.",
+    "Palm Beach 2026 elementary policy is separately dated from its 2025 two-model guidance; availability across source periods is not a 2025 campus-specific model.",
+    "School/campus keys are provisional. Separate school levels in a roster can describe one campus; source identifiers are not durable programme crosswalks.",
+    "School-grade CCD context is 2024–25 metadata, not programme operation, stable cohort exposure, or a newly asserted NCES identifier.",
+    "Proficiency, demographic, EL-exit and SEDA collection remains deferred."
+  ],
+  "source_reconciliation_counts": {
+    "nc_state_directory": 316,
+    "ga_state_school_appendix": 87,
+    "se_fl_broward25": 33,
+    "se_fl_broward_list_july25": 34,
+    "fl_palm_named_rows": 40,
+    "fl_miami_international_studies": 8,
+    "fl_miami_biso": 12,
+    "fl_miami_efl": 47,
+    "nc_harnett_historical_hosts": 14
+  },
+  "states_with_programme_records": [
+    "FL",
+    "GA",
+    "NC",
+    "SC",
+    "TN"
+  ],
+  "screened_only_states": []
+}

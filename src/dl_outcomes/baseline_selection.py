@@ -9,6 +9,7 @@ import re
 
 from .elementary_audit import elementary_scope, elementary_span, numeric_model
 from .policy_selection import current_policy_choices
+from .evidence_scope import reference_bounds, scoped_row
 
 MISSING = {'', 'unknown', 'not_reported', 'not reported', 'none', 'n/a', '.', 'other'}
 REJECTED_GRADE = {'SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD', 'UNRECOVERED',
@@ -39,6 +40,10 @@ def evidence_year(row):
 
 
 def later_period_mention(row, year):
+    # A reviewed use bound is separate from a source/policy date. Newly
+    # adjudicated undated evidence must not silently fill an older baseline.
+    if row.get('_earliest_reviewed_selection_year', '') > year:
+        return True
     if evidence_year(row):
         return evidence_year(row) > year
     text = row.get('evidence_period_raw') or ''
@@ -152,12 +157,15 @@ class Selection:
         self.grade_claims, self.school_claims = defaultdict(list), defaultdict(list)
         self.allocation_claims = {}
         self.shares = defaultdict(list)
+        scopes = reference_bounds(tables)
+        def scoped(table, key, row):
+            return scoped_row(table,key,row,scopes)
         for table, index, key in [('program_configurations', self.configs, 'configuration_id'),
                                   ('program_languages', self.languages, 'language_record_id'),
                                   ('program_status_history', self.statuses, 'status_id'),
                                   ('allocation_schedules', self.allocations, 'schedule_id')]:
             for row in tables[table]:
-                value = dict(row, _id=row[key], _table=table)
+                value = dict(scoped(table,key,row), _id=row[key], _table=table)
                 if table == 'allocation_schedules' and not row['site_id']:
                     self.campus_allocations[row['school_id']].append(value)
                 else:
@@ -173,12 +181,20 @@ class Selection:
             if c['attribute'] == 'allocation_source_selection':
                 self.allocation_claims[c['entity_id']] = json.loads(c['reported_value'])
             if c['entity_type'] == 'school':
+                c = scoped('evidence_claims','claim_id',c)
                 self.school_claims[c['entity_id']].append(c)
                 if c['attribute'] == 'elementary_audit_school_grade_context':
                     self.grade_claims[c['entity_id']].append(dict(c, _id=c['claim_id'],
                         school_year=c['valid_from_year'], _table='evidence_claims'))
         self.overrides = {(r['site_id'], r['selection_year'], r['variable']): r
                           for r in rules.get('field_overrides', [])}
+        for claim in tables['evidence_claims']:
+            if claim['attribute'] == 'reviewed_structural_field_selection':
+                review = json.loads(claim['reported_value'])
+                key = (review['site_id'],review['selection_year'],review['variable'])
+                if key in self.overrides and set(self.overrides[key]['evidence_ids']) != set(review['evidence_ids']):
+                    raise ValueError('Conflicting explicit field adjudications')
+                self.overrides[key] = review
         self.policy_cache = {}
 
     def policy_choices(self, year):
@@ -295,15 +311,16 @@ class Selection:
         rows = [dict(r, _value=r['reported_model_label']) for r in self.allocations[site['site_id']]
                 if (numeric_model(r['reported_model_label']) or self.shares[r['_id']]) and r['grade_support_status'] not in REJECTED_GRADE
                 and elementary_scope(r['grade_scope']) not in {'secondary_6_plus', 'preschool_only'}]
-        selected, timing = select_rows(rows, year)
+        override = self.overrides.get((site['site_id'],year,'elementary_allocation_model'), {})
+        selected, timing = select_rows(rows, year, override_ids=override.get('evidence_ids', ()))
         choice = self.policy_choices(year).get(site['site_id'])
-        if choice:
+        if choice and not override:
             selected = [r for r in rows if r['_id'] == choice['selected_schedule_id'] and not later_period_mention(r, year)]
             timing = 'existing_reviewed_current_policy_selection'
         # An exact-year K schedule does not erase an undated, non-overlapping
         # upper-grade policy. Restore only explicit disjoint grade scopes.
         occupied = set().union(*(grade_set(r['grade_scope']) or set() for r in selected))
-        if selected and not choice:
+        if selected and not choice and not override:
             for r in rows:
                 grades = grade_set(r['grade_scope'])
                 if r not in selected and not later_period_mention(r, year) and grades and not grades & occupied:

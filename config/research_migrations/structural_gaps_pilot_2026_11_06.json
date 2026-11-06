@@ -1,0 +1,21 @@
+{
+  "research_date": "2026-11-06",
+  "reference_year": "2025-26",
+  "baseline_commit": "085c0c0b7e77cc24edcdb9d8837039f8444e8755",
+  "base": "data/registry/structural_gaps_pilot_2026_11_06",
+  "preservation_path": "data/registry/structural_gaps_pilot_2026_11_06/preservation.json",
+  "report_prefix": "data/reports/structural_gaps_pilot_2026_11_06",
+  "revised_report_directory": "data/reports/structural_gaps_pilot_2026_11_06/revised",
+  "new_programme_ids": [],
+  "new_school_ids": [],
+  "scope": "Nine-district pilot; existing identities only; no assessment/proficiency/EL-exit/SEDA collection.",
+  "review_rules": [
+    "Retain the frozen v1 and every original canonical evidence row.",
+    "Operation review and source policy years remain separate. Earliest reviewed reference bounds do not assert policy start dates.",
+    "Only exact reviewed school/district/language/model correspondences receive programme-level facts.",
+    "Keep source-labelled ratios separate from grade-specific named-language schedules and core-only ratios.",
+    "Respect native-language literacy exceptions, programme/language differences and future changes.",
+    "Apply the user-authorized same-programme inference only with named donor/recipient scope and an inference method.",
+    "No roster omission becomes a closure, no generic Chinese becomes Mandarin without programme evidence, and no English partner is supplied without explicit linked-source support."
+  ]
+}

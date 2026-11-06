@@ -1,0 +1,421 @@
+[
+  {
+    "id": "c79ec26c-99a5-4af1-b3ee-513337e04cbb",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "< Back To Multilingual Programs Dept.",
+          "link": "/o/aisd/page/multilingual-programs-department",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "a6b99b46-4e39-4430-adee-46215b17fe3f",
+    "type": "CONTENT_NODE_IMAGE",
+    "content": {
+      "assetUrl": "https://cmsv2-assets.apptegy.net/uploads/20164/file/3110271/c0c800b1-3485-42b7-a2aa-d59394fbad02.png",
+      "assetId": 3110271,
+      "altText": "",
+      "caption": "",
+      "link": ""
+    }
+  },
+  {
+    "id": "97b78a95-7abf-413d-be11-2781529f30ea",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h1 style=\"text-align: center\">One Way Dual Language Program</h1>"
+    }
+  },
+  {
+    "id": "ab72d04b-0be2-4c56-a9ad-4f81866d1330",
+    "type": "CONTENT_NODE_SEPARATOR"
+  },
+  {
+    "id": "bc9027b3-7e1a-4b2e-840a-c103e741a65c",
+    "type": "CONTENT_NODE_SPACER"
+  },
+  {
+    "id": "25461dec-19e0-4e13-b132-168a44062aff",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p><span style=\"font-size: 18px\">Alief ISD offers the <strong>One Way Dual Language Program (OWDL)</strong> to all of our incoming Kinder students who meet the state’s qualification standard for qualification to the required Bilingual Education Program.&nbsp;</span></p>"
+    }
+  },
+  {
+    "id": "864bade5-5ff5-45e6-a9d9-f2841561cace",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p><span style=\"font-size: 18px\"><strong>Thank you for making the smart choice by partnering with Alief ISD to provide the best quality education available for your child!&nbsp;</strong></span></p><p><span style=\"font-size: 18px\"><strong>&nbsp;For enrollment information, please </strong></span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/o/aisd/page/enroll\"><span style=\"font-size: 18px\"><strong>Visit Enroll</strong></span></a></p>"
+    }
+  },
+  {
+    "id": "588fb406-ed41-4bd7-a97b-c9ff5aa2d901",
+    "type": "CONTENT_NODE_SPACER"
+  },
+  {
+    "id": "3344acb5-cd40-475b-a317-d3a95830226a",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Program Description</h2>"
+    }
+  },
+  {
+    "id": "dff1bda6-1c7f-47d7-9ba6-f59df9262c72",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p> The <strong>OWDL program</strong> is a bilingual program in which native Spanish-speaking students use their primary language and English to learn content and language.&nbsp;</p>"
+    }
+  },
+  {
+    "id": "b409f543-c5b1-461d-9d41-95501f386321",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Model Design </h2>"
+    }
+  },
+  {
+    "id": "9b67504e-414d-4855-a472-606ad9e34a0f",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p>The Alief <strong>OWDL</strong> program aims for 50% instruction in the student’s primary language, Spanish, and 50% of the instruction in English. </p>"
+    }
+  },
+  {
+    "id": "c34c54a3-da8d-46ad-9e3b-f465e00d942e",
+    "type": "CONTENT_NODE_TABLE",
+    "content": {
+      "html": "<table style=\"width: 100%; min-width: 300px\"><colgroup><col style=\"min-width: 100px\"><col style=\"min-width: 100px\"><col style=\"min-width: 100px\"></colgroup><tbody><tr><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>Subject</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>K-1</p></th><th colspan=\"1\" rowspan=\"1\" scope=\"col\"><p>2nd - 6th</p></th></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Language Arts</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish &amp; English</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Science</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Social Studies</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish</p></td><td colspan=\"1\" rowspan=\"1\"><p>Spanish</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Math</p></td><td colspan=\"1\" rowspan=\"1\"><p>English</p></td><td colspan=\"1\" rowspan=\"1\"><p>English</p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p>Enrichment Classes (Art, Music, P.E., Health)</p></td><td colspan=\"1\" rowspan=\"1\"><p>English</p></td><td colspan=\"1\" rowspan=\"1\"><p>English</p></td></tr></tbody></table>"
+    }
+  },
+  {
+    "id": "819553dd-9a11-49b1-9cf2-3b483547efd2",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Program Goal</h2>"
+    }
+  },
+  {
+    "id": "f4273e51-2dfd-4a20-a29d-aea99283d909",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<ul><li><p><span style=\"font-size: 24px\">Biliteracy</span></p></li><li><p><span style=\"font-size: 24px\">Bilingualism</span></p></li><li><p><span style=\"font-size: 24px\">Biculturalism</span></p></li></ul>"
+    }
+  },
+  {
+    "id": "b948118e-cf3b-4a57-b89e-3c1855cbb05b",
+    "type": "CONTENT_NODE_SPACER"
+  },
+  {
+    "id": "b9f34f76-8c1e-42eb-93e0-3c0d6a99ec26",
+    "type": "CONTENT_NODE_IMAGE",
+    "content": {
+      "assetUrl": "https://cmsv2-assets.apptegy.net/uploads/20164/file/6265172/1a9a3110-d99f-472d-b1aa-9dc8a6cb27c4.jpeg",
+      "assetId": 6265172,
+      "altText": "Dual Language Program Audit Results",
+      "caption": "Click the image to view the Dual Language Program Review Summary.",
+      "link": "https://canva.link/n1j91x9y1cmlctj"
+    }
+  },
+  {
+    "id": "7a3cea8e-cc0e-41fd-aa32-080ae92cf92d",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>The One Way Dual Language Program is offered in the following Elementary Campuses:</h2>"
+    }
+  },
+  {
+    "id": "7e2c7f6a-8c53-4598-9786-f9358b04d2ee",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Alexander Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "eb71d743-c6f8-4129-831d-a3c0767f5e3b",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Best Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "05feb097-3242-4d28-aaf6-a05d061eecb6",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Boone Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "5515ea19-0e93-4f29-b299-27a92388306b",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Bush Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "0ca29caa-9c6c-45c4-aacf-db4206d3bfaf",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Chambers Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "2dfd35f3-febe-4f0d-9081-9a428fd140d4",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Collins Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "ffe44109-c081-4a95-8e48-63a40b2937c4",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Hearne Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "793ccdd3-b02d-4748-80a9-482ab54b6d26",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Hicks Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "dc3cf74b-3f83-4814-9661-9c09994496fc",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Holmquist Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "d125d220-cacc-4b64-8c9e-b7d2edc7089c",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Horn Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "0d49c3b1-5d02-4e2f-82a8-4f5fed3acbe4",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Kennedy Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "79705ec4-2110-4d9b-9743-9bcbcce58b2f",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Landis Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "32169bc8-ae4a-4990-b7ed-c04fe6cec4d2",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Liestman Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "87f54137-3f66-458f-bf72-bd03d8fecaa0",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Martin Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "4d1306c3-ed53-4bed-bd74-8c3d96d0334a",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Rees Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "ab3f5d90-0a3d-464b-9fd4-d320bda9d579",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Smith Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "b1356f97-be1f-4cd0-bfa7-eb30af79fce4",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Sneed Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "251ed510-973c-4195-ae4a-30aca59955d5",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Youens Elementary",
+          "link": "",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  }
+]

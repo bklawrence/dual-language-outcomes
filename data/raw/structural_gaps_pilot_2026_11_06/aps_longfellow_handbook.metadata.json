@@ -1,0 +1,15 @@
+{
+  "key": "aps_longfellow_handbook",
+  "url": "https://longfellow.aps.edu/our-school/handbook",
+  "retrieved_at": "2026-11-06T18:02:11.456408+00:00",
+  "http_status": 200,
+  "final_url": "https://longfellow.aps.edu/our-school/handbook",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "9e7e44c6a5a9fdfa9c4a2e873e55be82e2f18abeca08fa556e1cdf1e25b0c3ff",
+  "bytes": 40005,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Handbook - Longfellow Elementary School",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_handbook.html"
+}

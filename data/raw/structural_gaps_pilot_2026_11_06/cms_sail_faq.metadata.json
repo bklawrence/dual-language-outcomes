@@ -1,0 +1,15 @@
+{
+  "key": "cms_sail_faq",
+  "url": "https://www.sailptso.org/faq",
+  "retrieved_at": "2026-11-06T17:55:06.322890+00:00",
+  "http_status": 200,
+  "final_url": "https://www.sailptso.org/faq",
+  "content_type": "text/html; charset=UTF-8",
+  "content_encoding": "UTF-8",
+  "sha256": "70901ebc220b4bd412f8af68bc43ad200a7fd8cde8e16ed326d1d1114abb0301",
+  "bytes": 38092,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "SAIL PTSO - FAQs",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_faq.html"
+}
