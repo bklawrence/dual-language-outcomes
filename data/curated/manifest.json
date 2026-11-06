@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-d6216af5714453d4a5664cacef83d193",
-  "built_at": "2026-11-05T23:53:02.180941+00:00",
-  "base_git_revision": "155bbcd0597818bc27077b5c4cd23b4b16b17d36",
+  "build_id": "build-01700773055a5414986540314665b341",
+  "built_at": "2026-11-06T01:31:20.111470+00:00",
+  "base_git_revision": "722bc646f039a6663b17f0106edfaaf61ad3e014",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -10,6 +10,7 @@
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
     "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
     "config/research_migrations/northern_central_ak_hi_2026_11_05.json": "2e0bdaa2f69db527b7d7ef0e29ae7988dc0c5b5c50d6ebcf4fdf62b5c5c0ed70",
+    "config/research_migrations/oh_ky_wv_va_2026_11_05.json": "565dc955bbc27e91fc9f73b3146970d9252b0e62c0db2717f7451e65d7abd2f2",
     "config/research_migrations/south_central_2026_11_05.json": "d6ff7e6ddea584b4e3ec2b06cbc379c7b4641b31a4ffe391b4874c2d2b326375",
     "config/research_migrations/southeast_2026_11_05.json": "3630d353bab30923cd20bf5c16037675b44e7b532d46a9e1c33d61850df0dbce",
     "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
@@ -32,7 +33,7 @@
     "config/states/il.json": "95d0ce8903bf49f8dc0b3614c70c88e035d695be75ac53107b30fb40c4562c62",
     "config/states/in.json": "add0eac106860e565dd77e69f48d7e8f3d01ceeca79c795744c569ff15cdfd0d",
     "config/states/ks.json": "8a33b2ac628e4c4edee6abb892c3a715344ef36c7cf4631820d4d6001d70ed17",
-    "config/states/ky.json": "b8d8af486e614a0525cb4319717aef1f1efb0ebde598228697978a0381a713a7",
+    "config/states/ky.json": "666a56c2dfd2133117dcbfe15074ec1faa19169891c338f10e1827930ba5caaf",
     "config/states/la.json": "8372f30007a87fcf9d2f48954b258b1655e039ba178a9e8a61c8e040bc5b2134",
     "config/states/ma.json": "375f376fa5756f3ef6499959a913d815b03cbab3f002c408c6f7d2b92dffada9",
     "config/states/md.json": "3af11bd860b0b1cb7048d8cbcdb0cab94946cfeadf4fd05c738cd60311495583",
@@ -50,7 +51,7 @@
     "config/states/nm.json": "df5f98d531c8050f9382e9787fdf83dc4db3850c36c4c1bec5ee533596a3e581",
     "config/states/nv.json": "c440945404028c02ecacc8d4b7b5cefbe9eca63d3bd0a136a0962b7020cab1a7",
     "config/states/ny.json": "2e430f252a0edef3246602e622fa09d58cb092c65136baab0329ac2f33254f28",
-    "config/states/oh.json": "2056aef7b8949c92b625994fb88ca7e46b81a9906f1ca994447cf49e72f1af91",
+    "config/states/oh.json": "acbe7a7bb9b2f559eb472b966875b2d9423bff92fe029f20744f3a073bfac7f3",
     "config/states/ok.json": "7a51158ef648b06b3fe7d34c7a160f4e978ed5c943fb7de0c1925b3501cb9937",
     "config/states/or.json": "ccd8450d1baf118174c5588ce5881fd8b816eb4ec6ec9b8c8abfa3060db210b5",
     "config/states/pa.json": "1729c9a18f22ba1d08dcde5cee49836dc596f72cfa0fc4c73a19379e3936254e",
@@ -60,11 +61,11 @@
     "config/states/tn.json": "da87988bd5ea91c74a0effffb938521f15c46d1de60ccc8d3c6b27c8654c033e",
     "config/states/tx.json": "2fcd4ad2a1f7f04d52f3cc4b4ae79a2f9c8e9730d1c9be96664fdfc8302ec888",
     "config/states/ut.json": "e8a28293c886e48ec52bac585edfd4889d48250fd901e24b61df9c4bc4c87b7b",
-    "config/states/va.json": "ed47dbf7421771942a7b55b1ffbb666c4cb54c1b0a8b747de2f2b465c4fd38e8",
+    "config/states/va.json": "9adb2be66826b9e3ec38f33328525521b88417a851707c9727e77f2408704fba",
     "config/states/vt.json": "9a89870bcde674cd590604ca907205455bf3aec0432d056bdfbf9cc12f3067fb",
     "config/states/wa.json": "e3f8c33bb8ae746e652fcdb897cd35fa141c6520afe49831238914e9195659d2",
     "config/states/wi.json": "1e1cadffb68941b60343af144e372b2d0f8c01b5944018271b965e98d6d5dfda",
-    "config/states/wv.json": "d7e1892c486e7cb0317213e0f564ee2facdab1e24ed5b1b7a2a58bca1ae32d16",
+    "config/states/wv.json": "b01f9d35bcf4f1744ca4bc0996776a91c8689d09a4a266271d02b3235f5eb9a0",
     "config/states/wy.json": "d5239bb96a73d725fd30fb0127d702706ba3cf63f2033ed3faade1ca70ab0da2",
     "data/raw/elementary_audit_2026_11_04/ccd_2023_tx.json": "df08edbd770ae13ae87b20dbe7ee3efc3d95845e65095b8685325e52f3aa0d59",
     "data/raw/elementary_audit_2026_11_04/ccd_2023_tx.metadata.json": "43f26f61dbdc20d6348070e1ec9394a2b4d93a559c3c779d5c935a4437d6d033",
@@ -709,6 +710,216 @@
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_b5ce6428.html.metadata.json": "5e7ba6f392e9eff0a0656b9dd5ee59191aed62714d3611e0bbcca576115da0ad",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_d0ed4220.html": "7d7616684646ca323a9d0933eb41c23c5dfbb009def82c1ddf4fef4722db2b60",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_w9_d0ed4220.html.metadata.json": "431a55155cdaa9d409f1ed6ac03be50d11feedf6c242d59741437fe5aa421461",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_KY.json": "09462cc028765f1255b3a038852f141ba63bb6f27eba634dac9fc245d588b1fd",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_KY.json.metadata.json": "b92d935711b5e87c2b0b5bac86adcad6542f7158dc3c3dc855b4888472515610",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_OH.json": "3b72fac972d281c9c42e6ad23d1e495b8335a41f125aebfe8cec8d9830d317b4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_OH.json.metadata.json": "34f7447016606f3bf02c2311af504010e5cd87f08f7f89afbf1bd26ab22e724e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_VA.json": "6d65a062fc3242d438e7a5ee2f5486bb5ace712a7a8a6e939cb4f10c52287f5a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_VA.json.metadata.json": "dc65702805c3a2ec76c9703f669ce3a86fc7fa800365868924b25993e4d8b7a3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield.html": "038ca8c1a08e404f9ec30becbe297b2449ba7937ca4f7844caacb023eaa15be1",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield.html.metadata.json": "d49a9ca74e67e6da5db166ec96b21d35738b0fef596eac55ded195a979e7342d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield_directory.html": "bd0137fb4d74b956ed7a6755f37b9ece215e2aa8ad344adfb65710fd2fa5c954",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield_directory.html.metadata.json": "0d63c7edd7f97a7661c156ab4beb85b0e5551bbc69bb18e333185c865431059f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_directory.html": "547f2645a4296ca02ffadd2ea10d177fceeaa7bea54cf92dc976608273024745",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_directory.html.metadata.json": "9953b6925ab47dedce078e14b6fa32496f417684e0f245b15ddb25450ef2313b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_doe.html": "a9d372876c2772c4c5aa41570f60907c1000ee8660ba56fb70131bd78407e1d3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_doe.html.metadata.json": "0fc61a74b2880a998243f1726cf3b3b8292e30aee54ca11f31f637bbe069fe72",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette.html": "5539db759dcfc7d335afdd368fa2a9f629baae76e5080fd3ee8fb9b1be7b2463",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette.html.metadata.json": "371cc0702904b1010a2a3870d6982138964e29576b9fa535238677ac24233e90",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette_brochure.pdf": "e6186e6686f87835170fcb1efcc4cf142d534a251d8bbf79a29ade0fee0f5db4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette_brochure.pdf.metadata.json": "18c84fe4f02d1a5221e59053884615c647bd01e81a43b39d701613fd5439c580",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_about.html": "533439036f5623d01dc202d8b00de80c91316385f05432f6e3ad0cd2ac19d79c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_about.html.metadata.json": "4ad99e5723b0b667b6a77aa132afa5c075aec5f5fc5daae9a99b733e56851b59",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_services.html": "0105024e43a0e8258a5a59a63f498c3abdde734f19aefbf78d7f1b61f261c1ab",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_services.html.metadata.json": "810a6937ca7f386f40543df12360716c3e876808575352362cd9ca41ab739397",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_hawthorne.html": "36fbcfb1652420d456a710fbe796bfc9ae9491d156ba8476c80fe87a14b9bda3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_hawthorne.html.metadata.json": "5650f45ab846148355189695efaaa92068279a071cfe2faffd42238f5008f4ab",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_cut24.html": "321a4ca4d0eb7ade1161d819ed6c2d0472df9f4a520562d96ba7845ce5679fd7",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_cut24.html.metadata.json": "e39035861c611e178bb45475f84b81bde960dcae62d800e48275271e188a5630",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_news.html": "7eb9d8541785cc333b15b756a66114c4b105005bfe65024ef7b4f1a0b961a38c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_news.html.metadata.json": "852fc16bea91fc3b2179f1d553acb46659c52815c7fdb45e825895971357af9a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_jcps_immersion.html": "e0f47aec5c1a04062f157ca1b2928db637babb5caf25764125a36af3a7ba0bb2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_jcps_immersion.html.metadata.json": "49ed2554d37c6408f01d832f0e2eb8e263d3e5c6f16b568de2d0fe5b16803879",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern.html": "b5212ae4a81f91a3f120f694dae243ea9e5f51980d834434e9a1aff4680f8638",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern.html.metadata.json": "8f4aeee6473fe772029d2674b634fec379e4f39d3bf0c5a4f7e904d4d10ed70b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern_about.html": "b79ef1fa2f2c789c6fbbaa82a39f783237bd24d04fe3e2fd902369fa790bf79a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern_about.html.metadata.json": "33385e6031fa8a5a760e4638c8a87f652f079971fe08b4c15680152688dc5fb8",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_teacher18.html": "fe12c8758411d241a54b9bc99dd172b8e577ee7506317f070eba9176e4fa957f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_teacher18.html.metadata.json": "4c427e02370adb55abbee2ca10e83f2e317517cac7219d2355f195bc77c596c5",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_akron_world.html": "3cee2202d2435010927a4a454a8b929a6236940c3c2d54a5a8e3b53597caa795",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_akron_world.html.metadata.json": "57458d73a13b1d47dfeecad2bf7a34a9040b6397b338c5159f3389f3afa4f47e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_amis_acad.html": "d408ebb495bd646e3e8a388a7dc1197e7ee38e962da8ae42df76fa9170b55883",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_amis_acad.html.metadata.json": "78275189a2b5e0b125fe2a1e604a0a9c2a7114d6c6974b5eeba8388332cc5134",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_about.html": "b4bea5649ad1788cefedf6257ab947e0fdfa98c805b04a8996c2314c3abb2835",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_about.html.metadata.json": "c5538e35fefe26be123b01d9606e1ea8ecabbb549f3de187c8a957311774f6fc",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_acad.html": "faebfde6a94af499212d707c526198c014bfe774dcde75adeacca7ebf1ed81b7",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_acad.html.metadata.json": "f3f7a44f8eb0ce5312649d64c79b569a479ba477627f6b8262181535d90385b2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_north.html": "e4aa355975f81b0ea11c670f696ac82bb951fe6f7c57892889cb7f464010654f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_north.html.metadata.json": "add8f3e39bae33d03c9476c4f7ef9cbae12b1ce601deb951da777b6c8aa0d64f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west.html": "630f4b62f6f5d2a595632c10f8116c2c79217bccf8b815ce80393c59cc994d3b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west.html.metadata.json": "34188721fdf1237625e4c6762b4626745cc7dcf5a8a108a050986dc51c9249b5",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west_about.html": "e74bd0ec57ed8ff67acd99e4c73788084aebfa3ce4c203f0826a0b5552f9165c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west_about.html.metadata.json": "6c19a835486061e0852c457aaebb3405e50bb7301dd0019e18276ba3848423be",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bondhill_curriculum.html": "19712208ef1ff9a06c43492e1d03ee08cad5283e0a16b81d03f41537c21dc9ce",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bondhill_curriculum.html.metadata.json": "64c66759fcabdedba5aeaa023495f7f199bf038ad3a894add81f96e51f51183d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_acad.html": "553feefc10c294a73e47adfb18f57d47fe9a6e5a4131e8e53ceaba93a3374949",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_acad.html.metadata.json": "ca3da7b6d90eb9c537a3e667d0d14f751622d8d0f2cdc8e1b19ced483d92bc5c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_alliance.html": "fd4791080bda89162a33836679edc994eceba6b4b0bfd60ae6f9e7feb792a50b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_alliance.html.metadata.json": "a9e14cbbb8ab8bc20b23520c690d11c1408e7a3f3b376cc419d61aa16d7a7bfb",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cincinnati_amis.html": "96a4fb5b67185af49bbaabac661be7364f92a2908ff8e0ffbc600fe5ba04d039",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cincinnati_amis.html.metadata.json": "bd4da33530225b34d869d9e62d1e237e9c99a0f483c987739128112359e32c5a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cleveland_buhrer.html": "42ffa75fe2192a1621d3d509a8b68d292f869bcde791394114a9d48df7559613",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cleveland_buhrer.html.metadata.json": "3aa6b11be47f9aae9b216407d9648d15dda2160920fdab892331c0ccc8a8eb80",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_french.html": "8550d659f788142c7d95b7ee91530903ee1b9293877e4cf2cf56bf3af7172701",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_french.html.metadata.json": "319d6b20a20ba28ae25ddc330ca32ff89a4ef6e54634752150b00dad055f791f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_about.html": "65260dfe6174d9b2cb15bb5c8c82eadf6a28875a7071100ff706e0980b30fd01",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_about.html.metadata.json": "a4d8be6b395bac02a20c4a6529a5599eb8b8ce136b04e71ead1864d37b062055",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_acad.html": "8d05a02a890645d08845e9a9a5d3b16d99affbfb7c053badddf09520c4b924c9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_acad.html.metadata.json": "ec520eae05c872ef8670ca159100aaa5a69a91b0d87bf9570ac86571d0fa5c98",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_directory.html": "9f872836a6f845b086a54e74f4c9507a3cceff7fb7a774155d43e0a2b3a671ee",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_directory.html.metadata.json": "3e11f631c65010ec1c510888a21733d77d0cd1e7e27c48b7a591e28c0bf31315",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_acad.html": "5ed5bb9d591e28965b330347fd41fefbed53dfb8eab3841aea05536667d700b9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_acad.html.metadata.json": "2a3b0abc5f96119de204902a95109cd1c228bad9acb80ec7a851e734c8d2b073",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_parent.html": "5edd1b6086e6764143d93a8857db866c2f8a31c203b69993aadd62266b15e06a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_parent.html.metadata.json": "b1adf7f7c89eb73e3374e2ddc8a2fdc7d4e5f5483148dd8587b6e28b6b4d0c21",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_gala.html": "909f8cc1de2af25f8663939f2050105f3fb747765d055af50cdbb45233198534",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_gala.html.metadata.json": "20bc6b302605904ae2c55632c4b8ca90dc1f9c7db3c5e503e58bbd5d44cd23ff",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_kenwood_fastfacts24.pdf": "dfa4618962e17b47a559871c2900de6e33e6455ca6e97c9afc4c1f7eebe67e4c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_kenwood_fastfacts24.pdf.metadata.json": "e6cd99e9629f74303d2db3cca47584c43c13275887d18cddb160240482305965",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_acad.html": "9ed683b02dd59a8c33a728c176f7c6254d9e2dae0d370767295c49fe3ca1a65b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_acad.html.metadata.json": "29f37c8a148a826e740622041b18394a8bb5d4a536aa20414cbc85c9ac03340f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_home.html": "968b83a4f751b9ebd41b9211e5d4a43fb0b5a0d299d2c5a887ff90bcaef97095",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_home.html.metadata.json": "bb13839fcffcf92f49f5b2d1af1aa5ffa77ac7cf22b8056df3d1d11dc4d23ec3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_home.html": "dc5920ec377a8c4eac317b5b12c4394b9d21c451c4c540cc4d473d8e766b0a79",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_home.html.metadata.json": "2d6dfba2e05b762c92963300aeb5b4b3e9c5607382c859b76d3f0af2ddfd1699",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_news26.html": "6d6a19db49837cbc8b53224daa3d71cc3adc1d46ee812373bc88dddfeb0b2e00",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_news26.html.metadata.json": "0ce7e1a59b63ae13f993dba792131e666e6e7e1d8970390dd4ef9b9baa6eaa0a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_handbook.pdf": "621f680f3ee98d840deb2f09b53540098eaf359520037eee12fc65f943706075",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_handbook.pdf.metadata.json": "74244734a35605228a8574256f8b7ac3d7e012e899c3985790cefb01cf5443e2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_middle.html": "abf7e9dbba3dd8c3fad23d3b721032a4e41460137e6c300aa013f847aa126a88",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_middle.html.metadata.json": "a3a0026696335c3c0a837a2d27040d1d2b1500aa55b23e235477ce77680cdd3d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo.html": "78c0e0d81f8ad1f5b14b90f774b7fa50b62db0a7cac85256e2003377796f92d1",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo.html.metadata.json": "97bf539d2c223f134813173c259fd27c0fd80f9655d15359fda02ab0c76289fb",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo25.pdf": "2676116a5f15449e54242e78f360d707dfd2f98f4edee8ad3fc642ed0189a05d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo25.pdf.metadata.json": "6d65c96d9f4820665a3357a2fa784f29f2f67108d90f49074d395c0eeea7cf44",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_world_about.html": "fe1b3d9b0615d9691157800b7d8ac3d952b76c4ee0b574c53896df256acf63d2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_world_about.html.metadata.json": "15b28a6037242f5f2da2dadbdd8352948452651b44cada81875a300addfa60b1",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle.html": "c90b9ad54fb49f543428528b4710ed2dc86087f3cfa6d7b9ab7ec0c4471cc9ca",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle.html.metadata.json": "24a7e033ba8d2b0f4eb82149470a1468643c2ce9f2f09635fb7050a2605e240a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_mv.html": "bcc68f009aeca66f3267cb07a87affe81443c932110870ba378a075edef4c49f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_mv.html.metadata.json": "5f133ee87c6e2a65a44c4f39206cf7ed91df295bb94d284096f53be278d1f109",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_upper.html": "242ddb9020fa085b1e1693152f94e3d7efa3b394e1934abec66b4f8803bb6474",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_upper.html.metadata.json": "d5dad5868b07ef047661165e3011f9f6974f82d217464ee6a5107afd43b8d29f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria.html": "b86ecc98b93d9582f4a70cd7f3726d22a7bf4daec5c21a4078b354d874fc5ddb",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria.html.metadata.json": "be683e1a81a592afe15e7b1a942484f2cfdf7b0008e93991b5fa4607f743f0b4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_current_handbook.txt": "f13800fb20169c4f79151ffc735e7ba7647d6f350d6aca8021cb0a47690726d3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_current_handbook.txt.metadata.json": "5dbdc66c8736fecc679eeb03d760257d47d6a0c0c1565b04392160319b6f0845",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_handbook22.pdf": "8fb08e83e5669eb1229553a8a39f91fd81520124ee2857cb1eb4b8911c97c5e6",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_handbook22.pdf.metadata.json": "05e6f2f43b560e7eb208ad81bbdc4a9a7cb8ef00ec7a2783658358d757045409",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_resources.html": "276fc5931ad5ab7dde66039c7659dd565f82b4a630c98a5504f021c10adc6466",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_resources.html.metadata.json": "caee5714488e45612e87f813f02f5b3219245e6cd2458615d1966b6b5c5f223a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington23.html": "845f6b36ba56671878b0a657ca7b9c2dea17657670b40e8d61d6f2a1ba2be4e7",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington23.html.metadata.json": "c48e5332f67fa619adc1bc61b5ad52bf2d73233bae8ecc27ef6f9a02b08e8a5d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_about.html": "1d0b0e59d851abdff8c38b838954c5a28a96b80187c36a7a17bbce0c08641552",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_about.html.metadata.json": "c510e1d5527adb286d42cb8a1f6b7fd052ea30e3030d38c08a61e2aa5efd7dd2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_brochure23.pdf": "76dff8e0c53e958d5e130569675acf5e8fe36a7a0a6a4f26b6a7ca879cdc2cb0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_brochure23.pdf.metadata.json": "f3587f5139785362779ce298cdb401b012922e89884573a31875e9546fd75d75",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_chart.png": "d642db3a501b3d6606f40b1ce6041fb68299162da55d3aa1d839b4f005f35a97",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_chart.png.metadata.json": "97ec1bea88cc3ffd807f89bc3ab41b0433143fdb33d17adc3a913ab494fd31f3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_rollout25.png": "0f34e3e520fc8f5ffbe853a95799babebfb95970bbbfb60ef31772bd2b808df0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_rollout25.png.metadata.json": "6719e9cb470772ffb646ba0f7f9eabeea5e9e064315fbd248c9f9f7d37f12eee",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_beach.html": "b2750558fd33a06309e4b32cd9570ee46e1fb0475ee46354213c9509542919ef",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_beach.html.metadata.json": "0d598bda6882a3e1f03db0e794f9040fe6481607dee8c54921035b6edf9ec463",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesapeake.html": "24341404b1511213bda78c3f471ac3147da1698e370af6540c220ddf5d4a8cd6",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesapeake.html.metadata.json": "7e9a867b595af24cf2c4949ab801fd39a4df137cd8262f6f679d8556a9ac5144",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesterfield_county25.pdf": "dba05d5a9611126aec85b12e56e283703e3f556d3dcc34b2620af24058d90b33",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesterfield_county25.pdf.metadata.json": "c05ecea607ccbcf5c2632291cf97c8cfb8c3d1ee19f69a07053ed4175325864d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_davis_acad.html": "dd77b523a9d14ba3af38f33b5241ed18945088d38b9b0046d2aebed568a1727d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_davis_acad.html.metadata.json": "cc3c22c645bbe5f86ae17141bdd024cefe6e1f49828d503305520f057224ef3c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax.html": "7e32f595545a0c8726b180426f8700c68c54bfc3ac6eb1581381b2c870f02c91",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax.html.metadata.json": "e6e9459cac078ad7996355c4371ac72ccb7b120261b65c3114519d5450734795",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax25.pdf": "4170a110df6c36fd844804ecece7835c49f1623dce58402094157845b9b6e41e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax25.pdf.metadata.json": "f43743e147d974207a1aac11dbb832fba6a5c85e56d4fbbd4e76222ea8e1ed80",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax_ms.html": "8203e66f2247f0ac764fdc3980563a92bb2428bf6d6e9559a2e1df2a7878ba96",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax_ms.html.metadata.json": "33c9b53a883311b58624de9359c063a133531bf2b8adfb115aca6ea9576fdfd1",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_flyer25.pdf": "f53e6b3bf46ee59bb70ef534ce4d861838b21b9492a2b7115675114b30e770c0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_flyer25.pdf.metadata.json": "42b4eb3e43327efe5799268c800525aec575fcf0d6e9241b6893cf1f05a941a4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_program.html": "e6fbe20b053965e05cd17abc46dcacc11f6b17e6383043e78b6d395eacd2b43b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_program.html.metadata.json": "58798e5b444c2dc46593e79dea2c3d4f4d9170bf7891ac5f3ccaf4aac7095fab",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg.html": "2a1a3a049f440a4b410e53bacf2891d91ecdaa5da587b111f72c2d12103ebcfd",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg.html.metadata.json": "e1af8d47a2834f21c0bc95a10051fc586f3615b190a473168749f4143131a558",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_blog.html": "c7b570ad98f3b5f6043567cf69769ae116517b09dd142bc4daa2598385dd45f9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_blog.html.metadata.json": "e307f4a17e537aa7ca59c46bd561a03bacc77b79478260b26196591ff17f0f72",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_brochure.pdf": "e8a4f2b021dfc57d9886b5cbe127bcc935023326fbd53a95015162e25826717e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_brochure.pdf.metadata.json": "4c360417d157e84f18d718152a9cefe0a76276dbd645ea190428afaef3fe9967",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_keister.html": "4910ecc47bffa296bf89c19e3c9b5e3f92579f3db2ff2515d1aafe12730cd8d8",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_keister.html.metadata.json": "dbdc1e8fcec19b51d93a9051b33699f11952cfa65bc889e70d40d99210b3d25c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_alt.html": "55e4e35c922209316d97ddb8cd275461b258d74b5e66e86c73a459c6c39b2b50",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_alt.html.metadata.json": "fa87891fd2e0287271b1fdbbb13edc0176f87d4d713ba08e260acfb3905ac04c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_county.html": "5e7e10c78bd2a7df8b8135b4e74a34460103080efeda79aee36094193a386ea0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_county.html.metadata.json": "5c4758b66be31e33fd391e0737931d2d680a5718b0226616f48cd34cbc4b9299",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun.html": "a76c84dc3f4feb3164c6b02b8bd958515a8727e0ad3e962000f725ae4f4f1ec9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun.html.metadata.json": "10fbaf7534ace4ae45bc4750cfb751c264f41a50f78461742fe94603cce4fdcb",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_flyer25.pdf": "350c05b691cd5f9be09c99db3837358c9281fb0172bb262632db491690eaa82f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_flyer25.pdf.metadata.json": "273d03c8ca5872587c1dcf46f351999d18dabc050331eee0522be83c8429406b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_launch23.html": "995bb2f5d51108dd02cd339e6d17b0219cb8e990abed9c9be85c27643379fc47",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_launch23.html.metadata.json": "63dba2237089adf67614fb73f93451a0b63048c41b7db77e36354eeb99b248f2",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_faq.html": "89c03d0460397d0eca9e35e4662602681ca04d5b2b21c28dfada864692ff744f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_faq.html.metadata.json": "4a24e7c0baff668249f43e764d4f563cd648e724fba2a935af4248e36b625c2c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_haydon.html": "a5320ad6977c35a5a9773846d10bf4016c9977c2da8cc430e1b32b2b50ae8942",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_haydon.html.metadata.json": "a3be594d9f370de7a02581c71b5e4418bc5cbe5dfc90c60d3df3a3218c6aa151",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_mountainview_open26.html": "a36407c033c66f9fdd4fbc7846aea9d3bd61eb35860d91a897546484ffaa2fa0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_mountainview_open26.html.metadata.json": "2ce03ea080c3bec970a8afae8b749eab075cc6130619ea58249546bb113f118e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport.html": "5bfcb57a0e10f1b845c830246b8498d0b812d6d5ca1aaae744ca5e332488263f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport.html.metadata.json": "77dd87f4383a81b3db81c3bc438bd3eb484b84010f3717544044b6e54bbc1910",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_brochure.pdf": "da5e77b33363004dd492a650bbde3c2ecd909c267c168ba649899b69fab7990c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_brochure.pdf.metadata.json": "432351ad0d581a6a248ec162c570bf6f371954296daf93dc21a266da7fdeb96f",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_handbook.pdf": "4e8b62fa52ab0403643d7be6c076e54ed08a03b5fbb502003201ce88725c1138",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_handbook.pdf.metadata.json": "e8e0ec06c64be244a0860f948017de142a7c6f3357c14ccb527454fdcc8ee1e7",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_sites.html": "ade8b275b2bf4571e47b663cf1238ed35a9ef0cae44e3b4bbd25a05f8dc5f263",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_sites.html.metadata.json": "e5ec3b0b29abc13580769a45f85bef4b3cedd408cad5df24d30768e2bc6e865a",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam.html": "f513299fb04fb8da4db62836d6ba8bbc9e53ce7632b28203aeb4dd237a7a4122",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam.html.metadata.json": "9721d6c3778c073a0128c5798918f131f306545a7232a6b3b1bd4bbc7ebf34de",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam_news24.html": "714e1128bdf0dcbfbe11c82886d8f6dd150102c9e35ddd491c5d85c74bce4563",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam_news24.html.metadata.json": "5e850b026f6787270305cc03cb8b807ec1656d87db306bce6556a93afba528f9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_quarles_dli.html": "8019a18f5e475c6a5cf98d07cf483c1e06e387fb6c19f64ef9da51fc9cc9db58",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_quarles_dli.html.metadata.json": "b5173e01699c515bb78bec10d72a5d6d201f9c558506edd40bd80891b2437bec",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news24.html": "88490627bc62da0e6b2718d6ef4bec75265757bb6a1eb48531d1f86ea541fee6",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news24.html.metadata.json": "0954d61a973bff79f45e0f669a29659ae8ea641e60321b3a7c3180a6f9798216",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news25.html": "cc1dea12aa5072f97b31bbd82a9e79fe745cbe5da9c953477f5744dee31189a4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news25.html.metadata.json": "03d6b71d5b097bfe2f2be0b712faebbe1b5e793bc41bbeb5043b35cd7cc059a4",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_directory.html": "36520ea0897015051c5e4f0b06949e620b9e252827ee0c6e3144743d78e875b0",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_directory.html.metadata.json": "59895a1a41d9b5e1d752512baec6c0d8c3afdb1d67d8ed74673005972589b30d",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_esol.html": "db1b7e3804d2fe94f4c63319604b96a5586453d8043333cf0079011de1364ee6",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_esol.html.metadata.json": "088c83ee10bdea1b8ae9bb6a5fdbae0224ff36be9e931f33868426a4f75f2177",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_widewater.html": "d12d5cdd531890281f964cd6ce0d3267a1fb11b9441802372ffb417ee6d402b3",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_widewater.html.metadata.json": "eeb297bfd33b65a09f9fcf6e573067e0f47a8728687ba53a65ca06cb15db4ac7",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_vadlen_list.html": "32a66fb8caaad0c87e60708b61706edc0a1c1f9ffb8aefba7d4bd0d349bc0776",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_vadlen_list.html.metadata.json": "569c6846d9d71eff36d8f95e4ef90230aca9adb3a2f604b896b5f94eaf936c90",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester.html": "4d5091d720d04dbfb3caf5b5fb892d83a6fcdcc2a88eb5e34de02205e543bc44",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester.html.metadata.json": "e2e1e2efbd197acfa36c57f5273ffb0e31b377a32752b559d2419ef86f05de45",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_boardnews.html": "5def2dcbbb92e4495a219913d097b30c1ca160f2a1ff535e7b8fbbc1a5c46675",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_boardnews.html.metadata.json": "69ac906af2b2882a1faa866ea7e0615221b4a968923faaf95038e8b9c1e5847b",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_expand_news.html": "487ef09f21ae89ac4af76467f5ce417d38f0f40dc7f4d536e6f713460a51373c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_expand_news.html.metadata.json": "d353d826cef5bab6a171afa1864315c74f83125ba69e7392c9aef1b71195c8ab",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_faq.html": "7f8fdd627fa2dd98e92d83ea6d62d77d27ebab57918846c4e7b1be1a733e6216",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_faq.html.metadata.json": "05c1c272e8a0d941e6561f0f93d71bfb88a435e9db7d95432bfe675b45e8b629",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_trajectory.html": "bc205f983553e805b293223f886002ba3bea9bbc24a248b4cf7317c17eac44bc",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_trajectory.html.metadata.json": "3f6e88cb7533537187bb699c959ad1b2f3fe91de80333ec79fe252c02813c463",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_chinese_camp18.html": "42e4f6f05c3c3919e0e7ed378cd5f4b833894a2280bbc2273d0cbb37b0098813",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_chinese_camp18.html.metadata.json": "d4eaec27c15b4e8fc41cef051ad11e035ecbd617853d4892e7d30064767856be",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf25.pdf": "474768baab3f9e30a4d9533ba1013b8a5aa0c30d4515d1e792694d107ef471db",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf25.pdf.metadata.json": "d169fbbd5346c6834bafa265b747cf00336c47f594c3fdd04830d2fc2aa32862",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf_faq.html": "dcbaf2263d304f5d13fb63151b34497bf5c98473b726be82dca28e97b292e788",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf_faq.html.metadata.json": "9f024c13e60887635d15410eb2685ea2168f3fc607fd3eb3a6b297d948717a2c",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_directory.html": "5bbc680861b88b9efd05ebc6732d9db3fe1b753b956f7223330e3501a398a0f9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_directory.html.metadata.json": "6408dabc02717834e8b9e97184a2b2dcc6829526ff18070d05b541bf4f2cc7da",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_doe.html": "0fb824fc97efa8ba45bb46bde48aba2270b8adf92b54c168ba68cf550e69aaa9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_doe.html.metadata.json": "baa324c660a60171c9aecc27083f2403d163e3da5c5a339704927dcbc72f562e",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north.html": "ab14459d12c42d9acc43682b5e5d1d9a9b5c3f5412ad71a02017efe08766bedb",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north.html.metadata.json": "8e969539575cd4fbb4d67c7edf5c2185a42fb9ddc2414b301a2da526d3d02095",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north_directory.html": "aadf829e73c8039c029bfe4a5e53189f89db71b797740e0484c0c0b7c9b0c5d9",
+    "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north_directory.html.metadata.json": "a6bae941f9f9990f70082ec60693b74b6aaa6306d04ca55dbc295f7287939b4f",
     "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html": "11fb7f1ec0d43069de92c5b3b2cf31a76dcac3362a93b2388d954de26691eb57",
     "data/raw/south_central_2026_11_05/sc_al_asfl_lang.html.metadata.json": "e3ed74f31c08fe1b7c06739e0e591826a659bca3dee8ceb30db43e06aaee99ce",
     "data/raw/south_central_2026_11_05/sc_al_ashford.html": "bbdd8f0a62d309eff40096bf23a8cc61df14711d10b9f4683d31914e964201d1",
@@ -1931,6 +2142,153 @@
     "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json": "e845dceb5df8c58272b8517dad77db273762c72de27f2e6c86984babd04576e7",
     "data/registry/northern_central_ak_hi_2026_11_05/sources.csv": "94b1aa84c17e1a4315b70a2415cc1866dcdf91d8c95b302ddea36cabb18ee34c",
     "data/registry/northern_central_ak_hi_2026_11_05/sources.json": "b9268a77375a5f7772d303144b2612210838f1cd5ef8c203854efa5e92325b4a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ccd2024_KY.txt": "b9f8ae78ce35bdfb04424880fd8a2bfaff0328775bd08131ed47b031759a84cc",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ccd2024_OH.txt": "0778e2522d183404d8331d62d72bd812d1e0d33dc39a3dc2ed78d7c301bd049a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ccd2024_VA.txt": "9bb96e70836f7fbe0619abc6a016766664f21bd322fade3323387e2a352dd398",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_bloomfield.txt": "8691ee74e1c467c814b510062aa5b45a85ce68a686d8cbe65f8ae34e3bf761d7",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_bloomfield_directory.txt": "d99a622422159cdb91d53858ea50f5e4e3a78ef0d0e125d1565f6a8a2246770b",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_directory.txt": "3ca9426899f84db9c6c9d4de0759c2b3ce3a8a70194922b93e44d7416fb7c914",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_doe.txt": "93534eb1d2c896881b7084e2d1611924d6e4edb44ba9ba43b54d8ba4c0406db1",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_fayette.txt": "d0e8a814eadf2dafbbdd26cc61d5caa6dc262a7105e50e170047cb1560ccf527",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_fayette_brochure.txt": "d3fd61035099a8857c8030bde995112bf58b7b270cbfa65dd13ebc4948fc49c6",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_goldsmith_about.txt": "f7b90bbacdf68b8484acbc5f6e4631c0465b5f34d316e8789f0184c73bab6412",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_goldsmith_services.txt": "3b549c71a0ec7a3b2319bdba012a14108b292e23dd5efd81467e6de917436e77",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_hawthorne.txt": "1e7ef4b5590a62d599c3e723f009cf2a921e4d2e6abc3d18c158d62d760207ee",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_highland_cut24.txt": "ec194affe980568c35bc429e18aa217377c98da9eddb2bfc009f4f0dd6938b81",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_highland_news.txt": "fb67aa99c580a13f388a53189366b6347b2f3e9b249c66851fa748fe8144c8e3",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_jcps_immersion.txt": "084d1f5f0c1c4f5ad4c48fc2ec8572dbfcb94ed7718d9341be8edce56504af94",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_northern.txt": "20510f8a8e74142a67ed2bb290bee5907c83fe07f10d283dc08e0fc9e28ad889",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_northern_about.txt": "572f3f7749ef678941ef9ccbbbf48617f50af285044705795549a0062eb65bc3",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_ky_teacher18.txt": "8b0a64e8a264a740277c7a86aebda77934f272d94de5304c9f91bb391bfeb1f0",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_akron_world.txt": "7e8ab89efd2ed5c217da725f26e58d7d76dfd2e4d8a7252866c48966cdef7eee",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_amis_acad.txt": "d708e56c0cd3cf94885337cfa304530f07ad5243b934ae83ea4e5b8f493e2c75",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bilingual_about.txt": "135b97173eee2e3d43c1300fd54a5240c8b7dd2f1f73600b88271b2dd5c4bf8a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bilingual_acad.txt": "ddafe39d602bca46a7dd54cb1525e90ee82ba03d128035f72adc4e972c154956",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bilingual_north.txt": "7847d8a25089a43cd43976f6822466aa8381cb491b7dfdaa5f945ce571cc5b86",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bilingual_west.txt": "3284f00df6f3a0026757b78ab2cb09714b69c6f0f3942ad9da8341a93aca82fd",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bilingual_west_about.txt": "9f336b07099abee541f05b68bcd687fb2cb59f150bf12d640ecf77947366f007",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_bondhill_curriculum.txt": "d3d0b9f58b126b055aa58d9e2e23604c0bfc240f48e863b29b350ab3a3d778c2",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_buhrer_acad.txt": "9dea847c702c5f089fdbe88fbeae46d62110120b60d88fea6e9dd624b41cecb9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_buhrer_alliance.txt": "42dc31dd12686fb11faa9864b719d5614fd396001390fe10f7bc2ccd2aff029b",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_cincinnati_amis.txt": "33ca62c1af95a31517d1ef7206f2369078c77bc2470547b72010d7aa916a7849",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_cleveland_buhrer.txt": "c97b0c5244ad209b9d54aeb514bb1d58e7eb51cbb7f8ece6ab10a8db69fb6f22",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_columbus_french.txt": "b77c6142df5711850ab885a09c2c457d55caa6e34469144f485f66db4757bf1d",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_columbus_spanish_about.txt": "eb42636b72d0886edd8867316c6a2c006d28cafdbfa1d6901dae30333cbc7e16",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_columbus_spanish_acad.txt": "1f3b29da26061d81c5a3b93abfc19ffe6d0ce94e945d2658297a7910aea33681",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_directory.txt": "b7a4ebf4049d14eb4219021da06a7357c05fab3a048157c0a7bd8befb4a9b77c",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_fairview_acad.txt": "0b7adfe912de602285e10c4ee59a1222c98c0b0eb67573907d16614e475ea1ce",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_fairview_parent.txt": "3c9bbbd85460469012b6ec29f6e31204391b6db5013c87b8d3a0f9f54877bcf3",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_gala.txt": "e253ca7e041a384d48e3a7f96a73ae568503a09452ada8231b8182b15614c5d3",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_kenwood_fastfacts24.txt": "80df808b98ce04cf96dc3ec08d08ad425a87ff7c522c1ca13788033325ff81e0",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_lmm_acad.txt": "43736998a8b72485e24fd8c4348bfeb6aec4fbd1d1aa8fb415c4e41c917560ca",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_lmm_home.txt": "a25e9a259aa095414d790b8b3518fe913adafee0d09d2c720c54685816dce125",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_mansfield_home.txt": "a208458956636a77f9193f5a7809c2ad1f90e9fa21b225a3392bc15ccb45e967",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_mansfield_news26.txt": "633e0ace447e3e696b3a6dbf583f3eb3d9b53a7a8bcbfaa29fabcfdd882ce843",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_spanish_handbook.txt": "9ab2836b2d563b6bfc14cf9b0aca0caa1cdcf27bce0e370efa3dfbad5ffac0f7",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_spanish_middle.txt": "959bfb1b96a69e67e6bef5e529df21834f267a75918166e3e6689f26c125b430",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_toledo.txt": "8ccd9edfbd48ffef383bf295bb8a42259d003f6e7125213fb1bbe5bf30cc79c9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_toledo25.txt": "2a0494607d384487e0057d512a0cd543c40e6023a9b956827de317caaa20666f",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_oh_world_about.txt": "03b7642a175bcaf6354ea15ce225501c26e81aa81ddd99b9d1b7b171e0e758f9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_albemarle.txt": "b750e565319ccf6b1ba24e7fd789b321d420024569019fc77f60ad792cdc8cab",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_albemarle_mv.txt": "1a3a07e5679c3619877359088f72b0e0ae9be374805932154cbeaf7e9db14265",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_albemarle_upper.txt": "c4eb57be2954e784faf83a25f164ef10f275d5e5a27a09f498586fbc31e22846",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_alexandria.txt": "4b4e9896ccfef579ff96494e1c6669c678dfc801e4ac80b9dab5a32d35c7cb94",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_alexandria_current_handbook.txt": "93e2dc9cb18e93671d4f4f636973674dfd1d4c8350d67820c8aca207817db74f",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_alexandria_handbook22.txt": "e684a6e459405ff83dc19d3a14e6ec4fee2ca4c10e97487c91dcc22c8396c999",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_alexandria_resources.txt": "f92f46288c9d13c40eb873e6ebdeef5a11fe8cad4605b19141ff230e0530ed5a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_arlington23.txt": "b3bbeb8a9c8509032117398645004f3da3334bf2850ff2f4e257ca3e30d9d8ec",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_arlington_about.txt": "acb51c2555dc8ba8e7b42f8dadee665ba463a96edfb778b8079b484fbb9fab14",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_arlington_brochure23.txt": "01ba9f405176b55a740d660e620cfcf9f2a3616dc8421786b025998cd67b130f",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_arlington_chart.txt": "e23270416928e5dcfcf8f49d414438589e6da6e2aba6d8bab656c82d68714c39",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_arlington_rollout25.txt": "d7661519e2fddc2cf1e14dd46ff90e5ae792e24b358ff37e3ee7375758d0c8fb",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_beach.txt": "5f1ad766620697e41ff3c2789dc9c57987fdc67c32af15c3f9266f8b270cdbbf",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_chesapeake.txt": "a0531f582412785b09b1b938cfbcf0d3add1b26a2c536131f16ff864ad73e8d5",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_chesterfield_county25.txt": "77c63b5885c8b8bd94a73030a12ce114b56b247d6266b50c72b5895e2c58191e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_davis_acad.txt": "5e7b7939f196f5993950a94df8d0ece87e8908a8258b29d0c8359cf52f7310e4",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_fairfax.txt": "4f5466b0418fedf484f253aaaf19cf3776bc3c8e54e6a61747cec6cea35751bb",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_fairfax25.txt": "55c14bc0e719373b50c5d87029bffad52be82b051a7f3d42c9db4d4bf49a1bd8",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_fairfax_ms.txt": "27a88c667301d8934d3781dfb558713f5bc9e68f9c1a2cb6292945cdf820bfb7",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_hampton_flyer25.txt": "126cf4ec50144373879f6c185c8fd38fa6578c624cf6c25a90bb1bca8660da8f",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_hampton_program.txt": "9d51dc47d133d1220640e27fdd876b9fac8a92252214873d787f2cfa1edbf51d",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_harrisonburg.txt": "8f15dc9986ad24a44c8436321adff24708c957f6f31f204ac3bb8e2dec3e2a9a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_harrisonburg_blog.txt": "f1a438ba1f8fb1b9d09e39ec1738ec6bcf0bf1fa1ffc0be120c8f6cc4881478a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_harrisonburg_brochure.txt": "fd72ab5597d4cad423090c2659392832d0c692b9c948d8b1baf995495a84b267",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_harrisonburg_keister.txt": "e2809bd25ebadf8203f1e52c7633ecbc4467d11e4b853eba283d66347019386c",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_henrico_alt.txt": "5054c294e4b1cd83af96c24e156749d55bd0cb5e47e940d56166df9b2fe1c96e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_henrico_county.txt": "36860f4c78f3735429e4e9c93693ea5d3761ea2ea0478205d729bd6558b60472",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_loudoun.txt": "5e914f1e8b3c55740cc8d2abb9fb2a844a56e074d36000c9248e04a364bc5208",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_loudoun_flyer25.txt": "93f25751f2a387899c8c10b16b6cf76425bef95a416dcc7cb45a4e18af75708e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_loudoun_launch23.txt": "f5dd617126dadf45607a2c4530387b8e7396885dca01e5d59382649a232ba504",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_manassas_faq.txt": "bedf0c4190930b73084822c2765fcd180676bff85002ac81cc02454dbb7228d1",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_manassas_haydon.txt": "50518c70e270e6fd396f0a7ca8b718643b7266b0e818758a879168a2e5fed3ed",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_mountainview_open26.txt": "e4a618a7e455637a9c70528b83f2563d3ab66ed253b84016036625a4f20791c5",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_newport.txt": "f8e8b7549a763facee3f598e79d68e8f3bd6f163f8c891978e03183c47ab5467",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_newport_brochure.txt": "23a73a0f8e73f181a8cd66b4f5bc27ffb4964ec38bbf65ee103c9b30a82ab130",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_newport_handbook.txt": "f7582652e7bc91cf7b93b1f62906eaebf9bd7d0c2473e58ac42b24cae1d7d8b6",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_newport_sites.txt": "18de735bfbcc4e3061ddc7d394d8506e62dc75363abb7878a536db2aec2263e7",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_princewilliam.txt": "38b936b7a6e9b48f1032de0822ded412d63d6564b7caa03ff25ce8de1d9d564e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_princewilliam_news24.txt": "5c34656927e111774078d75e530020b7940bdb6dbdabeb53f2c9c16775422d08",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_quarles_dli.txt": "9ed53d36a830ff521d60ae8235f1be0699b1e0189d49cf212d738da9f615716d",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_richmond_news24.txt": "a8fe7755121df62799aae12afa06687a9dccd84259a9909f83d4afdec60c49e9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_richmond_news25.txt": "9db3d84ab3eec259c30f70efdf6722a2852d91d828daed48f24a608de0a2496a",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_stafford_directory.txt": "b82f151ebad56f6f7ef4ed003fb9d541e9577e6d6e5da79dc33a626bb12c9a41",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_stafford_esol.txt": "d5aea4697ade9f6fd1bafadb4c154a7a3bcd9ceb556b04294aace4e58278747c",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_stafford_widewater.txt": "f69fbf450cbfabb70e5070daac9a7f5af67154d6652982872cde54b1880839e2",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_vadlen_list.txt": "4f6b75dd38ab007d1f3726b8e7372efbf5583b7eabbc9b65f2bf8a1aeb6c2758",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_winchester.txt": "cfc20921a7d78cfaf014356b1f6181fc66118bb2b0f00f99f2384c9a52d0cac2",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_winchester_boardnews.txt": "7934849643703df0e6d9c201ebd86046e2f2188724fcb17a06d45e3294781614",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_winchester_expand_news.txt": "3946a17599ccfca57496e34898270f21321a192653b2936456a71a6b1cc865cd",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_winchester_faq.txt": "9bc16b2c34e064d0ed1a59571431f9dbcd3f7338584d5a679d49bda7d70b056b",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_va_winchester_trajectory.txt": "3c5fd76f938587f7a6eb70c8e53ad488e0b9a4566ab5beae428701953e4cd737",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_chinese_camp18.txt": "d2fdaf0be1121c694c2c05c8e0da462f25a87223f2f0a21dbb49fd7d8b753662",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_deaf25.txt": "aa476674f4482e60aadedf7a29382be7a5ad9b224ccc42d1c41d34760cceebc9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_deaf_faq.txt": "ab7460c6f7cfea190aab8de549f076a86a5e5808f2647efaeca7562d166d7ea5",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_directory.txt": "c267ea382d579e78a516ae2d511d1a58685a9396bb0787e2d11192ab21d09dcf",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_doe.txt": "49b04aff95ac84fe2e35b9ae500915efc05e8719be7e53fed0d94a66c4c20af4",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_north.txt": "f04c17378ff08754b7703ed7fc7cc97103e65ea321add480d62ad60291e13222",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/e4_wv_north_directory.txt": "f2a5051886588516223e4932c9a6f79a6b524dff3aae5be37da42dbd0f9e85c9",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json": "b8ca5e4f74343866e3d46f490e943ce0d6370fc21301ab02a6b274f51fe5305d",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_2018_article_hosts_and_plan_rows.csv": "e6b6a9a4026cd93f96d8479500f17520ad92f3dfb54ca85ae2f9e2e01393580f",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_2018_article_hosts_and_plan_rows.json": "6472f85c8e027bee35f58beea2134731a010b4585bc58ed24ad111617b3ba3a8",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_directory_cards_rows.csv": "95f7da6daf72f668cfa13db76debc97ce775e04e188fa328ecccc465e81ff074",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_directory_cards_rows.json": "99463f5a1a7122de3265591c6285e7f961a971ea03de80dee36e5c31238e703e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_fayette_current_hosts_rows.csv": "4af33f0513d0d30f621865d62b13883f5ffd2685977ea4a463dee2aaf3b272c7",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/ky_fayette_current_hosts_rows.json": "6b093a95e101a635760dd87e1ea643111d7f818503f5510b608848fda7a57c1c",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/oh_directory_cards_rows.csv": "aa5c8f233e12fcc6c2e386cc6312a48a4c1b2d00571ba59489e72fa7741c6b8d",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/oh_directory_cards_rows.json": "2911b5c54c27551eadbf75290b25c7273c61a3642b5f7536c93cf9c30948681e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json": "77589463a852cfca3d7d6b59c5ac2cd4c005ca12d26777f37328a26db3edc425",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_beach_programme_hosts_rows.csv": "90ee277c7f69312b90f44cf8e883c16dde2fea894d6130294e24db888a5b2a3e",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_beach_programme_hosts_rows.json": "0e617fbf60e90b24ab7d2a88ac4d8e0a89c1ca45bbd9ad0d44a8ef82e45aa58b",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_fairfax_2025_26_admissions_hosts_rows.csv": "b84614dc97a2200b6cfbad0785e358bb72e5d008bbe7f3cc817c0b167ad601bd",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_fairfax_2025_26_admissions_hosts_rows.json": "094ed7b750f1b10c0f1079c1c6bb4d14cc3b78fae69734226bf329e79b8f9752",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_fairfax_current_elementary_table_rows.csv": "7e3e84cf044756e428e3d414f394a28cf86c5978eb53650f53431c8629c09ed1",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_fairfax_current_elementary_table_rows.json": "a561b0df52aa3340242dc6d3a4b3239ca319d434b22011a5a061743ad77e9998",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_harrisonburg_hosts_rows.csv": "1c8d1b2ccad685b6337c2731767d7c0cc46056a94d6b1b86e6df98f89a8a78c2",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_harrisonburg_hosts_rows.json": "f0688862e1c3a395b3285309ce5c78039874bbacdb57ecea457d953bd9fc0386",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_newport_current_hosts_rows.csv": "facbd8fa5d62313726cc3bca8b8abfc85f5532e773d6ef2bfcd8730fea247884",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_newport_current_hosts_rows.json": "bc197819f97a8e2976aeb3ec6b308a5d23bf2a88254e1c4aa58d34e66f47b2ed",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_vadlen_division_leads_rows.csv": "f7678f4b13f1f4b2a1a015354626a99af21dac738f074ecf6e521a59421fd4f6",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_vadlen_division_leads_rows.json": "036ad0e3a1b7b3993fe961f155733f1ff38b37da016bd76f9dab95adbfdbe9a0",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_winchester_current_hosts_rows.csv": "1019ec8d639bdd58edb6278a4dc10965391362566629248c7f36671f1278ed90",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/va_winchester_current_hosts_rows.json": "7b0b7c242acfc158308bc374f1c136bd932f2a6d95f3eaea88f206b9b9a80ac6",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/wv_directory_cards_rows.csv": "e0809f9132e3ec5233dc493ac283e5112014ef152a01e72fc16eccfbcaca6d84",
+    "data/registry/oh_ky_wv_va_2026_11_05/extractions/wv_directory_cards_rows.json": "74aecd4597a2b350add5fa715c6c2fad8623ce4e2c208ba13a1e3582d434f31e",
+    "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json": "f6aab66bd95b02bd5e67bc18eb1176f06a2100fd8db3418c52f559bb8c439717",
+    "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/oh_ky_wv_va_2026_11_05/ky_programmes.json": "d9c0fac1aae03df6aa0eb4492b4ee1d8a6885d93d5d31d420ac421d27772703c",
+    "data/registry/oh_ky_wv_va_2026_11_05/ky_screening.json": "7bcd7c4e4e24d8b35d71736913803d45a95a6b2c2a81d48967e908e1dddb8b4c",
+    "data/registry/oh_ky_wv_va_2026_11_05/oh_programmes.json": "62b7ec192b283f716329caf58e0f1d06a8a8574297a7454f04711f9ef66f64ae",
+    "data/registry/oh_ky_wv_va_2026_11_05/oh_screening.json": "6029e88b7aa05136e2543b7d2111a4ecd2de3f6c0c598c4171aebf0d2ec13b4d",
+    "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv": "b735c2f662d922bea604020a54f084c5c43495099e719e38bf838698b41c1b5f",
+    "data/registry/oh_ky_wv_va_2026_11_05/reviews.json": "3a4a367e52129ce6ab1d9de16e4b74940e96bb3200a4a3ee603fb3c4593f3625",
+    "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json": "0ea9792b6e6369d42d91f37478ca6036420d498fad43ef778f235abaf8108fe7",
+    "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/oh_ky_wv_va_2026_11_05/sources.json": "b57c80bcaf61eacc52cde643baf7eeaf1e71ad91a1dd288d7adf3c2caf3746d4",
+    "data/registry/oh_ky_wv_va_2026_11_05/unmatched_grade_context.json": "37eb9e58078a7e3812e1c105dd0fc345d6b08577e7861d955f040a43fcaa0bc1",
+    "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.json": "d16d81890c811b1cf346417ea9b3dbd626a586248f23c341a7948345748362d2",
+    "data/registry/oh_ky_wv_va_2026_11_05/va_screening.json": "42fe882fbded09fd44ec568299fdb7af3d0de8bcde4c86aad29d30fc3ac3997a",
+    "data/registry/oh_ky_wv_va_2026_11_05/wv_programmes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/oh_ky_wv_va_2026_11_05/wv_screening.json": "86f152cb109f6344ae63797c76829ec8ac192ffc6b3a332996217ed756d9d346",
     "data/registry/oregon_2026_27_extraction_audit.csv": "bdc882f142956a78290a75abb5eaab7aa63b338a044b7574b62037500132ae3c",
     "data/registry/oregon_2026_27_summary.json": "940b432985d47fd7d3982bf3fc717144e3968f528db5d1c83ad8bfb907cbbb40",
     "data/registry/oregon_nces/oregon_nces_match_candidates.csv": "d2ed5bde50c648f0fc6bd8d65434ef2213e7057c20830a44ed78ba4f94d16b4d",
@@ -2068,6 +2426,7 @@
     "data/registry/south_central_2026_11_05/source_redactions.json": "609ce36aab91c7b55c3805a7e030962cf37d6b9f2a8d49ab4dd9fd31eae2e3b7",
     "data/registry/south_central_2026_11_05/sources.csv": "a0e65419417ad130446ae09b0610853407c19c2144443d9fd416793a62747ea2",
     "data/registry/south_central_2026_11_05/sources.json": "33730dec64b8627771235fb6f3e28dd6b00eedc15fcf250d2f26baee07ded722",
+    "data/registry/southeast_2026_11_05/README.md": "f25de9a2cd612489bbd41b0d4d2965dab0d2bd60c9204345fa5eea440f3296f4",
     "data/registry/southeast_2026_11_05/extractions/fl_miami_biso_rows.csv": "4b8453d6c4f2d2e1b34afc95aaf8f9cb5191cc0658b8bfe1c859501f55a29b92",
     "data/registry/southeast_2026_11_05/extractions/fl_miami_biso_rows.json": "534f2cfea861a1863e1c5520a6070182b9d7e08ac46da767300bfc5096d9c315",
     "data/registry/southeast_2026_11_05/extractions/fl_miami_efl_rows.csv": "a7fde148f75ad2c4e285bab027a952bfddcd1f340675db8f52e3950afaf908b4",
@@ -2243,22 +2602,38 @@
     "data/registry/southeast_2026_11_05/extractions/se_tn_magnet25.txt": "d54ea6c40f0e1676a6513b06e7e586ecca8965c5eb9b3819c9ca288e8358c112",
     "data/registry/southeast_2026_11_05/extractions/se_tn_magnet26.txt": "0b214d3f244296f70ae82338113e8f16d6ca5b425b1d778e066560181823cfbb",
     "data/registry/southeast_2026_11_05/extractions/se_tn_treadwell.txt": "5618f59b61215956bb2d46c30c0497892fedd531fceed2308457a02150bf040b",
+    "data/registry/southeast_2026_11_05/fl_programmes.csv": "808aec4af83f010a5423dbfef981b347e73eed4c0ccd97080cfd485134458bc7",
     "data/registry/southeast_2026_11_05/fl_programmes.json": "9bf772050e8d90b3b94c550b9bcb9ce1d71f0522fbcf10d57cc1ed9994bdc5a9",
+    "data/registry/southeast_2026_11_05/fl_schools.csv": "23ef25f6fc09f6cebe1109d5b12ef88e9408abbdd8becf52ff97d197382e1296",
+    "data/registry/southeast_2026_11_05/fl_screening.csv": "d31fa6cbaa1e886e500b3a695bda5397540c240db8ce9985d070439e61e829e0",
     "data/registry/southeast_2026_11_05/fl_screening.json": "5cb0ed61b49ec561f90583d09d0d22533707ce4c818350149e61313c3dfb10ac",
+    "data/registry/southeast_2026_11_05/ga_programmes.csv": "71d041e75676b9bd6cf1a4e77b1f8c5880e8c9df0b748b3d9fd3e86ef920b3f0",
     "data/registry/southeast_2026_11_05/ga_programmes.json": "a1b82b9ec7083383c73eb74887ed750ba9d5320fca200b3e694dfde96845e7e3",
+    "data/registry/southeast_2026_11_05/ga_schools.csv": "c77eff024aa6e995e1f2f8aa46d9c5d7553fa3b7972886ea04ac17fcb398accf",
+    "data/registry/southeast_2026_11_05/ga_screening.csv": "ffabf268dba87ffbcf4f197c216e5260a66d6d60965daa5e7a41d7e5c264fbed",
     "data/registry/southeast_2026_11_05/ga_screening.json": "b1523f62a915989d360dd59f72ca663ba1f8a259cad841197f1c5e81fe6b2e2f",
     "data/registry/southeast_2026_11_05/grade_context_decisions.json": "925690c8f377dc7ad63052bb47e2ee69a2e4e757995bbc16a4715ce0273047b8",
     "data/registry/southeast_2026_11_05/identity_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/southeast_2026_11_05/nc_programmes.csv": "ff0f549f7bca41f41cb5489fe0d85d87619b5b98cdd06bc75a731b02616378b1",
     "data/registry/southeast_2026_11_05/nc_programmes.json": "a2552c21b7788cf7afe2a52621b6ce8ffea6b82efec0edfa731d1052f007f494",
+    "data/registry/southeast_2026_11_05/nc_schools.csv": "607734d3835e66fcd1ddf6b37e2fb2c31b73f0796e5060dc2ddd37f7b59c7f76",
+    "data/registry/southeast_2026_11_05/nc_screening.csv": "9dae0532dca2fe67b3c045cc6443be445d56bbc9d3c9f99aa9f92b829aeb9620",
     "data/registry/southeast_2026_11_05/nc_screening.json": "bf891af908bc9db731087dbf7d7e5f2f734d0adb2d626bdeeee91160a14ac125",
     "data/registry/southeast_2026_11_05/retrieval_log.csv": "d37ee5d987ea51b41d275feceafe8bf0b7d3bbbe6e2e6abe2742097ead5c1b0d",
     "data/registry/southeast_2026_11_05/reviews.json": "59621b0a5670802affd18494ff56d22b3dd16ed7766c81ec295ee4cd3e8b374f",
+    "data/registry/southeast_2026_11_05/sc_programmes.csv": "4aa485ce59a12673d2c4ee173e6b36880804e9d56ba40d9928e8ff4f4f70a84f",
     "data/registry/southeast_2026_11_05/sc_programmes.json": "b33c4db2fa8a966a4e9b5fb78101a0f58a0e50fcb229d763ef87aa433022ab58",
+    "data/registry/southeast_2026_11_05/sc_schools.csv": "f5e18ce54eab8461906b9958e7cdc59654c091731b30b0969d7bc2ec2e115213",
+    "data/registry/southeast_2026_11_05/sc_screening.csv": "91098e7ce3d8ba0ea84b079f19a33c3012394814b38846be1d1d7ea7d60b4d1b",
     "data/registry/southeast_2026_11_05/sc_screening.json": "27eb5085706f79eee7b60bb734abea9823f6cc00199e91656f02d7e3c7a73e82",
     "data/registry/southeast_2026_11_05/selection_summary.json": "fefa9f7c6d0bcdd524dd31e3210a18d4247c8fbf92e77e72f104d66914bb3bc3",
     "data/registry/southeast_2026_11_05/source_redactions.json": "474518ade87cbdb3b33c9a8f75127a5d1332ec0950e71e039fcffd5f869c1b50",
+    "data/registry/southeast_2026_11_05/sources.csv": "45b3dc42416d9f78c43ea13f5d8886aafd23a507f359393921ba51f7264d76a9",
     "data/registry/southeast_2026_11_05/sources.json": "f843fc7530bf2403ef196b92820f95c6afa377a6be1d85393b1e0e4e6a156fe7",
+    "data/registry/southeast_2026_11_05/tn_programmes.csv": "b616c6ddb972884b2f56b25819a9a37fdffb5d6f267778b9d36ce7451a7f48b1",
     "data/registry/southeast_2026_11_05/tn_programmes.json": "320bfb076d8e5cea27fb408b3e3422a0821d058026846dac12a052ac2d758ab0",
+    "data/registry/southeast_2026_11_05/tn_schools.csv": "541979dd0db86dead3bac6bfe5dcac06374ba6351aefdb382971308f5d657b88",
+    "data/registry/southeast_2026_11_05/tn_screening.csv": "1b4815c4452201d2376d6c05867f9771fbf8963e8fb950df252faea4e77f9ea0",
     "data/registry/southeast_2026_11_05/tn_screening.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/registry/southeast_2026_11_05/unmatched_grade_context.json": "224ea8ab63fc5595b07f360fe1c01a55a45e252cbc8aace9aecdfaf615b50079",
     "data/registry/state_dl_programs_california_2025_26.csv": "2ad4b16b9c90fdeb38c2d3179c7112af041773ebb415cd2fc0753accf49d0da0",
@@ -2399,6 +2774,10 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_south_central_by_school.csv": "8c5066c9226c7bcf56893c51a5c49e847d87fd09953da71864435a22f18af449",
     "data/reports/elementary_allocation_coverage_2026_11_05_south_central_by_state.csv": "0cf6f99c70ee22e9cb7975aeb7b7b540c8bd6a199e1d9c22dc80bd6a9988964f",
     "data/reports/elementary_allocation_coverage_2026_11_05_south_central_reference_by_state.csv": "87652748ae7238c8fdc86e474adada36270ad549c23d8ca2b3998ce922421baf",
+    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_all_records_by_state.csv": "5debec68382ceec076c0c7c6ed8d50def9532d4e9f199c19000a9bd5b1c89ae6",
+    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_school.csv": "a6c5e59029d34d7f210f7ebdff30d948f80abbf30c8af92faac1f6c4bfdb023c",
+    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_state.csv": "2abf4ad016f4c71b1b6f324a06c49948e1ac6f8c504dd4baf60e7f3db6665dbe",
+    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_reference_by_state.csv": "a9edf26ee458cd17f05abb6067ce35880c7256084b96800c843f3f1f289defab",
     "data/reports/great_lakes_2026_11_05.json": "f5dc3c4bc55cc769c5e60017553d03b93345067bf11095ca7a95d760a9749a3e",
     "data/reports/great_lakes_2026_11_05_backlog.csv": "ffc47d8d555c995e2875898e54d84ecdb7eb869b120f044c711dc74a65ef8a0b",
     "data/reports/great_lakes_2026_11_05_by_state.csv": "92fa33f7a7746e57ee6ee02f048ba167335e8b5f00b4c4bdd66494a326d0dd16",
@@ -2432,6 +2811,9 @@
     "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_program.csv": "c8f3b79207ea94990e5800e367405f492ad65cee6a116a7dd1b0b25bb1fd48e6",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_school.csv": "bf1b55f55f75c76a7bf917dfc82be1213c718e52c1ef7d41acb858bdb7dca34a",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_south_central_by_state.csv": "8101fc15194f66a1763bb10c63892b7d72cc240c0ba29c4d7302112501a5f449",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_program.csv": "370a4f3ef023a2377b23e9d9bae83dda507827fd5a33cc6411df40104af823fb",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_school.csv": "6a812ab1eb33fb04140da060b9c10902ba004b008c7568c42104a38a91790889",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_state.csv": "b609d6e5fe48c7ae8a5d6a872024abab1e35ef36db1cfd0a6018ebd27b7bac39",
     "data/reports/northern_central_ak_hi_2026_11_05.json": "6ca5c36433c520fd60b4884dbaa12416996237c6c127574417a9727e6ea87509",
     "data/reports/northern_central_ak_hi_2026_11_05_backlog.csv": "04e97d49c06a4dcc72421790c0bac60a2d0619aae362ae5b634886d1b398baa6",
     "data/reports/northern_central_ak_hi_2026_11_05_by_state.csv": "6cc717eeb3a3de1ddeea8c92b4e468eb1e91e1830d01a74f984114bd1b3bdba5",
@@ -2448,6 +2830,14 @@
     "data/reports/south_central_2026_11_05_review_cases.csv": "d90d346fba934407f19fc552ca30fca90838cefb060aa237995b952945dd1f5a",
     "data/reports/south_central_2026_11_05_schools.csv": "bcee3821c167e681ad0a4edbb5a0b0151d22694241cde44d98c89d13845bff4e",
     "data/reports/south_central_2026_11_05_screening.csv": "a238cd3743e51512f0b9c3efee1c10cae3ccbe57f591c09f234e9872f462f0d2",
+    "data/reports/southeast_2026_11_05.json": "00ef3d85b487c5e9aae9b7c389e0f2c0ca9ef1a60b0c50a83d20938d18700f50",
+    "data/reports/southeast_2026_11_05_backlog.csv": "08be561f90a4a29d17ad5f3a8097512a7e307aad7b3e77f5a7821f0c911bf93e",
+    "data/reports/southeast_2026_11_05_by_state.csv": "0984020d89abae51bfe7386e3ea9ea284371c1f7ff90bb85287e6866f27404cb",
+    "data/reports/southeast_2026_11_05_change_events.csv": "c2dfb30a742e7334221253a39e2dfe64ad9ad592724b9553a2bd30683a800f34",
+    "data/reports/southeast_2026_11_05_program_view.csv": "31aafbde3b584db14799922b35fab778611b82c222bb5c161fd5cfe530b50b9f",
+    "data/reports/southeast_2026_11_05_review_cases.csv": "016f9afe498b06cc2110f37bceace00aff218d5bc87e2890d781e2241e50077e",
+    "data/reports/southeast_2026_11_05_schools.csv": "80aeb2e71f1f99769496116e05e4e7bb34eb60e4182e0d1babfbb37f4cab7082",
+    "data/reports/southeast_2026_11_05_screening.csv": "7d901e224091d3352d10dca0677d6d53609088b917f358e00c5525df29afae21",
     "data/reports/structural_integration_2026_11_04.json": "051550d657fc5b9e13fb018cfe36542e4d5afb9f9e9c16ef491d524c82eb7f5c",
     "data/reports/structural_integration_2026_11_04_by_state.csv": "07e4f66b08fd5ceee33fd7c4b324ba79e72a566fa121dafd3ebc5d9adf3aa460",
     "data/reports/structural_integration_2026_11_04_program_view.csv": "7ea03d57c13303c2e37edfb029e09b45d4cd8a24d44850b45eb07fe2fa4d7647",
@@ -2472,6 +2862,9 @@
     "data/reports/structural_inventory_2026_11_05_south_central.json": "80c24e65f645c2b1a0dfeda7c2d5bb31f776b810b225a375f6e3371dded07057",
     "data/reports/structural_inventory_2026_11_05_south_central_by_state.csv": "e2d3c2e42f6149654f06ab116ffb0b51f83684e3c1afae3ba1b2e5cb4ef276cb",
     "data/reports/structural_inventory_2026_11_05_south_central_program_view.csv": "b55fa9615f2966be03f81771bb5a18e981d7f506e4ac1af51309c92f77484add",
+    "data/reports/structural_inventory_2026_11_05_southeast.json": "328012b0e04bafd3b5c557956c3b17411b1ead0ec95653f97c4b86c3269cc373",
+    "data/reports/structural_inventory_2026_11_05_southeast_by_state.csv": "7cde898ad7a13615351c165118401c9375e906d422b0ed4c2108d1d61df40034",
+    "data/reports/structural_inventory_2026_11_05_southeast_program_view.csv": "f9b22fa72e78e5b46ada747378bfffdf7092dfc52350be5043f86ecfeae21d21",
     "data/reports/texas_allocation_review_2026_11_05_598_after_review.csv": "1e29f09dc960ed78d248fb158df2f20b9ea9ac186bbb688ddbaa0ecfea622d53",
     "data/reports/texas_allocation_review_2026_11_05_assignments.csv": "e2f1cab127bb796d7b5079cbb4ff7caea02c03a04d27701ff1f593b2e1564b91",
     "data/reports/texas_allocation_review_2026_11_05_case_outcomes.csv": "bbd4fbbe4eeb0e38d93cf97121282b8a2c679a2019ca284ac8477eb73618278f",
@@ -2485,6 +2878,7 @@
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_south_central.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_southeast.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/ut_tx_allocation_followup_2026_11_05_summary.json": "bedb2f4b69a4b3d19d158c3ef3795b65b44238546ec9cca88417836eeb3a3afe",
     "data/reports/ut_tx_allocation_followup_2026_11_05_texas_598_status.csv": "954a8edef5e25d8ee89f1b0744a3dd2cd7e471d281d322579b29b052d93060d9",
     "data/reports/ut_tx_allocation_followup_2026_11_05_texas_added_models.csv": "d6db0480991dd44f9a88166d009d7db9ced1caed1774520357f36e62d78174e6",
@@ -2499,6 +2893,7 @@
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_south_central.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_southeast.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/western_plains_2026_11_04.json": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d",
     "data/reports/western_plains_2026_11_04_backlog.csv": "ecacae4ab40a5783ff7e5d6016f74a94bec19cef2b01ddd149d8ffe354326fe1",
     "data/reports/western_plains_2026_11_04_by_state.csv": "ff1b080d2ead4c41f54c47eb634730f11c4f5564727a12049484402a2d6f8fec",
@@ -2513,7 +2908,7 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
-    "src/dl_outcomes/allocation_coverage.py": "c8a3d7bc429558f5b279d456016b750caa26d33b9f308dc106ac4231a741cfd5",
+    "src/dl_outcomes/allocation_coverage.py": "7849c3081806e00bd21909fcb10bc17c7715a295ba1b8901b1abb80a806df51d",
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
@@ -2525,13 +2920,14 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
-    "src/dl_outcomes/elementary_audit.py": "cf9dbacba527bb8309950830ae522bcba912895b25c43d43e16eff3f905b3d1a",
+    "src/dl_outcomes/elementary_audit.py": "948410ea52e66e03c6d932adfb8785592fbe1ad8c5f643af873090ce8157d51b",
     "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
     "src/dl_outcomes/northern_central_review.py": "82d89b198b573aacb5ba525c893d1bb04b353fe74a2b24fc64f1a115140616c6",
+    "src/dl_outcomes/oh_ky_wv_va_review.py": "4d0d4d2ec6630a7688ae40009c9b3bc2aae3cf1ccfd89245198c8cb0fe88abcb",
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
     "src/dl_outcomes/policy_selection.py": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
@@ -2556,6 +2952,7 @@
     "src/dl_outcomes/states/indiana.py": "0410952d2d8827549cff355e65786dcafbbad249bda56fc1c3baf6e028c20e64",
     "src/dl_outcomes/states/iowa.py": "8fb282dc976135b65086abb419bcb19b2175e6f55639615a1b351aebc24933ef",
     "src/dl_outcomes/states/kansas.py": "9abc6979878adedc35423d78463d38500926c944d4ce4650f74bb678446f534d",
+    "src/dl_outcomes/states/kentucky.py": "156ac5619779d45823500380a3bf435067ca37a7a3b6e83f0eea026235cf5e61",
     "src/dl_outcomes/states/louisiana.py": "a697a3d942514581ee2b5afd6b58dbc31c967cc7d4a8a56500de69a8254e2fc4",
     "src/dl_outcomes/states/michigan.py": "7d33c5d4f319259b66d159718d6e919e1fe7b0ce5a473f1ca83f26a53335818a",
     "src/dl_outcomes/states/minnesota.py": "451c9bf54cf6d481e2bd830a24426c9d61b4c03ac4d9036bfbe3810d089683c5",
@@ -2568,6 +2965,8 @@
     "src/dl_outcomes/states/north_carolina.py": "780e9e57a03909a973b5b16e72dea1c2fbffe05dc672bc77b76d5e4c839f91c9",
     "src/dl_outcomes/states/north_dakota.py": "13e96295482a862f6c278b5ced5584d3519f6275a00c70fc14e107c824c2494a",
     "src/dl_outcomes/states/northern_central.py": "9a888a76db9cf653a9d1cf6b92af466fed60d5ed1faeadb0e0d2f34c1525ff95",
+    "src/dl_outcomes/states/oh_ky_wv_va.py": "15f8586e4749259233f0704bb434d86240cff93bc672c10be916f87c523ee92e",
+    "src/dl_outcomes/states/ohio.py": "72c37d21b2a324dd54815a6665da70fe07d27edb46036cca5e0d64b3794215df",
     "src/dl_outcomes/states/oklahoma.py": "b1f3cadabdb203f3e913adc87b69889d822f84bb806e68059ceb8cd6ef7d4b0a",
     "src/dl_outcomes/states/oregon.py": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8",
     "src/dl_outcomes/states/south_carolina.py": "f0e224b5e3524a9d58137792defc66075b0e196688df37b620fc00242dded392",
@@ -2577,11 +2976,13 @@
     "src/dl_outcomes/states/tennessee.py": "dcf3d8f25680dadbdc624f377986f3bec0538a416cfc315321f0bdee0ca2d090",
     "src/dl_outcomes/states/texas.py": "e13c77a4ab6ae8a871b6e2834aaef3e34209df43099c039b5b0267e86b0c4241",
     "src/dl_outcomes/states/utah.py": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c",
+    "src/dl_outcomes/states/virginia.py": "a7415c0932d7262deb15d235eebb799a5b053758c5602cb55596d28f84a3970c",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
+    "src/dl_outcomes/states/west_virginia.py": "6c9e5252f319e409cad99b49eab0c794a12aee493bef50350cab4473d844d9a0",
     "src/dl_outcomes/states/western_plains.py": "3b6f2e77ce6550049b95fc60d58849ab9b34f7039c2d7d1eaeeefbe1335dad69",
     "src/dl_outcomes/states/wisconsin.py": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "c3278e327b27174ea302e854f358596a8c95195b11b927cc83420186a70e7827",
+    "src/dl_outcomes/structural.py": "5d0e9afaed613e79f786b2d63026b01c6aa9817053254475acb7445497486289",
     "src/dl_outcomes/validation.py": "2c1c0b0c77723ddda35fb8ed2324978df83df304114186e0fa3d03c065992caf",
     "src/dl_outcomes/western_plains_review.py": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
   },
@@ -2591,60 +2992,60 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "f23b40ca36c119b50969ffb86e7d58a2a4839a44cbb058bf89967d7b6a6532e9",
-      "rows": 51
+      "sha256": "02f53f31d6d2636fcded0ca952abaab71840e3e7c87c56631ccfba7890cd90f7",
+      "rows": 55
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "ea6b98ee4d05422607e17c5ba40a1381c1c9a6a61036dbc0a699e9eee0f92571",
-      "rows": 1244
+      "sha256": "27d70fa7825ebd7c25691a1f3c9b8d51b4913d0f61f829b0af904511035e8a03",
+      "rows": 1388
     },
     "data/curated/registry/districts.csv": {
-      "sha256": "d1dd02f932f1e17d016f908db7a2e6c4e7065c01699582bcc29a7a09e870c704",
-      "rows": 993
+      "sha256": "68ff69a8ee92a7b301eb84b631f0aafb548ffdfbd7c0b3d0c5db29c36fed29bc",
+      "rows": 1015
     },
     "data/curated/registry/schools.csv": {
-      "sha256": "3aca7fd38c6cceac4b6cdbe199f15d8cd1ddea5d9ccba68837f9ba34e0e90306",
-      "rows": 5607
+      "sha256": "e523c6e90ad2cd33ce743e6daeff62ec9347af86acffbe37b8e53ec04477dc2d",
+      "rows": 5715
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "868338ee0d5167002e0f6699b67bf07a1f150a801114576f70fe55b9eb3fd152",
-      "rows": 14213
+      "sha256": "b9eebdd58fbc17f23bd6afef695f6603acf3c13df6458a573002daadcecb4384",
+      "rows": 14453
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "ac41775b458831c2ca6a7dd4f9525929765400cc8a52562518045287e66e8190",
-      "rows": 6403
+      "sha256": "16bcca03709462b25e275e08159c6c74c9e0dead4d1e5ef676ff64e54033e1bb",
+      "rows": 6509
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "1c7d35badce77b621d8ae54928b15f002c8cacbd058baab976f2551da11725ec",
-      "rows": 4483
+      "sha256": "71c3eaee9a3057e7ff754d6be25b0b2fa958d1412720edbe445cbcceea0bc797",
+      "rows": 4593
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "61e090df0b2d0a99cdb6ecf57c038b416eaff7fdae548ae7bb9eb81b01349620",
-      "rows": 4483
+      "sha256": "f2df84c7355dfa65226a37a70739510049ec92dde6a4d83b3f809cb922ebc1af",
+      "rows": 4593
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "533b1dfdfa11bfbc12aa49435535b17e730412ce2ba6337c5c16941e1476a41c",
-      "rows": 3371
+      "sha256": "f08dd8b939de271c4d92475790bc5a8cf1b0634a3bf7448b65091371b8b95321",
+      "rows": 3496
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "22f4ff8402c89aad1736a6ebf229abf148ba44096ca6a8b87da912ef26b08aaa",
-      "rows": 7541
+      "sha256": "45f774c535c11c8b75e2e92842b6bf13d0d23a79fd4afd7f7eaba1eb5e5d7e21",
+      "rows": 7831
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "d47690a32ea7d11671c88a3cf83d246d703002c16051e1f7639b51440d555dfe",
-      "rows": 6246
+      "sha256": "65da2391f6c2f18abc7ff0e178fc9a2e9bff4a2d822078bbf8eacf199b40e450",
+      "rows": 6391
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "bca8e3b07fa9140bf7bf0fb7f5491cf96c4d6c7033dfcd618625f37815847720",
-      "rows": 2341
+      "sha256": "494eb0b8a8f6c8ac1d29b830a0d102bfd51bb0154c1614b45a26ef5b404c76eb",
+      "rows": 2429
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "98ecf715f573966206393a574b24560fa21f5842179b773147fed53078a1fd17",
-      "rows": 1078
+      "sha256": "0f21c28200ad66945e3a5dd7c46fff3f7ee9c7de582bc45275eff806bdb1690d",
+      "rows": 1254
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "844574e128a124fe84a2ea95bfc0a2ce57293daa6e62046bb0b012cb923b31f3",
-      "rows": 24732
+      "sha256": "2919bd8a778606258f20961d1b64a8ec8245ff733ec54a2e74d29f19af52069f",
+      "rows": 25300
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -2695,7 +3096,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "0cd653c5247d95781a6df597976b4b8515cccd41e5f3db7362edf9e883250aa2",
+      "sha256": "282ccbab3ed55e01bf410231f25e11fc8c170547a67642cd533f31f383a8d47d",
       "rows": 13200
     }
   },
@@ -2716,6 +3117,7 @@
     "Illinois: 144 user-researched 2021–22 rows retained; later IPA/Urbana changes are separate user-confirmed policies. Historical-only schools do not become confirmed 2025–26 hosts; proficiency remains deferred.",
     "IN: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "KS: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "KY: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "LA: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MN: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -2727,6 +3129,7 @@
     "NE: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NM: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Nevada: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
+    "OH: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "OK: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Oregon: 223 reviewed 2026–27 source observations retain 211 DLI-directory observations and 12 separate screening records. McDaniel aliases and shared Four Rivers NCES identity are preserved. English pairing, composite track models and historical cohorts are not inferred; no assessment collection.",
     "SC: five-state southeast structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -2734,26 +3137,28 @@
     "TN: five-state southeast structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Texas migrates 1863 provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
     "UT: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "VA: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Washington has source-native 2023–24 through 2025–26 program metadata. Academic/enrollment outcomes are a two-school pilot, not statewide outcome coverage or DL-participant results. No English partner, whole-school structure, cohort exposure or NCES match is inferred.",
     "WI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "WV: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Wyoming: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration."
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_05_southeast_program_view.csv": {
-      "sha256": "f9b22fa72e78e5b46ada747378bfffdf7092dfc52350be5043f86ecfeae21d21"
+    "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va_program_view.csv": {
+      "sha256": "4172e17f330d4dbcafc3e6d2751f0466571cc4cd108e3d478c8fb0caa803c05e"
     },
-    "data/reports/structural_inventory_2026_11_05_southeast_by_state.csv": {
-      "sha256": "7cde898ad7a13615351c165118401c9375e906d422b0ed4c2108d1d61df40034"
+    "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va_by_state.csv": {
+      "sha256": "e8fc546e698d5ebb370d8d495d8da38aa675880ce400e88f2eeb8c00a2b38959"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_program.csv": {
-      "sha256": "370a4f3ef023a2377b23e9d9bae83dda507827fd5a33cc6411df40104af823fb"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_program.csv": {
+      "sha256": "2f4a971195ec4161a9038cbac165878d51560f8bbd12df7aaf69e41a6c8cc83e"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_school.csv": {
-      "sha256": "6a812ab1eb33fb04140da060b9c10902ba004b008c7568c42104a38a91790889"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_school.csv": {
+      "sha256": "7b9c93777251a7d675edb1ca93ae1c51e0a561fc4b8057729e1403a586eb8c42"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_state.csv": {
-      "sha256": "b609d6e5fe48c7ae8a5d6a872024abab1e35ef36db1cfd0a6018ebd27b7bac39"
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_state.csv": {
+      "sha256": "af5684dcbda6b467bd2dfba3c70949a399a2b1374055e523c4b2744a7402da70"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -2761,23 +3166,23 @@
     "data/registry/washington/wa_dl_programs_2025_26.csv": {
       "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
     },
-    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_southeast.csv": {
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va.csv": {
       "sha256": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6"
     },
-    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_southeast.csv": {
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va.csv": {
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_school.csv": {
-      "sha256": "a6c5e59029d34d7f210f7ebdff30d948f80abbf30c8af92faac1f6c4bfdb023c"
+    "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_by_school.csv": {
+      "sha256": "f81d03f8270a1f9fbd4624271c6f4a6e7dcc88fd592300e59756e80f88971764"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_state.csv": {
-      "sha256": "2abf4ad016f4c71b1b6f324a06c49948e1ac6f8c504dd4baf60e7f3db6665dbe"
+    "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_by_state.csv": {
+      "sha256": "d0d6ff530d7001319afd6ab801edf6bd85a2da3724b886b182f7d61c856ad4be"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_reference_by_state.csv": {
-      "sha256": "a9edf26ee458cd17f05abb6067ce35880c7256084b96800c843f3f1f289defab"
+    "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_reference_by_state.csv": {
+      "sha256": "5d3a3db17f76f806c0134140ff99650c8799a2c41bcae9d592c34a5ff515895a"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_05_southeast_all_records_by_state.csv": {
-      "sha256": "5debec68382ceec076c0c7c6ed8d50def9532d4e9f199c19000a9bd5b1c89ae6"
+    "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_all_records_by_state.csv": {
+      "sha256": "b4ef4cb6628111ddcd32dca582873f2b7a42ba642b41c5736a07d987c9535135"
     },
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
       "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
@@ -3121,8 +3526,71 @@
     "data/registry/southeast_2026_11_05/tn_screening.csv": {
       "sha256": "1b4815c4452201d2376d6c05867f9771fbf8963e8fb950df252faea4e77f9ea0"
     },
-    "data/reports/structural_inventory_2026_11_05_southeast.json": {
-      "sha256": "328012b0e04bafd3b5c557956c3b17411b1ead0ec95653f97c4b86c3269cc373"
+    "data/reports/oh_ky_wv_va_2026_11_05_program_view.csv": {
+      "sha256": "5c453b9aefc8354a119d4879c146cc010b6ae0cac6f05986ad2a27c7414bec2e"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_schools.csv": {
+      "sha256": "faade8c16866268efbfa50d9156cee46cb2dab8fc8d782876b7f3dd1e9caaaa2"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_by_state.csv": {
+      "sha256": "b98053cb7b150cfd5efc5febfe4398f5b42f68d558e10cc008ac654776211bf2"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_backlog.csv": {
+      "sha256": "c7b92f632515f33ffe4b00737dbbcd934dce0e3cef265d513abb369bd89903da"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_screening.csv": {
+      "sha256": "fc37429692ecfec4a1eb64ee0a6a117fc43a34e15308eac096bcee6ba16ebe78"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/sources.csv": {
+      "sha256": "ecc3973656de4da001f8a26fa35e9e2a795b7d6ab57b4ea3600397835f39b95b"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_change_events.csv": {
+      "sha256": "071bc791fbaff941b9994f6db6434601375453a8b0dd9c34d4c98644c5361ef5"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05_review_cases.csv": {
+      "sha256": "aaf4ab92face49de6f5083c295729ca7b9b1e35e8c8f0b30df22ca557b908163"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/ky_programmes.csv": {
+      "sha256": "94004233dc57079976a0f669dd25afd0735f732734dffaa5a240b9defedcba78"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/ky_schools.csv": {
+      "sha256": "0dd2265c81ca4f393046ab4b8199559fe40785a961ac725b55f4a0e598783237"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/oh_programmes.csv": {
+      "sha256": "dda5812a35a40d57f2584f472758fa74c34a9a39512ad5c3c972a9086dbb24c1"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/oh_schools.csv": {
+      "sha256": "0726d4bfbb8bbb7a1149b6ed7221516a5744094eeb1390db2fb9df866c7da232"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.csv": {
+      "sha256": "935415cbda10b8b6cc4fdb1041897e883e61716c89c596b405fb19056e048545"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/va_schools.csv": {
+      "sha256": "25e8dbe42011eec3de63fe718b24cf825ff259af1de91efb9b5c6bdabff86f17"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/wv_programmes.csv": {
+      "sha256": "4a81949750872d56672e6257226f50e86e3d8bf5a968d9a37cd780b637f7638c"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/wv_schools.csv": {
+      "sha256": "18d6dcfc988299697f7a53a0f2a06859059e53b206da3e88d887f83765277d68"
+    },
+    "data/reports/oh_ky_wv_va_2026_11_05.json": {
+      "sha256": "a06661bb1a154961081ea84c03f83a7fe806b40b2405114fabb3f84047454025"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/ky_screening.csv": {
+      "sha256": "3bd585fb60d8ab5f03ed9b6aafe813eb7288bf8228c57178c7a1e3ce1db6c5e4"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/oh_screening.csv": {
+      "sha256": "180261f1374e9ea022974940f8b6c02da35b200cb0c48947b143db4ef10d701e"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/va_screening.csv": {
+      "sha256": "f15c2a8f3acbf71b074f0374635ab4734d782494657bdc0f0b7e53936a3b004b"
+    },
+    "data/registry/oh_ky_wv_va_2026_11_05/wv_screening.csv": {
+      "sha256": "c28959127d78bb0ec1c22281af35ecceb5e9e638a0d714a8563100b11ccf6e1b"
+    },
+    "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va.json": {
+      "sha256": "87e3f049b09fe98c7e9d03189f954d20cfd3b3ef80f0e8dafc1689ccba56acd9"
     }
   }
 }

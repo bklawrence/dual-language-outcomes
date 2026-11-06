@@ -1,0 +1,98 @@
+[
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 1,
+    "raw": {
+      "school": "Frederick Douglass Elementary School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-a7a6e8e059b4"
+    ],
+    "school_ids": [
+      "E4-VA-S-0b96b1ae46f8"
+    ],
+    "disposition": "integrated",
+    "notes": "Current official host with source-specific grade context."
+  },
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 2,
+    "raw": {
+      "school": "Garland R. Quarles Elementary School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-9b5c6fb5a15f"
+    ],
+    "school_ids": [
+      "E4-VA-S-4997d027a6fa"
+    ],
+    "disposition": "integrated",
+    "notes": "Current official host with source-specific grade context."
+  },
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 3,
+    "raw": {
+      "school": "John Kerr Elementary School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-e2b86a42da65"
+    ],
+    "school_ids": [
+      "E4-VA-S-27c18bd2c549"
+    ],
+    "disposition": "integrated",
+    "notes": "2026 launch excluded from reference working set."
+  },
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 4,
+    "raw": {
+      "school": "Virginia Avenue Charlotte DeHart Elementary School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-bcc315593e39"
+    ],
+    "school_ids": [
+      "E4-VA-S-83408627a604"
+    ],
+    "disposition": "integrated",
+    "notes": "Current official host with source-specific grade context."
+  },
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 5,
+    "raw": {
+      "school": "Daniel Morgan Intermediate School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-c8ffe299df71"
+    ],
+    "school_ids": [
+      "E4-VA-S-9d8fa948f0c1"
+    ],
+    "disposition": "integrated",
+    "notes": "Current official host with source-specific grade context."
+  },
+  {
+    "source_key": "e4_va_winchester",
+    "source_row": 6,
+    "raw": {
+      "school": "Daniel Morgan Middle School",
+      "source_roster": "current website"
+    },
+    "program_ids": [
+      "E4-VA-P-f3dd16ca0814"
+    ],
+    "school_ids": [
+      "E4-VA-S-545390627560"
+    ],
+    "disposition": "integrated",
+    "notes": "Current official host with source-specific grade context."
+  }
+]

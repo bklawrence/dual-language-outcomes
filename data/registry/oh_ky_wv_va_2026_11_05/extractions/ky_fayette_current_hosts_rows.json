@@ -1,0 +1,77 @@
+[
+  {
+    "source_key": "e4_ky_fayette",
+    "source_row": 1,
+    "raw": {
+      "source_school": "Cardinal Valley"
+    },
+    "program_ids": [
+      "E4-KY-P-50c365650980"
+    ],
+    "school_ids": [
+      "E4-KY-S-dc979bf39d00"
+    ],
+    "disposition": "integrated",
+    "notes": "Current five-site roster, not all historical Kentucky hosts."
+  },
+  {
+    "source_key": "e4_ky_fayette",
+    "source_row": 2,
+    "raw": {
+      "source_school": "Liberty"
+    },
+    "program_ids": [
+      "E4-KY-P-b2c0007d0cb9"
+    ],
+    "school_ids": [
+      "E4-KY-S-b3d8f3c59c32"
+    ],
+    "disposition": "integrated",
+    "notes": "Current five-site roster, not all historical Kentucky hosts."
+  },
+  {
+    "source_key": "e4_ky_fayette",
+    "source_row": 3,
+    "raw": {
+      "source_school": "Maxwell"
+    },
+    "program_ids": [
+      "E4-KY-P-7b499d93d9fa"
+    ],
+    "school_ids": [
+      "E4-KY-S-291ceb18b92a"
+    ],
+    "disposition": "integrated",
+    "notes": "Current five-site roster, not all historical Kentucky hosts."
+  },
+  {
+    "source_key": "e4_ky_fayette",
+    "source_row": 4,
+    "raw": {
+      "source_school": "Bryan Station Middle"
+    },
+    "program_ids": [
+      "E4-KY-P-a87f46c2d273"
+    ],
+    "school_ids": [
+      "E4-KY-S-caa2f9490e7e"
+    ],
+    "disposition": "integrated",
+    "notes": "Current five-site roster, not all historical Kentucky hosts."
+  },
+  {
+    "source_key": "e4_ky_fayette",
+    "source_row": 5,
+    "raw": {
+      "source_school": "Bryan Station High"
+    },
+    "program_ids": [
+      "E4-KY-P-d6786df929f7"
+    ],
+    "school_ids": [
+      "E4-KY-S-5ce3a19a1ba9"
+    ],
+    "disposition": "integrated",
+    "notes": "Current five-site roster, not all historical Kentucky hosts."
+  }
+]

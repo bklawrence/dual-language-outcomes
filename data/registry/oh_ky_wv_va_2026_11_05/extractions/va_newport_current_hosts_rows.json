@@ -1,0 +1,90 @@
+[
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 1,
+    "raw": {
+      "school": "Katherine G. Johnson Elementary School",
+      "grade_level": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-cfd50373c3a2"
+    ],
+    "school_ids": [
+      "E4-VA-S-1fbb8d0d49ed"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 2,
+    "raw": {
+      "school": "Saunders Elementary School",
+      "grade_level": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-eb6e4efee21f"
+    ],
+    "school_ids": [
+      "E4-VA-S-e934312efbd0"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 3,
+    "raw": {
+      "school": "Gildersleeve Middle School",
+      "grade_level": "6-8"
+    },
+    "program_ids": [
+      "E4-VA-P-543338979433"
+    ],
+    "school_ids": [
+      "E4-VA-S-a572258c5bd4"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 4,
+    "raw": {
+      "school": "Menchville High School",
+      "grade_level": "9-12"
+    },
+    "program_ids": [
+      "E4-VA-P-fce2a33da6f1"
+    ],
+    "school_ids": [
+      "E4-VA-S-2821626728cf"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 5,
+    "raw": {
+      "school": "Denbigh Early Childhood Center",
+      "grade_level": "preschool"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Preschool-only, not a K-12 programme record."
+  },
+  {
+    "source_key": "e4_va_newport_sites",
+    "source_row": 6,
+    "raw": {
+      "school": "Watkins Early Childhood Center",
+      "grade_level": "preschool"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Preschool-only, not a K-12 programme record."
+  }
+]

@@ -1,0 +1,716 @@
+[
+  {
+    "program_id": "E4-OH-P-79db4c423b27",
+    "school_id": "E4-OH-S-f7e45ac8156b",
+    "state": "OH",
+    "district": "Cincinnati Public Schools",
+    "school": "Academy of Multilingual Immersion Studies",
+    "track": "Spanish immersion",
+    "notes": "Official current curriculum is Spanish-English 50/50 academic immersion. Multilingual school name and duplicate third-party AMIS entries do not create an additional current French strand.",
+    "observations": [
+      {
+        "source": "e4_oh_amis_acad",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Academy of Multilingual Immersion Studies / Spanish immersion",
+        "notes": "Official current curriculum is Spanish-English 50/50 academic immersion. Multilingual school name and duplicate third-party AMIS entries do not create an additional current French strand.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_amis_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Academy of Multilingual Immersion Studies / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_amis_acad",
+      "locator": "Academy of Multilingual Immersion Studies / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-79db4c423b27-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-905b5e97480b",
+    "school_id": "E4-OH-S-1ae8e645eb95",
+    "state": "OH",
+    "district": "Cleveland Municipal School District",
+    "school": "Buhrer Dual Language Academy",
+    "track": "Spanish immersion",
+    "notes": "Official academic programme gives 50-50 for core subjects; 2025–26 enrolment application and district-operated school profile confirm continuing host. Linguistic population model not inferred from school demographics.",
+    "observations": [
+      {
+        "source": "e4_oh_buhrer_acad",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Buhrer Dual Language Academy / Spanish immersion",
+        "notes": "Official academic programme gives 50-50 for core subjects; 2025–26 enrolment application and district-operated school profile confirm continuing host. Linguistic population model not inferred from school demographics.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_buhrer_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Buhrer Dual Language Academy / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_buhrer_acad",
+      "locator": "Buhrer Dual Language Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-905b5e97480b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-f08a6dc1b34d",
+    "school_id": "E4-OH-S-a97ebf154577",
+    "state": "OH",
+    "district": "Cleveland Municipal School District",
+    "school": "Luis Muñoz Marín Dual Language Academy",
+    "track": "Spanish immersion",
+    "notes": "Current academic page says half day English and half Spanish and no all-English option moving forward. Relative phrase this school year is not assigned a calendar date; historical district directory lead and bounded current review support reference continuity. Whole-school conversion effective year remains unresolved.",
+    "observations": [
+      {
+        "source": "e4_oh_lmm_acad",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Luis Muñoz Marín Dual Language Academy / Spanish immersion",
+        "notes": "Current academic page says half day English and half Spanish and no all-English option moving forward. Relative phrase this school year is not assigned a calendar date; historical district directory lead and bounded current review support reference continuity. Whole-school conversion effective year remains unresolved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_lmm_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Luis Muñoz Marín Dual Language Academy / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_lmm_acad",
+      "locator": "Luis Muñoz Marín Dual Language Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-f08a6dc1b34d-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Undated whole-school expansion announcement: effective year and prior strand structure need confirmation"
+    ]
+  },
+  {
+    "program_id": "E4-OH-P-03d9cbd8b56f",
+    "school_id": "E4-OH-S-cdc89866a34c",
+    "state": "OH",
+    "district": "Columbus City Schools",
+    "school": "Columbus Spanish Immersion Academy",
+    "track": "Spanish immersion",
+    "notes": "2025–26 student handbook confirms bilingual operation. Undated About page says 50/50 K-5, while Academics says K 80/20, grade 1 70/30, grade 2 60/40, grades 3-5 50/50. Both are preserved; model transition/effective dates require review.",
+    "observations": [
+      {
+        "source": "e4_oh_spanish_handbook",
+        "period": "2025-26",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Columbus Spanish Immersion Academy / Spanish immersion",
+        "notes": "2025–26 student handbook confirms bilingual operation. Undated About page says 50/50 K-5, while Academics says K 80/20, grade 1 70/30, grade 2 60/40, grades 3-5 50/50. Both are preserved; model transition/effective dates require review.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_about",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "About page explicitly says 50/50 K-5; conflicts with undated Academics grade progression.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "Academics page gives grade-specific 80/20 -> 70/30 -> 60/40 -> 50/50 progression; no effective school year supplied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_columbus_spanish_about",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Columbus Spanish Immersion Academy / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "CONFLICTING_UNDATED_OFFICIAL_MODELS"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Columbus Spanish Immersion Academy / K instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "CONFLICTING_UNDATED_OFFICIAL_MODELS"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "1",
+        "label": "70/30",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Columbus Spanish Immersion Academy / 1 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "CONFLICTING_UNDATED_OFFICIAL_MODELS"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "2",
+        "label": "60/40",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Columbus Spanish Immersion Academy / 2 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "CONFLICTING_UNDATED_OFFICIAL_MODELS"
+      },
+      {
+        "source": "e4_oh_columbus_spanish_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "3-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Columbus Spanish Immersion Academy / 3-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "CONFLICTING_UNDATED_OFFICIAL_MODELS"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "dated_operator_handbook",
+      "period": "2025-26",
+      "source": "e4_oh_spanish_handbook",
+      "locator": "Columbus Spanish Immersion Academy / Spanish immersion",
+      "notes": "2025–26 student handbook confirms bilingual operation. Undated About page says 50/50 K-5, while Academics says K 80/20, grade 1 70/30, grade 2 60/40, grades 3-5 50/50. Both are preserved; model transition/effective dates require review."
+    },
+    "review_reasons": [
+      "Two undated official pages conflict about K-2 instructional allocation; preserve both without choosing a 2025 model"
+    ]
+  },
+  {
+    "program_id": "E4-OH-P-8f33caf5d538",
+    "school_id": "E4-OH-S-df8dd17ae160",
+    "state": "OH",
+    "district": "Columbus City Schools",
+    "school": "Ecole Kenwood French Immersion Elementary School",
+    "track": "French immersion",
+    "notes": "District brochure names French and English academic instruction, full academic-day French in kindergarten and 50/50 by fifth grade. Intermediate grade percentages are unspecified; do not interpolate them.",
+    "observations": [
+      {
+        "source": "e4_oh_kenwood_fastfacts24",
+        "period": "district Fast Facts 24 brochure, school year not explicitly stated",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Ecole Kenwood French Immersion Elementary School / French immersion",
+        "notes": "District brochure names French and English academic instruction, full academic-day French in kindergarten and 50/50 by fifth grade. Intermediate grade percentages are unspecified; do not interpolate them.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_kenwood_fastfacts24",
+        "period": "district Fast Facts 24 brochure, school year not explicitly stated",
+        "grade": "K",
+        "label": "100/0",
+        "shares": {
+          "French": 100,
+          "English": 0
+        },
+        "locator": "Ecole Kenwood French Immersion Elementary School / K instructional model",
+        "notes": "Fully immersed in French for the academic day; percentage refers to academic instruction, not an observed full bell schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "e4_oh_kenwood_fastfacts24",
+        "period": "district Fast Facts 24 brochure, school year not explicitly stated",
+        "grade": "5",
+        "label": "50/50",
+        "shares": {
+          "French": 50,
+          "English": 50
+        },
+        "locator": "Ecole Kenwood French Immersion Elementary School / 5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "district Fast Facts 24 brochure, school year not explicitly stated",
+      "source": "e4_oh_kenwood_fastfacts24",
+      "locator": "Ecole Kenwood French Immersion Elementary School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-8f33caf5d538-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-cec09d7a1d18",
+    "school_id": "E4-OH-S-7cc246ffe07a",
+    "state": "OH",
+    "district": "Columbus City Schools",
+    "school": "World Language Middle School",
+    "track": "French immersion",
+    "notes": "Official middle-school description and feeder pages identify French/English and Spanish/English academic immersion continuations. Secondary host retained; no elementary allocation assigned.",
+    "observations": [
+      {
+        "source": "e4_oh_world_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "World Language Middle School / French immersion",
+        "notes": "Official middle-school description and feeder pages identify French/English and Spanish/English academic immersion continuations. Secondary host retained; no elementary allocation assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_world_about",
+      "locator": "World Language Middle School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-cec09d7a1d18-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-028ac6d90f36",
+    "school_id": "E4-OH-S-7cc246ffe07a",
+    "state": "OH",
+    "district": "Columbus City Schools",
+    "school": "World Language Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official middle-school description and feeder pages identify French/English and Spanish/English academic immersion continuations. Secondary host retained; no elementary allocation assigned.",
+    "observations": [
+      {
+        "source": "e4_oh_world_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "World Language Middle School / Spanish immersion",
+        "notes": "Official middle-school description and feeder pages identify French/English and Spanish/English academic immersion continuations. Secondary host retained; no elementary allocation assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_world_about",
+      "locator": "World Language Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-028ac6d90f36-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-84350e1036ba",
+    "school_id": "E4-OH-S-f819c3e468c1",
+    "state": "OH",
+    "district": "Mansfield City Schools",
+    "school": "Mansfield Spanish Immersion School",
+    "track": "Spanish immersion",
+    "notes": "January 5, 2026 public-radio reporting observes academic Spanish and quotes principal: all instruction K-2 Spanish, English introduced grade 3. Public district magnet, not a charter. Staff/budget cuts and prior building move are described, but operation continues; no dated campus move inferred.",
+    "observations": [
+      {
+        "source": "e4_oh_mansfield_news26",
+        "period": "2025-26",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Mansfield Spanish Immersion School / Spanish immersion",
+        "notes": "January 5, 2026 public-radio reporting observes academic Spanish and quotes principal: all instruction K-2 Spanish, English introduced grade 3. Public district magnet, not a charter. Staff/budget cuts and prior building move are described, but operation continues; no dated campus move inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_mansfield_news26",
+        "period": "2025-26",
+        "grade": "K-2",
+        "label": "100/0",
+        "shares": {
+          "Spanish": 100,
+          "English": 0
+        },
+        "locator": "Mansfield Spanish Immersion School / K-2 instructional model",
+        "notes": "Principal says reading, writing, math, social studies and all instruction K-2 totally in Spanish. Academic instructional basis, not a measured bell schedule. Later-grade percentages unspecified.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "dated_in_year_direct_reporting_with_operator_quotes",
+      "period": "2025-26",
+      "source": "e4_oh_mansfield_news26",
+      "locator": "Mansfield Spanish Immersion School / Spanish immersion",
+      "notes": "January 5, 2026 public-radio reporting observes academic Spanish and quotes principal: all instruction K-2 Spanish, English introduced grade 3. Public district magnet, not a charter. Staff/budget cuts and prior building move are described, but operation continues; no dated campus move inferred."
+    },
+    "review_reasons": [
+      "Recent facility move and staffing cuts reported without exact move year; preserve provisional school identity and verify any campus history separately"
+    ]
+  },
+  {
+    "program_id": "E4-OH-P-f784a71ee747",
+    "school_id": "E4-OH-S-02ca4db4c5b5",
+    "state": "OH",
+    "district": "Public charter operator: Columbus Bilingual Academy North",
+    "school": "Columbus Bilingual Academy North",
+    "track": "Spanish immersion",
+    "notes": "Current public-charter page explicitly delivers core content in English and Spanish. No numerical model; population/delivery type unresolved. Fall 2026 kindergarten recruitment is a later admissions notice, not evidence of a first programme launch.",
+    "observations": [
+      {
+        "source": "e4_oh_bilingual_north",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Columbus Bilingual Academy North / Spanish immersion",
+        "notes": "Current public-charter page explicitly delivers core content in English and Spanish. No numerical model; population/delivery type unresolved. Fall 2026 kindergarten recruitment is a later admissions notice, not evidence of a first programme launch.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "e4_oh_bilingual_acad",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "Detailed curriculum lists Spanish among electives and describes language support, while home page explicitly claims core content in both languages. Conflicting scope descriptions require operator clarification.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "academic_immersion_scope_unconfirmed",
+      "scope": "bilingual_support_or_immersion_unresolved",
+      "funding": "public_charter_programme",
+      "method": "conflicting_official_academic_scope_descriptions",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_bilingual_north",
+      "locator": "Columbus Bilingual Academy North / Spanish immersion",
+      "notes": "Public charter funding is documented, but homepage dual-language/core-content claim versus detailed Spanish-elective curriculum is unresolved. Not counted in qualifying reference working set pending academic immersion verification."
+    },
+    "review_reasons": [
+      "Homepage academic bilingual claim conflicts with detailed curriculum listing Spanish among electives; programme scope needs review"
+    ]
+  },
+  {
+    "program_id": "E4-OH-P-f2a495502c93",
+    "school_id": "E4-OH-S-cdb77a8b18e4",
+    "state": "OH",
+    "district": "Public charter operator: Global Ambassadors Language Academy",
+    "school": "Global Ambassadors Language Academy",
+    "track": "Mandarin Chinese immersion",
+    "notes": "Official public-charter programme describes two one-way 50/50 language tracks and separate K-5 and 6-8 subject tables. Only elementary allocation is coded.",
+    "observations": [
+      {
+        "source": "e4_oh_gala",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Mandarin Chinese",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Global Ambassadors Language Academy / Mandarin Chinese immersion",
+        "notes": "Official public-charter programme describes two one-way 50/50 language tracks and separate K-5 and 6-8 subject tables. Only elementary allocation is coded.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_gala",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Mandarin Chinese": 50,
+          "English": 50
+        },
+        "locator": "Global Ambassadors Language Academy / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_gala",
+      "locator": "Global Ambassadors Language Academy / Mandarin Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-f2a495502c93-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "E4-OH-P-d9f31d112427",
+    "school_id": "E4-OH-S-cdb77a8b18e4",
+    "state": "OH",
+    "district": "Public charter operator: Global Ambassadors Language Academy",
+    "school": "Global Ambassadors Language Academy",
+    "track": "Spanish immersion",
+    "notes": "Official public-charter programme describes two one-way 50/50 language tracks and separate K-5 and 6-8 subject tables. Only elementary allocation is coded.",
+    "observations": [
+      {
+        "source": "e4_oh_gala",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Global Ambassadors Language Academy / Spanish immersion",
+        "notes": "Official public-charter programme describes two one-way 50/50 language tracks and separate K-5 and 6-8 subject tables. Only elementary allocation is coded.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "e4_oh_gala",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Global Ambassadors Language Academy / K-5 instructional model",
+        "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "e4_oh_gala",
+      "locator": "Global Ambassadors Language Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "E4-OH-P-d9f31d112427-CONTINUITY-2025-26"
+  }
+]

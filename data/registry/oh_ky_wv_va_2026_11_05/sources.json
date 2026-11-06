@@ -1,0 +1,1052 @@
+[
+  {
+    "key": "e4_ccd2024_KY",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_KY.json",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_KY.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: KY",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=21&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T00:49:04.705450+00:00",
+    "sha256": "09462cc028765f1255b3a038852f141ba63bb6f27eba634dac9fc245d588b1fd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ccd2024_OH",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_OH.json",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_OH.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: OH",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=39&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T00:48:56.677485+00:00",
+    "sha256": "3b72fac972d281c9c42e6ad23d1e495b8335a41f125aebfe8cec8d9830d317b4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ccd2024_VA",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_VA.json",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_VA.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: VA",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=51&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T00:49:11.528232+00:00",
+    "sha256": "6d65a062fc3242d438e7a5ee2f5486bb5ace712a7a8a6e939cb4f10c52287f5a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_bloomfield",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield.html.metadata.json",
+    "title": "BLOOMFIELD ELEMENTARY SCHOOL",
+    "url": "https://bes.nelson.kyschools.us/",
+    "retrieved_at": "2026-11-06T01:00:30.519946+00:00",
+    "sha256": "038ca8c1a08e404f9ec30becbe297b2449ba7937ca4f7844caacb023eaa15be1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_bloomfield_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_bloomfield_directory.html.metadata.json",
+    "title": "Bloomfield Elementary School - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/bloomfield-elementary-school/",
+    "retrieved_at": "2026-11-06T00:59:30.490964+00:00",
+    "sha256": "bd0137fb4d74b956ed7a6755f37b9ece215e2aa8ad344adfb65710fd2fa5c954",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_directory.html.metadata.json",
+    "title": "Dual Language Schools in Kentucky",
+    "url": "https://duallanguageschools.org/schools/ky/",
+    "retrieved_at": "2026-11-06T00:53:07.744040+00:00",
+    "sha256": "547f2645a4296ca02ffadd2ea10d177fceeaa7bea54cf92dc976608273024745",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_doe",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_doe.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_doe.html.metadata.json",
+    "title": "Language Immersion - Kentucky Department of Education",
+    "url": "https://www.education.ky.gov/curriculum/conpro/Worldlang/Pages/Language-Immersion.aspx",
+    "retrieved_at": "2026-11-06T00:44:31.725511+00:00",
+    "sha256": "a9d372876c2772c4c5aa41570f60907c1000ee8660ba56fb70131bd78407e1d3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_fayette",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette.html.metadata.json",
+    "title": "Dual Language Immersion - Fayette County Public Schools",
+    "url": "https://www.fcps.net/academic-programs/world-language-programs/dual-language-immersion-programs",
+    "retrieved_at": "2026-11-06T00:44:31.726391+00:00",
+    "sha256": "5539db759dcfc7d335afdd368fa2a9f629baae76e5080fd3ee8fb9b1be7b2463",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_fayette_brochure",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette_brochure.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette_brochure.pdf.metadata.json",
+    "title": "e4_ky_fayette_brochure",
+    "url": "https://www.fcps.net/fs/resource-manager/view/bb004870-d9b5-4179-b6d6-946d11ec8afe",
+    "retrieved_at": "2026-11-06T00:46:02.577611+00:00",
+    "sha256": "e6186e6686f87835170fcb1efcc4cf142d534a251d8bbf79a29ade0fee0f5db4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_goldsmith_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_about.html.metadata.json",
+    "title": "About Us | Goldsmith Elementary",
+    "url": "https://www.jefferson.kyschools.us/o/goldsmith/page/about",
+    "retrieved_at": "2026-11-06T01:00:30.518214+00:00",
+    "sha256": "533439036f5623d01dc202d8b00de80c91316385f05432f6e3ad0cd2ac19d79c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_goldsmith_services",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_services.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_goldsmith_services.html.metadata.json",
+    "title": "Services | Goldsmith Elementary",
+    "url": "https://www.jefferson.kyschools.us/o/goldsmith/page/services",
+    "retrieved_at": "2026-11-06T01:01:33.363528+00:00",
+    "sha256": "0105024e43a0e8258a5a59a63f498c3abdde734f19aefbf78d7f1b61f261c1ab",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_hawthorne",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_hawthorne.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_hawthorne.html.metadata.json",
+    "title": "Spanish Immersion | Hawthorne Elementary",
+    "url": "https://www.jefferson.kyschools.us/o/hawthorne/page/spanish-immersion",
+    "retrieved_at": "2026-11-06T00:48:49.937182+00:00",
+    "sha256": "36fbcfb1652420d456a710fbe796bfc9ae9491d156ba8476c80fe87a14b9bda3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_highland_cut24",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_cut24.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_cut24.html.metadata.json",
+    "title": "Highland Middle School's Spanish classes cut",
+    "url": "https://spectrumnews1.com/ky/louisville/news/2024/09/25/one-jcps-middle-school-s-spanish-classes-was-cut",
+    "retrieved_at": "2026-11-06T00:58:13.851401+00:00",
+    "sha256": "321a4ca4d0eb7ade1161d819ed6c2d0472df9f4a520562d96ba7845ce5679fd7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_highland_news",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_news.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_highland_news.html.metadata.json",
+    "title": "News | Highland Middle",
+    "url": "https://www.jefferson.kyschools.us/o/highland/news",
+    "retrieved_at": "2026-11-06T01:02:34.641702+00:00",
+    "sha256": "7eb9d8541785cc333b15b756a66114c4b105005bfe65024ef7b4f1a0b961a38c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_jcps_immersion",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_jcps_immersion.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_jcps_immersion.html.metadata.json",
+    "title": "JCPS World Languages - Schools w/ Dual Immersion Programs",
+    "url": "https://sites.google.com/jefferson.kyschools.us/jcpsworldlanguages/resources/resources-by-language/dual-immersion/schools-w-dual-immersion-programs",
+    "retrieved_at": "2026-11-06T00:58:13.850546+00:00",
+    "sha256": "e0f47aec5c1a04062f157ca1b2928db637babb5caf25764125a36af3a7ba0bb2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_northern",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern.html.metadata.json",
+    "title": "Home - Northern Elementary",
+    "url": "https://northern.fcps.net/",
+    "retrieved_at": "2026-11-06T00:58:13.852076+00:00",
+    "sha256": "b5212ae4a81f91a3f120f694dae243ea9e5f51980d834434e9a1aff4680f8638",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_northern_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_northern_about.html.metadata.json",
+    "title": "About the School - Northern Elementary",
+    "url": "https://northern.fcps.net/about-us/about-the-school",
+    "retrieved_at": "2026-11-06T01:00:30.519149+00:00",
+    "sha256": "b79ef1fa2f2c789c6fbbaa82a39f783237bd24d04fe3e2fd902369fa790bf79a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_ky_teacher18",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_teacher18.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_teacher18.html.metadata.json",
+    "title": "Language immersion in Kentucky – Kentucky Teacher",
+    "url": "https://www.kentuckyteacher.org/subjects/global-competency-world-languages/2018/02/language-immersion-in-kentucky/",
+    "retrieved_at": "2026-11-06T00:44:31.727036+00:00",
+    "sha256": "fe12c8758411d241a54b9bc99dd172b8e577ee7506317f070eba9176e4fa957f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_akron_world",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_akron_world.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_akron_world.html.metadata.json",
+    "title": "World Languages | Academics | Akron Public Schools",
+    "url": "https://www.akronschools.com/academics/academic-subjects/world-languages",
+    "retrieved_at": "2026-11-06T00:58:16.010400+00:00",
+    "sha256": "3cee2202d2435010927a4a454a8b929a6236940c3c2d54a5a8e3b53597caa795",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_amis_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_amis_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_amis_acad.html.metadata.json",
+    "title": "Academics - AMIS - Academy of Multilingual Immersion Studies",
+    "url": "https://amis.cps-k12.org/academics",
+    "retrieved_at": "2026-11-06T00:58:13.853512+00:00",
+    "sha256": "d408ebb495bd646e3e8a388a7dc1197e7ee38e962da8ae42df76fa9170b55883",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bilingual_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_about.html.metadata.json",
+    "title": "Our School | Columbus Bilingual Academy North",
+    "url": "https://cbaschool.org/about/school",
+    "retrieved_at": "2026-11-06T01:00:30.524455+00:00",
+    "sha256": "b4bea5649ad1788cefedf6257ab947e0fdfa98c805b04a8996c2314c3abb2835",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bilingual_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_acad.html.metadata.json",
+    "title": "Academics | Columbus Bilingual Academy North",
+    "url": "https://cbaschool.org/academics",
+    "retrieved_at": "2026-11-06T01:07:58.337443+00:00",
+    "sha256": "faebfde6a94af499212d707c526198c014bfe774dcde75adeacca7ebf1ed81b7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bilingual_north",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_north.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_north.html.metadata.json",
+    "title": "Columbus Bilingual Academy North | Tuition-Free, K-8 Bilingual Charter School in Columbus, OH.",
+    "url": "https://cbaschool.org/",
+    "retrieved_at": "2026-11-06T00:58:15.134156+00:00",
+    "sha256": "e4aa355975f81b0ea11c670f696ac82bb951fe6f7c57892889cb7f464010654f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bilingual_west",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west.html.metadata.json",
+    "title": "Academics | Columbus Bilingual West",
+    "url": "https://cbwschool.org/academics",
+    "retrieved_at": "2026-11-06T01:05:16.861482+00:00",
+    "sha256": "630f4b62f6f5d2a595632c10f8116c2c79217bccf8b815ce80393c59cc994d3b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bilingual_west_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bilingual_west_about.html.metadata.json",
+    "title": "Our School | Columbus Bilingual West",
+    "url": "https://cbwschool.org/about/school",
+    "retrieved_at": "2026-11-06T01:05:18.347763+00:00",
+    "sha256": "e74bd0ec57ed8ff67acd99e4c73788084aebfa3ce4c203f0826a0b5552f9165c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_bondhill_curriculum",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bondhill_curriculum.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_bondhill_curriculum.html.metadata.json",
+    "title": "Curriculum Overview - Bond Hill Academy",
+    "url": "https://bondhill.cps-k12.org/academics/curriculum-overview",
+    "retrieved_at": "2026-11-06T01:01:32.552012+00:00",
+    "sha256": "19712208ef1ff9a06c43492e1d03ee08cad5283e0a16b81d03f41537c21dc9ce",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_buhrer_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_acad.html.metadata.json",
+    "title": "Academics",
+    "url": "https://buhrer.clevelandmetroschools.org/academics",
+    "retrieved_at": "2026-11-06T00:59:28.615473+00:00",
+    "sha256": "553feefc10c294a73e47adfb18f57d47fe9a6e5a4131e8e53ceaba93a3374949",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_buhrer_alliance",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_alliance.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_buhrer_alliance.html.metadata.json",
+    "title": "Buhrer School - My Cleveland Schools ic_fluent_people_team_28_filled",
+    "url": "https://mycleschool.org/schools/buhrer-dual-language-academy/",
+    "retrieved_at": "2026-11-06T00:59:28.694675+00:00",
+    "sha256": "fd4791080bda89162a33836679edc994eceba6b4b0bfd60ae6f9e7feb792a50b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_cincinnati_amis",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cincinnati_amis.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cincinnati_amis.html.metadata.json",
+    "title": "Home - AMIS - Academy of Multilingual Immersion Studies",
+    "url": "https://amis.cps-k12.org/",
+    "retrieved_at": "2026-11-06T00:48:50.274449+00:00",
+    "sha256": "96a4fb5b67185af49bbaabac661be7364f92a2908ff8e0ffbc600fe5ba04d039",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_cleveland_buhrer",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cleveland_buhrer.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_cleveland_buhrer.html.metadata.json",
+    "title": "Enrollment Application & Information",
+    "url": "https://buhrer.clevelandmetroschools.org/about-our-school/enrollment-application-information",
+    "retrieved_at": "2026-11-06T00:46:02.577251+00:00",
+    "sha256": "42ffa75fe2192a1621d3d509a8b68d292f869bcde791394114a9d48df7559613",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_columbus_french",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_french.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_french.html.metadata.json",
+    "title": "About - Ecole Kenwood French Immersion Elementary School",
+    "url": "https://ecolekenwoodes.ccsoh.us/our-school/about",
+    "retrieved_at": "2026-11-06T00:46:03.467972+00:00",
+    "sha256": "8550d659f788142c7d95b7ee91530903ee1b9293877e4cf2cf56bf3af7172701",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_columbus_spanish_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_about.html.metadata.json",
+    "title": "About - Columbus Spanish Immersion Academy",
+    "url": "https://columbusspanishimmersion.ccsoh.us/our-school/about",
+    "retrieved_at": "2026-11-06T00:53:04.689665+00:00",
+    "sha256": "65260dfe6174d9b2cb15bb5c8c82eadf6a28875a7071100ff706e0980b30fd01",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_columbus_spanish_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_columbus_spanish_acad.html.metadata.json",
+    "title": "Academics - Columbus Spanish Immersion Academy",
+    "url": "https://columbusspanishimmersion.ccsoh.us/academics",
+    "retrieved_at": "2026-11-06T00:53:07.515612+00:00",
+    "sha256": "8d05a02a890645d08845e9a9a5d3b16d99affbfb7c053badddf09520c4b924c9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_directory.html.metadata.json",
+    "title": "Dual Language Schools in Ohio",
+    "url": "https://duallanguageschools.org/schools/oh/",
+    "retrieved_at": "2026-11-06T00:53:05.443980+00:00",
+    "sha256": "9f872836a6f845b086a54e74f4c9507a3cceff7fb7a774155d43e0a2b3a671ee",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_fairview_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_acad.html.metadata.json",
+    "title": "Academics - Fairview-Clifton German Language School",
+    "url": "https://fairview.cps-k12.org/academics",
+    "retrieved_at": "2026-11-06T00:58:13.854637+00:00",
+    "sha256": "5ed5bb9d591e28965b330347fd41fefbed53dfb8eab3841aea05536667d700b9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_fairview_parent",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_parent.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_fairview_parent.html.metadata.json",
+    "title": "German Curriculum — Fairview-Clifton German Language School",
+    "url": "https://www.gebas.org/german-curriculum",
+    "retrieved_at": "2026-11-06T00:58:14.851795+00:00",
+    "sha256": "5edd1b6086e6764143d93a8857db866c2f8a31c203b69993aadd62266b15e06a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_gala",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_gala.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_gala.html.metadata.json",
+    "title": "Dual Language Immersion | Spanish & Mandarin at GALA",
+    "url": "https://galacleveland.org/dual-language-immersion/",
+    "retrieved_at": "2026-11-06T00:44:33.624030+00:00",
+    "sha256": "909f8cc1de2af25f8663939f2050105f3fb747765d055af50cdbb45233198534",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_kenwood_fastfacts24",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_kenwood_fastfacts24.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_kenwood_fastfacts24.pdf.metadata.json",
+    "title": "e4_oh_kenwood_fastfacts24",
+    "url": "https://resources.finalsite.net/images/v1758188853/ccsohus/cujqchr8lorbvt47xc4u/EcoleKenwoodFastFacts24.pdf",
+    "retrieved_at": "2026-11-06T01:01:32.373919+00:00",
+    "sha256": "dfa4618962e17b47a559871c2900de6e33e6455ca6e97c9afc4c1f7eebe67e4c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_lmm_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_acad.html.metadata.json",
+    "title": "Academics",
+    "url": "https://lmm.clevelandmetroschools.org/academics",
+    "retrieved_at": "2026-11-06T01:00:34.452334+00:00",
+    "sha256": "9ed683b02dd59a8c33a728c176f7c6254d9e2dae0d370767295c49fe3ca1a65b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_lmm_home",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_home.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_lmm_home.html.metadata.json",
+    "title": "Home - Luis Muñoz Marín",
+    "url": "https://lmm.clevelandmetroschools.org/",
+    "retrieved_at": "2026-11-06T01:00:30.520746+00:00",
+    "sha256": "968b83a4f751b9ebd41b9211e5d4a43fb0b5a0d299d2c5a887ff90bcaef97095",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_mansfield_home",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_home.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_home.html.metadata.json",
+    "title": "Spanish Immersion",
+    "url": "https://www.mansfieldschools.org/spanishimmersionschool_home.aspx",
+    "retrieved_at": "2026-11-06T01:12:00.554574+00:00",
+    "sha256": "dc5920ec377a8c4eac317b5b12c4394b9d21c451c4c540cc4d473d8e766b0a79",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_mansfield_news26",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_news26.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_mansfield_news26.html.metadata.json",
+    "title": "This small Ohio city has a rare full-on Spanish immersion elementary school | The Statehouse News Bureau",
+    "url": "https://www.statenews.org/section/the-ohio-newsroom/2026-01-05/this-small-ohio-city-has-a-rare-full-on-spanish-immersion-elementary-school",
+    "retrieved_at": "2026-11-06T01:12:00.555546+00:00",
+    "sha256": "6d6a19db49837cbc8b53224daa3d71cc3adc1d46ee812373bc88dddfeb0b2e00",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_spanish_handbook",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_handbook.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_handbook.pdf.metadata.json",
+    "title": "e4_oh_spanish_handbook",
+    "url": "https://resources.finalsite.net/images/v1769528795/ccsohus/ci6hskl9txclau4rn0wq/CSIAStudentHandbookEnglish.pdf",
+    "retrieved_at": "2026-11-06T00:58:14.981973+00:00",
+    "sha256": "621f680f3ee98d840deb2f09b53540098eaf359520037eee12fc65f943706075",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_spanish_middle",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_middle.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_spanish_middle.html.metadata.json",
+    "title": "Middle School - Columbus Spanish Immersion Academy",
+    "url": "https://columbusspanishimmersion.ccsoh.us/middle-school",
+    "retrieved_at": "2026-11-06T01:02:33.251234+00:00",
+    "sha256": "abf7e9dbba3dd8c3fad23d3b721032a4e41460137e6c300aa013f847aa126a88",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_toledo",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo.html.metadata.json",
+    "title": "About US - Escuela SMART Academy",
+    "url": "https://escuelasmartacademy.tps.org/important_information",
+    "retrieved_at": "2026-11-06T00:46:03.522084+00:00",
+    "sha256": "78c0e0d81f8ad1f5b14b90f774b7fa50b62db0a7cac85256e2003377796f92d1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_toledo25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_toledo25.pdf.metadata.json",
+    "title": "e4_oh_toledo25",
+    "url": "https://cdnsm5-ss11.sharpschool.com/UserFiles/Servers/Server_7821354/File/Important%20Information/Handbook/Escuela%20Parent_Student%20Handbook%202025-2026%20English.docx%20(1).pdf",
+    "retrieved_at": "2026-11-06T00:46:04.177221+00:00",
+    "sha256": "2676116a5f15449e54242e78f360d707dfd2f98f4edee8ad3fc642ed0189a05d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_oh_world_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_world_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_oh_world_about.html.metadata.json",
+    "title": "About - World Language Middle School",
+    "url": "https://worldlanguagems.ccsoh.us/our-school/about",
+    "retrieved_at": "2026-11-06T01:02:33.250132+00:00",
+    "sha256": "fe1b3d9b0615d9691157800b7d8ac3d952b76c4ee0b574c53896df256acf63d2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_albemarle",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle.html.metadata.json",
+    "title": "Language Offerings - Albemarle County School District",
+    "url": "https://www.k12albemarle.org/our-departments/instruction/language-offerings",
+    "retrieved_at": "2026-11-06T00:48:47.549133+00:00",
+    "sha256": "c90b9ad54fb49f543428528b4710ed2dc86087f3cfa6d7b9ab7ec0c4471cc9ca",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_albemarle_mv",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_mv.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_mv.html.metadata.json",
+    "title": "Dual Language Immersion Program - Mountain View Elementary School",
+    "url": "https://mves.k12albemarle.org/families/dlip",
+    "retrieved_at": "2026-11-06T00:48:47.785591+00:00",
+    "sha256": "bcc68f009aeca66f3267cb07a87affe81443c932110870ba378a075edef4c49f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_albemarle_upper",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_upper.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_albemarle_upper.html.metadata.json",
+    "title": "Dual Language Immersion Program - Mountain View Upper Elementary School",
+    "url": "https://mvue.k12albemarle.org/families/dlip",
+    "retrieved_at": "2026-11-06T00:53:02.987497+00:00",
+    "sha256": "242ddb9020fa085b1e1693152f94e3d7efa3b394e1934abec66b4f8803bb6474",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_alexandria",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria.html.metadata.json",
+    "title": "Dual Language Program - Alexandria City Public Schools",
+    "url": "https://www.acps.k12.va.us/academics/dual-language-program",
+    "retrieved_at": "2026-11-06T00:48:46.402019+00:00",
+    "sha256": "b86ecc98b93d9582f4a70cd7f3726d22a7bf4daec5c21a4078b354d874fc5ddb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_alexandria_current_handbook",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_current_handbook.txt",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_current_handbook.txt.metadata.json",
+    "title": "ACPS Dual Language Program Family Handbook, current district-linked English edition",
+    "url": "https://docs.google.com/document/d/11JxSBpwBsWGWZ__yfOcItwQSntLsI-Id0piRmzCsO-g/export?format=txt",
+    "retrieved_at": "2026-11-06T01:07:58.338296+00:00",
+    "sha256": "f13800fb20169c4f79151ffc735e7ba7647d6f350d6aca8021cb0a47690726d3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_alexandria_handbook22",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_handbook22.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_handbook22.pdf.metadata.json",
+    "title": "e4_va_alexandria_handbook22",
+    "url": "https://mvcspta.org/wp-content/uploads/2022/09/Eng-DL-Family-Handbook-22-23.pdf",
+    "retrieved_at": "2026-11-06T01:01:31.870199+00:00",
+    "sha256": "8fb08e83e5669eb1229553a8a39f91fd81520124ee2857cb1eb4b8911c97c5e6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_alexandria_resources",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_resources.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_alexandria_resources.html.metadata.json",
+    "title": "Dual Language Program Parent Resources - Alexandria City Public Schools",
+    "url": "https://www.acps.k12.va.us/academics/dual-language-program/dual-language-parent-resources",
+    "retrieved_at": "2026-11-06T01:01:31.781453+00:00",
+    "sha256": "276fc5931ad5ab7dde66039c7659dd565f82b4a630c98a5504f021c10adc6466",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_arlington23",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington23.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington23.html.metadata.json",
+    "title": "Full Early Dual Language Immersion Model Starting Fall of 2023 - Arlington Public Schools",
+    "url": "https://www.apsva.us/dual-language-immersion/full-early-dual-language-immersion/",
+    "retrieved_at": "2026-11-06T00:48:47.548906+00:00",
+    "sha256": "845f6b36ba56671878b0a657ca7b9c2dea17657670b40e8d61d6f2a1ba2be4e7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_arlington_about",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_about.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_about.html.metadata.json",
+    "title": "About Language Immersion - Arlington Public Schools",
+    "url": "https://www.apsva.us/dual-language-immersion/about-language-immersion/",
+    "retrieved_at": "2026-11-06T00:53:04.689353+00:00",
+    "sha256": "1d0b0e59d851abdff8c38b838954c5a28a96b80187c36a7a17bbce0c08641552",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_arlington_brochure23",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_brochure23.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_brochure23.pdf.metadata.json",
+    "title": "e4_va_arlington_brochure23",
+    "url": "https://www.apsva.us/wp-content/uploads/sites/57/2023/05/DLI-Brochure-2023.pdf",
+    "retrieved_at": "2026-11-06T00:53:03.765598+00:00",
+    "sha256": "76dff8e0c53e958d5e130569675acf5e8fe36a7a0a6a4f26b6a7ca879cdc2cb0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_arlington_chart",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_chart.png",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_chart.png.metadata.json",
+    "title": "Arlington dual immersion instructional model comparison",
+    "url": "https://www.apsva.us/wp-content/uploads/sites/57/2023/05/Screen-Shot-2022-12-09-at-11.53.06-AM.png",
+    "retrieved_at": "2026-11-06T00:53:02.136150+00:00",
+    "sha256": "d642db3a501b3d6606f40b1ce6041fb68299162da55d3aa1d839b4f005f35a97",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_arlington_rollout25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_rollout25.png",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_arlington_rollout25.png.metadata.json",
+    "title": "Arlington dual immersion rollout: school years 2023–24, 2024–25, 2025–26",
+    "url": "https://www.apsva.us/wp-content/uploads/sites/57/2025/08/Screenshot-2025-08-25-at-12.07.50-PM.png",
+    "retrieved_at": "2026-11-06T00:53:02.987758+00:00",
+    "sha256": "0f34e3e520fc8f5ffbe853a95799babebfb95970bbbfb60ef31772bd2b808df0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_beach",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_beach.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_beach.html.metadata.json",
+    "title": "Dual Language Immersion Program - Virginia Beach City Public Schools",
+    "url": "https://www.vbschools.com/academics/dual-language-immersion-program",
+    "retrieved_at": "2026-11-06T00:48:48.799279+00:00",
+    "sha256": "b2750558fd33a06309e4b32cd9570ee46e1fb0475ee46354213c9509542919ef",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_chesapeake",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesapeake.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesapeake.html.metadata.json",
+    "title": "World Languages",
+    "url": "https://www.cpschools.com/page/world-languages/",
+    "retrieved_at": "2026-11-06T00:48:48.683344+00:00",
+    "sha256": "24341404b1511213bda78c3f471ac3147da1698e370af6540c220ddf5d4a8cd6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_chesterfield_county25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesterfield_county25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_chesterfield_county25.pdf.metadata.json",
+    "title": "e4_va_chesterfield_county25",
+    "url": "https://www.vaco.org/wp-content/uploads/2025/07/ChesterfieldDualLanguageProgramScottElementary.pdf",
+    "retrieved_at": "2026-11-06T00:59:26.138992+00:00",
+    "sha256": "dba05d5a9611126aec85b12e56e283703e3f556d3dcc34b2620af24058d90b33",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_davis_acad",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_davis_acad.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_davis_acad.html.metadata.json",
+    "title": "Academics - Elizabeth Davis Middle School",
+    "url": "https://davisms.oneccps.org/academics/",
+    "retrieved_at": "2026-11-06T01:02:33.249218+00:00",
+    "sha256": "dd77b523a9d14ba3af38f33b5241ed18945088d38b9b0046d2aebed568a1727d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_fairfax",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax.html.metadata.json",
+    "title": "Dual Language Immersion Programs | Fairfax County Public Schools",
+    "url": "https://www.fcps.edu/academics/elementary/world-languages-immersion-programs",
+    "retrieved_at": "2026-11-06T00:44:31.729435+00:00",
+    "sha256": "7e32f595545a0c8726b180426f8700c68c54bfc3ac6eb1581381b2c870f02c91",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_fairfax25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax25.pdf.metadata.json",
+    "title": "e4_va_fairfax25",
+    "url": "https://content.govdelivery.com/attachments/VAEDUFCPS/2025/01/03/file_attachments/3118920/BackpackLetterEnglish%20%281%29.pdf",
+    "retrieved_at": "2026-11-06T00:44:32.631685+00:00",
+    "sha256": "4170a110df6c36fd844804ecece7835c49f1623dce58402094157845b9b6e41e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_fairfax_ms",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax_ms.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_fairfax_ms.html.metadata.json",
+    "title": "Middle School Immersion Transition Program | Fairfax County Public Schools",
+    "url": "https://www.fcps.edu/academics/middle-school-academics-7-8/world-languages/middle-school-immersion-transition-program",
+    "retrieved_at": "2026-11-06T00:46:02.576319+00:00",
+    "sha256": "8203e66f2247f0ac764fdc3980563a92bb2428bf6d6e9559a2e1df2a7878ba96",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_hampton_flyer25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_flyer25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_flyer25.pdf.metadata.json",
+    "title": "e4_va_hampton_flyer25",
+    "url": "https://www.hampton.k12.va.us/departments/esl/SY25-26%20DLI%20Flyer%20English.pdf",
+    "retrieved_at": "2026-11-06T00:59:26.141004+00:00",
+    "sha256": "f53e6b3bf46ee59bb70ef534ce4d861838b21b9492a2b7115675114b30e770c0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_hampton_program",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_program.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_hampton_program.html.metadata.json",
+    "title": "Language Programs Department - Dual Language Immersion",
+    "url": "https://sites.google.com/hampton.k12.va.us/language-programs-department/dual-language-immersion",
+    "retrieved_at": "2026-11-06T00:59:26.142152+00:00",
+    "sha256": "e6fbe20b053965e05cd17abc46dcacc11f6b17e6383043e78b6d395eacd2b43b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_harrisonburg",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg.html.metadata.json",
+    "title": "Dual Language • Page - Harrisonburg City Public Schools",
+    "url": "https://harrisonburg.k12.va.us/District/Department/82-Languages/2891-Dual-Language.html",
+    "retrieved_at": "2026-11-06T00:48:47.313819+00:00",
+    "sha256": "2a1a3a049f440a4b410e53bacf2891d91ecdaa5da587b111f72c2d12103ebcfd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_harrisonburg_blog",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_blog.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_blog.html.metadata.json",
+    "title": "HCPS Languages: Dual Language",
+    "url": "https://hcpslangs.blogspot.com/p/dual-language.html",
+    "retrieved_at": "2026-11-06T01:05:16.862707+00:00",
+    "sha256": "c7b570ad98f3b5f6043567cf69769ae116517b09dd142bc4daa2598385dd45f9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_harrisonburg_brochure",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_brochure.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_brochure.pdf.metadata.json",
+    "title": "Harrisonburg City Public Schools Dual Language brochure (undated; PDF creation metadata March 2013)",
+    "url": "https://drive.google.com/uc?export=download&id=0B3jDX8aio_SNZjZ5SmNidm1tY0U",
+    "retrieved_at": "2026-11-06T01:07:58.338963+00:00",
+    "sha256": "e8a4f2b021dfc57d9886b5cbe127bcc935023326fbd53a95015162e25826717e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_harrisonburg_keister",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_keister.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_harrisonburg_keister.html.metadata.json",
+    "title": "Dual Language • Page - KEISTER ELEMENTARY",
+    "url": "https://harrisonburg.k12.va.us/KES/1371-Dual-Language.html",
+    "retrieved_at": "2026-11-06T00:59:27.277824+00:00",
+    "sha256": "4910ecc47bffa296bf89c19e3c9b5e3f92579f3db2ff2515d1aafe12730cd8d8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_henrico_alt",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_alt.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_alt.html.metadata.json",
+    "title": "Elizabeth Holladay Elementary School - Dual Language Immersion Program (DLI)",
+    "url": "https://holladay.henricoschools.us/page/dual-language-immersion-program-dli/",
+    "retrieved_at": "2026-11-06T00:59:27.033028+00:00",
+    "sha256": "55e4e35c922209316d97ddb8cd275461b258d74b5e66e86c73a459c6c39b2b50",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_henrico_county",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_county.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_henrico_county.html.metadata.json",
+    "title": "Dual-Language Immersion Program at Elizabeth Holladay Elementary School | National Association of Counties",
+    "url": "https://www.naco.org/resources/award-programs/dual-language-immersion-program-elizabeth-holladay-elementary-school",
+    "retrieved_at": "2026-11-06T00:59:27.058914+00:00",
+    "sha256": "5e7e10c78bd2a7df8b8135b4e74a34460103080efeda79aee36094193a386ea0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_loudoun",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun.html.metadata.json",
+    "title": "Dual Language Immersion Program | Teaching and Learning",
+    "url": "https://www.lcps.org/o/dtl/page/dual-language-immersion-program",
+    "retrieved_at": "2026-11-06T00:48:46.403644+00:00",
+    "sha256": "a76c84dc3f4feb3164c6b02b8bd958515a8727e0ad3e962000f725ae4f4f1ec9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_loudoun_flyer25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_flyer25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_flyer25.pdf.metadata.json",
+    "title": "e4_va_loudoun_flyer25",
+    "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4461/Dtl/2e184b6a-ccdd-46d8-9910-2a30b7518caa/DLI-Info-nights-25-26---English.pdf?disposition=inline",
+    "retrieved_at": "2026-11-06T01:01:30.747389+00:00",
+    "sha256": "350c05b691cd5f9be09c99db3837358c9281fb0172bb262632db491690eaa82f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_loudoun_launch23",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_launch23.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_loudoun_launch23.html.metadata.json",
+    "title": "New dual language immersion program kicks off with new school year in Loudoun Co. – WTOP News",
+    "url": "https://wtop.com/virginia/2023/08/new-dual-language-immersion-program-kicks-off-with-new-school-year-in-loudoun-co/",
+    "retrieved_at": "2026-11-06T01:01:30.748052+00:00",
+    "sha256": "995bb2f5d51108dd02cd339e6d17b0219cb8e990abed9c9be85c27643379fc47",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_manassas_faq",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_faq.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_faq.html.metadata.json",
+    "title": "FAQ | Haydon Elementary",
+    "url": "https://www.mcpsva.org/o/hes/page/faq",
+    "retrieved_at": "2026-11-06T01:01:32.114295+00:00",
+    "sha256": "89c03d0460397d0eca9e35e4662602681ca04d5b2b21c28dfada864692ff744f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_manassas_haydon",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_haydon.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_manassas_haydon.html.metadata.json",
+    "title": "Dual Language Program | Haydon Elementary",
+    "url": "https://www.mcpsva.org/o/hes/page/dual-language-program",
+    "retrieved_at": "2026-11-06T01:01:30.746368+00:00",
+    "sha256": "a5320ad6977c35a5a9773846d10bf4016c9977c2da8cc430e1b32b2b50ae8942",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_mountainview_open26",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_mountainview_open26.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_mountainview_open26.html.metadata.json",
+    "title": "Albemarle Cuts Ribbon on Mountain View Upper Elementary, Its First New School in 24 Years | News Board",
+    "url": "https://www.k12albemarle.org/our-departments/communications/news-board/~board/newsroom/post/albemarle-cuts-ribbon-on-mountain-view-upper-elementary-its-first-new-school-in-24-years",
+    "retrieved_at": "2026-11-06T01:02:33.247449+00:00",
+    "sha256": "a36407c033c66f9fdd4fbc7846aea9d3bd61eb35860d91a897546484ffaa2fa0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_newport",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport.html.metadata.json",
+    "title": "Dual Language Immersion",
+    "url": "https://sbo.nn.k12.va.us/duallanguage/",
+    "retrieved_at": "2026-11-06T00:48:49.351851+00:00",
+    "sha256": "5bfcb57a0e10f1b845c830246b8498d0b812d6d5ca1aaae744ca5e332488263f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_newport_brochure",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_brochure.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_brochure.pdf.metadata.json",
+    "title": "e4_va_newport_brochure",
+    "url": "https://sbo.nn.k12.va.us/duallanguage/doc/DLI_Info_ENG.pdf",
+    "retrieved_at": "2026-11-06T00:59:29.338177+00:00",
+    "sha256": "da5e77b33363004dd492a650bbde3c2ecd909c267c168ba649899b69fab7990c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_newport_handbook",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_handbook.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_handbook.pdf.metadata.json",
+    "title": "e4_va_newport_handbook",
+    "url": "https://sbo.nn.k12.va.us/duallanguage/doc/DLI-parent-handbook.pdf",
+    "retrieved_at": "2026-11-06T00:59:28.403685+00:00",
+    "sha256": "4e8b62fa52ab0403643d7be6c076e54ed08a03b5fbb502003201ce88725c1138",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_newport_sites",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_sites.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_newport_sites.html.metadata.json",
+    "title": "DLI Sites",
+    "url": "https://sbo.nn.k12.va.us/duallanguage/sites.html",
+    "retrieved_at": "2026-11-06T00:44:32.744102+00:00",
+    "sha256": "ade8b275b2bf4571e47b663cf1238ed35a9ef0cae44e3b4bbd25a05f8dc5f263",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_princewilliam",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam.html.metadata.json",
+    "title": "Dual Language Immersion Program | Prince William County Public Schools",
+    "url": "https://www.pwcs.edu/learning_activities/academics/world_languages/dual_language_immersion",
+    "retrieved_at": "2026-11-06T00:48:46.402592+00:00",
+    "sha256": "f513299fb04fb8da4db62836d6ba8bbc9e53ce7632b28203aeb4dd237a7a4122",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_princewilliam_news24",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam_news24.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_princewilliam_news24.html.metadata.json",
+    "title": "PWCS celebrates International Literacy Day | Prince William County Public Schools",
+    "url": "https://www.pwcs.edu/news/2024/09/pwcs_celebrates_international_literacy_day",
+    "retrieved_at": "2026-11-06T01:01:30.749542+00:00",
+    "sha256": "714e1128bdf0dcbfbe11c82886d8f6dd150102c9e35ddd491c5d85c74bce4563",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_quarles_dli",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_quarles_dli.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_quarles_dli.html.metadata.json",
+    "title": "Dual Language Immersion - Garland R. Quarles Elementary School",
+    "url": "https://gqes.wps.k12.va.us/academics/dual-language-immersion",
+    "retrieved_at": "2026-11-06T01:05:16.863447+00:00",
+    "sha256": "8019a18f5e475c6a5cf98d07cf483c1e06e387fb6c19f64ef9da51fc9cc9db58",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_richmond_news24",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news24.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news24.html.metadata.json",
+    "title": "English y Español: Richmond to expand dual-immersion education program - VPM",
+    "url": "https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/",
+    "retrieved_at": "2026-11-06T00:59:26.140082+00:00",
+    "sha256": "88490627bc62da0e6b2718d6ef4bec75265757bb6a1eb48531d1f86ea541fee6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_richmond_news25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news25.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_richmond_news25.html.metadata.json",
+    "title": "Dual-immersion growth in schools is leading to a bilingual boom - VPM",
+    "url": "https://www.vpm.org/news/2025-01-02/bilingual-richmond-public-schools-dual-immersion-espanol-ingles-broad-rock/",
+    "retrieved_at": "2026-11-06T00:59:27.277635+00:00",
+    "sha256": "cc1dea12aa5072f97b31bbd82a9e79fe745cbe5da9c953477f5744dee31189a4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_stafford_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_directory.html.metadata.json",
+    "title": "Widewater Elementary School Dual Language Immersion Program - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/widewater-elementary-school-dual-language-immersion-program/",
+    "retrieved_at": "2026-11-06T01:01:32.113907+00:00",
+    "sha256": "36520ea0897015051c5e4f0b06949e620b9e252827ee0c6e3144743d78e875b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_stafford_esol",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_esol.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_esol.html.metadata.json",
+    "title": "English for Speakers of Other Languages - Stafford County Public Schools",
+    "url": "https://www.staffordschools.net/academics/student-support/english-for-speakers-of-other-languages-esol",
+    "retrieved_at": "2026-11-06T00:59:27.177881+00:00",
+    "sha256": "db1b7e3804d2fe94f4c63319604b96a5586453d8043333cf0079011de1364ee6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_stafford_widewater",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_widewater.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_stafford_widewater.html.metadata.json",
+    "title": "Dual Language Immersion Program - Widewater Elementary School",
+    "url": "https://wes.staffordschools.net/departments/dual-language-immersion-program",
+    "retrieved_at": "2026-11-06T00:48:46.404631+00:00",
+    "sha256": "d12d5cdd531890281f964cd6ce0d3267a1fb11b9441802372ffb417ee6d402b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_vadlen_list",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_vadlen_list.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_vadlen_list.html.metadata.json",
+    "title": "DLI in VA - VADLEN",
+    "url": "https://vadlen.weebly.com/dli-in-va.html",
+    "retrieved_at": "2026-11-06T00:46:02.574538+00:00",
+    "sha256": "32a66fb8caaad0c87e60708b61706edc0a1c1f9ffb8aefba7d4bd0d349bc0776",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_winchester",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester.html.metadata.json",
+    "title": "Dual Language Immersion",
+    "url": "https://www.wps.k12.va.us/departments/dual-language-immersion/overview",
+    "retrieved_at": "2026-11-06T00:44:32.787675+00:00",
+    "sha256": "4d5091d720d04dbfb3caf5b5fb892d83a6fcdcc2a88eb5e34de02205e543bc44",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_winchester_boardnews",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_boardnews.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_boardnews.html.metadata.json",
+    "title": "Winchester School Board expands dual language immersion program | Winchester Star | winchesterstar.com",
+    "url": "https://www.winchesterstar.com/winchester_star/winchester-school-board-expands-dual-language-immersion-program/article_d72650f5-00a6-5819-bda5-fac4625a402b.html",
+    "retrieved_at": "2026-11-06T01:02:33.248308+00:00",
+    "sha256": "5def2dcbbb92e4495a219913d097b30c1ca160f2a1ff535e7b8fbbc1a5c46675",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_winchester_expand_news",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_expand_news.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_expand_news.html.metadata.json",
+    "title": "WPS Announces New Leaders, Dual Language, Bond Referendum",
+    "url": "https://www.thewinchestergazette.com/articles/news/new-administrators-expanded-language-program-and-school-construction-vote-ahead-for-wps/",
+    "retrieved_at": "2026-11-06T01:01:30.748965+00:00",
+    "sha256": "487ef09f21ae89ac4af76467f5ce417d38f0f40dc7f4d536e6f713460a51373c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_winchester_faq",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_faq.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_faq.html.metadata.json",
+    "title": "Frequently Asked Questions",
+    "url": "https://www.wps.k12.va.us/departments/dual-language-immersion/frequently-asked-questions",
+    "retrieved_at": "2026-11-06T00:48:49.902083+00:00",
+    "sha256": "7f8fdd627fa2dd98e92d83ea6d62d77d27ebab57918846c4e7b1be1a733e6216",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_va_winchester_trajectory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_trajectory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_va_winchester_trajectory.html.metadata.json",
+    "title": "Course Trajectory",
+    "url": "https://www.wps.k12.va.us/departments/dual-language-immersion/course-trajectory",
+    "retrieved_at": "2026-11-06T00:59:27.779153+00:00",
+    "sha256": "bc205f983553e805b293223f886002ba3bea9bbc24a248b4cf7317c17eac44bc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_chinese_camp18",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_chinese_camp18.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_chinese_camp18.html.metadata.json",
+    "title": "Cheat Lake Elementary School hosts Chinese immersion camp - The Dominion Post",
+    "url": "https://www.dominionpost.com/2018/06/20/cheat-lake-elementary-school-hosts-chinese-immersion-camp/",
+    "retrieved_at": "2026-11-06T01:01:33.767461+00:00",
+    "sha256": "42e4f6f05c3c3919e0e7ed378cd5f4b833894a2280bbc2273d0cbb37b0098813",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_deaf25",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf25.pdf",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf25.pdf.metadata.json",
+    "title": "e4_wv_deaf25",
+    "url": "https://wvde.us/sites/default/files/2025-08/WVSDB%20About%20Us%20Booklet.pdf",
+    "retrieved_at": "2026-11-06T00:46:04.309054+00:00",
+    "sha256": "474768baab3f9e30a4d9533ba1013b8a5aa0c30d4515d1e792694d107ef471db",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_deaf_faq",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf_faq.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_deaf_faq.html.metadata.json",
+    "title": "Frequently Asked Questions | West Virginia Schools for the Deaf and the Blind",
+    "url": "https://www.wvsdb2.state.k12.wv.us/page/frequently-asked-questions/",
+    "retrieved_at": "2026-11-06T00:46:04.734962+00:00",
+    "sha256": "dcbaf2263d304f5d13fb63151b34497bf5c98473b726be82dca28e97b292e788",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_directory.html.metadata.json",
+    "title": "Dual Language Schools in West Virginia",
+    "url": "https://duallanguageschools.org/schools/wv/",
+    "retrieved_at": "2026-11-06T00:53:09.867892+00:00",
+    "sha256": "5bbc680861b88b9efd05ebc6732d9db3fe1b753b956f7223330e3501a398a0f9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_doe",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_doe.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_doe.html.metadata.json",
+    "title": "World Languages | West Virginia Department of Education Phone Number:",
+    "url": "https://wvde.us/academics/middle-secondary-education/world-languages",
+    "retrieved_at": "2026-11-06T00:44:33.496131+00:00",
+    "sha256": "0fb824fc97efa8ba45bb46bde48aba2270b8adf92b54c168ba68cf550e69aaa9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_north",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north.html.metadata.json",
+    "title": "About North | North Elementary School",
+    "url": "https://north.mono.k12.wv.us/o/nes/page/about-north",
+    "retrieved_at": "2026-11-06T00:58:16.256370+00:00",
+    "sha256": "ab14459d12c42d9acc43682b5e5d1d9a9b5c3f5412ad71a02017efe08766bedb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "e4_wv_north_directory",
+    "path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north_directory.html",
+    "metadata_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_wv_north_directory.html.metadata.json",
+    "title": "North Elementary School - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/school/north-elementary-school/",
+    "retrieved_at": "2026-11-06T00:59:32.638999+00:00",
+    "sha256": "aadf829e73c8039c029bfe4a5e53189f89db71b797740e0484c0c0b7c9b0c5d9",
+    "archive_kind": "complete_original_HTTP_response"
+  }
+]

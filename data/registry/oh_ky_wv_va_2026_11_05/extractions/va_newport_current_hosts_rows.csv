@@ -1,0 +1,7 @@
+source_key,source_row,disposition,program_ids,school_ids,selected_source_fields_json,notes
+e4_va_newport_sites,1,integrated,E4-VA-P-cfd50373c3a2,E4-VA-S-1fbb8d0d49ed,"{""grade_level"": ""K-5"", ""school"": ""Katherine G. Johnson Elementary School""}",
+e4_va_newport_sites,2,integrated,E4-VA-P-eb6e4efee21f,E4-VA-S-e934312efbd0,"{""grade_level"": ""K-5"", ""school"": ""Saunders Elementary School""}",
+e4_va_newport_sites,3,integrated,E4-VA-P-543338979433,E4-VA-S-a572258c5bd4,"{""grade_level"": ""6-8"", ""school"": ""Gildersleeve Middle School""}",
+e4_va_newport_sites,4,integrated,E4-VA-P-fce2a33da6f1,E4-VA-S-2821626728cf,"{""grade_level"": ""9-12"", ""school"": ""Menchville High School""}",
+e4_va_newport_sites,5,screening_only,,,"{""grade_level"": ""preschool"", ""school"": ""Denbigh Early Childhood Center""}","Preschool-only, not a K-12 programme record."
+e4_va_newport_sites,6,screening_only,,,"{""grade_level"": ""preschool"", ""school"": ""Watkins Early Childhood Center""}","Preschool-only, not a K-12 programme record."

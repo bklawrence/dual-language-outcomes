@@ -1,0 +1,360 @@
+[
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 1,
+    "raw": {
+      "school": "Bailey’s Elementary School for the Arts and Sciences",
+      "language": "Spanish",
+      "grades": "K-2",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Glasgow Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-d68b5d73a88e"
+    ],
+    "school_ids": [
+      "E4-VA-S-9f9f82972a36"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 2,
+    "raw": {
+      "school": "Bailey’s Upper Elementary School for the Arts and Sciences",
+      "language": "Spanish",
+      "grades": "3-5",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Glasgow Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-955418330122"
+    ],
+    "school_ids": [
+      "E4-VA-S-476b2ad720e9"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 3,
+    "raw": {
+      "school": "Braddock Elementary School",
+      "language": "Spanish",
+      "grades": "K-5",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Poe Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-2427f134a198"
+    ],
+    "school_ids": [
+      "E4-VA-S-aa9cf86e2e51"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 4,
+    "raw": {
+      "school": "Fox Mill Elementary School",
+      "language": "Japanese",
+      "grades": "1-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Rachel Carson Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-72f7867d5aa9"
+    ],
+    "school_ids": [
+      "E4-VA-S-26babc16bdf3"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 5,
+    "raw": {
+      "school": "Fort Hunt Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Sandburg Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-1be8f168d445"
+    ],
+    "school_ids": [
+      "E4-VA-S-2eb5c389dcce"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 6,
+    "raw": {
+      "school": "Great Falls Elementary School",
+      "language": "Japanese",
+      "grades": "1-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Cooper Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-188469b8b94a"
+    ],
+    "school_ids": [
+      "E4-VA-S-b77ab41ab171"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 7,
+    "raw": {
+      "school": "Groveton Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Sandburg Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-73e4a5d6d24e"
+    ],
+    "school_ids": [
+      "E4-VA-S-f9e3bc82808c"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 8,
+    "raw": {
+      "school": "Herndon Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Herndon Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-99268a836b00"
+    ],
+    "school_ids": [
+      "E4-VA-S-e86facedf870"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 9,
+    "raw": {
+      "school": "Kent Gardens Elementary School",
+      "language": "French",
+      "grades": "1-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Longfellow Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-f49529678fca"
+    ],
+    "school_ids": [
+      "E4-VA-S-4e2c092cf63d"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 10,
+    "raw": {
+      "school": "Lake Anne Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Hughes Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-8ecb7aa11566"
+    ],
+    "school_ids": [
+      "E4-VA-S-9b91ab0ea2c4"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 11,
+    "raw": {
+      "school": "Laurel Ridge Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Robinson Secondary School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-f43ef708ee6c"
+    ],
+    "school_ids": [
+      "E4-VA-S-0c3455cef60d"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 12,
+    "raw": {
+      "school": "London Towne Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Stone Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-f97ba641cb37"
+    ],
+    "school_ids": [
+      "E4-VA-S-3cfdd83cd0de"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 13,
+    "raw": {
+      "school": "Orange Hunt Elementary School",
+      "language": "German",
+      "grades": "1-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Irving Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-ee3182d0f42d"
+    ],
+    "school_ids": [
+      "E4-VA-S-30f59a97a7f0"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 14,
+    "raw": {
+      "school": "Powell Elementary School",
+      "language": "Korean",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Liberty Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-2c48486d41b4"
+    ],
+    "school_ids": [
+      "E4-VA-S-55c40c5500e3"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 15,
+    "raw": {
+      "school": "Ravensworth Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "one_way",
+      "transition_middle_schools": [
+        "Lake Braddock Secondary School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-b7dd2ddfc1fe"
+    ],
+    "school_ids": [
+      "E4-VA-S-27e6842ed365"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 16,
+    "raw": {
+      "school": "Rose Hill Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Hayfield Secondary School",
+        "Twain Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-a10ca15f41f1"
+    ],
+    "school_ids": [
+      "E4-VA-S-348d796618d4"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  },
+  {
+    "source_key": "e4_va_fairfax",
+    "source_row": 17,
+    "raw": {
+      "school": "Washington Mill Elementary School",
+      "language": "Spanish",
+      "grades": "K-6",
+      "population": "two_way",
+      "transition_middle_schools": [
+        "Whitman Middle School"
+      ]
+    },
+    "program_ids": [
+      "E4-VA-P-b9fa3c46b33e"
+    ],
+    "school_ids": [
+      "E4-VA-S-b2175dff3f10"
+    ],
+    "disposition": "integrated",
+    "notes": "Current elementary table; grades and target language preserved."
+  }
+]

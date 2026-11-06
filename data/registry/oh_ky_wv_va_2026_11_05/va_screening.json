@@ -1,0 +1,82 @@
+[
+  {
+    "school": "Denbigh Early Childhood Center",
+    "district": "Newport News Public Schools",
+    "source": "e4_va_newport_brochure",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Denbigh Early Childhood Center",
+    "disposition": "preschool_only",
+    "reason": "Official bilingual brochure explicitly identifies these centres as preschool DLI. Preserved as preschool-only lead; no K-12 host or elementary denominator manufactured.",
+    "notes": ""
+  },
+  {
+    "school": "Watkins Early Childhood Center",
+    "district": "Newport News Public Schools",
+    "source": "e4_va_newport_brochure",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Watkins Early Childhood Center",
+    "disposition": "preschool_only",
+    "reason": "Official bilingual brochure explicitly identifies these centres as preschool DLI. Preserved as preschool-only lead; no K-12 host or elementary denominator manufactured.",
+    "notes": ""
+  },
+  {
+    "school": "Chesapeake world-language provision",
+    "district": "Chesapeake Public Schools",
+    "source": "e4_va_chesapeake",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Chesapeake world-language provision",
+    "disposition": "world_language_and_summer_fles_not_academic_dli",
+    "reason": "Official description is secondary language courses/FLEX and summer elementary FLES. No school-year academic DLI host confirmed from this page.",
+    "notes": ""
+  },
+  {
+    "school": "Crozet Elementary School",
+    "district": "Albemarle County Public Schools",
+    "source": "e4_va_albemarle",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Crozet Elementary School",
+    "disposition": "fles_not_core_academic_immersion",
+    "reason": "District explicitly distinguishes this elementary FLES programme from Mountain View academic immersion. French at Meriwether Lewis and Spanish at other sites are not automatically academic DLI.",
+    "notes": ""
+  },
+  {
+    "school": "Meriwether Lewis Elementary School",
+    "district": "Albemarle County Public Schools",
+    "source": "e4_va_albemarle",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Meriwether Lewis Elementary School",
+    "disposition": "fles_not_core_academic_immersion",
+    "reason": "District explicitly distinguishes this elementary FLES programme from Mountain View academic immersion. French at Meriwether Lewis and Spanish at other sites are not automatically academic DLI.",
+    "notes": ""
+  },
+  {
+    "school": "Murray Elementary School",
+    "district": "Albemarle County Public Schools",
+    "source": "e4_va_albemarle",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Murray Elementary School",
+    "disposition": "fles_not_core_academic_immersion",
+    "reason": "District explicitly distinguishes this elementary FLES programme from Mountain View academic immersion. French at Meriwether Lewis and Spanish at other sites are not automatically academic DLI.",
+    "notes": ""
+  },
+  {
+    "school": "Woodbrook Elementary School",
+    "district": "Albemarle County Public Schools",
+    "source": "e4_va_albemarle",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Woodbrook Elementary School",
+    "disposition": "fles_not_core_academic_immersion",
+    "reason": "District explicitly distinguishes this elementary FLES programme from Mountain View academic immersion. French at Meriwether Lewis and Spanish at other sites are not automatically academic DLI.",
+    "notes": ""
+  },
+  {
+    "school": "Tallwood High School",
+    "district": "Virginia Beach City Public Schools",
+    "source": "e4_va_beach",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Tallwood High School",
+    "disposition": "broader_academy_not_automatic_dli_host",
+    "reason": "Conditional guaranteed entry to Global Studies and World Languages Academy is a broader high-school option, not proof all entrants continue academic Spanish immersion.",
+    "notes": ""
+  }
+]
