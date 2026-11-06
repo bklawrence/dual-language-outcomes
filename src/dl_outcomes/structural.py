@@ -17,6 +17,8 @@ REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND',
 
 
 def report_prefix(root):
+    followup=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
+    if followup.exists():return json.loads(followup.read_text())['national_report_prefix']
     atlantic=root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json'
     if atlantic.exists():return json.loads(atlantic.read_text())['national_report_prefix']
     eastern=root/'config/research_migrations/oh_ky_wv_va_2026_11_05.json'
@@ -153,6 +155,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json').exists():
         from .mid_atlantic_ct_review import audit_errors as atlantic_errors
         errors.extend(atlantic_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/ny_allocation_followup_2026_11_06.json').exists():
+        from .ny_allocation_followup import audit_errors as ny_errors
+        errors.extend(ny_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -356,6 +361,12 @@ def generate_report(root, *, check=False):
         reviewed = set(audit['states_with_integrated_program_evidence']) | screened
         audit['states_with_structural_research'] = sorted(reviewed)
         audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states'] if r['state_code'] not in reviewed]
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/ny_allocation_followup_2026_11_06.json').exists():
+        from .ny_allocation_followup import render_reports as ny_reports
+        new_contents, new_summary = ny_reports(root, tables)
+        contents.update(new_contents)
+        audit['new_york_allocation_followup'] = new_summary
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():

@@ -988,5 +988,2155 @@
     "retrieved_at": "2026-11-06T04:12:18.216551+00:00",
     "sha256": "4868fcba1523d80dadab818cdb79379fe831a04886d56fa9d293f946243904ff",
     "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_bayshore_brook",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_bayshore_brook.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_bayshore_brook.html.metadata.json",
+    "title": "Kindergarten Dual Language Supply List",
+    "url": "https://www.bayshoreschools.org/BrookAvenue.cfm?subpage=81996",
+    "retrieved_at": "2026-11-06T13:17:48.181918+00:00",
+    "sha256": "21c04f6fc596dfbf8289dc81f66e3337c847ab888ec870f6ccbaf48ea001bb9a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_brentwood_handbook",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_brentwood_handbook.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_brentwood_handbook.pdf.metadata.json",
+    "title": "nyf_brentwood_handbook",
+    "url": "https://resources.finalsite.net/images/v1620393008/brentwoodk12nyus/b2wsnhgjrsuhyv24dpmf/may2020elemprotocolhbpdf.pdf",
+    "retrieved_at": "2026-11-06T13:17:46.912962+00:00",
+    "sha256": "de89bdb774c6536636978383408220d9b01e62ef2c3c0f20633700bd951af23f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_01M020",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_01M020.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_01M020.pdf.metadata.json",
+    "title": "01M020 P.S. 020 Anna Silver: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M020.pdf",
+    "retrieved_at": "2026-11-06T12:23:17.201892+00:00",
+    "sha256": "c006c0420214c5e1c95b48dc158346581f1579a708dc857c94f149a1b7d2cfc9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_01M184",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_01M184.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_01M184.pdf.metadata.json",
+    "title": "01M184 P.S. 184m Shuang Wen: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M184.pdf",
+    "retrieved_at": "2026-11-06T12:23:10.926714+00:00",
+    "sha256": "e974936cb4fba228c1753fc4d493ced9308d45346f1651f9d2e797b433ab8cf1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_02M001",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_02M001.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_02M001.pdf.metadata.json",
+    "title": "02M001 P.S. 001 Alfred E. Smith: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M001.pdf",
+    "retrieved_at": "2026-11-06T12:24:36.693080+00:00",
+    "sha256": "fb76a316b7d87eb91dd8be53d5cde3e39a8b4c933fdd5ad81781fb46be004af2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_02M347",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_02M347.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_02M347.pdf.metadata.json",
+    "title": "02M347 The 47 American Sign Language & English Lower School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M347.pdf",
+    "retrieved_at": "2026-11-06T12:24:38.027218+00:00",
+    "sha256": "b60a87e6f610da63955435210725e495821cd557c5274f540a015050208e03a0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M075",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M075.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M075.pdf.metadata.json",
+    "title": "03M075 P.S. 075 Emily Dickinson: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M075.pdf",
+    "retrieved_at": "2026-11-06T12:26:07.824585+00:00",
+    "sha256": "ad7ebc53abd47bbd9770874110b9ddb0fd3c50bc88b5a7bed3ead4c3ede61686",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M084",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M084.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M084.pdf.metadata.json",
+    "title": "03M084 P.S. 084 Lillian Weber: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M084.pdf",
+    "retrieved_at": "2026-11-06T12:26:02.507475+00:00",
+    "sha256": "4e081d0d613bcde0b1141e12f0060d795a3c7a590065707c9ecf5be119d7fbff",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M087",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M087.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M087.pdf.metadata.json",
+    "title": "03M087 P.S. 087 William Sherman: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M087.pdf",
+    "retrieved_at": "2026-11-06T12:26:10.474280+00:00",
+    "sha256": "a46ae9fc8ae1e25472892c3c9281ad000cee5e100bd7fb23ee5319228faa9658",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M145",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M145.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M145.pdf.metadata.json",
+    "title": "03M145 P.S. 145, The Bloomingdale School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M145.pdf",
+    "retrieved_at": "2026-11-06T12:26:11.621660+00:00",
+    "sha256": "b4a8438b1bff1c0a988c3aa70881f0bc23729a6c3e337550bfaddbe3d9ad752b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M163",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M163.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M163.pdf.metadata.json",
+    "title": "03M163 P.S. 163 Alfred E. Smith: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M163.pdf",
+    "retrieved_at": "2026-11-06T12:26:06.660373+00:00",
+    "sha256": "e6db88be7c890458815825d61049cd8b4f183b8c3635e628cf0acd11cd748901",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M165",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M165.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M165.pdf.metadata.json",
+    "title": "03M165 P.S. 165 Robert E. Simon: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M165.pdf",
+    "retrieved_at": "2026-11-06T12:26:14.611559+00:00",
+    "sha256": "2e7591140d5d58ef60617e1b4128f598b124d832cb624d65d88ec90133e342b9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_03M180",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M180.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_03M180.pdf.metadata.json",
+    "title": "03M180 P.S. 180 Hugo Newman: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M180.pdf",
+    "retrieved_at": "2026-11-06T12:26:15.819906+00:00",
+    "sha256": "a44e19e307504a9df1be4c8616e3c13092263a9b3c81d759e384c2b373be7b97",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M057",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M057.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M057.pdf.metadata.json",
+    "title": "04M057 James Weldon Johnson: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M057.pdf",
+    "retrieved_at": "2026-11-06T12:27:22.483716+00:00",
+    "sha256": "3883de531cc9117984674668bb5b7dd216fbf8fd8ac1b42d153a6ddc133752ea",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M072",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M072.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M072.pdf.metadata.json",
+    "title": "04M072 The Lexington Academy: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M072.pdf",
+    "retrieved_at": "2026-11-06T12:27:49.950628+00:00",
+    "sha256": "dfe34c52fd5ae5ac203d2d894bda8e4248c360cceacec70470e58c3f85b1937c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M096",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M096.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M096.pdf.metadata.json",
+    "title": "04M096 P.S. 096 Joseph Lanzetta: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M096.pdf",
+    "retrieved_at": "2026-11-06T12:27:24.281884+00:00",
+    "sha256": "638477a3c45d307a27974e4925112db2d3615309ac8c2bd2c7174f00bbcf000b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M112",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M112.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M112.pdf.metadata.json",
+    "title": "04M112 P.S. 112 Jose Celso Barbosa: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M112.pdf",
+    "retrieved_at": "2026-11-06T12:27:25.630478+00:00",
+    "sha256": "ea02d0a6f702eb42979c002b0b68b5cacf515939a98cb41d8b983b2a8e7a7888",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M155",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M155.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M155.pdf.metadata.json",
+    "title": "04M155 P.S. 155 William Paca: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M155.pdf",
+    "retrieved_at": "2026-11-06T12:27:26.946220+00:00",
+    "sha256": "f66f18c4e6310f729fda5c5003713e2757029b851d8db1911a9cf2de27fc178c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M182",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M182.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M182.pdf.metadata.json",
+    "title": "04M182 The Bilingual Bicultural School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M182.pdf",
+    "retrieved_at": "2026-11-06T12:27:30.189581+00:00",
+    "sha256": "7430e95d182252f4b00991b4221f9ef88016bf265838afa85b7acd9a1e7879aa",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_04M206",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M206.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_04M206.pdf.metadata.json",
+    "title": "04M206 P.S. 206 Jose Celso Barbosa: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M206.pdf",
+    "retrieved_at": "2026-11-06T12:27:28.671579+00:00",
+    "sha256": "b6733403044e4e2c9df0ac4a756d466514a09768bf2d788c02eb56ede49dd995",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_05M129",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_05M129.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_05M129.pdf.metadata.json",
+    "title": "05M129 P.S. 129 John H. Finley: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M129.pdf",
+    "retrieved_at": "2026-11-06T12:27:38.417356+00:00",
+    "sha256": "2f4af8a234075718221d8458bdd576c68fc03f35b3c6227449f35490e69d7b0b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_05M161",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_05M161.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_05M161.pdf.metadata.json",
+    "title": "05M161 P.S. 161 Pedro Albizu Campos: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M161.pdf",
+    "retrieved_at": "2026-11-06T12:27:52.750368+00:00",
+    "sha256": "739aa4592a48b7c77c487fadcaa87197a24d4f703bf59ab1d3fc1803a0d0c0f5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M004",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M004.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M004.pdf.metadata.json",
+    "title": "06M004 P.S. 004 Duke Ellington: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M004.pdf",
+    "retrieved_at": "2026-11-06T12:27:51.347708+00:00",
+    "sha256": "41ca8015d533ac6587f83d2a3eca3c0dc40dc21d912d689bf38835b0b1e4e32a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M005",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M005.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M005.pdf.metadata.json",
+    "title": "06M005 P.S. 005 Ellen Lurie: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M005.pdf",
+    "retrieved_at": "2026-11-06T12:27:39.879200+00:00",
+    "sha256": "74b58387ca3780fcf3e3dae33deeb82e39094e9ded3f65357faabde7b9a0e3e5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M008",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M008.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M008.pdf.metadata.json",
+    "title": "06M008 P.S. 008 Luis Belliard: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M008.pdf",
+    "retrieved_at": "2026-11-06T12:27:54.303478+00:00",
+    "sha256": "0a1eedb8a0edd6811aee9b761c0eecb7401d06dd3a08a09c53db690b1eafd202",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M028",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M028.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M028.pdf.metadata.json",
+    "title": "06M028 P.S. 028 Wright Brothers: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M028.pdf",
+    "retrieved_at": "2026-11-06T12:27:55.775574+00:00",
+    "sha256": "e1454f4ca501a1e44f6b9831631f6680cbac4019590ba6d28be088a150db6f2c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M048",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M048.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M048.pdf.metadata.json",
+    "title": "06M048 P.S. 048 P.O. Michael J. Buczek: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M048.pdf",
+    "retrieved_at": "2026-11-06T12:28:02.799998+00:00",
+    "sha256": "975341375c18cc7ee80036767e4535fd73fffb689df3228bc9b3916acf0ed3ea",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M098",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M098.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M098.pdf.metadata.json",
+    "title": "06M098 P.S. 098 Shorac Kappock: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M098.pdf",
+    "retrieved_at": "2026-11-06T12:28:04.045938+00:00",
+    "sha256": "fef5e135c357d284e6a2f69602b053aa76f41824c0967bb2b9edcdf9308b57b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M103",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M103.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M103.pdf.metadata.json",
+    "title": "06M103 Dos Puentes Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M103.pdf",
+    "retrieved_at": "2026-11-06T12:27:37.117556+00:00",
+    "sha256": "d8e89256175d28b69ace4b08cf2c9b53a8c2e1ef18e26cfefc79f4319effa37d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M128",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M128.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M128.pdf.metadata.json",
+    "title": "06M128 P.S. 128 Audubon: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M128.pdf",
+    "retrieved_at": "2026-11-06T12:28:05.423966+00:00",
+    "sha256": "ab501aa6d8c8a12d514dde00f6fb446e92b812c7583073e959757486e9492cce",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M132",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M132.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M132.pdf.metadata.json",
+    "title": "06M132 P.S. 132 Juan Pablo Duarte: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M132.pdf",
+    "retrieved_at": "2026-11-06T12:28:06.864394+00:00",
+    "sha256": "d8fae5672b2cf9844efbba4cd12be6a3048bdf914b5a629c33c2ec76ab06e3cf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M153",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M153.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M153.pdf.metadata.json",
+    "title": "06M153 P.S. 153 Adam Clayton Powell: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M153.pdf",
+    "retrieved_at": "2026-11-06T12:28:08.276081+00:00",
+    "sha256": "484fdd842aac4206f47486edf0a7321bcdd55120384eec8c3eee6a137e1396e2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M178",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M178.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M178.pdf.metadata.json",
+    "title": "06M178 Professor Juan Bosch Public School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M178.pdf",
+    "retrieved_at": "2026-11-06T12:28:11.330466+00:00",
+    "sha256": "fdee5b7899fc0417ece3651644728993d2638f3654454887d78f32e3bdf51a7f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M210",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M210.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M210.pdf.metadata.json",
+    "title": "06M210 P.S./I.S. 210 - Twenty-first Century Academy for Community Leadership: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M210.pdf",
+    "retrieved_at": "2026-11-06T12:28:09.615958+00:00",
+    "sha256": "a1c8fb9103dcb4372db418dcb09a115a805ae7ce24bd75633781748c3108c7a2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M311",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M311.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M311.pdf.metadata.json",
+    "title": "06M311 Amistad Dual Language School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M311.pdf",
+    "retrieved_at": "2026-11-06T12:27:41.289359+00:00",
+    "sha256": "89f6b766c6b0d1e6786a203e4b13f3ddfa9b34f0aa918842d466fe6e93518e28",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M348",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M348.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M348.pdf.metadata.json",
+    "title": "06M348 Washington Heights Expeditionary Learning School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M348.pdf",
+    "retrieved_at": "2026-11-06T12:28:12.758034+00:00",
+    "sha256": "9e5a426e9880aa0db6e5ec7d922c931c7f67ae52a02304f8df972414c4c87057",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_06M513",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M513.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_06M513.pdf.metadata.json",
+    "title": "06M513 Castle Bridge School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M513.pdf",
+    "retrieved_at": "2026-11-06T12:27:48.360290+00:00",
+    "sha256": "df2acb4652966fd129960c2c14aeba254af89583728c78f4d45a30c756cf0cfb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X005",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X005.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X005.pdf.metadata.json",
+    "title": "07X005 P.S. 5 Port Morris: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X005.pdf",
+    "retrieved_at": "2026-11-06T12:28:34.138628+00:00",
+    "sha256": "772976d050530961e9adc89d6d76140390f939ec825cd246717f2201e1589a02",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X018",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X018.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X018.pdf.metadata.json",
+    "title": "07X018 P.S. 018 John Peter Zenger: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X018.pdf",
+    "retrieved_at": "2026-11-06T12:28:19.717366+00:00",
+    "sha256": "1aadd44d423dea74c5becb763d35583054c538541deba24a0351528e73a5eade",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X025",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X025.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X025.pdf.metadata.json",
+    "title": "07X025 P.S. 025 Bilingual School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X025.pdf",
+    "retrieved_at": "2026-11-06T12:28:21.219631+00:00",
+    "sha256": "825fe54f69332238972324b35a5df4d2976b3513409a62865f9765125f0a5f72",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X030",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X030.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X030.pdf.metadata.json",
+    "title": "07X030 P.S. 030 Wilton: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X030.pdf",
+    "retrieved_at": "2026-11-06T12:28:22.918587+00:00",
+    "sha256": "ce16ddfcc08ccffceed2640812f3ce4694ee83ac25956f0ce5a9b2a118b2cbc4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X049",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X049.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X049.pdf.metadata.json",
+    "title": "07X049 P.S. 049 Willis Avenue: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X049.pdf",
+    "retrieved_at": "2026-11-06T12:28:24.684599+00:00",
+    "sha256": "b375b82fa5232fa22667ab0c92364cfc6beaf42967509dd7770ad02b04849909",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_07X161",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X161.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_07X161.pdf.metadata.json",
+    "title": "07X161 P.S. 161 Juan Ponce De Leon School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X161.pdf",
+    "retrieved_at": "2026-11-06T12:28:26.054244+00:00",
+    "sha256": "f13492520a56ef240fd27ee50185d6d745acb4c5e2385609d9e9b0e48cc178e8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_08X048",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X048.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X048.pdf.metadata.json",
+    "title": "08X048 P.S. 048 Joseph R. Drake: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X048.pdf",
+    "retrieved_at": "2026-11-06T12:28:28.658158+00:00",
+    "sha256": "380b980feb957e8ca6848822ca13e11883faa521c7715c1cb01f8f6e8eb3a91d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_08X152",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X152.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X152.pdf.metadata.json",
+    "title": "08X152 P.S. 152 Evergreen: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X152.pdf",
+    "retrieved_at": "2026-11-06T12:28:30.115561+00:00",
+    "sha256": "34e695f108e39ec03ca5b3dca508a99b131bdefc7adf021e74be1fac33c9a210",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_08X333",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X333.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_08X333.pdf.metadata.json",
+    "title": "08X333 The Longwood Academy of Discovery: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X333.pdf",
+    "retrieved_at": "2026-11-06T12:28:31.561544+00:00",
+    "sha256": "d832b883e97d1ce34dc85df2f6e6d775cc5eda8e743e2950df6f99a8cc4abc48",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X011",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X011.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X011.pdf.metadata.json",
+    "title": "09X011 P.S. 011 Highbridge: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X011.pdf",
+    "retrieved_at": "2026-11-06T12:28:27.385070+00:00",
+    "sha256": "7ed929026a9e0a6a14344793b1d450b557008c66270b3046b7d15d3f598800f9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X053",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X053.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X053.pdf.metadata.json",
+    "title": "09X053 P.S. 053 Basheer Quisim: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X053.pdf",
+    "retrieved_at": "2026-11-06T12:28:35.425717+00:00",
+    "sha256": "7313122a1144c0fc77517dfdf309485d0400ce88a05fd6e3058f8a1cbdecdbcb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X070",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X070.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X070.pdf.metadata.json",
+    "title": "09X070 P.S. 070 Max Schoenfeld: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X070.pdf",
+    "retrieved_at": "2026-11-06T12:28:36.972519+00:00",
+    "sha256": "46b53f724c73429c55aee05ab744b0374d244b929eedfd4a706472082ad2b80e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X073",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X073.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X073.pdf.metadata.json",
+    "title": "09X073 P.S. 073 Bronx: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X073.pdf",
+    "retrieved_at": "2026-11-06T12:28:38.449815+00:00",
+    "sha256": "b4caa6f0c3f76c4f1e2378c56180f505145789e68ec82a6f5c0a26d4f27795cd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X109",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X109.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X109.pdf.metadata.json",
+    "title": "09X109 P.S. 109 Sedgwick: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X109.pdf",
+    "retrieved_at": "2026-11-06T12:28:39.667382+00:00",
+    "sha256": "a7259879fcb3f191caaf80dfe17f2fc687e0498c6c5df72faa0f70efa1c588e1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X110",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X110.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X110.pdf.metadata.json",
+    "title": "09X110 P.S. 110 Theodore Schoenfeld: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X110.pdf",
+    "retrieved_at": "2026-11-06T12:28:40.944194+00:00",
+    "sha256": "7936ff6f1646c119dfcfe441f0b603aa168c4f7bd617862fce50d91f90128aa5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X170",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X170.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X170.pdf.metadata.json",
+    "title": "09X170 P.S. 170: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X170.pdf",
+    "retrieved_at": "2026-11-06T12:28:42.402809+00:00",
+    "sha256": "1316852b81e8ea87993eec377db067f5dc226c53838356a9a6c90b8e2df9dec1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X218",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X218.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X218.pdf.metadata.json",
+    "title": "09X218 P.S./I.S. 218 Rafael Hernandez Dual Language Magnet School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X218.pdf",
+    "retrieved_at": "2026-11-06T12:28:43.910827+00:00",
+    "sha256": "84896a93e1d8d14efef45ffba2a18548a47e69a9ff76b24700e6a67d21f33e7c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X311",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X311.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X311.pdf.metadata.json",
+    "title": "09X311 Lucero Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X311.pdf",
+    "retrieved_at": "2026-11-06T12:28:32.856575+00:00",
+    "sha256": "a28495b80cbe0eb208e166c1a89422c7b519c53197de814c05fff1b2ab19fbb2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X443",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X443.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X443.pdf.metadata.json",
+    "title": "09X443 The Family School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X443.pdf",
+    "retrieved_at": "2026-11-06T12:28:46.633923+00:00",
+    "sha256": "36a1203da3a8602148080298eb1c4eaba690cc18187be9c3a5638219da370216",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_09X457",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X457.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_09X457.pdf.metadata.json",
+    "title": "09X457 Sheridan Academy for Young Leaders: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X457.pdf",
+    "retrieved_at": "2026-11-06T12:28:45.201351+00:00",
+    "sha256": "eb18210f90823c474f3e0000d5e5437af7b27522b5883e849abfb2317299cf0d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_10X046",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X046.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X046.pdf.metadata.json",
+    "title": "10X046 P.S. 046 Edgar Allan Poe: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X046.pdf",
+    "retrieved_at": "2026-11-06T12:23:13.974670+00:00",
+    "sha256": "e939b5a0b58618c9d9742ad3e1c6b8c7063a1aa8e13610c88d49f49d6451eedc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_10X054",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X054.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X054.pdf.metadata.json",
+    "title": "10X054 P.S./I.S. 54: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X054.pdf",
+    "retrieved_at": "2026-11-06T12:23:18.542279+00:00",
+    "sha256": "a1818ce59d63caad1039ddc23760209803e3efe7d22e887323d692ccd49bb4e2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_10X077",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X077.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X077.pdf.metadata.json",
+    "title": "10X077 Bedford Park Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X077.pdf",
+    "retrieved_at": "2026-11-06T12:23:12.531994+00:00",
+    "sha256": "3d1f290bbcfdf746d367d628c9580f3f4d8f32306855ddd8ff882062e1fb6f2f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_10X085",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X085.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X085.pdf.metadata.json",
+    "title": "10X085 P.S. 085 Great Expectations: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X085.pdf",
+    "retrieved_at": "2026-11-06T12:23:15.837845+00:00",
+    "sha256": "a7c4278c8f0cc763dd6434afc2f5e3dd57543b2e01264eb559fddd2c24b49dfc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_10X207",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X207.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_10X207.pdf.metadata.json",
+    "title": "10X207 P.S. 207: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X207.pdf",
+    "retrieved_at": "2026-11-06T12:23:09.505276+00:00",
+    "sha256": "2d44eb851c05a0c721674a96ae9dcc19b95536d3ec081ec92518411d73246994",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_12X458",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X458.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X458.pdf.metadata.json",
+    "title": "12X458 Samara Community School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X458.pdf",
+    "retrieved_at": "2026-11-06T12:23:21.566599+00:00",
+    "sha256": "ff642c914835fa0ec1ecf47e840adc88f223348c9778eb36cb087709e097f704",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_12X463",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X463.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X463.pdf.metadata.json",
+    "title": "12X463 Urban Scholars Community School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X463.pdf",
+    "retrieved_at": "2026-11-06T12:23:22.831214+00:00",
+    "sha256": "0febe6c418422bcd69b295424c6e79e9b9326a5bcc3439d4f89e1e75987576d1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_12X595",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X595.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_12X595.pdf.metadata.json",
+    "title": "12X595 P.S. 595: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X595.pdf",
+    "retrieved_at": "2026-11-06T12:23:19.886124+00:00",
+    "sha256": "a22efc0e6456e1e7c7e4e2642c76e7de3a19928e54f49ba306433efcdf2c5bc8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_13K009",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K009.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K009.pdf.metadata.json",
+    "title": "13K009 Public School 9 The Sarah Smith Garnet School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K009.pdf",
+    "retrieved_at": "2026-11-06T12:23:29.697496+00:00",
+    "sha256": "1052a0c5024438dd6c143a223f06efce62056b3b062114fe6a29be46ec9fab0a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_13K020",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K020.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K020.pdf.metadata.json",
+    "title": "13K020 P.S. 020 Clinton Hill: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K020.pdf",
+    "retrieved_at": "2026-11-06T12:23:24.273875+00:00",
+    "sha256": "f1a71dbc0c9eb847b5f4ee9c2638f99bfd4c3b0fb40c0a8ba8b0f36b85a89b9b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_13K046",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K046.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K046.pdf.metadata.json",
+    "title": "13K046 P.S. 046 Edward C. Blum: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K046.pdf",
+    "retrieved_at": "2026-11-06T12:23:25.898464+00:00",
+    "sha256": "eb87298b4b962a11edabd1810b25e68b77b0dc201398d22f09fdbcda70733b41",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_13K054",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K054.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K054.pdf.metadata.json",
+    "title": "13K054 P.S. 54 The Detective Rafael Ramos School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K054.pdf",
+    "retrieved_at": "2026-11-06T12:23:28.560590+00:00",
+    "sha256": "870b5770c279419b57f17d868f4a3a60e4a4d79bfda4d2a76ead24e1e5142cfb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_13K133",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K133.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_13K133.pdf.metadata.json",
+    "title": "13K133 P.S. 133 William A. Butler: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K133.pdf",
+    "retrieved_at": "2026-11-06T12:23:27.354291+00:00",
+    "sha256": "698e2f2f20c88422600e3a4e814d97a3389c3f00d6f3333045b819d7e7ab670f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K018",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K018.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K018.pdf.metadata.json",
+    "title": "14K018 P.S. 018 Edward Bush: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K018.pdf",
+    "retrieved_at": "2026-11-06T12:23:32.206405+00:00",
+    "sha256": "c9db38401ab15a06833f8db852783e836a73ca777fb169fef940af760bce2d13",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K034",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K034.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K034.pdf.metadata.json",
+    "title": "14K034 P.S. 034 Oliver H. Perry: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K034.pdf",
+    "retrieved_at": "2026-11-06T12:23:33.469418+00:00",
+    "sha256": "13e70da83554a1f3249cef7549d9729c71526102ed3413ddc04fe17f4d7649dc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K059",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K059.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K059.pdf.metadata.json",
+    "title": "14K059 P.S. 059 The Dawn Best School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K059.pdf",
+    "retrieved_at": "2026-11-06T12:23:34.597076+00:00",
+    "sha256": "d020f031577e18a805ef3642a0fdf012f65053fb2e3b14089ac38054428e542f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K084",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K084.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K084.pdf.metadata.json",
+    "title": "14K084 P.S. 084 Jose De Diego: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K084.pdf",
+    "retrieved_at": "2026-11-06T12:23:35.924376+00:00",
+    "sha256": "d5265e88f0dd535a7bea08743d290b2050626bcaa19ab7fb48bd9199dfda5e07",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K110",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K110.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K110.pdf.metadata.json",
+    "title": "14K110 P.S. 110 The Monitor: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K110.pdf",
+    "retrieved_at": "2026-11-06T12:23:37.232129+00:00",
+    "sha256": "3c19f054ab97f092b4e95901d318fdd26cd5abc41cd0a1e5b05957425f66aa9b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K132",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K132.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K132.pdf.metadata.json",
+    "title": "14K132 P.S. 132 The Conselyea School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K132.pdf",
+    "retrieved_at": "2026-11-06T12:23:58.971384+00:00",
+    "sha256": "02790d58d3116099e027cbf37ab21ea4d37c1552080e2986e602f21552aef322",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K250",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K250.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K250.pdf.metadata.json",
+    "title": "14K250 P.S. 250 George H. Lindsay: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K250.pdf",
+    "retrieved_at": "2026-11-06T12:23:39.886393+00:00",
+    "sha256": "2ddf66c8e384709ea56d4983c3b7f9245216dc43f834ac4dfb46dacd98349bc1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K319",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K319.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K319.pdf.metadata.json",
+    "title": "14K319 P.S. 319: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K319.pdf",
+    "retrieved_at": "2026-11-06T12:23:54.275737+00:00",
+    "sha256": "b3d19443cfa116835ef72bf60f6396421e9d6433073574e0678abeb7a87077a1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K380",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K380.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K380.pdf.metadata.json",
+    "title": "14K380 P.S. 380 John Wayne Elementary: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K380.pdf",
+    "retrieved_at": "2026-11-06T12:23:48.024022+00:00",
+    "sha256": "993ee6db4428e57a64eb82b89fe50f41d4e1edf53f4703405ddc23357588b4b7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_14K414",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K414.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_14K414.pdf.metadata.json",
+    "title": "14K414 Brooklyn Arbor Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K414.pdf",
+    "retrieved_at": "2026-11-06T12:23:31.067077+00:00",
+    "sha256": "a7a39ddce2a7b5b29979310cc2e25566aa678d1f99752d7069dc43ed34fe08d6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K001",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K001.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K001.pdf.metadata.json",
+    "title": "15K001 P.S. 001 The Bergen: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K001.pdf",
+    "retrieved_at": "2026-11-06T12:23:49.678902+00:00",
+    "sha256": "0b58f2e41d0d8073a3bc67d573c9cb754e8b3bdef044232d1f7f177950999009",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K015",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K015.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K015.pdf.metadata.json",
+    "title": "15K015 P.S. 015 Patrick F. Daly: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K015.pdf",
+    "retrieved_at": "2026-11-06T12:23:38.622370+00:00",
+    "sha256": "e936bb5a541d0cc26cbd22d9d8264c3c93c500debdc0d3dbb7765f41afc3576f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K024",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K024.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K024.pdf.metadata.json",
+    "title": "15K024 P.S. 024: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K024.pdf",
+    "retrieved_at": "2026-11-06T12:23:52.828831+00:00",
+    "sha256": "bcec73a6a3ad86a82092d4153ee9572a77d24cb4bf207d9291fe7747556db1c8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K058",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K058.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K058.pdf.metadata.json",
+    "title": "15K058 P.S. 058 The Carroll: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K058.pdf",
+    "retrieved_at": "2026-11-06T12:23:41.161833+00:00",
+    "sha256": "2dc2e6c960af2968e72135c7ed2df37163729b2c42b90e3f8ac7d4a25abe03d5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K094",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K094.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K094.pdf.metadata.json",
+    "title": "15K094 P.S. 094 The Henry Longfellow: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K094.pdf",
+    "retrieved_at": "2026-11-06T12:23:55.419139+00:00",
+    "sha256": "df70897c6efd1a6ec84f188775058f6507d02903b8c866ac7afe1459cb65ab57",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K124",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K124.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K124.pdf.metadata.json",
+    "title": "15K124 P.S. 124 Silas B. Dutcher: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K124.pdf",
+    "retrieved_at": "2026-11-06T12:23:57.315126+00:00",
+    "sha256": "dc17bd432a1cd622fbd9db2ab416b109b4a341dcb402dc29fd24e7350990daad",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K169",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K169.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K169.pdf.metadata.json",
+    "title": "15K169 P.S. 169 Sunset Park: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K169.pdf",
+    "retrieved_at": "2026-11-06T12:23:51.234370+00:00",
+    "sha256": "dcade33a3efbde6785b6ce0ea66aa79c8a272cfa3113f04639f08c6a888affc5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K230",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K230.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K230.pdf.metadata.json",
+    "title": "15K230 P.S. 230 Doris L. Cohen: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K230.pdf",
+    "retrieved_at": "2026-11-06T12:24:06.008480+00:00",
+    "sha256": "34e2911b9fc47f5caa26ef5a8f56c5227763d0b88cf72b28b96be3d3be062d81",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K456",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K456.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K456.pdf.metadata.json",
+    "title": "15K456 The Elizabeth Jennings School for Bold Explorers: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K456.pdf",
+    "retrieved_at": "2026-11-06T12:24:14.330223+00:00",
+    "sha256": "ef96675b6904c86a33955161db8fcd0b8011c049e3e02fbc7c86993fc26d1156",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K516",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K516.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K516.pdf.metadata.json",
+    "title": "15K516 Sunset Park Avenues Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K516.pdf",
+    "retrieved_at": "2026-11-06T12:24:13.068588+00:00",
+    "sha256": "7be9bc30b05dba6ee860786205498266e94687fd886cb8cb1c801129255c73b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_15K896",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K896.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_15K896.pdf.metadata.json",
+    "title": "15K896 The School of Creativity and Innovation: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K896.pdf",
+    "retrieved_at": "2026-11-06T12:24:15.662468+00:00",
+    "sha256": "cfc5748c2c63dbff83af2428c122f1c7a8f01764443bbcd8c62998b5a91f6a4b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_16K005",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K005.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K005.pdf.metadata.json",
+    "title": "16K005 P.S. 005 Dr. Ronald McNair: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K005.pdf",
+    "retrieved_at": "2026-11-06T12:24:18.199247+00:00",
+    "sha256": "400da24451f238bb5b0530943eb909a48d106eb0ae4f44fb03617417276272de",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_16K040",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K040.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K040.pdf.metadata.json",
+    "title": "16K040 P.S. 040 George W. Carver: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K040.pdf",
+    "retrieved_at": "2026-11-06T12:24:19.734817+00:00",
+    "sha256": "9c706f585fdebadcff25bb970a015c925b866c3ba1484a908a652bc74f7e690a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_16K627",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K627.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_16K627.pdf.metadata.json",
+    "title": "16K627 Brighter Choice Community School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K627.pdf",
+    "retrieved_at": "2026-11-06T12:24:16.968932+00:00",
+    "sha256": "a749542a8259bb9fcb94a560c6d2f45bbe0060e3c48e9e70840836273e6c6482",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_17K189",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K189.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K189.pdf.metadata.json",
+    "title": "17K189 P.S. 189 The Bilingual Center: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K189.pdf",
+    "retrieved_at": "2026-11-06T12:24:29.229927+00:00",
+    "sha256": "00e2fa7fecff0e3744689296893722d9e3bf19fe442bc4440f071eebd5ab1904",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_17K249",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K249.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K249.pdf.metadata.json",
+    "title": "17K249 P.S. 249 The Caton: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K249.pdf",
+    "retrieved_at": "2026-11-06T12:24:23.921304+00:00",
+    "sha256": "5c63ac7041689c87baae69fceec892f0dd6a7e1185af126b28483b50dde64a10",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_17K316",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K316.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K316.pdf.metadata.json",
+    "title": "17K316 P.S. 316 Elijah Stroud: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K316.pdf",
+    "retrieved_at": "2026-11-06T12:24:25.373000+00:00",
+    "sha256": "b2b818cf8ba75f5463c0e878cc7bf40b3b9bf1cfead41700acf28cf50e8ff857",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_17K705",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K705.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K705.pdf.metadata.json",
+    "title": "17K705 Brooklyn Arts and Science Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K705.pdf",
+    "retrieved_at": "2026-11-06T12:24:20.970178+00:00",
+    "sha256": "2d2e7f5e14b545d77dee28a59c00b7ce08ea239e16f22162c58f709407ceee34",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_17K770",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K770.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_17K770.pdf.metadata.json",
+    "title": "17K770 P.S. 770 New American Academy: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K770.pdf",
+    "retrieved_at": "2026-11-06T12:24:26.634375+00:00",
+    "sha256": "1cbae8933fc736355985ad772c6cec41e7bc303b6fccc413c3371a730989467e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K007",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K007.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K007.pdf.metadata.json",
+    "title": "19K007 P.S. 007 Abraham Lincoln: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K007.pdf",
+    "retrieved_at": "2026-11-06T12:24:22.543681+00:00",
+    "sha256": "c54941605bf26079b56a46534d85286b282c5d3c6258eecfba9cc6e05d756d8e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K089",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K089.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K089.pdf.metadata.json",
+    "title": "19K089 P.S. 089 Cypress Hills: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K089.pdf",
+    "retrieved_at": "2026-11-06T12:24:30.640238+00:00",
+    "sha256": "aeb50ec979a003d46ff6a3dd93afac5d59c3dcd22a7f90cc584fbc5747e1239e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K108",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K108.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K108.pdf.metadata.json",
+    "title": "19K108 P.S. 108 Sal Abbracciamento: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K108.pdf",
+    "retrieved_at": "2026-11-06T12:24:31.982384+00:00",
+    "sha256": "e0b1133c9e2c915688c42b49cf4e54b8add0e26e12a232ca89e6cd94afa5e0a7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K214",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K214.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K214.pdf.metadata.json",
+    "title": "19K214 P.S. 214 Michael Friedsam: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K214.pdf",
+    "retrieved_at": "2026-11-06T12:24:33.404843+00:00",
+    "sha256": "9d3e657c0a39f0506860b225ff60e351ef74bc6a9bbf6c9c6b8960b611d0a80e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K345",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K345.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K345.pdf.metadata.json",
+    "title": "19K345 P.S. 345 Patrolman Robert Bolden: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K345.pdf",
+    "retrieved_at": "2026-11-06T12:24:35.387047+00:00",
+    "sha256": "33fa9d298d848cd77699d116938e6ad8d0ba77c55f72d77faf014faa9a65d26f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_19K557",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K557.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_19K557.pdf.metadata.json",
+    "title": "19K557 Brooklyn Gardens Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K557.pdf",
+    "retrieved_at": "2026-11-06T12:24:27.789453+00:00",
+    "sha256": "b2c9320d761e5a0adeb3bef22cb322625834fccc30ca0ddc9d13aa60b40efe11",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K030",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K030.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K030.pdf.metadata.json",
+    "title": "20K030 P.S./I.S. 30 Mary White Ovington: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K030.pdf",
+    "retrieved_at": "2026-11-06T12:24:52.058793+00:00",
+    "sha256": "86a7890f7f0fa24b4f211eb7902711de54dbcc88f8a1cef977f5e158882ad7f2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K069",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K069.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K069.pdf.metadata.json",
+    "title": "20K069 P.S. 69 Vincent D. Grippo School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K069.pdf",
+    "retrieved_at": "2026-11-06T12:24:50.761760+00:00",
+    "sha256": "771485362e823966098af46c63a7330e0d61b93e24c5e8e9edf6a942ac32bbcc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K112",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K112.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K112.pdf.metadata.json",
+    "title": "20K112 P.S. 112 Lefferts Park: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K112.pdf",
+    "retrieved_at": "2026-11-06T12:24:40.630403+00:00",
+    "sha256": "b9fd4ff72e2d9479184851d9e84fd92168cb04a94562366df6de749128f82664",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K170",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K170.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K170.pdf.metadata.json",
+    "title": "20K170 Ralph A. Fabrizio School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K170.pdf",
+    "retrieved_at": "2026-11-06T12:24:53.568147+00:00",
+    "sha256": "781de9d51cc7fbfdc190d89fe33392cedcc9d3dee47ed15b85bbfded5ef0722c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K176",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K176.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K176.pdf.metadata.json",
+    "title": "20K176 P.S. 176 Ovington: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K176.pdf",
+    "retrieved_at": "2026-11-06T12:24:41.918168+00:00",
+    "sha256": "2733e56ba984781b3a8387972287d5c7f07e71113d9e66ee4e554ada28ef54ef",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K200",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K200.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K200.pdf.metadata.json",
+    "title": "20K200 P.S. 200 Benson School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K200.pdf",
+    "retrieved_at": "2026-11-06T12:24:43.259595+00:00",
+    "sha256": "ac282e3f7daad9f911702562e3ed085f1c1599f280c404419237bbccc72a70ab",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K204",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K204.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K204.pdf.metadata.json",
+    "title": "20K204 P.S. 204 Vince Lombardi: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K204.pdf",
+    "retrieved_at": "2026-11-06T12:24:44.744237+00:00",
+    "sha256": "a214da881712f4fb81cfbf905757d811214ec892d8a80a2aa62fdf1d004ff4cc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K229",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K229.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K229.pdf.metadata.json",
+    "title": "20K229 P.S. 229 Dyker: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K229.pdf",
+    "retrieved_at": "2026-11-06T12:24:46.543402+00:00",
+    "sha256": "02f893c37d7007805ce234ca7ffc635afe456b179b16be9497119d4a004cc73e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K413",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K413.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K413.pdf.metadata.json",
+    "title": "20K413 Joanne Seminara School of Law and Medicine: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K413.pdf",
+    "retrieved_at": "2026-11-06T12:24:39.425924+00:00",
+    "sha256": "c7d3f146b6eb3dd182611160b761c4d9353cc86829360811e0cc97781811abcc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K503",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K503.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K503.pdf.metadata.json",
+    "title": "20K503 P.S. 503: The School of Discovery: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K503.pdf",
+    "retrieved_at": "2026-11-06T12:24:48.115955+00:00",
+    "sha256": "8bdad75a71eec1ad96432ebf3bbad915a02303483146a3028bd30dec4760af13",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K506",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K506.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K506.pdf.metadata.json",
+    "title": "20K506 P.S. 506: The School of Journalism & Technology: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K506.pdf",
+    "retrieved_at": "2026-11-06T12:24:49.431943+00:00",
+    "sha256": "6f51cf45787327476ab738d462101cb4dd4621725a5733c87b74d6bfb926a749",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_20K939",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K939.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_20K939.pdf.metadata.json",
+    "title": "20K939 Sunset School of Cultural Learning: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K939.pdf",
+    "retrieved_at": "2026-11-06T12:25:02.022568+00:00",
+    "sha256": "a475093e30d87699cd73f7f106537433fcf9071d8c4ee9b673827d6f12b6e578",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_21K090",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K090.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K090.pdf.metadata.json",
+    "title": "21K090 P.S. 90 Edna Cohen School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K090.pdf",
+    "retrieved_at": "2026-11-06T12:24:57.923800+00:00",
+    "sha256": "16998f8c11b7dd93850e576e4ff10e5d94b175210d4dd18baa6fdb1ee47ccf1f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_21K101",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K101.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K101.pdf.metadata.json",
+    "title": "21K101 P.S. 101 The Verrazano: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K101.pdf",
+    "retrieved_at": "2026-11-06T12:24:56.322697+00:00",
+    "sha256": "db3f79a3b22bfdff165c6696b0e124c5758012cf6f003ccc33f9d51a1e66f9f5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_21K225",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K225.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_21K225.pdf.metadata.json",
+    "title": "21K225 P.S. K225 - The Eileen E. Zaglin: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K225.pdf",
+    "retrieved_at": "2026-11-06T12:24:59.278521+00:00",
+    "sha256": "5a15ca5dd782bb2cf67c9e0239218b94224a28eb5bcac34f25ff0b9274827e42",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_22K139",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_22K139.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_22K139.pdf.metadata.json",
+    "title": "22K139 P.S. 139 Alexine A. Fenty: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K139.pdf",
+    "retrieved_at": "2026-11-06T12:25:00.860383+00:00",
+    "sha256": "2d254325b04ea0e200b8ed5ff84c837e107c8e63df2688b98cf24dc606cbcb67",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_22K206",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_22K206.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_22K206.pdf.metadata.json",
+    "title": "22K206 P.S. 206 Joseph F Lamb: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K206.pdf",
+    "retrieved_at": "2026-11-06T12:24:55.091982+00:00",
+    "sha256": "955d751df96298e4381a11e0770521b1646d6bb9ea99f682af0da26b0869080f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_23K155",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_23K155.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_23K155.pdf.metadata.json",
+    "title": "23K155 P.S./ I.S. 155 Nicholas Herkimer: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K155.pdf",
+    "retrieved_at": "2026-11-06T12:25:03.194079+00:00",
+    "sha256": "4147e0557d66572345c590b25dcbf8d58b3e58bff2c5565fe82c72da36b28d07",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q007",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q007.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q007.pdf.metadata.json",
+    "title": "24Q007 P.S. 007 Louis F. Simeone: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q007.pdf",
+    "retrieved_at": "2026-11-06T12:25:07.623010+00:00",
+    "sha256": "6c4a7f37254c1b79b80c07f96aa28dd75ac188e3d0a8d40db0a8922acdd813c3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q013",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q013.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q013.pdf.metadata.json",
+    "title": "24Q013 P.S. 013 Clement C. Moore: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q013.pdf",
+    "retrieved_at": "2026-11-06T12:25:25.199140+00:00",
+    "sha256": "7de772166cbd9ba8e7925916a26cf6fe3a836979522b81f654609c38de5f3f97",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q014",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q014.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q014.pdf.metadata.json",
+    "title": "24Q014 P.S. 014 Fairview: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q014.pdf",
+    "retrieved_at": "2026-11-06T12:25:27.141821+00:00",
+    "sha256": "aedda2167561a1806612a7b35c0aab96d4865782cc9b22a3a809b05312ee5af6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q016",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q016.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q016.pdf.metadata.json",
+    "title": "24Q016 P.S. Q016 The Nancy DeBenedittis School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q016.pdf",
+    "retrieved_at": "2026-11-06T12:25:40.243900+00:00",
+    "sha256": "3009b564c5b15f9d484cb8b6eacdc3871ea6a3846ea64aadce4059c538d4e968",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q019",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q019.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q019.pdf.metadata.json",
+    "title": "24Q019 P.S. 019 Marino Jeantet: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q019.pdf",
+    "retrieved_at": "2026-11-06T12:25:37.539396+00:00",
+    "sha256": "26ae85494e27c34691dc809c622459e0be0ab5b6e8f36e2e833fd3bec96e94b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q088",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q088.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q088.pdf.metadata.json",
+    "title": "24Q088 P.S. 088 Seneca: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q088.pdf",
+    "retrieved_at": "2026-11-06T12:25:30.710713+00:00",
+    "sha256": "3f1479198345941f54874f7a0b217fa60c410b9c9b3ad45407a9f7f7a224eb17",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q089",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q089.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q089.pdf.metadata.json",
+    "title": "24Q089 P.S. 89Q: The Jose Peralta School of Dreamers: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q089.pdf",
+    "retrieved_at": "2026-11-06T12:25:46.380593+00:00",
+    "sha256": "0165c45997d155e9a38825eb94d0a8cef3c5deb1165b4e64b1b5233e59f958be",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q102",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q102.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q102.pdf.metadata.json",
+    "title": "24Q102 P.S. 102 Bayview: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q102.pdf",
+    "retrieved_at": "2026-11-06T12:25:32.569073+00:00",
+    "sha256": "a22bbe588d6711a7f1e9c947d7b44285113bab9d259c182479d97b634cf0ae4d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q110",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q110.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q110.pdf.metadata.json",
+    "title": "24Q110 P.S. 110: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q110.pdf",
+    "retrieved_at": "2026-11-06T12:25:34.285754+00:00",
+    "sha256": "3cb8b95c26797a93caa4a3c57c633825768d0119c81edcefe9299f2adc0f1de8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q143",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q143.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q143.pdf.metadata.json",
+    "title": "24Q143 P.S. 143 Louis Armstrong: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q143.pdf",
+    "retrieved_at": "2026-11-06T12:25:43.247503+00:00",
+    "sha256": "438f377d18397507dccf67e66ce028d3e5d799352b81a18bc4dff84be08585d3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q153",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q153.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q153.pdf.metadata.json",
+    "title": "24Q153 P.S. 153 Maspeth Elem: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q153.pdf",
+    "retrieved_at": "2026-11-06T12:25:29.269127+00:00",
+    "sha256": "90387a2c753b51772b2f11a5a5e656275475f1039ffc2a32628eb08ebaac0052",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q211",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q211.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q211.pdf.metadata.json",
+    "title": "24Q211 Elm Tree Elementary School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q211.pdf",
+    "retrieved_at": "2026-11-06T12:25:04.628953+00:00",
+    "sha256": "07b1d0bdce0cf631dd701d67f1b83e228098a565f73fb601efd6083043addfac",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_24Q330",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q330.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_24Q330.pdf.metadata.json",
+    "title": "24Q330 Helen M. Marshall School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q330.pdf",
+    "retrieved_at": "2026-11-06T12:25:06.259650+00:00",
+    "sha256": "9815946fd657c13437a7be76b7bd7afb904aafaa43bbc4152b7519f33e2519b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_25Q020",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q020.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q020.pdf.metadata.json",
+    "title": "25Q020 P.S. 020 John Bowne: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q020.pdf",
+    "retrieved_at": "2026-11-06T12:25:41.883474+00:00",
+    "sha256": "4a973d225f6bdd6b76b1e2222ae4dcfefa41414df23f11f5c839f24ef8512664",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_25Q021",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q021.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q021.pdf.metadata.json",
+    "title": "25Q021 P.S. 021 Edward Hart: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q021.pdf",
+    "retrieved_at": "2026-11-06T12:25:36.006218+00:00",
+    "sha256": "d81dfb9c3876872b05cc4aafdc3289a2bf46fbbb4498a59c07e5c646bf7f9621",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_25Q032",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q032.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q032.pdf.metadata.json",
+    "title": "25Q032 P.S. 032 State Street: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q032.pdf",
+    "retrieved_at": "2026-11-06T12:25:45.004345+00:00",
+    "sha256": "ef964b09b48686f29187cf68b804b2d9b4e43e691c5ca24f0218bde565e2b5bf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_25Q107",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q107.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q107.pdf.metadata.json",
+    "title": "25Q107 P.S. 107 Thomas A Dooley: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q107.pdf",
+    "retrieved_at": "2026-11-06T12:25:38.951915+00:00",
+    "sha256": "8a4e36b51e7af23b6b9919c9893ee2f2622b14a239b7ee5fe2d8923ac119e2a3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_25Q163",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q163.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_25Q163.pdf.metadata.json",
+    "title": "25Q163 P.S. 163 Flushing Heights: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q163.pdf",
+    "retrieved_at": "2026-11-06T12:26:01.245802+00:00",
+    "sha256": "1359127e59c44e7e8dba1cf72b9faa1a5610f579c6f2552b663ba14a7079b042",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_26Q162",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_26Q162.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_26Q162.pdf.metadata.json",
+    "title": "26Q162 P.S. 162 John Golden: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q162.pdf",
+    "retrieved_at": "2026-11-06T12:25:49.425945+00:00",
+    "sha256": "1e67cdf3aa2ec1942f2b6f84a475c36b1a840fc8a284e61434d4fa5eb6f0ca88",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_26Q173",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_26Q173.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_26Q173.pdf.metadata.json",
+    "title": "26Q173 P.S. 173 Fresh Meadows: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q173.pdf",
+    "retrieved_at": "2026-11-06T12:25:51.108669+00:00",
+    "sha256": "c105f99009a09693dbb70d96aa939489b1aec089c53a266811012e58c28280f4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_27Q060",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q060.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q060.pdf.metadata.json",
+    "title": "27Q060 P.S. 060 Woodhaven: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q060.pdf",
+    "retrieved_at": "2026-11-06T12:25:52.758360+00:00",
+    "sha256": "d0e8a1ffa4ee79f04d750a06247e2536f1a294587fa50b92f1bcb1d85e88b60b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_27Q097",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q097.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q097.pdf.metadata.json",
+    "title": "27Q097 P.S. 097 Forest Park: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q097.pdf",
+    "retrieved_at": "2026-11-06T12:25:54.146974+00:00",
+    "sha256": "ecea54b233f47b9f2f0b2dabdadd1fd5dac29b3ef1bae4466d3f1819525e2ff8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_27Q253",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q253.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_27Q253.pdf.metadata.json",
+    "title": "27Q253 The Randolph Holder School for Social Justice: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q253.pdf",
+    "retrieved_at": "2026-11-06T12:25:48.187195+00:00",
+    "sha256": "d38acb83bb5f89ea97de05fdc4fe23bb3c114f1fc286e21977cce05f88b35bfb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_28Q082",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q082.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q082.pdf.metadata.json",
+    "title": "28Q082 P.S. 082 Hammond: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q082.pdf",
+    "retrieved_at": "2026-11-06T12:26:09.189016+00:00",
+    "sha256": "34976ec4ea835bbd9728ec03e43a51584f842ed33c067e743c125352fddb63d9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_28Q086",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q086.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q086.pdf.metadata.json",
+    "title": "28Q086 P.S. Q086: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q086.pdf",
+    "retrieved_at": "2026-11-06T12:26:03.840871+00:00",
+    "sha256": "b1e3b234c6b6c84f40c212b5caa2cbc40b0d3962ac74b4094740e5f861325ece",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_28Q354",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q354.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_28Q354.pdf.metadata.json",
+    "title": "28Q354 The Jermaine L. Green STEM Institute of Queens: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q354.pdf",
+    "retrieved_at": "2026-11-06T12:26:05.376974+00:00",
+    "sha256": "5581b89948fad2b5f6f84b6e6654e042c15ed144cc982fac30bf9cb61458c210",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_29Q116",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_29Q116.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_29Q116.pdf.metadata.json",
+    "title": "29Q116 P.S./I.S. 116 William C. Hughley: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q116.pdf",
+    "retrieved_at": "2026-11-06T12:26:13.097576+00:00",
+    "sha256": "85c5b4eb159c79fedd21fe5432d02666aa0ac412e39174793286216cc9c21c0d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q017",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q017.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q017.pdf.metadata.json",
+    "title": "30Q017 P.S. 017 Henry David Thoreau: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q017.pdf",
+    "retrieved_at": "2026-11-06T12:26:18.563508+00:00",
+    "sha256": "6d6265b35284d4359137c81b4be5a0e6306f1865097fab77e89177a0a3e0a5b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q076",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q076.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q076.pdf.metadata.json",
+    "title": "30Q076 P.S. 076 William Hallet: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q076.pdf",
+    "retrieved_at": "2026-11-06T12:26:19.795003+00:00",
+    "sha256": "d9ab0d8fee9e2c7017a70a8a50c7994c0b5337a7d3b3241abb1b0881b751d768",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q092",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q092.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q092.pdf.metadata.json",
+    "title": "30Q092 P.S. 092 Harry T. Stewart Sr.: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q092.pdf",
+    "retrieved_at": "2026-11-06T12:26:21.199212+00:00",
+    "sha256": "e2829f8e6ac4f8cd7e956d8e71d818a44e42a50f6f26185bca1df09116af247f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q112",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q112.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q112.pdf.metadata.json",
+    "title": "30Q112 P.S. 112 Dutch Kills: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q112.pdf",
+    "retrieved_at": "2026-11-06T12:26:22.490650+00:00",
+    "sha256": "1786d43ae3a148f0029ec031ebd643704cd4733196c9ac49c840063fe2ed01c6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q127",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q127.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q127.pdf.metadata.json",
+    "title": "30Q127 P.S. 127 Aerospace Science Magnet School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q127.pdf",
+    "retrieved_at": "2026-11-06T12:26:23.776952+00:00",
+    "sha256": "688a9209ede055149d132e1cef9ecb0f26ae2f16bf0672bf7802ffeef66e05a2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q149",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q149.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q149.pdf.metadata.json",
+    "title": "30Q149 P.S. 149 Christa McAuliffe: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q149.pdf",
+    "retrieved_at": "2026-11-06T12:26:25.408584+00:00",
+    "sha256": "5cb8fc7f3da3de80ccaed98058ee8910cea0ba695be3deb1b664c33c91479fee",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q150",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q150.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q150.pdf.metadata.json",
+    "title": "30Q150 P.S. 150 Queens: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q150.pdf",
+    "retrieved_at": "2026-11-06T12:26:39.963208+00:00",
+    "sha256": "c080df2f02ae103033a2f96c42232de190b947d80bf0405043a1d1afe173d83b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q166",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q166.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q166.pdf.metadata.json",
+    "title": "30Q166 P.S. 166 Henry Gradstein: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q166.pdf",
+    "retrieved_at": "2026-11-06T12:26:41.432206+00:00",
+    "sha256": "b4ca5bc7879e9052e8eaa049310c7e1c49efecc19d53f26f878133833b1239b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q212",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q212.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q212.pdf.metadata.json",
+    "title": "30Q212 P.S. 212: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q212.pdf",
+    "retrieved_at": "2026-11-06T12:26:35.611037+00:00",
+    "sha256": "f2b902374236b47a1e20b910a77913dc2d7a6eb87675149696c9e14a2c5ed9e3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q222",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q222.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q222.pdf.metadata.json",
+    "title": "30Q222 P.S. Q222 - Fire Fighter Christopher A. Santora School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q222.pdf",
+    "retrieved_at": "2026-11-06T12:26:37.062653+00:00",
+    "sha256": "e751262ab7e71befa01ae1c19c3016ecfb6567e18b1a20660f2e7ddb6facbb0e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q228",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q228.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q228.pdf.metadata.json",
+    "title": "30Q228 The Ivan Lafayette Early Childhood School of the Arts: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q228.pdf",
+    "retrieved_at": "2026-11-06T12:26:33.899467+00:00",
+    "sha256": "fe9253519c1866a194f4f4a114fb1ba1b6ddb775273173b0f49de8e16ede91cf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q280",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q280.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q280.pdf.metadata.json",
+    "title": "30Q280 PS280Q: Home of the Lionhearts: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q280.pdf",
+    "retrieved_at": "2026-11-06T12:26:38.510516+00:00",
+    "sha256": "918fbd710b219744dabafa5ef90b53fb0f36378ec9297a76f835d29512949dbd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q329",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q329.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q329.pdf.metadata.json",
+    "title": "30Q329 East Elmhurst Community School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q329.pdf",
+    "retrieved_at": "2026-11-06T12:26:17.081077+00:00",
+    "sha256": "447e4aa23deba1b8a9af7a2858b11bf0b8a79b2b672904d985a1416f72949c87",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_30Q398",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q398.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_30Q398.pdf.metadata.json",
+    "title": "30Q398 The Hector Figueroa School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q398.pdf",
+    "retrieved_at": "2026-11-06T12:26:32.396218+00:00",
+    "sha256": "447dee3a4ccdaa71440a377ad9e69765346199b3e6fb31878c09ffb27cc685a7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R016",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R016.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R016.pdf.metadata.json",
+    "title": "31R016 P.S. 016 John J. Driscoll: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R016.pdf",
+    "retrieved_at": "2026-11-06T12:26:42.782594+00:00",
+    "sha256": "3d44c488c9666c66030c38b7f3af2ad9a6e727d151bc9bd74b724347c2adae9a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R019",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R019.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R019.pdf.metadata.json",
+    "title": "31R019 P.S. 019 The Curtis School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R019.pdf",
+    "retrieved_at": "2026-11-06T12:26:44.253363+00:00",
+    "sha256": "dfcf48b6a0b61e9bd3695c65cfca34a569b0322e648a78140b8b5f2638585f4c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R020",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R020.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R020.pdf.metadata.json",
+    "title": "31R020 P.S. 020 Port Richmond: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R020.pdf",
+    "retrieved_at": "2026-11-06T12:26:45.736799+00:00",
+    "sha256": "2ecb46e1043d379f78b0bb6e1834ddac292d28fc1a0f92922065341a521c7a1c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R022",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R022.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R022.pdf.metadata.json",
+    "title": "31R022 P.S. 022 Graniteville: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R022.pdf",
+    "retrieved_at": "2026-11-06T12:26:47.137960+00:00",
+    "sha256": "8fb1478fa0197e1a188f59bd77deef994f0a4fbecc090a7abf6bca56387a870c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R044",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R044.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R044.pdf.metadata.json",
+    "title": "31R044 P.S. 044 Thomas C. Brown: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R044.pdf",
+    "retrieved_at": "2026-11-06T12:26:48.644530+00:00",
+    "sha256": "b592c424f4504177719266b655377e5c7099df8ecabe16112062d06734898831",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_31R084",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R084.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_31R084.pdf.metadata.json",
+    "title": "31R084 The Waverly Academy of Empowered Learners: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R084.pdf",
+    "retrieved_at": "2026-11-06T12:27:03.052735+00:00",
+    "sha256": "b02db0d03cbeb788f1bec93d9e437d1432054e893ebbf0aee89ebafc3db18d69",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K086",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K086.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K086.pdf.metadata.json",
+    "title": "32K086 P.S. 086 The Irvington: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K086.pdf",
+    "retrieved_at": "2026-11-06T12:27:16.348684+00:00",
+    "sha256": "f5f8a674fc13f710db75ece2cd1d91f58cd0350c02213ab0ecc5b88cf07a5889",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K106",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K106.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K106.pdf.metadata.json",
+    "title": "32K106 P.S. 106 Edward Everett Hale: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K106.pdf",
+    "retrieved_at": "2026-11-06T12:27:00.042175+00:00",
+    "sha256": "c02c8d70d24715cd1ba4b96fc1f4064a107abe9317fcf9590e1b5f5d76111577",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K116",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K116.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K116.pdf.metadata.json",
+    "title": "32K116 P.S. 116 Elizabeth L Farrell: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K116.pdf",
+    "retrieved_at": "2026-11-06T12:27:01.535022+00:00",
+    "sha256": "c43d20033353cb01e932a4a48a1769ba68518e71428469c32c5d377def7f9f1a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K123",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K123.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K123.pdf.metadata.json",
+    "title": "32K123 P.S. 123 Suydam: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K123.pdf",
+    "retrieved_at": "2026-11-06T12:26:55.710662+00:00",
+    "sha256": "91355a1095157f3ac78173dc5ea4488c50e3102f32e4f33a56603e167438813f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K145",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K145.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K145.pdf.metadata.json",
+    "title": "32K145 P.S. 145 Andrew Jackson: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K145.pdf",
+    "retrieved_at": "2026-11-06T12:26:57.244637+00:00",
+    "sha256": "945715478ef01ab5cef753eb3e17d22d65a3f758616fd0070ae180c4d920f5ae",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K151",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K151.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K151.pdf.metadata.json",
+    "title": "32K151 P.S. 151 Lyndon B. Johnson: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K151.pdf",
+    "retrieved_at": "2026-11-06T12:26:58.643128+00:00",
+    "sha256": "dcb007d27dccc161b27a98f03944fd1a807fbc9e49e2a3b4a6c29356954de57b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K274",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K274.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K274.pdf.metadata.json",
+    "title": "32K274 P.S. 274 Kosciusko: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K274.pdf",
+    "retrieved_at": "2026-11-06T12:27:18.036058+00:00",
+    "sha256": "14e4b11a83fbf99bcc7e9f9a6c274c9bd9ba8ef8a500410adafe2d63c9d406c8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K299",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K299.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K299.pdf.metadata.json",
+    "title": "32K299 P.S. 299 Thomas Warren Field: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K299.pdf",
+    "retrieved_at": "2026-11-06T12:27:19.511387+00:00",
+    "sha256": "6bca20db857b1ac7105723929a455fae7dd152d65ab892c2868d417e5777e6b3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K376",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K376.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K376.pdf.metadata.json",
+    "title": "32K376 P.S. 376: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K376.pdf",
+    "retrieved_at": "2026-11-06T12:27:21.014545+00:00",
+    "sha256": "9e0e234d3fb57eb32361d5ace113a23ba9e0b793f087bdc3190da83167c0e211",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_32K384",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K384.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_32K384.pdf.metadata.json",
+    "title": "32K384 P.S. /I.S. 384 Frances E. Carter: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K384.pdf",
+    "retrieved_at": "2026-11-06T12:27:04.363355+00:00",
+    "sha256": "614c24acf0ee5f01ea4f578478dad6a5d8d7db96c69238849ca46ec4beb6bea8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75M226",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75M226.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75M226.pdf.metadata.json",
+    "title": "75M226 P.S. M226: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M226.pdf",
+    "retrieved_at": "2026-11-06T12:22:34.989070+00:00",
+    "sha256": "7a33b2582bf541b84a3a542bc001e09851f218cac7d6d2bef75702df430e16d1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75Q009",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q009.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q009.pdf.metadata.json",
+    "title": "75Q009 P.S. 009: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q009.pdf",
+    "retrieved_at": "2026-11-06T12:22:27.809727+00:00",
+    "sha256": "fc3a51d3a597b426821923fdbbec4b192ca3d731d6117c1d25232badb0c2c2e7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75Q023",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q023.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q023.pdf.metadata.json",
+    "title": "75Q023 P.S. Q023 @ Queens Children Center: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q023.pdf",
+    "retrieved_at": "2026-11-06T12:22:42.110623+00:00",
+    "sha256": "963bc8a0dc33b37a8790c41e12dad905fa58ad2f54561088ebbb196ede66e18a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75Q255",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q255.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q255.pdf.metadata.json",
+    "title": "75Q255 P.S. Q255: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q255.pdf",
+    "retrieved_at": "2026-11-06T12:23:07.968620+00:00",
+    "sha256": "10f90cf7a66ceea09801f42e6e32a37ce962168e9f32901088b6d57b07b35fc0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75Q277",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q277.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q277.pdf.metadata.json",
+    "title": "75Q277 The Riverview School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q277.pdf",
+    "retrieved_at": "2026-11-06T12:22:43.887712+00:00",
+    "sha256": "7c3770a1d55078c3d16daff6968ae135ce29536dccc2a87000d3a389f65bf661",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75Q811",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q811.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75Q811.pdf.metadata.json",
+    "title": "75Q811 P.S. Q811: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q811.pdf",
+    "retrieved_at": "2026-11-06T12:22:45.372687+00:00",
+    "sha256": "e036c45d9a43a76c68d6aa5d2700c135bf3a68f5ac16663fd64a97eca72e1cb4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75R373",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75R373.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75R373.pdf.metadata.json",
+    "title": "75R373 P.S. R373: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R373.pdf",
+    "retrieved_at": "2026-11-06T12:22:47.258683+00:00",
+    "sha256": "18db610cd4d38a2e54ce56086f9acb1b10232b53f9f22df628d64e70fba83d62",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75X186",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75X186.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75X186.pdf.metadata.json",
+    "title": "75X186 P186X Walter J. Damrosch School: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X186.pdf",
+    "retrieved_at": "2026-11-06T12:23:06.494738+00:00",
+    "sha256": "95f1e1e9335125e4c474fc7276cac42db0fe338cf90b4d999ef15de54b4fec87",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_cep_75X643",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75X643.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_cep_75X643.pdf.metadata.json",
+    "title": "75X643 P.S. X643: Comprehensive Educational Plan 2025–26, Language Allocation Policy",
+    "url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X643.pdf",
+    "retrieved_at": "2026-11-06T12:22:54.228672+00:00",
+    "sha256": "f3ab0ca00e982339384187a1b7c9d81e677a8cf35a3339b801405a1113debc6e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_doc_1a4b2ded1001a4ba",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_doc_1a4b2ded1001a4ba.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_doc_1a4b2ded1001a4ba.html.metadata.json",
+    "title": "Dual Lanugage | P.S. 145",
+    "url": "https://www.ps145m.org/dual-language-programs",
+    "retrieved_at": "2026-11-06T12:11:31.553350+00:00",
+    "sha256": "13dac44f8417943f0063fb09dc9585829b1b7fc36d8925af0892e03c211df544",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_doc_501b5d7b4f768753",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_doc_501b5d7b4f768753.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_doc_501b5d7b4f768753.html.metadata.json",
+    "title": "Dual Language | Cs463",
+    "url": "https://www.urbanscholarscs.org/dual-language",
+    "retrieved_at": "2026-11-06T12:07:17.687976+00:00",
+    "sha256": "b76c4d8296fa3691dd2528e2b4fa0c262d493302aeeaa89b8b49e0de1a32374f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_easthampton_handout",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_easthampton_handout.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_easthampton_handout.pdf.metadata.json",
+    "title": "nyf_easthampton_handout",
+    "url": "https://content.myconnectsuite.com/api/documents/e8f0feba9f714214a488c367ee55c6bf.pdf",
+    "retrieved_at": "2026-11-06T13:17:47.757466+00:00",
+    "sha256": "26dfd78051c81a29c16fb6ae4635993abf0c4900ca6ed5943f34e0882e62d009",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_easthampton_school",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_easthampton_school.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_easthampton_school.html.metadata.json",
+    "title": "John M. Marshall Elementary School",
+    "url": "https://www.easthamptonschools.org/jmmes",
+    "retrieved_at": "2026-11-06T13:17:47.988754+00:00",
+    "sha256": "579d7c7de6b1ee857c0503dc5af2b51acd23e264f2a45d6af3f79c21c1f6aeb8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_fostertown_program",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_fostertown_program.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_fostertown_program.html.metadata.json",
+    "title": "Our Programs - Fostertown Elementary School - NECSD",
+    "url": "https://www.newburghschools.org/fostertown-page.php?page=42",
+    "retrieved_at": "2026-11-06T11:58:03.657714+00:00",
+    "sha256": "842d5d0e1b379646aa01d64f83a8d73c8136a0dfbbfc7e0cd2d8ef2cd5bb5c49",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_newburgh_curriculum",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_newburgh_curriculum.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_newburgh_curriculum.pdf.metadata.json",
+    "title": "nyf_newburgh_curriculum",
+    "url": "https://newburghschools.org/files/Dual%20Language%20ELA-HLA%20Literacy%20K-5%20Curriculum%20Revision%202.6.25.pdf",
+    "retrieved_at": "2026-11-06T13:17:46.908202+00:00",
+    "sha256": "ea308a93a409893be10c83adaab88d94164c79e650e15b5f49991950ef5e41eb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_newburgh_dl",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_newburgh_dl.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_newburgh_dl.html.metadata.json",
+    "title": "Language Acquisition Department - NECSD",
+    "url": "https://www.newburghschools.org/page.php?page=206",
+    "retrieved_at": "2026-11-06T13:17:46.907138+00:00",
+    "sha256": "8c46fb28bd7ec486651f3e67e3114869da93fc970aa6b965a9e4b9ece0bc7c02",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_ossining_dual",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ossining_dual.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ossining_dual.html.metadata.json",
+    "title": "Department of Multilingual Learner Programs (ENL, Dual Language, World Languages) - Ossining Union Free School District",
+    "url": "https://www.ossiningufsd.org/teaching-learning/bilingual",
+    "retrieved_at": "2026-11-06T13:18:48.625063+00:00",
+    "sha256": "b3a6846457c5dc2799c0163d21dfcd8d232b582d393ee405f4f2c08369d5631b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_bayshore_0",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_bayshore_0.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_bayshore_0.html.metadata.json",
+    "title": "World Languages, ENL and Dual Language",
+    "url": "https://www.bayshoreschools.org/academics.cfm?subpage=81969",
+    "retrieved_at": "2026-11-06T12:05:41.408499+00:00",
+    "sha256": "f2d301a6208d0fa804192898820b4b1045c13907b6eb0815edebc169bf6dc14a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_easthampton_3",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_easthampton_3.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_easthampton_3.html.metadata.json",
+    "title": "East Hampton’s Dual-Language Elementary Program Will Expand | The East Hampton Star",
+    "url": "https://www.easthamptonstar.com/education/20221110/east-hamptons-dual-language-elementary-program-will-expand",
+    "retrieved_at": "2026-11-06T12:05:44.087083+00:00",
+    "sha256": "7222da342aa6d7319f8a9a21c70929fd8e6f4b5e4c5324424121b4225692fd0f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_easthampton_4",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_easthampton_4.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_easthampton_4.html.metadata.json",
+    "title": "East Hampton's First Dual-Language Class Moves Up | The East Hampton Star",
+    "url": "https://www.easthamptonstar.com/education/2025828/east-hamptons-first-dual-language-class-moves",
+    "retrieved_at": "2026-11-06T12:05:45.161789+00:00",
+    "sha256": "96314ba83c4094314b9b0923b4b0b74db01f68478fb5471265e9f9e1ae1937c6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_longbeach_2",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_longbeach_2.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_longbeach_2.html.metadata.json",
+    "title": "Spanish Dual Language – Our School – PS 133 William A Butler",
+    "url": "https://www.ps133brooklyn.org/apps/pages/index.jsp?uREC_ID=1747164&type=d&pREC_ID=1927846",
+    "retrieved_at": "2026-11-06T12:05:43.324235+00:00",
+    "sha256": "50ab85bd768c257f515cc609cb6b935e7f087bac49a898e620c031bdc4bbe7ba",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_schenectady_0",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_0.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_0.html.metadata.json",
+    "title": "District Welcomes First Class to Dual Language Education Program at Paige Elementary Community School | Schenectady City School District",
+    "url": "https://www.schenectadyschools.org/article/3125813",
+    "retrieved_at": "2026-11-06T12:05:45.857247+00:00",
+    "sha256": "23c31282bbce5307a0af28a4d673aaabf3b22c83e413f2a7aee7b35ab56afd55",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_schenectady_2",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_2.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_2.html.metadata.json",
+    "title": "Superintendent's Update September 18 2026 002 | Schenectady City School District",
+    "url": "https://www.schenectadyschools.org/page/update-template-september-18-2026-68r-002",
+    "retrieved_at": "2026-11-06T12:05:47.075341+00:00",
+    "sha256": "c5773a6d3230f1b543c8f18c5d9c39c1b3a94780905576e291e3bbd913e79728",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_out_schenectady_3",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_3.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_out_schenectady_3.html.metadata.json",
+    "title": "Two-Way Dual Language Program - Suffern Central School District",
+    "url": "https://www.sufferncentral.org/departments/multilingualbilingual-education-department/two-way-dual-language",
+    "retrieved_at": "2026-11-06T12:05:46.585635+00:00",
+    "sha256": "bf4f897797a34d1f7e5d1913010af1560d588e6fd5d88043fd0dfddcada788da",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_ps133_french",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps133_french.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps133_french.html.metadata.json",
+    "title": "French Dual Language – Our School – PS 133 William A Butler",
+    "url": "https://www.ps133brooklyn.org/apps/pages/index.jsp?uREC_ID=1747164&type=d&pREC_ID=1927845",
+    "retrieved_at": "2026-11-06T13:17:46.909159+00:00",
+    "sha256": "8cd2b4e7b184a96420b5b9472ce72d7d77c16888832e1364a7133d14519f13b7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_ps18_dual",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps18_dual.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps18_dual.html.metadata.json",
+    "title": "Home - Dual Language - Grade Levels - P.S. 18 The Edward Bush Magnet School for Leadership",
+    "url": "https://www.ps18brooklyn.org/apps/pages/index.jsp?uREC_ID=643000&type=d",
+    "retrieved_at": "2026-11-06T13:22:35.935109+00:00",
+    "sha256": "3f10fa2f4681b6971b3e0471f8237380d149e76079ed0f1519195d35a8acdb37",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_ps503_programs",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps503_programs.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_ps503_programs.html.metadata.json",
+    "title": "Programs And Academics | PS 503 School Of Discovery | Sunset Park, Brooklyn",
+    "url": "https://www.ps503online.org/programs-and-academics",
+    "retrieved_at": "2026-11-06T13:17:46.909844+00:00",
+    "sha256": "c1e4cf328117856d150f3425cfcb618b43c0fbc623fe9c86751f6c12ed133528",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_rochester12",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester12.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester12.html.metadata.json",
+    "title": "Home - Anna Murray-Douglass Academy School No. 12",
+    "url": "https://amda.rcsdk12.org/",
+    "retrieved_at": "2026-11-06T12:00:48.862965+00:00",
+    "sha256": "3e21ddcff74831e9f996f6ae4da0345feb1f30810c0452486b6cc38a7f284167",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_rochester_dual",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester_dual.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester_dual.html.metadata.json",
+    "title": "Dual Language",
+    "url": "https://www.rcsdk12.org/departments/bilingual-education-and-world-languages/bilingual-education/dual-language",
+    "retrieved_at": "2026-11-06T13:21:17.308762+00:00",
+    "sha256": "121478aa6ed33d0cdc06b6259d6320abf7390be530606073c16eb1ff0b0acfce",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_rochester_multilingual",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester_multilingual.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_rochester_multilingual.html.metadata.json",
+    "title": "Multilingual Schools",
+    "url": "https://www.rcsdk12.org/departments/enroll/rcsd-school-selection/school-selection-process-at-a-glance/multilingual-schools",
+    "retrieved_at": "2026-11-06T12:00:48.858468+00:00",
+    "sha256": "010471293e29ecce8a06120398b9db797ea9394d0fe4b1f71544a6d8d02d8205",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_seymour_plan26",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_seymour_plan26.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_seymour_plan26.pdf.metadata.json",
+    "title": "nyf_seymour_plan26",
+    "url": "https://files.smartsites.parentsquare.com/11707/seymour_dual_language_academy_2026-27_receivership_continuation_plan.pdf",
+    "retrieved_at": "2026-11-06T13:22:35.936359+00:00",
+    "sha256": "4468d7beac8cb1c40045760a0219cc34d416af6fc4a6a57f5f63c2c6d0a1f102",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_southampton_handbook",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_southampton_handbook.pdf",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_southampton_handbook.pdf.metadata.json",
+    "title": "nyf_southampton_handbook",
+    "url": "https://files.smartsites.parentsquare.com/4530/southampton_dual_language_handbook_4.pdf",
+    "retrieved_at": "2026-11-06T13:18:48.626156+00:00",
+    "sha256": "0366e03d56422be1e8622599401f7a87b535e0b0dbf4418bd6f2c59d8bc83715",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_southampton_program",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_southampton_program.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_southampton_program.html.metadata.json",
+    "title": "Southampton UFSD - Dual Language/ Bilingual Program",
+    "url": "https://www.southamptonschools.org/53639_3",
+    "retrieved_at": "2026-11-06T13:18:48.627298+00:00",
+    "sha256": "3acc1beae7c5ec3772490338a37dce4f9c428f486cfc905046deef50501a5311",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_syracuse_choices",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_syracuse_choices.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_syracuse_choices.html.metadata.json",
+    "title": "Syracuse City School District - Elementary & Middle School Choice Programs",
+    "url": "https://www.syracusecityschools.com/elementary-and-middle-school-choice",
+    "retrieved_at": "2026-11-06T12:00:48.859955+00:00",
+    "sha256": "4d0450be00d4aa63d2875f4421860140c2609064244c328fde1fba8ec028b39c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "nyf_vails_program",
+    "path": "data/raw/ny_allocation_followup_2026_11_06/nyf_vails_program.html",
+    "metadata_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_vails_program.html.metadata.json",
+    "title": "Our Programs - Vails Gate STEAM Academy - NECSD",
+    "url": "https://www.newburghschools.org/vailsgate-page.php?page=87",
+    "retrieved_at": "2026-11-06T11:58:02.355124+00:00",
+    "sha256": "855fb6b10638c6ceee89922bda5a9c8d5406c2c90d67f1b9ed4e755855d13be2",
+    "archive_kind": "complete_original_HTTP_response"
   }
 ]

@@ -49,6 +49,8 @@ jobs:
         run: python scripts/validate_oh_ky_wv_va_inventory.py
       - name: Validate Pennsylvania, Maryland, Delaware, New Jersey, New York and Connecticut sources
         run: python scripts/validate_mid_atlantic_ct_inventory.py
+      - name: Validate New York school-specific allocations and researcher inference
+        run: python scripts/validate_ny_allocation_followup.py
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py

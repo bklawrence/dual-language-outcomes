@@ -2928,5 +2928,65 @@
     "disposition": "other_service_distinct_from_qualifying_immersion",
     "reason": "Gardnertown, Gidney Avenue, Meadow Hill, South Middle and NFA main are TBE, not added as the two district DL hosts.",
     "notes": ""
+  },
+  {
+    "school": "Bay Shore: Brook Avenue Elementary",
+    "district": "Bay Shore Union Free School District",
+    "source": "nyf_bayshore_brook",
+    "period": "2026-27",
+    "locator": "Bay Shore: Brook Avenue Elementary",
+    "disposition": "later_named_host_reference_year_unresolved",
+    "reason": "Official 2026-27 kindergarten DL supply list and district academic English/Spanish two-way description. Target-language allocation is a 30-50% range. Reference-year campus operation and exact split remain unverified.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
+  },
+  {
+    "school": "RP Connor / Sloatsburg elementary hosts",
+    "district": "Suffern Central School District",
+    "source": "nyf_out_schenectady_3",
+    "period": "2026-27",
+    "locator": "RP Connor / Sloatsburg elementary hosts",
+    "disposition": "later_named_hosts_require_reference_review",
+    "reason": "Official 2026-27 kindergarten orientation names both hosts and a 50/50 full-day English/Spanish alternation. Named hosts are not automatically backdated to 2025-26.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
+  },
+  {
+    "school": "Schenectady kindergarten launch",
+    "district": "Schenectady City School District",
+    "source": "nyf_out_schenectady_2",
+    "period": "2026-27",
+    "locator": "Schenectady kindergarten launch",
+    "disposition": "future_to_reference_year",
+    "reason": "Official September 2026 new launch uses 50/50 English/Spanish. Not added to the 2025-26 reference-school denominator.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
+  },
+  {
+    "school": "Ossining dual-language programmes",
+    "district": "Ossining Union Free School District",
+    "source": "nyf_ossining_dual",
+    "period": "undated; retrieved 2026-11-06",
+    "locator": "Ossining dual-language programmes",
+    "disposition": "named_school_allocation_followup",
+    "reason": "Official English/Spanish one-way and two-way academic DL, with entry in preK, K and grade 1. Checked page gives no school-specific numerical allocation; do not assume every grade centre shares one model.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
+  },
+  {
+    "school": "Brentwood bilingual programmes",
+    "district": "Brentwood Union Free School District",
+    "source": "nyf_brentwood_handbook",
+    "period": "2019-20; updated March 2020",
+    "locator": "Brentwood bilingual programmes",
+    "disposition": "generic_TBE_DL_forms_not_host_roster",
+    "reason": "2019-20 elementary bilingual protocols contain generic DL placement forms. These templates do not verify named academic DL hosts or a 50/50 allocation.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
+  },
+  {
+    "school": "East Hampton Middle School continuation",
+    "district": "East Hampton Union Free School District",
+    "source": "nyf_out_easthampton_4",
+    "period": "August 28, 2025",
+    "locator": "East Hampton Middle School continuation",
+    "disposition": "formal_continuation_host_followup",
+    "reason": "August 28, 2025 report describes less immersive grade-6 continuation with language arts and advanced Spanish grammar. Named host and academic content scope need direct verification; no kindergarten model assigned.",
+    "notes": "Bounded NY discovery lead. Host, source-year and academic-scope limitations remain explicit."
   }
 ]

@@ -4,7 +4,7 @@
   "state_fips": "36",
   "adapter": "new_york",
   "collection_status": "integrated_partial",
-  "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+  "notes": "Six-state structural review with a New York allocation follow-up on 2026-11-06. All 200 original elementary-containing hosts reviewed. Explicit models, researcher inferences and later policies remain separate. Partial inventory; proficiency collection deferred.",
   "structural_inputs": {
     "programmes": "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json",
     "screening": "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.json",
@@ -17,6 +17,7 @@
     "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
     "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
     "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
-    "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json"
+    "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+    "ny_allocation_followup": "config/research_migrations/ny_allocation_followup_2026_11_06.json"
   }
 }

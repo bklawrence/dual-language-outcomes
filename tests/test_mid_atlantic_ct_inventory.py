@@ -37,7 +37,7 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
         audit=json.loads((ROOT/AUDIT).read_text())
         self.assertEqual((len(audit['preserved_reports']),len(audit['preserved_previous_registry']),
                           len(audit['preserved_assessment_outputs'])),(174,1020,12))
-        self.assertEqual((len(self.programmes),len({p['school_id'] for p in self.programmes}),len(self.sources)),(433,404,99))
+        self.assertEqual((len(self.programmes),len({p['school_id'] for p in self.programmes}),len(self.sources)),(437,408,314))
 
     def test_nyc_csv_preserves_tbe_services_languages_and_school_language_grain(self):
         source=list(csv.DictReader(io.StringIO((ROOT/self.sources['m6_nyc_csv25']['path']).read_text(encoding='utf-8-sig'))))
@@ -64,8 +64,9 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
 
     def test_city_directory_membership_does_not_supply_a_numerical_model(self):
         city=[p for p in self.programmes if p.get('nyc_dbn')]
-        self.assertEqual({p['nyc_dbn'] for p in city if p['allocations']},{'15K058','14K084'})
-        self.assertFalse(next(p for p in city if p['nyc_dbn']=='03M163')['allocations'])
+        self.assertTrue(all(a['source'] != 'm6_nyc_csv25' for p in city for a in p['allocations']))
+        ps163=next(p for p in city if p['nyc_dbn']=='03M163')
+        self.assertEqual({a['grade']:a['label'] for a in ps163['allocations']}, {'K':'80/20','1-5':'50/50'})
         early=[p for p in city if p['nyc_dbn']=='30Q228']
         self.assertTrue(early)
         self.assertEqual(self.reference_school(early[0]['school'])['elementary_denominator'],1)
@@ -148,7 +149,9 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
             self.assertFalse(self.programme(school)['allocations'])
         for p in self.programmes:
             if p['district']=='Rochester City School District':
-                self.assertTrue(all(o['languages']==['English'] for o in p['observations']))
+                self.assertTrue(all(o['languages']==['English'] for o in p['observations'] if not o['source'].startswith('nyf_')))
+                self.assertTrue(any(o['source']=='nyf_rochester_multilingual' and o['languages']==['Spanish','English'] for o in p['observations']))
+                self.assertFalse(p['allocations'])
 
     def test_connecticut_handbook_provenance_and_unresolved_two_way_host_are_retained(self):
         meta=json.loads((ROOT/self.sources['m6_ct_bridge_doc942']['metadata_path']).read_text())
@@ -165,7 +168,7 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
     def test_working_coverage_counts_only_elementary_containing_hosts(self):
         _,report=render_reports(ROOT,self.tables)
         counts={r['state']:(r['elementary_reference_schools_with_numerical_model'],r['elementary_reference_school_units']) for r in report['state_summary']}
-        self.assertEqual(counts,{'PA':(2,13),'MD':(9,24),'DE':(43,44),'NJ':(13,19),'NY':(8,200),'CT':(14,18)})
+        self.assertEqual(counts,{'PA':(2,13),'MD':(9,24),'DE':(43,44),'NJ':(13,19),'NY':(178,203),'CT':(14,18)})
         k_detail,_,_=kindergarten_rows(self.tables)
         for school in ['Somerset School','Windham Middle School']:
             pid=self.programme(school)['program_id'];row=next(r for r in k_detail if r['program_id']==pid)

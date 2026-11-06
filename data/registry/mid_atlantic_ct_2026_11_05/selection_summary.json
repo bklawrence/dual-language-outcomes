@@ -14,7 +14,7 @@
     "MD": 45,
     "DE": 65,
     "NJ": 22,
-    "NY": 269,
+    "NY": 273,
     "CT": 18
   },
   "programme_host_schools": {
@@ -22,7 +22,7 @@
     "MD": 35,
     "DE": 62,
     "NJ": 20,
-    "NY": 255,
+    "NY": 259,
     "CT": 18
   },
   "screening_rows": {
@@ -30,7 +30,7 @@
     "MD": 8,
     "DE": 4,
     "NJ": 19,
-    "NY": 293,
+    "NY": 299,
     "CT": 12
   },
   "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations.",
@@ -50,5 +50,6 @@
       ],
       "decision_file": "data/registry/mid_atlantic_ct_2026_11_05/extractions/herricks_2026_11_06_correction.json"
     }
-  ]
+  ],
+  "new_york_allocation_followup": "November 6, 2026: all 200 original primary hosts reviewed with school-specific 2025-26 plans and explicit inference flags; later annual policies remain separate."
 }

@@ -294,6 +294,8 @@ def render_reports(root, tables):
     if eastern.exists():tag=json.loads(eastern.read_text())['report_tag']
     atlantic=root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json'
     if atlantic.exists():tag=json.loads(atlantic.read_text())['report_tag']
+    ny=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
+    if ny.exists():tag=json.loads(ny.read_text())['report_tag']
     prefix=PREFIX.replace('2026_11_04',tag)
     contents = {prefix+'_by_program.csv':csv_text(details), prefix+'_by_school.csv':csv_text(schools),
                 prefix+'_by_state.csv':csv_text(summary)}

@@ -151,8 +151,8 @@ def audit_errors(root, tables, *, check_hashes=True):
             errors.append('Minimum, aspiration or unquantified alternation became exact model: '+p['school'])
         if p['school']=='Baltimore International Academy West' and any(o['languages'][0] in {'Russian','Arabic'} for o in p['observations']):
             errors.append('Baltimore West planned language became implemented')
-        if p['district']=='Rochester City School District' and any(o['languages']!=['English'] for o in p['observations']):
-            errors.append('Rochester partner language inferred without explicit verification')
+        if p['district']=='Rochester City School District' and any(o['languages']!=['English'] and not o['source'].startswith('nyf_rochester_') for o in p['observations']):
+            errors.append('Rochester partner language assigned without follow-up verification')
     denton=next(p for p in programmes if p['school']=='Denton Avenue Elementary School')
     faq=[a for a in denton['allocations'] if a['source']=='m6_ny_herricks_faq']
     if (len(faq)!=1 or faq[0]['grade']!='K-5' or faq[0]['label']!='50/50'

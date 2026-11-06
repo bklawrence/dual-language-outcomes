@@ -272,8 +272,11 @@ def report_rows(tables):
                 if plans[row['schedule_id']] and not numeric_model(label):
                     label += ' ['+'; '.join(r['language_name']+' '+str(r['instruction_share_pct'])+'%' for r in plans[row['schedule_id']])+']'
                 evidence.append(dict(record_id=row['schedule_id'],source_id=row['source_id'],label=label,
-                    grade=row['grade_scope'],period=row['evidence_period_raw'],flag=row['grade_support_status'] or 'not_reported',
-                    basis='inferred_same_programme' if row['evidence_review_status']=='USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE'
+                    grade=row['grade_scope'],period=row['evidence_period_raw'],flag=(row['grade_support_status'] or 'not_reported')
+                    + (' | '+row['evidence_review_status'] if row['schedule_status'] in {'inferred_plan','conflicting_documented_plan'} else ''),
+                    basis='inferred_kindergarten_subject_distribution' if (row['evidence_review_status'] or '').startswith('USER_AUTHORIZED_K_SUBJECT_DISTRIBUTION_INFERENCE')
+                    else 'inferred_language_cycle' if (row['evidence_review_status'] or '').startswith('USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE')
+                    else 'inferred_same_programme' if row['evidence_review_status']=='USER_AUTHORIZED_SAME_PROGRAMME_INFERENCE'
                     else 'user_assigned' if row['evidence_review_status'] in {'USER_CONFIRMED_ELEMENTARY_MODEL','USER_AUTHORIZED_STATEWIDE_ELEMENTARY_MODEL'}
                     else 'user_historical_district_website_research' if row['evidence_review_status']=='USER_HISTORICAL_2021_22_MODEL_LABEL' else 'source_recorded'))
             counted = eligibility=='elementary' and bool(evidence)
@@ -325,13 +328,13 @@ def report_rows(tables):
                 elementary_schools_with_numerical_model=numerator,
                 numerical_allocation_coverage_pct=round(100*numerator/len(elementary),1) if elementary else None,
                 elementary_schools_missing_numerical_model=len(elementary)-numerator,
-                elementary_schools_with_inferred_models=sum('inferred_same_programme' in r['model_classification_bases'] for r in elementary),
-                elementary_schools_with_only_inferred_models=sum(r['model_classification_bases']=='inferred_same_programme' for r in elementary),
+                elementary_schools_with_inferred_models=sum(any(x.startswith('inferred_') for x in r['model_classification_bases'].split(' | ')) for r in elementary),
+                elementary_schools_with_only_inferred_models=sum(bool(r['model_classification_bases']) and all(x.startswith('inferred_') for x in r['model_classification_bases'].split(' | ')) for r in elementary),
                 secondary_6_plus_school_units_excluded=sum(r['elementary_classification']=='secondary_6_plus' for r in rows),
                 preschool_only_school_units_excluded=sum(r['elementary_classification']=='preschool_only' for r in rows),
                 unresolved_grade_school_units=unknown,
                 programme_grade_proxy_school_units=sum(r['grade_classification_basis'].endswith('_proxy_for_school') for r in elementary),
-                schools_with_flagged_model_evidence=sum(bool({'MODEL_LABEL_MINUTES_DIFFER','CONFLICTING_SOURCE_CLAIMS','COMPOSITE_TRACK_SCOPE_UNRESOLVED'} & set(r['model_review_flags'].split(' | '))) for r in elementary if r['has_numerical_allocation_model']),
+                schools_with_flagged_model_evidence=sum(bool({'MODEL_LABEL_MINUTES_DIFFER','CONFLICTING_SOURCE_CLAIMS','COMPOSITE_TRACK_SCOPE_UNRESOLVED','CONFLICTING_OFFICIAL_2025_26_MODELS'} & set(r['model_review_flags'].split(' | '))) for r in elementary if r['has_numerical_allocation_model']),
                 denominator_status='not_established' if not elementary else 'partial_grade_review_needed' if unknown else 'classified_working_inventory',
                 statewide_completeness='not_established',
                 interpretation='School-level model availability across cited source periods. Includes schools serving any K-5 grade, including K-8 and 3-6; excludes schools starting grade 6+. Counts a reported allocation combination totaling 100, full immersion, or an accepted quantified equal-day/minute plan. Not exact K timetables, all-strand completeness, named-language shares or tested-cohort exposure.'))
@@ -358,6 +361,8 @@ def render_reports(root,tables):
     if eastern.exists():prefix=json.loads(eastern.read_text())['elementary_report_prefix']
     atlantic=root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json'
     if atlantic.exists():prefix=json.loads(atlantic.read_text())['elementary_report_prefix']
+    ny=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
+    if ny.exists():prefix=json.loads(ny.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

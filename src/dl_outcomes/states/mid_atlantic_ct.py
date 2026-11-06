@@ -70,6 +70,15 @@ def migrate_reviewed_state(build, state):
             json.dumps(value, sort_keys=True), source, row['school'] + ':grade_reconfiguration',
             year=row['year'], period=row['period'], status='documented', notes=row['notes'])
     if state == 'NY':
+        followup = 'config/research_migrations/ny_allocation_followup_2026_11_06.json'
+        if (build.root / followup).exists():
+            review = json.loads(build.track_input(followup).read_text())
+            for field in ['preserved_baseline_files', 'preserved_original_sources',
+                          'preserved_other_state_inputs']:
+                for path in review[field]:
+                    build.track_input(path)
+            for path in review.get('review_inputs', []):
+                build.track_input(path)
         doc = index['m6_nyc_csv25']
         source = build.source_file(state + SUFFIX, doc['path'], metadata=doc['metadata_path'])
         for p in json.loads((build.root / BASE / 'ny_programmes.json').read_text()):

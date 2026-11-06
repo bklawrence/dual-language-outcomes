@@ -1,0 +1,3752 @@
+[
+  {
+    "dbn": "01M020",
+    "source": "nyf_cep_01M020",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Chinese",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan explicitly identifies Spanish and Mandarin programmes and states equal instruction in both languages in K-5.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-11053a9a3320",
+      "M6-NY-P-b853909cb8db"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M020.pdf"
+  },
+  {
+    "dbn": "01M184",
+    "source": "nyf_cep_01M184",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Kindergarten/first-grade rollercoaster and grades 2-5 alternate-day models explicitly English/Mandarin 50/50.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-9aa9ff3131dc"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M184.pdf"
+  },
+  {
+    "dbn": "02M001",
+    "source": "nyf_cep_02M001",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Half English/half Mandarin; Spanish city-roster strand is not automatically assigned the Mandarin model.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-48a084042c9c"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M001.pdf"
+  },
+  {
+    "dbn": "03M075",
+    "source": "nyf_cep_03M075",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-c689e08559d4"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M075.pdf"
+  },
+  {
+    "dbn": "03M084",
+    "source": "nyf_cep_03M084",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "French",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-9882b2fd7240",
+      "M6-NY-P-6cddd0917d5b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M084.pdf"
+  },
+  {
+    "dbn": "03M087",
+    "source": "nyf_cep_03M087",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-35b67b3e5aac"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M087.pdf"
+  },
+  {
+    "dbn": "03M145",
+    "source": "nyf_cep_03M145",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Russian",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "The full 2025-26 DL model explicitly states 50/50 for ALL Russian and Spanish programmes (PK-5), including English 50% of instructional time. Recorded K-5 as a published policy, not an inference from its language cycle.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-6ea9425fda89",
+      "M6-NY-P-3fa1a9f3e039"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M145.pdf"
+  },
+  {
+    "dbn": "03M163",
+    "source": "nyf_cep_03M163",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "Kindergarten explicitly 80 percent Spanish/20 percent English, despite generic alternating-day parent descriptions.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-8e2a3d0c84c2"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M163.pdf"
+  },
+  {
+    "dbn": "03M163",
+    "source": "nyf_cep_03M163",
+    "period": "2025-26",
+    "grade": "1-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-8e2a3d0c84c2"
+    ],
+    "resolved_grade": "1-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M163.pdf"
+  },
+  {
+    "dbn": "03M165",
+    "source": "nyf_cep_03M165",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4871cbef616e"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M165.pdf"
+  },
+  {
+    "dbn": "03M180",
+    "source": "nyf_cep_03M180",
+    "period": "2025-26",
+    "grade": "1-2",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Plan explicitly states 60% English/40% Spanish and three English days/two Spanish days weekly. Table lists DL classes only in grades 1 and 2; no kindergarten percentage assigned.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-5ebde6f41051"
+    ],
+    "resolved_grade": "1-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M180.pdf"
+  },
+  {
+    "dbn": "04M057",
+    "source": "nyf_cep_04M057",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-bc811993c631"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M057.pdf"
+  },
+  {
+    "dbn": "04M072",
+    "source": "nyf_cep_04M072",
+    "period": "2025-26",
+    "grade": "K-4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-44d0f4b36961"
+    ],
+    "resolved_grade": "K-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M072.pdf"
+  },
+  {
+    "dbn": "04M096",
+    "source": "nyf_cep_04M096",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-541b40368851"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M096.pdf"
+  },
+  {
+    "dbn": "04M112",
+    "source": "nyf_cep_04M112",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-a27f103cd3c5"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M112.pdf"
+  },
+  {
+    "dbn": "04M155",
+    "source": "nyf_cep_04M155",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Kindergarten through grade 2 use a daily rollercoaster rotation across both instructional languages. K is coded approximately 50/50 from the balanced language cycle; exact minutes and Friday treatment are not stated. Older grades use a different stated weekly schedule.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "program_ids": [
+      "M6-NY-P-c2aa020a777b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M155.pdf"
+  },
+  {
+    "dbn": "04M155",
+    "source": "nyf_cep_04M155",
+    "period": "2025-26",
+    "grade": "3-5",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Calculated from the explicit weekly schedule: English three school days, Spanish two school days. Day-based policy ratio, not observed clock-minute exposure.",
+    "review_status": "SOURCE_EXPLICIT_WEEKLY_DAYS_CALCULATED_RATIO",
+    "program_ids": [
+      "M6-NY-P-c2aa020a777b"
+    ],
+    "resolved_grade": "3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M155.pdf"
+  },
+  {
+    "dbn": "04M182",
+    "source": "nyf_cep_04M182",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-1d77a918e66e"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M182.pdf"
+  },
+  {
+    "dbn": "04M206",
+    "source": "nyf_cep_04M206",
+    "period": "2025-26",
+    "grade": "3-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "PS206 serves the older grades of the Barbosa pathway; elementary allocation limited to grades 3-5, not kindergarten or secondary.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-d500be436f0a"
+    ],
+    "resolved_grade": "3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M206.pdf"
+  },
+  {
+    "dbn": "05M129",
+    "source": "nyf_cep_05M129",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-06d26836dcde"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M129.pdf"
+  },
+  {
+    "dbn": "05M161",
+    "source": "nyf_cep_05M161",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan explicitly calls this one-way although it describes English-proficient/ELL student groups; proficiency groups alone do not establish native-language composition.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-5810bbb97f2f"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M161.pdf"
+  },
+  {
+    "dbn": "06M004",
+    "source": "nyf_cep_06M004",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-6a6dd1b5a3c3"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M004.pdf"
+  },
+  {
+    "dbn": "06M005",
+    "source": "nyf_cep_06M005",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-aa2f73386ea7"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M005.pdf"
+  },
+  {
+    "dbn": "06M008",
+    "source": "nyf_cep_06M008",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-0b7e509d72c8"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M008.pdf"
+  },
+  {
+    "dbn": "06M028",
+    "source": "nyf_cep_06M028",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-d849a278eb62"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M028.pdf"
+  },
+  {
+    "dbn": "06M098",
+    "source": "nyf_cep_06M098",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-da4e99ed2780"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M098.pdf"
+  },
+  {
+    "dbn": "06M103",
+    "source": "nyf_cep_06M103",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-3c9d429d3f9e"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M103.pdf"
+  },
+  {
+    "dbn": "06M128",
+    "source": "nyf_cep_06M128",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-0751f094302e"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M128.pdf"
+  },
+  {
+    "dbn": "06M132",
+    "source": "nyf_cep_06M132",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "70/30",
+    "target": null,
+    "target_share": 70,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-3803adc15027"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M132.pdf"
+  },
+  {
+    "dbn": "06M132",
+    "source": "nyf_cep_06M132",
+    "period": "2025-26",
+    "grade": "1 (end-of-grade target)",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "The plan says transition to 50/50 by the end of first grade, gradually by semester; not a uniform full-year first-grade schedule.",
+    "review_status": "END_OF_GRADE_ONE_TARGET_NOT_UNIFORM_ANNUAL_SCHEDULE",
+    "program_ids": [
+      "M6-NY-P-3803adc15027"
+    ],
+    "resolved_grade": "1 (end-of-grade target)",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M132.pdf"
+  },
+  {
+    "dbn": "06M153",
+    "source": "nyf_cep_06M153",
+    "period": "2025-26",
+    "grade": "1-4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "2025-26 programme narrative lists DL classes only in grades 1-4. Generic K-2 literacy discussion is not a confirmed kindergarten DL classroom.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4f5de2f8ef9f"
+    ],
+    "resolved_grade": "1-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M153.pdf"
+  },
+  {
+    "dbn": "06M178",
+    "source": "nyf_cep_06M178",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-25773cf03bde"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M178.pdf"
+  },
+  {
+    "dbn": "06M178",
+    "source": "nyf_cep_06M178",
+    "period": "2025-26",
+    "grade": "1-4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Grade 5 has flexible departmentalized instruction 2-3 times weekly without an exact percentage, retained descriptively.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-25773cf03bde"
+    ],
+    "resolved_grade": "1-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M178.pdf"
+  },
+  {
+    "dbn": "06M210",
+    "source": "nyf_cep_06M210",
+    "period": "2025-26",
+    "grade": "K-4",
+    "model": "60/40",
+    "target": null,
+    "target_share": 60,
+    "classification": "documented",
+    "notes": "60% Spanish/40% English in PreK-4; no elementary percentage assigned from the separate secondary 50/50 description.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-b5f295f7b3cf"
+    ],
+    "resolved_grade": "K-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M210.pdf"
+  },
+  {
+    "dbn": "06M311",
+    "source": "nyf_cep_06M311",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "School reports a 50/50 model. A sample odd-day week does not establish a fixed weekly reset, so the published model is retained without deriving 60/40 from that example.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-94a73e2c3d84"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M311.pdf"
+  },
+  {
+    "dbn": "06M348",
+    "source": "nyf_cep_06M348",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-ec43c85d958a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M348.pdf"
+  },
+  {
+    "dbn": "06M513",
+    "source": "nyf_cep_06M513",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-49e04fbc5b02"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M513.pdf"
+  },
+  {
+    "dbn": "07X005",
+    "source": "nyf_cep_07X005",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-81a1c9fd5262"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X005.pdf"
+  },
+  {
+    "dbn": "07X018",
+    "source": "nyf_cep_07X018",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-14494c29aebc"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X018.pdf"
+  },
+  {
+    "dbn": "07X025",
+    "source": "nyf_cep_07X025",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "90/10",
+    "target": null,
+    "target_share": 90,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4675fc4f3ee5"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X025.pdf"
+  },
+  {
+    "dbn": "07X025",
+    "source": "nyf_cep_07X025",
+    "period": "2025-26",
+    "grade": "1",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4675fc4f3ee5"
+    ],
+    "resolved_grade": "1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X025.pdf"
+  },
+  {
+    "dbn": "07X025",
+    "source": "nyf_cep_07X025",
+    "period": "2025-26",
+    "grade": "2",
+    "model": "70/30",
+    "target": null,
+    "target_share": 70,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4675fc4f3ee5"
+    ],
+    "resolved_grade": "2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X025.pdf"
+  },
+  {
+    "dbn": "07X025",
+    "source": "nyf_cep_07X025",
+    "period": "2025-26",
+    "grade": "3",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4675fc4f3ee5"
+    ],
+    "resolved_grade": "3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X025.pdf"
+  },
+  {
+    "dbn": "07X030",
+    "source": "nyf_cep_07X030",
+    "period": "2025-26",
+    "grade": "K-3",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Internal conflict: explicit 60% English/40% Spanish versus half in each language and alternating complete weeks.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "program_ids": [
+      "M6-NY-P-8ae4c88a48ea"
+    ],
+    "resolved_grade": "K-3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X030.pdf"
+  },
+  {
+    "dbn": "07X030",
+    "source": "nyf_cep_07X030",
+    "period": "2025-26",
+    "grade": "K-3",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Internal conflict: plan also says half instruction in each language and describes alternating complete weeks, alongside explicit 60% English/40% Spanish.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "program_ids": [
+      "M6-NY-P-8ae4c88a48ea"
+    ],
+    "resolved_grade": "K-3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X030.pdf"
+  },
+  {
+    "dbn": "07X049",
+    "source": "nyf_cep_07X049",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-9cc6d2851fd5"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X049.pdf"
+  },
+  {
+    "dbn": "07X161",
+    "source": "nyf_cep_07X161",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-58b8c80c081d"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X161.pdf"
+  },
+  {
+    "dbn": "08X152",
+    "source": "nyf_cep_08X152",
+    "period": "2025-26",
+    "grade": "1-4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan explicitly one-way, 50/50, first through fourth grade. No kindergarten classroom inferred.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-7d68c3bd982e"
+    ],
+    "resolved_grade": "1-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X152.pdf"
+  },
+  {
+    "dbn": "09X011",
+    "source": "nyf_cep_09X011",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "Specific early-grade 80 Spanish/20 English statement retained separately from broad 50/50 unit-level language and English-only mathematics. Conflicting scope needs review.",
+    "review_status": "GRADE_SPECIFIC_POLICY_AND_GENERAL_MODEL_DIFFER",
+    "program_ids": [
+      "M6-NY-P-95ed06d60694"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X011.pdf"
+  },
+  {
+    "dbn": "09X011",
+    "source": "nyf_cep_09X011",
+    "period": "2025-26",
+    "grade": "elementary beyond early grades",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan separately describes a 50/50 model by units with mathematics in English; whole-day exposure and exact later-grade split need clarification.",
+    "review_status": "GRADE_SPECIFIC_POLICY_AND_GENERAL_MODEL_DIFFER",
+    "program_ids": [
+      "M6-NY-P-95ed06d60694"
+    ],
+    "resolved_grade": "elementary beyond early grades",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X011.pdf"
+  },
+  {
+    "dbn": "09X053",
+    "source": "nyf_cep_09X053",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-25d3c39c53ba"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X053.pdf"
+  },
+  {
+    "dbn": "09X070",
+    "source": "nyf_cep_09X070",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "70/30",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Source reports 70/30 without explicitly assigning numbers to languages; literacy in English and other content in Spanish. Named shares left unassigned pending review.",
+    "review_status": "SOURCE_RATIO_LANGUAGE_ORDER_UNCONFIRMED",
+    "program_ids": [
+      "M6-NY-P-a50b6034ea7a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X070.pdf"
+  },
+  {
+    "dbn": "09X073",
+    "source": "nyf_cep_09X073",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-be822073df69"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X073.pdf"
+  },
+  {
+    "dbn": "09X109",
+    "source": "nyf_cep_09X109",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-9f180b061b49"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X109.pdf"
+  },
+  {
+    "dbn": "09X110",
+    "source": "nyf_cep_09X110",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-14cbd3397b46"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X110.pdf"
+  },
+  {
+    "dbn": "09X170",
+    "source": "nyf_cep_09X170",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-757ff62a5556"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X170.pdf"
+  },
+  {
+    "dbn": "09X170",
+    "source": "nyf_cep_09X170",
+    "period": "2025-26",
+    "grade": "1",
+    "model": "60/40",
+    "target": null,
+    "target_share": 60,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-757ff62a5556"
+    ],
+    "resolved_grade": "1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X170.pdf"
+  },
+  {
+    "dbn": "09X170",
+    "source": "nyf_cep_09X170",
+    "period": "2025-26",
+    "grade": "2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Grade 3 described in narrative but not listed as an active classroom in the 2025-26 table; no grade-3 implementation assumed.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-757ff62a5556"
+    ],
+    "resolved_grade": "2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X170.pdf"
+  },
+  {
+    "dbn": "09X218",
+    "source": "nyf_cep_09X218",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-b02cd41d82a6"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X218.pdf"
+  },
+  {
+    "dbn": "09X218",
+    "source": "nyf_cep_09X218",
+    "period": "2025-26",
+    "grade": "3-5",
+    "model": "60/40",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Grade 3-5 source ratio order not explicitly assigned to languages; preserve 60/40 label with named shares unassigned.",
+    "review_status": "SOURCE_RATIO_LANGUAGE_ORDER_UNCONFIRMED",
+    "program_ids": [
+      "M6-NY-P-b02cd41d82a6"
+    ],
+    "resolved_grade": "3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X218.pdf"
+  },
+  {
+    "dbn": "09X311",
+    "source": "nyf_cep_09X311",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "School plan explicitly says 80% Spanish/20% English in K/1, but another answer calls the K/1 model 90:10. Both retained as unresolved source conflict.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "program_ids": [
+      "M6-NY-P-5caae26c85ec"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X311.pdf"
+  },
+  {
+    "dbn": "09X311",
+    "source": "nyf_cep_09X311",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "90/10",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Same plan also labels K/1 self-contained 90:10 without explicitly assigning language order. Conflicts with explicit 80% Spanish/20% English; named shares left unassigned.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "program_ids": [
+      "M6-NY-P-5caae26c85ec"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X311.pdf"
+  },
+  {
+    "dbn": "09X443",
+    "source": "nyf_cep_09X443",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Explicit 60% English/40% Spanish; mathematics and science Spanish, ELA and some social studies English. This ratio is reported, not estimated as equal based on subject counts.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-7e3020824d6b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X443.pdf"
+  },
+  {
+    "dbn": "09X457",
+    "source": "nyf_cep_09X457",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-8b21bc3f0852"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X457.pdf"
+  },
+  {
+    "dbn": "10X046",
+    "source": "nyf_cep_10X046",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan expects a balanced model and specifies three English periods plus three Spanish periods, excluding lunch. Model is a reported plan, not verified student exposure; implementation wording remains qualified.",
+    "review_status": "SPECIFIC_BALANCED_PERIOD_PLAN_IMPLEMENTATION_NOT_OBSERVED",
+    "program_ids": [
+      "M6-NY-P-899f9338d38b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X046.pdf"
+  },
+  {
+    "dbn": "10X054",
+    "source": "nyf_cep_10X054",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-1354135af0fb"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X054.pdf"
+  },
+  {
+    "dbn": "10X077",
+    "source": "nyf_cep_10X077",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-929713470f69"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X077.pdf"
+  },
+  {
+    "dbn": "10X085",
+    "source": "nyf_cep_10X085",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "Entry model 80:20 with most instruction in the target language; transition to 50:50 by grade 3, no intermediate percentages interpolated.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-0e1ec03bcfc4"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X085.pdf"
+  },
+  {
+    "dbn": "10X085",
+    "source": "nyf_cep_10X085",
+    "period": "2025-26",
+    "grade": "3 (target)",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Stated grade-3 target after entry 80:20; not a reconstructed complete timetable for grades 1-2.",
+    "review_status": "GRADE_THREE_TRANSITION_TARGET",
+    "program_ids": [
+      "M6-NY-P-0e1ec03bcfc4"
+    ],
+    "resolved_grade": "3 (target)",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X085.pdf"
+  },
+  {
+    "dbn": "10X207",
+    "source": "nyf_cep_10X207",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-643d6faba6c5"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X207.pdf"
+  },
+  {
+    "dbn": "12X458",
+    "source": "nyf_cep_12X458",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Kindergarten participates in the A/B English-Spanish instructional cycle; official school curriculum says all subjects alternate by day. Approximate 50/50 inferred for a complete cycle; exact minutes/Friday handling are unstated.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "program_ids": [
+      "M6-NY-P-a41cfd6318a1"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X458.pdf"
+  },
+  {
+    "dbn": "12X458",
+    "source": "nyf_cep_12X458",
+    "period": "2025-26",
+    "grade": "3-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Upper grades 3-5 explicitly switch classrooms at the midpoint of the day; equal half-day policy ratio, not an individual observed schedule.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-a41cfd6318a1"
+    ],
+    "resolved_grade": "3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X458.pdf"
+  },
+  {
+    "dbn": "12X463",
+    "source": "nyf_doc_501b5d7b4f768753",
+    "period": "undated school programme page; retrieved 2026-11-06",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "School programme page explicitly labels K-2 a self-contained 50:50 model. The 2025-26 CEP separately assigns K-2 ELA/math to English and science/social studies to Spanish; time weights are not published. Recorded as school-reported model, not inferred from counting subjects.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-7d4992129717"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.urbanscholarscs.org/dual-language"
+  },
+  {
+    "dbn": "12X595",
+    "source": "nyf_cep_12X595",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-ffdce1de470a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X595.pdf"
+  },
+  {
+    "dbn": "13K020",
+    "source": "nyf_cep_13K020",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "French"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4176421841b5"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K020.pdf"
+  },
+  {
+    "dbn": "13K046",
+    "source": "nyf_cep_13K046",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-b14efa291fc4"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K046.pdf"
+  },
+  {
+    "dbn": "13K054",
+    "source": "nyf_cep_13K054",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-2cfb4b124035"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K054.pdf"
+  },
+  {
+    "dbn": "13K133",
+    "source": "nyf_out_longbeach_2",
+    "period": "undated school programme page; retrieved 2026-11-06",
+    "grade": "elementary",
+    "model": "50/50",
+    "target": [
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "School Spanish programme page explicitly gives half-day Spanish and half-day English. Do not transfer this Spanish-specific policy to the French strand without its own evidence.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-13d6f6d8db8d"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.ps133brooklyn.org/apps/pages/index.jsp?uREC_ID=1747164&type=d&pREC_ID=1927846"
+  },
+  {
+    "dbn": "14K034",
+    "source": "nyf_cep_14K034",
+    "period": "2025-26",
+    "grade": "K | 3 | 4",
+    "model": "70/30",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Polish self-contained model labelled 70:30, with no explicit numerical language ordering. Same plan elsewhere describes K-3 rather than K/3/4; preserve grade-scope discrepancy for review.",
+    "review_status": "SOURCE_RATIO_LANGUAGE_ORDER_AND_GRADE_SCOPE_REVIEW",
+    "program_ids": [
+      "M6-NY-P-8fbfb692e53d"
+    ],
+    "resolved_grade": "K | 3 | 4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K034.pdf"
+  },
+  {
+    "dbn": "14K034",
+    "source": "nyf_cep_14K034",
+    "period": "2025-26",
+    "grade": "1-2 | 5",
+    "model": "80/20",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Polish co-teaching model labelled 80:20, described as one Polish period daily. Named shares remain unassigned; budget cuts may reduce Polish instruction. Does not establish 80% Polish.",
+    "review_status": "SOURCE_RATIO_LANGUAGE_ORDER_AND_BUDGET_QUALIFIER",
+    "program_ids": [
+      "M6-NY-P-8fbfb692e53d"
+    ],
+    "resolved_grade": "1-2 | 5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K034.pdf"
+  },
+  {
+    "dbn": "14K059",
+    "source": "nyf_cep_14K059",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-3defc2d82ff1"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K059.pdf"
+  },
+  {
+    "dbn": "14K084",
+    "source": "nyf_cep_14K084",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-20b4bd148d7a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K084.pdf"
+  },
+  {
+    "dbn": "14K110",
+    "source": "nyf_cep_14K110",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "2025-26 plan specifies full-day alternating French/English instruction in K-2; approximate 50/50 inferred over a complete two-language cycle, Friday/minute weights not explicit. Grade 3 is separately a half-day model; grades 4-5 only one French period daily.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "program_ids": [
+      "M6-NY-P-4f89916c5123"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K110.pdf"
+  },
+  {
+    "dbn": "14K110",
+    "source": "nyf_cep_14K110",
+    "period": "2025-26",
+    "grade": "3",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "2025-26 grade-3 self-contained class explicitly has half the day in English and half in French; grades 4-5 standalone French not assigned 50/50.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-4f89916c5123"
+    ],
+    "resolved_grade": "3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K110.pdf"
+  },
+  {
+    "dbn": "14K132",
+    "source": "nyf_cep_14K132",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-30899230ded7"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K132.pdf"
+  },
+  {
+    "dbn": "14K250",
+    "source": "nyf_cep_14K250",
+    "period": "2025-26",
+    "grade": "K | 1 | 3 | 4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan explicitly lists 50/50 Mandarin/English in K,1,3,4. The separate 70% figure describes student integration, not time allocated to Mandarin.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-3f7eabae5b41"
+    ],
+    "resolved_grade": "K | 1 | 3 | 4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K250.pdf"
+  },
+  {
+    "dbn": "14K319",
+    "source": "nyf_cep_14K319",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximately 40% Spanish / 60% English inferred from the six-day alternating cycle: three Spanish days at 80% Spanish and three English days at 100% English give (3*80+3*0)/6=40% Spanish. Assumes equal-length instructional days; directions and individual ENL services may affect actual exposure. Nominal alternate-day scheduling alone is not coded as 50/50.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE_WITHIN_DAY_ALLOCATION",
+    "program_ids": [
+      "M6-NY-P-a5a7dc6d0a62"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K319.pdf"
+  },
+  {
+    "dbn": "14K380",
+    "source": "nyf_cep_14K380",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-33525fca3d15"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K380.pdf"
+  },
+  {
+    "dbn": "14K414",
+    "source": "nyf_cep_14K414",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit complete two-week cycle: five full Spanish instructional days and five full English days. Calculated equal-day policy, not individual clock-minute exposure.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-526bcce50faf"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K414.pdf"
+  },
+  {
+    "dbn": "15K001",
+    "source": "nyf_cep_15K001",
+    "period": "2025-26",
+    "grade": "K | 2-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Side-by-side full-day alternating language model in K,2,3,4,5. Approximate 50/50 inferred for a complete cycle; no grade-1 implementation assumed from this text.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "program_ids": [
+      "M6-NY-P-d6570525ebfb"
+    ],
+    "resolved_grade": "K | 2-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K001.pdf"
+  },
+  {
+    "dbn": "15K015",
+    "source": "nyf_cep_15K015",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Kindergarten through grade 5 use an alternate-day model across the English/Spanish thematic core modules. Approximate equal-cycle allocation inferred; exact Friday and minute weighting unstated.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "program_ids": [
+      "M6-NY-P-8f0390d0a413"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K015.pdf"
+  },
+  {
+    "dbn": "15K024",
+    "source": "nyf_cep_15K024",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "K-5 explicitly 50/50; the 80% Spanish/20% English model applies to preschool only and is not used as kindergarten allocation.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-f844af8812a5"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K024.pdf"
+  },
+  {
+    "dbn": "15K058",
+    "source": "m6_nyc_ps58",
+    "period": "undated school programme page; retrieved 2026-11-06",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Previously archived school-specific explicit French 50/50 policy; 2025-26 CEP corroborates grades K-1 self-contained and grades 2-5 alternating teachers. Original evidence retained.",
+    "review_status": null
+  },
+  {
+    "dbn": "15K169",
+    "source": "nyf_cep_15K169",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Chinese",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Plan explicitly says both Chinese and Spanish DL programmes split core instruction evenly, 50% in each language. No cross-language analogy needed.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-1b2eb4d3140b",
+      "M6-NY-P-b71ea81d4ac4"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K169.pdf"
+  },
+  {
+    "dbn": "15K230",
+    "source": "nyf_cep_15K230",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-484986ca7acf"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K230.pdf"
+  },
+  {
+    "dbn": "15K456",
+    "source": "nyf_cep_15K456",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-0af4ba72d126"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K456.pdf"
+  },
+  {
+    "dbn": "15K516",
+    "source": "nyf_cep_15K516",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-92e3e5fbbec6"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K516.pdf"
+  },
+  {
+    "dbn": "15K896",
+    "source": "nyf_cep_15K896",
+    "period": "2025-26",
+    "grade": "K",
+    "model": null,
+    "target": [
+      "Chinese",
+      "Spanish"
+    ],
+    "target_share": null,
+    "classification": "deferred_insufficient_whole_programme_time_allocation",
+    "notes": "Whole-week language alternation does not establish a whole-programme 50/50 split: the K-2 flow includes 35 minutes English phonics and 20 minutes English small-group work even in the home-language week. Enrichment language and differing daily totals need clarification. No exact model assigned; qualitative timetable and source preserved.",
+    "review_status": "FIXED_ENGLISH_COMPONENTS_PRECLUDE_50_50_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-ada14eb42f2d",
+      "M6-NY-P-e041df201b46"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K896.pdf",
+    "candidate_not_assigned": "50/50"
+  },
+  {
+    "dbn": "16K005",
+    "source": "nyf_cep_16K005",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Same plan first describes instruction as 50/50, then states French is approximately 25% of the day and most core subjects in English. Both source models retained for review.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-1602c0eea2bf"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K005.pdf"
+  },
+  {
+    "dbn": "16K005",
+    "source": "nyf_cep_16K005",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "25/75",
+    "target": null,
+    "target_share": 25,
+    "classification": "documented",
+    "notes": "Specific statement target French is approximately 25% of instructional day; English complement 75 in this two-language model. Contradicts the same answer’s broad 50/50 label.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-1602c0eea2bf"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K005.pdf"
+  },
+  {
+    "dbn": "16K040",
+    "source": "nyf_cep_16K040",
+    "period": "2025-26",
+    "grade": "K-3",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-c06d76444c61"
+    ],
+    "resolved_grade": "K-3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K040.pdf"
+  },
+  {
+    "dbn": "16K627",
+    "source": "nyf_cep_16K627",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Lower-grade core content and alternating morning/afternoon weekly model explicitly 50/50. Upper grades have several content subjects English-only; no uniform upper-grade ratio imputed.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-d0ec63f3dd90"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K627.pdf"
+  },
+  {
+    "dbn": "17K189",
+    "source": "nyf_cep_17K189",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Spanish",
+      "Haitian Creole"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Spanish and Haitian Creole DL classes explicitly both 50/50. The separate 60% home-language/40% English paragraph describes TBE and is not transferred to DL.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-7e54f16c2f46",
+      "M6-NY-P-90d696c4faa3"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K189.pdf"
+  },
+  {
+    "dbn": "17K770",
+    "source": "nyf_cep_17K770",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "10/90",
+    "target": null,
+    "target_share": 10,
+    "classification": "documented",
+    "notes": "Source explicitly states 90% English/10% Spanish, English-medium core subjects, and one kindergarten DL class. Label is normalized partner-language first. Do not misread the reported English-first 90/10 as 90% Spanish. Academic scope flagged for further review.",
+    "review_status": "ENGLISH_HEAVY_DECLARED_DLBE_ACADEMIC_SCOPE_REVIEW",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-fe191028929a"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K770.pdf"
+  },
+  {
+    "dbn": "19K007",
+    "source": "nyf_cep_19K007",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "30/70",
+    "target": null,
+    "target_share": 30,
+    "classification": "documented",
+    "notes": "Explicit 70% English/30% Spanish, normalized partner-language first.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-f8d705d7cca6"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K007.pdf"
+  },
+  {
+    "dbn": "19K089",
+    "source": "nyf_cep_19K089",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Instruction explicitly evenly divided; alternating full weeks in K-5. Secondary language use retained descriptively.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-6d59ec784270"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K089.pdf"
+  },
+  {
+    "dbn": "19K108",
+    "source": "nyf_cep_19K108",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "30/70",
+    "target": null,
+    "target_share": 30,
+    "classification": "documented",
+    "notes": "Explicit 70% English/30% Spanish, normalized partner-language first.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-0136ab8841cb"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K108.pdf"
+  },
+  {
+    "dbn": "19K214",
+    "source": "nyf_cep_19K214",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-b75e69c0a457"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K214.pdf"
+  },
+  {
+    "dbn": "19K214",
+    "source": "nyf_cep_19K214",
+    "period": "2025-26",
+    "grade": "1",
+    "model": "70/30",
+    "target": null,
+    "target_share": 70,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-b75e69c0a457"
+    ],
+    "resolved_grade": "1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K214.pdf"
+  },
+  {
+    "dbn": "19K214",
+    "source": "nyf_cep_19K214",
+    "period": "2025-26",
+    "grade": "2",
+    "model": "60/40",
+    "target": null,
+    "target_share": 60,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-b75e69c0a457"
+    ],
+    "resolved_grade": "2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K214.pdf"
+  },
+  {
+    "dbn": "19K345",
+    "source": "nyf_cep_19K345",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-f29754adff06"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K345.pdf"
+  },
+  {
+    "dbn": "15K124",
+    "source": "nyf_cep_15K124",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_kindergarten_subject_distribution",
+    "notes": "Approximate 50/50 inferred from the K-5 general programme curriculum: mathematics/science English; word study, read-aloud, shared reading, interactive writing and social studies Spanish, with bilingual literacy. No minutes are given. A generic sentence says other subjects are English, so this estimate and source inconsistency are flagged. The separately reported ICT 60/40 model is not overwritten.",
+    "review_status": "USER_AUTHORIZED_K_SUBJECT_DISTRIBUTION_INFERENCE_WITH_SOURCE_SCOPE_QUALIFIER",
+    "service_scope": "general dual-language kindergarten curriculum; not the separately described ICT model",
+    "subject_map": {
+      "English": [
+        "mathematics",
+        "science"
+      ],
+      "Spanish": [
+        "word study",
+        "read alouds",
+        "shared reading",
+        "interactive writing",
+        "social studies"
+      ],
+      "both": [
+        "literacy"
+      ],
+      "unresolved": "Generic HLA-only-Spanish sentence conflicts with later detailed content breakdown; exact time weights not supplied"
+    },
+    "program_ids": [
+      "M6-NY-P-24ae2c2b8cb9"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K124.pdf"
+  },
+  {
+    "dbn": "15K124",
+    "source": "nyf_cep_15K124",
+    "period": "2025-26",
+    "grade": "K | 1-2 | 4",
+    "model": "60/40",
+    "target": null,
+    "target_share": null,
+    "classification": "documented",
+    "notes": "Explicit bilingual special-education/ICT DL model. Source does not explicitly assign numerical ratio order to English and Spanish; named shares remain unassigned. Does not describe all GE strands.",
+    "review_status": "ICT_SCOPE_AND_RATIO_LANGUAGE_ORDER_UNCONFIRMED",
+    "service_scope": "bilingual special education / integrated co-teaching DL classes",
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-24ae2c2b8cb9"
+    ],
+    "resolved_grade": "K | 1-2 | 4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K124.pdf"
+  },
+  {
+    "dbn": "15K094",
+    "source": "nyf_cep_15K094",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Chinese",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "The full 2025-26 plan explicitly labels DL instruction 50% English and 50% Spanish or Chinese. Recorded as the published K-5 model. Its detailed weekly timetable retains English-only phonics, writing components and STEM; the label is not measured whole-day exposure.",
+    "review_status": "PUBLISHED_MODEL_WITH_FIXED_ENGLISH_COMPONENTS",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-5a4e0a794705",
+      "M6-NY-P-d8f97aeb3672"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K094.pdf"
+  },
+  {
+    "dbn": "13K009",
+    "source": "nyf_cep_13K009",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Programme narrative explicitly states daily instruction 50% English and 50% Spanish, in addition to the self-contained preK-5 description.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-4bc30056e11f"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K009.pdf"
+  },
+  {
+    "dbn": "20K030",
+    "source": "nyf_cep_20K030",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Arabic"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-91f793e31f2a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K030.pdf"
+  },
+  {
+    "dbn": "20K069",
+    "source": "nyf_cep_20K069",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit kindergarten 50/50 Mandarin model. Separate TBE 60/40 and proficiency-stage ratios are not DL allocations.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-86ecb721c3b4"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K069.pdf"
+  },
+  {
+    "dbn": "20K112",
+    "source": "nyf_cep_20K112",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit 50:50 Italian/English two-way model.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-5262025b79c1"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K112.pdf"
+  },
+  {
+    "dbn": "20K170",
+    "source": "nyf_cep_20K170",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate equal allocation inferred from full days alternating Mandarin and English and statement each core subject taught equally in both. The 50/50 pupil composition is not treated as a language-time measurement.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-e4eb5f9b0906"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K170.pdf"
+  },
+  {
+    "dbn": "20K176",
+    "source": "nyf_cep_20K176",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-176a0e592b26"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K176.pdf"
+  },
+  {
+    "dbn": "20K200",
+    "source": "nyf_cep_20K200",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Russian"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-6f68b9978cf8"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K200.pdf"
+  },
+  {
+    "dbn": "20K204",
+    "source": "nyf_cep_20K204",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from entire instructional days alternating Mandarin and English, all core subjects, and equal-exposure statement; student composition ratio alone is not the basis.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-7a69027b6b4f"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K204.pdf"
+  },
+  {
+    "dbn": "20K229",
+    "source": "nyf_cep_20K229",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Explicit two-week schedule has five full Mandarin days and five full English days; approximate 50/50 inferred over the complete cycle. Subject-level grade differences retained in source.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-eb37504b8094"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K229.pdf"
+  },
+  {
+    "dbn": "20K413",
+    "source": "nyf_cep_20K413",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-602cfe3d2bf4"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K413.pdf"
+  },
+  {
+    "dbn": "20K506",
+    "source": "nyf_cep_20K506",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-f28bfb184377"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K506.pdf"
+  },
+  {
+    "dbn": "20K939",
+    "source": "nyf_cep_20K939",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from repeating seven-day schedule of three English days, three Spanish days and one cross-language connecting day, assuming connecting day balances languages. No exact minute weights supplied; 50/50 pupil composition is not evidence of time allocation.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE_WITH_CROSS_LANGUAGE_DAY",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-97820da10766"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K939.pdf"
+  },
+  {
+    "dbn": "21K090",
+    "source": "nyf_cep_21K090",
+    "period": "2025-26",
+    "grade": "2 | 4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Only second- and fourth-grade DL classes identified in current plan; no kindergarten programme inferred.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-687172063803"
+    ],
+    "resolved_grade": "2 | 4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K090.pdf"
+  },
+  {
+    "dbn": "21K101",
+    "source": "nyf_cep_21K101",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Mandarin:English explicitly 40:60 in K-1; lower Mandarin proportion than a 50/50 assumption.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-babdcd9d756e"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K101.pdf"
+  },
+  {
+    "dbn": "21K101",
+    "source": "nyf_cep_21K101",
+    "period": "2025-26",
+    "grade": "2-5",
+    "model": "30/70",
+    "target": null,
+    "target_share": 30,
+    "classification": "documented",
+    "notes": "Mandarin:English explicitly 30:70 in grades 2-5.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-babdcd9d756e"
+    ],
+    "resolved_grade": "2-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K101.pdf"
+  },
+  {
+    "dbn": "21K225",
+    "source": "nyf_cep_21K225",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit two-way immersion 50/50 model; source spans elementary and middle grades, allocation applies only elementary here.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-d26a5f7b884a"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K225.pdf"
+  },
+  {
+    "dbn": "22K139",
+    "source": "nyf_cep_22K139",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-dc0406401d82"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K139.pdf"
+  },
+  {
+    "dbn": "22K206",
+    "source": "nyf_cep_22K206",
+    "period": "2025-26",
+    "grade": "K-3",
+    "model": "50/50",
+    "target": [
+      "Russian"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit Russian/English 50/50 for kindergarten through grade 3. Grades 4-5 departmentalized and secondary language subject continuation not assigned this ratio.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-6c8f8558298d"
+    ],
+    "resolved_grade": "K-3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K206.pdf"
+  },
+  {
+    "dbn": "23K155",
+    "source": "nyf_cep_23K155",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "20/80",
+    "target": null,
+    "target_share": 20,
+    "classification": "documented",
+    "notes": "Source names English 80%, Spanish minimum 20%; normalized partner-language first. All core content also described as English and Spanish language arts twice weekly; academic immersion scope needs review.",
+    "review_status": "ENGLISH_HEAVY_DECLARED_DLBE_ACADEMIC_SCOPE_REVIEW",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-a5cab7379b62"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K155.pdf"
+  },
+  {
+    "dbn": "24Q007",
+    "source": "nyf_cep_24Q007",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Spanish",
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-556ec3d0cd98",
+      "M6-NY-P-ac393a9ff0d6"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q007.pdf"
+  },
+  {
+    "dbn": "24Q013",
+    "source": "nyf_cep_24Q013",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": [
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-76321f94479e"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q013.pdf"
+  },
+  {
+    "dbn": "24Q013",
+    "source": "nyf_cep_24Q013",
+    "period": "2025-26",
+    "grade": "K-4",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Mandarin K/1 bridge, 2/3 bridge and grade 4 classes; no Mandarin grade-5 class inferred. Explicit balanced 50/50 in all core subjects.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-e2951ef60969"
+    ],
+    "resolved_grade": "K-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q013.pdf"
+  },
+  {
+    "dbn": "24Q014",
+    "source": "nyf_cep_24Q014",
+    "period": "2025-26",
+    "grade": "K-3",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "2025-26 plan repeats a 2024-25 K-3 model description, explicitly 50% English/50% Spanish. Source narrative vintage retained; no grade-4 expansion inferred from cohort progression.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-79c75a315738"
+    ],
+    "resolved_grade": "K-3",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q014.pdf"
+  },
+  {
+    "dbn": "24Q019",
+    "source": "nyf_cep_24Q019",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit target language 50% in kindergarten and first grade.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-7b6819a0d05a"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q019.pdf"
+  },
+  {
+    "dbn": "24Q019",
+    "source": "nyf_cep_24Q019",
+    "period": "2025-26",
+    "grade": "2-5",
+    "model": "35/65",
+    "target": null,
+    "target_share": 35,
+    "classification": "documented",
+    "notes": "Explicit target language 35% in grades 2-5; English complement 65% in this two-language model.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-7b6819a0d05a"
+    ],
+    "resolved_grade": "2-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q019.pdf"
+  },
+  {
+    "dbn": "24Q088",
+    "source": "nyf_cep_24Q088",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-53e33b8fc1f1"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q088.pdf"
+  },
+  {
+    "dbn": "24Q089",
+    "source": "nyf_cep_24Q089",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "School explicitly reports shift from former side-by-side 50/50 to Spanish-heavy early grades, with ten percentage points more English each grade.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-42d354ad86db"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q089.pdf"
+  },
+  {
+    "dbn": "24Q089",
+    "source": "nyf_cep_24Q089",
+    "period": "2025-26",
+    "grade": "1",
+    "model": "70/30",
+    "target": null,
+    "target_share": 70,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-42d354ad86db"
+    ],
+    "resolved_grade": "1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q089.pdf"
+  },
+  {
+    "dbn": "24Q089",
+    "source": "nyf_cep_24Q089",
+    "period": "2025-26",
+    "grade": "2",
+    "model": "60/40",
+    "target": null,
+    "target_share": 60,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-42d354ad86db"
+    ],
+    "resolved_grade": "2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q089.pdf"
+  },
+  {
+    "dbn": "24Q089",
+    "source": "nyf_cep_24Q089",
+    "period": "2025-26",
+    "grade": "3-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Side-by-side alternating-day 50/50 retained from grade 3 onward.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-42d354ad86db"
+    ],
+    "resolved_grade": "3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q089.pdf"
+  },
+  {
+    "dbn": "24Q102",
+    "source": "nyf_cep_24Q102",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Source identifies partner as Mandarin; explicitly half of core content in each language.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-635e0c7a0e07"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q102.pdf"
+  },
+  {
+    "dbn": "24Q110",
+    "source": "nyf_cep_24Q110",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from explicit full-day English/full-day Spanish alternation throughout K-5. Proficiency-dependent TBE ratios in a separate response not applied to DL.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-5c5e90447ec2"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q110.pdf"
+  },
+  {
+    "dbn": "24Q153",
+    "source": "nyf_cep_24Q153",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Source explicitly says core content split 50/50, with bilingual literacy and Polish mathematics; no count-of-subjects inference needed.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-b9d75c726757"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q153.pdf"
+  },
+  {
+    "dbn": "24Q211",
+    "source": "nyf_cep_24Q211",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-96e7a15640ab"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q211.pdf"
+  },
+  {
+    "dbn": "24Q330",
+    "source": "nyf_cep_24Q330",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-cd3a4218fd82"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q330.pdf"
+  },
+  {
+    "dbn": "25Q020",
+    "source": "nyf_cep_25Q020",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Equal time explicit: two English days, two Mandarin days and Monday divided equally for each K-5 class.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-48318e9ba6db"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q020.pdf"
+  },
+  {
+    "dbn": "25Q021",
+    "source": "nyf_cep_25Q021",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Chinese",
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-4f134aa6dfb6",
+      "M6-NY-P-613c1a0e8fd0"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q021.pdf"
+  },
+  {
+    "dbn": "25Q032",
+    "source": "nyf_cep_25Q032",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Korean"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-bf018a8dfab1"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q032.pdf"
+  },
+  {
+    "dbn": "25Q107",
+    "source": "nyf_cep_25Q107",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from entire days in one language, alternating the other language next day, across all core content.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-48634423e3b7"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q107.pdf"
+  },
+  {
+    "dbn": "25Q163",
+    "source": "nyf_cep_25Q163",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-c678e7eb9ec3"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q163.pdf"
+  },
+  {
+    "dbn": "26Q162",
+    "source": "nyf_cep_26Q162",
+    "period": "2025-26",
+    "grade": "1-5",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Current narrative describes grade 1 self-contained and grades 2-5 side-by-side, half instruction each language. No current kindergarten DL class assumed.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-24fa92e2e240"
+    ],
+    "resolved_grade": "1-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q162.pdf"
+  },
+  {
+    "dbn": "26Q173",
+    "source": "nyf_cep_26Q173",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": [
+      "Chinese"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-f1b060e98f2b"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q173.pdf"
+  },
+  {
+    "dbn": "27Q097",
+    "source": "nyf_cep_27Q097",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Published 50:50 model conflicts with same-plan weekly schedule of three English and two Spanish days. Both retained.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-fe6e5fa8d6c1"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q097.pdf"
+  },
+  {
+    "dbn": "27Q097",
+    "source": "nyf_cep_27Q097",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Specific stated weekly core schedule is three English days and two Spanish days, implying 40% Spanish /60% English assuming equal days. Same plan explicitly labels programme 50/50.",
+    "review_status": "CONFLICTING_OFFICIAL_2025_26_MODELS",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-fe6e5fa8d6c1"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q097.pdf"
+  },
+  {
+    "dbn": "27Q253",
+    "source": "nyf_cep_27Q253",
+    "period": "2025-26",
+    "grade": "K",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_kindergarten_subject_distribution",
+    "notes": "Approximate 50/50 inferred from explicit 50/50 mathematics, science and social studies together with English/Spanish alternate-day ELA. Minutes and non-core periods not supplied.",
+    "review_status": "USER_AUTHORIZED_K_SUBJECT_DISTRIBUTION_INFERENCE",
+    "service_scope": null,
+    "subject_map": {
+      "English and Spanish equally": [
+        "mathematics",
+        "science",
+        "social studies"
+      ],
+      "alternating language days": [
+        "ELA"
+      ]
+    },
+    "program_ids": [
+      "M6-NY-P-4e7c873a3a6b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q253.pdf"
+  },
+  {
+    "dbn": "28Q082",
+    "source": "nyf_cep_28Q082",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-3ae7e68c30f3"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q082.pdf"
+  },
+  {
+    "dbn": "28Q354",
+    "source": "nyf_cep_28Q354",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-85fb96e96e89"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q354.pdf"
+  },
+  {
+    "dbn": "29Q116",
+    "source": "nyf_cep_29Q116",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-e513ab966157"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q116.pdf"
+  },
+  {
+    "dbn": "30Q017",
+    "source": "nyf_cep_30Q017",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-44501f6f4c1e"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q017.pdf"
+  },
+  {
+    "dbn": "30Q076",
+    "source": "nyf_cep_30Q076",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Each subject explicitly equally distributed in English and Spanish over alternating full days.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-78f4f861b0c2"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q076.pdf"
+  },
+  {
+    "dbn": "30Q092",
+    "source": "nyf_cep_30Q092",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from Day 1 full-day English, Day 2 full-day Spanish, repeat, for all core content. Separate TBE 60/40-to-40/60 transition is not DL.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-aad99586699d"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q092.pdf"
+  },
+  {
+    "dbn": "30Q112",
+    "source": "nyf_cep_30Q112",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-5af42b78cced"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q112.pdf"
+  },
+  {
+    "dbn": "30Q127",
+    "source": "nyf_cep_30Q127",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit 50/50 DL model K-8. Earlier yes/no programme checkbox conflicts with detailed model and city DL roster; retained with presence-field conflict flag.",
+    "review_status": "CEP_CHECKBOX_VERSUS_DETAILED_PROGRAMME_PRESENCE_CONFLICT",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-99b190276b3f"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q127.pdf"
+  },
+  {
+    "dbn": "30Q150",
+    "source": "nyf_cep_30Q150",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from alternating English/Spanish days across core content.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-2a8139edf7b0"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q150.pdf"
+  },
+  {
+    "dbn": "30Q166",
+    "source": "nyf_cep_30Q166",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from full-day language alternation: side-by-side K-3 and self-contained 4-5, all core subjects.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-9ebb3a1d2978"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q166.pdf"
+  },
+  {
+    "dbn": "30Q212",
+    "source": "nyf_cep_30Q212",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Part III programme description explicitly self-contained 50-50 partial immersion, all K-5; model not inferred from student proportions.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-248e765194c1"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q212.pdf"
+  },
+  {
+    "dbn": "30Q222",
+    "source": "nyf_cep_30Q222",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-892866f9930e"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q222.pdf"
+  },
+  {
+    "dbn": "30Q228",
+    "source": "nyf_cep_30Q228",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Both general education and ICT DL classrooms explicitly 50/50. Separate TBE early-grade 80/20 and 40/60 ratios not transferred.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-47820b7c4191"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q228.pdf"
+  },
+  {
+    "dbn": "30Q280",
+    "source": "nyf_cep_30Q280",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-479363be3129"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q280.pdf"
+  },
+  {
+    "dbn": "30Q329",
+    "source": "nyf_cep_30Q329",
+    "period": "2025-26",
+    "grade": "K-4",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from one full week English/next week Spanish, equal academic space. Detailed subject map has bilingual literacy/math, Spanish science and English social studies.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": {
+      "both": [
+        "reading",
+        "writing",
+        "phonics",
+        "math"
+      ],
+      "Spanish": [
+        "science"
+      ],
+      "English": [
+        "social studies"
+      ]
+    },
+    "program_ids": [
+      "M6-NY-P-4e62a4cdcedf"
+    ],
+    "resolved_grade": "K-4",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q329.pdf"
+  },
+  {
+    "dbn": "30Q398",
+    "source": "nyf_cep_30Q398",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-c9d065f81a12"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q398.pdf"
+  },
+  {
+    "dbn": "31R016",
+    "source": "nyf_cep_31R016",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-98a280ce3c48"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R016.pdf"
+  },
+  {
+    "dbn": "31R019",
+    "source": "nyf_cep_31R019",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-33e66b53256a"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R019.pdf"
+  },
+  {
+    "dbn": "31R020",
+    "source": "nyf_cep_31R020",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit 50/50 one-way DL programme in ICT classes; 60/40 general/special-education pupil mix and subject-specific 60/40 science/social-studies ratio are not whole-programme allocations.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": "integrated co-teaching DL classes",
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-2ebc79f212f7"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R020.pdf"
+  },
+  {
+    "dbn": "31R022",
+    "source": "nyf_cep_31R022",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-16ad5b49cf3c"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R022.pdf"
+  },
+  {
+    "dbn": "31R044",
+    "source": "nyf_cep_31R044",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-3f67c0100ff1"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R044.pdf"
+  },
+  {
+    "dbn": "31R084",
+    "source": "nyf_cep_31R084",
+    "period": "2025-26",
+    "grade": "K-2",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-182037c94036"
+    ],
+    "resolved_grade": "K-2",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R084.pdf"
+  },
+  {
+    "dbn": "32K086",
+    "source": "nyf_cep_32K086",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-6d3f36f4aaf7"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K086.pdf"
+  },
+  {
+    "dbn": "32K106",
+    "source": "nyf_cep_32K106",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-dcff4a085158"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K106.pdf"
+  },
+  {
+    "dbn": "32K116",
+    "source": "nyf_cep_32K116",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-00ff82027fe5"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K116.pdf"
+  },
+  {
+    "dbn": "32K123",
+    "source": "nyf_cep_32K123",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-e8b0fe593eee"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K123.pdf"
+  },
+  {
+    "dbn": "32K145",
+    "source": "nyf_cep_32K145",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-80e6c3f5481a"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K145.pdf"
+  },
+  {
+    "dbn": "32K151",
+    "source": "nyf_cep_32K151",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-13a6816c801b"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K151.pdf"
+  },
+  {
+    "dbn": "32K274",
+    "source": "nyf_cep_32K274",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "40/60",
+    "target": null,
+    "target_share": 40,
+    "classification": "documented",
+    "notes": "Explicit weekly schedule fixes Monday/Wednesday/Friday to English and Tuesday/Thursday to Spanish; calculated Spanish 2/5 = 40% assuming equal days. No alternating second-week reversal stated. K-1 two-way and grades 2-5 one-way as explicitly described.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-cbea745fcdd8"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K274.pdf"
+  },
+  {
+    "dbn": "32K299",
+    "source": "nyf_cep_32K299",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-79eba21ae86e"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K299.pdf"
+  },
+  {
+    "dbn": "32K376",
+    "source": "nyf_cep_32K376",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-798581a33a0f"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K376.pdf"
+  },
+  {
+    "dbn": "32K384",
+    "source": "nyf_cep_32K384",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-2b9c911e0bcd"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_K384.pdf"
+  },
+  {
+    "dbn": "75M226",
+    "source": "nyf_cep_75M226",
+    "period": "2025-26",
+    "grade": "elementary initial phase",
+    "model": "80/20",
+    "target": null,
+    "target_share": 80,
+    "classification": "documented",
+    "notes": "Initial DL phase explicitly partner language 80% / English 20%; move toward 50/50 is an undated goal, not a documented current kindergarten split. Special-class/ungraded grade alignment remains provisional.",
+    "review_status": "UNGRADED_SPECIAL_CLASS_INITIAL_PHASE_NOT_K_SPECIFIC",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-ee271aa42518"
+    ],
+    "resolved_grade": "elementary initial phase",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M226.pdf"
+  },
+  {
+    "dbn": "75Q277",
+    "source": "nyf_cep_75Q277",
+    "period": "2025-26",
+    "grade": "elementary",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "One-way Spanish/English DLBE, language allocation explicitly 50/50; special-class/ungraded programme not assumed to have a kindergarten entry model.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-cc485ab42f10"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q277.pdf"
+  },
+  {
+    "dbn": "75R373",
+    "source": "nyf_cep_75R373",
+    "period": "2025-26",
+    "grade": "elementary",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Explicit all core subjects equally English and Spanish; 12% pupil integration during lunch/recess is not language allocation.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-9bdb5ef24dd6"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_R373.pdf"
+  },
+  {
+    "dbn": "75X643",
+    "source": "nyf_cep_75X643",
+    "period": "2025-26",
+    "grade": "elementary",
+    "model": "70/30",
+    "target": null,
+    "target_share": 70,
+    "classification": "documented",
+    "notes": "Language allocation approximately 70:30, explicitly predominantly Spanish. Ungraded special-class scope not automatically kindergarten.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-171316d39809"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X643.pdf"
+  },
+  {
+    "dbn": "24Q016",
+    "source": "nyf_cep_24Q016",
+    "period": "2025-26",
+    "grade": "auto",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred from complete two-week alternate-day example: week-1 English M/W/F then week-2 language reversal. Student composition is not the basis.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-c667874e33f8"
+    ],
+    "resolved_grade": "K",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q016.pdf"
+  },
+  {
+    "dbn": "24Q143",
+    "source": "nyf_cep_24Q143",
+    "period": "2025-26",
+    "grade": "K-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Part III programme description explicitly states Spanish and English instruction delivered equally in a 50/50 model; Part V also says content equally taught in both.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-e86df94bbecc"
+    ],
+    "resolved_grade": "K-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_Q143.pdf"
+  },
+  {
+    "dbn": "08X333",
+    "source": "nyf_cep_08X333",
+    "period": "2025-26",
+    "grade": "4-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "inferred_language_cycle",
+    "notes": "Approximate 50/50 inferred for grades 4-5 from stated ten-day alternating English/Spanish rotation. K-3 rollercoaster schedule describes three English days with two Spanish periods and vice versa but cycle timing is unclear; no K ratio assigned.",
+    "review_status": "USER_AUTHORIZED_LANGUAGE_CYCLE_INFERENCE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-987e86e70b77"
+    ],
+    "resolved_grade": "4-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X333.pdf"
+  },
+  {
+    "dbn": "13K133",
+    "source": "nyf_ps133_french",
+    "period": "undated school programme page; retrieved 2026-11-06",
+    "grade": "elementary",
+    "model": "50/50",
+    "target": [
+      "French"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "School French programme separately explicitly half the daily instruction French and half English. Not transferred from the separately documented Spanish strand.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "service_scope": null,
+    "subject_map": null,
+    "program_ids": [
+      "M6-NY-P-2bb5b9ceaf71"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.ps133brooklyn.org/apps/pages/index.jsp?uREC_ID=1747164&type=d&pREC_ID=1927845"
+  },
+  {
+    "dbn": "02M001",
+    "source": "nyf_cep_02M001",
+    "period": "2025-26",
+    "grade": "K-1",
+    "model": "50/50",
+    "target": [
+      "Spanish"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Part II bilingual programme table explicitly labels the Spanish strand DLBE50-50, opened 2023, with K and grade-1 classes. Mandarin narrative is not used to infer Spanish allocation.",
+    "review_status": "NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE",
+    "program_ids": [
+      "M6-NY-P-805eda7acc1a"
+    ],
+    "resolved_grade": "K-1",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M001.pdf"
+  },
+  {
+    "dbn": "08X048",
+    "source": "nyf_cep_08X048",
+    "period": "2025-26",
+    "grade": "K | 1 | 3-5",
+    "model": "50/50",
+    "target": null,
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "Part II table explicitly labels the Spanish/English DL programme 50/50. Programme narrative explicitly says no grade-2 DL class in 2025-26, despite the broader table, so grade 2 is not assigned this ratio.",
+    "review_status": "SOURCE_TABLE_NARRATIVE_GRADE_DISCREPANCY",
+    "program_ids": [
+      "M6-NY-P-cb5945642f46"
+    ],
+    "resolved_grade": "K | 1 | 3-5",
+    "source_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_X048.pdf"
+  },
+  {
+    "dbn": "03M145",
+    "source": "nyf_doc_1a4b2ded1001a4ba",
+    "period": "undated official school programme page; retrieved 2026-11-06",
+    "grade": "elementary",
+    "model": "50/50",
+    "target": [
+      "Russian"
+    ],
+    "target_share": 50,
+    "classification": "documented",
+    "notes": "School Russian programme page explicitly documents a 50/50 English/Russian alternate-day model. Applies to the Russian strand; not automatically transferred to Spanish. Undated source corroborates the school-specific annual-plan cycle.",
+    "review_status": null,
+    "program_ids": [
+      "M6-NY-P-6ea9425fda89"
+    ],
+    "resolved_grade": "elementary",
+    "source_url": "https://www.ps145m.org/dual-language-programs"
+  }
+]

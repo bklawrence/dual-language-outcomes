@@ -1,0 +1,16 @@
+{
+  "url": "https://newburghschools.org/files/Dual%20Language%20ELA-HLA%20Literacy%20K-5%20Curriculum%20Revision%202.6.25.pdf",
+  "retrieved_at": "2026-11-06T13:17:46.908202+00:00",
+  "http_status": 200,
+  "final_url": "https://newburghschools.org/files/Dual%20Language%20ELA-HLA%20Literacy%20K-5%20Curriculum%20Revision%202.6.25.pdf",
+  "content_type": "application/pdf",
+  "content_encoding": "",
+  "sha256": "ea308a93a409893be10c83adaab88d94164c79e650e15b5f49991950ef5e41eb",
+  "bytes": 55917,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "nyf_newburgh_curriculum",
+  "snapshot_path": "data/raw/ny_allocation_followup_2026_11_06/nyf_newburgh_curriculum.pdf",
+  "full_response_sha256": "ea308a93a409893be10c83adaab88d94164c79e650e15b5f49991950ef5e41eb",
+  "text_extraction_method": "pdftoppm rasterization and Tesseract OCR of the public one-page scan; original PDF bytes preserved"
+}
