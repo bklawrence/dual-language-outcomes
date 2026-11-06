@@ -28,6 +28,18 @@ def main(argv=None):
     baseline_check = baseline_commands.add_parser("check", help="Verify a frozen baseline without reading updated live tables")
     baseline_check.add_argument("baseline_id")
     baseline_check.add_argument("--reproduce", action="store_true", help="Also reproduce the derived views from frozen evidence")
+    edc = commands.add_parser("edc", help="Collect, build or verify the partitioned native-scale EDC assessment layer")
+    edc_commands = edc.add_subparsers(dest="edc_command", required=True)
+    edc_collect = edc_commands.add_parser("collect", help="Download/cache pinned EDC v3.1 source files for spring 2022–2025")
+    edc_collect.add_argument("--cache", type=Path)
+    edc_collect.add_argument("--workers", type=int, default=4)
+    edc_build = edc_commands.add_parser("build", help="Build a new collection from cached original CSVs")
+    edc_build.add_argument("--cache", type=Path)
+    edc_build.add_argument("--destination", type=Path)
+    edc_build.add_argument("--reuse", type=Path, help="Reuse hash-verified source extracts only when the school set and selection are identical")
+    edc_check = edc_commands.add_parser("check", help="Verify source receipts, cohort completeness and normalized values")
+    edc_check.add_argument("--collection", type=Path)
+    edc_check.add_argument("--reproduce", action="store_true", help="Reproduce every normalized cell from saved native rows")
     args = parser.parse_args(argv)
     root = args.root.resolve()
     try:
@@ -52,6 +64,18 @@ def main(argv=None):
             from .baseline import create, check
             result = (create(root, args.baseline_id, args.rules) if args.baseline_command == "create"
                       else check(root, args.baseline_id, reproduce=args.reproduce))
+        elif args.command == "edc":
+            if args.edc_command == "collect":
+                from .collectors.edc import collect
+                collected = collect(root, args.cache, workers=args.workers)
+                result = {"version": collected["version"], "source_files": len(collected["sources"]), "failures": collected["failures"]}
+            elif args.edc_command == "build":
+                from .edc import extract, finalize
+                result = extract(root, args.cache, args.destination, args.reuse)
+                finalize(root, args.destination)
+            else:
+                from .edc import check
+                result = check(root, args.collection, reproduce=args.reproduce)
         else:
             from .contracts import catalog
             result = {name: value["x-path"] for name, value in catalog()["$defs"].items()}

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "EDC_codebook_v3.1.xlsx",
+    "url": "https://www.eddatacenter.org/data_codebooks/EDC_codebook_v3.1.xlsx",
+    "sha256": "cfaf3eeb482b416106e4a7b775c9554768fbf4900b0518c861979d646b6b2574",
+    "captured_at": "2026-11-06T20:26:01.173779+00:00",
+    "timestamp_basis": "local capture timestamp of downloaded public response"
+  },
+  {
+    "path": "EDC_technical_documentation_v3.1.pdf",
+    "url": "https://www.eddatacenter.org/data_documentation/EDC_technical_documentation_v3.1.pdf",
+    "sha256": "749c52497e37cfd73c0e29afadea3d90d6b50950844f070247594f44254a7968",
+    "captured_at": "2026-11-06T20:26:01.177950+00:00",
+    "timestamp_basis": "local capture timestamp of downloaded public response"
+  },
+  {
+    "path": "terms-of-service.html",
+    "url": "https://www.eddatacenter.org/terms-of-service",
+    "sha256": "2fd37a61779dec32a62e58a0317ffbe95a758f16baed06dda09489a2d8417d90",
+    "captured_at": "2026-11-06T20:26:01.379392+00:00",
+    "timestamp_basis": "local capture timestamp of downloaded public response"
+  }
+]

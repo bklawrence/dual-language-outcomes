@@ -29,6 +29,8 @@ def export(root: Path, destination: Path):
             connection.register("source_table", table)
             connection.execute(f'CREATE TABLE "{name}" AS SELECT * FROM source_table')
             connection.unregister("source_table")
+        from .edc import export_analytics
+        assessment_collections = export_analytics(root, destination, connection)
     finally:
         connection.close()
-    return {"directory": str(destination), "tables": len(tables), "status": "separate_layers_preserved"}
+    return {"directory": str(destination), "tables": len(tables), "assessment_collections": assessment_collections, "status": "separate_layers_preserved"}

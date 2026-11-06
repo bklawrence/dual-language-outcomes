@@ -135,6 +135,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='structural_inventory':
         if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments for r in tables['datasets']):
             errors.append('New non-structural dataset collected before the structural phase is finished')
+    if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='school_assessment_collection':
+        if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments | {'EDC_SADR_V3_1_SCHOOL_GRADES'} for r in tables['datasets']):
+            errors.append('New non-EDC assessment dataset outside the currently authorized collection')
     batch_audit = root / 'config/research_migrations/western_plains_2026_11_04.json'
     if batch_audit.exists():
         from .western_plains_review import audit_errors
