@@ -13,10 +13,12 @@ from .identity_audit import preserved_identity_fingerprint
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA', 'PA', 'MD', 'DE', 'NJ', 'NY', 'CT'}
 
 
 def report_prefix(root):
+    atlantic=root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json'
+    if atlantic.exists():return json.loads(atlantic.read_text())['national_report_prefix']
     eastern=root/'config/research_migrations/oh_ky_wv_va_2026_11_05.json'
     if eastern.exists():return json.loads(eastern.read_text())['national_report_prefix']
     southeast=root/'config/research_migrations/southeast_2026_11_05.json'
@@ -148,6 +150,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/oh_ky_wv_va_2026_11_05.json').exists():
         from .oh_ky_wv_va_review import audit_errors as eastern_errors
         errors.extend(eastern_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json').exists():
+        from .mid_atlantic_ct_review import audit_errors as atlantic_errors
+        errors.extend(atlantic_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -339,6 +344,18 @@ def generate_report(root, *, check=False):
         audit['states_with_structural_research'] = sorted(reviewed)
         audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states']
             if r['state_code'] not in reviewed]
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json').exists():
+        from .mid_atlantic_ct_review import render_reports as atlantic_reports
+        new_contents, new_summary = atlantic_reports(root, tables)
+        contents.update(new_contents)
+        audit['mid_atlantic_ct_batch'] = new_summary
+        screened = set(audit.get('states_with_screening_only_research', []))
+        screened.update(r['state'] for r in new_summary['state_summary'] if r['programme_records']==0)
+        audit['states_with_screening_only_research'] = sorted(screened)
+        reviewed = set(audit['states_with_integrated_program_evidence']) | screened
+        audit['states_with_structural_research'] = sorted(reviewed)
+        audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states'] if r['state_code'] not in reviewed]
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():

@@ -1,0 +1,677 @@
+[
+  {
+    "program_id": "M6-PA-P-57f5a7d8cb02",
+    "school_id": "M6-PA-S-124a4e46c4d4",
+    "state": "PA",
+    "district": "Allentown School District",
+    "school": "Sonia Sotomayor Dual Language Immersion Academy",
+    "track": "Spanish immersion",
+    "notes": "February 2026 official expansion report confirms existing PK-2 operation during 2025–26. Proposed future modular classrooms, adding grades 3-5, and eventual middle school are separately dated plans; no full K-8 current scope invented.",
+    "observations": [
+      {
+        "source": "m6_pa_allentown_about",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-2",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Sonia Sotomayor Dual Language Immersion Academy / Spanish immersion",
+        "notes": "February 2026 official expansion report confirms existing PK-2 operation during 2025–26. Proposed future modular classrooms, adding grades 3-5, and eventual middle school are separately dated plans; no full K-8 current scope invented.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_pa_allentown_expand",
+        "period": "2025-26",
+        "grade": "PK-2",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "Dated February 2026 district article reports existing 146 students PK-2.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "m6_pa_allentown_expand",
+        "year": "2026-27",
+        "status": "planned_capacity_expansion_and_middle_school_planning",
+        "notes": "Board presentation February 2026; proposed classroom occupation August 2026 and staged expansion. No single future programme opening invented."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_allentown_about",
+      "locator": "Sonia Sotomayor Dual Language Immersion Academy / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-57f5a7d8cb02-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-0bf8ccdd88f3",
+    "school_id": "M6-PA-S-27efd64fb0e7",
+    "state": "PA",
+    "district": "Public charter operator: Independence Charter School",
+    "school": "Independence Charter School",
+    "track": "Spanish immersion",
+    "notes": "Explicit 2025–26 model: all K-5 students in immersion, grade 6-8 immersion and enhanced-language options remain distinct. School-wide one-program rollout started K in 2020–21 and is planned complete in 2028–29; not already whole-school immersion.",
+    "observations": [
+      {
+        "source": "m6_pa_ics",
+        "period": "2025-26",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "mixed",
+        "locator": "Independence Charter School / Spanish immersion",
+        "notes": "Explicit 2025–26 model: all K-5 students in immersion, grade 6-8 immersion and enhanced-language options remain distinct. School-wide one-program rollout started K in 2020–21 and is planned complete in 2028–29; not already whole-school immersion.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_pa_ics",
+        "period": "2025-26",
+        "grade": "K-1",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Independence Charter School / K-1 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "m6_pa_ics",
+        "period": "2025-26",
+        "grade": "2",
+        "label": "70/30",
+        "shares": {
+          "Spanish": 70,
+          "English": 30
+        },
+        "locator": "Independence Charter School / 2 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "m6_pa_ics",
+        "period": "2025-26",
+        "grade": "3-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Independence Charter School / 3-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [
+      {
+        "source": "m6_pa_ics",
+        "year": "2020-21",
+        "status": "whole_school_rollout_began_in_kindergarten",
+        "notes": "Gradual conversion from immersion/enhanced strands; final 2028–29 goal remains separate."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "explicit_dated_operator_grade_rollout",
+      "period": "2025-26",
+      "source": "m6_pa_ics",
+      "locator": "Independence Charter School / Spanish immersion",
+      "notes": "Explicit 2025–26 model: all K-5 students in immersion, grade 6-8 immersion and enhanced-language options remain distinct. School-wide one-program rollout started K in 2020–21 and is planned complete in 2028–29; not already whole-school immersion."
+    }
+  },
+  {
+    "program_id": "M6-PA-P-831409a6b5e4",
+    "school_id": "M6-PA-S-2bd50fd12951",
+    "state": "PA",
+    "district": "Public charter operator: Lehigh Valley Dual Language Charter School",
+    "school": "Lehigh Valley Dual Language Charter School",
+    "track": "Spanish immersion",
+    "notes": "Official academic subjects taught in either English or Spanish by subject. Later promotional line says full immersion in subjects taught in Spanish; not converted to a 100% whole-day ratio. School-wide versus strands and numeric allocation need verification.",
+    "observations": [
+      {
+        "source": "m6_pa_lehigh_model",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Lehigh Valley Dual Language Charter School / Spanish immersion",
+        "notes": "Official academic subjects taught in either English or Spanish by subject. Later promotional line says full immersion in subjects taught in Spanish; not converted to a 100% whole-day ratio. School-wide versus strands and numeric allocation need verification.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_lehigh_model",
+      "locator": "Lehigh Valley Dual Language Charter School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-831409a6b5e4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-8b7b7b6b1b41",
+    "school_id": "M6-PA-S-bf80db1a3bf6",
+    "state": "PA",
+    "district": "Public charter operator: Pan American Academy Charter School",
+    "school": "Pan American Academy Charter School",
+    "track": "Spanish immersion",
+    "notes": "Official school-wide one-way academic Spanish/English immersion, explicitly 50:50. Demographic balance not inferred from charter status.",
+    "observations": [
+      {
+        "source": "m6_pa_panamerican",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "whole_school",
+        "locator": "Pan American Academy Charter School / Spanish immersion",
+        "notes": "Official school-wide one-way academic Spanish/English immersion, explicitly 50:50. Demographic balance not inferred from charter status.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_pa_panamerican",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Pan American Academy Charter School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_panamerican",
+      "locator": "Pan American Academy Charter School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-8b7b7b6b1b41-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-164edd3c4f66",
+    "school_id": "M6-PA-S-4dfa07a23a84",
+    "state": "PA",
+    "district": "Public charter operator: Vida Charter School",
+    "school": "Vida Charter School",
+    "track": "Spanish immersion",
+    "notes": "Official FAQ explicitly public taxpayer-funded regional charter, academic bilingual Spanish/English for all students. Balance of daily instruction is described without a numerical ratio; no percentage fabricated.",
+    "observations": [
+      {
+        "source": "m6_pa_vida",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-6",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Vida Charter School / Spanish immersion",
+        "notes": "Official FAQ explicitly public taxpayer-funded regional charter, academic bilingual Spanish/English for all students. Balance of daily instruction is described without a numerical ratio; no percentage fabricated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_vida",
+      "locator": "Vida Charter School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-164edd3c4f66-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-566339c54052",
+    "school_id": "M6-PA-S-1a8797f470db",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Alexander McClure Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Alexander McClure Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Alexander McClure Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-566339c54052-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-92539274b4b9",
+    "school_id": "M6-PA-S-7d9ff577a39a",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Bayard Taylor Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Bayard Taylor Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Bayard Taylor Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-92539274b4b9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-c5fac5afba25",
+    "school_id": "M6-PA-S-eb33015c2353",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Cayuga Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Cayuga Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Cayuga Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-c5fac5afba25-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-402ff61ec793",
+    "school_id": "M6-PA-S-f5a8dbb356e0",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Gloria Casarez Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Gloria Casarez Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Gloria Casarez Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-402ff61ec793-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-9dc98f9ddf8e",
+    "school_id": "M6-PA-S-16c37941293f",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Hon. Luis Muñoz-Marín Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Hon. Luis Muñoz-Marín Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Hon. Luis Muñoz-Marín Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-9dc98f9ddf8e-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-457654282443",
+    "school_id": "M6-PA-S-fb4ea1d5cd10",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Lewis Elkin Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Lewis Elkin Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Lewis Elkin Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-457654282443-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-3cee74926c1a",
+    "school_id": "M6-PA-S-828232414096",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Roberto Clemente Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "secondary middle; exact grades not specified",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Roberto Clemente Middle School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Roberto Clemente Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-3cee74926c1a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-fbcdceee0751",
+    "school_id": "M6-PA-S-c30dde45fc7c",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "Southwark School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Southwark School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "Southwark School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-fbcdceee0751-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-PA-P-886a33db6be6",
+    "school_id": "M6-PA-S-7254ed27db89",
+    "state": "PA",
+    "district": "School District of Philadelphia",
+    "school": "William Cramp Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+    "observations": [
+      {
+        "source": "m6_pa_philadelphia",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "William Cramp Elementary School / Spanish immersion",
+        "notes": "Official current nine-host English/Spanish academic DL roster and brochure. Brochure says programme model is school-specific; a generic DLI label or 90% attendance requirement is not an allocation ratio.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_pa_philadelphia",
+      "locator": "William Cramp Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-PA-P-886a33db6be6-CONTINUITY-2025-26"
+  }
+]

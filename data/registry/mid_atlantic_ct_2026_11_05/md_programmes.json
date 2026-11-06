@@ -1,0 +1,2224 @@
+[
+  {
+    "program_id": "M6-MD-P-812ce2ad0d20",
+    "school_id": "M6-MD-S-b766e75bf4a1",
+    "state": "MD",
+    "district": "Charles County Public Schools",
+    "school": "Arthur Middleton Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District policy adopted May 12, 2025 dates PK/K implementation 2024–25 and grade 1 2025–26. Whole-school provision is planned for 2029–30, not asserted already implemented. No numerical allocation in checked policy.",
+    "observations": [
+      {
+        "source": "m6_md_charles",
+        "period": "2025-26",
+        "grade": "PK-1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "mixed",
+        "locator": "Arthur Middleton Elementary School / Spanish immersion",
+        "notes": "District policy adopted May 12, 2025 dates PK/K implementation 2024–25 and grade 1 2025–26. Whole-school provision is planned for 2029–30, not asserted already implemented. No numerical allocation in checked policy.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "m6_md_charles",
+        "year": "2024-25",
+        "status": "implemented_pk_kindergarten_launch",
+        "notes": "District explicitly dates launch August 2024."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "dated_district_policy_rollout",
+      "period": "2025-26",
+      "source": "m6_md_charles",
+      "locator": "Arthur Middleton Elementary School / Spanish immersion",
+      "notes": "District policy adopted May 12, 2025 dates PK/K implementation 2024–25 and grade 1 2025–26. Whole-school provision is planned for 2029–30, not asserted already implemented. No numerical allocation in checked policy."
+    }
+  },
+  {
+    "program_id": "M6-MD-P-3279d35ffdb6",
+    "school_id": "M6-MD-S-2343857aa93c",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Bayard Rustin Elementary School",
+    "track": "Chinese immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_80",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Bayard Rustin Elementary School / Chinese immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_80",
+      "locator": "Bayard Rustin Elementary School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3279d35ffdb6-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-1da3e3a6b71c",
+    "school_id": "M6-MD-S-e8a44a5e91b8",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Brown Station Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Brown Station Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Brown Station Elementary School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Brown Station Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-1da3e3a6b71c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-dbee8b67d2ff",
+    "school_id": "M6-MD-S-cff153698569",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Burnt Mills Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_84",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Burnt Mills Elementary School / Spanish immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_84",
+      "locator": "Burnt Mills Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-dbee8b67d2ff-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-dc776145b184",
+    "school_id": "M6-MD-S-9269866a41fc",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Cabin John Middle School",
+    "track": "Chinese immersion",
+    "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI.",
+    "observations": [
+      {
+        "source": "m6_md_mc_atglance",
+        "period": "2026–2028 district at-a-glance plan",
+        "grade": "6-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Cabin John Middle School / Chinese immersion",
+        "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "m6_md_mc_atglance",
+        "year": "2027-28",
+        "status": "planned_continuation_hub_change",
+        "notes": "Future hub change; no stable tested cohort inferred."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "explicit_2027_28_hub_change",
+      "period": "2026–2028 district at-a-glance plan",
+      "source": "m6_md_mc_atglance",
+      "locator": "Cabin John Middle School / Chinese immersion",
+      "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI."
+    }
+  },
+  {
+    "program_id": "M6-MD-P-b13c2f5465cb",
+    "school_id": "M6-MD-S-33a0b8615d56",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Gaithersburg Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Gaithersburg Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-2",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Gaithersburg Elementary School / K-2 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Gaithersburg Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-b13c2f5465cb-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-112b99b3a3de",
+    "school_id": "M6-MD-S-c112999142b2",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Gaithersburg Middle School",
+    "track": "French immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Gaithersburg Middle School / French immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "Gaithersburg Middle School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-112b99b3a3de-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-89b7942e0bc3",
+    "school_id": "M6-MD-S-d58b7d0cd720",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Herbert Hoover Middle School",
+    "track": "Chinese immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Herbert Hoover Middle School / Chinese immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "Herbert Hoover Middle School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-89b7942e0bc3-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-674d8ab4b2d4",
+    "school_id": "M6-MD-S-a4944578e9a5",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Kemp Mill Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Kemp Mill Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Kemp Mill Elementary School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Kemp Mill Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-674d8ab4b2d4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-820d3febbb84",
+    "school_id": "M6-MD-S-a025200bc252",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Maryvale Elementary School",
+    "track": "French immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_82",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Maryvale Elementary School / French immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_82",
+      "locator": "Maryvale Elementary School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-820d3febbb84-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-3eec1f19351b",
+    "school_id": "M6-MD-S-78fe98d61e3a",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Oakland Terrace Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Oakland Terrace Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Oakland Terrace Elementary School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Oakland Terrace Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3eec1f19351b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-2c427379473d",
+    "school_id": "M6-MD-S-95745e05d21e",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Potomac Elementary School",
+    "track": "Chinese immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_80",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Potomac Elementary School / Chinese immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_80",
+      "locator": "Potomac Elementary School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-2c427379473d-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-00d13ca0a1b2",
+    "school_id": "M6-MD-S-b2bc49a171a1",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Rock Creek Forest Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_84",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Rock Creek Forest Elementary School / Spanish immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_84",
+      "locator": "Rock Creek Forest Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-00d13ca0a1b2-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-3c8fda078f51",
+    "school_id": "M6-MD-S-07e72cdd041a",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Rolling Terrace Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Rolling Terrace Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Rolling Terrace Elementary School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Rolling Terrace Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3c8fda078f51-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-65ce8470a513",
+    "school_id": "M6-MD-S-d0caefdcdd3d",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Silver Spring International Middle School",
+    "track": "French immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Silver Spring International Middle School / French immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "Silver Spring International Middle School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-65ce8470a513-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-f6d065c5f35f",
+    "school_id": "M6-MD-S-d0caefdcdd3d",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Silver Spring International Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Silver Spring International Middle School / Spanish immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "Silver Spring International Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-f6d065c5f35f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-2d4979e6b57b",
+    "school_id": "M6-MD-S-ee7745235722",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Sligo Creek Elementary School",
+    "track": "French immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_82",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Sligo Creek Elementary School / French immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_82",
+      "locator": "Sligo Creek Elementary School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-2d4979e6b57b-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-9d4434e09c7f",
+    "school_id": "M6-MD-S-59fc9b88e5e4",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Takoma Park Middle School",
+    "track": "Spanish immersion",
+    "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI.",
+    "observations": [
+      {
+        "source": "m6_md_mc_96",
+        "period": "2026–2028 district at-a-glance plan",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Takoma Park Middle School / Spanish immersion",
+        "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [
+      {
+        "source": "m6_md_mc_96",
+        "year": "2027-28",
+        "status": "planned_continuation_hub_change",
+        "notes": "Future hub change; no stable tested cohort inferred."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "planned_future",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "explicit_2027_28_hub_change",
+      "period": "2026–2028 district at-a-glance plan",
+      "source": "m6_md_mc_96",
+      "locator": "Takoma Park Middle School / Spanish immersion",
+      "notes": "Explicit 2027–28 receiving hub, not a reference-year operating host. Cabin John receives rising grades 6/7; grade 8 initially stays at Hoover. Takoma Park named in current Spanish articulation page for Rolling Terrace/TWI."
+    }
+  },
+  {
+    "program_id": "M6-MD-P-3c11c464d868",
+    "school_id": "M6-MD-S-d8abe17d17a4",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Washington Grove Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "PK-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Washington Grove Elementary School / Spanish immersion",
+        "notes": "Official district six-school TWI roster, explicit whole-school model and half-day English/Spanish. Gaithersburg source lists K-2 and planned full implementation by 2026–27; no annual grade rollout synthesized.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_montgomery_twi",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Washington Grove Elementary School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_twi",
+      "locator": "Washington Grove Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3c11c464d868-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-ee30af889bc4",
+    "school_id": "M6-MD-S-ff9e790dc221",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "Westland Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Westland Middle School / Spanish immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "Westland Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-ee30af889bc4-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-a8e6c1cfb44f",
+    "school_id": "M6-MD-S-c0d7ae69cf3a",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "White Oak Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+    "observations": [
+      {
+        "source": "m6_md_montgomery_immersion",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "White Oak Middle School / Spanish immersion",
+        "notes": "Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_montgomery_immersion",
+      "locator": "White Oak Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-a8e6c1cfb44f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-57550393a86d",
+    "school_id": "M6-MD-S-074ba5168180",
+    "state": "MD",
+    "district": "Montgomery County Public Schools",
+    "school": "William Tyler Page Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+    "observations": [
+      {
+        "source": "m6_md_mc_84",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "William Tyler Page Elementary School / Spanish immersion",
+        "notes": "District foreign-language immersion selection distinct from TWI. Source calls Chinese partial and French/Spanish total academic-core immersion, without a numerical time ratio; those labels are not converted to 50/50 or 100%. Chinese retained without inventing a variety.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_mc_84",
+      "locator": "William Tyler Page Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-57550393a86d-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Qualitative total/partial model is documented, but a grade-specific numerical allocation needs verification"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-81ba6945004a",
+    "school_id": "M6-MD-S-353dfd0f0825",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Capitol Heights Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Capitol Heights Elementary School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Capitol Heights Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-81ba6945004a-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-74fd8cdf17a8",
+    "school_id": "M6-MD-S-1f04d9e03259",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Cesar Chavez Dual Spanish Immersion School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Cesar Chavez Dual Spanish Immersion School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Cesar Chavez Dual Spanish Immersion School / K-5 instructional model",
+        "notes": "Published policy for stated scope, not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Cesar Chavez Dual Spanish Immersion School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-74fd8cdf17a8-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-0b53bf980747",
+    "school_id": "M6-MD-S-00e395f7a5a9",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Cool Spring Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "unknown",
+        "locator": "Cool Spring Elementary School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Cool Spring Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-0b53bf980747-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-a4ff19a6eb57",
+    "school_id": "M6-MD-S-5002a0d3a461",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Dora Kennedy French Immersion School",
+    "track": "French immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_french",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Dora Kennedy French Immersion School / French immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_french",
+      "locator": "Dora Kennedy French Immersion School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-a4ff19a6eb57-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-d853d21cc94c",
+    "school_id": "M6-MD-S-42ba928f6f37",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Greenbelt Middle School",
+    "track": "Chinese immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_chinese",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Greenbelt Middle School / Chinese immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_chinese",
+      "locator": "Greenbelt Middle School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-d853d21cc94c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-c172cbd7e651",
+    "school_id": "M6-MD-S-be38a510c5b0",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Kettering Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Kettering Middle School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Kettering Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-c172cbd7e651-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-3e8ba1f95664",
+    "school_id": "M6-MD-S-5d04be59dca6",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Largo High School",
+    "track": "Chinese immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_chinese",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Largo High School / Chinese immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_chinese",
+      "locator": "Largo High School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3e8ba1f95664-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-4fd0b9869fe1",
+    "school_id": "M6-MD-S-5d04be59dca6",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Largo High School",
+    "track": "French immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_french",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Largo High School / French immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_french",
+      "locator": "Largo High School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-4fd0b9869fe1-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-c9f14dcbce09",
+    "school_id": "M6-MD-S-5d04be59dca6",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Largo High School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Largo High School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Largo High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-c9f14dcbce09-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-2937696ca479",
+    "school_id": "M6-MD-S-75951af53e39",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Maya Angelou French Immersion School",
+    "track": "French immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_french",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Maya Angelou French Immersion School / French immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_french",
+      "locator": "Maya Angelou French Immersion School / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-2937696ca479-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-85e84d0d0ba5",
+    "school_id": "M6-MD-S-55afeded4a14",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Overlook Full Spanish Immersion School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Overlook Full Spanish Immersion School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Overlook Full Spanish Immersion School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-85e84d0d0ba5-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-bb3cbc0be01c",
+    "school_id": "M6-MD-S-6447a39e9ba1",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Paint Branch Elementary School",
+    "track": "Chinese immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_chinese",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Paint Branch Elementary School / Chinese immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_chinese",
+      "locator": "Paint Branch Elementary School / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-bb3cbc0be01c-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-0192ba3df5ef",
+    "school_id": "M6-MD-S-924e4fdf1785",
+    "state": "MD",
+    "district": "Prince George’s County Public Schools",
+    "school": "Phyllis E. Williams Spanish Immersion School",
+    "track": "Spanish immersion",
+    "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+    "observations": [
+      {
+        "source": "m6_md_pg_spanish",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Phyllis E. Williams Spanish Immersion School / Spanish immersion",
+        "notes": "Official model-specific district roster. Cool Spring is maintenance bilingual; full, partial and maintenance descriptions remain separate. Current page has inconsistent 2027/2026 application dates, not used to date programme operation or allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_pg_spanish",
+      "locator": "Phyllis E. Williams Spanish Immersion School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-0192ba3df5ef-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-3813dd19f132",
+    "school_id": "M6-MD-S-324590d04a99",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy East",
+    "school": "Baltimore International Academy East",
+    "track": "Arabic immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Arabic",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy East / Arabic immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Arabic": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy East / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biae",
+      "locator": "Baltimore International Academy East / Arabic immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-3813dd19f132-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-92b07a2fc4a2",
+    "school_id": "M6-MD-S-324590d04a99",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy East",
+    "school": "Baltimore International Academy East",
+    "track": "Chinese immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy East / Chinese immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Chinese": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy East / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biae",
+      "locator": "Baltimore International Academy East / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-92b07a2fc4a2-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-081e52e657fd",
+    "school_id": "M6-MD-S-324590d04a99",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy East",
+    "school": "Baltimore International Academy East",
+    "track": "French immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy East / French immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "French": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy East / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biae",
+      "locator": "Baltimore International Academy East / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-081e52e657fd-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-665b7d988a7b",
+    "school_id": "M6-MD-S-324590d04a99",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy East",
+    "school": "Baltimore International Academy East",
+    "track": "Russian immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Russian",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy East / Russian immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Russian": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy East / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biae",
+      "locator": "Baltimore International Academy East / Russian immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-665b7d988a7b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-620efce5d40d",
+    "school_id": "M6-MD-S-324590d04a99",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy East",
+    "school": "Baltimore International Academy East",
+    "track": "Spanish immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy East / Spanish immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biae",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Spanish": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy East / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biae",
+      "locator": "Baltimore International Academy East / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-620efce5d40d-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-789c711f9c37",
+    "school_id": "M6-MD-S-e1d766211375",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy West",
+    "school": "Baltimore International Academy West",
+    "track": "Chinese immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy West / Chinese immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Chinese": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy West / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biaw",
+      "locator": "Baltimore International Academy West / Chinese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-789c711f9c37-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-18a3b55bbbaa",
+    "school_id": "M6-MD-S-e1d766211375",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy West",
+    "school": "Baltimore International Academy West",
+    "track": "French immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy West / French immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "French": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy West / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biaw",
+      "locator": "Baltimore International Academy West / French immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-18a3b55bbbaa-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-08ca92879132",
+    "school_id": "M6-MD-S-e1d766211375",
+    "state": "MD",
+    "district": "Public charter operator: Baltimore International Academy West",
+    "school": "Baltimore International Academy West",
+    "track": "Spanish immersion",
+    "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+    "observations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Baltimore International Academy West / Spanish immersion",
+        "notes": "Public academic immersion academy; all academic-core subjects in target language in K/1, English language arts begins grade 2. West has three implemented languages; its five-option aspiration does not add Russian/Arabic tracks.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_biaw",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-1",
+        "label": "100/0",
+        "shares": {
+          "Spanish": 100,
+          "English": 0
+        },
+        "locator": "Baltimore International Academy West / K-1 instructional model",
+        "notes": "Explicit grade-specific statement all academic-core subjects in target language before English ELA begins grade 2. Core-instruction basis, not a whole-day measured schedule.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_biaw",
+      "locator": "Baltimore International Academy West / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "M6-MD-P-08ca92879132-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "M6-MD-P-986b350cb4ee",
+    "school_id": "M6-MD-S-250435c084a2",
+    "state": "MD",
+    "district": "Public charter operator: Bilingual Global Citizens Public Charter School",
+    "school": "Bilingual Global Citizens Public Charter School",
+    "track": "Chinese immersion",
+    "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation.",
+    "observations": [
+      {
+        "source": "m6_md_bgc_d25",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bilingual Global Citizens Public Charter School / Chinese immersion",
+        "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_md_bgc_d15",
+        "period": "planned fall 2025 opening",
+        "grade": "K-5 design",
+        "languages": [
+          "Chinese",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "Official school history states approval and planned fall 2025 opening, not actual implementation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_bgc_model66",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Chinese": 50,
+          "English": 50
+        },
+        "locator": "Bilingual Global Citizens Public Charter School / K-5 instructional model",
+        "notes": "Explicit planned Chinese/French and English design; reference-year operation remains unverified.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "PLANNED_MODEL_IMPLEMENTATION_UNVERIFIED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "planned_fall_2025_start_not_verified_implemented",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_bgc_d25",
+      "locator": "Bilingual Global Citizens Public Charter School / Chinese immersion",
+      "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation."
+    },
+    "review_reasons": [
+      "Planned fall 2025 charter opening needs actual implementation or change/end confirmation"
+    ]
+  },
+  {
+    "program_id": "M6-MD-P-4b52824c3d69",
+    "school_id": "M6-MD-S-250435c084a2",
+    "state": "MD",
+    "district": "Public charter operator: Bilingual Global Citizens Public Charter School",
+    "school": "Bilingual Global Citizens Public Charter School",
+    "track": "French immersion",
+    "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation.",
+    "observations": [
+      {
+        "source": "m6_md_bgc_d25",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "elementary",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Bilingual Global Citizens Public Charter School / French immersion",
+        "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_md_bgc_d15",
+        "period": "planned fall 2025 opening",
+        "grade": "K-5 design",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "programme description",
+        "notes": "Official school history states approval and planned fall 2025 opening, not actual implementation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "m6_md_bgc_model66",
+        "period": "undated official programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "French": 50,
+          "English": 50
+        },
+        "locator": "Bilingual Global Citizens Public Charter School / K-5 instructional model",
+        "notes": "Explicit planned Chinese/French and English design; reference-year operation remains unverified.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "review_status": "PLANNED_MODEL_IMPLEMENTATION_UNVERIFIED"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_charter_programme",
+      "method": "planned_fall_2025_start_not_verified_implemented",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "m6_md_bgc_d25",
+      "locator": "Bilingual Global Citizens Public Charter School / French immersion",
+      "notes": "Public charter approval/history planned fall 2025 opening. Live website retains generic calendar/no implementation proof; approval and planned curriculum do not establish reference operation."
+    },
+    "review_reasons": [
+      "Planned fall 2025 charter opening needs actual implementation or change/end confirmation"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=24&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-06T04:06:29.449099+00:00",
+  "http_status": 200,
+  "final_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=24&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "sha256": "f23f7f7d3f765371f83cd176fb53b3f917b7a646b951ea385d78d2315e8f6b8f",
+  "bytes": 373015,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "NCES CCD 2024–25 school directory grade context: MD",
+  "snapshot_path": "data/raw/mid_atlantic_ct_2026_11_05/m6_ccd2024_MD.json",
+  "full_response_sha256": "f23f7f7d3f765371f83cd176fb53b3f917b7a646b951ea385d78d2315e8f6b8f"
+}

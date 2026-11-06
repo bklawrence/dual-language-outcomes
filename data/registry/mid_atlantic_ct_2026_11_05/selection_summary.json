@@ -1,0 +1,37 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "PA",
+    "MD",
+    "DE",
+    "NJ",
+    "NY",
+    "CT"
+  ],
+  "programme_records": {
+    "PA": 14,
+    "MD": 45,
+    "DE": 65,
+    "NJ": 22,
+    "NY": 269,
+    "CT": 18
+  },
+  "programme_host_schools": {
+    "PA": 14,
+    "MD": 35,
+    "DE": 62,
+    "NJ": 20,
+    "NY": 255,
+    "CT": 18
+  },
+  "screening_rows": {
+    "PA": 10,
+    "MD": 8,
+    "DE": 4,
+    "NJ": 19,
+    "NY": 293,
+    "CT": 12
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

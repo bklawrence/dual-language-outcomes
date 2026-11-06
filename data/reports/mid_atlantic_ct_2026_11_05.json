@@ -1,0 +1,109 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 433,
+  "school_units": 404,
+  "public_source_documents": 96,
+  "state_summary": [
+    {
+      "state": "CT",
+      "programme_records": 18,
+      "school_units": 18,
+      "confirmed_qualifying_reference_school_units": 18,
+      "elementary_reference_school_units": 18,
+      "elementary_reference_schools_with_numerical_model": 14,
+      "elementary_reference_model_coverage_pct": 77.8,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "DE",
+      "programme_records": 65,
+      "school_units": 62,
+      "confirmed_qualifying_reference_school_units": 60,
+      "elementary_reference_school_units": 44,
+      "elementary_reference_schools_with_numerical_model": 43,
+      "elementary_reference_model_coverage_pct": 97.7,
+      "secondary_6_plus_reference_units_excluded": 16,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "MD",
+      "programme_records": 45,
+      "school_units": 35,
+      "confirmed_qualifying_reference_school_units": 32,
+      "elementary_reference_school_units": 24,
+      "elementary_reference_schools_with_numerical_model": 9,
+      "elementary_reference_model_coverage_pct": 37.5,
+      "secondary_6_plus_reference_units_excluded": 8,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "NJ",
+      "programme_records": 22,
+      "school_units": 20,
+      "confirmed_qualifying_reference_school_units": 20,
+      "elementary_reference_school_units": 19,
+      "elementary_reference_schools_with_numerical_model": 13,
+      "elementary_reference_model_coverage_pct": 68.4,
+      "secondary_6_plus_reference_units_excluded": 1,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "NY",
+      "programme_records": 269,
+      "school_units": 255,
+      "confirmed_qualifying_reference_school_units": 255,
+      "elementary_reference_school_units": 200,
+      "elementary_reference_schools_with_numerical_model": 7,
+      "elementary_reference_model_coverage_pct": 3.5,
+      "secondary_6_plus_reference_units_excluded": 55,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "PA",
+      "programme_records": 14,
+      "school_units": 14,
+      "confirmed_qualifying_reference_school_units": 14,
+      "elementary_reference_school_units": 13,
+      "elementary_reference_schools_with_numerical_model": 2,
+      "elementary_reference_model_coverage_pct": 15.4,
+      "secondary_6_plus_reference_units_excluded": 1,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Partial structural review, not a statewide census; all six states have programme records, with additional unresolved discovery leads.",
+    "2025–26 reference operation is distinct from source vintages, later entry-grade expansions, plans, cuts and campus changes.",
+    "Reference model availability uses undated or no-later-than-reference sources; explicitly later models remain in the all-recorded view. Neither view is an observed cohort timetable.",
+    "One-way/two-way pupil composition, seat quotas, at-least percentages and FLES minutes are not exact instructional-time models.",
+    "Academic immersion and formal secondary continuation are retained separately from language electives, specials, preschool-only provision and summer camps.",
+    "Public charter operators are reporting groups, not inferred LEAs. School/campus and programme keys are provisional.",
+    "CCD 2024–25 school-grade metadata supplies denominator context, not programme operation, durable identifier crosswalks or stable cohorts; dated district grade changes supersede older directory context.",
+    "Proficiency, demographic, EL-exit and SEDA collection remains deferred."
+  ],
+  "source_reconciliation_counts": {
+    "nyc_2025_26_bilingual_csv": 579,
+    "md_montgomery_elementary_hosts": 13,
+    "md_pgcps_language_hosts": 13,
+    "de_state_map_2021_22_hosts": 57,
+    "pa_philadelphia_official_hosts": 9,
+    "ct_newhaven_bilingual_and_two_way_models": 9,
+    "pa_directory_cards": 8,
+    "md_directory_cards": 10,
+    "de_directory_cards": 7,
+    "nj_directory_cards": 18,
+    "ny_directory_cards": 18,
+    "ct_directory_cards": 10
+  },
+  "states_with_programme_records": [
+    "CT",
+    "DE",
+    "MD",
+    "NJ",
+    "NY",
+    "PA"
+  ],
+  "screened_only_states": []
+}
