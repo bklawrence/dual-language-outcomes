@@ -2464,7 +2464,7 @@
       {
         "source": "e4_va_fairfax25",
         "period": "2025-26",
-        "grade": "1 entry",
+        "grade": "1",
         "languages": [
           "Spanish",
           "English"
@@ -2472,7 +2472,7 @@
         "population": "one_way",
         "delivery": "strand",
         "locator": "programme description",
-        "notes": "Dated admission letter explicitly Spanish, first-grade entry. Does not establish a German programme.",
+        "notes": "Dated admission letter explicitly Spanish, first-grade entry. Grade field is the documented admission grade, not the whole programme span. Kindergarten entry begins in 2026–27; no German programme inferred.",
         "label": null,
         "verification": "documented",
         "language_role": "instruction_language"
@@ -2482,14 +2482,28 @@
       {
         "source": "e4_va_fairfax",
         "period": "undated official programme page; retrieved 2026-11-05",
-        "grade": "K-5",
+        "grade": "1-5",
         "label": "50/50",
         "shares": {
           "Spanish": 50,
           "English": 50
         },
-        "locator": "Ravensworth Elementary School / K-5 instructional model",
+        "locator": "Ravensworth Elementary School / 1-5 instructional model",
         "notes": "Published instructional policy for stated grade scope; not observed student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      },
+      {
+        "source": "e4_va_fairfax",
+        "period": "2026-27",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Ravensworth Elementary School / K instructional model",
+        "notes": "Kindergarten entry is explicitly new for 2026–27. Future kindergarten allocation is separate from existing grade-1-and-higher instruction; not reference-year K evidence.",
         "basis": "instructional_policy_not_observed_exposure",
         "grade_support": "EXPLICIT_GRADE"
       }

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-6292abf408ea5b16a3e71b867fb2ec32",
-  "built_at": "2026-11-06T01:20:23.929506+00:00",
-  "base_git_revision": "005752c8adb372cb3259fa125bf05a1a1b49222e",
+  "build_id": "build-01700773055a5414986540314665b341",
+  "built_at": "2026-11-06T01:31:20.111470+00:00",
+  "base_git_revision": "722bc646f039a6663b17f0106edfaaf61ad3e014",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -2285,7 +2285,7 @@
     "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/registry/oh_ky_wv_va_2026_11_05/sources.json": "b57c80bcaf61eacc52cde643baf7eeaf1e71ad91a1dd288d7adf3c2caf3746d4",
     "data/registry/oh_ky_wv_va_2026_11_05/unmatched_grade_context.json": "37eb9e58078a7e3812e1c105dd0fc345d6b08577e7861d955f040a43fcaa0bc1",
-    "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.json": "043b5b0d172edda284ad894f786d2f1a56db8ad51f03cd9fbe792b43ff6c9773",
+    "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.json": "d16d81890c811b1cf346417ea9b3dbd626a586248f23c341a7948345748362d2",
     "data/registry/oh_ky_wv_va_2026_11_05/va_screening.json": "42fe882fbded09fd44ec568299fdb7af3d0de8bcde4c86aad29d30fc3ac3997a",
     "data/registry/oh_ky_wv_va_2026_11_05/wv_programmes.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/registry/oh_ky_wv_va_2026_11_05/wv_screening.json": "86f152cb109f6344ae63797c76829ec8ac192ffc6b3a332996217ed756d9d346",
@@ -2996,7 +2996,7 @@
       "rows": 55
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "424f8a019f0a56d4e430cf944527fec46b94822d9fc9afa7d7c45343a8e716fa",
+      "sha256": "27d70fa7825ebd7c25691a1f3c9b8d51b4913d0f61f829b0af904511035e8a03",
       "rows": 1388
     },
     "data/curated/registry/districts.csv": {
@@ -3008,11 +3008,11 @@
       "rows": 5715
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "ced1611d709578844248dfbf6a39df59747386732b14733a6859570f711484f7",
+      "sha256": "b9eebdd58fbc17f23bd6afef695f6603acf3c13df6458a573002daadcecb4384",
       "rows": 14453
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "3b656deb49aa1b1e016ef3f299260013947fb5b07b287c1ab2eae53a8c461819",
+      "sha256": "16bcca03709462b25e275e08159c6c74c9e0dead4d1e5ef676ff64e54033e1bb",
       "rows": 6509
     },
     "data/curated/registry/programs.csv": {
@@ -3020,32 +3020,32 @@
       "rows": 4593
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "22196e638ab9dfe9670586c72663b6753527e6173cd07409e5f4f8f16b14b52f",
+      "sha256": "f2df84c7355dfa65226a37a70739510049ec92dde6a4d83b3f809cb922ebc1af",
       "rows": 4593
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "1fe09725327352dbc9906067ddbc6ef38620084df2c5e870dd13e38ffc45bff1",
+      "sha256": "f08dd8b939de271c4d92475790bc5a8cf1b0634a3bf7448b65091371b8b95321",
       "rows": 3496
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "08cb1630601e7e684134e951e7f1bf8b52bad623387967f436a6654bf2068536",
+      "sha256": "45f774c535c11c8b75e2e92842b6bf13d0d23a79fd4afd7f7eaba1eb5e5d7e21",
       "rows": 7831
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "ceeb56bdbf0eaaad6efc1fe242c04d1aa02b07b9f9ab706ce696df769870b08b",
+      "sha256": "65da2391f6c2f18abc7ff0e178fc9a2e9bff4a2d822078bbf8eacf199b40e450",
       "rows": 6391
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "999a0e7199da1068251f046d212a31ffa066464df11179b5e5dbfdc31fca00aa",
-      "rows": 2428
+      "sha256": "494eb0b8a8f6c8ac1d29b830a0d102bfd51bb0154c1614b45a26ef5b404c76eb",
+      "rows": 2429
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "52a0827c3b8bf128654d890a0115a5667bfd894e79a2dd202426bae655a17f79",
-      "rows": 1252
+      "sha256": "0f21c28200ad66945e3a5dd7c46fff3f7ee9c7de582bc45275eff806bdb1690d",
+      "rows": 1254
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "2cb24c8c30ba0a8efe9aeaaac1108520bd2a805e0fce447a35eabc7c53c1339e",
-      "rows": 25299
+      "sha256": "2919bd8a778606258f20961d1b64a8ec8245ff733ec54a2e74d29f19af52069f",
+      "rows": 25300
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -3096,7 +3096,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "69389a3e1be5cb09bb964799afee45066b56652311384c19c127be73df3d9f67",
+      "sha256": "282ccbab3ed55e01bf410231f25e11fc8c170547a67642cd533f31f383a8d47d",
       "rows": 13200
     }
   },
@@ -3146,19 +3146,19 @@
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
     "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va_program_view.csv": {
-      "sha256": "5ee73f71f6cf8ff9af609b9140286eee0f81ff8f6442f8a2f94b37c1b5947ad5"
+      "sha256": "4172e17f330d4dbcafc3e6d2751f0466571cc4cd108e3d478c8fb0caa803c05e"
     },
     "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va_by_state.csv": {
-      "sha256": "492db78389acf3f66eb5cab3e109b2e451cae87d17bdaa337a52c98c0a209c21"
+      "sha256": "e8fc546e698d5ebb370d8d495d8da38aa675880ce400e88f2eeb8c00a2b38959"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_program.csv": {
-      "sha256": "ce59446dad0102666129ac6e70a8a2ac612384902b62ec86b8b7cfe32c30aa64"
+      "sha256": "2f4a971195ec4161a9038cbac165878d51560f8bbd12df7aaf69e41a6c8cc83e"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_school.csv": {
-      "sha256": "7831db6018eb9b9203d64607b8b57b8c7c43ade7541ee1bc039b415787871c62"
+      "sha256": "7b9c93777251a7d675edb1ca93ae1c51e0a561fc4b8057729e1403a586eb8c42"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va_by_state.csv": {
-      "sha256": "8463efb3d298cc9e53a7808663435d334c241704c88b33b4addfef8576555ff8"
+      "sha256": "af5684dcbda6b467bd2dfba3c70949a399a2b1374055e523c4b2744a7402da70"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -3173,7 +3173,7 @@
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_by_school.csv": {
-      "sha256": "c872b2d6ab80a3d307c583ff84dd944bfd86aacd4ae896134170935be502699c"
+      "sha256": "f81d03f8270a1f9fbd4624271c6f4a6e7dcc88fd592300e59756e80f88971764"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_oh_ky_wv_va_by_state.csv": {
       "sha256": "d0d6ff530d7001319afd6ab801edf6bd85a2da3724b886b182f7d61c856ad4be"
@@ -3527,10 +3527,10 @@
       "sha256": "1b4815c4452201d2376d6c05867f9771fbf8963e8fb950df252faea4e77f9ea0"
     },
     "data/reports/oh_ky_wv_va_2026_11_05_program_view.csv": {
-      "sha256": "54ef21df5df770496f0748287a859ca572800b33a5f9a81fadbf4595199d1805"
+      "sha256": "5c453b9aefc8354a119d4879c146cc010b6ae0cac6f05986ad2a27c7414bec2e"
     },
     "data/reports/oh_ky_wv_va_2026_11_05_schools.csv": {
-      "sha256": "5af9db8e5e53baa32b6eb3d4540372cb01849ac39c4378c375fd7d47c5957c75"
+      "sha256": "faade8c16866268efbfa50d9156cee46cb2dab8fc8d782876b7f3dd1e9caaaa2"
     },
     "data/reports/oh_ky_wv_va_2026_11_05_by_state.csv": {
       "sha256": "b98053cb7b150cfd5efc5febfe4398f5b42f68d558e10cc008ac654776211bf2"
@@ -3563,10 +3563,10 @@
       "sha256": "0726d4bfbb8bbb7a1149b6ed7221516a5744094eeb1390db2fb9df866c7da232"
     },
     "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.csv": {
-      "sha256": "fc8ae7f09b48aef9731e5b6b5c458f736fc86bf524fdb4d30798c0eb20b3d0a1"
+      "sha256": "935415cbda10b8b6cc4fdb1041897e883e61716c89c596b405fb19056e048545"
     },
     "data/registry/oh_ky_wv_va_2026_11_05/va_schools.csv": {
-      "sha256": "1b701c6e87e06d9b4ce308499ef1390bbe4dba27b85d6ecd0f294cef80bf4ae1"
+      "sha256": "25e8dbe42011eec3de63fe718b24cf825ff259af1de91efb9b5c6bdabff86f17"
     },
     "data/registry/oh_ky_wv_va_2026_11_05/wv_programmes.csv": {
       "sha256": "4a81949750872d56672e6257226f50e86e3d8bf5a968d9a37cd780b637f7638c"
@@ -3590,7 +3590,7 @@
       "sha256": "c28959127d78bb0ec1c22281af35ecceb5e9e638a0d714a8563100b11ccf6e1b"
     },
     "data/reports/structural_inventory_2026_11_05_oh_ky_wv_va.json": {
-      "sha256": "8ead7b6b31f2ef6382a5d39279e0a5571fdb18c403703091dbe883dec8542b1b"
+      "sha256": "87e3f049b09fe98c7e9d03189f954d20cfd3b3ef80f0e8dafc1689ccba56acd9"
     }
   }
 }

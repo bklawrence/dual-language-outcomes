@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import unittest
 
+from dl_outcomes.allocation_coverage import report_rows as kindergarten_rows
 from dl_outcomes.elementary_audit import report_rows
 from dl_outcomes.northern_central_review import inputs
 from dl_outcomes.oh_ky_wv_va_review import audit_errors, render_reports
@@ -56,8 +57,13 @@ class EasternFourStateTests(unittest.TestCase):
         self.assertEqual({r['raw']['language'] for r in rows}, {'Spanish','French','German','Japanese','Korean'})
         raven = self.programme('Ravensworth Elementary School')
         self.assertEqual(raven['track'],'Spanish immersion')
-        self.assertTrue(any(o['period']=='2025-26' and o['grade']=='1 entry' for o in raven['observations']))
+        self.assertTrue(any(o['period']=='2025-26' and o['grade']=='1' for o in raven['observations']))
         self.assertEqual(raven['events'][0]['year'],'2026-27')
+        self.assertTrue(any(a['grade']=='K' and a['period']=='2026-27' for a in raven['allocations']))
+        k_detail, _, _ = kindergarten_rows(self.tables)
+        k_row = next(r for r in k_detail if r['program_id']==raven['program_id'])
+        self.assertEqual(k_row['k_eligibility'],'excluded_no_k')
+        self.assertEqual(k_row['has_grade_supported_k_model'],0)
         upper = self.reference_school('Bailey’s Upper Elementary School for the Arts and Sciences')
         self.assertEqual((upper['elementary_denominator'],upper['school_grade_low']), (1,3))
         self.assertEqual(self.programme('Bailey’s Upper Elementary School for the Arts and Sciences')['allocations'][0]['grade'],'3-5')
