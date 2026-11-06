@@ -234,8 +234,8 @@ def report_rows(root, tables):
             registry_school_units_including_screening=len(registry), program_site_school_units=len({r['school_id'] for r in current}),
             provisional_program_evidence_groups=len({r['program_id'] for r in current}),
             status_history_rows=len(state_status),
-            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES else None,
-            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES else None,
+            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES or (code=='TX' and (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists()) else None,
+            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES or (code=='TX' and (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists()) else None,
             program_groups_with_some_population_model=len({r['program_id'] for r in current if r['population_models_all_source_periods']}),
             program_groups_with_some_delivery_structure=len({r['program_id'] for r in current if r['delivery_structures_all_source_periods']}),
             k_allocation_denominator_school_units=allocation_by_state[code]['k_denominator_school_units'],
@@ -388,6 +388,14 @@ def generate_report(root, *, check=False):
         audit['states_with_structural_research'] = sorted(reviewed)
         audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states'] if r['state_code'] not in reviewed]
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists():
+        from .gap_pilot import render_reports as pilot_reports, revise_report_paths
+        new_contents,new_summary=pilot_reports(root,tables)
+        contents.update(new_contents)
+        contents,aliases=revise_report_paths(root,contents)
+        audit['structural_gaps_pilot']=new_summary
+        audit['preserved_prior_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

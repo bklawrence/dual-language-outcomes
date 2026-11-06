@@ -1,0 +1,15 @@
+{
+  "key": "aps_longfellow",
+  "url": "https://longfellow.aps.edu/our-school",
+  "retrieved_at": "2026-11-06T17:55:06.319737+00:00",
+  "http_status": 200,
+  "final_url": "https://longfellow.aps.edu/our-school",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "aa86f2055c3a8045e38110bba3bb1c5fef9b9c1ddb4db29a42dd80254fcea812",
+  "bytes": 41556,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Our School - Longfellow Elementary School",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow.html"
+}

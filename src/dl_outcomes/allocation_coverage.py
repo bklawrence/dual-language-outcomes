@@ -79,6 +79,9 @@ def reference_year(state):
 
 def select_grade_rows(rows, state):
     """Prefer reviewed scope or dated reference-year scope over older observations."""
+    from .evidence_scope import within_reviewed_reference
+    year = reference_year(state)
+    rows = [r for r in rows if within_reviewed_reference(r,year)]
     rows = [r for r in rows if r['grade_scope'] not in {None, '', 'not_reported'}]
     selected = [r for r in rows if r['program_kind'] == 'reviewed_structural_selection_with_separate_source_dates']
     if selected:
@@ -106,16 +109,18 @@ def merge_eligibility(values):
 
 
 def report_rows(tables):
+    from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
+    bounds=reference_bounds(tables)
     schools = {r['school_id']: r for r in tables['schools']}
     programs = {r['program_id']: r for r in tables['programs']}
     configurations, statuses, allocations = [defaultdict(list) for _ in range(3)]
     directory = {}
     for row in tables['program_configurations']:
-        configurations[row['site_id']].append(row)
+        configurations[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds))
     for row in tables['program_status_history']:
         statuses[row['site_id']].append(row)
     for row in tables['allocation_schedules']:
-        allocations[row['school_id']].append(row)
+        allocations[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds))
     for row in tables['evidence_claims']:
         if row['attribute'] == 'campus_grade_range_context':
             directory[row['entity_id']] = row
@@ -141,7 +146,7 @@ def report_rows(tables):
         grade_periods = {r['evidence_period_raw'] or 'not_reported' for r in grade_rows}
         schedules = [r for r in allocations[sid] if r['site_id'] in {None, site['site_id']}]
         year = reference_year(state)
-        usable = [r for r in schedules if not r['school_year'] or not year or r['school_year'] <= year]
+        usable = [r for r in schedules if within_reviewed_reference(r,year) and (not r['school_year'] or not year or r['school_year'] <= year)]
         if year not in policy_cache:
             policy_cache[year] = current_policy_choices(tables, year)
         choice = policy_cache[year].get(site['site_id'])

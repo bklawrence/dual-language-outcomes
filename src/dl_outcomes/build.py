@@ -177,6 +177,9 @@ class Build:
         if (self.root/'config/research_migrations/tx_allocation_review_2026_11_05.json').exists():
             from .allocation_review import migrate as apply_allocation_review
             apply_allocation_review(self)
+        if (self.root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists():
+            from .gap_pilot import migrate as apply_gap_pilot
+            apply_gap_pilot(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue

@@ -1,0 +1,835 @@
+[
+  {
+    "key": "alief_choice",
+    "url": "https://choice.aliefisd.net/two-way-dual-language-program/",
+    "retrieved_at": "2026-11-06T17:51:16.248961+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "alief_multilingual",
+    "url": "https://www.aliefisd.net/o/aisd/page/multilingual-programs-department",
+    "retrieved_at": "2026-11-06T17:57:06.743994+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "alief_one",
+    "url": "https://sneed.aliefisd.net/o/aisd/page/one-way-dual-language-program",
+    "retrieved_at": "2026-11-06T17:51:17.244555+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "alief_slides",
+    "url": "https://docs.google.com/presentation/d/18AKMF3cp_uuOotOtLJrZfJmiHqDXs6jN4xssERSRw5g/export/pdf",
+    "retrieved_at": "2026-11-06T17:55:54.076141+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "alief_summary",
+    "url": "https://drive.google.com/uc?export=download&id=1f-OVYgl6iyn5Sc5NllzAGvareePh5VtE",
+    "retrieved_at": "2026-11-06T17:55:54.075635+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "alief_two",
+    "url": "https://www.aliefisd.net/page/dual",
+    "retrieved_at": "2026-11-06T17:51:16.247821+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_als",
+    "url": "https://www.aps.edu/language-and-cultural-equity/schools-and-alternative-language-service-als-models",
+    "retrieved_at": "2026-11-06T18:09:51.385382+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_coronado",
+    "url": "https://coronado.aps.edu/our-school/dual-language-program",
+    "retrieved_at": "2026-11-06T17:55:06.318653+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_coronado_dir",
+    "url": "https://www.aps.edu/schools/schools/coronado-dual-language-magnet-school",
+    "retrieved_at": "2026-11-06T18:09:53.057370+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_coronado_handbook",
+    "url": "https://coronado.aps.edu/our-school/handbook",
+    "retrieved_at": "2026-11-06T18:02:11.455456+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_dl",
+    "url": "https://www.aps.edu/innovation/school-choice/dual-language",
+    "retrieved_at": "2026-11-06T17:51:19.734317+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_longfellow",
+    "url": "https://longfellow.aps.edu/our-school",
+    "retrieved_at": "2026-11-06T17:55:06.319737+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_longfellow_dir",
+    "url": "https://www.aps.edu/schools/schools/longfellow-dual-language-magnet-school",
+    "retrieved_at": "2026-11-06T17:57:06.745025+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_longfellow_handbook",
+    "url": "https://longfellow.aps.edu/our-school/handbook",
+    "retrieved_at": "2026-11-06T18:02:11.456408+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_longfellow_home",
+    "url": "https://longfellow.aps.edu/",
+    "retrieved_at": "2026-11-06T17:56:16.921012+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_models",
+    "url": "https://www.aps.edu/language-and-cultural-equity/schools-and-alternative-language-service-als-models/schools-with-bilingual-education-models",
+    "retrieved_at": "2026-11-06T17:51:21.059960+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "aps_tvcc",
+    "url": "https://tvcc.aps.edu/programs",
+    "retrieved_at": "2026-11-06T18:00:00.360074+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_cook",
+    "url": "https://cook.austinschools.org/programs/dual-language",
+    "retrieved_at": "2026-11-06T18:00:00.358511+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_dl",
+    "url": "https://www.austinisd.org/dual-language",
+    "retrieved_at": "2026-11-06T17:51:17.503847+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_doss",
+    "url": "https://doss.austinschools.org/programs/dual-language",
+    "retrieved_at": "2026-11-06T17:55:54.076986+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_es",
+    "url": "https://www.austinisd.org/dual-language/es",
+    "retrieved_at": "2026-11-06T17:52:58.570365+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_finder",
+    "url": "https://www.austinisd.org/dual-language/program-finder",
+    "retrieved_at": "2026-11-06T17:51:16.244009+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_menchaca",
+    "url": "https://menchaca.austinschools.org/programs/dual-language",
+    "retrieved_at": "2026-11-06T18:00:00.359396+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "austin_reilly2025",
+    "url": "https://www.austinisd.org/sites/default/files/dept/consolidation/docs/FotF_Consolidation%20Letters_Reilly_ENG.pdf",
+    "retrieved_at": "2026-11-06T17:52:59.915375+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "buncombe_dl",
+    "url": "https://www.buncombeschools.org/page/dual-language-spanish-immersion-k-5",
+    "retrieved_at": "2026-11-06T17:51:18.215336+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "buncombe_faq",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/3100/BCS/2132428/Dual_Language_Spanish_Immersion_FAQ_for_Parents.pdf",
+    "retrieved_at": "2026-11-06T17:51:18.793498+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_dl",
+    "url": "https://www.cmsk12.org/academics/school-choice/world-languages-and-language-immersion",
+    "retrieved_at": "2026-11-06T17:51:18.797852+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_north",
+    "url": "https://northacademyk8.cmsk12.org/",
+    "retrieved_at": "2026-11-06T17:55:06.322038+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_north_about",
+    "url": "https://northacademyk8.cmsk12.org/our-school/about-us",
+    "retrieved_at": "2026-11-06T18:02:12.627174+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_oaklawn",
+    "url": "https://oaklawnk8.cmsk12.org/our-school/about-us/welcome",
+    "retrieved_at": "2026-11-06T17:52:58.574387+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail",
+    "url": "https://sailk8.cmsk12.org/our-school/about-us/about-our-school",
+    "retrieved_at": "2026-11-06T17:51:18.931935+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_chinese",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38719",
+    "retrieved_at": "2026-11-06T17:58:09.180812+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_elementary",
+    "url": "https://sailk8.cmsk12.org/activities/academics-programs/elementary",
+    "retrieved_at": "2026-11-06T17:52:58.572658+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_faq",
+    "url": "https://www.sailptso.org/faq",
+    "retrieved_at": "2026-11-06T17:55:06.322890+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_french",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38722",
+    "retrieved_at": "2026-11-06T17:58:02.346495+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_german",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38725",
+    "retrieved_at": "2026-11-06T17:58:05.867963+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_japanese",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38728",
+    "retrieved_at": "2026-11-06T17:58:12.525054+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "cms_sail_parenthandbook",
+    "url": "https://sailk8.cmsk12.org/families/cms-policies",
+    "retrieved_at": "2026-11-06T18:00:00.360565+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_cosecha",
+    "url": "https://www.gisd.k12.nm.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=65238769",
+    "retrieved_at": "2026-11-06T17:55:07.492915+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_departments",
+    "url": "https://www.gisd.k12.nm.us/49335_1",
+    "retrieved_at": "2026-11-06T17:56:16.920579+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_home",
+    "url": "https://www.gisd.k12.nm.us/",
+    "retrieved_at": "2026-11-06T17:54:26.352458+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_leca",
+    "url": "https://www.gisd.k12.nm.us/63704_3",
+    "retrieved_at": "2026-11-06T17:57:06.742001+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_plan_pdf",
+    "url": "https://files.smartsites.parentsquare.com/6112/2023_gadsden_strategic_plan_goalsdocx.pdf",
+    "retrieved_at": "2026-11-06T17:57:06.743234+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "gadsden_strategic",
+    "url": "https://www.gisd.k12.nm.us/strategic-plan",
+    "retrieved_at": "2026-11-06T17:55:06.320895+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_2018_frame117",
+    "url": "https://archive.org/download/gldisdtx-Garland_ISD_-_One-Way_Dual_Language/gldisdtx-Garland_ISD_-_One-Way_Dual_Language.thumbs/Garland_ISD_-_One-Way_Dual_Language_000117.jpg",
+    "retrieved_at": "2026-11-06T18:10:44.273432+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_2018_frame90",
+    "url": "https://archive.org/download/gldisdtx-Garland_ISD_-_One-Way_Dual_Language/gldisdtx-Garland_ISD_-_One-Way_Dual_Language.thumbs/Garland_ISD_-_One-Way_Dual_Language_000090.jpg",
+    "retrieved_at": "2026-11-06T18:10:42.484809+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_archive_metadata",
+    "url": "https://archive.org/metadata/gldisdtx-Garland_ISD_-_One-Way_Dual_Language",
+    "retrieved_at": "2026-11-06T18:09:51.386760+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_dl",
+    "url": "https://garlandisd.net/programs-services/magnet-programs/dual-language",
+    "retrieved_at": "2026-11-06T17:51:16.246244+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_eb",
+    "url": "https://garlandisd.net/programs-services/emergent-bilingual-eb/elementary-emergent-bilingual-programs",
+    "retrieved_at": "2026-11-06T17:51:17.244058+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_story",
+    "url": "https://garlandisd.net/newsroom/thriving-two-languages-inside-gisds-dual-language-immersion-program",
+    "retrieved_at": "2026-11-06T17:52:58.571704+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "garland_vial",
+    "url": "https://www.garlandisdschools.net/vial/academics/dual-language-magnet-program",
+    "retrieved_at": "2026-11-06T17:52:58.572976+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_bilingual",
+    "url": "https://www.lcps.net/page/bilingual-instruction",
+    "retrieved_at": "2026-11-06T17:51:21.059158+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_central",
+    "url": "https://central.lcps.net/o/ces/page/dual-language-program",
+    "retrieved_at": "2026-11-06T17:51:21.560626+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_donaana",
+    "url": "https://donaana.lcps.net/page/bilingual-dual-language/",
+    "retrieved_at": "2026-11-06T18:02:11.454263+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_donaana_model",
+    "url": "https://cmsv2-assets.apptegy.net/uploads/8012/file/898524/81d3c6f7-416f-4659-9b63-600c518f797b.png",
+    "retrieved_at": "2026-11-06T18:10:10.219235+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_faq",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/2256/LCPS/3006815/FAQ__English__1.pdf",
+    "retrieved_at": "2026-11-06T17:56:16.917750+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_report2025",
+    "url": "https://www.lcps.net/o/chs/article/1971062",
+    "retrieved_at": "2026-11-06T17:54:26.353347+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_roadmap",
+    "url": "https://5il.co/3s6uz",
+    "retrieved_at": "2026-11-06T17:56:16.918798+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_roadmap_b",
+    "url": "https://5il.co/3s6vx",
+    "retrieved_at": "2026-11-06T17:56:18.413057+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_roadmap_c",
+    "url": "https://5il.co/3s6w7",
+    "retrieved_at": "2026-11-06T17:56:19.992258+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_spanish_faq",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/2256/LCPS/3006776/FAQ__Spanish_.pdf",
+    "retrieved_at": "2026-11-06T17:57:06.745878+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "lcps_thinktank",
+    "url": "https://www.lcps.net/page/dual-language-think-tank",
+    "retrieved_at": "2026-11-06T17:51:22.672404+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_buncombe_2024",
+    "url": "https://www.buncombeschools.org/article/1392228",
+    "retrieved_at": "2026-11-06T17:53:00.300611+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_candler",
+    "url": "https://ces.buncombeschools.org/o/ce/page/dual-language",
+    "retrieved_at": "2026-11-06T18:02:11.458188+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_marvin",
+    "url": "https://sites.google.com/ucps.k12.nc.us/splash/about-our-program",
+    "retrieved_at": "2026-11-06T17:52:59.576223+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_north_buncombe",
+    "url": "https://nbes.buncombeschools.org/page/dual-languagespanish-immersion",
+    "retrieved_at": "2026-11-06T17:52:59.914252+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_union_mandarin",
+    "url": "https://www.ucpsnc.org/academics/dli/mandarin-immersion-program",
+    "retrieved_at": "2026-11-06T18:02:11.457453+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nc_wd_williams",
+    "url": "https://les.buncombeschools.org/o/wdw/page/dual-language-program",
+    "retrieved_at": "2026-11-06T18:02:11.458757+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "nm_state2425",
+    "url": "https://web.ped.nm.gov/wp-content/uploads/2026/03/24-25-BMEP-Annual-Report_Masked.pdf",
+    "retrieved_at": "2026-11-06T18:00:00.357448+00:00",
+    "http_status": 202,
+    "error": null
+  },
+  {
+    "key": "search_alief2025roster",
+    "url": "https://search.yahoo.com/search?p=Alief%20two%20way%20dual%20language%20Martin%20Rees%202025",
+    "retrieved_at": "2026-11-06T17:58:11.576583+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_aps_coronado",
+    "url": "https://search.yahoo.com/search?p=Coronado%20Albuquerque%20dual%20language%2050%2050%20all%20students",
+    "retrieved_at": "2026-11-06T17:54:31.855712+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_aps_longfellow",
+    "url": "https://search.yahoo.com/search?p=Longfellow%20Albuquerque%20dual%20language%2050%2050%20all%20students",
+    "retrieved_at": "2026-11-06T17:54:33.250056+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_aps_models5050",
+    "url": "https://search.yahoo.com/search?p=site%3Aaps.edu%20%22dual%20language%22%20%2250/50%22",
+    "retrieved_at": "2026-11-06T17:53:07.231050+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_aps_navajo",
+    "url": "https://search.yahoo.com/search?p=Tres%20Volcanes%20Navajo%20immersion%20Albuquerque%20language%20instruction",
+    "retrieved_at": "2026-11-06T17:58:08.475908+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_austin50",
+    "url": "https://search.yahoo.com/search?p=%22Austin%20ISD%22%20%22dual%20language%22%20%2250/50%22%20kindergarten",
+    "retrieved_at": "2026-11-06T17:53:01.827722+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_austin_2025",
+    "url": "https://search.yahoo.com/search?p=site%3Aaustinisd.org%20%222025-26%22%20%22Dual%20Language%22%20campuses",
+    "retrieved_at": "2026-11-06T17:51:55.332481+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_austin_allocation",
+    "url": "https://search.yahoo.com/search?p=%22Austin%20ISD%22%20%22dual%20language%22%20%2280/20%22%20%222025%22",
+    "retrieved_at": "2026-11-06T17:53:00.531965+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_austin_spanishmodel",
+    "url": "https://search.yahoo.com/search?p=Austin%20ISD%20Spanish%20English%20dual%20language%20kindergarten%2090%2010%20model",
+    "retrieved_at": "2026-11-06T17:58:09.979121+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_buncombe_modelratio",
+    "url": "https://search.yahoo.com/search?p=Buncombe%20Spanish%20immersion%20kindergarten%2090%2010%20allocation",
+    "retrieved_at": "2026-11-06T17:54:30.604982+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_cms_2025closure",
+    "url": "https://search.yahoo.com/search?p=CMS%20language%20immersion%20schools%202025%202026%20full%20magnet",
+    "retrieved_at": "2026-11-06T17:58:12.837512+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_cms_model",
+    "url": "https://search.yahoo.com/search?p=site%3Acmsk12.org%20%22immersion%22%20%22kindergarten%22%20%22English%22%20%22percent%22",
+    "retrieved_at": "2026-11-06T17:51:54.028767+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_cms_north",
+    "url": "https://search.yahoo.com/search?p=North%20Academy%20World%20Languages%20kindergarten%2090%2010%20instruction",
+    "retrieved_at": "2026-11-06T17:54:34.562093+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_cms_sail_ratio",
+    "url": "https://search.yahoo.com/search?p=South%20Academy%20International%20Languages%20kindergarten%2090%2010%20English%20instruction",
+    "retrieved_at": "2026-11-06T17:54:29.140669+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_5050",
+    "url": "https://search.yahoo.com/search?p=Gadsden%20New%20Mexico%20dual%20language%20instructional%20model%20bilingual%20elementary",
+    "retrieved_at": "2026-11-06T17:58:03.839492+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_anthony",
+    "url": "https://search.yahoo.com/search?p=Anthony%20Elementary%20New%20Mexico%20dual%20language%20instruction%20model",
+    "retrieved_at": "2026-11-06T17:54:35.965727+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_language",
+    "url": "https://search.yahoo.com/search?p=Gadsden%20Independent%20School%20District%20language%20acquisition%20department%20dual%20language",
+    "retrieved_at": "2026-11-06T17:54:27.753154+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_nm",
+    "url": "https://search.yahoo.com/search?p=%22Gadsden%20Independent%22%20%22dual%20language%22%20%2250%22",
+    "retrieved_at": "2026-11-06T17:53:09.623117+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_official",
+    "url": "https://search.yahoo.com/search?p=%22Gadsden%20Independent%22%20%22bilingual%22%20%22programs%22",
+    "retrieved_at": "2026-11-06T17:53:04.452165+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_schoolmodel",
+    "url": "https://search.yahoo.com/search?p=Gadsden%20Independent%20dual%20language%20Spanish%20English%20instruction%20bilingual%20model",
+    "retrieved_at": "2026-11-06T17:58:05.399274+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_gadsden_sunrise",
+    "url": "https://search.yahoo.com/search?p=Sunrise%20Elementary%20Gadsden%20dual%20language%20program%2050%2050",
+    "retrieved_at": "2026-11-06T17:54:37.399533+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_garland_2025",
+    "url": "https://search.yahoo.com/search?p=site%3Agarlandisd.net%20%222025%22%20%22dual%20language%22%20%2280%22",
+    "retrieved_at": "2026-11-06T17:51:56.877797+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_garland_ow_history",
+    "url": "https://search.yahoo.com/search?p=Garland%20one-way%20dual%20language%2080/20%202024%202025",
+    "retrieved_at": "2026-11-06T18:01:23.899876+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_lcps_5050",
+    "url": "https://search.yahoo.com/search?p=Las%20Cruces%20dual%20language%20instructional%20model%20English%20Spanish%20percentage",
+    "retrieved_at": "2026-11-06T17:54:26.354050+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_lcps_donaana",
+    "url": "https://search.yahoo.com/search?p=Dona%20Ana%20Elementary%20Las%20Cruces%20dual%20language%20program%20bilingual%2050",
+    "retrieved_at": "2026-11-06T18:01:25.376852+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_lcps_highland",
+    "url": "https://search.yahoo.com/search?p=Highland%20Elementary%20Las%20Cruces%20dual%20language%20program%20model",
+    "retrieved_at": "2026-11-06T18:01:26.790749+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_lcps_models",
+    "url": "https://search.yahoo.com/search?p=site%3Alcps.net%20%22dual%20language%22%20%2250/50%22",
+    "retrieved_at": "2026-11-06T17:53:05.817102+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_lcps_schoolalloc",
+    "url": "https://search.yahoo.com/search?p=Las%20Cruces%20Public%20Schools%20bilingual%2050%2050%20language%20allocation%20elementary",
+    "retrieved_at": "2026-11-06T17:58:06.973256+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_buncombe",
+    "url": "https://search.yahoo.com/search?p=Buncombe%20County%20Schools%20dual%20language%20immersion%2050%2050%2090%2010",
+    "retrieved_at": "2026-11-06T17:50:42.007230+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_buncombe_change",
+    "url": "https://search.yahoo.com/search?p=Buncombe%20dual%20language%20immersion%20program%20changes%202025%202026",
+    "retrieved_at": "2026-11-06T18:01:31.160962+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_cms",
+    "url": "https://search.yahoo.com/search?p=Charlotte%20Mecklenburg%20language%20immersion%20kindergarten%20French%20German%20Chinese%2050%2050",
+    "retrieved_at": "2026-11-06T17:50:43.491076+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_union",
+    "url": "https://search.yahoo.com/search?p=Union%20County%20Public%20Schools%20dual%20language%20immersion%2090%2010%2050%2050%202025",
+    "retrieved_at": "2026-11-06T17:50:40.657126+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_union_changes",
+    "url": "https://search.yahoo.com/search?p=Union%20County%20schools%20Mandarin%20immersion%20Kensington%20Marvin%20change%20discontinued",
+    "retrieved_at": "2026-11-06T18:01:29.675020+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nc_union_model",
+    "url": "https://search.yahoo.com/search?p=site%3Aucpsnc.org%20immersion%20%2290/10%22%20OR%20%2280/20%22%20OR%20%2250/50%22",
+    "retrieved_at": "2026-11-06T17:51:52.701185+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_aps",
+    "url": "https://search.yahoo.com/search?p=Albuquerque%20Public%20Schools%20dual%20language%20schools%2050%2050%2090%2010",
+    "retrieved_at": "2026-11-06T17:50:45.143525+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_aps_changes",
+    "url": "https://search.yahoo.com/search?p=Albuquerque%20dual%20language%20schools%20closed%202025%202026%20Coronado%20Longfellow",
+    "retrieved_at": "2026-11-06T18:01:28.271266+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_bmep2025",
+    "url": "https://search.yahoo.com/search?p=New%20Mexico%20bilingual%20multicultural%20education%20annual%20report%202024%202025",
+    "retrieved_at": "2026-11-06T17:58:02.348475+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_gadsden",
+    "url": "https://search.yahoo.com/search?p=Gadsden%20Independent%20School%20District%20dual%20language%2090%2010%2050%2050",
+    "retrieved_at": "2026-11-06T17:50:47.998338+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_gadsden_site",
+    "url": "https://search.yahoo.com/search?p=Gadsden%20Independent%20School%20District%20New%20Mexico%20dual%20language%2050%2050%20model%20site%3Agisd.k12.nm.us",
+    "retrieved_at": "2026-11-06T17:51:48.139015+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_lcps",
+    "url": "https://search.yahoo.com/search?p=Las%20Cruces%20Public%20Schools%20dual%20language%2090%2010%2050%2050%202025",
+    "retrieved_at": "2026-11-06T17:50:46.656266+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_lcps_2025",
+    "url": "https://search.yahoo.com/search?p=%22Las%20Cruces%22%20%22dual%20language%22%20%222025%22%20schools%20model",
+    "retrieved_at": "2026-11-06T17:51:51.149627+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_nm_lcps_model",
+    "url": "https://search.yahoo.com/search?p=%22Las%20Cruces%22%20%22dual%20language%22%20%2250/50%22%20schools",
+    "retrieved_at": "2026-11-06T17:51:49.651295+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_tx_alief",
+    "url": "https://search.yahoo.com/search?p=Alief%20ISD%20dual%20language%20two%20way%202025%2050%2050%20schools",
+    "retrieved_at": "2026-11-06T17:50:39.109975+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_tx_austin",
+    "url": "https://search.yahoo.com/search?p=Austin%20ISD%20dual%20language%20program%202025%202026%2090%2010%20schools",
+    "retrieved_at": "2026-11-06T17:50:35.910630+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_tx_garland",
+    "url": "https://search.yahoo.com/search?p=Garland%20ISD%20dual%20language%202025%202026%2050%2050%20two%20way",
+    "retrieved_at": "2026-11-06T17:50:37.597618+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_union_2025_roster",
+    "url": "https://search.yahoo.com/search?p=%22Union%20County%22%20%22immersion%22%20%222025%22%20%22Kensington%22",
+    "retrieved_at": "2026-11-06T17:53:03.123219+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_union_marshville",
+    "url": "https://search.yahoo.com/search?p=Marshville%20Elementary%20dual%20language%2050%2050%20instruction",
+    "retrieved_at": "2026-11-06T17:54:38.706896+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "search_union_school_model",
+    "url": "https://search.yahoo.com/search?p=%22Union%20County%22%20%22immersion%22%20%2290/10%22",
+    "retrieved_at": "2026-11-06T17:53:08.399878+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "union_dl",
+    "url": "https://www.ucpsnc.org/academics/dli",
+    "retrieved_at": "2026-11-06T17:51:17.503488+00:00",
+    "http_status": 200,
+    "error": null
+  },
+  {
+    "key": "union_lottery",
+    "url": "https://www.ucpsnc.org/enroll/dual-language-immersion-lottery",
+    "retrieved_at": "2026-11-06T17:51:21.350897+00:00",
+    "http_status": 200,
+    "error": null
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "key": "gadsden_home",
+  "url": "https://www.gisd.k12.nm.us/",
+  "retrieved_at": "2026-11-06T17:54:26.352458+00:00",
+  "http_status": 200,
+  "final_url": "https://www.gisd.k12.nm.us/",
+  "content_type": "text/html; charset=UTF-8",
+  "content_encoding": "gzip",
+  "sha256": "5a19fa63b953c9e4ba233b76eae220430321b429107e2b67f0bc20460051f2e7",
+  "bytes": 65203,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Gadsden ISD - Home",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_home.html.gz"
+}

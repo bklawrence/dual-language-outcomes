@@ -94,18 +94,23 @@ class AllocationReviewTests(unittest.TestCase):
         self.assertFalse(any(r['schedule_id'] in ids for r in self.tables['instructional_allocations']))
         self.assertEqual(audit_errors(ROOT, self.tables), [])
 
-    def test_old_checkpoints_are_frozen_and_current_counts_match_canonical_models(self):
+    def test_old_checkpoints_are_frozen_and_recorded_gains_match_saved_evidence(self):
         for path, expected in self.config['frozen_checkpoint_files'].items():
             self.assertEqual(digest(ROOT / path), expected, path)
         with (ROOT / 'data/reports/elementary_allocation_coverage_2026_11_05_all_records_by_state.csv').open() as stream:
             old = next(r for r in csv.DictReader(stream) if r['state_code'] == 'TX')
-        _, summary = report_rows(self.tables)
+        from dl_outcomes.baseline import load_snapshot
+        _, checkpoint = load_snapshot(ROOT / 'data/baselines/national_structural_v1')
+        _, summary = report_rows(checkpoint)
         new = next(r for r in summary if r['state_code'] == 'TX' and r['audit_scope'] == 'all_recorded_programme_hosts')
         results = json.loads((ROOT / (self.config['report_prefix'] + '_summary.json')).read_text())
         self.assertEqual(new['elementary_schools_with_numerical_model'] - int(old['elementary_schools_with_numerical_model']),
                          results['newly_classified_campuses'])
         self.assertEqual(results['cumulative_model_additions'] + results['remaining_without_model'], 598)
         self.assertGreater(new['elementary_schools_with_only_inferred_models'], 0)
+        _, live = report_rows(self.tables)
+        current = next(r for r in live if r['state_code']=='TX' and r['audit_scope']=='all_recorded_programme_hosts')
+        self.assertGreaterEqual(current['elementary_schools_with_numerical_model'],new['elementary_schools_with_numerical_model'])
 
     def test_all_cases_have_current_outcomes_and_legacy_pending_requests_are_historical(self):
         self.assertEqual(len(self.resolutions), 14)

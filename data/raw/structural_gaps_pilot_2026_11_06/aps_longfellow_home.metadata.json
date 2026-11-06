@@ -1,0 +1,15 @@
+{
+  "key": "aps_longfellow_home",
+  "url": "https://longfellow.aps.edu/",
+  "retrieved_at": "2026-11-06T17:56:16.921012+00:00",
+  "http_status": 200,
+  "final_url": "https://longfellow.aps.edu/",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "20b6ece56b71ab5af9892cbafb6dd78ac6992885f8fa14a6544d1f11d9e94786",
+  "bytes": 91481,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Home - Longfellow Elementary School",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_home.html"
+}

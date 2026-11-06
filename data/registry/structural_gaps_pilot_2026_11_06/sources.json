@@ -1,0 +1,694 @@
+[
+  {
+    "key": "alief_choice",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_choice.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_choice.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_choice.txt",
+    "url": "https://choice.aliefisd.net/two-way-dual-language-program/",
+    "title": "Two-Way Dual Language | Choice Pathways to Tomorrow",
+    "sha256": "4219263a8a4a933a3fd8d0829418d8eee20fd05a120e77c4d21d6d948e9b7ff6",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "alief_multilingual",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_multilingual.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_multilingual.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_multilingual.txt",
+    "url": "https://www.aliefisd.net/o/aisd/page/multilingual-programs-department",
+    "title": "Multilingual Programs Department | Alief ISD",
+    "sha256": "641d0f7e56145c80065f72f1f545922c5035fd402e1d3a65ce3b6bb7adc2a61b",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "alief_one",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_one.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_one.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_one.txt",
+    "url": "https://sneed.aliefisd.net/o/aisd/page/one-way-dual-language-program",
+    "title": "One Way Dual Language Program | Alief ISD",
+    "sha256": "249033a3f8123882e06766595e85a17324a34fc3c10ad9545c3d238b5a0b21f4",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "alief_slides",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_slides.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_slides.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_slides.txt",
+    "url": "https://docs.google.com/presentation/d/18AKMF3cp_uuOotOtLJrZfJmiHqDXs6jN4xssERSRw5g/export/pdf",
+    "title": "alief_slides",
+    "sha256": "650e7142c94518d849c798fb8a7f5598cf625682f555cc3f5f4adb612843f737",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "alief_summary",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_summary.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_summary.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_summary.txt",
+    "url": "https://drive.google.com/uc?export=download&id=1f-OVYgl6iyn5Sc5NllzAGvareePh5VtE",
+    "title": "alief_summary",
+    "sha256": "784aaa0c92bfcf9c5665383dcdd6fb19535902b2f1bc53ca02f1442f9e0d761d",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "alief_two",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/alief_two.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/alief_two.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/alief_two.txt",
+    "url": "https://www.aliefisd.net/page/dual",
+    "title": "Two Way Dual Language Program Information | Alief ISD",
+    "sha256": "c48ef3cf91d8233347467f8266c77fc975a4198cfd8cdc34e744293473041fc6",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_als",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_als.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_als.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_als.txt",
+    "url": "https://www.aps.edu/language-and-cultural-equity/schools-and-alternative-language-service-als-models",
+    "title": "Schools and Alternative Language Service (ALS) Models — Albuquerque Public Schools",
+    "sha256": "3da648a52c18afcc2ff098c0edbf8354cd7c3a96350557e4b384da7ad66521ff",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_coronado",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_coronado.txt",
+    "url": "https://coronado.aps.edu/our-school/dual-language-program",
+    "title": "Dual Language Program - Coronado Dual Language Magnet School",
+    "sha256": "feb4d5cabd8bff212879a57f4567500c27b126020e3f4bf26538d2c3e0c7e677",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_coronado_dir",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado_dir.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado_dir.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_coronado_dir.txt",
+    "url": "https://www.aps.edu/schools/schools/coronado-dual-language-magnet-school",
+    "title": "Coronado Dual Language Magnet — Albuquerque Public Schools",
+    "sha256": "005f4c53e1a3b0ad2d3826a11fbcc11f0a6d4ff36534d47308cbb6bd76c4db2d",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_coronado_handbook",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado_handbook.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_coronado_handbook.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_coronado_handbook.txt",
+    "url": "https://coronado.aps.edu/our-school/handbook",
+    "title": "Handbook - Coronado Dual Language Magnet School",
+    "sha256": "9c0fbc4e2082f171a5a8929eece5277c24e328b2cd909a56de146f1a124099ae",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_dl.txt",
+    "url": "https://www.aps.edu/innovation/school-choice/dual-language",
+    "title": "Dual Language (K-12) — Albuquerque Public Schools",
+    "sha256": "7c4cae01ab650b9525444c9421b34aeea501d4870b5e173186db4b926b031ed7",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_longfellow",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_longfellow.txt",
+    "url": "https://longfellow.aps.edu/our-school",
+    "title": "Our School - Longfellow Elementary School",
+    "sha256": "aa86f2055c3a8045e38110bba3bb1c5fef9b9c1ddb4db29a42dd80254fcea812",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_longfellow_dir",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_dir.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_dir.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_longfellow_dir.txt",
+    "url": "https://www.aps.edu/schools/schools/longfellow-dual-language-magnet-school",
+    "title": "Longfellow Dual Language Magnet — Albuquerque Public Schools",
+    "sha256": "2aa66ce38b6a86a4d22547f13e49f9870b0cefe887380ec3d07ae7be59ee3e93",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_longfellow_handbook",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_handbook.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_handbook.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_longfellow_handbook.txt",
+    "url": "https://longfellow.aps.edu/our-school/handbook",
+    "title": "Handbook - Longfellow Elementary School",
+    "sha256": "9e7e44c6a5a9fdfa9c4a2e873e55be82e2f18abeca08fa556e1cdf1e25b0c3ff",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_longfellow_home",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_home.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_longfellow_home.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_longfellow_home.txt",
+    "url": "https://longfellow.aps.edu/",
+    "title": "Home - Longfellow Elementary School",
+    "sha256": "20b6ece56b71ab5af9892cbafb6dd78ac6992885f8fa14a6544d1f11d9e94786",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_models",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_models.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_models.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_models.txt",
+    "url": "https://www.aps.edu/language-and-cultural-equity/schools-and-alternative-language-service-als-models/schools-with-bilingual-education-models",
+    "title": "Schools with Bilingual Education Models — Albuquerque Public Schools",
+    "sha256": "4b55b2b70c237b75c6fe449adf192b7153eae67569ed82e62794e301fe243a59",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "aps_tvcc",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/aps_tvcc.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/aps_tvcc.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/aps_tvcc.txt",
+    "url": "https://tvcc.aps.edu/programs",
+    "title": "Programs - Tres Volcanes Community Collaborative School",
+    "sha256": "b189c102c1a34bb9d6bfb7752ea05a863e773576e06addc7c01d0720812dbeca",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_cook",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_cook.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_cook.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_cook.txt",
+    "url": "https://cook.austinschools.org/programs/dual-language",
+    "title": "Dual Language | Cook Elementary School",
+    "sha256": "c3b3c53cb36e9bbf71ad9900e68d7feae254e94447a5ed4acff12b3213ec0a7c",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_dl.txt",
+    "url": "https://www.austinisd.org/dual-language",
+    "title": "Dual Language | Austin ISD",
+    "sha256": "f3d063fbb3330285e9c3f6c40a08e59358df12f541092f4cc2b4722bb7a7b5d2",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_doss",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_doss.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_doss.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_doss.txt",
+    "url": "https://doss.austinschools.org/programs/dual-language",
+    "title": "Mandarin Chinese Dual Program | Leona Doss Elementary School",
+    "sha256": "87d99e7dad18d7b07fab4ceb2a19e7735bde448a6fc8e8943b5677444703cd04",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_es",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_es.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_es.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_es.txt",
+    "url": "https://www.austinisd.org/dual-language/es",
+    "title": "Elementary School Dual Language Program | Austin ISD",
+    "sha256": "a32f9f068f67972bed0071570241d51025a4fc7782ed45d4adaca5cf4054fc31",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_finder",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_finder.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_finder.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_finder.txt",
+    "url": "https://www.austinisd.org/dual-language/program-finder",
+    "title": "Dual Language Campuses | Austin ISD",
+    "sha256": "4f1a512d9fe15389f76812e39a8d47aa0e95110afb5c731ba1e33b4cc6492784",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_menchaca",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_menchaca.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_menchaca.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_menchaca.txt",
+    "url": "https://menchaca.austinschools.org/programs/dual-language",
+    "title": "Two-Way Dual Language | Menchaca Elementary School",
+    "sha256": "4664786957013732206654ce9779de8ab1340830ef4bb586eb1ee9d576a02e9b",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "austin_reilly2025",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/austin_reilly2025.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_reilly2025.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/austin_reilly2025.txt",
+    "url": "https://www.austinisd.org/sites/default/files/dept/consolidation/docs/FotF_Consolidation%20Letters_Reilly_ENG.pdf",
+    "title": "austin_reilly2025",
+    "sha256": "a2a83ceb6d8d53e141e1315cf1fbc33ffc8babed8b09c16fe678b66e79c78499",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "buncombe_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/buncombe_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/buncombe_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/buncombe_dl.txt",
+    "url": "https://www.buncombeschools.org/page/dual-language-spanish-immersion-k-5",
+    "title": "Dual Language Spanish Immersion (K-5) | Buncombe County Schools",
+    "sha256": "cc575bdf2400348bc569c64df3f2f1e1c7b995b48f2ed299ba9a3095b9ad7077",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "buncombe_faq",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/buncombe_faq.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/buncombe_faq.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/buncombe_faq.txt",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/3100/BCS/2132428/Dual_Language_Spanish_Immersion_FAQ_for_Parents.pdf",
+    "title": "buncombe_faq",
+    "sha256": "e00228a9fbc3426a2e075c356f9d5b9a6ba46d15340b44659fcd31815402d17c",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_dl.txt",
+    "url": "https://www.cmsk12.org/academics/school-choice/world-languages-and-language-immersion",
+    "title": "World Languages and Language Immersion",
+    "sha256": "7db8bfa24dc9a18ecf4bda485ae9e08a539781f63f9eaa31dd9e1e96a7f75533",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_north",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_north.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_north.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_north.txt",
+    "url": "https://northacademyk8.cmsk12.org/",
+    "title": "Home - North Academy of World Languages",
+    "sha256": "bee595f651c55cd6b9f2649e8833b50a1a297a79364948a0cbfd67edc3c0c84a",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_north_about",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_north_about.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_north_about.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_north_about.txt",
+    "url": "https://northacademyk8.cmsk12.org/our-school/about-us",
+    "title": "About Us",
+    "sha256": "71f95a5d542709d0ff5928d1904d37897cbb06143581e25b4a683b57b30d1c71",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_oaklawn",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_oaklawn.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_oaklawn.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_oaklawn.txt",
+    "url": "https://oaklawnk8.cmsk12.org/our-school/about-us/welcome",
+    "title": "Welcome",
+    "sha256": "09d56d7c2feeb9ce7900f555c4a6bd3cfd204ce9268ad145735974297963d160",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail.txt",
+    "url": "https://sailk8.cmsk12.org/our-school/about-us/about-our-school",
+    "title": "About Our School",
+    "sha256": "0b2edbfafdb9dfc7cd475301ec6cbe057557a91b5f7aea6196a767aaed846041",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_chinese",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_chinese.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_chinese.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_chinese.txt",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38719",
+    "title": "Why Chinese?",
+    "sha256": "73d7ff4827d02cf67338652e99e76629f85ece46bc82e8e8537d4ae951b9a639",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_elementary",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_elementary.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_elementary.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_elementary.txt",
+    "url": "https://sailk8.cmsk12.org/activities/academics-programs/elementary",
+    "title": "Elementary",
+    "sha256": "7c0f6accca8f7effcbe880cda08a3acb7749797dddce1efe32706ff55577ce27",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_faq",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_faq.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_faq.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_faq.txt",
+    "url": "https://www.sailptso.org/faq",
+    "title": "SAIL PTSO - FAQs",
+    "sha256": "70901ebc220b4bd412f8af68bc43ad200a7fd8cde8e16ed326d1d1114abb0301",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_french",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_french.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_french.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_french.txt",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38722",
+    "title": "Why French?",
+    "sha256": "3b5ec0847c0ead345d5a6ca6c3d0ac3cbfe7d63b036732771402ebdd7c6dc7e0",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_german",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_german.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_german.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_german.txt",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38725",
+    "title": "Why German?",
+    "sha256": "f6537a783f1d033194c6f93a2cea726045486bdf53951fa50eb30e7914041ddf",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_japanese",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_japanese.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_japanese.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_japanese.txt",
+    "url": "https://sailk8.cmsk12.org/fs/pages/38728",
+    "title": "Why Japanese?",
+    "sha256": "7823ee57a64e7a9e63a8685b71d59b6d786d109af3f048e723a131999ac6ae8a",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "cms_sail_parenthandbook",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_parenthandbook.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail_parenthandbook.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/cms_sail_parenthandbook.txt",
+    "url": "https://sailk8.cmsk12.org/families/cms-policies",
+    "title": "CMS Policies",
+    "sha256": "1c8a8c3d91732e995665581df1f0488badae81abf332cd4d99888f0ea28d7890",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_cosecha",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_cosecha.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_cosecha.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_cosecha.txt",
+    "url": "https://www.gisd.k12.nm.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=65238769",
+    "title": "Gadsden ISD -",
+    "sha256": "668cb45e23a3a68ed87201b895e66fd786b2db7cac8a04dafd550110d90b05ce",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_departments",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_departments.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_departments.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_departments.txt",
+    "url": "https://www.gisd.k12.nm.us/49335_1",
+    "title": "Gadsden ISD - Departments & Services",
+    "sha256": "7d9b2405d080892014d5e35549c46667072e65339f209899d3deb816ec6aea28",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_home",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_home.html.gz",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_home.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_home.txt",
+    "url": "https://www.gisd.k12.nm.us/",
+    "title": "Gadsden ISD - Home",
+    "sha256": "5a19fa63b953c9e4ba233b76eae220430321b429107e2b67f0bc20460051f2e7",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_leca",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_leca.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_leca.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_leca.txt",
+    "url": "https://www.gisd.k12.nm.us/63704_3",
+    "title": "Gadsden ISD - Language, Equity, and Cultural Arts",
+    "sha256": "4ee6382ced75bdca64a8275a2eb4c78e83c5ffe23ccd016b3335d85194408cab",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_plan_pdf",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_plan_pdf.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_plan_pdf.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_plan_pdf.txt",
+    "url": "https://files.smartsites.parentsquare.com/6112/2023_gadsden_strategic_plan_goalsdocx.pdf",
+    "title": "gadsden_plan_pdf",
+    "sha256": "50372032e2f8c29389d65815a881532502e41824b7ae6b2831b9ea1331ac4eeb",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "gadsden_strategic",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_strategic.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/gadsden_strategic.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/gadsden_strategic.txt",
+    "url": "https://www.gisd.k12.nm.us/strategic-plan",
+    "title": "Strategic Plan 2023–2028 | Gadsden Independent School District",
+    "sha256": "d31187ec6ec1c44e5ac81b61505bf405ba81899d6c1058edc934bad269129a05",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "garland_archive_metadata",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/garland_archive_metadata.json",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/garland_archive_metadata.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/garland_archive_metadata.txt",
+    "url": "https://archive.org/metadata/gldisdtx-Garland_ISD_-_One-Way_Dual_Language",
+    "title": "garland_archive_metadata",
+    "sha256": "224fe7e6e93374abe0029f58d1c147cf37dd7212c3539170e21a5c0e2ea1e0d5",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "garland_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/garland_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/garland_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/garland_dl.txt",
+    "url": "https://garlandisd.net/programs-services/magnet-programs/dual-language",
+    "title": "Dual Language | Garland Independent School District",
+    "sha256": "eeff3c8152221cb897c50fa697d1d85a1e71c7cd11ce05a8f17f9e390585f1f2",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "garland_eb",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/garland_eb.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/garland_eb.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/garland_eb.txt",
+    "url": "https://garlandisd.net/programs-services/emergent-bilingual-eb/elementary-emergent-bilingual-programs",
+    "title": "Elementary Emergent Bilingual Programs | Garland Independent School District",
+    "sha256": "8fe3faaa1315820b39242a9eb7f63ae5d7679ca98c7dc08ba9e95e5b9a268912",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "garland_story",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/garland_story.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/garland_story.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/garland_story.txt",
+    "url": "https://garlandisd.net/newsroom/thriving-two-languages-inside-gisds-dual-language-immersion-program",
+    "title": "Thriving in Two Languages: Inside GISD's Dual Language Immersion Program | Garland Independent School District",
+    "sha256": "9c581d74e3c265be5a873d7dddbb35583c06bcd7454db0df023ac4c601ade81b",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "garland_vial",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/garland_vial.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/garland_vial.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/garland_vial.txt",
+    "url": "https://www.garlandisdschools.net/vial/academics/dual-language-magnet-program",
+    "title": "Dual Language magnet program - Classical Center at Vial Elementary: Garland ISD",
+    "sha256": "c4dd04610f897e56b1b730d754fe71279e5112d1fa9d55aeb89ee725fc8bc107",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_bilingual",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_bilingual.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_bilingual.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_bilingual.txt",
+    "url": "https://www.lcps.net/page/bilingual-instruction",
+    "title": "Bilingual Instruction | Las Cruces Public Schools",
+    "sha256": "646a46a555645d7bb545f510641ee821cca414aa9dbea56130fde1e6c5a07d82",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_central",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_central.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_central.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_central.txt",
+    "url": "https://central.lcps.net/o/ces/page/dual-language-program",
+    "title": "Dual Language Program | Central Elementary School",
+    "sha256": "64e70b7eebf0f8a0432e2df7e2021374a9246a712fa71fda8259ff556db43911",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_donaana",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_donaana.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_donaana.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_donaana.txt",
+    "url": "https://donaana.lcps.net/page/bilingual-dual-language/",
+    "title": "Bilingual/Dual Language | Doña Ana Elementary School",
+    "sha256": "8ef689b3ca5badc24d3f44c584a6004632a39726fb25627bcf8fab7a22ff4614",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_donaana_model",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_donaana_model.png",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_donaana_model.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_donaana_model.txt",
+    "url": "https://cmsv2-assets.apptegy.net/uploads/8012/file/898524/81d3c6f7-416f-4659-9b63-600c518f797b.png",
+    "title": "lcps_donaana_model",
+    "sha256": "c6cf75964cca1676fb865f0d8568d9194b2c5e65e3fc82a1e5fb0c2a28940415",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_faq",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_faq.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_faq.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_faq.txt",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/2256/LCPS/3006815/FAQ__English__1.pdf",
+    "title": "lcps_faq",
+    "sha256": "48ab65e36b46c13c621a9cb56cff180bc071ab703304226a164f41a4540e65c8",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_report2025",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_report2025.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_report2025.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_report2025.txt",
+    "url": "https://www.lcps.net/o/chs/article/1971062",
+    "title": "Las Cruces Public Schools Awarded LCPS Dual Language Grant to Promote Bilingualism and Academic Success | Centennial High School",
+    "sha256": "d0c1ad865ae57cec1522e57fe5672239e7e5767143abe8b82ac3c18ba5dfc012",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_roadmap",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_roadmap.txt",
+    "url": "https://5il.co/3s6uz",
+    "title": "lcps_roadmap",
+    "sha256": "8429555064833e4bcaef3ac7a5400eff4a6f376495b1e40295c6667501141335",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_roadmap_b",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap_b.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap_b.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_roadmap_b.txt",
+    "url": "https://5il.co/3s6vx",
+    "title": "lcps_roadmap_b",
+    "sha256": "d10201c2636394ad8af79219997a1aed7c637359cd56b093fab8801131f9e286",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_roadmap_c",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap_c.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_roadmap_c.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_roadmap_c.txt",
+    "url": "https://5il.co/3s6w7",
+    "title": "lcps_roadmap_c",
+    "sha256": "7cf5df6e4ad0c5be10f7828933f103db531966da7b8fce89d73a6cfff574e0cb",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_spanish_faq",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_spanish_faq.pdf",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_spanish_faq.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_spanish_faq.txt",
+    "url": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/2256/LCPS/3006776/FAQ__Spanish_.pdf",
+    "title": "lcps_spanish_faq",
+    "sha256": "d325169423b6db0421ff8361292cbb6818e974aaa171e606037c8408d31b975e",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "lcps_thinktank",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_thinktank.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/lcps_thinktank.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/lcps_thinktank.txt",
+    "url": "https://www.lcps.net/page/dual-language-think-tank",
+    "title": "Dual Language Think Tank | Las Cruces Public Schools",
+    "sha256": "7e505a4ff63294f565dfffb4a5d169f9877f5602fc6dc18d32ba4ec33cee63bd",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_buncombe_2024",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_buncombe_2024.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_buncombe_2024.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_buncombe_2024.txt",
+    "url": "https://www.buncombeschools.org/article/1392228",
+    "title": "Now Accepting Applications for Dual Language/Spanish Immersion | Buncombe County Schools",
+    "sha256": "d86e0337860fd8efaf82510a869d7778627da525a3bdb5daf09d052db38ba8c5",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_candler",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_candler.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_candler.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_candler.txt",
+    "url": "https://ces.buncombeschools.org/o/ce/page/dual-language",
+    "title": "Dual Language | Candler Elementary",
+    "sha256": "3dbb60605e1660dd08400155c265e7b185571000e335593418ea9d59b83d25e4",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_marvin",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_marvin.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_marvin.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_marvin.txt",
+    "url": "https://sites.google.com/ucps.k12.nc.us/splash/about-our-program",
+    "title": "Mandarin Immersion - About Our Program",
+    "sha256": "b2de487143860cf86c5ecbc6884edab3fcb1f96eb342615f6d5c098db3834aa9",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_north_buncombe",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_north_buncombe.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_north_buncombe.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_north_buncombe.txt",
+    "url": "https://nbes.buncombeschools.org/page/dual-languagespanish-immersion",
+    "title": "Dual Language/Spanish Immersion | North Buncombe Elementary",
+    "sha256": "b56ad5a716477ab8c1d0da3740723164be4eaa2e2fc85713a4d24a1c199ccdac",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_union_mandarin",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_union_mandarin.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_union_mandarin.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_union_mandarin.txt",
+    "url": "https://www.ucpsnc.org/academics/dli/mandarin-immersion-program",
+    "title": "Mandarin Immersion Program",
+    "sha256": "ade3019a4969442112f493331253eae763dad150b1e9a85dc0cd03732323c654",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "nc_wd_williams",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/nc_wd_williams.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/nc_wd_williams.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/nc_wd_williams.txt",
+    "url": "https://les.buncombeschools.org/o/wdw/page/dual-language-program",
+    "title": "Dual Language | W. D. Williams Elementary",
+    "sha256": "48c1bdbb76dedf97ffac31804310a53608a7db727136843acacd9b263df9890c",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "union_dl",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/union_dl.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/union_dl.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/union_dl.txt",
+    "url": "https://www.ucpsnc.org/academics/dli",
+    "title": "Dual Language Immersion",
+    "sha256": "3906ec2f5a0baa571de9c8e593d878fe9284c0834df96d8add44e3b5e03b9337",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "union_lottery",
+    "path": "data/raw/structural_gaps_pilot_2026_11_06/union_lottery.html",
+    "metadata_path": "data/raw/structural_gaps_pilot_2026_11_06/union_lottery.metadata.json",
+    "extraction_path": "data/registry/structural_gaps_pilot_2026_11_06/extractions/union_lottery.txt",
+    "url": "https://www.ucpsnc.org/enroll/dual-language-immersion-lottery",
+    "title": "Dual Language Immersion Lottery",
+    "sha256": "a872f16a73c71819590e6fbafa6f49d4a611d3a5655fa95192f78c1b496aa491",
+    "reuse_existing_archive": false
+  },
+  {
+    "key": "prior_nm_state",
+    "path": "data/raw/western_plains_2026_11_04/wp_nm_eric_pdf.pdf",
+    "metadata_path": "data/raw/western_plains_2026_11_04/wp_nm_eric_pdf.pdf.metadata.json",
+    "title": "wp_nm_eric_pdf",
+    "url": "https://files.eric.ed.gov/fulltext/ED680535.pdf",
+    "retrieved_at": "2026-11-04T20:30:27.214914+00:00",
+    "sha256": "afb3d0c4eecd6764bc1d8de7f245dd71048ec8cafcab20a8dc60ed987307491e",
+    "archive_kind": "full_public_response",
+    "extraction_path": "data/registry/western_plains_2026_11_04/extractions/nm_report_appendix_F_text.txt",
+    "reuse_existing_archive": true
+  }
+]
