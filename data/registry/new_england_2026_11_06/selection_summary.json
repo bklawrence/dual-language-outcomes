@@ -1,0 +1,33 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-06",
+  "states": [
+    "ME",
+    "MA",
+    "NH",
+    "RI",
+    "VT"
+  ],
+  "programme_records": {
+    "ME": 2,
+    "MA": 79,
+    "NH": 2,
+    "RI": 16,
+    "VT": 2
+  },
+  "programme_host_schools": {
+    "ME": 2,
+    "MA": 76,
+    "NH": 2,
+    "RI": 15,
+    "VT": 2
+  },
+  "screening_rows": {
+    "ME": 4,
+    "MA": 2,
+    "NH": 0,
+    "RI": 2,
+    "VT": 2
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

@@ -1,0 +1,1283 @@
+[
+  {
+    "name": "massachusetts_dese_dle_docx",
+    "source_key": "ne5_ma_list",
+    "expected_rows": 75,
+    "rows": [
+      {
+        "source_row": 1,
+        "source_paragraph": 5,
+        "raw": {
+          "source_row": 1,
+          "source_paragraph": 5,
+          "district_raw": "Amherst",
+          "text_raw": "Fort River School Caminantes Program Established 2019, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-5d99a1bba5f6"
+        ],
+        "school_ids": [
+          "NE5-MA-S-73a1a429017a"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 2,
+        "source_paragraph": 8,
+        "raw": {
+          "source_row": 2,
+          "source_paragraph": 8,
+          "district_raw": "Boston",
+          "text_raw": "Blackstone Elementary School Established 2025, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-7a5629688ab3"
+        ],
+        "school_ids": [
+          "NE5-MA-S-9e74d8b6ee1e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 3,
+        "source_paragraph": 9,
+        "raw": {
+          "source_row": 3,
+          "source_paragraph": 9,
+          "district_raw": "Boston",
+          "text_raw": "Sarah Roberts Elementary School Established 2025, Spanish TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-fbc6208dd6be"
+        ],
+        "school_ids": [
+          "NE5-MA-S-2e21d8cf8162"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 4,
+        "source_paragraph": 10,
+        "raw": {
+          "source_row": 4,
+          "source_paragraph": 10,
+          "district_raw": "Boston",
+          "text_raw": "Joseph Hurley School, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-dde8c8905539"
+        ],
+        "school_ids": [
+          "NE5-MA-S-8fc9f71317db"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 5,
+        "source_paragraph": 11,
+        "raw": {
+          "source_row": 5,
+          "source_paragraph": 11,
+          "district_raw": "Boston",
+          "text_raw": "Margarita Muñiz Academy Established 2012, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-1c52ba50b6cf"
+        ],
+        "school_ids": [
+          "NE5-MA-S-fb6833be521a"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 6,
+        "source_paragraph": 12,
+        "raw": {
+          "source_row": 6,
+          "source_paragraph": 12,
+          "district_raw": "Boston",
+          "text_raw": "Mario Umana Academy Established 2014, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-fc21cec96029"
+        ],
+        "school_ids": [
+          "NE5-MA-S-5c40968c4dbb"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 7,
+        "source_paragraph": 13,
+        "raw": {
+          "source_row": 7,
+          "source_paragraph": 13,
+          "district_raw": "Boston",
+          "text_raw": "Horace Mann School for the Deaf and Hard of Hearing Established 2019, American Sign Language, OWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-b97c7bb5c6b7"
+        ],
+        "school_ids": [
+          "NE5-MA-S-9dcc3a155191"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 8,
+        "source_paragraph": 14,
+        "raw": {
+          "source_row": 8,
+          "source_paragraph": 14,
+          "district_raw": "Boston",
+          "text_raw": "Mather Elementary School Established 2021, Vietnamese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-ca5ddba14681"
+        ],
+        "school_ids": [
+          "NE5-MA-S-81c17cbed9af"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 9,
+        "source_paragraph": 15,
+        "raw": {
+          "source_row": 9,
+          "source_paragraph": 15,
+          "district_raw": "Boston",
+          "text_raw": "Mattahunt Early Elementary School Toussaint L’Ouverture Academy Established 2017, Haitian Creole, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-c611cf7c4722"
+        ],
+        "school_ids": [
+          "NE5-MA-S-dca4264913e5"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 10,
+        "source_paragraph": 16,
+        "raw": {
+          "source_row": 10,
+          "source_paragraph": 16,
+          "district_raw": "Boston",
+          "text_raw": "Rafael Hernández Dual Language School Established 1972, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-a44f2d2a843f"
+        ],
+        "school_ids": [
+          "NE5-MA-S-b0878b94e3fe"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 11,
+        "source_paragraph": 17,
+        "raw": {
+          "source_row": 11,
+          "source_paragraph": 17,
+          "district_raw": "Boston",
+          "text_raw": "Sarah Greenwood School, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-301d50b2affb"
+        ],
+        "school_ids": [
+          "NE5-MA-S-09e91f5b02b2"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 12,
+        "source_paragraph": 18,
+        "raw": {
+          "source_row": 12,
+          "source_paragraph": 18,
+          "district_raw": "Boston",
+          "text_raw": "Lilla G. Frederick School, Expected 2026, Cape Verdean Kriolu, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-d2a72c0bbd4f"
+        ],
+        "school_ids": [
+          "NE5-MA-S-04d00c8bab77"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 13,
+        "source_paragraph": 21,
+        "raw": {
+          "source_row": 13,
+          "source_paragraph": 21,
+          "district_raw": "Brockton",
+          "text_raw": "Manthala George School Juntos (Spanish) Established 2003; Unidos (Portuguese) Established 2015, Amitie (French) Established 2018, all TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-a5f01024d7fe",
+          "NE5-MA-P-a6dc960a9025",
+          "NE5-MA-P-ac2accb17b51"
+        ],
+        "school_ids": [
+          "NE5-MA-S-c6fbf410d64f"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 14,
+        "source_paragraph": 22,
+        "raw": {
+          "source_row": 14,
+          "source_paragraph": 22,
+          "district_raw": "Brockton",
+          "text_raw": "East Middle School, Established 2021, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-9543389fc236"
+        ],
+        "school_ids": [
+          "NE5-MA-S-08fe526166b1"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 15,
+        "source_paragraph": 23,
+        "raw": {
+          "source_row": 15,
+          "source_paragraph": 23,
+          "district_raw": "Brockton",
+          "text_raw": "Ashfield Middle School, Established 2023, French, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-6f4294a2d6f4"
+        ],
+        "school_ids": [
+          "NE5-MA-S-8158c7a34333"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 16,
+        "source_paragraph": 26,
+        "raw": {
+          "source_row": 16,
+          "source_paragraph": 26,
+          "district_raw": "Cambridge",
+          "text_raw": "Amigos School Established 1986, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-1672dbfd5ea3"
+        ],
+        "school_ids": [
+          "NE5-MA-S-dbcbb0030529"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 17,
+        "source_paragraph": 27,
+        "raw": {
+          "source_row": 17,
+          "source_paragraph": 27,
+          "district_raw": "Cambridge",
+          "text_raw": "Dr. Martin Luther King Jr School NiHao FLAP-King Immersion Program Established 2011, Mandarin, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-c34626e59f56"
+        ],
+        "school_ids": [
+          "NE5-MA-S-1ddf7676d81c"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 18,
+        "source_paragraph": 28,
+        "raw": {
+          "source_row": 18,
+          "source_paragraph": 28,
+          "district_raw": "Cambridge",
+          "text_raw": "King Open School Olá Program, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-d0c03104d86d"
+        ],
+        "school_ids": [
+          "NE5-MA-S-16c4fdaad890"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 19,
+        "source_paragraph": 29,
+        "raw": {
+          "source_row": 19,
+          "source_paragraph": 29,
+          "district_raw": "Cambridge",
+          "text_raw": "Putnam Ave Upper School, Mandarin, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-ee053ca847d1"
+        ],
+        "school_ids": [
+          "NE5-MA-S-1706e393cc04"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 20,
+        "source_paragraph": 30,
+        "raw": {
+          "source_row": 20,
+          "source_paragraph": 30,
+          "district_raw": "Cambridge",
+          "text_raw": "Cambridge Street Upper School, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-48b2527e6f68"
+        ],
+        "school_ids": [
+          "NE5-MA-S-107f2dd20112"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 21,
+        "source_paragraph": 33,
+        "raw": {
+          "source_row": 21,
+          "source_paragraph": 33,
+          "district_raw": "Chelsea",
+          "text_raw": "Joseph A. Brown School Caminos Program, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-632eb24a972c"
+        ],
+        "school_ids": [
+          "NE5-MA-S-4dca2890d79e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 22,
+        "source_paragraph": 34,
+        "raw": {
+          "source_row": 22,
+          "source_paragraph": 34,
+          "district_raw": "Chelsea",
+          "text_raw": "George F. Kelly Elementary Caminos Program, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-731cd4008feb"
+        ],
+        "school_ids": [
+          "NE5-MA-S-675a401f4604"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 23,
+        "source_paragraph": 37,
+        "raw": {
+          "source_row": 23,
+          "source_paragraph": 37,
+          "district_raw": "Everett",
+          "text_raw": "George Keverian School, Expected 2026, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-b1d24915a301"
+        ],
+        "school_ids": [
+          "NE5-MA-S-2e76cdf6a678"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 24,
+        "source_paragraph": 38,
+        "raw": {
+          "source_row": 24,
+          "source_paragraph": 38,
+          "district_raw": "Everett",
+          "text_raw": "Albert N. Parling School, Expected 2026, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-636698f5e001"
+        ],
+        "school_ids": [
+          "NE5-MA-S-cd673d478e4e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 25,
+        "source_paragraph": 42,
+        "raw": {
+          "source_row": 25,
+          "source_paragraph": 42,
+          "district_raw": "Fall River",
+          "text_raw": "Viveiros Elementary School Established 2021, Spanish, TWI (expected to transition to William S Greene Elementary School in 2026)"
+        },
+        "program_ids": [
+          "NE5-MA-P-d31b6286daa7"
+        ],
+        "school_ids": [
+          "NE5-MA-S-6ceba12616de"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 26,
+        "source_paragraph": 45,
+        "raw": {
+          "source_row": 26,
+          "source_paragraph": 45,
+          "district_raw": "Framingham",
+          "text_raw": "Barbieri Elementary Established 1990, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-e74293deb508"
+        ],
+        "school_ids": [
+          "NE5-MA-S-af6cd7d56571"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 27,
+        "source_paragraph": 46,
+        "raw": {
+          "source_row": 27,
+          "source_paragraph": 46,
+          "district_raw": "Framingham",
+          "text_raw": "Brophy Elementary, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-ce81d018d0d6"
+        ],
+        "school_ids": [
+          "NE5-MA-S-00ebb4053925"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 28,
+        "source_paragraph": 47,
+        "raw": {
+          "source_row": 28,
+          "source_paragraph": 47,
+          "district_raw": "Framingham",
+          "text_raw": "Harmony Grove Elementary (previously Woodrow Wilson) Established 2019, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-10ccb4514fe6"
+        ],
+        "school_ids": [
+          "NE5-MA-S-163821dfe5f1"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 29,
+        "source_paragraph": 48,
+        "raw": {
+          "source_row": 29,
+          "source_paragraph": 48,
+          "district_raw": "Framingham",
+          "text_raw": "Potter Road Elementary Established 2019, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-f01e851a7523"
+        ],
+        "school_ids": [
+          "NE5-MA-S-63b508dc3ebd"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 30,
+        "source_paragraph": 49,
+        "raw": {
+          "source_row": 30,
+          "source_paragraph": 49,
+          "district_raw": "Framingham",
+          "text_raw": "Cameron Middle School, Expected 2026, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-b5bedc5077a3"
+        ],
+        "school_ids": [
+          "NE5-MA-S-4be0d2b9f0d4"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 31,
+        "source_paragraph": 50,
+        "raw": {
+          "source_row": 31,
+          "source_paragraph": 50,
+          "district_raw": "Framingham",
+          "text_raw": "Fuller Middle School, Expected 2026, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-45509097a495"
+        ],
+        "school_ids": [
+          "NE5-MA-S-70a006c6c997"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 32,
+        "source_paragraph": 51,
+        "raw": {
+          "source_row": 32,
+          "source_paragraph": 51,
+          "district_raw": "Framingham",
+          "text_raw": "Walsh Middle School Abriendo Puertas Established 1992, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-7955f8e36905"
+        ],
+        "school_ids": [
+          "NE5-MA-S-3db43cc40665"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 33,
+        "source_paragraph": 52,
+        "raw": {
+          "source_row": 33,
+          "source_paragraph": 52,
+          "district_raw": "Framingham",
+          "text_raw": "Framingham High School Abriendo Puertas Established 1999, Spanish / Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-f40c601637f0",
+          "NE5-MA-P-cf9b8c7be0b5"
+        ],
+        "school_ids": [
+          "NE5-MA-S-764895667f3c"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 34,
+        "source_paragraph": 55,
+        "raw": {
+          "source_row": 34,
+          "source_paragraph": 55,
+          "district_raw": "Hadley",
+          "text_raw": "Pioneer Valley Chinese Immersion Charter School Established 2007, Mandarin, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-dadc23bfc2ce"
+        ],
+        "school_ids": [
+          "NE5-MA-S-51f003d7556d"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 35,
+        "source_paragraph": 58,
+        "raw": {
+          "source_row": 35,
+          "source_paragraph": 58,
+          "district_raw": "Holliston",
+          "text_raw": "Miller Elementary, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-916663a7dc8a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-ccba26f51ef7"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 36,
+        "source_paragraph": 59,
+        "raw": {
+          "source_row": 36,
+          "source_paragraph": 59,
+          "district_raw": "Holliston",
+          "text_raw": "Placentino Elementary, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-30ba8e408d7a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-a7389abdb48e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 37,
+        "source_paragraph": 60,
+        "raw": {
+          "source_row": 37,
+          "source_paragraph": 60,
+          "district_raw": "Holliston",
+          "text_raw": "Robert Adams Middle School, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-14d2dd65946a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-9903cd03e9c8"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 38,
+        "source_paragraph": 63,
+        "raw": {
+          "source_row": 38,
+          "source_paragraph": 63,
+          "district_raw": "Holyoke",
+          "text_raw": "Kelly School Established 2020, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-01b7fed3bd47"
+        ],
+        "school_ids": [
+          "NE5-MA-S-3e794c48492c"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 39,
+        "source_paragraph": 64,
+        "raw": {
+          "source_row": 39,
+          "source_paragraph": 64,
+          "district_raw": "Holyoke",
+          "text_raw": "E.N. White Elementary School Established 2016, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-95cea458f9ca"
+        ],
+        "school_ids": [
+          "NE5-MA-S-c7cf93db6bc0"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 40,
+        "source_paragraph": 65,
+        "raw": {
+          "source_row": 40,
+          "source_paragraph": 65,
+          "district_raw": "Holyoke",
+          "text_raw": "Sullivan Middle School Established 2014, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-53aa4461f923"
+        ],
+        "school_ids": [
+          "NE5-MA-S-ecde7728864a"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 41,
+        "source_paragraph": 66,
+        "raw": {
+          "source_row": 41,
+          "source_paragraph": 66,
+          "district_raw": "Holyoke",
+          "text_raw": "Holyoke High School Established 2023, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-7490dbea1e6d"
+        ],
+        "school_ids": [
+          "NE5-MA-S-d4c7f24f8f85"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 42,
+        "source_paragraph": 69,
+        "raw": {
+          "source_row": 42,
+          "source_paragraph": 69,
+          "district_raw": "Hudson",
+          "text_raw": "Farley Elementary Established 2021, Portuguese, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-ed38da630d61"
+        ],
+        "school_ids": [
+          "NE5-MA-S-038a1b40de19"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 43,
+        "source_paragraph": 70,
+        "raw": {
+          "source_row": 43,
+          "source_paragraph": 70,
+          "district_raw": "Hudson",
+          "text_raw": "Quinn Middle School Expected 2026, Portuguese, TWI "
+        },
+        "program_ids": [
+          "NE5-MA-P-b0a3b8c9e46a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-a3d363c46e96"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 44,
+        "source_paragraph": 73,
+        "raw": {
+          "source_row": 44,
+          "source_paragraph": 73,
+          "district_raw": "Lawrence",
+          "text_raw": "Arlington Elementary Sendas Established 2024, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-280eefba0d91"
+        ],
+        "school_ids": [
+          "NE5-MA-S-2b19d36171d1"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 45,
+        "source_paragraph": 76,
+        "raw": {
+          "source_row": 45,
+          "source_paragraph": 76,
+          "district_raw": "Lynn",
+          "text_raw": "Harrington School Compañeros Program Established 2020, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-c276d808a106"
+        ],
+        "school_ids": [
+          "NE5-MA-S-2f3b1c872df5"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 46,
+        "source_paragraph": 77,
+        "raw": {
+          "source_row": 46,
+          "source_paragraph": 77,
+          "district_raw": "Lynn",
+          "text_raw": "Connery Elementary Established 2022, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-451cda25e822"
+        ],
+        "school_ids": [
+          "NE5-MA-S-9533a0e1308e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 47,
+        "source_paragraph": 78,
+        "raw": {
+          "source_row": 47,
+          "source_paragraph": 78,
+          "district_raw": "Lynn",
+          "text_raw": "Thurgood Marshall Middle School Expected 2026, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-40c37fbe9380"
+        ],
+        "school_ids": [
+          "NE5-MA-S-5b0bc6b0dc5e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 48,
+        "source_paragraph": 81,
+        "raw": {
+          "source_row": 48,
+          "source_paragraph": 81,
+          "district_raw": "Maynard",
+          "text_raw": "Green Meadow School, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-aab902765e43"
+        ],
+        "school_ids": [
+          "NE5-MA-S-c0af5f2247f4"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 49,
+        "source_paragraph": 82,
+        "raw": {
+          "source_row": 49,
+          "source_paragraph": 82,
+          "district_raw": "Maynard",
+          "text_raw": "Fowler Middle School, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-243ac83280da"
+        ],
+        "school_ids": [
+          "NE5-MA-S-1c86e29b2997"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 50,
+        "source_paragraph": 85,
+        "raw": {
+          "source_row": 50,
+          "source_paragraph": 85,
+          "district_raw": "Mendon-Upton",
+          "text_raw": "Clough Elementary Established 1997, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-f2094b9e447f"
+        ],
+        "school_ids": [
+          "NE5-MA-S-7cd1f985bd9b"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 51,
+        "source_paragraph": 86,
+        "raw": {
+          "source_row": 51,
+          "source_paragraph": 86,
+          "district_raw": "Mendon-Upton",
+          "text_raw": "Memorial Elementary Established 1997, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-b64d0ef354f9"
+        ],
+        "school_ids": [
+          "NE5-MA-S-662829676560"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 52,
+        "source_paragraph": 89,
+        "raw": {
+          "source_row": 52,
+          "source_paragraph": 89,
+          "district_raw": "Milford ",
+          "text_raw": "Memorial Elementary School, Established 2025, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-8be4996b563d"
+        ],
+        "school_ids": [
+          "NE5-MA-S-ae391328c126"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 53,
+        "source_paragraph": 92,
+        "raw": {
+          "source_row": 53,
+          "source_paragraph": 92,
+          "district_raw": "Millis",
+          "text_raw": "Clyde Brown Elementary, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-0f28ce47cfd9"
+        ],
+        "school_ids": [
+          "NE5-MA-S-51ae98619bba"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 54,
+        "source_paragraph": 93,
+        "raw": {
+          "source_row": 54,
+          "source_paragraph": 93,
+          "district_raw": "Millis",
+          "text_raw": "Millis High School, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-8fa7b3908e97"
+        ],
+        "school_ids": [
+          "NE5-MA-S-f2447f2b9119"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 55,
+        "source_paragraph": 94,
+        "raw": {
+          "source_row": 55,
+          "source_paragraph": 94,
+          "district_raw": "Millis",
+          "text_raw": "Pierce Middle School, Spanish, WLI"
+        },
+        "program_ids": [],
+        "school_ids": [],
+        "disposition": "unresolved_school_district_identity"
+      },
+      {
+        "source_row": 56,
+        "source_paragraph": 97,
+        "raw": {
+          "source_row": 56,
+          "source_paragraph": 97,
+          "district_raw": "Milton",
+          "text_raw": "Cunningham Elementary, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-2ecc63452bd6"
+        ],
+        "school_ids": [
+          "NE5-MA-S-351f06c8b770"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 57,
+        "source_paragraph": 98,
+        "raw": {
+          "source_row": 57,
+          "source_paragraph": 98,
+          "district_raw": "Milton",
+          "text_raw": "Glover Elementary Established 1992, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-bdcca81d8511"
+        ],
+        "school_ids": [
+          "NE5-MA-S-346173903dc4"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 58,
+        "source_paragraph": 99,
+        "raw": {
+          "source_row": 58,
+          "source_paragraph": 99,
+          "district_raw": "Milton",
+          "text_raw": "Tucker Elementary, French, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-6385bf7e6821"
+        ],
+        "school_ids": [
+          "NE5-MA-S-acf908324207"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 59,
+        "source_paragraph": 102,
+        "raw": {
+          "source_row": 59,
+          "source_paragraph": 102,
+          "district_raw": "New Bedford",
+          "text_raw": "Gomes School Established 2018, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-bd08022e5f41"
+        ],
+        "school_ids": [
+          "NE5-MA-S-5c7afbd0f9c4"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 60,
+        "source_paragraph": 103,
+        "raw": {
+          "source_row": 60,
+          "source_paragraph": 103,
+          "district_raw": "New Bedford",
+          "text_raw": "Roosevelt Middle School, Established 2024, TWI "
+        },
+        "program_ids": [
+          "NE5-MA-P-d4b0f584f7a0"
+        ],
+        "school_ids": [
+          "NE5-MA-S-3112e121c62d"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 61,
+        "source_paragraph": 106,
+        "raw": {
+          "source_row": 61,
+          "source_paragraph": 106,
+          "district_raw": "Salem",
+          "text_raw": "Bentley Academy Established 2020, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-4555778acef1"
+        ],
+        "school_ids": [
+          "NE5-MA-S-6aea9d5a4b69"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 62,
+        "source_paragraph": 107,
+        "raw": {
+          "source_row": 62,
+          "source_paragraph": 107,
+          "district_raw": "Salem",
+          "text_raw": "Collins Middle School Expected 2026, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-3cfff1209089"
+        ],
+        "school_ids": [
+          "NE5-MA-S-8be8c0fb9a4e"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 63,
+        "source_paragraph": 110,
+        "raw": {
+          "source_row": 63,
+          "source_paragraph": 110,
+          "district_raw": "Somerville",
+          "text_raw": "East Somerville Community School Unidos, Established 2021. Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-a04a82fc9b7b"
+        ],
+        "school_ids": [
+          "NE5-MA-S-c2eee521dc44"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 64,
+        "source_paragraph": 113,
+        "raw": {
+          "source_row": 64,
+          "source_paragraph": 113,
+          "district_raw": "Southbridge",
+          "text_raw": "Eastford Road School Established 2017, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-76954eb85b7f"
+        ],
+        "school_ids": [
+          "NE5-MA-S-e08ce8e388d8"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 65,
+        "source_paragraph": 114,
+        "raw": {
+          "source_row": 65,
+          "source_paragraph": 114,
+          "district_raw": "Southbridge",
+          "text_raw": "West Street School Established 2019, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-bb3afc0844f1"
+        ],
+        "school_ids": [
+          "NE5-MA-S-88bbc28f76cc"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 66,
+        "source_paragraph": 115,
+        "raw": {
+          "source_row": 66,
+          "source_paragraph": 115,
+          "district_raw": "Southbridge",
+          "text_raw": "Southbridge Middle School Established 2022, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-08ce799e119b"
+        ],
+        "school_ids": [
+          "NE5-MA-S-0fad603de431"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 67,
+        "source_paragraph": 118,
+        "raw": {
+          "source_row": 67,
+          "source_paragraph": 118,
+          "district_raw": "Springfield",
+          "text_raw": "Gerena Elementary school Established 2023, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-0bc674936f87"
+        ],
+        "school_ids": [
+          "NE5-MA-S-4892e50eecb9"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 68,
+        "source_paragraph": 121,
+        "raw": {
+          "source_row": 68,
+          "source_paragraph": 121,
+          "district_raw": "Springfield Empowerment Zone",
+          "text_raw": "Legacy Academy Established 2023, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-af0295a4935a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-ff8a967cd20d"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 69,
+        "source_paragraph": 124,
+        "raw": {
+          "source_row": 69,
+          "source_paragraph": 124,
+          "district_raw": "Wayland",
+          "text_raw": "Loker School Established 2018, Spanish, WLI"
+        },
+        "program_ids": [
+          "NE5-MA-P-bfb78f0048b7"
+        ],
+        "school_ids": [
+          "NE5-MA-S-6800c71afab6"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 70,
+        "source_paragraph": 127,
+        "raw": {
+          "source_row": 70,
+          "source_paragraph": 127,
+          "district_raw": "Waltham",
+          "text_raw": "Kennedy Middle School Established 2022, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-0531b5b85b4a"
+        ],
+        "school_ids": [
+          "NE5-MA-S-b4c183d55b47"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 71,
+        "source_paragraph": 128,
+        "raw": {
+          "source_row": 71,
+          "source_paragraph": 128,
+          "district_raw": "Waltham",
+          "text_raw": "Waltham Dual Language School Established 2018, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-78d1ef00c0df"
+        ],
+        "school_ids": [
+          "NE5-MA-S-ef74e7cd73c7"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 72,
+        "source_paragraph": 131,
+        "raw": {
+          "source_row": 72,
+          "source_paragraph": 131,
+          "district_raw": "Worcester",
+          "text_raw": "Worcester Dual Language School Established 2008, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-79e2bc3c5fab"
+        ],
+        "school_ids": [
+          "NE5-MA-S-bd330eb16494"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 73,
+        "source_paragraph": 132,
+        "raw": {
+          "source_row": 73,
+          "source_paragraph": 132,
+          "district_raw": "Worcester",
+          "text_raw": "Woodland Academy Established 2019, Spanish, OWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-98cdb4cf82bf"
+        ],
+        "school_ids": [
+          "NE5-MA-S-9f4a166ae9ca"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 74,
+        "source_paragraph": 133,
+        "raw": {
+          "source_row": 74,
+          "source_paragraph": 133,
+          "district_raw": "Worcester",
+          "text_raw": "Burncoat Middle School Established 2019, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-e47ff0b32731"
+        ],
+        "school_ids": [
+          "NE5-MA-S-deccd4376ab4"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      },
+      {
+        "source_row": 75,
+        "source_paragraph": 134,
+        "raw": {
+          "source_row": 75,
+          "source_paragraph": 134,
+          "district_raw": "Worcester",
+          "text_raw": "Burncoat High School Established 2020, Spanish, TWI"
+        },
+        "program_ids": [
+          "NE5-MA-P-7403d1d34db5"
+        ],
+        "school_ids": [
+          "NE5-MA-S-3b608143dde2"
+        ],
+        "disposition": "retained_with_source_vintage_and_programme_phase"
+      }
+    ]
+  }
+]

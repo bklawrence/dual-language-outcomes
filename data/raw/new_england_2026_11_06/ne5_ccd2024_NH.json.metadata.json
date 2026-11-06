@@ -1,0 +1,15 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=33&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-06T14:52:57.172352+00:00",
+  "http_status": 200,
+  "final_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=33&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "sha256": "3251e01070764568e307518c5ec55315602fbdc151ed9e8ab412ec68e62157d9",
+  "bytes": 137503,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "NCES CCD 2024–25 school directory grade context: NH",
+  "snapshot_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_NH.json",
+  "full_response_sha256": "3251e01070764568e307518c5ec55315602fbdc151ed9e8ab412ec68e62157d9"
+}

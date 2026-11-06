@@ -1,0 +1,130 @@
+[
+  {
+    "program_id": "NE5-ME-P-3bcb1c29e961",
+    "school_id": "NE5-ME-S-499c5d4cbeba",
+    "state": "ME",
+    "district": "Portland Public Schools",
+    "school": "Harrison Lyseth Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District presentation explicitly describes the current 60/40 one-way model, former 90/10 model, and future two-way direction. The change date and detailed grade-by-grade shares are not supplied. Multiage classes in 2025-26 are not separate school units.",
+    "observations": [
+      {
+        "source": "ne5_doc_dc530afe27ee57fa",
+        "period": "2025 strategic-planning presentation",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Harrison Lyseth Elementary School / Spanish immersion",
+        "notes": "District presentation explicitly describes the current 60/40 one-way model, former 90/10 model, and future two-way direction. The change date and detailed grade-by-grade shares are not supplied. Multiage classes in 2025-26 are not separate school units.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_doc_dc530afe27ee57fa",
+        "period": "2025 presentation; current model",
+        "grade": "elementary; grade-by-grade ratios not reported",
+        "label": "60/40",
+        "shares": null,
+        "locator": "Harrison Lyseth Elementary School / grade-specific language allocation",
+        "notes": "Presentation reports current60/40 versus former90/10. Numeric label retained; slide does not explicitly name each percentage by language, so named-language shares remain null rather than presuming their order.",
+        "basis": "reported_programme_model_denominator_not_explicit",
+        "grade_support": "PUBLISHED_MODEL_ONLY",
+        "source_passage": "rtlandschools.org (207) 842-5353 Future Models of Dual Language Ed. ● Former Version: 90/10 One Way Immersion ● Current Version: 60/40 One Way Immersion ● Future Version: a. Research supports Two Way Immersion for MLs and non-MLs b. AY25-26 ESOL & Immersion Program Review & Recommendations c. Diﬀerent models, diﬀerent languages, diﬀerent locations Shifting Enrollments Current Numbers: ● Kinder: ○ 12 students in SI class, 19, 21 and 20 students in the 3 English classes ● 1st: ○ 17 students in SI class, 17, 17 and 18 students in the 3 English classes ● 2nd: ○ 19 stu",
+        "review_status": "REPORTED_MODEL_LANGUAGE_SHARE_ORDER_NOT_EXPLICIT"
+      },
+      {
+        "source": "ne5_doc_dc530afe27ee57fa",
+        "period": "historical model; dates unspecified",
+        "grade": "elementary; former-model progression not reported",
+        "label": "90/10 (former model; dates unresolved)",
+        "shares": null,
+        "locator": "Harrison Lyseth Elementary School / grade-specific language allocation",
+        "notes": "Former policy only, not the current 2025 model. Exact effective years and named-share order unresolved.",
+        "basis": "historical_policy_not_current_exposure",
+        "grade_support": "PUBLISHED_MODEL_ONLY",
+        "source_passage": "rtlandschools.org (207) 842-5353 Future Models of Dual Language Ed. ● Former Version: 90/10 One Way Immersion ● Current Version: 60/40 One Way Immersion ● Future Version: a. Research supports Two Way Immersion for MLs and non-MLs b. AY25-26 ESOL & Immersion Program Review & Recommendations c. Diﬀerent models, diﬀerent languages, diﬀerent locations Shifting Enrollments Current Numbers: ● Kinder: ○ 12 students in SI class, 19, 21 and 20 students in the 3 English classes ● 1st: ○ 17 students in SI class, 17, 17 and 18 students in the 3 English classes ● 2nd: ○ 19 stu",
+        "review_status": "HISTORICAL_MODEL_NOT_CURRENT",
+        "schedule_status": "reported_policy_requires_review"
+      }
+    ],
+    "events": [
+      {
+        "source": "ne5_doc_dc530afe27ee57fa",
+        "year": null,
+        "status": "allocation_change_effective_dates_unresolved",
+        "notes": "Former90/10 to current60/40 stated in 2025 presentation. No annual effective date invented; two-way shift is a future discussion."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "explicit_reference_year_district_plan_with_current_school_continuity",
+      "period": "2025-26 planning presentation",
+      "source": "ne5_doc_dc530afe27ee57fa",
+      "locator": "Harrison Lyseth Elementary School / Spanish immersion",
+      "notes": "Spring 2025 district presentation explicitly plans continued K-5 immersion for 2025-26; current school page continues enrolment. Two-way proposal is not coded as implemented."
+    },
+    "continuity_review": "NE5-ME-P-3bcb1c29e961-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Lyseth current60/40 label versus former90/10: exact transition year and named-language share order need review. Current model is identified, not assumed unchanged across history."
+    ],
+    "current_allocation_policy": {
+      "allocation_index": 0,
+      "model": "60/40",
+      "effective_from": null,
+      "source": "ne5_doc_dc530afe27ee57fa",
+      "reason": "The 2025 district presentation explicitly labels 60/40 current and 90/10 former. Former model retained for history without an unsupported change year."
+    }
+  },
+  {
+    "program_id": "NE5-ME-P-bbd962b43272",
+    "school_id": "NE5-ME-S-e7058f77f643",
+    "state": "ME",
+    "district": "Private operator: L’École Française du Maine",
+    "school": "L’École Française du Maine",
+    "track": "French immersion",
+    "notes": "Full-time academic French immersion with formal English language arts fromgrade2. Private school; public funding for this provision is not verified. Retained as a candidate outside the public reference denominator; exact full-day ratio not inferred from French classroom language.",
+    "observations": [
+      {
+        "source": "ne5_me_efdm_elementary",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "elementary through grade5",
+        "languages": [
+          "French",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "L’École Française du Maine / French immersion",
+        "notes": "Full-time academic French immersion with formal English language arts fromgrade2. Private school; public funding for this provision is not verified. Retained as a candidate outside the public reference denominator; exact full-day ratio not inferred from French classroom language.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "uncertain_2025_26",
+      "eligibility": "public_funding_unconfirmed",
+      "scope": "academic_content_immersion",
+      "funding": "private_school_public_funding_not_verified",
+      "method": "funding_and_reference_year_review_required",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_me_efdm_elementary",
+      "locator": "L’École Française du Maine / French immersion",
+      "notes": "Full-time academic French immersion with formal English language arts fromgrade2. Private school; public funding for this provision is not verified. Retained as a candidate outside the public reference denominator; exact full-day ratio not inferred from French classroom language."
+    }
+  }
+]
