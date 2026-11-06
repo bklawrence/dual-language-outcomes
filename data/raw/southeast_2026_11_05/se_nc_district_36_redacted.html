@@ -1,0 +1,2939 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.imsnc.org/',
+
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '5874f0de',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Oct 28, 2026',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'elementary',
+        InitialPageUuid: 'b3a9940ed3d348d48ee950da3f9b42da',
+        InitialPageId: '1212683237',
+        InitialEncodedPageAlias: 'ZWxlbWVudGFyeQ==',
+        InitialHeaderUuid: 'd71b0c76b1e3410eb8a1e1c4b4b1d482',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        
+        mapConsent: {
+            message: 'This content is served by a third party, {0}. If enabled, {0} may collect information about your activity.',
+            enable: 'Enable'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.imsnc.org/',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        planID: '7',
+        disableTracking: true,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        isInPreview: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+        hamburgerMigration: null,
+        isFlexSite: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" >
+    var _dm_gaq = {};
+    var _gaq = _gaq || [];
+    var _dm_insite = [];
+</script>
+
+
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+
+
+
+
+<meta name="d-service-worker" content="register">
+
+
+
+<link rel="canonical" href="https://www.imsnc.org/elementary">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+
+<link rel="apple-touch-icon"
+      href="https://irp.cdn-website.com/5874f0de/dms3rep/multi/favicon57.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/5874f0de/site_favicon_16_1705073972667.ico"/>
+
+
+<link rel="preconnect" href="https://irp.cdn-website.com"/>
+<link rel="preconnect" href="https://irp.cdn-website.com" crossorigin/>
+<link rel="preconnect" href="https://static.cdn-website.com"/>
+
+
+
+
+<script id='d-js-dmapi'>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}@media (min-width:768px) and (max-width:1024px){.responsiveTablet #dm .dmInner .hide-for-medium,[data-hidden-on-tablet]{display:none!important}}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    :root {
+  --color_1: rgba(239,94,36,1);
+  --color_2: rgba(136,136,136,1);
+  --color_3: rgba(0, 0, 0, 1);
+  --color_4: rgba(255,255,255,1);
+  --color_5: rgba(19,41,61,1);
+  --color_6: rgba(238, 207, 109, 1);
+  --color_7: rgba(0, 143, 208, 1);
+  --color_8: rgba(242, 242, 242, 1);
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=League+Spartan:ital,wght@0,100..900;1,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Amiko:ital,wght@0,400;0,600;0,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/6888/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/d352018d1f7f432a1fededc2b79a2874.css" id="widgetCSS" />
+
+
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+
+<style>
+  body[data-page-alias="elementary"] #dm [data-show-on-page-only="elementary"] {
+    display: block !important;
+  }
+</style>
+
+
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/5874f0de/files/5874f0de_1.min.css?v=70527d0965951c9dfe18b380b5875b8d" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1692295302
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1092111443
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1458544600
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1968638634
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1634967944
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1530202663
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1496044765
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1924898539
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1796083052 img[dm_changed]
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+}
+*#dm *.dmBody div.u_1796083052 img
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+}
+*#dm *.dmBody div.u_1300699869 img[dm_changed]
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1300699869 img
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1059081923
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1028230247 img[dm_changed]
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1028230247 img
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1045634528 img[dm_changed]
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1045634528 img
+{
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1318681372
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1002932739
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1822495837
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1757498661
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1175778530 img[dm_changed]
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+}
+*#dm *.dmBody div.u_1175778530 img
+{
+	border-style:solid !important;
+	border-width:0 !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+}
+*#dm *.dmBody div.u_1377717944
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1731082895
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1326189292
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1271911557
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1405433437
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1500807288
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1389140339
+{
+	background-image:initial !important;
+	background-color:var(--color_6) !important;
+}
+*#dm *.dmBody div.u_1043406640
+{
+	border-style:solid !important;
+	border-width:4px !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1133567230
+{
+	border-style:solid !important;
+	border-width:4px !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1559353094
+{
+	line-height:1.5 !important;
+}
+*#dm *.dmBody div.u_1874947221
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1252396267
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1677728371
+{
+	background-color:var(--color_5) !important;
+}
+*#dm *.dmBody nav.u_1643110965
+{
+	color:black !important;
+}
+*#dm *.dmBody *.u_1300699869
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1508770640
+{
+	border-style:solid !important;
+	border-width:4px !important;
+	border-color:var(--color_4) !important;
+}
+*#dm *.dmBody div.u_1175401710
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody div.u_1354951459
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	background-color:var(--color_5) !important;
+}
+*#dm *.dmBody div.u_1798542105
+{
+	line-height:1.5 !important;
+}
+*#dm *.dmBody *.u_1796083052
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1045634528
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1028230247
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1175778530
+{
+	width:100% !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody div.u_1035481634
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1053448752
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1097185912
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1597246351
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1438178885
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1002932739
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1877818202
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:30px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1326764901
+{
+	padding-top:2px !important;
+	margin-top:0 !important;
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1757498661
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1056319020
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:30px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1822495837
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1660496758
+{
+	padding-top:2px !important;
+	margin-left:auto !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	margin-right:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1611327338
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:30px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1786082080
+{
+	padding-top:0 !important;
+	margin-top:0 !important;
+	padding-bottom:0 !important;
+	margin-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-left:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1377717944
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1731082895
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1030917241
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:30px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1326189292
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1271911557
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1690973205
+{
+	padding-bottom:0 !important;
+	margin-bottom:0 !important;
+	margin-left:0 !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1901543986
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:30px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1405433437
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1500807288
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1797334494
+{
+	margin-left:0 !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:529.969px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1092111443
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1530202663
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1634967944
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20px !important;
+	padding-left:40px !important;
+	padding-bottom:40px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1968638634
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1458544600
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20px !important;
+	padding-left:40px !important;
+	padding-bottom:40px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1924898539
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1496044765
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20px !important;
+	padding-left:40px !important;
+	padding-bottom:40px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1059081923
+{
+	background-position:50% 50% !important;
+	padding-right:0 !important;
+	margin-right:0 !important;
+	background-repeat:no-repeat !important;
+	background-size:contain !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1252396267
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20px !important;
+	padding-left:40px !important;
+	padding-bottom:40px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1500583968
+{
+	padding-top:10px !important;
+	padding-left:40px !important;
+	padding-bottom:10px !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1043406640
+{
+	margin-left:5px !important;
+	padding-top:30px !important;
+	padding-left:15px !important;
+	padding-bottom:30px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:5px !important;
+	padding-right:15px !important;
+}
+*#dm *.dmBody div.u_1389140339
+{
+	padding-top:60px !important;
+	padding-left:40px !important;
+	padding-bottom:60px !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1692295302
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20px !important;
+	padding-left:40px !important;
+	padding-bottom:40px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1559353094
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:calc(100% - 0px) !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody div.u_1512436462
+{
+	height:20px !important;
+}
+*#dm *.dmBody div.u_1677728371
+{
+	padding-top:40px !important;
+	padding-bottom:40px !important;
+	padding-right:40px !important;
+	padding-left:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1821811426
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1300699869
+{
+	width:370px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	important:true !important;
+	display:block !important;
+	margin-left:auto !important;
+}
+*#dm *.dmBody div.u_1318681372
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1874947221
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:40px !important;
+	padding-left:40px !important;
+	padding-bottom:20px !important;
+	max-width:auto !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+}
+*#dm *.dmBody div.u_1796083052
+{
+	width:370px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	margin-right:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:center !important;
+	display:block !important;
+	important:true !important;
+	margin-left:auto !important;
+}
+*#dm *.dmBody div.u_1133567230
+{
+	padding-top:30px !important;
+	padding-left:15px !important;
+	padding-bottom:30px !important;
+	padding-right:15px !important;
+	margin-left:5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:5px !important;
+}
+*#dm *.dmBody div.u_1508770640
+{
+	padding-top:30px !important;
+	padding-left:15px !important;
+	padding-bottom:30px !important;
+	padding-right:15px !important;
+	margin-left:5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:5px !important;
+}
+*#dm *.dmBody div.u_1175401710
+{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody div.u_1354951459
+{
+	background-attachment:initial !important;
+	background-size:cover !important;
+	padding-bottom:40px !important;
+	padding-top:40px !important;
+	background-repeat:no-repeat !important;
+	background-position:50% 50% !important;
+	padding-left:0 !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:auto !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1114839559
+{
+	margin-left:0 !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1127194713
+{
+	padding-top:0 !important;
+}
+*#dm *.dmBody div.u_1798542105
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1669818144
+{
+	padding-top:60px !important;
+	padding-bottom:60px !important;
+	padding-left:40px !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1028230247
+{
+	width:calc(100% - 75px) !important;
+	padding-top:0px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	margin-right:auto !important;
+	max-width:220px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:center !important;
+	important:true !important;
+	display:block !important;
+	margin-left:auto !important;
+	height:auto !important;
+	min-height:auto !important;
+}
+*#dm *.dmBody div.u_1045634528
+{
+	width:calc(100% - 55px) !important;
+	padding-top:0px !important;
+	float:none !important;
+	top:0px !important;
+	left:0px !important;
+	position:relative !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	margin-right:99px !important;
+	max-width:172px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:center !important;
+	important:true !important;
+	display:block !important;
+	margin-left:55px !important;
+	height:auto !important;
+	min-height:auto !important;
+}
+*#dm *.dmBody div.u_1175778530
+{
+	width:calc(100% - 74px) !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	margin-right:auto !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	max-width:222px !important;
+	min-width:25px !important;
+	text-align:center !important;
+	display:block !important;
+	important:true !important;
+	margin-left:auto !important;
+	height:auto !important;
+	min-height:auto !important;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-17, .size-17, .size-17 > font { font-size: 17px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "League Spartan Fallback";
+  src: local('Arial');
+  ascent-override: 75.362%;
+  descent-override: 23.6852%;
+  size-adjust: 92.885%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Libre Franklin Fallback";
+  src: local('Arial');
+  ascent-override: 92.4942%;
+  descent-override: 23.5544%;
+  size-adjust: 104.4389%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Amiko Fallback";
+  src: local('Arial');
+  ascent-override: 82.254%;
+  descent-override: 35.9861%;
+  size-adjust: 112.8212%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Open Sans Fallback";
+  src: local('Arial');
+  ascent-override: 101.1768%;
+  descent-override: 27.7323%;
+  size-adjust: 105.6416%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.imsnc.org/feed/rss2"/>
+  <link type="application/atom+xml" rel="alternate" href="https://www.imsnc.org/feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.imsnc.org/elementary"/>
+  <title>
+    
+    Elementary Program | International Montessori School
+  
+  </title>
+  <meta name="keywords" content="montessori, elementary, curriculum, expansive, development, music, exploration, language immersion"/>
+  <meta name="description" content="At the elementary level (ages 6 to 12), students developmentally shift from building their personality and understanding the concrete world around them."/>
+  <!-- Google tag (gtag.js) -->  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-266XYRDJDD">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <script>
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-266XYRDJDD');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZC3WZSG');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <meta name="google-site-verification" content="45sB8vUyaNHbOEthTwPE4FaBXiNbV9aSAUBOwVCuD7U"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Elementary Program | International Montessori School"/>
+  <meta name="twitter:description" content="At the elementary level (ages 6 to 12), students developmentally shift from building their personality and understanding the concrete world around them."/>
+  <meta property="og:description" content="At the elementary level (ages 6 to 12), students developmentally shift from building their personality and understanding the concrete world around them."/>
+  <meta property="og:title" content="Elementary Program | International Montessori School"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="elementary"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1582363842" themewaschanged="true"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations inMiniHeaderMode hasStickyHeader layout-drawer_push-content dmPageBody d-page-1683814473 inputs-css-clean dmFreeHeader" id="dm-outer-wrapper" data-page-class="1683814473" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner" data-auto="page-inner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="2fef9973807a46bbbdad5938e9d68e93===header" data-origin="side" data-auto-height="true" data-push-content="true"> <div class="u_1601889202 dmRespRow middleDrawerRow" style="text-align: center;" id="1601889202"> <div class="dmRespColsWrapper" id="1935194930"> <div class="u_1456509020 dmRespCol small-12 medium-12 large-12 empty-column" id="1456509020"></div> 
+</div> 
+</div> 
+ <div class="u_1668806522 dmRespRow" style="text-align: center;" id="1668806522"> <div class="dmRespColsWrapper" id="1529203082"> <div class="u_1278431057 dmRespCol small-12 medium-12 large-12" id="1278431057"> <div class="u_1666746651 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1666746651" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1673355385"><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/ims-logo-1920w.png?jxl&v=jxl" id="1397822987" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/ims-logo.png" width="340" height="100" alt="International Montessori School" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <nav class="u_1643110965 effect-forward main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_1" layout-sub="" data-show-vertical-sub-items="HIDE" id="1643110965" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101865524  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Montessori
+        " data-auto="page-text-style">Montessori<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-and-language-immersion" class="unifiednav__item unav-item   dmUDNavigationItem_010101814443  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Montessori & Language Immersion" data-auto="page-text-style">Montessori &amp; Language Immersion<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/why-montessori" class="unifiednav__item unav-item   dmUDNavigationItem_010101751429  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Why Montessori?
+          " data-auto="page-text-style">Why Montessori?<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-approach" class="unifiednav__item unav-item   dmUDNavigationItem_010101197280  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           The Montessori Approach
+          " data-auto="page-text-style">The Montessori Approach<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/language-immersion-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101333477  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Language Immersion FAQ" data-auto="page-text-style">Language Immersion FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101805914  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Montessori FAQ
+          " data-auto="page-text-style">Montessori FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/learn-more" class="unifiednav__item unav-item   dmUDNavigationItem_010101993216  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Learn More
+          " data-auto="page-text-style">Learn More<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641740  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Programs
+        " data-auto="page-text-style">Programs<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/toddler" class="unifiednav__item unav-item   dmUDNavigationItem_010101908361  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Toddler (18 - 36 months)
+          " data-auto="page-text-style">Toddler (18 - 36 months)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/early-childhood" class="unifiednav__item unav-item   dmUDNavigationItem_010101470608  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Early Childhood (3 - 6 years)" data-auto="page-text-style">Early Childhood (3 - 6 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/elementary" class="unifiednav__item unav-item   dmNavItemSelected  dmUDNavigationItem_010101921591  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Elementary (6 - 12 years)" data-auto="page-text-style">Elementary (6 - 12 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/middle-school" class="unifiednav__item unav-item   dmUDNavigationItem_010101585819  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Middle School (12 - 14 years)" data-auto="page-text-style">Middle School (12 - 14 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/summer-camp" class="unifiednav__item unav-item   dmUDNavigationItem_010101273324  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Summer Camp" data-auto="page-text-style">Summer Camp<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101946437  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Admission
+        " data-auto="page-text-style">Admission<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/how-to-apply" class="unifiednav__item unav-item   dmUDNavigationItem_010101262387  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           How to Apply
+          " data-auto="page-text-style">How to Apply<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inquire-about-ims" class="unifiednav__item unav-item   dmUDNavigationItem_010101901782  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Inquire About IMS" data-auto="page-text-style">Inquire About IMS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/admission-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101289471  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Admission FAQ
+          " data-auto="page-text-style">Admission FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/tuition-fees" class="unifiednav__item unav-item   dmUDNavigationItem_010101768846  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Tuition & Fees
+          " data-auto="page-text-style">Tuition &amp; Fees<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/financial-assistance" class="unifiednav__item unav-item   dmUDNavigationItem_010101406694  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Financial Assistance" data-auto="page-text-style">Financial Assistance<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101295805  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         About
+        " data-auto="page-text-style">About<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/school" class="unifiednav__item unav-item   dmUDNavigationItem_010101723297  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Our School
+          " data-auto="page-text-style">Our School<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/our-campuses" class="unifiednav__item unav-item   dmUDNavigationItem_01010156062  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Our Campuses" data-auto="page-text-style">Our Campuses<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/diversity-equity-and-inclusion" class="unifiednav__item unav-item   dmUDNavigationItem_01010179281  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Diversity, Equity, & Inclusion" data-auto="page-text-style">Diversity, Equity, &amp; Inclusion<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/faculty-staff" class="unifiednav__item unav-item   dmUDNavigationItem_010101358767  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Faculty & Staff
+          " data-auto="page-text-style">Faculty &amp; Staff<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/board-of-directors" class="unifiednav__item unav-item   dmUDNavigationItem_010101983056  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Board of Directors" data-auto="page-text-style">Board of Directors<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/calendar" class="unifiednav__item unav-item   dmUDNavigationItem_01010145616  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="School Calendar" data-auto="page-text-style">School Calendar<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/employment" class="unifiednav__item unav-item   dmUDNavigationItem_010101482787  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Employment" data-auto="page-text-style">Employment<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101812947  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Give
+        " data-auto="page-text-style">Give<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/supporting-ims" class="unifiednav__item unav-item   dmUDNavigationItem_010101192273  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Supporting IMS" data-auto="page-text-style">Supporting IMS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/building-the-dream" class="unifiednav__item unav-item   dmUDNavigationItem_010101268479  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Building the Dream" data-auto="page-text-style">Building the Dream<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101567797  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact
+        " data-auto="page-text-style">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1402790593 dmRespRow" style="text-align: center;" id="1402790593"> <div class="dmRespColsWrapper" id="1236401059"> <div class="u_1706612929 dmRespCol small-12 medium-12 large-12" id="1706612929"> <div class="dmNewParagraph u_1444634315" data-element-type="paragraph" data-version="5" id="1444634315" style="transition: opacity 1s ease-in-out 0s;" data-binding="W3siYmluZGluZ05hbWUiOiJ0ZXh0IiwidmFsdWUiOiJjb250ZW50X2xpYnJhcnkuZ2xvYmFsLnBob25lLm1haW4gcGhvbmUifV0=" data-diy-text="">(919) 401-4343</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1320392577 dmRespRow" style="text-align: center;" id="1320392577"> <div class="dmRespColsWrapper" id="1446732911"> <div class="dmRespCol small-12 u_1288747971 medium-4 large-4 empty-column content-removed" id="1288747971"></div> 
+ <div class="dmRespCol small-12 medium-4 large-4" id="1629357921"> <div class="u_1849205384 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1849205384" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1983952849" file="false"><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/ims-logo-1920w.png?jxl&v=jxl" id="1250100906" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/ims-logo.png" alt="International Montessori School" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 medium-4 large-4" id="1906958158"> <a data-display-type="block" class="u_1134066682 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/inquire-about-ims-popup" data-element-type="dButtonLinkId" id="1134066682" link_type="popup" popup_target="inquire-about-ims-popup"> <span class="iconBg" id="1344628664"> <span class="icon hasFontIcon icon-star" id="1045569222"></span> 
+</span> 
+ <span class="text" id="1653241933">Inquire</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <button class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" data-auto="layout-drawer-hamburger" aria-label="menu" aria-controls="hamburger-drawer" aria-expanded="false"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</button> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true" headerlayout="f014fc9487554eb885e18628ee6309e9===header" mini-header-show-only-navigation-row="true" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" logo-size-target="80%" lock-element-for-editing="true" data-auto="header"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow fullBleedChanged fullBleedMode u_1595308250" id="1595308250"> <div class="dmRespColsWrapper" id="1850912321"> <div class="u_1826683589 dmRespCol small-12 large-2 medium-2" id="1826683589"> <div class="u_1461531308 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1461531308" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1390202456"><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/ims-logo-1920w.png?jxl&v=jxl" alt="International Montessori School" id="1165857918" class="" data-diy-image="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/ims-logo.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1585101427 dmRespCol small-12 large-8 medium-8" id="1585101427"> <nav class="u_1854231359 effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1854231359" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/b11f2ae2/dms3rep/multi/nidosite+logo+vertical+blue.png" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101865524  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Montessori
+        " data-auto="page-text-style">Montessori<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-and-language-immersion" class="unifiednav__item unav-item   dmUDNavigationItem_010101814443  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Montessori & Language Immersion" data-auto="page-text-style">Montessori &amp; Language Immersion<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/why-montessori" class="unifiednav__item unav-item   dmUDNavigationItem_010101751429  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Why Montessori?
+          " data-auto="page-text-style">Why Montessori?<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-approach" class="unifiednav__item unav-item   dmUDNavigationItem_010101197280  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           The Montessori Approach
+          " data-auto="page-text-style">The Montessori Approach<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/language-immersion-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101333477  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Language Immersion FAQ" data-auto="page-text-style">Language Immersion FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/montessori-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101805914  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Montessori FAQ
+          " data-auto="page-text-style">Montessori FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/learn-more" class="unifiednav__item unav-item   dmUDNavigationItem_010101993216  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Learn More
+          " data-auto="page-text-style">Learn More<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641740  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Programs
+        " data-auto="page-text-style">Programs<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/toddler" class="unifiednav__item unav-item   dmUDNavigationItem_010101908361  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Toddler (18 - 36 months)
+          " data-auto="page-text-style">Toddler (18 - 36 months)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/early-childhood" class="unifiednav__item unav-item   dmUDNavigationItem_010101470608  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Early Childhood (3 - 6 years)" data-auto="page-text-style">Early Childhood (3 - 6 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/elementary" class="unifiednav__item unav-item   dmNavItemSelected  dmUDNavigationItem_010101921591  " target="" data-target-page-alias="" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Elementary (6 - 12 years)" data-auto="page-text-style">Elementary (6 - 12 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/middle-school" class="unifiednav__item unav-item   dmUDNavigationItem_010101585819  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Middle School (12 - 14 years)" data-auto="page-text-style">Middle School (12 - 14 years)<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/summer-camp" class="unifiednav__item unav-item   dmUDNavigationItem_010101273324  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Summer Camp" data-auto="page-text-style">Summer Camp<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101946437  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Admission
+        " data-auto="page-text-style">Admission<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/how-to-apply" class="unifiednav__item unav-item   dmUDNavigationItem_010101262387  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           How to Apply
+          " data-auto="page-text-style">How to Apply<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inquire-about-ims" class="unifiednav__item unav-item   dmUDNavigationItem_010101901782  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Inquire About IMS" data-auto="page-text-style">Inquire About IMS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/admission-faq" class="unifiednav__item unav-item   dmUDNavigationItem_010101289471  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Admission FAQ
+          " data-auto="page-text-style">Admission FAQ<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/tuition-fees" class="unifiednav__item unav-item   dmUDNavigationItem_010101768846  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Tuition & Fees
+          " data-auto="page-text-style">Tuition &amp; Fees<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/financial-assistance" class="unifiednav__item unav-item   dmUDNavigationItem_010101406694  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Financial Assistance" data-auto="page-text-style">Financial Assistance<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101295805  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         About
+        " data-auto="page-text-style">About<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/school" class="unifiednav__item unav-item   dmUDNavigationItem_010101723297  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Our School
+          " data-auto="page-text-style">Our School<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/our-campuses" class="unifiednav__item unav-item   dmUDNavigationItem_01010156062  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Our Campuses" data-auto="page-text-style">Our Campuses<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/diversity-equity-and-inclusion" class="unifiednav__item unav-item   dmUDNavigationItem_01010179281  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Diversity, Equity, & Inclusion" data-auto="page-text-style">Diversity, Equity, &amp; Inclusion<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/faculty-staff" class="unifiednav__item unav-item   dmUDNavigationItem_010101358767  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Faculty & Staff
+          " data-auto="page-text-style">Faculty &amp; Staff<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/board-of-directors" class="unifiednav__item unav-item   dmUDNavigationItem_010101983056  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Board of Directors" data-auto="page-text-style">Board of Directors<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/calendar" class="unifiednav__item unav-item   dmUDNavigationItem_01010145616  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="School Calendar" data-auto="page-text-style">School Calendar<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/employment" class="unifiednav__item unav-item   dmUDNavigationItem_010101482787  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Employment" data-auto="page-text-style">Employment<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101812947  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Give
+        " data-auto="page-text-style">Give<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/supporting-ims" class="unifiednav__item unav-item   dmUDNavigationItem_010101192273  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Supporting IMS" data-auto="page-text-style">Supporting IMS<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/building-the-dream" class="unifiednav__item unav-item   dmUDNavigationItem_010101268479  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Building the Dream" data-auto="page-text-style">Building the Dream<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101567797  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact
+        " data-auto="page-text-style">Contact<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1568896802 dmRespCol small-12 large-2 medium-2" id="1568896802"> <a data-display-type="block" class="u_1363833712 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/how-to-apply" data-element-type="dButtonLinkId" id="1363833712"> <span class="iconBg" id="1803966022"> <span class="icon hasFontIcon icon-star" id="1262245836"></span> 
+</span> 
+ <span class="text" id="1821667693">Inquire</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-auto="sticky-header-spacer" data-new="true"></div> 
+ <div dmwrapped="true" id="dmFirstContainer" themewaschanged="true" class="dmBody u_dmStyle_template_elementary"> <div id="allWrapper" class="allWrapper" data-auto="all-wrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="100" class="dmAboutusRespTmpl mainBorder" id="1683814473"> <div class="innerPageTmplBox dmRespRowsWrapper" id="1396310947"> <div class="u_1354951459 dmRespRow dmSectionNoParallax fullBleedChanged fullBleedMode" style="text-align: center;" id="1354951459"> <div class="dmRespColsWrapper" id="1566374190"> <div class="dmRespCol small-12 medium-12 large-12 u_1175401710" id="1175401710"> <div class="dmNewParagraph u_1114839559" id="1114839559" style="transition:opacity 1s ease-in-out;line-height:initial;" data-version="5"> <h1 class="m-text-align-center text-align-center" style="line-height: 1;"><span style="display: initial;">ELEMENTARY</span></h1> 
+</div> <div class="dmNewParagraph text-align-center u_1435526829" id="1435526829" style="transition: opacity 1s ease-in-out 0s; text-align: center;" data-version="5"> <h4><span style="color: var(--color_4); font-weight: bold; display: initial;">6 &ndash; 12 years</span><span style="display: initial;"><br/></span></h4> 
+</div></div> 
+</div> 
+</div> 
+ <div class="u_1874947221 dmRespRow" style="text-align: center;" id="1874947221"> <div class="dmRespColsWrapper" id="1161360456"> <div class="dmRespCol small-12 medium-12 large-12 u_1701906726" id="1701906726"> <div class="u_1559353094 dmNewParagraph" id="1559353094" data-version="5" data-styletopreserve="{" background-image":""}"=""> <h3><span style="display: initial;">Language Immersion</span></h3> 
+<p><strong style="display: initial; font-weight: bold; color: var(--color_5);">Lower Elementary (ages 6 to 9, grades 1-3)</strong></p><p><span class="" style="display: initial;"><span style="display: initial;">Lower elementary classes are delivered entirely in the language of the classroom. Children are given the opportunity to become more productive in the immersion language, practicing both social and academic language as they are learning classroom content. Due to the nature of this program,</span> 
+</span><strong style="display: initial; font-weight: bold;">students must demonstrate language proficiency in their target language to ensure academic success.&nbsp;</strong> 
+ </p><p><span style="display: initial;"><br/></span></p><p><span class="" style="display: initial;"><span style="display: initial;">At this level, students also have a separate English class to focus on the mechanics of reading and writing in English.</span> 
+</span><span style="display: initial; font-style: normal;">One morning and one afternoon work cycle each week is with English teachers.</span><span single-space="true" class="" style="display: initial; font-style: italic;"> <span style="display: initial; font-style: italic;"></span> 
+</span><span class="" style="display: initial; font-style: normal;"><span style="display: initial; font-style: normal;">Students spend approximately 20% of their week learning in English. IMS'</span> 
+</span><span style="display: initial;">English curriculum focuses on studying parts of speech, expanding vocabulary, written expression, and reading comprehension. Particular attention is paid to how English mechanics differ from the child&rsquo;s immersion language.</span></p><p><span style="display: initial;"><br/></span></p><p><span class="" style="display: initial;"><span style="display: initial;">Art, Music, and PE classes are offered once a week in English. Students also participate in day-long field trips at various times of the school year.</span> 
+</span></p><p><span style="display: initial;"><br/></span></p><p><strong style="display: initial; font-weight: bold; color: var(--color_5);">Upper Elementary (ages 9-12, grades 4-6)</strong></p><p><span class="" style="display: initial;"><span style="display: initial;">Children in upper elementary spend their morning work cycle in an English-based classroom, working extensively in English in science, mathematics, history, and geography. Every afternoon and for one full day each week, the students break into language cohorts to continue learning in an immersion environment. Students spend 70% of their week learning in English. This allows children from all language immersion tracks to join together in a single class, providing new academic peers and a new learning environment.</span> 
+</span></p><p><span style="display: initial;"><br/></span></p><p><span class="" style="display: initial;"><span style="display: initial;">The remaining 30% of the week is spent in their immersion language classroom, focusing on learning content in the immersion language and enhancing language study.</span> 
+</span><strong style="display: initial; font-weight: bold;">Due to the nature of this program, students must demonstrate language proficiency in their target language to ensure academic success.&nbsp;</strong> 
+ </p><p><span style="display: initial;"><br/></span></p><p><span style="display: initial;">Art, Music, and PE classes are offered once a week in English. Students also participate in overnight field trips as part of the curriculum twice a year. <br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1318681372 dmRespRow" style="text-align: center;" id="1318681372"> <div class="dmRespColsWrapper" id="1086264375"> <div class="u_1002932739 dmRespCol small-12 dmSectionNoParallax large-7 medium-7" id="1002932739" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1326764901 dmNewParagraph" id="1326764901" data-version="5" style="text-align: center;"> <h3 class="text-align-left"><span style="display: initial;">Learning without Limits</span></h3> 
+<p class="text-align-left"><span style="display: initial;">Your child will study both broadly and deeply, covering many subjects not attempted in conventional schools. Because there is not a rigid schedule or prescribed curriculum that the whole class must follow, your child can focus intensely on self-chosen work, with minimal interruption. At the same time, they will collaborate with the teacher to ensure that work is challenging and purposeful &ndash; and that basic standards are met. The teacher acts as a guide is responsible for foundational skills and content learning - your child is in charge of digging deeply into their interests and passions.<br/></span></p></div></div> 
+ <div class="u_1877818202 dmRespCol small-12 large-5 medium-5" id="1877818202"> <div class="u_1796083052 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1796083052"><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/a7ad88f0863f18ba5a7da0223a1ee370b5a1c215ff7e110211a3027c346b5da6.original-1920w.jpg?jxl&v=jxl" id="1439245053" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/a7ad88f0863f18ba5a7da0223a1ee370b5a1c215ff7e110211a3027c346b5da6.original.jpg" width="1920" height="1440" alt="Great lesson " onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1692295302 dmRespRow" style="text-align: center;" id="1692295302"> <div class="dmRespColsWrapper" id="1689519730"> <div class="u_1092111443 dmRespCol small-12 dmSectionNoParallax medium-12 large-12" id="1092111443" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="dmNewParagraph u_1035481634" id="1035481634" style="display: block; transition: none 0s ease 0s;" data-version="5"> <h3><span style="display: initial;">The Teacher is an &ldquo;Enlightened Generalist&rdquo;</span></h3> 
+<p class="text-align-left"><span style="display: initial;">To quote Bruce Lee: &ldquo;A teacher is never a giver of &lsquo;truth;&rsquo; he is a guide, a pointer to the truth that the student must discover for himself.&rdquo; We couldn&rsquo;t agree more. Teachers have a broad knowledge of all subject areas &ndash; more than enough to help your child discover interests in any area imaginable and challenge them to deepen the field of study through research.<br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1822495837 dmRespRow" style="text-align: center;" id="1822495837"> <div class="dmRespColsWrapper" id="1284134500"> <div class="u_1757498661 dmRespCol small-12 dmSectionNoParallax large-7 medium-7" id="1757498661" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1660496758 dmNewParagraph" id="1660496758" style="transition: none 0s ease 0s; display: block;" data-version="5"> <h3><span style="display: initial;">The Format Mirrors Your Child&rsquo;s Developmental Needs</span></h3> 
+<p class="text-align-left"><span style="display: initial;">Elementary-age children have a strong drive for social connection. They are starting to develop deeper friendships and a connection to the community around them. Why then, would we want them to learn in rows of desks, confined to a chair, while the teacher lectures the class as a group? Instead, we embrace your child&rsquo;s natural need for social exploration by giving lessons in small groups and encouraging children to work with a variety of others on follow up projects and research into subjects of intense interest.<br/></span></p></div></div> 
+ <div class="u_1056319020 dmRespCol small-12 large-5 medium-5" id="1056319020"> <div class="u_1028230247 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1028230247"> <a id="1527629514" class=""><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/e651e6bc0790dcb99ac729aab4423bdd4ce157925dd9134994513e7384004f39.original-1920w.jpg?jxl&v=jxl" id="1140775939" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/e651e6bc0790dcb99ac729aab4423bdd4ce157925dd9134994513e7384004f39.original.jpg" width="1920" height="2560" alt="Montessori children working on reports" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1634967944 dmRespRow" style="text-align: center;" id="1634967944"> <div class="dmRespColsWrapper" id="1585253838"> <div class="u_1530202663 dmRespCol small-12 dmSectionNoParallax medium-12 large-12" id="1530202663" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1053448752 dmNewParagraph" id="1053448752" style="display: block;" data-version="5"> <h3><span style="display: initial;">Engagement is Essential</span></h3> 
+<p class="text-align-left"><span style="display: initial;">Real learning occurs when children are engaged &ndash; not when the teacher makes a blanket assignment. Curiosity is championed in our Elementary program, and your child is encouraged to explore concepts to a level of detail only limited by their imagination.<br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1377717944 dmRespRow" style="text-align: center;" id="1377717944"> <div class="dmRespColsWrapper" id="1120326784"> <div class="u_1731082895 dmRespCol small-12 dmSectionNoParallax large-7 medium-7" id="1731082895" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1786082080 dmNewParagraph" id="1786082080" style="transition: opacity 1s ease-in-out;" data-version="5"> <h3><span style="display: initial;">Learning Occurs Beyond the Classroom</span></h3> 
+<p><span style="display: initial;">We want the children to be comfortable navigating the world, not just our classroom. As a result, the children must &lsquo;go out&rsquo; beyond the limits of the classroom to find the information or resource they need. A &lsquo;Going Out&rsquo; is a planned undertaking by a small group of children, preparing themselves for the experience and conducting themselves with dignity while out in public. Elementary students also enjoy weekly classes in art, music, and physical education.<br/></span></p></div></div> 
+ <div class="u_1611327338 dmRespCol small-12 large-5 medium-5" id="1611327338"> <div class="u_1175778530 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1175778530"><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/image_processing20251120-2-mutlew-1920w.jpg?jxl&v=jxl" id="1411607568" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/image_processing20251120-2-mutlew.jpg" width="900" height="1200" alt="Montessori children wearing helmets" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1458544600 dmRespRow" style="text-align: center;" id="1458544600"> <div class="dmRespColsWrapper" id="1844744093"> <div class="u_1968638634 dmRespCol small-12 dmSectionNoParallax medium-12 large-12" id="1968638634" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1097185912 dmNewParagraph" id="1097185912" style="display: block;" data-version="5"> <h3><span style="display: initial;">Developing Flexibility, Resilience and Grit</span></h3> 
+<p class="text-align-left"><span style="display: initial;">We believe children learn to be adaptable by supporting them to solve their own problems, rather than solving problems for them. With the help of a supportive adult, your child can, most often, find the solution that is best for him.<br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1326189292 dmRespRow" style="text-align: center;" id="1326189292"> <div class="dmRespColsWrapper" id="1344510871"> <div class="u_1271911557 dmRespCol small-12 dmSectionNoParallax large-7 medium-7" id="1271911557" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1690973205 dmNewParagraph" id="1690973205" style="transition: opacity 1s ease-in-out 0s;" data-version="5"> <h3><span style="display: initial;">Learning in Context for Deeper Understanding</span></h3> 
+<p class="m-size-13 size-16"><span class="m-font-size-13 font-size-16" style="display: initial;">Unlike in a conventional program with a separate time of the day for each subject, your child will gain a much deeper understanding of concepts by learning in context. The starting point for all courses of study is the &ldquo;Great Lessons;&rdquo; these impressionistic and scientific stories give your child the big picture of astronomy, earth science, geography, physics, biology, history, anthropology, cultural and social studies, language, math, music and art. Meaningful learning happens when children understand the &ldquo;why&rdquo; as much as the &ldquo;what&rdquo; &ndash; and are inspired to learn even more on their own.</span><span style="display: initial;"><br/></span></p></div></div> 
+ <div class="u_1030917241 dmRespCol small-12 large-5 medium-5" id="1030917241"> <div class="u_1045634528 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1045634528"> <a id="1313129914" class=""><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/8229905e0530630dfba0f4494c69fee592eeb73ce3812ad22aa44ca8bcfe394a.original-1920w.jpg?jxl&v=jxl" id="1235425306" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/8229905e0530630dfba0f4494c69fee592eeb73ce3812ad22aa44ca8bcfe394a.original.jpg" width="1837" height="3264" alt="Child working with Montessori materials" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1496044765 dmRespRow" style="text-align: center;" id="1496044765"> <div class="dmRespColsWrapper" id="1188618242"> <div class="u_1924898539 dmRespCol small-12 dmSectionNoParallax medium-12 large-12" id="1924898539" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1597246351 dmNewParagraph" id="1597246351" style="display: block;" data-version="5"> <h3><span style="display: initial;">Achieving a State of Flow</span></h3> 
+<p class="text-align-left"><span style="display: initial;">Think about how you do your best work. Is it when you are interrupted by others or when you work to an external time table? Probably not. Why, then, is it any different for your child? Our class day consists of long, open ended work periods that respect your child&rsquo;s curiosity and concentration. They may choose to form or join a group to work with concepts introduced in a lesson, or work on something individually. Because children are free to move around the classroom, it&rsquo;s not uncommon for ideas to spread; children are stimulated not just by the lessons they receive, but by each other.<br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1405433437 dmRespRow" style="text-align: center;" id="1405433437"> <div class="dmRespColsWrapper" id="1135525535"> <div class="u_1500807288 dmRespCol small-12 dmSectionNoParallax large-7 medium-7" id="1500807288" data-gallery-bg="eyJzbGlkZXMiOlsiaHR0cHM6Ly9pcnAuY2RuLXdlYnNpdGUuY29tLy9tZC91bnNwbGFzaC9kbXMzcmVwL211bHRpL29wdC9waG90by0xNTAyMTIwNDkyNjA2LWZiYTEzY2M2MzcyMS0xOTIwdy5qcGc/anhsJnY9anhsIl19"> <div class="u_1797334494 dmNewParagraph" id="1797334494" style="transition: opacity 1s ease-in-out 0s;" data-version="5"> <h3><span style="display: initial;">Learning as its Own Reward</span></h3> 
+<p class="text-align-left"><span style="display: initial;">We have high expectations for your child, and believe that rewards and punishments appeal to the lowest levels of their intellect. Given a sticker, children will do their best for a few minutes. Given experiences that help them believe in themselves and their abilities, a child will do their very best for a lifetime.<br/></span></p></div></div> 
+ <div class="u_1901543986 dmRespCol small-12 large-5 medium-5" id="1901543986"> <div class="u_1300699869 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1300699869"> <a id="1255159214" class=""><img src="https://irp.cdn-website.com/5874f0de/dms3rep/multi/opt/math-1920w.jpeg?jxl&v=jxl" id="1730111375" class="" data-dm-image-path="https://irp.cdn-website.com/5874f0de/dms3rep/multi/math.jpeg" width="1920" height="1395" alt="Montessori child working on math" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1500583968 dmRespRow" id="1500583968" lock-element-for-editing="true"> <div class="dmRespColsWrapper" id="1903199630"> <div class="dmRespCol large-12 medium-12 small-12" id="1042026933"> <div data-element-type="spacer" class="dmSpacer u_1512436462" id="1512436462"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1389140339" id="1389140339"> <div class="dmRespColsWrapper" id="1266409828"> <div class="dmRespCol small-12 u_1043406640 large-4 medium-4" id="1043406640"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1978615174" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center"><span class="" style="display: unset;"><span style="display: unset;">Lower Elementary</span> 
+</span><span style="display: initial;">Language Immersion</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1280166144" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="display: unset;">Children spend 70% of their week in a full-immersion French, Spanish, or Mandarin Chinese classroom. 20% of their week in an English Language Arts classroom.<br/><br/>Additionally, students take a once-a-week class in art, music, and PE, which is taught in English.</span> 
+</p></div> 
+</div> 
+ <div class="dmRespCol small-12 u_1508770640 large-4 medium-4" id="1508770640"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1726573554" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center"><span style="display: unset;">Upper Elementary Language Immersion</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1204867118" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="display: unset;">Children spend 70% of their week in an English-based Montessori classroom. The remaining 30% is in a full-immersion French, Spanish, or Mandarin Chinese classroom.</span></p></div> 
+</div> 
+ <div class="dmRespCol small-12 u_1133567230 large-4 medium-4" id="1133567230"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1133819796" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center"><span style="display: unset;">Length of Day</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1039783160" style="transition: opacity 1s ease-in-out 0s;"> <ul class="defaultList bullet"><li><strong style="font-weight: bold; display: initial;">Regular day:&nbsp;</strong><span style="display: initial;">8:15AM-3:00PM</span></li><li class="text-align-left"><strong style="font-weight: bold; display: initial;">After School:</strong><span style="display: initial;" single-space="true"> <span style="display: initial;"></span> 
+</span><span style="display: initial; font-weight: normal;">3:00PM-5:30PM</span></li></ul> 
+<p class="text-align-left"><br/></p><p class="text-align-center"><span style="display: initial;">All elementary-aged students are able to participate in a variety of after-school enrichment programs throughout the year. Options may include chess club, run club, theater, and/or STEM club.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1677728371" id="1677728371"> <div class="dmRespColsWrapper" id="1494535450"> <div class="u_1089071455 dmRespCol small-12 medium-12 large-12" id="1089071455"> <div class="u_1821811426 dmNewParagraph" id="1821811426" background-image":""}"="" style="line-height: initial; opacity: 1; transform: translate3d(0%, 0%, 0px); animation-delay: unset !important; animation-duration: unset !important;" data-version="5" data-anim-desktop="fadeInRight"> <h5 style="line-height: 1.5;"><span style="color: var(--color_4); display: initial;">&quot;The teachers at IMS model exemplary behavior and serve as strong role models. My children have a firm grasp of reading and writing in two languages; my eldest child is thrilled to have begun lessons in the third language. Additionally, they are cultivating a profound interest and understanding of mathematics and science.&rdquo;</span></h5> 
+ <h5 class="text-align-left m-text-align-left" style="line-height: 1.5;"><span style="color: var(--color_4); display: initial;"><br/></span></h5> 
+ <h5 class="text-align-left m-text-align-left" style="line-height: 1.5;"><span class="" style="font-weight: bold; color: var(--color_4); display: initial;"><span style="font-weight: bold; color: var(--color_4); display: initial;">&mdash; School Parent</span> 
+</span><span style="display: initial;"><br/></span></h5> 
+</div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1669818144" id="1669818144"> <div class="dmRespColsWrapper" id="1787859642"> <div class="dmRespCol large-12 medium-12 small-12 u_1127194713" id="1127194713"> <div class="u_1798542105 dmNewParagraph" id="1798542105" style="transition:none 0s ease 0s;display:block;line-height:initial;" data-version="5"> <h3 class="m-text-align-center"><span class="" style="display: initial;"><span style="display: initial;">If you think your child would thrive in a Montessori environment, give us a call or</span> 
+</span><a href="/inquire-about-ims-popup" runtime_url="/inquire-about-ims-popup" popup_target="inquire-about-ims-popup" type="popup" link_type="popup" style="display: initial;">inquire about IMS</a><span style="display: initial;">. We would love for you to visit our school and learn more.</span><span style="display: initial; font-weight: bold; background-color: transparent;" class="font-size-17"><br/></span></h3> 
+</div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1564599557"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer" lock-element-for-editing="true"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow" id="1978353112"> <div class="dmRespColsWrapper" id="1134467116"> <div class="dmRespCol empty-column large-12 medium-12 small-12" id="1476823710"></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1205361973" id="1205361973"> <div class="dmRespColsWrapper" id="1146829914"> <div class="dmRespCol small-12 large-3 medium-3" id="1948803438"> <div class="u_1823768768 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1823768768" style="transition: opacity 1s ease-in-out 0s; text-align: left; display: block;"> <h4 class="text-align-left size-18 m-size-18"><span style="display: initial; color: var(--color_4);" class="font-size-18 m-font-size-18" m-font-size-set="true">PROGRAMS</span></h4> 
+</div> 
+ <nav class="u_1105953774 unifiednav_vertical effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_5" layout-sub="" data-show-vertical-sub-items="HOVER" id="1105953774" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/b11f2ae2/dms3rep/multi/nidosite+logo+vertical.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/toddler" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="toddler"> <span class="nav-item-text " data-link-text="
+           Toddler (18 - 36 months)
+          " data-auto="page-text-style">Toddler (18 - 36 months)<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/early-childhood" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="primary"> <span class="nav-item-text " data-link-text="Early Childhood (3 - 6 years)" data-auto="page-text-style">Early Childhood (3 - 6 years)<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/elementary" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected    " target="" data-target-page-alias="elementary-program" aria-current="page" data-auto="selected-page"> <span class="nav-item-text " data-link-text="Elementary (6 - 12 years)" data-auto="page-text-style">Elementary (6 - 12 years)<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/middle-school" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="middle-school"> <span class="nav-item-text " data-link-text="Middle School (12 - 14 years)" data-auto="page-text-style">Middle School (12 - 14 years)<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/summer-camp" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="summer-camp"> <span class="nav-item-text " data-link-text="Summer Camp" data-auto="page-text-style">Summer Camp<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3 u_1791323800" id="1791323800"> <div class="u_1469870779 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1469870779" style="transition: opacity 1s ease-in-out 0s; text-align: left;"> <h4 class="text-align-left size-18 m-size-18"><span style="color: var(--color_4); display: initial;" class="font-size-18 m-font-size-18" m-font-size-set="true">CONNECT</span></h4> 
+</div> 
+ <nav class="u_1646911599 unifiednav_vertical effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_5" layout-sub="" data-show-vertical-sub-items="HOVER" id="1646911599" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/b11f2ae2/dms3rep/multi/nidosite+logo+vertical.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" aria-haspopup="true" aria-expanded="false" data-sub-nav-menu="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/how-to-apply" class="unifiednav__item unav-item unav-top-item    unifiednav__item_has-sub-nav" target="" data-target-page-alias="how-to-apply"> <span class="nav-item-text " data-link-text="
+           How to Apply
+          " data-auto="page-text-style">How to Apply<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" class="unifiednav__container unifiednav__container_sub-nav unav-sub" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/toddler-admissions" class="unifiednav__item unav-item     " target="" data-target-page-alias="toddler-admissions"> <span class="nav-item-text " data-link-text="Toddler Admission" data-auto="page-text-style">Toddler Admission<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/early-childhood-admissions" class="unifiednav__item unav-item     " target="" data-target-page-alias="early-childhood-admissions"> <span class="nav-item-text " data-link-text="Early Childhood Admission" data-auto="page-text-style">Early Childhood Admission<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/elementary-admissions" class="unifiednav__item unav-item     " target="" data-target-page-alias="elementary-admissions"> <span class="nav-item-text " data-link-text="Elementary Admission" data-auto="page-text-style">Elementary Admission<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/middle-school-admission" class="unifiednav__item unav-item     " target="" data-target-page-alias="middle-school-admission"> <span class="nav-item-text " data-link-text="Middle School Admission" data-auto="page-text-style">Middle School Admission<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/inquire-about-ims-popup" class="unifiednav__item unav-item unav-top-item    " target="" popup_target="inquire-about-ims-popup" link_type="popup" data-target-page-alias="inquire-about-ims-popup"> <span class="nav-item-text " data-link-text="Inquire About IMS" data-auto="page-text-style">Inquire About IMS<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="contact"> <span class="nav-item-text " data-link-text="
+         Contact
+        " data-auto="page-text-style">Contact<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/employment" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="employment"> <span class="nav-item-text " data-link-text="Employment" data-auto="page-text-style">Employment<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol large-3 medium-3 small-12" id="1826718812"> <div class="u_1821538303 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1821538303" style="transition: opacity 1s ease-in-out 0s; text-align: left;"> <h4 class="text-align-left size-18 m-size-18"><span style="color:var(--color_4);display:initial;font-family:'Libre Franklin', 'Libre Franklin Fallback';" class="font-size-18 m-font-size-18" m-font-size-set="true">PARENTS</span></h4> 
+</div> 
+ <nav class="u_1571734135 unifiednav_vertical effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="vertical_nav_layout_5" layout-sub="" data-show-vertical-sub-items="HOVER" id="1571734135" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/b11f2ae2/dms3rep/multi/nidosite+logo+vertical.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="https://www.transparentclassroom.com/souls/sign_in?locale=en" class="unifiednav__item unav-item unav-top-item    " target="_blank" data-target-page-alias="https://www.transparentclassroom.com/souls/sign_in?locale=en"> <span class="nav-item-text " data-link-text="Transparent Classroom Parent Portal" data-auto="page-text-style">Transparent Classroom Parent Portal<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="https://portals.veracross.com/imsnc/parent" class="unifiednav__item unav-item unav-top-item    " target="_blank" data-target-page-alias="https://portals.veracross.com/imsnc/parent"> <span class="nav-item-text " data-link-text="Veracross Parent Portal" data-auto="page-text-style">Veracross Parent Portal<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/calendar" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="calendar"> <span class="nav-item-text " data-link-text="School Calendar" data-auto="page-text-style">School Calendar<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="https://portals.veracross.com/imsnc/parent/pages/minicamp" class="unifiednav__item unav-item unav-top-item    " target="_blank" data-target-page-alias=""> <span class="nav-item-text " data-link-text="Mini Camp" data-auto="page-text-style">Mini Camp<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1962324043"> <div class="dmNewParagraph u_1665702008" data-element-type="paragraph" data-version="5" id="1665702008" style="transition: opacity 1s ease-in-out 0s;"> <h4 class="m-size-18 size-18"><span style="color:var(--color_4);display:unset;font-family:'League Spartan', 'League Spartan Fallback';" class="m-font-size-18 font-size-18" m-font-size-set="true">ACADEMY CAMPUS</span></h4> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1639827907" data-dashlane-rid="cc4966ed34722710" data-dashlane-classification="identity" new-inline-bind-applied="true" data-diy-text=""><p class="m-size-14 size-14"><a href="tel:(919) 401-4343" target="_blank" type="call" class="font-size-14 m-font-size-14" m-font-size-set="true" style="color: var(--color_4); display: initial;"><span class="inline-data-binding" data-encoded-value="KDkxOSkgNDAxLTQzNDM=" data-inline-binding="content_library.global.phone.main phone">(919) 401-4343</span></a> <span single-space="true" class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;"> <span class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;"></span> 
+</span> 
+<span class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;" m-font-size-set="true">/ Option 1</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1045888847" style="transition: opacity 1s ease-in-out 0s;"><p class="m-size-16 size-14"><span style="color: var(--color_4); display: unset;" class="m-font-size-16 font-size-14" m-font-size-set="true">3001 Academy Road, Suite 300</span></p><p class="m-size-16 size-14"><span style="color: var(--color_4); display: unset;" class="m-font-size-16 font-size-14" m-font-size-set="true">Durham, NC 27707</span></p></div> 
+ <div class="dmNewParagraph u_1099120448" data-element-type="paragraph" data-version="5" id="1099120448" style="transition: opacity 1s ease-in-out 0s;"><p class="size-18 m-size-18"><span style="color:var(--color_4);font-weight:bold;display:unset;font-family:'League Spartan', 'League Spartan Fallback';" class="font-size-18 m-font-size-18" m-font-size-set="true">BARBEE CHAPEL CAMPUS</span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1013660882" data-dashlane-rid="51e1c82dbc571c11" data-dashlane-classification="identity" new-inline-bind-applied="true" data-diy-text="" data-styletopreserve="{" background-image":""}"=""><p class="size-14 m-size-14"><a href="tel:(919) 401-4343" target="_blank" type="call" class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;" m-font-size-set="true"><span class="inline-data-binding" data-encoded-value="KDkxOSkgNDAxLTQzNDM=" data-inline-binding="content_library.global.phone.main phone">(919) 401-4343</span></a> <span class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;"> <span class="font-size-14 m-font-size-14" style="color: var(--color_4); display: initial;" m-font-size-set="true">/ Option 2</span></span></p></div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1823202242" style="transition: opacity 1s ease-in-out 0s;"><p class="size-14 m-size-16"><span style="color: var(--color_4); display: unset;" class="font-size-14 m-font-size-16" m-font-size-set="true">5510 Barbee Chapel Road</span></p><p class="size-14 m-size-16"><span style="display: unset; color: var(--color_4);" class="font-size-14 m-font-size-16" m-font-size-set="true">Chapel Hill, NC 27517</span></p></div> 
+ <div class="u_1276332950 align-center text-align-center dmSocialHub gapSpacing" id="1276332950" dmle_extension="social_hub" data-element-type="social_hub" data-binding="W3siYmluZGluZ05hbWUiOiJzb2NpYWwiLCJ2YWx1ZSI6ImNvbnRlbnRfbGlicmFyeS5nbG9iYWwuc29jaWFsIn1d" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv " data-auto="social-hub-inner"> <a href="https://facebook.com/imstriangle" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://instagram.com/ims_triangle/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1726145220" id="1726145220"> <div class="dmRespColsWrapper" id="1192676495"> <div class="dmRespCol small-12 large-4 medium-4 u_1832520528" id="1832520528"> <nav class="u_1095949433 effect-text-color main-navigation unifiednav dmLinksMenu" data-auto="links-menu" role="navigation" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" data-divider="PIPE" id="1095949433" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/privacy-policy" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="privacy-policy"> <span class="nav-item-text " data-link-text="
+         Privacy Policy
+        " data-auto="page-text-style">Privacy Policy<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/accessibility" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="accessibility"> <span class="nav-item-text " data-link-text="
+         Accessibility
+        " data-auto="page-text-style">Accessibility<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4 u_1255201098" id="1255201098"> <div class="u_1291941856 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1291941856" dmle_extension="custom_extension" data-element-type="custom_extension" data-binding="W3siYmluZGluZ05hbWUiOiJjb3B5cmlnaHRUZXh0IiwidmFsdWUiOiJjb250ZW50X2xpYnJhcnkuZ2xvYmFsLmNvbXBhbnlfbmFtZSJ9XQ==" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="25" data-widget-config="eyJyZXZlcnNlRmxhZyI6bnVsbCwiY29weXJpZ2h0VGV4dCI6IkludGVybmF0aW9uYWwgTW9udGVzc29yaSBTY2hvb2wifQ=="> <div class="copyright"> <div>&copy; 2026&nbsp;</div> 
+ <div>International Montessori School</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12 u_1328906383" id="1328906383"> <div class="u_1127175322 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1127175322" style="transition: opacity 1s ease-in-out 0s; text-align: left;"><p class="m-text-align-center text-align-right size-14 m-size-16" style="line-height: 1.3;"><a href="https://www.nidomarketing.com/" target="_blank" runtime_url="https://www.nidomarketing.com/" type="url" style="color: var(--color_4); display: initial;" class="font-size-14 m-font-size-16" m-font-size-set="true">Powered by Nido Marketing</a></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+
+
+
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~25"] = function (element, data, api) {
+        null
+    };
+</script>
+
+
+<script type="text/javascript">
+
+    var d_version = "production_6888";
+    var build = "2026-10-28T13_49_22";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+
+
+
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+
+
+
+
+<!-- Injecting site-wide before scripts -->
+
+<!-- End Injecting site-wide to the head -->
+
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+
+
+<script type="text/javascript">
+    window.popups =
+    [{"title":"Inquire About IMS","url":"/inquire-about-ims-popup","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"797","overlayColor":"rgba(195, 195, 195,0.5)","height":"505","animation":"fadeIn"},"name":"inquire-about-ims-popup"}]
+</script>
+
+
+
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+
+
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["common.mapbox.token"] = '[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["common.build.dist.folder"] = 'production/6888';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/6888';
+    rtCommonProps["common.fonts.api.v2.url"] = 'https://irp.cdn-website.com/fonts/css2?family=';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://irp.cdn-website.com/';
+    rtCommonProps["feature.flag.performance.logs"] =false;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["termly.mapbox.consent.category"] = 'performance';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.repeatOrderRedirect.enabled"] = false;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.monolith.legacy.js.api.disabled.for.new.sites"] = false;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["flex.animation.design.panel.layout"] =true;
+    rtFlags["runtime.cwv.report.cls.enabled"] =false;
+    rtFlags["runtime.cwv.report.lcp.enabled"] =false;
+    rtFlags["runtime.lcp.preload.selfheal.enabled"] =true;
+    rtFlags["runtime.lcp.preload.bootstrap.enabled"] =true;
+    rtFlags["runtime.lcp.preload.monitor.enabled"] =false;
+    rtFlags["runtime.customwidget.heightpin.enabled"] =true;
+    rtFlags["runtime.customwidget.config.compare.enabled"] =false;
+    rtFlags["contact.form.useActiveForm"] =true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/6888/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://static.cdn-website.com/mnlt/production/6888/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+
+
+
+
+
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="display:none;" id="P6iryBW0Wu"></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" data-auto="pswp-close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" data-auto="pswp-share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 5874f0de -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup" data-auto="popup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" data-auto="popup-close" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    </script>
+<!--  Begin Body End Markup -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZC3WZSG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!--  End Body End Markup -->
+<!--  Site Wide Html Markup -->
+<div id="swh-c9c4be43d9e04a73871caf9518923743"><div data-wrapper-source="appstore" > <script type="text/javascript" src="https://cdn.userway.org/widget.js?account=ddumjUPzs1&platfAppInstalledSiteId=3439104"></script> </div></div><!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+
+// Find all anchor tags on the page
+const links = document.querySelectorAll('a');
+
+links.forEach(link => {
+    // Check if the link contains the target text
+    if (link.textContent && link.textContent.includes('Powered by Nido Marketing')) {
+        // Replace ONLY the text node, preserving any HTML structure inside
+        if (link.childNodes.length === 1 && link.childNodes[0].nodeType === 3) {
+            // Simple text node - just replace the text
+            link.childNodes[0].textContent = 'Powered by Montessori Thrive';
+        } else {
+            // Complex structure - walk through all text nodes
+            const walker = document.createTreeWalker(
+                link,
+                NodeFilter.SHOW_TEXT,
+                null,
+                false
+            );
+           
+            let node;
+            while (node = walker.nextNode()) {
+                if (node.textContent.includes('Powered by Nido Marketing')) {
+                    node.textContent = node.textContent.replace('Powered by Nido Marketing', 'Powered by Montessori Thrive');
+                }
+            }
+        }
+       
+        // Update ONLY the href attribute, keeping everything else intact
+        link.setAttribute('href', 'https://www.montessorithrive.com');
+    }
+});
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>

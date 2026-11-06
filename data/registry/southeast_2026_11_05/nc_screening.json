@@ -1,0 +1,32 @@
+[
+  {
+    "school": "Charlotte Bilingual PreSchool (Toddlers, ages 3-5)",
+    "district": "Charlotte Bilingual Preschool",
+    "source": "se_nc_csv",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Charlotte Bilingual PreSchool (Toddlers, ages 3-5)",
+    "disposition": "preschool_only",
+    "reason": "Preschool-only directory entry; K-12 academic scope not established",
+    "notes": ""
+  },
+  {
+    "school": "To be added",
+    "district": "Stanly County Schools",
+    "source": "se_nc_csv",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "To be added",
+    "disposition": "future_placeholder_not_school",
+    "reason": "Unnamed future continuation placeholder",
+    "notes": ""
+  },
+  {
+    "school": "Scroggs Elementary School",
+    "district": "",
+    "source": "se_nc_chccs_move",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Scroggs Elementary School",
+    "disposition": "language_specials_not_academic_immersion",
+    "reason": "Proposed Mandarin world-language specials track is distinct from Glenwood academic immersion; not added as a DL host",
+    "notes": ""
+  }
+]

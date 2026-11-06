@@ -1,0 +1,154 @@
+[
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 1,
+    "raw": {
+      "school": "Ada Merritt K-8 Center",
+      "languages": [
+        "Spanish",
+        "Portuguese"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-27aac5f20a6c",
+      "SE-FL-P-bc67ff9eb917"
+    ],
+    "school_ids": [
+      "SE-FL-S-16168963cb92"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 2,
+    "raw": {
+      "school": "Charles D. Wyche, Jr. Elementary School",
+      "languages": [
+        "Italian"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-2dfff3f4f206"
+    ],
+    "school_ids": [
+      "SE-FL-S-b2c784d3b704"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 3,
+    "raw": {
+      "school": "Coconut Grove Elementary School",
+      "languages": [
+        "French"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-bb4448cf5c54"
+    ],
+    "school_ids": [
+      "SE-FL-S-3d7c0cb142ef"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 4,
+    "raw": {
+      "school": "Coral Way K-8 Center",
+      "languages": [
+        "Spanish"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-ce9a9d2b01b7"
+    ],
+    "school_ids": [
+      "SE-FL-S-121a8c275e82"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 5,
+    "raw": {
+      "school": "George Washington Carver Elementary School",
+      "languages": [
+        "Italian"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-6185abf204ae"
+    ],
+    "school_ids": [
+      "SE-FL-S-5f7bd46b32da"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 6,
+    "raw": {
+      "school": "George Washington Carver Middle School",
+      "languages": [
+        "Spanish",
+        "French",
+        "Italian",
+        "German"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-a0c099d82104",
+      "SE-FL-P-0d5eb7d8d8b7",
+      "SE-FL-P-73a9342cbd1a",
+      "SE-FL-P-b520573a6e6d"
+    ],
+    "school_ids": [
+      "SE-FL-S-7fb829f834d5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 7,
+    "raw": {
+      "school": "International Studies Preparatory Academy",
+      "languages": [
+        "Spanish",
+        "French",
+        "Italian"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-8c5106245044",
+      "SE-FL-P-398b87db31a2",
+      "SE-FL-P-d84572c8b55d"
+    ],
+    "school_ids": [
+      "SE-FL-S-335f0624a9b5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_is_list",
+    "source_row": 8,
+    "raw": {
+      "school": "Sunset Elementary School",
+      "languages": [
+        "Spanish",
+        "French",
+        "German"
+      ]
+    },
+    "program_ids": [
+      "SE-FL-P-8e1355d31006",
+      "SE-FL-P-07cbae6f8a20",
+      "SE-FL-P-53c775366742"
+    ],
+    "school_ids": [
+      "SE-FL-S-488fa358928f"
+    ],
+    "disposition": "integrated"
+  }
+]

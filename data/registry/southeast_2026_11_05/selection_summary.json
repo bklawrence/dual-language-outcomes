@@ -1,0 +1,33 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "FL",
+    "GA",
+    "SC",
+    "NC",
+    "TN"
+  ],
+  "programme_records": {
+    "FL": 146,
+    "GA": 88,
+    "SC": 40,
+    "NC": 314,
+    "TN": 8
+  },
+  "programme_host_schools": {
+    "FL": 138,
+    "GA": 82,
+    "SC": 31,
+    "NC": 293,
+    "TN": 8
+  },
+  "screening_rows": {
+    "FL": 53,
+    "GA": 7,
+    "SC": 6,
+    "NC": 3,
+    "TN": 0
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://drtbprep.net/xmlrpc.php">
+
+    <title>Bilingual Education (BISO) &#8211; Dr. Toni Bilbao Preparatory Academy</title>
+    <script>
+      var bwg_admin_ajax = 'https://drtbprep.net/wp-admin/admin-ajax.php?action=shortcode_bwg';
+      var bwg_ajax_url = 'https://drtbprep.net/wp-admin/admin-ajax.php?action';
+      var bwg_plugin_url = 'https://drtbprep.net/wp-content/plugins/photo-gallery';
+      document.addEventListener('DOMContentLoaded', function(){ // Analog of $(document).ready(function(){
+        bwg_check_ready = function () {}
+        document.onkeyup = function(e){
+          if ( e.key == 'Escape' ) {
+            bwg_remove_loading_block();
+          }
+        };
+      });
+
+      // Set shortcode popup dimensions.
+      function bwg_set_shortcode_popup_dimensions() {
+        var H = jQuery(window).height(), W = jQuery(window).width();
+        jQuery("#TB_title").hide().first().show();
+        // New
+        var tbWindow = jQuery('#TB_window');
+        if (tbWindow.size()) {
+          tbWindow.width(W).height(H);
+          jQuery('#TB_iframeContent').width(W).height(H);
+          tbWindow.attr('style',
+            'top:'+ '0px !important;' +
+            'left:' + '0px !important;' +
+            'margin-left:' + '0;' +
+            'z-index:' + '1000500;' +
+            'max-width:' + 'none;' +
+            'max-height:' + 'none;' +
+            '-moz-transform:' + 'none;' +
+            '-webkit-transform:' + 'none'
+          );
+        }
+        // Edit
+        var tbWindow = jQuery('.mce-window[aria-label="Photo Gallery"]');
+        if (tbWindow.length) {
+          // To prevent wp centering window with old sizes.
+          setTimeout(function() {
+            tbWindow.width(W).height(H);
+            tbWindow.css({'top': 0, 'left': 0, 'margin-left': '0', 'z-index': '1000500'});
+            tbWindow.find('.mce-window-body').width(W).height(H);
+          }, 10);
+        }
+      }
+      // Create loading block.
+      function bwg_create_loading_block() {
+        jQuery('body').append('<div class="loading_div" style="display:block; width: 100%; height: 100%; opacity: 0.6; position: fixed; background-color: #000000; background-image: url('+ bwg_plugin_url +'/images/spinner.gif); background-position: center; background-repeat: no-repeat; background-size: 50px; z-index: 1001000; top: 0; left: 0;"></div>');
+      }
+      // Remove loading block.
+      function bwg_remove_loading_block() {
+        jQuery(".loading_div", window.parent.document).remove();
+        jQuery('.loading_div').remove();
+      }
+	  </script>
+        <script>
+      var wds_thickDims, wds_tbWidth, wds_tbHeight;
+      wds_tbWidth = 400;
+      wds_tbHeight = 200;
+      wds_thickDims = function() {
+        var tbWindow = jQuery('#TB_window'), H = jQuery(window).height(), W = jQuery(window).width(), w, h;
+        w = (wds_tbWidth && wds_tbWidth < W - 90) ? wds_tbWidth : W - 40;
+        h = (wds_tbHeight && wds_tbHeight < H - 60) ? wds_tbHeight : H - 40;
+        if (tbWindow.size()) {
+          tbWindow.width(w).height(h);
+          jQuery('#TB_iframeContent').width(w).height(h - 27);
+          tbWindow.css({'margin-left': '-' + parseInt((w / 2),10) + 'px'});
+          if (typeof document.body.style.maxWidth != 'undefined') {
+            tbWindow.css({'top':(H-h)/2,'margin-top':'0'});
+          }
+        }
+      };
+    </script>
+    <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Dr. Toni Bilbao Preparatory Academy &raquo; Feed" href="https://drtbprep.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dr. Toni Bilbao Preparatory Academy &raquo; Comments Feed" href="https://drtbprep.net/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://drtbprep.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrtbprep.net%2Fbilingual-education-biso%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://drtbprep.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdrtbprep.net%2Fbilingual-education-biso%2F&#038;format=xml" />
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.woff" as="font" type="font/woff2" crossorigin="anonymous">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='twb-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&#038;display=swap&#038;ver=7.1.4' media='all' />
+<link rel='stylesheet' id='twbbwg-global-css' href='https://drtbprep.net/wp-content/plugins/photo-gallery/booster/assets/css/global.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='pt-cv-public-style-css' href='https://drtbprep.net/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2' media='all' />
+<link rel='stylesheet' id='pt-cv-public-pro-style-css' href='https://drtbprep.net/wp-content/plugins/pt-content-views-pro/public/assets/css/cvpro.min.css?ver=5.9.1' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://drtbprep.net/wp-includes/css/dashicons.min.css?ver=7.1.4' media='all' />
+<link rel='stylesheet' id='elusive-css' href='https://drtbprep.net/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/elusive.min.css?ver=2.0' media='all' />
+<link rel='stylesheet' id='menu-icon-font-awesome-css' href='https://drtbprep.net/wp-content/plugins/menu-icons/css/fontawesome/css/all.min.css?ver=5.15.4' media='all' />
+<link rel='stylesheet' id='foundation-icons-css' href='https://drtbprep.net/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/foundation-icons.min.css?ver=3.0' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://drtbprep.net/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/genericons.min.css?ver=3.4' media='all' />
+<link rel='stylesheet' id='menu-icons-extra-css' href='https://drtbprep.net/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.13.25' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://drtbprep.net/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://drtbprep.net/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://drtbprep.net/wp-includes/blocks/separator/style.min.css */
+</style>
+
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #0700ce;--wp--preset--color--green: #62C27C;--wp--preset--color--red: #C22828;--wp--preset--color--brown: #de9a4e;--wp--preset--color--coral: #EB484D;--wp--preset--color--gray: #666666;--wp--preset--color--background: #ffffff;--wp--preset--color--foreground: #444444;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.156), 16px);--wp--preset--font-size--large: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.469), 20px);--wp--preset--font-size--x-large: clamp(17.905px, 1.119rem + ((1vw - 3.2px) * 0.789), 28px);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--small: 20px;--wp--preset--spacing--medium: 40px;--wp--preset--spacing--large: 60px;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: min(800px, calc(100% - 64px));--wp--style--global--wide-size: min(910px, calc(100% - 48px)); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 20px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 20px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 20px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 20px;}:root :where(.is-layout-grid){gap: 20px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--primary);}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-green-color{color: var(--wp--preset--color--green) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-brown-color{color: var(--wp--preset--color--brown) !important;}.has-coral-color{color: var(--wp--preset--color--coral) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-green-background-color{background-color: var(--wp--preset--color--green) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-brown-background-color{background-color: var(--wp--preset--color--brown) !important;}.has-coral-background-color{background-color: var(--wp--preset--color--coral) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-green-border-color{border-color: var(--wp--preset--color--green) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-brown-border-color{border-color: var(--wp--preset--color--brown) !important;}.has-coral-border-color{border-color: var(--wp--preset--color--coral) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='pb_animate-css' href='https://drtbprep.net/wp-content/plugins/ays-popup-box/public/css/animate.css?ver=6.4.3' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css' href='https://drtbprep.net/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' media='all' />
+<link rel='stylesheet' id='sumoselect-css' href='https://drtbprep.net/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.4.6' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css' href='https://drtbprep.net/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=3.1.5' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts-css' href='https://fonts.googleapis.com/css?family=Ubuntu&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css' href='https://drtbprep.net/wp-content/plugins/photo-gallery/css/styles.min.css?ver=2.8.22' media='all' />
+<link rel='stylesheet' id='megamenu-css' href='https://drtbprep.net/wp-content/uploads/maxmegamenu/style.css?ver=d2bf16' media='all' />
+<link rel='stylesheet' id='megamenu-genericons-css' href='https://drtbprep.net/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome-css' href='https://drtbprep.net/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome5-css' href='https://drtbprep.net/wp-content/plugins/megamenu-pro/icons/fontawesome5/css/all.min.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome6-css' href='https://drtbprep.net/wp-content/plugins/megamenu-pro/icons/fontawesome6/css/all.min.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='zoom-theme-utils-css-css' href='https://drtbprep.net/wp-content/themes/presence/functions/wpzoom/assets/css/theme-utils.css?ver=2.2.9' media='all' />
+<link rel='stylesheet' id='presence-google-fonts-css' href='https://fonts.googleapis.com/css?family=Libre+Franklin%3Aregular%2C600%2C700%2C700i%2Citalic&#038;subset=latin&#038;display=swap&#038;ver=2.0.14' media='all' />
+<link rel='stylesheet' id='presence-style-css' href='https://drtbprep.net/wp-content/themes/presence/style.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='media-queries-css' href='https://drtbprep.net/wp-content/themes/presence/css/media-queries.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='presence-style-color-default-css' href='https://drtbprep.net/wp-content/themes/presence/styles/default.css?ver=2.0.14' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://drtbprep.net/wp-content/plugins/social-icons-widget-pro/assets/css/wpzoom-social-icons-styles.css?ver=1775670943' media='all' />
+<link rel='stylesheet' id='magnificPopup-css' href='https://drtbprep.net/wp-content/plugins/wpzoom-addons-for-beaver-builder/assets/css/magnific-popup.css?ver=1.4.0' media='all' />
+<script id="jquery-core-js" src="https://drtbprep.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://drtbprep.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="twbbwg-circle-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/booster/assets/js/circle-progress.js?ver=1.2.2"></script>
+<script id="twbbwg-global-js-extra">
+var twb = {"nonce":"23b4a8f6f0","ajax_url":"https://drtbprep.net/wp-admin/admin-ajax.php","plugin_url":"https://drtbprep.net/wp-content/plugins/photo-gallery/booster","href":"https://drtbprep.net/wp-admin/admin.php?page=twbbwg_photo-gallery"};
+var twb = {"nonce":"23b4a8f6f0","ajax_url":"https://drtbprep.net/wp-admin/admin-ajax.php","plugin_url":"https://drtbprep.net/wp-content/plugins/photo-gallery/booster","href":"https://drtbprep.net/wp-admin/admin.php?page=twbbwg_photo-gallery"};
+//# sourceURL=twbbwg-global-js-extra
+</script>
+<script id="twbbwg-global-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/booster/assets/js/global.js?ver=1.0.0"></script>
+<script id="ays-pb-js-extra">
+var pbLocalizeObj = {"ajax":"https://drtbprep.net/wp-admin/admin-ajax.php","seconds":"seconds","thisWillClose":"This will close in","icons":{"close_icon":"\u003Csvg class=\"ays_pb_material_close_icon\" xmlns=\"https://www.w3.org/2000/svg\" height=\"36px\" viewBox=\"0 0 24 24\" width=\"36px\" fill=\"#000000\" alt=\"Pop-up Close\"\u003E\u003Cpath d=\"M0 0h24v24H0z\" fill=\"none\"/\u003E\u003Cpath d=\"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z\"/\u003E\u003C/svg\u003E","close_circle_icon":"\u003Csvg class=\"ays_pb_material_close_circle_icon\" xmlns=\"https://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 0 24 24\" width=\"36\" alt=\"Pop-up Close\"\u003E\u003Cpath d=\"M0 0h24v24H0z\" fill=\"none\"/\u003E\u003Cpath d=\"M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z\"/\u003E\u003C/svg\u003E","volume_up_icon":"\u003Csvg class=\"ays_pb_fa_volume\" xmlns=\"https://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 0 24 24\" width=\"36\"\u003E\u003Cpath d=\"M0 0h24v24H0z\" fill=\"none\"/\u003E\u003Cpath d=\"M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z\"/\u003E\u003C/svg\u003E","volume_mute_icon":"\u003Csvg xmlns=\"https://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\"\u003E\u003Cpath d=\"M0 0h24v24H0z\" fill=\"none\"/\u003E\u003Cpath d=\"M7 9v6h4l5 5V4l-5 5H7z\"/\u003E\u003C/svg\u003E"}};
+//# sourceURL=ays-pb-js-extra
+</script>
+<script id="ays-pb-js" src="https://drtbprep.net/wp-content/plugins/ays-popup-box/public/js/ays-pb-public.js?ver=6.4.3"></script>
+<script id="sumoselect-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.4.6"></script>
+<script id="bwg_mobile-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/js/tocca.min.js?ver=2.0.9"></script>
+<script id="mCustomScrollbar-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=3.1.5"></script>
+<script id="jquery-fullscreen-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/js/jquery.fullscreen.min.js?ver=0.6.0"></script>
+<script id="bwg_frontend-js-extra">
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"1","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https://drtbprep.net/wp-content/plugins/photo-gallery/images/ajax_loader.png","front_ajax":"0","bwg_tag_see_all":"see all tags","bwg_tag_see_less":"see less tags"};
+//# sourceURL=bwg_frontend-js-extra
+</script>
+<script id="bwg_frontend-js" src="https://drtbprep.net/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=2.8.22"></script>
+<link rel="https://api.w.org/" href="https://drtbprep.net/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://drtbprep.net/wp-json/wp/v2/pages/10517" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://drtbprep.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel="canonical" href="https://drtbprep.net/bilingual-education-biso/" />
+<link rel='shortlink' href='https://drtbprep.net/?p=10517' />
+	<style>img#wpstats{display:none}</style>
+		<!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="Presence 2.0.14" />
+<meta name="generator" content="WPZOOM Framework 2.2.9" />
+
+<!-- Begin Theme Custom CSS -->
+<style type="text/css" id="presence-custom-css">
+.brand-wrap .tagline{display:none;}.sb-search{display:none;}body{background:#000000;color:#212121;}.navbar-brand-wpz a{color:#007377;}.navbar-brand-wpz a:hover{color:#000000;}.navbar-brand-wpz .tagline{color:#000000;font-weight:bold;}a, .zoom-twitter-widget a{color:#00564f;}a:hover, .zoom-twitter-widget a:hover{color:#1e73be;}button, input[type=button], input[type=reset], input[type=submit]{background:#000000;}.top-navbar .navbar-wpz a{color:#ffffff;font-weight:600;}.top-navbar .navbar-wpz a:hover{color:#e5bf00;}.top-navbar .navbar-wpz > .current-menu-item > a, .top-navbar .navbar-wpz > .current_page_item > a{color:#e5d37b;}.main-navbar{background:#b20000;}.main-navbar .sf-menu > li > a{color:#ffffff;}.main-navbar .sf-menu > li a:hover{color:#e5bf00;}.main-navbar .navbar-wpz > .current-menu-item > a, .main-navbar .navbar-wpz > .current_page_item > a{color:#e5d37b;}.sb-search .sb-icon-search{color:#ffffff;}.sb-search .sb-icon-search:hover, .sb-search .sb-search-input{background:#000000;}.slicknav_menu .slicknav_menutxt{color:#000000;}.slicknav_menu .slicknav_icon-bar{background-color:#000000;}.slide-style-1 .slides .slide_button a, .slide-style-2 .slides .slide_button a, .slide-style-3 .slides .slide_button a{color:#ffffff;background:#016650;}.slide-style-1 .slides .slide_button a:hover, .slide-style-2 .slides .slide_button a:hover, .slide-style-3 .slides .slide_button a:hover{color:#016650;background:#ffffff;}.infinite-scroll .inner-wrap #infinite-handle span{background:#000000;}.entry-content{color:#282828;}.entry-content a{color:#006b5c;}.site-footer{background-color:#b20000;color:#ffffff;}.main-navbar a{font-size:17px;font-weight:600;}.slicknav_nav a{font-size:16px;}.slides li .slide-header p{font-size:21px;}
+@media screen and (min-width: 950px){.slide-style-1 .slides li h3, .slide-style-1 .slides li h3 a, .slide-style-2 .slides li h3, .slide-style-2 .slides li h3 a, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{color:#ffffff;}}
+@media screen and (min-width: 769px){body{font-size:16px;}.navbar-brand-wpz h1 a{font-size:45px;}.navbar-brand-wpz .tagline{font-size:28px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:50px;}.slides .slide_button{font-size:16px;}.homepage_full .widget h3.title{font-size:26px;}.homepage_widgets .home_column h3.title{font-size:22px;}.page h1.entry-title{font-size:40px;}.single h1.entry-title{font-size:40px;}.section-title{font-size:28px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:26px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:20px;}}
+@media screen and (max-width: 768px){body{font-size:16px;}.navbar-brand-wpz h1 a{font-size:34px;}.navbar-brand-wpz .tagline{font-size:14px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:36px;}.slides .slide_button{font-size:14px;}.homepage_full .widget h3.title{font-size:26px;}.homepage_widgets .home_column h3.title{font-size:22px;}.page h1.entry-title{font-size:30px;}.single h1.entry-title{font-size:30px;}.section-title{font-size:24px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:24px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:20px;}}
+@media screen and (max-width: 480px){body{font-size:16px;}.navbar-brand-wpz h1 a{font-size:26px;}.navbar-brand-wpz .tagline{font-size:14px;}.slides li h3, .slide-style-3 .slides li h3, .slide-style-3 .slides li h3 a{font-size:22px;}.slides .slide_button{font-size:14px;}.homepage_full .widget h3.title{font-size:20px;}.homepage_widgets .home_column h3.title{font-size:20px;}.page h1.entry-title{font-size:28px;}.single h1.entry-title{font-size:28px;}.section-title{font-size:22px;}.entry-title, .recent-posts.blog-view .post .entry-title{font-size:22px;}.readmore_button{font-size:16px;}.widget .title{font-size:20px;}.site-footer .widget .title{font-size:20px;}}
+</style>
+<!-- End Theme Custom CSS -->
+<link rel="icon" href="https://drtbprep.net/wp-content/uploads/bronco-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://drtbprep.net/wp-content/uploads/bronco.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://drtbprep.net/wp-content/uploads/bronco.png" />
+<meta name="msapplication-TileImage" content="https://drtbprep.net/wp-content/uploads/bronco.png" />
+<style id="wp-custom-css">
+ul.sub-menu {
+	background-color: #B20100;       
+}
+
+#main .column {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    display: block;
+    float: none;
+} 
+
+.staff_sc_container {
+text-align:center;
+}
+.staff_contact {
+float:none !important;
+display: inline-block;
+}
+
+.navbar-wpz {
+    display: flex;
+    justify-content: center;
+}
+
+.slicknav_menu .slicknav_menutxt {
+    color: #fff;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #fff;
+}
+
+.navbar-brand-wpz img {
+    max-width: 100%;
+    height: auto;
+    }
+
+.sub-menu li a {
+		font-size:15px!important;}
+
+.sub-menu li a {
+  color: #fff!important
+}
+
+.sub-menu li a:hover {
+  color: #fff!important}
+
+.top-navbar {
+	background-color: #B20100;
+   }
+
+.top-navbar {
+  padding: 3px 0;
+    position: relative;
+	  }
+
+  .navbar-wpz .sub-menu li:not(:last-child) {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar-wpz {
+  position: relative;
+  z-index: 100; }
+  .navbar-wpz > li {
+    padding: 0 9px; }
+    .navbar-wpz > li:first-child {
+      padding-left: 0; }
+    .navbar-wpz > li:last-child {
+      margin-right: 0; }
+  .navbar-wpz a {
+    padding: 8px 0;
+    }
+  .navbar-wpz ul {
+		background-color: #B20100;  
+    text-align: left;
+		        min-width: 300px;
+    margin: 0;
+    padding: 1px;
+    font-size: 16px;
+    left: 2{134cc3035faa7374d48ba252b19d90f5b305c0634b9dc5ec03e8af4b155a636e};
+    border: 2px solid #fff;
+		border-radius: 3px;}
+    
+ .navbar-wpz ul a:hover {
+		background-color: #234893;  
+    text-align: left;	 
+    }
+    
+.brand-wrap.left .navbar-brand-wpz {
+    margin: 0;
+}
+
+.brand-wrap.left .inner-wrap {
+    padding: 0;
+    max-width: 100%;
+}
+
+.brand-wrap.left a {
+    font-size: inherit;
+}
+
+/* Slide Style 2 */
+.slide-style-2 .slides li .slide-header {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  margin: 0;
+  padding: 40px 10{134cc3035faa7374d48ba252b19d90f5b305c0634b9dc5ec03e8af4b155a636e}; }
+
+
+
+.wp-block-file__button {
+
+background-color: #000;
+border: none;
+color: #fff!important;
+color: white;
+padding: 8px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 2px;
+cursor: pointer;
+}
+</style>
+<link rel='stylesheet' id='ays-pb-min-css' href='https://drtbprep.net/wp-content/plugins/ays-popup-box/public/css/ays-pb-public-min.css?ver=6.4.3' media='all' />
+
+</head>
+
+
+<body class="wp-singular page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php page page-id-10517 wp-custom-logo wp-theme-presence wpz_layout_full fl-builder-2-11-1-2 fl-no-js do-etfw mega-menu-tertiary">
+
+    <div class="page-wrap">
+
+        <header class="site-header">
+
+            <nav class="top-navbar" role="navigation">
+
+                <div class="inner-wrap">
+
+                    <div class="header_social">
+                        
+                    </div>
+
+                    <div id="navbar-top">
+
+                        <div class="menu-top-container"><ul id="menu-top" class="navbar-wpz dropdown sf-menu"><li id="menu-item-6022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022"><a href="https://drtbprep.net/news-announcements/"><i class="_mi _before far fa-newspaper" aria-hidden="true"></i><span>News &#038; Announcements</span></a></li>
+<li id="menu-item-9859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9859"><a target="_blank" href="#"><i class="_mi _before dashicons dashicons-info" aria-hidden="true"></i><span>Code of Student Conduct</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-11107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11107"><a target="_blank" href="https://codeofconduct.dadeschools.net/#!/fullWidth/5866">Code of Student Conduct</a></li>
+	<li id="menu-item-11108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11108"><a target="_blank" href="https://youtu.be/fUXWAw191rQ">COSC Presentation Grades 6-12</a></li>
+	<li id="menu-item-11109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11109"><a target="_blank" href="https://youtu.be/CdCSkflzpRw">COSC Presentation Grades K-5</a></li>
+</ul>
+</li>
+<li id="menu-item-11128" class="menu-item menu-item-type-wpzoom menu-item-object-wpzoom menu-item-11128">
+		
+		
+			
+			
+		<a class="zoom-social_icons-list__link zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels zoom-social-icons-list" href="https://x.com/dtbprep"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">x</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#000" style="background-color : #000; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg role="img" viewBox="0 0 24 24" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>			</span>
+
+					</a>
+
+			
+	
+		
+		</li>
+<li id="menu-item-11129" class="menu-item menu-item-type-wpzoom menu-item-object-wpzoom menu-item-11129">
+		
+		
+			
+			
+		<a class="zoom-social_icons-list__link zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels zoom-social-icons-list" href="https://www.facebook.com/profile.php?id=100057304785417"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">facebook</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#1877F2" style="background-color : #1877F2; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>facebook2</title><path d="M32.029 15.733c0-8.845-7.17-16.014-16.014-16.014s-16.014 7.17-16.014 16.014c0 7.993 5.856 14.618 13.512 15.82v-11.191h-4.066v-4.629h4.066v-3.528c0-4.014 2.391-6.231 6.049-6.231 1.752 0 3.585 0.313 3.585 0.313v3.941h-2.019c-1.989 0-2.61 1.234-2.61 2.501v3.004h4.442l-0.71 4.629h-3.732v11.191c7.656-1.201 13.512-7.827 13.512-15.82z"></path></svg>
+			</span>
+
+					</a>
+
+			
+	
+		
+		</li>
+<li id="menu-item-11130" class="menu-item menu-item-type-wpzoom menu-item-object-wpzoom menu-item-11130">
+		
+		
+			
+			
+		<a class="zoom-social_icons-list__link zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels zoom-social-icons-list" href="https://www.instagram.com/drtonibilbaopreparatory/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">instagram</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#e4405f" style="background-color : #e4405f; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>instagram</title><path d="M16.031 2.324c4.283 0 4.791 0.019 6.475 0.094 1.566 0.069 2.411 0.332 2.975 0.551 0.745 0.288 1.284 0.639 1.841 1.196 0.564 0.564 0.908 1.096 1.202 1.841 0.219 0.564 0.482 1.415 0.551 2.975 0.075 1.691 0.094 2.198 0.094 6.475s-0.019 4.791-0.094 6.475c-0.069 1.566-0.332 2.411-0.551 2.975-0.288 0.745-0.639 1.284-1.196 1.841-0.564 0.564-1.096 0.908-1.841 1.202-0.564 0.219-1.415 0.482-2.975 0.551-1.691 0.075-2.198 0.094-6.475 0.094s-4.791-0.019-6.475-0.094c-1.566-0.069-2.411-0.332-2.975-0.551-0.745-0.288-1.284-0.639-1.841-1.196-0.564-0.564-0.908-1.096-1.202-1.841-0.219-0.564-0.482-1.415-0.551-2.975-0.075-1.691-0.094-2.198-0.094-6.475s0.019-4.791 0.094-6.475c0.069-1.566 0.332-2.411 0.551-2.975 0.288-0.745 0.639-1.284 1.196-1.841 0.564-0.564 1.096-0.908 1.841-1.202 0.564-0.219 1.415-0.482 2.975-0.551 1.685-0.075 2.192-0.094 6.475-0.094zM16.031-0.563c-4.352 0-4.897 0.019-6.607 0.094-1.703 0.075-2.874 0.351-3.889 0.745-1.058 0.413-1.954 0.958-2.843 1.854-0.895 0.889-1.44 1.785-1.854 2.837-0.395 1.021-0.67 2.186-0.745 3.889-0.075 1.716-0.094 2.261-0.094 6.613s0.019 4.897 0.094 6.607c0.075 1.703 0.351 2.874 0.745 3.889 0.413 1.058 0.958 1.954 1.854 2.843 0.889 0.889 1.785 1.44 2.837 1.847 1.021 0.395 2.186 0.67 3.889 0.745 1.71 0.075 2.254 0.094 6.607 0.094s4.897-0.019 6.607-0.094c1.703-0.075 2.874-0.351 3.889-0.745 1.052-0.407 1.948-0.958 2.837-1.847s1.44-1.785 1.847-2.837c0.395-1.021 0.67-2.186 0.745-3.889 0.075-1.71 0.094-2.254 0.094-6.607s-0.019-4.897-0.094-6.607c-0.075-1.703-0.351-2.874-0.745-3.889-0.395-1.065-0.939-1.96-1.835-2.849-0.889-0.889-1.785-1.44-2.837-1.847-1.021-0.395-2.186-0.67-3.889-0.745-1.716-0.081-2.261-0.1-6.613-0.1v0zM16.031 7.233c-4.546 0-8.235 3.688-8.235 8.235s3.688 8.235 8.235 8.235 8.235-3.688 8.235-8.235c0-4.546-3.688-8.235-8.235-8.235zM16.031 20.81c-2.95 0-5.342-2.392-5.342-5.342s2.392-5.342 5.342-5.342c2.95 0 5.342 2.392 5.342 5.342s-2.392 5.342-5.342 5.342zM26.514 6.907c0 1.062-0.861 1.923-1.922 1.923s-1.922-0.861-1.922-1.923c0-1.062 0.861-1.923 1.922-1.923s1.922 0.861 1.922 1.923z"></path></svg>			</span>
+
+					</a>
+
+			
+	
+		
+		</li>
+<li style="position:relative;" class="menu-item menu-item-gtranslate gt-menu-43651"></li></ul></div>
+                    </div><!-- #navbar-top -->
+
+                </div><!-- /.inner-wrap -->
+
+            </nav><!-- .navbar -->
+
+            <div class="clear"></div>
+
+            <div class="brand-wrap left">
+
+                <div class="inner-wrap">
+
+                    <div class="navbar-brand-wpz">
+
+                            
+                            <a href="https://drtbprep.net/" class="custom-logo-link" rel="home" itemprop="url"><img width="2560" height="512" src="https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-scaled.png" class="custom-logo no-lazyload no-lazy a3-notlazy" alt="bilbao banner" itemprop="logo" decoding="async" fetchpriority="high" srcset="https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-scaled.png 2560w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-300x60.png 300w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-1024x205.png 1024w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-768x154.png 768w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-1536x307.png 1536w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-2048x410.png 2048w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-800x160.png 800w, https://drtbprep.net/wp-content/uploads/bilbao-banner-2025-600x120.png 600w" sizes="(max-width: 2560px) 100vw, 2560px" /></a>
+                            
+                        <p class="tagline">Home of the Broncos</p>
+
+                    </div><!-- .navbar-brand-wpz -->
+
+
+                    
+                </div><!-- .inner-wrap -->
+
+            </div><!-- .brand-wrap -->
+
+
+            <nav class="main-navbar left" role="navigation">
+
+                <div class="inner-wrap">
+
+                    <div id="sb-search" class="sb-search">
+                        <form method="get" id="searchform" action="https://drtbprep.net/">
+	<input type="search" class="sb-search-input" placeholder="Enter your keywords..."  name="s" id="s" />
+    <input type="submit" id="searchsubmit" class="sb-search-submit" value="Search" />
+    <span class="sb-icon-search"></span>
+</form>                    </div>
+
+                    <div class="navbar-header-main">
+                        
+                           <div id="mega-menu-wrap-tertiary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"><div class='mega-toggle-block mega-icon-block mega-toggle-block-1' id='mega-toggle-block-1'><a class='mega-icon' target='_self'></a></div><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-2' id='mega-toggle-block-2'><button aria-controls="mega-menu-tertiary" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"></div></div><ul id="mega-menu-tertiary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="click" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-sticky-enabled="true" data-sticky-desktop="true" data-sticky-mobile="false" data-sticky-offset="0" data-sticky-expand="false" data-sticky-expand-mobile="false" data-sticky-transition="false" data-mobile-back-text="{parent_title}"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-menu-item-5762 menu-item" id="mega-menu-item-5762"><a class="mega-menu-link" href="https://drtbprep.net/"><i class="_mi dashicons dashicons-admin-home" aria-hidden="true" style="font-size:1.3em;"></i><span class="visuallyhidden">Home</span></a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-5901 menu-item" id="mega-menu-item-5901"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-5901">About<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-5901'>
+<li class="mega-menu-row menu-item" id="mega-menu-5901-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-5901-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-6 menu-item" id="mega-menu-item-media_image-6"><img width="300" height="225" src="https://drtbprep.net/wp-content/uploads/DJI_0247-300x225.jpg" class="image wp-image-10541  attachment-medium size-medium" alt="DRONE SHOT" style="max-width: 100%; height: auto;" decoding="async" srcset="https://drtbprep.net/wp-content/uploads/DJI_0247-300x225.jpg 300w, https://drtbprep.net/wp-content/uploads/DJI_0247-1024x768.jpg 1024w, https://drtbprep.net/wp-content/uploads/DJI_0247-768x576.jpg 768w, https://drtbprep.net/wp-content/uploads/DJI_0247-1536x1152.jpg 1536w, https://drtbprep.net/wp-content/uploads/DJI_0247-2048x1536.jpg 2048w, https://drtbprep.net/wp-content/uploads/DJI_0247-800x600.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-5901-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10469 menu-item" id="mega-menu-item-10469"><a class="mega-menu-link" href="https://drtbprep.net/who-was-dr-toni-bilbao/">Who was Dr. Toni Bilbao?</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6776 menu-item" id="mega-menu-item-6776"><a class="mega-menu-link" href="https://drtbprep.net/principals-message/">Principal’s Message</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6817 menu-item" id="mega-menu-item-6817"><a class="mega-menu-link" href="https://drtbprep.net/administration/">Administration</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10468 menu-item" id="mega-menu-item-10468"><a class="mega-menu-link" href="https://drtbprep.net/vision-and-mission/">Vision and Mission</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-5901-0-2">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10740 menu-item" id="mega-menu-item-10740"><a target="_blank" class="mega-menu-link" href="https://accreditation.dadeschools.net/">Advanced ED Accreditation</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10917 menu-item" id="mega-menu-item-10917"><a class="mega-menu-link" href="https://drtbprep.net/academic-overview/">Academic Overview</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10834 menu-item" id="mega-menu-item-10834"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Staff-Directory-2-1.pdf">Staff Directory</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10478 menu-item" id="mega-menu-item-10478"><a class="mega-menu-link" href="https://drtbprep.net/teacher-of-the-year/">Teacher of the Year</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-close-after-click mega-collapse-children mega-menu-item-6210 menu-item" id="mega-menu-item-6210"><a class="mega-menu-link" href="#">Health/Food Inspections<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-6210'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10914 menu-item" id="mega-menu-item-10914"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Dr_-Toni-Bilbao-Preparatory-Academy-MLC_06_24_2024_RO_FS_06_24_24_321PM.pdf">Food Service Inspection Report - June 2024</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10912 menu-item" id="mega-menu-item-10912"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Dr_-Tony-Bilbao-Preparatory-Academy_06_24_2024_RO_BLDG_06_24_24_320PM.pdf">Public School Inspection Report MLC - June 2024</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10913 menu-item" id="mega-menu-item-10913"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Dr_-Tony-Bilbao-Preparatory-Academy_06_24_2024_RO_BLDG_06_24_24_320PM.pdf">Public School Inspection Report - June 2024</a></li>			</ul>
+</li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-5901-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-close-after-click mega-collapse-children mega-menu-item-6203 menu-item" id="mega-menu-item-6203"><a class="mega-menu-link" href="#">MDCPS District/Region Links<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-6203'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10792 menu-item" id="mega-menu-item-10792"><a target="_blank" class="mega-menu-link" href="https://strategicplan.dadeschools.net/#!/fullWidth/7282">2021-2026 Strategic Plan</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6559 menu-item" id="mega-menu-item-6559"><a target="_blank" class="mega-menu-link" href="http://www.dadeschools.net/">District Website</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6205 menu-item" id="mega-menu-item-6205"><a target="_blank" class="mega-menu-link" href="http://district5.dadeschools.net/">Meet Your School Board Member</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6206 menu-item" id="mega-menu-item-6206"><a target="_blank" class="mega-menu-link" href="http://centralregion.dadeschools.net/#!/">Central Region Office</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10793 menu-item" id="mega-menu-item-10793"><a target="_blank" class="mega-menu-link" href="https://studentservices.dadeschools.net/#!/fullWidth/1022">Values Matter</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-close-after-click mega-collapse-children mega-menu-item-6499 menu-item" id="mega-menu-item-6499"><a class="mega-menu-link" href="#">MDCPS Wellness Policy<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-6499'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6502 menu-item" id="mega-menu-item-6502"><a target="_blank" class="mega-menu-link" href="https://api.dadeschools.net/WMSFiles/17/Procedures/Wellness_Policy.pdf">Policy</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10996 menu-item" id="mega-menu-item-10996"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/SIP.pdf">SIP</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10995 menu-item" id="mega-menu-item-10995"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/School-Wellness_Healthy-School-Team-Committee-Action-Plan.pdf">School Wellness/Healthy School Team Committee Action Plan</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8836 menu-item" id="mega-menu-item-8836"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/School-Financial-Report-TBPA.pdf">School Financial Report</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-9731 menu-item" id="mega-menu-item-9731"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-9731">Academics<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-9731'>
+<li class="mega-menu-row menu-item" id="mega-menu-9731-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-12-of-12 menu-item" style="--columns:12; --span:12" id="mega-menu-9731-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10918 menu-item" id="mega-menu-item-10918"><a class="mega-menu-link" href="https://drtbprep.net/academic-overview/">Academic Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10717 menu-item" id="mega-menu-item-10717"><a class="mega-menu-link" href="https://drtbprep.net/biso-bilingual-school-organization-academic-program/">BISO (Bilingual School Organization) Academic Program</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-close-after-click mega-collapse-children mega-menu-item-10519 menu-item" id="mega-menu-item-10519"><a class="mega-menu-link" href="#">Cambridge<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-10519'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10518 menu-item" id="mega-menu-item-10518"><a class="mega-menu-link" href="https://drtbprep.net/cambridge-primary-program/">Cambridge Primary Program</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10520 menu-item" id="mega-menu-item-10520"><a target="_blank" class="mega-menu-link" href="https://advancedacademicprograms.dadeschools.net/#!/rightColumn/1435">Cambridge Schools</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-close-after-click mega-collapse-children mega-menu-item-10719 menu-item" id="mega-menu-item-10719"><a class="mega-menu-link" href="#">Curriculum Bulletin and Subject Selection<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-10719'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-9913 menu-item" id="mega-menu-item-9913"><a target="_blank" class="mega-menu-link" href="https://ehandbooks2.dadeschools.net/resources/open/3003">2026-2027 MDCPS Curriculum Bulletin</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10722 menu-item" id="mega-menu-item-10722"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/DTB-Subject-Selection-2024-2025-6th-grade.pdf">2024-2025 6th Grade Subject Selection</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10720 menu-item" id="mega-menu-item-10720"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/DTB-Subject-Selection-2024-2025-7th-grade.pdf">2024-2025 7th Grade Subject Selection</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10721 menu-item" id="mega-menu-item-10721"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/DTB-Subject-Selection-2024-2025-8th-grade.pdf">2024-2025 8th Grade Subject Selection</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-5911 menu-item" id="mega-menu-item-5911"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-5911">Students<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-5911'>
+<li class="mega-menu-row menu-item" id="mega-menu-5911-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-4-of-12 menu-item" style="--columns:12; --span:4" id="mega-menu-5911-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10746 menu-item" id="mega-menu-item-10746"><a target="_blank" class="mega-menu-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe3I86uOLdNX0KR5svYoLYFV2V8O0SQA5PFQ_tnvIpISr8s0A/viewform?vc=0&#038;c=0&#038;w=1&#038;flr=0"><i class="_mi _before dashicons dashicons-welcome-edit-page" aria-hidden="true"></i><span>Schedule Change Request Form</span></a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10941 menu-item" id="mega-menu-item-10941"><a target="_blank" class="mega-menu-link" href="https://classroommedia.dadeschools.net/">Classroom Library Link</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-collapse-children mega-menu-item-6407 menu-item" id="mega-menu-item-6407"><a target="_blank" class="mega-menu-link" href="#">Code of Student Conduct<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-6407'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11110 menu-item" id="mega-menu-item-11110"><a target="_blank" class="mega-menu-link" href="https://codeofconduct.dadeschools.net/#!/fullWidth/5866">Code of Student Conduct</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11111 menu-item" id="mega-menu-item-11111"><a target="_blank" class="mega-menu-link" href="https://youtu.be/fUXWAw191rQ">COSC Presentation Grades 6-12</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11112 menu-item" id="mega-menu-item-11112"><a target="_blank" class="mega-menu-link" href="https://youtu.be/CdCSkflzpRw">COSC Presentation Grades K-5</a></li>			</ul>
+</li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-4-of-12 menu-item" style="--columns:12; --span:4" id="mega-menu-5911-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6367 menu-item" id="mega-menu-item-6367"><a class="mega-menu-link" href="https://drtbprep.net/fortifyfl-see-something-say-something/">FortifyFL – See Something, Say Something</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11115 menu-item" id="mega-menu-item-11115"><a target="_blank" class="mega-menu-link" href="https://mdcpsmentalhealthservices.net/">Mental Health Resources</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7105 menu-item" id="mega-menu-item-7105"><a class="mega-menu-link" href="https://drtbprep.net/student-portal/">Student Portal</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-4-of-12 menu-item" style="--columns:12; --span:4" id="mega-menu-5911-0-2">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-7129 menu-item" id="mega-menu-item-7129"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/Stay_Connected_Dadeschools_Mobile_Flyers.pdf">Stay Connected</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10735 menu-item" id="mega-menu-item-10735"><a class="mega-menu-link" href="https://drtbprep.net/uniform-policy/">Uniform Policy</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-6897 menu-item" id="mega-menu-item-6897"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-6897">Parents<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-6897'>
+<li class="mega-menu-row menu-item" id="mega-menu-6897-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-6897-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10929 menu-item" id="mega-menu-item-10929"><a target="_blank" class="mega-menu-link" href="https://math.dadeschools.net/#!/fullWidth/9038">2026-2027 Math-at-Home Plan</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10921 menu-item" id="mega-menu-item-10921"><a target="_blank" class="mega-menu-link" href="https://innovationschoolchoice.com/instructional-technology/instructional-mobile-devices/devices/">2026-2027 Mobile Device Checkout Procedures</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9429 menu-item" id="mega-menu-item-9429"><a class="mega-menu-link" href="https://drtbprep.net/new-student-registration/">2026-2027 New Student Registration</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11238 menu-item" id="mega-menu-item-11238"><a target="_blank" class="mega-menu-link" href="https://ela.dadeschools.net/#!/rightColumn/4825">2026-2027 Read-at-Home Plan for Student Success</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10920 menu-item" id="mega-menu-item-10920"><a target="_blank" class="mega-menu-link" href="https://api.dadeschools.net/WMSFiles/184/CERP/2026-2027%20Comprehensive%20Evidence-Based%20Reading%20Plan%20(CERP)%20Board%20Approved%20and%20Signed.pdf">2026-2027 School Board Approved Comprehensive Evidence-Based Reading Plan (CERP)</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10873 menu-item" id="mega-menu-item-10873"><a class="mega-menu-link" href="https://drtbprep.net/2025-2026-supply-lists-summer-reading/">2026-2027 Supply Lists/Summer Reading</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-6897-0-1">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10751 menu-item" id="mega-menu-item-10751"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/DTB-2023-2024_Arrival_Dismissal-Map.pdf">2024-2025 Arrival Dismissal Map</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10749 menu-item" id="mega-menu-item-10749"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Dr.-Toni-Bilbao-Preparatory-Academy-Parent-Student-Handbook-2023-2024-rev.10.25.23.pdf">2024-2025 Parent/Student Handbook</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-10927 menu-item" id="mega-menu-item-10927"><a class="mega-menu-link" href="https://drtbprep.net/accessing-the-parent-choice-application/">Accessing the Parent Choice Application</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10942 menu-item" id="mega-menu-item-10942"><a target="_blank" class="mega-menu-link" href="https://classroommedia.dadeschools.net/">Classroom Library Link</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-collapse-children mega-menu-item-10998 menu-item" id="mega-menu-item-10998"><a class="mega-menu-link" href="#">How to Submit an Excused Admit for an Absence<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-10998'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10999 menu-item" id="mega-menu-item-10999"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/How-to-Submit-an-Excused-Admit-for-an-Absence-via-the-Mobile-App.pdf">Mobile App</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11000 menu-item" id="mega-menu-item-11000"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/How-to-Submit-an-Excused-Admit-for-an-Absence-via-the-Parent-Portal.pdf">Parent Portal</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10615 menu-item" id="mega-menu-item-10615"><a target="_blank" class="mega-menu-link" href="https://innovationschoolchoice.com/resources/instructional-material-databank/"><i class="_mi _before elusive el-icon-laptop" aria-hidden="true"></i><span>Instructional Materials</span></a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10741 menu-item" id="mega-menu-item-10741"><a target="_blank" class="mega-menu-link" href="https://edudata.fldoe.org/ReportCards/Schools.html?school=4011&#038;district=13">FLDOE School Report Cards</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11075 menu-item" id="mega-menu-item-11075"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/07/07.14.2025-Letter-to-Parents.pdf">Florida Parental Rights and Protections in Education</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-6897-0-2">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11160 menu-item" id="mega-menu-item-11160"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2026/01/L0500-Florida-Report-Cards-2025-2026.pdf">Florida Report Cards Parent Letter 2025-2026</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-collapse-children mega-menu-item-11087 menu-item" id="mega-menu-item-11087"><a class="mega-menu-link" href="#">Heads Up Phone Down Campaign<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-11087'>
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11088 menu-item" id="mega-menu-item-11088"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/2025-Heads-Up-Phone-Down-Campaign-Elementary-K8-Middle-School-scaled.png">Heads Up Phone Down Campaign Elementary - K8 - Middle School</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11089 menu-item" id="mega-menu-item-11089"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/2025-Heads-Up-Phone-Down-Campaign-New-Florida-Law-What-Families-Need-to-Know-scaled.png">New Florida Law What Families Need to Know</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11090 menu-item" id="mega-menu-item-11090"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/2025-Heads-Up-Phone-Down-Campaign-Why-the-New-Rule-scaled.png">Why the New Rule</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11091 menu-item" id="mega-menu-item-11091"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/2025-Heads-Up-Phone-Down-Campaign-If-Not-Approved-it-Does-Not-Get-Used-Elementary-K8-Middle-School-scaled.png">If Not Approved it Does Not Get Used Flyer</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11092 menu-item" id="mega-menu-item-11092"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/2025-Heads-Up-Phone-Down-Campaign-Its-Time-to-Learn-Today-Elementary-K8-Middle-School-scaled.png">It's Time to Learn Today! Flyer</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8867 menu-item" id="mega-menu-item-8867"><a target="_blank" class="mega-menu-link" href="https://www.hsri.com/K12_Enrollment/Main/default.asp">K12 Student Insurance</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-collapse-children mega-menu-item-10774 menu-item" id="mega-menu-item-10774"><a class="mega-menu-link" href="#">Lunch<span class="mega-indicator" aria-hidden="true"></span></a>
+			<ul class="mega-sub-menu" id='mega-sub-menu-10774'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-10773 menu-item" id="mega-menu-item-10773"><a class="mega-menu-link" href="https://drtbprep.net/income-survey/">Income Survey</a></li>			</ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11116 menu-item" id="mega-menu-item-11116"><a target="_blank" class="mega-menu-link" href="https://mdcpsmentalhealthservices.net/">Mental Health Resources</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10499 menu-item" id="mega-menu-item-10499"><a target="_blank" class="mega-menu-link" href="https://www.engagemiamidade.net/e-tips-for-parents">MDCPS e-tips for Families</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-8563 menu-item" id="mega-menu-item-8563"><a target="_blank" class="mega-menu-link" href="http://mentalhealthservices.dadeschools.net/#!/fullWidth/3939">MDCPS Mental Health Services Website</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11105 menu-item" id="mega-menu-item-11105"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/4011-Military-Family-Support.pdf">Military Family Program</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10739 menu-item" id="mega-menu-item-10739"><a target="_blank" class="mega-menu-link" href="https://parentsbillofrights.dadeschools.net/#!/fullWidth/4718">Parents' Bill of Rights</a></li>		</ul>
+</li><li class="mega-menu-column mega-menu-columns-3-of-12 menu-item" style="--columns:12; --span:3" id="mega-menu-6897-0-3">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11114 menu-item" id="mega-menu-item-11114"><a target="_blank" class="mega-menu-link" href="https://fl-familyportal.cambiumast.com/#/">Family Portal / FAST</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11113 menu-item" id="mega-menu-item-11113"><a target="_blank" class="mega-menu-link" href="https://futureboundmiami.org/">Futurebound</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-7106 menu-item" id="mega-menu-item-7106"><a class="mega-menu-link" href="https://drtbprep.net/parent-portal/">Parent Portal</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10789 menu-item" id="mega-menu-item-10789"><a class="mega-menu-link" href="https://drtbprep.net/standard-response-protocol/">Standard Response Protocol</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-7130 menu-item" id="mega-menu-item-7130"><a target="_blank" class="mega-menu-link" href="https://basicsolutionsgroup.com/wp-content/uploads/2025/08/Stay_Connected_Dadeschools_Mobile_Flyers.pdf">Stay Connected</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-6423 menu-item" id="mega-menu-item-6423"><a target="_blank" class="mega-menu-link" href="https://parentacademymiami.com/">The Parent Academy</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-10736 menu-item" id="mega-menu-item-10736"><a class="mega-menu-link" href="https://drtbprep.net/uniform-policy/">Uniform Policy</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-10690 menu-item" id="mega-menu-item-10690"><a class="mega-menu-link" href="https://drtbprep.net/water-safety-parent-resources/">Water Safety Parent Resources</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11001 menu-item" id="mega-menu-item-11001"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Dr.-Toni-Bilbao-Preparatory-Academy-.pdf">YMCA After Care at DTB</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-10496 menu-item" id="mega-menu-item-10496"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-10496">PTA<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-10496'>
+<li class="mega-menu-row menu-item" id="mega-menu-10496-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-12-of-12 menu-item" style="--columns:12; --span:12" id="mega-menu-10496-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10497 menu-item" id="mega-menu-item-10497"><a target="_blank" class="mega-menu-link" href="https://drtonibilbao.memberhub.com/store">PTA Store</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10498 menu-item" id="mega-menu-item-10498"><a target="_blank" class="mega-menu-link" href="https://www.instagram.com/broncospta/">PTA Instagram</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10495 menu-item" id="mega-menu-item-10495"><a target="_blank" class="mega-menu-link" href="https://cpeba.dadeschools.net/#!/fullWidth/17915">Become a School Volunteer</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-5915 menu-item" id="mega-menu-item-5915"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-5915">Calendars/Schedules<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-5915'>
+<li class="mega-menu-row menu-item" id="mega-menu-5915-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-12-of-12 menu-item" style="--columns:12; --span:12" id="mega-menu-5915-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10994 menu-item" id="mega-menu-item-10994"><a class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Middle-School-AB-Calendar-1.pdf">2025-2026 AB Bell Schedule</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10997 menu-item" id="mega-menu-item-10997"><a class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/2024-25-Elementary-Bell-Schedule.pdf">2024-2025 Elementary Bell Schedule</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10916 menu-item" id="mega-menu-item-10916"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/2024-25-Middle-School-Bell-Schedule-1.pdf">2024-2025 Middle School Bell Schedule</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11024 menu-item" id="mega-menu-item-11024"><a target="_blank" class="mega-menu-link" href="https://api.dadeschools.net/WMSFiles/392/calendars/25-26/School-Calendars-2026-2027-Elementary.pdf">2026-2027 School Year Calendar</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10743 menu-item" id="mega-menu-item-10743"><a target="_blank" class="mega-menu-link" href="https://arda.dadeschools.net/#!/fullWidth/3937">MDCPS Testing Calendar</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-6503 menu-item" id="mega-menu-item-6503"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-6503">Contact Us<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-6503'>
+<li class="mega-menu-row menu-item" id="mega-menu-6503-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-12-of-12 menu-item" style="--columns:12; --span:12" id="mega-menu-6503-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-6043 menu-item" id="mega-menu-item-6043"><a class="mega-menu-link" href="https://drtbprep.net/school-contact-and-directions/">School Contact and Directions</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10836 menu-item" id="mega-menu-item-10836"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Staff-Directory-2-1.pdf">Staff Directory</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-item-10490 menu-item" id="mega-menu-item-10490"><a class="mega-menu-link" href="#" aria-expanded="false" aria-controls="mega-sub-menu-10490">Faculty<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" role='presentation' id='mega-sub-menu-10490'>
+<li class="mega-menu-row menu-item" id="mega-menu-10490-0">
+	<ul class="mega-sub-menu" style='--columns:12' role='presentation'>
+<li class="mega-menu-column mega-menu-columns-12-of-12 menu-item" style="--columns:12; --span:12" id="mega-menu-10490-0-0">
+		<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10491 menu-item" id="mega-menu-item-10491"><a target="_blank" class="mega-menu-link" href="https://auth.schoolsupporthub.cambridgeinternational.org/login?state=hKFo2SBoMlJkMm5vMHhwaDE0VjF6YWxLYnhnbGFBVUtVdUhDUKFupWxvZ2luo3RpZNkgckVCWmJvTjVEUWl5NWdBb0NRdEl1ekJTRGlsMFdLZ0ijY2lk2SBVOXZLeUJybzA4UG5GT05wMUpaUFFHQWFwTmt0Y3gwVw&#038;client=U9vKyBro08PnFONp1JZPQGAapNktcx0W&#038;protocol=oauth2&#038;redirect_uri=https%3A%2F%2Fprimary.cambridgeinternational.org%2Fsignin-auth0&#038;response_mode=form_post&#038;response_type=code%20id_token&#038;scope=openid%20profile%20email&#038;nonce=637952256554273542.YzMxZjkwNTYtNDU0My00NzE1LTg3MmYtYmMxODllMDhlZjhmMGJhZDU5NDctMTkxZi00NDJkLWJkMjMtOTc0MjBiMWQ0YTM0&#038;apptype=primary&#038;env=p&#038;x-client-SKU=ID_NET461&#038;x-client-ver=5.3.0.0">Cambridge Resources</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10492 menu-item" id="mega-menu-item-10492"><a target="_blank" class="mega-menu-link" href="https://gradebook.dadeschools.net/Pinnacle/Gradebook/Logon.aspx?ReturnUrl=%2FPinnacle%2FGradebook%2F">E-Gradebook</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10493 menu-item" id="mega-menu-item-10493"><a target="_blank" class="mega-menu-link" href="https://www3.dadeschools.net/home">Employee Portal</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-10835 menu-item" id="mega-menu-item-10835"><a target="_blank" class="mega-menu-link" href="http://drtbprep.net/wp-content/uploads/Staff-Directory-2-1.pdf">Staff Directory</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-11165 menu-item" id="mega-menu-item-11165"><a target="_blank" class="mega-menu-link" href="https://www3.dadeschools.net/home">Explore MDCPS</a></li></ul></div>
+                    </div>
+
+                    <div id="navbar-main">
+
+                        
+
+                    </div><!-- #navbar-main -->
+
+                </div><!-- .inner-wrap -->
+
+            </nav><!-- .main-navbar -->
+
+            <div class="clear"></div>
+
+        </header><!-- .site-header -->
+
+        <div class="inner-wrap">
+
+</div><!-- /.inner-wrap -->
+
+    
+    
+    
+
+        <div class="inner-wrap">
+
+            <main id="main" class="site-main full-width-page" role="main">
+
+                
+<article id="post-10517" class="post-10517 page type-page status-publish hentry">
+
+    <header class="entry-header">
+
+        <h1 class="entry-title">Bilingual Education (BISO)</h1>
+        
+    </header><!-- .entry-header -->
+
+
+    <div class="entry-content">
+        
+<h3 class="wp-block-heading">OUR BILINGUAL PROGRAM</h3>
+
+
+
+<p class="wp-block-paragraph"><strong>Designated as a Bilingual School Organization (BISO), Dr. Toni Bilbao Preparatory Academy offers students the opportunity to pursue a dual language education in English/Spanish. This successful program is based on the philosophy of the transfer of skills from one language to another.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Every elementary school student spends sixty percent of their day in English language instruction and forty percent of their day in a second language.</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+
+
+
+<p class="wp-block-paragraph">BISO schools offer a school-wide dual language program model. This program serves those students who are especially interested in developing their bilingual and bi-literate proficiency in English and one other language. BISO schools follow an instructional schedule where 60% of the day is devoted to instruction in or through English and 40% of the day is devoted to instruction in or through the language other than English. The time for instruction in the several areas of study follows the norms established for all elementary schools with the addition of sixty minutes daily for language arts in the language other than English. Instruction in the curriculum content areas is delivered in or through both languages. Upper academy students at K-8 Centers and middle school students pursue language and literature courses in the language of choice and take an additional course of Humanities instructed in the language-other than-English. The Program offers sections of English/Spanish, English/French, English/Chinese Mandarin, and English/Portuguese.</p>
+            </div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+                
+            </main><!-- #main -->
+
+        
+
+
+    <div class="clear"></div>
+
+    </div><!-- .inner-wrap -->
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+
+        <div class="inner-wrap">
+
+            
+                <div class="footer-widgets widgets widget-columns-3">
+                    
+                        <div class="column">
+                            <div class="widget widget_text" id="text-4">			<div class="textwidget"><p><img loading="lazy" decoding="async" class="aligncenter wp-image-10550 size-full" src="http://drtbprep.net/wp-content/uploads/TBPA-and-MDCPS-Logos-2022.png" alt="school logo" width="1000" height="506" srcset="https://drtbprep.net/wp-content/uploads/TBPA-and-MDCPS-Logos-2022.png 1000w, https://drtbprep.net/wp-content/uploads/TBPA-and-MDCPS-Logos-2022-300x152.png 300w, https://drtbprep.net/wp-content/uploads/TBPA-and-MDCPS-Logos-2022-768x389.png 768w, https://drtbprep.net/wp-content/uploads/TBPA-and-MDCPS-Logos-2022-800x405.png 800w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></p>
+</div>
+		<div class="clear"></div></div><div class="widget widget_media_image" id="media_image-5"><a href="https://getfortifyfl.com/" target="_blank"><img width="1022" height="258" src="https://drtbprep.net/wp-content/uploads/2021/05/FORTIFYFL.png" class="image wp-image-9506  attachment-full size-full" alt="report suspicious activities" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://drtbprep.net/wp-content/uploads/2021/05/FORTIFYFL.png 1022w, https://drtbprep.net/wp-content/uploads/2021/05/FORTIFYFL-300x76.png 300w, https://drtbprep.net/wp-content/uploads/2021/05/FORTIFYFL-768x194.png 768w, https://drtbprep.net/wp-content/uploads/2021/05/FORTIFYFL-800x202.png 800w" sizes="auto, (max-width: 1022px) 100vw, 1022px" /></a><div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                        <div class="column">
+                            <div class="widget widget_text" id="text-8">			<div class="textwidget"></div>
+		<div class="clear"></div></div><div class="widget widget_nav_menu" id="nav_menu-11"><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-5964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5964"><a target="_blank" href="https://get.adobe.com/reader/otherversions/">Download Adobe Reader</a></li>
+<li id="menu-item-7639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7639"><a href="https://drtbprep.net/parent-portal/">Parent Portal</a></li>
+<li id="menu-item-7638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7638"><a href="https://drtbprep.net/student-portal/">Student Portal</a></li>
+<li id="menu-item-6255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6255"><a href="https://drtbprep.net/web-accessibility-statement/">Web Accessibility Statement</a></li>
+</ul></div><div class="clear"></div></div><div class="widget widget_text" id="text-6"><h3 class="title">Follow Us</h3>			<div class="textwidget"><section class="widget zoom-social-icons-shortcode">
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--align-center zoom-social-icons-list--no-labels">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.facebook.com/profile.php?id=100057304785417"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">facebook</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#1877F2" style="fill : #ffffff; width: 33px; height: auto; max-height: 33px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>facebook2</title><path d="M32.029 15.733c0-8.845-7.17-16.014-16.014-16.014s-16.014 7.17-16.014 16.014c0 7.993 5.856 14.618 13.512 15.82v-11.191h-4.066v-4.629h4.066v-3.528c0-4.014 2.391-6.231 6.049-6.231 1.752 0 3.585 0.313 3.585 0.313v3.941h-2.019c-1.989 0-2.61 1.234-2.61 2.501v3.004h4.442l-0.71 4.629h-3.732v11.191c7.656-1.201 13.512-7.827 13.512-15.82z"></path></svg>
+			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.instagram.com/dtbbroncos/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">instagram</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#e4405f" style="fill : #ffffff; width: 33px; height: auto; max-height: 33px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>instagram</title><path d="M16.031 2.324c4.283 0 4.791 0.019 6.475 0.094 1.566 0.069 2.411 0.332 2.975 0.551 0.745 0.288 1.284 0.639 1.841 1.196 0.564 0.564 0.908 1.096 1.202 1.841 0.219 0.564 0.482 1.415 0.551 2.975 0.075 1.691 0.094 2.198 0.094 6.475s-0.019 4.791-0.094 6.475c-0.069 1.566-0.332 2.411-0.551 2.975-0.288 0.745-0.639 1.284-1.196 1.841-0.564 0.564-1.096 0.908-1.841 1.202-0.564 0.219-1.415 0.482-2.975 0.551-1.691 0.075-2.198 0.094-6.475 0.094s-4.791-0.019-6.475-0.094c-1.566-0.069-2.411-0.332-2.975-0.551-0.745-0.288-1.284-0.639-1.841-1.196-0.564-0.564-0.908-1.096-1.202-1.841-0.219-0.564-0.482-1.415-0.551-2.975-0.075-1.691-0.094-2.198-0.094-6.475s0.019-4.791 0.094-6.475c0.069-1.566 0.332-2.411 0.551-2.975 0.288-0.745 0.639-1.284 1.196-1.841 0.564-0.564 1.096-0.908 1.841-1.202 0.564-0.219 1.415-0.482 2.975-0.551 1.685-0.075 2.192-0.094 6.475-0.094zM16.031-0.563c-4.352 0-4.897 0.019-6.607 0.094-1.703 0.075-2.874 0.351-3.889 0.745-1.058 0.413-1.954 0.958-2.843 1.854-0.895 0.889-1.44 1.785-1.854 2.837-0.395 1.021-0.67 2.186-0.745 3.889-0.075 1.716-0.094 2.261-0.094 6.613s0.019 4.897 0.094 6.607c0.075 1.703 0.351 2.874 0.745 3.889 0.413 1.058 0.958 1.954 1.854 2.843 0.889 0.889 1.785 1.44 2.837 1.847 1.021 0.395 2.186 0.67 3.889 0.745 1.71 0.075 2.254 0.094 6.607 0.094s4.897-0.019 6.607-0.094c1.703-0.075 2.874-0.351 3.889-0.745 1.052-0.407 1.948-0.958 2.837-1.847s1.44-1.785 1.847-2.837c0.395-1.021 0.67-2.186 0.745-3.889 0.075-1.71 0.094-2.254 0.094-6.607s-0.019-4.897-0.094-6.607c-0.075-1.703-0.351-2.874-0.745-3.889-0.395-1.065-0.939-1.96-1.835-2.849-0.889-0.889-1.785-1.44-2.837-1.847-1.021-0.395-2.186-0.67-3.889-0.745-1.716-0.081-2.261-0.1-6.613-0.1v0zM16.031 7.233c-4.546 0-8.235 3.688-8.235 8.235s3.688 8.235 8.235 8.235 8.235-3.688 8.235-8.235c0-4.546-3.688-8.235-8.235-8.235zM16.031 20.81c-2.95 0-5.342-2.392-5.342-5.342s2.392-5.342 5.342-5.342c2.95 0 5.342 2.392 5.342 5.342s-2.392 5.342-5.342 5.342zM26.514 6.907c0 1.062-0.861 1.923-1.922 1.923s-1.922-0.861-1.922-1.923c0-1.062 0.861-1.923 1.922-1.923s1.922 0.861 1.922 1.923z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://x.com/dtbprep"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">x</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#ffffff" style="fill : #ffffff; width: 33px; height: auto; max-height: 33px; padding:8px" >				<svg role="img" viewBox="0 0 24 24" width="32" height="32" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>			</span>
+
+					</a>
+	</li>
+
+	
+</ul>
+
+		</section>
+</div>
+		<div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                        <div class="column">
+                            <div class="widget widget_text" id="text-9">			<div class="textwidget"></div>
+		<div class="clear"></div></div><div class="widget widget_text" id="text-3"><h3 class="title">Dr. Toni Bilbao Preparatory Academy</h3>			<div class="textwidget"><p>8905 NW 114th Ave, Doral, FL 33178<br />
+Phone: (305)863-5750<br />
+Fax: (305)883-5530<br />
+<iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.467810575939!2d-80.38456078568107!3d25.854076283594903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bc65d3142bbb%3A0xbe8a71b120dbf381!2sDr.%20Toni%20Bilbao%20Preparatory%20Academy!5e0!3m2!1sen!2sus!4v1659543976532!5m2!1sen!2sus" allowfullscreen=""></iframe></p>
+</div>
+		<div class="clear"></div></div>                        </div><!-- .column -->
+
+                    
+                    <div class="clear"></div>
+                </div><!-- .footer-widgets -->
+
+            
+
+            
+
+            <div class="site-info">
+
+                <p class="copyright">Copyright © 2025-2026 Dr. Toni Bilbao Preparatory Academy</p>
+
+
+
+            </div><!-- .site-info -->
+
+        </div>
+
+    </footer><!-- #colophon -->
+
+</div><!-- .page-wrap -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/presence/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+              (function(e){
+                  var el = document.createElement('script');
+                  el.setAttribute('data-account', 'gWvoKcAkOR');
+                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
+                  document.body.appendChild(el);
+                })();
+              </script><script id="pt-cv-content-views-script-js-extra">
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"b55d4bf01a","is_admin":"","is_mobile":"","ajaxurl":"https://drtbprep.net/wp-admin/admin-ajax.php","lang":"","loading_image_src":"data:image/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM/DJKZNLND/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"No posts found.","lf__separator":","};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+//# sourceURL=pt-cv-content-views-script-js-extra
+</script>
+<script id="pt-cv-content-views-script-js" src="https://drtbprep.net/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=4.5.1.2"></script>
+<script id="pt-cv-public-pro-script-js" src="https://drtbprep.net/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js?ver=5.9.1"></script>
+<script id="wpzoom-share-tracking-js-extra">
+var wpzoomShareTracking = {"restUrl":"https://drtbprep.net/wp-json/wpzoom-social-icons/v1/track-click","likeStatusUrl":"https://drtbprep.net/wp-json/wpzoom-social-icons/v1/like-status","nonce":"48d43ab621","postId":"10517","enableClickTracking":"1","openBehavior":"popup","copiedLabel":"Copied!"};
+//# sourceURL=wpzoom-share-tracking-js-extra
+</script>
+<script id="wpzoom-share-tracking-js" src="https://drtbprep.net/wp-content/plugins/social-icons-widget-pro/assets/js/share-tracking.js?ver=2.2.1"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://drtbprep.net/wp-includes/js/comment-reply.min.js?ver=7.1.4"></script>
+<script id="slicknav-js" src="https://drtbprep.net/wp-content/themes/presence/js/jquery.slicknav.min.js?ver=2.0.14"></script>
+<script id="flickity-js" src="https://drtbprep.net/wp-content/themes/presence/js/flickity.pkgd.min.js?ver=2.0.14"></script>
+<script id="fitvids-js" src="https://drtbprep.net/wp-content/themes/presence/js/jquery.fitvids.js?ver=2.0.14"></script>
+<script id="flexslider-js" src="https://drtbprep.net/wp-content/themes/presence/js/flexslider.js?ver=2.0.14"></script>
+<script id="underscore-js" src="https://drtbprep.net/wp-includes/js/underscore.min.js?ver=1.13.8"></script>
+<script id="retina-js" src="https://drtbprep.net/wp-content/themes/presence/js/retina.min.js?ver=2.0.14"></script>
+<script id="superfish-js" src="https://drtbprep.net/wp-content/themes/presence/js/superfish.min.js?ver=2.0.14"></script>
+<script id="search_button-js" src="https://drtbprep.net/wp-content/themes/presence/js/search_button.js?ver=2.0.14"></script>
+<script id="presence-script-js-extra">
+var zoomOptions = {"slideshow_auto":"1","slideshow_speed":"5000"};
+//# sourceURL=presence-script-js-extra
+</script>
+<script id="presence-script-js" src="https://drtbprep.net/wp-content/themes/presence/js/functions.js?ver=2.0.14"></script>
+<script id="do-etfw-twitter-widgets-js" src="https://drtbprep.net/wp-content/plugins/easy-twitter-feed-widget/js/twitter-widgets.js?ver=1.0"></script>
+<script id="zoom-social-icons-widget-frontend-js" src="https://drtbprep.net/wp-content/plugins/social-icons-widget-pro/assets/js/social-icons-widget-frontend.js?ver=1775670943"></script>
+<script id="magnificPopup-js" src="https://drtbprep.net/wp-content/plugins/wpzoom-addons-for-beaver-builder/assets/js/jquery.magnific-popup.min.js?ver=1.4.0"></script>
+<script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"209354536","post":"10517","tz":"-5","srv":"drtbprep.net","j":"1:15.9.2"} ]);
+_stq.push([ "clickTrackerInit", "209354536", "10517" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer id="jetpack-stats-js" src="https://stats.wp.com/e-202645.js"></script>
+<script id="hoverIntent-js" src="https://drtbprep.net/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="megamenu-js" src="https://drtbprep.net/wp-content/plugins/megamenu/js/maxmegamenu.min.js?ver=3.10.8"></script>
+<script id="megamenu-pro-js" src="https://drtbprep.net/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.5"></script>
+<script id="gt_widget_script_60757151-js-before">
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['60757151'] = {"default_language":"en","languages":["ar","zh-CN","nl","en","fr","de","it","pt","ru","es"],"url_structure":"none","wrapper_selector":"li.menu-item-gtranslate.gt-menu-43651","select_language_label":"Select Language","horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+//# sourceURL=gt_widget_script_60757151-js-before
+</script><script src="https://drtbprep.net/wp-content/plugins/gtranslate/js/dropdown.js?ver=5.0.1" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/bilingual-education-biso/" data-gt-orig-domain="drtbprep.net" data-gt-widget-id="60757151" defer></script><script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://drtbprep.net/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://drtbprep.net/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>

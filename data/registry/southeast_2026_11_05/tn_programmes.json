@@ -1,0 +1,480 @@
+[
+  {
+    "program_id": "SE-TN-P-868cc23c5ac7",
+    "school_id": "SE-TN-S-e54a705679d2",
+    "state": "TN",
+    "district": "Clarksville-Montgomery County School System",
+    "school": "Richview Middle School",
+    "track": "Spanish immersion",
+    "notes": "Operator identifies named dual-language continuation; no elementary allocation assigned.",
+    "observations": [
+      {
+        "source": "se_tn_barksdale",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Richview Middle School / Spanish immersion",
+        "notes": "Operator identifies named dual-language continuation; no elementary allocation assigned.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_immersion_continuation",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "se_tn_barksdale",
+      "locator": "Richview Middle School / Spanish immersion",
+      "notes": "Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."
+    },
+    "continuity_review": "SE-TN-P-868cc23c5ac7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SE-TN-P-8479ab9a1b1b",
+    "school_id": "SE-TN-S-47801f206de8",
+    "state": "TN",
+    "district": "Clarksville-Montgomery County School System",
+    "school": "Spanish Immersion at Barksdale",
+    "track": "Spanish immersion",
+    "notes": "Academic Spanish immersion since August 2018, with named Richview continuation. Brochure says at least 50% of the academic day, which is a lower bound and not an exact 50/50 allocation.",
+    "observations": [
+      {
+        "source": "se_tn_barksdale",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Spanish Immersion at Barksdale / Spanish immersion",
+        "notes": "Academic Spanish immersion since August 2018, with named Richview continuation. Brochure says at least 50% of the academic day, which is a lower bound and not an exact 50/50 allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "se_tn_barksdale",
+      "locator": "Spanish Immersion at Barksdale / Spanish immersion",
+      "notes": "Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."
+    },
+    "continuity_review": "SE-TN-P-8479ab9a1b1b-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SE-TN-P-fd05177d499f",
+    "school_id": "SE-TN-S-ea04a794289a",
+    "state": "TN",
+    "district": "Memphis-Shelby County Schools",
+    "school": "Treadwell Elementary School",
+    "track": "Spanish immersion",
+    "notes": "90/10 K entry model; page says target share decreases 10 points per grade. The separate 50/50 is pupil home-language balance, not the K allocation. Current application is for January 2026.",
+    "observations": [
+      {
+        "source": "se_tn_treadwell",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "strand",
+        "locator": "Treadwell Elementary School / Spanish immersion",
+        "notes": "90/10 K entry model; page says target share decreases 10 points per grade. The separate 50/50 is pupil home-language balance, not the K allocation. Current application is for January 2026.",
+        "label": "90/10",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "se_tn_treadwell",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K",
+        "label": "90/10",
+        "shares": {
+          "Spanish": 90,
+          "English": 10
+        },
+        "locator": "Treadwell Elementary School / published instructional model",
+        "notes": "90/10 K entry model; page says target share decreases 10 points per grade. The separate 50/50 is pupil home-language balance, not the K allocation. Current application is for January 2026.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "se_tn_treadwell",
+      "locator": "Treadwell Elementary School / Spanish immersion",
+      "notes": "Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."
+    },
+    "continuity_review": "SE-TN-P-fd05177d499f-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SE-TN-P-9b5d567cfa89",
+    "school_id": "SE-TN-S-7ebb2fe56ba8",
+    "state": "TN",
+    "district": "Metropolitan Nashville Public Schools",
+    "school": "Glendale Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Operator identifies Spanish academic math/science instruction and schoolwide immersion since 2004. Saved daily timetable does not assign every minute to a language, so no exact percentage is calculated.",
+    "observations": [
+      {
+        "source": "se_tn_glendale",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "whole_school",
+        "locator": "Glendale Elementary School / Spanish immersion",
+        "notes": "Operator identifies Spanish academic math/science instruction and schoolwide immersion since 2004. Saved daily timetable does not assign every minute to a language, so no exact percentage is calculated.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "se_tn_glendale",
+      "locator": "Glendale Elementary School / Spanish immersion",
+      "notes": "Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."
+    },
+    "continuity_review": "SE-TN-P-9b5d567cfa89-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "SE-TN-P-b50fd76520ad",
+    "school_id": "SE-TN-S-8d28be066252",
+    "state": "TN",
+    "district": "Metropolitan Nashville Public Schools",
+    "school": "Glenview Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+    "observations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Glenview Elementary School / Spanish immersion",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "se_tn_magnet26",
+        "period": "2026-27",
+        "grade": "K-1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "Later rollout reported retrospectively by the district.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Glenview Elementary School / published instructional model",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "se_tn_magnet25",
+        "year": "2025-26",
+        "status": "planned_kindergarten_launch_subsequently_confirmed",
+        "notes": "October 14, 2024 grant announcement described future whole-school magnet redesign. 2026 retrospective source confirms K-only first cohort, not PK-5 implementation."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "retrospective_operator_launch_confirmation",
+      "period": "2025-26",
+      "source": "se_tn_magnet26",
+      "locator": "Glenview Elementary School / Spanish immersion",
+      "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch."
+    }
+  },
+  {
+    "program_id": "SE-TN-P-cf543341d8f8",
+    "school_id": "SE-TN-S-e65a4e1837e6",
+    "state": "TN",
+    "district": "Metropolitan Nashville Public Schools",
+    "school": "Paragon Mills Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+    "observations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Paragon Mills Elementary School / Spanish immersion",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "se_tn_magnet26",
+        "period": "2026-27",
+        "grade": "K-1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "Later rollout reported retrospectively by the district.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Paragon Mills Elementary School / published instructional model",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "se_tn_magnet25",
+        "year": "2025-26",
+        "status": "planned_kindergarten_launch_subsequently_confirmed",
+        "notes": "October 14, 2024 grant announcement described future whole-school magnet redesign. 2026 retrospective source confirms K-only first cohort, not PK-5 implementation."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "retrospective_operator_launch_confirmation",
+      "period": "2025-26",
+      "source": "se_tn_magnet26",
+      "locator": "Paragon Mills Elementary School / Spanish immersion",
+      "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch."
+    }
+  },
+  {
+    "program_id": "SE-TN-P-e8f2ddab1483",
+    "school_id": "SE-TN-S-e05a2e23df3f",
+    "state": "TN",
+    "district": "Metropolitan Nashville Public Schools",
+    "school": "Stratton Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+    "observations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Stratton Elementary School / Spanish immersion",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "se_tn_magnet26",
+        "period": "2026-27",
+        "grade": "K-1",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "Later rollout reported retrospectively by the district.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "se_tn_magnet26",
+        "period": "2025-26",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Stratton Elementary School / published instructional model",
+        "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "CAMPUS_GRADE_BAND_MODEL"
+      }
+    ],
+    "events": [
+      {
+        "source": "se_tn_magnet25",
+        "year": "2025-26",
+        "status": "planned_kindergarten_launch_subsequently_confirmed",
+        "notes": "October 14, 2024 grant announcement described future whole-school magnet redesign. 2026 retrospective source confirms K-only first cohort, not PK-5 implementation."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "retrospective_operator_launch_confirmation",
+      "period": "2025-26",
+      "source": "se_tn_magnet26",
+      "locator": "Stratton Elementary School / Spanish immersion",
+      "notes": "District article dated October 9, 2026 explicitly states kindergarten launch in 2025-26; first grade added in 2026-27. Whole-school magnet design does not mean all K-5 grades had immersion at launch."
+    }
+  },
+  {
+    "program_id": "SE-TN-P-a1a7921a1f68",
+    "school_id": "SE-TN-S-58615ad1acec",
+    "state": "TN",
+    "district": "Public charter operator: ChattAcademy Community School",
+    "school": "ChattAcademy Community School",
+    "track": "Spanish immersion",
+    "notes": "Public tuition-free bilingual school. Saved site names 2025-26 6th-8th grade applications and intended 6-12 growth by 2029-30. Its 50% statistic is home-language composition; no instruction ratio inferred.",
+    "observations": [
+      {
+        "source": "se_tn_chatt",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "ChattAcademy Community School / Spanish immersion",
+        "notes": "Public tuition-free bilingual school. Saved site names 2025-26 6th-8th grade applications and intended 6-12 growth by 2029-30. Its 50% statistic is home-language composition; no instruction ratio inferred.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "se_tn_chatt_curriculum",
+        "period": "undated public programme page; retrieved 2026-11-05",
+        "grade": "secondary",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "programme description",
+        "notes": "Programme serves both home-language groups through a bilingual academic problem-based curriculum.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "secondary_academic_dual_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-05",
+      "source": "se_tn_chatt",
+      "locator": "ChattAcademy Community School / Spanish immersion",
+      "notes": "Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."
+    },
+    "continuity_review": "SE-TN-P-a1a7921a1f68-CONTINUITY-2025-26"
+  }
+]

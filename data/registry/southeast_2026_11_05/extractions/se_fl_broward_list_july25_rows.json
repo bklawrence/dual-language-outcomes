@@ -1,0 +1,542 @@
+[
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 1,
+    "raw": {
+      "school": "Gulfstream Early Learning Center",
+      "source_section_grade": "PK",
+      "source_school": "Gulfstream Early Learning Center"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 2,
+    "raw": {
+      "school": "Boulevard Heights Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Boulevard Heights Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-be451f2996f4"
+    ],
+    "school_ids": [
+      "SE-FL-S-02a71178ad37"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 3,
+    "raw": {
+      "school": "Broadview Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Broadview Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-30e8db513ffd"
+    ],
+    "school_ids": [
+      "SE-FL-S-f42495db7cc1"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 4,
+    "raw": {
+      "school": "Panther Run Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Panther Run Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-70c3a1946729"
+    ],
+    "school_ids": [
+      "SE-FL-S-c45c139ca7d1"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 5,
+    "raw": {
+      "school": "Chapel Trail Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Chapel Trail Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-8c24568e7bf8"
+    ],
+    "school_ids": [
+      "SE-FL-S-b559a9f01179"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 6,
+    "raw": {
+      "school": "Country Isles Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Country Isles Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-2ebd0af4c2fc"
+    ],
+    "school_ids": [
+      "SE-FL-S-adbc64e8d042"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 7,
+    "raw": {
+      "school": "Cypress Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Cypress Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-9c6afd345083"
+    ],
+    "school_ids": [
+      "SE-FL-S-de1c5a31fe14"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 8,
+    "raw": {
+      "school": "Eagle Point Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Eagle Point Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-9bc703d19f89"
+    ],
+    "school_ids": [
+      "SE-FL-S-aa36ee5a7e32"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 9,
+    "raw": {
+      "school": "Eagle Ridge Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Eagle Ridge Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-e3c2497c586f"
+    ],
+    "school_ids": [
+      "SE-FL-S-1b4e149a431b"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 10,
+    "raw": {
+      "school": "Everglades Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Everglades Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-c69802b1fa94"
+    ],
+    "school_ids": [
+      "SE-FL-S-8783755981f4"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 11,
+    "raw": {
+      "school": "Gator Run Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Gator Run Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-92a8ad14e437"
+    ],
+    "school_ids": [
+      "SE-FL-S-abe5c5837fee"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 12,
+    "raw": {
+      "school": "Gulfstream Academy Hallandale Beach K-8",
+      "source_section_grade": "K-5",
+      "source_school": "Gulfstream Academy Hallandale Beach K-5"
+    },
+    "program_ids": [
+      "SE-FL-P-3ec36ad362f9"
+    ],
+    "school_ids": [
+      "SE-FL-S-7ee15b0dc1fe"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 13,
+    "raw": {
+      "school": "Hollywood Hills Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Hollywood Hills Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-6b48b3506061"
+    ],
+    "school_ids": [
+      "SE-FL-S-1ed758ffb95d"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 14,
+    "raw": {
+      "school": "Indian Trace Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Indian Trace Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-3935d2cddef6"
+    ],
+    "school_ids": [
+      "SE-FL-S-c2c7793b4112"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 15,
+    "raw": {
+      "school": "Lakeside Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Lakeside Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-1a324c946bc0"
+    ],
+    "school_ids": [
+      "SE-FL-S-218ce47041b9"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 16,
+    "raw": {
+      "school": "Manatee Bay Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Manatee Bay Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-12fc03883e06"
+    ],
+    "school_ids": [
+      "SE-FL-S-124b0c25a675"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 17,
+    "raw": {
+      "school": "Meadowbrook Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Meadowbrook Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-7bb39990602a"
+    ],
+    "school_ids": [
+      "SE-FL-S-f77f1b395e49"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 18,
+    "raw": {
+      "school": "Mirror Lake Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Mirror Lake Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-2592f806fb0d"
+    ],
+    "school_ids": [
+      "SE-FL-S-2fafb2f601cf"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 19,
+    "raw": {
+      "school": "Oakland Park Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Oakland Park Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-a58128f6dda8"
+    ],
+    "school_ids": [
+      "SE-FL-S-35aaa8cde3ec"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 20,
+    "raw": {
+      "school": "Pompano Beach Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Pompano Beach Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-11a0aeb5963e"
+    ],
+    "school_ids": [
+      "SE-FL-S-8f6c5eab32b8"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 21,
+    "raw": {
+      "school": "Ramblewood Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Ramblewood Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-546b75058a78"
+    ],
+    "school_ids": [
+      "SE-FL-S-06c038e56461"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 22,
+    "raw": {
+      "school": "Riverglades Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Riverglades Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-45cd2c111286"
+    ],
+    "school_ids": [
+      "SE-FL-S-43cb4a6f14ca"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 23,
+    "raw": {
+      "school": "Sawgrass Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Sawgrass Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-d9226bff132d"
+    ],
+    "school_ids": [
+      "SE-FL-S-27a2718e0e0d"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 24,
+    "raw": {
+      "school": "Sea Castle Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Sea Castle Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-5756316ffc7f"
+    ],
+    "school_ids": [
+      "SE-FL-S-78845d443ff5"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 25,
+    "raw": {
+      "school": "Silver Palms Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Silver Palms Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-23f46436ace7"
+    ],
+    "school_ids": [
+      "SE-FL-S-af2bafbf3fbc"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 26,
+    "raw": {
+      "school": "Watkins Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Watkins Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-2042e671e79a"
+    ],
+    "school_ids": [
+      "SE-FL-S-daed0bc4e393"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 27,
+    "raw": {
+      "school": "Westchester Elementary",
+      "source_section_grade": "K-5",
+      "source_school": "Westchester Elementary"
+    },
+    "program_ids": [
+      "SE-FL-P-03ef45b5432c"
+    ],
+    "school_ids": [
+      "SE-FL-S-dab87e35312e"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 28,
+    "raw": {
+      "school": "Gulfstream Academy Hallandale Beach K-8",
+      "source_section_grade": "6-8",
+      "source_school": "Gulfstream Academy Hallandale Beach 6-8"
+    },
+    "program_ids": [
+      "SE-FL-P-3ec36ad362f9"
+    ],
+    "school_ids": [
+      "SE-FL-S-7ee15b0dc1fe"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 29,
+    "raw": {
+      "school": "Tequesta Trace Middle",
+      "source_section_grade": "6-8",
+      "source_school": "Tequesta Trace Middle"
+    },
+    "program_ids": [
+      "SE-FL-P-63b12772bc8e"
+    ],
+    "school_ids": [
+      "SE-FL-S-bac3360012e3"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 30,
+    "raw": {
+      "school": "Walter C. Young Middle",
+      "source_section_grade": "6-8",
+      "source_school": "Walter C. Young Middle"
+    },
+    "program_ids": [
+      "SE-FL-P-55711246b4b7"
+    ],
+    "school_ids": [
+      "SE-FL-S-a17802e33875"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 31,
+    "raw": {
+      "school": "Westglades Middle",
+      "source_section_grade": "6-8",
+      "source_school": "West Glades Middle"
+    },
+    "program_ids": [
+      "SE-FL-P-0fae0b4807ad"
+    ],
+    "school_ids": [
+      "SE-FL-S-77b02da3de00"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 32,
+    "raw": {
+      "school": "Coral Springs Middle",
+      "source_section_grade": "6-8",
+      "source_school": "Coral Springs Middle"
+    },
+    "program_ids": [
+      "SE-FL-P-698fcb2569c3"
+    ],
+    "school_ids": [
+      "SE-FL-S-40be6a107efd"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 33,
+    "raw": {
+      "school": "Falcon Cove Middle",
+      "source_section_grade": "6-8",
+      "source_school": "Falcon Cove Middle"
+    },
+    "program_ids": [
+      "SE-FL-P-f299cb498d65"
+    ],
+    "school_ids": [
+      "SE-FL-S-838e431fe08c"
+    ],
+    "disposition": "integrated"
+  },
+  {
+    "source_key": "se_fl_broward_list_july25",
+    "source_row": 34,
+    "raw": {
+      "school": "Cypress Bay High",
+      "source_section_grade": "9-12",
+      "source_school": "Cypress Bay High"
+    },
+    "program_ids": [
+      "SE-FL-P-8a58bbef0e3d"
+    ],
+    "school_ids": [
+      "SE-FL-S-d20d6ac6ec01"
+    ],
+    "disposition": "integrated"
+  }
+]

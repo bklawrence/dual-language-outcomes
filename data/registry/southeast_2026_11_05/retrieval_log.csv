@@ -1,0 +1,318 @@
+source_key,url,retrieved_at,http_status,saved_as_primary_source,error,title
+se_ccd2024_FL,https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=12&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips,2026-11-05T23:16:06.064105+00:00,200,1,,
+se_ccd2024_GA,https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=13&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips,2026-11-05T23:16:15.539270+00:00,200,1,,
+se_ccd2024_NC,https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=37&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips,2026-11-05T23:16:24.697188+00:00,200,1,,
+se_ccd2024_SC,https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=45&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips,2026-11-05T23:16:20.924639+00:00,200,1,,
+se_ccd2024_TN,https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=47&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips,2026-11-05T23:16:31.004474+00:00,200,1,,
+se_fl_arch,https://archcreekelementary.net/,2026-11-05T23:18:43.616427+00:00,200,0,,Arch Creek Elementary School – Home of the Seagulls X
+se_fl_arch_biso,https://archcreekelementary.net/bilingual-school-organization-biso/,2026-11-05T23:21:33.980899+00:00,,0,HTTP Error 404: Not Found,
+se_fl_arch_choice,https://yourchoicemiami.org/program-search/school-details?school=0341,2026-11-05T23:29:29.825244+00:00,200,1,,School Details – Miami Magnet Schools
+se_fl_bilbao,https://drtbprep.net/bilingual-education-biso/,2026-11-05T23:18:43.538600+00:00,200,1,,Bilingual Education (BISO) – Dr. Toni Bilbao Preparatory Academy X facebook2 instagram facebook2 instagram X
+se_fl_biso_list,https://www.bilingualmdcps.com/wp-content/uploads/Bilingual-School-Organization-Schools.pdf,2026-11-05T23:15:45.830291+00:00,200,1,,se_fl_biso_list
+se_fl_broward,https://www.browardschools.com/academics/learning-support/english-for-speakers-of-other-languages/dual-language-program,2026-11-05T23:12:44.231268+00:00,,0,HTTP Error 404: Not Found,
+se_fl_broward25,https://resources.finalsite.net/images/v1759256051/browardschoolscom/gjswfkdwui15ik4deehf/2025-26_DualSchools.pdf,2026-11-05T23:12:04.126291+00:00,200,1,,se_fl_broward25
+se_fl_broward_guide25,https://resources.finalsite.net/images/v1759167392/browardschoolscom/slg8ecljp3yfrgt6bndr/25-26DualLanguageProgramParent_Guidelines.pdf,2026-11-05T23:18:42.345669+00:00,200,1,,se_fl_broward_guide25
+se_fl_broward_info,https://www.browardschools.com/bcps-departments/academics/bilingualesol/dual-language/websites/program-information,2026-11-05T23:14:25.462147+00:00,200,0,,Program Information
+se_fl_broward_list_july25,https://resources.finalsite.net/images/v1753188840/browardschoolscom/g2sptmpd59bh5ccgcuuj/25-26DLPSchoolList.pdf,2026-11-05T23:18:43.437060+00:00,200,1,,se_fl_broward_list_july25
+se_fl_broward_manatee,https://manateebay.browardschools.com/academics/learning-at-our-school/dual-language-program,2026-11-05T23:15:48.537428+00:00,200,0,,Dual Language Program
+se_fl_douglas,https://msdelementary.net/bilingual-school-organization-biso/,2026-11-05T23:18:45.450849+00:00,200,0,,Bilingual School Organization (BISO) – Marjory Stoneman Douglas X
+se_fl_douglas_home,https://msdelementary.net/,2026-11-05T23:24:20.296290+00:00,200,0,,Marjory Stoneman Douglas – Home of the Anhingas X
+se_fl_dreamers,https://www.dreamersacademy.org/en/our-school/,2026-11-05T23:15:48.532662+00:00,200,1,,Dual Language School » Dreamers Academy Sarasota
+se_fl_dreamers_home,https://www.dreamersacademy.org/en/,2026-11-05T23:21:34.009064+00:00,200,1,,Dreamers Academy Sarasota » Spanish Immersion Charter School
+se_fl_duval,https://www.duvalschools.org/page/dual-language/,2026-11-05T23:15:48.170482+00:00,200,1,,Dual Language | Duval County Public Schools
+se_fl_efl_list,https://www.bilingualmdcps.com/wp-content/uploads/EFL-Schools-Program.pdf,2026-11-05T23:15:47.217988+00:00,200,1,,se_fl_efl_list
+se_fl_emerson,https://emerson.dadeschools.net/,2026-11-05T23:18:43.565876+00:00,200,0,,Redirect
+se_fl_emerson_choice,https://yourchoicemiami.org/program-search/school-details?school=1641,2026-11-05T23:29:31.746299+00:00,200,1,,School Details – Miami Magnet Schools
+se_fl_emerson_ext,https://emersonelementary.net/,2026-11-05T23:26:16.008530+00:00,200,0,,Emerson Elementary School – Passport to Success X instagram instagram X instagram X
+se_fl_finlay,https://cjfinlay.net/bilingual-school-organization-biso/,2026-11-05T23:18:45.076443+00:00,200,1,,Bilingual School Organization (BISO) – Dr. Carlos J Finlay Elementary
+se_fl_garrison,https://garrison-es.pcsb.org/academics/programs/dual-language,2026-11-05T23:18:42.347035+00:00,200,1,,Dual Language
+se_fl_hialeah,https://whg.dadeschools.net/,2026-11-05T23:18:44.527516+00:00,200,0,,Redirect - DSRedirect
+se_fl_hialeah_choice,https://yourchoicemiami.org/program-search/school-details?school=2371,2026-11-05T23:26:17.533978+00:00,200,1,,School Details – Miami Magnet Schools
+se_fl_hillsborough,https://www.hillsboroughschools.org/page/dual-language-immersion-program,2026-11-05T23:15:47.113358+00:00,200,1,,Dual Language Immersion Program | Hillsborough County Public Schools
+se_fl_hillsborough24,https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5557/Davidsen/a91b1b91-4e6e-41e6-a038-339b3e3a0c07/HCPS_DLI_Handbook_2024.pdf?disposition=inline,2026-11-05T23:15:47.217061+00:00,200,1,,se_fl_hillsborough24
+se_fl_is_list,https://www.bilingualmdcps.com/wp-content/uploads/International-Studies-Schools.pdf,2026-11-05T23:15:48.537609+00:00,200,1,,se_fl_is_list
+se_fl_miami,https://www.bilingualmdcps.com/k-12-language-programs/,2026-11-05T23:12:46.090230+00:00,200,0,,K-12 Language Programs – MDCPS Department of Bilingual Education and World Languages X
+se_fl_miami_biso,https://www.bilingualmdcps.com/bilingual-school-organization/,2026-11-05T23:14:25.675364+00:00,200,1,,Bilingual School Organization – MDCPS Department of Bilingual Education and World Languages X
+se_fl_miami_efl,https://www.bilingualmdcps.com/extended-foreign-language/,2026-11-05T23:14:28.800972+00:00,200,1,,Extended Foreign Language – MDCPS Department of Bilingual Education and World Languages X
+se_fl_miami_is,https://www.bilingualmdcps.com/international-studies/,2026-11-05T23:14:31.578960+00:00,200,1,,International Studies – MDCPS Department of Bilingual Education and World Languages X
+se_fl_ocps,https://www.ocps.net/42127_4,2026-11-05T23:15:46.732021+00:00,200,1,,Orange County Public Schools - Two-Way Dual Language - Union Park ES
+se_fl_ocps_magnets,https://www.ocps.net/elementary-school-magnet-programs,2026-11-05T23:31:41.633770+00:00,200,1,,Orange County Public Schools - Elementary School Magnet Programs
+se_fl_osceola,https://www.myosceolachoice.school/enrichment/dual-language,2026-11-05T23:15:47.109450+00:00,200,1,,Dual Language
+se_fl_osceola_brochure26,https://files.smartsites.parentsquare.com/5825/dual_language_program_brochure_01-05-26.pdf,2026-11-05T23:21:33.981100+00:00,200,1,,se_fl_osceola_brochure26
+se_fl_osceola_district,https://www.osceolaschools.net/71024_3,2026-11-05T23:18:42.349265+00:00,200,1,,"The School District of Osceola County, Florida - Dual Language Program"
+se_fl_osceola_roster26,https://files.smartsites.parentsquare.com/5825/Dual%20Language%20Schools%202026-2027_1782150664.png,2026-11-05T23:21:35.051873+00:00,200,0,,
+se_fl_palm,https://www.palmbeachschools.org/studentsparents/esol-english-for-speakers-of-other-languages/dual-language-two-way-immersion-programs,2026-11-05T23:12:44.231548+00:00,200,1,,Dual Language: Two-Way Immersion Programs - Palm Beach County School District
+se_fl_palm_creole,https://www.palmbeachschools.org/fs/resource-manager/view/569f90c7-ee2f-4051-b9a9-3129c8ae6dc2,2026-11-05T23:14:28.575643+00:00,200,1,,se_fl_palm_creole
+se_fl_palm_elementary,https://www.palmbeachschools.org/fs/resource-manager/view/cf9935fa-57ff-403d-8680-9668ccf7018e,2026-11-05T23:18:42.347601+00:00,200,1,,se_fl_palm_elementary
+se_fl_palm_guidelines25,https://resources.finalsite.net/images/v1752674292/palmbeachschoolsorg/gh5nlgphsdpdl2xkstt7/SpanishDualLanguageGuidelines2.pdf,2026-11-05T23:14:28.250467+00:00,200,1,,se_fl_palm_guidelines25
+se_fl_pinellas,https://www.pcsb.org/learning/multilingual-services/dual-language,2026-11-05T23:12:46.213636+00:00,200,1,,Dual Language
+se_fl_polk,https://www.polkschoolsfl.com/about/departments/esol,2026-11-05T23:18:43.436853+00:00,200,0,,English for Speakers of Other Languages (ESOL) Department - Polk County Public Schools
+se_fl_seminole,https://www.scps.k12.fl.us/85968_3,2026-11-05T23:18:42.348119+00:00,200,1,,Seminole County Public Schools - Dual Languages
+se_fl_seminole_brochure,https://files.smartsites.parentsquare.com/6662/dual-languages-brochure.pdf,2026-11-05T23:21:32.806211+00:00,200,1,,se_fl_seminole_brochure
+se_fl_southside,https://southside.dadeschools.net/,2026-11-05T23:18:44.668571+00:00,200,0,,Redirect - DSRedirect
+se_fl_southside_choice,https://yourchoicemiami.org/program-search/school-details?school=5321,2026-11-05T23:29:33.558344+00:00,200,1,,School Details – Miami Magnet Schools
+se_fl_southside_ext,https://southside.dadeschools.net/bilingual-school-organization-biso/,2026-11-05T23:24:20.596671+00:00,200,0,,Redirect - DSRedirect
+se_fl_southside_real,https://www.southsideowls.com/,2026-11-05T23:26:16.008950+00:00,200,0,,Southside Preparatory Academy – Home of the Owls X instagram
+se_fl_spanishlake,https://spanishlake.dadeschools.net/,2026-11-05T23:18:44.945907+00:00,,0,<urlopen error Tunnel connection failed: 403 Forbidden>,
+se_fl_spanishlake_choice,https://yourchoicemiami.org/program-search/school-details?school=2191,2026-11-05T23:26:19.477459+00:00,200,0,,School Details – Miami Magnet Schools
+se_fl_spanishlake_handbook25,https://www.spanishlakeelementary.com/wp-content/uploads/2026/05/Parent-Student-Handbook-2025-2026-ENGLISH.pdf,2026-11-05T23:26:17.055505+00:00,200,1,,se_fl_spanishlake_handbook25
+se_fl_sunset,https://sunsetinternationalschool.com/,2026-11-05T23:24:20.317914+00:00,200,0,,Sunset Elementary School X instagram twitter instagram
+se_fl_union_home,https://unionparkes.ocps.net/,2026-11-05T23:31:41.632778+00:00,200,1,,Union Park Elementary - Home
+se_fl_volusia,https://www.vcsedu.org/directory/departments/teaching-leading-and-learning/esol-and-title-iii/dual-language,2026-11-05T23:15:48.523012+00:00,200,1,,Dual Language - Volusia County Schools
+se_ga_aps_locations,https://www.atlantapublicschools.us/fs/pages/17915,2026-11-05T23:15:39.792533+00:00,200,1,,DLI Program Articulation and Locations - Atlanta Public Schools
+se_ga_atlanta,https://www.atlantapublicschools.us/about/departments/teaching-learning/multilingual-programs-services/dual-language-immersion,2026-11-05T23:14:24.187243+00:00,200,1,,Dual Language Immersion - Atlanta Public Schools
+se_ga_citypark,https://citypark.daltonpublicschools.com/page/dual-language-immersion/,2026-11-05T23:31:41.634463+00:00,200,1,,Dual Language Immersion | Dalton Public Schools
+se_ga_clarke,https://www.clarke.k12.ga.us/dli,2026-11-05T23:15:39.794209+00:00,200,1,,Dual Language Immersion | Oglethorpe Avenue Elementary
+se_ga_clayton,https://sites.google.com/clayton.k12.ga.us/schoolchoice/magnet-programs/dual-language-immersion,2026-11-05T23:15:39.797737+00:00,200,1,,School Choice - Dual Language Immersion
+se_ga_cobb,https://www.cobbk12.org/dual-language-immersion,2026-11-05T23:14:24.323966+00:00,200,1,,Dual Language Immersion
+se_ga_cobb_brochure,https://media.cobbk12.org/media/WWWCobb/frf/2592/EnglishDLI.pdf,2026-11-05T23:18:45.875968+00:00,200,1,,se_ga_cobb_brochure
+se_ga_cobb_phaseout,https://www.11alive.com/article/news/local/cobb-dual-language-immersion-program-could-be-removed-from-schools/85-fee2b2b9-d532-4c3d-a08f-753c5835dcc7,2026-11-05T23:15:42.909914+00:00,,0,HTTP Error 403: Forbidden,
+se_ga_cobb_phaseout_ajc,https://www.ajc.com/education/cobb-to-phase-out-dual-language-immersion-program-at-some-schools/65KHOTP36NAZNCZAXYWKCVNYMA/,2026-11-05T23:18:45.567721+00:00,200,1,,Cobb to phase out dual language immersion program at some schools
+se_ga_credit,https://url.gadoe.org/ydatz,2026-11-05T23:12:46.090492+00:00,200,0,,se_ga_credit
+se_ga_crisp,https://ccps.crispschools.org/o/ccps/page/dual-language,2026-11-05T23:15:39.796124+00:00,200,1,,Dual Language Immersion | Crisp County Primary
+se_ga_cultr,https://cultr.gsu.edu/dual-language-immersion/,2026-11-05T23:14:24.506178+00:00,200,0,,Dual Language Immersion - CULTR at Georgia State University
+se_ga_dalton,https://www.daltonpublicschools.com/page/dual-language-immersion,2026-11-05T23:15:40.771715+00:00,200,1,,Dual Language Immersion | Dalton Public Schools
+se_ga_deal,https://des.hallco.org/dual-immersion-program/,2026-11-05T23:18:47.041421+00:00,200,1,,Dual Immersion Program - Deal Elementary School Scroll to top
+se_ga_dekalb,https://resources.finalsite.net/images/v1759251605/dekalbschoolsgaorg/t2ospojauj4kk5urgzxt/dli-brochure.pdf,2026-11-05T23:14:24.261866+00:00,200,1,,se_ga_dekalb
+se_ga_doe,https://www.gadoe.org/learning/world-languages-global-initiatives/,2026-11-05T23:12:04.124443+00:00,200,1,,World Languages education in Georgia - GaDOE
+se_ga_dunleith,https://dunleith.marietta-city.org/our-programs/dual-language-immersion,2026-11-05T23:18:47.842332+00:00,200,1,,Dual Language Immersion - Dunleith Elementary School
+se_ga_families,https://url.gadoe.org/rpvb7,2026-11-05T23:12:44.229113+00:00,200,1,,se_ga_families
+se_ga_forsyth,https://sites.google.com/forsythk12.org/forsythcountyschoolsdli/home,2026-11-05T23:15:41.966124+00:00,200,1,,Forsyth County Schools DLI
+se_ga_fulton25,https://resources.finalsite.net/images/v1748528405/fultonschoolsorg/jqqdsj6xnjenjlip6nbe/FY26DLIBrochure.pdf,2026-11-05T23:14:25.456547+00:00,200,1,,se_ga_fulton25
+se_ga_globe,https://theglobeacademy.org/dual-language-immersion,2026-11-05T23:15:42.063486+00:00,200,1,,Dual Language Immersion
+se_ga_guidance25,https://lor2.gadoe.org/gadoe/file/014adde4-9263-4755-8308-8f34e88156a6/1/FY25%20DLI%20Guidance%20Document.pdf,2026-11-05T23:21:32.803398+00:00,200,1,,se_ga_guidance25
+se_ga_gwinnett,https://www.gcpsk12.org/programs-and-services/dual-language-immersion,2026-11-05T23:12:46.549415+00:00,200,1,,Dual Language Immersion - Gwinnett County Public Schools
+se_ga_gwinnett_ms,https://www.gcpsk12.org/fs/resource-manager/view/90bb19d1-3b3c-4fd9-8289-497ae870680a,2026-11-05T23:15:39.793664+00:00,200,0,,se_ga_gwinnett_ms
+se_ga_hall,https://www.hallco.org/web/programs-of-choice/,2026-11-05T23:15:41.147116+00:00,200,1,,Programs Of Choice - Hall County Schools X Logo RSS Feed Logo Scroll to top
+se_ga_ica,https://www.internationalcharteracademy.org/,2026-11-05T23:15:42.442685+00:00,200,1,,ICAGeorgia | Georgia’s Dual Language Charter School
+se_ga_ica_faq,https://www.internationalcharteracademy.org/about-us/faqs/,2026-11-05T23:21:33.913301+00:00,200,0,,Middle School at ICAGeorgia | Dual Language Learning
+se_ga_ica_methods,https://www.internationalcharteracademy.org/academics/instructional-methods/,2026-11-05T23:21:32.804399+00:00,200,0,,Instructional Methods | ICAGeorgia Academics
+se_ga_icsa,https://www.icsatlanta.org/,2026-11-05T23:15:42.553194+00:00,200,0,,International Charter School of Atlanta
+se_ga_icsa_academic,https://www.icsatlanta.org/academic-resources,2026-11-05T23:21:32.805573+00:00,200,0,,Academic Resources & Procedures | ICSAtlanta
+se_ga_icsa_faq,https://www.icsatlanta.org/faq,2026-11-05T23:24:18.881620+00:00,200,1,,FAQs | ICSAtlanta
+se_ga_kelly,https://kellymill.forsyth.k12.ga.us/our-school/dual-language-immersion,2026-11-05T23:18:47.436489+00:00,200,0,,Dual Language Immersion
+se_ga_marietta,https://resources.finalsite.net/images/v1708595948/mariettacityk12gaus/tesapu1zmqa5587lscdk/11928-DLI-Flyers.pdf,2026-11-05T23:15:41.462392+00:00,200,0,,se_ga_marietta
+se_ga_parkstreet,https://parkstreet.marietta-city.org/steam/park-street-programs/dual-language-immersion-program,2026-11-05T23:18:48.362853+00:00,200,1,,Dual Language Immersion Program - Park Street Elementary School
+se_ga_rockdale,https://www.rockdaleschools.org/departments/leadership-and-learning/teaching-and-learning/curriculum-and-instruction/modern-languages,2026-11-05T23:18:45.995938+00:00,200,1,,Modern Languages - Rockdale County Public Schools
+se_ga_savannah,https://haven.sccpss.com/,2026-11-05T23:18:46.932028+00:00,200,0,,Home - Haven Elementary School
+se_ga_unidos,https://198.clayton.k12.ga.us/about/frequently-asked-questions,2026-11-05T23:15:39.794978+00:00,200,0,,Frequently Asked Questions - Unidos Dual Language School
+se_ga_wla,https://wla.hallco.org/web/,2026-11-05T23:18:47.092685+00:00,200,0,,World Language Academy – Home Of The Toros Click to open the search input field Scroll to top
+se_ga_yhale,https://www.yhale.org/,2026-11-05T23:15:42.552714+00:00,200,1,,Yi Hwang Academy of Language Excellence
+se_ga_yhale_dli,https://www.yhale.org/apps/pages/index.jsp?uREC_ID=626675&type=d,2026-11-05T23:24:18.880814+00:00,200,1,,Dual Immersion - Dual Language Immersion (DLI)  - Yi Hwang Academy of Language Excellence
+se_nc_chccs_move,https://www.wunc.org/education/2026-08-21/chccs-vote-glenwood-elementary-mandarin-magnet-program-school-board-meeting-rashkis-scroggs,2026-11-05T23:24:18.882391+00:00,200,1,,CHCCS votes to split Glenwood Elementary's Mandarin magnet program | WUNC News
+se_nc_csv,https://docs.google.com/spreadsheets/d/1G1m-YmJ-215GOEUiQob4YwopKdQal--68Usg6H4f6v0/export?format=csv,2026-11-05T23:13:14.578519+00:00,200,1,,
+se_nc_directory,https://go.ncdpi.gov/NCDLIdirectory,2026-11-05T23:12:44.228162+00:00,200,1,,North Carolina DL/I Program Directory (Accessible) - Google Sheets Loading...
+se_nc_district_01,https://www.aceacademycharter.org/apps/pages/index.jsp?uREC_ID=471350&type=d,2026-11-05T23:14:04.707970+00:00,200,1,,Home - Dual Immersion Program - Academic Departments - A.C.E. Academy
+se_nc_district_02,https://www.abss.k12.nc.us/o/abss/page/dual-language-immersion,2026-11-05T23:14:04.708958+00:00,200,1,,Dual Language Immersion | Alamance-Burlington School System
+se_nc_district_03,https://www.asheboro.k12.nc.us/DualLanguageImmersionProgram.aspx,2026-11-05T23:14:04.710223+00:00,200,1,,Dual Language Immersion Program
+se_nc_district_04,https://www.buncombeschools.org/o/bcs/page/dual-language-spanish-immersion-k-5,2026-11-05T23:14:04.711435+00:00,200,1,,Dual Language Spanish Immersion (K-5) | Buncombe County Schools
+se_nc_district_05,https://www.burke.k12.nc.us/parents/global-immersion-academy,2026-11-05T23:14:04.711943+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_06,https://www.burke.k12.nc.us/parents/dual-language-immersion-program-forest-hill,2026-11-05T23:14:05.899906+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_07,https://www.cabarrus.k12.nc.us/1545_3,2026-11-05T23:14:05.899598+00:00,200,1,,Cabarrus County Schools - Mandarin Dual Language Immersion
+se_nc_district_08,https://www.cabarrus.k12.nc.us/1544_3,2026-11-05T23:14:07.251557+00:00,200,1,,Cabarrus County Schools - International Baccalaureate
+se_nc_district_09,https://www.cabarrus.k12.nc.us/1534_3,2026-11-05T23:14:08.566440+00:00,200,1,,Cabarrus County Schools - Spanish Immersion
+se_nc_district_10,https://www.cemcs.org/what-we-do/immersion-enrichment/,2026-11-05T23:14:06.273337+00:00,,0,HTTP Error 503: Service Unavailable,
+se_nc_district_11,https://www.catawbaschools.net/spanish-immersion,2026-11-05T23:14:06.501180+00:00,200,1,,Catawba County Schools - Spanish Immersion
+se_nc_district_12,https://www.chccs.org/programs/dual-language/dual-language-programs-overview,2026-11-05T23:14:06.932771+00:00,200,1,,Dual Language Programs Overview
+se_nc_district_13,https://bilingualpreschool.org/preschool-programs/,2026-11-05T23:14:07.250778+00:00,200,0,,Preschool Programs - Charlotte Bilingual Learning Center
+se_nc_district_14,https://www.cmsk12.org/academics/school-choice/world-languages-and-language-immersion,2026-11-05T23:14:07.443743+00:00,200,1,,World Languages and Language Immersion
+se_nc_district_15,https://chathamcountyschoolsnc.sites.thrillshare.com/o/ccs/page/dual-language,2026-11-05T23:14:07.786257+00:00,200,1,,Dual Language | Chatham County Schools
+se_nc_district_16,https://www.ccs.k12.nc.us/o/ccs/page/language-programs-offered-at-the-elementary-level,2026-11-05T23:14:08.565961+00:00,200,1,,Language Programs Offered at the Elementary Level | Cumberland County Schools
+se_nc_district_17,https://www.ccs.k12.nc.us/o/ccs/page/middle-school-overview,2026-11-05T23:14:09.739662+00:00,200,1,,Middle School Overview | Cumberland County Schools
+se_nc_district_18,https://www.ccs.k12.nc.us/o/moes/page/choice-programs,2026-11-05T23:14:10.824484+00:00,200,1,,Choice Programs | Montclair
+se_nc_district_19,https://www.daretolearn.org/resources/curriculum-and-instruction/spanish-immersion,2026-11-05T23:14:09.739947+00:00,200,1,,Dual Language Immersion - Dare County Schools
+se_nc_district_20,https://swe.davidson.k12.nc.us/apps/pages/index.jsp?uREC_ID=794389&type=d&pREC_ID=1659979,2026-11-05T23:14:09.991513+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_21,https://nes.davidson.k12.nc.us/apps/pages/index.jsp?uREC_ID=787816&type=d&pREC_ID=1662244,2026-11-05T23:14:10.787186+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_22,https://www.dpsnc.net/page/dual-language-immersion,2026-11-05T23:14:10.824228+00:00,200,1,,Dual Language Immersion | DURHAM
+se_nc_district_23,https://www.eastvoyager.org/language-immersion-charter-school,2026-11-05T23:14:10.963339+00:00,,0,HTTP Error 503: Service Unavailable,
+se_nc_district_24,https://mma.ecps.us/o/mma/page/splash-dual-language-immersion,2026-11-05T23:14:11.265191+00:00,,0,HTTP Error 403: Forbidden,
+se_nc_district_25,https://www.ecpps.k12.nc.us/departments/program-services/dual-language-immersion,2026-11-05T23:14:11.930413+00:00,200,1,,Spanish Dual Language Immersion - Elizabeth City-Pasquotank Public Schools
+se_nc_district_26,https://www.elkincityschools.org/apps/pages/index.jsp?uREC_ID=4358348&type=d&pREC_ID=2556012,2026-11-05T23:14:12.004154+00:00,200,1,,Welcome to DL/I - Dual Language Immersion – Dual Language Immersion – Elkin City Schools
+se_nc_district_27,https://www.epiphanyglobalschool.org/o/esogs/page/lower-school,2026-11-05T23:14:12.418928+00:00,200,1,,Lower School Overview | Epiphany School of Global Studies
+se_nc_district_28,https://www.fcschools.net/parents/choice-schools-programs/spanish-immersion-program,2026-11-05T23:14:12.477627+00:00,200,1,,Spanish Immersion Program - Franklin County Schools
+se_nc_district_29,https://woes.gcs.k12.nc.us/woxduallanguage,2026-11-05T23:14:12.602096+00:00,200,1,,West Oxford Elementary School - Dual Language Program
+se_nc_district_30,http://www.gcsedu.org/en-US/los-puentes-two-way-immersion-fdf00bc3,2026-11-05T23:14:12.686745+00:00,200,1,,Los Puentes Two-Way Immersion - Greene County Schools
+se_nc_district_31,https://www.gcsnc.com/choose-and-enroll,2026-11-05T23:14:13.365511+00:00,200,1,,Choose and Enroll - Guilford County Schools
+se_nc_district_32,https://sites.google.com/harnett.k12.nc.us/hcs-dual-language-parents/hcs-dual-language-schools,2026-11-05T23:14:13.549193+00:00,200,1,,Parents' Hub HCS Dual Language - HCS Dual Language Schools
+se_nc_district_33,https://www.hendersoncountypublicschoolsnc.org/bds/about/dual-language-program-at-bruce-drysdale/,2026-11-05T23:14:13.684092+00:00,200,1,,Dual Language Program at Bruce Drysdale – Bruce Drysdale Elementary
+se_nc_district_34,https://www.hickoryschools.net/departments/curriculum-instruction/spanish-immersion,2026-11-05T23:14:14.103728+00:00,200,1,,Spanish Immersion - Hickory City Schools
+se_nc_district_35,https://www.honorpreparatory.org/academics,2026-11-05T23:14:14.377705+00:00,200,1,,Spanish Immersion Model | Honor Prep Charlotte
+se_nc_district_36,https://www.imsnc.org/elementary,2026-11-05T23:14:14.524197+00:00,200,1,,Elementary Program | International Montessori School
+se_nc_district_37,https://www.issnc.org/about/choice-programs/di,2026-11-05T23:14:14.670496+00:00,200,1,,Dual Language Immersion - Iredell-Statesville School District
+se_nc_district_38,https://www.johnston.k12.nc.us/o/jcps/page/dual-language,2026-11-05T23:14:14.870371+00:00,200,1,,Dual Language | Johnston County Public Schools
+se_nc_district_39,https://www.kcs.k12.nc.us/our-district/elementary-magnets,2026-11-05T23:14:15.601967+00:00,200,1,,Elementary Magnets - Kannapolis City Schools
+se_nc_district_40,https://www.lecole-fisr.org/why-l-ecole,2026-11-05T23:14:15.617175+00:00,200,0,,
+se_nc_district_41,https://www.mgsd.k12.nc.us/dli,2026-11-05T23:14:15.989022+00:00,200,1,,Dual Language Immersion | MGSD
+se_nc_district_42,https://www.mtairy.k12.nc.us/apps/pages/DLI,2026-11-05T23:14:16.431470+00:00,200,1,,About DLI - Dual Language Immersion - Mount Airy City Schools
+se_nc_district_43,https://www.ncpschools.net/departments/academic-services-accountability/dual-language,2026-11-05T23:14:16.689635+00:00,200,1,,Dual Language - Nash County Public Schools
+se_nc_district_44,https://gregory.nhcs.net/about-us/immersion,2026-11-05T23:14:17.086780+00:00,200,1,,About Immersion - International School at Gregory
+se_nc_district_45,https://www.nhcs.net/divisions/student-support-services/enrollment/magnet-schools,2026-11-05T23:14:17.461855+00:00,200,1,,Specialty Program and Year-Round  Schools - New Hanover County Schools
+se_nc_district_46,https://ebcikpep.com/,2026-11-05T23:14:17.937160+00:00,200,1,,"Kituwah Preservation and Education Program - Cherokee, North Carolina"
+se_nc_district_47,https://nne.newton-conover.org/o/nne/page/k-5,2026-11-05T23:14:18.244749+00:00,200,1,,Dual-Immersion Overview | North Newton Elementary School
+se_nc_district_48,https://www.necprepschool.com/apps/pages/index.jsp?uREC_ID=607416&type=d,2026-11-05T23:14:18.956990+00:00,200,1,,Home - Dual Language - Academic Departments - North East Carolina Prep/PreK-12 Charter School located in Tarboro NC
+se_nc_district_49,https://www.onslow.k12.nc.us/academics/cultural-arts-and-global-programs/global-education/dual-language-immersion-program,2026-11-05T23:14:18.999631+00:00,200,1,,Dual Language Immersion Program - Onslow County Schools
+se_nc_district_50,https://nhe.orangecountyfirst.com/dual-language,2026-11-05T23:14:19.661151+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_51,https://www.pcsnc.org/page/dual-language-immersion,2026-11-05T23:14:19.779966+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_52,https://www.pinelakeprep.org/academics/stem-clone-clone,2026-11-05T23:14:19.985209+00:00,200,1,,Spanish and Spanish Immersion - Pine Lake Preparatory
+se_nc_district_53,https://www.pitt.k12.nc.us/Page/6959,2026-11-05T23:14:20.185842+00:00,,0,HTTP Error 429: Too Many Requests,
+se_nc_district_54,https://www.rock.k12.nc.us/page/splash,2026-11-05T23:14:21.206992+00:00,200,1,,Splash | Rockingham County Schools
+se_nc_district_55,https://www.scotland.k12.nc.us/Page/3455,2026-11-05T23:14:21.258530+00:00,,0,HTTP Error 429: Too Many Requests,
+se_nc_district_56,https://www.socratesacademy.us/greek,2026-11-05T23:14:21.557720+00:00,200,1,,GREEK OLD | Socrates Academy
+se_nc_district_57,http://www.soundsandcolors.net/our-approach2.html,2026-11-05T23:14:21.712908+00:00,,0,HTTP Error 404: Not Found,
+se_nc_district_58,https://endy.stanlycountyschools.org/apps/pages/index.jsp?uREC_ID=1175167&type=d&pREC_ID=2557118,2026-11-05T23:14:21.964474+00:00,200,1,,Dual Language Immersion Program – Academics – Endy Elementary School
+se_nc_district_59,https://www.ucpsnc.org/academics/dli,2026-11-05T23:14:22.209839+00:00,,0,HTTP Error 429: Too Many Requests,
+se_nc_district_60,https://www.wcpss.net/enrollment-resources/~board/enrollment-resources/post/magnet-pathways,2026-11-05T23:14:22.209490+00:00,,0,HTTP Error 429: Too Many Requests,
+se_nc_district_61,https://www.warrenk12nc.org/o/Northside/page/dual-language-spanish-immersion-program,2026-11-05T23:14:22.599388+00:00,200,1,,Dual Language Spanish Immersion Program | Northside Elementary School
+se_nc_district_62,https://www.wcsnc.org/o/ces/page/dlhome,2026-11-05T23:14:22.845205+00:00,200,1,,Dual Language Home | Creswell Elementary School
+se_nc_district_63,https://www.waynecountyschools.org/o/springcreekelementary/page/sce-dlp,2026-11-05T23:14:22.984829+00:00,200,1,,Dual Language Program | Spring Creek Elementary
+se_nc_district_64,https://www.wilsonschoolsnc.net/families/spanish-immersion,2026-11-05T23:14:23.126252+00:00,200,1,,Spanish Immersion - Wilson County Schools
+se_nc_district_65,https://www.wsfcs.k12.nc.us/page/dual-language-immersion,2026-11-05T23:14:23.216654+00:00,,0,HTTP Error 404: Not Found,
+se_nc_dpi,https://www.dpi.nc.gov/districts-schools/classroom-resources/office-teaching-and-learning/programs-and-initiatives/dual-language-immersion,2026-11-05T23:12:04.122857+00:00,200,1,,Dual Language Immersion | NC DPI
+se_nc_harnett_end,https://www.ednc.org/community-responses-to-dual-language-closures-in-nc-highlight-importance-of-programs/,2026-11-05T23:18:50.684441+00:00,200,1,,NC districts consolidate dual language immersion programs - EdNC RSS RSS
+se_nc_harnett_end2,https://enlacelatinonc.org/families-question-end-of-dual-language-program-in-most-harnett-public-schools/,2026-11-05T23:18:50.788734+00:00,200,0,,Families question end of Dual Language Program in most Harnett public schools
+se_nc_harnett_end3,https://www.wral.com/news/education/harnett-schools-dual-langauge-program-closing-april-2026/,2026-11-05T23:18:50.937440+00:00,200,0,,Several Harnett County Public Schools to shutter Dual Language Immersion program :: WRAL.com
+se_nc_harnett_final,https://enlacelatinonc.org/en/Harnett-County-School-Board-reaffirms-cut-to-bilingual-immersion-program-and-rejects-parents%27-complaints/,2026-11-05T23:31:41.635289+00:00,200,1,,Harnett reduces bilingual immersion program to 2 schools • Enlace Latino NC
+se_nc_harnett_home,https://sites.google.com/harnett.k12.nc.us/hcs-dual-language-parents/home,2026-11-05T23:29:29.824622+00:00,200,0,,Parents' Hub HCS Dual Language
+se_nc_harnett_may26,https://enlacelatinonc.org/wp-content/uploads/2026/05/HarnettCountymay14.pdf,2026-11-05T23:24:18.883582+00:00,200,0,,se_nc_harnett_may26
+se_nc_johnston_new,https://www.johnston.k12.nc.us/page/dual-language,2026-11-05T23:18:51.704935+00:00,200,0,,Dual Language | Johnston County Public Schools
+se_nc_jones,https://joneses.gcsnc.com/our-school/faqs,2026-11-05T23:18:51.649995+00:00,200,0,,FAQ's
+se_nc_kituwah,https://ebcikpep.com/nka-elementary/,2026-11-05T23:12:05.222739+00:00,200,1,,"New Kituwah Academy Elementary - Cherokee, North Carolina"
+se_nc_kituwah25,https://ebcikpep.com/wp-content/uploads/2025/08/NKA-Student-Parent-Handbook-25-26.pdf,2026-11-05T23:14:29.504214+00:00,200,1,,se_nc_kituwah25
+se_nc_kituwah_report25,https://www.ebci.gov/wp-content/uploads/2026/03/Community-Education-Recreation-Annual-Report-2025.pdf,2026-11-05T23:12:05.180623+00:00,200,1,,se_nc_kituwah_report25
+se_nc_site,https://sites.google.com/dpi.nc.gov/ncdli/home,2026-11-05T23:12:04.123727+00:00,200,0,,NC DL/I Google Site
+se_nc_union_east,https://ees.ucpsnc.org/academics/dual-language-immersion,2026-11-05T23:18:50.998116+00:00,200,1,,Dual Language Immersion
+se_sc_beaufort,https://www.beaufortschools.net/families/school-choiceprograms/changemakers/educational-pathways,2026-11-05T23:14:25.456258+00:00,200,0,,Educational Pathways - Beaufort County School District
+se_sc_belvedere,https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4726/Bes/3ead92b8-26d1-4598-a764-76592fcae04f/WORLD_LANGUAGE_IMMERSION_-_MANDARIN_CHINESE.pdf?disposition=inline,2026-11-05T23:15:43.579190+00:00,,0,HTTP Error 403: Forbidden,
+se_sc_belvedere_docs,https://www.acpsd.net/o/bes/documents/activities/mandarin-immersion-program/18529145,2026-11-05T23:18:49.290643+00:00,200,0,,Documents | Belvedere Elementary
+se_sc_belvedere_pdf_alt,https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4726/Bes/3ead92b8-26d1-4598-a764-76592fcae04f/WORLD_LANGUAGE_IMMERSION_-_MANDARIN_CHINESE.pdf,2026-11-05T23:21:35.051685+00:00,,0,HTTP Error 403: Forbidden,
+se_sc_blythe,https://www.greenville.k12.sc.us/blythe/about,2026-11-05T23:15:43.318988+00:00,200,1,,About Blythe Academy
+se_sc_blythe_end,https://www.postandcourier.com/greenville/news/greenville-blythe-academy-french-immersion-program-south-carolina-spanish-language-study-teacher-shortage/article_7d8d0c0c-7360-11ee-88bc-f76753e96d58.html,2026-11-05T23:26:16.006491+00:00,200,1,,Blythe Academy French program ending amid teacher shortage Post and Courier Weather Banner Widget
+se_sc_blythe_faq,https://sites.google.com/view/magnetcoordinator/frequently-asked-questions-about-blythe-academy,2026-11-05T23:26:16.007438+00:00,200,0,,Magnet Coordinator - Frequently Asked Questions About Blythe Academy
+se_sc_blythe_magnet,https://sites.google.com/greenvilleschools.us/blythe-magnet-site/home,2026-11-05T23:24:18.889430+00:00,200,0,,Blythe Academy
+se_sc_blythe_reversal,https://www.postandcourier.com/greenville/news/greenville-school-board-blythe-academy-french-immersion-program/article_c1431abe-8309-11ee-9c6b-3b742abc5cfb.html,2026-11-05T23:29:29.823619+00:00,200,1,,School board votes against phasing out Blythe French program Post and Courier Weather Banner Widget
+se_sc_bmu,https://bmu.wildapricot.org/Dual-Language-Programs,2026-11-05T23:12:04.124897+00:00,200,1,,Bilingualism Matters @UofSC - Dual Language Programs
+se_sc_broad,https://bres.beaufortschools.net/academics/english,2026-11-05T23:15:44.772672+00:00,200,1,,Dual Language - Broad River Elementary School
+se_sc_carver,https://carverlyon.richlandone.org/language-immersion/language-immersion-faq,2026-11-05T23:15:43.557541+00:00,200,1,,Language Immersion FAQ - Carver-Lyon Elementary
+se_sc_cherry,https://cherrypark.rock-hill.k12.sc.us/,2026-11-05T23:18:49.494425+00:00,,0,<urlopen error Tunnel connection failed: 403 Forbidden>,
+se_sc_cherry_current,https://cpes.rock-hill.k12.sc.us/,2026-11-05T23:21:35.430438+00:00,200,0,,Home - Cherry Park Elementary
+se_sc_delmae,https://delmae.f1s.org/language-immersion,2026-11-05T23:15:43.778702+00:00,200,1,,Language Immersion - Delmae Elementary School
+se_sc_eastlink,https://www.eastlinkacademy.org/apps/pages/index.jsp?uREC_ID=577908&type=d,2026-11-05T23:15:44.252156+00:00,200,1,,Home - Curriculum Overview - East Link Academy
+se_sc_eastpoint,https://eastpointsc.org/chinese-immersion/,2026-11-05T23:15:43.848846+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_eastpoint_asia,https://asiasociety.org/education-2025/east-point-academy,2026-11-05T23:21:34.830810+00:00,,0,HTTP Error 403: Forbidden,
+se_sc_eastpoint_elementary,https://eastpointsc.org/elementary/,2026-11-05T23:18:48.890612+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_eastpoint_elementary_www,https://www.eastpointsc.org/elementary/,2026-11-05T23:24:20.834864+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_eastpoint_home,https://eastpointsc.org/,2026-11-05T23:18:49.673190+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_eastpoint_www,https://www.eastpointsc.org/,2026-11-05T23:24:19.785580+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_hhie,https://hhie.beaufortschools.net/academics/spanish-and-chinese-dual-language-program,2026-11-05T23:15:44.696105+00:00,200,1,,Spanish and Chinese Dual Language Immersion Program - Hilton Head Island Elementary School
+se_sc_hughes,https://sites.google.com/greenvilleschools.us/hughes-magnet/spanish-partial-immersion,2026-11-05T23:31:41.636167+00:00,200,1,,Magnet Information 2026- 2027 - Spanish Partial Immersion
+se_sc_lex1,https://www.lexington1.net/academics/curriculum-standards/world-languages/dual-language-immersion,2026-11-05T23:14:25.091467+00:00,200,1,,Dual-Language Immersion - Lexington County School District One
+se_sc_lex2_25,https://www.lex2.org/page/2025-2026-dual-language-immersion-application,2026-11-05T23:15:44.405477+00:00,200,1,,2025-2026 Dual Language Immersion Application | Lexington School District Two
+se_sc_lexington,https://www.lexdistrict1.com/academics/partial-immersion,2026-11-05T23:13:14.579531+00:00,,0,HTTP Error 503: Service Unavailable,
+se_sc_polo,https://sites.google.com/richland2.org/language-immersion-in-r2/home,2026-11-05T23:13:14.580252+00:00,200,1,,Language Immersion Magnets
+se_sc_polo_elementary,https://sites.google.com/richland2.org/language-immersion-in-r2/elementary-program,2026-11-05T23:21:35.070513+00:00,200,1,,Language Immersion Magnets - Elementary Program
+se_sc_richland2,https://www.richland2.org/departments/academics/academics/magnet-programs/language-immersion,2026-11-05T23:12:44.230111+00:00,200,1,,Language Immersion - Richland School District 2
+se_sc_riverbank,https://riverbank.lex2.org/page/dual-language-immersion/,2026-11-05T23:26:16.005120+00:00,200,1,,Dual Language Immersion | Riverbank Elementary
+se_sc_riverbank_news,https://riverbank.lex2.org/o/res/article/3107243/,2026-11-05T23:26:18.023278+00:00,200,1,,District's language immersion program has expanded since launch 3 years ago | Riverbank Elementary
+se_sc_rockhill25,https://resources.finalsite.net/images/v1739277961/rockhillk12scus/opnv2rtfsqawgtg7spkp/cpesfamilyhandbook-25.pdf,2026-11-05T23:15:43.519496+00:00,200,1,,se_sc_rockhill25
+se_sc_rockhill_options,https://options.rock-hill.k12.sc.us/language-immersion/information-sessions/home,2026-11-05T23:18:49.672961+00:00,200,1,,Home
+se_sc_rockhill_program,https://options.rock-hill.k12.sc.us/language-immersion/program-overview,2026-11-05T23:24:18.888936+00:00,200,1,,Program Overview
+se_search_fl_arch_lang,https://search.yahoo.com/search?p=%22Arch+Creek%22+%22BISO%22+language,2026-11-05T23:24:23.958571+00:00,200,0,,Arch Creek BISO language - Yahoo Search Results
+se_search_fl_biso_languages,https://search.yahoo.com/search?p=Miami+Dade+BISO+Arch+Creek+Emerson+Toni+Bilbao+West+Hialeah+Gardens+languages,2026-11-05T23:17:19.552630+00:00,200,0,,Miami Dade BISO Arch Creek Emerson Toni Bilbao West Hialeah Gardens languages - Yahoo Search Results
+se_search_fl_broward,https://search.yahoo.com/search?p=Broward+dual+language+English+Spanish+50+50+2025,2026-11-05T23:13:24.187796+00:00,200,0,,Broward dual language English Spanish 50 50 2025 - Yahoo Search Results
+se_search_fl_broward_model,https://search.yahoo.com/search?p=Broward+County+dual+language+program+English+Spanish+fifty+percent+half+day,2026-11-05T23:17:21.086104+00:00,200,0,,Broward County dual language program English Spanish fifty percent half day - Yahoo Search Results
+se_search_fl_charters,https://search.yahoo.com/search?p=Florida+public+charter+immersion+schools+Greek+Hebrew+Mandarin,2026-11-05T23:21:39.235754+00:00,200,0,,Florida public charter immersion schools Greek Hebrew Mandarin - Yahoo Search Results
+se_search_fl_doe,https://search.yahoo.com/search?p=site.fldoe.org+%22dual+language%22+schools,2026-11-05T23:12:05.360037+00:00,200,0,,site.fldoe.org dual language schools - Yahoo Search Results
+se_search_fl_douglas_lang,https://search.yahoo.com/search?p=%22Marjory+Stoneman+Douglas%22+%22BISO%22+Spanish,2026-11-05T23:29:36.692305+00:00,200,0,,Marjory Stoneman Douglas BISO Spanish - Yahoo Search Results
+se_search_fl_emerson_lang,https://search.yahoo.com/search?p=Emerson+elementary+Miami+BISO+English+Spanish,2026-11-05T23:24:25.307929+00:00,200,0,,Emerson elementary Miami BISO English Spanish - Yahoo Search Results
+se_search_fl_hialeah_lang,https://search.yahoo.com/search?p=%22West+Hialeah+Gardens%22+%22bilingual%22,2026-11-05T23:24:26.856775+00:00,200,0,,West Hialeah Gardens bilingual - Yahoo Search Results
+se_search_fl_hillsborough,https://search.yahoo.com/search?p=Hillsborough+dual+language+immersion+schools+2025,2026-11-05T23:14:37.350520+00:00,200,0,,Hillsborough dual language immersion schools 2025 - Yahoo Search Results
+se_search_fl_miami,https://search.yahoo.com/search?p=Miami+Dade+bilingual+schools+dual+language+2025+IS+BISO,2026-11-05T23:12:12.713021+00:00,200,0,,Miami Dade bilingual schools dual language 2025 IS BISO - Yahoo Search Results
+se_search_fl_orange,https://search.yahoo.com/search?p=Orange+County+dual+language+schools+2025+program+50+50,2026-11-05T23:14:41.509864+00:00,200,0,,Orange County dual language schools 2025 program 50 50 - Yahoo Search Results
+se_search_fl_osceola,https://search.yahoo.com/search?p=Osceola+dual+language+schools+2025+50+50,2026-11-05T23:14:42.931927+00:00,200,0,,Osceola dual language schools 2025 50 50 - Yahoo Search Results
+se_search_fl_otherdistricts,https://search.yahoo.com/search?p=Florida+dual+language+immersion+schools+Duval+Sarasota+Seminole+Volusia+Polk+Pasco,2026-11-05T23:14:45.591601+00:00,200,0,,Florida dual language immersion schools Duval Sarasota Seminole Volusia Polk Pasco - Yahoo Search Results
+se_search_fl_palm,https://search.yahoo.com/search?p=Palm+Beach+dual+language+schools+2025+50+50,2026-11-05T23:12:11.201863+00:00,200,0,,Palm Beach dual language schools 2025 50 50 - Yahoo Search Results
+se_search_fl_pascolang,https://search.yahoo.com/search?p=Pasco+county+Florida+dual+language+immersion+schools,2026-11-05T23:17:27.181967+00:00,200,0,,Pasco county Florida dual language immersion schools - Yahoo Search Results
+se_search_fl_pinellas_schools,https://search.yahoo.com/search?p=Pinellas+dual+language+schools+Garrison+Jones+Sandy+Lane+2025,2026-11-05T23:17:22.717529+00:00,200,0,,Pinellas dual language schools Garrison Jones Sandy Lane 2025 - Yahoo Search Results
+se_search_fl_polk,https://search.yahoo.com/search?p=Polk+county+Florida+dual+language+immersion+schools,2026-11-05T23:17:25.668648+00:00,200,0,,Polk county Florida dual language immersion schools - Yahoo Search Results
+se_search_fl_roster,https://search.yahoo.com/search?p=Florida+dual+language+immersion+program+schools+district+list+2025,2026-11-05T23:12:53.554679+00:00,200,0,,Florida dual language immersion program schools district list 2025 - Yahoo Search Results
+se_search_fl_seminole,https://search.yahoo.com/search?p=Seminole+county+dual+language+program+schools+50+50,2026-11-05T23:17:24.318276+00:00,200,0,,Seminole county dual language program schools 50 50 - Yahoo Search Results
+se_search_fl_southside_lang,https://search.yahoo.com/search?p=Southside+Preparatory+Academy+bilingual+English+Spanish,2026-11-05T23:24:34.789832+00:00,200,0,,Southside Preparatory Academy bilingual English Spanish - Yahoo Search Results
+se_search_fl_spanishlake_lang,https://search.yahoo.com/search?p=Spanish+Lake+elementary+BISO+Spanish+English,2026-11-05T23:24:29.661801+00:00,200,0,,Spanish Lake elementary BISO Spanish English - Yahoo Search Results
+se_search_fl_state,https://search.yahoo.com/search?p=Florida+dual+language+immersion+schools+directory+2025+2026,2026-11-05T23:09:07.293300+00:00,200,0,,Florida dual language immersion schools directory 2025 2026 - Yahoo Search Results
+se_search_fl_stlucie,https://search.yahoo.com/search?p=St+Lucie+dual+language+immersion+schools+2025,2026-11-05T23:17:28.533713+00:00,200,0,,St Lucie dual language immersion schools 2025 - Yahoo Search Results
+se_search_fl_union_park_lang,https://search.yahoo.com/search?p=site.ocps.net+%22Union+Park%22+%22Spanish%22+%22dual%22,2026-11-05T23:29:35.197402+00:00,200,0,,site.ocps.net Union Park Spanish dual - Yahoo Search Results
+se_search_ga_atlanta,https://search.yahoo.com/search?p=Atlanta+Public+Schools+dual+language+immersion+schools+50+50+2025,2026-11-05T23:13:14.585169+00:00,200,0,,Atlanta Public Schools dual language immersion schools 50 50 2025 - Yahoo Search Results
+se_search_ga_citypark_change,https://search.yahoo.com/search?p=%22City+Park%22+%22immersion%22+%222025%22+Dalton,2026-11-05T23:24:22.438121+00:00,200,0,,City Park immersion 2025 Dalton - Yahoo Search Results
+se_search_ga_citypark_primary,https://search.yahoo.com/search?p=site.daltonpublicschools.com+%22City+Park%22+%22immersion%22,2026-11-05T23:29:38.187138+00:00,200,0,,site.daltonpublicschools.com City Park immersion - Yahoo Search Results
+se_search_ga_clarke,https://search.yahoo.com/search?p=Clarke+County+dual+language+immersion+schools+Whitehead+Oglethorpe,2026-11-05T23:14:20.898797+00:00,200,0,,Clarke County dual language immersion schools Whitehead Oglethorpe - Yahoo Search Results
+se_search_ga_clayton,https://search.yahoo.com/search?p=Clayton+county+dual+language+immersion+schools+Unidos+50+50,2026-11-05T23:14:22.306231+00:00,200,0,,Clayton county dual language immersion schools Unidos 50 50 - Yahoo Search Results
+se_search_ga_cobb,https://search.yahoo.com/search?p=Cobb+county+dual+language+immersion+schools,2026-11-05T23:13:18.694425+00:00,200,0,,Cobb county dual language immersion schools - Yahoo Search Results
+se_search_ga_cobb_changes,https://search.yahoo.com/search?p=Cobb+dual+language+immersion+phase+out+Austell+Clarkdale+Hollydale+Riverside+2025,2026-11-05T23:17:30.029976+00:00,200,0,,Cobb dual language immersion phase out Austell Clarkdale Hollydale Riverside 2025 - Yahoo Search Results
+se_search_ga_crisp,https://search.yahoo.com/search?p=Crisp+county+dual+language+immersion+primary+school,2026-11-05T23:14:23.600588+00:00,200,0,,Crisp county dual language immersion primary school - Yahoo Search Results
+se_search_ga_dalton,https://search.yahoo.com/search?p=Dalton+public+schools+dual+language+immersion+schools,2026-11-05T23:14:31.712044+00:00,200,0,,Dalton public schools dual language immersion schools - Yahoo Search Results
+se_search_ga_deal,https://search.yahoo.com/search?p=Sandra+Dunagan+Deal+dual+immersion+Spanish+50+50+school+merger,2026-11-05T23:17:40.923836+00:00,200,0,,Sandra Dunagan Deal dual immersion Spanish 50 50 school merger - Yahoo Search Results
+se_search_ga_dekalb,https://search.yahoo.com/search?p=DeKalb+dual+language+immersion+schools+50+50+2025,2026-11-05T23:13:16.095704+00:00,200,0,,DeKalb dual language immersion schools 50 50 2025 - Yahoo Search Results
+se_search_ga_forsyth,https://search.yahoo.com/search?p=Forsyth+county+dual+language+immersion+Cumming+Kelly+Mill+Brandywine,2026-11-05T23:14:24.850087+00:00,200,0,,Forsyth county dual language immersion Cumming Kelly Mill Brandywine - Yahoo Search Results
+se_search_ga_forsyth_current,https://search.yahoo.com/search?p=site.forsyth.k12.ga.us+%22DLI%22+%2250%22,2026-11-05T23:21:46.854118+00:00,200,0,,site.forsyth.k12.ga.us DLI 50 - Yahoo Search Results
+se_search_ga_fulton,https://search.yahoo.com/search?p=Fulton+dual+language+immersion+schools+2025,2026-11-05T23:13:17.439251+00:00,200,0,,Fulton dual language immersion schools 2025 - Yahoo Search Results
+se_search_ga_hall,https://search.yahoo.com/search?p=Hall+county+dual+language+immersion+schools+50+50,2026-11-05T23:14:26.344643+00:00,200,0,,Hall county dual language immersion schools 50 50 - Yahoo Search Results
+se_search_ga_icsa_model,https://search.yahoo.com/search?p=ICSAtlanta+dual+immersion+kindergarten+80+20+50+50,2026-11-05T23:21:45.498801+00:00,200,0,,ICSAtlanta dual immersion kindergarten 80 20 50 50 - Yahoo Search Results
+se_search_ga_marietta,https://search.yahoo.com/search?p=Marietta+dual+language+immersion+schools+50+50,2026-11-05T23:14:30.488130+00:00,200,0,,Marietta dual language immersion schools 50 50 - Yahoo Search Results
+se_search_ga_other,https://search.yahoo.com/search?p=Georgia+immersion+programs+Clarke+Clayton+Crisp+Dalton+Hall+Rockdale+Savannah+Marietta+Forsyth,2026-11-05T23:13:20.032075+00:00,200,0,,Georgia immersion programs Clarke Clayton Crisp Dalton Hall Rockdale Savannah Marietta Forsyth - Yahoo Search Results
+se_search_ga_rockdale,https://search.yahoo.com/search?p=Rockdale+dual+language+immersion+schools,2026-11-05T23:14:27.725171+00:00,200,0,,Rockdale dual language immersion schools - Yahoo Search Results
+se_search_ga_rockdale_dl,https://search.yahoo.com/search?p=Rockdale+Spanish+dual+language+immersion+program+schools+Shoal+Creek,2026-11-05T23:17:31.443939+00:00,200,0,,Rockdale Spanish dual language immersion program schools Shoal Creek - Yahoo Search Results
+se_search_ga_roster,https://search.yahoo.com/search?p=Georgia+dual+language+immersion+2025+school+list+50%2F50,2026-11-05T23:12:09.681910+00:00,200,0,,Georgia dual language immersion 2025 school list 50/50 - Yahoo Search Results
+se_search_ga_savannah,https://search.yahoo.com/search?p=Savannah+Chatham+dual+language+immersion+schools,2026-11-05T23:14:29.103191+00:00,200,0,,Savannah Chatham dual language immersion schools - Yahoo Search Results
+se_search_ga_savannah_dl,https://search.yahoo.com/search?p=Haven+elementary+dual+language+immersion+Savannah+2025,2026-11-05T23:17:32.773538+00:00,200,0,,Haven elementary dual language immersion Savannah 2025 - Yahoo Search Results
+se_search_ga_state,https://search.yahoo.com/search?p=Georgia+dual+language+immersion+schools+list+2025+2026+GaDOE,2026-11-05T23:09:08.728858+00:00,200,0,,Georgia dual language immersion schools list 2025 2026 GaDOE - Yahoo Search Results
+se_search_ga_state_roster,https://search.yahoo.com/search?p=%22Georgia%22+%22immersion%22+%222025%22+%22schools%22+GaDOE+list,2026-11-05T23:12:47.749410+00:00,200,0,,Georgia immersion 2025 schools GaDOE list - Yahoo Search Results
+se_search_ga_yhale_model,https://search.yahoo.com/search?p=Yi+Hwang+Academy+Korean+Chinese+dual+language+immersion+50+50,2026-11-05T23:21:43.830255+00:00,200,0,,Yi Hwang Academy Korean Chinese dual language immersion 50 50 - Yahoo Search Results
+se_search_nc_chccs_move,https://search.yahoo.com/search?p=Chapel+Hill+Glenwood+Rashkis+Mandarin+immersion+2026+2027+board,2026-11-05T23:21:40.866589+00:00,200,0,,Chapel Hill Glenwood Rashkis Mandarin immersion 2026 2027 board - Yahoo Search Results
+se_search_nc_cms_model,https://search.yahoo.com/search?p=Charlotte+Mecklenburg+language+immersion+elementary+90+10+50+50,2026-11-05T23:17:35.709992+00:00,200,0,,Charlotte Mecklenburg language immersion elementary 90 10 50 50 - Yahoo Search Results
+se_search_nc_ended,https://search.yahoo.com/search?p=North+Carolina+dual+language+immersion+program+ended+closed+2025+2026+school,2026-11-05T23:17:49.001352+00:00,200,0,,North Carolina dual language immersion program ended closed 2025 2026 school - Yahoo Search Results
+se_search_nc_guilford_model,https://search.yahoo.com/search?p=Guilford+county+Spanish+immersion+90+10+50+50,2026-11-05T23:17:46.490530+00:00,200,0,,Guilford county Spanish immersion 90 10 50 50 - Yahoo Search Results
+se_search_nc_harnett_current,https://search.yahoo.com/search?p=Harnett+County+Schools+dual+language+closure+2026+Dunn+Highland+middle+schools,2026-11-05T23:29:39.748500+00:00,200,0,,Harnett County Schools dual language closure 2026 Dunn Highland middle schools - Yahoo Search Results
+se_search_nc_harnett_primary,https://search.yahoo.com/search?p=site.harnett.k12.nc.us+dual+language+immersion+2026+closure,2026-11-05T23:21:42.343553+00:00,200,0,,site.harnett.k12.nc.us dual language immersion 2026 closure - Yahoo Search Results
+se_search_nc_johnston_model,https://search.yahoo.com/search?p=Johnston+county+dual+language+90+10+50+50,2026-11-05T23:17:47.690438+00:00,200,0,,Johnston county dual language 90 10 50 50 - Yahoo Search Results
+se_search_nc_missing_end,https://search.yahoo.com/search?p=North+Carolina+immersion+school+program+closure+2025+2026+school+Burke+Cabarrus,2026-11-05T23:24:28.195128+00:00,200,0,,North Carolina immersion school program closure 2025 2026 school Burke Cabarrus - Yahoo Search Results
+se_search_nc_models,https://search.yahoo.com/search?p=North+Carolina+dual+language+immersion+full+partial+90+10+50+50+directory,2026-11-05T23:13:26.748141+00:00,200,0,,North Carolina dual language immersion full partial 90 10 50 50 directory - Yahoo Search Results
+se_search_nc_native,https://search.yahoo.com/search?p=New+Kituwah+Academy+Cherokee+immersion+2025+public+tribal+funding,2026-11-05T23:09:14.610592+00:00,200,0,,New Kituwah Academy Cherokee immersion 2025 public tribal funding - Yahoo Search Results
+se_search_nc_state,https://search.yahoo.com/search?p=North+Carolina+dual+language+immersion+program+directory+2025+2026,2026-11-05T23:09:11.633564+00:00,200,0,,North Carolina dual language immersion program directory 2025 2026 - Yahoo Search Results
+se_search_nc_union_model,https://search.yahoo.com/search?p=Union+county+NC+dual+language+immersion+schools+90+10+50+50,2026-11-05T23:17:36.995539+00:00,200,0,,Union county NC dual language immersion schools 90 10 50 50 - Yahoo Search Results
+se_search_nc_wake_model,https://search.yahoo.com/search?p=Wake+county+dual+language+immersion+90+10+50+50,2026-11-05T23:17:45.063992+00:00,200,0,,Wake county dual language immersion 90 10 50 50 - Yahoo Search Results
+se_search_sc_aiken,https://search.yahoo.com/search?p=Aiken+Belvedere+Mandarin+immersion+program+2025,2026-11-05T23:14:44.352381+00:00,200,0,,Aiken Belvedere Mandarin immersion program 2025 - Yahoo Search Results
+se_search_sc_beaufort,https://search.yahoo.com/search?p=Beaufort+dual+language+immersion+elementary+schools+2025,2026-11-05T23:13:22.986940+00:00,200,0,,Beaufort dual language immersion elementary schools 2025 - Yahoo Search Results
+se_search_sc_belvedere_new,https://search.yahoo.com/search?p=Belvedere+Elementary+Mandarin+immersion+50+50+2025+school,2026-11-05T23:17:42.358649+00:00,200,0,,Belvedere Elementary Mandarin immersion 50 50 2025 school - Yahoo Search Results
+se_search_sc_charters,https://search.yahoo.com/search?p=East+Point+East+Link+Academy+Chinese+immersion+50+50,2026-11-05T23:14:33.085944+00:00,200,0,,East Point East Link Academy Chinese immersion 50 50 - Yahoo Search Results
+se_search_sc_doe,https://search.yahoo.com/search?p=site.ed.sc.gov+%22immersion%22+%22schools%22+list,2026-11-05T23:12:08.233682+00:00,200,0,,site.ed.sc.gov immersion schools list - Yahoo Search Results
+se_search_sc_eastpoint_new,https://search.yahoo.com/search?p=East+Point+Academy+Chinese+immersion+50+50+elementary+middle+school,2026-11-05T23:17:43.638653+00:00,200,0,,East Point Academy Chinese immersion 50 50 elementary middle school - Yahoo Search Results
+se_search_sc_florence,https://search.yahoo.com/search?p=Florence+Delmae+language+immersion+50+50+schools,2026-11-05T23:14:38.602195+00:00,200,0,,Florence Delmae language immersion 50 50 schools - Yahoo Search Results
+se_search_sc_greenville,https://search.yahoo.com/search?p=Greenville+schools+immersion+Blythe+Spanish+French+Lakeview+Hughes,2026-11-05T23:14:40.014819+00:00,200,0,,Greenville schools immersion Blythe Spanish French Lakeview Hughes - Yahoo Search Results
+se_search_sc_greenville_ratio,https://search.yahoo.com/search?p=Blythe+Academy+language+immersion+French+Spanish+50+50,2026-11-05T23:24:32.255091+00:00,200,0,,Blythe Academy language immersion French Spanish 50 50 - Yahoo Search Results
+se_search_sc_lex2_ratio,https://search.yahoo.com/search?p=Riverbank+Elementary+dual+language+immersion+50+50,2026-11-05T23:24:33.610125+00:00,200,0,,Riverbank Elementary dual language immersion 50 50 - Yahoo Search Results
+se_search_sc_lexington,https://search.yahoo.com/search?p=Lexington+One+immersion+schools+50+50+2025,2026-11-05T23:13:21.510798+00:00,200,0,,Lexington One immersion schools 50 50 2025 - Yahoo Search Results
+se_search_sc_remaining,https://search.yahoo.com/search?p=South+Carolina+dual+language+immersion+schools+Anderson+Spartanburg+Dorchester+Horry+Berkeley+York,2026-11-05T23:21:37.658961+00:00,200,0,,South Carolina dual language immersion schools Anderson Spartanburg Dorchester Horry Berkeley York - Yahoo Search Results
+se_search_sc_richland1,https://search.yahoo.com/search?p=Richland+One+language+immersion+Carver+Lyon+French+Chinese+Spanish+2025,2026-11-05T23:14:35.883980+00:00,200,0,,Richland One language immersion Carver Lyon French Chinese Spanish 2025 - Yahoo Search Results
+se_search_sc_rockhill,https://search.yahoo.com/search?p=Rock+Hill+language+immersion+schools+Cherry+Park+50+50,2026-11-05T23:14:34.462854+00:00,200,0,,Rock Hill language immersion schools Cherry Park 50 50 - Yahoo Search Results
+se_search_sc_rockhill_primary,https://search.yahoo.com/search?p=site.rock-hill.k12.sc.us+%22immersion%22+%2250%22,2026-11-05T23:17:38.350354+00:00,200,0,,site.rock-hill.k12.sc.us immersion 50 - Yahoo Search Results
+se_search_sc_state,https://search.yahoo.com/search?p=South+Carolina+dual+language+immersion+schools+directory+2025,2026-11-05T23:09:10.219153+00:00,200,0,,South Carolina dual language immersion schools directory 2025 - Yahoo Search Results
+se_search_sc_state_roster,https://search.yahoo.com/search?p=%22South+Carolina%22+%22dual+language%22+%22directory%22,2026-11-05T23:12:49.506520+00:00,200,0,,South Carolina dual language directory - Yahoo Search Results
+se_search_tn_barksdale,https://search.yahoo.com/search?p=CMCSS+Barksdale+Spanish+immersion+program+ended+closed+2025,2026-11-05T23:13:25.417529+00:00,200,0,,CMCSS Barksdale Spanish immersion program ended closed 2025 - Yahoo Search Results
+se_search_tn_chatt_model,https://search.yahoo.com/search?p=ChattAcademy+Spanish+English+bilingual+curriculum+50+50,2026-11-05T23:17:39.649692+00:00,200,0,,ChattAcademy Spanish English bilingual curriculum 50 50 - Yahoo Search Results
+se_search_tn_glendale_model,https://search.yahoo.com/search?p=Glendale+Nashville+Spanish+immersion+50+50,2026-11-05T23:17:34.101676+00:00,200,0,,Glendale Nashville Spanish immersion 50 50 - Yahoo Search Results
+se_search_tn_memphis_more,https://search.yahoo.com/search?p=Memphis+public+schools+dual+language+immersion+Treadwell+2025+schools,2026-11-05T23:24:30.896178+00:00,200,0,,Memphis public schools dual language immersion Treadwell 2025 schools - Yahoo Search Results
+se_search_tn_mnps_primary,https://search.yahoo.com/search?p=site.mnps.org+%22dual+language%22+%222025%22,2026-11-05T23:12:50.905649+00:00,200,0,,site.mnps.org dual language 2025 - Yahoo Search Results
+se_search_tn_others,https://search.yahoo.com/search?p=%22Tennessee%22+%22immersion%22+%22schools%22+Spanish+public,2026-11-05T23:12:52.211415+00:00,200,0,,Tennessee immersion schools Spanish public - Yahoo Search Results
+se_search_tn_others2,https://search.yahoo.com/search?p=Tennessee+dual+language+immersion+public+Spanish+Mandarin+Knoxville+Chattanooga+schools,2026-11-05T23:14:46.851045+00:00,200,0,,Tennessee dual language immersion public Spanish Mandarin Knoxville Chattanooga schools - Yahoo Search Results
+se_search_tn_roster,https://search.yahoo.com/search?p=Tennessee+dual+language+immersion+Glendale+Waverly+Park+Avenue+2025,2026-11-05T23:12:06.847086+00:00,200,0,,Tennessee dual language immersion Glendale Waverly Park Avenue 2025 - Yahoo Search Results
+se_search_tn_state,https://search.yahoo.com/search?p=Tennessee+dual+language+immersion+schools+2025+Spanish+Chinese,2026-11-05T23:09:13.045800+00:00,200,0,,Tennessee dual language immersion schools 2025 Spanish Chinese - Yahoo Search Results
+se_tn_barksdale,https://spanishimmersion.cmcss.net/about,2026-11-05T23:14:28.800529+00:00,200,1,,Spanish Immersion at Barksdale
+se_tn_barksdale23,https://www.cmcss.net/wp-content/uploads/2023/11/Spanish-Immersion-Brochure-23-24.pdf,2026-11-05T23:14:29.017355+00:00,200,1,,se_tn_barksdale23
+se_tn_chatt,https://www.chattacademy.org/,2026-11-05T23:15:49.458074+00:00,200,1,,ChattAcademy Community School
+se_tn_chatt_curriculum,https://www.chattacademy.org/the-chattacademy-experience,2026-11-05T23:18:49.765856+00:00,200,1,,What is ChattAcademy — ChattAcademy Community School
+se_tn_glendale,https://glendale.mnps.org/our-school,2026-11-05T23:12:47.377358+00:00,200,1,,Our School - Glendale Elementary School
+se_tn_glendale_pto,https://www.glendalepto.org/spanish-immersion,2026-11-05T23:18:50.128005+00:00,200,1,,Glendale Elementary PTO - What is Spanish Immersion?
+se_tn_magnet25,https://www.mnps.org/post-details/~board/mnps-homepage-news/post/new-magnet-schools,2026-11-05T23:13:14.581372+00:00,200,1,,New Magnet Schools for 2025-2026 | Post Details
+se_tn_magnet26,https://www.mnps.org/about/news/news-details/~board/mnps-homepage-news/post/students-learn-in-two-languages-at-new-immersion-magnet-schools,2026-11-05T23:13:17.047980+00:00,200,1,,Students Learn in Two Languages at New Immersion Magnet Schools | Post Details
+se_tn_mnps_news,https://tntribune.com/mnps-students-learn-in-two-languages-at-new-immersion-magnet-schools/,2026-11-05T23:12:05.031221+00:00,200,0,,MNPS Students Learn in Two Languages at New Immersion Magnet Schools – The Tennessee Tribune
+se_tn_treadwell,https://treadwell-es.scsk12.org/parents-students/dual-language/about-dual-language,2026-11-05T23:12:04.132565+00:00,200,1,,About Dual Language

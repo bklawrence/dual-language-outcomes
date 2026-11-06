@@ -1,0 +1,15 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=12&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-05T23:16:06.064105+00:00",
+  "http_status": 200,
+  "final_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=12&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "sha256": "4c29f8b6be8851578de7503733d89bbd18990da987ea9ff61df029e83b697e8b",
+  "bytes": 1048454,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "",
+  "snapshot_path": "data/raw/southeast_2026_11_05/se_ccd2024_FL.json",
+  "full_response_sha256": "4c29f8b6be8851578de7503733d89bbd18990da987ea9ff61df029e83b697e8b"
+}

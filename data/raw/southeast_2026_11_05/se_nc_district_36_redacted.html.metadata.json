@@ -1,0 +1,25 @@
+{
+  "url": "https://www.imsnc.org/elementary",
+  "retrieved_at": "2026-11-05T23:14:14.524197+00:00",
+  "http_status": 200,
+  "final_url": "https://www.imsnc.org/elementary",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "9f651959df0a8af725f591d7fed0d3e34470f5f4933ff965f44985b82509e561",
+  "bytes": 139794,
+  "capture_method": "public_HTTP_acquisition_then_documented_credential_redaction",
+  "archive_kind": "public_HTTP_response_with_embedded_credential_redacted",
+  "title": "Elementary Program | International Montessori School",
+  "snapshot_path": "data/raw/southeast_2026_11_05/se_nc_district_36_redacted.html",
+  "full_response_sha256": "4c10aec8568f7ed560fce7bcb9dd9bfce8c912e7c2a54d37c914f815e4fe7b23",
+  "full_response_bytes": 139849,
+  "redactions": [
+    {
+      "kind": "embedded_Mapbox_token",
+      "occurrences": 1,
+      "replacement": "[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]",
+      "scope": "common.mapbox.token configuration only; visible and embedded programme text unchanged",
+      "reason": "Public webpage embeds a map-service credential; source text is preserved without redistributing the credential"
+    }
+  ]
+}

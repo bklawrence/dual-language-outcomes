@@ -1,0 +1,76 @@
+[
+  {
+    "school": "Chicopee Woods Elementary School",
+    "district": "Hall County Schools",
+    "source": "se_ga_guidance25",
+    "period": "2024-25",
+    "locator": "Chicopee Woods Elementary School",
+    "disposition": "preschool_only",
+    "reason": "State appendix lists preschool-only Spanish immersion; K-12 academic scope is not established",
+    "notes": ""
+  },
+  {
+    "school": "Lyman Hall Elementary School",
+    "district": "Hall County Schools",
+    "source": "se_ga_guidance25",
+    "period": "2024-25",
+    "locator": "Lyman Hall Elementary School",
+    "disposition": "preschool_only",
+    "reason": "State appendix lists preschool-only Spanish immersion; K-12 academic scope is not established",
+    "notes": ""
+  },
+  {
+    "school": "McEver Arts Academy Elementary School",
+    "district": "Hall County Schools",
+    "source": "se_ga_guidance25",
+    "period": "2024-25",
+    "locator": "McEver Arts Academy Elementary School",
+    "disposition": "preschool_only",
+    "reason": "State appendix lists preschool-only Spanish immersion; K-12 academic scope is not established",
+    "notes": ""
+  },
+  {
+    "school": "Sardis Elementary School",
+    "district": "Hall County Schools",
+    "source": "se_ga_guidance25",
+    "period": "2024-25",
+    "locator": "Sardis Elementary School",
+    "disposition": "preschool_only",
+    "reason": "State appendix lists preschool-only Spanish immersion; K-12 academic scope is not established",
+    "notes": ""
+  },
+  {
+    "school": "Sugar Hill Elementary School",
+    "district": "Hall County Schools",
+    "source": "se_ga_guidance25",
+    "period": "2024-25",
+    "locator": "Sugar Hill Elementary School",
+    "disposition": "preschool_only",
+    "reason": "State appendix lists preschool-only Spanish immersion; K-12 academic scope is not established",
+    "notes": ""
+  },
+  {
+    "school": "Maynard Jackson High School",
+    "district": "Atlanta Public Schools",
+    "source": "se_ga_aps_locations",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Maynard Jackson High School",
+    "disposition": "future_start_after_reference_year",
+    "reason": "Future Spanish continuation listed as SY2028; retained as a dated plan, not 2025-26 operation",
+    "notes": ""
+  },
+  {
+    "school": "Hollydale Elementary School",
+    "district": "Cobb County Schools",
+    "source": "se_ga_cobb_brochure",
+    "period": "historical brochure; retrieved 2026-11-05",
+    "locator": "Hollydale Elementary School",
+    "disposition": "requires_followup",
+    "reason": "Historical official Spanish immersion brochure; 2022 district-wide phaseout reporting and newer five-school intake list do not identify this school’s final operating year",
+    "notes": "No unsupported 2025 operation or closure date assigned.",
+    "additional_sources": [
+      "se_ga_cobb_phaseout_ajc",
+      "se_ga_cobb"
+    ]
+  }
+]
