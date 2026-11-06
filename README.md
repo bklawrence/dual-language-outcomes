@@ -4,8 +4,11 @@ A longitudinal research dataset for dual-language programs across all **50 US st
 
 **First structural research pass complete across all 50 states.** Partial programme evidence is integrated for **48 states**, including separately flagged candidates, historical hosts, continuations and later starts. **Mississippi and West Virginia have screening-only research**; no qualifying DL programme was verified in those passes, which is not a finding of statewide absence. All states retain discovery and verification gaps; the milestone is state coverage, not a complete school census. Existing assessment pilots are preserved. This structural pass adds no proficiency, demographic, EL-exit or SEDA observations.
 
+**Native state-assessment collection now begins with EDC v3.1, spring 2022–2025.** The [school/grade dataset](data/assessments/edc_v3_1_2022_2025/README.md) retains ELA/math proficiency, achievement-category distributions and assessment-population subgroups. [School/year coverage](data/assessments/edc_v3_1_2022_2025/school_year_coverage.csv) records every baseline school, including gaps. Results remain on each state's scale; counts retain suppression and documented enrollment/older-year proxies. These are schoolwide results, not identified DL-participant outcomes.
+
 ## Start here
 
+- [EDC assessment data and file guide](data/assessments/edc_v3_1_2022_2025/README.md), [collection findings](docs/status/EDC_ASSESSMENTS_2026_11_06.md), [state/year coverage](data/assessments/edc_v3_1_2022_2025/state_coverage.csv), [school identity audit](data/assessments/edc_v3_1_2022_2025/school_matches.csv) and [collection methods](docs/methods/EDC_ASSESSMENTS.md)
 - [First structural gap pilot: nine districts in TX/NC/NM](docs/status/STRUCTURAL_GAPS_PILOT_2026_11_06.md), [data and source guide](data/registry/structural_gaps_pilot_2026_11_06/README.md), [district gains](data/reports/structural_gaps_pilot_2026_11_06_by_district.csv), [field comparisons](data/reports/structural_gaps_pilot_2026_11_06_field_comparison.csv) and [review cases](data/reports/structural_gaps_pilot_2026_11_06_review_cases.csv)
 - [Frozen national structural baseline v1](data/baselines/national_structural_v1/README.md), [programme CSV](data/baselines/national_structural_v1/programmes.csv), [school CSV](data/baselines/national_structural_v1/schools.csv), [field completeness](data/baselines/national_structural_v1/completeness_by_state.csv), [research priorities](data/baselines/national_structural_v1/research_priorities.csv) and [consolidation methods](docs/status/NATIONAL_BASELINE_V1_2026_11_06.md)
 - [Final five-state findings: Maine, Massachusetts, New Hampshire, Rhode Island and Vermont](docs/status/NEW_ENGLAND_2026_11_06.md), [state CSVs and sources](data/registry/new_england_2026_11_06/README.md), [coverage](data/reports/new_england_2026_11_06_by_state.csv), [review cases](data/reports/new_england_2026_11_06_review_cases.csv) and [dated changes](data/reports/new_england_2026_11_06_change_events.csv)
@@ -44,7 +47,7 @@ python3 -m venv .venv
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-`build` is offline and deterministic for the saved input/config/code bytes. It creates all 28 contract tables, the structural review views and headers for uncollected layers, then validates them. `validate` checks source/report hashes, reporting grain, populations, identities, dates and attribution. It does not independently verify every reported research claim.
+`build` is offline and deterministic for the saved input/config/code bytes. It creates all 28 contract tables, registers the separate partitioned EDC collection, produces structural review views and headers for uncollected layers, then validates them. `validate` checks source/report hashes, reporting grain, populations, identities, dates, attribution and the EDC collection manifest. `dl-outcomes edc check --reproduce` also recomputes every normalized EDC cell from the saved native rows. These checks do not independently verify every reported research claim.
 
 The unchanged assessment pilots contain eight Texas subject results from four published one-way-DL/current-EL reporting groups, plus Washington school-level academic and enrollment observations for two multilingual elementary schools across 2023–24, 2024–25 and 2025–26. Washington program metadata covers a broader set of schools and preserves related heritage/tribal records for review. Program evidence groups are not verified distinct program counts.
 
@@ -58,6 +61,7 @@ src/dl_outcomes/            Build, state adapters, collection, validation and re
 data/raw/                  Immutable public snapshots and original legacy seed bytes
 data/staging/              Disposable extraction/repair work (ignored by Git)
 data/curated/              Shared registry, histories, assessment layers and evidence
+data/assessments/          Versioned partitioned national assessment collections
 data/releases/             Frozen local release manifests; generated bundles ignored
 data/registry/             Preserved earlier research and compatible legacy seed inputs
 collectors/                Existing standalone collectors, retained during migration

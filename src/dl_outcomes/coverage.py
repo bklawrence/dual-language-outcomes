@@ -44,6 +44,14 @@ def build_coverage(b):
             found[(state, row["school_year"], "inventory")].append(("school", row["grade_scope"], "allocation_plan_only", row["source_id"]))
     # Recognize earlier research without pretending it has been migrated or searched anew.
     identified = {}
+    edc_grades = defaultdict(set)
+    if getattr(b, "edc_coverage", None):
+        from .edc import COLLECTION
+        for row in read_csv(b.root / COLLECTION / "field_coverage.csv"):
+            native_grade = row["source_grade"]
+            grade = ("all_tested_grades" if native_grade == "G38" else
+                     str(int(native_grade[1:])) if re.fullmatch(r"G0[3-8]", native_grade) else "source:" + native_grade)
+            edc_grades[(row["state_code"], row["school_year"])].add(grade)
     state_names = {r["state_name"].lower().replace(" ", "_"): r["state_code"] for r in b.rows("states")}
     for path in sorted((b.root / "data/registry").glob("state_dl_programs_*.csv")):
         match = re.fullmatch(r"state_dl_programs_(.+?)(?:_(20\d{2})_(\d{2}))?\.csv", path.name)
@@ -79,6 +87,19 @@ def build_coverage(b):
                     population = " | ".join(sorted({r[2] for r in records}))
                     source = sorted({r[3] for r in records})[0]
                     notes = "Partial source/review records exist at the stated scope; this does not establish statewide or historical completeness, or that every candidate operated. Status, eligibility, source dates and vintages remain separate."
+                edc = getattr(b, "edc_coverage", {}).get((state["state_code"], year))
+                if edc and layer == "state_assessments" and edc_grades.get((state["state_code"], year)):
+                    status, unit = "pilot_partial", "school"
+                    grade = " | ".join(sorted(edc_grades[(state["state_code"], year)]))
+                    population = "schoolwide_and_source_defined_demographic_subgroups_not_DL_participants"
+                    source = b.edc_source_ids[(state["state_code"], year)]
+                    notes = ("Partitioned EDC v3.1 collection: data/assessments/edc_v3_1_2022_2025/. "
+                             + edc["research_identities_with_grade_rows"] + "/" + edc["target_research_school_identities"]
+                             + " baseline research school identities have grade-specific source rows. "
+                             "See school_year_coverage.csv for exact grades, subgroups, suppressed values and unresolved matches. "
+                             "Earlier pilot tables remain separate. Counts are valid scores or documented proxies; no cross-state norming or DL participant attribution.")
+                elif edc and layer == "demographics":
+                    notes += " EDC assessment-population subgroup counts and proxies are retained in the partitioned state-assessment layer; they are not total grade enrollment."
                 b.add("coverage", coverage_id=record_id("coverage", *key), state_code=key[0], school_year=year, layer=layer,
                       collection_status=status, smallest_available_unit=unit, grade_scope=grade, population_scope=population,
                       availability_basis="collected_source_scope" if records else "not_established",
