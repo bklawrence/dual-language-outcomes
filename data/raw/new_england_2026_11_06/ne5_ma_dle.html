@@ -1,0 +1,931 @@
+
+<!-- ####### DO NOT COPY TO PROD, MAKE CHANGES TO BOTH LOCATIONS SEPARATELY ###### -->
+<!doctype html>
+<html lang="en-US">
+	<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="The goal of the Massachusetts public K-12 education system is to prepare all students for success after high school. Massachusetts public school students are leading the nation in reading and math and are at the top internationally in reading, science, and math according to the national NAEP and international PISA assessments." /><meta name="keywords" content="Massachusetts Department of Elementary and Secondary Education, Massachusetts Department of Education, Elementary Education, Secondary Education, DOE, DESE, ESE, Massachusetts, public, education, K-12, curriculum, frameworks, learning, standards, school, choice, district, Turnaround, teaching, learning, instruction, testing, assessment, MCAS, elementary, secondary, NAEP, PISA, TIMSS, special, English, language, learners, students, disabilities, IEPs, adult, accountability, data, college, career, readiness, digital" /><meta name="author" content="Massachusetts Department of Elementary and Secondary Education" /><title>
+	Dual Language Education Programs - English Learner Education
+</title><link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&amp;family=Libre+Baskerville:wght@700&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /><link rel="stylesheet" type="text/css" href="/css/bootstrap/header.css" /><link rel="stylesheet" type="text/css" href="/css/bootstrap/main.css" /><link rel="stylesheet" type="text/css" href="/css/bootstrap/media.css" /><link rel="stylesheet" type="text/css" href="/css/bootstrap/footer.css" /><link href="/css/bootstrap/earlyliteracy.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<!-- Added for Coveo cloud implementation  Ranga 08/12/2022-->
+		 <link rel="stylesheet" href="https://static.cloud.coveo.com/searchui/v2.10099/css/CoveoFullSearch.css" />
+		<script class="coveo-script" src="https://static.cloud.coveo.com/searchui/v2.10099/js/CoveoJsSearch.Lazy.min.js"></script>
+		<!--End  Added for Coveo cloud implementation  Ranga 08/12/2022-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>  
+			<script src="https://kit.fontawesome.com/2fdc558176.js" crossorigin="anonymous"></script>
+			<script>
+					$(document).ready(function() {
+					$(".megamenu").on("click", function(e) {
+					e.stopPropagation();
+					});
+					});
+			</script>
+		<!-- Added for Coveo cloud implementation  Ranga 08/12/2022-->
+		<script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const searchBoxRoot = document.getElementById("searchbox");
+                // 2. Configure a search endpoint
+                Coveo.SearchEndpoint.configureCloudV2Endpoint("", "xx721c88d7-596e-4345-b1f1-2a57d16fa992");
+                // 3. Initialize a Searchbox component
+                Coveo.initSearchbox(searchBoxRoot, "/search.html")
+            });
+        </script>
+		<!--End  Added for Coveo cloud implementation  Ranga 08/12/2022-->
+			<script>
+			        $(document).ready(function() {
+			            $('#arrowup').hide();
+			            $(window).scroll(function() {
+			
+			                if ($(this).scrollTop()>500)
+			                    {
+			                $('#arrowup').fadeIn();
+			                }
+			                else
+			                {
+			                $('#arrowup').fadeOut();
+			                }
+			                });
+			        });
+					
+<!-- ##### Function for School Finder Language selection to carryover from Profiles to DESE (/ccte/cvte/cte-families/...)##### -->
+					function openPdf(programPdfId) {
+					    //step 1: Get the language code passed from school finder.
+					    var languageCodeToUse = 'en';
+					    var localizeSelectedString = Localize.getLanguage();
+					
+					    if (null != localizeSelectedString && '' != localizeSelectedString) {
+					        languageCodeToUse = localizeSelectedString;
+					    }
+					
+					    var contentPdfLocation = "/ccte/cvte/cte-families/one-pager/" + programPdfId + ".pdf";
+					  
+					    //step 2 update the contentlink/pdf location based on language selected
+					    switch (languageCodeToUse) {
+					        case "es":
+					            contentPdfLocation=contentPdfLocation.replace('.pdf', '-es.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					        case "pt":
+					            contentPdfLocation = contentPdfLocation.replace('.pdf', '-pt.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					        case "ht":
+					            contentPdfLocation = contentPdfLocation.replace('.pdf', '-ht.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					        case "zh-Hans":
+					            contentPdfLocation = contentPdfLocation.replace('.pdf', '-zh-Hans.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					        case "vi":
+					            contentPdfLocation = contentPdfLocation.replace('.pdf', '-vi.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					        default:
+					            contentPdfLocation = contentPdfLocation.replace('.pdf', '-en.pdf')
+					            window.open(contentPdfLocation, '_blank');
+					            break;
+					    }
+					
+					    return false;
+					};
+            </script>
+<!-- ##### Localize Script -- NOTE Keys are different from DEV to PROD !!!!NEVER COPY!!!!  ##### -->
+			<script src="https://global.localizecdn.com/localize.js"></script>
+			<script>!function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","getSourceLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);</script>
+
+			<script>
+					Localize.initialize({
+						key: '23exxAnas5CNs',
+						rememberLanguage: true,
+						autoApprove: true,
+					});
+			</script>
+	
+	<style>
+		.CoveoSearchButton {
+		  background-color: white;
+		  border: 1px solid #7e8c9a;
+		  border-left: none;
+		  text-decoration: none;
+		  text-align: center;
+		  vertical-align: middle;
+		  overflow: hidden;
+		  height: 50px;
+		  width: 60px;
+		  cursor: pointer;
+		  line-height: 0;
+		}
+		.CoveoSearchButton:hover .coveo-magnifier-circle-svg {
+		  fill: #1d4f76;
+		}
+		.CoveoSearchButton:hover {
+			background-color: #edf7fd;
+		}
+		.coveo-visible-to-screen-reader-only {
+			background-color: white;
+		}
+		
+	</style>
+			
+	
+       <script>
+              $(function () {
+                      setNavigation();
+              });
+              function setNavigation() {
+                      var path = window.location.pathname;
+                      path = path.replace(/\/$/, "");
+                      path = decodeURIComponent(path);
+
+                  $(".left-nav-link").each(function () {
+                      var href = $(this).attr('href');
+                      if (path.substring(0, href.length) === href) {
+                          $(this).addClass('active');
+                      }
+                  });
+
+        }
+       </script>
+</head>
+
+	<body>
+			<nav class="skip-links" aria-label="Skip navigation links">
+				<a href="#main" class="skip-link">Skip to main content</a>
+				<a href="#footer" class="skip-link">Skip to footer</a>
+			</nav>
+			
+			<!-- Localize accessibility controls starts -->
+
+            <div id="lang-selector-fixed" role="application" aria-label="Language selector">
+  				<div class="custom-lang-selector" id="custom-lang-selector">
+			    <button id="lang-select-btn" type="button"
+			            aria-haspopup="listbox"
+			            aria-expanded="false"
+			            aria-describedby="lang-current-desc">
+			      <span class="lang-btn-icon" aria-hidden="true"></span>
+			      <span id="lang-current-text">English</span>
+			    </button>
+			    <!-- NVDA ignores aria-label on a button that has visible child text,
+			         but reliably reads aria-describedby â€” kept in sync by setCurrentLanguage() -->
+			    <span id="lang-current-desc" class="sr-only">
+			        Select language, current language English</span>
+			    <ul id="lang-dropdown" role="listbox" aria-label="Available languages"></ul>
+			  </div>
+			</div>
+
+<!-- Localize accessibility controls end -->
+			<div id="high"></div>
+			<!-- Google Analytics -->
+					<!-- Google tag (gtag.js) -->
+					<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZW6FX4NK09"></script>
+					<script>
+					  window.dataLayer = window.dataLayer || [];
+					  function gtag(){dataLayer.push(arguments);}
+					  gtag('js', new Date());
+					
+					  gtag('config', 'G-ZW6FX4NK09');
+					</script>
+
+			
+  		<form name="aspnetForm" method="post" action="./dle.html" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNDk5OTk1NTBkZHbqNTjn9XqTCY5efXnvl1COE8nrfuGd435r3GGt5/hf" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="852F62F4" />
+</div>
+		<header>
+<!-- **** Utility Nav **** -->		
+		<div class="row" id="utility-bar">
+			<div class="col-md-4"> 
+				<a href="/"><img src="/images/logo-dese-master.png" alt="Department of Elementary and Secondary Education Home" width="300" height="86" class="ml-1"/></a>
+			</div><!-- end of col-md-4 --> 	
+		
+			<div class="col-md-8 utility-bar">
+				<div class="d-flex justify-content-end mr-2 mt-5">
+					<div class="pt-2 pb-2 pr-2"><a href="https://gateway.edu.state.ma.us/">Security Portal</a></div>
+					<div class="pt-2 pb-2 pr-2"> | </div>
+					<div class="pt-2 pb-2 pr-2"><a href="https://profiles.doe.mass.edu/">School Profiles</a></div>
+				</div>
+			</div><!--col-md-8 -->  
+		</div><!--end of row  -->
+
+		
+<!-- **** Notification Bar **** -->
+
+		<div class="notification pt-3 pr-3 pl-3 pb-3" id="notification">
+			<div class="media">
+				<!-- <i class="fa fa-exclamation-triangle fa-xl mt-3 ml-4 mr-3" style="color:#ffffff;"></i>
+			
+					<div class="body-left">
+						<p><b>The School and District Profiles website will be unavailable from 3:00 PM ET on Monday, September 21, until 11:00 AM ET on Tuesday, September 22. Please visit the <a href="https://educationtocareer.data.mass.gov/" target="_blank" aria-describedby="externalWebsite" class="text-black"><span class="text-black">E2C Hub <i class="fas fa-external-link"></i></span></a> for data during that time. We apologize for the inconvenience.</b></p>
+					</div> -->
+			</div>
+		</div><!--end of notification -->
+
+
+<!-- **** Navigation Bar **** -->
+
+		<nav class="navbar navbar-expand-sm bg-color" aria-label="mega-menu" id="myHeader">
+			<div id="navbar">
+				<ul class="navbar-nav1">
+					<li class="nav-item dropdown megamenu-li">
+						<!-- ** Updated on 6/17/26 for screen reader accessibility ** -->
+						<div class="dropdown-toggle text-white" id="dropdown01" aria-haspopup="true">
+							<div class="menu-btn">
+								<button class="menu-button--burger ml-5" id="menuIconToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="dropdownMenu">
+									<i class="fa-solid fa-bars fa-lg mr-2" style="font-size: 28px;" aria-hidden="true"></i><span class="button-text">Menu</span>
+								</button>
+							</div>
+						</div>
+						<div id="menuStatus" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+						<div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+							<div class="row">
+								<div class="col-md-6 col-lg-3">
+									<nav aria-label="administration-finance">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/finance/">Administration and Finance</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/finance/accounting/default.html">Accounting and Auditing</a></li>
+													<li><a class="dropdown-item" href="/finance/chapter70/default.html">Chapter 70 Program</a></li>
+													<li><a class="dropdown-item" href="/ccte/policies/admissions/default.html">Chapter 74 Nonresident Tuition</a></li>
+													<li><a class="dropdown-item" href="/charter/finance/default.html">Charter Finance and Enrollment</a></li>
+													<li><a class="dropdown-item" href="/finance/ESEbudget/default.html"><span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> Budget</a></li>
+													<li><a class="dropdown-item" href="/federalgrants/">Federal Grant Programs</a></li>
+													<li><a class="dropdown-item" href="/cnp/">Food and Nutrition</a></li>
+													<li><a class="dropdown-item" href="/grants/">Grants/Funding Opportunities</a></li>
+													<li><a class="dropdown-item" href="/finance/schoolchoice/default.html">Inter-District School Choice</a></li>
+													<li><a class="dropdown-item" href="/finance/regional/default.html">Regional Districts</a></li>
+													<li><a class="dropdown-item" href="/finance/sbuilding/default.html">School Buildings</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/603cmr10.html">School Finance Regulations</a></li>
+													<li><a class="dropdown-item" href="/finance/circuitbreaker/default.html">Special Ed. Circuit Breaker</a></li>
+													<li><a class="dropdown-item" href="/finance/transportation/default.html">Transportation</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of administration-finance-nav  -->
+								<br />
+									<nav aria-label="commissioner-office">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/commissioner/">Commissioner's Office</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/commissioner/about.html">About the Commissioner</a></li>
+													<li><a class="dropdown-item" href="/commissioner/Back-to-School/default.html">Back to School</a></li>
+													<li><a class="dropdown-item" href="/commissioner/updates.html">Commissioner's Update</a></li>
+													<li><a class="dropdown-item" href="/commissioner/checklist.html">Education Leaders Checklist</a></li>
+													<li><a class="dropdown-item" href="/commissioner/spec-advisories/default.html">Special Advisories</a></li>
+													<li><a class="dropdown-item" href="/research/delivery.html">Strategic Plan</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of commissioner-office-nav  -->
+								<br />
+									<nav aria-label="district-support">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/district-support.html">District Support</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/accountability/lists-tools/default.html">Accountability Lists, Materials, and Tools</a></li>
+													<li><a class="dropdown-item" href="/oases/">Approved Special Education Schools</a></li>
+													<li><a class="dropdown-item" href="/sip/">Boston Public Schools Systemic Improvement Plan (<abbr>SIP</abbr>)</a></li>
+													<li><a class="dropdown-item" href="/level5/">Chronically Underperforming Schools and Districts</a></li>
+													<li><a class="dropdown-item" href="/DataAccountability.html">Data and Accountability</a></li>
+													<li><a class="dropdown-item" href="/accountability/district-review/default.html">District Reviews</a></li>
+													<li><a class="dropdown-item" href="/accountability/district-review/reports.html">District Review Reports</a></li>
+													<li><a class="dropdown-item" href="/language-access/">Language Access</a></li>
+													<li><a class="dropdown-item" href="/leap/">Leading Educational Access Project (<abbr>LEAP</abbr>)</a></li>
+													<li><a class="dropdown-item" href="/sfss/">Multi-Tiered System of Support (<abbr>MTSS</abbr>)</a></li>
+													<li><a class="dropdown-item" href="/psm/">Public School Monitoring</a></li>
+													<li><a class="dropdown-item" href="https://profiles.doe.mass.edu/">School and District Profiles</a></li>
+													<li><a class="dropdown-item" href="/accountability/report-cards/default.html">School and District Report Cards</a></li>
+													<li><a class="dropdown-item" href="/specialeducation/">Special Education</a></li>
+													<li><a class="dropdown-item" href="/seis/">Special Education in Institutional Settings</a></li>
+													<li><a class="dropdown-item" href="/turnaround/">Statewide System of Support</a></li>
+													<li><a class="dropdown-item" href="/soa/">Student Opportunity Act</a>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of district-support-nav  -->
+									<br />
+								</div><!-- end of col-sm-6 col-lg-3  -->
+								
+								<div class="col-md-6 col-lg-3">
+									<nav aria-label="educational-options">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/educational-options.html">Educational Options</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/acls/">Adult and Community Learning Services</a></li>
+													<li><a class="dropdown-item" href="/alted/">Alternative Education</a></li>
+													<li><a class="dropdown-item" href="/ccte/courses-learning/advanced.html"><span class="visually-hidden">Advanced Placement </span><abbr>AP</abbr> Subsidy Program</a></li>
+													<li><a class="dropdown-item" href="/ccte/pathways/cte/default.html">Career Technical Education (<abbr>CTE</abbr>)</a></li>
+													<li><a class="dropdown-item" href="/charter/">Charter Schools</a></li>
+													<li><a class="dropdown-item" href="/ccte/">College Career, and Technical Education</a></li>
+													<li><a class="dropdown-item" href="/cmvs/">Commonwealth Virtual Schools</a></li>
+													<li><a class="dropdown-item" href="/ccte/sec-supports/massgrad/default.html">Dropout Prevention and Reengagement</a></li>
+													<li><a class="dropdown-item" href="/ccte/pathways/early-college/default.html">Early College</a></li>
+													<li><a class="dropdown-item" href="/edcollaboratives/">Educational Collaboratives</a></li>
+													<li><a class="dropdown-item" href="/families/">Family Portal</a></li>
+													<li><a class="dropdown-item" href="/hse/">High School Equivalency (<abbr>HSE</abbr>)</a></li>
+													<li><a class="dropdown-item" href="/homeschool/">Home Schooling</a></li>
+													<li><a class="dropdown-item" href="/ccte/pathways/innovation-pathways/default.html">Innovation Career Pathways</a></li>
+													<li><a class="dropdown-item" href="/finance/schoolchoice/default.html">Inter-District School Choice</a></li>
+													<li><a class="dropdown-item" href="http://www.massacademy.org/" target="_blank" aria-describedby="externalWebsite">Mass Academy of Math and Science at <span class="visually-hidden">Worcester Polytechnic Institute </span><abbr>WPI</abbr></a></li>
+													<li><a class="dropdown-item" href="/metco/"><span class="visually-hidden">Metropolitan Council for Educational Opportunity </span><abbr>METCO</abbr></a></li>
+													<li><a class="dropdown-item" href="/prs/">Problem Resolution System</a></li>
+													<li><a class="dropdown-item" href="https://profiles.doe.mass.edu/search/search_link.aspx?orgType=5,12&runOrgSearch=Y&leftNavId=11238">Public School Districts</a>
+													<li><a class="dropdown-item" href="/sfs/rhs/default.html">Recovery High Schools</a></li>
+													<li><a class="dropdown-item" href="https://profiles.doe.mass.edu/search/get_closest_orgs.aspx">School Finder</a></li>
+													<li><a class="dropdown-item" href="/redesign/">School Redesign</a></li>																	
+													<li><a class="dropdown-item" href="/sfs/">Student and Family Support</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of educational-options-nav  -->
+									<br />
+									<nav aria-label="instructional-support">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/instruction/">Instructional Support</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/csdp/roadmap/default.html">Acceleration Roadmap</a></li>
+													<li><a class="dropdown-item" href="/instruction/culturally-sustaining/default.html">Culturally and Linguistically Sustaining Practices</a></li>
+													<li><a class="dropdown-item" href="/instruction/curate/default.html"><span class="visually-hidden">Curriculum Ratings by Teachers </span><abbr>CURATE</abbr></a></li>
+													<li><a class="dropdown-item" href="/edeffectiveness/">Educator Effectiveness</a></li>
+													<li><a class="dropdown-item" href="/edeval/">Educator Evaluation</a></li>
+													<li><a class="dropdown-item" href="/licensure/">Educator Licensure</a></li>
+													<li><a class="dropdown-item" href="/edprep/">Educator Preparation</a></li>
+													<li><a class="dropdown-item" href="/amazingeducators/">Educator Recognition</a></li>
+													<li><a class="dropdown-item" href="/ele/">English Learner Education</a>
+													<li><a class="dropdown-item" href="/edeffectiveness/equitableaccess/default.html">Equitable Access</a></li>
+													<li><a class="dropdown-item" href="/edeffectiveness/mentor/default.html">Induction and Mentoring</a></li>
+													<li><a class="dropdown-item" href="/instruction/impd/default.html">Instructional Materials</a></li>
+													<li><a class="dropdown-item" href="/frameworks/default.html">Learning Standards</a></li>
+													<li><a class="dropdown-item" href="/instruction/literacy-humanities.html">Literacy and Humanities</a>
+													<li><a class="dropdown-item" href="/massliteracy/">Mass Literacy</a></li>
+													<li><a class="dropdown-item" href="/mtel/"><span class="visually-hidden">Massachusetts Tests for Educator Licensure </span><abbr>MTEL</abbr></a></li>
+													<li><a class="dropdown-item" href="/pal/"><span class="visually-hidden">Performance Assessment for Leaders </span><abbr>PAL</abbr></a></li>
+													<li><a class="dropdown-item" href="/pd/">Professional Development</a></li>
+													<li><a class="dropdown-item" href="/edeffectiveness/prof-learning/default.html">Professional Learning</a></li>
+													<li><a class="dropdown-item" href="/retell/"><span class="visually-hidden">Rethinking Equity and Teaching for English Language Learners </span><abbr>RETELL</abbr></a></li>
+													<li><a class="dropdown-item" href="/sfs/sel/default.html">Social and Emotional Learning</a></li>
+													<li><a class="dropdown-item" href="/stem/default.html"><span class="visually-hidden">Science, Technology Engineering, and Mathematics </span><abbr>STEM</abbr></a></li>
+													<li><a class="dropdown-item" href="/edeffectiveness/talent-guide/default.html">Talent Guide</a></li>
+													<li><a class="dropdown-item" href="/edeffectiveness/leadership/default.html">Teacher Leadership</a></li>
+													<li><a class="dropdown-item" href="/worldlanguages/">World Languages</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of instructional-support-nav  -->
+									<br />
+								</div><!-- end of col-sm-6 col-lg-3  -->
+								
+								<div class="col-md-6 col-lg-3">
+									<nav aria-label="kaleidoscope-collective">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/kaleidoscope/">Kaleidoscope Collective</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/kaleidoscope/overview.html">What is Deeper Learning?</a></li>
+													<li><a class="dropdown-item" href="/kaleidoscope/planning/default.html">Planning for Deeper Learning</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of kaleidoscope-collective-nav  -->
+									<br />
+									<nav aria-label="legal">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/lawsregs/">Legal</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/lawsregs/arbitration/default.html">Arbitration Awards</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/fedlaws.html">Federal Laws</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/advisories.html">Legal Advisories</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/litigation/default.html">Litigation Reports</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/statelaws.html">State Laws</a></li>
+													<li><a class="dropdown-item" href="/lawsregs/stateregs.html">State Regulations</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of legal-nav  -->
+									<br />
+									<nav aria-label="planning-research">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/research/">Planning and Research</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/research/success/default.html">Planning for Success</a></li>
+													<li><a class="dropdown-item" href="/research/research-eval.html">Research and Evaluation</a></li>
+													<li><a class="dropdown-item" href="/research/allocation/default.html">Resource Allocation</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of planning-research-nav  -->
+									<br />
+									<nav aria-label="strategic-initiatives">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/csi/">Strategic Initiatives</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/csi/dei.html"><span class="visually-hidden">Diversity, Equity, and Inclusion </span><abbr>DEI</abbr> Policies and Practices at <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr></a></li>
+													<li><a class="dropdown-item" href="/csi/diverse-workforce/default.html">Diverse Workforce</a></li>
+													<li><a class="dropdown-item" href="/csi/equitable-stu-access.html">Equitable Student Access</a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of strategic-initiatives-nav  -->
+									<br />
+									<nav aria-label="student-assessment">
+										<ul class="list-unstyled">
+											<li><h2 class="megamenu-font"><b><a href="/assessment/">Student Assessment</a></b></h2>
+												<ul class="list-unstyled">
+													<li><a class="dropdown-item" href="/scholarships/adams/default.html">John and Abigail Adams Scholarship</a></li>
+													<li><a class="dropdown-item" href="/mcas/default.html"><span class="visually-hidden">Massachusetts Comprehensive Assessment System </span><abbr>MCAS</abbr></a></li>
+													<li><a class="dropdown-item" href="/mcas/accessibility/default.html"><span class="visually-hidden">Massachusetts Comprehensive Assessment System </span><abbr>MCAS</abbr> Accessibility and Accommodations</a></li>
+													<li><a class="dropdown-item" href="/mcas/alt/default.html"><span class="visually-hidden">Massachusetts Comprehensive Assessment System </span><abbr>MCAS</abbr> Alternate Assessment</a></li>
+													<li><a class="dropdown-item" href="/mcas/natl-intl/default.html">National/International Tests</a></li>
+													<li><a class="dropdown-item" href="/mcas/parents/default.html">Parent/Guardian Information</a></li>
+													<li><a class="dropdown-item" href="/scholarships/mastery/default.html">Stanley Z. Koplik Award</a></li>
+													<li><a class="dropdown-item" href="/mcas/training.html">Training Opportunities</a></li>
+													<li><a class="dropdown-item" href="/mcas/TestingMatters.html">Why Testing Matters</a></li>
+													<li><a class="dropdown-item" href="/mcas/access/default.html"><span class="visually-hidden">World-Class Instructional Design and Assessment </span><abbr>WIDA</abbr> <span class="visually-hidden">Assessing Comprehension and Communication in English State-to-State </span><abbr>ACCESS</abbr></a></li>
+												</ul>
+											</li>
+										</ul>
+									</nav><!-- End of student-assessment-nav  -->
+									<br />
+								</div><!-- end of col-sm-6 col-lg-3  -->
+								
+								<div class="col-md-6 col-lg-3 bg-blue-color">
+									<nav aria-label="secondary">
+										<ul class="list-unstyled">
+											<li class="ml-1 pb-3"><a href="/bese/"><b class="megamenu-font">Board of Education</b></a></li>
+
+										
+											<li class="ml-1 pt-3"><a href="/news/"><b class="megamenu-font">News and Media</b></a></li>
+											<li class="ml-1 pt-3"><a href="/DataAccountability.html"><b class="megamenu-font">Data and Accountability</b></a></li>
+											<li class="ml-1 pt-3"><a href="/families/"><b class="megamenu-font">Family Portal</b></a></li>
+											<li class="ml-1 pt-3 pb-3"><a href="/EducatorsAdmins.html"><b class="megamenu-font">Educators and Administrators</b></a><br /><br /></li>
+
+
+											<li><b class="megamenu-font mt-5 mb-2" style="color:#facc8d;">Public Awareness Campaigns</b><br />
+												<a class="campaign-link" href="/amazingeducators/"><img src="/images/www/amazingeducators-menu-white.png" alt="aMAzing Educators Logo" width="100" class="mt-3 mb-3 ml-1"/></a>									
+												<a class="campaign-link" href="/kaleidoscope/overview.html"><img src="/images/www/deeperlearning-menu-white.png" alt="Deeper Learning Logo" width="100" class="mt-3 mb-3 ml-1"/></a>
+												<a class="campaign-link" href="/teach/"><img src="/images/www/teachmass-menu-white.png" alt="Deeper Learning Logo" width="100" class="mt-3 mb-3 ml-1"/></a></li>
+										</ul>
+									</nav><!-- End of secondary-nav  -->
+									<br />
+									
+									<div class="mt-3" id="most-requested-links">
+										<nav aria-label="most-requested">
+											<ul class="list-unstyled">
+												<li><b class="megamenu-font mt-5 mb-2" style="color:#facc8d;">Most Requested</b>
+													<ul class="list-unstyled">
+														<li><a class="dropdown-item" href="/licensure/">Licensure</a></li>
+														<li><a class="dropdown-item" href="/frameworks/">Learning Standards</a></li>
+														<li><a class="dropdown-item" href="/mcas/"><span class="visually-hidden">Massachusetts Comprehensive Assessment System </span><abbr>MCAS</abbr></a></li>
+														<li><a class="dropdown-item" href="/edeval/">Educator Evaluation</a></li>
+														<li><a class="dropdown-item" href="/mtel/"><span class="visually-hidden">Massachusetts Tests for Educator Licensure </span><abbr>MTEL</abbr></a></li>
+													</ul>
+												</li>
+											</ul>
+										</nav><!-- End of most-requested-nav  -->
+										<br />
+									</div><!-- end most-frequent --> 
+										
+										   
+								</div><!-- end of col-sm-6 col-lg-3  -->
+							</div><!-- end of row -->
+					</li>
+				</ul>
+    		</div><!-- End Navbar -->
+
+
+    		<!-- Search -->
+			<div class="mt-1 mr-1 menu-text--white ml-auto">
+				<!-- Added for Coveo cloud implementation  Ranga 08/12/2022-->
+				
+				<div id="searchbox">
+    <div class="CoveoAnalytics" data-search-hub="my_main_search_page_search_hub"></div>
+    <div class="CoveoSearchbox">
+	
+	
+	</div>
+  </div>
+				<!--End  Added for Coveo cloud implementation  Ranga 08/12/2022-->
+			</div>
+	
+		</nav><!-- end of nav -->
+		</header>
+
+
+		<main id="main" tabindex="-1">
+<!-- Start Main Content -->
+
+
+
+			<div>
+				
+
+<section class="programname" id="programname"><a href="/ele/">English Learner Education</a></section>
+
+<script src="/jscripts/pulldown.js" type="text/javascript"></script>
+
+
+<section>
+
+	<div class="row">
+		<!-- Start Side Navigation -->
+		<div class="col-lg-3 mb-5">
+			<div class="left-nav-bgcolor" id="left-nav">
+				<ul class="nav flex-column ml-2 left-nav-border">
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/blueprint/default.html"><span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> Vision & Blueprint</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/programs/dle.html">Dual Language Education Programs</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/programs/tbe.html">Transitional Bilingual Education Programs</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/programs/sei.html">Sheltered English Immersion Programs</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/resources/default.html"><span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> Program Resources</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/cpr/default.html"><span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> Program Monitoring & Compliance</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/esl-toolkit/default.html"><span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> Instructional Support</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/prof-learning/default.html"><span class="visually-hidden">Office of Language Acquisition </span><abbr>OIME</abbr> Professional Learning</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/disability.html">English Learners with Disabilities</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/slife/default.html">Students with Limited or Interrupted Formal Education (<abbr>SLIFE</abbr>)</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/resources/immigrant-refugee.html">Resources for Supporting Immigrant and Refugee Students</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/families/default.html">Family Resources</a></li>
+					
+					<li class="nav-item"><a class="nav-link text-white left-nav-link" href="/ele/guidance/default.html">Guidance & Laws</a></li>
+				</ul>
+			</div>
+		</div><!-- end div col-lg-3-->
+		<!-- End Side Navigation -->
+		
+		
+		<!-- Start Main Content Column -->
+		<div class="col-lg-9">
+			
+			
+
+			 
+	<meta name="MetaDate" content="Aug 28 2026 12:00AM" />
+	
+<!-- Start Content -->
+
+
+<h1>Dual Language Education Programs</h1>
+
+
+<h2>What is Dual Language Bilingual Education?</h2>
+
+<p>Dual Language Bilingual Education (<abbr>DLBE</abbr>) is defined in <span class="visually-hidden">Massachusetts General Laws </span><abbr>M.G.L.</abbr> Ch. 71a, as "a model designed to promote bilingualism and biliteracy, cross-cultural competency, and high levels of academic achievement for both native English speakers and <span class="visually-hidden">English Learners </span><abbr>ELs</abbr> from a single language background. Provided, however, that students shall develop and maintain their first language while adding a second language and shall receive the same core curriculum as all students in the state&hellip;(and) that the instruction for such students shall be provided in two languages throughout the program." It is an evidence-based educational model that leverages students' home languages and cultures as assets and supports students who are proficient in the partner language as well as those who are proficient in English to learn academic content in both languages and develop holistic bilingualism.</p>
+
+<p><span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> programs use a planned language allocation (such as 80/20 or 50/50) across grade levels so that students develop strong literacy and content knowledge in both languages over time. In Massachusetts, <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> is implemented through two main program models: <b>Two-Way Immersion (<abbr>TWI</abbr>)</b> and <b>One-Way Immersion (<abbr>OWI</abbr>)</b>. Both models share the same three goals and legal requirements for educating English learners, but they differ in who they primarily serve and how student groups are composed.</p>
+
+
+<h2>Program Models</h2>
+
+	<ul>
+		<li><p><b>Two-Way Immersion (<abbr>TWI</abbr>)</b><br /><span class="visually-hidden">Two-Way Immersion </span><abbr>TWI</abbr> programs enroll both English learners whose home language is the partner language and students who enter school already proficient in English. Classrooms are intentionally designed to include a relatively balanced number of students from each language group so that all students serve as language models for one another. Instruction alternates or is shared between English and the partner language according to the school's language allocation plan, with the goal that all students reach high levels of bilingualism, biliteracy, and academic achievement.</p></li>
+		
+		<li><p><b>One-Way Immersion (<abbr>OWI</abbr>)</b><br />One-Way Immersion (<abbr>OWI</abbr>) programs often serve more linguistically homogeneous groups of students. <span class="visually-hidden">One-Way Immersion </span><abbr>OWI</abbr> programs in which all students are proficient in the partner language but not in English at the time of enrollment have historically been called developmental bilingual programs. They use both languages to teach content, and they help students develop proficiency in English while maintaining and continuing to develop their skills in their home language.</p>
+			
+			<p>Note: <span class="visually-hidden">One-Way Immersion </span><abbr>OWI</abbr> programs in which all students are monolingual and proficient in English at the time of enrollment have historically been called "Foreign Language" or "World Language" programs and are not subject to the same requirements as English Learner Education programs serving English learners.</p>
+			</li>
+	</ul>
+
+
+<h2>Overview of <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Program Models</h2>
+
+<p>Regardless of program model, <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> strived for high academic achievement and advanced bilingualism/biliteracy in English and the partner language and strong cross-cultural understanding for <b>all</b> students.</p>
+
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<thead><tr><th>Program model</th><th>Who the program serves</th><th>Classroom language groups</th></tr></thead>
+			<tr><th scope="row">Two-Way Immersion (<abbr>TWI</abbr>)</th><td>English learners whose home language is the partner language <b>and</b> English-proficient students</td><td>Classrooms are designed to include substantial numbers of students from both language groups learning together</td></tr>
+			<tr><th scope="row">One-Way Immersion (<abbr>OWI</abbr>)</th><td>Primarily students from a single home/heritage language group (usually English learners), and in some cases a small number of English-proficient peers</td><td>Most students share the same partner language; English is added and increased over</td></tr>
+		</table>
+	</div>
+
+<h3>Guidance and Resources for <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr></h3>
+
+	<ul class="fa-ul">
+		<li><a href="/ele/guidance/dle.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> Guidance for Implementing Dual Language Education Programs</a><br />
+			This guidance has been revised to include 
+				<ol type="a">
+					<li>best practices for maintaining successful programs</li>
+					<li>Providing support and services for <span class="visually-hidden">English Learner students with disabilities </span><abbr>ELSWD</abbr></li>
+					<li>Expansion into higher grade spans</li>
+					<li><span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> instructional recommendations</li>
+				</ol>
+			</li>
+	</ul>
+
+
+	<ul>
+		<li><b><span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> instruction in <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr></b>
+				<ul>
+					<li>These resources provide additional guidance on how to provide <span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> services to English learners in dual language programs for the various language allocation plans (90/10, 80/20, 50/50):
+							<ul class="fa-ul">
+								<li><a href="qrg-providing-esl-services-in-dlbe.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> <span class="visually-hidden">Quick Reference Guide </span><abbr>QRG</abbr> &mdash; Providing <span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> Services in Dual Language Bilingual Education (<abbr>DLBE</abbr>)</a></li>
+								<li><a href="qrg-6-key-points.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> <span class="visually-hidden">Quick Reference Guide </span><abbr>QRG</abbr> &mdash; Providing <span class="visually-hidden">English as a Second Language </span><abbr>ESL</abbr> Services in <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> &mdash; 6 Key Points</a></li>
+							</ul>
+						</li>
+				</ul><br />
+			</li>
+		
+		<li><b>Curricular alignment planning process</b>
+				<ul>
+					<li>This resource provides guidance on promoting cross-linguistic connections across languages of instruction and language allocation plans:
+							<ul class="fa-ul">
+								<li><a href="qrg-dlbe-curriculum-alignment-plan.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> <span class="visually-hidden">Quick Reference Guide </span><abbr>QRG</abbr> &mdash; <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Curriculum Alignment Planning Process</a></li>
+							</ul>
+						</li>
+				</ul><br />
+			</li>
+		
+		<li><b>Enrollment considerations for new incoming students</b>
+				<ul>
+					<li>This resource provides additional guidance on enrollment considerations for different student populations:
+							<ul class="fa-ul">
+								<li><a href="qrg-dlbe-enrollment.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> <span class="visually-hidden">Quick Reference Guide </span><abbr>QRG</abbr> &mdash; <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Enrollment</a></li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+	</ul>
+
+
+<h2>I want to open a New <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Program. What should I do?</h2>
+
+<p>Dual Language Bilingual Education (<abbr>DLBE</abbr>) and other alternative English learner education (<abbr>ELE</abbr>) programs must be planned and launched through a formal program proposal process with the Department of Elementary and Secondary Education (<abbr>DESE</abbr>). According to <span class="visually-hidden">Massachusetts General Laws </span><abbr>M.G.L.</abbr> Ch. 71a,, districts that want to start a new <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> program (such as <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr>, Transitional Bilingual Education (<abbr>TBE</abbr>), another research-based bilingual model, or newcomer/<span class="visually-hidden">Students with Limited or Interrupted Formal Education </span><abbr>SLIFE</abbr> and <span class="visually-hidden">Sheltered English Immersion </span><abbr>SEI</abbr> programs) must submit a proposal to <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr>'s Office of Language Acquisition (<abbr>OLA</abbr>) in the school year before the program opens.</p>
+
+<p>To help districts prepare to open/expand <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> programming we have developed an optional tool to plan for: </p>
+
+	<ul>
+		<li>Systemic Coherence, Commitment, and Resources</li>
+		<li>Program Structure and Planning</li>
+		<li>Curriculum</li>
+		<li>Instruction</li>
+		<li>Assessment and Accountability</li>
+		<li>Staff Quality and Professional Development (<abbr>PD</abbr>)</li>
+	</ul>
+	
+	<ul class="fa-ul">
+		<li><p><a href="dlbe-planning-tool.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> DLBE Planning Tool</a></p></li>
+	</ul>
+
+<p>Please email <a href="mailto:Elenita.Irizarry-Ramos@mass.gov">Elenita.Irizarry-Ramos@mass.gov <i class="fa fa-envelope-o" aria-hidden="true"></i></a> for more information.</p>
+
+
+<h2>New <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> Program Proposal Process</h2>
+
+<p>The proposal process is designed to ensure that new <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> programs are grounded in research-based approaches, adequately resourced, and monitored for impact on student outcomes in the first two years. Districts use <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr>'s program proposal templates, engage their English Learner Parent Advisory Council (<abbr>ELPAC</abbr>), and describe how the new program will meet the needs of their specific student population.</p>
+
+<p>The process includes five main steps, from early stakeholder consultation through program launch.</p>
+
+<h3>Overview of the <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> New Program Proposal Process</h3>
+
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<thead><tr><th>Step</th><th>Description</th><th>Key Actions</th><th>Typical Timeline*</th></tr></thead>
+			<tr><th scope="row">1. Stakeholder Consultation</th><td>District reviews strengths and needs of current <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> services.</td><td>Engage educators, EL students and families, community partners, and the ELPAC (if applicable).</td><td>Prior to first proposal submission</td></tr>
+			<tr><th scope="row">2. New <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> Program Planning</th><td>District designs a research-based <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> program that matches local data and goals.</td><td>Select program model (e.g., <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr>, TBE, newcomer/SLIFE, SEI), plan staffing, scheduling, curriculum, and supports.</td><td>Prior to first proposal submission</td></tr>
+			<tr><th scope="row">3. First Proposal Submission</th><td>District submits an initial proposal for <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> review.</td><td>Submit first proposal to OLA; <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> reviews and provides feedback, including whether the district is ready to proceed.</td><td>Due <b>November 15</b> of the year before program launch; <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> feedback within ~10 business days</td></tr>
+			<tr><th scope="row">4. Final Proposal Submission</th><td>District refines and finalizes its <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> program proposal.</td><td>Address <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> feedback, confirm resources, and submit the final proposal for approval. <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> may provide further technical assistance.</td><td>Final proposal due <b>January 1</b> of the year before program launch; <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> review within 90 days</td></tr>
+			<tr><th scope="row">5. Program Commences</th><td>Approved <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> program opens.</td><td>Implement the program, monitor early outcomes, and adjust based on data and <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> guidance.</td><td>Following academic year after written approval</td></tr>
+		</table>
+	</div>
+
+<p>Districts ready to begin this process should review the current <span class="visually-hidden">English Learner Education </span><abbr>ELE</abbr> program proposal templates and contact the Office of Language Acquisition at <a href="mailto:el@doe.mass.edu"><b>el@doe.mass.edu</b> <i class="fa fa-envelope-o" aria-hidden="true"></i></a> with questions.</p>
+
+	<ul class="fa-ul">
+		<li><p><a href="/ele/resources/program-proposal-bilingual-education.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> Program Proposal for Bilingual Education Programs</a></p></li>
+		
+		<li><p><a href="/ele/resources/proposal/qrg-newprogram.docx"><span class="fa-li"><i class="far fa-file-word"></i></span> Starting a New <span class="visually-hidden">English Learner </span><abbr>EL</abbr> Program &mdash; Quick Reference Guide</a></p></li>
+	</ul>
+
+
+<h2><span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr>'s <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Leaders' Community of Practice</h2>
+
+<p>This Community of Practice (<abbr>CoP</abbr>) supports and connects <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> Leaders across the Commonwealth of Massachusetts with <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> staff, partners from <abbr>MABE</abbr> (Multistate Association for Bilingual Education), and experts in the field of bilingual education as they implement, expand or consider the implementation of <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> programs.</p>
+
+<p>The goals of the <span class="visually-hidden">Community of Practice </span><abbr>CoP</abbr> are:</p>
+
+	<ul>
+		<li><p>To share problems of practice</p></li>
+		
+		<li><p>To collaborate and identify solutions</p></li>
+		
+		<li><p>To become familiar with the new <span class="visually-hidden">Dual Language Bilingual Education </span><abbr>DLBE</abbr> <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> resources</p></li>
+	</ul>
+
+<p>Monthly virtual meetings will be held from 9:30 to 10:45 a.m. In advance of each session, a Zoom registration link will be shared with participants.</p>
+
+<p>For more information or to join the <span class="visually-hidden">Community of Practice </span><abbr>CoP</abbr>, contact <a href="mailto:elenita.irizarry-ramos@mass.gov">Elenita Irizarry Ramos <i class="fa fa-envelope-o" aria-hidden="true"></i></a>.</p>
+
+
+<p><a href="dle-list.docx" class="lead fw-bold">List of Dual Language Programs in Massachusetts <i class="far fa-file-word"></i></a></p>
+
+
+<!-- End Content -->
+
+			
+			<div class="space"></div>
+			<div class="space"></div>
+			
+			
+			    <p id="last-updated-date"><small> Last Updated: August 28, 2026</small></p>
+			
+			
+		</div><!-- end of col-lg-9 -->
+		<!-- End Main Content Column -->
+	
+	</div><!-- end of row -->
+	
+	<div class="space"></div>
+
+</section><!-- end of section -->
+
+
+
+				
+			</div>
+
+
+			<span id="externalWebsite" class="visually-hidden">This link will take you to an external website which may or may not be accessible and WCAG 2.1 compliant</span>
+			<!-- End Page Content -->
+
+
+
+		</main><!-- end of main content -->
+
+
+		<!-- Arrow Up - Top of page -->
+		<div id="arrowup"><a href="#high" aria-label="Top of Page" class="text-dkteal"><i class="fas fa-solid fa-arrow-up text-dkteal"></i> Top</a></div>
+		
+		<footer id="footer" tabindex="-1">
+			<section class="bg-dkgray">
+				<div class="container">
+				<div class="row py-3">
+					<div class="col-lg-3">
+						<h2 class="fs-6 text-white">About this Site</h2>
+						<nav aria-label="footer-about">
+							<ul class="footer-ul">
+								<li><a href="/resources/A-Zindex.html">A-Z Site Index</a></li>
+								<li><a href="/resources/designED-playbook/default.html"><span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> DesignED Playbook</a></li>
+								<li><a href="https://www.mass.gov/info-details/enterprise-digital-accessibility-statement?referring_site=dese_website&referring_org=departmentofelementaryandsecondaryeducation&referring_org_sec=eoe&referring_url={REF_URL}" id="DASlink" target="_blank" aria-describedby="externalWebsite">Digital Accessibility Statement</a></li>								
+								<li><a href="/resources/policy.html">Policies</a></li>
+								<li><a href="/resources/howto.html">Site Information</a></li>
+								<li><a href="mailto:eoewebservices@mass.gov" target="_blank">Contact Webmaster</a></li>
+							</ul>
+						</nav>	
+					</div>
+					<div class="col-lg-3">
+						<h2 class="fs-6 text-white"><span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> Offices</h2>
+						<nav aria-label="footer-offices">
+							<ul class="footer-ul">
+								<li><a href="/finance/">Administration & Finance</a></li>
+								<li><a href="/commissioner/">Commissioner's Office</a></li>
+								<li><a href="/district-support.html">District Support</a></li>
+								<li><a href="/educational-options.html">Educational Options</a></li>
+								<li><a href="/instruction/">Instructional Support</a></li>
+								<li><a href="/kaleidoscope/">Kaleidoscope Collective</a></li>
+								<li><a href="/lawsregs/">Legal</a></li>
+								<li><a href="/research/">Planning & Research</a></li>
+								<li><a href="/csi/">Strategic Initiatives</a></li>
+								<li><a href="/assessment/">Student Assessment</a></li>
+							</ul>
+						</nav>
+					</div>
+
+
+					<div class="col-lg-3">
+						<h2 class="fs-6 text-white">Comments/Questions</h2>
+						<nav aria-label="footer-comments">
+							<ul class="footer-ul">
+								<li><a href="/news/">Media and Public Records Requests</a></li>
+								<li><a href="/contact/">Contact the Department</a></li>
+								<li><a href="/bese/contactinfo.html">Contact the Board</a></li>
+								<li><a href="https://profiles.doe.mass.edu/search/search.aspx?leftNavId=11238">Contact a District or School</a></li>
+								<li><a href="/prs/">Problem Resolution</a></li>
+								<li><a href="/jobs/">Job Opportunities</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3">
+						<h2 class="fs-6 text-white">Stay Connected</h2>
+						<nav aria-label="footer-stayconnected">
+							<ul class="footer-ul">
+								<li>
+									<i class="fa fa-twitter fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="https://twitter.com/maschoolsk12" target="_blank">Follow us on Twitter</a>
+								</li>
+								<li>
+									<i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="https://www.facebook.com/MassachusettsDESE/" target="_blank">Like us on Facebook</a>
+								</li>
+								<li>
+									<i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="https://www.linkedin.com/company/ma-department-of-elementary-and-secondary-education/" target="_blank">Connect with us on LinkedIn</a>
+								</li>
+								<li>
+									<i class="fa fa-youtube fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="https://www.youtube.com/user/massachusettsese" target="_blank">Watch us on YouTube</a>
+								</li>
+								<li>
+									<i class="fa fa-envelope fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="/news/newsletter-signup.aspx">Sign up to receive updates</a>
+								</li>
+								<li>
+									<i class="fa fa-calendar fa-lg" aria-hidden="true"></i>&nbsp;
+									<a href="/events.aspx">Register for a <span class="visually-hidden">Department of Elementary and Secondary Education </span><abbr>DESE</abbr> event</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div><!-- end of row -->
+			</div><!-- end of container -->
+			</section><!-- end of section -->
+
+										  
+						   
+
+			<section class="container mb-5">
+				<div id="disclaimer">
+					<h2 class="fs-6 text-black mt-4">Contact Us</h2>
+								   
+							 
+			  
+
+					<address class="small">
+						<p>Massachusetts Department of Elementary and Secondary Education<br />
+							135 Santilli Highway, Everett, MA 02149</p>
+						<p>Voice: (781) 338-3000<br />
+							TTY: (800) 439-2370</p>
+					
+					<a href="/contact/dese-directions.html"><i class="fa-solid fa-location-dot"></i> Directions</a>
+					</address>
+					
+					<h2 class="fs-6 text-black mt-4">Disclaimer</h2>
+					<p><small>A reference in this website to any specific commercial products, processes, or services, or the use of any trade, firm, or corporation name is for the information and convenience of the public and does not constitute endorsement or recommendation by the Massachusetts Department of Elementary and Secondary Education.</small></p>
+
+																																																																																																								
+
+				</div><!-- end of disclaimer -->
+				
+			</section><!-- end of section -->
+		</footer><!-- end of footer -->		
+		</form>		
+				
+			<!-- Accordion -->
+			<script>
+			  document.addEventListener("DOMContentLoaded", function() {
+				const accordionButtons = document.querySelectorAll('#accordion .card-header button');
+
+				accordionButtons.forEach(button => {
+				  // Open the accordion section when the button is focused
+				  button.addEventListener('focus', function() {
+					const targetCollapse = document.querySelector(this.getAttribute('data-target'));
+					
+					if (!targetCollapse.classList.contains('show')) {
+					  $(targetCollapse).collapse('show');
+					}
+				  });
+
+				  // Allow Enter and Space keys to open/close the accordion
+				  button.addEventListener('keydown', function(event) {
+					if (event.key === 'Enter' || event.key === ' ') {
+					  event.preventDefault();
+					  this.click(); // Simulates a button click
+					}
+				  });
+
+				  // Move focus to first link inside the expanded section
+				  button.addEventListener('click', function() {
+					const targetCollapse = document.querySelector(this.getAttribute('data-target'));
+
+					// Wait for animation to complete, then move focus to first link in the expanded section
+					setTimeout(() => {
+					  const firstLink = targetCollapse.querySelector('a');
+					  if (firstLink) {
+						firstLink.focus();
+					  }
+					}, 300);
+				  });
+				});
+			  });
+			</script>			
+			
+			<script src="/css/bootstrap/menu.js"></script>
+			<script src="/jscripts/common.js"></script>
+			<script src="/jscripts/lang-widget.js"></script>
+			
+		
+	</body>
+</html>

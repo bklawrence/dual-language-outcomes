@@ -1,0 +1,940 @@
+[
+  {
+    "program_id": "NE5-RI-P-d02646b34d03",
+    "school_id": "NE5-RI-S-0f789e8b79a9",
+    "state": "RI",
+    "district": "Central Falls",
+    "school": "Raíces Dual Language Academy at Robertson",
+    "track": "Spanish immersion",
+    "notes": "Principal message explicitly describes 2026-27 academic English/Spanish 50/50 instruction. This policy is not backdated to 2025-26. The established Robertson mission confirms academic bilingualism but does not independently establish the annual host roster or policy date.",
+    "observations": [
+      {
+        "source": "ne5_doc_2fe1090fe593269d",
+        "period": "2026-27",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Raíces Dual Language Academy at Robertson / Spanish immersion",
+        "notes": "Principal message explicitly describes 2026-27 academic English/Spanish 50/50 instruction. This policy is not backdated to 2025-26. The established Robertson mission confirms academic bilingualism but does not independently establish the annual host roster or policy date.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_doc_caf1b44b845ec71c",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "not reported",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Raíces Dual Language Academy at Robertson / reviewed programme section",
+        "notes": "Official Raícesmission supplies an established programme at Robertson; no precise historical timeshare or annual grade list.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_doc_2fe1090fe593269d",
+        "period": "2026-27",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Raíces Dual Language Academy at Robertson / grade-specific language allocation",
+        "notes": "Explicit later-year principal policy; not a 2025-26 observation.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "year! At Raíces, your children will learn academic content in English 50% of the time and in Spanish 50% of the time. Our goals are for your children to become bilingual, bi-literate, excel academically, and develop high levels of cultural competence. We believe that all families bring a wealth of linguistic, cultural, personal, and professional knowledge, and family participation in the life of the school is integral to student success. You can expect to have an equal voice at the table and to be treated respectfully by our team. Please stay tuned for ways to bec"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated established programme mission;2026-27 continuation separately documented",
+      "source": "ne5_doc_caf1b44b845ec71c",
+      "locator": "Raíces Dual Language Academy at Robertson / Spanish immersion",
+      "notes": "Established official Robertson mission and later continuation supply no ending indication in checked sources. This supports programme continuity, not a 2025-26 version of the explicitly 2026-27 principal policy."
+    },
+    "review_reasons": [
+      "Programme continuity is confirmed under the continuity rule. Explicit 2026-27 allocation remains separate; a 2025-26 policy date is not established."
+    ],
+    "continuity_review": "NE5-RI-P-d02646b34d03-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-47c3e62c2590",
+    "school_id": "NE5-RI-S-600e107cfaea",
+    "state": "RI",
+    "district": "Central Falls",
+    "school": "Raíces Upper Dual Language Academy",
+    "track": "Spanish immersion",
+    "notes": "Principal message explicitly describes 2026-27 academic English/Spanish 50/50 instruction. This policy is not backdated to 2025-26. The established Robertson mission confirms academic bilingualism but does not independently establish the annual host roster or policy date.",
+    "observations": [
+      {
+        "source": "ne5_doc_2fe1090fe593269d",
+        "period": "2026-27",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Raíces Upper Dual Language Academy / Spanish immersion",
+        "notes": "Principal message explicitly describes 2026-27 academic English/Spanish 50/50 instruction. This policy is not backdated to 2025-26. The established Robertson mission confirms academic bilingualism but does not independently establish the annual host roster or policy date.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "2024-25 school context and 2026-27 programme continuation",
+      "source": "ne5_doc_2fe1090fe593269d",
+      "locator": "Raíces Upper Dual Language Academy / Spanish immersion",
+      "notes": "The 2024-25 CCD names Raices Upper Dual Language Academy separately from Calcutt; current district principal confirms its academic Spanish/English pathway. No ending indication in checked sources. Explicit 2026-27 allocation policy is not backdated."
+    },
+    "review_reasons": [],
+    "continuity_review": "NE5-RI-P-47c3e62c2590-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-a211e1e4195e",
+    "school_id": "NE5-RI-S-40b2d69d23b5",
+    "state": "RI",
+    "district": "Pawtucket",
+    "school": "Nathanael Greene Elementary School",
+    "track": "Spanish immersion",
+    "notes": "District current MLL page explicitly names Greene K-5 DLI. School principal description confirms literacy,math,science,socialstudies in Spanish and English; old K-3growth text preserved as an older phase, not current cohort evidence. Exact language allocation unverified.",
+    "observations": [
+      {
+        "source": "ne5_ri_pawtucket",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Nathanael Greene Elementary School / Spanish immersion",
+        "notes": "District current MLL page explicitly names Greene K-5 DLI. School principal description confirms literacy,math,science,socialstudies in Spanish and English; old K-3growth text preserved as an older phase, not current cohort evidence. Exact language allocation unverified.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_doc_d697c7f85a500419",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K-3 (older school growth description)",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Nathanael Greene Elementary School / reviewed programme section",
+        "notes": "Page refers to 2015-16 rollout and 2017-18 assessmentcontext. Used to verify the instructional language pair and academic content, not to import assessment data or backdate a current grade roster.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_pawtucket",
+      "locator": "Nathanael Greene Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-a211e1e4195e-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-5e0277d0fb93",
+    "school_id": "NE5-RI-S-2612af5a22a3",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Alfred Lima Sr. Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Alfred Lima Sr. Elementary School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Alfred Lima Sr. Elementary School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Alfred Lima Sr. Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-5e0277d0fb93-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-b7f708f8a8e8",
+    "school_id": "NE5-RI-S-4a68eb1117d2",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Cornel Young and Charlotte Woods Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-3, 5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Cornel Young and Charlotte Woods Elementary School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-3, 5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Cornel Young and Charlotte Woods Elementary School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Cornel Young and Charlotte Woods Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-b7f708f8a8e8-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-bdcdb288262e",
+    "school_id": "NE5-RI-S-8b2002fedb5b",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Frank D. Spaziano Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-7",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Frank D. Spaziano Elementary School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Frank D. Spaziano Elementary School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Frank D. Spaziano Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-bdcdb288262e-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Spaziano programme grade scope differs: current district page K-7, March 2026 brochure K-8,2024 CCDcampus PK-5. No invented expansion date."
+    ]
+  },
+  {
+    "program_id": "NE5-RI-P-5721d8699856",
+    "school_id": "NE5-RI-S-4df18f3c8dec",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Hope High School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "9-10",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Hope High School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "9-10",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Hope High School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Hope High School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-5721d8699856-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-5308e77ebf87",
+    "school_id": "NE5-RI-S-81c97bea010b",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Leviton Dual Language School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Leviton Dual Language School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Leviton Dual Language School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Leviton Dual Language School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-5308e77ebf87-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-fa3d600f4ac9",
+    "school_id": "NE5-RI-S-20625dc393a6",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Roger Williams Middle School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Roger Williams Middle School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "7-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Roger Williams Middle School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Roger Williams Middle School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-fa3d600f4ac9-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-d4580f153983",
+    "school_id": "NE5-RI-S-12918faa0015",
+    "state": "RI",
+    "district": "Providence",
+    "school": "Sackett Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Sackett Elementary School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Sackett Elementary School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "Sackett Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-d4580f153983-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-9081bf5c59cc",
+    "school_id": "NE5-RI-S-ca795cca8439",
+    "state": "RI",
+    "district": "Providence",
+    "school": "William D’Abate Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+    "observations": [
+      {
+        "source": "ne5_ri_providence",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "William D’Abate Elementary School / Spanish immersion",
+        "notes": "Official district directory and March 2026 brochure list Spanish/English academic dual-language hosts. District offers both one-way and two-way programmes but does not assign a type or numeric timeshare to every listed school. No blanket50/50 allocation applied.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_ri_providence2026",
+        "period": "March 2026",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "William D’Abate Elementary School / reviewed programme section",
+        "notes": "Dated brochure retains programme roster. Young&Woods is listed K-3,5:grade 4 not silently inserted. Spaziano K-8 in brochure differs from current page K-7; dated difference preserved.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_providence",
+      "locator": "William D’Abate Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-9081bf5c59cc-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-29a8542ed4aa",
+    "school_id": "NE5-RI-S-77b9b9246a75",
+    "state": "RI",
+    "district": "Public charter operator: International Charter School",
+    "school": "International Charter School",
+    "track": "Portuguese immersion",
+    "notes": "Public charter has separate Spanish/English and Portuguese/English strands at one school. Explicit50% instruction in each language is separate from intended native-language pupil balance. Whole school participates through one of the two strands.",
+    "observations": [
+      {
+        "source": "ne5_ri_ics",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Portuguese",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "International Charter School / Portuguese immersion",
+        "notes": "Public charter has separate Spanish/English and Portuguese/English strands at one school. Explicit50% instruction in each language is separate from intended native-language pupil balance. Whole school participates through one of the two strands.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_ri_ics",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Portuguese": 50,
+          "English": 50
+        },
+        "locator": "International Charter School / grade-specific language allocation",
+        "notes": "Published alternating morning/afternoon model:half of instructional time in English and half in the named partner language; not student-composition percentages.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": " we use a 50/50 dual-language education model in which students spend 50% of their day studying in English and 50% of their day studying in either Spanish or Portuguese.Students alternate learning in two languages between morning and afternoon instruction each week or by unit.Academic instruction occurs in both languages. Academics Next Generation Charter Schools Report Dual-Language Education Integrating the language instruction with academics is more effective than teaching language in isolation. This approach enables students to simultaneously develop content a"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_ics",
+      "locator": "International Charter School / Portuguese immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-29a8542ed4aa-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-ef83f2835dfc",
+    "school_id": "NE5-RI-S-77b9b9246a75",
+    "state": "RI",
+    "district": "Public charter operator: International Charter School",
+    "school": "International Charter School",
+    "track": "Spanish immersion",
+    "notes": "Public charter has separate Spanish/English and Portuguese/English strands at one school. Explicit50% instruction in each language is separate from intended native-language pupil balance. Whole school participates through one of the two strands.",
+    "observations": [
+      {
+        "source": "ne5_ri_ics",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "International Charter School / Spanish immersion",
+        "notes": "Public charter has separate Spanish/English and Portuguese/English strands at one school. Explicit50% instruction in each language is separate from intended native-language pupil balance. Whole school participates through one of the two strands.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_ri_ics",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "International Charter School / grade-specific language allocation",
+        "notes": "Published alternating morning/afternoon model:half of instructional time in English and half in the named partner language; not student-composition percentages.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": " we use a 50/50 dual-language education model in which students spend 50% of their day studying in English and 50% of their day studying in either Spanish or Portuguese.Students alternate learning in two languages between morning and afternoon instruction each week or by unit.Academic instruction occurs in both languages. Academics Next Generation Charter Schools Report Dual-Language Education Integrating the language instruction with academics is more effective than teaching language in isolation. This approach enables students to simultaneously develop content a"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_ics",
+      "locator": "International Charter School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-ef83f2835dfc-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-dda061c54325",
+    "school_id": "NE5-RI-S-c75cd38b49c1",
+    "state": "RI",
+    "district": "Public charter operator: Nuestro Mundo Public Charter School",
+    "school": "Nuestro Mundo Public Charter School",
+    "track": "Spanish immersion",
+    "notes": "Public charter established 2021; serves native and non-native Spanish speakers with academic dual-language programme.100% dual-language pupils does not mean100% Spanish instruction. Current learning page has stale grow-to-grade 5 text; full annual cohort roster requires review.",
+    "observations": [
+      {
+        "source": "ne5_doc_5cf6814f79fc57a4",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K-8 campus description; programme cohorts not fully dated",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "whole_school",
+        "locator": "Nuestro Mundo Public Charter School / Spanish immersion",
+        "notes": "Public charter established 2021; serves native and non-native Spanish speakers with academic dual-language programme.100% dual-language pupils does not mean100% Spanish instruction. Current learning page has stale grow-to-grade 5 text; full annual cohort roster requires review.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_doc_be1da81a9b7f951b",
+        "period": "2026-27",
+        "grade": "not uniform by grade; see school description",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "two_way",
+        "delivery": "unknown",
+        "locator": "Nuestro Mundo Public Charter School / reviewed programme section",
+        "notes": "Student/family handbook explicitly describes English/Spanish academic content and a two-way immersion model. No exact numeric allocation found in the model section.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_doc_5cf6814f79fc57a4",
+      "locator": "Nuestro Mundo Public Charter School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-dda061c54325-CONTINUITY-2025-26",
+    "review_reasons": [
+      "Nuestro Mundo school and learning pages give different current grade-growth descriptions. Preserve source dates; numeric instructional model still needs a verified handbook."
+    ]
+  },
+  {
+    "program_id": "NE5-RI-P-0a80d3ac24fe",
+    "school_id": "NE5-RI-S-4ed5586e81fe",
+    "state": "RI",
+    "district": "South Kingstown",
+    "school": "Peace Dale Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official programme description explicitly names PDESand WKESas instructional hosts. Matunuck and Wakefield are feeder communities, not extra DLI campuses. One-way/two-way population design is not independently specified.",
+    "observations": [
+      {
+        "source": "ne5_ri_southkingstown",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K entry; elementary pathway",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "Peace Dale Elementary School / Spanish immersion",
+        "notes": "Official programme description explicitly names PDESand WKESas instructional hosts. Matunuck and Wakefield are feeder communities, not extra DLI campuses. One-way/two-way population design is not independently specified.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_ri_southkingstown",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "Peace Dale Elementary School / grade-specific language allocation",
+        "notes": "Instructional time explicitly50% English/50% Spanish, certified teacher for each language. No unreported upper-grade ratios assigned.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "rogram look like? The South Kingstown Dual Language Program offers a \"50/50 Immersion Model\" meaning the instructional time is divided between English and Spanish. An English-speaking certified teacher provides 50% of the instruction and a Spanish-speaking certified teacher provides 50% of the instruction. The Dual Language Instruction (DLI) option begins in Kindergarten and is located at PDES and WKES. Matunuck and WKES students would attend the program at WKES; Wakefield and PDES students would attend the program at PDES. All South Kingstown students entering Ki"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_southkingstown",
+      "locator": "Peace Dale Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-0a80d3ac24fe-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-RI-P-4b46af24420e",
+    "school_id": "NE5-RI-S-b70d72b0f5d7",
+    "state": "RI",
+    "district": "South Kingstown",
+    "school": "West Kingston Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Official programme description explicitly names PDESand WKESas instructional hosts. Matunuck and Wakefield are feeder communities, not extra DLI campuses. One-way/two-way population design is not independently specified.",
+    "observations": [
+      {
+        "source": "ne5_ri_southkingstown",
+        "period": "undated public programme page; retrieved 2026-11-06",
+        "grade": "K entry; elementary pathway",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "West Kingston Elementary School / Spanish immersion",
+        "notes": "Official programme description explicitly names PDESand WKESas instructional hosts. Matunuck and Wakefield are feeder communities, not extra DLI campuses. One-way/two-way population design is not independently specified.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_ri_southkingstown",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "West Kingston Elementary School / grade-specific language allocation",
+        "notes": "Instructional time explicitly50% English/50% Spanish, certified teacher for each language. No unreported upper-grade ratios assigned.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "rogram look like? The South Kingstown Dual Language Program offers a \"50/50 Immersion Model\" meaning the instructional time is divided between English and Spanish. An English-speaking certified teacher provides 50% of the instruction and a Spanish-speaking certified teacher provides 50% of the instruction. The Dual Language Instruction (DLI) option begins in Kindergarten and is located at PDES and WKES. Matunuck and WKES students would attend the program at WKES; Wakefield and PDES students would attend the program at PDES. All South Kingstown students entering Ki"
+      }
+    ],
+    "events": [],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "undated public programme page; retrieved 2026-11-06",
+      "source": "ne5_ri_southkingstown",
+      "locator": "West Kingston Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-RI-P-4b46af24420e-CONTINUITY-2025-26"
+  }
+]

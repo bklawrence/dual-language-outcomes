@@ -13,10 +13,12 @@ from .identity_audit import preserved_identity_fingerprint
 AUDIT = 'config/research_migrations/structural_integration_2026_11_04.json'
 FIVE = {'CA': 'california', 'ID': 'idaho', 'MT': 'montana', 'NV': 'nevada', 'WY': 'wyoming'}
 REPORT = 'data/reports/structural_inventory_2026_11_04'
-REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA', 'PA', 'MD', 'DE', 'NJ', 'NY', 'CT'}
+REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA', 'PA', 'MD', 'DE', 'NJ', 'NY', 'CT', 'ME', 'MA', 'NH', 'RI', 'VT'}
 
 
 def report_prefix(root):
+    new_england=root/'config/research_migrations/new_england_2026_11_06.json'
+    if new_england.exists():return json.loads(new_england.read_text())['national_report_prefix']
     followup=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
     if followup.exists():return json.loads(followup.read_text())['national_report_prefix']
     atlantic=root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json'
@@ -158,6 +160,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if (root/'config/research_migrations/ny_allocation_followup_2026_11_06.json').exists():
         from .ny_allocation_followup import audit_errors as ny_errors
         errors.extend(ny_errors(root, tables, check_hashes=check_hashes))
+    if (root/'config/research_migrations/new_england_2026_11_06.json').exists():
+        from .new_england_review import audit_errors as new_england_errors
+        errors.extend(new_england_errors(root, tables, check_hashes=check_hashes))
     return errors
 
 
@@ -367,6 +372,18 @@ def generate_report(root, *, check=False):
         new_contents, new_summary = ny_reports(root, tables)
         contents.update(new_contents)
         audit['new_york_allocation_followup'] = new_summary
+        audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/new_england_2026_11_06.json').exists():
+        from .new_england_review import render_reports as new_england_reports
+        new_contents, new_summary = new_england_reports(root, tables)
+        contents.update(new_contents)
+        audit['new_england_batch'] = new_summary
+        screened = set(audit.get('states_with_screening_only_research', []))
+        screened.update(r['state'] for r in new_summary['state_summary'] if r['programme_records']==0)
+        audit['states_with_screening_only_research'] = sorted(screened)
+        reviewed = set(audit['states_with_integrated_program_evidence']) | screened
+        audit['states_with_structural_research'] = sorted(reviewed)
+        audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states'] if r['state_code'] not in reviewed]
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():

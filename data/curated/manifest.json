@@ -1,8 +1,8 @@
 {
   "schema_version": "1.4.0",
-  "build_id": "build-fac6c2f8550e527c977349d6e9c93ff0",
-  "built_at": "2026-11-06T13:55:52.025889+00:00",
-  "base_git_revision": "6a6b4c618cf84286ef2da12fd476844daad0cabb",
+  "build_id": "build-d9115154a64b5c6dac4dd3c82e4ce622",
+  "built_at": "2026-11-06T15:59:57.492677+00:00",
+  "base_git_revision": "d73657a764f061d3e7e147c60ec7c9c3c13ab59f",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -10,6 +10,7 @@
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
     "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
     "config/research_migrations/mid_atlantic_ct_2026_11_05.json": "4d5058f7779f8d14e9c9465d5d7391a2d65f233cd03ca97e1af021e212ea9904",
+    "config/research_migrations/new_england_2026_11_06.json": "20084f35f07b2eca84155607903ffa245df91ac4b0d4fd15cc683683073e5614",
     "config/research_migrations/northern_central_ak_hi_2026_11_05.json": "2e0bdaa2f69db527b7d7ef0e29ae7988dc0c5b5c50d6ebcf4fdf62b5c5c0ed70",
     "config/research_migrations/ny_allocation_followup_2026_11_06.json": "f16336449aebcf67268a32ee735448a396ea536dd0c9998088c3f84236a2ae29",
     "config/research_migrations/oh_ky_wv_va_2026_11_05.json": "565dc955bbc27e91fc9f73b3146970d9252b0e62c0db2717f7451e65d7abd2f2",
@@ -37,9 +38,9 @@
     "config/states/ks.json": "8a33b2ac628e4c4edee6abb892c3a715344ef36c7cf4631820d4d6001d70ed17",
     "config/states/ky.json": "666a56c2dfd2133117dcbfe15074ec1faa19169891c338f10e1827930ba5caaf",
     "config/states/la.json": "8372f30007a87fcf9d2f48954b258b1655e039ba178a9e8a61c8e040bc5b2134",
-    "config/states/ma.json": "375f376fa5756f3ef6499959a913d815b03cbab3f002c408c6f7d2b92dffada9",
+    "config/states/ma.json": "21efb35bc7e3d97345e269d871fd734487fcd7b101eead4d848db2be08382386",
     "config/states/md.json": "a49c091b7a603effb7456f4519ada8a86fa8e54af71029ba11dc0dad684c1ed9",
-    "config/states/me.json": "55130654fccf77b0cf5880530fde4d84c627630ef9434f260a5fb32d851bee0d",
+    "config/states/me.json": "1e60d32ccc773dcda2ae2231fa520cfaf38df82b005ffcd9d80e91f6fd386a40",
     "config/states/mi.json": "4692aaf98d8d92d217274c528557582eff2e966eb436c6551bbe5d29a36660ff",
     "config/states/mn.json": "2c926ac3a3c3d2f3e9a3f08e2f8b0f2eb59cb266768dc0c187c5af69411d55b1",
     "config/states/mo.json": "2729de4292f723c1cb7fc68b4dc7ae6457798f6d8544ccbe442b4d0f0625eb31",
@@ -48,7 +49,7 @@
     "config/states/nc.json": "34e6647296a400eacf5b0109901d83ddc5f8fe029a9ce542c4303b0e66438e9f",
     "config/states/nd.json": "bf4d279b3d8b2dd9d5bf777e547344cbb5f7e962990a0a1811b3bc5c59c5ad49",
     "config/states/ne.json": "90b987ddf76bf3f147add939e0eba53a67011ea70db982fe282d5591b6394d43",
-    "config/states/nh.json": "c1eac6f88908d4983aaadc62eda27e1e1780225aa759aff41f39907ffdd0b7d7",
+    "config/states/nh.json": "89cf7b0c8806172c8f733607259cfe78a4f9b935ec8d90c51fab2c84247fe07a",
     "config/states/nj.json": "86f88d42ced1b6e7a5bb120125d6075931e8c8002897a09d4e249db25dd44a3e",
     "config/states/nm.json": "df5f98d531c8050f9382e9787fdf83dc4db3850c36c4c1bec5ee533596a3e581",
     "config/states/nv.json": "c440945404028c02ecacc8d4b7b5cefbe9eca63d3bd0a136a0962b7020cab1a7",
@@ -57,14 +58,14 @@
     "config/states/ok.json": "7a51158ef648b06b3fe7d34c7a160f4e978ed5c943fb7de0c1925b3501cb9937",
     "config/states/or.json": "ccd8450d1baf118174c5588ce5881fd8b816eb4ec6ec9b8c8abfa3060db210b5",
     "config/states/pa.json": "ba150ab5714975f500fbc6f39fb2fa0916bb828c263d504dd3f9e960f86c0b23",
-    "config/states/ri.json": "0200ce65d5f56ed2028e87ed9ebf244f956ead574b81c8411310057a96c58a9c",
+    "config/states/ri.json": "16e21ef12b48f1cf4e045a2327e55260358d74ab1f676389bf83aa171d2eac89",
     "config/states/sc.json": "7efd1b393b64d447f46ea8c2405010de8e113d52793db023bac60f1fe86f0b72",
     "config/states/sd.json": "4330c34771d0b31cc355c197265b01c059f4cb8019b71a5f827961e5a1b47a90",
     "config/states/tn.json": "da87988bd5ea91c74a0effffb938521f15c46d1de60ccc8d3c6b27c8654c033e",
     "config/states/tx.json": "2fcd4ad2a1f7f04d52f3cc4b4ae79a2f9c8e9730d1c9be96664fdfc8302ec888",
     "config/states/ut.json": "e8a28293c886e48ec52bac585edfd4889d48250fd901e24b61df9c4bc4c87b7b",
     "config/states/va.json": "9adb2be66826b9e3ec38f33328525521b88417a851707c9727e77f2408704fba",
-    "config/states/vt.json": "9a89870bcde674cd590604ca907205455bf3aec0432d056bdfbf9cc12f3067fb",
+    "config/states/vt.json": "dedb208ee3b4a21d1783cfb7b3860c29e7757b6986e3b9aad799a8abe8450493",
     "config/states/wa.json": "e3f8c33bb8ae746e652fcdb897cd35fa141c6520afe49831238914e9195659d2",
     "config/states/wi.json": "1e1cadffb68941b60343af144e372b2d0f8c01b5944018271b965e98d6d5dfda",
     "config/states/wv.json": "b01f9d35bcf4f1744ca4bc0996776a91c8689d09a4a266271d02b3235f5eb9a0",
@@ -680,6 +681,176 @@
     "data/raw/mid_atlantic_ct_2026_11_05/m6_pa_philadelphia.html.metadata.json": "34d901c9140fdaa8c6f96e65764ad9d4cd7bc149e1e561385e15ef25d824c6b1",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_pa_vida.html": "4868fcba1523d80dadab818cdb79379fe831a04886d56fa9d293f946243904ff",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_pa_vida.html.metadata.json": "05324f19e91acce252740e2b76eafcb18eb1a6c4687ffe7a6dc8c82bd77e7781",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_MA.json": "fab6f398f7b200cfca9d1b7903007252fbe37b3c808bbd95cacde6e77faa01c6",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_MA.json.metadata.json": "4fbe53a9ef16f780d1c953d8f86e3b8b6e6f92e27d68df3dcdfec2afd587220a",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_ME.json": "83dbaceeb5dda2391ef642149caea3a7bbd3fd26391c0a0ad90c6b0f615a7135",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_ME.json.metadata.json": "681be94f9475a4908de8fba0cb9770f727a23fd74fb3816e93b54f5843610737",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_NH.json": "3251e01070764568e307518c5ec55315602fbdc151ed9e8ab412ec68e62157d9",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_NH.json.metadata.json": "d33bb6450503d9369b99d308eea04f80c1315d1f77af9a1a6a32bb429e518a44",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_RI.json": "95eea5e5f92362c53b5ad68bfb00d45c70718ff7544b96e40a507fe584dc4f3a",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_RI.json.metadata.json": "07f91160b9901808092e3ded3af361b9a32f09748c2f76ee12c1102e41e57f5c",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_VT.json": "404702fa371d0dc93eb706f732e1496226c20d97c23167ff35d32ff181a4b3f5",
+    "data/raw/new_england_2026_11_06/ne5_ccd2024_VT.json.metadata.json": "3a2b5b5ff025bd43fd8a09cb3b3d5e141b5bf6f5d70b29cf46a057572864b8bb",
+    "data/raw/new_england_2026_11_06/ne5_doc_02acffea355b57f5.html": "67b23feed8d46221e9e9b651c008b76727dcadb9fbfbb575218f8fed94ba21b5",
+    "data/raw/new_england_2026_11_06/ne5_doc_02acffea355b57f5.html.metadata.json": "e3dba11ab9fcb37fc2b70e8334d083345040b12581239e1597864ca4e33d17d4",
+    "data/raw/new_england_2026_11_06/ne5_doc_034278087acc5ce6.html": "a9024724f8e41d70e245853a0db0017a0f0e269a63d8efc54fad7c0c49f9df4d",
+    "data/raw/new_england_2026_11_06/ne5_doc_034278087acc5ce6.html.metadata.json": "8817767cbed5f15a841dad5f1873e63bbb7b3ab5579281e11b684cfa7449242e",
+    "data/raw/new_england_2026_11_06/ne5_doc_0b4271bdfd67ec7d.html": "eb4c1ec6c07d209aac20cc56118fce037d63b626ba70f944c0597d51dd6de90e",
+    "data/raw/new_england_2026_11_06/ne5_doc_0b4271bdfd67ec7d.html.metadata.json": "70ceab86692f3a4049fd57250ffabdf1b782d1b798bc88c7b671b0ebfd36dabc",
+    "data/raw/new_england_2026_11_06/ne5_doc_1af5f8d1f4e44875.html": "58a726a635f087891811eb4868683c801edd59ea3abc31dd2daf492c191be810",
+    "data/raw/new_england_2026_11_06/ne5_doc_1af5f8d1f4e44875.html.metadata.json": "768c45d563519be04acb649a24afe82008da406891f2279eb6f4875a6689b32e",
+    "data/raw/new_england_2026_11_06/ne5_doc_1f17605337f4056c.html": "ecc8559e626ead154121256bb9b4f164992e61dcb4db51461760c202d25d7dd7",
+    "data/raw/new_england_2026_11_06/ne5_doc_1f17605337f4056c.html.metadata.json": "9bade50532858e6cd29e01fc032a8a389ced1017ac7d5b51dc489deaedb8bbb0",
+    "data/raw/new_england_2026_11_06/ne5_doc_2166324864ced1e2.html": "1823e7c310631a3236e9505f4132b56ddce5ffcf4aac0455e4da595acf734c71",
+    "data/raw/new_england_2026_11_06/ne5_doc_2166324864ced1e2.html.metadata.json": "6f7e309cf4663665a3de515e7304d8d79e8fc00afada2d703ffaa044a87d05fb",
+    "data/raw/new_england_2026_11_06/ne5_doc_23610158f7509fa6.pdf": "c24a0f39ed076eab99924d7c980be85ae84be2c0247cbba67193b759ffd720f8",
+    "data/raw/new_england_2026_11_06/ne5_doc_23610158f7509fa6.pdf.metadata.json": "f18b1541c3e3126b80696dabcb30bd4cfd76ff2ca11982a9da8c107a9d59ad87",
+    "data/raw/new_england_2026_11_06/ne5_doc_280f33715d4a54cf.html": "ae14fb51d864b70f3444b4ce558837cc392fb5c8d58a9ccbeb2eb2b451e97d8d",
+    "data/raw/new_england_2026_11_06/ne5_doc_280f33715d4a54cf.html.metadata.json": "4bb8f8b2534f624639a99c020dfee3c5ad76b00bdf24c581de77a2f6c3a221f5",
+    "data/raw/new_england_2026_11_06/ne5_doc_2fe1090fe593269d.html": "dd5a1b3d3ef4da5dc3141fab10ec947983919449a566b18a77d555255889690b",
+    "data/raw/new_england_2026_11_06/ne5_doc_2fe1090fe593269d.html.metadata.json": "750710b60005c6f0b15dd869948db4d0c22b6c4b7955bfbcbe1e63ac2e5c8f6d",
+    "data/raw/new_england_2026_11_06/ne5_doc_312c70c18b099214.html": "23824dd286ed0dc3a17f1dfdbadedc08e73941c8f192b9a844adb370b4b4a9cd",
+    "data/raw/new_england_2026_11_06/ne5_doc_312c70c18b099214.html.metadata.json": "50e56f8b665d77aee1b99444574e9cbbbfc37b3e5e5cc514bb282d9c2a632182",
+    "data/raw/new_england_2026_11_06/ne5_doc_3680209eefa739a4.html": "5bddc160f95d671235ece7633b292871bce40e35e913fcfb5f834224afe61dd7",
+    "data/raw/new_england_2026_11_06/ne5_doc_3680209eefa739a4.html.metadata.json": "3196695f1bfa0b8d351b5c98d26834524dd6170a1c26b6c1eac1be47bb2cb0e5",
+    "data/raw/new_england_2026_11_06/ne5_doc_3dccb5df38d71a9a.html": "b6ddf3b60320496f81cdc95dbd06531db223692888074d1910aa44c767276d27",
+    "data/raw/new_england_2026_11_06/ne5_doc_3dccb5df38d71a9a.html.metadata.json": "e5d369fc80afa45998bb18c5e630363c241f60e035efc5af215a1df594cb3e6a",
+    "data/raw/new_england_2026_11_06/ne5_doc_3f41c13d88a23ec6.html": "21c4895937f3e2e74f77eb141819c0df81e1f2c5df007a639aa2b83d428bae6b",
+    "data/raw/new_england_2026_11_06/ne5_doc_3f41c13d88a23ec6.html.metadata.json": "25b85802cf3a85e81d9d9216f68339704d372913244ef0b9a7241e95925225bf",
+    "data/raw/new_england_2026_11_06/ne5_doc_46e949a0914f3dd0.pdf": "850c402614fad7675615e8f6e3f0c1ecbfa764e453714d9ba4de870e26ce186f",
+    "data/raw/new_england_2026_11_06/ne5_doc_46e949a0914f3dd0.pdf.metadata.json": "4f1b5026a26262f03d58913faf15ce64c0a13fe284760fca2d6b15b01d51e60b",
+    "data/raw/new_england_2026_11_06/ne5_doc_4ae0c9e2e7833625.html": "cfdce5dfc66dfe0ac2398322b398b0fdea6027cbd603fff3b098d2d23cfc8e2b",
+    "data/raw/new_england_2026_11_06/ne5_doc_4ae0c9e2e7833625.html.metadata.json": "4a7d5fa5d21a69c009b017481029f23a85b8af497a3f9c539aa0084204daf33e",
+    "data/raw/new_england_2026_11_06/ne5_doc_4aeffc6eb63810ae.html": "3ef0b27f3c3150b6a10b2e6d61b6da220fc729239272998261a314de103f33d0",
+    "data/raw/new_england_2026_11_06/ne5_doc_4aeffc6eb63810ae.html.metadata.json": "d8298d8bfa34e7b729f3fb523f62853c8807f09ef1f7789f91600f55b67a5bf4",
+    "data/raw/new_england_2026_11_06/ne5_doc_4e24aa021a45bf54.html": "a6db3dea696f5bc72d8f53900006fddf5656e1f4ebac744b89e1aec2a441580b",
+    "data/raw/new_england_2026_11_06/ne5_doc_4e24aa021a45bf54.html.metadata.json": "f1a0fe6d25e503da8a5ad15702c15f12549e4d59078091589a9ff6683c240fa0",
+    "data/raw/new_england_2026_11_06/ne5_doc_4fd8f442847b67ae.html": "1056dad3cbc74af14e7f340522a0e5290af297fd09054fa631db17dca85adc82",
+    "data/raw/new_england_2026_11_06/ne5_doc_4fd8f442847b67ae.html.metadata.json": "1622cc57ce7d69a63d4b4e5cc8e9a94c8951f20b4ef505784b89c32e13b0179e",
+    "data/raw/new_england_2026_11_06/ne5_doc_541f3f6bc43ce9d3.html": "0ab35775fedf55ff47250a5e4fb295409314630b165d107c4db9f2a148e19d25",
+    "data/raw/new_england_2026_11_06/ne5_doc_541f3f6bc43ce9d3.html.metadata.json": "4d1e4468056952429af26b2a08911e719fb733bc2282fade51498000de9e5862",
+    "data/raw/new_england_2026_11_06/ne5_doc_57a2f96cd4e50bb2.html": "60dcd008a81da7acd0917f7b89a4200710b1a59beb8d8cc3e0e91ccc671a5ff4",
+    "data/raw/new_england_2026_11_06/ne5_doc_57a2f96cd4e50bb2.html.metadata.json": "b946505a83b4c62cb47a67ee39158afd56926663bc168a8f0dca97bb3ebe3dd9",
+    "data/raw/new_england_2026_11_06/ne5_doc_5cf6814f79fc57a4_redacted.html": "475978354502bdc7122f56410b029035877159317ff43dbcad763bcea81112d8",
+    "data/raw/new_england_2026_11_06/ne5_doc_5cf6814f79fc57a4_redacted.html.metadata.json": "1ac4c989d69348919b34a97c7e8df01b33c50fd319e5c4d458eaa053ada5d3c3",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d066e8808dd7720.pdf": "8178280865062e38ac873d0aa637aaf590b96aa15374565606980f480b500c73",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d066e8808dd7720.pdf.metadata.json": "0a5eab51d25abb4b892a5bac2346943163a0bb2a69e40289ca107df4946f8fc2",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d5ddf540e1f8441.html": "4fd793033cb62d55781d25d55e964fa60c651e532f75aa4bad4ba318ad031423",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d5ddf540e1f8441.html.metadata.json": "85053eb91ffe78bd0c694da8eed5fb7661a605ef7a3592e7a2515d31e87104ac",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d9b63ec69d10b25.html": "54a38bab0d8511d98aa0310c526e2f5ed3efb6be6a105e904c57cceadce7c6b5",
+    "data/raw/new_england_2026_11_06/ne5_doc_5d9b63ec69d10b25.html.metadata.json": "1ea60f62e1c04878a578527bd21e751d1f682ff11c47667774d5783c301550c5",
+    "data/raw/new_england_2026_11_06/ne5_doc_62553a0f7034db20.html": "fd8cabc72c684c5e3651cd63ca40f336fb72f242836fd39e7a65b591059c8fc3",
+    "data/raw/new_england_2026_11_06/ne5_doc_62553a0f7034db20.html.metadata.json": "c69d57678d0cd6f3f4d55d9476e63161a8cd5b18d198d3f932634b264266b23e",
+    "data/raw/new_england_2026_11_06/ne5_doc_6721b1af39fd3701.html": "595f90ca3a2ae3233ccaa14df2774715ed86d5026a15dbe93db53c74710ae11d",
+    "data/raw/new_england_2026_11_06/ne5_doc_6721b1af39fd3701.html.metadata.json": "f330d92a294a6b17fbe350166d319915b7702f16b86ae87d418e312ac19425d7",
+    "data/raw/new_england_2026_11_06/ne5_doc_8839f99c3b3d2b6f.html": "e465cf819b994b8086daa2efd26fd2a0bd37ac5f339b0efa7939f6d7caa4a2e9",
+    "data/raw/new_england_2026_11_06/ne5_doc_8839f99c3b3d2b6f.html.metadata.json": "728680cb946db91ffdee97ee1faaa508974a19735b4ce1d00e957ae136c17cf6",
+    "data/raw/new_england_2026_11_06/ne5_doc_99ecdcb2f9481a5b.html": "1aa07973bfa92e485ed2049a18c502f9f5fe4b015f0334ea8c96da754bc4f617",
+    "data/raw/new_england_2026_11_06/ne5_doc_99ecdcb2f9481a5b.html.metadata.json": "8ecdb931cde85d53d7691497ba792ad689a12aa61d6f2363dbd7284e00eb1ee1",
+    "data/raw/new_england_2026_11_06/ne5_doc_9a3d83259803489e.html": "b2f22949540a5f1e7d15ada64055bddef8d98e0c3900834ead0d1c56165cb2cf",
+    "data/raw/new_england_2026_11_06/ne5_doc_9a3d83259803489e.html.metadata.json": "e240990ad698f91671f8a75403ae9111170e95217ad5b0216d6a078a50c9b13f",
+    "data/raw/new_england_2026_11_06/ne5_doc_9df3150df27e69ee.html": "921a738e9d58c71d42c2d97010aee07461ce4c00b4dfa5f638eaa17bf28bde53",
+    "data/raw/new_england_2026_11_06/ne5_doc_9df3150df27e69ee.html.metadata.json": "a9fc8595a7b665e9a1150ca4872965b4a3e806224997dda4120113e08b938e6b",
+    "data/raw/new_england_2026_11_06/ne5_doc_a767aa9ef4fefd18.html": "44fa582533db260efc335c6d60a69f89f054eea223429f922aa62635c556b21f",
+    "data/raw/new_england_2026_11_06/ne5_doc_a767aa9ef4fefd18.html.metadata.json": "192e31e7e3ec65f3eaec1f73d08e8fd1a9eac5c5e4b884ae47a1217edc839d64",
+    "data/raw/new_england_2026_11_06/ne5_doc_aad523dc22839ec6.html": "e77912534ed857d0ecd44ab6fcde3176d30885ee91be982d0d06d330edcace98",
+    "data/raw/new_england_2026_11_06/ne5_doc_aad523dc22839ec6.html.metadata.json": "1a0e8d7556c3b031325a864d4b6b9c3f78a131d2745030dd1620b0247281ac9d",
+    "data/raw/new_england_2026_11_06/ne5_doc_ae162f62b6c76976.html": "6ded724ebf4727ef71ef386f5f9787dfed4384d3d3eee7081d44e6ad82f8230d",
+    "data/raw/new_england_2026_11_06/ne5_doc_ae162f62b6c76976.html.metadata.json": "f110ccbad1f844215e63af7cb0f60b3e218ecc7b0ddef673e84322faefd6b57a",
+    "data/raw/new_england_2026_11_06/ne5_doc_b34bc371afbcf5c7.html": "404fb180c6b7f1221ddf4d99024b6f8422bf865d94ca51a79d3ad242832e914f",
+    "data/raw/new_england_2026_11_06/ne5_doc_b34bc371afbcf5c7.html.metadata.json": "d128028e366a1e923414c7462ed2ff8a9b6049ada6a054d0f4e6f8a263a6aa1f",
+    "data/raw/new_england_2026_11_06/ne5_doc_b5359760b5b9114d.html": "a6126cea7ea5d0ab360e2575b7ec1d777d439674c02f6761544bb020b09e6792",
+    "data/raw/new_england_2026_11_06/ne5_doc_b5359760b5b9114d.html.metadata.json": "b64ff4f7afcb11a99d2f67f69640a32493e918180b1b79d8b2d70388014c6aef",
+    "data/raw/new_england_2026_11_06/ne5_doc_b69a167d5927a72f.html": "0779e6b5daa857bf0f5f9675cf00f511ef1c6fc1f7323cb2d942a33484170484",
+    "data/raw/new_england_2026_11_06/ne5_doc_b69a167d5927a72f.html.metadata.json": "a4bcc4f88348b3ce69a27b9af8e1a3e338f2330329c6f01fa030f93e5eb5c4c1",
+    "data/raw/new_england_2026_11_06/ne5_doc_be1da81a9b7f951b.pdf": "250ad54f561aa3d98c6fed0554a7eda29661a4f7804a087a26ce61524d380642",
+    "data/raw/new_england_2026_11_06/ne5_doc_be1da81a9b7f951b.pdf.metadata.json": "3e651f80480e682073f25c0e132255148271c3dc214e07dd429261715dd0298e",
+    "data/raw/new_england_2026_11_06/ne5_doc_be926bdd1389822b.pdf": "3897ed7d76ac443e52405a4d6847eb1ba51ca2073d6695714073e649cb425dcc",
+    "data/raw/new_england_2026_11_06/ne5_doc_be926bdd1389822b.pdf.metadata.json": "77ba21fe8f2f1bc6d8dea5b9c39eb680acf7060a4910a7ac344457cc4d844074",
+    "data/raw/new_england_2026_11_06/ne5_doc_c5ab02cbcfbd3bb7.html": "091043b3c77c5aac15521d80ca9c668541f5f9f0a6e0695e6b9463cd7a5fb222",
+    "data/raw/new_england_2026_11_06/ne5_doc_c5ab02cbcfbd3bb7.html.metadata.json": "e6ef76bf4e801263f49137f523a5ecf73ab14eb04e8489df5548b29bdfbd85ef",
+    "data/raw/new_england_2026_11_06/ne5_doc_ca2140a690ad3e3a.html": "8cf30d499562c3e34d0f82d42cfc2b452420733cb0bc6771512133a27b33cff2",
+    "data/raw/new_england_2026_11_06/ne5_doc_ca2140a690ad3e3a.html.metadata.json": "4f53335987f52f30dd3f2654831f00013f055511ee29d72ea0e8aa4adab21839",
+    "data/raw/new_england_2026_11_06/ne5_doc_caf1b44b845ec71c.html": "7e8ca28799cc9a73367ec911bfa7b556ec17c691f2f3f81e45327f48cf02d4aa",
+    "data/raw/new_england_2026_11_06/ne5_doc_caf1b44b845ec71c.html.metadata.json": "b7cc9833c4f1cee10187d4523cf36af6c5e6906127f03053a7371d3320e03207",
+    "data/raw/new_england_2026_11_06/ne5_doc_cca757f3e2d7edf1.pdf": "a87de0731499c28a151c2de79b20f26ae9e2a7a90e66857e47f6cfc749e8c6b5",
+    "data/raw/new_england_2026_11_06/ne5_doc_cca757f3e2d7edf1.pdf.metadata.json": "b92dc7f8e5718e88c1b6da4ecd76c4c3937f9c187980d032721114583f381048",
+    "data/raw/new_england_2026_11_06/ne5_doc_d0fbca4f5430b882.html": "1029ee38c9321e450359b673c8bc02690351bf4e9feab0d19bbc4297b41adb84",
+    "data/raw/new_england_2026_11_06/ne5_doc_d0fbca4f5430b882.html.metadata.json": "a6b0c5643279f8ac6a32711186577f0ec6285802134977c226471f7a2a4ba1a3",
+    "data/raw/new_england_2026_11_06/ne5_doc_d697c7f85a500419.html": "dfb9e7180d97520ea038551108bdc623b6a0092fbc6422da95e2fd662f3c52a2",
+    "data/raw/new_england_2026_11_06/ne5_doc_d697c7f85a500419.html.metadata.json": "e704fa25c39ad99704f7face9a2ad5edf9208613a213228b1e9f32a1844b96b3",
+    "data/raw/new_england_2026_11_06/ne5_doc_dc530afe27ee57fa.pdf": "3f46e7d610522f4e8b4d4f3bd8fee5fb88cb42c4e9b10f36811d77ade265965c",
+    "data/raw/new_england_2026_11_06/ne5_doc_dc530afe27ee57fa.pdf.metadata.json": "f67d8e4dc806b75fdb22115e917be7ad4d5883aba6901a936dd56efee5700c7a",
+    "data/raw/new_england_2026_11_06/ne5_doc_e145dd4bc036ede1.html": "33619137bfb49064e4671d49b8cce5c3a2e684220e0bd50f3a46e5eebd9b8030",
+    "data/raw/new_england_2026_11_06/ne5_doc_e145dd4bc036ede1.html.metadata.json": "e177945d95c463f35ec9d2e6eb2bad31dde5b658590ea0866bb213431cf96fb8",
+    "data/raw/new_england_2026_11_06/ne5_doc_e1a46f9540414b0a.html": "62515b22b0a79c9487551570ffea737af8f0841e27da0517a91e6f3de9fc887f",
+    "data/raw/new_england_2026_11_06/ne5_doc_e1a46f9540414b0a.html.metadata.json": "f73e0e74dd898579a63f58e18922cb73ab25d48525b901327dc46ab9dc7955cc",
+    "data/raw/new_england_2026_11_06/ne5_doc_e78f60929a578105.pdf": "658a5beb1fc443b53447eb2642de2cadcac650c0ee1698ae85c835ab33880150",
+    "data/raw/new_england_2026_11_06/ne5_doc_e78f60929a578105.pdf.metadata.json": "088cf1dbe4451cce8fdbe214d4aac0ea26fa692fb089e03f4ff6f91a1665f1a0",
+    "data/raw/new_england_2026_11_06/ne5_doc_e7e94baf936780f0.html": "90b9c5226f755a65753f8515adce2c5b5a9a6eca99a4e018b11489fae0049543",
+    "data/raw/new_england_2026_11_06/ne5_doc_e7e94baf936780f0.html.metadata.json": "8da16d4bf98579f93e6b9b6f860212735b99115fa81fba4a8ba15cdcb3bab0ac",
+    "data/raw/new_england_2026_11_06/ne5_doc_eaf2990cfa416aa4.html": "a6a1deb352a4ce496a4335c5709e64fed1cc596efd7a4a79853b1418ac64128f",
+    "data/raw/new_england_2026_11_06/ne5_doc_eaf2990cfa416aa4.html.metadata.json": "c9959bb0bd669a0a6e0fee82bee5c1ca3bf5d3929f8527a82cd67f21d25ac4a4",
+    "data/raw/new_england_2026_11_06/ne5_doc_eb15bd4a90143e90.html": "92313c7a7f990bfad212032b4a7f6cef7ad2079fa32b9377dba1b8bafed84edd",
+    "data/raw/new_england_2026_11_06/ne5_doc_eb15bd4a90143e90.html.metadata.json": "2035e7cbe6bbe98ecb5283cf90dfe35a27d61bc6077f5a60abf46747a83625c7",
+    "data/raw/new_england_2026_11_06/ne5_doc_f4e902d5f1247e57.html": "f419b43e44c52e9f560e66f366dc57fff32b3f56851685d21f4a3d26e3f39e99",
+    "data/raw/new_england_2026_11_06/ne5_doc_f4e902d5f1247e57.html.metadata.json": "7c996272783ea8f7be632e10fd9368666d43e8369a970f4c78c177acef239fa9",
+    "data/raw/new_england_2026_11_06/ne5_doc_ff7e21aab83d1b22.html": "795a1c351603ef4b81d6e792c277cf03a16484ec667b348e81c05ad266c54942",
+    "data/raw/new_england_2026_11_06/ne5_doc_ff7e21aab83d1b22.html.metadata.json": "1ef92019e974fb05fde005ea15c2268c55b9035058d6c60d49effa12e3335301",
+    "data/raw/new_england_2026_11_06/ne5_ma_dle.html": "a0f63f86bff7e485200c53f8cfee2007ba5d172a324737659279d69c15eb001c",
+    "data/raw/new_england_2026_11_06/ne5_ma_dle.html.metadata.json": "7bbf9f7fc302f00c062321fc47c3079ddca46243ffe3c61e56bb3573bf537e10",
+    "data/raw/new_england_2026_11_06/ne5_ma_list.docx": "b39ffc6e28d09fbb6e99d04bd50c498b23d101553385600f5e26321160b3fcfc",
+    "data/raw/new_england_2026_11_06/ne5_ma_list.docx.metadata.json": "fb646dc1e9b7ce460449c20a7a6e268971faf63a746aa89147e261a652584cab",
+    "data/raw/new_england_2026_11_06/ne5_me_efdm_elementary.html": "2c098c14cb5a8e1de6f3a3b7446e59da95f96a1051a97c0aab266892d7131c37",
+    "data/raw/new_england_2026_11_06/ne5_me_efdm_elementary.html.metadata.json": "aa16297ae6361ef3b82107a9af4edbb63c57d0178a987a56daaa9050846da47c",
+    "data/raw/new_england_2026_11_06/ne5_me_indian.html": "da485ca0410a7a3253d48a94049546f31248771203b10a8bf3c902ceb8d898b0",
+    "data/raw/new_england_2026_11_06/ne5_me_indian.html.metadata.json": "f64ecc1a532b1936dff762758a8304ac01ada534ebb2c9a76758ce3b367245b5",
+    "data/raw/new_england_2026_11_06/ne5_me_indian_island.html": "23a50f1ac42b8b41e0f122252b87c6400d0db84aef206a874c2f4a0890dd3c38",
+    "data/raw/new_england_2026_11_06/ne5_me_indian_island.html.metadata.json": "adf2a2adcffc9e8db1021173c36c16ba51d290a24bbeef04910db072f4442476",
+    "data/raw/new_england_2026_11_06/ne5_me_indian_township.html": "e831bdb6b6cc13666cd5d263ebe8e3c244a0c5307946263e822c5fd486542191",
+    "data/raw/new_england_2026_11_06/ne5_me_indian_township.html.metadata.json": "b2c4c5e21283950129aff5507338176a652d98c577c4dfaf7ae1a4739660ebe4",
+    "data/raw/new_england_2026_11_06/ne5_me_lyseth.html": "d02d4649bc21f34a4ef43eef49c75e810d02b87b94735a476c782b79cc413b64",
+    "data/raw/new_england_2026_11_06/ne5_me_lyseth.html.metadata.json": "8ba6ad93fccfc2c7a7890b11310651ba32670c267a274ed78d4e3200848032fc",
+    "data/raw/new_england_2026_11_06/ne5_mendon_chart.png": "dba7b62f9c5d98ad011b9b3eef7bbb99228f6b8d097bfed80412b1800f14b5c0",
+    "data/raw/new_england_2026_11_06/ne5_mendon_chart.png.metadata.json": "c47abdfb80a1953215c63bf183e16c30722083f75e64959c98ef4b7fe8abe179",
+    "data/raw/new_england_2026_11_06/ne5_nh_manchester.html": "48c9d08fa5292b53b930507e4b81d3c567258831b2508ea8cfa8691cf02e3595",
+    "data/raw/new_england_2026_11_06/ne5_nh_manchester.html.metadata.json": "02da444e374bea282a6e3691378b03d3c296fc3262c4efd225a4ca987a94fe2b",
+    "data/raw/new_england_2026_11_06/ne5_nh_publicradio.html": "865bc6e2a4eac1ba43736cfc407b8535dbe9bc454835bf14f79f564f00077541",
+    "data/raw/new_england_2026_11_06/ne5_nh_publicradio.html.metadata.json": "5c0f47876bb24e26eaba0b1eafa1cd5b353398bbc92f76a34f5c130061d19796",
+    "data/raw/new_england_2026_11_06/ne5_ri_ics.html": "d8282929278c30c7efed65a046bdb54a2f089616eb5454d9d8f61bef2a5bafc0",
+    "data/raw/new_england_2026_11_06/ne5_ri_ics.html.metadata.json": "32afc8bf5f3c07cf374a453b52134f30439ec7065c404abae10ebcd5ca2621dc",
+    "data/raw/new_england_2026_11_06/ne5_ri_ics_history.html": "d69d1d8e081c1762f65a18b9a7f9eabed14f7f59f75dd3d3675bf84dad8e79e1",
+    "data/raw/new_england_2026_11_06/ne5_ri_ics_history.html.metadata.json": "a9f25e0097376d7a52ad7d72ab42617fc110fd08a3ae174e8650e08af2b70cf9",
+    "data/raw/new_england_2026_11_06/ne5_ri_mll.html": "c193bdcf00ec3d04be3488f66f206e7e7235ff31137c329bfdedd5e0be0717cb",
+    "data/raw/new_england_2026_11_06/ne5_ri_mll.html.metadata.json": "1f292594622f66f7a7d9b508847d83dc9e2441409fc9c158ab4df5fd197efedd",
+    "data/raw/new_england_2026_11_06/ne5_ri_pawtucket.html": "75ed0e5be694249e754e72ebb568a3619ed2bb25f1a9ea054cf9fa9cc67179b1",
+    "data/raw/new_england_2026_11_06/ne5_ri_pawtucket.html.metadata.json": "8b9aaa4610397b1b71cbdabe2d52aefa01810990f6b8b9ce0d56278345da97ea",
+    "data/raw/new_england_2026_11_06/ne5_ri_planning.html": "cecef3190d6e028040806567a0eccac244c3a8c7e09209df34eda34d2db6ed8e",
+    "data/raw/new_england_2026_11_06/ne5_ri_planning.html.metadata.json": "0927df97becde3a791c910f9e4373a2de665e781570c38af5677d0765e4ec358",
+    "data/raw/new_england_2026_11_06/ne5_ri_providence.html": "121d44e55a68aa05fc48951864d59ecb2282ee56d7f1a3136a07bd9f40c700b5",
+    "data/raw/new_england_2026_11_06/ne5_ri_providence.html.metadata.json": "39e6c39e106f64d91c7b7d42f1f7149a41cec23161a5933ebef465ed7256f476",
+    "data/raw/new_england_2026_11_06/ne5_ri_providence2026.pdf": "c2db20f8cbdac35097a4700ee9fad28ad33112a9b56de93322d1f7b4bb09df4a",
+    "data/raw/new_england_2026_11_06/ne5_ri_providence2026.pdf.metadata.json": "aee1789034b932d420baa5dc40134a5baa2bd37083eeaf1f75bf086f36fbad21",
+    "data/raw/new_england_2026_11_06/ne5_ri_ritell.html": "bdfca977ab7774caa0e756af995cf0efa1df1e8c873ae3f80aad24df232e6f14",
+    "data/raw/new_england_2026_11_06/ne5_ri_ritell.html.metadata.json": "31fdcd6db71d6cdad023573d8c05fa3d8648f7e371c3d9b9bd060f94c77b65cf",
+    "data/raw/new_england_2026_11_06/ne5_ri_southkingstown.html": "7da47bfb6926271d3d073a6fda5d6dc94b1b066a050294284c5a5265feb433b0",
+    "data/raw/new_england_2026_11_06/ne5_ri_southkingstown.html.metadata.json": "da93c40160efadf245cfa7a5cac40e0a583e34e0f7a5f2bb19835e8634bcdfc6",
+    "data/raw/new_england_2026_11_06/ne5_ri_standards.pdf": "1988af61d16cfe455a044acca2587e5f927ee1362b804b45f75889f3f6e67ff9",
+    "data/raw/new_england_2026_11_06/ne5_ri_standards.pdf.metadata.json": "2b9b78c419494171e81b06af47c8823be4bd8f4dbf6f707618c65a00c083b23e",
+    "data/raw/new_england_2026_11_06/ne5_vt_day.html": "439704955323f1c45f815d7795b185742fe6c0cb71a376862af0a8aba0376c3a",
+    "data/raw/new_england_2026_11_06/ne5_vt_day.html.metadata.json": "eae45a63dc0d33c993b4d49bfc6790b1dab8811434559f133b83c85555ad3123",
+    "data/raw/new_england_2026_11_06/ne5_vt_faq_current.html": "b9b4c08d9fab513b98e101f8e6f8d1cdff6ea0be6c0fb6d8ffcb7f03c8f6b280",
+    "data/raw/new_england_2026_11_06/ne5_vt_faq_current.html.metadata.json": "8591a3ee08b36a2bfa45a4a8e62447e8367ff277aaef377db4f1d2a1c4ebc9ab",
+    "data/raw/new_england_2026_11_06/ne5_vt_handbook_pdf.pdf": "f08bda0b5b44b4ff3d1552c3c3489531afd21688594ee5a0da9a36cd0600d516",
+    "data/raw/new_england_2026_11_06/ne5_vt_handbook_pdf.pdf.metadata.json": "0ef23bb8f639a280dafd0fe271d497e7da07ffd522627b179b976114df742ae2",
+    "data/raw/new_england_2026_11_06/ne5_vt_mmuusd.html": "e8e7d63e1cffc07d1bb0378b1cfb2db965e169cd9156d014bf54b99a255fc7b8",
+    "data/raw/new_england_2026_11_06/ne5_vt_mmuusd.html.metadata.json": "2c8c957da8313abcdd07556e874a2c9f1a74b2ac5b8c58e4835e86bddd7f1404",
+    "data/raw/new_england_2026_11_06/ne5_vt_options_current.html": "be95f62f650138afc1a2ed58d8f5e62c7b73f3184baebee2a893e2de27dffd71",
+    "data/raw/new_england_2026_11_06/ne5_vt_options_current.html.metadata.json": "d9c4b165d32e8003f3ebb030898a2f83fca53089c7365467a932414fa3538cdb",
+    "data/raw/new_england_2026_11_06/ne5_vt_overview_pdf.pdf": "1b76d74dc410138df819c8820569da860b8ca18414a89817009811eb81436249",
+    "data/raw/new_england_2026_11_06/ne5_vt_overview_pdf.pdf.metadata.json": "16720da59afb0f70fe7c2a6ef347fc942645a765468d1e96b1324c61b1cba15b",
+    "data/raw/new_england_2026_11_06/ne5_vt_whitepaper_pdf.pdf": "d4c0f52fd05be23ba77f36bcaed7d496884f31a7204d05df9271e6b08fd1a1e8",
+    "data/raw/new_england_2026_11_06/ne5_vt_whitepaper_pdf.pdf.metadata.json": "bd1404325ebb117f253e4a344aa1985c0c3a2696bbcf3cd9eb13a14bdd385082",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_ak_asd_immersion.html": "61601c06e5d953d1a6fdd53036af1ae0cd0dc5d83ad6ca1fc39fcc4c463a1591",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_ak_asd_immersion.html.metadata.json": "6568d9b1d9797a5248815bd80ca7f5539fe724c91dbd2c63689561056efae6cb",
     "data/raw/northern_central_ak_hi_2026_11_05/nc_ak_asd_immersion_d_00a887a.pdf": "132a5cf3cd0bf1499d01e84516ea8a7fcdf89871449e192667e6fc772b1fe1b0",
@@ -2618,9 +2789,16 @@
     "data/registry/illinois_2021_22_user_2026_11_05/policy_decisions.json": "6c715fb2553be6a4d08959554a8eac7e3119caa77f077a3eae5ff135e52e7907",
     "data/registry/illinois_2021_22_user_2026_11_05/records.json": "d4c83a9d53b5658a9aa22a5d9a19e3dd851c4f953b179d4241bd605012f296e3",
     "data/registry/instructional_history.csv": "8fcf987de892d2ef14ddabe5d098229e646aea7bf577ba26dcc06715e968499a",
+    "data/registry/mid_atlantic_ct_2026_11_05/README.md": "60c73efb0826b9c71e54b5f968dc3a611e128429d3a6472ee3f62657ef8ff646",
+    "data/registry/mid_atlantic_ct_2026_11_05/ct_programmes.csv": "2056ace59fbbdb6b789c33c9c44fe6cbfbd4f07166fbc5ee90626b03692f555d",
     "data/registry/mid_atlantic_ct_2026_11_05/ct_programmes.json": "fc5d6a87fbc6895a268e10dfb08669092bbaa7c4d77b2a6322a96ecfa5e7fe1b",
+    "data/registry/mid_atlantic_ct_2026_11_05/ct_schools.csv": "758a0ae5d48b330d02058a7e610de441efd25e14bd3c46be59b0653ccc2ec55a",
+    "data/registry/mid_atlantic_ct_2026_11_05/ct_screening.csv": "2bbf18f24267279443e24cd66659d657002b69bda8dc8d3d585a995bf1ffa26c",
     "data/registry/mid_atlantic_ct_2026_11_05/ct_screening.json": "22a7fb86076b8d7bab3219681a82b5098703899747417aae193c8d8b319e20aa",
+    "data/registry/mid_atlantic_ct_2026_11_05/de_programmes.csv": "e29864c510bb695461a48c885d1878de04c187b6a360f07ccc36b2cd4ca9da1e",
     "data/registry/mid_atlantic_ct_2026_11_05/de_programmes.json": "9488e261d5b88894d4955883fe53167265f569df1d0fa68c96722c4daac0e45e",
+    "data/registry/mid_atlantic_ct_2026_11_05/de_schools.csv": "8df50140a088cd792e4ab6dcbcf8a7dd682df1cbb7d6ada71adbe96fde82962e",
+    "data/registry/mid_atlantic_ct_2026_11_05/de_screening.csv": "6743a46789227e27aa900cee316de19dba030420b33698fc2f3a84a97ebc49d7",
     "data/registry/mid_atlantic_ct_2026_11_05/de_screening.json": "7aec2a69ba315f05944f6c92cd6e13ffba9692ae9de163cba9deb4a4b8b0f71e",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/ct_directory_cards_rows.csv": "3a01b527fb9f96f09d972d68607ef42ed20ef9e80993b4b4901b177032c81ef9",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/ct_directory_cards_rows.json": "2bbaeb0dbd42a6d837467b3c93db77ce0ae16d5dc1cb3db6bba77e42677f0095",
@@ -2965,21 +3143,141 @@
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json": "4f35c51a72913c0db57de6bc44e869c50a796d00e64dc30291dc6a09aa8f7eb4",
     "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json": "9c30829c8dc03ef7a72c2b8fe2b76c14d91637795f175e8142ade414e8487c23",
     "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/mid_atlantic_ct_2026_11_05/md_programmes.csv": "88cc99db6f42c68b95912ca8a8ca423d70946243a9e1bc85e608d9b3fa9933be",
     "data/registry/mid_atlantic_ct_2026_11_05/md_programmes.json": "2ba19bf77663f2484f6a1c3224922cbae3cd378c45d8b85f7cd14c15334bb1e5",
+    "data/registry/mid_atlantic_ct_2026_11_05/md_schools.csv": "2bab9981b3b06ee6ba8e79fc6b150f5d2975647c77b2f2f4b8e0d958a18fefa4",
+    "data/registry/mid_atlantic_ct_2026_11_05/md_screening.csv": "48f20e8660c435e7d697571dec954c013f44552ade04d9cefa3fa66d03b0338e",
     "data/registry/mid_atlantic_ct_2026_11_05/md_screening.json": "de62ee5f6d165a6b7566fc85ebdc656cd4ea52f4890ce0748c7fc0b02912a3e7",
+    "data/registry/mid_atlantic_ct_2026_11_05/nj_programmes.csv": "f9f853211e6c1190c05eee53c7acb3387302d0795fbc3c7ffe28042663d2cde9",
     "data/registry/mid_atlantic_ct_2026_11_05/nj_programmes.json": "a3051b7922881025fedae0574f683839713beb2cba08b007999ecaef8807031d",
+    "data/registry/mid_atlantic_ct_2026_11_05/nj_schools.csv": "caad11c07f90d9d416532c8be4827ff369f99de0e792ad2e02a0aeeb5a8d079c",
+    "data/registry/mid_atlantic_ct_2026_11_05/nj_screening.csv": "771303a56508e8ee1916a3f8fdf3aea8dc751c131157d0c97e4055a5158e51fa",
     "data/registry/mid_atlantic_ct_2026_11_05/nj_screening.json": "210794b8dc4410b81f2092a4fc83d29ba11701ad9a4ffc2032f79e21d6df7399",
+    "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.csv": "a1c80edeb40c6fe26e002279e0af0b4273a1776193e0a3260d12fabc59178e6b",
     "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json": "cf6db9c78ed2c2ed87e51b5a27f3c27a96b2704de70ba26c6f3dabdf88e63e67",
+    "data/registry/mid_atlantic_ct_2026_11_05/ny_schools.csv": "40cf6aa4b6dd1334561e9d1122c23a1abbb5be66504dabe739d5fa66b52cb8a5",
+    "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.csv": "fb6fda7d706c4e3595c943de6fbbdd07527be7784ab2225d10021ea1fe28c651",
     "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.json": "f5f299dc2c2c16276d5a2183849a69cc45881336c1fc80e0ee887c26e2a48db3",
+    "data/registry/mid_atlantic_ct_2026_11_05/pa_programmes.csv": "16e4dd7ff58e8daba67f4f83db7a2a00b6ad07ecc2796bf181f7d0bf5c1fc632",
     "data/registry/mid_atlantic_ct_2026_11_05/pa_programmes.json": "ff322f694a22f8f2d79c15f45cef69ec076e371b063c01c7e3ee73680def0cb7",
+    "data/registry/mid_atlantic_ct_2026_11_05/pa_schools.csv": "de2504438c34f6136f13d8c313ebba3b625794321203f877c09adb30ee396e70",
+    "data/registry/mid_atlantic_ct_2026_11_05/pa_screening.csv": "877ab097648fa96bb661f90cf8f8959cea41ffdc64787cc6eae72d8d85588700",
     "data/registry/mid_atlantic_ct_2026_11_05/pa_screening.json": "a6c4542f0608290b20ae63c2ac871b646d6337713d9e0703638a625b04aab77b",
     "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv": "352eaf79828e83407f960e845a9da56794872ff9ac3c04b4ae236c5d2cc7a79b",
     "data/registry/mid_atlantic_ct_2026_11_05/reviews.json": "a81fd572f1a4443f5ddb4d08072c85933e1fb530a6d0b31a87c719c750de9687",
     "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json": "62d29263e7ba295c1ca2f03639a6cdd4dbfea0f21a08faa1d39fc27b629eae9c",
     "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json": "8816d31201db862bde82047b1b33297ee338fd0b3abad21e7c2b97c36aa95337",
     "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/mid_atlantic_ct_2026_11_05/sources.csv": "6272847c60f3858912921f5fb1ef3796ae3b41a8525de36c50a16a0011158831",
     "data/registry/mid_atlantic_ct_2026_11_05/sources.json": "3d91bc4d5465c061ff8c939e933bdeff922e0014e065ccb985391f6e4e86a818",
     "data/registry/mid_atlantic_ct_2026_11_05/unmatched_grade_context.json": "82f9de4faf00f028f215fa101b31d96c5ee82254121b9e9bc0830248b20fbfab",
+    "data/registry/new_england_2026_11_06/extractions/index.json": "b8adb8d7dbeea27148cb4b16690ba2cbbd3cc709cbb9d0ce7c6ba5f753d9bba1",
+    "data/registry/new_england_2026_11_06/extractions/massachusetts_directory_paragraphs.json": "0bb64842af44ba23171037ddb58438a7307078c1d350df57001b3fc465b5dd2e",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ccd2024_MA.txt": "29c086087e10b0048c6454bfb32691c61484bb8619a400a96a6a0b1970209eb6",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ccd2024_ME.txt": "e7c08e3189c9907b656fa889a2d5d11bd47f02457f943781de9c74126dff5a72",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ccd2024_NH.txt": "2964126309627c040a233c13dab9dc54b42f7d07b4cbbbbadd1d4dce758f766e",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ccd2024_RI.txt": "26411bef65c3c883fdc890fd37c78574657333bf8bbb906d454ebc8baf990cad",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ccd2024_VT.txt": "49c15a22a63c2b39fd62e3905dc56bb9b31d5dea8220a8e6a89dc73eba3b60c7",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_02acffea355b57f5.txt": "44c68c625dc59af4c3b0cf3dae4cf65656a12915a83959bd59efc28fbeb3af1d",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_034278087acc5ce6.txt": "5f7ee0aa623aba4943d0202fc0c787992f3627ba0633aae425622045a5f3a378",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_0b4271bdfd67ec7d.txt": "09634697f0d3a0b64b9290cdb62922336b02841eb5671092ffd3b08fd4c08a94",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_1af5f8d1f4e44875.txt": "a0c08778a0bb8c4edb319ba4c90fc74041914716f2c20c937d7692761a1d99a0",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_1f17605337f4056c.txt": "7bb9fc05b3e3cedec7db8ac72e3b728889ea57fdd624ab8a9cfea9123d90dc3b",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_2166324864ced1e2.txt": "0b7b2ba9b78421cf2f5432f3482ca03010a0809e4f41e4ebc277569592d6bbed",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_23610158f7509fa6.txt": "58a3825660124e73df9cf9f3da9b94163eb2473afdb5718a1ca5172fc88892ea",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_280f33715d4a54cf.txt": "fd6932446212e240412782b64651d88ce6e684eec1135aa6c142dfd543985883",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_2fe1090fe593269d.txt": "c0d05dc8558760c50f7a4ad0aceeaa1d5b4a2f761158d0e010ff1eba8c99e2fd",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_312c70c18b099214.txt": "92abeab8215f1144fc6111aa7ae1d390427f5f75b4aa83414dfbb74ac87969cb",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_3680209eefa739a4.txt": "f404e1b4c2636e7f75bd7b0c532c4a884e45366cdce8e69463fa359c37db4f5a",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_3dccb5df38d71a9a.txt": "ee41d3a8b0b32d939422de38cd3b7f25616ce152b2a80f817fedab60cf07888d",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_3f41c13d88a23ec6.txt": "cc530dfecb404cca835fb5ac42807547b9062a240808fcb11c378e6586e25067",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_46e949a0914f3dd0.txt": "54fd72a51c2cdc7317af26b5524b1e4c99a1fef19496fbb39083b788d3e1bc78",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_4ae0c9e2e7833625.txt": "be309c3d56df26ec706a6b2c273c371f3bbfa27f8e12207d9b82ec6eee9309b2",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_4aeffc6eb63810ae.txt": "6bf1aa4db5c715971a425712a0628da9d472aff75c4e8081c88428d6024d22be",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_4e24aa021a45bf54.txt": "2d1b04e7af269a29b45d971b3e4656fc7debd99662aab4d20f5042f6549e7867",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_4fd8f442847b67ae.txt": "88d2e15b7b836902d62734e649e0e97d3e7b1d93c897c4af977651ff3568db0f",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_541f3f6bc43ce9d3.txt": "37d443b9ea06b25eabb73b1778197911e073ccbe6c594d8256566ede46700959",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_57a2f96cd4e50bb2.txt": "6f56c3934665e6049fa72344b394456bedbcc59c4bab664ca9a8b1aca413a506",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_5cf6814f79fc57a4.txt": "9976ce80a27e01c9500b060f6db028ed641c80d6004d2b7c643b287513e758a3",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_5d066e8808dd7720.txt": "5cc24ae71e0fb49ab792a5a9d2feaefcbfaca08b91d1ec40c4c576e4ee37aedc",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_5d5ddf540e1f8441.txt": "819fe7feefc656ac8a8caa9481213adb466c12f9a24f7440a2b4aa4066a02945",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_5d9b63ec69d10b25.txt": "c047165ad8c7e0fc30b65358cfed025f7d3f7d52ebadfc59a6c43b89a742c599",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_62553a0f7034db20.txt": "0cff10456174b429d3d7603f987d1b8215344bcb3c925edc73da2bbcd42397c9",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_6721b1af39fd3701.txt": "960ec9a5cd71d7e6252f0e7ebf6b20df20d10817c51842d6739c5cd2029340b5",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_8839f99c3b3d2b6f.txt": "7e69bb02d197689eb6a6e008dc7b2c5e47c6a77e92dd40b5219575cc1cacd26a",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_99ecdcb2f9481a5b.txt": "69fff3007ce553d23d27c2bc07144ae07746441e3e7eb6d483c8b63ae00f8a54",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_9a3d83259803489e.txt": "20cefb294a8b41cd0cea32778f6c371fe857923e31b2ba1d5fb7a83befe3c9ba",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_9df3150df27e69ee.txt": "20191268d10ae70e0f39e889d75299847959d44eaffe4f03518902f3a1a89fd9",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_a767aa9ef4fefd18.txt": "c4354e3988613232ed05dced48c16028b71ebabb1e7c0397f7d9ba45a2212507",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_aad523dc22839ec6.txt": "b7170e8ddf36f5c03b477ec14e49ec1eb99ef13d046ddc2558c2ddeeacae8bf1",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_ae162f62b6c76976.txt": "66e56c941d1b0330bf45c5ac63f8ea4f941b945a26b94e92437069bbe0208478",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_b34bc371afbcf5c7.txt": "ebead5fdf7e7e894ddf5989905e03d0ac39298eb5e6a16d71aaa8443283aa200",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_b5359760b5b9114d.txt": "fbbff1a2391d1ab1846cf66e2983dc0424091025ad3981df9f71834563da4b39",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_b69a167d5927a72f.txt": "c1e596c5aaa67483f899ac061242731f4f2ca4a2eaaed30ef3259c85e6d2e3ad",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_be1da81a9b7f951b.txt": "b21634b50284d21e12279d47010f72bb46743b9fb0d6daad1a3c47011bab5108",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_be926bdd1389822b.txt": "efaf19d718dd999251aeaba35db091562ec59c7e42a7b803431208ec074b30bf",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_c5ab02cbcfbd3bb7.txt": "b205009f47455e821d880cc84bc703438708c321949c0763e95b0490784db5cc",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_ca2140a690ad3e3a.txt": "b919d5d14abafbde8e39b539e02d3b3fd2ac7ab5c6ce63d1f12df7db4a485325",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_caf1b44b845ec71c.txt": "2883ff9ca3d053ee023bf58592a306cff99c1f4568da0c7378549f58c9b3f02a",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_cca757f3e2d7edf1.txt": "0d4486f7eb1a1697994439b8aab46f54e7001412641af547bc7106cb033fc2c8",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_d0fbca4f5430b882.txt": "6ffe41978122b41cb0dee5091abe3fe76d7aea058c2efd27b7986f43478580cf",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_d697c7f85a500419.txt": "0c8688d7ef1c6b09566dc4a50fd419b9d8347349488938156d211af566b85435",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_dc530afe27ee57fa.txt": "4bd78f04f036180332e6c416b8eca555208d3023f5424e174fbad23d84c971fc",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_e145dd4bc036ede1.txt": "db38e0bef2a99daf4d0ce408e2e748ddf9bb9fe0e4fd248204e44483246532be",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_e1a46f9540414b0a.txt": "d860d3eb01a16538c148bf11ebc7444e8f727b43c826be73f100777e3d57d318",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_e78f60929a578105.txt": "47293aecfd53f26362803007b8d9b979a0833d90a100a5ccfb8a38b79f907ff7",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_e7e94baf936780f0.txt": "3bdcc857d191d00e53b0be53dd2f9e89f56c2fdf6d239a29dd2a9d061cf15dab",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_eaf2990cfa416aa4.txt": "a087e0c28543a6ab16a15fd276c8e9a389a72ae08a30136a21197d276ffc856f",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_eb15bd4a90143e90.txt": "cd62ff20948e700616ff3816a8f540ae05c3f78bd1cc4cdc46f5b3e2e4635bd9",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_f4e902d5f1247e57.txt": "08b5f33b442d2ec50be22b895e5119279f67d8a9bdad518e702146a67de05116",
+    "data/registry/new_england_2026_11_06/extractions/ne5_doc_ff7e21aab83d1b22.txt": "69464ff0997ae951c3f55b51d7dfa9dc28f4133f06d2d77f8fe4bbad35374d08",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ma_dle.txt": "ace18f6417d4fff61bd0c6f9f7c3bbf73ddf485698b267b113967f0eb6ff2e04",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ma_list.txt": "e2551dcf81c6b0c31485fce428ad25252311d2b5402783b198b2950769854be6",
+    "data/registry/new_england_2026_11_06/extractions/ne5_me_efdm_elementary.txt": "0e06cd55efe552b2517623f9c2606675cf53420a4d1d9a784c251a625c53d517",
+    "data/registry/new_england_2026_11_06/extractions/ne5_me_indian.txt": "712ce18764caa7e2c85c9cb4e57f757210cc2e6040fb9b271b0691bedf03ec9a",
+    "data/registry/new_england_2026_11_06/extractions/ne5_me_indian_island.txt": "08fab656a5fea354e848896a6d2f54359edb60187a8cf45c26ab8578eb2d20f1",
+    "data/registry/new_england_2026_11_06/extractions/ne5_me_indian_township.txt": "4d36acc72c3484a26ce39dd7e6d350ed7b90d7f6a2b457b12f1e2add02c00e5f",
+    "data/registry/new_england_2026_11_06/extractions/ne5_me_lyseth.txt": "0016fc2722d21fe39a0b752fd114a006a75cbe5adddcc0fa3c80fa0fd3dd06b4",
+    "data/registry/new_england_2026_11_06/extractions/ne5_mendon_chart.txt": "70094d3680e527f81e7be3dc350b6fd62d99d2fee3f856aa65950c51b19a52f7",
+    "data/registry/new_england_2026_11_06/extractions/ne5_nh_manchester.txt": "16bf65bbae22bb9e3d08b1d444801a31ba67f9ec71961d33c053ea5931911b2a",
+    "data/registry/new_england_2026_11_06/extractions/ne5_nh_publicradio.txt": "456b39fa735cee3ba750a08f1bbcd7e69aa0bc20737cfbb4a8629b561adb673f",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_ics.txt": "2db80e6885723f45e44662a5873f17f9d76618123e94e65cf527d352b6aa7961",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_ics_history.txt": "a383a6f43919684be1e74c5f2fc3757b26c9e341a8d441011dd7049005009f39",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_mll.txt": "538f900220fef3752ed123fa8904e99334df0a448baffa956726d414b51565fa",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_pawtucket.txt": "fbc7943678174d96e602a3abcc71423f844a34f332882aa08f7b7fc93e65dbc2",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_planning.txt": "9e38bb245a3ed45299537adba8d748f8c57c6befcc57527e23f2529cc025ac4e",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_providence.txt": "106b899d1237754124741c6c6bf3fd51389aaac039a9bb58775023489148bc5b",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_providence2026.txt": "793144c09423873b6cd1df3af8cb35fb97cf3931e0915a844a5162944a3cb8f7",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_ritell.txt": "e4ef205c0d35fdf5eca62a1ae9252c1828b4bf25a9ff9535db809c82eeefda15",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_southkingstown.txt": "a5d7d7e33220b31169b4b6984637f95f70550748764a25fddbc01929439950ec",
+    "data/registry/new_england_2026_11_06/extractions/ne5_ri_standards.txt": "599815eb4af34e601bd6ac64a414190ae7859e56d3df8f27dd0cd9fb86a65a89",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_day.txt": "f39290920b02fbe2ef1032911594efd76e8f11e6af82d20ed2c86bd3625a9675",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_faq_current.txt": "18420f252fcfa7ca26b5fd35fe5dfd958395eaea29d75180f452ba52f2f0031b",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_handbook_pdf.txt": "aa3d738cb137be2ed8d5f384a5b28bfe83e94a6af80c8647e9d82bd9eb7143cb",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_mmuusd.txt": "778cbf56e27e717d1a224aa1881e91fa129346198384443e6edb4b7706be8ac8",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_options_current.txt": "0dee63f3e9022f9eb5631e6d0bc862f2cc55c7b68d7764c6c4fa6a0304cf7d8e",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_overview_pdf.txt": "1ab661e6cc15440851f66643ca3fcbc4309ee9b4538853551ba602dfa27dfbf2",
+    "data/registry/new_england_2026_11_06/extractions/ne5_vt_whitepaper_pdf.txt": "4b7a29df87d50f85f90329967bc9ab11b384176c4a7b7daa53de1146945658de",
+    "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json": "07b7bcd15cfd3ec6d4ce4091bc1eac91102e75f7614be029e67b8b6b891e71e5",
+    "data/registry/new_england_2026_11_06/grade_context_decisions.json": "274d6cd2871e9c053e9dba34ad93aec0a7a39ce9924a4538b4c8c96db51a9265",
+    "data/registry/new_england_2026_11_06/identity_decisions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/new_england_2026_11_06/ma_programmes.json": "986c02efd397dc55f896a536579cd0bd762507414b0fcd535f813f81507a9843",
+    "data/registry/new_england_2026_11_06/ma_screening.json": "cc9797232b94fc47afb86f51ce8a7c4f9d700f4cbc59cfcc41f8d63006c7e257",
+    "data/registry/new_england_2026_11_06/me_programmes.json": "bdfc4b7e40d9126645c75e3885073669dd96525a51d191c0c76d62b5ec445c61",
+    "data/registry/new_england_2026_11_06/me_screening.json": "9141116e5b22d75f71b38c886226fca8cf495689cbdd5d79a9dc25a3a4cb2604",
+    "data/registry/new_england_2026_11_06/nh_programmes.json": "cd286b702ce05dc2baa9eb22b60c3e06ec5b018cc53bdec7b48651a103430865",
+    "data/registry/new_england_2026_11_06/nh_screening.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/new_england_2026_11_06/official_school_identifiers.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/new_england_2026_11_06/retrieval_log.csv": "fde7732f7c3c0a5538bbe0ec7fdb05c87995a03a7043b58886bd972bd4ddd9cb",
+    "data/registry/new_england_2026_11_06/reviews.json": "f0bed20f4e64167e0fb28f3894d8365a58d478652ee1d932f7eb0506115a90ce",
+    "data/registry/new_england_2026_11_06/ri_programmes.json": "f3215787fe3286d2dceb7374f36aa49a82baecaae931444722d94b5847af8d93",
+    "data/registry/new_england_2026_11_06/ri_screening.json": "36055c434e805eb32f5c85a5f85f6d9714f84740592f9875e66c10328266dad5",
+    "data/registry/new_england_2026_11_06/school_grade_updates.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "data/registry/new_england_2026_11_06/selection_summary.json": "48229a5766daf0d0d75f9d51a211504d262b3e5e38024d6e7a28de15e8406292",
+    "data/registry/new_england_2026_11_06/source_redactions.json": "b161755b88d8e02463bca4b520c495ffaae728440422739603a46c8069b8d0f8",
+    "data/registry/new_england_2026_11_06/sources.json": "2027e29214971f80b0b96d1f17018487e762023d0daf1609130ac2be89a4f6b8",
+    "data/registry/new_england_2026_11_06/vt_programmes.json": "f9dc50c9f20f75a3f515287e54d03d37497e845156707f63d62471ee786a4585",
+    "data/registry/new_england_2026_11_06/vt_screening.json": "0a67d7717f360be540ef5a4a3ef9985a11cb9b22a9135e3d62941d50b76a43a1",
     "data/registry/northern_central_ak_hi_2026_11_05/README.md": "45e1d17893200272dcc189788ccd880f6b76b37b82c1bd3c602a2deb7c820f4f",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.csv": "240271d6caf59266d71aa02c94cd91501ea8100dcba292fa6fa28e4ad192be44",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.json": "bf3dd8907ce8e40f442447f43f2f2ab863816053e5feb2d103e9ce84b4f457cc",
@@ -3134,6 +3432,7 @@
     "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json": "e845dceb5df8c58272b8517dad77db273762c72de27f2e6c86984babd04576e7",
     "data/registry/northern_central_ak_hi_2026_11_05/sources.csv": "94b1aa84c17e1a4315b70a2415cc1866dcdf91d8c95b302ddea36cabb18ee34c",
     "data/registry/northern_central_ak_hi_2026_11_05/sources.json": "b9268a77375a5f7772d303144b2612210838f1cd5ef8c203854efa5e92325b4a",
+    "data/registry/ny_allocation_followup_2026_11_06/README.md": "2eeeee65ba32531e05b7ba2c60506c0dcce8e575f264e5d86305d7a5c9a65583",
     "data/registry/ny_allocation_followup_2026_11_06/baseline/mid_atlantic_ct_2026_11_05_backlog.csv": "efa3f348d8d5cd24f1a6f25068df5afbcc42bf0445a6383b2330152f397b8fdd",
     "data/registry/ny_allocation_followup_2026_11_06/baseline/mid_atlantic_ct_2026_11_05_by_state.csv": "c13e1b038bb3e35f5520f5e072b352cfb674aff74f1744a96dcc7e5bd84983ea",
     "data/registry/ny_allocation_followup_2026_11_06/baseline/mid_atlantic_ct_2026_11_05_program_view.csv": "ee4a50ad1fcb10c80871ba1d30e1d826a611b50cf02a5ef7aafb3b9c1e8f3382",
@@ -3779,6 +4078,10 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": "cf4c837a765f59d4a63f298751e73006e29904e26488fe555aa55a44402226dc",
     "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": "eb3abaacd78c0df1e807b9eb080e6e437e23f8033c175b4af0d6c6b159c3b387",
     "data/reports/elementary_allocation_coverage_2026_11_05_illinois_2022_reference_by_state.csv": "a9d40d2002887dc4f70743c2a57daa7a9ea1407fb2c535d96b25f7b7771549cf",
+    "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_all_records_by_state.csv": "935d0c69957d40c6fb75a8e2207c881cf5584795e7d60e1d4ee004f7a1ba0f21",
+    "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_by_school.csv": "60bba77ae9a0856e863c713cdb3d97f494495629ab74278c9a3f3ce32384cc8d",
+    "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_by_state.csv": "c7e215782f71636551737aeac87bf1bddc066b680b6385dbd40c0dc6f16d2bc9",
+    "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_reference_by_state.csv": "e924256ab19d8df17ec86eed0c4693c91d34a71e3788297ceecaf5cf2b740027",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_all_records_by_state.csv": "247125d6875f676f9f7f18136ee871b7915201007b96c406b0750a417fc361f3",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "2f7400d48ca121c290dd40e21e0b88c88414b9d820257e2b30aa2da47db1029d",
     "data/reports/elementary_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "cfd739c7dbed3219d8c3d1b61ed27956179b867ffe21f3638ac0ca08ec2a668a",
@@ -3800,6 +4103,10 @@
     "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_school.csv": "a6c5e59029d34d7f210f7ebdff30d948f80abbf30c8af92faac1f6c4bfdb023c",
     "data/reports/elementary_allocation_coverage_2026_11_05_southeast_by_state.csv": "2abf4ad016f4c71b1b6f324a06c49948e1ac6f8c504dd4baf60e7f3db6665dbe",
     "data/reports/elementary_allocation_coverage_2026_11_05_southeast_reference_by_state.csv": "a9edf26ee458cd17f05abb6067ce35880c7256084b96800c843f3f1f289defab",
+    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_all_records_by_state.csv": "22609e3d13cfb9b64c66d32d3345960af53281813b6aee7bac79573f1449fe43",
+    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_by_school.csv": "6e40dac03da5e41dabf7ee6df2526f507e4fe09cbf75c3737d39556a0da4f6be",
+    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_by_state.csv": "623e5d4b6f958575cf22df0e834c335609bc4bd7b760c6a01314226ae86779f6",
+    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_reference_by_state.csv": "e2438a573ee34ff7a3000fbb43d214abfa8ad37cb39aac6486c3956b5a456d08",
     "data/reports/great_lakes_2026_11_05.json": "f5dc3c4bc55cc769c5e60017553d03b93345067bf11095ca7a95d760a9749a3e",
     "data/reports/great_lakes_2026_11_05_backlog.csv": "ffc47d8d555c995e2875898e54d84ecdb7eb869b120f044c711dc74a65ef8a0b",
     "data/reports/great_lakes_2026_11_05_by_state.csv": "92fa33f7a7746e57ee6ee02f048ba167335e8b5f00b4c4bdd66494a326d0dd16",
@@ -3824,6 +4131,9 @@
     "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_program.csv": "cd3327bad0d5f7537e57cae5944e7eb8dc5d4f9e35fc51991f4e7bea97d5c90b",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_school.csv": "b8752a0bb3a797274e6aad2c07650363c1b1fb52a1ee6a7c5a4c0c0038032f74",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_illinois_2022_by_state.csv": "cc5811c86418f0be38df118dcee8fb48b8cd968273ee77dcc922f73115e0e5bd",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_program.csv": "8d1f18e88615ff6928b1378f4be9114053908932ead13dde8d7cbec726eb2932",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_school.csv": "56c8adbf879c3e8c336d192f01982075407827a55e2449f9c2c52fa564e105fb",
+    "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_state.csv": "4aed2e67e57d513d1e025dd10c14cb3918309d1f0bf146bcd002cf9f0a718e24",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_program.csv": "59a4e078f38a0c6c87d755a46d49504c61d1fda33d27a32f835bb6b1b120bb5d",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_school.csv": "b789635bfdcde6acf45a6507e18b37b4d6ff5d6e133a1f8f03656a4a9c65f6c7",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi_by_state.csv": "9a8e75a59e101e7e40b44aecd595442967e7d04685961bf3772e591e6a4a4987",
@@ -3839,6 +4149,17 @@
     "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_program.csv": "370a4f3ef023a2377b23e9d9bae83dda507827fd5a33cc6411df40104af823fb",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_school.csv": "6a812ab1eb33fb04140da060b9c10902ba004b008c7568c42104a38a91790889",
     "data/reports/kindergarten_allocation_coverage_2026_11_05_southeast_by_state.csv": "b609d6e5fe48c7ae8a5d6a872024abab1e35ef36db1cfd0a6018ebd27b7bac39",
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_program.csv": "c3fae91b9cfde128094c60d3f434b8f23b0bef2ea6f63edb86cb9a7de98c6ddd",
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_school.csv": "e199720d364a372c53305131dbd9d59223a9b1627df7d05e2846656119bdbfa6",
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_state.csv": "81d45a890a3065f2231bef5367552d396d61b395b20947bc896d863b721e33d7",
+    "data/reports/mid_atlantic_ct_2026_11_05.json": "b062b9371aaf9fe2ebf5269eb0279f42fc7f448769857047371812540246cd05",
+    "data/reports/mid_atlantic_ct_2026_11_05_backlog.csv": "1001e0319454f9c637399c29cc8e4041d1646adbbbbd211a8f6cd9c594c14e7c",
+    "data/reports/mid_atlantic_ct_2026_11_05_by_state.csv": "cfeb5e7e54efc0d4992ac479cc9adb559377a05b687c633e2ed4508f11baf833",
+    "data/reports/mid_atlantic_ct_2026_11_05_change_events.csv": "2b190ea66c7a81d41e9f4a17da50771c04b7c1b1baca43849126f646f4f76b10",
+    "data/reports/mid_atlantic_ct_2026_11_05_program_view.csv": "e7414c45b685b758e072657868e22b17c49340429473a8d647758cf0a3b3fa04",
+    "data/reports/mid_atlantic_ct_2026_11_05_review_cases.csv": "d77e61f158fb5d805bb91f6140fcbf15527735e3005a2bde98ae5c695da7ddc8",
+    "data/reports/mid_atlantic_ct_2026_11_05_schools.csv": "73f226689b5038b231e1044441ad1f61eda8cf8dc4cb4d591ed33f6e47fca22e",
+    "data/reports/mid_atlantic_ct_2026_11_05_screening.csv": "f324c92d03c3e19859af7bbab334fa14258b07eff7891a876850375a1aed27f0",
     "data/reports/northern_central_ak_hi_2026_11_05.json": "6ca5c36433c520fd60b4884dbaa12416996237c6c127574417a9727e6ea87509",
     "data/reports/northern_central_ak_hi_2026_11_05_backlog.csv": "04e97d49c06a4dcc72421790c0bac60a2d0619aae362ae5b634886d1b398baa6",
     "data/reports/northern_central_ak_hi_2026_11_05_by_state.csv": "6cc717eeb3a3de1ddeea8c92b4e468eb1e91e1830d01a74f984114bd1b3bdba5",
@@ -3847,6 +4168,12 @@
     "data/reports/northern_central_ak_hi_2026_11_05_review_cases.csv": "e84800986a26ddb33b6d144b13f384c28c2902916113ea57af3384fc2753772f",
     "data/reports/northern_central_ak_hi_2026_11_05_schools.csv": "5dd4de707651dd1e954896f12dbab70c72569724971eb68a52d6729baa7d9a05",
     "data/reports/northern_central_ak_hi_2026_11_05_screening.csv": "09d2f653aa1ed51b6ed09405f7c623ca2992c01d90ba01bc57bdfe389edfc875",
+    "data/reports/ny_allocation_followup_2026_11_06.json": "0e933ae383a5371277b8075726ecac1c3fdfa7ddc4b449696b467518d54d34b5",
+    "data/reports/ny_allocation_followup_2026_11_06_allocations.csv": "a72eb7d52990c1ba9ed899e9db033d1b34be552967cec030c941f59af1630945",
+    "data/reports/ny_allocation_followup_2026_11_06_missing_models.csv": "57b42c71552a7f72b41dd1ef1a411b38467daff4b023d3ebf97594d3450f269a",
+    "data/reports/ny_allocation_followup_2026_11_06_reference_by_school.csv": "84e8ca9d2f96d167a1e1df5eca9563a2cfebe0dfb82e8c23a5507e2b9f78d677",
+    "data/reports/ny_allocation_followup_2026_11_06_review_cases.csv": "dc90def523f61005854f5e10dd3ff0af5bbf0e09565d97390a35ab6c1dfd3445",
+    "data/reports/ny_allocation_followup_2026_11_06_schools_reviewed.csv": "813827b9b4bae5b03ccae2345fbcf755e9c11e16c9dc61b5f2733baea250deaa",
     "data/reports/oh_ky_wv_va_2026_11_05.json": "a06661bb1a154961081ea84c03f83a7fe806b40b2405114fabb3f84047454025",
     "data/reports/oh_ky_wv_va_2026_11_05_backlog.csv": "c7b92f632515f33ffe4b00737dbbcd934dce0e3cef265d513abb369bd89903da",
     "data/reports/oh_ky_wv_va_2026_11_05_by_state.csv": "b98053cb7b150cfd5efc5febfe4398f5b42f68d558e10cc008ac654776211bf2",
@@ -3885,6 +4212,9 @@
     "data/reports/structural_inventory_2026_11_05_illinois_2022.json": "25da3a58283207b1bdeda58398beb9422fd2452fbcb6d3b8c74a08a2cc420804",
     "data/reports/structural_inventory_2026_11_05_illinois_2022_by_state.csv": "661e1776983a82d60fd9949a4cb14b85af56affec9f278fada68b1adc88f94f7",
     "data/reports/structural_inventory_2026_11_05_illinois_2022_program_view.csv": "2da3ff56248875559ce2146c44506047b9df566e04153002533f43c2c5e281f9",
+    "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct.json": "079975cd1bbb3f5dd627a2f31df537407e92a78d0aadd306983dcef81970ca92",
+    "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct_by_state.csv": "ee5898fc0a4e89fe2a0b25a675d648584808c3994ece2809d61f52917b59c8ea",
+    "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct_program_view.csv": "45f9ca181bea58929523c4ebb7846b984bef89c69e0dd6530c02d2ad8c536c83",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi.json": "6e6cca9ffbd15a51dcacdb5b1535fad592b588fbd70fcda7244d8f96475333d4",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_by_state.csv": "2b49d50973c55a1101774a6bc53b03ba87621bd499a4ba235c93a04dcd2cf926",
     "data/reports/structural_inventory_2026_11_05_northern_central_ak_hi_program_view.csv": "70805faaad9ada6b96cfd9fb733ae4c79ed31d2f4e430f26c866a40428221fcf",
@@ -3901,6 +4231,9 @@
     "data/reports/structural_inventory_2026_11_05_southeast.json": "328012b0e04bafd3b5c557956c3b17411b1ead0ec95653f97c4b86c3269cc373",
     "data/reports/structural_inventory_2026_11_05_southeast_by_state.csv": "7cde898ad7a13615351c165118401c9375e906d422b0ed4c2108d1d61df40034",
     "data/reports/structural_inventory_2026_11_05_southeast_program_view.csv": "f9b22fa72e78e5b46ada747378bfffdf7092dfc52350be5043f86ecfeae21d21",
+    "data/reports/structural_inventory_2026_11_06_ny_followup.json": "6fa0e4a51b358f9fd17a48b1d47b7ceac0127d0f3f0920ae0c8da54d53ac3fc0",
+    "data/reports/structural_inventory_2026_11_06_ny_followup_by_state.csv": "cf73257a073895627c9ee60913409d3dddc97c1f9d92c0422c9d572cc1cd9f3f",
+    "data/reports/structural_inventory_2026_11_06_ny_followup_program_view.csv": "15ff2b26a9260025ee01d410c455548b2d2ea787a9b3f9c01131dd3786e6acc6",
     "data/reports/texas_allocation_review_2026_11_05_598_after_review.csv": "1e29f09dc960ed78d248fb158df2f20b9ea9ac186bbb688ddbaa0ecfea622d53",
     "data/reports/texas_allocation_review_2026_11_05_assignments.csv": "e2f1cab127bb796d7b5079cbb4ff7caea02c03a04d27701ff1f593b2e1564b91",
     "data/reports/texas_allocation_review_2026_11_05_case_outcomes.csv": "bbd4fbbe4eeb0e38d93cf97121282b8a2c679a2019ca284ac8477eb73618278f",
@@ -3911,11 +4244,13 @@
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_south_central.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_05_southeast.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_06_ny_followup.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/ut_tx_allocation_followup_2026_11_05_summary.json": "bedb2f4b69a4b3d19d158c3ef3795b65b44238546ec9cca88417836eeb3a3afe",
     "data/reports/ut_tx_allocation_followup_2026_11_05_texas_598_status.csv": "954a8edef5e25d8ee89f1b0744a3dd2cd7e471d281d322579b29b052d93060d9",
     "data/reports/ut_tx_allocation_followup_2026_11_05_texas_added_models.csv": "d6db0480991dd44f9a88166d009d7db9ced1caed1774520357f36e62d78174e6",
@@ -3927,11 +4262,13 @@
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_great_lakes.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_illinois_2022.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_northern_central_ak_hi.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_oh_ky_wv_va.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_reviewed.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_south_central.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_05_southeast.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_06_ny_followup.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
     "data/reports/western_plains_2026_11_04.json": "6045e271c7b68b8c06d14a92319ea2acd791798bf6614307ab1aeec39278752d",
     "data/reports/western_plains_2026_11_04_backlog.csv": "ecacae4ab40a5783ff7e5d6016f74a94bec19cef2b01ddd149d8ffe354326fe1",
     "data/reports/western_plains_2026_11_04_by_state.csv": "ff1b080d2ead4c41f54c47eb634730f11c4f5564727a12049484402a2d6f8fec",
@@ -3946,7 +4283,7 @@
   "pipeline_files": {
     "src/dl_outcomes/__init__.py": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7",
     "src/dl_outcomes/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
-    "src/dl_outcomes/allocation_coverage.py": "f509bd34fa0d41655935078a4fe7fc9d21646102b42b6a75834d30fcc291ad52",
+    "src/dl_outcomes/allocation_coverage.py": "9c3aaf18b627961d734915bfbbb71e4ed4cb6cfa7ce4ee4d1aeac2e8fde47d9a",
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
@@ -3958,15 +4295,16 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a",
-    "src/dl_outcomes/elementary_audit.py": "3ea79c9926691a678c9e701b5ee67a3f8a89f52523d44dedf0e21f7d439c069a",
+    "src/dl_outcomes/elementary_audit.py": "c19c4ca45ea27b6c9b5db7353c3c07af393159315b686a24bfff9e78d94aa2a9",
     "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
     "src/dl_outcomes/mid_atlantic_ct_review.py": "8fb40fcdc8ec3591ff67c982fa6b58b8eb80a36bd2ffbc62888e726bdfd07ff1",
+    "src/dl_outcomes/new_england_review.py": "de51d18c73214d482ef64f7f0c1d411afabd7ff3c586403577f28800b2ef3ea5",
     "src/dl_outcomes/northern_central_review.py": "82d89b198b573aacb5ba525c893d1bb04b353fe74a2b24fc64f1a115140616c6",
-    "src/dl_outcomes/ny_allocation_followup.py": "41a6c95d98ba4f81106339f00ab2900d03c8ea7818ace66c255d1efb216fe670",
+    "src/dl_outcomes/ny_allocation_followup.py": "1de59d7dfd341d348cc460040d4f54a654d55966b3c45f49e6c75dbf16c13fdc",
     "src/dl_outcomes/oh_ky_wv_va_review.py": "4d0d4d2ec6630a7688ae40009c9b3bc2aae3cf1ccfd89245198c8cb0fe88abcb",
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
     "src/dl_outcomes/policy_selection.py": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631",
@@ -3996,7 +4334,9 @@
     "src/dl_outcomes/states/kansas.py": "9abc6979878adedc35423d78463d38500926c944d4ce4650f74bb678446f534d",
     "src/dl_outcomes/states/kentucky.py": "156ac5619779d45823500380a3bf435067ca37a7a3b6e83f0eea026235cf5e61",
     "src/dl_outcomes/states/louisiana.py": "a697a3d942514581ee2b5afd6b58dbc31c967cc7d4a8a56500de69a8254e2fc4",
+    "src/dl_outcomes/states/maine.py": "e255cd2604a73fb70871519c761599542e813d713bc39999ebb8abc2f85cc34e",
     "src/dl_outcomes/states/maryland.py": "999fc7290f4dd4791edaa8aeca44e8da1886c42a27663d85d8e04587d13d2e12",
+    "src/dl_outcomes/states/massachusetts.py": "cacfa38aa9289d78b1ee087c9f00e18e73090202db52c064ff01cce87182e7dc",
     "src/dl_outcomes/states/michigan.py": "7d33c5d4f319259b66d159718d6e919e1fe7b0ce5a473f1ca83f26a53335818a",
     "src/dl_outcomes/states/mid_atlantic_ct.py": "7b2a8ecad3e40361c4f3e47660a0e5307bf5e02611b7dc3a71c63febca2a8727",
     "src/dl_outcomes/states/minnesota.py": "451c9bf54cf6d481e2bd830a24426c9d61b4c03ac4d9036bfbe3810d089683c5",
@@ -4005,6 +4345,8 @@
     "src/dl_outcomes/states/montana.py": "3cb8d0c92effcdc0594fcd52fd8d66510b25deac17f3ce14f44200f96201942b",
     "src/dl_outcomes/states/nebraska.py": "c1674ca2f0f3455a2a66eb3c5959552b4669f6d8c551e7d4ff52ffec8d77a88d",
     "src/dl_outcomes/states/nevada.py": "8815357def593f7ee33aaa77b56ffaae35c53362ee84e5eb208d9e562c1ada00",
+    "src/dl_outcomes/states/new_england.py": "e010d9bc1199f373813ecf72dc04b2980eacf9d706c40a9147683f7e12bedba3",
+    "src/dl_outcomes/states/new_hampshire.py": "c8325190c17199e221951f2495f60721739c7d33ab495c50a9280d2708b42d47",
     "src/dl_outcomes/states/new_jersey.py": "9b94c812312d9702f07aefca75dce86a1df45005309e7ef5460ab6e7fc216443",
     "src/dl_outcomes/states/new_mexico.py": "708940dfdd08e908408d71328fba6cd6a600348a6ccbcc1ff65a037a8de32737",
     "src/dl_outcomes/states/new_york.py": "4ea99319733853e98cfa2a119a9535e88de6a5e4be18936887556c007949bc45",
@@ -4016,6 +4358,7 @@
     "src/dl_outcomes/states/oklahoma.py": "b1f3cadabdb203f3e913adc87b69889d822f84bb806e68059ceb8cd6ef7d4b0a",
     "src/dl_outcomes/states/oregon.py": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8",
     "src/dl_outcomes/states/pennsylvania.py": "4ebbe39f643113f8f8250c77aed88d001600e6704e51edbbdf8ba24d480d179c",
+    "src/dl_outcomes/states/rhode_island.py": "5ba1cc71b90e26feb3870fc5e16fd50945c8e9267e9c9f5b19bb4138e5b0dd49",
     "src/dl_outcomes/states/south_carolina.py": "f0e224b5e3524a9d58137792defc66075b0e196688df37b620fc00242dded392",
     "src/dl_outcomes/states/south_central.py": "31e6e3bc972d4fbac9416cf57b9033302fd716af2336c2dad13f56d574b74c22",
     "src/dl_outcomes/states/south_dakota.py": "edd759f3919cb659702c8c862648e0ecf93f25da1a100366fd93a1f20856ab4f",
@@ -4023,13 +4366,14 @@
     "src/dl_outcomes/states/tennessee.py": "dcf3d8f25680dadbdc624f377986f3bec0538a416cfc315321f0bdee0ca2d090",
     "src/dl_outcomes/states/texas.py": "e13c77a4ab6ae8a871b6e2834aaef3e34209df43099c039b5b0267e86b0c4241",
     "src/dl_outcomes/states/utah.py": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c",
+    "src/dl_outcomes/states/vermont.py": "74df92b57a8cb1f140402ae8176262b9351855fda3baa0cfdabd3cf2d304990c",
     "src/dl_outcomes/states/virginia.py": "a7415c0932d7262deb15d235eebb799a5b053758c5602cb55596d28f84a3970c",
     "src/dl_outcomes/states/washington.py": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835",
     "src/dl_outcomes/states/west_virginia.py": "6c9e5252f319e409cad99b49eab0c794a12aee493bef50350cab4473d844d9a0",
     "src/dl_outcomes/states/western_plains.py": "05549fe8486e31ed65f55e79badebe374d37cd80e9cf243720799cb3871b66b9",
     "src/dl_outcomes/states/wisconsin.py": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "411ef138b1bec2112b983a6d5fdc530b51716a3c350724ba3a86ff1149a62443",
+    "src/dl_outcomes/structural.py": "5c67dd257ba4459e3851125ed2828d46dac368c72893bf9098a08201c57066f0",
     "src/dl_outcomes/validation.py": "9a082a8742909d620545868559fb7c06195fd0e55e29bb908f21c9ecadc74410",
     "src/dl_outcomes/western_plains_review.py": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
   },
@@ -4039,60 +4383,60 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "cc49a59b3734c607de2d13d5429854371357b5034563e372aee34cb561d1054c",
-      "rows": 61
+      "sha256": "0a8e5c31cbaab25bb5413e4be374e86eb455aa3b6004d4969d1ae74144bf0280",
+      "rows": 66
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "6cad4642791cf61ed2551246265f2906485167dfaa2b3d91e57d762fb5dfabe7",
-      "rows": 1767
+      "sha256": "b8c4b79fffa10203333a81142a053a5b2202d2e6c7b24fe857dc65bd76a0dfd3",
+      "rows": 1906
     },
     "data/curated/registry/districts.csv": {
-      "sha256": "dcbe78d7cc1d5d96cf97bdcf49294ba05384a0a9d0ce1c845619306d2624da22",
-      "rows": 1086
+      "sha256": "7495001e66619babff4bc92b8428ed0c147db59dc118984128ad65c9ecd68fad",
+      "rows": 1119
     },
     "data/curated/registry/schools.csv": {
-      "sha256": "86124889bcff28443bc7e41f96b593286725b9916c6b6999b55b4acd02a30fa6",
-      "rows": 6123
+      "sha256": "a6e184b160c105537bccb6aa044b67a554b395e91c857e918c2519e89bb47277",
+      "rows": 6220
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "f22a426f8fe27e92af87fcfccca33f2ff0685a0f8e67019057c2ac32f7e16fe2",
-      "rows": 15609
+      "sha256": "144beda50101d1d2bcf30bb3c8eb26cde3b371debf9ffff26b8137fdea11a3e2",
+      "rows": 15840
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "aa468a28eaebe91cbf7e1f25220ebef23abd849fa18cbfbb8b860e15a622a00d",
-      "rows": 6906
+      "sha256": "dc4df2cabbba45e1ea6b160c332adba7fced17b604f0977e9a015fb99c626aab",
+      "rows": 6999
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "f30ba6f700e20a801afc873f0368f811a3f8688aedac9c2d63c99189ebc01d62",
-      "rows": 5030
+      "sha256": "57dd3c52dee75e1d96f198ffd3d6d84ffbbadeedf0999cf47b14a346024f8182",
+      "rows": 5131
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "919066145d39060df7551e078580eea82f7fa6ab70cdca881f48410c59ef6f25",
-      "rows": 5030
+      "sha256": "38f5443f1ec111e8658384bfffd263c3dc070c0aa1146e64a2673c71f3df26e9",
+      "rows": 5131
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "7483713572787e70b6e40c33398bf28bdd74a223d27bf43f244e78cf41e887af",
-      "rows": 3941
+      "sha256": "4048ebaf931ad393ada765b574998ed53fabf074138449e00347192a9be7b103",
+      "rows": 4062
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "06610767f930315786d9eb0deb9b35b461c8a4e3e0a2ff7d407a5a17bc5f0815",
-      "rows": 9252
+      "sha256": "e51a92c8e8d93565ccd0b8e02791b49a86366c3cb22240e16c6d113a961069a6",
+      "rows": 9643
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "f1be26c2dd391858a9269c5dcfdfdf079847bf951b9e4b5746b7da34651d632a",
-      "rows": 7104
+      "sha256": "dd8ae08927d108951683f9e1d77cb0d48d6f6326fe50351b320fad6a4306f453",
+      "rows": 7300
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "ec879dcdfc721df38c5a586abf062e75cd2fabcc06057aed74ef92ee15be29c9",
-      "rows": 2755
+      "sha256": "6ae06364284ab877063999a0c3e4d3b24ac59ccf1213304fc9588f70467a13e6",
+      "rows": 2823
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "5ba57d791c5921ec71a0d72b66a638250db4f734ca4fd956d74a600f1a25eb07",
-      "rows": 1854
+      "sha256": "e6d28fea43621a046337a88721f33af95f08f401bb8014f531ef4129e7623779",
+      "rows": 1986
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "894320aef8940668054e588f9600ac8093b356cc96607a842b772a36cdf5a17c",
-      "rows": 27718
+      "sha256": "6fa4078aeff693c359bc41ca8ae936df880b69e6a0cfa3b0de658e288719e523",
+      "rows": 28280
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -4143,7 +4487,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "f38f56a093e37f1c52193a886d15b4f7c45d803f3298f3c7638157f6d5b72068",
+      "sha256": "15c9d940e28332ce81ce8f5c8af3bccbf5ec9b428caae3f0e6f11d8036ca21c0",
       "rows": 13200
     }
   },
@@ -4168,7 +4512,9 @@
     "KS: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "KY: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "LA: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "MA: final five-state New England structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MD: six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "ME: final five-state New England structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MN: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "MO: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -4177,6 +4523,7 @@
     "NC: five-state southeast structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "ND: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NE: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "NH: final five-state New England structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NJ: six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "NM: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Nevada: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
@@ -4185,12 +4532,14 @@
     "OK: five-state south-central structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Oregon: 223 reviewed 2026–27 source observations retain 211 DLI-directory observations and 12 separate screening records. McDaniel aliases and shared Four Rivers NCES identity are preserved. English pairing, composite track models and historical cohorts are not inferred; no assessment collection.",
     "PA: six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "RI: final five-state New England structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "SC: five-state southeast structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "SD: seven-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "TN: five-state southeast structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Texas migrates 1863 provisional evidence groups and preserved/reviewed policy observations. Pass 51 adds separate current Spring policy evidence and qualifies unsupported K labels; no tested-cohort or language-specific outcome attribution is inferred. The eight subject results cover four current-EL one-way DL reporting groups, including one district aggregate.",
     "UT: six-state structural first pass; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "VA: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
+    "VT: final five-state New England structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "Washington has source-native 2023–24 through 2025–26 program metadata. Academic/enrollment outcomes are a two-school pilot, not statewide outcome coverage or DL-participant results. No English partner, whole-school structure, cohort exposure or NCES match is inferred.",
     "WI: four-state Great Lakes structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
     "WV: four-state OH/KY/WV/VA structural review; 2025–26 reference assessment remains separate from actual source periods. Statewide completeness and historically stable cohorts are not established; no new proficiency/assessment/context/EL/SEDA observations.",
@@ -4198,20 +4547,20 @@
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_06_ny_followup_program_view.csv": {
-      "sha256": "15ff2b26a9260025ee01d410c455548b2d2ea787a9b3f9c01131dd3786e6acc6"
+    "data/reports/structural_inventory_2026_11_06_new_england_program_view.csv": {
+      "sha256": "d14558766ee6721abb138e2861dec08a3705dd1b0ae7860a709e1b09947bc18e"
     },
-    "data/reports/structural_inventory_2026_11_06_ny_followup_by_state.csv": {
-      "sha256": "cf73257a073895627c9ee60913409d3dddc97c1f9d92c0422c9d572cc1cd9f3f"
+    "data/reports/structural_inventory_2026_11_06_new_england_by_state.csv": {
+      "sha256": "1b6593694988c4148278309b7bc2ca5fa5d4dabf1212400fbafc8a93b5c1964c"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_program.csv": {
-      "sha256": "c3fae91b9cfde128094c60d3f434b8f23b0bef2ea6f63edb86cb9a7de98c6ddd"
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": {
+      "sha256": "2360347700c46c4e1f872dfcaf4ffdd9d758dccd935b48c13be34e9b82a097e5"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_school.csv": {
-      "sha256": "e199720d364a372c53305131dbd9d59223a9b1627df7d05e2846656119bdbfa6"
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv": {
+      "sha256": "664ff1399c768083bbd0520d48e0be8c11d6e659a12314d48c10eb32e4c1dc32"
     },
-    "data/reports/kindergarten_allocation_coverage_2026_11_06_ny_followup_by_state.csv": {
-      "sha256": "81d45a890a3065f2231bef5367552d396d61b395b20947bc896d863b721e33d7"
+    "data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv": {
+      "sha256": "0121ec6e9f7fa2cf5e9c33fbebb7051c8600ac29b0e0d782904648675b11d59e"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -4219,23 +4568,23 @@
     "data/registry/washington/wa_dl_programs_2025_26.csv": {
       "sha256": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00"
     },
-    "data/reports/texas_kindergarten_allocation_coverage_2026_11_06_ny_followup.csv": {
+    "data/reports/texas_kindergarten_allocation_coverage_2026_11_06_new_england.csv": {
       "sha256": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6"
     },
-    "data/reports/washington_kindergarten_allocation_coverage_2026_11_06_ny_followup.csv": {
+    "data/reports/washington_kindergarten_allocation_coverage_2026_11_06_new_england.csv": {
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_by_school.csv": {
-      "sha256": "6e40dac03da5e41dabf7ee6df2526f507e4fe09cbf75c3737d39556a0da4f6be"
+    "data/reports/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv": {
+      "sha256": "ec0947960b4e7c53897c78f82972f924bb68f638811949ba480a83b782f237f5"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_by_state.csv": {
-      "sha256": "623e5d4b6f958575cf22df0e834c335609bc4bd7b760c6a01314226ae86779f6"
+    "data/reports/elementary_allocation_coverage_2026_11_06_new_england_by_state.csv": {
+      "sha256": "6ee6ef3ecfb066c079be1ce2d4231ed9bd5d7c39a3c097de2dcf4d53fb758d59"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_reference_by_state.csv": {
-      "sha256": "e2438a573ee34ff7a3000fbb43d214abfa8ad37cb39aac6486c3956b5a456d08"
+    "data/reports/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv": {
+      "sha256": "82e8d3ede603cc11f56126745ac68216c21423fce203743ee141adb863228153"
     },
-    "data/reports/elementary_allocation_coverage_2026_11_06_ny_followup_all_records_by_state.csv": {
-      "sha256": "22609e3d13cfb9b64c66d32d3345960af53281813b6aee7bac79573f1449fe43"
+    "data/reports/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv": {
+      "sha256": "334d61aa698e7d4faba264fee94694ac04eba069de480950cb0bb7062ee9b0f2"
     },
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
       "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
@@ -4741,8 +5090,83 @@
     "data/reports/ny_allocation_followup_2026_11_06_reference_by_school.csv": {
       "sha256": "84e8ca9d2f96d167a1e1df5eca9563a2cfebe0dfb82e8c23a5507e2b9f78d677"
     },
-    "data/reports/structural_inventory_2026_11_06_ny_followup.json": {
-      "sha256": "6fa0e4a51b358f9fd17a48b1d47b7ceac0127d0f3f0920ae0c8da54d53ac3fc0"
+    "data/reports/new_england_2026_11_06_program_view.csv": {
+      "sha256": "0b045d4d4ea5bfe1fa262117b2bed16cf7bcb98f7a6f19b4efb055a034754a23"
+    },
+    "data/reports/new_england_2026_11_06_schools.csv": {
+      "sha256": "a521861f97327e1170cd95a413798b422e7269390c3839496ebe4fcf06b83ffe"
+    },
+    "data/reports/new_england_2026_11_06_by_state.csv": {
+      "sha256": "6d774e561090f35a1569f656cc8cde0613c359ffe95d9e4121243f7152783e92"
+    },
+    "data/reports/new_england_2026_11_06_backlog.csv": {
+      "sha256": "fb1e58244074955108a0f5f94960d4bdee7ade574d428fa83d8b8cc9b459f6b8"
+    },
+    "data/reports/new_england_2026_11_06_screening.csv": {
+      "sha256": "fc02cad16e4839c4847c44c6e9449b2a9d8c330a70b395e631054008c726c0a7"
+    },
+    "data/registry/new_england_2026_11_06/sources.csv": {
+      "sha256": "fed52bd2d4db67bd4e5995d7f4ffed6e052e8ca3227b22b61ce61b97c2a470bd"
+    },
+    "data/reports/new_england_2026_11_06_change_events.csv": {
+      "sha256": "126e7a352413c9e70d06afda7af795f33d730de0ad8b2808dc581dae150129d1"
+    },
+    "data/reports/new_england_2026_11_06_review_cases.csv": {
+      "sha256": "c8b3591b5e0be4faa41712cf17de2b2b37ae7479df2ecff8c05d09e1a3103443"
+    },
+    "data/registry/new_england_2026_11_06/ma_programmes.csv": {
+      "sha256": "639abad49c55fe50a2ee2a41c401e0871b021e02fdcd0ad8f2d5e119852a5f32"
+    },
+    "data/registry/new_england_2026_11_06/ma_schools.csv": {
+      "sha256": "adc015fe247754cf1996fa8a2b945c49745d621298f3db185600ab7daa1323e9"
+    },
+    "data/registry/new_england_2026_11_06/me_programmes.csv": {
+      "sha256": "b3b2ce0b05b8eb4e2d99c3bd8bf3daf3d9d264ba2f8a6a4c6d4dcd68d233abb5"
+    },
+    "data/registry/new_england_2026_11_06/me_schools.csv": {
+      "sha256": "ad4ab7f935471e045159543238d43cfc2496536dc2f4d503a36c83919bc5125e"
+    },
+    "data/registry/new_england_2026_11_06/nh_programmes.csv": {
+      "sha256": "cb008f9f09160068966637606cded0a5b9d11e611b11a73ce629c92164907438"
+    },
+    "data/registry/new_england_2026_11_06/nh_schools.csv": {
+      "sha256": "8993076322490fd4bacd59025c09b299332e43d66747c9106f7f9bcdd85fe4d2"
+    },
+    "data/registry/new_england_2026_11_06/ri_programmes.csv": {
+      "sha256": "62dc73e0f96e33925edc6d3079c4e95deb881c4b9ff135ca037389b25041e1f4"
+    },
+    "data/registry/new_england_2026_11_06/ri_schools.csv": {
+      "sha256": "a86b9e4229ebe0f0612b69d72dba3377096a61b180a59ee3d054c30ee431ddfd"
+    },
+    "data/registry/new_england_2026_11_06/vt_programmes.csv": {
+      "sha256": "b6094b807a399d06211f7e893158494bcb42726e43e933e8dd5e889cba6f5ee3"
+    },
+    "data/registry/new_england_2026_11_06/vt_schools.csv": {
+      "sha256": "c0572cb34e73a600fd6626b5bd6b771b8cf4d90bcb3c7e6d4caf364b8b9605c1"
+    },
+    "data/reports/new_england_2026_11_06.json": {
+      "sha256": "bb35f44e6fdc59e598df3020f58128bd7da0e63f3cfea37deeae2740348864ae"
+    },
+    "data/registry/new_england_2026_11_06/ma_screening.csv": {
+      "sha256": "816c065bd6f32e692f17cf2ca4ba325f6c0e17abd9f5ff6029bd3d91ff6aa0df"
+    },
+    "data/registry/new_england_2026_11_06/me_screening.csv": {
+      "sha256": "d5642b59f05c6287a44049a654bfde1768639157daa77fb5520b180d6dace5d1"
+    },
+    "data/registry/new_england_2026_11_06/nh_screening.csv": {
+      "sha256": "c56d71ccb44a6fbabd78d91e7bef004c41d12b291e024b58b9b56ba04419864b"
+    },
+    "data/registry/new_england_2026_11_06/ri_screening.csv": {
+      "sha256": "c1268e5cdc29d0ef6f5dde680ac7d614a215653362b0a8160aaffd21529100b0"
+    },
+    "data/registry/new_england_2026_11_06/vt_screening.csv": {
+      "sha256": "620f66d028da91e7fbf986c8dd1b02771969f78b8f919dd202e84c6acde355c9"
+    },
+    "data/registry/new_england_2026_11_06/extractions/massachusetts_directory_reconciliation.csv": {
+      "sha256": "8aef4739e206a61fbe49fefe7e6cb68b93e191d5a9bbdf419ee579e7d8703457"
+    },
+    "data/reports/structural_inventory_2026_11_06_new_england.json": {
+      "sha256": "ae6978bc4125246ad3f8968ea6b05b807549ebdaffe3116875742d5074fea5c8"
     }
   }
 }

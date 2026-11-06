@@ -1,0 +1,22 @@
+[
+  {
+    "school": "Pierce Middle School",
+    "district": "Millis (raw directory heading)",
+    "source": "ne5_ma_list",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Pierce Middle School",
+    "disposition": "unresolved_school_district_identity",
+    "reason": "The directory places Pierce Middle School under Millis with Spanish WLI. CCD identifies Millis Middle School in Millis and Charles S. Pierce Middle School in Milton. The source row is not silently reassigned across districts or languages.",
+    "notes": "Pierce Middle School, Spanish, WLI"
+  },
+  {
+    "school": "Everett directory hyperlink",
+    "district": "Everett",
+    "source": "ne5_ma_list",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Everett directory hyperlink",
+    "disposition": "wrong_state_hyperlink_rejected",
+    "reason": "Directory hyperlink points to Everett,Washington(everettsd.org),not Everett,Massachusetts. Its90/10model is not applied to Keverian/Parlin.",
+    "notes": "The separate Massachusetts announcement establishes a 2026-27 debut; correct state/school matches remain essential."
+  }
+]

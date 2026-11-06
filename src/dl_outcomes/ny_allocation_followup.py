@@ -66,10 +66,13 @@ def audit_errors(root, tables, *, check_hashes=True):
     schedule_claims = {r['entity_id']: json.loads(r['reported_value']) for r in tables['evidence_claims']
                        if r['attribute'] == 'allocation_source_selection'}
     schedules = {r['schedule_id']: r for r in tables['allocation_schedules']}
+    reviewed_schools = {p['school_id'] for p in programmes}
     shares = defaultdict(list)
     for row in tables['instructional_allocations']:
         shares[row['schedule_id']].append(row)
     for sid, allocation in schedule_claims.items():
+        if schedules[sid]['school_id'] not in reviewed_schools:
+            continue
         if allocation.get('evidence_type') != 'researcher_inference':
             continue
         if (schedules[sid]['schedule_status'] != 'inferred_plan'

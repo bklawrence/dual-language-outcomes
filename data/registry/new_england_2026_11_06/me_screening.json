@@ -1,0 +1,42 @@
+[
+  {
+    "school": "Ocean Avenue Elementary School",
+    "district": "Portland Public Schools",
+    "source": "ne5_doc_034278087acc5ce6",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Ocean Avenue Elementary School",
+    "disposition": "language_enrichment_not_verified_academic_immersion",
+    "reason": "Official district page describes International Baccalaureate and Spanish language exposure; it does not establish core academic instruction through Spanish.",
+    "notes": ""
+  },
+  {
+    "school": "Maine Indian Education schools",
+    "district": "Maine Indian Education",
+    "source": "ne5_me_indian",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Maine Indian Education schools",
+    "disposition": "academic_immersion_not_established_in_checked_sources",
+    "reason": "Checked official school/district pages do not document a quantified K-12 academic language-immersion model. Language/cultural revitalization is not automatically an academic DLI programme.",
+    "notes": "This limited source check does not establish that Indigenous immersion is absent; follow-up on curriculum and classroom language remains open."
+  },
+  {
+    "school": "Indian Island School",
+    "district": "Maine Indian Education",
+    "source": "ne5_me_indian_island",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Indian Island School",
+    "disposition": "academic_immersion_not_established_in_checked_sources",
+    "reason": "Checked official school/district pages do not document a quantified K-12 academic language-immersion model. Language/cultural revitalization is not automatically an academic DLI programme.",
+    "notes": "This limited source check does not establish that Indigenous immersion is absent; follow-up on curriculum and classroom language remains open."
+  },
+  {
+    "school": "Indian Township School",
+    "district": "Maine Indian Education",
+    "source": "ne5_me_indian_township",
+    "period": "undated source retrieved 2026-11-06",
+    "locator": "Indian Township School",
+    "disposition": "academic_immersion_not_established_in_checked_sources",
+    "reason": "Checked official school/district pages do not document a quantified K-12 academic language-immersion model. Language/cultural revitalization is not automatically an academic DLI programme.",
+    "notes": "This limited source check does not establish that Indigenous immersion is absent; follow-up on curriculum and classroom language remains open."
+  }
+]

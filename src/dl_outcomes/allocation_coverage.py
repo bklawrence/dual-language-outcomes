@@ -13,7 +13,7 @@ from .policy_selection import current_policy_choices
 
 PREFIX = 'data/reports/kindergarten_allocation_coverage_2026_11_04'
 WA_DIRECTORY = 'data/registry/washington'
-REVIEWED_STATES = {'CA', 'ID', 'MT', 'NV', 'WY', 'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA', 'PA', 'MD', 'DE', 'NJ', 'NY', 'CT'}
+REVIEWED_STATES = {'CA', 'ID', 'MT', 'NV', 'WY', 'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND', 'SD', 'MN', 'IA', 'MO', 'AK', 'HI', 'WI', 'MI', 'IL', 'IN', 'OK', 'AR', 'LA', 'AL', 'MS', 'FL', 'GA', 'SC', 'NC', 'TN', 'OH', 'KY', 'WV', 'VA', 'PA', 'MD', 'DE', 'NJ', 'NY', 'CT', 'ME', 'MA', 'NH', 'RI', 'VT'}
 SUPPORTED_K = {'EXPLICIT_GRADE', 'DISTRICT_ENTRY_GRADE_MODEL',
                'CAMPUS_GRADE_BAND_MODEL', 'DISTRICT_GRADE_BAND_MODEL'}
 REJECTED_K = {'SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD', 'UNRECOVERED',
@@ -296,6 +296,8 @@ def render_reports(root, tables):
     if atlantic.exists():tag=json.loads(atlantic.read_text())['report_tag']
     ny=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
     if ny.exists():tag=json.loads(ny.read_text())['report_tag']
+    new_england=root/'config/research_migrations/new_england_2026_11_06.json'
+    if new_england.exists():tag=json.loads(new_england.read_text())['report_tag']
     prefix=PREFIX.replace('2026_11_04',tag)
     contents = {prefix+'_by_program.csv':csv_text(details), prefix+'_by_school.csv':csv_text(schools),
                 prefix+'_by_state.csv':csv_text(summary)}

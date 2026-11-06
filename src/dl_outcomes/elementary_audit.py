@@ -363,6 +363,8 @@ def render_reports(root,tables):
     if atlantic.exists():prefix=json.loads(atlantic.read_text())['elementary_report_prefix']
     ny=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
     if ny.exists():prefix=json.loads(ny.read_text())['elementary_report_prefix']
+    new_england=root/'config/research_migrations/new_england_2026_11_06.json'
+    if new_england.exists():prefix=json.loads(new_england.read_text())['elementary_report_prefix']
     return {prefix+'_by_school.csv':csv_text(details),prefix+'_by_state.csv':csv_text(summary),
             prefix+'_reference_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='reference_working_set']),
             prefix+'_all_records_by_state.csv':csv_text([r for r in summary if r['audit_scope']=='all_recorded_programme_hosts'])}

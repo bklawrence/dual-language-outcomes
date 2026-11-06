@@ -1,0 +1,852 @@
+[
+  {
+    "key": "ne5_ccd2024_MA",
+    "path": "data/raw/new_england_2026_11_06/ne5_ccd2024_MA.json",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_MA.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: MA",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=25&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T14:52:45.132714+00:00",
+    "sha256": "fab6f398f7b200cfca9d1b7903007252fbe37b3c808bbd95cacde6e77faa01c6",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ccd2024_ME",
+    "path": "data/raw/new_england_2026_11_06/ne5_ccd2024_ME.json",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_ME.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: ME",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=23&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T14:52:41.700468+00:00",
+    "sha256": "83dbaceeb5dda2391ef642149caea3a7bbd3fd26391c0a0ad90c6b0f615a7135",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ccd2024_NH",
+    "path": "data/raw/new_england_2026_11_06/ne5_ccd2024_NH.json",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_NH.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: NH",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=33&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T14:52:57.172352+00:00",
+    "sha256": "3251e01070764568e307518c5ec55315602fbdc151ed9e8ab412ec68e62157d9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ccd2024_RI",
+    "path": "data/raw/new_england_2026_11_06/ne5_ccd2024_RI.json",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_RI.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: RI",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=44&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T14:53:00.365289+00:00",
+    "sha256": "95eea5e5f92362c53b5ad68bfb00d45c70718ff7544b96e40a507fe584dc4f3a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ccd2024_VT",
+    "path": "data/raw/new_england_2026_11_06/ne5_ccd2024_VT.json",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ccd2024_VT.json.metadata.json",
+    "title": "NCES CCD 2024–25 school directory grade context: VT",
+    "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=50&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+    "retrieved_at": "2026-11-06T14:53:02.498206+00:00",
+    "sha256": "404702fa371d0dc93eb706f732e1496226c20d97c23167ff35d32ff181a4b3f5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_02acffea355b57f5",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_02acffea355b57f5.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_02acffea355b57f5.html.metadata.json",
+    "title": "Dual Language Program - Bentley Academy Innovation School Accessibility Tools Increase Text Decrease Text Grayscale High Contrast Negative Contrast Light Background Links Underline Readable Font Reset",
+    "url": "https://spsbentley.salemk12.org/programs-and-culture/dual-language-program/",
+    "retrieved_at": "2026-11-06T15:10:24.592982+00:00",
+    "sha256": "67b23feed8d46221e9e9b651c008b76727dcadb9fbfbb575218f8fed94ba21b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_034278087acc5ce6",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_034278087acc5ce6.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_034278087acc5ce6.html.metadata.json",
+    "title": "Spanish Immersion and International Baccalaureate - Portland Public Schools",
+    "url": "https://www.portlandschools.org/academic-programs/language-development/spanish-immersion-and-international-baccalaureate",
+    "retrieved_at": "2026-11-06T14:42:37.882805+00:00",
+    "sha256": "a9024724f8e41d70e245853a0db0017a0f0e269a63d8efc54fad7c0c49f9df4d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_0b4271bdfd67ec7d",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_0b4271bdfd67ec7d.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_0b4271bdfd67ec7d.html.metadata.json",
+    "title": "SPANISH IMMERSION PROGRAM 2022-2023 | Genially",
+    "url": "https://view.genial.ly/61f4a4985f42c3001a790b5b/presentation-spanish-immersion-program-2022-2023",
+    "retrieved_at": "2026-11-06T15:15:49.787295+00:00",
+    "sha256": "eb4c1ec6c07d209aac20cc56118fce037d63b626ba70f944c0597d51dd6de90e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_1af5f8d1f4e44875",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_1af5f8d1f4e44875.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_1af5f8d1f4e44875.html.metadata.json",
+    "title": "Dual Language School of the Month: UNIDOS, Somerville Public Schools, MA - Resources for Dual Language Schools, Parents, and Teachers",
+    "url": "https://duallanguageschools.org/featured-school/unidos/",
+    "retrieved_at": "2026-11-06T15:27:48.494287+00:00",
+    "sha256": "58a726a635f087891811eb4868683c801edd59ea3abc31dd2daf492c191be810",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_1f17605337f4056c",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_1f17605337f4056c.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_1f17605337f4056c.html.metadata.json",
+    "title": "Dual Language lotteries are open for rising PreK and K students until May 17 | Lt. Clayre P. Sullivan School",
+    "url": "https://www.hps.holyoke.ma.us/o/sullivan/article/2032025",
+    "retrieved_at": "2026-11-06T15:10:07.770175+00:00",
+    "sha256": "ecc8559e626ead154121256bb9b4f164992e61dcb4db51461760c202d25d7dd7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_2166324864ced1e2",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_2166324864ced1e2.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_2166324864ced1e2.html.metadata.json",
+    "title": "K-8 Olá Portuguese/English Program - Cambridge Public Schools",
+    "url": "https://www.cpsd.us/academics/multilingual-learner-programs-department/multilingual-learner-programs/dual-language-immersion-education/k-8-ol-portugueseenglish-program",
+    "retrieved_at": "2026-11-06T15:27:38.405833+00:00",
+    "sha256": "1823e7c310631a3236e9505f4132b56ddce5ffcf4aac0455e4da595acf734c71",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_23610158f7509fa6",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_23610158f7509fa6.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_23610158f7509fa6.pdf.metadata.json",
+    "title": "Fall River dual-language brochure: earlier50/50description",
+    "url": "https://www.fallriverschools.org/uploaded/ELL/DLE_Brochure_-_English.pdf",
+    "retrieved_at": "2026-11-06T14:42:22.027102+00:00",
+    "sha256": "c24a0f39ed076eab99924d7c980be85ae84be2c0247cbba67193b759ffd720f8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_280f33715d4a54cf",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_280f33715d4a54cf.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_280f33715d4a54cf.html.metadata.json",
+    "title": "Spanish Immersion and Spanish as a World Language | Clyde F. Brown",
+    "url": "https://cfb.millisps.org/o/cbes/page/spanish-immersion-and-spanish-as-a-world-language",
+    "retrieved_at": "2026-11-06T15:27:43.332955+00:00",
+    "sha256": "ae14fb51d864b70f3444b4ce558837cc392fb5c8d58a9ccbeb2eb2b451e97d8d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_2fe1090fe593269d",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_2fe1090fe593269d.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_2fe1090fe593269d.html.metadata.json",
+    "title": "Principal's Message | Raíces Dual Language Academy",
+    "url": "https://www.cfschools.net/o/raices-dual-language-academy/page/principal-s-message",
+    "retrieved_at": "2026-11-06T14:42:40.841021+00:00",
+    "sha256": "dd5a1b3d3ef4da5dc3141fab10ec947983919449a566b18a77d555255889690b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_312c70c18b099214",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_312c70c18b099214.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_312c70c18b099214.html.metadata.json",
+    "title": "Programs Offered - Placentino Elementary School",
+    "url": "https://placentino.holliston.k12.ma.us/about-us/programs-of-study",
+    "retrieved_at": "2026-11-06T15:10:06.307936+00:00",
+    "sha256": "23824dd286ed0dc3a17f1dfdbadedc08e73941c8f192b9a844adb370b4b4a9cd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_3680209eefa739a4",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_3680209eefa739a4.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_3680209eefa739a4.html.metadata.json",
+    "title": "Dual Language Program Information | Worcester Public Schools",
+    "url": "https://www.worcesterschools.org/page/dual-language",
+    "retrieved_at": "2026-11-06T14:42:34.694365+00:00",
+    "sha256": "5bddc160f95d671235ece7633b292871bce40e35e913fcfb5f834224afe61dd7",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_3dccb5df38d71a9a",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_3dccb5df38d71a9a.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_3dccb5df38d71a9a.html.metadata.json",
+    "title": "Pioneer Valley Chinese Immersion Charter School",
+    "url": "https://pvcics.org/",
+    "retrieved_at": "2026-11-06T14:42:48.373925+00:00",
+    "sha256": "b6ddf3b60320496f81cdc95dbd06531db223692888074d1910aa44c767276d27",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_3f41c13d88a23ec6",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_3f41c13d88a23ec6.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_3f41c13d88a23ec6.html.metadata.json",
+    "title": "Springfield Legacy Academy | Springfield Empowerment Zone Partnership",
+    "url": "https://sezp.org/schools/sezp-schools/springfield-legacy-academy/",
+    "retrieved_at": "2026-11-06T14:42:49.321484+00:00",
+    "sha256": "21c4895937f3e2e74f77eb141819c0df81e1f2c5df007a639aa2b83d428bae6b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_46e949a0914f3dd0",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_46e949a0914f3dd0.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_46e949a0914f3dd0.pdf.metadata.json",
+    "title": "Arlington Elementary Sendas dual-language launch brochure:2024-25",
+    "url": "https://drive.google.com/uc?export=download&id=12dTzZf11sK5-GS7m5NpeOWdn85ODT7Ed",
+    "retrieved_at": "2026-11-06T15:29:44.345099+00:00",
+    "sha256": "850c402614fad7675615e8f6e3f0c1ecbfa764e453714d9ba4de870e26ce186f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_4ae0c9e2e7833625",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_4ae0c9e2e7833625.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_4ae0c9e2e7833625.html.metadata.json",
+    "title": "Dual Language Program – Teaching & Learning – Brockton Public Schools",
+    "url": "https://www.bpsma.org/apps/pages/index.jsp?uREC_ID=4408283&type=d&pREC_ID=2652087",
+    "retrieved_at": "2026-11-06T14:42:15.794024+00:00",
+    "sha256": "cfdce5dfc66dfe0ac2398322b398b0fdea6027cbd603fff3b098d2d23cfc8e2b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_4aeffc6eb63810ae",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_4aeffc6eb63810ae.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_4aeffc6eb63810ae.html.metadata.json",
+    "title": "Ola Bilingual Program - King Open School",
+    "url": "https://kingopen.cpsd.us/academics/student-support/ola-bilingual-program",
+    "retrieved_at": "2026-11-06T15:27:38.472379+00:00",
+    "sha256": "3ef0b27f3c3150b6a10b2e6d61b6da220fc729239272998261a314de103f33d0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_4e24aa021a45bf54",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_4e24aa021a45bf54.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_4e24aa021a45bf54.html.metadata.json",
+    "title": "La Comunidad Dual Language Program - Milford Public School District",
+    "url": "https://www.milfordpublicschools.com/departments/family-welcome-center/dual-language-program-kindergarten-lottery",
+    "retrieved_at": "2026-11-06T14:42:48.721496+00:00",
+    "sha256": "a6db3dea696f5bc72d8f53900006fddf5656e1f4ebac744b89e1aec2a441580b",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_4fd8f442847b67ae",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_4fd8f442847b67ae.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_4fd8f442847b67ae.html.metadata.json",
+    "title": "UNIDOS - Somerville Public Schools Facebook Instagram Linkedin YouTube",
+    "url": "https://www.somerville.k12.ma.us/unidos/",
+    "retrieved_at": "2026-11-06T15:10:24.072734+00:00",
+    "sha256": "1056dad3cbc74af14e7f340522a0e5290af297fd09054fa631db17dca85adc82",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_541f3f6bc43ce9d3",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_541f3f6bc43ce9d3.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_541f3f6bc43ce9d3.html.metadata.json",
+    "title": "K-8 Mandarin Chinese/English Immersion Program - Cambridge Public Schools",
+    "url": "https://www.cpsd.us/academics/multilingual-learner-programs-department/multilingual-learner-programs/dual-language-immersion-education/k-8-mandarin-chineseenglish-immersion-program",
+    "retrieved_at": "2026-11-06T15:15:34.394185+00:00",
+    "sha256": "0ab35775fedf55ff47250a5e4fb295409314630b165d107c4db9f2a148e19d25",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_57a2f96cd4e50bb2",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_57a2f96cd4e50bb2.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_57a2f96cd4e50bb2.html.metadata.json",
+    "title": "Worcester Dual Language Magnet School to Expand to Grade 8 | Woodland Academy",
+    "url": "https://www.worcesterschools.org/o/wa/article/2805204",
+    "retrieved_at": "2026-11-06T15:10:27.915226+00:00",
+    "sha256": "60dcd008a81da7acd0917f7b89a4200710b1a59beb8d8cc3e0e91ccc671a5ff4",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_5cf6814f79fc57a4",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_5cf6814f79fc57a4_redacted.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_5cf6814f79fc57a4_redacted.html.metadata.json",
+    "title": "Nuestro Mundo Public Charter School | Providence, RI",
+    "url": "https://www.nuestromundopcs.org/",
+    "retrieved_at": "2026-11-06T15:27:52.730724+00:00",
+    "sha256": "475978354502bdc7122f56410b029035877159317ff43dbcad763bcea81112d8",
+    "archive_kind": "public_HTTP_response_with_embedded_credential_redacted"
+  },
+  {
+    "key": "ne5_doc_5d066e8808dd7720",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_5d066e8808dd7720.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_5d066e8808dd7720.pdf.metadata.json",
+    "title": "MMUUSD post-immersion language-development options: updatedMay23,2025",
+    "url": "https://docs.google.com/document/d/11gWzanXlgO8A4AIBaEUQb4cjreVvlJI9RUICV0fcjLg/export?format=pdf",
+    "retrieved_at": "2026-11-06T15:29:43.973000+00:00",
+    "sha256": "8178280865062e38ac873d0aa637aaf590b96aa15374565606980f480b500c73",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_5d5ddf540e1f8441",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_5d5ddf540e1f8441.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_5d5ddf540e1f8441.html.metadata.json",
+    "title": "Instructional Programs",
+    "url": "https://www.bostonpublicschools.org/bps-departments/multilingual-and-multicultural-education/instructional-programs",
+    "retrieved_at": "2026-11-06T14:42:47.161448+00:00",
+    "sha256": "4fd793033cb62d55781d25d55e964fa60c651e532f75aa4bad4ba318ad031423",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_5d9b63ec69d10b25",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_5d9b63ec69d10b25.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_5d9b63ec69d10b25.html.metadata.json",
+    "title": "French immersion Grade 1-5 Website",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vTcMOJeY-MHofm1qx90aFoqTRHTuhCAzrq-zyYkSK4DNIWv2PPbVFUcjI5P1XNCcZF44vS4n7sCuw6F/pub",
+    "retrieved_at": "2026-11-06T14:42:50.993932+00:00",
+    "sha256": "54a38bab0d8511d98aa0310c526e2f5ed3efb6be6a105e904c57cceadce7c6b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_62553a0f7034db20",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_62553a0f7034db20.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_62553a0f7034db20.html.metadata.json",
+    "title": "Gomes Elementary School - Dual Language Information",
+    "url": "https://gomes.newbedfordschools.org/dual-language-information",
+    "retrieved_at": "2026-11-06T14:42:30.251890+00:00",
+    "sha256": "fd8cabc72c684c5e3651cd63ca40f336fb72f242836fd39e7a65b591059c8fc3",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_6721b1af39fd3701",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_6721b1af39fd3701.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_6721b1af39fd3701.html.metadata.json",
+    "title": "Everett Schools Set for Sept. 2 Opening as Plans Advance for New High School - Advocate News",
+    "url": "https://advocatenews.net/everett/news/everett-schools-set-for-sept-2-opening-as-plans-advance-for-new-high-school/",
+    "retrieved_at": "2026-11-06T15:35:19.323658+00:00",
+    "sha256": "595f90ca3a2ae3233ccaa14df2774715ed86d5026a15dbe93db53c74710ae11d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_8839f99c3b3d2b6f",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_8839f99c3b3d2b6f.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_8839f99c3b3d2b6f.html.metadata.json",
+    "title": "Lynn Public Schools - Dual Language (Compañeros)",
+    "url": "https://www.lynnschools.org/dual-language-compaeros",
+    "retrieved_at": "2026-11-06T15:10:11.333203+00:00",
+    "sha256": "e465cf819b994b8086daa2efd26fd2a0bd37ac5f339b0efa7939f6d7caa4a2e9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_99ecdcb2f9481a5b",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_99ecdcb2f9481a5b.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_99ecdcb2f9481a5b.html.metadata.json",
+    "title": "Welcome to the Hurley K–8 School | The Hurley School",
+    "url": "https://www.hurleyschool.org/",
+    "retrieved_at": "2026-11-06T15:27:53.857688+00:00",
+    "sha256": "1aa07973bfa92e485ed2049a18c502f9f5fe4b015f0334ea8c96da754bc4f617",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_9a3d83259803489e",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_9a3d83259803489e.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_9a3d83259803489e.html.metadata.json",
+    "title": "Programa Bilingüe / Dual Language Program - Everett Public Schools",
+    "url": "https://www.everettsd.org/choice-programs/dual-language-program-programa-bilinge",
+    "retrieved_at": "2026-11-06T14:42:19.635705+00:00",
+    "sha256": "b2f22949540a5f1e7d15ada64055bddef8d98e0c3900834ead0d1c56165cb2cf",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_9df3150df27e69ee",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_9df3150df27e69ee.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_9df3150df27e69ee.html.metadata.json",
+    "title": "Waltham's Dual Language School shows students excel in biliterate and bicultural classrooms – Waltham Times",
+    "url": "https://walthamtimes.org/2025/11/16/walthams-dual-language-school-shows-students-excel-in-biliterate-and-bicultural-classrooms/",
+    "retrieved_at": "2026-11-06T15:27:51.596504+00:00",
+    "sha256": "921a738e9d58c71d42c2d97010aee07461ce4c00b4dfa5f638eaa17bf28bde53",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_a767aa9ef4fefd18",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_a767aa9ef4fefd18.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_a767aa9ef4fefd18.html.metadata.json",
+    "title": "Dual Language Program | Holyoke Public Schools",
+    "url": "https://www.hps.holyoke.ma.us/page/dual-language-program/",
+    "retrieved_at": "2026-11-06T14:42:22.027479+00:00",
+    "sha256": "44fa582533db260efc335c6d60a69f89f054eea223429f922aa62635c556b21f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_aad523dc22839ec6",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_aad523dc22839ec6.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_aad523dc22839ec6.html.metadata.json",
+    "title": "Chinese immersion program is renamed after parent pushback - Cambridge Day",
+    "url": "https://www.cambridgeday.com/2026/06/22/chinese-immersion-program-renamed/",
+    "retrieved_at": "2026-11-06T15:27:36.742594+00:00",
+    "sha256": "e77912534ed857d0ecd44ab6fcde3176d30885ee91be982d0d06d330edcace98",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_ae162f62b6c76976",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_ae162f62b6c76976.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_ae162f62b6c76976.html.metadata.json",
+    "title": "Roosevelt Middle School -",
+    "url": "https://roosevelt.newbedfordschools.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=82122051",
+    "retrieved_at": "2026-11-06T15:35:19.331781+00:00",
+    "sha256": "6ded724ebf4727ef71ef386f5f9787dfed4384d3d3eee7081d44e6ad82f8230d",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_b34bc371afbcf5c7",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_b34bc371afbcf5c7.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_b34bc371afbcf5c7.html.metadata.json",
+    "title": "Milford Launches New Dual Language Learning Program | Milford, MA Patch",
+    "url": "https://patch.com/massachusetts/milford-ma/milford-launches-new-dual-language-learning-program",
+    "retrieved_at": "2026-11-06T15:35:19.326262+00:00",
+    "sha256": "404fb180c6b7f1221ddf4d99024b6f8422bf865d94ca51a79d3ad242832e914f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_b5359760b5b9114d",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_b5359760b5b9114d.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_b5359760b5b9114d.html.metadata.json",
+    "title": "Dual Language Program - Sarah Roberts Elementary School",
+    "url": "https://sarahroberts.bostonpublicschools.org/about-us/dual-language-program",
+    "retrieved_at": "2026-11-06T15:09:59.052908+00:00",
+    "sha256": "a6126cea7ea5d0ab360e2575b7ec1d777d439674c02f6761544bb020b09e6792",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_b69a167d5927a72f",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_b69a167d5927a72f.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_b69a167d5927a72f.html.metadata.json",
+    "title": "Dual Language - Spanish/English - Fall River Public Schools",
+    "url": "https://www.fallriverschools.org/departments/ell/dual-language-spanishenglish",
+    "retrieved_at": "2026-11-06T14:42:19.386801+00:00",
+    "sha256": "0779e6b5daa857bf0f5f9675cf00f511ef1c6fc1f7323cb2d942a33484170484",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_be1da81a9b7f951b",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_be1da81a9b7f951b.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_be1da81a9b7f951b.pdf.metadata.json",
+    "title": "ne5_doc_be1da81a9b7f951b",
+    "url": "https://irp.cdn-website.com/21d85a3e/files/uploaded/Nuestro+Mundo+Student_Family+Handbook+2026-2027.pdf",
+    "retrieved_at": "2026-11-06T15:35:20.531717+00:00",
+    "sha256": "250ad54f561aa3d98c6fed0554a7eda29661a4f7804a087a26ce61524d380642",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_be926bdd1389822b",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_be926bdd1389822b.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_be926bdd1389822b.pdf.metadata.json",
+    "title": "Hudson English-Portuguese dual-language brochure:2026",
+    "url": "https://www.hudson.k12.ma.us/common/pages/GetFile.ashx?key=ut%2B6Af8h",
+    "retrieved_at": "2026-11-06T15:27:39.903129+00:00",
+    "sha256": "3897ed7d76ac443e52405a4d6847eb1ba51ca2073d6695714073e649cb425dcc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_c5ab02cbcfbd3bb7",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_c5ab02cbcfbd3bb7.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_c5ab02cbcfbd3bb7.html.metadata.json",
+    "title": "New dual language school on the horizon for Pawtucket students | Pawtucket | valleybreeze.com",
+    "url": "https://www.valleybreeze.com/news/pawtucket/new-dual-language-school-on-the-horizon-for-pawtucket-students/article_95113ab3-cbf1-4af1-9080-c9f4a468dd77.html",
+    "retrieved_at": "2026-11-06T15:10:22.791032+00:00",
+    "sha256": "091043b3c77c5aac15521d80ca9c668541f5f9f0a6e0695e6b9463cd7a5fb222",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_ca2140a690ad3e3a",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_ca2140a690ad3e3a.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_ca2140a690ad3e3a.html.metadata.json",
+    "title": "Wayland Public Schools - K-5 Spanish Immersion",
+    "url": "https://www.waylandps.org/65923_4",
+    "retrieved_at": "2026-11-06T15:15:56.658118+00:00",
+    "sha256": "8cf30d499562c3e34d0f82d42cfc2b452420733cb0bc6771512133a27b33cff2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_caf1b44b845ec71c",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_caf1b44b845ec71c.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_caf1b44b845ec71c.html.metadata.json",
+    "title": "Mission of Raices Dual Language Academy | Raíces Dual Language Academy",
+    "url": "https://www.cfschools.net/o/raices-dual-language-academy/page/mission-of-the-dual-language-school-at-robertson",
+    "retrieved_at": "2026-11-06T14:42:42.005330+00:00",
+    "sha256": "7e8ca28799cc9a73367ec911bfa7b556ec17c691f2f3f81e45327f48cf02d4aa",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_cca757f3e2d7edf1",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_cca757f3e2d7edf1.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_cca757f3e2d7edf1.pdf.metadata.json",
+    "title": "Fall River Nueva Vista dual-language brochure: current linked version",
+    "url": "https://www.fallriverschools.org/fs/resource-manager/view/221ec980-783b-42c7-972f-465c28d9519b",
+    "retrieved_at": "2026-11-06T15:15:36.876565+00:00",
+    "sha256": "a87de0731499c28a151c2de79b20f26ae9e2a7a90e66857e47f6cfc749e8c6b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_d0fbca4f5430b882",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_d0fbca4f5430b882.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_d0fbca4f5430b882.html.metadata.json",
+    "title": "K-8 Amigos, Spanish/English Dual Immersion School - Cambridge Public Schools",
+    "url": "https://www.cpsd.us/academics/multilingual-learner-programs-department/multilingual-learner-programs/dual-language-immersion-education/k-8-amigos-spanishenglish-dual-immersion-school",
+    "retrieved_at": "2026-11-06T15:15:32.634116+00:00",
+    "sha256": "1029ee38c9321e450359b673c8bc02690351bf4e9feab0d19bbc4297b41adb84",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_d697c7f85a500419",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_d697c7f85a500419.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_d697c7f85a500419.html.metadata.json",
+    "title": "Nathanael Greene Elementary School",
+    "url": "https://www.psdri.net/greene/",
+    "retrieved_at": "2026-11-06T15:27:46.876804+00:00",
+    "sha256": "dfb9e7180d97520ea038551108bdc623b6a0092fbc6422da95e2fd662f3c52a2",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_dc530afe27ee57fa",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_dc530afe27ee57fa.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_dc530afe27ee57fa.pdf.metadata.json",
+    "title": "Lyseth Spanish Immersion: 2025 strategic planning and 2025-26 programme plans",
+    "url": "https://resources.finalsite.net/images/v1742927094/portlandschoolsorg/z8978aanjyew5wv0tkfx/510SpanishImmersionFamilyCoffeeatLyseth.pdf",
+    "retrieved_at": "2026-11-06T15:27:41.987462+00:00",
+    "sha256": "3f46e7d610522f4e8b4d4f3bd8fee5fb88cb42c4e9b10f36811d77ade265965c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_e145dd4bc036ede1",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_e145dd4bc036ede1.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_e145dd4bc036ede1.html.metadata.json",
+    "title": "Teaching & Learning - Holliston Public Schools",
+    "url": "https://www.holliston.k12.ma.us/academics/teachingandlearning",
+    "retrieved_at": "2026-11-06T14:42:51.066572+00:00",
+    "sha256": "33619137bfb49064e4671d49b8cce5c3a2e684220e0bd50f3a46e5eebd9b8030",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_e1a46f9540414b0a",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_e1a46f9540414b0a.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_e1a46f9540414b0a.html.metadata.json",
+    "title": "Framingham Public Schools - Home",
+    "url": "https://www.framingham.k12.ma.us/56048_3",
+    "retrieved_at": "2026-11-06T14:42:19.633723+00:00",
+    "sha256": "62515b22b0a79c9487551570ffea737af8f0841e27da0517a91e6f3de9fc887f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_e78f60929a578105",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_e78f60929a578105.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_e78f60929a578105.pdf.metadata.json",
+    "title": "Amherst Caminantes dual-language programme contract: school year2025-2026",
+    "url": "https://www.arps.org/fs/resource-manager/view/2080232a-5661-4b27-a31b-ff879abbcf40",
+    "retrieved_at": "2026-11-06T15:15:26.296510+00:00",
+    "sha256": "658a5beb1fc443b53447eb2642de2cadcac650c0ee1698ae85c835ab33880150",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_e7e94baf936780f0",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_e7e94baf936780f0.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_e7e94baf936780f0.html.metadata.json",
+    "title": "Academics — Rafael Hernandez School",
+    "url": "https://www.hernandezschool.org/academics",
+    "retrieved_at": "2026-11-06T15:29:42.640928+00:00",
+    "sha256": "90b9c5226f755a65753f8515adce2c5b5a9a6eca99a4e018b11489fae0049543",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_eaf2990cfa416aa4",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_eaf2990cfa416aa4.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_eaf2990cfa416aa4.html.metadata.json",
+    "title": "FAQ - MURSD SPANISH IMMERSION",
+    "url": "https://mursdspanishimmersion.weebly.com/faq.html",
+    "retrieved_at": "2026-11-06T15:15:53.233543+00:00",
+    "sha256": "a6a1deb352a4ce496a4335c5709e64fed1cc596efd7a4a79853b1418ac64128f",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_eb15bd4a90143e90",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_eb15bd4a90143e90.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_eb15bd4a90143e90.html.metadata.json",
+    "title": "Caminos Dual Language Program - Chelsea Public Schools Chelsea Public Schools - Caminos Dual Language Program",
+    "url": "https://www.chelseaschools.com/academics/caminos-dual-language-program",
+    "retrieved_at": "2026-11-06T14:42:17.143774+00:00",
+    "sha256": "92313c7a7f990bfad212032b4a7f6cef7ad2079fa32b9377dba1b8bafed84edd",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_f4e902d5f1247e57",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_f4e902d5f1247e57.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_f4e902d5f1247e57.html.metadata.json",
+    "title": "SPOTLIGHTING EXCELLENCE: Manchester Students Thrive in Dual Language Immersion Program | John Guilfoil Public Relations",
+    "url": "https://news.jgpr.net/2026/07/06/spotlighting-excellence-manchester-students-thrive-in-dual-language-immersion-program/",
+    "retrieved_at": "2026-11-06T15:27:51.744747+00:00",
+    "sha256": "f419b43e44c52e9f560e66f366dc57fff32b3f56851685d21f4a3d26e3f39e99",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_doc_ff7e21aab83d1b22",
+    "path": "data/raw/new_england_2026_11_06/ne5_doc_ff7e21aab83d1b22.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_doc_ff7e21aab83d1b22.html.metadata.json",
+    "title": "About - MURSD SPANISH IMMERSION",
+    "url": "https://mursdspanishimmersion.weebly.com/about.html",
+    "retrieved_at": "2026-11-06T15:29:44.821704+00:00",
+    "sha256": "795a1c351603ef4b81d6e792c277cf03a16484ec667b348e81c05ad266c54942",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ma_dle",
+    "path": "data/raw/new_england_2026_11_06/ne5_ma_dle.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ma_dle.html.metadata.json",
+    "title": "Dual Language Education Programs - English Learner Education",
+    "url": "https://www.doe.mass.edu/ele/programs/dle.html",
+    "retrieved_at": "2026-11-06T14:24:12.523911+00:00",
+    "sha256": "a0f63f86bff7e485200c53f8cfee2007ba5d172a324737659279d69c15eb001c",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ma_list",
+    "path": "data/raw/new_england_2026_11_06/ne5_ma_list.docx",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ma_list.docx.metadata.json",
+    "title": "Massachusetts DESE list of two-way and one-way immersion programmes: original Word directory",
+    "url": "https://www.doe.mass.edu/ele/programs/dle-list.docx",
+    "retrieved_at": "2026-11-06T14:24:13.471540+00:00",
+    "sha256": "b39ffc6e28d09fbb6e99d04bd50c498b23d101553385600f5e26321160b3fcfc",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_me_efdm_elementary",
+    "path": "data/raw/new_england_2026_11_06/ne5_me_efdm_elementary.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_me_efdm_elementary.html.metadata.json",
+    "title": "Elementary - L'Ecole Francaise du Maine",
+    "url": "https://efdm.org/school-life/elementary/",
+    "retrieved_at": "2026-11-06T14:34:46.860837+00:00",
+    "sha256": "2c098c14cb5a8e1de6f3a3b7446e59da95f96a1051a97c0aab266892d7131c37",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_me_indian",
+    "path": "data/raw/new_england_2026_11_06/ne5_me_indian.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_me_indian.html.metadata.json",
+    "title": "Maine Indian Education",
+    "url": "https://www.maineindianeducation.org/",
+    "retrieved_at": "2026-11-06T14:24:12.527918+00:00",
+    "sha256": "da485ca0410a7a3253d48a94049546f31248771203b10a8bf3c902ceb8d898b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_me_indian_island",
+    "path": "data/raw/new_england_2026_11_06/ne5_me_indian_island.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_me_indian_island.html.metadata.json",
+    "title": "Home | Indian Island School",
+    "url": "https://www.maineindianeducation.org/o/iis",
+    "retrieved_at": "2026-11-06T14:24:13.734279+00:00",
+    "sha256": "23a50f1ac42b8b41e0f122252b87c6400d0db84aef206a874c2f4a0890dd3c38",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_me_indian_township",
+    "path": "data/raw/new_england_2026_11_06/ne5_me_indian_township.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_me_indian_township.html.metadata.json",
+    "title": "Indian Township School",
+    "url": "https://www.maineindianeducation.org/o/its",
+    "retrieved_at": "2026-11-06T14:24:14.987715+00:00",
+    "sha256": "e831bdb6b6cc13666cd5d263ebe8e3c244a0c5307946263e822c5fd486542191",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_me_lyseth",
+    "path": "data/raw/new_england_2026_11_06/ne5_me_lyseth.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_me_lyseth.html.metadata.json",
+    "title": "Spanish Immersion - Lyseth Elementary School",
+    "url": "https://lyseth.portlandschools.org/programs/spanish-immersion",
+    "retrieved_at": "2026-11-06T14:24:12.526667+00:00",
+    "sha256": "d02d4649bc21f34a4ef43eef49c75e810d02b87b94735a476c782b79cc413b64",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_mendon_chart",
+    "path": "data/raw/new_england_2026_11_06/ne5_mendon_chart.png",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_mendon_chart.png.metadata.json",
+    "title": "Mendon-Upton Spanish immersion grade allocation chart",
+    "url": "https://mursdspanishimmersion.weebly.com/uploads/2/3/4/4/23441072/7163961_orig.png",
+    "retrieved_at": "2026-11-06T15:38:15.769703+00:00",
+    "sha256": "dba7b62f9c5d98ad011b9b3eef7bbb99228f6b8d097bfed80412b1800f14b5c0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_nh_manchester",
+    "path": "data/raw/new_england_2026_11_06/ne5_nh_manchester.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_nh_manchester.html.metadata.json",
+    "title": "Dual-Language Immersion Program | MANCHESTER SCHOOL DISTRICT",
+    "url": "https://www.mansd.org/page/dual-language-immersion-program/",
+    "retrieved_at": "2026-11-06T14:24:13.734601+00:00",
+    "sha256": "48c9d08fa5292b53b930507e4b81d3c567258831b2508ea8cfa8691cf02e3595",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_nh_publicradio",
+    "path": "data/raw/new_england_2026_11_06/ne5_nh_publicradio.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_nh_publicradio.html.metadata.json",
+    "title": "These NH students are learning a second language — while they’re still mastering their ABCs | New Hampshire Public Radio",
+    "url": "https://www.nhpr.org/nh-news/2026-03-23/manchester-school-district-language-immersion-french-spanish-public-school-students",
+    "retrieved_at": "2026-11-06T14:24:14.682494+00:00",
+    "sha256": "865bc6e2a4eac1ba43736cfc407b8535dbe9bc454835bf14f79f564f00077541",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_ics",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_ics.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_ics.html.metadata.json",
+    "title": "Dual-Language Education - International Charter School",
+    "url": "https://internationalcharterschool.org/dual-language-education/",
+    "retrieved_at": "2026-11-06T14:24:16.458230+00:00",
+    "sha256": "d8282929278c30c7efed65a046bdb54a2f089616eb5454d9d8f61bef2a5bafc0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_ics_history",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_ics_history.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_ics_history.html.metadata.json",
+    "title": "Mission + History - International Charter School",
+    "url": "https://internationalcharterschool.org/mission-history/",
+    "retrieved_at": "2026-11-06T14:34:49.242347+00:00",
+    "sha256": "d69d1d8e081c1762f65a18b9a7f9eabed14f7f59f75dd3d3675bf84dad8e79e1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_mll",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_mll.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_mll.html.metadata.json",
+    "title": "Multilingual Learners (MLLs) / English Learners (ELs) | RI Department of Education",
+    "url": "https://ride.ri.gov/students-families/multilingual-learners-mlls-english-learners-els",
+    "retrieved_at": "2026-11-06T14:24:15.146092+00:00",
+    "sha256": "c193bdcf00ec3d04be3488f66f206e7e7235ff31137c329bfdedd5e0be0717cb",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_pawtucket",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_pawtucket.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_pawtucket.html.metadata.json",
+    "title": "English Learners Program – Pawtucket School Department",
+    "url": "https://www.psdri.net/english-learners-program/",
+    "retrieved_at": "2026-11-06T14:24:18.329883+00:00",
+    "sha256": "75ed0e5be694249e754e72ebb568a3619ed2bb25f1a9ea054cf9fa9cc67179b1",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_planning",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_planning.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_planning.html.metadata.json",
+    "title": "Rhode Island Foundation and RIDE Announce Bilingual/Dual Language Program Planning Grants to Four RI School Districts | RI Department of Education",
+    "url": "https://ride.ri.gov/press-releases/rhode-island-foundation-and-ride-announce-bilingualdual-language-program-planning",
+    "retrieved_at": "2026-11-06T14:24:17.208804+00:00",
+    "sha256": "cecef3190d6e028040806567a0eccac244c3a8c7e09209df34eda34d2db6ed8e",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_providence",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_providence.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_providence.html.metadata.json",
+    "title": "Dual Language Program - Providence Schools",
+    "url": "https://www.providenceschools.org/departments/academics/duallanguage",
+    "retrieved_at": "2026-11-06T14:24:16.379295+00:00",
+    "sha256": "121d44e55a68aa05fc48951864d59ecb2282ee56d7f1a3136a07bd9f40c700b5",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_providence2026",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_providence2026.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_providence2026.pdf.metadata.json",
+    "title": "Providence dual-language school/programme brochure:March2026",
+    "url": "https://providenceforward.org/wp-content/uploads/2026/06/Dual-Language-at-PPSD-March-2026.pdf",
+    "retrieved_at": "2026-11-06T14:24:16.416614+00:00",
+    "sha256": "c2db20f8cbdac35097a4700ee9fad28ad33112a9b56de93322d1f7b4bb09df4a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_ritell",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_ritell.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_ritell.html.metadata.json",
+    "title": "RITELL - Directory of Dual Language Immersion Schools in RI",
+    "url": "https://www.ritell.org/page-1506427",
+    "retrieved_at": "2026-11-06T14:24:17.209107+00:00",
+    "sha256": "bdfca977ab7774caa0e756af995cf0efa1df1e8c873ae3f80aad24df232e6f14",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_southkingstown",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_southkingstown.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_southkingstown.html.metadata.json",
+    "title": "DLI Program Description - South Kingstown School District",
+    "url": "https://www.skschools.net/south_kingstown_wolf_river_new_subpage/language_and_culture__dli_/d_l_i_program_description",
+    "retrieved_at": "2026-11-06T14:24:18.758590+00:00",
+    "sha256": "7da47bfb6926271d3d073a6fda5d6dc94b1b066a050294284c5a5265feb433b0",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_ri_standards",
+    "path": "data/raw/new_england_2026_11_06/ne5_ri_standards.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_ri_standards.pdf.metadata.json",
+    "title": "Rhode Island elementary dual-language standards",
+    "url": "https://ride.ri.gov/sites/g/files/xkgbur806/files/Portals/0/Uploads/Documents/OSCAS/English-Learner-Pages/DL-Program-Standards-Elementary.pdf",
+    "retrieved_at": "2026-11-06T14:24:18.757743+00:00",
+    "sha256": "1988af61d16cfe455a044acca2587e5f927ee1362b804b45f75889f3f6e67ff9",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_day",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_day.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_day.html.metadata.json",
+    "title": "Vermont Day School’s immersion-based approach to Spanish language curriculum – Vermont Day School Facebook Instagram",
+    "url": "https://vtdayschool.org/academics/spanish/",
+    "retrieved_at": "2026-11-06T14:24:19.917543+00:00",
+    "sha256": "439704955323f1c45f815d7795b185742fe6c0cb71a376862af0a8aba0376c3a",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_faq_current",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_faq_current.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_faq_current.html.metadata.json",
+    "title": "MMUUSD Spanish Immersion - FAQ",
+    "url": "https://spanishimmersion.mmuusd.org/about/faq",
+    "retrieved_at": "2026-11-06T14:42:20.047820+00:00",
+    "sha256": "b9b4c08d9fab513b98e101f8e6f8d1cdff6ea0be6c0fb6d8ffcb7f03c8f6b280",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_handbook_pdf",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_handbook_pdf.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_handbook_pdf.pdf.metadata.json",
+    "title": "MMUUSD Spanish Immersion Programme Handbook: current policy after2024change",
+    "url": "https://docs.google.com/document/d/1FGZ8Z232WZiWEn_PyXWaFv2p9Dp5fiEY6R3JmgI8vxs/export?format=pdf",
+    "retrieved_at": "2026-11-06T14:42:20.048888+00:00",
+    "sha256": "f08bda0b5b44b4ff3d1552c3c3489531afd21688594ee5a0da9a36cd0600d516",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_mmuusd",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_mmuusd.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_mmuusd.html.metadata.json",
+    "title": "Spanish Immersion - Mount Mansfield Unified Union School District",
+    "url": "https://www.mmuusd.org/curriculum/spanish_immersion",
+    "retrieved_at": "2026-11-06T14:24:19.500129+00:00",
+    "sha256": "e8e7d63e1cffc07d1bb0378b1cfb2db965e169cd9156d014bf54b99a255fc7b8",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_options_current",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_options_current.html",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_options_current.html.metadata.json",
+    "title": "MMUUSD Spanish Immersion - MS/HS Options",
+    "url": "https://spanishimmersion.mmuusd.org/about/mshs-options",
+    "retrieved_at": "2026-11-06T14:42:21.270115+00:00",
+    "sha256": "be95f62f650138afc1a2ed58d8f5e62c7b73f3184baebee2a893e2de27dffd71",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_overview_pdf",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_overview_pdf.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_overview_pdf.pdf.metadata.json",
+    "title": "MMUUSD Spanish Immersion Programme Overview",
+    "url": "https://docs.google.com/presentation/d/1MuJISGGTotArGDfLP3lgWfcsLlugSdjmz5bntRAa4mg/export/pdf",
+    "retrieved_at": "2026-11-06T14:42:22.305401+00:00",
+    "sha256": "1b76d74dc410138df819c8820569da860b8ca18414a89817009811eb81436249",
+    "archive_kind": "complete_original_HTTP_response"
+  },
+  {
+    "key": "ne5_vt_whitepaper_pdf",
+    "path": "data/raw/new_england_2026_11_06/ne5_vt_whitepaper_pdf.pdf",
+    "metadata_path": "data/raw/new_england_2026_11_06/ne5_vt_whitepaper_pdf.pdf.metadata.json",
+    "title": "ne5_vt_whitepaper_pdf",
+    "url": "https://docs.google.com/document/d/1_KO3juhC760CCdWX5f8aqW6JzHBqSFC-eipdlDJ0IuY/export?format=pdf",
+    "retrieved_at": "2026-11-06T14:42:29.045998+00:00",
+    "sha256": "d4c0f52fd05be23ba77f36bcaed7d496884f31a7204d05df9271e6b08fd1a1e8",
+    "archive_kind": "complete_original_HTTP_response"
+  }
+]

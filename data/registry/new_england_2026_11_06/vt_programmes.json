@@ -1,0 +1,196 @@
+[
+  {
+    "program_id": "NE5-VT-P-fa77aab067f7",
+    "school_id": "NE5-VT-S-6e5fa1e13b40",
+    "state": "VT",
+    "district": "Mount Mansfield Unified Union School District",
+    "school": "Jericho Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Current handbook explicitly changed English phonics in 2024:K-2 80% Spanish/20% English;grades 3-4 60% Spanish/40% English. Unified arts/specials are in English. Earlier up-to90% is a bound, not an exact historical90/10 schedule.",
+    "observations": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "current handbook describing 2024 policy change",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Jericho Elementary School / Spanish immersion",
+        "notes": "Current handbook explicitly changed English phonics in 2024:K-2 80% Spanish/20% English;grades 3-4 60% Spanish/40% English. Unified arts/specials are in English. Earlier up-to90% is a bound, not an exact historical90/10 schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_doc_5d066e8808dd7720",
+        "period": "May23,2025",
+        "grade": "5-12 post-immersion language courses",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Jericho Elementary School / reviewed programme section",
+        "notes": "From grade 5, all core academic classes are in English. Later custom Spanish courses and AP pathways are language-subject continuation, not core DLI. CHMS, BRMS and MMUHS are not added as academic DLI campuses from this source alone.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language",
+        "kind": "post_immersion_language_subject_options"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K-2",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Jericho Elementary School / grade-specific language allocation",
+        "notes": "Published core programme policy after 2024 change, not an observed full school day. English specials are outside this basis; no invented annual historical allocations.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "phonics program. Grade % academic instruction in Spanish Kindergarten 80% First 80% Second 80% Third 60% Fourth 60% Typical day Students in the Spanish Immersion (K-4) learn in a typical class with one teacher in charge of all core academic areas. Students participate in morning meeting, academic instruction, and transitions in an immersive setting. Students attend lunch and recess with their peers in English classrooms. The class receives English instruction while attending daily unified arts classes (Physical Education, Art, Spanish, Music, Guidance, Library) . "
+      },
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "3-4",
+        "label": "60/40",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Jericho Elementary School / grade-specific language allocation",
+        "notes": "Published core programme policy after 2024 change, not an observed full school day. English specials are outside this basis; no invented annual historical allocations.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "phonics program. Grade % academic instruction in Spanish Kindergarten 80% First 80% Second 80% Third 60% Fourth 60% Typical day Students in the Spanish Immersion (K-4) learn in a typical class with one teacher in charge of all core academic areas. Students participate in morning meeting, academic instruction, and transitions in an immersive setting. Students attend lunch and recess with their peers in English classrooms. The class receives English instruction while attending daily unified arts classes (Physical Education, Art, Spanish, Music, Guidance, Library) . "
+      }
+    ],
+    "events": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "year": null,
+        "status": "allocation_policy_change_reported_2024",
+        "notes": "Handbook says English phonics was introduced in calendar 2024 and gives subsequent 80/20 and 60/40 models. The calendar year is not converted into an unsupported exact school year."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "current handbook describing 2024 policy change",
+      "source": "ne5_vt_handbook_pdf",
+      "locator": "Jericho Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-VT-P-fa77aab067f7-CONTINUITY-2025-26"
+  },
+  {
+    "program_id": "NE5-VT-P-9640336b282d",
+    "school_id": "NE5-VT-S-74a3dc8c4f18",
+    "state": "VT",
+    "district": "Mount Mansfield Unified Union School District",
+    "school": "Richmond Elementary School",
+    "track": "Spanish immersion",
+    "notes": "Current handbook explicitly changed English phonics in 2024:K-2 80% Spanish/20% English;grades 3-4 60% Spanish/40% English. Unified arts/specials are in English. Earlier up-to90% is a bound, not an exact historical90/10 schedule.",
+    "observations": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "current handbook describing 2024 policy change",
+        "grade": "K-4",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "Richmond Elementary School / Spanish immersion",
+        "notes": "Current handbook explicitly changed English phonics in 2024:K-2 80% Spanish/20% English;grades 3-4 60% Spanish/40% English. Unified arts/specials are in English. Earlier up-to90% is a bound, not an exact historical90/10 schedule.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "ne5_doc_5d066e8808dd7720",
+        "period": "May23,2025",
+        "grade": "5-12 post-immersion language courses",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "unknown",
+        "locator": "Richmond Elementary School / reviewed programme section",
+        "notes": "From grade 5, all core academic classes are in English. Later custom Spanish courses and AP pathways are language-subject continuation, not core DLI. CHMS, BRMS and MMUHS are not added as academic DLI campuses from this source alone.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language",
+        "kind": "post_immersion_language_subject_options"
+      }
+    ],
+    "allocations": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "K-2",
+        "label": "80/20",
+        "shares": {
+          "Spanish": 80,
+          "English": 20
+        },
+        "locator": "Richmond Elementary School / grade-specific language allocation",
+        "notes": "Published core programme policy after 2024 change, not an observed full school day. English specials are outside this basis; no invented annual historical allocations.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "phonics program. Grade % academic instruction in Spanish Kindergarten 80% First 80% Second 80% Third 60% Fourth 60% Typical day Students in the Spanish Immersion (K-4) learn in a typical class with one teacher in charge of all core academic areas. Students participate in morning meeting, academic instruction, and transitions in an immersive setting. Students attend lunch and recess with their peers in English classrooms. The class receives English instruction while attending daily unified arts classes (Physical Education, Art, Spanish, Music, Guidance, Library) . "
+      },
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "period": "undated public programme policy; retrieved November 6, 2026",
+        "grade": "3-4",
+        "label": "60/40",
+        "shares": {
+          "Spanish": 60,
+          "English": 40
+        },
+        "locator": "Richmond Elementary School / grade-specific language allocation",
+        "notes": "Published core programme policy after 2024 change, not an observed full school day. English specials are outside this basis; no invented annual historical allocations.",
+        "basis": "core_academic_instruction_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE",
+        "source_passage": "phonics program. Grade % academic instruction in Spanish Kindergarten 80% First 80% Second 80% Third 60% Fourth 60% Typical day Students in the Spanish Immersion (K-4) learn in a typical class with one teacher in charge of all core academic areas. Students participate in morning meeting, academic instruction, and transitions in an immersive setting. Students attend lunch and recess with their peers in English classrooms. The class receives English instruction while attending daily unified arts classes (Physical Education, Art, Spanish, Music, Guidance, Library) . "
+      }
+    ],
+    "events": [
+      {
+        "source": "ne5_vt_handbook_pdf",
+        "year": null,
+        "status": "allocation_policy_change_reported_2024",
+        "notes": "Handbook says English phonics was introduced in calendar 2024 and gives subsequent 80/20 and 60/40 models. The calendar year is not converted into an unsupported exact school year."
+      }
+    ],
+    "reference": {
+      "year": "2025-26",
+      "status": "confirmed_2025_26",
+      "eligibility": "documented_public_academic_immersion",
+      "scope": "academic_content_immersion",
+      "funding": "public_district_programme",
+      "method": "continuity_no_end_indication",
+      "period": "current handbook describing 2024 policy change",
+      "source": "ne5_vt_handbook_pdf",
+      "locator": "Richmond Elementary School / Spanish immersion",
+      "notes": "Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."
+    },
+    "continuity_review": "NE5-VT-P-9640336b282d-CONTINUITY-2025-26"
+  }
+]

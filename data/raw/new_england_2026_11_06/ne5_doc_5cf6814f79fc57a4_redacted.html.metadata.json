@@ -1,0 +1,25 @@
+{
+  "url": "https://www.nuestromundopcs.org/",
+  "retrieved_at": "2026-11-06T15:27:52.730724+00:00",
+  "http_status": 200,
+  "final_url": "https://www.nuestromundopcs.org/",
+  "content_type": "text/html;charset=utf-8",
+  "content_encoding": "",
+  "sha256": "475978354502bdc7122f56410b029035877159317ff43dbcad763bcea81112d8",
+  "bytes": 262848,
+  "capture_method": "public_HTTP_acquisition_then_documented_credential_redaction",
+  "archive_kind": "public_HTTP_response_with_embedded_credential_redacted",
+  "title": "Nuestro Mundo Public Charter School | Providence, RI",
+  "snapshot_path": "data/raw/new_england_2026_11_06/ne5_doc_5cf6814f79fc57a4_redacted.html",
+  "full_response_sha256": "6ebd68bb1fc173d2924d106b7e256a26e9d317bec238603a5cdfe27707f172b8",
+  "full_response_bytes": 262903,
+  "redactions": [
+    {
+      "kind": "embedded_Mapbox_token",
+      "occurrences": 1,
+      "replacement": "[REDACTED_EMBEDDED_MAP_SERVICE_TOKEN]",
+      "scope": "common.mapbox.token configuration only; visible and embedded programme text unchanged",
+      "reason": "Public webpage embeds a map-service credential; source text is preserved without redistributing the credential"
+    }
+  ]
+}

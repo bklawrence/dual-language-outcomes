@@ -1,0 +1,85 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 101,
+  "school_units": 97,
+  "public_source_documents": 85,
+  "state_summary": [
+    {
+      "state": "MA",
+      "programme_records": 79,
+      "school_units": 76,
+      "confirmed_qualifying_reference_school_units": 65,
+      "elementary_reference_school_units": 48,
+      "elementary_reference_schools_with_numerical_model": 24,
+      "elementary_reference_model_coverage_pct": 50.0,
+      "secondary_6_plus_reference_units_excluded": 17,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "ME",
+      "programme_records": 2,
+      "school_units": 2,
+      "confirmed_qualifying_reference_school_units": 1,
+      "elementary_reference_school_units": 1,
+      "elementary_reference_schools_with_numerical_model": 1,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "NH",
+      "programme_records": 2,
+      "school_units": 2,
+      "confirmed_qualifying_reference_school_units": 2,
+      "elementary_reference_school_units": 2,
+      "elementary_reference_schools_with_numerical_model": 2,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "RI",
+      "programme_records": 16,
+      "school_units": 15,
+      "confirmed_qualifying_reference_school_units": 15,
+      "elementary_reference_school_units": 12,
+      "elementary_reference_schools_with_numerical_model": 3,
+      "elementary_reference_model_coverage_pct": 25.0,
+      "secondary_6_plus_reference_units_excluded": 3,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "VT",
+      "programme_records": 2,
+      "school_units": 2,
+      "confirmed_qualifying_reference_school_units": 2,
+      "elementary_reference_school_units": 2,
+      "elementary_reference_schools_with_numerical_model": 2,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Completes a first structural research pass across all 50 states; it is not a census of all dual-language schools.",
+    "2025-26 reference operation is distinct from document dates, calendar-year establishment claims, later launches and relocation plans.",
+    "Secondary-only continuation hosts are retained without an elementary entry-allocation model. Schools containing any K-5 grade remain in the elementary school audit.",
+    "Programme/school keys and unverified district-name groups are provisional, not official programme identifiers or NCES crosswalks.",
+    "Language shares describe published instructional policies or explicitly flagged estimates; they do not establish actual tested-cohort exposure.",
+    "Preschool language nests, language-subject classes, generic bilingual support and private funding candidates remain distinguishable from public academic immersion.",
+    "Proficiency, demographic, EL-exit and SEDA collection remains deferred; twelve prior outputs are preserved."
+  ],
+  "source_reconciliation_counts": {
+    "massachusetts_dese_dle_docx": 75
+  },
+  "states_with_programme_records": [
+    "MA",
+    "ME",
+    "NH",
+    "RI",
+    "VT"
+  ],
+  "screened_only_states": []
+}
