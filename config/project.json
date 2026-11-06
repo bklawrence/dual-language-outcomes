@@ -15,5 +15,6 @@
   "notes": "Initial coverage tracking window only; import adapters retain historical observations outside it and the coverage builder expands to imported years. Uncollected cells are not evidence of source absence.",
   "collection_phase": "structural_inventory",
   "assessment_collection_policy": "deferred_until_all_50_state_structural_inventories_are_finished",
-  "structural_review_report": true
+  "structural_review_report": true,
+  "national_review_report_prefix": "data/reports/structural_inventory_2026_11_06_baseline_v1"
 }

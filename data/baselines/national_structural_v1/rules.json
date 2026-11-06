@@ -1,0 +1,37 @@
+{
+  "baseline_id": "national_structural_v1",
+  "field_overrides": [
+    {
+      "evidence_ids": [
+        "configuration-faf74a5c0ce551f5b8fa2a394aea60ee"
+      ],
+      "reason": "Connery: the saved Lynn district programme description explicitly identifies one-way. The DESE directory's two-way code remains in the frozen evidence and is superseded only for this field selection. This adjudicates already collected sources; no new research.",
+      "selection_year": "2025-26",
+      "site_id": "site-df6d5c69416854ab8a94e296530a4f1e",
+      "variable": "population_model"
+    }
+  ],
+  "language_aliases": {
+    "ASL": "American Sign Language",
+    "Cape Verdean Kriolu": "Cabo Verdean Creole",
+    "Chinese- Mandarin": "Mandarin",
+    "Mandarin Chinese": "Mandarin"
+  },
+  "rules_version": "1.0.0",
+  "selection_policy": [
+    "Keep canonical school/programme/site identities; do not merge names or promote grade-context matches into outcome crosswalks.",
+    "Use a field-specific reviewed selection when present, otherwise exact selection-year observations, otherwise undated and latest earlier observations with their original dates and limitations.",
+    "Exclude explicitly later school-year evidence from a prior-year selection; retrieval date never establishes policy validity.",
+    "Earlier or undated evidence is not a newly observed annual configuration. Continuity confirmation concerns operation, not measured exposure.",
+    "Keep allocations at their documented grade/service/language scope; do not reduce a progression to one kindergarten ratio or assign campus-only evidence to every strand.",
+    "Distinguish documented, inferred, provisional, conflicting, missing, later-only and not-applicable values.",
+    "Chinese remains Chinese unless Mandarin is independently reported; English is never added by inference.",
+    "Any K-5 grade makes a campus elementary-containing. Secondary-only campuses remain in the inventory without an elementary entry model."
+  ],
+  "snapshot_date": "2026-11-06",
+  "source_vintage_exceptions": {
+    "OR": "2026-27",
+    "TX": "2023-24"
+  },
+  "target_school_year": "2025-26"
+}

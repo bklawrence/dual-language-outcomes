@@ -17,6 +17,9 @@ REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND',
 
 
 def report_prefix(root):
+    explicit = json.loads((root / 'config/project.json').read_text()).get('national_review_report_prefix')
+    if explicit:
+        return explicit
     new_england=root/'config/research_migrations/new_england_2026_11_06.json'
     if new_england.exists():return json.loads(new_england.read_text())['national_report_prefix']
     followup=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'

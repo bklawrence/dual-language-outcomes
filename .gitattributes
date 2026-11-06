@@ -13,3 +13,7 @@ data/registry/western_plains_2026_11_04/extractions/nm_report_appendix_F_text.tx
 data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ct_bridge_doc942.txt -whitespace
 # Source-derived CSV cells may contain intentional whitespace.
 *.csv -whitespace
+# Frozen baseline evidence/code and manifests retain exact checksum bytes.
+data/baselines/** -text
+data/baselines/**/evidence/** linguist-vendored
+data/baselines/**/pipeline/** linguist-vendored

@@ -273,6 +273,12 @@ def validate(root: Path, *, verify_manifest=True):
             path = root / source["snapshot_path"]
             if not path.is_file() or digest(path) != source["sha256"]:
                 errors.append(f"Source snapshot differs from archived bytes: {source['snapshot_path']}")
+    if (root / 'data/baselines/index.json').exists():
+        from .baseline import check_registered
+        try:
+            check_registered(root)
+        except (OSError, ValueError) as error:
+            errors.append('National baseline: ' + str(error))
     if errors:
         raise ValueError("\n".join(errors[:80]) + (f"\n... {len(errors)} total errors" if len(errors) > 80 else ""))
     return {"status": "PASS", "schema_version": definition["x-schema-version"], "tables": len(tables), "rows": {name: len(rows) for name, rows in tables.items()}}

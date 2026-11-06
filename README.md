@@ -6,6 +6,7 @@ A longitudinal research dataset for dual-language programs across all **50 US st
 
 ## Start here
 
+- [Frozen national structural baseline v1](data/baselines/national_structural_v1/README.md), [programme CSV](data/baselines/national_structural_v1/programmes.csv), [school CSV](data/baselines/national_structural_v1/schools.csv), [field completeness](data/baselines/national_structural_v1/completeness_by_state.csv), [research priorities](data/baselines/national_structural_v1/research_priorities.csv) and [consolidation methods](docs/status/NATIONAL_BASELINE_V1_2026_11_06.md)
 - [Final five-state findings: Maine, Massachusetts, New Hampshire, Rhode Island and Vermont](docs/status/NEW_ENGLAND_2026_11_06.md), [state CSVs and sources](data/registry/new_england_2026_11_06/README.md), [coverage](data/reports/new_england_2026_11_06_by_state.csv), [review cases](data/reports/new_england_2026_11_06_review_cases.csv) and [dated changes](data/reports/new_england_2026_11_06_change_events.csv)
 - [New York school-specific allocation follow-up](docs/status/NY_ALLOCATION_FOLLOWUP_2026_11_06.md), [reviewed schools](data/reports/ny_allocation_followup_2026_11_06_schools_reviewed.csv), [allocation decisions and inference notes](data/reports/ny_allocation_followup_2026_11_06_allocations.csv) and [remaining model gaps](data/reports/ny_allocation_followup_2026_11_06_missing_models.csv)
 - [Pennsylvania, Maryland, Delaware, New Jersey, New York and Connecticut findings](docs/status/MID_ATLANTIC_CT_2026_11_05.md), [state CSVs and source guide](data/registry/mid_atlantic_ct_2026_11_05/README.md), [coverage](data/reports/mid_atlantic_ct_2026_11_05_by_state.csv), [review cases](data/reports/mid_atlantic_ct_2026_11_05_review_cases.csv) and [dated changes](data/reports/mid_atlantic_ct_2026_11_05_change_events.csv)
@@ -20,9 +21,9 @@ A longitudinal research dataset for dual-language programs across all **50 US st
 - [Current Texas review results](docs/status/TEXAS_ALLOCATION_REVIEW_2026_11_05.md): Denton 50/50, Red Oak one-way with allocation unknown, and the matching-programme inference rule; [programme assignments](data/reports/texas_allocation_review_2026_11_05_assignments.csv), [all 598 current outcomes](data/reports/texas_allocation_review_2026_11_05_598_after_review.csv) and [case dispositions](data/reports/texas_allocation_review_2026_11_05_outcomes.md)
 - [Preserved Utah/Texas first-pass checkpoint](docs/status/UT_TX_ALLOCATION_FOLLOWUP_2026_11_05.md): Utah's elementary 50/50 policy, the original 69 Texas additions and original review questions
 - [Six-state research status](docs/status/WESTERN_PLAINS_2026_11_04.md), [batch coverage](data/reports/western_plains_2026_11_04_by_state.csv), [programme review view](data/reports/western_plains_2026_11_04_program_view.csv) and [remaining gaps](data/reports/western_plains_2026_11_04_backlog.csv)
-- [Current national state summary](data/reports/structural_inventory_2026_11_06_new_england_by_state.csv), [national programme view](data/reports/structural_inventory_2026_11_06_new_england_program_view.csv), [research progress including screened-only states](data/reports/structural_inventory_2026_11_06_new_england.json) and [preserved earlier nine-state milestone](docs/status/STRUCTURAL_INTEGRATION_2026_11_04.md)
+- [Current national state summary](data/baselines/national_structural_v1/state_summary.csv), [national programme view](data/baselines/national_structural_v1/programmes.csv), [research progress including screened-only states](data/reports/structural_inventory_2026_11_06_baseline_v1.json) and [preserved earlier nine-state milestone](docs/status/STRUCTURAL_INTEGRATION_2026_11_04.md)
 - [State/year/layer coverage](data/curated/coverage/state_year_layer_coverage.csv)
-- [Elementary allocation-model methods and November 4 baseline](docs/status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md), [current reference-state percentages](data/reports/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv), [all recorded hosts](data/reports/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv) and [school-level evidence](data/reports/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv), including source periods and inference flags
+- [Elementary allocation-model methods and November 4 baseline](docs/status/ELEMENTARY_ALLOCATION_AUDIT_2026_11_04.md), [baseline coverage by state and cohort](data/baselines/national_structural_v1/allocation_coverage_by_state.csv), [school-level evidence](data/baselines/national_structural_v1/allocation_school_units.csv) and [changes from the previous audit](data/baselines/national_structural_v1/coverage_reconciliation.csv), including source periods and inference flags
 - [Kindergarten denominator rules and November 4 baseline](docs/status/KINDERGARTEN_ALLOCATION_COVERAGE_2026_11_04.md), [current counts](data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv) and [school exclusions/unknowns](data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv)
 - [Washington saved CSVs](data/registry/washington/README.md), including the [2025–26 DL records](data/registry/washington/wa_dl_programs_2025_26.csv)
 - [Earlier allocation/model-label baseline](docs/status/ALLOCATION_COVERAGE_2026_11_04.md) and [Texas Pass 51 milestone](docs/status/TEXAS_CLEANUP_PASS51_2026_11_04.md)
@@ -63,6 +64,16 @@ analysis/                  Analysis code; interpretation remains source/scope sp
 docs/                      Methods, state profiles and earlier research reports
 tests/                     Schema, population, time, missingness and provenance checks
 ```
+
+## National baseline versions
+
+The frozen structural baseline provides field-specific selections and missingness audits alongside the unchanged canonical histories. Its 2025–26 reference selections and the Texas 2023–24/Oregon 2026–27 source-vintage supplements are separate. Model notation, language ordering, grade scope, inference, conflicting sources and unknown applicability remain explicit.
+
+```bash
+.venv/bin/dl-outcomes baseline check national_structural_v1 --reproduce
+```
+
+This recheck uses the baseline’s saved evidence and rules, so later live-data updates do not rewrite it. A new version can be created with `dl-outcomes baseline create NEW_ID --rules PATH_TO_NEW_RULES.json`; an existing ID is never overwritten. Normal validation checks registered baseline hashes, and portable research releases include the registered baselines. See the [dataset guide](data/baselines/national_structural_v1/README.md) for the CSV grains, exact source/code snapshot and historical reproduction command.
 
 ## Source collection and releases
 

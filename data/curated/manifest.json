@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "build_id": "build-d9115154a64b5c6dac4dd3c82e4ce622",
-  "built_at": "2026-11-06T15:59:57.492677+00:00",
-  "base_git_revision": "d73657a764f061d3e7e147c60ec7c9c3c13ab59f",
+  "build_id": "build-519c693562325951b48fc6006e561e53",
+  "built_at": "2026-11-06T17:20:06.842108+00:00",
+  "base_git_revision": "a646d4debb4b9de4ac23c7664d32f0f9921a8978",
   "inputs": {
+    "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
-    "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
+    "config/project.json": "3ec8a965a8f494100851b8d9e7b7353d9d7a7009f7d204e07f31ebf517885d96",
     "config/research_migrations/elementary_allocation_audit_2026_11_04.json": "670c6b22ce368b8f0340bae1d2dc6021c0e280d0324746ef48ddfec64f554906",
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
     "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
@@ -4287,8 +4288,10 @@
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
     "src/dl_outcomes/analytics.py": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb",
+    "src/dl_outcomes/baseline.py": "93206e1ce32e1b33580e8c99580bb9902abb88d4606ea204cd3c46e9e7cf88b7",
+    "src/dl_outcomes/baseline_selection.py": "82a3781f672b676cfc27355e586cb3a508051ca989bf06d2366e94ce9da89301",
     "src/dl_outcomes/build.py": "73b8b6c6600f41edd26217987cf414304c53f1d30b083aceef11bb5eaf655daf",
-    "src/dl_outcomes/cli.py": "5e87b27624fa806eb55627a3fc5f35232a4328b32e3e2d1314aebbae1259dfb1",
+    "src/dl_outcomes/cli.py": "f0c1c4405cdd1b646422854f552a7045d791dc61b4498136bf1348c897182a25",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
     "src/dl_outcomes/collectors/elementary_grades.py": "5669af7a3b35acdc4c2a648b2a1e2fbf16fadd38df3b8af9b5b004e4157862ea",
     "src/dl_outcomes/collectors/texas_grades.py": "a165d345b2cafc2bd2da1658ecd32392bf96340386305085232e73dc8c5b27ce",
@@ -4309,7 +4312,7 @@
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
     "src/dl_outcomes/policy_selection.py": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631",
     "src/dl_outcomes/registry.py": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3",
-    "src/dl_outcomes/release.py": "d6b3a446e81ff1533d4cd0cd29064bdbe98e612094dd6b6926ad714e3b5bc3ab",
+    "src/dl_outcomes/release.py": "2c8428636fa5217b606024021a0f70e1a5c214b1c0df4bbf38c6ff04dbf33ece",
     "src/dl_outcomes/schemas/catalog.json": "9f6c9ab7a0954bafd0e22e6407c41ace3c14d0442d5e102438e4d8c365a371c8",
     "src/dl_outcomes/south_central_review.py": "ca6bfd090273a99623d392d9afa18a151ba64b23df8f39a477732c8c1cbf1fe1",
     "src/dl_outcomes/southeast_review.py": "3186589878744a7743db4488923663168108d77b250d37f2d47624912e48e965",
@@ -4373,8 +4376,8 @@
     "src/dl_outcomes/states/western_plains.py": "05549fe8486e31ed65f55e79badebe374d37cd80e9cf243720799cb3871b66b9",
     "src/dl_outcomes/states/wisconsin.py": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b",
     "src/dl_outcomes/states/wyoming.py": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252",
-    "src/dl_outcomes/structural.py": "5c67dd257ba4459e3851125ed2828d46dac368c72893bf9098a08201c57066f0",
-    "src/dl_outcomes/validation.py": "9a082a8742909d620545868559fb7c06195fd0e55e29bb908f21c9ecadc74410",
+    "src/dl_outcomes/structural.py": "ce06be03dff8fb928cbbc30214c8e79a49d25d7d60e99be4f0bdc1d77e7f17ac",
+    "src/dl_outcomes/validation.py": "0904729bb327bf938f52b3484907385a1a1af9bb9d2fc8f5b399964441fc6463",
     "src/dl_outcomes/western_plains_review.py": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
   },
   "outputs": {
@@ -4547,10 +4550,10 @@
   ],
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
-    "data/reports/structural_inventory_2026_11_06_new_england_program_view.csv": {
+    "data/reports/structural_inventory_2026_11_06_baseline_v1_program_view.csv": {
       "sha256": "d14558766ee6721abb138e2861dec08a3705dd1b0ae7860a709e1b09947bc18e"
     },
-    "data/reports/structural_inventory_2026_11_06_new_england_by_state.csv": {
+    "data/reports/structural_inventory_2026_11_06_baseline_v1_by_state.csv": {
       "sha256": "1b6593694988c4148278309b7bc2ca5fa5d4dabf1212400fbafc8a93b5c1964c"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": {
@@ -5165,8 +5168,8 @@
     "data/registry/new_england_2026_11_06/extractions/massachusetts_directory_reconciliation.csv": {
       "sha256": "8aef4739e206a61fbe49fefe7e6cb68b93e191d5a9bbdf419ee579e7d8703457"
     },
-    "data/reports/structural_inventory_2026_11_06_new_england.json": {
-      "sha256": "ae6978bc4125246ad3f8968ea6b05b807549ebdaffe3116875742d5074fea5c8"
+    "data/reports/structural_inventory_2026_11_06_baseline_v1.json": {
+      "sha256": "ac287ea1ca1bbe829cecf6b0c80da4bb957a746d83e7b538958d6145e23d9858"
     }
   }
 }

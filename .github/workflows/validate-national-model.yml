@@ -53,6 +53,8 @@ jobs:
         run: python scripts/validate_ny_allocation_followup.py
       - name: Validate Maine, Massachusetts, New Hampshire, Rhode Island and Vermont sources
         run: python scripts/validate_new_england_inventory.py
+      - name: Reproduce frozen national structural baseline from its saved evidence
+        run: dl-outcomes baseline check national_structural_v1 --reproduce
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py
