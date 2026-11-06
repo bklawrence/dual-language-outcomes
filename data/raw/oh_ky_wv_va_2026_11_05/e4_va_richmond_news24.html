@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+/* Visitor country for Tag Manager. Resolved in the browser on purpose: these
+   pages are served from a full-page cache, so a country written into the HTML
+   would be frozen at the first visitor's value and shown to everyone after. */
+(function () {
+  var KEY = 'vpmGeoCountry';
+  var TTL = 864e5;  /* 24h */
+  var WAIT = 2000;  /* hard ceiling before we give up and fire anyway */
+
+  window.dataLayer = window.dataLayer || [];
+
+  /* Cloudflare reports XX when it cannot determine the country, and T1 for Tor.
+     Neither is a country, so both are treated as unresolved rather than pushed
+     into reports as a literal value. T1 fails the A-Z test already. */
+  function valid(cc) {
+    return typeof cc === 'string' && /^[A-Z]{2}$/.test(cc) && cc !== 'XX';
+  }
+
+  /* Fires exactly once per page load, with or without a country.
+     Always emitting the event is what makes it safe to bind GA4 tags to the
+     vpmCountryReady trigger: a failed lookup must not cost a pageview. */
+  var fired = false;
+  function push(cc) {
+    if (fired) { return; }
+    fired = true;
+    var msg = { event: 'vpmCountryReady' };
+    if (valid(cc)) { msg.country = cc; }
+    window.dataLayer.push(msg);
+  }
+
+  /* Warm path, synchronous: the value is in the dataLayer before GTM loads,
+     so even a page_view firing on container load carries it. */
+  var cached = null;
+  try {
+    var raw = localStorage.getItem(KEY);
+    if (raw) {
+      var rec = JSON.parse(raw);
+      /* localStorage is user-writable, so re-validate rather than trust it. */
+      if (rec && valid(rec.cc) && (Date.now() - rec.t) < TTL) {
+        cached = rec.cc;
+      }
+    }
+  } catch (e) {}
+
+  if (cached) {
+    push(cached);
+    return;
+  }
+
+  /* Cold path, asynchronous. Guarantees the event fires even if the request
+     hangs rather than failing outright, which a .catch() alone would not. */
+  setTimeout(function () { push(null); }, WAIT);
+
+  try {
+    fetch('/cdn-cgi/trace', { credentials: 'omit', cache: 'no-store' })
+      .then(function (res) { return res.ok ? res.text() : ''; })
+      .then(function (body) {
+        var m = /(?:^|\n)loc=([^\n]*)/.exec(body || '');
+        var cc = m ? m[1].trim() : '';
+        /* Cache even if the timeout already fired, so the next page load takes
+           the synchronous warm path. */
+        if (valid(cc)) {
+          try {
+            localStorage.setItem(KEY, JSON.stringify({ cc: cc, t: Date.now() }));
+          } catch (e) {}
+        }
+        push(cc);
+      })
+      .catch(function () { push(null); });
+  } catch (e) {
+    push(null);
+  }
+})();
+</script>
+	
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>English y Español: Richmond to expand dual-immersion education program - VPM</title>
+<meta name="description" content="Hiring qualified staff is a hurdle despite the program&#039;s success."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="English y Español: Richmond to expand dual-immersion education program - VPM" />
+<meta property="og:description" content="Hiring qualified staff is a hurdle despite the program&#039;s success." />
+<meta property="og:url" content="https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/" />
+<meta property="og:site_name" content="VPM: Virginia&#039;s Home for Public Media" />
+<meta property="article:publisher" content="https://www.facebook.com/myVPM" />
+<meta property="article:tag" content="Education" />
+<meta property="article:tag" content="Richmond" />
+<meta property="article:section" content="VPM News" />
+<meta property="og:image" content="https://i0.wp.com/k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg?w=1200&quality=80&ssl=1" />
+<meta property="og:image:secure_url" content="https://i0.wp.com/k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg?w=1200&quality=80&ssl=1" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="675" />
+<meta property="og:image:alt" content="A teacher is shown teaching students in a classroom as part of a dual immersion program." />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2024-10-28T21:42:18-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="English y Español: Richmond to expand dual-immersion education program - VPM" />
+<meta name="twitter:description" content="Hiring qualified staff is a hurdle despite the program&#039;s success." />
+<meta name="twitter:site" content="@myVPM" />
+<meta name="twitter:creator" content="@myVPM" />
+<meta name="twitter:image" content="https://i0.wp.com/k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg?w=1200&quality=80&ssl=1" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Keyris Manzanares" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="6 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://www.vpm.org/#place","address":{"@type":"PostalAddress","streetAddress":"15 E Broad St","addressRegion":"Virginia","addressLocality":"Richmond","addressCountry":"US","postalCode":"23219"}},{"@type":["NewsMediaOrganization","Organization"],"@id":"https://www.vpm.org/#organization","name":"VPM","url":"https://www.vpm.org","sameAs":["https://www.facebook.com/myVPM","https://twitter.com/myVPM"],"address":{"@type":"PostalAddress","streetAddress":"15 E Broad St","addressRegion":"Virginia","addressLocality":"Richmond","addressCountry":"US","postalCode":"23219"},"logo":{"@type":"ImageObject","@id":"https://www.vpm.org/#logo","url":"https://www.vpm.org/wp-content/uploads/2026/06/vpm-icon.png","contentUrl":"https://www.vpm.org/wp-content/uploads/2026/06/vpm-icon.png","caption":"VPM: Virginia's Home for Public Media","inLanguage":"en-US","width":"110","height":"110"},"description":"VPM connects Virginians through stories that matter. From local news to arts, culture, and education, discover public media that informs and inspires.","location":{"@id":"https://www.vpm.org/#place"}},{"@type":"WebSite","@id":"https://www.vpm.org/#website","url":"https://www.vpm.org","name":"VPM: Virginia's Home for Public Media","alternateName":"VPM","publisher":{"@id":"https://www.vpm.org/#organization"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg","url":"https://k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg","width":"1200","height":"800","caption":"A teacher is shown teaching students in a classroom as part of a dual immersion program.","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/#webpage","url":"https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/","name":"English y Espa\u00f1ol: Richmond to expand dual-immersion education program - VPM","datePublished":"2024-10-28T21:42:18-04:00","dateModified":"2024-10-28T21:42:18-04:00","isPartOf":{"@id":"https://www.vpm.org/#website"},"primaryImageOfPage":{"@id":"https://k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.vpm.org/author/keyris-manzanares/","name":"Keyris Manzanares","url":"https://www.vpm.org/author/keyris-manzanares/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/49e2e6eaf4351d92d8152a9f28c367e447cb6fbafdd1993edffab7b91338bec4?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/49e2e6eaf4351d92d8152a9f28c367e447cb6fbafdd1993edffab7b91338bec4?s=96&amp;d=mm&amp;r=g","caption":"Keyris Manzanares","inLanguage":"en-US"},"worksFor":{"@id":"https://www.vpm.org/#organization"}},{"@type":"NewsArticle","headline":"English y Espa\u00f1ol: Richmond to expand dual-immersion education program - VPM - VPM","datePublished":"2024-10-28T21:42:18-04:00","dateModified":"2024-10-28T21:42:18-04:00","articleSection":"VPM News, Watch","author":{"@id":"https://www.vpm.org/author/keyris-manzanares/","name":"Keyris Manzanares"},"publisher":{"@id":"https://www.vpm.org/#organization"},"description":"Hiring qualified staff is a hurdle despite the program&#039;s success.","copyrightYear":"2024","copyrightHolder":{"@id":"https://www.vpm.org/#organization"},"name":"English y Espa\u00f1ol: Richmond to expand dual-immersion education program - VPM - VPM","@id":"https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/#richSnippet","isPartOf":{"@id":"https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/#webpage"},"image":{"@id":"https://k1-prod-vpm.s3.us-east-2.amazonaws.com/brightspot/d3/03/41e1a1464e819191ff9b68604303/km-pick-dual-immersion-03.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel="alternate" type="application/rss+xml" title="VPM &raquo; English y Español: Richmond to expand dual-immersion education program Comments Feed" href="https://www.vpm.org/news/2024-10-28/richmond-public-schools-dual-immersion-program-language-english-spanish/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.vpm.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.vpm.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F&#038;format=xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&#038;family=Public+Sans:ital,wght@0,300..800;1,300..700&#038;display=swap" rel="stylesheet">
+<style id="bsm-config-vars">
+:root {
+  --navy: #003865;
+  --dark-navy: #101820;
+  --blue: #6CACE4;
+  --red: #c8102e;
+  --yellow: #E0E721;
+  --yellow-gold: #f2a900;
+  --white: #ffffff;
+  --gray-bg: #EDEDED;
+  --light-blue: #e8f0f8;
+  --gray-border: #e6e6e6;
+  --gray-text-dark: #101820;
+  --gray-text: #666666;
+  --link-color: #1a7fc3;
+  --breaking: #ff6f00;
+  --font-primary: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-condensed: 'IBM Plex Sans Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'IBM Plex Sans Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --font-accent: 'IBM Plex Sans Condensed', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+}
+.bsm-img-ph.bsm-img-ph {
+  background-image: url('https://www.vpm.org/wp-content/uploads/2026/06/vpm-white-blue.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.bsm-img-ph.bsm-img-ph::before, .bsm-img-ph.bsm-img-ph::after { content: none; }
+.bsm-img-ph--npr.bsm-img-ph--npr {
+  background-image: url('https://www.vpm.org/wp-content/uploads/2026/08/npr_logo.png');
+  background-size: cover;
+  background-position: center;
+}
+.bsm-img-ph--npr.bsm-img-ph--npr::before, .bsm-img-ph--npr.bsm-img-ph--npr::after { content: none; }
+</style>
+<script type="application/json" id="bsm-data-layer">{"pageType":"article","contentId":382766,"contentType":"post","title":"English y Español: Richmond to expand dual-immersion education program","siteName":"VPM","station":"VPM","stationOrgId":"356","timezone":"America/New_York","storyTitle":"English y Español: Richmond to expand dual-immersion education program","publishedDate":"2024-10-28T21:42:18+00:00","modifiedDate":"2024-10-28T21:42:18+00:00","wordCount":1288,"category":"VPM News","categories":["VPM News","Watch"],"tags":["Education","Richmond"],"author":"Keyris Manzanares","authors":["Keyris Manzanares"],"show":"","showType":"","showGenre":[],"season":"","episodeNumber":"","episodeType":"","contentSource":"npr","nprStoryId":"1261235877","bspStoryId":"00000192-d49f-d6fb-a1f2-d7ff24500000","keywords":"","inlineAudio":0,"searchTerm":""}</script>
+<script>
+(function(){
+  var el = document.getElementById('bsm-data-layer');
+  if (!el) return;
+  try {
+    var d = JSON.parse(el.textContent);
+    window.vpmDataLayer = d;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(d);
+  } catch (e) {}
+})();
+</script>
+    <style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='bsm-base-css' href='https://www.vpm.org/wp-content/themes/wpp-base/assets/css/base.css?ver=1.4.25' media='all' />
+<link rel='stylesheet' id='bsm-components-css' href='https://www.vpm.org/wp-content/themes/wpp-base/assets/css/components.css?ver=1.4.25' media='all' />
+<link rel='stylesheet' id='bsm-overrides-css' href='https://www.vpm.org/wp-content/themes/wpp-base/assets/css/overrides.css?ver=1.4.25' media='all' />
+<link rel='stylesheet' id='bsm-article-css' href='https://www.vpm.org/wp-content/themes/wpp-base/assets/css/article.css?ver=1.4.25' media='all' />
+<link rel='stylesheet' id='bsm-player-css' href='https://www.vpm.org/wp-content/themes/wpp-base/assets/css/player.css?ver=1.4.25' media='all' />
+<script id="jquery-core-js" src="https://www.vpm.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.vpm.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+		<meta name="datePublished" content="2024-10-28T21:42:18-04:00" />
+		<meta name="story_id" content="1261235877" />
+		<meta name="has_audio" content="0" />
+		<meta name="org_id" content="s356" />
+		<meta name="category" content="VPM News" />
+		<meta name="author" content="Keyris Manzanares" />
+		<meta name="programs" content="none" />
+		<meta name="wordCount" content="1288" />
+		<meta name="keywords" content="VPM News,Watch,Education,Richmond" />
+<link rel="https://api.w.org/" href="https://www.vpm.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.vpm.org/wp-json/wp/v2/posts/382766" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.vpm.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<link rel='shortlink' href='https://www.vpm.org/?p=382766' />
+<link rel="icon" href="https://www.vpm.org/wp-content/uploads/2026/08/vpm-site-icon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.vpm.org/wp-content/uploads/2026/08/vpm-site-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.vpm.org/wp-content/uploads/2026/08/vpm-site-icon.png" />
+<meta name="msapplication-TileImage" content="https://www.vpm.org/wp-content/uploads/2026/08/vpm-site-icon.png" />
+<script>if(typeof jQuery!=="undefined"&&typeof $==="undefined"){var $=jQuery;}</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWGWCXD5');</script>
+<!-- End Google Tag Manager -->
+
+<script src="https://newsletter-signup-8kv.pages.dev/assets/morning-monitor-popup.js" defer></script>
+
+<style id="wp-custom-css">
+
+/* FD#4540: show the Donate button inside the mobile hamburger drawer. The theme base.css hides all .PH-donate-button under 900px, which also hid the drawer button. This DB-durable override re-shows only the drawer button (desktop top-bar button stays as-is). Kept in the database because theme-file edits are reverted by deploys. */
+@media (max-width: 900px) {
+  .PH-ham-m .PH-donate-button { display: flex !important; }
+}
+
+/* FD#4642: also show the Donate button in the mobile top bar. The client asked for it in both places, so this complements the FD#4540 rule above rather than replacing it. The .PH-ham-m drawer is a sibling of .PH-top-bar, not a descendant, so this selector touches only the top-bar button. Kept in the database because theme-file edits are reverted by deploys. */
+@media (max-width: 900px) {
+  .PH-top-bar .PH-donate-button { display: flex !important; }
+}
+/* Homepage promo banner (.ga-banner): show tags as a plain eyebrow line, not boxes,
+   so they don't read as buttons next to .ga-btn. !important on the second tag beats
+   the inline style the theme writes on it. */
+.ga-banner .ga-tags {
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  margin-bottom: 10px;
+}
+.ga-banner .ga-tag {
+  background: none;
+  padding: 0;
+  color: var(--yellow);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+.ga-banner .ga-tag + .ga-tag {
+  background: none !important;
+  border: 0 !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.ga-banner .ga-tag + .ga-tag::before {
+  content: "\00B7";
+  margin-right: 12px;
+  color: var(--light-blue);
+}
+/* Primary CTA: white on light blue is 2.43:1, below WCAG AA 4.5:1 */
+.ga-banner .ga-btn.primary { color: var(--dark-navy); }
+@media (max-width: 768px) {
+  /* stacked on phones; a leading dot would dangle */
+  .ga-banner .ga-tags { flex-direction: column; gap: 4px; }
+  .ga-banner .ga-tag + .ga-tag::before { content: none; }
+  /* theme buttons are shrink-to-fit at every width: small chips in a wide
+     column, and two-line labels at 320px. Share the row instead, capped so
+     they don't stretch across a tablet; wrap to full width when 2 won't fit */
+  .ga-banner .ga-btns { flex-wrap: wrap; max-width: 480px; }
+  .ga-banner .ga-btn {
+    flex: 1 1 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    white-space: nowrap;
+    text-align: center;
+  }
+  /* theme fixes the photo at 180px tall, which crops it to a thin strip once
+     the column goes full width; keep a photo shape instead */
+  .ga-banner .ga-image { height: auto; aspect-ratio: 16 / 9; max-height: 320px; }
+}
+
+</style>
+</head>
+<body class="wp-singular post-template-default single single-post postid-382766 single-format-standard wp-theme-wpp-base">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWGWCXD5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- SVG Icons (hidden) -->
+<div style="display:none"><svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap1" class="iconsMap">
+    <symbol id="play-icon" viewBox="0 0 115 115">
+        <polygon points="0,0 115,57.5 0,115" />
+    </symbol>
+    <symbol id="grid" viewBox="0 0 32 32">
+            <g>
+                <path d="M6.4,5.7 C6.4,6.166669 6.166669,6.4 5.7,6.4 L0.7,6.4 C0.233331,6.4 0,6.166669 0,5.7 L0,0.7 C0,0.233331 0.233331,0 0.7,0 L5.7,0 C6.166669,0 6.4,0.233331 6.4,0.7 L6.4,5.7 Z M19.2,5.7 C19.2,6.166669 18.966669,6.4 18.5,6.4 L13.5,6.4 C13.033331,6.4 12.8,6.166669 12.8,5.7 L12.8,0.7 C12.8,0.233331 13.033331,0 13.5,0 L18.5,0 C18.966669,0 19.2,0.233331 19.2,0.7 L19.2,5.7 Z M32,5.7 C32,6.166669 31.766669,6.4 31.3,6.4 L26.3,6.4 C25.833331,6.4 25.6,6.166669 25.6,5.7 L25.6,0.7 C25.6,0.233331 25.833331,0 26.3,0 L31.3,0 C31.766669,0 32,0.233331 32,0.7 L32,5.7 Z M6.4,18.5 C6.4,18.966669 6.166669,19.2 5.7,19.2 L0.7,19.2 C0.233331,19.2 0,18.966669 0,18.5 L0,13.5 C0,13.033331 0.233331,12.8 0.7,12.8 L5.7,12.8 C6.166669,12.8 6.4,13.033331 6.4,13.5 L6.4,18.5 Z M19.2,18.5 C19.2,18.966669 18.966669,19.2 18.5,19.2 L13.5,19.2 C13.033331,19.2 12.8,18.966669 12.8,18.5 L12.8,13.5 C12.8,13.033331 13.033331,12.8 13.5,12.8 L18.5,12.8 C18.966669,12.8 19.2,13.033331 19.2,13.5 L19.2,18.5 Z M32,18.5 C32,18.966669 31.766669,19.2 31.3,19.2 L26.3,19.2 C25.833331,19.2 25.6,18.966669 25.6,18.5 L25.6,13.5 C25.6,13.033331 25.833331,12.8 26.3,12.8 L31.3,12.8 C31.766669,12.8 32,13.033331 32,13.5 L32,18.5 Z M6.4,31.3 C6.4,31.766669 6.166669,32 5.7,32 L0.7,32 C0.233331,32 0,31.766669 0,31.3 L0,26.3 C0,25.833331 0.233331,25.6 0.7,25.6 L5.7,25.6 C6.166669,25.6 6.4,25.833331 6.4,26.3 L6.4,31.3 Z M19.2,31.3 C19.2,31.766669 18.966669,32 18.5,32 L13.5,32 C13.033331,32 12.8,31.766669 12.8,31.3 L12.8,26.3 C12.8,25.833331 13.033331,25.6 13.5,25.6 L18.5,25.6 C18.966669,25.6 19.2,25.833331 19.2,26.3 L19.2,31.3 Z M32,31.3 C32,31.766669 31.766669,32 31.3,32 L26.3,32 C25.833331,32 25.6,31.766669 25.6,31.3 L25.6,26.3 C25.6,25.833331 25.833331,25.6 26.3,25.6 L31.3,25.6 C31.766669,25.6 32,25.833331 32,26.3 L32,31.3 Z" id=""></path>
+            </g>
+    </symbol>
+    <symbol id="bold-chevron" width="9" height="7" viewBox="0 0 9 7" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8.32 1.57a.247.247 0 0 1 0 .36L4.68 5.57a.247.247 0 0 1-.36 0L.68 1.93a.247.247 0 0 1 0-.36l.39-.39a.247.247 0 0 1 .36 0L4.5 4.25l3.07-3.07a.247.247 0 0 1 .36 0l.39.39z" fill="#003865" stroke="#003865" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="radio-stream" width="18" height="19" viewBox="0 0 18 19">
+        <g fill="currentColor" fill-rule="nonzero">
+            <path d="M.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87C1 8.253.776 8 .5 8zM2.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87C3 8.253 2.776 8 2.5 8zM3.5 7c-.276 0-.5.276-.5.617v3.766c0 .34.224.617.5.617s.5-.276.5-.617V7.617C4 7.277 3.776 7 3.5 7zM5.5 6c-.276 0-.5.275-.5.613v5.774c0 .338.224.613.5.613s.5-.275.5-.613V6.613C6 6.275 5.776 6 5.5 6zM6.5 4c-.276 0-.5.26-.5.58v8.84c0 .32.224.58.5.58s.5-.26.5-.58V4.58C7 4.26 6.776 4 6.5 4zM8.5 0c-.276 0-.5.273-.5.61v17.78c0 .337.224.61.5.61s.5-.273.5-.61V.61C9 .273 8.776 0 8.5 0zM9.5 2c-.276 0-.5.274-.5.612v14.776c0 .338.224.612.5.612s.5-.274.5-.612V2.612C10 2.274 9.776 2 9.5 2zM11.5 5c-.276 0-.5.276-.5.616v8.768c0 .34.224.616.5.616s.5-.276.5-.616V5.616c0-.34-.224-.616-.5-.616zM12.5 6c-.276 0-.5.262-.5.584v4.832c0 .322.224.584.5.584s.5-.262.5-.584V6.584c0-.322-.224-.584-.5-.584zM14.5 7c-.276 0-.5.29-.5.647v3.706c0 .357.224.647.5.647s.5-.29.5-.647V7.647C15 7.29 14.776 7 14.5 7zM15.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87c0-.312-.224-.565-.5-.565zM17.5 8c-.276 0-.5.253-.5.565v1.87c0 .312.224.565.5.565s.5-.253.5-.565v-1.87c0-.312-.224-.565-.5-.565z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-magnify" viewBox="0 0 31 31">
+        <g>
+            <path fill-rule="evenodd" d="M22.604 18.89l-.323.566 8.719 8.8L28.255 31l-8.719-8.8-.565.404c-2.152 1.346-4.386 2.018-6.7 2.018-3.39 0-6.284-1.21-8.679-3.632C1.197 18.568 0 15.66 0 12.27c0-3.39 1.197-6.283 3.592-8.678C5.987 1.197 8.88 0 12.271 0c3.39 0 6.283 1.197 8.678 3.592 2.395 2.395 3.593 5.288 3.593 8.679 0 2.368-.646 4.574-1.938 6.62zM19.162 5.77C17.322 3.925 15.089 3 12.46 3c-2.628 0-4.862.924-6.702 2.77C3.92 7.619 3 9.862 3 12.5c0 2.639.92 4.882 2.76 6.73C7.598 21.075 9.832 22 12.46 22c2.629 0 4.862-.924 6.702-2.77C21.054 17.33 22 15.085 22 12.5c0-2.586-.946-4.83-2.838-6.73z"/>
+        </g>
+    </symbol>
+    <symbol id="burger-menu" viewBox="0 0 18 12">
+        <path d="M0 10.992c0-.556.451-1.008 1.008-1.008h15.984a1.008 1.008 0 1 1 0 2.016H1.008A1.008 1.008 0 0 1 0 10.992zM0 6c0-.544.44-.984.984-.984h16.032a.984.984 0 0 1 0 1.968H.984A.984.984 0 0 1 0 6zm1.008-6h15.984a1.008 1.008 0 1 1 0 2.016H1.008a1.008 1.008 0 1 1 0-2.016z" fill="currentColor"/>
+    </symbol>
+    <symbol id="close-x" viewBox="0 0 14 14">
+        <path d="M13 1 1 13M1 1l12 12" stroke="#003865" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="share-more-arrow" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+        <g>
+            <g>
+                <path d="M512,241.7L273.643,3.343v156.152c-71.41,3.744-138.015,33.337-188.958,84.28C30.075,298.384,0,370.991,0,448.222v60.436
+                    l29.069-52.985c45.354-82.671,132.173-134.027,226.573-134.027c5.986,0,12.004,0.212,18.001,0.632v157.779L512,241.7z
+                    M255.642,290.666c-84.543,0-163.661,36.792-217.939,98.885c26.634-114.177,129.256-199.483,251.429-199.483h15.489V78.131
+                    l163.568,163.568L304.621,405.267V294.531l-13.585-1.683C279.347,291.401,267.439,290.666,255.642,290.666z"></path>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="chevron" viewBox="0 0 100 100">
+        <g>
+            <path d="M22.4566257,37.2056786 L-21.4456527,71.9511488 C-22.9248661,72.9681457 -24.9073712,72.5311671 -25.8758148,70.9765924 L-26.9788683,69.2027424 C-27.9450684,67.6481676 -27.5292733,65.5646602 -26.0500598,64.5484493 L20.154796,28.2208967 C21.5532435,27.2597011 23.3600078,27.2597011 24.759951,28.2208967 L71.0500598,64.4659264 C72.5292733,65.4829232 72.9450684,67.5672166 71.9788683,69.1217913 L70.8750669,70.8956413 C69.9073712,72.4502161 67.9241183,72.8848368 66.4449048,71.8694118 L22.4566257,37.2056786 Z" id="Transparent-Chevron" transform="translate(22.500000, 50.000000) rotate(90.000000) translate(-22.500000, -50.000000) "></path>
+        </g>
+    </symbol>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap2" class="iconsMap">
+    <symbol id="mono-icon-facebook" viewBox="0 0 10 19">
+        <path fill-rule="evenodd" d="M2.707 18.25V10.2H0V7h2.707V4.469c0-1.336.375-2.373 1.125-3.112C4.582.62 5.578.25 6.82.25c1.008 0 1.828.047 2.461.14v2.848H7.594c-.633 0-1.067.14-1.301.422-.188.235-.281.61-.281 1.125V7H9l-.422 3.2H6.012v8.05H2.707z"></path>
+    </symbol>
+    <symbol id="mono-icon-instagram" viewBox="0 0 17 17">
+        <g>
+            <path fill-rule="evenodd" d="M8.281 4.207c.727 0 1.4.182 2.022.545a4.055 4.055 0 0 1 1.476 1.477c.364.62.545 1.294.545 2.021 0 .727-.181 1.4-.545 2.021a4.055 4.055 0 0 1-1.476 1.477 3.934 3.934 0 0 1-2.022.545c-.726 0-1.4-.182-2.021-.545a4.055 4.055 0 0 1-1.477-1.477 3.934 3.934 0 0 1-.545-2.021c0-.727.182-1.4.545-2.021A4.055 4.055 0 0 1 6.26 4.752a3.934 3.934 0 0 1 2.021-.545zm0 6.68a2.54 2.54 0 0 0 1.864-.774 2.54 2.54 0 0 0 .773-1.863 2.54 2.54 0 0 0-.773-1.863 2.54 2.54 0 0 0-1.864-.774 2.54 2.54 0 0 0-1.863.774 2.54 2.54 0 0 0-.773 1.863c0 .727.257 1.348.773 1.863a2.54 2.54 0 0 0 1.863.774zM13.45 4.03c-.023.258-.123.48-.299.668a.856.856 0 0 1-.65.281.913.913 0 0 1-.668-.28.913.913 0 0 1-.281-.669c0-.258.094-.48.281-.668a.913.913 0 0 1 .668-.28c.258 0 .48.093.668.28.187.188.281.41.281.668zm2.672.95c.023.656.035 1.746.035 3.269 0 1.523-.017 2.62-.053 3.287-.035.668-.134 1.248-.298 1.74a4.098 4.098 0 0 1-.967 1.53 4.098 4.098 0 0 1-1.53.966c-.492.164-1.072.264-1.74.3-.668.034-1.763.052-3.287.052-1.523 0-2.619-.018-3.287-.053-.668-.035-1.248-.146-1.74-.334a3.747 3.747 0 0 1-1.53-.931 4.098 4.098 0 0 1-.966-1.53c-.164-.492-.264-1.072-.299-1.74C.424 10.87.406 9.773.406 8.25S.424 5.63.46 4.963c.035-.668.135-1.248.299-1.74.21-.586.533-1.096.967-1.53A4.098 4.098 0 0 1 3.254.727c.492-.164 1.072-.264 1.74-.3C5.662.394 6.758.376 8.281.376c1.524 0 2.62.018 3.287.053.668.035 1.248.135 1.74.299a4.098 4.098 0 0 1 2.496 2.496c.165.492.27 1.078.317 1.757zm-1.687 7.91c.14-.399.234-1.032.28-1.899.024-.515.036-1.242.036-2.18V7.689c0-.961-.012-1.688-.035-2.18-.047-.89-.14-1.524-.281-1.899a2.537 2.537 0 0 0-1.512-1.511c-.375-.14-1.008-.235-1.899-.282a51.292 51.292 0 0 0-2.18-.035H7.72c-.938 0-1.664.012-2.18.035-.867.047-1.5.141-1.898.282a2.537 2.537 0 0 0-1.512 1.511c-.14.375-.234 1.008-.281 1.899a51.292 51.292 0 0 0-.036 2.18v1.125c0 .937.012 1.664.036 2.18.047.866.14 1.5.28 1.898.306.726.81 1.23 1.513 1.511.398.141 1.03.235 1.898.282.516.023 1.242.035 2.18.035h1.125c.96 0 1.687-.012 2.18-.035.89-.047 1.523-.141 1.898-.282.726-.304 1.23-.808 1.512-1.511z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-email" viewBox="0 0 512 512">
+        <g>
+            <path d="M67,148.7c11,5.8,163.8,89.1,169.5,92.1c5.7,3,11.5,4.4,20.5,4.4c9,0,14.8-1.4,20.5-4.4c5.7-3,158.5-86.3,169.5-92.1
+                c4.1-2.1,11-5.9,12.5-10.2c2.6-7.6-0.2-10.5-11.3-10.5H257H65.8c-11.1,0-13.9,3-11.3,10.5C56,142.9,62.9,146.6,67,148.7z"></path>
+            <path d="M455.7,153.2c-8.2,4.2-81.8,56.6-130.5,88.1l82.2,92.5c2,2,2.9,4.4,1.8,5.6c-1.2,1.1-3.8,0.5-5.9-1.4l-98.6-83.2
+                c-14.9,9.6-25.4,16.2-27.2,17.2c-7.7,3.9-13.1,4.4-20.5,4.4c-7.4,0-12.8-0.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2l-98.6,83.2
+                c-2,2-4.7,2.6-5.9,1.4c-1.2-1.1-0.3-3.6,1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1c-8.8-4.5-9.3,0.8-9.3,4.9
+                c0,4.1,0,205,0,205c0,9.3,13.7,20.9,23.5,20.9H257h185.5c9.8,0,21.5-11.7,21.5-20.9c0,0,0-201,0-205
+                C464,153.9,464.6,148.7,455.7,153.2z"></path>
+        </g>
+    </symbol>
+    <symbol id="default-image" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image">
+        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+        <polyline points="21 15 16 10 5 21"></polyline>
+    </symbol>
+    <symbol id="icon-email" width="18px" viewBox="0 0 20 14">
+        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+            <g id="social-button-bar" transform="translate(-125.000000, -8.000000)" stroke="#000000">
+                <g id="Group-2" transform="translate(120.000000, 0.000000)">
+                    <g id="envelope" transform="translate(6.000000, 9.000000)">
+                        <path d="M17.5909091,10.6363636 C17.5909091,11.3138182 17.0410909,11.8636364 16.3636364,11.8636364 L1.63636364,11.8636364 C0.958909091,11.8636364 0.409090909,11.3138182 0.409090909,10.6363636 L0.409090909,1.63636364 C0.409090909,0.958090909 0.958909091,0.409090909 1.63636364,0.409090909 L16.3636364,0.409090909 C17.0410909,0.409090909 17.5909091,0.958090909 17.5909091,1.63636364 L17.5909091,10.6363636 L17.5909091,10.6363636 Z" id="Stroke-406"></path>
+                        <polyline id="Stroke-407" points="17.1818182 0.818181818 9 7.36363636 0.818181818 0.818181818"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-print" viewBox="0 0 12 12">
+        <g fill-rule="evenodd">
+            <path fill-rule="nonzero" d="M9 10V7H3v3H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3.132A2.868 2.868 0 0 1 9.132 10H9zm.5-4.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM3 0h6v2H3z"></path>
+            <path d="M4 8h4v4H4z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-copylink" viewBox="0 0 12 12">
+        <g fill-rule="evenodd">
+            <path d="M10.199 2.378c.222.205.4.548.465.897.062.332.016.614-.132.774L8.627 6.106c-.187.203-.512.232-.75-.014a.498.498 0 0 0-.706.028.499.499 0 0 0 .026.706 1.509 1.509 0 0 0 2.165-.04l1.903-2.06c.37-.398.506-.98.382-1.636-.105-.557-.392-1.097-.77-1.445L9.968.8C9.591.452 9.03.208 8.467.145 7.803.072 7.233.252 6.864.653L4.958 2.709a1.509 1.509 0 0 0 .126 2.161.5.5 0 1 0 .68-.734c-.264-.218-.26-.545-.071-.747L7.597 1.33c.147-.16.425-.228.76-.19.353.038.71.188.931.394l.91.843.001.001zM1.8 9.623c-.222-.205-.4-.549-.465-.897-.062-.332-.016-.614.132-.774l1.905-2.057c.187-.203.512-.232.75.014a.498.498 0 0 0 .706-.028.499.499 0 0 0-.026-.706 1.508 1.508 0 0 0-2.165.04L.734 7.275c-.37.399-.506.98-.382 1.637.105.557.392 1.097.77 1.445l.91.843c.376.35.937.594 1.5.656.664.073 1.234-.106 1.603-.507L7.04 9.291a1.508 1.508 0 0 0-.126-2.16.5.5 0 0 0-.68.734c.264.218.26.545.071.747l-1.904 2.057c-.147.16-.425.228-.76.191-.353-.038-.71-.188-.931-.394l-.91-.843z"></path>
+            <path d="M8.208 3.614a.5.5 0 0 0-.707.028L3.764 7.677a.5.5 0 0 0 .734.68L8.235 4.32a.5.5 0 0 0-.027-.707"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-linkedin" viewBox="0 0 16 17">
+        <g fill-rule="evenodd">
+            <path d="M3.734 16.125H.464V5.613h3.27zM2.117 4.172c-.515 0-.96-.188-1.336-.563A1.825 1.825 0 0 1 .22 2.273c0-.515.187-.96.562-1.335.375-.375.82-.563 1.336-.563.516 0 .961.188 1.336.563.375.375.563.82.563 1.335 0 .516-.188.961-.563 1.336-.375.375-.82.563-1.336.563zM15.969 16.125h-3.27v-5.133c0-.844-.07-1.453-.21-1.828-.259-.633-.762-.95-1.512-.95s-1.278.282-1.582.845c-.235.421-.352 1.043-.352 1.863v5.203H5.809V5.613h3.128v1.442h.036c.234-.469.609-.856 1.125-1.16.562-.375 1.218-.563 1.968-.563 1.524 0 2.59.48 3.2 1.441.468.774.703 1.97.703 3.586v5.766z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-pinterest" viewBox="0 0 512 512">
+        <g>
+            <path d="M256,32C132.3,32,32,132.3,32,256c0,91.7,55.2,170.5,134.1,205.2c-0.6-15.6-0.1-34.4,3.9-51.4
+                c4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58c20.4,0,30.2,15.3,30.2,33.6
+                c0,20.5-13.1,51.1-19.8,79.5c-5.6,23.8,11.9,43.1,35.4,43.1c42.4,0,71-54.5,71-119.1c0-49.1-33.1-85.8-93.2-85.8
+                c-67.9,0-110.3,50.7-110.3,107.3c0,19.5,5.8,33.3,14.8,43.9c4.1,4.9,4.7,6.9,3.2,12.5c-1.1,4.1-3.5,14-4.6,18
+                c-1.5,5.7-6.1,7.7-11.2,5.6c-31.3-12.8-45.9-47-45.9-85.6c0-63.6,53.7-139.9,160.1-139.9c85.5,0,141.8,61.9,141.8,128.3
+                c0,87.9-48.9,153.5-120.9,153.5c-24.2,0-46.9-13.1-54.7-27.9c0,0-13,51.6-15.8,61.6c-4.7,17.3-14,34.5-22.5,48
+                c20.1,5.9,41.4,9.2,63.5,9.2c123.7,0,224-100.3,224-224C480,132.3,379.7,32,256,32z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-tumblr" viewBox="0 0 512 512">
+        <g>
+            <path d="M321.2,396.3c-11.8,0-22.4-2.8-31.5-8.3c-6.9-4.1-11.5-9.6-14-16.4c-2.6-6.9-3.6-22.3-3.6-46.4V224h96v-64h-96V48h-61.9
+                c-2.7,21.5-7.5,44.7-14.5,58.6c-7,13.9-14,25.8-25.6,35.7c-11.6,9.9-25.6,17.9-41.9,23.3V224h48v140.4c0,19,2,33.5,5.9,43.5
+                c4,10,11.1,19.5,21.4,28.4c10.3,8.9,22.8,15.7,37.3,20.5c14.6,4.8,31.4,7.2,50.4,7.2c16.7,0,30.3-1.7,44.7-5.1
+                c14.4-3.4,30.5-9.3,48.2-17.6v-65.6C363.2,389.4,342.3,396.3,321.2,396.3z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-twitter" viewBox="0 0 19 16">
+        <g>
+            <path fill-rule="evenodd" d="M16.48 4.594c.024.094.036.246.036.457 0 1.687-.41 3.316-1.23 4.887-.845 1.664-2.028 2.988-3.552 3.972-1.664 1.102-3.574 1.652-5.73 1.652-2.063 0-3.95-.55-5.66-1.652.258.024.55.035.879.035 1.71 0 3.246-.527 4.605-1.582-.82 0-1.54-.24-2.162-.72a3.671 3.671 0 0 1-1.283-1.811c.234.023.457.035.668.035.328 0 .656-.035.984-.105a3.72 3.72 0 0 1-2.11-1.301 3.54 3.54 0 0 1-.843-2.32v-.07a3.475 3.475 0 0 0 1.652.492A4.095 4.095 0 0 1 1.54 5.227a3.546 3.546 0 0 1-.457-1.776c0-.644.176-1.26.527-1.845a10.18 10.18 0 0 0 3.358 2.742 10.219 10.219 0 0 0 4.236 1.125 5.124 5.124 0 0 1-.07-.844c0-.656.164-1.272.492-1.846a3.613 3.613 0 0 1 1.336-1.353 3.565 3.565 0 0 1 1.828-.492c.54 0 1.037.105 1.494.316.457.21.861.492 1.213.844a7.51 7.51 0 0 0 2.356-.88c-.282.868-.82 1.548-1.618 2.04a7.93 7.93 0 0 0 2.11-.598 8.114 8.114 0 0 1-1.864 1.934z"></path>
+
+        </g>
+    </symbol>
+    <symbol id="mono-icon-youtube" viewBox="0 0 512 512">
+        <g>
+            <path fill-rule="evenodd" d="M508.6,148.8c0-45-33.1-81.2-74-81.2C379.2,65,322.7,64,265,64c-3,0-6,0-9,0s-6,0-9,0c-57.6,0-114.2,1-169.6,3.6
+                c-40.8,0-73.9,36.4-73.9,81.4C1,184.6-0.1,220.2,0,255.8C-0.1,291.4,1,327,3.4,362.7c0,45,33.1,81.5,73.9,81.5
+                c58.2,2.7,117.9,3.9,178.6,3.8c60.8,0.2,120.3-1,178.6-3.8c40.9,0,74-36.5,74-81.5c2.4-35.7,3.5-71.3,3.4-107
+                C512.1,220.1,511,184.5,508.6,148.8z M207,353.9V157.4l145,98.2L207,353.9z"></path>
+        </g>
+    </symbol>
+    <symbol id="mono-icon-flipboard" viewBox="0 0 500 500">
+        <g>
+            <path d="M0,0V500H500V0ZM400,200H300V300H200V400H100V100H400Z"></path>
+        </g>
+    </symbol>
+ </svg>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="iconsMap3" class="iconsMap">
+    <symbol id="volume-mute" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <line style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="23" y1="9" x2="17" y2="15"/>
+        <line style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" x1="17" y1="9" x2="23" y2="15"/>
+    </symbol>
+    <symbol id="volume-low" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+    </symbol>
+    <symbol id="volume-mid" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M15.5,8.5c2,2,2,5.1,0,7.1"/>
+    </symbol>
+    <symbol id="volume-high" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;">
+        <polygon fill="currentColor" points="11,5 6,9 2,9 2,15 6,15 11,19 "/>
+        <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" d="M19.1,4.9c3.9,3.9,3.9,10.2,0,14.1 M15.5,8.5c2,2,2,5.1,0,7.1"/>
+    </symbol>
+    <symbol id="pause-icon" width="12" height="16" viewBox="0 0 12 16">
+        <rect x="0" y="0" width="4" height="16" fill="currentColor"></rect>
+        <rect x="8" y="0" width="4" height="16" fill="currentColor"></rect>
+    </symbol>
+    <symbol id="heart" viewBox="0 0 24 24">
+        <g>
+            <path d="M12 4.435c-1.989-5.399-12-4.597-12 3.568 0 4.068 3.06 9.481 12 14.997 8.94-5.516 12-10.929 12-14.997 0-8.118-10-8.999-12-3.568z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-location" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" fill="currentColor" fill-opacity="1"></path>
+        <circle cx="12" cy="10" r="5" fill="#ffffff"></circle>
+    </symbol>
+    <symbol id="icon-ticket" width="23px" height="15px" viewBox="0 0 23 15">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-625.000000, -1024.000000)">
+                <g transform="translate(625.000000, 1024.000000)">
+                    <path d="M0,12.057377 L0,3.94262296 C0.322189879,4.12588308 0.696256938,4.23076923 1.0952381,4.23076923 C2.30500469,4.23076923 3.28571429,3.26645946 3.28571429,2.07692308 C3.28571429,1.68461385 3.17904435,1.31680209 2.99266757,1 L20.0073324,1 C19.8209556,1.31680209 19.7142857,1.68461385 19.7142857,2.07692308 C19.7142857,3.26645946 20.6949953,4.23076923 21.9047619,4.23076923 C22.3037431,4.23076923 22.6778101,4.12588308 23,3.94262296 L23,12.057377 C22.6778101,11.8741169 22.3037431,11.7692308 21.9047619,11.7692308 C20.6949953,11.7692308 19.7142857,12.7335405 19.7142857,13.9230769 C19.7142857,14.3153862 19.8209556,14.6831979 20.0073324,15 L2.99266757,15 C3.17904435,14.6831979 3.28571429,14.3153862 3.28571429,13.9230769 C3.28571429,12.7335405 2.30500469,11.7692308 1.0952381,11.7692308 C0.696256938,11.7692308 0.322189879,11.8741169 -2.13162821e-14,12.057377 Z" fill="currentColor"></path>
+                    <path d="M14.5,0.533333333 L14.5,15.4666667" stroke="#FFFFFF" stroke-linecap="square" stroke-dasharray="2"></path>
+                </g>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="icon-refresh" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw">
+        <polyline points="23 4 23 10 17 10"></polyline>
+        <polyline points="1 20 1 14 7 14"></polyline>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+    </symbol>
+
+    <symbol>
+    <g id="mono-icon-link-post" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-313.000000, -10148.000000)" fill="#000000" fill-rule="nonzero">
+            <g transform="translate(306.000000, 10142.000000)">
+                <path d="M14.0614027,11.2506973 L14.3070318,11.2618997 C15.6181751,11.3582102 16.8219637,12.0327684 17.6059678,13.1077805 C17.8500396,13.4424472 17.7765978,13.9116075 17.441931,14.1556793 C17.1072643,14.3997511 16.638104,14.3263093 16.3940322,13.9916425 C15.8684436,13.270965 15.0667922,12.8217495 14.1971448,12.7578692 C13.3952042,12.6989624 12.605753,12.9728728 12.0021966,13.5148801 L11.8552806,13.6559298 L9.60365896,15.9651545 C8.45118119,17.1890154 8.4677248,19.1416686 9.64054436,20.3445766 C10.7566428,21.4893084 12.5263723,21.5504727 13.7041492,20.5254372 L13.8481981,20.3916503 L15.1367586,19.070032 C15.4259192,18.7734531 15.9007548,18.7674393 16.1973338,19.0565998 C16.466951,19.3194731 16.4964317,19.7357968 16.282313,20.0321436 L16.2107659,20.117175 L14.9130245,21.4480474 C13.1386707,23.205741 10.3106091,23.1805355 8.5665371,21.3917196 C6.88861294,19.6707486 6.81173139,16.9294487 8.36035888,15.1065701 L8.5206409,14.9274155 L10.7811785,12.6088842 C11.6500838,11.7173642 12.8355419,11.2288664 14.0614027,11.2506973 Z M22.4334629,7.60828039 C24.1113871,9.32925141 24.1882686,12.0705513 22.6396411,13.8934299 L22.4793591,14.0725845 L20.2188215,16.3911158 C19.2919892,17.3420705 18.0049901,17.8344754 16.6929682,17.7381003 C15.3818249,17.6417898 14.1780363,16.9672316 13.3940322,15.8922195 C13.1499604,15.5575528 13.2234022,15.0883925 13.558069,14.8443207 C13.8927357,14.6002489 14.361896,14.6736907 14.6059678,15.0083575 C15.1315564,15.729035 15.9332078,16.1782505 16.8028552,16.2421308 C17.6047958,16.3010376 18.394247,16.0271272 18.9978034,15.4851199 L19.1447194,15.3440702 L21.396341,13.0348455 C22.5488188,11.8109846 22.5322752,9.85833141 21.3594556,8.65542337 C20.2433572,7.51069163 18.4736277,7.44952726 17.2944986,8.47594561 L17.1502735,8.60991269 L15.8541776,9.93153101 C15.5641538,10.2272658 15.0893026,10.2318956 14.7935678,9.94187181 C14.524718,9.67821384 14.4964508,9.26180596 14.7114324,8.96608447 L14.783227,8.88126205 L16.0869755,7.55195256 C17.8613293,5.79425896 20.6893909,5.81946452 22.4334629,7.60828039 Z" id="Icon-Link"></path>
+            </g>
+        </g>
+    </g>
+    </symbol>
+    <symbol id="icon-passport-badge" viewBox="0 0 80 80">
+        <g fill="none" fill-rule="evenodd">
+            <path fill="#5680FF" d="M0 0L80 0 0 80z" transform="translate(-464.000000, -281.000000) translate(100.000000, 180.000000) translate(364.000000, 101.000000)"/>
+            <g fill="#FFF" fill-rule="nonzero">
+                <path d="M17.067 31.676l-3.488-11.143-11.144-3.488 11.144-3.488 3.488-11.144 3.488 11.166 11.143 3.488-11.143 3.466-3.488 11.143zm4.935-19.567l1.207.373 2.896-4.475-4.497 2.895.394 1.207zm-9.871 0l.373-1.207-4.497-2.895 2.895 4.475 1.229-.373zm9.871 9.893l-.373 1.207 4.497 2.896-2.895-4.497-1.229.394zm-9.871 0l-1.207-.373-2.895 4.497 4.475-2.895-.373-1.229zm22.002-4.935c0 9.41-7.634 17.066-17.066 17.066C7.656 34.133 0 26.5 0 17.067 0 7.634 7.634 0 17.067 0c9.41 0 17.066 7.634 17.066 17.067zm-2.435 0c0-8.073-6.559-14.632-14.631-14.632-8.073 0-14.632 6.559-14.632 14.632 0 8.072 6.559 14.631 14.632 14.631 8.072-.022 14.631-6.58 14.631-14.631z" transform="translate(-464.000000, -281.000000) translate(100.000000, 180.000000) translate(364.000000, 101.000000) translate(6.400000, 6.400000)"/>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="icon-passport-badge-circle" viewBox="0 0 45 45">
+        <g fill="none" fill-rule="evenodd">
+            <circle cx="23.5" cy="23" r="20.5" fill="#5680FF"/>
+            <g fill="#FFF" fill-rule="nonzero">
+                <path d="M17.067 31.676l-3.488-11.143-11.144-3.488 11.144-3.488 3.488-11.144 3.488 11.166 11.143 3.488-11.143 3.466-3.488 11.143zm4.935-19.567l1.207.373 2.896-4.475-4.497 2.895.394 1.207zm-9.871 0l.373-1.207-4.497-2.895 2.895 4.475 1.229-.373zm9.871 9.893l-.373 1.207 4.497 2.896-2.895-4.497-1.229.394zm-9.871 0l-1.207-.373-2.895 4.497 4.475-2.895-.373-1.229zm22.002-4.935c0 9.41-7.634 17.066-17.066 17.066C7.656 34.133 0 26.5 0 17.067 0 7.634 7.634 0 17.067 0c9.41 0 17.066 7.634 17.066 17.067zm-2.435 0c0-8.073-6.559-14.632-14.631-14.632-8.073 0-14.632 6.559-14.632 14.632 0 8.072 6.559 14.631 14.632 14.631 8.072-.022 14.631-6.58 14.631-14.631z" transform="translate(-464.000000, -281.000000) translate(100.000000, 180.000000) translate(364.000000, 101.000000) translate(6.400000, 6.400000)"/>
+            </g>
+        </g>
+    </symbol>
+    <symbol id="icon-pbs-charlotte-passport-navy" viewBox="0 0 401 42">
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(-91.000000, -1361.000000) translate(89.000000, 1275.000000) translate(2.828125, 86.600000) translate(217.623043, -0.000000)">
+                <circle cx="20.435" cy="20.435" r="20.435" fill="#5680FF"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M20.435 36.115l-3.743-11.96-11.96-3.743 11.96-3.744 3.743-11.96 3.744 11.984 11.96 3.743-11.96 3.72-3.744 11.96zm5.297-21l1.295.4 3.108-4.803-4.826 3.108.423 1.295zm-10.594 0l.4-1.295-4.826-3.108 3.108 4.803 1.318-.4zm10.594 10.617l-.4 1.295 4.826 3.108-3.107-4.826-1.319.423zm-10.594 0l-1.295-.4-3.107 4.826 4.802-3.107-.4-1.319zm23.614-5.297c0 10.1-8.193 18.317-18.317 18.317-10.1 0-18.316-8.193-18.316-18.317 0-10.123 8.193-18.316 18.316-18.316 10.1 0 18.317 8.193 18.317 18.316zm-2.614 0c0-8.664-7.039-15.703-15.703-15.703S4.732 11.772 4.732 20.435c0 8.664 7.04 15.703 15.703 15.703 8.664-.023 15.703-7.063 15.703-15.703z"/>
+            </g>
+            <path fill="currentColor" fill-rule="nonzero" d="M4.898 31.675v-8.216h2.1c2.866 0 5.075-.658 6.628-1.975 1.554-1.316 2.33-3.217 2.33-5.703 0-2.39-.729-4.19-2.187-5.395-1.46-1.206-3.59-1.81-6.391-1.81H0v23.099h4.898zm1.611-12.229H4.898V12.59h2.227c1.338 0 2.32.274 2.947.821.626.548.94 1.396.94 2.544 0 1.137-.374 2.004-1.122 2.599-.748.595-1.875.892-3.38.892zm22.024 12.229c2.612 0 4.68-.59 6.201-1.77 1.522-1.18 2.283-2.823 2.283-4.93 0-1.484-.324-2.674-.971-3.57-.648-.895-1.704-1.506-3.168-1.832v-.158c1.074-.18 1.935-.711 2.583-1.596.648-.885.972-2.017.972-3.397 0-2.032-.74-3.515-2.22-4.447-1.48-.932-3.858-1.398-7.133-1.398H19.89v23.098h8.642zm-.9-13.95h-2.844V12.59h2.575c1.401 0 2.425.192 3.073.576.648.385.972 1.02.972 1.904 0 .948-.298 1.627-.893 2.038-.595.41-1.556.616-2.883.616zm.347 9.905H24.79v-6.02h3.033c2.739 0 4.108.96 4.108 2.876 0 1.064-.321 1.854-.964 2.37-.642.516-1.638.774-2.986.774zm18.343 4.36c2.676 0 4.764-.6 6.265-1.8 1.5-1.201 2.251-2.844 2.251-4.93 0-1.506-.4-2.778-1.2-3.815-.801-1.038-2.281-2.072-4.44-3.105-1.633-.779-2.668-1.319-3.105-1.619-.437-.3-.755-.61-.955-.932-.2-.321-.3-.698-.3-1.13 0-.695.247-1.258.742-1.69.495-.432 1.206-.648 2.133-.648.78 0 1.572.1 2.377.3.806.2 1.825.553 3.058 1.059l1.58-3.808c-1.19-.516-2.33-.916-3.421-1.2-1.09-.285-2.236-.427-3.436-.427-2.444 0-4.358.585-5.743 1.754-1.385 1.169-2.078 2.775-2.078 4.818 0 1.085.211 2.033.632 2.844.422.811.985 1.522 1.69 2.133.706.61 1.765 1.248 3.176 1.912 1.506.716 2.504 1.237 2.994 1.564.49.326.861.666 1.114 1.019.253.353.38.755.38 1.208 0 .811-.288 1.422-.862 1.833-.574.41-1.398.616-2.472.616-.896 0-1.883-.142-2.963-.426-1.08-.285-2.398-.775-3.957-1.47v4.55c1.896.927 4.076 1.39 6.54 1.39zm29.609 0c2.338 0 4.455-.394 6.351-1.184v-4.108c-2.307.811-4.27 1.216-5.893 1.216-3.865 0-5.798-2.575-5.798-7.725 0-2.475.506-4.405 1.517-5.79 1.01-1.385 2.438-2.078 4.281-2.078.843 0 1.701.153 2.575.458.874.306 1.743.664 2.607 1.075l1.58-3.982c-2.265-1.084-4.519-1.627-6.762-1.627-2.201 0-4.12.482-5.759 1.446-1.637.963-2.893 2.348-3.768 4.155-.874 1.806-1.31 3.91-1.31 6.311 0 3.813.89 6.738 2.67 8.777 1.78 2.038 4.35 3.057 7.709 3.057zm15.278-.315v-8.31c0-2.054.3-3.54.9-4.456.601-.916 1.575-1.374 2.923-1.374 1.896 0 2.844 1.274 2.844 3.823v10.317h4.819V20.157c0-2.085-.537-3.686-1.612-4.802-1.074-1.117-2.649-1.675-4.724-1.675-2.338 0-4.044.864-5.118 2.59h-.253l.11-1.421c.074-1.443.111-2.36.111-2.749V7.092h-4.819v24.583h4.82zm20.318.316c1.38 0 2.499-.198 3.357-.593.859-.395 1.693-1.103 2.504-2.125h.127l.932 2.402h3.365v-11.77c0-2.107-.632-3.676-1.896-4.708-1.264-1.033-3.08-1.549-5.45-1.549-2.476 0-4.73.532-6.762 1.596l1.595 3.254c1.907-.853 3.566-1.28 4.977-1.28 1.833 0 2.749.896 2.749 2.687v.774l-3.065.094c-2.644.095-4.621.588-5.932 1.478-1.312.89-1.967 2.272-1.967 4.147 0 1.79.487 3.17 1.461 4.14.974.968 2.31 1.453 4.005 1.453zm1.817-3.524c-1.559 0-2.338-.679-2.338-2.038 0-.948.342-1.653 1.027-2.117.684-.463 1.727-.716 3.128-.758l1.864-.063v1.453c0 1.064-.334 1.917-1.003 2.56-.669.642-1.562.963-2.678.963zm17.822 3.208v-8.99c0-1.422.429-2.528 1.287-3.318.859-.79 2.057-1.185 3.594-1.185.559 0 1.033.053 1.422.158l.364-4.518c-.432-.095-.975-.142-1.628-.142-1.095 0-2.109.303-3.04.908-.933.606-1.673 1.404-2.22 2.394h-.237l-.711-2.97h-3.65v17.663h4.819zm14.267 0V7.092h-4.819v24.583h4.819zm12.07.316c2.708 0 4.82-.811 6.336-2.433 1.517-1.622 2.275-3.871 2.275-6.746 0-1.854-.347-3.47-1.043-4.85-.695-1.38-1.69-2.439-2.986-3.176-1.295-.738-2.79-1.106-4.486-1.106-2.728 0-4.845.8-6.351 2.401-1.507 1.601-2.26 3.845-2.26 6.73 0 1.854.348 3.476 1.043 4.867.695 1.39 1.69 2.456 2.986 3.199 1.295.742 2.791 1.114 4.487 1.114zm.064-3.871c-1.295 0-2.23-.448-2.804-1.343-.574-.895-.861-2.217-.861-3.965 0-1.76.284-3.073.853-3.942.569-.87 1.495-1.304 2.78-1.304 1.296 0 2.228.437 2.797 1.312.569.874.853 2.185.853 3.934 0 1.758-.282 3.083-.845 3.973-.564.89-1.488 1.335-2.773 1.335zm18.154 3.87c1.748 0 3.222-.268 4.423-.805v-3.586c-1.18.368-2.19.552-3.033.552-.632 0-1.14-.163-1.525-.49-.384-.326-.576-.831-.576-1.516V17.63h4.945v-3.618h-4.945v-3.76h-3.081l-1.39 3.728-2.655 1.611v2.039h2.307v8.515c0 1.949.44 3.41 1.32 4.384.879.974 2.282 1.462 4.21 1.462zm13.619 0c1.748 0 3.223-.268 4.423-.805v-3.586c-1.18.368-2.19.552-3.033.552-.632 0-1.14-.163-1.524-.49-.385-.326-.577-.831-.577-1.516V17.63h4.945v-3.618h-4.945v-3.76h-3.08l-1.391 3.728-2.654 1.611v2.039h2.306v8.515c0 1.949.44 3.41 1.32 4.384.879.974 2.282 1.462 4.21 1.462zm15.562 0c1.38 0 2.55-.102 3.508-.308.958-.205 1.859-.518 2.701-.94v-3.728c-1.032.484-2.022.837-2.97 1.058-.948.222-1.954.332-3.017.332-1.37 0-2.433-.384-3.192-1.153-.758-.769-1.164-1.838-1.216-3.207h11.39v-2.338c0-2.507-.695-4.471-2.085-5.893-1.39-1.422-3.333-2.133-5.83-2.133-2.612 0-4.658.808-6.137 2.425-1.48 1.617-2.22 3.905-2.22 6.864 0 2.876.8 5.098 2.401 6.668 1.601 1.569 3.824 2.354 6.667 2.354zm2.686-11.153h-6.762c.085-1.19.416-2.11.996-2.757.579-.648 1.38-.972 2.401-.972 1.022 0 1.833.324 2.433.972.6.648.911 1.566.932 2.757zM270.555 31.675v-8.216h2.102c2.864 0 5.074-.658 6.627-1.975 1.554-1.316 2.33-3.217 2.33-5.703 0-2.39-.729-4.19-2.188-5.395-1.458-1.206-3.589-1.81-6.39-1.81h-7.378v23.099h4.897zm1.612-12.229h-1.612V12.59h2.228c1.338 0 2.32.274 2.946.821.627.548.94 1.396.94 2.544 0 1.137-.373 2.004-1.121 2.599-.748.595-1.875.892-3.381.892zm17.3 12.545c1.38 0 2.5-.198 3.357-.593.859-.395 1.694-1.103 2.505-2.125h.126l.932 2.402h3.365v-11.77c0-2.107-.632-3.676-1.896-4.708-1.264-1.033-3.08-1.549-5.45-1.549-2.475 0-4.73.532-6.762 1.596l1.596 3.254c1.906-.853 3.565-1.28 4.976-1.28 1.833 0 2.75.896 2.75 2.687v.774l-3.066.094c-2.643.095-4.62.588-5.932 1.478-1.311.89-1.967 2.272-1.967 4.147 0 1.79.487 3.17 1.461 4.14.975.968 2.31 1.453 4.005 1.453zm1.817-3.524c-1.559 0-2.338-.679-2.338-2.038 0-.948.342-1.653 1.027-2.117.684-.463 1.727-.716 3.128-.758l1.864-.063v1.453c0 1.064-.334 1.917-1.003 2.56-.669.642-1.561.963-2.678.963zm17.79 3.524c2.507 0 4.39-.474 5.648-1.422 1.259-.948 1.888-2.328 1.888-4.14 0-.874-.152-1.627-.458-2.259-.305-.632-.78-1.19-1.422-1.674-.642-.485-1.653-1.006-3.033-1.565-1.548-.621-2.552-1.09-3.01-1.406-.458-.316-.687-.69-.687-1.121 0-.77.71-1.154 2.133-1.154.8 0 1.585.121 2.354.364.769.242 1.595.553 2.48.932l1.454-3.476c-2.012-.927-4.082-1.39-6.21-1.39-2.232 0-3.957.429-5.173 1.287-1.217.859-1.825 2.073-1.825 3.642 0 .916.145 1.688.434 2.315.29.626.753 1.182 1.39 1.666.638.485 1.636 1.011 2.995 1.58.947.4 1.706.75 2.275 1.05.568.301.969.57 1.2.807.232.237.348.545.348.924 0 1.01-.874 1.516-2.623 1.516-.853 0-1.84-.142-2.962-.426-1.122-.284-2.13-.637-3.025-1.059v3.982c.79.337 1.637.592 2.543.766.906.174 2.001.26 3.286.26zm15.658 0c2.506 0 4.389-.474 5.648-1.422 1.258-.948 1.888-2.328 1.888-4.14 0-.874-.153-1.627-.459-2.259-.305-.632-.779-1.19-1.421-1.674-.643-.485-1.654-1.006-3.034-1.565-1.548-.621-2.551-1.09-3.01-1.406-.458-.316-.687-.69-.687-1.121 0-.77.711-1.154 2.133-1.154.8 0 1.585.121 2.354.364.769.242 1.596.553 2.48.932l1.454-3.476c-2.012-.927-4.081-1.39-6.209-1.39-2.233 0-3.957.429-5.174 1.287-1.216.859-1.825 2.073-1.825 3.642 0 .916.145 1.688.435 2.315.29.626.753 1.182 1.39 1.666.637.485 1.635 1.011 2.994 1.58.948.4 1.706.75 2.275 1.05.569.301.969.57 1.2.807.232.237.348.545.348.924 0 1.01-.874 1.516-2.622 1.516-.854 0-1.84-.142-2.963-.426-1.121-.284-2.13-.637-3.025-1.059v3.982c.79.337 1.638.592 2.543.766.906.174 2.002.26 3.287.26zm15.689 7.457V32.29c0-.232-.085-1.085-.253-2.56h.253c1.18 1.506 2.806 2.26 4.881 2.26 1.38 0 2.58-.364 3.602-1.09 1.022-.727 1.81-1.786 2.362-3.176.553-1.39.83-3.028.83-4.913 0-2.865-.59-5.103-1.77-6.715-1.18-1.611-2.812-2.417-4.897-2.417-2.212 0-3.881.874-5.008 2.622h-.222l-.679-2.29h-3.918v25.436h4.819zm3.523-11.36c-1.222 0-2.115-.41-2.678-1.232-.564-.822-.845-2.18-.845-4.076v-.521c.02-1.686.305-2.894.853-3.626.547-.732 1.416-1.098 2.606-1.098 1.138 0 1.973.434 2.505 1.303.531.87.797 2.172.797 3.91 0 3.56-1.08 5.34-3.238 5.34zm19.149 3.903c2.706 0 4.818-.811 6.335-2.433 1.517-1.622 2.275-3.871 2.275-6.746 0-1.854-.348-3.47-1.043-4.85-.695-1.38-1.69-2.439-2.986-3.176-1.295-.738-2.79-1.106-4.487-1.106-2.728 0-4.845.8-6.35 2.401-1.507 1.601-2.26 3.845-2.26 6.73 0 1.854.348 3.476 1.043 4.867.695 1.39 1.69 2.456 2.986 3.199 1.295.742 2.79 1.114 4.487 1.114zm.063-3.871c-1.296 0-2.23-.448-2.805-1.343-.574-.895-.86-2.217-.86-3.965 0-1.76.284-3.073.853-3.942.568-.87 1.495-1.304 2.78-1.304 1.296 0 2.228.437 2.797 1.312.568.874.853 2.185.853 3.934 0 1.758-.282 3.083-.846 3.973-.563.89-1.487 1.335-2.772 1.335zm16.921 3.555v-8.99c0-1.422.43-2.528 1.288-3.318.858-.79 2.056-1.185 3.594-1.185.558 0 1.032.053 1.422.158l.363-4.518c-.432-.095-.974-.142-1.627-.142-1.096 0-2.11.303-3.041.908-.933.606-1.672 1.404-2.22 2.394h-.237l-.711-2.97h-3.65v17.663h4.819zm15.5.316c1.748 0 3.222-.269 4.423-.806v-3.586c-1.18.368-2.19.552-3.033.552-.632 0-1.14-.163-1.525-.49-.384-.326-.577-.831-.577-1.516V17.63h4.945v-3.618h-4.945v-3.76h-3.08l-1.39 3.728-2.655 1.611v2.039h2.307v8.515c0 1.949.44 3.41 1.319 4.384.88.974 2.283 1.462 4.21 1.462z" transform="translate(-91.000000, -1361.000000) translate(89.000000, 1275.000000) translate(2.828125, 86.600000)"/>
+        </g>
+    </symbol>
+    <symbol id="icon-closed-captioning" viewBox="0 0 512 512">
+        <g>
+            <path fill="currentColor" d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 336H54c-3.3 0-6-2.7-6-6V118c0-3.3 2.7-6 6-6h404c3.3 0 6 2.7 6 6v276c0 3.3-2.7 6-6 6zm-211.1-85.7c1.7 2.4 1.5 5.6-.5 7.7-53.6 56.8-172.8 32.1-172.8-67.9 0-97.3 121.7-119.5 172.5-70.1 2.1 2 2.5 3.2 1 5.7l-17.5 30.5c-1.9 3.1-6.2 4-9.1 1.7-40.8-32-94.6-14.9-94.6 31.2 0 48 51 70.5 92.2 32.6 2.8-2.5 7.1-2.1 9.2.9l19.6 27.7zm190.4 0c1.7 2.4 1.5 5.6-.5 7.7-53.6 56.9-172.8 32.1-172.8-67.9 0-97.3 121.7-119.5 172.5-70.1 2.1 2 2.5 3.2 1 5.7L420 220.2c-1.9 3.1-6.2 4-9.1 1.7-40.8-32-94.6-14.9-94.6 31.2 0 48 51 70.5 92.2 32.6 2.8-2.5 7.1-2.1 9.2.9l19.6 27.7z"></path>
+        </g>
+    </symbol>
+    <symbol id="circle" viewBox="0 0 24 24">
+        <circle cx="50%" cy="50%" r="50%"></circle>
+    </symbol>
+    <symbol id="spinner" role="img" viewBox="0 0 512 512">
+        <g class="fa-group">
+            <path class="fa-secondary" fill="currentColor" d="M478.71 364.58zm-22 6.11l-27.83-15.9a15.92 15.92 0 0 1-6.94-19.2A184 184 0 1 1 256 72c5.89 0 11.71.29 17.46.83-.74-.07-1.48-.15-2.23-.21-8.49-.69-15.23-7.31-15.23-15.83v-32a16 16 0 0 1 15.34-16C266.24 8.46 261.18 8 256 8 119 8 8 119 8 256s111 248 248 248c98 0 182.42-56.95 222.71-139.42-4.13 7.86-14.23 10.55-22 6.11z" opacity="0.4"/><path class="fa-primary" fill="currentColor" d="M271.23 72.62c-8.49-.69-15.23-7.31-15.23-15.83V24.73c0-9.11 7.67-16.78 16.77-16.17C401.92 17.18 504 124.67 504 256a246 246 0 0 1-25 108.24c-4 8.17-14.37 11-22.26 6.45l-27.84-15.9c-7.41-4.23-9.83-13.35-6.2-21.07A182.53 182.53 0 0 0 440 256c0-96.49-74.27-175.63-168.77-183.38z"/>
+        </g>
+    </symbol>
+    <symbol id="icon-calendar" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/>
+        <line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+    </symbol>
+    <symbol id="icon-arrow-rotate" viewBox="0 0 512 512">
+        <path d="M454.7 288.1c-12.78-3.75-26.06 3.594-29.75 16.31C403.3 379.9 333.8 432 255.1 432c-66.53 0-126.8-38.28-156.5-96h100.4c13.25 0 24-10.75 24-24S213.2 288 199.9 288h-160c-13.25 0-24 10.75-24 24v160c0 13.25 10.75 24 24 24s24-10.75 24-24v-102.1C103.7 436.4 176.1 480 255.1 480c99 0 187.4-66.31 215.1-161.3C474.8 305.1 467.4 292.7 454.7 288.1zM472 16C458.8 16 448 26.75 448 40v102.1C408.3 75.55 335.8 32 256 32C157 32 68.53 98.31 40.91 193.3C37.19 206 44.5 219.3 57.22 223c12.84 3.781 26.09-3.625 29.75-16.31C108.7 132.1 178.2 80 256 80c66.53 0 126.8 38.28 156.5 96H312C298.8 176 288 186.8 288 200S298.8 224 312 224h160c13.25 0 24-10.75 24-24v-160C496 26.75 485.3 16 472 16z"/>
+    </symbol>
+</svg></div>
+
+<header>
+
+  <!-- 1. Alert Bar (scheduled via Theme Options; JS gate keeps cached pages accurate) -->
+    
+  <!-- Hamburger Drawer (mobile slide-out menu) -->
+  <div class="PH-ham-m">
+    <div class="PH-ham-m-wrapper">
+      <div class="PH-ham-m-top">
+        <button class="PH-ham-m-close" aria-label="Close menu" aria-expanded="false">
+          <svg class="close-x" width="14" height="14" viewBox="0 0 14 14"><use xlink:href="#close-x"></use></svg>
+        </button>
+        <div class="PH-logo">
+          <a aria-label="home page" href="https://www.vpm.org/">
+                          <img src="https://www.vpm.org/wp-content/uploads/optimized/vpm-header-logo.png" alt="VPM" width="85" height="30" style="height:30px;width:auto;">
+                      </a>
+        </div>
+                        <div class="PH-donate-button">
+          <svg class="heart" width="14" height="14" viewBox="0 0 24 24" fill="var(--accent, #c8102e)"><use xlink:href="#heart"></use></svg>
+          <a href="http://vpm.org/donate">Donate</a>
+        </div>
+              </div>
+      <div class="PH-search-overlay-mobile">
+        <form class="PH-search-form" action="https://www.vpm.org/" autocomplete="off">
+          <label>
+            <input placeholder="Search" type="search" class="PH-search-input-mobile" name="s" required>
+            <span class="sr-only">Search Query</span>
+          </label>
+          <button class="PH-search-button-mobile" aria-label="Search">
+            <svg class="icon-magnify" width="20" height="20" viewBox="0 0 31 31"><use xlink:href="#icon-magnify"></use></svg>
+          </button>
+        </form>
+      </div>
+      <div class="PH-ham-m-content">
+        <nav class="Navigation"><ul class="Navigation-items"><li id="menu-item-486831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486831"><a href="https://www.vpm.org/news/">News</a></li>
+<li id="menu-item-490315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490315"><a href="https://www.vpm.org/elections/">Election Coverage</a></li>
+<li id="menu-item-486832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486832"><a href="https://www.vpm.org/listen/">Listen</a></li>
+<li id="menu-item-486830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486830"><a href="https://www.vpm.org/watch/">Watch</a></li>
+<li id="menu-item-486829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486829"><a href="https://www.vpm.org/arts-and-culture/">Arts &#038; Culture</a></li>
+<li id="menu-item-444239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444239"><a href="https://www.vpm.org/education/">EDUCATION</a></li>
+<li id="menu-item-444240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444240"><a href="https://www.vpm.org/vpm-tv-schedule/">SCHEDULES</a></li>
+<li id="menu-item-444241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444241"><a href="https://www.vpm.org/giving/">Giving</a></li>
+<li id="menu-item-444242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444242"><a href="https://www.vpm.org/about/">ABOUT VPM</a></li>
+<li id="menu-item-444243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444243"><a href="https://www.vpm.org/understanding-impact-of-vpm/">OUR IMPACT</a></li>
+<li id="menu-item-444232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444232"><a target="_blank" href="https://forward.vpm.org/we-moved/">WE MOVED</a></li>
+<li id="menu-item-444244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444244"><a href="https://donate.vpm.org/site/SPageNavigator/member_center.html">MY ACCOUNT</a></li>
+</ul></nav>        <div class="PH-disclaimer">Copyright &copy; 2026 VPM, all rights reserved.<br>PBS is a 501(c)(3) not-for-profit organization.</div>
+      </div>
+    </div>
+  </div>
+  <div class="PH-overlay-menu"></div>
+
+  <!-- 2. Logo Bar -->
+  <div class="PH-top-bar-wrapper">
+  <div class="PH-top-bar">
+    <div class="PH-top-bar-content">
+      <button class="PH-menu-trigger" aria-label="Open menu" aria-expanded="false">
+        <svg class="burger-menu" width="18" height="12" viewBox="0 0 18 12"><use xlink:href="#burger-menu"></use></svg>
+        <svg class="close-x" width="14" height="14" viewBox="0 0 14 14" style="display:none"><use xlink:href="#close-x"></use></svg>
+        <span class="label">Menu</span>
+      </button>
+      <div class="PH-logo">
+        <a href="https://www.vpm.org/">
+                      <img src="https://www.vpm.org/wp-content/uploads/optimized/vpm-header-logo.png" alt="VPM" width="267" height="94">
+                  </a>
+      </div>
+    </div>
+    <div class="PH-end">
+      <button class="PH-search-button" aria-label="Search">
+        <svg class="icon-magnify" width="20" height="20" viewBox="0 0 31 31"><use xlink:href="#icon-magnify"></use></svg>
+        <span class="sr-only">Show Search</span>
+        <svg class="close-x" width="14" height="14" viewBox="0 0 14 14" style="display:none"><use xlink:href="#close-x"></use></svg>
+      </button>
+      <div class="PH-search-overlay">
+        <form class="PH-search-form" action="https://www.vpm.org/" autocomplete="off">
+          <label>
+            <input placeholder="Search" type="search" class="PH-search-input" name="s" required>
+            <span class="sr-only">Search Query</span>
+          </label>
+          <button type="button" class="PH-search-close" aria-label="Close search">
+            <svg class="close-x" width="14" height="14" viewBox="0 0 14 14"><use xlink:href="#close-x"></use></svg>
+          </button>
+        </form>
+      </div>
+                  <div class="PH-donate-button">
+        <svg class="heart" width="14" height="14" viewBox="0 0 24 24" fill="var(--accent, #c8102e)"><use xlink:href="#heart"></use></svg>
+        <a href="http://vpm.org/donate" class="Link">Donate</a>
+      </div>
+          </div>
+  </div>
+  </div><!-- /.PH-top-bar-wrapper -->
+
+  <!-- 3. Persistent Audio Player -->
+    <div class="persistent-player">
+    <div class="container">
+      <div class="player-left">
+        <button class="player-play-btn" aria-label="Play">
+          <svg width="14" height="14" viewBox="0 0 115 115" fill="white"><use xlink:href="#play-icon"></use></svg>
+        </button>
+        <button class="player-volume-btn" aria-label="Volume">
+          <svg width="20" height="20" fill="white" viewBox="0 0 24 24"><use xlink:href="#volume-high"></use></svg>
+        </button>
+        <div class="player-info">
+          <span class="player-station">VPM News</span>
+          <span class="player-show">Morning Edition</span>
+        </div>
+      </div>
+            <div class="player-scrubber" aria-hidden="true">
+        <span class="player-scrubber-time player-scrubber-current">0:00</span>
+        <input type="range" class="player-scrubber-range" min="0" max="0" step="1" value="0" aria-label="Seek" disabled>
+        <span class="player-scrubber-time player-scrubber-duration">0:00</span>
+      </div>
+      <div class="player-schedule">
+                NEXT UP: <strong>9:00 AM </strong>
+              </div>
+      <div class="player-streams-wrap">
+        <button class="player-streams-btn">
+          <svg width="18" height="19" viewBox="0 0 18 19" fill="currentColor"><use xlink:href="#radio-stream"></use></svg>
+          Radio Streams
+        </button>
+        <div class="player-streams-drawer" style="display:none;">
+                  </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 4. Navigation (desktop horizontal nav) -->
+  <div class="PH-nav-bar">
+    <div class="container">
+      <nav class="DropdownNavigation"><ul class="DropdownNavigation-items"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486831"><a href="https://www.vpm.org/news/">News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490315"><a href="https://www.vpm.org/elections/">Election Coverage</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486832"><a href="https://www.vpm.org/listen/">Listen</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486830"><a href="https://www.vpm.org/watch/">Watch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486829"><a href="https://www.vpm.org/arts-and-culture/">Arts &#038; Culture</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444239"><a href="https://www.vpm.org/education/">EDUCATION</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444240"><a href="https://www.vpm.org/vpm-tv-schedule/">SCHEDULES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444241"><a href="https://www.vpm.org/giving/">Giving</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444242"><a href="https://www.vpm.org/about/">ABOUT VPM</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-444243"><a href="https://www.vpm.org/understanding-impact-of-vpm/">OUR IMPACT</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444232"><a target="_blank" href="https://forward.vpm.org/we-moved/">WE MOVED</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444244"><a href="https://donate.vpm.org/site/SPageNavigator/member_center.html">MY ACCOUNT</a></li>
+</ul></nav>    </div>
+  </div>
+
+</header>
+
+<main id="bsm-main">
+
+<section class="ArtP-leaderboard" aria-label="Sponsor message">
+    <div class="ArtP-leaderboard-inner">
+        <div id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- 728x90 Sponsor Ads [async] -->
+<script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript"; s.src = 'https://servedbyadbutler.com/app.js'; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+<script type="text/javascript">
+var AdButler = AdButler || {};
+AdButler.ads = AdButler.ads || [];
+var abkw = window.abkw || '';
+var plc373490 = window.plc373490 || 0;
+document.write('<'+'div id="placement_373490_'+plc373490+'"></'+'div>');
+AdButler.ads.push({handler: function(opt){ AdButler.register(171178, 373490, [728,90], 'placement_373490_'+opt.place, opt); }, opt: { place: plc373490++, keywords: abkw, domain: 'servedbyadbutler.com', click: 'CLICK_MACRO_PLACEHOLDER' }});
+</script></div></div>        <p class="ArtP-leaderboard-credit">
+            Thanks to our sponsors &ndash;
+            <a href="/support/become-a-sponsor/">
+                Become a Sponsor            </a>
+        </p>
+    </div>
+</section>
+
+<div class="ArtP-content">
+    <div class="ArtP-wrapper">
+                <main class="ArtP-main">
+            <div class="ArtP-main-content">
+
+                <article class="ArtP-mainContent" id="post-382766">
+
+                                                            <div class="ArtP-breadcrumbs-wrapper">
+                        <div class="ArtP-breadcrumbs">
+                                                            <a href="https://www.vpm.org/category/news/" class="Link">VPM News</a>
+                                                    </div>
+                    </div>
+                    
+                                        <h1 class="ArtP-headline">English y Español: Richmond to expand dual-immersion education program</h1>
+
+                                        <div class="ArtP-contentInfo">
+                        <div class="ArtP-byline">
+                            <div class="ArtP-authors">
+                                <div class="ArtP-authorName">
+                                    <span class="ArtP-authorBy">
+                                        VPM |
+                                        By <a href="https://www.vpm.org/author/keyris-manzanares/" class="Link">Keyris Manzanares</a>                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="ArtP-timestamp">
+                                <div class="ArtP-datePublished">
+                                    Published&nbsp;October 28, 2024                                     at 9:42 PM EDT                                </div>
+                                                            </div>
+                        </div>
+
+                                                <div class="ArtP-actions">
+                                <div class="ActionBar">
+        <ul class="ActionBar-items">
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F&#038;text=English%20y%20Espa%C3%B1ol%3A%20Richmond%20to%20expand%20dual-immersion%20education%20program" target="_blank" rel="noopener noreferrer" aria-label="Share on Twitter">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F&#038;mini=true&#038;title=English%20y%20Espa%C3%B1ol%3A%20Richmond%20to%20expand%20dual-immersion%20education%20program&#038;summary=Hiring%20qualified%20staff%20is%20a%20hurdle%20despite%20the%20program%27s%20success.&#038;source=Virginia%20Public%20Media" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="/cdn-cgi/l/email-protection#b48bc7c1d6ded1d7c089f1dad3d8ddc7dc918684cd918684f1c7c4d591f78791f685dbd89187f5918684e6ddd7dcd9dbdad0918684c0db918684d1ccc4d5dad0918684d0c1d5d899ddd9d9d1c6c7dddbda918684d1d0c1d7d5c0dddbda918684c4c6dbd3c6d5d9929784878c8fd6dbd0cd89dcc0c0c4c79187f59186f29186f2c3c3c39ac2c4d99adbc6d39186f2dad1c3c79186f28684868099858499868c9186f2c6ddd7dcd9dbdad099c4c1d6d8ddd799c7d7dcdbdbd8c799d0c1d5d899ddd9d9d1c6c7dddbda99c4c6dbd3c6d5d999d8d5dad3c1d5d3d199d1dad3d8ddc7dc99c7c4d5daddc7dc9186f2" aria-label="Share via Email">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <span>Email</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+                            </div>
+                    </div>
+
+                                        
+                                                                                <div class="ArtP-lead">
+                        <figure class="Figure">
+                            <img class="Image"
+                                 src="https://wsrv.nl/?url=https%3A%2F%2Fk1-prod-vpm.s3.us-east-2.amazonaws.com%2Fbrightspot%2Fd3%2F03%2F41e1a1464e819191ff9b68604303%2Fkm-pick-dual-immersion-03.jpg&#038;w=1200&#038;output=webp&#038;q=80&#038;we"
+                                 alt="A teacher is shown teaching students in a classroom as part of a dual immersion program."
+                                 width="880" loading="lazy">
+                                                        <div class="Figure-content">
+                                                                <div class="Figure-credit-container">
+                                    <div class="Figure-credit">Keyris Manzanares / VPM News</div>
+                                </div>
+                                                                                                <figcaption class="Figure-caption">Marliani Oquendo teaches in Spanish at Broad Rock Elementary School as part of the school's dual immersion program.</figcaption>
+                                                            </div>
+                                                    </figure>
+                    </div>
+                    
+                                        
+                                        
+                                        <div class="ArtP-articleContainer">
+                        <div class="ArtP-articleBody">
+                            Being bilingual is considered a superpower at Broad Rock Elementary School in Richmond’s Southside.<br/><br/>Students in kindergarten through second grade are selected through a lottery system to take part in the school’s two-way dual-immersion program, where they receive instruction in both English and Spanish.<br/><br/>It’s Richmond Public Schools’ first and only dual-immersion program, which was implemented during the 2021-22 school year under the district&#8217;s <a href="https://www.rvaschools.net/academics/mls/liep-programs" target="_blank" rel="noopener"><u>Language Instruction Educational Program</u></a>.<br/><br/>Multilingual instruction coordinator Victoria Pierson said the program prepares students to be bilingual and biliterate.<br/><br/>“It doesn&#8217;t say that English is superior to Spanish or Spanish is superior to English, but that both languages are equally valued and respected, and that we get to strengthen both at the same time,” Pierson said.<br/><br/>Under the program, students learn core subjects like math, science and history in both languages, as well as how to read and write.<br/><br/>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1024100692?h=efabf92baf&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A look at Broad Rock’s dual immersion program"></iframe></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://player.vimeo.com/api/player.js"></script>
+<br/><b>Southside connection</b><br/><br/>Broad Rock was chosen for the pilot program because of the high percentage of native Spanish speakers — ensuring the program’s equity, Pierson said.<br/><br/>Principal Teya Green has been a part of Broad Rock staff for 20 years. She’s witnessed the school’s population grow and change, reflecting Southside’s community. Latino students make up <a href="https://schoolquality.virginia.gov/schools/broad-rock-elementary#fndtn-desktopTabs-enrollment" target="_blank" rel="noopener"><u>over half of the student population</u></a>.<br/><br/>“We offered Spanish as a resource, but the parents, they kind of reached out. They were more inquisitive about language,” Green said. “When [the LIEP team] brought this opportunity for a dual-language immersion program to me, I thought, let&#8217;s take advantage of this for our students to provide equity, diversity within our school.”<br/><br/>Joshua and Lesvia Rivera’s son Caleb is a first grader and a native Spanish speaker. The Riveras said their family feels included at Broad Rock and that their son looks forward to the school day.<br/><br/>“He loves coming to school, and he loves his classmates and the teachers,” Rivera told VPM News in Spanish. “He loves learning alongside his friends and he tells me they are his family, too.”<br/><br/>Rivera said the bilingual learning model at school also reinforces what she teaches her children at home.<br/><br/>“That they don’t lose our native tongue because it’s very important,” Rivera said. “And that way, they can communicate with our families who only speak Spanish.”<br/><br/>Caleb Rivera told VPM News his favorite part about being bilingual is translating. In class, he enjoys story time, when his teachers take turns reading in English and then Spanish.<br/><br/>“Because then if I didn&#8217;t know Spanish or if I didn&#8217;t know English, I can [still] understand,” the first grader said.<br/><br/><b>Success beyond the classroom</b><br/><br/>“You would think, ‘Oh, it&#8217;s just Spanish speakers going into this program.’ Absolutely not. Any student can be bilingual and any student can learn to become bilingual,” said dual immersion lead teacher Hannah Batdorf.<br/><br/>She said Broad Rock’s program has already shown significant growth in English proficiency for students learning the language, as<a href="https://wida.wisc.edu/assess/access" target="_blank" rel="noopener"> <u>measured by the WIDA ACCESS test</u></a> — which is given to all English language learners across the U.S. every year.<br/><br/>“Students who by second grade have only taken math in Spanish are taking tests in English and having huge, huge successes,” Batdorf said.<br/><br/>Beyond that success, Batdorf said she finds joy in seeing English speakers in the school who are not part of the program speak in Spanish — indicating a broader cultural shift.<br/><br/>“That shows me that we&#8217;re making a difference, even if they&#8217;re not specifically learning Spanish in the classroom,” Batdorf said. “They&#8217;re seeing this change is happening in the school.<br/><br/>Savannah Gordon, a first grader and native English speaker, told VPM News her favorite part about learning Spanish is “that it helps me learn a lot when I talk to people that [are] Spanish.”<br/><br/>One of her favorite words is “hola,” which Gordon said is a great way to say hi.<br/><br/>“And queso — that’s because I really love cheese,” she said.<br/><br/>Her mom, Briande Gordon, said she’s noticed the benefits of dual-immersion learning in her daughter going beyond the classroom.<br/><br/>“She&#8217;s always been very confident,” Gordon said. “But patience, I think it&#8217;s shown her a lot of patience and allowed her to understand that everybody&#8217;s different, and what that looks like, and how you treat everyone the same — no matter how different they are.”<br/><br/>Gordon would like to see RPS extend the dual-immersion program through high school and hopes her 5-month-old daughter can enroll in the future.<br/><br/>“I think that this is the age where they can absorb all of it, and they can get into music,” she said. “You learn everything about the culture, the food, the dance, and when you [merge] it into your lifestyle, they tend to adapt to it a lot quicker,” she said.<br/><br/><b>Bilingual boom</b><br/><br/>In Northern Virginia, districts including Fairfax and Arlington have been offering dual-language immersion programs for over 30 years. In Arlington, Key Elementary School accepted the first class of students for its Spanish immersion program in 1986.<br/><br/>The Virginia Department of Education told VPM News that statewide there are currently 86 dual-immersion programs in 16 districts — nearly doubling since 2014.<br/><br/>That trend is in line with the growing number of dual-immersion programs nationwide. <a href="https://www.americancouncils.org/sites/default/files/documents/pages/2021-10/Canvass%20DLI%20-%20October%202021-2_ac.pdf" target="_blank" rel="noopener"><u>Research shows</u></a> that as of 2021, more than 3,600 programs exist in the U.S. Eighty percent of them are Spanish programs, pointing toward <a href="https://www.aft.org/ae/fall2015/goldenberg_wagner" target="_blank" rel="noopener"><u>multilingualism becoming widely accepted</u></a>.<br/><br/>Noticing those trends is what led Pierson, a former RPS teacher, to question why the district didn’t have a similar program.<br/><br/>“I was using bilingual teaching strategies and had started to see that there were programs in other districts in Virginia and across the country that were using this bilingual model,” Pierson said. “I started to ask our leaders in central office, ‘Why don&#8217;t we have any bilingual programs?’”<br/><br/>Her question resulted in a grant proposal. Ultimately, VDOE awarded RPS a school innovation grant for a year of planning in 2020. A second grant to fund the program pilot was later awarded.<br/><br/>“That’s what motivated us to bring a Spanish-English dual-immersion program to Richmond to meet the needs of those students who are speaking Spanish at home and learning English,” Pierson said. “We want them to be able to learn both simultaneously and not lose their Spanish.”<br/><br/>Students who come to the U.S. speaking another language often have to put it on the backburner and focus on learning English, Pierson said.<br/><br/>“We have known for a very long time that bilingualism has so many benefits,” she said. “That people who are bilingual have stronger cognitive abilities, they&#8217;re better at verbal reasoning and executive functioning. There&#8217;s even studies that they have higher levels of empathy and they&#8217;re able to connect with their community on a higher level.”<br/><br/><b>Tomorrow’s students today</b><br/><br/>One of the challenges RPS is facing with the program is recruiting qualified native Spanish speakers as immersion teachers and retaining students to sustain the immersion classrooms.<br/><br/>“Our population is also a little transient,” Green said, “So, keeping students and keeping our numbers high, because we want this program to be a legacy.”<br/><br/>But Green said despite the challenges, the community response has been positive, and the students have formed a bond.<br/><br/>“The students — they have mutual respect for each other,” she said. “Now, sometimes they&#8217;re not always just the student. They get to become the teacher in this program because they&#8217;re teaching their peers, their language, and there&#8217;s appreciation for English and Spanish.”<br/><br/>RPS is planning to expand its dual-immersion program to a second elementary school in the near future. And at Broad Rock, the district plans to add another dual-immersion grade level.<br/><br/>“Next year, we&#8217;ll be in third grade,” Batdorf said. “Our hope is that we will move into third, fourth and fifth, but then middle school and high school in the coming years.”                        </div>
+                    </div>
+
+                </article>
+
+                                                <div class="ArtP-tags">
+                    <h2 class="ArtP-tags-heading">Tags</h2>
+                    <div class="ArtP-tags-list">
+                                                    <a href="https://www.vpm.org/category/news/" class="Link">VPM News</a>
+                                                    <a href="https://www.vpm.org/category/watch/" class="Link">Watch</a>
+                                                    <a href="https://www.vpm.org/tag/education/" class="Link">Education</a>
+                                                    <a href="https://www.vpm.org/tag/richmond/" class="Link">Richmond</a>
+                                            </div>
+                </div>
+                
+                                <div class="ArtP-actions">
+                        <div class="ActionBar">
+        <ul class="ActionBar-items">
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F" target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F&#038;text=English%20y%20Espa%C3%B1ol%3A%20Richmond%20to%20expand%20dual-immersion%20education%20program" target="_blank" rel="noopener noreferrer" aria-label="Share on Twitter">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.vpm.org%2Fnews%2F2024-10-28%2Frichmond-public-schools-dual-immersion-program-language-english-spanish%2F&#038;mini=true&#038;title=English%20y%20Espa%C3%B1ol%3A%20Richmond%20to%20expand%20dual-immersion%20education%20program&#038;summary=Hiring%20qualified%20staff%20is%20a%20hurdle%20despite%20the%20program%27s%20success.&#038;source=Virginia%20Public%20Media" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li class="ActionBar-items-item">
+                <a class="ActionLink" href="/cdn-cgi/l/email-protection#7b44080e19111e180f463e151c171208135e494b025e494b3e080b1a5e38485e394a14175e483a5e494b291218131614151f5e494b0f145e494b1e030b1a151f5e494b1f0e1a17561216161e09081214155e494b1e1f0e181a0f1214155e494b0b09141c091a165d584b48434019141f0246130f0f0b085e483a5e493d5e493d0c0c0c550d0b165514091c5e493d151e0c085e493d494b494f564a4b5649435e493d091218131614151f560b0e191712185608181314141708561f0e1a17561216161e0908121415560b09141c091a1656171a151c0e1a1c1e561e151c1712081356080b1a151208135e493d" aria-label="Share via Email">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <span>Email</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+                    </div>
+
+                                                                <div class="ArtP-bottomByline">
+                    <div class="ArtP-aui">
+                                                <div class="ArtP-aui-image">
+                            <a href="https://www.vpm.org/author/keyris-manzanares/" aria-label="Keyris Manzanares">
+                                <img alt="" src="https://wsrv.nl/?url=https%3A%2F%2Fk1-prod-vpm.s3.us-east-2.amazonaws.com%2Fbrightspot%2F11%2F0e%2F47a0b30c4db78a4b4eff4b58b391%2Fweb-headshots-keyris-manzanares-20230821-01.png&#038;w=400&#038;output=webp&#038;q=80&#038;we" width="150" height="200" loading="lazy">
+                            </a>
+                        </div>
+                                                <div class="ArtP-aui-bio">
+                            <div class="ArtP-aui-bio-name">
+                                <a href="https://www.vpm.org/author/keyris-manzanares/">Keyris Manzanares</a>
+                            </div>
+                                                        <div class="ArtP-aui-bio-content">
+                                <p>Keyris Manzanares is a dedicated bilingual multimedia journalist with experience in visual, digital and audio storytelling. A two-time Emmy Award winner, Manzanares has built a reputation as a rising star in public media, earning multiple accolades for reporting excellence and impact.</p>
+<p>&nbsp;</p>
+<p>Manzanares joined VPM News in 2021 to support the launch of VPM News Focal Point, a weekly half-hour multi-platform news magazine program covering news, politics, and cultural events in Virginia. Manzanares has produced in-depth reports on topics such as Virginia’s ICE detention centers, migrant farmworkers, the mental health crisis in Richmond’s Latino community and restorative justice.</p>
+<p>&nbsp;</p>
+<p>In 2024, Manzanares was named Rising Star in Public Media by Current, Persona de Poder by Radio Poder 1380 (WPTK, Richmond’s Spanish radio station) and was a finalist for an Ñ Award from National Association of Hispanic Journalists.</p>
+<p>&nbsp;</p>
+<p>Manzanares also earned the ‘Outstanding News Series’ award from the Virginia Association of Broadcasters (VAB) for her 2-part feature collaboration on the state of mobile home parks, which also received a Capital Emmy nomination.</p>
+<p>&nbsp;</p>
+<p>Before joining VPM, Manzanares worked as a digital reporter at WRIC-ABC 8 in Richmond. There she launched, anchored and produced “Hoy en RVA,” a Spanish-language news digital-first initiative – aimed at informing Central Virginia’s Latino community.</p>
+<p>&nbsp;</p>
+<p>Manzanares graduated from Virginia Commonwealth University in 2018 with a degree in mass communications with a concentration in broadcast journalism.</p>
+<p>&nbsp;</p>
+<p><strong>Email Keyris:</strong> <a href="kmanzanares@vpm.org\&quot;" target="\&quot;_blank\&quot;" rel="\&quot;noopener\&quot;"><span class="__cf_email__" data-cfemail="214a4c404f5b404f405344526157514c0f4e5346">[email&#160;protected]</span></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+                            </div>
+                                                        <div class="ArtP-aui-bio-cta">
+                                <a href="https://www.vpm.org/author/keyris-manzanares/" aria-label="See stories by Keyris Manzanares">
+                                    See stories by Keyris Manzanares                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div><!-- .ArtP-main-content -->
+        </main>
+
+                <aside class="ArtP-aside">
+            <aside class="ArtP-aside-content">
+                <div id="custom_html-6" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  (function () {
+    function renderMmsTurnstile() {
+      var el = document.querySelector('#mms-form .cf-turnstile');
+      if (el && window.turnstile && !el.dataset.rendered) {
+        el.dataset.rendered = 'true';
+        window.turnstile.render(el, { sitekey: '0x4AAAAAAEMMxbT7t6Mb3D7z' });
+      }
+    }
+    // window.__turnstileLoading is a shared flag set by any Turnstile loader on
+    // this page (e.g. the Morning Monitor popup script) the instant it starts
+    // loading api.js — checking only for an existing <script> tag isn't enough,
+    // since two independent loaders can both start before either script tag
+    // lands in the DOM. Turnstile's api.js does not support loading twice on
+    // one page (causes error 110200).
+    if (window.turnstile) {
+      renderMmsTurnstile();
+    } else if (window.__turnstileLoading) {
+      window.__turnstileLoading.push(renderMmsTurnstile, renderMmsTurnstile);
+    } else if (!document.querySelector('script[src*="turnstile/v0/api.js"]')) {
+      window.__turnstileLoading = [renderMmsTurnstile, renderMmsTurnstile];
+      window.mmsTurnstileOnLoad = function () {
+        var queue = window.__turnstileLoading;
+        window.__turnstileLoading = null;
+        for (var i = 0; i < queue.length; i += 2) queue[i]();
+      };
+      var s = document.createElement('script');
+      s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?onload=mmsTurnstileOnLoad&render=explicit';
+      s.async = true;
+      s.defer = true;
+      document.head.appendChild(s);
+    } else {
+      document.querySelector('script[src*="turnstile/v0/api.js"]').addEventListener('load', renderMmsTurnstile);
+    }
+  })();
+</script>
+
+
+<style>
+  :root {
+    --vpm-dark-blue: #003865;
+    --vpm-black:     #101820;
+    --mm-bg:     #C1E2FF;
+    --mm-circle: #0952A2;
+    --radius-md: 4px;
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.12);
+  }
+
+  .vpm-mms, .vpm-mms *, .vpm-mms *::before, .vpm-mms *::after { box-sizing: border-box; }
+
+  .vpm-mms {
+    font-family: 'Public Sans', sans-serif;
+    color: var(--vpm-black);
+    max-width: 340px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+  }
+
+  .vpm-mms__top {
+    background: var(--mm-bg);
+    padding: 0 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .vpm-mms__dome {
+    width: 100%;
+    background: var(--mm-circle);
+    border-radius: 0 0 50% 50% / 0 0 60% 60%;
+    padding: 28px 24px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vpm-mms__dome img { max-width: 160px; }
+  .vpm-mms__top p { text-align: center; font-size: 14px; color: var(--vpm-dark-blue); font-weight: 700; line-height: 1.4; margin: 0; }
+
+  .vpm-mms__bottom {
+    background: var(--mm-bg);
+    padding: 0 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .vpm-mms__input {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 13px 16px;
+    border: 1.5px solid #d0d4d8;
+    border-radius: var(--radius-md);
+    outline: none;
+    transition: border-color 0.2s;
+    background: #fff;
+    color: var(--vpm-black);
+  }
+  .vpm-mms__input:focus { border-color: var(--mm-circle); }
+
+  .vpm-mms__btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--vpm-dark-blue);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-md);
+    padding: 14px 28px;
+    cursor: pointer;
+    transition: background 0.2s, opacity 0.2s;
+    white-space: nowrap;
+  }
+  .vpm-mms__btn:hover:not(:disabled) { background: #00294a; }
+  .vpm-mms__btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+  .vpm-mms__privacy { font-size: 12px; color: #777; line-height: 1.5; margin: 0; }
+
+  .vpm-mms__status { font-size: 13px; margin: 0; }
+  .vpm-mms__status.ok { color: #1a7a3a; }
+  .vpm-mms__status.err { color: #b00020; }
+
+  .vpm-mms__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vpm-mms__form[hidden] { display: none; }
+</style>
+
+<div class="vpm-mms">
+  <div class="vpm-mms__top">
+    <div class="vpm-mms__dome">
+      <img src="https://mhdesigns98.github.io/vpm-widgets/widgets/morning-monitor-signup/assets/morning-monitor-lockup.svg" alt="VPM News Morning Monitor" />
+    </div>
+    <p>News from across the Commonwealth every weekday morning.</p>
+  </div>
+  <div class="vpm-mms__bottom">
+    <form id="mms-form" class="vpm-mms__form">
+      <input type="email" id="mms-email" class="vpm-mms__input" placeholder="Enter your email address" required style="margin-bottom:12px;" />
+      <button type="submit" class="vpm-mms__btn" id="mms-submit">Keep Me Informed</button>
+      <div class="cf-turnstile" data-theme="light" style="margin-top:12px;"></div>
+
+    </form>
+    <p class="vpm-mms__privacy">We respect your privacy. Your information will never be sold. Unsubscribe at any time.</p>
+    <div id="mms-status" role="status" aria-live="polite"></div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const API_BASE_URL = 'https://newsletter-signup-8kv.pages.dev/api/subscribe';
+    const form = document.getElementById('mms-form');
+    const submitBtn = document.getElementById('mms-submit');
+    const statusEl = document.getElementById('mms-status');
+
+    function setStatus(text, variant) {
+      statusEl.textContent = '';
+      const p = document.createElement('p');
+      p.className = variant ? `vpm-mms__status ${variant}` : 'vpm-mms__status';
+      p.textContent = text;
+      statusEl.appendChild(p);
+    }
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const email = document.getElementById('mms-email').value;
+      const turnstileInput = form.querySelector('[name="cf-turnstile-response"]');
+      const turnstileToken = turnstileInput ? turnstileInput.value : undefined;
+
+      submitBtn.disabled = true;
+      setStatus('Submitting…');
+
+      try {
+        const response = await fetch(API_BASE_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, newsletters: ['morning-monitor'], turnstileToken, source: 'Website Embed' }),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok && !data.results) {
+          setStatus(data.error || 'Something went wrong.', 'err');
+          submitBtn.disabled = false;
+          return;
+        }
+
+        const result = data.results[0];
+        if (result.ok) {
+          setStatus("You're all set! Thank you for subscribing.", 'ok');
+          form.hidden = true;
+        } else {
+          setStatus(result.detail, 'err');
+          submitBtn.disabled = false;
+        }
+      } catch (err) {
+        setStatus('Network error — is the API running?', 'err');
+        submitBtn.disabled = false;
+      }
+    });
+  })();
+</script>
+</div></div><div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="display:flex;flex-direction:column;align-items:center;">
+  <span style="font-size:0.75rem;color:#666;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:0.5rem;">Advertisement</span>
+  <div style="width:300px;min-height:600px;display:flex;justify-content:center;align-items:flex-start;">
+    <div id="placement_1063081_0"></div>
+  </div>
+</div>
+<script>
+(function() {
+  'use strict';
+  
+  if (!window.AdButler) {
+    var s = document.createElement("script");
+    s.async = true;
+    s.type = "text/javascript";
+    s.src = 'https://servedbyadbutler.com/app.js';
+    s.onerror = function() {
+      console.error('Failed to load AdButler library');
+    };
+    var n = document.getElementsByTagName("script")[0];
+    n.parentNode.insertBefore(s, n);
+  }
+  
+  window.AdButler = window.AdButler || {};
+  window.AdButler.ads = window.AdButler.ads || [];
+  window.abkw = window.abkw || '';
+  window.plc1063081 = window.plc1063081 || 0;
+  
+  var initAttempts = 0;
+  var maxAttempts = 50;
+  
+  function registerAd() {
+    initAttempts++;
+    
+    if (typeof AdButler !== 'undefined' && 
+        typeof AdButler.register === 'function') {
+      
+      try {
+        AdButler.ads.push({
+          handler: function(opt) {
+            AdButler.register(171178, 1063081, [300,600], 
+              'placement_1063081_' + opt.place, opt);
+          },
+          opt: {
+            place: window.plc1063081++,
+            keywords: window.abkw,
+            domain: 'servedbyadbutler.com',
+            click: 'CLICK_MACRO_PLACEHOLDER'
+          }
+        });
+      } catch(e) {
+        console.error('Error registering AdButler ad 1063081:', e);
+      }
+      
+    } else if (initAttempts < maxAttempts) {
+      setTimeout(registerAd, 100);
+    } else {
+      console.error('AdButler 1063081 failed to load');
+    }
+  }
+  
+  registerAd();
+  
+})();
+</script></div></div>            </aside>
+        </aside>
+
+            </div><!-- .ArtP-wrapper -->
+</div><!-- .ArtP-content -->
+
+<div class="Page-below">
+    <div class="ListE">
+        <div class="ListE-header">
+            <div class="square"></div>
+            <div class="ListE-header-title">Related Stories</div>
+        </div>
+
+        <ul class="ListE-items">
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/news/2026-11-05/dominion-nextera-scc-bob-blue-electric-utility-grid/" class="Link" aria-label="Dominion CEO Bob Blue defends NextEra merger deal">
+                                                        <img class="Image" src="https://wsrv.nl/?url=https%3A%2F%2Fk1-prod-vpm.s3.us-east-2.amazonaws.com%2Fbrightspot%2F91%2F4f%2F277e515143659c63c4320180a48c%2F20260417-plane-sa1-6222.jpg&#038;w=400&#038;output=webp&#038;q=80&#038;we"
+                                 alt="Dominion CEO Bob Blue defends NextEra merger deal"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/news/" class="Link">VPM News</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/news/2026-11-05/dominion-nextera-scc-bob-blue-electric-utility-grid/" class="Link">Dominion CEO Bob Blue defends NextEra merger deal</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Patrick Larsen                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 5, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">The utilities said the $67B proposal is good — but will accept some new conditions.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/news/2026-11-05/how-richmond-city-handles-votes-after-the-polls-close/" class="Link" aria-label="How Richmond City handles votes after the polls close">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/2026/11/IMG_9485-280x156.jpg"
+                                 alt="How Richmond City handles votes after the polls close"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/news/" class="Link">VPM News</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/news/2026-11-05/how-richmond-city-handles-votes-after-the-polls-close/" class="Link">How Richmond City handles votes after the polls close</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Dean Mirshahi                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 5, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">The canvass process is used to certify vote totals, turnout and other statistics.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-04/va05-mcguire-perriello-election-results-unofficial/" class="Link" aria-label="John McGuire holds off Tom Perriello in 5th Congressional District">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/bs/174/174020-2024112-elex-trump-sa-4621-280x156.webp"
+                                 alt="John McGuire holds off Tom Perriello in 5th Congressional District"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-04/va05-mcguire-perriello-election-results-unofficial/" class="Link">John McGuire holds off Tom Perriello in 5th Congressional District</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Billy Shields, Hannah Davis-Reid and Sean McGoey                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 4, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">Updated: The Associated Press declared McGuire the winner late Thursday morning.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-04/va01-wittman-taylor-results-unofficial/" class="Link" aria-label="Taylor unseats GOP stalwart Rob Wittman in 1st Congressional District">
+                                                        <img class="Image" src="https://wsrv.nl/?url=https%3A%2F%2Fk1-prod-vpm.s3.us-east-2.amazonaws.com%2Fbrightspot%2F7a%2F18%2F0386fc2643e78c345c0108584941%2F20250317-elex-2025-sa2-1753.jpg&#038;w=400&#038;output=webp&#038;q=80&#038;we"
+                                 alt="Taylor unseats GOP stalwart Rob Wittman in 1st Congressional District"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-04/va01-wittman-taylor-results-unofficial/" class="Link">Taylor unseats GOP stalwart Rob Wittman in 1st Congressional District</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Jahd Khalil, Lyndon German and Sean McGoey                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 4, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">Updated: The district will have a new face in Washington for the first time since Wittman was sworn in in...</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-04/chesterfield-school-board-supervisors-brady-hylton-results-unofficial/" class="Link" aria-label="Chesterfield voters send Brady to school board, confirm Hylton as Dale supervisor">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/2026/11/20261104-chesterfield-brady-hylton-composite-280x156.jpg"
+                                 alt="Chesterfield voters send Brady to school board, confirm Hylton as Dale supervisor"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-04/chesterfield-school-board-supervisors-brady-hylton-results-unofficial/" class="Link">Chesterfield voters send Brady to school board, confirm Hylton as Dale supervisor</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Billy Shields                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 4, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">Both electees will serve through the end of 2027.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-04/rva-school-board-6th-district-mcdonnough-holton-election-results/" class="Link" aria-label="Jackie McDonnough wins Richmond School Board special election">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/2026/11/IMG_1111-280x156.jpg"
+                                 alt="Jackie McDonnough wins Richmond School Board special election"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-04/rva-school-board-6th-district-mcdonnough-holton-election-results/" class="Link">Jackie McDonnough wins Richmond School Board special election</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Keyris Manzanares                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 4, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">McDonnough’s victory marks a new chapter in the 6th District.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-03/hanover-sheriff-six-dandridge-election-results-unofficial/" class="Link" aria-label="Gregory Six wins special election to remain Hanover County sheriff">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/2026/11/Screenshot-2026-11-03-at-11.17.02-PM-280x156.jpg"
+                                 alt="Gregory Six wins special election to remain Hanover County sheriff"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-03/hanover-sheriff-six-dandridge-election-results-unofficial/" class="Link">Gregory Six wins special election to remain Hanover County sheriff</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Lyndon German                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 3, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">&quot;Thank you Hanover County for your continued trust to serve as your Sheriff,&quot; Six said.</div>
+                    </div>
+                </div>
+            </li>
+                        <li class="ListE-items-item">
+                <div class="PromoA" data-list="listE">
+                    <div class="PromoA-media">
+                        <a href="https://www.vpm.org/elections/2026-11-03/va-constitutional-amendments-results/" class="Link" aria-label="Virginia voters sign off on all 3 constitutional amendments">
+                                                        <img class="Image" src="https://www.vpm.org/wp-content/uploads/2026/11/20261103TomahawkCreekSchoolSE-1-280x156.jpg"
+                                 alt="Virginia voters sign off on all 3 constitutional amendments"
+                                 width="280" height="156" loading="lazy">
+                                                    </a>
+                    </div>
+                    <div class="PromoA-content">
+                                                <div class="PromoA-category">
+                            <div class="square"></div>
+                            <a href="https://www.vpm.org/category/elections/" class="Link">Virginia Elections</a>
+                        </div>
+                                                <div class="PromoA-title">
+                            <a href="https://www.vpm.org/elections/2026-11-03/va-constitutional-amendments-results/" class="Link">Virginia voters sign off on all 3 constitutional amendments</a>
+                        </div>
+                        <div class="PromoA-byline">
+                            <div class="PromoA-authorName">
+                                Jahd Khalil, Dean Mirshahi, Whittney Evans and Dawnthea M. Price Lisco                            </div>
+                            <span class="PromoA-byline-divider">,</span>
+                            <div class="PromoA-date">
+                                <span>November 3, 2026</span>
+                            </div>
+                        </div>
+                        <div class="PromoA-description">Voters approved amendments relating to reproductive rights, marriage equality and voting rights.</div>
+                    </div>
+                </div>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="https://www.vpm.org/" class="footer-logo">
+                      <img src="https://www.vpm.org/wp-content/uploads/2026/06/vpm-footer-logo.png" alt="VPM" style="height:50px;width:auto;">
+                  </a>
+
+                <a href="/stay-connected-to-what-matters" class="newsletter-badge">Newsletter Signup</a>
+        
+        <div class="footer-social">
+                    <a href="https://www.facebook.com/myVPM" target="_blank" rel="noreferrer" aria-label="Facebook">
+            <svg width="16" height="16" fill="currentColor"><use xlink:href="#mono-icon-facebook"></use></svg>
+          </a>
+                    <a href="https://twitter.com/myVPM" target="_blank" rel="noreferrer" aria-label="Twitter">
+            <svg width="16" height="16" fill="currentColor"><use xlink:href="#mono-icon-twitter"></use></svg>
+          </a>
+                    <a href="https://www.instagram.com/myvpm/" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg width="16" height="16" fill="currentColor"><use xlink:href="#mono-icon-instagram"></use></svg>
+          </a>
+                    <a href="https://www.youtube.com/channel/UC0G2XnXhO8SA0CGvxQUawEA" target="_blank" rel="noreferrer" aria-label="YouTube">
+            <svg width="16" height="16" fill="currentColor"><use xlink:href="#mono-icon-youtube"></use></svg>
+          </a>
+                    <a href="https://www.linkedin.com/company/vpm-media-corporation" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg width="16" height="16" fill="currentColor"><use xlink:href="#mono-icon-linkedin"></use></svg>
+          </a>
+                  </div>
+
+        <div class="footer-address">
+          15 E. Broad St., Richmond, VA 23219 &bull; 804.320.1301<br>&copy; Copyright VPM. All rights reserved. PBS is a 501(c)(3) non-profit organization.        </div>
+      </div>
+
+      <li id="menu-item-465857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-465857"><a href="#">Your VPM</a>
+<ul class="sub-menu">
+	<li id="menu-item-444245" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444245"><a href="https://www.pbs.org/passport/lookup/">Do I Have Passport?</a></li>
+	<li id="menu-item-444246" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444246"><a href="https://donate.vpm.org/site/SPageNavigator/member_center.html">My Account</a></li>
+	<li id="menu-item-444247" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444247"><a href="https://www.vpm.org/vpm-tv-schedule/">Schedule</a></li>
+	<li id="menu-item-444248" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444248"><a href="https://www.vpm.org/stream-vpm">Streaming VPM</a></li>
+</ul>
+</li>
+<li id="menu-item-465858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-465858"><a href="#">Connect with VPM</a>
+<ul class="sub-menu">
+	<li id="menu-item-444249" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444249"><a href="https://www.vpm.org/business-sponsorship/">Become a Business Sponsor</a></li>
+	<li id="menu-item-444250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444250"><a href="https://www.vpm.org/employment-opportunities/">Careers</a></li>
+	<li id="menu-item-488158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488158"><a href="https://www.vpm.org/vpm-internship-program/">Internships</a></li>
+	<li id="menu-item-444252" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444252"><a href="https://www.vpm.org/contact/">Contact Us</a></li>
+	<li id="menu-item-465859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-465859"><a href="https://www.vpm.org/submissions">Content Submissions</a></li>
+	<li id="menu-item-465860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-465860"><a href="https://www.vpm.org/stay-connected-to-what-matters">Newsletter sign-up</a></li>
+	<li id="menu-item-444253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444253"><a href="https://www.vpm.org/tag/pressroom/">Pressroom &#038; Media Inquiries</a></li>
+</ul>
+</li>
+<li id="menu-item-466170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-466170"><a href="#">Learn More</a>
+<ul class="sub-menu">
+	<li id="menu-item-444254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444254"><a href="https://www.vpm.org/community-service-announcements-application-psa/">Media Sponsorship</a></li>
+	<li id="menu-item-444255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444255"><a href="https://www.vpm.org/public-notices-policies-and-reports/">Notices, Policies and Reports</a></li>
+	<li id="menu-item-444321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-444321"><a href="https://forward.vpm.org/we-moved/">A New Home for VPM</a></li>
+</ul>
+</li>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 VPM. All Rights Reserved.</span>
+            <a href="https://www.helpdesk.com/" class="helpdesk">&#9881; HelpDesk</a>
+          </div>
+
+    <p class="author-info">Website by <a href="//webpublisherpro.com" target="_blank">Web Publisher PRO</a> | Protected by <a target="_blank" href="https://webpublisherpro.com/bot-shield/">Bot Shield</a></p>
+  </div>
+</footer>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/wpp-base/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="bsm-navigation-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/navigation.js?ver=1.4.25"></script>
+<script id="bsm-gallery-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/gallery.js?ver=1.4.25"></script>
+<script id="bsm-lightbox-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/lightbox.js?ver=1.4.25"></script>
+<script id="bsm-tabs-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/tabs.js?ver=1.4.25"></script>
+<script id="bsm-facebook-fit-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/facebook-fit.js?ver=1.4.25"></script>
+<script id="bsm-load-more-js-extra">
+var bsmLoadMore = {"ajaxUrl":"https://www.vpm.org/wp-admin/admin-ajax.php","nonce":"39bc45090a"};
+//# sourceURL=bsm-load-more-js-extra
+</script>
+<script id="bsm-load-more-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/load-more.js?ver=1.4.25"></script>
+<script id="howler-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/howler.min.js?ver=2.2.4"></script>
+<script id="bsm-player-js-extra">
+var bsmPlayerConfig = {"streams":[{"name":"VPM News","url":"https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEFM.mp3","type":"audio/mpeg","mount":"WCVEFM","channelId":"d431ff0f-f2bd-4cf0-a9ea-af61d88a4210"},{"name":"VPM Music","url":"https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEHD2.mp3","type":"audio/mpeg","mount":"WCVEHD2","channelId":"a69a46b6-1b44-4667-a4de-196641518f47"}],"defaultStream":"0","siteUrl":"https://www.vpm.org/","metadataUrl":"https://np.tritondigital.com/public/nowplaying?mountName={mount}&numberToFetch=1&eventType=track","scheduleUrl":"https://www.vpm.org/wp-admin/admin-ajax.php?action=bsm_cadence_schedule&channelId={channelId}"};
+//# sourceURL=bsm-player-js-extra
+</script>
+<script id="bsm-player-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/player.js?ver=1.4.25"></script>
+<script id="bsm-pjax-js" src="https://www.vpm.org/wp-content/themes/wpp-base/assets/js/pjax.js?ver=1.4.25"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.vpm.org/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.vpm.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

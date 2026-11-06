@@ -1,0 +1,30 @@
+[
+  {
+    "source_key": "e4_ky_directory",
+    "source_row": 1,
+    "raw": {
+      "source_school": "Bloomfield Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/bloomfield-elementary-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Not verified as academic school-year immersion in this pass."
+  },
+  {
+    "source_key": "e4_ky_directory",
+    "source_row": 2,
+    "raw": {
+      "source_school": "Maxwell Elementary",
+      "directory_url": "https://duallanguageschools.org/school/maxwell-elementary/"
+    },
+    "program_ids": [
+      "E4-KY-P-7b499d93d9fa"
+    ],
+    "school_ids": [
+      "E4-KY-S-291ceb18b92a"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  }
+]

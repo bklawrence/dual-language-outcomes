@@ -1,0 +1,26 @@
+[
+  {
+    "school": "Bloomfield Elementary School",
+    "district": "Nelson County Schools",
+    "source": "e4_ky_bloomfield_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Bloomfield Elementary School",
+    "disposition": "directory_lead_academic_immersion_unconfirmed",
+    "reason": "Third-party directory supplies address/contact only, with no language/model or academic immersion description. Current school landing page does not verify DLI; retained as scope lead, not counted as qualifying programme.",
+    "notes": "",
+    "additional_sources": [
+      "e4_ky_bloomfield",
+      "e4_ky_directory"
+    ]
+  },
+  {
+    "school": "State language immersion resource",
+    "district": "",
+    "source": "e4_ky_doe",
+    "period": "September 22, 2025",
+    "locator": "State language immersion resource",
+    "disposition": "state_definition_not_complete_roster_or_exact_allocation",
+    "reason": "Official page published September 22, 2025 describes academic immersion and at least 50% target-language instruction. Its Fayette link is not a complete school roster and the minimum is not an exact universal 50/50 rule.",
+    "notes": ""
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "school": "State world-language provision",
+    "district": "",
+    "source": "e4_wv_doe",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "State world-language provision",
+    "disposition": "screened_no_verified_academic_dli",
+    "reason": "Official secondary world-language and visiting-teacher resources do not supply a verified academic DLI host roster; no statewide absence inferred.",
+    "notes": ""
+  },
+  {
+    "school": "North Elementary School",
+    "district": "Monongalia County Schools",
+    "source": "e4_wv_north",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "North Elementary School",
+    "disposition": "academic_immersion_scope_unconfirmed",
+    "reason": "Third-party directory lists the host but current school describes Chinese among daily enrichment opportunities, without academic content immersion or instructional allocation. Language-programme scope requires verification.",
+    "notes": "",
+    "additional_sources": [
+      "e4_wv_north_directory",
+      "e4_wv_directory"
+    ]
+  },
+  {
+    "school": "Cheat Lake Elementary School",
+    "district": "Monongalia County Schools",
+    "source": "e4_wv_chinese_camp18",
+    "period": "June 20, 2018",
+    "locator": "Cheat Lake Elementary School",
+    "disposition": "summer_enrichment_not_school_year_dli",
+    "reason": "June 2018 STARTALK Chinese immersion is explicitly a summer enrichment camp, not a school-year academic DLI programme.",
+    "notes": ""
+  },
+  {
+    "school": "West Virginia Schools for the Deaf and the Blind",
+    "district": "State-operated school: West Virginia Schools for the Deaf and the Blind",
+    "source": "e4_wv_deaf25",
+    "period": "2025 official booklet",
+    "locator": "West Virginia Schools for the Deaf and the Blind",
+    "disposition": "asl_bilingual_academic_programme_scope_unconfirmed",
+    "reason": "State-operated public core academics and individualized ASL/spoken English/tactile/Braille access are documented, but structured ASL-English bilingual academic immersion is not established. Braille is an encoding system, not a separate instructional language.",
+    "notes": "",
+    "additional_sources": [
+      "e4_wv_deaf_faq"
+    ]
+  }
+]

@@ -2,7 +2,20 @@
   "state_code": "VA",
   "state_name": "Virginia",
   "state_fips": "51",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "virginia",
+  "collection_status": "integrated_partial",
+  "notes": "Four-state OH/KY/WV/VA structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+  "structural_inputs": {
+    "programmes": "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.json",
+    "screening": "data/registry/oh_ky_wv_va_2026_11_05/va_screening.json",
+    "sources": "data/registry/oh_ky_wv_va_2026_11_05/sources.json",
+    "reviews": "data/registry/oh_ky_wv_va_2026_11_05/reviews.json",
+    "selection_summary": "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json",
+    "source_extractions": "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json",
+    "retrievals": "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv",
+    "identity_decisions": "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json",
+    "source_redactions": "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json",
+    "grade_context": "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json",
+    "roster_reconciliation": "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json"
+  }
 }

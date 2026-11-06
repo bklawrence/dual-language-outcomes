@@ -1,0 +1,16 @@
+{
+  "url": "https://www.fcps.net/fs/resource-manager/view/bb004870-d9b5-4179-b6d6-946d11ec8afe",
+  "retrieved_at": "2026-11-06T00:46:02.577611+00:00",
+  "http_status": 200,
+  "final_url": "https://resources.finalsite.net/images/v1749839812/fcpsnet/gllxwg2v3brlm4fxvvnx/DLI_brochure.pdf",
+  "content_type": "application/pdf",
+  "content_encoding": "",
+  "sha256": "e6186e6686f87835170fcb1efcc4cf142d534a251d8bbf79a29ade0fee0f5db4",
+  "bytes": 989654,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "e4_ky_fayette_brochure",
+  "text_extraction_method": "Derived OCR with Tesseract from both original PDF pages, rendered at 150 dpi; critical programme/model details visually reviewed",
+  "snapshot_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ky_fayette_brochure.pdf",
+  "full_response_sha256": "e6186e6686f87835170fcb1efcc4cf142d534a251d8bbf79a29ade0fee0f5db4"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=51&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "retrieved_at": "2026-11-06T00:49:11.528232+00:00",
+  "http_status": 200,
+  "final_url": "https://educationdata.urban.org/api/v1/schools/ccd/directory/2024/?fips=51&fields=year%2Cncessch%2Cschool_name%2Clea_name%2Cstate_leaid%2Cseasch%2Clowest_grade_offered%2Chighest_grade_offered%2Cschool_level%2Cschool_status%2Cfips",
+  "content_type": "application/json",
+  "content_encoding": "",
+  "sha256": "6d65a062fc3242d438e7a5ee2f5486bb5ace712a7a8a6e939cb4f10c52287f5a",
+  "bytes": 574510,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "NCES CCD 2024–25 school directory grade context: VA",
+  "snapshot_path": "data/raw/oh_ky_wv_va_2026_11_05/e4_ccd2024_VA.json",
+  "full_response_sha256": "6d65a062fc3242d438e7a5ee2f5486bb5ace712a7a8a6e939cb4f10c52287f5a"
+}

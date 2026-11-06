@@ -1,0 +1,29 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "OH",
+    "KY",
+    "WV",
+    "VA"
+  ],
+  "programme_records": {
+    "OH": 11,
+    "KY": 10,
+    "WV": 0,
+    "VA": 89
+  },
+  "programme_host_schools": {
+    "OH": 9,
+    "KY": 10,
+    "WV": 0,
+    "VA": 89
+  },
+  "screening_rows": {
+    "OH": 5,
+    "KY": 2,
+    "WV": 4,
+    "VA": 8
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 1,
+    "raw": {
+      "school": "Christopher Farms Elementary School",
+      "grade": "1-5",
+      "model": "one-way 50/50"
+    },
+    "program_ids": [
+      "E4-VA-P-c690e1a84d90"
+    ],
+    "school_ids": [
+      "E4-VA-S-438881d3ba88"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 2,
+    "raw": {
+      "school": "Alanton Elementary School",
+      "grade": "1-5",
+      "model": "one-way 50/50"
+    },
+    "program_ids": [
+      "E4-VA-P-c682aa0c7a9c"
+    ],
+    "school_ids": [
+      "E4-VA-S-e25517c160ed"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 3,
+    "raw": {
+      "school": "Trantwood Elementary School",
+      "grade": "1-5",
+      "model": "one-way 50/50"
+    },
+    "program_ids": [
+      "E4-VA-P-740ea96d23fd"
+    ],
+    "school_ids": [
+      "E4-VA-S-c88f09ad4664"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 4,
+    "raw": {
+      "school": "Bayside Elementary School",
+      "grade_design": "K-5",
+      "grade_4_implemented": "2025-26",
+      "model": "two-way 80/20 -> 50/50 grades 3-5"
+    },
+    "program_ids": [
+      "E4-VA-P-ebd81ae98f6a"
+    ],
+    "school_ids": [
+      "E4-VA-S-beca341068b5"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 5,
+    "raw": {
+      "school": "W. T. Cooke Elementary School",
+      "grade_design": "K-5",
+      "grade_4_implemented": "2025-26",
+      "model": "two-way 80/20 -> 50/50 grades 3-5"
+    },
+    "program_ids": [
+      "E4-VA-P-e50c743da9bd"
+    ],
+    "school_ids": [
+      "E4-VA-S-4b03ee763d7c"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 6,
+    "raw": {
+      "school": "Landstown Middle School",
+      "grade": "6-8",
+      "start": "established"
+    },
+    "program_ids": [
+      "E4-VA-P-8185f77bc31b"
+    ],
+    "school_ids": [
+      "E4-VA-S-3e62ed7e01f3"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 7,
+    "raw": {
+      "school": "Great Neck Middle School",
+      "grade": "6-8",
+      "start": "established"
+    },
+    "program_ids": [
+      "E4-VA-P-70b98a089c6c"
+    ],
+    "school_ids": [
+      "E4-VA-S-0c73cd83a061"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 8,
+    "raw": {
+      "school": "Bayside Middle School",
+      "grade": "6-8",
+      "start": "anticipated 2027-28"
+    },
+    "program_ids": [
+      "E4-VA-P-9aad44caf948"
+    ],
+    "school_ids": [
+      "E4-VA-S-7486726bb24a"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "e4_va_beach",
+    "source_row": 9,
+    "raw": {
+      "school": "Virginia Beach Middle School",
+      "grade": "6-8",
+      "start": "anticipated 2027-28"
+    },
+    "program_ids": [
+      "E4-VA-P-b684d4c2046a"
+    ],
+    "school_ids": [
+      "E4-VA-S-71dc894d97d9"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 1,
+    "raw": {
+      "source_school": "Academy for Multilingual Immersion Studies",
+      "directory_url": "https://duallanguageschools.org/school/academy-for-multilingual-immersion-studies/"
+    },
+    "program_ids": [
+      "E4-OH-P-79db4c423b27"
+    ],
+    "school_ids": [
+      "E4-OH-S-f7e45ac8156b"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 2,
+    "raw": {
+      "source_school": "Academy of Multilingual Immersion Studies",
+      "directory_url": "https://duallanguageschools.org/school/academy-of-multilingual-immersion-studies/"
+    },
+    "program_ids": [
+      "E4-OH-P-79db4c423b27"
+    ],
+    "school_ids": [
+      "E4-OH-S-f7e45ac8156b"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 3,
+    "raw": {
+      "source_school": "Bond Hill Academy",
+      "directory_url": "https://duallanguageschools.org/school/bond-hill-academy/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Not verified as academic school-year immersion in this pass."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 4,
+    "raw": {
+      "source_school": "Buhrer Dual Language Academy",
+      "directory_url": "https://duallanguageschools.org/school/buhrer-dual-language-academy/"
+    },
+    "program_ids": [
+      "E4-OH-P-905b5e97480b"
+    ],
+    "school_ids": [
+      "E4-OH-S-1ae8e645eb95"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 5,
+    "raw": {
+      "source_school": "Columbus Spanish Immersion Academy",
+      "directory_url": "https://duallanguageschools.org/school/columbus-spanish-immersion-academy/"
+    },
+    "program_ids": [
+      "E4-OH-P-03d9cbd8b56f"
+    ],
+    "school_ids": [
+      "E4-OH-S-cdc89866a34c"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 6,
+    "raw": {
+      "source_school": "Global Ambassadors Language Academy",
+      "directory_url": "https://duallanguageschools.org/school/global-ambassadors-language-academy/"
+    },
+    "program_ids": [
+      "E4-OH-P-d9f31d112427",
+      "E4-OH-P-f2a495502c93"
+    ],
+    "school_ids": [
+      "E4-OH-S-cdb77a8b18e4"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  },
+  {
+    "source_key": "e4_oh_directory",
+    "source_row": 7,
+    "raw": {
+      "source_school": "Luis Munoz Marin",
+      "directory_url": "https://duallanguageschools.org/school/luis-munoz-marin/"
+    },
+    "program_ids": [
+      "E4-OH-P-f08a6dc1b34d"
+    ],
+    "school_ids": [
+      "E4-OH-S-a97ebf154577"
+    ],
+    "disposition": "integrated",
+    "notes": "Directory cards are leads only; actual language/scope comes from reviewed sources. Duplicate AMIS names map to the same programme."
+  }
+]

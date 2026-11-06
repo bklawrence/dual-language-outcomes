@@ -1,0 +1,146 @@
+[
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 1,
+    "raw": {
+      "source_school": "Bluestone Elementary School",
+      "grade": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-71d7f03dfa9c"
+    ],
+    "school_ids": [
+      "E4-VA-S-79c0779d715d"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 2,
+    "raw": {
+      "source_school": "Keister Elementary School",
+      "grade": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-e64b80789ed1"
+    ],
+    "school_ids": [
+      "E4-VA-S-6065c5353d2d"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 3,
+    "raw": {
+      "source_school": "Smithland Elementary School",
+      "grade": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-16f371a4b209"
+    ],
+    "school_ids": [
+      "E4-VA-S-da8f9000bbd9"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 4,
+    "raw": {
+      "source_school": "Spotswood Elementary School",
+      "grade": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-81c13ad0a1f6"
+    ],
+    "school_ids": [
+      "E4-VA-S-04c31882afcd"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 5,
+    "raw": {
+      "source_school": "Waterman Elementary School",
+      "grade": "K-5"
+    },
+    "program_ids": [
+      "E4-VA-P-7a75f1d0068f"
+    ],
+    "school_ids": [
+      "E4-VA-S-37d3ef25219f"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 6,
+    "raw": {
+      "source_school": "Skyline Middle School",
+      "grade": "6-8"
+    },
+    "program_ids": [
+      "E4-VA-P-4c7a4e6c2c54"
+    ],
+    "school_ids": [
+      "E4-VA-S-bc7fcc5597e0"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 7,
+    "raw": {
+      "source_school": "Thomas Harrisonburg Middle School",
+      "grade": "6-8"
+    },
+    "program_ids": [
+      "E4-VA-P-759c9640a4bd"
+    ],
+    "school_ids": [
+      "E4-VA-S-f73b4a8116d9"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 8,
+    "raw": {
+      "source_school": "Harrisonburg High School",
+      "grade": "9-12"
+    },
+    "program_ids": [
+      "E4-VA-P-b3d94f7fdcad"
+    ],
+    "school_ids": [
+      "E4-VA-S-50d720beed8f"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  },
+  {
+    "source_key": "e4_va_harrisonburg",
+    "source_row": 9,
+    "raw": {
+      "source_school": "Rocktown High School",
+      "grade": "9-12"
+    },
+    "program_ids": [
+      "E4-VA-P-fe3392471394"
+    ],
+    "school_ids": [
+      "E4-VA-S-f0e108bfa53a"
+    ],
+    "disposition": "integrated",
+    "notes": "Official host row; reviewed typo alias retained."
+  }
+]

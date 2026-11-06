@@ -1,0 +1,86 @@
+{
+  "reference_school_year": "2025-26",
+  "programme_records": 110,
+  "school_units": 108,
+  "public_source_documents": 105,
+  "state_summary": [
+    {
+      "state": "KY",
+      "programme_records": 10,
+      "school_units": 10,
+      "confirmed_qualifying_reference_school_units": 9,
+      "elementary_reference_school_units": 6,
+      "elementary_reference_schools_with_numerical_model": 6,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 3,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "OH",
+      "programme_records": 11,
+      "school_units": 9,
+      "confirmed_qualifying_reference_school_units": 8,
+      "elementary_reference_school_units": 7,
+      "elementary_reference_schools_with_numerical_model": 7,
+      "elementary_reference_model_coverage_pct": 100.0,
+      "secondary_6_plus_reference_units_excluded": 1,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "VA",
+      "programme_records": 89,
+      "school_units": 89,
+      "confirmed_qualifying_reference_school_units": 82,
+      "elementary_reference_school_units": 51,
+      "elementary_reference_schools_with_numerical_model": 42,
+      "elementary_reference_model_coverage_pct": 82.4,
+      "secondary_6_plus_reference_units_excluded": 31,
+      "statewide_completeness": "not_established"
+    },
+    {
+      "state": "WV",
+      "programme_records": 0,
+      "school_units": 0,
+      "confirmed_qualifying_reference_school_units": 0,
+      "elementary_reference_school_units": 0,
+      "elementary_reference_schools_with_numerical_model": 0,
+      "elementary_reference_model_coverage_pct": null,
+      "secondary_6_plus_reference_units_excluded": 0,
+      "statewide_completeness": "not_established"
+    }
+  ],
+  "statewide_completeness": "not_established",
+  "proficiency_collection": "deferred; twelve existing assessment/context/EL/SEDA outputs preserved",
+  "limitations": [
+    "Partial structural review, not a statewide census; all four states were screened, including states with no verified qualifying programme.",
+    "2025–26 reference operation is distinct from source vintages, later entry-grade expansions, plans, cuts and campus changes.",
+    "Reference model availability uses undated or no-later-than-reference sources; explicitly later models remain in the all-recorded view. Neither view is an observed cohort timetable.",
+    "One-way/two-way pupil composition, seat quotas, at-least percentages and FLES minutes are not exact instructional-time models.",
+    "Academic immersion and formal secondary continuation are retained separately from language electives, specials, preschool-only provision and summer camps.",
+    "Public charter operators are reporting groups, not inferred LEAs. School/campus and programme keys are provisional.",
+    "CCD 2024–25 school-grade metadata supplies denominator context, not programme operation, durable identifier crosswalks or stable cohorts.",
+    "Proficiency, demographic, EL-exit and SEDA collection remains deferred."
+  ],
+  "source_reconciliation_counts": {
+    "va_fairfax_current_elementary_table": 17,
+    "va_harrisonburg_hosts": 9,
+    "va_winchester_current_hosts": 6,
+    "va_beach_programme_hosts": 9,
+    "va_newport_current_hosts": 6,
+    "ky_fayette_current_hosts": 5,
+    "ky_2018_article_hosts_and_plan": 10,
+    "va_fairfax_2025_26_admissions_hosts": 16,
+    "va_vadlen_division_leads": 15,
+    "oh_directory_cards": 7,
+    "ky_directory_cards": 2,
+    "wv_directory_cards": 1
+  },
+  "states_with_programme_records": [
+    "KY",
+    "OH",
+    "VA"
+  ],
+  "screened_only_states": [
+    "WV"
+  ]
+}
