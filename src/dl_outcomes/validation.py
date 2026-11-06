@@ -108,6 +108,8 @@ def validate_tables(tables, definition=None):
         schedule = indices["allocation_schedules"].get((sid,))
         if schedule and schedule["schedule_status"] == "reported_policy_requires_review":
             errors.append(f"instructional_allocations: unreviewed model label converted to named-language shares: {sid}")
+        if schedule and ((schedule["schedule_status"] == "inferred_plan") != any(row["evidence_type"] == "researcher_inference" for row in rows)):
+            errors.append(f"instructional_allocations: inferred schedule/evidence type mismatch: {sid}")
     for row in tables["program_languages"]:
         if row["language_name"].casefold() in {"unknown", "unverified", "not_reported"}:
             errors.append("program_languages: unknown language is a fabricated named-language record")

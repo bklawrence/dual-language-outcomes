@@ -1,0 +1,53 @@
+{
+  "research_date": "2026-11-06",
+  "reference_year": "2025-26",
+  "baseline_primary_schools_reviewed": 200,
+  "baseline_nyc_primary_schools_reviewed": 187,
+  "before": {
+    "schools": 200,
+    "schools_with_models": 8,
+    "coverage_pct": 4.0
+  },
+  "after_same_baseline_schools": {
+    "schools": 200,
+    "schools_with_models": 176,
+    "coverage_pct": 88.0
+  },
+  "current_reference_summary": {
+    "audit_scope": "reference_working_set",
+    "state_code": "NY",
+    "reference_working_set_year": "2025-26",
+    "inventory_school_units": 259,
+    "elementary_school_units": 203,
+    "elementary_schools_with_numerical_model": 178,
+    "numerical_allocation_coverage_pct": 87.7,
+    "elementary_schools_missing_numerical_model": 25,
+    "elementary_schools_with_inferred_models": 20,
+    "elementary_schools_with_only_inferred_models": 16,
+    "secondary_6_plus_school_units_excluded": 56,
+    "preschool_only_school_units_excluded": 0,
+    "unresolved_grade_school_units": 0,
+    "programme_grade_proxy_school_units": 7,
+    "schools_with_flagged_model_evidence": 4,
+    "denominator_status": "classified_working_inventory",
+    "statewide_completeness": "not_established",
+    "interpretation": "School-level model availability across cited source periods. Includes schools serving any K-5 grade, including K-8 and 3-6; excludes schools starting grade 6+. Counts a reported allocation combination totaling 100, full immersion, or an accepted quantified equal-day/minute plan. Not exact K timetables, all-strand completeness, named-language shares or tested-cohort exposure."
+  },
+  "programme_records": 273,
+  "school_units": 259,
+  "added_programme_records": 4,
+  "added_school_units": 4,
+  "archived_followup_sources": 215,
+  "inference_allocations": {
+    "inferred_language_cycle": 18,
+    "inferred_kindergarten_subject_distribution": 2
+  },
+  "limitations": [
+    "Partial inventory, not a complete New York census.",
+    "Coverage means a numerical elementary model is available for at least one strand/grade; not every strand or kindergarten has an exact schedule.",
+    "Inferences estimate scheduled core instruction. Unequal period lengths, English-only supplements and pupil services can change actual exposure.",
+    "Contradictory source claims are retained with review flags, including possible programme-type changes without established closure dates.",
+    "Source periods and later 2026-27 policies remain separate from the 2025-26 operating reference.",
+    "Proficiency collection remains deferred."
+  ]
+}

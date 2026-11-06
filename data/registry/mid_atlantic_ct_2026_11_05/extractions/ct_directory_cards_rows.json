@@ -1,0 +1,134 @@
+[
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 1,
+    "raw": {
+      "source_school": "DiLoreto Dual Language Magnet School",
+      "directory_url": "https://duallanguageschools.org/school/diloreto-dual-language-magnet-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 2,
+    "raw": {
+      "source_school": "East Elementary",
+      "directory_url": "https://duallanguageschools.org/school/east-elementary-2/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 3,
+    "raw": {
+      "source_school": "John C Daniels Magnet School of International Communication",
+      "directory_url": "https://duallanguageschools.org/school/john-c-daniels-magnet-school-of-international-communication/"
+    },
+    "program_ids": [
+      "M6-CT-P-5196b6d7ba11"
+    ],
+    "school_ids": [
+      "M6-CT-S-34debddece9c"
+    ],
+    "disposition": "integrated",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 4,
+    "raw": {
+      "source_school": "John C. Daniels School",
+      "directory_url": "https://duallanguageschools.org/school/john-c-daniels-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 5,
+    "raw": {
+      "source_school": "Juntos @ Stratford Academy",
+      "directory_url": "https://duallanguageschools.org/school/juntos-stratford-academy/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 6,
+    "raw": {
+      "source_school": "North Windham Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/north-windham-elementary-school/"
+    },
+    "program_ids": [
+      "M6-CT-P-bc33f6ae1105"
+    ],
+    "school_ids": [
+      "M6-CT-S-db2798c3b8f4"
+    ],
+    "disposition": "integrated",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 7,
+    "raw": {
+      "source_school": "North Windham Middle School",
+      "directory_url": "https://duallanguageschools.org/school/north-windham-middle-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 8,
+    "raw": {
+      "source_school": "Regional Multicultural Magnet School",
+      "directory_url": "https://duallanguageschools.org/school/regional-multicultural-magnet-school/"
+    },
+    "program_ids": [
+      "M6-CT-P-a97e6e5b1e79"
+    ],
+    "school_ids": [
+      "M6-CT-S-0d556de32dfd"
+    ],
+    "disposition": "integrated",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 9,
+    "raw": {
+      "source_school": "Silvermine Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/silvermine-elementary-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_ct_directory",
+    "source_row": 10,
+    "raw": {
+      "source_school": "West Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/west-elementary-school/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  }
+]

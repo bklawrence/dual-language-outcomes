@@ -1,0 +1,34 @@
+[
+  {
+    "state": "CT",
+    "school": "North Windham Elementary School",
+    "school_id": "M6-CT-S-db2798c3b8f4",
+    "source_key": "m6_ct_windham_close",
+    "ncessch": "090519001214",
+    "lowest_grade_offered": 0,
+    "highest_grade_offered": 4,
+    "source_school_name": "North Windham School",
+    "source_lea_name": "Windham School District",
+    "match_method": "dated_official_district_grade_reconfiguration_overrides_older_school_directory",
+    "evidence_period_raw": "2024-25 NCES CCD school directory",
+    "notes": "Official district moved all fifth graders to Windham Middle in 2025–26; North Windham receives K-2 pupils from closing Windham Center. Older CCD identity/name supplies directory context only; no programme NCES crosswalk is asserted.",
+    "year": "2025-26",
+    "period": "2025-26 school reconfiguration announced after May 22, 2024 board decision"
+  },
+  {
+    "state": "CT",
+    "school": "Windham Middle School",
+    "school_id": "M6-CT-S-30fc271f1d7d",
+    "source_key": "m6_ct_windham_close",
+    "ncessch": "090519001081",
+    "lowest_grade_offered": 5,
+    "highest_grade_offered": 8,
+    "source_school_name": "Windham Middle School",
+    "source_lea_name": "Windham School District",
+    "match_method": "dated_official_district_grade_reconfiguration_overrides_older_school_directory",
+    "evidence_period_raw": "2024-25 NCES CCD school directory",
+    "notes": "Official district moved all fifth graders to Windham Middle in 2025–26; North Windham receives K-2 pupils from closing Windham Center. Older CCD identity/name supplies directory context only; no programme NCES crosswalk is asserted.",
+    "year": "2025-26",
+    "period": "2025-26 school reconfiguration announced after May 22, 2024 board decision"
+  }
+]

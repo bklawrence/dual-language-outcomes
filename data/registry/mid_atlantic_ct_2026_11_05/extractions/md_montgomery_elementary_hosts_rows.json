@@ -1,0 +1,223 @@
+[
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 1,
+    "raw": {
+      "school": "Brown Station Elementary School",
+      "grades": "K-5",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-1da3e3a6b71c"
+    ],
+    "school_ids": [
+      "M6-MD-S-e8a44a5e91b8"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 2,
+    "raw": {
+      "school": "Kemp Mill Elementary School",
+      "grades": "PK-5",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-674d8ab4b2d4"
+    ],
+    "school_ids": [
+      "M6-MD-S-a4944578e9a5"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 3,
+    "raw": {
+      "school": "Gaithersburg Elementary School",
+      "grades": "K-2",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-b13c2f5465cb"
+    ],
+    "school_ids": [
+      "M6-MD-S-33a0b8615d56"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 4,
+    "raw": {
+      "school": "Oakland Terrace Elementary School",
+      "grades": "K-5",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-3eec1f19351b"
+    ],
+    "school_ids": [
+      "M6-MD-S-78fe98d61e3a"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 5,
+    "raw": {
+      "school": "Rolling Terrace Elementary School",
+      "grades": "K-5",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-3c8fda078f51"
+    ],
+    "school_ids": [
+      "M6-MD-S-07e72cdd041a"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 6,
+    "raw": {
+      "school": "Washington Grove Elementary School",
+      "grades": "PK-5",
+      "model": "50/50 TWI"
+    },
+    "program_ids": [
+      "M6-MD-P-3c11c464d868"
+    ],
+    "school_ids": [
+      "M6-MD-S-d8abe17d17a4"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 7,
+    "raw": {
+      "school": "Bayard Rustin Elementary School",
+      "language": "Chinese",
+      "model": "Partial"
+    },
+    "program_ids": [
+      "M6-MD-P-3279d35ffdb6"
+    ],
+    "school_ids": [
+      "M6-MD-S-2343857aa93c"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 8,
+    "raw": {
+      "school": "Potomac Elementary School",
+      "language": "Chinese",
+      "model": "Partial"
+    },
+    "program_ids": [
+      "M6-MD-P-2c427379473d"
+    ],
+    "school_ids": [
+      "M6-MD-S-95745e05d21e"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 9,
+    "raw": {
+      "school": "Maryvale Elementary School",
+      "language": "French",
+      "model": "Total"
+    },
+    "program_ids": [
+      "M6-MD-P-820d3febbb84"
+    ],
+    "school_ids": [
+      "M6-MD-S-a025200bc252"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 10,
+    "raw": {
+      "school": "Sligo Creek Elementary School",
+      "language": "French",
+      "model": "Total"
+    },
+    "program_ids": [
+      "M6-MD-P-2d4979e6b57b"
+    ],
+    "school_ids": [
+      "M6-MD-S-ee7745235722"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 11,
+    "raw": {
+      "school": "Burnt Mills Elementary School",
+      "language": "Spanish",
+      "model": "Total"
+    },
+    "program_ids": [
+      "M6-MD-P-dbee8b67d2ff"
+    ],
+    "school_ids": [
+      "M6-MD-S-cff153698569"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 12,
+    "raw": {
+      "school": "Rock Creek Forest Elementary School",
+      "language": "Spanish",
+      "model": "Total"
+    },
+    "program_ids": [
+      "M6-MD-P-00d13ca0a1b2"
+    ],
+    "school_ids": [
+      "M6-MD-S-b2bc49a171a1"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  },
+  {
+    "source_key": "m6_md_montgomery_immersion",
+    "source_row": 13,
+    "raw": {
+      "school": "William Tyler Page Elementary School",
+      "language": "Spanish",
+      "model": "Total"
+    },
+    "program_ids": [
+      "M6-MD-P-57550393a86d"
+    ],
+    "school_ids": [
+      "M6-MD-S-074ba5168180"
+    ],
+    "disposition": "integrated",
+    "notes": ""
+  }
+]

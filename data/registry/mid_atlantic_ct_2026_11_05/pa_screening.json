@@ -1,0 +1,105 @@
+[
+  {
+    "school": "Independence Charter School West",
+    "district": "Public charter operator: Independence Charter School West",
+    "source": "m6_pa_icswest",
+    "period": "2023-24",
+    "locator": "Independence Charter School West",
+    "disposition": "spanish_subject_instruction_not_verified_academic_immersion",
+    "reason": "Official 2023–24 Spanish curriculum describes Spanish subject instruction K-8, not content immersion. Separate from Independence Charter School immersion; no model transferred by similar name.",
+    "notes": ""
+  },
+  {
+    "school": "Pittsburgh Liberty K–5",
+    "district": "Pittsburgh Public Schools",
+    "source": "m6_pa_liberty_brochure",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Pittsburgh Liberty K–5",
+    "disposition": "academic_immersion_scope_unconfirmed",
+    "reason": "School-wide Spanish magnet brochure describes two dedicated Spanish teachers and enrichment. Academic core-subject immersion is not verified; neither school-wide language exposure nor a magnet label establishes a DL time model.",
+    "notes": "",
+    "additional_sources": [
+      "m6_pa_liberty"
+    ]
+  },
+  {
+    "school": "School District of Lancaster",
+    "district": "School District of Lancaster",
+    "source": "m6_pa_lancaster",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "School District of Lancaster",
+    "disposition": "screened_no_verified_host_in_checked_source",
+    "reason": "Checked district page describes ELD/ESL, not a named academic DLI host. No statewide or district absence claim.",
+    "notes": ""
+  },
+  {
+    "school": "Ecole Francaise Internationale De Philadelphie",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Ecole Francaise Internationale De Philadelphie",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Esperanza Academy",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Esperanza Academy",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Foster Elementary",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Foster Elementary",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Hillside Elementary",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Hillside Elementary",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "John Greenleaf Whittier Elementary School",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "John Greenleaf Whittier Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "McKinley Elementary School",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "McKinley Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "West View Elementary",
+    "district": "",
+    "source": "m6_pa_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "West View Elementary",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  }
+]

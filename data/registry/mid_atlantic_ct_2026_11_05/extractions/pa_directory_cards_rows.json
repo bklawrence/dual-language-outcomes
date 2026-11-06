@@ -1,0 +1,102 @@
+[
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 1,
+    "raw": {
+      "source_school": "Ecole Francaise Internationale De Philadelphie",
+      "directory_url": "https://duallanguageschools.org/school/ecole-francaise-internationale-de-philadelphie/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 2,
+    "raw": {
+      "source_school": "Esperanza Academy",
+      "directory_url": "https://duallanguageschools.org/school/esperanza-academy/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 3,
+    "raw": {
+      "source_school": "Foster Elementary",
+      "directory_url": "https://duallanguageschools.org/school/foster-elementary/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 4,
+    "raw": {
+      "source_school": "Hillside Elementary",
+      "directory_url": "https://duallanguageschools.org/school/hillside-elementary/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 5,
+    "raw": {
+      "source_school": "John Greenleaf Whittier Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/john-greenleaf-whittier-elementary-school-2/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 6,
+    "raw": {
+      "source_school": "McKinley Elementary School",
+      "directory_url": "https://duallanguageschools.org/school/mckinley-elementary-school-2/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 7,
+    "raw": {
+      "source_school": "Vida Charter School",
+      "directory_url": "https://duallanguageschools.org/school/vida-charter-school/"
+    },
+    "program_ids": [
+      "M6-PA-P-164edd3c4f66"
+    ],
+    "school_ids": [
+      "M6-PA-S-4dfa07a23a84"
+    ],
+    "disposition": "integrated",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  },
+  {
+    "source_key": "m6_pa_directory",
+    "source_row": 8,
+    "raw": {
+      "source_school": "West View Elementary",
+      "directory_url": "https://duallanguageschools.org/school/west-view-elementary/"
+    },
+    "program_ids": [],
+    "school_ids": [],
+    "disposition": "screening_only",
+    "notes": "Actual captured page cards only; directory listing alone does not verify academic immersion. NYC/NJ first-page selections are not full directory exports."
+  }
+]

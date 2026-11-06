@@ -1,0 +1,55 @@
+{
+  "reference_year": "2025-26",
+  "research_date": "2026-11-05",
+  "states": [
+    "PA",
+    "MD",
+    "DE",
+    "NJ",
+    "NY",
+    "CT"
+  ],
+  "programme_records": {
+    "PA": 14,
+    "MD": 45,
+    "DE": 65,
+    "NJ": 22,
+    "NY": 273,
+    "CT": 18
+  },
+  "programme_host_schools": {
+    "PA": 14,
+    "MD": 35,
+    "DE": 62,
+    "NJ": 20,
+    "NY": 259,
+    "CT": 18
+  },
+  "screening_rows": {
+    "PA": 10,
+    "MD": 8,
+    "DE": 4,
+    "NJ": 19,
+    "NY": 299,
+    "CT": 12
+  },
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations.",
+  "followup_reviews": [
+    {
+      "date": "2026-11-06",
+      "state": "NY",
+      "source_keys": [
+        "m6_ny_herricks_faq",
+        "m6_ny_herricks_entry",
+        "m6_ny_herricks_parent_night"
+      ],
+      "programme_ids": [
+        "M6-NY-P-04ff51bbb90c",
+        "M6-NY-P-8c82035a55c6",
+        "M6-NY-P-bd3a13c29488"
+      ],
+      "decision_file": "data/registry/mid_atlantic_ct_2026_11_05/extractions/herricks_2026_11_06_correction.json"
+    }
+  ],
+  "new_york_allocation_followup": "November 6, 2026: all 200 original primary hosts reviewed with school-specific 2025-26 plans and explicit inference flags; later annual policies remain separate."
+}

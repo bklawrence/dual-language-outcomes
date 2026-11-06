@@ -57,8 +57,6 @@ class Build:
         path = self.track_input(path)
         fingerprint = digest(path)
         sid = record_id("source", dataset_id, fingerprint)
-        if (sid,) in self.tables["sources"]:
-            return sid
         if metadata is not None:
             metadata = self.track_input(metadata)
             meta = json.loads(metadata.read_text())
@@ -73,6 +71,11 @@ class Build:
             retrieved = None
             kind = "legacy_snapshot"
             version = "legacy_snapshot_" + fingerprint[:16]
+        # Equal bytes can have distinct capture metadata. Retain and validate
+        # every receipt before deduplicating the source identity so portable
+        # bundles contain all files that an adapter reads.
+        if (sid,) in self.tables["sources"]:
+            return sid
         return self.add("sources", source_id=sid, dataset_id=dataset_id, source_url=source_url,
                         version_label=version, retrieved_at=retrieved,
                         snapshot_path=str(path.relative_to(self.root)), sha256=fingerprint, snapshot_kind=kind,

@@ -2,7 +2,22 @@
   "state_code": "NY",
   "state_name": "New York",
   "state_fips": "36",
-  "adapter": null,
-  "collection_status": "not_migrated",
-  "notes": "Existing state research files remain available; not_migrated does not mean no data exist."
+  "adapter": "new_york",
+  "collection_status": "integrated_partial",
+  "notes": "Six-state structural review with a New York allocation follow-up on 2026-11-06. All 200 original elementary-containing hosts reviewed. Explicit models, researcher inferences and later policies remain separate. Partial inventory; proficiency collection deferred.",
+  "structural_inputs": {
+    "programmes": "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json",
+    "screening": "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.json",
+    "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json",
+    "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+    "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+    "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+    "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+    "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+    "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+    "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+    "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+    "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+    "ny_allocation_followup": "config/research_migrations/ny_allocation_followup_2026_11_06.json"
+  }
 }

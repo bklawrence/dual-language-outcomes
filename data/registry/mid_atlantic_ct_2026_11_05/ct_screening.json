@@ -1,0 +1,122 @@
+[
+  {
+    "school": "FAME (K-8)",
+    "district": "New Haven Public Schools",
+    "source": "m6_ct_newhaven24",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "FAME (K-8)",
+    "disposition": "two_way_programme_host_identity_review",
+    "reason": "Continuum lists a second two-way 1B programme; campus identity and relation to Fair Haven need reconciliation before creating another school or merging with a one-way strand.",
+    "notes": ""
+  },
+  {
+    "school": "Dos Ríos one-way programme",
+    "district": "Windham Public Schools",
+    "source": "m6_ct_windham",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Dos Ríos one-way programme",
+    "disposition": "verified_district_programme_host_not_established",
+    "reason": "District documents sustained one-way Spanish/English dual education but checked sources do not name current host school(s). No fake district-wide school/programme site created.",
+    "notes": ""
+  },
+  {
+    "school": "Windham Center School",
+    "district": "Windham Public Schools",
+    "source": "m6_ct_windham_close",
+    "period": "2024-25",
+    "locator": "Windham Center School",
+    "disposition": "school_closed_before_reference_year",
+    "reason": "Official district documents school closure at end of 2024–25 and redistribution of pupils; this is not a finding that district dual-language provision ended.",
+    "notes": ""
+  },
+  {
+    "school": "Stamford planned Spanish/English DLI",
+    "district": "Stamford Public Schools",
+    "source": "m6_ct_stamford_partner",
+    "period": "2023–24 notice for planned 2024–25",
+    "locator": "Stamford planned Spanish/English DLI",
+    "disposition": "planned_district_programme_host_and_implementation_unverified",
+    "reason": "Community notice planned a 2024–25 launch, but checked named-school profiles did not verify a host or implemented academic model. Retain district plan as a lead, not a school or an implemented programme.",
+    "notes": ""
+  },
+  {
+    "school": "DiLoreto Dual Language Magnet School",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "DiLoreto Dual Language Magnet School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "East Elementary",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "East Elementary",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "John C. Daniels School",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "John C. Daniels School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Juntos @ Stratford Academy",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Juntos @ Stratford Academy",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "North Windham Middle School",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "North Windham Middle School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Silvermine Elementary School",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Silvermine Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "West Elementary School",
+    "district": "",
+    "source": "m6_ct_directory",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "West Elementary School",
+    "disposition": "directory_lead_requires_primary_verification",
+    "reason": "Directory discovery lead not independently verified as a qualifying current academic immersion host in this pass; no programme or public funding assumed.",
+    "notes": ""
+  },
+  {
+    "school": "Hartford emergent bilingual bridge services",
+    "district": "",
+    "source": "m6_ct_hartford",
+    "period": "undated source retrieved 2026-11-05",
+    "locator": "Hartford emergent bilingual bridge services",
+    "disposition": "other_service_distinct_from_qualifying_immersion",
+    "reason": "K-2 emergent bilingual services at five other schools are not automatically dual-language academic programmes.",
+    "notes": ""
+  }
+]

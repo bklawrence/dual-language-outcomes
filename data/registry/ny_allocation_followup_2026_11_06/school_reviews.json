@@ -1,0 +1,5697 @@
+[
+  {
+    "school_id": "M6-NY-S-6f49ae50b248",
+    "school": "P.S. 020 Anna Silver",
+    "district": "New York City Geographic District # 1",
+    "dbn": "01M020",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-11053a9a3320",
+      "M6-NY-P-b853909cb8db"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_01M020",
+      "nyf_doc_09ce3afa9db20fc2",
+      "nyf_doc_6338c1fadd1fd22f",
+      "nyf_doc_68d7b09d4669d437",
+      "nyf_doc_ba51297de22659fd",
+      "nyf_home_01M020",
+      "nyf_inside_01M020",
+      "nyf_profile_01M020"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_01M020"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f4ab8d6253c0",
+    "school": "P.S. 184m Shuang Wen",
+    "district": "New York City Geographic District # 1",
+    "dbn": "01M184",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9aa9ff3131dc"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_01M184",
+      "nyf_doc_5d585003b6c8ad77",
+      "nyf_doc_8d7f4daa1848dedc",
+      "nyf_doc_e59dc08a68ac3351",
+      "nyf_inside_01M184",
+      "nyf_profile_01M184"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_01M184"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1d46e3ed7203",
+    "school": "P.S. 001 Alfred E. Smith",
+    "district": "New York City Geographic District # 2",
+    "dbn": "02M001",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-48a084042c9c",
+      "M6-NY-P-805eda7acc1a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_02M001",
+      "nyf_doc_046d2317aeb493ee",
+      "nyf_doc_a23265026ee5ab2a",
+      "nyf_home_02M001",
+      "nyf_inside_02M001",
+      "nyf_profile_02M001"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_02M001"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-c6693c90a1cb",
+    "school": "The 47 American Sign Language & English Lower School",
+    "district": "New York City Geographic District # 2",
+    "dbn": "02M347",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e4e5da5a2efa"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_02M347",
+      "nyf_doc_2dcfd207fb8b4b8d",
+      "nyf_doc_504ba7c83540f8d2",
+      "nyf_doc_8c1c4c58472b8ccb",
+      "nyf_doc_9a1bb5ea194d2320",
+      "nyf_doc_9c7ab0fb6d6f8f7f",
+      "nyf_doc_af0021a7a4d79c74",
+      "nyf_doc_ea68e66c009be194",
+      "nyf_home_02M347",
+      "nyf_inside_02M347",
+      "nyf_profile_02M347"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_02M347"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "ASL and English are used for core content, but simultaneous signed/written/spoken modalities do not establish exclusive time shares. City DL listing and LAP TBE classification differ. No 50/50 inferred."
+  },
+  {
+    "school_id": "M6-NY-S-12914b4f010c",
+    "school": "P.S. 075 Emily Dickinson",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M075",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c689e08559d4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M075",
+      "nyf_doc_068c7d191b4e3830",
+      "nyf_doc_1a8a7bb767b338ab",
+      "nyf_doc_dece6401095346d6",
+      "nyf_doc_e5da06b752e56ad5",
+      "nyf_home_03M075",
+      "nyf_inside_03M075",
+      "nyf_profile_03M075"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M075"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-9eeebd06cb61",
+    "school": "P.S. 084 Lillian Weber",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M084",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9882b2fd7240",
+      "M6-NY-P-6cddd0917d5b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M084",
+      "nyf_doc_1052757dfbcc510f",
+      "nyf_doc_14cc46c87d078995",
+      "nyf_doc_5676996aa752571f",
+      "nyf_doc_fd1bde4401ed3e84",
+      "nyf_home_03M084",
+      "nyf_inside_03M084",
+      "nyf_profile_03M084"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M084"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-27bcff2a11f9",
+    "school": "P.S. 087 William Sherman",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M087",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-35b67b3e5aac"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M087",
+      "nyf_doc_3896638f16ce3756",
+      "nyf_doc_bdce3c85a9ba6365",
+      "nyf_doc_bed0a8b66365aaa4",
+      "nyf_doc_df6a4dfdce31443d",
+      "nyf_doc_fe6372b06ad8557d",
+      "nyf_home_03M087",
+      "nyf_inside_03M087",
+      "nyf_profile_03M087"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M087"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-b59742ba3788",
+    "school": "P.S. 145, The Bloomingdale School",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M145",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6ea9425fda89",
+      "M6-NY-P-3fa1a9f3e039"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M145",
+      "nyf_doc_07f62876e49155b9",
+      "nyf_doc_10985309fe0289b4",
+      "nyf_doc_11c9137f1740566f",
+      "nyf_doc_1a4b2ded1001a4ba",
+      "nyf_doc_1bedfcd2130b6814",
+      "nyf_doc_8c788cc8c0038261",
+      "nyf_doc_a67a06a592612ee9",
+      "nyf_doc_cfd2f70f70b0b05a",
+      "nyf_home_03M145",
+      "nyf_inside_03M145",
+      "nyf_profile_03M145"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M145",
+      "nyf_doc_1a4b2ded1001a4ba"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "The full 2025-26 DL model explicitly states 50/50 for ALL Russian and Spanish programmes (PK-5), including English 50% of instructional time. Recorded K-5 as a published policy, not an inference from its language cycle."
+  },
+  {
+    "school_id": "M6-NY-S-fd43da2c92ab",
+    "school": "P.S. 163 Alfred E. Smith",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M163",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-8e2a3d0c84c2"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M163",
+      "nyf_doc_17f4d613e3003991",
+      "nyf_doc_3df50d5e09bc29f9",
+      "nyf_doc_b99fcccec600df1e",
+      "nyf_inside_03M163",
+      "nyf_profile_03M163"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M163"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1d9166e4b6f8",
+    "school": "P.S. 165 Robert E. Simon",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M165",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4871cbef616e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M165",
+      "nyf_doc_0812453a6ef281e9",
+      "nyf_doc_539ef010a326bcd1",
+      "nyf_doc_883f384beb02e4e4",
+      "nyf_doc_b32dff60c3147c82",
+      "nyf_doc_d5eac75949e0e0fb",
+      "nyf_home_03M165",
+      "nyf_inside_03M165",
+      "nyf_profile_03M165"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M165"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-4b7719b4b788",
+    "school": "P.S. 180 Hugo Newman",
+    "district": "New York City Geographic District # 3",
+    "dbn": "03M180",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5ebde6f41051"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_03M180",
+      "nyf_doc_1adfabc333cde0ae",
+      "nyf_doc_2c804f615d0a2704",
+      "nyf_doc_6aa2dc9f23290446",
+      "nyf_home_03M180",
+      "nyf_inside_03M180",
+      "nyf_profile_03M180"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_03M180"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-dbd8acb40a3a",
+    "school": "James Weldon Johnson",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M057",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-bc811993c631"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M057",
+      "nyf_doc_0edb78e6afd48c9c",
+      "nyf_doc_3235459f31fe9ab9",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_home_04M057",
+      "nyf_inside_04M057",
+      "nyf_profile_04M057"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M057"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-49e3750aaea0",
+    "school": "The Lexington Academy",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M072",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-44d0f4b36961"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M072",
+      "nyf_doc_0edb78e6afd48c9c",
+      "nyf_doc_278694269da3452b",
+      "nyf_inside_04M072",
+      "nyf_profile_04M072"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M072"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-28a9b5de59c8",
+    "school": "P.S. 096 Joseph Lanzetta",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M096",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-541b40368851"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M096",
+      "nyf_doc_015846c2aa7796ad",
+      "nyf_doc_0edb78e6afd48c9c",
+      "nyf_doc_5449aa47c5afbb11",
+      "nyf_doc_c47c238342f63118",
+      "nyf_doc_c6a8fce0cee011b5",
+      "nyf_doc_e67e20043c6266e0",
+      "nyf_doc_fd4af020d571dcb1",
+      "nyf_home_04M096",
+      "nyf_inside_04M096",
+      "nyf_profile_04M096"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M096"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-5f24facde6d9",
+    "school": "P.S. 112 Jose Celso Barbosa",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M112",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-a27f103cd3c5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M112",
+      "nyf_doc_69a4bfb3924f272c",
+      "nyf_doc_7dd55728f798562b",
+      "nyf_doc_a38bb215db11ddb0",
+      "nyf_doc_cba70aae7f1121af",
+      "nyf_home_04M112",
+      "nyf_inside_04M112",
+      "nyf_profile_04M112"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M112"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f7eecb40ecc0",
+    "school": "P.S. 155 William Paca",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M155",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c2aa020a777b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M155",
+      "nyf_doc_a3cfbbfa8f344e7d",
+      "nyf_home_04M155",
+      "nyf_inside_04M155",
+      "nyf_profile_04M155"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M155"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented",
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-a7542adfd549",
+    "school": "The Bilingual Bicultural School",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M182",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-1d77a918e66e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M182",
+      "nyf_doc_38ab1fbc82c2e517",
+      "nyf_doc_4f8e55b6dfbcf76f",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_633e1500342b44c3",
+      "nyf_doc_85550d05f4af59c8",
+      "nyf_home_04M182",
+      "nyf_inside_04M182",
+      "nyf_profile_04M182"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M182"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-a0cad262f233",
+    "school": "P.S. 206 Jose Celso Barbosa",
+    "district": "New York City Geographic District # 4",
+    "dbn": "04M206",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d500be436f0a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_04M206",
+      "nyf_doc_0edb78e6afd48c9c",
+      "nyf_doc_0f3db174e9e07585",
+      "nyf_doc_36822c693526bccc",
+      "nyf_doc_3fdf1d5c437e514a",
+      "nyf_doc_5ae0629cbbcba253",
+      "nyf_doc_c72426a7adcabb22",
+      "nyf_home_04M206",
+      "nyf_inside_04M206",
+      "nyf_profile_04M206"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_04M206"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-494e3be89261",
+    "school": "P.S. 129 John H. Finley",
+    "district": "New York City Geographic District # 5",
+    "dbn": "05M129",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-06d26836dcde"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_05M129",
+      "nyf_doc_76060bcb396d0d27",
+      "nyf_doc_bbf9861ba14df05c",
+      "nyf_doc_bf94cd0f1ba55425",
+      "nyf_home_05M129",
+      "nyf_inside_05M129",
+      "nyf_profile_05M129"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_05M129"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-97d5599c6887",
+    "school": "P.S. 161 Pedro Albizu Campos",
+    "district": "New York City Geographic District # 5",
+    "dbn": "05M161",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5810bbb97f2f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_05M161",
+      "nyf_doc_37dc9e85826ff94b",
+      "nyf_doc_4c779dffe244043d",
+      "nyf_doc_8271314c66567b58",
+      "nyf_doc_f3d743f702e466d9",
+      "nyf_home_05M161",
+      "nyf_inside_05M161",
+      "nyf_profile_05M161"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_05M161"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-4e7c92e24939",
+    "school": "P.S. 004 Duke Ellington",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M004",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6a6dd1b5a3c3"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M004",
+      "nyf_doc_3a71dce1eb3ddce1",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_7bc5f7d85398810c",
+      "nyf_doc_7bc92c227ba807d0",
+      "nyf_home_06M004",
+      "nyf_inside_06M004",
+      "nyf_profile_06M004"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M004"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-661de517f35d",
+    "school": "P.S. 005 Ellen Lurie",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M005",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-aa2f73386ea7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M005",
+      "nyf_doc_0693fd5494e8c1c9",
+      "nyf_doc_875b29087a9a6d6e",
+      "nyf_doc_cd94fd5a37ba5990",
+      "nyf_home_06M005",
+      "nyf_inside_06M005",
+      "nyf_profile_06M005"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M005"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-d63f53fb419e",
+    "school": "P.S. 008 Luis Belliard",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M008",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-0b7e509d72c8"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M008",
+      "nyf_doc_10cd43f9558d4e71",
+      "nyf_doc_3caf4f929ec37a47",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_home_06M008",
+      "nyf_inside_06M008",
+      "nyf_profile_06M008"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M008"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-af93ed0df10e",
+    "school": "P.S. 028 Wright Brothers",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M028",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d849a278eb62"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M028",
+      "nyf_doc_b34fd992339caa6e",
+      "nyf_doc_bacbdc1aa538592a",
+      "nyf_doc_ea92d02d3ac0f4ab",
+      "nyf_home_06M028",
+      "nyf_inside_06M028",
+      "nyf_profile_06M028"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M028"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-636c8d76cdf2",
+    "school": "P.S. 048 P.O. Michael J. Buczek",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M048",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d63e15ee0827"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M048",
+      "nyf_doc_0a89ab3f203cc520",
+      "nyf_inside_06M048",
+      "nyf_profile_06M048"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M048"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "K ELA/foundations entirely English and math 50/50; grades 1-2 ELA increasingly bilingual, grades 3-5 ELA/math 50/50. These subject-only allocations do not establish a whole-programme K ratio."
+  },
+  {
+    "school_id": "M6-NY-S-162354188c14",
+    "school": "P.S. 098 Shorac Kappock",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M098",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-da4e99ed2780"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M098",
+      "nyf_doc_0fc3040864aa707d",
+      "nyf_doc_4719a7539fa27a00",
+      "nyf_doc_ded3c9051c50ef43",
+      "nyf_inside_06M098",
+      "nyf_profile_06M098"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M098"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-315f31435fe2",
+    "school": "Dos Puentes Elementary School",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M103",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3c9d429d3f9e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M103",
+      "nyf_doc_5f3e6d1710d0da00",
+      "nyf_doc_81f5ed344184a06f",
+      "nyf_doc_c0cc85f987f3d4ad",
+      "nyf_doc_f06cb67613453170",
+      "nyf_doc_fd436c5111d73767",
+      "nyf_home_06M103",
+      "nyf_inside_06M103",
+      "nyf_profile_06M103"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M103"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2358fa71cdd6",
+    "school": "P.S. 128 Audubon",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M128",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-0751f094302e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M128",
+      "nyf_doc_a8fc9c495113c347",
+      "nyf_inside_06M128",
+      "nyf_profile_06M128"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M128"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6742edbe167d",
+    "school": "P.S. 132 Juan Pablo Duarte",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M132",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3803adc15027"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M132",
+      "nyf_doc_01763e5dbc4acae6",
+      "nyf_doc_3d8fbe081833b63a",
+      "nyf_doc_52a73b06a6f2534b",
+      "nyf_doc_9d8fe608e1314aee",
+      "nyf_doc_da2cf817a7e9648f",
+      "nyf_home_06M132",
+      "nyf_inside_06M132",
+      "nyf_profile_06M132"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M132"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-d2b2374c5db8",
+    "school": "P.S. 153 Adam Clayton Powell",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M153",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4f5de2f8ef9f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M153",
+      "nyf_doc_2702509b3a56f27b",
+      "nyf_doc_557d403aa24149a3",
+      "nyf_doc_a65aef1cd14b174e",
+      "nyf_doc_be5b653161b52bd3",
+      "nyf_doc_e67f99935e237521",
+      "nyf_home_06M153",
+      "nyf_inside_06M153",
+      "nyf_profile_06M153"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M153"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-4aad68be477b",
+    "school": "Professor Juan Bosch Public School",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M178",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-25773cf03bde"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M178",
+      "nyf_doc_08de02fae0458b68",
+      "nyf_doc_093a0d96c3565425",
+      "nyf_doc_0a857e85b5adaed4",
+      "nyf_home_06M178",
+      "nyf_inside_06M178",
+      "nyf_profile_06M178"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M178"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-dfc813e7fbf4",
+    "school": "P.S./I.S. 210 - Twenty-first Century Academy for Community Leadership",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M210",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b5f295f7b3cf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M210",
+      "nyf_doc_39538d33e930aae6",
+      "nyf_doc_9232f5f6fe926cce",
+      "nyf_doc_9703d8844358bb6b",
+      "nyf_doc_9ba93f5fcd9e42f2",
+      "nyf_doc_b0082c10765d558b",
+      "nyf_doc_b7c533059d0452b9",
+      "nyf_doc_bc6cd701c3d05382",
+      "nyf_home_06M210",
+      "nyf_inside_06M210",
+      "nyf_profile_06M210"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M210"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-4c7aa90d57a7",
+    "school": "Amistad Dual Language School",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M311",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-94a73e2c3d84"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M311",
+      "nyf_doc_1744e46028f78bb6",
+      "nyf_doc_20eb5bf59f83ace2",
+      "nyf_doc_2aa208e8c726bfa1",
+      "nyf_doc_3cc84889485ed353",
+      "nyf_doc_95803cfea66fd7dd",
+      "nyf_doc_fe7a3c591334d71a",
+      "nyf_home_06M311",
+      "nyf_inside_06M311",
+      "nyf_profile_06M311"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M311"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8fe2d6256932",
+    "school": "Washington Heights Expeditionary Learning School",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M348",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-ec43c85d958a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M348",
+      "nyf_doc_56b84d92cbfad16d",
+      "nyf_doc_7d17a4c63f2c6cb4",
+      "nyf_doc_9d7a3e57df9b07dd",
+      "nyf_doc_c8d290fed4044694",
+      "nyf_home_06M348",
+      "nyf_inside_06M348",
+      "nyf_profile_06M348"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M348"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-78ee5a7abd89",
+    "school": "Castle Bridge School",
+    "district": "New York City Geographic District # 6",
+    "dbn": "06M513",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-49e04fbc5b02"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_06M513",
+      "nyf_doc_3b8722a27b2ed744",
+      "nyf_doc_76b6090b36be8f8a",
+      "nyf_doc_a0298e0ccd5d8f86",
+      "nyf_doc_e4c2662e179e201f",
+      "nyf_home_06M513",
+      "nyf_inside_06M513",
+      "nyf_profile_06M513"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_06M513"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8b2160c3d5fe",
+    "school": "P.S. 5 Port Morris",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X005",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-81a1c9fd5262"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X005",
+      "nyf_doc_3d6b00a1e8d15bec",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_df6b99612c159693",
+      "nyf_home_07X005",
+      "nyf_inside_07X005",
+      "nyf_profile_07X005"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X005"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-078dafd118d9",
+    "school": "P.S. 018 John Peter Zenger",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X018",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-14494c29aebc"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X018",
+      "nyf_doc_cf157599c9955fee",
+      "nyf_inside_07X018",
+      "nyf_profile_07X018"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X018"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8e37f536c690",
+    "school": "P.S. 025 Bilingual School",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X025",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4675fc4f3ee5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X025",
+      "nyf_doc_42592f267c8fe570",
+      "nyf_doc_799dcd9d4b9f48f2",
+      "nyf_doc_8d3c13b6d0f83ca1",
+      "nyf_doc_9b5f2f7281e509bd",
+      "nyf_doc_b074e1ef82c0dc9c",
+      "nyf_doc_b2a9544b8e1b9d72",
+      "nyf_doc_b859af4c06e2ebec",
+      "nyf_doc_bdbc921073b92b56",
+      "nyf_doc_d7a6db4c9ec5370d",
+      "nyf_home_07X025",
+      "nyf_inside_07X025",
+      "nyf_profile_07X025"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X025"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2f2f3cf8947a",
+    "school": "P.S. 030 Wilton",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X030",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-8ae4c88a48ea"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X030",
+      "nyf_doc_7212da05387a0489",
+      "nyf_doc_7c62604f48536474",
+      "nyf_doc_912a1a605db8220e",
+      "nyf_doc_bbbb008c1cc1a73b",
+      "nyf_doc_d2ad23b9e8cc256c",
+      "nyf_doc_d88285724aae6c6b",
+      "nyf_home_07X030",
+      "nyf_inside_07X030",
+      "nyf_profile_07X030"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X030"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Internal 50/50 versus English60/Spanish40 model conflict retained."
+  },
+  {
+    "school_id": "M6-NY-S-78e5fa7bdafc",
+    "school": "P.S. 049 Willis Avenue",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X049",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9cc6d2851fd5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X049",
+      "nyf_doc_2e43555df7a74f43",
+      "nyf_doc_600ce3a6e706ca74",
+      "nyf_doc_605933d4539a14fc",
+      "nyf_doc_936f14aa8974e010",
+      "nyf_doc_95e5e08161c72d43",
+      "nyf_doc_b6f08da21874811d",
+      "nyf_home_07X049",
+      "nyf_inside_07X049",
+      "nyf_profile_07X049"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X049"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-ec873aa63b63",
+    "school": "P.S. 161 Juan Ponce De Leon School",
+    "district": "New York City Geographic District # 7",
+    "dbn": "07X161",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-58b8c80c081d"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_07X161",
+      "nyf_home_07X161",
+      "nyf_inside_07X161",
+      "nyf_profile_07X161"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_07X161"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-984a3bf500b5",
+    "school": "P.S. 048 Joseph R. Drake",
+    "district": "New York City Geographic District # 8",
+    "dbn": "08X048",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-cb5945642f46"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_08X048",
+      "nyf_doc_5db8d4bfdd37c3b7",
+      "nyf_doc_9976c061d202a3aa",
+      "nyf_doc_fae6cb33c650c3ec",
+      "nyf_home_08X048",
+      "nyf_inside_08X048",
+      "nyf_profile_08X048"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_08X048"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-047d3b4af0c9",
+    "school": "P.S. 152 Evergreen",
+    "district": "New York City Geographic District # 8",
+    "dbn": "08X152",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7d68c3bd982e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_08X152",
+      "nyf_doc_351bfb19c4287faf",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_home_08X152",
+      "nyf_inside_08X152",
+      "nyf_profile_08X152"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_08X152"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-672cd3d122f6",
+    "school": "The Longwood Academy of Discovery",
+    "district": "New York City Geographic District # 8",
+    "dbn": "08X333",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-987e86e70b77"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_08X333",
+      "nyf_doc_53332a0d24728aa8",
+      "nyf_doc_c14e915ea37c2be1",
+      "nyf_home_08X333",
+      "nyf_inside_08X333",
+      "nyf_profile_08X333"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_08X333"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-e2cfd5e625a6",
+    "school": "P.S. 011 Highbridge",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X011",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-95ed06d60694"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X011",
+      "nyf_doc_21b8f920fb505b62",
+      "nyf_doc_35de4001fcef3df4",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_c8a97ac0ca76dd00",
+      "nyf_home_09X011",
+      "nyf_inside_09X011",
+      "nyf_profile_09X011"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X011"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-09ec53aeda1d",
+    "school": "P.S. 053 Basheer Quisim",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X053",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-25d3c39c53ba"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X053",
+      "nyf_doc_eee19faccc24bda1",
+      "nyf_home_09X053",
+      "nyf_inside_09X053",
+      "nyf_profile_09X053"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X053"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-85b2450d9424",
+    "school": "P.S. 070 Max Schoenfeld",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X070",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-a50b6034ea7a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X070",
+      "nyf_doc_419afca78012bab4",
+      "nyf_doc_74f517d73c81b3c1",
+      "nyf_doc_861e45747fd245fe",
+      "nyf_doc_b5805f6c52999624",
+      "nyf_doc_d4e42b03ad47fe42",
+      "nyf_home_09X070",
+      "nyf_inside_09X070",
+      "nyf_profile_09X070"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X070"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-df5bfcfb0f19",
+    "school": "P.S. 073 Bronx",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X073",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-be822073df69"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X073",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_home_09X073",
+      "nyf_inside_09X073",
+      "nyf_profile_09X073"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X073"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-ae8f17bdac98",
+    "school": "P.S. 109 Sedgwick",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X109",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9f180b061b49"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X109",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_c40362fb3aa196b6",
+      "nyf_home_09X109",
+      "nyf_inside_09X109",
+      "nyf_profile_09X109"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X109"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-c7beee0a9c46",
+    "school": "P.S. 110 Theodore Schoenfeld",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X110",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-14cbd3397b46"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X110",
+      "nyf_doc_c47ff1a041923e62",
+      "nyf_doc_e8014bf0668b7669",
+      "nyf_home_09X110",
+      "nyf_inside_09X110",
+      "nyf_profile_09X110"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X110"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-97edc09e2dff",
+    "school": "P.S. 170",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X170",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-757ff62a5556"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X170",
+      "nyf_doc_63daf921641b8e75",
+      "nyf_doc_a17feecd2576e5d2",
+      "nyf_doc_c7318310dcb89045",
+      "nyf_home_09X170",
+      "nyf_inside_09X170",
+      "nyf_profile_09X170"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X170"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-83f5f2c81ad1",
+    "school": "P.S./I.S. 218 Rafael Hernandez Dual Language Magnet School",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X218",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b02cd41d82a6"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X218",
+      "nyf_doc_30edecdacd446c12",
+      "nyf_doc_39fd0275fdbe580e",
+      "nyf_doc_69e60118736bf83d",
+      "nyf_doc_a11c1b8832ddb3a0",
+      "nyf_doc_b6fe4abb44365113",
+      "nyf_home_09X218",
+      "nyf_inside_09X218",
+      "nyf_profile_09X218"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X218"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-bcfd84656461",
+    "school": "Lucero Elementary School",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X311",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5caae26c85ec"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X311",
+      "nyf_doc_1c0d72dfb6165660",
+      "nyf_doc_5ac99b5c7117e72d",
+      "nyf_doc_914d7af614efea9f",
+      "nyf_doc_f6eccd960d8d55b9",
+      "nyf_doc_fb46aafd20fcf107",
+      "nyf_doc_fdd8a046d123f0d2",
+      "nyf_home_09X311",
+      "nyf_inside_09X311",
+      "nyf_profile_09X311"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X311"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Internal early-grade 80/20 versus subject-response 90/10 conflict retained."
+  },
+  {
+    "school_id": "M6-NY-S-e54a21a02d4c",
+    "school": "The Family School",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X443",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7e3020824d6b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X443",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_c39eb727575e25bc",
+      "nyf_doc_c7318310dcb89045",
+      "nyf_inside_09X443",
+      "nyf_profile_09X443"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X443"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-23cfcde4fb2d",
+    "school": "Sheridan Academy for Young Leaders",
+    "district": "New York City Geographic District # 9",
+    "dbn": "09X457",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-8b21bc3f0852"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_09X457",
+      "nyf_doc_c4b048f026867b6f",
+      "nyf_inside_09X457",
+      "nyf_profile_09X457"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_09X457"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8cad330b48d3",
+    "school": "P.S. 046 Edgar Allan Poe",
+    "district": "New York City Geographic District # 10",
+    "dbn": "10X046",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-899f9338d38b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_10X046",
+      "nyf_doc_4bf26d2808e6d074",
+      "nyf_inside_10X046",
+      "nyf_profile_10X046"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_10X046"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8a635ddde09c",
+    "school": "P.S./I.S. 54",
+    "district": "New York City Geographic District # 10",
+    "dbn": "10X054",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-1354135af0fb"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_10X054",
+      "nyf_doc_11a9d184ed963612",
+      "nyf_doc_38ffb36b79d81cc0",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_ad6b59e04255b96a",
+      "nyf_home_10X054",
+      "nyf_inside_10X054",
+      "nyf_profile_10X054"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_10X054"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-24f1ceb1ee14",
+    "school": "Bedford Park Elementary School",
+    "district": "New York City Geographic District # 10",
+    "dbn": "10X077",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-929713470f69"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_10X077",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_a3be05d7931a834d",
+      "nyf_doc_c39eb727575e25bc",
+      "nyf_inside_10X077",
+      "nyf_profile_10X077"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_10X077"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-0ced253d05b3",
+    "school": "P.S. 085 Great Expectations",
+    "district": "New York City Geographic District # 10",
+    "dbn": "10X085",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-0e1ec03bcfc4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_10X085",
+      "nyf_doc_b4e8378178de4eb2",
+      "nyf_doc_c7318310dcb89045",
+      "nyf_home_10X085",
+      "nyf_inside_10X085",
+      "nyf_profile_10X085"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_10X085"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-296d3b9391f2",
+    "school": "P.S. 207",
+    "district": "New York City Geographic District # 10",
+    "dbn": "10X207",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-643d6faba6c5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_10X207",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_811c9042232e4169",
+      "nyf_doc_dd27d07f32153ec9",
+      "nyf_home_10X207",
+      "nyf_inside_10X207",
+      "nyf_profile_10X207"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_10X207"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-728ce7dbf580",
+    "school": "Samara Community School",
+    "district": "New York City Geographic District # 12",
+    "dbn": "12X458",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-a41cfd6318a1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_12X458",
+      "nyf_doc_1b558902ed8d09fc",
+      "nyf_doc_308b3b5d357c8b1e",
+      "nyf_doc_3bf06e1c0dafd36f",
+      "nyf_doc_593d8d916ec83efa",
+      "nyf_doc_689e84176b2208b5",
+      "nyf_doc_8367b0c51d15befa",
+      "nyf_doc_9b35aa2a77e6217a",
+      "nyf_doc_ba9127a333f87e53",
+      "nyf_doc_bfffb52fad277ae9",
+      "nyf_home_12X458",
+      "nyf_inside_12X458",
+      "nyf_profile_12X458"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_12X458"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented",
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1be5994fe931",
+    "school": "Urban Scholars Community School",
+    "district": "New York City Geographic District # 12",
+    "dbn": "12X463",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7d4992129717"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_12X463",
+      "nyf_doc_1c2668ad460c5cd9",
+      "nyf_doc_501b5d7b4f768753",
+      "nyf_doc_6f61ebe2c3379b95",
+      "nyf_doc_895fd2da985f9100",
+      "nyf_doc_ede7186b178c02a5",
+      "nyf_home_12X463",
+      "nyf_inside_12X463",
+      "nyf_profile_12X463"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_12X463",
+      "nyf_doc_501b5d7b4f768753"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-d40c2405806a",
+    "school": "P.S. 595",
+    "district": "New York City Geographic District # 12",
+    "dbn": "12X595",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-ffdce1de470a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_12X595",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_93b96b8eb931614a",
+      "nyf_home_12X595",
+      "nyf_inside_12X595",
+      "nyf_profile_12X595"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_12X595"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-575b4f830b77",
+    "school": "Public School 9 The Sarah Smith Garnet School",
+    "district": "New York City Geographic District # 13",
+    "dbn": "13K009",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4bc30056e11f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_13K009",
+      "nyf_doc_216eb0b175d66e75",
+      "nyf_doc_21e6b9390391bbb9",
+      "nyf_doc_d1a3dc17909293f5",
+      "nyf_doc_ff0dfb8153ea1c3b",
+      "nyf_home_13K009",
+      "nyf_inside_13K009",
+      "nyf_profile_13K009"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_13K009"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-819409812066",
+    "school": "P.S. 020 Clinton Hill",
+    "district": "New York City Geographic District # 13",
+    "dbn": "13K020",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4176421841b5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_13K020",
+      "nyf_doc_12273ff36b1d02d3",
+      "nyf_doc_68741b182ae96e0d",
+      "nyf_doc_8bcaf5001a29a9af",
+      "nyf_doc_ad5501ded7be65f2",
+      "nyf_doc_b7317427da318b97",
+      "nyf_doc_bfa3b2581554cfe4",
+      "nyf_doc_c2a942de9c9c7030",
+      "nyf_doc_e868692daa8f3ba6",
+      "nyf_home_13K020",
+      "nyf_inside_13K020",
+      "nyf_profile_13K020"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_13K020"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-83f9e8b6a576",
+    "school": "P.S. 046 Edward C. Blum",
+    "district": "New York City Geographic District # 13",
+    "dbn": "13K046",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b14efa291fc4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_13K046",
+      "nyf_doc_2a9f0e559cade9df",
+      "nyf_doc_645a75eef4e2cd15",
+      "nyf_doc_8dd1833a0f05115f",
+      "nyf_doc_8dedbfcb9ac0f4c5",
+      "nyf_home_13K046",
+      "nyf_inside_13K046",
+      "nyf_profile_13K046"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_13K046"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-7f4a27192690",
+    "school": "P.S. 54 The Detective Rafael Ramos School",
+    "district": "New York City Geographic District # 13",
+    "dbn": "13K054",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2cfb4b124035"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_13K054",
+      "nyf_doc_2d27f9e706caafc6",
+      "nyf_doc_2f24f79088ffb054",
+      "nyf_doc_dd4ee2f232339c67",
+      "nyf_home_13K054",
+      "nyf_inside_13K054",
+      "nyf_profile_13K054"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_13K054"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-eac444a670c0",
+    "school": "P.S. 133 William A. Butler",
+    "district": "New York City Geographic District # 13",
+    "dbn": "13K133",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2bb5b9ceaf71",
+      "M6-NY-P-13d6f6d8db8d"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_13K133",
+      "nyf_doc_249032869ac5c1a3",
+      "nyf_doc_82de8d27b06aace0",
+      "nyf_doc_937d1d49e0347bbb",
+      "nyf_doc_d696ddddb40206b8",
+      "nyf_doc_e1e7d350cc59ab65",
+      "nyf_doc_ea779d9b4f29b82a",
+      "nyf_home_13K133",
+      "nyf_inside_13K133",
+      "nyf_out_longbeach_2",
+      "nyf_profile_13K133",
+      "nyf_ps133_french"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_13K133",
+      "nyf_out_longbeach_2",
+      "nyf_ps133_french"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-283b2c9b3610",
+    "school": "P.S. 018 Edward Bush",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K018",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-975ad48f87d2"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K018",
+      "nyf_doc_464fe10a6d9bee99",
+      "nyf_doc_6b55d1349e97bd96",
+      "nyf_doc_f14e55b621438d52",
+      "nyf_inside_14K018",
+      "nyf_profile_14K018"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K018"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "City 2025-26 DL roster and school DL webpage conflict with CEP No bilingual programme / DL N/A. Webpage describes Spanish speaking/writing K-5 without academic-time detail. No end date or numerical model established; retained in original denominator."
+  },
+  {
+    "school_id": "M6-NY-S-afca9c76e843",
+    "school": "P.S. 034 Oliver H. Perry",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K034",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-8fbfb692e53d"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K034",
+      "nyf_doc_3b3531c67742620b",
+      "nyf_doc_eb584f7f16316389",
+      "nyf_doc_fc8f71187ae51cac",
+      "nyf_home_14K034",
+      "nyf_inside_14K034",
+      "nyf_profile_14K034"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K034"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Polish70:30 and80:20 labels lack explicit numerical language ordering; grade scope and budget-reduction qualifiers retained."
+  },
+  {
+    "school_id": "M6-NY-S-19d4165eb2f7",
+    "school": "P.S. 059 The Dawn Best School",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K059",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3defc2d82ff1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K059",
+      "nyf_home_14K059",
+      "nyf_inside_14K059",
+      "nyf_profile_14K059"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K059"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1d0215ac927f",
+    "school": "P.S. 084 Jose De Diego",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K084",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-20b4bd148d7a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K084",
+      "nyf_doc_0a42f21fd4dc0079",
+      "nyf_doc_15433dbb8584df1d",
+      "nyf_doc_1b1727abfbecf0f3",
+      "nyf_doc_50d99e44d1d16a48",
+      "nyf_doc_65b0042dee880e8e",
+      "nyf_doc_ff3988ef67e7c1a2",
+      "nyf_home_14K084",
+      "nyf_inside_14K084",
+      "nyf_profile_14K084"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K084"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-d3bde2c65723",
+    "school": "P.S. 110 The Monitor",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K110",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4f89916c5123"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K110",
+      "nyf_doc_0e73647113fec413",
+      "nyf_doc_6f2129622a97d2b9",
+      "nyf_doc_7a619bf9ed37c41d",
+      "nyf_doc_b6898e9762f786fc",
+      "nyf_doc_c47ff1a041923e62",
+      "nyf_home_14K110",
+      "nyf_inside_14K110",
+      "nyf_profile_14K110"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K110"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented",
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f1947b7c0b1e",
+    "school": "P.S. 132 The Conselyea School",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K132",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-30899230ded7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K132",
+      "nyf_inside_14K132",
+      "nyf_profile_14K132"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K132"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-591389683887",
+    "school": "P.S. 250 George H. Lindsay",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K250",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3f7eabae5b41"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K250",
+      "nyf_doc_79b9299b788603a0",
+      "nyf_doc_82109389e66ac8da",
+      "nyf_home_14K250",
+      "nyf_inside_14K250",
+      "nyf_profile_14K250"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K250"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-c85f66499ece",
+    "school": "P.S. 319",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K319",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-a5a7dc6d0a62"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K319",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_ae659fa1dd95b05a",
+      "nyf_doc_da50f65a6bff5d27",
+      "nyf_home_14K319",
+      "nyf_inside_14K319",
+      "nyf_profile_14K319"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K319"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "Approximately 40% Spanish / 60% English inferred from the six-day alternating cycle: three Spanish days at 80% Spanish and three English days at 100% English give (3*80+3*0)/6=40% Spanish. Assumes equal-length instructional days; directions and individual ENL services may affect actual exposure. Nominal alternate-day scheduling alone is not coded as 50/50."
+  },
+  {
+    "school_id": "M6-NY-S-f37ececce09f",
+    "school": "P.S. 380 John Wayne Elementary",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K380",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-33525fca3d15"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K380",
+      "nyf_doc_59d437522ccf77ae",
+      "nyf_doc_855bfc910e881bdb",
+      "nyf_doc_d81a7673f5ab0cba",
+      "nyf_home_14K380",
+      "nyf_inside_14K380",
+      "nyf_profile_14K380"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K380"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-fa09d2cba113",
+    "school": "Brooklyn Arbor Elementary School",
+    "district": "New York City Geographic District # 14",
+    "dbn": "14K414",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-526bcce50faf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_14K414",
+      "nyf_doc_a89755ce0ccc1051",
+      "nyf_doc_d0503788483d2574",
+      "nyf_doc_d6995c2127497703",
+      "nyf_doc_fbd85477f6aede17",
+      "nyf_home_14K414",
+      "nyf_inside_14K414",
+      "nyf_profile_14K414"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_14K414"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2792b1967a4d",
+    "school": "P.S. 001 The Bergen",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K001",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d6570525ebfb"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K001",
+      "nyf_doc_28f68f9fa59cd754",
+      "nyf_doc_49444f4b78f889a4",
+      "nyf_doc_5f77814909d980cd",
+      "nyf_doc_969931c222416f99",
+      "nyf_home_15K001",
+      "nyf_inside_15K001",
+      "nyf_profile_15K001"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K001"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-a5f9763e4465",
+    "school": "P.S. 015 Patrick F. Daly",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K015",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-8f0390d0a413"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K015",
+      "nyf_doc_25c37ddde6ed7f9a",
+      "nyf_doc_2eac3ec14efe2998",
+      "nyf_doc_6e5a651c52f0652e",
+      "nyf_doc_75f85c497f49438f",
+      "nyf_home_15K015",
+      "nyf_inside_15K015",
+      "nyf_profile_15K015"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K015"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f3ceb81d2f6a",
+    "school": "P.S. 024",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K024",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f844af8812a5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K024",
+      "nyf_doc_5ea15e9e03ae1d65",
+      "nyf_doc_6c1564427cefdfdf",
+      "nyf_doc_b57de357e65aed4c",
+      "nyf_doc_bd49f8b74a0c782c",
+      "nyf_home_15K024",
+      "nyf_inside_15K024",
+      "nyf_profile_15K024"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K024"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8d8f49111990",
+    "school": "P.S. 058 The Carroll",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K058",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-df7dedd4c1fd"
+    ],
+    "attempted_source_keys": [
+      "m6_nyc_ps58",
+      "nyf_cep_15K058",
+      "nyf_doc_02617b394c235a8a",
+      "nyf_doc_259ac6332b036a91",
+      "nyf_doc_26aaa020303e424a",
+      "nyf_doc_271ea4f61092f6b4",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_c22f2f20b2f39d0b",
+      "nyf_doc_d8858295cd629cd6",
+      "nyf_doc_ebbab877acc51611",
+      "nyf_home_15K058",
+      "nyf_inside_15K058",
+      "nyf_profile_15K058"
+    ],
+    "archived_source_keys": [
+      "m6_nyc_ps58",
+      "nyf_cep_15K058"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-e8181afa21f1",
+    "school": "P.S. 094 The Henry Longfellow",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K094",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5a4e0a794705",
+      "M6-NY-P-d8f97aeb3672"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K094",
+      "nyf_doc_22b60d852d6ea500",
+      "nyf_doc_a4ba200ff8e6ab6c",
+      "nyf_doc_aeca8425e56f94d3",
+      "nyf_home_15K094",
+      "nyf_inside_15K094",
+      "nyf_profile_15K094"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K094"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "The full 2025-26 plan explicitly labels DL instruction 50% English and 50% Spanish or Chinese. Recorded as the published K-5 model. Its detailed weekly timetable retains English-only phonics, writing components and STEM; the label is not measured whole-day exposure."
+  },
+  {
+    "school_id": "M6-NY-S-023699d9884b",
+    "school": "P.S. 124 Silas B. Dutcher",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K124",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-24ae2c2b8cb9"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K124",
+      "nyf_doc_0d2cc2b489d5817f",
+      "nyf_doc_126357de8cea9a3d",
+      "nyf_doc_47a48f9904d55a43",
+      "nyf_doc_9270395e8fbe5a3b",
+      "nyf_doc_96b0302b4eaed05e",
+      "nyf_doc_a63da43421b70756",
+      "nyf_home_15K124",
+      "nyf_inside_15K124",
+      "nyf_profile_15K124"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K124"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented",
+      "inferred_kindergarten_subject_distribution"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6df679707ee8",
+    "school": "P.S. 169 Sunset Park",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K169",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-1b2eb4d3140b",
+      "M6-NY-P-b71ea81d4ac4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K169",
+      "nyf_doc_0a8fb08fa235348e",
+      "nyf_doc_0d41acf64a831b0a",
+      "nyf_doc_24f26b1d01bf46c5",
+      "nyf_doc_274e1d96bd9e4370",
+      "nyf_doc_3d8a7fae813a991b",
+      "nyf_doc_d9774cc3dd12031f",
+      "nyf_home_15K169",
+      "nyf_inside_15K169",
+      "nyf_profile_15K169"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K169"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-fa828b5ffeee",
+    "school": "P.S. 230 Doris L. Cohen",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K230",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-484986ca7acf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K230",
+      "nyf_doc_1f094e0c727b6f73",
+      "nyf_doc_2bf251adeb3f69e9",
+      "nyf_doc_2d0475be0be3e124",
+      "nyf_doc_4a1860397d2b01d3",
+      "nyf_doc_63e27ce11043fda9",
+      "nyf_doc_a0757e3d5115e26b",
+      "nyf_doc_a87f7957808b3998",
+      "nyf_doc_b702be66ed07492f",
+      "nyf_doc_d45a419894b4c05d",
+      "nyf_home_15K230",
+      "nyf_inside_15K230",
+      "nyf_profile_15K230"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K230"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8416ffdc4167",
+    "school": "The Elizabeth Jennings School for Bold Explorers",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K456",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-0af4ba72d126"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K456",
+      "nyf_inside_15K456",
+      "nyf_profile_15K456"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K456"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-d3950da6fa5b",
+    "school": "Sunset Park Avenues Elementary School",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K516",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-92e3e5fbbec6"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K516",
+      "nyf_doc_0d41acf64a831b0a",
+      "nyf_doc_54346ff43d1ca14f",
+      "nyf_doc_f02687d05322150a",
+      "nyf_home_15K516",
+      "nyf_inside_15K516",
+      "nyf_profile_15K516"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K516"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2227afd6c572",
+    "school": "The School of Creativity and Innovation",
+    "district": "New York City Geographic District # 15",
+    "dbn": "15K896",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-ada14eb42f2d",
+      "M6-NY-P-e041df201b46"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_15K896",
+      "nyf_doc_2da5a4cac299fa8e",
+      "nyf_doc_3bf0313bf4005ca4",
+      "nyf_home_15K896",
+      "nyf_inside_15K896",
+      "nyf_profile_15K896"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_15K896"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [
+      "deferred_insufficient_whole_programme_time_allocation"
+    ],
+    "decision_notes": "Whole-week language alternation does not establish a whole-programme 50/50 split: the K-2 flow includes 35 minutes English phonics and 20 minutes English small-group work even in the home-language week. Enrichment language and differing daily totals need clarification. No exact model assigned; qualitative timetable and source preserved."
+  },
+  {
+    "school_id": "M6-NY-S-436983a22774",
+    "school": "P.S. 005 Dr. Ronald McNair",
+    "district": "New York City Geographic District # 16",
+    "dbn": "16K005",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-1602c0eea2bf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_16K005",
+      "nyf_doc_b61fd188406e4eb6",
+      "nyf_inside_16K005",
+      "nyf_profile_16K005"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_16K005"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Internal French 50/50 versus approximately25% French conflict retained."
+  },
+  {
+    "school_id": "M6-NY-S-04effc9091c9",
+    "school": "P.S. 040 George W. Carver",
+    "district": "New York City Geographic District # 16",
+    "dbn": "16K040",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c06d76444c61"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_16K040",
+      "nyf_doc_11b11dae59772da8",
+      "nyf_doc_324c5cf54567e638",
+      "nyf_home_16K040",
+      "nyf_inside_16K040",
+      "nyf_profile_16K040"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_16K040"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-9b276b69e386",
+    "school": "Brighter Choice Community School",
+    "district": "New York City Geographic District # 16",
+    "dbn": "16K627",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d0ec63f3dd90"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_16K627",
+      "nyf_doc_2d559a1ce9c5b052",
+      "nyf_doc_b79fd17ad4c830b5",
+      "nyf_home_16K627",
+      "nyf_inside_16K627",
+      "nyf_profile_16K627"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_16K627"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-3f6d8e4d7561",
+    "school": "P.S. 189 The Bilingual Center",
+    "district": "New York City Geographic District # 17",
+    "dbn": "17K189",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7e54f16c2f46",
+      "M6-NY-P-90d696c4faa3"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_17K189",
+      "nyf_doc_05db6b97dd79bc48",
+      "nyf_doc_06c3417290a3b4ca",
+      "nyf_doc_09920bf22558a674",
+      "nyf_doc_506282e749c89e01",
+      "nyf_doc_b3ddf9ee94cb255c",
+      "nyf_home_17K189",
+      "nyf_inside_17K189",
+      "nyf_profile_17K189"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_17K189"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6695d1636e5a",
+    "school": "P.S. 249 The Caton",
+    "district": "New York City Geographic District # 17",
+    "dbn": "17K249",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-67bd5adaafcf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_17K249",
+      "nyf_doc_090ad60aa85001ec",
+      "nyf_doc_3d990d4b972c6b2d",
+      "nyf_doc_623ff6c3631eaf65",
+      "nyf_doc_87ab106613d2b970",
+      "nyf_doc_cd0d720ac7a136fb",
+      "nyf_doc_dbf4ad1b13511e87",
+      "nyf_doc_ec3516d1c3b0340e",
+      "nyf_doc_ed1290a775651421",
+      "nyf_doc_fc7dab666e1c0354",
+      "nyf_home_17K249",
+      "nyf_inside_17K249",
+      "nyf_profile_17K249"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_17K249"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Spanish math/science and mostly Spanish core descriptions do not establish a balanced split; TBE/DL grade labels also differ. Do not infer 50/50 from bilingual subject names."
+  },
+  {
+    "school_id": "M6-NY-S-2642c653150d",
+    "school": "P.S. 316 Elijah Stroud",
+    "district": "New York City Geographic District # 17",
+    "dbn": "17K316",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-09ca37ad37d1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_17K316",
+      "nyf_doc_a1554e138a5a4533",
+      "nyf_doc_b39f036a128c970d",
+      "nyf_doc_cb92cdbc2ba059ea",
+      "nyf_doc_fcd928fe039e733c",
+      "nyf_home_17K316",
+      "nyf_inside_17K316",
+      "nyf_profile_17K316"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_17K316"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "English ELA/math, Spanish SLA, and science/social studies described as bilingual in Q4 but Spanish texts in Part V. Without minutes or a consistent subject split, 50/50 remains ambiguous."
+  },
+  {
+    "school_id": "M6-NY-S-3f9881ea7cf8",
+    "school": "Brooklyn Arts and Science Elementary School",
+    "district": "New York City Geographic District # 17",
+    "dbn": "17K705",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b6b99c5ba258"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_17K705",
+      "nyf_doc_73638008d6767890",
+      "nyf_doc_bace46770d183ccc",
+      "nyf_doc_d75bbac2d97f60d4",
+      "nyf_home_17K705",
+      "nyf_inside_17K705",
+      "nyf_profile_17K705"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_17K705"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Plan describes rebuilding DL from preK through K-2, HLA and at least one Spanish content subject; no complete kindergarten time or subject allocation. Rebuilding is not programme closure."
+  },
+  {
+    "school_id": "M6-NY-S-ceb1feb90b6a",
+    "school": "P.S. 770 New American Academy",
+    "district": "New York City Geographic District # 17",
+    "dbn": "17K770",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-fe191028929a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_17K770",
+      "nyf_doc_85e4d46311485013",
+      "nyf_doc_a6aed846ce951f32",
+      "nyf_doc_e8d2dbc2a2d22097",
+      "nyf_doc_f2f2efc08f0d1b38",
+      "nyf_home_17K770",
+      "nyf_inside_17K770",
+      "nyf_profile_17K770"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_17K770"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Explicit K90%English/10%Spanish normalized10/90; all core subjects also described English. Academic DLI scope needs review."
+  },
+  {
+    "school_id": "M6-NY-S-45eb32afa878",
+    "school": "P.S. 007 Abraham Lincoln",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K007",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f8d705d7cca6"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K007",
+      "nyf_doc_437dd8e2c19db0de",
+      "nyf_doc_4a10d7ad151a0802",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_93abe1ce3be7ebca",
+      "nyf_doc_b2d275b6bb55e666",
+      "nyf_doc_fb0b15f122c29f5b",
+      "nyf_home_19K007",
+      "nyf_inside_19K007",
+      "nyf_profile_19K007"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K007"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-b00ace1072f1",
+    "school": "P.S. 089 Cypress Hills",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K089",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6d59ec784270"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K089",
+      "nyf_doc_013a99e9e7df68d6",
+      "nyf_doc_494a7b5595ed8b29",
+      "nyf_doc_49a1933a8c8f5c61",
+      "nyf_doc_6c4c4e0398233154",
+      "nyf_doc_de9aa41a17f962ee",
+      "nyf_home_19K089",
+      "nyf_inside_19K089",
+      "nyf_profile_19K089"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K089"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2dbf26fd2153",
+    "school": "P.S. 108 Sal Abbracciamento",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K108",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-0136ab8841cb"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K108",
+      "nyf_doc_47e85f0f5690b36b",
+      "nyf_doc_5c3a37b218484d69",
+      "nyf_doc_ad49bdbfa89c5d82",
+      "nyf_home_19K108",
+      "nyf_inside_19K108",
+      "nyf_profile_19K108"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K108"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-a65002735a2f",
+    "school": "P.S. 214 Michael Friedsam",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K214",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b75e69c0a457"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K214",
+      "nyf_doc_095386709b7ac8aa",
+      "nyf_doc_1352fb654dbe4121",
+      "nyf_doc_1f6db4b8713f78d2",
+      "nyf_home_19K214",
+      "nyf_inside_19K214",
+      "nyf_profile_19K214"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K214"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Bengali/Bangla K80/20, grade1 70/30, grade2 60/40 explicit. Grade3 table gives incompatible transition percentages; no grade3 schedule reconstructed."
+  },
+  {
+    "school_id": "M6-NY-S-adaf307978c6",
+    "school": "P.S. 345 Patrolman Robert Bolden",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K345",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f29754adff06"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K345",
+      "nyf_doc_c0e82d8796bbb66b",
+      "nyf_doc_fc0b567790944b43",
+      "nyf_inside_19K345",
+      "nyf_profile_19K345"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K345"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-fc5b162036db",
+    "school": "Brooklyn Gardens Elementary School",
+    "district": "New York City Geographic District # 19",
+    "dbn": "19K557",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-fd2a8aa78140"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_19K557",
+      "nyf_doc_3d782fcebc615e59",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_5448892c0049b755",
+      "nyf_doc_5d6589b9b7da05fe",
+      "nyf_doc_62d1c00eaa57008b",
+      "nyf_doc_a7e5042cfb9a893d",
+      "nyf_doc_ae3bbc6ec6c28189",
+      "nyf_doc_ea9629d8d1086df9",
+      "nyf_home_19K557",
+      "nyf_inside_19K557",
+      "nyf_profile_19K557"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_19K557"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "K and grade-1 DL classes listed in Part II and ICT DL described in Q4, but another answer says solely ENL. Bilingual core subjects have no quantified split. Programme/service description conflict retained."
+  },
+  {
+    "school_id": "M6-NY-S-4e7e1155b3cf",
+    "school": "P.S./I.S. 30 Mary White Ovington",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K030",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-91f793e31f2a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K030",
+      "nyf_doc_160e041f43f58653",
+      "nyf_doc_4669b8a48a0c8d41",
+      "nyf_doc_46c66507fee53346",
+      "nyf_doc_506ff9d5c0572199",
+      "nyf_doc_52d83099eb2237ab",
+      "nyf_doc_9a87fc6f74ae9916",
+      "nyf_doc_bcb0e51f652a858a",
+      "nyf_home_20K030",
+      "nyf_inside_20K030",
+      "nyf_profile_20K030"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K030"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-9e99e8d718aa",
+    "school": "P.S. 69 Vincent D. Grippo School",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K069",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-86ecb721c3b4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K069",
+      "nyf_doc_00231ee4706988ce",
+      "nyf_doc_c9974fb11cef0329",
+      "nyf_doc_c9db6de2c1d3c127",
+      "nyf_home_20K069",
+      "nyf_inside_20K069",
+      "nyf_profile_20K069"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K069"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-290751bbfe6a",
+    "school": "P.S. 112 Lefferts Park",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K112",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5262025b79c1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K112",
+      "nyf_doc_693344e9f78581af",
+      "nyf_doc_b13f46ccf1b5d85e",
+      "nyf_doc_c10716b860ce12f1",
+      "nyf_doc_cba70aae7f1121af",
+      "nyf_doc_f228cf4ac922322a",
+      "nyf_home_20K112",
+      "nyf_inside_20K112",
+      "nyf_profile_20K112"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K112"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-9e97da7914b1",
+    "school": "Ralph A. Fabrizio School",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K170",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e4eb5f9b0906"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K170",
+      "nyf_doc_0e60c8027794af98",
+      "nyf_doc_1d36aca7d1f2b4ef",
+      "nyf_doc_22bacaa006751d72",
+      "nyf_doc_bc61d3c31a33f966",
+      "nyf_doc_d26cba4d2b5229c3",
+      "nyf_doc_f486cdecc951067c",
+      "nyf_home_20K170",
+      "nyf_inside_20K170",
+      "nyf_profile_20K170"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K170"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-801a4f819d72",
+    "school": "P.S. 176 Ovington",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K176",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-176a0e592b26"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K176",
+      "nyf_doc_007c1f2e6ae21f00",
+      "nyf_doc_0f721f8cb6ee8a33",
+      "nyf_doc_6341910544513718",
+      "nyf_doc_90cd184bcee099d6",
+      "nyf_doc_a97486a9a45bf40c",
+      "nyf_doc_da1ec07e2d5996e8",
+      "nyf_doc_e16ff5d0364d80ac",
+      "nyf_doc_e304810b6c30ace7",
+      "nyf_home_20K176",
+      "nyf_inside_20K176",
+      "nyf_profile_20K176"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K176"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f7f41957b850",
+    "school": "P.S. 200 Benson School",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K200",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6f68b9978cf8"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K200",
+      "nyf_doc_0549359fc0a4665a",
+      "nyf_doc_0d353253b5fe4269",
+      "nyf_doc_44639421a4462495",
+      "nyf_doc_813780077e6e6ffc",
+      "nyf_doc_a475443d2515d3ba",
+      "nyf_doc_b5c180649a03744a",
+      "nyf_doc_fa84575a9e8f1328",
+      "nyf_home_20K200",
+      "nyf_inside_20K200",
+      "nyf_profile_20K200"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K200"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2285b634fea8",
+    "school": "P.S. 204 Vince Lombardi",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K204",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7a69027b6b4f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K204",
+      "nyf_doc_2de3bee788e7c952",
+      "nyf_doc_97003cdaf9404809",
+      "nyf_doc_a2c5e902fee29e6c",
+      "nyf_doc_c8a63ac2cd63d307",
+      "nyf_doc_d8211de28c8a70d5",
+      "nyf_doc_ebdc5baacfbddb51",
+      "nyf_home_20K204",
+      "nyf_inside_20K204",
+      "nyf_profile_20K204"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K204"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8376f05e8700",
+    "school": "P.S. 229 Dyker",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K229",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-eb37504b8094"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K229",
+      "nyf_doc_4284e3dc269679e2",
+      "nyf_doc_669cbaad81495c79",
+      "nyf_doc_82f7ed54a6129324",
+      "nyf_doc_8f939e96ac7c26cb",
+      "nyf_home_20K229",
+      "nyf_inside_20K229",
+      "nyf_profile_20K229"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K229"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-76de4e6ff272",
+    "school": "Joanne Seminara School of Law and Medicine",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K413",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-602cfe3d2bf4"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K413",
+      "nyf_doc_51990cc1636dafb4",
+      "nyf_doc_d1cb01dbd6cebb95",
+      "nyf_inside_20K413",
+      "nyf_profile_20K413"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K413"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-93f28fc16884",
+    "school": "P.S. 503: The School of Discovery",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K503",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f81ca5a1bdc7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K503",
+      "nyf_doc_59dd10d92e6b6600",
+      "nyf_doc_84b6012d7684297b",
+      "nyf_doc_b1586143f9ea1062",
+      "nyf_doc_cdb6a5a96fcadec5",
+      "nyf_doc_f99f7abc7307b0e3",
+      "nyf_home_20K503",
+      "nyf_inside_20K503",
+      "nyf_profile_20K503"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K503"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "All subjects bilingual by language of day/unit and daily English/Spanish on school website; no quantified or explicitly equal cycle. A half-native-English/half-native-Spanish class is pupil composition, not allocation."
+  },
+  {
+    "school_id": "M6-NY-S-6b761abb0caf",
+    "school": "P.S. 506: The School of Journalism & Technology",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K506",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f28bfb184377"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K506",
+      "nyf_doc_4a93e89910c9c282",
+      "nyf_doc_54e02999ea8b61bb",
+      "nyf_doc_c21e661185ee9102",
+      "nyf_home_20K506",
+      "nyf_inside_20K506",
+      "nyf_profile_20K506"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K506"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-110ad3991026",
+    "school": "Sunset School of Cultural Learning",
+    "district": "New York City Geographic District # 20",
+    "dbn": "20K939",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-97820da10766"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_20K939",
+      "nyf_doc_1aaf7a8ed4f3957f",
+      "nyf_doc_50d75b1d91dd0563",
+      "nyf_doc_51e3175ccc622b40",
+      "nyf_doc_5569aff93710b0ab",
+      "nyf_doc_8cc43d1617a5e117",
+      "nyf_doc_f9a43ef20bbe4382",
+      "nyf_home_20K939",
+      "nyf_inside_20K939",
+      "nyf_profile_20K939"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_20K939"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-edfaa341b0ae",
+    "school": "P.S. 90 Edna Cohen School",
+    "district": "New York City Geographic District # 21",
+    "dbn": "21K090",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-687172063803"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_21K090",
+      "nyf_doc_aa6db091cfcd5e56",
+      "nyf_inside_21K090",
+      "nyf_profile_21K090"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_21K090"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-54896e8c6b21",
+    "school": "P.S. 101 The Verrazano",
+    "district": "New York City Geographic District # 21",
+    "dbn": "21K101",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-babdcd9d756e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_21K101",
+      "nyf_doc_1526c46a99dbf012",
+      "nyf_doc_41493edf07fa1e0f",
+      "nyf_doc_437fd6cec2124e00",
+      "nyf_doc_feafada6c40ef958",
+      "nyf_home_21K101",
+      "nyf_inside_21K101",
+      "nyf_profile_21K101"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_21K101"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-9c0e43c779a1",
+    "school": "P.S. K225 - The Eileen E. Zaglin",
+    "district": "New York City Geographic District # 21",
+    "dbn": "21K225",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-d26a5f7b884a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_21K225",
+      "nyf_inside_21K225",
+      "nyf_profile_21K225"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_21K225"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-b88f7cd2689c",
+    "school": "P.S. 139 Alexine A. Fenty",
+    "district": "New York City Geographic District # 22",
+    "dbn": "22K139",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-dc0406401d82"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_22K139",
+      "nyf_doc_1425e25abc2c1861",
+      "nyf_doc_6447a40f515d4916",
+      "nyf_doc_67a527c4b00c7a49",
+      "nyf_doc_c7b296e6af266ab8",
+      "nyf_doc_e74b0ce4c50c0caf",
+      "nyf_home_22K139",
+      "nyf_inside_22K139",
+      "nyf_profile_22K139"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_22K139"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8c5e86072ef9",
+    "school": "P.S. 206 Joseph F Lamb",
+    "district": "New York City Geographic District # 22",
+    "dbn": "22K206",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6c8f8558298d"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_22K206",
+      "nyf_doc_5e1954ecf1c131d3",
+      "nyf_doc_99898295bc6113b9",
+      "nyf_home_22K206",
+      "nyf_inside_22K206",
+      "nyf_profile_22K206"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_22K206"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8c47a40b39d0",
+    "school": "P.S./ I.S. 155 Nicholas Herkimer",
+    "district": "New York City Geographic District # 23",
+    "dbn": "23K155",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-a5cab7379b62"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_23K155",
+      "nyf_doc_07d510000f6389e6",
+      "nyf_doc_5705bddce9947119",
+      "nyf_home_23K155",
+      "nyf_inside_23K155",
+      "nyf_profile_23K155"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_23K155"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Explicit minimum20%Spanish/80%English normalized20/80; core English and Spanish arts twice weekly need academic-scope review."
+  },
+  {
+    "school_id": "M6-NY-S-0595254c0d7c",
+    "school": "P.S. 007 Louis F. Simeone",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q007",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-556ec3d0cd98",
+      "M6-NY-P-ac393a9ff0d6"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q007",
+      "nyf_doc_0097a7c9315f479e",
+      "nyf_doc_072959e653654e7b",
+      "nyf_doc_22bcda7356eed78a",
+      "nyf_doc_3181a69fe16e0a31",
+      "nyf_doc_3cd5aa54896f240b",
+      "nyf_home_24Q007",
+      "nyf_inside_24Q007",
+      "nyf_profile_24Q007"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q007"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-ad1ddbbea222",
+    "school": "P.S. 013 Clement C. Moore",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q013",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e2951ef60969",
+      "M6-NY-P-76321f94479e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q013",
+      "nyf_doc_49d428c12de035a7",
+      "nyf_doc_561086c0c52c5444",
+      "nyf_doc_6bc4160c8bf36dcc",
+      "nyf_doc_7ce9dd320ef8f1a1",
+      "nyf_doc_8210faedb3a42d78",
+      "nyf_doc_adb10bc9b47c0577",
+      "nyf_home_24Q013",
+      "nyf_inside_24Q013",
+      "nyf_profile_24Q013"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q013"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f18c0e0407b8",
+    "school": "P.S. 014 Fairview",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q014",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-79c75a315738"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q014",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_a01fea8695fb04b8",
+      "nyf_doc_a11d0af22f441321",
+      "nyf_doc_bb8138adbc97250d",
+      "nyf_home_24Q014",
+      "nyf_inside_24Q014",
+      "nyf_profile_24Q014"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q014"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-10cc0054f879",
+    "school": "P.S. Q016 The Nancy DeBenedittis School",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q016",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c667874e33f8"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q016",
+      "nyf_doc_08ef103752338e29",
+      "nyf_inside_24Q016",
+      "nyf_profile_24Q016"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q016"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-3a7350119cd9",
+    "school": "P.S. 019 Marino Jeantet",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q019",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-7b6819a0d05a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q019",
+      "nyf_doc_050d661628994fc4",
+      "nyf_doc_1306e854731f0952",
+      "nyf_doc_1df72b5d085d2c7e",
+      "nyf_doc_539f192440325197",
+      "nyf_doc_c83aec2d790f5aa8",
+      "nyf_doc_c8862de59542a1b2",
+      "nyf_doc_ea679f3cabf70e32",
+      "nyf_doc_f32a866135da01cc",
+      "nyf_doc_ff1af7fec672de83",
+      "nyf_home_24Q019",
+      "nyf_inside_24Q019",
+      "nyf_profile_24Q019"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q019"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-feb7c2c7361d",
+    "school": "P.S. 088 Seneca",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q088",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-53e33b8fc1f1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q088",
+      "nyf_doc_072959e653654e7b",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_b0aad6037f6aee83",
+      "nyf_doc_b574a1e462801603",
+      "nyf_home_24Q088",
+      "nyf_inside_24Q088",
+      "nyf_profile_24Q088"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q088"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-74296b2ab1da",
+    "school": "P.S. 89Q: The Jose Peralta School of Dreamers",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q089",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-42d354ad86db"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q089",
+      "nyf_home_24Q089",
+      "nyf_inside_24Q089",
+      "nyf_profile_24Q089"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q089"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-20ab2303cd35",
+    "school": "P.S. 102 Bayview",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q102",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-635e0c7a0e07"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q102",
+      "nyf_doc_1853a13f510e9438",
+      "nyf_doc_aecb4d62b4606222",
+      "nyf_doc_bf01831f996a5501",
+      "nyf_home_24Q102",
+      "nyf_inside_24Q102",
+      "nyf_profile_24Q102"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q102"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-03296bdcf6be",
+    "school": "P.S. 110",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q110",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5c5e90447ec2"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q110",
+      "nyf_doc_03b2f5b4b6a8fba5",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_74128576c7263dce",
+      "nyf_doc_86eefad061bdc663",
+      "nyf_doc_ab5a86a08ea67e8b",
+      "nyf_doc_c47ff1a041923e62",
+      "nyf_doc_c827ddb4121ba6c0",
+      "nyf_doc_ccea8182ce2f0a4d",
+      "nyf_doc_fecd182d8d124c0a",
+      "nyf_home_24Q110",
+      "nyf_inside_24Q110",
+      "nyf_profile_24Q110"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q110"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-7728e848c5ff",
+    "school": "P.S. 143 Louis Armstrong",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q143",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e86df94bbecc"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q143",
+      "nyf_doc_07ee7639abf4434b",
+      "nyf_doc_2746c0a5300b0c24",
+      "nyf_doc_912063cade3a1d96",
+      "nyf_doc_99d9820214b4e703",
+      "nyf_home_24Q143",
+      "nyf_inside_24Q143",
+      "nyf_profile_24Q143"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q143"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-677051a6df44",
+    "school": "P.S. 153 Maspeth Elem",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q153",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b9d75c726757"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q153",
+      "nyf_doc_14b4910fdfcf4529",
+      "nyf_doc_40d2cec524dbdf37",
+      "nyf_doc_9117b33d6ede1187",
+      "nyf_doc_b4bc916f67a5bae6",
+      "nyf_doc_b71496512343d6f5",
+      "nyf_doc_bc3089ba9960b69a",
+      "nyf_doc_d45955e3c9109ca5",
+      "nyf_doc_f599e4f244cfdee7",
+      "nyf_home_24Q153",
+      "nyf_inside_24Q153",
+      "nyf_profile_24Q153"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q153"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-034a4d2aabc8",
+    "school": "Elm Tree Elementary School",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q211",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-96e7a15640ab"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q211",
+      "nyf_doc_0dc7ddb3c3dc8aea",
+      "nyf_doc_1071c6b92499d967",
+      "nyf_doc_1ec67f604b206dc2",
+      "nyf_doc_3a230c7c1d210235",
+      "nyf_doc_4bcebfa692eff1b7",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_537c1095fc58240c",
+      "nyf_doc_b530e0c3252b9f66",
+      "nyf_doc_d71e7287d5c55826",
+      "nyf_home_24Q211",
+      "nyf_inside_24Q211",
+      "nyf_profile_24Q211"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q211"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-162678832daf",
+    "school": "Helen M. Marshall School",
+    "district": "New York City Geographic District # 24",
+    "dbn": "24Q330",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-cd3a4218fd82"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_24Q330",
+      "nyf_doc_072959e653654e7b",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_inside_24Q330",
+      "nyf_profile_24Q330"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_24Q330"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-0037654b6aa6",
+    "school": "P.S. 020 John Bowne",
+    "district": "New York City Geographic District # 25",
+    "dbn": "25Q020",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-48318e9ba6db"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_25Q020",
+      "nyf_doc_46fe27b218674c25",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_inside_25Q020",
+      "nyf_profile_25Q020"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_25Q020"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-02f605cecc77",
+    "school": "P.S. 021 Edward Hart",
+    "district": "New York City Geographic District # 25",
+    "dbn": "25Q021",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4f134aa6dfb6",
+      "M6-NY-P-613c1a0e8fd0"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_25Q021",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_b751b29c8bdeb783",
+      "nyf_doc_e090a11e68631e48",
+      "nyf_home_25Q021",
+      "nyf_inside_25Q021",
+      "nyf_profile_25Q021"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_25Q021"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-e1631fef4811",
+    "school": "P.S. 032 State Street",
+    "district": "New York City Geographic District # 25",
+    "dbn": "25Q032",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-bf018a8dfab1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_25Q032",
+      "nyf_doc_0658c88e6729a7f5",
+      "nyf_doc_2aa11cb10e92059c",
+      "nyf_doc_563f1050d1dede2a",
+      "nyf_doc_7ae2865375e8bac4",
+      "nyf_doc_9a625478739001a0",
+      "nyf_doc_a69db754a60adc9e",
+      "nyf_doc_a8f95419f89aa930",
+      "nyf_doc_cc3567e9192470c0",
+      "nyf_home_25Q032",
+      "nyf_inside_25Q032",
+      "nyf_profile_25Q032"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_25Q032"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1d6e4db5ce05",
+    "school": "P.S. 107 Thomas A Dooley",
+    "district": "New York City Geographic District # 25",
+    "dbn": "25Q107",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-48634423e3b7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_25Q107",
+      "nyf_inside_25Q107",
+      "nyf_profile_25Q107"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_25Q107"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6b7a1d69dd13",
+    "school": "P.S. 163 Flushing Heights",
+    "district": "New York City Geographic District # 25",
+    "dbn": "25Q163",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c678e7eb9ec3"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_25Q163",
+      "nyf_doc_284f90cf03978dcb",
+      "nyf_doc_b9ec2a6e51e2029d",
+      "nyf_doc_d5a4ace6632c77c3",
+      "nyf_home_25Q163",
+      "nyf_inside_25Q163",
+      "nyf_profile_25Q163"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_25Q163"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-829fb76bcb87",
+    "school": "P.S. 162 John Golden",
+    "district": "New York City Geographic District # 26",
+    "dbn": "26Q162",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-24fa92e2e240"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_26Q162",
+      "nyf_doc_006a2d3e3dc918cb",
+      "nyf_doc_768a9e763ccadaa7",
+      "nyf_doc_89029bb67be6c2f1",
+      "nyf_home_26Q162",
+      "nyf_inside_26Q162",
+      "nyf_profile_26Q162"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_26Q162"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-397cff390d5a",
+    "school": "P.S. 173 Fresh Meadows",
+    "district": "New York City Geographic District # 26",
+    "dbn": "26Q173",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-f1b060e98f2b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_26Q173",
+      "nyf_doc_2bc21b1d52eed38e",
+      "nyf_doc_5d02c72402354401",
+      "nyf_doc_8637f5e2c03db561",
+      "nyf_doc_dd2691db11573860",
+      "nyf_home_26Q173",
+      "nyf_inside_26Q173",
+      "nyf_profile_26Q173"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_26Q173"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-5b7826fb9d8f",
+    "school": "P.S. 060 Woodhaven",
+    "district": "New York City Geographic District # 27",
+    "dbn": "27Q060",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5b57cd41e61b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_27Q060",
+      "nyf_doc_466f306c9f39f342",
+      "nyf_doc_7568359982a29e97",
+      "nyf_doc_89be0b1d22c60372",
+      "nyf_doc_ad3a5540f11dde8a",
+      "nyf_doc_d4bb08c90745f727",
+      "nyf_home_27Q060",
+      "nyf_inside_27Q060",
+      "nyf_profile_27Q060"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_27Q060"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "K-1 academic one-way Spanish DL confirmed; English and Spanish instructional days described without frequency or a full rotation. English-only specials; no reliable whole-day 50/50 inference."
+  },
+  {
+    "school_id": "M6-NY-S-a4f80448977f",
+    "school": "P.S. 097 Forest Park",
+    "district": "New York City Geographic District # 27",
+    "dbn": "27Q097",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-fe6e5fa8d6c1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_27Q097",
+      "nyf_doc_0efa3f1a395d5aa6",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_aa43e0f402702ebc",
+      "nyf_doc_ccfe5abfa6c5ddb9",
+      "nyf_doc_d712d7a3e1a28ed6",
+      "nyf_doc_d9b8f11bfc344f5f",
+      "nyf_doc_eebec1eb7b9951e1",
+      "nyf_doc_f5cac96f389b95d1",
+      "nyf_home_27Q097",
+      "nyf_inside_27Q097",
+      "nyf_profile_27Q097"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_27Q097"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "Internal explicit50/50 model versus fixed3English/2Spanish day schedule conflict retained."
+  },
+  {
+    "school_id": "M6-NY-S-e6fa5dfa1d42",
+    "school": "The Randolph Holder School for Social Justice",
+    "district": "New York City Geographic District # 27",
+    "dbn": "27Q253",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4e7c873a3a6b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_27Q253",
+      "nyf_inside_27Q253",
+      "nyf_profile_27Q253"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_27Q253"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_kindergarten_subject_distribution"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-fe02ca9dd871",
+    "school": "P.S. 082 Hammond",
+    "district": "New York City Geographic District # 28",
+    "dbn": "28Q082",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3ae7e68c30f3"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_28Q082",
+      "nyf_doc_1b3572e74588cee7",
+      "nyf_doc_341ef4323cacf5c6",
+      "nyf_doc_409b797d7e57caab",
+      "nyf_doc_57c96e9e2599d3ea",
+      "nyf_doc_5c6c8d4bd5fbf339",
+      "nyf_doc_a0e24c7734cc6510",
+      "nyf_doc_f3666d06a211951d",
+      "nyf_home_28Q082",
+      "nyf_inside_28Q082",
+      "nyf_profile_28Q082"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_28Q082"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-600758fd10fa",
+    "school": "P.S. Q086",
+    "district": "New York City Geographic District # 28",
+    "dbn": "28Q086",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-068b61b660cc"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_28Q086",
+      "nyf_doc_0fbe63df53b9053e",
+      "nyf_doc_13943636f558f1b6",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_595ae0848e6761fd",
+      "nyf_doc_92f0a1a5c048c1f1",
+      "nyf_doc_f1a8dd06bddb0394",
+      "nyf_home_28Q086",
+      "nyf_inside_28Q086",
+      "nyf_profile_28Q086"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_28Q086"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Self-contained Spanish/English classes, including bilingual special education, and core curricula in both; no quantified distribution. ENL service minutes are not full-programme allocation."
+  },
+  {
+    "school_id": "M6-NY-S-6293e6bcc22d",
+    "school": "The Jermaine L. Green STEM Institute of Queens",
+    "district": "New York City Geographic District # 28",
+    "dbn": "28Q354",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-85fb96e96e89"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_28Q354",
+      "nyf_doc_018ca198ec185c2e",
+      "nyf_doc_5136d1713dc53fd3",
+      "nyf_doc_5715f2b0c06389db",
+      "nyf_home_28Q354",
+      "nyf_inside_28Q354",
+      "nyf_profile_28Q354"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_28Q354"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-01cc1ac88a52",
+    "school": "P.S./I.S. 116 William C. Hughley",
+    "district": "New York City Geographic District # 29",
+    "dbn": "29Q116",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e513ab966157"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_29Q116",
+      "nyf_doc_6e446e9e11e94b41",
+      "nyf_doc_7051bc33b6c0ee85",
+      "nyf_doc_7d752c96156087c1",
+      "nyf_doc_cca0d19a99eafc1c",
+      "nyf_doc_d93fece10d71a29e",
+      "nyf_doc_dd649e46b995299e",
+      "nyf_home_29Q116",
+      "nyf_inside_29Q116",
+      "nyf_profile_29Q116"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_29Q116"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1da397d2743a",
+    "school": "P.S. 017 Henry David Thoreau",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q017",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-44501f6f4c1e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q017",
+      "nyf_doc_2f8109d3c6f25e6a",
+      "nyf_doc_389ba4d9b7a0aaec",
+      "nyf_doc_c7313eaa3c2a3920",
+      "nyf_doc_c7318310dcb89045",
+      "nyf_home_30Q017",
+      "nyf_inside_30Q017",
+      "nyf_profile_30Q017"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q017"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-dc0f753b3dc3",
+    "school": "P.S. 076 William Hallet",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q076",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-78f4f861b0c2"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q076",
+      "nyf_doc_02ece2343d797906",
+      "nyf_doc_4177d2559a110759",
+      "nyf_doc_a6ed7e616ccd7fc3",
+      "nyf_doc_a8744707a029ab7a",
+      "nyf_home_30Q076",
+      "nyf_inside_30Q076",
+      "nyf_profile_30Q076"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q076"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-a5ec4abb54f0",
+    "school": "P.S. 092 Harry T. Stewart Sr.",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q092",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-aad99586699d"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q092",
+      "nyf_doc_031070ececf9db51",
+      "nyf_doc_231d03e102dcbe93",
+      "nyf_doc_380152ceb833be07",
+      "nyf_doc_603d163ed8c07bbb",
+      "nyf_doc_94792a7dd0e97ac0",
+      "nyf_doc_ac0e4341c925207d",
+      "nyf_doc_b68271da6697297a",
+      "nyf_doc_d28118b89e8490da",
+      "nyf_doc_db59b5191b22d1a6",
+      "nyf_home_30Q092",
+      "nyf_inside_30Q092",
+      "nyf_profile_30Q092"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q092"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-b8e4940a4690",
+    "school": "P.S. 112 Dutch Kills",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q112",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5af42b78cced"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q112",
+      "nyf_doc_1444dd07db839838",
+      "nyf_doc_4220c2e374f31ced",
+      "nyf_doc_65567dcd5614952a",
+      "nyf_doc_ac4e50a9a2fe8f2d",
+      "nyf_doc_af2a59c45eac5e63",
+      "nyf_home_30Q112",
+      "nyf_inside_30Q112",
+      "nyf_profile_30Q112"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q112"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-17a03c0911be",
+    "school": "P.S. 127 Aerospace Science Magnet School",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q127",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-99b190276b3f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q127",
+      "nyf_doc_bd17f2a0b41ad797",
+      "nyf_doc_e93bc959ae36ff56",
+      "nyf_doc_fca1465224e4ec63",
+      "nyf_home_30Q127",
+      "nyf_inside_30Q127",
+      "nyf_profile_30Q127"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q127"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "CEP initial bilingual-presence checkbox says No, but detailed K-8 DL model explicitly 50/50 and city roster lists DL. Model retained with contradictory checkbox flagged."
+  },
+  {
+    "school_id": "M6-NY-S-675e268a91c7",
+    "school": "P.S. 149 Christa McAuliffe",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q149",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4126b52e12e9"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q149",
+      "nyf_doc_51312fc35b4d1de6",
+      "nyf_doc_61004f267aee4289",
+      "nyf_doc_a1da2cee4781cca9",
+      "nyf_inside_30Q149",
+      "nyf_profile_30Q149"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q149"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "K-5 academic Spanish DL confirmed. ELA/HLA/ENL units and bilingual content access do not establish whole-day language proportions."
+  },
+  {
+    "school_id": "M6-NY-S-a67ddae4bdc4",
+    "school": "P.S. 150 Queens",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q150",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2a8139edf7b0"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q150",
+      "nyf_doc_3bcdd0e4b6619a65",
+      "nyf_inside_30Q150",
+      "nyf_profile_30Q150"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q150"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-16f139beb0fc",
+    "school": "P.S. 166 Henry Gradstein",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q166",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9ebb3a1d2978"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q166",
+      "nyf_doc_3cc647c9b3249cb8",
+      "nyf_doc_5a2c432a7b3c7317",
+      "nyf_doc_7d99a9cf99f3975f",
+      "nyf_doc_acc4453bb04179d8",
+      "nyf_home_30Q166",
+      "nyf_inside_30Q166",
+      "nyf_profile_30Q166"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q166"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-8955a5e3544f",
+    "school": "P.S. 212",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q212",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-248e765194c1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q212",
+      "nyf_doc_ab98e124b2608827",
+      "nyf_doc_b76877e9a9ddd464",
+      "nyf_doc_e64d4d1e0967df5d",
+      "nyf_home_30Q212",
+      "nyf_inside_30Q212",
+      "nyf_profile_30Q212"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q212"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-63e7e2ead51b",
+    "school": "P.S. Q222 - Fire Fighter Christopher A. Santora School",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q222",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-892866f9930e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q222",
+      "nyf_doc_919e7887da6e9713",
+      "nyf_doc_f8c65e63ca458e5e",
+      "nyf_home_30Q222",
+      "nyf_inside_30Q222",
+      "nyf_profile_30Q222"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q222"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-de46c103ef25",
+    "school": "The Ivan Lafayette Early Childhood School of the Arts",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q228",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-47820b7c4191"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q228",
+      "nyf_doc_58bc1a5380051eae",
+      "nyf_doc_7285bcb6b0395c81",
+      "nyf_doc_a4ebee85d0b6cd5a",
+      "nyf_doc_a91b87c02429ee0d",
+      "nyf_doc_b7e4cf8c113d1b63",
+      "nyf_doc_f2414c768b17281c",
+      "nyf_home_30Q228",
+      "nyf_inside_30Q228",
+      "nyf_profile_30Q228"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q228"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-2f711713e8ec",
+    "school": "PS280Q: Home of the Lionhearts",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q280",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-479363be3129"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q280",
+      "nyf_doc_3bc7d5cd4f24dc58",
+      "nyf_doc_3f0c5f40d46deda9",
+      "nyf_doc_84e83a63b1ec9979",
+      "nyf_doc_cd277cb1eaec561c",
+      "nyf_doc_d1844437e41001da",
+      "nyf_home_30Q280",
+      "nyf_inside_30Q280",
+      "nyf_profile_30Q280"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q280"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-15355e72ce1f",
+    "school": "East Elmhurst Community School",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q329",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-4e62a4cdcedf"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q329",
+      "nyf_doc_331d4ad1952a8902",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_7cd56e0cc4654522",
+      "nyf_doc_cab34a7bae71bca1",
+      "nyf_home_30Q329",
+      "nyf_inside_30Q329",
+      "nyf_profile_30Q329"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q329"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "inferred_language_cycle"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-17af19e9f276",
+    "school": "The Hector Figueroa School",
+    "district": "New York City Geographic District # 30",
+    "dbn": "30Q398",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c9d065f81a12"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_30Q398",
+      "nyf_doc_4f698d48dfdbeed8",
+      "nyf_doc_5a5be7fb9159d577",
+      "nyf_doc_696ecfb2011c513b",
+      "nyf_doc_798bae96e9fbbbd7",
+      "nyf_home_30Q398",
+      "nyf_inside_30Q398",
+      "nyf_profile_30Q398"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_30Q398"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-f9f968796210",
+    "school": "P.S. 016 John J. Driscoll",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R016",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-98a280ce3c48"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R016",
+      "nyf_doc_42ebed140ffb6c2a",
+      "nyf_doc_a9f6b2ca9735e0ec",
+      "nyf_doc_d97bb416095f932c",
+      "nyf_home_31R016",
+      "nyf_inside_31R016",
+      "nyf_profile_31R016"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R016"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-4580412c9ad7",
+    "school": "P.S. 019 The Curtis School",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R019",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-33e66b53256a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R019",
+      "nyf_doc_1ca12a9435284c1b",
+      "nyf_doc_6b84876f77c05ad8",
+      "nyf_doc_7756075883cc3f26",
+      "nyf_home_31R019",
+      "nyf_inside_31R019",
+      "nyf_profile_31R019"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R019"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-56f07e761cc3",
+    "school": "P.S. 020 Port Richmond",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R020",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2ebc79f212f7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R020",
+      "nyf_doc_1def5344a8cbe4f5",
+      "nyf_doc_57ca99c1d674328e",
+      "nyf_doc_69ea8a9035afe505",
+      "nyf_doc_776b6a83fd71fa84",
+      "nyf_doc_98caa4dff8bbe03c",
+      "nyf_doc_a6c2c04ec09cf8fe",
+      "nyf_doc_fbd5f0acdaf20223",
+      "nyf_home_31R020",
+      "nyf_inside_31R020",
+      "nyf_profile_31R020"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R020"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6b436b814b06",
+    "school": "P.S. 022 Graniteville",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R022",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-16ad5b49cf3c"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R022",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_61b9a1add6c8243f",
+      "nyf_doc_82dc65f2f6df8a70",
+      "nyf_doc_929db8673e9a90ed",
+      "nyf_doc_d72431fff35ae70b",
+      "nyf_doc_db825a2d705a2ea7",
+      "nyf_home_31R022",
+      "nyf_inside_31R022",
+      "nyf_profile_31R022"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R022"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-621fbc35c53f",
+    "school": "P.S. 044 Thomas C. Brown",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R044",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-3f67c0100ff1"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R044",
+      "nyf_doc_3311d46ae2bfd61b",
+      "nyf_doc_729fcfb3fa44ce45",
+      "nyf_doc_8648374baa2a395b",
+      "nyf_doc_8b1471d57ef47d46",
+      "nyf_doc_bced0032a3c398be",
+      "nyf_doc_d5951d7c66bac551",
+      "nyf_home_31R044",
+      "nyf_inside_31R044",
+      "nyf_profile_31R044"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R044"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-1932c4a18827",
+    "school": "The Waverly Academy of Empowered Learners",
+    "district": "New York City Geographic District # 31",
+    "dbn": "31R084",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-182037c94036"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_31R084",
+      "nyf_doc_3c198b7655fe578a",
+      "nyf_doc_5471f187c50988ab",
+      "nyf_doc_c6247bd535576a3b",
+      "nyf_doc_ffb22ef06c4b8f98",
+      "nyf_home_31R084",
+      "nyf_inside_31R084",
+      "nyf_profile_31R084"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_31R084"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-88ae5eff46ff",
+    "school": "P.S. 086 The Irvington",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K086",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6d3f36f4aaf7"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K086",
+      "nyf_doc_3f07886ec2a41a0b",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_home_32K086",
+      "nyf_inside_32K086",
+      "nyf_profile_32K086"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K086"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-103ab62a0b2c",
+    "school": "P.S. 106 Edward Everett Hale",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K106",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-dcff4a085158"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K106",
+      "nyf_doc_10442be34985d84d",
+      "nyf_doc_6d02c15ea16f8f93",
+      "nyf_doc_880b84be09f806f8",
+      "nyf_doc_a4a4d79d8d708d33",
+      "nyf_home_32K106",
+      "nyf_inside_32K106",
+      "nyf_profile_32K106"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K106"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-3d8e245cb951",
+    "school": "P.S. 116 Elizabeth L Farrell",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K116",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-00ff82027fe5"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K116",
+      "nyf_doc_6a2818ac335f1972",
+      "nyf_doc_8eb0e651cc812b19",
+      "nyf_doc_a27bc7276e9477a8",
+      "nyf_doc_a34080e948ceb2d6",
+      "nyf_doc_e0e43c835a8589da",
+      "nyf_doc_fb9b296518c37aed",
+      "nyf_home_32K116",
+      "nyf_inside_32K116",
+      "nyf_profile_32K116"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K116"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-6414fb21d2fc",
+    "school": "P.S. 123 Suydam",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K123",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-e8b0fe593eee"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K123",
+      "nyf_doc_41fd92809384d4b5",
+      "nyf_doc_7e280e3bf47ea924",
+      "nyf_doc_badecd426447f6f4",
+      "nyf_home_32K123",
+      "nyf_inside_32K123",
+      "nyf_profile_32K123"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K123"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-fa3880a680de",
+    "school": "P.S. 145 Andrew Jackson",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K145",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-80e6c3f5481a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K145",
+      "nyf_doc_07c597930f9108f8",
+      "nyf_doc_1a4b2ded1001a4ba",
+      "nyf_doc_2365da0a825c129c",
+      "nyf_doc_5caf53630a5bba27",
+      "nyf_doc_828217ce526ba7b9",
+      "nyf_doc_af329be1c99ecdaf",
+      "nyf_doc_e2c36ddaf3913a5b",
+      "nyf_doc_f1944aee7da1c94c",
+      "nyf_home_32K145",
+      "nyf_inside_32K145",
+      "nyf_profile_32K145"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K145"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-426455c4de90",
+    "school": "P.S. 151 Lyndon B. Johnson",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K151",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-13a6816c801b"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K151",
+      "nyf_doc_4f97bb04dc52a98e",
+      "nyf_doc_5b0fc1540733ed1f",
+      "nyf_doc_5c2e553523d2d585",
+      "nyf_doc_c0bf9c0d113b5905",
+      "nyf_doc_d43d7f269e6f4e85",
+      "nyf_doc_fa8d2ee445192118",
+      "nyf_home_32K151",
+      "nyf_inside_32K151",
+      "nyf_profile_32K151"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K151"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-c35471a47236",
+    "school": "P.S. 274 Kosciusko",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K274",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-cbea745fcdd8"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K274",
+      "nyf_doc_0844d39b442b5b24",
+      "nyf_doc_1a1f8dec85973034",
+      "nyf_doc_3f6dbc1b0a92a64b",
+      "nyf_doc_540da7b00d388281",
+      "nyf_doc_a420f52876f8f5e4",
+      "nyf_home_32K274",
+      "nyf_inside_32K274",
+      "nyf_profile_32K274"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K274"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-eb336397c98d",
+    "school": "P.S. 299 Thomas Warren Field",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K299",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-79eba21ae86e"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K299",
+      "nyf_doc_1b6b6983a1096cbf",
+      "nyf_doc_57ccd142f74a3dbc",
+      "nyf_doc_d40c3a47f0b80032",
+      "nyf_home_32K299",
+      "nyf_inside_32K299",
+      "nyf_profile_32K299"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K299"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-652ecac9c5cb",
+    "school": "P.S. 376",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K376",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-798581a33a0f"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K376",
+      "nyf_doc_4268836909eecc40",
+      "nyf_doc_8445353be7588b7a",
+      "nyf_doc_915c106197420e82",
+      "nyf_doc_bd062cd8d3678c65",
+      "nyf_home_32K376",
+      "nyf_inside_32K376",
+      "nyf_profile_32K376"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K376"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-de1090a26dd5",
+    "school": "P.S. /I.S. 384 Frances E. Carter",
+    "district": "New York City Geographic District # 32",
+    "dbn": "32K384",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2b9c911e0bcd"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_32K384",
+      "nyf_doc_74e1bb1ca628f6ac",
+      "nyf_home_32K384",
+      "nyf_inside_32K384",
+      "nyf_profile_32K384"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_32K384"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-72c05e66ca7e",
+    "school": "P.S. M226",
+    "district": "New York City District 75",
+    "dbn": "75M226",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-ee271aa42518"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75M226",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_6db8a736587f7d91",
+      "nyf_doc_8566a7f9d87ef89f",
+      "nyf_doc_b13394d2a048f384",
+      "nyf_home_75M226",
+      "nyf_inside_75M226",
+      "nyf_profile_75M226"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75M226"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-3673ba365d61",
+    "school": "P.S. 009",
+    "district": "New York City District 75",
+    "dbn": "75Q009",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-2a02fef0da23"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75Q009",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_inside_75Q009",
+      "nyf_profile_75Q009"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75Q009"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "City DL service listing conflicts with CEP table containing TBE only and DL N/A. No numeric DL model or definitive closure date established; retained in original denominator."
+  },
+  {
+    "school_id": "M6-NY-S-bbea1806efe0",
+    "school": "P.S. Q023 @ Queens Children Center",
+    "district": "New York City District 75",
+    "dbn": "75Q023",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-637c6f0cc225"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75Q023",
+      "nyf_doc_3bcdd0e4b6619a65",
+      "nyf_inside_75Q023",
+      "nyf_profile_75Q023"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75Q023"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "One-way special-class Spanish DL grades 1-2, no current DL kindergarten in table. Both languages used but no time split."
+  },
+  {
+    "school_id": "M6-NY-S-41c66681a886",
+    "school": "P.S. Q255",
+    "district": "New York City District 75",
+    "dbn": "75Q255",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-5531c3be817a"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75Q255",
+      "nyf_doc_084b6fad97a2609f",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_6db8a736587f7d91",
+      "nyf_doc_843cda05b1edc6d0",
+      "nyf_home_75Q255",
+      "nyf_inside_75Q255",
+      "nyf_profile_75Q255"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75Q255"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Special-class Spanish DL; math/science Spanish and other subjects bilingual, without sufficient instructional-time detail. 25% integration refers to pupil mixing, not language allocation."
+  },
+  {
+    "school_id": "M6-NY-S-5a14a4226c33",
+    "school": "The Riverview School",
+    "district": "New York City District 75",
+    "dbn": "75Q277",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-cc485ab42f10"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75Q277",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_784ce0e9d1055b7d",
+      "nyf_doc_e055ae68ed276fd6",
+      "nyf_doc_ffc8e2a38174d5e1",
+      "nyf_home_75Q277",
+      "nyf_inside_75Q277",
+      "nyf_profile_75Q277"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75Q277"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-0438f4c990bc",
+    "school": "P.S. Q811",
+    "district": "New York City District 75",
+    "dbn": "75Q811",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9d167cb32a52"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75Q811",
+      "nyf_doc_18228f6c59c133c2",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_6db8a736587f7d91",
+      "nyf_doc_a189d07da6492649",
+      "nyf_doc_b63f3de8ef571fed",
+      "nyf_home_75Q811",
+      "nyf_inside_75Q811",
+      "nyf_profile_75Q811"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75Q811"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Special-class Spanish DL shown in grades 2-4; English and Spanish used, no quantified split. No K ratio assigned."
+  },
+  {
+    "school_id": "M6-NY-S-d84030c69a69",
+    "school": "P.S. R373",
+    "district": "New York City District 75",
+    "dbn": "75R373",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-9bdb5ef24dd6"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75R373",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_910de9c32b232216",
+      "nyf_doc_a57020a45aad3a6a",
+      "nyf_doc_cef5ea0f435a8ca0",
+      "nyf_home_75R373",
+      "nyf_inside_75R373",
+      "nyf_profile_75R373"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75R373"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-b70426decfa2",
+    "school": "P186X Walter J. Damrosch School",
+    "district": "New York City District 75",
+    "dbn": "75X186",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-22bdb25f554c"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75X186",
+      "nyf_doc_4dbdf0753d741042",
+      "nyf_doc_56c7936c27587a84",
+      "nyf_doc_630fdc4c6b9b74b2",
+      "nyf_doc_87f83800f5fb1088",
+      "nyf_home_75X186",
+      "nyf_inside_75X186",
+      "nyf_profile_75X186"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75X186"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "CEP table includes DL as well as TBE special classes, but Q4 DL response is N/A. Programme/service detail needs clarification; no numerical allocation established."
+  },
+  {
+    "school_id": "M6-NY-S-462c175e3f99",
+    "school": "P.S. X643",
+    "district": "New York City District 75",
+    "dbn": "75X643",
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-171316d39809"
+    ],
+    "attempted_source_keys": [
+      "nyf_cep_75X643",
+      "nyf_doc_01b21512bfe7debe",
+      "nyf_doc_424e6e41cc021675",
+      "nyf_doc_52b87d5575369eb6",
+      "nyf_doc_6db8a736587f7d91",
+      "nyf_doc_9da56e22fa770bb4",
+      "nyf_home_75X643",
+      "nyf_inside_75X643",
+      "nyf_profile_75X643"
+    ],
+    "archived_source_keys": [
+      "nyf_cep_75X643"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [
+      "documented"
+    ],
+    "decision_notes": "School-specific model review completed. Explicit ratios and grade changes take precedence over general equal-allocation assumptions."
+  },
+  {
+    "school_id": "M6-NY-S-ac36cd63819d",
+    "school": "Abraham Lincoln School No. 22",
+    "district": "Rochester City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-c35da4bbe0c4"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_rochester",
+      "nyf_doc_f6b27fca45ce5799",
+      "nyf_rochester_multilingual"
+    ],
+    "archived_source_keys": [
+      "m6_ny_rochester",
+      "nyf_rochester_multilingual"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-bb16aa7799c3",
+    "school": "Denton Avenue Elementary School",
+    "district": "Herricks Union Free School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-04ff51bbb90c"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_denton",
+      "m6_ny_herricks_entry",
+      "m6_ny_herricks_faq",
+      "nyf_doc_6ee2f8465bc38937",
+      "nyf_doc_c42ab2ff7cd67528",
+      "nyf_doc_c42b3410617d7048"
+    ],
+    "archived_source_keys": [
+      "m6_ny_denton",
+      "m6_ny_herricks_entry",
+      "m6_ny_herricks_faq"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-2ab17db9020c",
+    "school": "Enrico Fermi School No. 17",
+    "district": "Rochester City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-bcc68831ad9c"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_rochester",
+      "nyf_doc_f6b27fca45ce5799",
+      "nyf_rochester_multilingual"
+    ],
+    "archived_source_keys": [
+      "m6_ny_rochester",
+      "nyf_rochester_multilingual"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-e0ae8ae7cdfe",
+    "school": "Fostertown Elementary School",
+    "district": "Newburgh Enlarged City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-fb0c8f2832da"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_newburgh",
+      "nyf_doc_220acb1421538806",
+      "nyf_doc_d16315e8d4b8b530",
+      "nyf_newburgh_curriculum",
+      "nyf_newburgh_dl"
+    ],
+    "archived_source_keys": [
+      "m6_ny_newburgh",
+      "nyf_newburgh_curriculum",
+      "nyf_newburgh_dl"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-176327bb05e0",
+    "school": "James Audubon School No. 33",
+    "district": "Rochester City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-ea641dd4416f"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_rochester",
+      "nyf_doc_f6b27fca45ce5799",
+      "nyf_rochester_multilingual"
+    ],
+    "archived_source_keys": [
+      "m6_ny_rochester",
+      "nyf_rochester_multilingual"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-b5493fd116ce",
+    "school": "James P. B. Duffy School No. 12",
+    "district": "Rochester City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6966c7bbe1c4"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_rochester",
+      "nyf_doc_f6b27fca45ce5799",
+      "nyf_rochester_multilingual"
+    ],
+    "archived_source_keys": [
+      "m6_ny_rochester",
+      "nyf_rochester_multilingual"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-8a4e3cca95e0",
+    "school": "John F. Kennedy School",
+    "district": "Port Chester-Rye Union Free School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-6b57364239fb"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_portchester_site"
+    ],
+    "archived_source_keys": [
+      "m6_ny_portchester_site"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-a2c44706ce6f",
+    "school": "King Street School",
+    "district": "Port Chester-Rye Union Free School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-756c3840d62b"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_portchester_site",
+      "nyf_doc_08eef08fc2e4bb99",
+      "nyf_doc_83b2da5b34f16813",
+      "nyf_doc_e96ceebe2143a148"
+    ],
+    "archived_source_keys": [
+      "m6_ny_portchester_site"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-b0cabcef7794",
+    "school": "PS 033 Bilingual Center",
+    "district": "Buffalo City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-545b8c58e7b8"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_buffalo",
+      "nyf_doc_0b4f94eebe8f0bbb",
+      "nyf_doc_6194eab5a9edc626",
+      "nyf_doc_84421b7018d2a143"
+    ],
+    "archived_source_keys": [
+      "m6_ny_buffalo"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-6c24d6c8adbc",
+    "school": "Park Avenue School",
+    "district": "Port Chester-Rye Union Free School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-bf187748ef83"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_portchester_site",
+      "nyf_doc_556d16fee0723143",
+      "nyf_doc_e96ceebe2143a148"
+    ],
+    "archived_source_keys": [
+      "m6_ny_portchester_site"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-a3a26e084bde",
+    "school": "Seymour Dual Language Academy",
+    "district": "Syracuse City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-60e9d90eea65"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_syracuse",
+      "nyf_doc_3b00f31029be44f5",
+      "nyf_doc_3ca4125c92e91b7e",
+      "nyf_doc_b137c7498f539030",
+      "nyf_syracuse_choices"
+    ],
+    "archived_source_keys": [
+      "m6_ny_syracuse",
+      "nyf_syracuse_choices"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  },
+  {
+    "school_id": "M6-NY-S-3ae2b030a4f4",
+    "school": "Thomas A. Edison School",
+    "district": "Port Chester-Rye Union Free School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-66cc00e616b6"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_portchester_site",
+      "nyf_doc_e96ceebe2143a148"
+    ],
+    "archived_source_keys": [
+      "m6_ny_portchester_site"
+    ],
+    "has_model_after_review": true,
+    "allocation_methods": [],
+    "decision_notes": "Existing explicit model retained after review of archived official school and district descriptions and school-specific discovery sources. New sources do not establish a different reference-year policy."
+  },
+  {
+    "school_id": "M6-NY-S-38e4c7eac6b5",
+    "school": "Vails Gate STEAM Academy",
+    "district": "Newburgh Enlarged City School District",
+    "dbn": null,
+    "review_date": "2026-11-06",
+    "baseline_primary_host": true,
+    "program_ids": [
+      "M6-NY-P-b4b347407b53"
+    ],
+    "attempted_source_keys": [
+      "m6_ny_newburgh",
+      "nyf_doc_4105d6f310a0b31d",
+      "nyf_newburgh_curriculum",
+      "nyf_newburgh_dl"
+    ],
+    "archived_source_keys": [
+      "m6_ny_newburgh",
+      "nyf_newburgh_curriculum",
+      "nyf_newburgh_dl"
+    ],
+    "has_model_after_review": false,
+    "allocation_methods": [],
+    "decision_notes": "Academic DL and partner languages verified where possible. Checked school and district sources do not supply an exact whole-programme allocation or a strong, complete kindergarten subject distribution."
+  }
+]

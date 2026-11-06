@@ -96,6 +96,12 @@ def migrate_state(b, state, *, inventory=None):
                 notes='Reviewed source/track evidence key, not an official enduring programme ID. ' + p['notes'])
         b.identifier('program', pid, namespace + '_reviewed_research_programme_key', pid, files['programmes'],
                      status='reviewed_evidence_key_not_official_programme_identifier')
+        if p.get('track_label_update'):
+            update = p['track_label_update']
+            b.claim('program', pid, 'reviewed_track_label_update', json.dumps(update, ensure_ascii=False, sort_keys=True),
+                    sources[update['source']], pid + ':track_label_update', year=exact_year(update['period']),
+                    period=update['period'], status='documented', import_source=files['programmes'],
+                    notes='Research label corrected after explicit partner-language verification; stable programme identity and older source observations retained.')
         site = p.get('site_id') if reuse else None
         site = site or record_id('site', pid, sid)
         if reuse and (site,) in b.tables['program_sites']:
@@ -135,7 +141,7 @@ def migrate_state(b, state, *, inventory=None):
             year = exact_year(observation['period'])
             b.add('program_configurations', configuration_id=record_id('configuration', site, source, locator),
                 site_id=site, school_year=year, grade_scope=observation['grade'], population_model=observation['population'],
-                delivery_structure=observation['delivery'], program_kind='source_specific_structural_observation',
+                delivery_structure=observation['delivery'], program_kind=observation.get('kind', 'source_specific_structural_observation'),
                 reported_model_label=observation['label'], evidence_period_raw=observation['period'],
                 verification_status=observation['verification'], source_id=source, source_locator=locator,
                 notes=observation['notes'])
@@ -153,20 +159,22 @@ def migrate_state(b, state, *, inventory=None):
             locator = pid + ':allocation:' + str(i) + '; ' + allocation['locator']
             schedule = record_id('schedule', site, source, locator)
             shares = allocation['shares']
+            evidence_type = allocation.get('evidence_type', 'documented_plan')
+            inferred = evidence_type == 'researcher_inference'
             b.add('allocation_schedules', schedule_id=schedule, school_id=sid, site_id=site,
                 school_year=exact_year(allocation['period']), grade_scope=allocation['grade'],
                 reported_model_label=allocation['label'], percentage_basis=allocation['basis'],
-                schedule_status='documented_plan' if shares else 'reported_policy_requires_review',
+                schedule_status=allocation.get('schedule_status', ('inferred_plan' if inferred else 'documented_plan') if shares else 'reported_policy_requires_review'),
                 evidence_review_status=allocation.get('review_status', 'NAMED_LANGUAGE_POLICY_NOT_OBSERVED_EXPOSURE' if shares else 'SOURCE_DESCRIPTION_RETAINED_WITHOUT_NUMERIC_PLAN'),
                 grade_support_status=allocation['grade_support'], evidence_period_raw=allocation['period'],
                 tested_cohort_exposure='not_established', source_id=source, source_locator=locator, notes=allocation['notes'])
             b.claim('schedule', schedule, 'allocation_source_selection', json.dumps(allocation, ensure_ascii=False, sort_keys=True),
                 source, locator, year=exact_year(allocation['period']), period=allocation['period'],
-                status='documented' if shares else 'provisional', import_source=files['programmes'], notes=allocation['notes'])
+                status=('inferred' if inferred else 'documented') if shares else 'provisional', import_source=files['programmes'], notes=allocation['notes'])
             for language, share in (shares or {}).items():
                 b.add('instructional_allocations', allocation_id=record_id('allocation', schedule, language),
                     schedule_id=schedule, language_name=language, language_code=CODES.get(language), instruction_share_pct=share,
-                    evidence_type='documented_plan', source_id=source, source_locator=locator)
+                    evidence_type=evidence_type, source_id=source, source_locator=locator)
     for i, lead in enumerate(leads):
         source = sources[lead['source']]
         locator = state + ':screening:' + str(i) + '; ' + lead['locator']
