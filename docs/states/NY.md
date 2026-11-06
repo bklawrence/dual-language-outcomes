@@ -9,3 +9,5 @@ Status: partial structural inventory reviewed November 5, 2026, against a 2025�
 - [Sources and reconciliation guide](../../data/registry/mid_atlantic_ct_2026_11_05/README.md)
 
 Languages, population model, delivery structure, allocation, public funding and operation remain separate. Secondary-only hosts are retained and excluded from the elementary allocation denominator. Proficiency collection remains deferred.
+
+Herricks follow-up November 6, 2026: the user-identified district FAQ confirms Denton Avenue’s elementary Spanish/English model as one-way 50/50. The September 2023 intake wording and separate 2026–27 flyer retain their own source periods. Current New York reference elementary model coverage is 8/200 (4.0%).

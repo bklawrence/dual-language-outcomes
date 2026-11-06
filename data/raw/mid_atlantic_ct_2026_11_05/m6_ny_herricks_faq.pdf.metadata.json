@@ -1,0 +1,17 @@
+{
+  "url": "https://drive.google.com/uc?export=download&id=1UZq_poY8BX9JgNSx9PTdQV-WDulgvQQI",
+  "retrieved_at": "2026-11-06T11:38:16.556075+00:00",
+  "http_status": 200,
+  "final_url": "https://drive.usercontent.google.com/download?id=1UZq_poY8BX9JgNSx9PTdQV-WDulgvQQI&export=download",
+  "content_type": "application/octet-stream",
+  "content_encoding": "",
+  "sha256": "ba4e9502bf464966e1ca2832c7575769b728aa838cb34ee861b189dd00bd7bfe",
+  "bytes": 321601,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "m6_ny_herricks_faq",
+  "snapshot_path": "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_faq.pdf",
+  "full_response_sha256": "ba4e9502bf464966e1ca2832c7575769b728aa838cb34ee861b189dd00bd7bfe",
+  "text_extraction_method": "pdftotext -layout; original PDF bytes preserved; programme quotations checked against extracted page text",
+  "evidence_period_raw": "FAQ with September 2023 intake wording; publication date unstated"
+}

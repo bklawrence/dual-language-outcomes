@@ -89,11 +89,15 @@
     "data/registry/mid_atlantic_ct_2026_11_05/unmatched_grade_context.json"
   ],
   "NY": [
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/herricks_2026_11_06_correction.json",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ccd2024_NY.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_buffalo.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_denton.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_directory.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks.txt",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_entry.txt",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_faq.txt",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_parent_night.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_newburgh.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_portchester.txt",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_portchester_site.txt",

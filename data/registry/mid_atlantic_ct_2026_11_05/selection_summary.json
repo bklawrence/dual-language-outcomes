@@ -33,5 +33,22 @@
     "NY": 293,
     "CT": 12
   },
-  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations."
+  "limitations": "Reviewed first pass, not a statewide census. All-source descriptions, continuation schools, funding candidates and future starts remain distinct. No new proficiency/assessment/context/EL/SEDA observations.",
+  "followup_reviews": [
+    {
+      "date": "2026-11-06",
+      "state": "NY",
+      "source_keys": [
+        "m6_ny_herricks_faq",
+        "m6_ny_herricks_entry",
+        "m6_ny_herricks_parent_night"
+      ],
+      "programme_ids": [
+        "M6-NY-P-04ff51bbb90c",
+        "M6-NY-P-8c82035a55c6",
+        "M6-NY-P-bd3a13c29488"
+      ],
+      "decision_file": "data/registry/mid_atlantic_ct_2026_11_05/extractions/herricks_2026_11_06_correction.json"
+    }
+  ]
 }

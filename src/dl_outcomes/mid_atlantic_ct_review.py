@@ -145,7 +145,7 @@ def audit_errors(root, tables, *, check_hashes=True):
     de=next(r for r in reconciliations if r['name']=='de_state_map_2021_22_hosts')
     if len(de['rows'])!=57 or sum(len(r['program_ids']) for r in de['rows'])!=60:
         errors.append('Delaware historical host/multiple-language row conservation changed')
-    no_numeric={'DiLoreto Elementary and Middle School','North Windham Elementary School','Windham Middle School','Denton Avenue Elementary School','Regional Multicultural Magnet School'}
+    no_numeric={'DiLoreto Elementary and Middle School','North Windham Elementary School','Windham Middle School','Regional Multicultural Magnet School'}
     for p in programmes:
         if p['school'] in no_numeric and p['allocations']:
             errors.append('Minimum, aspiration or unquantified alternation became exact model: '+p['school'])
@@ -153,6 +153,17 @@ def audit_errors(root, tables, *, check_hashes=True):
             errors.append('Baltimore West planned language became implemented')
         if p['district']=='Rochester City School District' and any(o['languages']!=['English'] for o in p['observations']):
             errors.append('Rochester partner language inferred without explicit verification')
+    denton=next(p for p in programmes if p['school']=='Denton Avenue Elementary School')
+    faq=[a for a in denton['allocations'] if a['source']=='m6_ny_herricks_faq']
+    if (len(faq)!=1 or faq[0]['grade']!='K-5' or faq[0]['label']!='50/50'
+            or faq[0]['shares']!={'Spanish':50,'English':50}
+            or 'September 2023' not in faq[0]['period']
+            or not any(o['source']=='m6_ny_herricks_faq' and o['population']=='one_way' for o in denton['observations'])):
+        errors.append('Herricks documented elementary one-way 50/50 model or source vintage changed')
+    secondary={p['program_id'] for p in programmes if p['district']=='Herricks Union Free School District' and p['program_id']!=denton['program_id']}
+    sites={r['site_id'] for r in tables['program_sites'] if r['program_id'] in secondary}
+    if any(r['site_id'] in sites for r in tables['allocation_schedules']):
+        errors.append('Herricks elementary percentage incorrectly assigned to secondary continuation')
     return errors
 
 

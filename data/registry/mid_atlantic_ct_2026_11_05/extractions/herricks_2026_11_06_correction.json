@@ -1,0 +1,30 @@
+{
+  "review_date": "2026-11-06",
+  "trigger": "User supplied exact Herricks FAQ wording; linked public PDF independently acquired and verified",
+  "program_ids": [
+    "M6-NY-P-04ff51bbb90c",
+    "M6-NY-P-8c82035a55c6",
+    "M6-NY-P-bd3a13c29488"
+  ],
+  "primary_source_key": "m6_ny_herricks_faq",
+  "source_keys": [
+    "m6_ny_herricks_faq",
+    "m6_ny_herricks_entry",
+    "m6_ny_herricks_parent_night"
+  ],
+  "decision": "Denton Avenue elementary programme is documented one-way 50/50; retain later kindergarten flyer and secondary course descriptions separately",
+  "source_vintage": "FAQ mentions September 2023 intake; no precise publication or implementation-change date assigned",
+  "secondary_scope": "Middle/high school continuation retained with no primary allocation percentage",
+  "supplementary_presentation": "Comparative Utah targets and future assessment schedule are not treated as implemented Herricks allocation or imported as proficiency observations",
+  "unchanged_other_ny_programmes_sha256": "6cff2d89141f7019057196f46cf89f37e6dfb00dc1c6a924eb97ef9af9f7afc4",
+  "previous_reference_elementary_coverage": {
+    "numerator": 7,
+    "denominator": 200,
+    "pct": 3.5
+  },
+  "corrected_reference_elementary_coverage": {
+    "numerator": 8,
+    "denominator": 200,
+    "pct": 4.0
+  }
+}

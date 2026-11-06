@@ -1,8 +1,8 @@
 {
   "schema_version": "1.3.0",
-  "build_id": "build-dc3e6120fe7d5690bc5ddca5d755373b",
-  "built_at": "2026-11-06T04:50:18.770960+00:00",
-  "base_git_revision": "810a79ce38e076668a10219edf942611cb19076c",
+  "build_id": "build-fa0464595fad5118a1f7e636e0bf071d",
+  "built_at": "2026-11-06T11:45:07.082177+00:00",
+  "base_git_revision": "719e97b931535615d0e30e2b79f34ac5be35fd69",
   "inputs": {
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "29c542885ec2e0808cec6a3fa38dfb10f7db424ed0fd7fa88c5fc4bbc89e34f6",
@@ -623,6 +623,12 @@
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_directory.html.metadata.json": "2583774602215413068aa18b629703e67cb404dea62673304adab50b38bf1f4a",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks.html": "dca6d02356f32df6afe403a2da98211fe51acc30491bb77a001c24d7e1de3096",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks.html.metadata.json": "38bb60bf10f2465818fcd0c6d99e022f3480bb192caa63cddd47ccf997b69d31",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_entry.pdf": "825dc11100d1056ee3ea735f8a798e0443090f07b5283bb86537bdb47e499767",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_entry.pdf.metadata.json": "8c6293512fdcdb6a7ac8bb59a57d3aac1e9effe73d61cb9049a2ef812c25a6df",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_faq.pdf": "ba4e9502bf464966e1ca2832c7575769b728aa838cb34ee861b189dd00bd7bfe",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_faq.pdf.metadata.json": "7a7b329efa157186dc14b5378cc18d8c98f14d2fd34deb50ef43ce34aaece2b9",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_parent_night.pdf": "00544859922fb10a6ff924376d9d6d02b95cc41ba93e961e572ca558c1d8f294",
+    "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_parent_night.pdf.metadata.json": "99ff32d804afc7ce9ffb8eb9d80b3ea35b818b14a54194a6298f98ade2ead0cd",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_newburgh.html": "8c46fb28bd7ec486651f3e67e3114869da93fc970aa6b965a9e4b9ece0bc7c02",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_newburgh.html.metadata.json": "e7f42f10d6a4f3dbb07cb3753429c4964d17b65074464a128af32c3c572244f7",
     "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_portchester.html": "5908431ae9bfbc19f4ee157a7d7dfbdbc2378c118fbd26c86ffd65c6d80461e0",
@@ -2193,7 +2199,8 @@
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/de_directory_cards_rows.json": "a01e98b927095c49dce7fae928c4bdd135dc6ec364a476807651ba6c89a59424",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/de_state_map_2021_22_hosts_rows.csv": "26d44efef598b48f8f6bae8e3073d6899364ac967042366a71e69abdfc836dc2",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/de_state_map_2021_22_hosts_rows.json": "fd419f060ceae5bd86aaa94a2942f0d080e7c8755c3f87e1299efe7a0a525df1",
-    "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json": "71834c913a526c31b12e26f34743d1d5b1cfc6677c15d6cfc1fc85a2b7f21915",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/herricks_2026_11_06_correction.json": "d29cdcaac910119d11ad4a409b8c8d1f651182543771d585357899a884936b1a",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json": "a0490ef11c8eff01d0b2bc862ef69c235e8a639f81e8ae2b1b170352e95427c5",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ccd2024_CT.txt": "2656033621388a8539cd3367e77306d127f321f8cdc5358854d14b75938d0189",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ccd2024_DE.txt": "da8cdc7f4802a7ebd75ae92e74cf723c2698c13b7eaaf39c75f20df44c35bd07",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ccd2024_MD.txt": "04dfbc3ca5ed103a1b55ec80e533754894b540b8962a975f27bbf1f38a129113",
@@ -2265,6 +2272,9 @@
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_denton.txt": "19eea4ceb8ae00396f82ad491a9efca00009668a17467e0aad53fbe8de1f0b1d",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_directory.txt": "47f9f47f0ac863a90bbdfe3198ea592ae9fc470c92819e0af3cc565a5e5cdb4b",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks.txt": "19eea4ceb8ae00396f82ad491a9efca00009668a17467e0aad53fbe8de1f0b1d",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_entry.txt": "edf80185401a5a6da7bd333929de7d9b0148431d75a09a5b76dbcd7915d1700f",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_faq.txt": "7c23b7efeec09a610023983ef4835fd03c5806a8f89763574527f764473e7d2c",
+    "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_herricks_parent_night.txt": "9f8ff1e1568ec7bc8c5e5f1fbfe9388910e00c49a98ae87e5ed43b89cbda5e36",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_newburgh.txt": "4e62e8e54fe7e83d897943dd9dedcce5b24a8cae8dc8b4cb87779387ae3e0b71",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_portchester.txt": "7ca9eb22b3b34ced419133be17fd7c0b916e5bdbcfb94787d7caa74246423280",
     "data/registry/mid_atlantic_ct_2026_11_05/extractions/m6_ny_portchester_site.txt": "2d1265ef2fa8534c76076400cbd24ddf11319b16b15a6c98d706dd43abd186c5",
@@ -2313,16 +2323,16 @@
     "data/registry/mid_atlantic_ct_2026_11_05/md_screening.json": "de62ee5f6d165a6b7566fc85ebdc656cd4ea52f4890ce0748c7fc0b02912a3e7",
     "data/registry/mid_atlantic_ct_2026_11_05/nj_programmes.json": "a3051b7922881025fedae0574f683839713beb2cba08b007999ecaef8807031d",
     "data/registry/mid_atlantic_ct_2026_11_05/nj_screening.json": "210794b8dc4410b81f2092a4fc83d29ba11701ad9a4ffc2032f79e21d6df7399",
-    "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json": "dea40ce52a4ae14c9eb3d01981cb9fca856fec7b9be0dad857304f8061bba89d",
+    "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json": "9d09c120506c4278e1194fe32ba352e7708e3552700a3aa0a76f82c0b095cc7d",
     "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.json": "d8b5f7f486690970518eb1837a9b251b693d82f748d21d7bd8516846468a78c7",
     "data/registry/mid_atlantic_ct_2026_11_05/pa_programmes.json": "ff322f694a22f8f2d79c15f45cef69ec076e371b063c01c7e3ee73680def0cb7",
     "data/registry/mid_atlantic_ct_2026_11_05/pa_screening.json": "a6c4542f0608290b20ae63c2ac871b646d6337713d9e0703638a625b04aab77b",
-    "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv": "08986260d4f70b0fdfadcecb8b65a84e22c389bce00ae9f28abd100b86105e11",
-    "data/registry/mid_atlantic_ct_2026_11_05/reviews.json": "063a73c61c836cbf908cf58158b0e23d88c4b6b1340b4c9e6970cfdd805c2258",
+    "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv": "352eaf79828e83407f960e845a9da56794872ff9ac3c04b4ae236c5d2cc7a79b",
+    "data/registry/mid_atlantic_ct_2026_11_05/reviews.json": "8f267f49d0421baaa4b160a519a96993c5c93161f857e0ca49eb83930ee8d699",
     "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json": "62d29263e7ba295c1ca2f03639a6cdd4dbfea0f21a08faa1d39fc27b629eae9c",
-    "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json": "87886c2a5fbbb242ef7e1c9723b0650af8e9a2c2c90d6cff78dfc86c4c882c73",
+    "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json": "7e748a1408d2d832ff716ca459ce78b446c85d7a5391143ecc49c845dbe9ccf9",
     "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "data/registry/mid_atlantic_ct_2026_11_05/sources.json": "943b6ca44997d757c1a5f4b5c3867eb060c6d386dd391356fe3f605dabaf118d",
+    "data/registry/mid_atlantic_ct_2026_11_05/sources.json": "d8198efef1a6f9f3eb5ccd4b4899ff1a4ea99d7567138362757a1db234f8deaf",
     "data/registry/mid_atlantic_ct_2026_11_05/unmatched_grade_context.json": "82f9de4faf00f028f215fa101b31d96c5ee82254121b9e9bc0830248b20fbfab",
     "data/registry/northern_central_ak_hi_2026_11_05/README.md": "45e1d17893200272dcc189788ccd880f6b76b37b82c1bd3c602a2deb7c820f4f",
     "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.csv": "240271d6caf59266d71aa02c94cd91501ea8100dcba292fa6fa28e4ad192be44",
@@ -3296,7 +3306,7 @@
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
     "src/dl_outcomes/measurements.py": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6",
-    "src/dl_outcomes/mid_atlantic_ct_review.py": "daef2469f64d6ba916de6a2b97ba93590782e4d419eb26bb0bf80279e8eed952",
+    "src/dl_outcomes/mid_atlantic_ct_review.py": "0d9fa5b0360202329969b0a47edd434ce7064bc32340986e6947759a69a40c51",
     "src/dl_outcomes/northern_central_review.py": "82d89b198b573aacb5ba525c893d1bb04b353fe74a2b24fc64f1a115140616c6",
     "src/dl_outcomes/oh_ky_wv_va_review.py": "4d0d4d2ec6630a7688ae40009c9b3bc2aae3cf1ccfd89245198c8cb0fe88abcb",
     "src/dl_outcomes/page_payloads.py": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742",
@@ -3374,8 +3384,8 @@
       "rows": 61
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "21e6fed95b10c6a5658dd0c331d377f44b8722d9460b5b156425bb70e8d25e90",
-      "rows": 1550
+      "sha256": "da2dac777ee8df9d3e73bf08408ba67cc9f1bbccc0d55075d7b8a5a5b64f446b",
+      "rows": 1553
     },
     "data/curated/registry/districts.csv": {
       "sha256": "e48245fa48d60d3c797f7c738d944b83baa19f14c92ce79a5c974a70970fc247",
@@ -3386,44 +3396,44 @@
       "rows": 6119
     },
     "data/curated/registry/identifier_crosswalk.csv": {
-      "sha256": "46567c09abfe973da7836050f17b59d45bded3b6038a7566cd2ac70bb600a107",
+      "sha256": "06008a392a4e49ddc6904c8a544efd76d0f63f0028d62c2b6b861a1ddcf4fa2e",
       "rows": 15599
     },
     "data/curated/registry/school_district_history.csv": {
-      "sha256": "fd852c66106c8c3a422e050250e7f75e7ba53e3373dc32a641c6c0bda4a41bc5",
+      "sha256": "4853d27571aed77fb9db3e26046d8812a7b1be3ceb5db92bfaf8d93405a410c7",
       "rows": 6902
     },
     "data/curated/registry/programs.csv": {
-      "sha256": "0e1e53e5cc7626422e4811b4d2b53e28ffbc36023f78de9a48d3b0069ab24902",
+      "sha256": "2a81c6763fd7d7e700bebfb26f66cb93affc39b4c9a1cc8ae5bf452ace40505b",
       "rows": 5026
     },
     "data/curated/registry/program_sites.csv": {
-      "sha256": "5fc9e64bfb17e637a0414bd1f1da4eedcc10a88342584608cadd7f19e611b8c5",
+      "sha256": "a300f4ca7734d2d3246bdb858231c253cd945609de2dbd616fd53d34369de08c",
       "rows": 5026
     },
     "data/curated/program_history/program_status_history.csv": {
-      "sha256": "b09ba6b7664c960ddc9b0457aa9656ace5ec490e6bf30fcef5c06887a411fdd2",
+      "sha256": "bd08d6d9059bc9b36e4084b83a5e9abaa6ce025cb756a3d12adc90fbf2f91ad1",
       "rows": 3937
     },
     "data/curated/program_history/program_languages.csv": {
-      "sha256": "925cb83c1b2f5a1a53b9aad4607ee6752532de2ff4b439d2a3d31fe5598203fe",
-      "rows": 8810
+      "sha256": "afd8084b57ac01de951433f3896609915bb67200d2df3453592a90102a462007",
+      "rows": 8818
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "7c16160a875ac89fee51891732d0bd090fcb6104c27371255347d1e8bf8d096a",
-      "rows": 6883
+      "sha256": "7583f3590efb88362a259e982403657f47ea7e5102673d8148327018e794cc77",
+      "rows": 6887
     },
     "data/curated/program_history/allocation_schedules.csv": {
-      "sha256": "a659ef8140f763ac6362f8f7bb0cfe82e46d32ce1bd46340d40fef3907efdcbe",
-      "rows": 2542
+      "sha256": "b2b5223ed6b273334478ad40ce96cc0709086d5cc58846a938962875fe9ff9f5",
+      "rows": 2544
     },
     "data/curated/program_history/instructional_allocations.csv": {
-      "sha256": "d9cd537e61e0992f7f7f08227cbb9c43e2c223c8f81be2a5af0a76afa67d541e",
-      "rows": 1440
+      "sha256": "be1beb3e6e353fcd6ebc735c4b9fe7cb717a95c48174725105e6f4da62b2bf3c",
+      "rows": 1444
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "80c3139a1f78da238bdffdc800f6dd550e1ce10781b93c0b47de2a2a9dc344ab",
-      "rows": 27265
+      "sha256": "e82a63f5b832e4b96fd9f4daf871d73116c273f052ab6039728034007d1c3d21",
+      "rows": 27271
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -3474,7 +3484,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "7a66c63dd68b8335563bcae46999cb36237cae0e7354a07ef9f4acec2748de24",
+      "sha256": "b5ebd2e9dbaa9313ae5509eca4c086b6b1dfd2ca08ddfd4be164e57fed73ae53",
       "rows": 13200
     }
   },
@@ -3530,19 +3540,19 @@
   "release_status": "pilot_partial_not_a_national_census",
   "reports": {
     "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct_program_view.csv": {
-      "sha256": "a3db7515531a907b8e778044cc1eb0277f582fcb461c923df9ff62bc926a4fb3"
+      "sha256": "45f9ca181bea58929523c4ebb7846b984bef89c69e0dd6530c02d2ad8c536c83"
     },
     "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct_by_state.csv": {
-      "sha256": "522ef274f8ab4f1301100c9e802f1e267267628e2ffa04311f691280aa43e9d9"
+      "sha256": "ee5898fc0a4e89fe2a0b25a675d648584808c3994ece2809d61f52917b59c8ea"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_program.csv": {
-      "sha256": "aba67102832f74e77c545e8c9363112ce5f610fd6b50c7eb559dfa1acacaafaf"
+      "sha256": "8d1f18e88615ff6928b1378f4be9114053908932ead13dde8d7cbec726eb2932"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_school.csv": {
-      "sha256": "0e5bcdb1cd2d0d41cb38967b6c12c5038d0d672d60c3fd27fff0b4942fe42453"
+      "sha256": "56c8adbf879c3e8c336d192f01982075407827a55e2449f9c2c52fa564e105fb"
     },
     "data/reports/kindergarten_allocation_coverage_2026_11_05_mid_atlantic_ct_by_state.csv": {
-      "sha256": "2722c3551aaa63ba82e6b9e88cd1bf9d4901ecc82600a32f2dea782923a31b08"
+      "sha256": "4aed2e67e57d513d1e025dd10c14cb3918309d1f0bf146bcd002cf9f0a718e24"
     },
     "data/registry/washington/wa_programs.csv": {
       "sha256": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8"
@@ -3557,16 +3567,16 @@
       "sha256": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_by_school.csv": {
-      "sha256": "8b434a8412147f6a9bc494bd6fadb26a4c2b45dc2128f8eba23044952da2216a"
+      "sha256": "60bba77ae9a0856e863c713cdb3d97f494495629ab74278c9a3f3ce32384cc8d"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_by_state.csv": {
-      "sha256": "b6b2a83349a91f7ef85e7d89e0424ffd3298e7ddd7f31850f21bbb20f5ded4ee"
+      "sha256": "c7e215782f71636551737aeac87bf1bddc066b680b6385dbd40c0dc6f16d2bc9"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_reference_by_state.csv": {
-      "sha256": "d656ad3823c16e2959125d0e6d439082a29989bfcfb50f55b19a4b8bce57a686"
+      "sha256": "e924256ab19d8df17ec86eed0c4693c91d34a71e3788297ceecaf5cf2b740027"
     },
     "data/reports/elementary_allocation_coverage_2026_11_05_mid_atlantic_ct_all_records_by_state.csv": {
-      "sha256": "371d42c8c73d180784bf1a855c84e418c4a1e5a939479e643c06023f2f2a4160"
+      "sha256": "935d0c69957d40c6fb75a8e2207c881cf5584795e7d60e1d4ee004f7a1ba0f21"
     },
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": {
       "sha256": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4"
@@ -3974,22 +3984,22 @@
       "sha256": "c28959127d78bb0ec1c22281af35ecceb5e9e638a0d714a8563100b11ccf6e1b"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_program_view.csv": {
-      "sha256": "aaefa99815dd0ec3045a2183b15a1bd34f0ef3fee9ff06c4e8c97a381434019e"
+      "sha256": "ee4a50ad1fcb10c80871ba1d30e1d826a611b50cf02a5ef7aafb3b9c1e8f3382"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_schools.csv": {
-      "sha256": "017b906a0941b554d51db5b762e7859447ae9e109e4670b577ed1ba821b8a387"
+      "sha256": "f4fa38ffbb0ab0bcfb7ac3a992551a3f17c6486f6ec7d715cb2ffdd6dd0a4fc8"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_by_state.csv": {
-      "sha256": "65ef31ca73f64eea876b5a9b8b611b6108e1ec7408700d9d16a0bf91ce9f50d7"
+      "sha256": "c13e1b038bb3e35f5520f5e072b352cfb674aff74f1744a96dcc7e5bd84983ea"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_backlog.csv": {
-      "sha256": "b498bff373f8e229d3a02d2c1e2249cb4d1eea36e58d057f03a78bc029882656"
+      "sha256": "efa3f348d8d5cd24f1a6f25068df5afbcc42bf0445a6383b2330152f397b8fdd"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_screening.csv": {
       "sha256": "db325b839f29024581bb36d373947defbbcaaa565195fb9e122c3efb71a0c84e"
     },
     "data/registry/mid_atlantic_ct_2026_11_05/sources.csv": {
-      "sha256": "87be48cb9000185c64fe85824d40fe1cc7fcfcc9bb09d9c40417fec6fc8cee69"
+      "sha256": "2c4a0ecf02ff529e17bf5755e66c1cb3b995ada38958f720d4aff3cca2236358"
     },
     "data/reports/mid_atlantic_ct_2026_11_05_change_events.csv": {
       "sha256": "2b190ea66c7a81d41e9f4a17da50771c04b7c1b1baca43849126f646f4f76b10"
@@ -4022,10 +4032,10 @@
       "sha256": "caad11c07f90d9d416532c8be4827ff369f99de0e792ad2e02a0aeeb5a8d079c"
     },
     "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.csv": {
-      "sha256": "53859c64f7595d442e1dab3133bee262902a6fcf29dd3e384e3d04c58e0e7f84"
+      "sha256": "3615afae0f39aaee34d14de7cf08133aa191a7e2f0ff425c70eea7a82620f70f"
     },
     "data/registry/mid_atlantic_ct_2026_11_05/ny_schools.csv": {
-      "sha256": "6822d23eba04aa10d7b5bb164e359034354f4820eb2c2c74f5d7cf9c6871a3f4"
+      "sha256": "62673d1e3769d00e482e0feabf51a1d21b58fbe02672b273f55793acbf2987b2"
     },
     "data/registry/mid_atlantic_ct_2026_11_05/pa_programmes.csv": {
       "sha256": "16e4dd7ff58e8daba67f4f83db7a2a00b6ad07ecc2796bf181f7d0bf5c1fc632"
@@ -4034,7 +4044,7 @@
       "sha256": "de2504438c34f6136f13d8c313ebba3b625794321203f877c09adb30ee396e70"
     },
     "data/reports/mid_atlantic_ct_2026_11_05.json": {
-      "sha256": "7ddaaa0bbd28af0c21d135b2a02bca45599a5ceaced12ca350267c0c71d0ab4b"
+      "sha256": "3c4dc0d3cfbe0469a7857d9eb4ec5b9fbfc7c7f362400957b75b03afaa1bd433"
     },
     "data/registry/mid_atlantic_ct_2026_11_05/ct_screening.csv": {
       "sha256": "2bbf18f24267279443e24cd66659d657002b69bda8dc8d3d585a995bf1ffa26c"
@@ -4055,7 +4065,7 @@
       "sha256": "877ab097648fa96bb661f90cf8f8959cea41ffdc64787cc6eae72d8d85588700"
     },
     "data/reports/structural_inventory_2026_11_05_mid_atlantic_ct.json": {
-      "sha256": "67a416596a25150351890bdb47d4f253fda4dfbc9f263b1f64d9e243387709db"
+      "sha256": "079975cd1bbb3f5dd627a2f31df537407e92a78d0aadd306983dcef81970ca92"
     }
   }
 }

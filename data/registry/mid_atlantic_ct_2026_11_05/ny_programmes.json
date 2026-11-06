@@ -63,7 +63,7 @@
     "district": "Herricks Union Free School District",
     "school": "Denton Avenue Elementary School",
     "track": "Spanish immersion",
-    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation.",
+    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation. Follow-up November 6, 2026: district-linked FAQ explicitly documents one-way 50/50 at the elementary level and names Denton Avenue. A separate 2026–27 registration flyer confirms the same half-day model; its source year remains later than the operating reference.",
     "observations": [
       {
         "source": "m6_ny_denton",
@@ -80,9 +80,70 @@
         "label": null,
         "verification": "documented",
         "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_ny_herricks_faq",
+        "period": "District FAQ advertising September 2023 kindergarten entry; publication date unstated",
+        "grade": "K-5",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "one_way",
+        "delivery": "strand",
+        "locator": "PDF page 1: district 50/50 one-way model; page 2: Denton Avenue host",
+        "notes": "User identified the district-linked FAQ. Explicit half-day English/half-day Spanish elementary instruction and one-way model; kindergarten intake text refers to September 2023. K-5 scope comes from the linked official Denton elementary overview. Publication date is not inferred from PDF metadata.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_ny_herricks_entry",
+        "period": "2026-27",
+        "grade": "K",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "PDF page 1: New Kindergarten Classes Forming for 2026-2027",
+        "notes": "Later annual kindergarten registration explicitly confirms half-day English/Spanish and Denton Avenue host. Continuing programme recruitment, not a new programme launch; not used to backdate this flyer to 2025–26.",
+        "label": "50/50",
+        "verification": "documented",
+        "language_role": "instruction_language"
       }
     ],
-    "allocations": [],
+    "allocations": [
+      {
+        "source": "m6_ny_herricks_faq",
+        "period": "District FAQ advertising September 2023 kindergarten entry; publication date unstated",
+        "grade": "K-5",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "FAQ PDF page 1: half of the elementary school day in English and half in Spanish",
+        "notes": "Explicit documented elementary instructional policy, identified by the user and verified in the linked public PDF. Reference continuity uses the older FAQ together with current district sources; not a newly observed 2025–26 schedule or student exposure.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "DISTRICT_GRADE_BAND_MODEL"
+      },
+      {
+        "source": "m6_ny_herricks_entry",
+        "period": "2026-27",
+        "grade": "K",
+        "label": "50/50",
+        "shares": {
+          "Spanish": 50,
+          "English": 50
+        },
+        "locator": "2026–27 kindergarten registration flyer, PDF page 1",
+        "notes": "Separate later intake policy. The earlier FAQ independently supports reference-year numerical model availability.",
+        "basis": "instructional_policy_not_observed_exposure",
+        "grade_support": "EXPLICIT_GRADE"
+      }
+    ],
     "events": [],
     "reference": {
       "year": "2025-26",
@@ -105,7 +166,7 @@
     "district": "Herricks Union Free School District",
     "school": "Herricks High School",
     "track": "Spanish immersion",
-    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation.",
+    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation. Follow-up November 6, 2026: FAQ describes accelerated Spanish courses in grades 9–12. No secondary instructional-time percentage or elementary 50/50 model is assigned.",
     "observations": [
       {
         "source": "m6_ny_denton",
@@ -119,6 +180,22 @@
         "delivery": "strand",
         "locator": "Herricks High School / Spanish immersion",
         "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_ny_herricks_faq",
+        "period": "District FAQ advertising September 2023 kindergarten entry; publication date unstated",
+        "grade": "9-12",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "FAQ PDF page 1: secondary continuation",
+        "notes": "FAQ describes accelerated Spanish courses in grades 9–12. No secondary instructional-time percentage or elementary 50/50 model is assigned.",
         "label": null,
         "verification": "documented",
         "language_role": "instruction_language"
@@ -147,7 +224,7 @@
     "district": "Herricks Union Free School District",
     "school": "Herricks Middle School",
     "track": "Spanish immersion",
-    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation.",
+    "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation. Follow-up November 6, 2026: FAQ explicitly describes specially designed Spanish classes and Spanish-medium social studies in grades 6, 7 and 8. No secondary instructional-time percentage is stated.",
     "observations": [
       {
         "source": "m6_ny_denton",
@@ -161,6 +238,22 @@
         "delivery": "strand",
         "locator": "Herricks Middle School / Spanish immersion",
         "notes": "Official articulated K-12 pathway and named school principals. Elementary daily instruction switches between English and Spanish; secondary social studies/language courses are described without assigning elementary time allocation.",
+        "label": null,
+        "verification": "documented",
+        "language_role": "instruction_language"
+      },
+      {
+        "source": "m6_ny_herricks_faq",
+        "period": "District FAQ advertising September 2023 kindergarten entry; publication date unstated",
+        "grade": "6-8",
+        "languages": [
+          "Spanish",
+          "English"
+        ],
+        "population": "unknown",
+        "delivery": "strand",
+        "locator": "FAQ PDF page 1: secondary continuation",
+        "notes": "FAQ explicitly describes specially designed Spanish classes and Spanish-medium social studies in grades 6, 7 and 8. No secondary instructional-time percentage is stated.",
         "label": null,
         "verification": "documented",
         "language_role": "instruction_language"

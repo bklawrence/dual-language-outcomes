@@ -37,7 +37,7 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
         audit=json.loads((ROOT/AUDIT).read_text())
         self.assertEqual((len(audit['preserved_reports']),len(audit['preserved_previous_registry']),
                           len(audit['preserved_assessment_outputs'])),(174,1020,12))
-        self.assertEqual((len(self.programmes),len({p['school_id'] for p in self.programmes}),len(self.sources)),(433,404,96))
+        self.assertEqual((len(self.programmes),len({p['school_id'] for p in self.programmes}),len(self.sources)),(433,404,99))
 
     def test_nyc_csv_preserves_tbe_services_languages_and_school_language_grain(self):
         source=list(csv.DictReader(io.StringIO((ROOT/self.sources['m6_nyc_csv25']['path']).read_text(encoding='utf-8-sig'))))
@@ -144,7 +144,7 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
 
     def test_minimums_aspirations_and_unquantified_alternation_do_not_become_exact_models(self):
         for school in ['North Windham Elementary School','Windham Middle School','DiLoreto Elementary and Middle School',
-                       'Denton Avenue Elementary School','Regional Multicultural Magnet School']:
+                       'Regional Multicultural Magnet School']:
             self.assertFalse(self.programme(school)['allocations'])
         for p in self.programmes:
             if p['district']=='Rochester City School District':
@@ -165,8 +165,26 @@ class MidAtlanticConnecticutTests(unittest.TestCase):
     def test_working_coverage_counts_only_elementary_containing_hosts(self):
         _,report=render_reports(ROOT,self.tables)
         counts={r['state']:(r['elementary_reference_schools_with_numerical_model'],r['elementary_reference_school_units']) for r in report['state_summary']}
-        self.assertEqual(counts,{'PA':(2,13),'MD':(9,24),'DE':(43,44),'NJ':(13,19),'NY':(7,200),'CT':(14,18)})
+        self.assertEqual(counts,{'PA':(2,13),'MD':(9,24),'DE':(43,44),'NJ':(13,19),'NY':(8,200),'CT':(14,18)})
         k_detail,_,_=kindergarten_rows(self.tables)
         for school in ['Somerset School','Windham Middle School']:
             pid=self.programme(school)['program_id'];row=next(r for r in k_detail if r['program_id']==pid)
             self.assertEqual(row['k_eligibility'],'excluded_no_k')
+
+    def test_herricks_user_identified_faq_supplies_one_way_elementary_model(self):
+        denton=self.programme('Denton Avenue Elementary School')
+        faq=next(a for a in denton['allocations'] if a['source']=='m6_ny_herricks_faq')
+        self.assertEqual((faq['grade'],faq['label'],faq['shares']),('K-5','50/50',{'Spanish':50,'English':50}))
+        self.assertIn('September 2023',faq['period'])
+        self.assertNotEqual(faq['period'],'2025-26')
+        self.assertTrue(any(o['source']=='m6_ny_herricks_faq' and o['population']=='one_way' for o in denton['observations']))
+        entry=next(a for a in denton['allocations'] if a['source']=='m6_ny_herricks_entry')
+        self.assertEqual((entry['period'],entry['grade']),('2026-27','K'))
+        for school in ['Herricks Middle School','Herricks High School']:
+            p=self.programme(school)
+            self.assertFalse(p['allocations'])
+            self.assertTrue(any(o['source']=='m6_ny_herricks_faq' and o['label'] is None for o in p['observations']))
+        for key in ['m6_ny_herricks_faq','m6_ny_herricks_entry','m6_ny_herricks_parent_night']:
+            self.assertTrue((ROOT/self.sources[key]['path']).read_bytes().startswith(b'%PDF'))
+        self.assertFalse(any(a['source']=='m6_ny_herricks_parent_night' for p in self.programmes for a in p['allocations']))
+        self.assertEqual(self.reference_school('Denton Avenue Elementary School')['has_numerical_allocation_model'],1)

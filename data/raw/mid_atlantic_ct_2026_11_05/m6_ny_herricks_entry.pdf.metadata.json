@@ -1,0 +1,17 @@
+{
+  "url": "https://drive.google.com/uc?export=download&id=1ICMil3W6uBYcAXfshb3oIa4GqiUSmLCX",
+  "retrieved_at": "2026-11-06T11:38:18.737249+00:00",
+  "http_status": 200,
+  "final_url": "https://drive.usercontent.google.com/download?id=1ICMil3W6uBYcAXfshb3oIa4GqiUSmLCX&export=download",
+  "content_type": "application/octet-stream",
+  "content_encoding": "",
+  "sha256": "825dc11100d1056ee3ea735f8a798e0443090f07b5283bb86537bdb47e499767",
+  "bytes": 177804,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "m6_ny_herricks_entry",
+  "snapshot_path": "data/raw/mid_atlantic_ct_2026_11_05/m6_ny_herricks_entry.pdf",
+  "full_response_sha256": "825dc11100d1056ee3ea735f8a798e0443090f07b5283bb86537bdb47e499767",
+  "text_extraction_method": "pdftotext -layout; original PDF bytes preserved; programme quotations checked against extracted page text",
+  "evidence_period_raw": "2026-27 kindergarten registration flyer"
+}
