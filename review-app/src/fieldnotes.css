@@ -42,8 +42,10 @@ h1, h2, h3 { font-weight: 550; }
 .rail-progress p strong { color: var(--ink); font-weight: 500; }
 .rail-spacer { flex: 1; min-height: 24px; }
 .plant-card { position: relative; text-align: left; padding: 4px 0 12px; }
-.plant-art { width: 124px; height: 124px; display: block; margin: 0 auto; overflow: visible; }
+.plant-art { width: 124px; height: calc(124px + var(--plant-growth, 0) * 59px); display: block; margin: 0 auto; overflow: visible; transition: height 1.5s ease; }
 .plant-leaf { transition: transform 1.5s ease, opacity 1.5s ease; }
+.butterfly-flight { animation: butterfly-drift 7s ease-in-out infinite; }
+.butterfly-wings { animation: butterfly-flutter 1.8s ease-in-out infinite; }
 .water-drops { opacity: 0; }
 .is-watering .water-drops { animation: water 1.5s ease-in forwards; }
 .is-watering .plant-art { animation: sway 1.6s ease; }
@@ -144,6 +146,9 @@ h1, h2, h3 { font-weight: 550; }
 .confidence { display: flex; border: 0; padding: 0; margin: 0 0 22px; gap: 21px; }
 .confidence label { display: flex; gap: 6px; align-items: center; cursor: pointer; font-size: 11px; }
 .confidence input { margin: 0; width: 12px; height: 12px; }
+.basis-control { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.basis-control .basis-label { margin: 0; }
+.clear-basis { color: var(--muted); font-size: 10px; text-decoration: underline; text-underline-offset: 3px; }
 .extra-fields { border-top: 1px solid var(--border); }
 .extra-fields>summary { list-style: none; display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-size: 12px; padding: 14px 0; }
 .extra-fields>summary::-webkit-details-marker { display: none; }
@@ -321,7 +326,7 @@ h1, h2, h3 { font-weight: 550; }
   .desk-footnote>span:last-child { display: none; }
 }
 @media (max-height: 800px) and (min-width: 701px) {
-  .plant-art { height: 100px; width: 100px; }
+  .plant-art { height: calc(100px + var(--plant-growth, 0) * 47px); width: 100px; }
   .rail-label { margin-bottom: 18px; }
 }
 @media (max-width: 850px) {
@@ -358,7 +363,7 @@ h1, h2, h3 { font-weight: 550; }
   .nav-item.selected:before { display: none; }
   .nav-item.selected { border-left: 2px solid var(--accent); }
   .plant-card { width: 44px; padding: 0 0 12px; }
-  .plant-art { width: 70px; height: 84px; margin-left: -13px; }
+  .plant-art { width: 70px; height: calc(84px + var(--plant-growth, 0) * 33px); margin-left: -13px; }
   .rail-help { font-size: 0; padding: 12px 0; }
   .profile { width: 40px; justify-content: center; padding: 15px 0; }
   .profile>span:nth-child(2), .profile>svg { display: none; }
@@ -418,6 +423,8 @@ h1, h2, h3 { font-weight: 550; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes water { 0% { opacity: 0; transform: translateY(-16px); } 20% { opacity: 1; } 90% { opacity: .8; } 100% { opacity: 0; transform: translateY(75px); } }
 @keyframes sway { 0%, 100% { transform: rotate(0); } 35% { transform: rotate(-2deg); } 65% { transform: rotate(2deg); } }
+@keyframes butterfly-drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes butterfly-flutter { 0%, 100% { transform: scaleX(.65); } 50% { transform: scaleX(1); } }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
   .water-drops { opacity: 0 !important; }

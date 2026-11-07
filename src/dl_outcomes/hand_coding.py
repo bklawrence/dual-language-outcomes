@@ -20,6 +20,7 @@ DATASET = 'RESEARCHER_HAND_CODED_REVIEWS'
 SELECTION_ATTRIBUTE = 'hand_coded_structural_field_selection'
 VARIABLES = {'delivery_structure', 'population_model', 'elementary_allocation_model', 'instruction_languages'}
 CHOICES = {'delivery_structure': {'whole_school', 'strand', 'mixed'}, 'population_model': {'one_way', 'two_way'}}
+CODING_METHODS = {'explicit_source_statement', 'researcher_interpretation', 'not_recorded'}
 MARKER = re.compile(r'<!--\s*DL_REVIEW_V1:([A-Za-z0-9_-]+)\s*-->')
 
 
@@ -61,8 +62,8 @@ def validate_record(record, sites, schools):
             raise ValueError('Review text exceeds its permitted length: ' + field)
     if not record.get('reviewer', '').strip():
         raise ValueError('Please enter the reviewer name.')
-    if not isinstance(record.get('coding_method'),str) or record['coding_method'] not in {'explicit_source_statement', 'researcher_interpretation'}:
-        raise ValueError('Choose how the coding was established.')
+    if not isinstance(record.get('coding_method'),str) or record['coding_method'] not in CODING_METHODS:
+        raise ValueError('Unknown coding basis; use not_recorded when the basis is cleared.')
     if not isinstance(record.get('disposition','coded'),str) or record.get('disposition', 'coded') not in {'coded', 'needs_review'}:
         raise ValueError('Unknown review disposition.')
     changes = record.get('changes')

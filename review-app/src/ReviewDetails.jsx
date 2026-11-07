@@ -1,6 +1,6 @@
 import React from 'react';
 import {ExternalLink} from 'lucide-react';
-import {FIELD_LABELS, formatValue, sourceLink} from './reviews';
+import {FIELD_LABELS, BASIS_LABELS, formatValue, sourceLink} from './reviews';
 
 export default function ReviewDetails({record, school, inventoryYear}) {
   const entries = Object.entries(record.changes || {});
@@ -21,7 +21,7 @@ export default function ReviewDetails({record, school, inventoryYear}) {
       <div><dt>Applies to</dt><dd>{record.reference_year.replace('-', '–')}</dd></div>
       <div><dt>Grades described</dt><dd>{record.grade_scope || 'Not specified'}</dd></div>
       <div><dt>Source school year</dt><dd>{record.source_school_year?.replace('-', '–') || 'Undated / not stated'}</dd></div>
-      <div><dt>Coding basis</dt><dd>{record.coding_method === 'explicit_source_statement' ? 'Explicit source statement' : 'Researcher interpretation'}</dd></div>
+      <div><dt>Coding basis</dt><dd>{BASIS_LABELS[record.coding_method] || 'Not recorded'}</dd></div>
     </dl>
     {record.reference_year !== inventoryYear && <p className="review-year-note">Inventory values above describe {inventoryYear.replace('-', '–')}; your entry applies to {record.reference_year.replace('-', '–')}.</p>}
     {evidence && <p className="review-evidence"><span>Evidence</span><a href={evidence} target="_blank" rel="noreferrer">{evidence}<ExternalLink size={11}/></a></p>}

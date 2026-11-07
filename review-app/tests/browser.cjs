@@ -29,6 +29,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.equal(Number((await page.locator('.queue-title>span').innerText()).replaceAll(',','')),expected);
   if(!expected)await page.getByLabel('Missing variable',{exact:true}).selectOption('');
   const initial=await workspace(page);assert.equal(initial.saved.length,0);assert.equal(initial.reviewer,'');
+  const starterPlantHeight=(await page.locator('.plant-art').boundingBox()).height;
   await page.getByRole('button',{name:'Set reviewer name',exact:true}).click();
   await page.getByLabel('Reviewer name',{exact:true}).fill('bklawrence');
   await page.getByRole('button',{name:'Back to the research',exact:false}).click();
@@ -54,6 +55,11 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   await page.getByLabel('Search saved reviews',{exact:true}).fill(original.school_name);
   await page.getByRole('button',{name:'Edit review',exact:true}).click();
   assert.equal(await page.locator('.case-page-header h1').innerText(),original.school_name);
+  assert.ok(await page.getByRole('radio',{name:'Explicitly stated',exact:true}).isChecked());
+  await page.getByRole('radio',{name:'My interpretation',exact:true}).check();
+  await page.getByRole('button',{name:'Clear coding basis',exact:true}).click();
+  assert.equal(await page.getByRole('radio',{name:'My interpretation',exact:true}).isChecked(),false);
+  assert.equal(await page.getByRole('radio',{name:'Explicitly stated',exact:true}).isChecked(),false);
   await page.getByRole('radio',{name:/Whole school All students/}).check();
   const revisedNote=note+' Revised after comparing other schools in the district.';
   await page.getByLabel('Research notes',{exact:true}).fill(revisedNote);
@@ -68,6 +74,8 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.equal(await page.locator('.case-page-header h1').innerText(),original.school_name);
   assert.equal(await page.getByLabel('Research notes',{exact:true}).inputValue(),revisedNote);
   assert.equal(await page.getByLabel('Evidence website URL').inputValue(),'https://example.edu/revised-overview');
+  assert.equal(await page.getByRole('radio',{name:'My interpretation',exact:true}).isChecked(),false);
+  assert.equal(await page.getByRole('radio',{name:'Explicitly stated',exact:true}).isChecked(),false);
   await page.getByRole('button',{name:/^Publish/}).click();
   const preview=page.getByRole('dialog',{name:'Review before publishing',exact:true});
   await preview.locator('.batch-review').waitFor();
@@ -78,8 +86,12 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   await page.waitForFunction(id=>new Promise(resolve=>{const r=indexedDB.open('fieldnotes-research-v1',1);r.onsuccess=()=>{const q=r.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(q.result?.saved?.find(v=>v.review_id===id)?.changes.delivery_structure.value==='whole_school');};}),original.review_id);
   saved=await workspace(page);assert.equal(saved.saved.length,1);assert.equal(saved.saved[0].review_id,original.review_id);
   assert.equal(saved.saved[0].notes,revisedNote);assert.equal(saved.saved[0].source_locator,'Program overview, page 2');
+  assert.equal(saved.saved[0].coding_method,'not_recorded');
+  assert.equal(await page.locator('.review-context').getByText('Not recorded',{exact:true}).count(),1);
   assert.ok(Object.values(saved.drafts).some(d=>d.notes==='An unrelated draft stays intact.'));
   await page.getByRole('button',{name:'Edit review',exact:true}).click();
+  assert.equal(await page.getByRole('radio',{name:'My interpretation',exact:true}).isChecked(),false);
+  assert.equal(await page.getByRole('radio',{name:'Explicitly stated',exact:true}).isChecked(),false);
   await page.getByLabel('Research notes',{exact:true}).fill('This change will be discarded.');
   await page.getByRole('button',{name:'Back to My reviews',exact:true}).click();
   assert.equal(await page.locator('.log-card .status-pill').innerText(),'Unsaved edits');
@@ -110,6 +122,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.equal(payload.records[0].changes.delivery_structure.value,'whole_school');
   assert.equal(payload.records[0].source_quote,'All students participate in the immersion program.');
   assert.equal(payload.records[0].source_school_year,'2024-25');
+  assert.equal(payload.records[0].coding_method,'not_recorded');
   fs.writeFileSync(path.join(output,'issue-body.txt'),handoff.searchParams.get('body'));
   assert.equal(await page.locator('.log-card .status-pill').innerText(),'Confirm on GitHub');
   const realData=JSON.parse(fs.readFileSync(path.join(root,'public/data/queue.json'),'utf8'));const cloud=structuredClone(realData);
@@ -153,6 +166,27 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.ok(Math.abs(revived.garden.moisture-expectedMoisture)<.01);assert.ok(revived.garden.webs<1);
   assert.equal(revived.garden.reviews,gardenBeforeAging.reviews+1);
   await aged.locator('.plant-card').screenshot({path:path.join(output,'reviving-plant.png')});
+  const matureContext=await browser.newContext({viewport:{width:1500,height:1000},reducedMotion:'reduce'});
+  await matureContext.addInitScript(()=>localStorage.setItem('fieldnotes.workspace.v1',JSON.stringify({
+    reviewer:'',saved:[],drafts:{},batches:[],garden:{moisture:100,webs:0,updatedAt:Date.now(),
+      lastWateredAt:Date.now(),reviews:60,entryCount:60,wateredIds:Array.from({length:60},(_,i)=>'plant-preview-'+i)},
+  })));
+  const mature=await matureContext.newPage();await mature.clock.install({time:new Date()});
+  await mature.goto(url,{waitUntil:'networkidle'});await mature.getByRole('heading',{name:'Review queue',exact:true}).waitFor();
+  assert.equal(await mature.locator('.plant-flower').count(),3);assert.equal(await mature.locator('.plant-butterfly').count(),3);
+  assert.ok((await mature.locator('.plant-art').boundingBox()).height>starterPlantHeight+40);
+  assert.equal((await mature.locator('.plant-card').innerText()).trim(),'');
+  assert.equal(await mature.locator('.butterfly-wings').first().evaluate(el=>getComputedStyle(el).animationName),'none');
+  await mature.locator('.plant-card').screenshot({path:path.join(output,'mature-plant.png')});
+  await mature.setViewportSize({width:390,height:844});
+  assert.equal(await mature.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true);
+  assert.ok((await mature.locator('.profile').boundingBox()).y<844);
+  await mature.screenshot({path:path.join(output,'mature-mobile.png'),fullPage:true});
+  await mature.clock.fastForward(3*3600000);
+  await mature.getByRole('img',{name:/Your plant: A little neglected/}).waitFor();
+  assert.equal(await mature.locator('.plant-flower').count(),0);assert.equal(await mature.locator('.plant-butterfly').count(),0);
+  assert.ok((await mature.locator('.plant-art').getAttribute('aria-label')).includes('1 leaf'));
+  await matureContext.close();
   const mobileContext=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,timezoneId:'America/Chicago',storageState:readyState});const mobile=await mobileContext.newPage();
   await mobile.goto(url,{waitUntil:'networkidle'});await mobile.getByRole('button',{name:'Choose a school',exact:true}).waitFor();
   await mobile.getByRole('button',{name:'Choose a school',exact:true}).click();await mobile.getByLabel('Missing variable',{exact:true}).selectOption('');await mobile.getByLabel('State',{exact:true}).selectOption('TX');await mobile.locator('.school-row').first().click();
@@ -164,7 +198,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   await mobile.locator('.batch-review').waitFor();
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true);
   await mobile.screenshot({path:path.join(output,'mobile-preview.png'),fullPage:true});
-  assert.deepEqual(errors,[]);console.log('PASS: district search, saved-review editing, reload/resume, separate drafts, discard, full batch preview, stale-edit block, edited Unicode payload, published correction history, plant decay/recovery, mobile layout.');
+  assert.deepEqual(errors,[]);console.log('PASS: review editing, cleared coding basis through reload and submission, full preview, published corrections, plant growth/flowers/butterflies, three-hour decay, reduced motion, mobile layout.');
   await browser.close();browser=null;
  }finally{if(browser)await browser.close();if(child)child.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

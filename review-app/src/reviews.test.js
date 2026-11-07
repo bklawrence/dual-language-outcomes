@@ -48,6 +48,11 @@ test('parked reviews can be resumed without inventing structural values',()=>{
   assert.equal(draft.notes,'Source context');
 });
 
+test('a cleared coding basis stays unselected when an entry is edited again',()=>{
+  assert.equal(draftFromReview({...record,coding_method:'not_recorded'},school,empty).coding_method,'');
+  assert.equal(draftFromReview({...record,coding_method:'researcher_interpretation'},school,empty).coding_method,'researcher_interpretation');
+});
+
 test('a review outside the campus inventory cannot silently be retargeted',()=>{
   const foreign=structuredClone(record);
   foreign.changes.population_model.site_ids=['other-campus'];

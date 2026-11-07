@@ -8,6 +8,12 @@ leaves and gathers cobwebs over idle hours, and recovers with renewed work. Afte
 three hours without a saved entry, even a fully watered plant has one faded leaf
 and full cobwebs. The open page updates it every minute; elapsed time also counts
 while the site is closed. Saving adds a little water and clears some webs.
+Distinct entries gradually grow a taller stem and more leaves, reaching full
+height at 60 entries. Unusual flowers appear at 8, 20, and 40 entries;
+butterflies arrive at 12, 30, and 60 while the plant is healthy. Editing an
+existing entry adds water without counting it twice toward growth. Earned
+height persists through breaks; flowers and butterflies disappear as it withers.
+Butterfly motion respects the browser's reduced-motion preference.
 Plant state is a personal interface feature, separate from research data.
 
 The interface uses a restrained, paper-like layout: compact school rows,
@@ -33,6 +39,11 @@ the local review ID, keep each variable's program scope, and resume after a
 reload without overwriting an unrelated school draft. **Publish** opens a full
 preview with another edit action; unsaved edits must be saved or discarded
 before that review can be handed off to GitHub.
+
+**Clear coding basis** removes either “Explicitly stated” or “My interpretation,”
+including when revising a saved entry. It is submitted as `not_recorded`, shown
+as **Not recorded**, and retained separately from an interpretation. A structural
+value with no recorded coding basis remains provisional in the derived data.
 
 A batch already handed to GitHub retains its submitted version while awaiting
 acknowledgement. For a published decision, **Add a correction** creates another

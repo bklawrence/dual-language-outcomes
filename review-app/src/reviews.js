@@ -10,6 +10,12 @@ export const VALUE_LABELS = {
   one_way: 'One-way', two_way: 'Two-way',
 };
 
+export const BASIS_LABELS = {
+  explicit_source_statement: 'Explicit source statement',
+  researcher_interpretation: 'Researcher interpretation',
+  not_recorded: 'Not recorded',
+};
+
 export function formatValue(value) {
   if (Array.isArray(value)) return value.map(formatValue).join(' + ') || 'Not recorded';
   return VALUE_LABELS[value] || value || 'Not recorded';
@@ -40,7 +46,8 @@ export function draftFromReview(record, school, empty) {
     evidence_url: record.evidence_url || '', notes: record.notes || '',
     source_quote: record.source_quote || '', source_locator: record.source_locator || '',
     grade_scope: record.grade_scope || '', source_school_year: record.source_school_year || '',
-    reference_year: record.reference_year, coding_method: record.coding_method,
+    reference_year: record.reference_year,
+    coding_method: record.coding_method === 'not_recorded' ? '' : record.coding_method || '',
     all_delivery: deliveryIds.length === available.size && deliveryIds.every(id => available.has(id)),
     delivery_site_ids: [...deliveryIds],
     original_targets: Object.fromEntries(Object.entries(changes).map(([v, c]) => [v, [...c.site_ids]])),

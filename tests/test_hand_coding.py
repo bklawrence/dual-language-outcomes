@@ -131,6 +131,19 @@ class HandCodingTests(unittest.TestCase):
         self.assertIn('language_order',new['percentage_basis'])
         self.assertEqual(validate_tables(tables,self.schema),[])
 
+    def test_cleared_basis_is_retained_without_asserting_interpretation_or_documentation(self):
+        original=self.record()
+        cleared=self.record(coding_method='not_recorded',supersedes_review_id=original['review_id'])
+        tables,_=self.reviewed_tables([original,cleared])
+        field,_=Selection(tables,self.rules).select_field(self.site,'delivery_structure','2025-26')
+        self.assertEqual(json.loads(field['value_json']),['whole_school'])
+        self.assertEqual(field['value_status'],'provisional')
+        reviews=[json.loads(c['reported_value']) for c in tables['evidence_claims'] if c['attribute']=='hand_coded_review']
+        self.assertEqual([r['coding_method'] for r in reviews],['explicit_source_statement','not_recorded'])
+        self.assertEqual(reviews[-1]['evidence_url'],cleared['evidence_url'])
+        self.assertEqual(reviews[-1]['supersedes_review_id'],original['review_id'])
+        self.assertEqual(validate_tables(tables,self.schema),[])
+
     def test_parked_case_creates_no_structural_value(self):
         with self.assertRaisesRegex(ValueError,'parked case'):
             validate_record(self.record(disposition='needs_review'),self.sites,self.schools)
