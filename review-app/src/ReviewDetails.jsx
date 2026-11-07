@@ -16,7 +16,7 @@ export default function ReviewDetails({record, school, inventoryYear}) {
         const scope = all ? `All ${sites.length} program records` : sites.map(s => s.label).join('; ') || 'Program scope unavailable';
         return <tr key={variable}><th>{FIELD_LABELS[variable] || variable}<small>{scope}</small></th><td>{before.join(' / ') || 'Not recorded'}</td><td>{formatValue(change.value)}</td></tr>;
       })}</tbody>
-    </table> : <p className="parked-note">Parked for another look. This review records research notes without changing a structural value.</p>}
+    </table> : <p className="parked-note">Evidence and research notes only. No program values have been assigned; this school remains available for coding.</p>}
     <dl className="review-context">
       <div><dt>Applies to</dt><dd>{record.reference_year.replace('-', '–')}</dd></div>
       <div><dt>Grades described</dt><dd>{record.grade_scope || 'Not specified'}</dd></div>

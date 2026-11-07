@@ -40,6 +40,13 @@ reload without overwriting an unrelated school draft. **Publish** opens a full
 preview with another edit action; unsaved edits must be saved or discarded
 before that review can be handed off to GitHub.
 
+When program choices are blank, the main button becomes **Save evidence & next**
+(**Save evidence** while editing). A source URL, quotation, or research note is
+enough; no program value is required. These entries use the existing
+`needs_review` disposition with empty `changes`, retain their evidence for later
+coding, remain in the missing-data queue, and can be published with other saved
+work. Saving evidence also waters the plant.
+
 **Clear coding basis** removes either “Explicitly stated” or “My interpretation,”
 including when revising a saved entry. It is submitted as `not_recorded`, shown
 as **Not recorded**, and retained separately from an interpretation. A structural
