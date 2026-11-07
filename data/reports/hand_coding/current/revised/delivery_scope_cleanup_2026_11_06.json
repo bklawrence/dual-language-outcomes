@@ -1,0 +1,40 @@
+{
+  "after_delivery_coverage_pct": 26.81,
+  "after_schools_all_allocated_sites_documented": 467,
+  "allocated_programme_sites": 1906,
+  "allocated_schools": 1742,
+  "analysis_effect": "Earlier 2024-25 and older proficiency selections are unchanged. Whole-school scope does not establish identified DL assessment participation or programme exposure for a tested cohort.",
+  "audit_status": "PASS",
+  "before_delivery_coverage_pct": 24.68,
+  "before_schools_all_allocated_sites_documented": 430,
+  "denominator": "Existing live allocation-bearing elementary programme-site cohort, not all US DL schools. A school is fully documented here when every allocation-bearing site has documented delivery.",
+  "evidence_preservation": "All pre-existing canonical evidence, identities, assessment/context tables, frozen baseline and prior reports retained.",
+  "programme_site_decisions": 42,
+  "reference_year": "2025-26",
+  "remaining_schools_not_fully_documented": 1275,
+  "research_date": "2026-11-06",
+  "school_decisions": 35,
+  "school_decisions_by_state": {
+    "CA": 3,
+    "IL": 1,
+    "NY": 22,
+    "TX": 6,
+    "WA": 2,
+    "WI": 1
+  },
+  "school_decisions_by_value": {
+    "strand": 24,
+    "whole_school": 11
+  },
+  "screening": {
+    "lausd_allocation_campuses_with_name_matched_public_profile": 102,
+    "lausd_campuses_with_manually_adjudicated_scope": 3,
+    "limitations": "No unresolved programme is recoded from silence, admissions choice, language allocation or the absence of a closure notice.",
+    "method": "Candidate passage/description screen; not an exhaustive review of each school or all pages of each CEP.",
+    "ny_allocation_target_documents_screened": 59,
+    "ny_campuses_with_manually_adjudicated_scope": 22
+  },
+  "source_documents": 44,
+  "sources_reused": 23,
+  "temporal_policy": "New decisions are reviewed for 2025-26 only. Source years and undated standing descriptions retain their actual dates. No new fact is eligible for spring 2025 (2024-25) or earlier analyses."
+}
