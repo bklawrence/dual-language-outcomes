@@ -1,0 +1,225 @@
+{
+  "batch_id": "b14a8c27-9478-4fd6-a84b-aa3cb9770863",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-6469eff31cc45eb58a87ebdbe2500edb"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:35:16.829Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "3fe85cda-022b-4635-bf03-d5793a889460",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103956",
+      "school_name": "Maya Angelou Elementary",
+      "selected_site_id": "site_candidate-6469eff31cc45eb58a87ebdbe2500edb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-536b323c43cc5f059d73ae89add0e6e4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:36:34.027Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "Website does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "f9c0dde2-917f-48bb-b332-6577d38d95ce",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100767",
+      "school_name": "Robert Frost Elementary",
+      "selected_site_id": "site_candidate-536b323c43cc5f059d73ae89add0e6e4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4f8c1d9a3f69579796699b0dab4ef91a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:36:59.743Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "Website does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "9f6626f4-50ac-40f0-bee3-84dd850f9b90",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105770",
+      "school_name": "Rosalind Franklin STEM Elementary",
+      "selected_site_id": "site_candidate-4f8c1d9a3f69579796699b0dab4ef91a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-2f36f14db6375b9abf6af6565029bf2b",
+            "site_candidate-9b21a82a46785b27a39710258c5cad8d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:38:26.210Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://chess.psd1.org/about",
+      "grade_scope": "",
+      "notes": "Website indicates other programs in the school.",
+      "reference_year": "2025-26",
+      "review_id": "770af5e5-3e09-4d8d-b320-d6e291c458e6",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100774",
+      "school_name": "Rowena Chess Elementary",
+      "selected_site_id": "site_candidate-2f36f14db6375b9abf6af6565029bf2b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-68bfbc7256a45f79ad22bc3f0309483f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:39:47.107Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://livingston.psd1.org/about",
+      "grade_scope": "",
+      "notes": "Multiple programs in the school.",
+      "reference_year": "2025-26",
+      "review_id": "ac3d636f-64ad-4964-9806-74594e94f0aa",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100770",
+      "school_name": "Ruth Livingston Elementary",
+      "selected_site_id": "site_candidate-68bfbc7256a45f79ad22bc3f0309483f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-8236213ac3f458a89850ebc0408643ce",
+            "site_candidate-a4451619f7de5aee84cedabed5c4b374"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:40:49.707Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://threerivers.psd1.org/about",
+      "grade_scope": "",
+      "notes": "Multiple programs in the school.",
+      "reference_year": "2025-26",
+      "review_id": "c0f42146-0f28-4115-a2af-6ea0d8648216",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S106205",
+      "school_name": "Three Rivers Elementary",
+      "selected_site_id": "site_candidate-8236213ac3f458a89850ebc0408643ce",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c0fff7ae3eac50129449553e48de947b",
+            "site_candidate-cfe0b3426ad554a89a4dd138d3974429"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:41:34.740Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://robinson.psd1.org/",
+      "grade_scope": "",
+      "notes": "Multiple programs in the school.",
+      "reference_year": "2025-26",
+      "review_id": "9ba80e0d-c366-498c-b8b9-eb83253cdbe7",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S104036",
+      "school_name": "Virgie Robinson Elementary",
+      "selected_site_id": "site_candidate-c0fff7ae3eac50129449553e48de947b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3e879c6a28aa551689d2397f8bddd53a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:42:42.872Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://whittier.psd1.org/",
+      "grade_scope": "",
+      "notes": "No DL focus in school description.",
+      "reference_year": "2025-26",
+      "review_id": "3d31d29f-3a11-40c8-80c7-8b3134de294f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100773",
+      "school_name": "Whittier Elementary",
+      "selected_site_id": "site_candidate-3e879c6a28aa551689d2397f8bddd53a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 26,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/26",
+    "received_at": "2026-11-07T20:48:05.691320+00:00",
+    "submitted_at": "2026-11-07T20:44:04Z"
+  },
+  "version": 1
+}

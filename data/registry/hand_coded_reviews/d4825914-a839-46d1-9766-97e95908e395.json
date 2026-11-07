@@ -1,0 +1,254 @@
+{
+  "batch_id": "d4825914-a839-46d1-9766-97e95908e395",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-80b6e2d0cebb5be2b6034f5d673a7be1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:31:32.315Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "39eea6a0-6c9a-48b6-9b98-0f4ea6ec14f3",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S106405",
+      "school_name": "Columbia River Elementary",
+      "selected_site_id": "site_candidate-80b6e2d0cebb5be2b6034f5d673a7be1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-392822401dbd58b28fc5edd2e4cded97"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:31:56.181Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "6efda8cb-cd0b-4d6c-ac71-d9d90bf5ec1c",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100766",
+      "school_name": "Edwin Markham Elementary",
+      "selected_site_id": "site_candidate-392822401dbd58b28fc5edd2e4cded97",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {},
+      "coded_at": "2026-11-07T20:32:14.847Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "needs_review",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "7f56b709-c53c-4503-9930-e71d6b111b15",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100763",
+      "school_name": "Emerson Elementary",
+      "selected_site_id": "site_candidate-4e07e9aa4ad65bf3a626d720ce5d003b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a20287926446548ea635c2d25e58d40f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:32:35.197Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "1e37986e-e42c-4fb3-bfed-9f83e83826b2",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100772",
+      "school_name": "James McGee Elementary",
+      "selected_site_id": "site_candidate-a20287926446548ea635c2d25e58d40f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {},
+      "coded_at": "2026-11-07T20:32:58.180Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "needs_review",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "193793ba-c0e4-481a-8401-7874305efcc1",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100763",
+      "school_name": "Emerson Elementary",
+      "selected_site_id": "site_candidate-4e07e9aa4ad65bf3a626d720ce5d003b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4e07e9aa4ad65bf3a626d720ce5d003b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:33:21.646Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL",
+      "reference_year": "2025-26",
+      "review_id": "0bee6f65-d9e3-4ea5-89e4-ff09d9843f3c",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100763",
+      "school_name": "Emerson Elementary",
+      "selected_site_id": "site_candidate-4e07e9aa4ad65bf3a626d720ce5d003b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-bf972cccbf6f57ac9e8fa22419e86195",
+            "site_candidate-c0d1d2b545ee5bce90b5e3bcb42acb5b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:33:49.478Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "eed04e13-ba00-4552-baea-7652a9a1f29f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100761",
+      "school_name": "Longfellow Elementary",
+      "selected_site_id": "site_candidate-bf972cccbf6f57ac9e8fa22419e86195",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-23a74531d2335b97bf0c86738c2b005f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:34:12.463Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "73ca3f61-e4d8-42e2-a2af-bdbfa19b67d4",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105900",
+      "school_name": "Marie Curie STEM Elementary",
+      "selected_site_id": "site_candidate-23a74531d2335b97bf0c86738c2b005f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {},
+      "coded_at": "2026-11-07T20:34:32.079Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "needs_review",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "69ad542d-e9d9-43d3-b16f-bd92c8b57007",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100764",
+      "school_name": "Mark Twain Elementary",
+      "selected_site_id": "site_candidate-1247c3e17d165350ba0d984fa6acd554",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1247c3e17d165350ba0d984fa6acd554"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:34:56.114Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "eeb59ac4-b46e-4b3b-bf85-c638341c3758",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100764",
+      "school_name": "Mark Twain Elementary",
+      "selected_site_id": "site_candidate-1247c3e17d165350ba0d984fa6acd554",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 25,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/25",
+    "received_at": "2026-11-07T20:48:06.773306+00:00",
+    "submitted_at": "2026-11-07T20:43:50Z"
+  },
+  "version": 1
+}
