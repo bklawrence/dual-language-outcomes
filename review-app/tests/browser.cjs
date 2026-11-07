@@ -10,6 +10,7 @@ fs.mkdirSync(output,{recursive:true});
 const pause=ms=>new Promise(r=>setTimeout(r,ms));
 async function workspace(page){return page.evaluate(()=>new Promise((resolve,reject)=>{const request=indexedDB.open('fieldnotes-research-v1',1);request.onsuccess=()=>{const db=request.result;const r=db.transaction('workspace').objectStore('workspace').get('current');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);};request.onerror=()=>reject(request.error);}));}
 async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resolve=>{const req=indexedDB.open('fieldnotes-research-v1',1);req.onsuccess=()=>{const q=req.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(q.result?.saved?.length===n);};}),n);}
+async function waitDraft(page,key,value){await page.waitForFunction(({key,value})=>new Promise(resolve=>{const req=indexedDB.open('fieldnotes-research-v1',1);req.onsuccess=()=>{const q=req.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(Object.values(q.result?.drafts||{}).some(d=>d[key]===value));};}),{key,value});}
 (async()=>{
  const child=process.env.FIELDNOTES_TEST_URL?null:spawn(process.execPath,[path.join(root,'node_modules/vite/bin/vite.js'),'preview','--host','127.0.0.1','--port','4175','--strictPort'],{cwd:root,stdio:'ignore'});
  const url=process.env.FIELDNOTES_TEST_URL||'http://127.0.0.1:4175/';
@@ -35,6 +36,7 @@ async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resol
   await page.getByLabel('Evidence website URL').fill('https://example.edu/program');
   const note='English and Spanish pathways; Español, ʻŌlelo Hawaiʻi — quotation "retained".';
   await page.getByLabel('Research notes',{exact:true}).fill(note);
+  await waitDraft(page,'notes',note);
   await page.reload({waitUntil:'networkidle'});
   assert.equal(await page.getByLabel('Research notes',{exact:true}).inputValue(),note);
   assert.equal(await page.getByLabel('Evidence website URL').inputValue(),'https://example.edu/program');
@@ -61,9 +63,11 @@ async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resol
   await page.getByLabel('Grades described',{exact:true}).fill('K–5');
   await page.getByLabel('Source school year',{exact:true}).selectOption('2024-25');
   await page.getByLabel('Evidence website URL').fill('https://example.edu/revised-overview');
+  await waitDraft(page,'evidence_url','https://example.edu/revised-overview');
   await page.reload({waitUntil:'networkidle'});
   assert.equal(await page.locator('.case-page-header h1').innerText(),original.school_name);
   assert.equal(await page.getByLabel('Research notes',{exact:true}).inputValue(),revisedNote);
+  assert.equal(await page.getByLabel('Evidence website URL').inputValue(),'https://example.edu/revised-overview');
   await page.getByRole('button',{name:/^Publish/}).click();
   const preview=page.getByRole('dialog',{name:'Review before publishing',exact:true});
   await preview.locator('.batch-review').waitFor();
@@ -145,8 +149,7 @@ async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resol
   await aged.getByRole('radio',{name:/Whole school All students/}).check();await aged.getByLabel('Evidence website URL').fill('https://example.edu/whole-school');
   await aged.getByRole('button',{name:'Save & next',exact:true}).click();await waitSaved(aged,2);
   const revived=await workspace(aged);
-  const agedNow=await aged.evaluate(()=>Date.now());
-  const expectedMoisture=Math.max(0,gardenBeforeAging.moisture-(agedNow-gardenBeforeAging.updatedAt)/3600000*30)+12;
+  const expectedMoisture=Math.max(0,gardenBeforeAging.moisture-(revived.garden.updatedAt-gardenBeforeAging.updatedAt)/3600000*30)+12;
   assert.ok(Math.abs(revived.garden.moisture-expectedMoisture)<.01);assert.ok(revived.garden.webs<1);
   assert.equal(revived.garden.reviews,gardenBeforeAging.reviews+1);
   await aged.locator('.plant-card').screenshot({path:path.join(output,'reviving-plant.png')});

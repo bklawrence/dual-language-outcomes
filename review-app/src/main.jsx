@@ -67,7 +67,7 @@ function App(){
   const refresh=async()=>{setRefreshing(true);try{const response=await fetch('./data/queue.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('Could not load the research inventory.');setData(await response.json());setLoadError('');}catch(e){setLoadError(e.message);}finally{setRefreshing(false);}};
   useEffect(()=>{refresh();const timer=setInterval(()=>setNow(Date.now()),60000);return()=>clearInterval(timer);},[]);
   useEffect(()=>{loadWorkspace().then(old=>{if(old&&Array.isArray(old.saved)&&old.drafts){setStore(s=>({...s,...old}));if(old.lastSchoolId)setActive(old.lastSchoolId);setEditingId(old.editingReviewId||'');}setHydrated(true);});},[]);
-  useEffect(()=>{if(!hydrated)return;setSavingDraft(true);saveWorkspace({...store,lastSchoolId:active,editingReviewId:editingId}).then(()=>{setStorageError(false);setSavingDraft(false);}).catch(()=>{setStorageError(true);setSavingDraft(false);});},[store,active,editingId,hydrated]);
+  useEffect(()=>{if(!hydrated)return;let latest=true;setSavingDraft(true);saveWorkspace({...store,lastSchoolId:active,editingReviewId:editingId}).then(()=>{if(latest){setStorageError(false);setSavingDraft(false);}}).catch(()=>{if(latest){setStorageError(true);setSavingDraft(false);}});return()=>{latest=false;};},[store,active,editingId,hydrated]);
   useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),4500);return()=>clearTimeout(t);},[toast]);
   const accepted=useMemo(()=>new Set(data?.accepted_review_ids||[]),[data]);
   const preparedIds=useMemo(()=>new Set(store.batches.flatMap(b=>b.review_ids)),[store.batches]);
