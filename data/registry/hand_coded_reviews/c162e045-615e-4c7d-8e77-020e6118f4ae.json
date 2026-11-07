@@ -1,0 +1,274 @@
+{
+  "batch_id": "c162e045-615e-4c7d-8e77-020e6118f4ae",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-de0e2a615a355f7aa85668a9dee3aa62"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:49:37.662Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.davis.k12.ut.us/o/bpes/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed explicitly.",
+      "reference_year": "2025-26",
+      "review_id": "38532062-fe85-4796-9c04-e4c96bfa171d",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-9802b73d1311",
+      "school_name": "Buffalo Point School",
+      "selected_site_id": "site-de0e2a615a355f7aa85668a9dee3aa62",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ba11ddb4b0b15084bce1b6152f6ca2c6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:51:00.544Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://canyoncreek.davis.k12.ut.us/o/cces/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside other staff.",
+      "reference_year": "2025-26",
+      "review_id": "6a526973-1c85-4faa-b09b-f6b968b8dcb8",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-2db94f7d400a",
+      "school_name": "Canyon Creek School",
+      "selected_site_id": "site-ba11ddb4b0b15084bce1b6152f6ca2c6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a0d864c3145156739ee6f9963d5b1b6e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:51:59.928Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://eaglebay.davis.k12.ut.us/o/ebe/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside other staff.",
+      "reference_year": "2025-26",
+      "review_id": "9e73e31b-622d-48fe-bb7c-21c856fd19ec",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-096c7686aa7b",
+      "school_name": "Eagle Bay School",
+      "selected_site_id": "site-a0d864c3145156739ee6f9963d5b1b6e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-18739f8c43f3571f9c0e0acaffdb481a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:53:41.428Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://foxboro.davis.k12.ut.us/o/foxes/page/french-immersion-information",
+      "grade_scope": "",
+      "notes": "Other schools are strands and this one looks small. No staff page, though.",
+      "reference_year": "2025-26",
+      "review_id": "b68324aa-3516-46aa-a0e9-7bf31417ef94",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-3ea571ea149e",
+      "school_name": "Foxboro School",
+      "selected_site_id": "site-18739f8c43f3571f9c0e0acaffdb481a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3d96ac7315ef5f708df7d62a8ea6d140"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:54:51.861Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://heritage.davis.k12.ut.us/o/hees/staff?page_no=2",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI staff.",
+      "reference_year": "2025-26",
+      "review_id": "0aab9795-6860-4d86-9da3-92fb16ab5a2e",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-26cd0e0ff65c",
+      "school_name": "Heritage School",
+      "selected_site_id": "site-3d96ac7315ef5f708df7d62a8ea6d140",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-20a5d777e7dc529087a81a8a5012c7cb"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:56:01.361Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://lincoln.davis.k12.ut.us/o/lines/staff?page_no=3",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI.",
+      "reference_year": "2025-26",
+      "review_id": "304fa4df-46ae-4740-b59e-1a12565acba5",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-1228b48b3896",
+      "school_name": "Lincoln School",
+      "selected_site_id": "site-20a5d777e7dc529087a81a8a5012c7cb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-492663667bb452bbad5406d984a17cca"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:56:48.761Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://morgan.davis.k12.ut.us/o/moes/staff?page_no=2",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI.",
+      "reference_year": "2025-26",
+      "review_id": "563800af-4793-47c8-8d44-f6ab2341bbd5",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-3163b4862bd0",
+      "school_name": "Morgan School",
+      "selected_site_id": "site-492663667bb452bbad5406d984a17cca",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c2bb41f51b415d80a0dcb3191069182f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:57:25.809Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://muir.davis.k12.ut.us/o/mues/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "db02d2c2-cb34-48b8-b95d-251bfd5fa544",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-885424a4ad1c",
+      "school_name": "Muir School",
+      "selected_site_id": "site-c2bb41f51b415d80a0dcb3191069182f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-65338c31e62d55fd9424164ae07959ef"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:58:03.627Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://odyssey.davis.k12.ut.us/o/odes/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "9d28a151-de4f-4cd4-a650-88a18df3b344",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-6cad46782199",
+      "school_name": "Odyssey School",
+      "selected_site_id": "site-65338c31e62d55fd9424164ae07959ef",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-802dd3a3b9c95442b5e89f11c7e13184"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:59:02.277Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sandsprings.davis.k12.ut.us/o/sspes/staff?page_no=4",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "ca7c40be-9c9c-44da-9218-ff2f953549b0",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-0652b31a0de9",
+      "school_name": "Sand Springs School",
+      "selected_site_id": "site-802dd3a3b9c95442b5e89f11c7e13184",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 27,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/27",
+    "received_at": "2026-11-07T22:01:22.107578+00:00",
+    "submitted_at": "2026-11-07T22:00:49Z"
+  },
+  "version": 1
+}

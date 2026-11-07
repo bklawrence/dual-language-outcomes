@@ -93,6 +93,24 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
   }
 }
 ",,coded
+7d4a950c-0320-4f23-8410-7b98939abe4e,WP-UT-S-397035e6f2dc,2025-26,True,bklawrence,bklawrence,2026-11-07T22:01:00Z,researcher_interpretation,https://stewart.davis.k12.ut.us/o/stes/staff?page_no=2,DLI staff listed alongside non-DLI,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-3491039333c5549fa01b249c2886cfce""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+5c4d098b-b290-46b7-a8d3-e7c459f7c413,WP-UT-S-d5469a623f8f,2025-26,True,bklawrence,bklawrence,2026-11-07T22:01:00Z,researcher_interpretation,https://syracuseel.davis.k12.ut.us/o/syres/staff,DLI staff listed alongside non-DLI.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-d531966c5b955a60b4d3375e09d19302""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,2026-11-07T18:51:54Z,explicit_source_statement,https://yridge.usd116.org/346114_2,Whole school but language allocation varies depending on program.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -232,6 +250,96 @@ c0f42146-0f28-4115-a2af-6ea0d8648216,WA-S106205,2025-26,True,bklawrence,bklawren
       ""site-b0e2768b38c750bcb0c5ced872b8e0e1""
     ],
     ""value"": ""whole_school""
+  }
+}
+",,coded
+38532062-fe85-4796-9c04-e4c96bfa171d,WP-UT-S-9802b73d1311,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://www.davis.k12.ut.us/o/bpes/staff,DLI staff listed explicitly.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-de0e2a615a355f7aa85668a9dee3aa62""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+6a526973-1c85-4faa-b09b-f6b968b8dcb8,WP-UT-S-2db94f7d400a,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://canyoncreek.davis.k12.ut.us/o/cces/staff,DLI staff listed alongside other staff.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ba11ddb4b0b15084bce1b6152f6ca2c6""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+9e73e31b-622d-48fe-bb7c-21c856fd19ec,WP-UT-S-096c7686aa7b,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://eaglebay.davis.k12.ut.us/o/ebe/staff,DLI staff listed alongside other staff.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-a0d864c3145156739ee6f9963d5b1b6e""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+b68324aa-3516-46aa-a0e9-7bf31417ef94,WP-UT-S-3ea571ea149e,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://foxboro.davis.k12.ut.us/o/foxes/page/french-immersion-information,"Other schools are strands and this one looks small. No staff page, though.",,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-18739f8c43f3571f9c0e0acaffdb481a""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+0aab9795-6860-4d86-9da3-92fb16ab5a2e,WP-UT-S-26cd0e0ff65c,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://heritage.davis.k12.ut.us/o/hees/staff?page_no=2,DLI staff listed alongside non-DLI staff.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-3d96ac7315ef5f708df7d62a8ea6d140""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+304fa4df-46ae-4740-b59e-1a12565acba5,WP-UT-S-1228b48b3896,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://lincoln.davis.k12.ut.us/o/lines/staff?page_no=3,DLI staff listed alongside non-DLI.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-20a5d777e7dc529087a81a8a5012c7cb""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+563800af-4793-47c8-8d44-f6ab2341bbd5,WP-UT-S-3163b4862bd0,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://morgan.davis.k12.ut.us/o/moes/staff?page_no=2,DLI staff listed alongside non-DLI.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-492663667bb452bbad5406d984a17cca""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+db02d2c2-cb34-48b8-b95d-251bfd5fa544,WP-UT-S-885424a4ad1c,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://muir.davis.k12.ut.us/o/mues/staff,DLI staff listed alongside non-DLI,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-c2bb41f51b415d80a0dcb3191069182f""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+9d28a151-de4f-4cd4-a650-88a18df3b344,WP-UT-S-6cad46782199,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://odyssey.davis.k12.ut.us/o/odes/staff,DLI staff listed alongside non-DLI,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-65338c31e62d55fd9424164ae07959ef""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+ca7c40be-9c9c-44da-9218-ff2f953549b0,WP-UT-S-0652b31a0de9,2025-26,True,bklawrence,bklawrence,2026-11-07T22:00:49Z,researcher_interpretation,https://sandsprings.davis.k12.ut.us/o/sspes/staff?page_no=4,DLI staff listed alongside non-DLI,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-802dd3a3b9c95442b5e89f11c7e13184""
+    ],
+    ""value"": ""strand""
   }
 }
 ",,coded

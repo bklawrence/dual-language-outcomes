@@ -1,0 +1,66 @@
+{
+  "batch_id": "837d892c-abd5-4a99-ad6e-1e5927d6ddc7",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3491039333c5549fa01b249c2886cfce"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T21:59:47.493Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://stewart.davis.k12.ut.us/o/stes/staff?page_no=2",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "7d4a950c-0320-4f23-8410-7b98939abe4e",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-397035e6f2dc",
+      "school_name": "Stewart School",
+      "selected_site_id": "site-3491039333c5549fa01b249c2886cfce",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-d531966c5b955a60b4d3375e09d19302"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T22:00:37.193Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://syracuseel.davis.k12.ut.us/o/syres/staff",
+      "grade_scope": "",
+      "notes": "DLI staff listed alongside non-DLI.",
+      "reference_year": "2025-26",
+      "review_id": "5c4d098b-b290-46b7-a8d3-e7c459f7c413",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-d5469a623f8f",
+      "school_name": "Syracuse School",
+      "selected_site_id": "site-d531966c5b955a60b4d3375e09d19302",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 28,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/28",
+    "received_at": "2026-11-07T22:01:21.189067+00:00",
+    "submitted_at": "2026-11-07T22:01:00Z"
+  },
+  "version": 1
+}
