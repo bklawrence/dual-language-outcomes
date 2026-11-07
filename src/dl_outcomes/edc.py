@@ -19,6 +19,7 @@ import unicodedata
 
 from .collectors.edc import ATTRIBUTION, IDENTITY_FIELDS, SUBJECTS, VERSION, YEARS, sha256_file
 from .io import digest, read_csv, record_id, write_csv
+from .collection_provenance import ARCHIVES, pinned_dependency
 
 COLLECTION = "data/assessments/edc_v3_1_2022_2025"
 BASELINE = "data/baselines/national_structural_v1"
@@ -581,7 +582,7 @@ def finalize(root, collection=None):
              root / "config/edc_district_identity_reviews.csv"]
     paths.extend((root / "data/raw").glob("**/*ccd*.json"))
     manifest["inputs"] = {str(p.relative_to(root)): sha256_file(p) for p in sorted(set(paths)) if p.is_file()}
-    manifest["pipeline_files"] = {p: digest(root / p) for p in ["src/dl_outcomes/edc.py", "src/dl_outcomes/collectors/edc.py", "src/dl_outcomes/io.py"]}
+    manifest["pipeline_files"] = {p: digest(root / p) for p in ["src/dl_outcomes/edc.py", "src/dl_outcomes/collectors/edc.py", "src/dl_outcomes/io.py", "src/dl_outcomes/collection_provenance.py"]}
     manifest["files"] = {str(p.relative_to(base)): sha256_file(p) for p in sorted(base.rglob("*")) if p.is_file() and p != path}
     path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
     return manifest
@@ -651,11 +652,9 @@ def check(root, collection=None, *, reproduce=False):
         if not (base / rel).is_file() or sha256_file(base / rel) != expected:
             raise ValueError("EDC collection file changed: " + rel)
     for rel, expected in manifest["inputs"].items():
-        if not (root / rel).is_file() or sha256_file(root / rel) != expected:
-            raise ValueError("EDC input evidence changed: " + rel)
+        pinned_dependency(root, base, 'input', rel, expected)
     for rel, expected in manifest.get("pipeline_files", {}).items():
-        if sha256_file(root / rel) != expected:
-            raise ValueError("EDC pipeline changed: " + rel)
+        pinned_dependency(root, base, 'pipeline', rel, expected)
     targets = read_csv(base / "targets.csv")
     matches = read_csv(base / "school_matches.csv")
     target_ids = {r["school_id"] for r in targets}
@@ -712,8 +711,14 @@ def register(build):
     build.track_input(base / "manifest.json")
     for rel in manifest["files"]:
         build.track_input(base / rel)
-    for rel in manifest["inputs"]:
-        build.track_input(rel)
+    # The collection is immutable while live structural evidence may evolve.
+    # Track the exact old inputs/code, not a mutable canonical output path.
+    for kind, section in [('input', 'inputs'), ('pipeline', 'pipeline_files')]:
+        for rel, expected in manifest.get(section, {}).items():
+            path = pinned_dependency(build.root, base, kind, rel, expected)
+            build.track_input(path)
+            if path != build.root / rel:
+                build.track_input(ARCHIVES)
     dataset = build.dataset("EDC_SADR_V3_1_SCHOOL_GRADES", None, "state_assessments",
                             "EDC v3.1 school/grade ELA and math with demographic subgroups, spring 2022–2025",
                             "https://www.eddatacenter.org/data", publisher="Education Data Center / NCCI",

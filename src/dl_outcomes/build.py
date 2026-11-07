@@ -180,6 +180,12 @@ class Build:
         if (self.root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists():
             from .gap_pilot import migrate as apply_gap_pilot
             apply_gap_pilot(self)
+        if (self.root/'config/research_migrations/delivery_scope_cleanup_2026_11_06.json').exists():
+            from .delivery_review import migrate as review_delivery
+            review_delivery(self)
+        if (self.root/'config/hand_coding.json').exists():
+            from .hand_coding import migrate as apply_hand_coding
+            apply_hand_coding(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue

@@ -1,0 +1,118 @@
+name: Fieldnotes website and hand-coded reviews
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'review-app/**'
+      - 'src/dl_outcomes/**'
+      - 'config/**'
+      - 'data/registry/hand_coded_reviews/**'
+      - '.github/workflows/fieldnotes.yml'
+  issues:
+    types: [opened, reopened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fieldnotes-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, '[DL Review]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: review-app/package-lock.json
+      - name: Install validation tools
+        run: |
+          python -m pip install -r requirements-lock.txt
+          python -m pip install --no-deps -e .
+      - name: Collect all queued, authorized research batches
+        id: accept
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Issues are the durable queue: a coalesced workflow still collects
+        # every open submission, including a superseded pending run's batch.
+        run: python -m dl_outcomes.review_site collect-issues --result "$RUNNER_TEMP/fieldnotes-intake.json"
+      - name: Build and validate the dataset offline
+        run: |
+          dl-outcomes build > "$RUNNER_TEMP/fieldnotes-build.json"
+          python -m unittest discover -s tests -p 'test_hand_coding.py' -v
+      - name: Prepare the website
+        run: |
+          python -m dl_outcomes.review_site export
+          npm --prefix review-app ci --no-audit --no-fund
+          npm --prefix review-app run test
+          npm --prefix review-app run build
+      - name: Check the website in a browser
+        if: github.event_name != 'issues'
+        working-directory: review-app
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:browser
+      - name: Save the coding journal and derived dataset together
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/registry/hand_coded_reviews data/curated data/reports
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update dataset from validated Fieldnotes reviews'
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: review-app/dist
+      - name: Acknowledge an applied batch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const intake = JSON.parse(fs.readFileSync(`${process.env.RUNNER_TEMP}/fieldnotes-intake.json`, 'utf8'));
+            const {data: ref} = await github.rest.git.getRef({...context.repo, ref: 'heads/main'});
+            for (const entry of intake.accepted) {
+              await github.rest.issues.createComment({...context.repo, issue_number: entry.issue_number,
+                body: `Your authorized review batch was validated and added to the dataset. Each decision retains its hand-coded provenance, source and reviewed year.\n\n[Dataset commit](https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${ref.object.sha}) · [Return to Fieldnotes](https://${context.repo.owner}.github.io/${context.repo.repo}/)\n\nThe website refresh follows this build; use **Check publishing status** after it finishes.`});
+              await github.rest.issues.update({...context.repo, issue_number: entry.issue_number, state: 'closed', state_reason: 'completed'});
+            }
+            for (const entry of intake.rejected) {
+              await github.rest.issues.createComment({...context.repo, issue_number: entry.issue_number,
+                body: `This submission was not applied. ${entry.reason}\n\nYour local reviews remain in Fieldnotes. An authorized reviewer can correct the submission and reopen this issue.`});
+              await github.rest.issues.update({...context.repo, issue_number: entry.issue_number, state: 'closed', state_reason: 'not_planned'});
+            }
+      - name: Explain a rejected or failed submission
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({...context.repo, issue_number: context.issue.number,
+              body: `This batch could not be completed. No unvalidated coding is applied to the dataset. Your local reviews remain in Fieldnotes. An authorized researcher can inspect the [validation run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}), correct the submission, or reopen this issue to retry.`});
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish Fieldnotes
+        id: deployment
+        uses: actions/deploy-pages@v4

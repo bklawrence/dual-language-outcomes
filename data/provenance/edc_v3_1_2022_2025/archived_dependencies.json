@@ -1,0 +1,27 @@
+{
+  "collection_manifest_path": "data/assessments/edc_v3_1_2022_2025/manifest.json",
+  "collection_manifest_sha256": "d057802892984c93f83ed30e78cc6af7b5431559102b9d42d587a36db28cc885",
+  "reason": "Preserve the exact originally pinned structural input and collection pipeline while live delivery evidence evolves. Assessment manifests, native rows, normalized observations and identity matches are unchanged.",
+  "dependencies": [
+    {
+      "kind": "input",
+      "original_path": "data/curated/sources/evidence_claims.csv",
+      "original_sha256": "1ce0d354c6c08923c2f08584bb8cd270d4d8ce808649e3c23a884a74128133fc",
+      "archive_path": "data/provenance/edc_v3_1_2022_2025/evidence_claims.csv.gz",
+      "archive_sha256": "24db60ceca814f48c4f3a02dbea7d3cf2dfd4c8e0cbb173963069934b7645b67",
+      "compression": "gzip",
+      "bytes_uncompressed": 29509634,
+      "bytes_archived": 6464536
+    },
+    {
+      "kind": "pipeline",
+      "original_path": "src/dl_outcomes/edc.py",
+      "original_sha256": "5f94a55e3f3e25d1e0a0f763d72f41970b42b4fabdf7f8382009cd3caead4127",
+      "archive_path": "data/provenance/edc_v3_1_2022_2025/edc_original.py.gz",
+      "archive_sha256": "a116511cd918b84fd08b7c344fc6b81dcb6d231294d2c47fffe71fdf9291e188",
+      "compression": "gzip",
+      "bytes_uncompressed": 51435,
+      "bytes_archived": 14080
+    }
+  ]
+}

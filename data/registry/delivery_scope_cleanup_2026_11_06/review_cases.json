@@ -1,0 +1,104 @@
+[
+  {
+    "case_id": "tx_dallas_scope",
+    "state": "TX",
+    "district": "Dallas ISD",
+    "source_keys": [
+      "dallas_eval24"
+    ],
+    "issue": "District evaluation describes OWDL/TWDL and parent-denial/ESL placements, but does not map parallel English-only classrooms to each target campus.",
+    "decision": "Keep campus delivery unresolved absent direct named-campus evidence.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "tx_fort_worth_scope",
+    "state": "TX",
+    "district": "Fort Worth ISD",
+    "source_keys": [
+      "fw_booklet24"
+    ],
+    "issue": "Programme options and comparisons with general education do not identify the delivery structure of every DL campus. Contreras has its own explicit parallel-programme statement.",
+    "decision": "Use campus-specific evidence; do not apply Contreras to all district schools.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "fl_palm_beach_mixed",
+    "state": "FL",
+    "district": "Palm Beach County",
+    "source_keys": [
+      "cal_pb",
+      "pb_choice26"
+    ],
+    "issue": "The CAL district entry checks both Strand within School and Whole School. The choice guide differentiates choice schools and in-house options without a DL delivery crosswalk.",
+    "decision": "Keep unresolved campuses; do not flatten the mixed district into one delivery model.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "ga_gcps_voluntary",
+    "state": "GA",
+    "district": "Gwinnett County",
+    "source_keys": [
+      "gcps_guidelines26"
+    ],
+    "issue": "The application and limited-space policy documents voluntary DL participation but does not establish parallel non-DL classes at every campus.",
+    "decision": "Lottery or voluntary admission alone does not establish strand delivery.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "ut_davis_choice",
+    "state": "UT",
+    "district": "Davis",
+    "source_keys": [
+      "davis_disclosure"
+    ],
+    "issue": "Application and disclosure form documents programme entry, not the proportion of the campus receiving DL.",
+    "decision": "Retain allocation data without assigning delivery from the application process.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "wa_pasco_allocation",
+    "state": "WA",
+    "district": "Pasco",
+    "source_keys": [
+      "pasco_dual"
+    ],
+    "issue": "Published DL language ratios and generic comparisons with English-only programmes do not identify the enrolled campus-wide participation share.",
+    "decision": "Keep campus delivery unresolved.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "wi_frantney_scope",
+    "state": "WI",
+    "district": "Milwaukee",
+    "source_keys": [
+      "mps_frantney_about"
+    ],
+    "issue": "An immersion/bilingual school description and programme history do not explicitly establish whether all current classrooms participate.",
+    "decision": "Keep unresolved rather than classify from the school name.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "tx_saisd_varies",
+    "state": "TX",
+    "district": "San Antonio ISD",
+    "source_keys": [
+      "saisd_utsa_models",
+      "bonham_programs",
+      "saisd_daylife"
+    ],
+    "issue": "Partner material explicitly allows strand programmes alongside monolingual classrooms. The all-classroom statement names Twain and Irving, while Bonham distinguishes regular and DL pupils.",
+    "decision": "Use named-campus scope; do not classify every SAISD academy as whole-school.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  },
+  {
+    "case_id": "il_agc_history",
+    "state": "IL",
+    "district": "Chicago",
+    "source_keys": [
+      "agc_dual"
+    ],
+    "issue": "Current all-student DL page differs from the provisional strand observation in the 2021-22 user inventory.",
+    "decision": "Resolve current selection only; preserve history and leave transition date unestablished.",
+    "status": "resolved_scope_rule_with_remaining_campus_research"
+  }
+]

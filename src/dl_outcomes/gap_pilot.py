@@ -26,6 +26,9 @@ def add_scope(build, fact, table, ids, source):
         site_id=fact['site_id'], program_id=fact['program_id'], school_id=fact['school_id'],
         earliest_reviewed_selection_year=fact['earliest_reviewed_selection_year'],
         interpretation='Reference-use bound, not a source date or a policy start date.')
+    if fact.get('latest_reviewed_selection_year'):
+        value['latest_reviewed_selection_year']=fact['latest_reviewed_selection_year']
+        value['interpretation']+=' The upper review bound does not establish a programme or policy end date.'
     entity, key = ('program', fact['program_id']) if fact['program_id'] else ('school', fact['school_id'])
     build.claim(entity, key, RECORD_SCOPE, json_text(value), source,
         fact['fact_id'] + ':reference_scope', year=fact['reference_year'],

@@ -9,7 +9,7 @@ import re
 
 from .elementary_audit import elementary_scope, elementary_span, numeric_model
 from .policy_selection import current_policy_choices
-from .evidence_scope import reference_bounds, scoped_row
+from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
 
 MISSING = {'', 'unknown', 'not_reported', 'not reported', 'none', 'n/a', '.', 'other'}
 REJECTED_GRADE = {'SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD', 'UNRECOVERED',
@@ -69,7 +69,7 @@ def eligible_value(row, field):
 
 
 def select_rows(rows, year, *, override_ids=()):
-    usable = [r for r in rows if not later_period_mention(r, year)]
+    usable = [r for r in rows if not later_period_mention(r, year) and within_reviewed_reference(r, year)]
     if override_ids:
         selected = [r for r in usable if r['_id'] in override_ids]
         if {r['_id'] for r in selected} != set(override_ids):
@@ -91,6 +91,8 @@ def select_rows(rows, year, *, override_ids=()):
         timing = 'undated_not_an_annual_observation'
     elif earlier:
         timing = 'earlier_source_not_an_annual_observation'
+    elif rows and any(r.get('_latest_reviewed_selection_year','9999-99')<year for r in rows):
+        timing = 'outside_reviewed_reference_window'
     elif rows:
         timing = 'later_only'
     else:
@@ -158,8 +160,9 @@ class Selection:
         self.allocation_claims = {}
         self.shares = defaultdict(list)
         scopes = reference_bounds(tables)
+        ceilings = reference_bounds(tables, latest=True)
         def scoped(table, key, row):
-            return scoped_row(table,key,row,scopes)
+            return scoped_row(table,key,row,scopes,ceilings)
         for table, index, key in [('program_configurations', self.configs, 'configuration_id'),
                                   ('program_languages', self.languages, 'language_record_id'),
                                   ('program_status_history', self.statuses, 'status_id'),
@@ -195,6 +198,10 @@ class Selection:
                 if key in self.overrides and set(self.overrides[key]['evidence_ids']) != set(review['evidence_ids']):
                     raise ValueError('Conflicting explicit field adjudications')
                 self.overrides[key] = review
+        from .hand_coding import selection_overrides
+        # Manual decisions explicitly select a field for a reference year.
+        # Retain prior machine/researcher observations and all previous reviews.
+        self.overrides.update(selection_overrides(tables))
         self.policy_cache = {}
 
     def policy_choices(self, year):
@@ -273,7 +280,7 @@ class Selection:
         selected, timing = select_rows(rows, year, override_ids=override.get('evidence_ids', ()))
         values = sorted({r['_value'] for r in selected})
         if not selected:
-            status = 'later_only' if rows else 'not_reported'
+            status = 'later_only' if rows and timing!='outside_reviewed_reference_window' else 'not_reported'
         elif variable in {'population_model', 'delivery_structure'} and len(values) > 1:
             status = 'conflicting'
         elif any(r['verification_status'] in {'provisional', 'unverified', 'district_policy_only'} for r in selected):
@@ -298,7 +305,8 @@ class Selection:
         evidence = []
         chosen = {r['_id'] for r in selected}
         for r in sorted(candidates, key=lambda r: (r['_table'], r['_id'])):
-            role = 'selected' if r['_id'] in chosen else 'excluded_later' if later_period_mention(r, year) else 'not_selected'
+            role = ('selected' if r['_id'] in chosen else 'excluded_later' if later_period_mention(r, year)
+                    else 'excluded_outside_reference_window' if not within_reviewed_reference(r,year) else 'not_selected')
             evidence.append(dict(site_id=site['site_id'], selection_year=year, variable=variable,
                 evidence_table=r['_table'], evidence_record_id=r['_id'], selection_role=role,
                 value_json=packed(r.get('_value')), source_school_year=evidence_year(r),

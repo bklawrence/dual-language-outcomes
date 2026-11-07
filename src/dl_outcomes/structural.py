@@ -399,6 +399,19 @@ def generate_report(root, *, check=False):
         audit['structural_gaps_pilot']=new_summary
         audit['preserved_prior_report_versions']=aliases
         audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
+    if (root/'config/research_migrations/delivery_scope_cleanup_2026_11_06.json').exists():
+        from .delivery_review import render_reports as delivery_reports, revise_report_paths as delivery_paths
+        new_contents,new_summary=delivery_reports(root,tables)
+        contents.update(new_contents)
+        contents,aliases=delivery_paths(root,contents)
+        audit['delivery_scope_cleanup']=new_summary
+        audit['delivery_review_preserved_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
+    if (root/'config/hand_coding.json').exists():
+        from .hand_coding import revise_report_paths as manual_paths
+        contents,aliases=manual_paths(root,contents,tables)
+        audit['hand_coding_preserved_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

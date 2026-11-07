@@ -197,6 +197,7 @@ def numeric_model(label):
 def report_rows(tables):
     from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
     bounds=reference_bounds(tables)
+    ceilings=reference_bounds(tables,latest=True)
     choices_by_year = {}
     k_details,_,_ = k_report(tables)
     current_sites = {r['site_id'] for r in k_details if r['in_reference_working_set']}
@@ -208,9 +209,9 @@ def report_rows(tables):
     contexts = {}
     plans = defaultdict(list)
     for row in tables['instructional_allocations']:plans[row['schedule_id']].append(row)
-    for row in tables['program_configurations']:configs[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds))
+    for row in tables['program_configurations']:configs[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds,ceilings))
     for row in tables['program_sites']:sites_by_school[row['school_id']].append(row)
-    for row in tables['allocation_schedules']:schedules[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds))
+    for row in tables['allocation_schedules']:schedules[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds,ceilings))
     for row in tables['evidence_claims']:
         if row['attribute']=='elementary_audit_school_grade_context':
             contexts[row['entity_id']] = (row,json.loads(row['reported_value']))

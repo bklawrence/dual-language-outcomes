@@ -111,16 +111,17 @@ def merge_eligibility(values):
 def report_rows(tables):
     from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
     bounds=reference_bounds(tables)
+    ceilings=reference_bounds(tables,latest=True)
     schools = {r['school_id']: r for r in tables['schools']}
     programs = {r['program_id']: r for r in tables['programs']}
     configurations, statuses, allocations = [defaultdict(list) for _ in range(3)]
     directory = {}
     for row in tables['program_configurations']:
-        configurations[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds))
+        configurations[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds,ceilings))
     for row in tables['program_status_history']:
         statuses[row['site_id']].append(row)
     for row in tables['allocation_schedules']:
-        allocations[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds))
+        allocations[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds,ceilings))
     for row in tables['evidence_claims']:
         if row['attribute'] == 'campus_grade_range_context':
             directory[row['entity_id']] = row
