@@ -1,0 +1,20 @@
+{
+  "elementary_school_ids": 27,
+  "secondary_school_ids": 13,
+  "markers_all_levels": {
+    "unmarked_on_source": 15,
+    "in_house_program": 14,
+    "full_choice_program": 11
+  },
+  "markers_elementary": {
+    "unmarked_on_source": 10,
+    "in_house_program": 11,
+    "full_choice_program": 6
+  },
+  "canonical_delivery_updates": 0,
+  "interpretation": "Admissions access and campus DL participation are distinct variables; neither marker is converted into whole_school or strand.",
+  "source_header_elementary_count": 24,
+  "source_list_elementary_count": 27,
+  "requested_boarddocs_url": "https://go.boarddocs.com/fl/palmbeach/Board.nsf/files/C2GRYE6F9A4F/$file/Choice%20Schools%20and%20Programs%20Procedures%20Manual%20for%20Policy%205.16.pdf",
+  "requested_boarddocs_access": "HTTP 403; content not claimed reviewed; current manual obtained through district FAQ instead."
+}

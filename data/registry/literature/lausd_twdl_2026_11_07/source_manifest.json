@@ -1,0 +1,57 @@
+{
+  "research_package": "lausd_twdl_2026_11_07",
+  "created_at": "2026-11-07T15:39:06.743504+00:00",
+  "status": "extracted_study_cohort_aggregates_and_research_leads",
+  "layer": "dl_participants",
+  "observation_unit": "unnamed_LAUSD_elementary_TWDL_study_cohort",
+  "source_article": {
+    "title": "Two-Way Dual Language Immersion Programs Within LAUSD Elementary Schools: Who Do They Enroll?",
+    "doi": "10.3102/0013189X261493743",
+    "url": "https://doi.org/10.3102/0013189X261493743"
+  },
+  "source_artifact": {
+    "path": "data/raw/literature/lausd_twdl_2026_11_07/sj-docx-1-edr-10.3102_0013189x261493743.docx",
+    "sha256": "e6c0db01542db4313ce38088ec6358709f8b74a1204393a794d2992dbc5b6996",
+    "acquisition_method": "user_supplied_publisher_supplement",
+    "publisher_bytes_independently_verified": false
+  },
+  "reported_school_count": 144,
+  "school_identifiers_supplied": false,
+  "school_years": [
+    "2019-20",
+    "2020-21",
+    "2021-22"
+  ],
+  "inventory_snapshot": {
+    "path": "data/registry/literature/lausd_twdl_2026_11_07/lausd_elementary_inventory_snapshot.csv",
+    "source_path": "data/reports/hand_coding/current/programs.csv",
+    "source_sha256": "001f6315a2e1e7c141adebe95ead4ed8093ffc87128471d6e79634a14ffad031",
+    "reference_year": "2025-26",
+    "git_revision": "26744d1b9fb705a1838481adb99cc88b95b0be11",
+    "program_records": 165,
+    "school_identities": 152
+  },
+  "candidate_match_method": "shared_partner_language_combination_only; does_not_establish_study_membership_or_delivery_model",
+  "updates_to_canonical_school_classifications": 0,
+  "related_sources": [
+    {
+      "url": "https://files.eric.ed.gov/fulltext/EJ1494736.pdf",
+      "role": "2025 companion article; Open Practices links replication deposit"
+    },
+    {
+      "url": "https://doi.org/10.3886/E211701V1",
+      "role": "public replication-file listing; file download requires ICPSR sign-in; files not retrieved"
+    },
+    {
+      "url": "https://edworkingpapers.com/sites/default/files/ai26-1491.pdf",
+      "role": "related 2026 working paper; restricted student-level LAUSD/CORE analysis; separate study and sample"
+    }
+  ],
+  "files": {
+    "data/raw/literature/lausd_twdl_2026_11_07/sj-docx-1-edr-10.3102_0013189x261493743.docx": "e6c0db01542db4313ce38088ec6358709f8b74a1204393a794d2992dbc5b6996",
+    "data/registry/literature/lausd_twdl_2026_11_07/lausd_elementary_inventory_snapshot.csv": "02636a6d361f8e6dfed98b6db8a98fe761b445cc7211b343c6b115aba8b747c2",
+    "data/registry/literature/lausd_twdl_2026_11_07/lausd_language_combination_candidates.csv": "d62392fbb6d4df07cc2bbb37f3a5cb6e0302fc19a485b2067fe1b714240e5d10",
+    "data/registry/literature/lausd_twdl_2026_11_07/lausd_supplement_tables.csv": "2bc323b6f168ea0dba2a334e7fa0aeb8bb216a072ded60d5e2570a5ce010b6eb",
+    "data/registry/literature/lausd_twdl_2026_11_07/extraction_summary.json": "11247f7f01603c2814a680c0192f35d914e62105625af72a71414e686e6bf1f4"
+  }
+}

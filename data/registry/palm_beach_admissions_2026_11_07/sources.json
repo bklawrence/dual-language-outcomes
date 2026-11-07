@@ -1,0 +1,92 @@
+[
+  {
+    "key": "district-dl",
+    "url": "https://www.palmbeachschools.org/studentsparents/esol-english-for-speakers-of-other-languages/dual-language-two-way-immersion-programs",
+    "role": "program roster and marker legend",
+    "period": "undated",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/district-dl.html",
+    "sha256": "4b88efb8cfd03ec99838a5419e2221cf15fd995b1fd1d4c25b7c0ddd7fe9a851",
+    "archived_at": "2026-11-07T15:43:57.655103+00:00"
+  },
+  {
+    "key": "manual-2026",
+    "url": "https://resources.finalsite.net/images/v1786538950/palmbeachschoolsorg/xzv87k9lekz8mafkodlo/ChoiceProceduresManualUpdated2026.pdf",
+    "role": "choice-program definitions, Section 3.1, PDF pages 7-8",
+    "period": "adopted July 15, 2026; no backdating to 2025-26",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/manual-2026.pdf",
+    "sha256": "5f663067c9613a63e57b8886a86b457788f3bfcbc874bc35b0f3af27e8e81b53",
+    "archived_at": "2026-11-07T15:43:57.657961+00:00"
+  },
+  {
+    "key": "faq",
+    "url": "https://www.palmbeachschools.org/studentsparents/school-choice/applying-to-a-choice-program/faq",
+    "role": "choice procedures and link to current manual",
+    "period": "undated/current",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/faq.html",
+    "sha256": "cb60b4cc700d32f60881b0f37c5ad8acf8572c9ffa13e986ac15ec1be212c441",
+    "archived_at": "2026-11-07T15:43:57.658842+00:00"
+  },
+  {
+    "key": "gove-program",
+    "url": "https://goves.palmbeachschools.org/school-information/spanish-dual-language",
+    "role": "campus program description; does not establish all-student DL participation",
+    "period": "undated",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/gove-program.html",
+    "sha256": "3bd4e1475108b1fd6845c5f1c214dd21d612d9d1c9bf4e92292d46b0a846d52b",
+    "archived_at": "2026-11-07T15:43:57.659284+00:00"
+  },
+  {
+    "key": "hagen-program",
+    "url": "https://hres.palmbeachschools.org/school-information/choice-program",
+    "role": "campus program description; does not establish all-student DL participation",
+    "period": "undated",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/hagen-program.html",
+    "sha256": "66db69b52230618c165d9b6682ec66c004888b4d9ff071b31a529a94215cdd91",
+    "archived_at": "2026-11-07T15:43:57.659724+00:00"
+  },
+  {
+    "key": "horizons-program",
+    "url": "https://nhes.palmbeachschools.org/school-information/choice-and-in-house-programs",
+    "role": "ISA and STEAM descriptions; separate names do not establish that academic pathways are mutually exclusive",
+    "period": "undated",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/horizons-program.html",
+    "sha256": "9c9a036559e39d774773fb7a801456e0ff1006d552de3d3b6ee2a81c99153e91",
+    "archived_at": "2026-11-07T15:43:57.660006+00:00"
+  },
+  {
+    "key": "north-grade-program",
+    "url": "https://nges.palmbeachschools.org/school-information/choice-program-spanish-dual-language",
+    "role": "K-5 DL and 6-8 Global Language Academy descriptions; does not establish elementary whole-school versus strand",
+    "period": "undated",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/north-grade-program.html",
+    "sha256": "1c46864498d4b32bd39af08408ac61c2aebefc27c0caf6ac5daf29bb5e1ec9e9",
+    "archived_at": "2026-11-07T15:43:57.660280+00:00"
+  },
+  {
+    "key": "elementary-guidelines",
+    "url": "https://resources.finalsite.net/images/v1780942094/palmbeachschoolsorg/qzlfhj0tiunkp9myysz6/ElementaryGuidelinesforSpanishDualLanguagePrograms-English.pdf",
+    "role": "current program guidelines; context only",
+    "period": "copyright 2026",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/elementary-guidelines.pdf",
+    "sha256": "cd38bcbd158fbe0c32b62da9d8dc488ce8bafc14a7893ea009d4ada668509c78",
+    "archived_at": "2026-11-07T15:43:57.661649+00:00"
+  },
+  {
+    "key": "creole-guidelines",
+    "url": "https://resources.finalsite.net/images/v1752674292/palmbeachschoolsorg/hoty2p0lmepvq5opb4aa/HaitianCreoleDualLanguageGuidelines2.pdf",
+    "role": "Haitian Creole program guidelines; context only",
+    "period": "copyright 2025",
+    "path": "data/raw/palm_beach_admissions_2026_11_07/creole-guidelines.pdf",
+    "sha256": "785cebe0a04bd375aba5a984e11efa2861da1de6d236bd7dbe644de9ce277359",
+    "archived_at": "2026-11-07T15:43:57.662303+00:00"
+  },
+  {
+    "key": "choice-booklet-2025-26",
+    "url": "https://resources.finalsite.net/images/v1746639364/palmbeachschoolsorg/ktwk4oomllpzewk2iiy4/2025-2026ChoiceBooklet-English.pdf",
+    "path": "data/raw/delivery_scope_cleanup_2026_11_06/pb_choice26.pdf",
+    "sha256": "97947e5d7d242b7f04d6e7d86740075e0ebdf6a2c90d8afadde85c1326a2da7d",
+    "role": "2025-26 in-house/choice admissions definitions and full-choice-school list; printed pages 1 and 3 (PDF pages 8 and 10)",
+    "period": "2025-26",
+    "reused_existing_archive": true
+  }
+]
