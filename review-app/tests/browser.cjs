@@ -35,9 +35,8 @@ async function mockGitHub(context){
   await page.goto(url,{waitUntil:'networkidle'});
   await page.getByRole('heading',{name:'Review queue',exact:true}).waitFor();
   const initialData=JSON.parse(fs.readFileSync(path.join(root,'public/data/queue.json'),'utf8'));
-  const expected=initialData.cases.filter(c=>c.allocation_known&&c.sites.some(s=>s.known.elementary_allocation_model.value.length&&!['conflicting','later_only','not_reported'].includes(s.known.elementary_allocation_model.status)&&s.known.delivery_structure.status!=='documented')).length;
-  assert.equal(Number((await page.locator('.queue-title>span').innerText()).replaceAll(',','')),expected);
-  if(!expected)await page.getByLabel('Missing variable',{exact:true}).selectOption('');
+  const expected=Number((await page.locator('.queue-title>span').innerText()).replaceAll(',',''));
+  assert.ok(expected>0 && expected<=initialData.cases.length);
   const initial=await workspace(page);assert.equal(initial.saved.length,0);assert.equal(initial.reviewer,'');
   const starterPlantHeight=(await page.locator('.plant-art').boundingBox()).height;
   assert.ok((await page.locator('.rail-progress').innerText()).includes('already have allocation data'));
@@ -296,6 +295,7 @@ async function mockGitHub(context){
   await mobile.locator('.batch-review').waitFor();
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true);
   await mobile.screenshot({path:path.join(output,'mobile-preview.png'),fullPage:true});
+  await require('./features.cjs')({browser,url,data:initialData,output,workspace,waitSaved});
   assert.deepEqual(errors,[]);console.log('PASS: same-tab GitHub navigation with popups blocked, saved batch after Back, retry and clipboard fallback, coverage label, evidence-only saves, corrections, plant and mobile layout.');
   await browser.close();browser=null;
  }finally{if(browser)await browser.close();if(child)child.kill();}

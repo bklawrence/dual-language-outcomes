@@ -1,4 +1,4 @@
-review_id,school_id,reference_year,hand_coded,reviewer,github_actor,submitted_at,coding_method,evidence_url,notes,source_quote,changes_json,disposition
+review_id,school_id,reference_year,hand_coded,reviewer,github_actor,submitted_at,coding_method,evidence_url,notes,source_quote,changes_json,program_event_json,disposition
 ca19608e-a4dc-402e-bd64-7c24485fa5a9,M6-CT-S-3af6e30ccd67,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,researcher_interpretation,https://www.dwightbellizziacademy.org/o/dwightbellizzi/page/about-us,"It calls itself a language academy and is described as a magnet school, so there is evidence it is a whole school. It began in 2023.",,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -7,7 +7,7 @@ ca19608e-a4dc-402e-bd64-7c24485fa5a9,M6-CT-S-3af6e30ccd67,2025-26,True,bklawrenc
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 e29c7073-f8d9-43d8-aeff-3ff965e1cc42,SE-FL-S-5c03ff381320,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,explicit_source_statement,https://resources.finalsite.net/images/v1738684970/palmbeachschoolsorg/uofwawqcva2wci4dnlar/BartonES_FY25SWPSummary.pdf,This document describes the program as new and a strand within the school.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -16,9 +16,9 @@ e29c7073-f8d9-43d8-aeff-3ff965e1cc42,SE-FL-S-5c03ff381320,2025-26,True,bklawrenc
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 5e011cba-2354-41d2-b540-e054cf6a4b15,SE-FL-S-f6398787b0ba,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,not_recorded,https://www.youtube.com/watch?v=Aiz9ubfZBFg,"This is described as a neighborhood school on YouTube, which is not really compatible with a whole school model. Still not sure.",,"{}
-",needs_review
+",,needs_review
 df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,explicit_source_statement,https://www.illinoisreportcard.com/School.aspx?source=trends&Schoolid=041012050252014,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -27,9 +27,9 @@ df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 016b079c-fef8-4fc6-8906-66b4bf462fab,SE-FL-S-ff1ffa31cd44,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,not_recorded,https://www.youtube.com/watch?v=HjLpc0APtPM&t=26s,The school is described as a language academy and describes itself as the largest DL program in the district. It explicitly states that it is supported by an exchange program from Spain. Still not sure if it is a strand or whole.,,"{}
-",needs_review
+",,needs_review
 0eda9415-cfb9-4166-81d1-06fa9d687c29,ID-S-012a3bd22d74,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.idahoreportcard.org/about-us/school?schoolId=0636,It's described on the website as the district's DL school and the school is 40%+ ELL students.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -38,7 +38,7 @@ df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 2bc55829-4ede-4936-84d3-df31f607c121,ID-S-a62f5abe92ae,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://des.tsd401.org/apps/pages/index.jsp?uREC_ID=593058&type=d&termREC_ID=&pREC_ID=staff,There are teachers listed as grade level teachers at the school who are not DL staff members.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -47,7 +47,7 @@ df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,explicit_source_statement,https://harwood.jeffersonsd251.org/wp-content/uploads/2026/09/HE-Universal-Handbook-2026-2027.pdf,"In the handbook, some staff are listed explicitly as DL teachers while others are not.",,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -56,7 +56,7 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 20ea8631-6f37-4290-9c30-1262e4eb3955,ID-S-eb30ff3d7152,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -65,7 +65,7 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 0377cdff-893f-4265-a770-04dc0306d7a0,ID-S-5c26fd257b08,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -74,7 +74,7 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 3f8931fd-bb2e-4ecf-9598-1af2a77d1f33,ID-S-5aba0472fa70,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -83,7 +83,7 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 3600a7f7-5be4-4698-9530-98c2914134b0,ID-S-906622f202d8,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.facebook.com/jeffersonJSD/,Described as DL school. Around 40% ELL students.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -92,7 +92,7 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,2026-11-07T18:51:54Z,explicit_source_statement,https://yridge.usd116.org/346114_2,Whole school but language allocation varies depending on program.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -102,7 +102,7 @@ e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 41e817cc-eef2-4ad2-b543-63405ded5f7f,GL-IL-S-5c970a51046b,2025-26,True,bklawrence,bklawrence,2026-11-07T18:51:54Z,explicit_source_statement,https://stratton.champaignschools.org/,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -111,7 +111,7 @@ e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,
     ""value"": ""strand""
   }
 }
-",coded
+",,coded
 3464c15e-2be4-4ee9-9b9e-53a8395ab497,IL-S008,2025-26,True,bklawrence,bklawrence,2026-11-07T18:51:54Z,explicit_source_statement,https://stratton.champaignschools.org/,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -120,7 +120,7 @@ e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,
     ""value"": ""whole_school""
   }
 }
-",coded
+",,coded
 0aa5c92b-3dd8-44ae-8037-34e1c259c64c,CA-S-6c7d8c22bc84,2025-26,True,Brian,bjgaines11,2026-11-07T18:16:59Z,explicit_source_statement,https://jefferson.gusd.net/enrollment,"Note: ""In addition to our traditional academic program, Jefferson Elementary offers an Armenian dual language immersion program which is open to students living in and outside Glendale Unified School District boundaries."" The language makes clear that the Armenian DL is a strand in the school and not the sole program.",,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -129,4 +129,4 @@ e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,
     ""value"": ""strand""
   }
 }
-",coded
+",,coded

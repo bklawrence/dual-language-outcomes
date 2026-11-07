@@ -72,8 +72,40 @@ The sidebar's delivery-model coverage counts schools with a documented whole
 school, strand, or mixed classification within the allocation-known review
 cohort. Every school in that denominator already has allocation data.
 
+The active queue omits schools whose relevant elementary program records all
+have allocation and delivery values. A recorded interpretation counts as filled
+for this purpose while retaining its provisional evidence status. Conflicting,
+later-only and unreported values do not complete a case. Secondary-only records
+do not require an elementary allocation. Completed schools stay available when
+editing personal review history.
+Every browser reads the shared published inventory on load, when returning to
+the tab, and every two minutes while visible. Publication therefore removes
+completed cases for other researchers too; browser-only drafts are not shared.
+
+**Program operating status** records a cited, dated finding that a program ended,
+moved, or is operating/reopened. Its scope defaults to the selected program;
+an explicit checkbox applies it across a multi-program campus. Ended and moved
+programs leave the active queue from the first supported school year onward.
+Earlier history is retained. A move can link an exact inventory destination or
+keep an unmatched name and URL, without creating a new program or assigning
+structural values to the destination. These findings are exported in
+`data/reports/hand_coding/current/program_events.csv` as well as the canonical
+status history and evidence claims.
+
+**Leaderboard**, linked from the left sidebar, counts published review records,
+distinct schools and submission batches. Corrections are review records; drafts
+and empty parked cases do not count. Credit follows the recorded reviewer name,
+including imported work published by another account. Name matching ignores
+case and repeated whitespace. Badges recognize 1, 10, 25, 50 and 100 reviews,
+five evidence-only reviews, and work in three states. Local plant growth remains
+separate from these shared published totals.
+
 To invite a contributor, share the Pages URL, add their GitHub username to
-`authorized_reviewers` in `config/hand_coding.json`, and commit that configuration.
+`authorized_reviewers` in `config/hand_coding.json`, then run `dl-outcomes build`
+and `dl-outcomes validate`. Commit the configuration together with the rebuilt
+manifest and generated reports. The approval file is a fingerprinted build
+input, so committing it alone fails national provenance validation even though
+the Fieldnotes workflow rebuilds it afterward.
 They need a GitHub account and should enter their own reviewer name in the app's
 profile menu. Repository write access, access tokens, and software installation
 are not required. Anyone can research and save local drafts, but only approved

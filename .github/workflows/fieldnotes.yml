@@ -57,6 +57,7 @@ jobs:
         run: |
           dl-outcomes build > "$RUNNER_TEMP/fieldnotes-build.json"
           python -m unittest discover -s tests -p 'test_hand_coding.py' -v
+          python -m unittest discover -s tests -p 'test_review_leaderboard.py' -v
       - name: Prepare the website
         run: |
           python -m dl_outcomes.review_site export
@@ -70,14 +71,53 @@ jobs:
           npx playwright install --with-deps chromium
           npm run test:browser
       - name: Save the coding journal and derived dataset together
+        env:
+          FIELDNOTES_BROWSER_CHECK: ${{ github.event_name != 'issues' }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/registry/hand_coded_reviews data/curated data/reports
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update dataset from validated Fieldnotes reviews'
-            git push origin HEAD:main
-          fi
+          # A main-branch merge can land while a review is building. Preserve
+          # immutable journal bytes, then rebuild on the new main before retrying.
+          # Reset applies only to this disposable Actions checkout.
+          mkdir -p "$RUNNER_TEMP/fieldnotes-journal"
+          cp data/registry/hand_coded_reviews/*.json "$RUNNER_TEMP/fieldnotes-journal/"
+          for attempt in 1 2 3; do
+            base_revision=$(git rev-parse HEAD)
+            git add data/registry/hand_coded_reviews data/curated data/reports
+            if ! git diff --cached --quiet; then
+              git commit -m 'Update dataset from validated Fieldnotes reviews'
+            fi
+            if git push origin HEAD:main; then
+              break
+            fi
+            git fetch origin main
+            if [ "$attempt" = 3 ] || [ "$(git rev-parse origin/main)" = "$base_revision" ]; then
+              exit 1
+            fi
+            git reset --hard origin/main
+            python - <<'PY'
+          import os
+          from pathlib import Path
+          journal = Path('data/registry/hand_coded_reviews')
+          for saved in (Path(os.environ['RUNNER_TEMP']) / 'fieldnotes-journal').glob('*.json'):
+              target = journal / saved.name
+              if target.exists() and target.read_bytes() != saved.read_bytes():
+                  raise ValueError('Conflicting immutable review journal: ' + saved.name)
+              if not target.exists():
+                  target.write_bytes(saved.read_bytes())
+          PY
+            dl-outcomes build > "$RUNNER_TEMP/fieldnotes-build.json"
+            dl-outcomes validate
+            python -m unittest discover -s tests -p 'test_hand_coding.py' -v
+            python -m unittest discover -s tests -p 'test_review_leaderboard.py' -v
+            python -m dl_outcomes.review_site export
+            npm --prefix review-app ci --no-audit --no-fund
+            npm --prefix review-app run test
+            npm --prefix review-app run build
+            if [ "$FIELDNOTES_BROWSER_CHECK" = true ]; then
+              npm --prefix review-app run test:browser
+            fi
+          done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: review-app/dist

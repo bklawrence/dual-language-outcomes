@@ -69,11 +69,32 @@ def validate_record(record, sites, schools):
     changes = record.get('changes')
     if not isinstance(changes, dict) or not set(changes) <= VARIABLES:
         raise ValueError('The review contains an unsupported variable.')
-    if record.get('disposition', 'coded') == 'coded' and not changes:
+    event = record.get('program_event')
+    if event is not None:
+        from .review_events import KINDS
+        if not isinstance(event, dict) or not isinstance(event.get('kind'),str) or event['kind'] not in KINDS:
+            raise ValueError('Unknown program operating-status event.')
+        if not year(event.get('first_school_year')) or event['first_school_year'] > record['reference_year']:
+            raise ValueError('Choose the first supported school year, no later than this review year.')
+        ids = event.get('site_ids')
+        if (not isinstance(ids, list) or not ids or len(ids)>30 or any(not isinstance(i,str) for i in ids)
+                or len(set(ids))!=len(ids) or any(i not in sites or sites[i]['school_id']!=sid for i in ids)):
+            raise ValueError('Choose the program records at this school to which the status applies.')
+        destination = event.get('destination_school_id')
+        if destination is not None and (not isinstance(destination,str) or destination not in schools or destination==sid):
+            raise ValueError('A move destination must be another existing school identity, or left unmatched.')
+        for key, limit in [('destination_school_name',300),('destination_url',2048)]:
+            if not isinstance(event.get(key,''),str) or len(event.get(key,''))>limit:
+                raise ValueError('Invalid move destination details.')
+        if event.get('destination_url') and not web_url(event['destination_url']):
+            raise ValueError('Use an http(s) destination school URL.')
+        if event['kind']!='moved' and (destination or event.get('destination_school_name') or event.get('destination_url')):
+            raise ValueError('Destination details apply only to a moved program.')
+    if record.get('disposition', 'coded') == 'coded' and not changes and not event:
         raise ValueError('Select at least one variable to save.')
-    if record.get('disposition', 'coded') == 'needs_review' and changes:
+    if record.get('disposition', 'coded') == 'needs_review' and (changes or event):
         raise ValueError('A parked case cannot change structural values; save a coded review instead.')
-    if changes and not web_url(record.get('evidence_url')):
+    if (changes or event) and not web_url(record.get('evidence_url')):
         raise ValueError('A coding decision needs an http(s) evidence URL.')
     if record.get('evidence_url') and not web_url(record['evidence_url']):
         raise ValueError('The evidence URL is not valid.')
@@ -201,6 +222,31 @@ def migrate(build):
             build.claim('school',record['school_id'],'hand_coded_review',json_text(metadata),source,record['review_id'],
                         year=record['reference_year'],status='metadata_only',method='researcher_hand_coding',
                         notes='Human-authored coding. Reference year, source year, reviewer, authenticated author, evidence URL, notes and inference status are separate.')
+            event = record.get('program_event')
+            if event:
+                from .review_events import ATTRIBUTE
+                event_source = record_id('source', DATASET, digest(path), record['review_id'], 'program_event')
+                build.add('sources', source_id=event_source, dataset_id=DATASET,
+                          source_url='https://github.com/'+config['repository']+'/blob/main/'+str(path.relative_to(build.root)),
+                          version_label='hand_coded_event_'+record['review_id'], retrieved_at=submission.get('received_at'),
+                          snapshot_path=str(path.relative_to(build.root)), sha256=digest(path), snapshot_kind='saved_public_source',
+                          notes='Dated researcher operating-status event; publisher evidence URL remains in the journal.')
+                for site_id in event['site_ids']:
+                    site = sites[site_id]
+                    status_id = record_id('hand_coded_status', record['review_id'], site_id)
+                    notes = 'HAND-CODED program '+event['kind']+'. Evidence: '+record['evidence_url']+'. '+record.get('notes','')
+                    build.add('program_status_history', status_id=status_id, site_id=site_id,
+                              school_year=event['first_school_year'], operating_status=event['kind'],
+                              eligibility_status='not_operating_at_this_site' if event['kind']!='operating' else 'existing_inventory_eligibility_retained',
+                              confirmation_method='researcher_hand_coding_'+record['coding_method'],
+                              evidence_period_raw='First supported school year '+event['first_school_year'],
+                              source_id=event_source, source_locator=record['review_id'], notes=notes)
+                    fact=dict(event,site_id=site_id,school_id=record['school_id'],program_id=site['program_id'],
+                              status_id=status_id,review_id=record['review_id'],reference_year=record['reference_year'],
+                              supersedes_review_id=record.get('supersedes_review_id'),submitted_at=submission['submitted_at'],
+                              issue_number=submission['issue_number'],batch_record_index=sequence,coding_method=record['coding_method'])
+                    build.claim('program',site['program_id'],ATTRIBUTE,json_text(fact),event_source,record['review_id']+':'+site_id,
+                                year=event['first_school_year'],status='metadata_only',method='researcher_hand_coding',notes=notes)
             for variable, change in record['changes'].items():
                 for site_id in change['site_ids']:
                     site = sites[site_id]; locator = record['review_id']+':'+site_id+':'+variable
@@ -270,9 +316,21 @@ def revise_report_paths(root, contents, tables):
                   hand_coded=True,reviewer=r['reviewer'],github_actor=b['submission']['github_actor'],
                   submitted_at=b['submission']['submitted_at'],coding_method=r['coding_method'],
                   evidence_url=r.get('evidence_url',''),notes=r.get('notes',''),source_quote=r.get('source_quote',''),
-                  changes_json=json_text(r['changes']),disposition=r.get('disposition','coded'))
+                  changes_json=json_text(r['changes']),program_event_json=json_text(r['program_event']) if r.get('program_event') else '',disposition=r.get('disposition','coded'))
              for _,b in batches(root) for r in b['records']]
-    result['data/reports/hand_coding/current/reviews.csv']=csv_text(records,fields=['review_id','school_id','reference_year','hand_coded','reviewer','github_actor','submitted_at','coding_method','evidence_url','notes','source_quote','changes_json','disposition'])
+    result['data/reports/hand_coding/current/reviews.csv']=csv_text(records,fields=['review_id','school_id','reference_year','hand_coded','reviewer','github_actor','submitted_at','coding_method','evidence_url','notes','source_quote','changes_json','program_event_json','disposition'])
+    events=[]
+    for _,batch in batches(root):
+        for record in batch['records']:
+            event=record.get('program_event')
+            if not event:continue
+            for site in event['site_ids']:
+                events.append(dict(review_id=record['review_id'],site_id=site,school_id=record['school_id'],
+                    kind=event['kind'],first_school_year=event['first_school_year'],reference_year=record['reference_year'],
+                    destination_school_id=event.get('destination_school_id'),destination_school_name=event.get('destination_school_name',''),
+                    destination_url=event.get('destination_url',''),reviewer=record['reviewer'],github_actor=batch['submission']['github_actor'],
+                    coding_method=record['coding_method'],evidence_url=record['evidence_url'],notes=record.get('notes','')))
+    result['data/reports/hand_coding/current/program_events.csv']=csv_text(events,fields=['review_id','site_id','school_id','kind','first_school_year','reference_year','destination_school_id','destination_school_name','destination_url','reviewer','github_actor','coding_method','evidence_url','notes'])
     # A live, selected programme CSV makes the effects visible without
     # modifying the frozen baseline or repeating long notes in every field.
     from .baseline import school_rows, programme_rows

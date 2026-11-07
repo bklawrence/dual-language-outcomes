@@ -1,6 +1,6 @@
 {
   "migration_date": "2026-11-05",
-  "build_id": "build-3c28a1a66c1a584f880f39f4a135fb85",
+  "build_id": "build-2c752fe9ce555788abe231156b99de54",
   "schema_version": "1.5.0",
   "collection_phase": "structural_inventory",
   "proficiency_collection": "deferred_until_50_state_structural_inventories_finished",
@@ -292,7 +292,8 @@
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_remaining_queue.csv": "032e5c243ba139479f81a2326afded99e155e00ceb089737b19a5f31141d4795",
     "data/reports/delivery_scope_cleanup_2026_11_06_review_cases.csv": "2305c95313ed86e4da13b8ba0bd7a32ff9a4d581ce27e0d8eab2784441b1e523",
     "data/reports/delivery_scope_cleanup_2026_11_06_sources.csv": "fd90490983e0e7232ccaa0364eeff7a79ffe2e1a2a9c0261959e5bb6ac1ca2ea",
-    "data/reports/hand_coding/current/reviews.csv": "234420f48d2e0c5e84d5ffe3cc0a3deaf759c48b35359141ecc383b9eb760a93",
+    "data/reports/hand_coding/current/reviews.csv": "563629470b23b85dbb3a6c9aaac15dcaf0ce7028a1fc1fe5648c9982ea7925ab",
+    "data/reports/hand_coding/current/program_events.csv": "4847c9f94ee34051cb0598b90d075df5ab50592ada8907a07b736b21291904ea",
     "data/reports/hand_coding/current/programs.csv": "916cfb1eea06052b6baa4521822a7f83f0223b37dfe885cd5f080a6c4523c180",
     "data/reports/hand_coding/current/README.md": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
   },

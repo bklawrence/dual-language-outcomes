@@ -1,6 +1,6 @@
 import React from 'react';
 import {ExternalLink} from 'lucide-react';
-import {FIELD_LABELS, BASIS_LABELS, formatValue, sourceLink} from './reviews';
+import {FIELD_LABELS, BASIS_LABELS, STATUS_LABELS, formatValue, sourceLink} from './reviews';
 
 export default function ReviewDetails({record, school, inventoryYear}) {
   const entries = Object.entries(record.changes || {});
@@ -16,7 +16,11 @@ export default function ReviewDetails({record, school, inventoryYear}) {
         const scope = all ? `All ${sites.length} program records` : sites.map(s => s.label).join('; ') || 'Program scope unavailable';
         return <tr key={variable}><th>{FIELD_LABELS[variable] || variable}<small>{scope}</small></th><td>{before.join(' / ') || 'Not recorded'}</td><td>{formatValue(change.value)}</td></tr>;
       })}</tbody>
-    </table> : <p className="parked-note">Evidence and research notes only. No program values have been assigned; this school remains available for coding.</p>}
+    </table> : !record.program_event&&<p className="parked-note">Evidence and research notes only. No program values have been assigned; this school remains available for coding.</p>}
+    {record.program_event&&<div className="program-event-summary">
+      <dl className="review-context"><div><dt>Program status</dt><dd>{STATUS_LABELS[record.program_event.kind]}</dd></div><div><dt>First supported school year</dt><dd>{record.program_event.first_school_year}</dd></div><div><dt>Program scope</dt><dd>{record.program_event.site_ids.map(id=>school?.sites.find(s=>s.site_id===id)?.label||id).join('; ')}</dd></div></dl>
+      {record.program_event.kind==='moved'&&<p>Destination: {record.program_event.destination_school_name||'Not stated / needs follow-up'}{sourceLink(record.program_event.destination_url)&&<> · <a href={record.program_event.destination_url} target="_blank" rel="noreferrer">School website <ExternalLink size={11}/></a></>}</p>}
+    </div>}
     <dl className="review-context">
       <div><dt>Applies to</dt><dd>{record.reference_year.replace('-', '–')}</dd></div>
       <div><dt>Grades described</dt><dd>{record.grade_scope || 'Not specified'}</dd></div>

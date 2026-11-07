@@ -1,33 +1,34 @@
 import React, {useEffect, useMemo, useRef, useState} from 'react';
 import {createRoot} from 'react-dom/client';
-import {ArrowDownToLine, ArrowLeft, ArrowRight, BookOpen, Check, CheckCheck, ChevronDown, ChevronRight, CircleHelp, ClipboardList, Clock3, ExternalLink, FileText, Filter, Github, History, Leaf, Link2, LoaderCircle, MessageSquareText, PanelLeftClose, Search, Send, Sparkles, Sprout, X} from 'lucide-react';
+import {ArrowDownToLine, ArrowLeft, ArrowRight, BookOpen, Check, CheckCheck, ChevronDown, ChevronRight, CircleHelp, ClipboardList, Clock3, ExternalLink, FileText, Filter, Github, History, Leaf, Link2, LoaderCircle, MessageSquareText, PanelLeftClose, Search, Send, Sparkles, Sprout, Trophy, X} from 'lucide-react';
 import Plant from './Plant';
 import {freshGarden, waterGarden} from './garden';
 import {loadWorkspace,saveWorkspace} from './storage';
 import SavedReviews from './SavedReviews';
 import ReviewDetails from './ReviewDetails';
+import ProgramStatus from './ProgramStatus';
+import Leaderboard from './Leaderboard';
 import {VALUE_LABELS, draftFromReview, targetsForDraft, hasReviewEdits} from './reviews';
+import {allocationRecorded, fieldWithReviews, schoolPriorityStatus} from './queue';
 import '@fontsource-variable/dm-sans';
 import '@fontsource/libre-caslon-display/latin-400.css';
 import './fieldnotes.css';
 
 const KEY='fieldnotes.workspace.v1';
-const EMPTY={site_id:'',delivery:'',population:'',allocation:'',languages:'',evidence_url:'',notes:'',source_quote:'',grade_scope:'',source_locator:'',source_school_year:'',reference_year:'2025-26',coding_method:'explicit_source_statement',all_delivery:true};
+const EMPTY={site_id:'',delivery:'',population:'',allocation:'',languages:'',evidence_url:'',notes:'',source_quote:'',grade_scope:'',source_locator:'',source_school_year:'',reference_year:'2025-26',coding_method:'explicit_source_statement',all_delivery:true,program_status:'',status_year:'',all_status:false,event_site_ids:null,destination_name:'',destination_id:'',destination_url:''};
 const YEARS=['2026-27','2025-26','2024-25','2023-24','2022-23','2021-22','2020-21','2019-20'];
 const SOURCE_YEARS=Array.from({length:27},(_,i)=>`${2026-i}-${String(2027-i).slice(-2)}`);
 function readStore(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch{return {};}}
 function hrefSearch(c){return 'https://www.google.com/search?q='+encodeURIComponent(c.school_name+' '+c.district_name+' dual language');}
 function stateLabel(code,data){return data?.state_names?.[code]||code;}
 function valuesText(field){return field?.value?.map(v=>VALUE_LABELS[v]||v).join(' · ')||'Not yet recorded';}
-function hasAllocation(site){const f=site.known.elementary_allocation_model;return f.value.length>0&&!["conflicting","later_only","not_reported"].includes(f.status)&&!f.status.startsWith("not_applicable");}
-function missingFor(c, saved, accepted, onlyAllocated=false){
-  const scopedSites=onlyAllocated?c.sites.filter(hasAllocation):c.sites;
+function missingFor(c, saved, accepted, onlyAllocated=false, year='2025-26'){
+  const scopedSites=onlyAllocated?c.sites.filter(s=>allocationRecorded(fieldWithReviews(c,s,'elementary_allocation_model',saved,accepted,year))):c.sites;
   const fields=new Set(c.missing);
   for(const variable of c.missing){
     const remaining=scopedSites.some(site=>{
-      const latest=[...saved].reverse().find(r=>!accepted.has(r.review_id)&&r.school_id===c.school_id&&r.reference_year==='2025-26'&&r.changes?.[variable]?.site_ids.includes(site.site_id));
-      if(latest)return latest.coding_method!=='explicit_source_statement'&&variable!=='elementary_allocation_model';
-      const f=site.known[variable];return !f?.value?.length||(variable!=='elementary_allocation_model'&&f.status!=='documented');
+      const f=fieldWithReviews(c,site,variable,saved,accepted,year);
+      return variable==='elementary_allocation_model'?!allocationRecorded(f):!f.value.length||f.status!=='documented';
     });
     if(!remaining)fields.delete(variable);
   }
@@ -65,8 +66,16 @@ function App(){
   const [query,setQuery]=useState(''),[state,setState]=useState('all'),[district,setDistrict]=useState('all'),[variable,setVariable]=useState('delivery_structure'),[allocationOnly,setAllocationOnly]=useState(true),[view,setView]=useState('queue');
   const [modal,setModal]=useState(''),[toast,setToast]=useState(''),[formError,setFormError]=useState(''),[watering,setWatering]=useState(false),[now,setNow]=useState(Date.now()),[batch,setBatch]=useState(null),[batchError,setBatchError]=useState(''),[refreshing,setRefreshing]=useState(false),[mobileQueue,setMobileQueue]=useState(false),[listLimit,setListLimit]=useState(150),[storageError,setStorageError]=useState(false);
   const mainRef=useRef(), importRef=useRef();
-  const refresh=async()=>{setRefreshing(true);try{const response=await fetch('./data/queue.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('Could not load the research inventory.');setData(await response.json());setLoadError('');}catch(e){setLoadError(e.message);}finally{setRefreshing(false);}};
-  useEffect(()=>{refresh();const timer=setInterval(()=>setNow(Date.now()),60000);return()=>clearInterval(timer);},[]);
+  const refresh=async(silent=false)=>{if(silent!==true)setRefreshing(true);try{const response=await fetch('./data/queue.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('Could not load the research inventory.');setData(await response.json());setLoadError('');}catch(e){setLoadError(e.message);}finally{if(silent!==true)setRefreshing(false);}};
+  useEffect(()=>{
+    refresh();
+    const timer=setInterval(()=>setNow(Date.now()),60000);
+    const sharedTimer=setInterval(()=>{if(!document.hidden)refresh(true);},120000);
+    const onFocus=()=>refresh(true);
+    const onVisible=()=>{if(!document.hidden)refresh(true);};
+    window.addEventListener('focus',onFocus);document.addEventListener('visibilitychange',onVisible);
+    return()=>{clearInterval(timer);clearInterval(sharedTimer);window.removeEventListener('focus',onFocus);document.removeEventListener('visibilitychange',onVisible);};
+  },[]);
   useEffect(()=>{loadWorkspace().then(old=>{if(old&&Array.isArray(old.saved)&&old.drafts){setStore(s=>({...s,...old}));if(old.lastSchoolId)setActive(old.lastSchoolId);setEditingId(old.editingReviewId||'');}setHydrated(true);});},[]);
   useEffect(()=>{if(!hydrated)return;let latest=true;setSavingDraft(true);saveWorkspace({...store,lastSchoolId:active,editingReviewId:editingId}).then(()=>{if(latest){setStorageError(false);setSavingDraft(false);}}).catch(()=>{if(latest){setStorageError(true);setSavingDraft(false);}});return()=>{latest=false;};},[store,active,editingId,hydrated]);
   useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(''),4500);return()=>clearTimeout(t);},[toast]);
@@ -74,20 +83,21 @@ function App(){
   const preparedIds=useMemo(()=>new Set(store.batches.flatMap(b=>b.review_ids)),[store.batches]);
   const pending=useMemo(()=>store.saved.filter(r=>!accepted.has(r.review_id)&&!preparedIds.has(r.review_id)),[store.saved,accepted,preparedIds]);
   const awaiting=store.saved.filter(r=>!accepted.has(r.review_id)&&preparedIds.has(r.review_id));
-  const cases=useMemo(()=>data?.cases.map(c=>({...c,effectiveMissing:missingFor(c,store.saved,accepted,allocationOnly)}))||[],[data,store.saved,accepted,allocationOnly]);
+  const cases=useMemo(()=>data?.cases.map(c=>({...c,...schoolPriorityStatus(c,store.saved,accepted,data.reference_year),effectiveMissing:missingFor(c,store.saved,accepted,allocationOnly,data.reference_year)}))||[],[data,store.saved,accepted,allocationOnly]);
   const districtCounts=useMemo(()=>{const out={};for(const c of (data?.cases||[]))if(c.allocation_known&&c.missing.includes('delivery_structure'))out[c.district_name]=(out[c.district_name]||0)+1;return out;},[data]);
-  const filtered=useMemo(()=>cases.filter(c=>(!allocationOnly||c.allocation_known)&&(state==='all'||c.state_code===state)&&(district==='all'||c.district_name===district)&&(!variable||c.effectiveMissing.includes(variable))&&(!query||(c.school_name+' '+c.district_name+' '+c.state_code).toLowerCase().includes(query.toLowerCase()))).sort((a,b)=>(districtCounts[b.district_name]||0)-(districtCounts[a.district_name]||0)||a.school_name.localeCompare(b.school_name)),[cases,query,state,district,variable,allocationOnly,districtCounts]);
+  const filtered=useMemo(()=>cases.filter(c=>!c.priorityComplete&&!c.retired&&(!allocationOnly||c.allocation_known)&&(state==='all'||c.state_code===state)&&(district==='all'||c.district_name===district)&&(!variable||c.effectiveMissing.includes(variable))&&(!query||(c.school_name+' '+c.district_name+' '+c.state_code).toLowerCase().includes(query.toLowerCase()))).sort((a,b)=>(districtCounts[b.district_name]||0)-(districtCounts[a.district_name]||0)||a.school_name.localeCompare(b.school_name)),[cases,query,state,district,variable,allocationOnly,districtCounts]);
   const editingReview=store.saved.find(r=>r.review_id===editingId);
   const editingDraft=store.drafts['review:'+editingId];
-  const current=cases.find(c=>c.school_id===(editingReview?.school_id||active))||filtered[0];
-  const site=current?.sites.find(s=>s.site_id===(editingDraft?.site_id||siteId))||current?.sites[0];
+  const current=editingReview?cases.find(c=>c.school_id===editingReview.school_id):cases.find(c=>c.school_id===active&&!c.priorityComplete&&!c.retired)||filtered[0];
+  const availableSites=editingReview?current?.sites:current?.sites.filter(s=>current.active_site_ids.includes(s.site_id));
+  const site=availableSites?.find(s=>s.site_id===(editingDraft?.site_id||siteId))||availableSites?.find(s=>current.priority_site_ids.includes(s.site_id))||availableSites?.[0];
   const draftKey=editingReview?'review:'+editingId:current?.school_id+':'+site?.site_id;
   const draft={...EMPTY,reference_year:data?.reference_year||'2025-26',...store.drafts[draftKey]};
-  const hasCoding=Boolean(draft.delivery||draft.population||draft.allocation.trim()||draft.languages.trim());
+  const hasCoding=Boolean(draft.delivery||draft.population||draft.allocation.trim()||draft.languages.trim()||draft.program_status);
   const hasEvidence=Boolean(draft.evidence_url.trim()||draft.notes.trim()||draft.source_quote.trim());
   const patch=(key,value)=>{setFormError('');setStore(s=>({...s,drafts:{...s.drafts,[draftKey]:{...draft,...(typeof key==='object'?key:{[key]:value})}}}));};
   const openCase=c=>{setEditingId('');setActive(c.school_id);setSiteId(c.sites[0].site_id);setFormError('');setMobileQueue(false);setView('queue');mainRef.current?.scrollTo({top:0});};
-  useEffect(()=>{if(!active&&filtered[0])setActive(filtered[0].school_id);},[filtered,active]);
+  useEffect(()=>{if(!editingId&&filtered[0]&&(!active||cases.some(c=>c.school_id===active&&(c.priorityComplete||c.retired)))){setActive(filtered[0].school_id);setSiteId(filtered[0].sites[0].site_id);}},[filtered,active,cases,editingId]);
   const goNext=()=>{const index=filtered.findIndex(c=>c.school_id===current?.school_id);const next=filtered[index+1]||filtered.find(c=>c.school_id!==current?.school_id);if(next)openCase(next);else setToast('You’ve reached the end of this filtered queue.');};
   const save=(park=false)=>{
     if(!current||!site)return;const changes={};
@@ -95,16 +105,27 @@ function App(){
     if(draft.population)changes.population_model={value:draft.population,site_ids:targetsForDraft(draft,'population_model',site,current)};
     if(draft.allocation.trim()){const v=draft.allocation.trim().replace(/\s/g,'').replace(/[-–:]/g,'/');const pieces=v.split('/').map(Number);if(!/^\d{1,3}(\.\d+)?\/\d{1,3}(\.\d+)?$/.test(v)||pieces.some(x=>x<0||x>100)||Math.abs(pieces.reduce((a,b)=>a+b,0)-100)>.001){setFormError('Enter an allocation such as 90/10 or 50/50, totaling 100.');return;}if(!draft.grade_scope.trim()){setFormError('Add the grades to which the allocation applies.');return;}changes.elementary_allocation_model={value:v,site_ids:targetsForDraft(draft,'elementary_allocation_model',site,current)};}
     if(draft.languages.trim())changes.instruction_languages={value:[...new Set(draft.languages.split(/[,;+]/).map(s=>s.trim()).filter(Boolean))],site_ids:targetsForDraft(draft,'instruction_languages',site,current)};
-    if(!Object.keys(changes).length&&(hasEvidence||editingReview?.disposition==='needs_review'))park=true;
-    if(park&&Object.keys(changes).length){setFormError('Use Save & next to save your coding choices. Clear those choices before parking this case.');return;}
-    if(!park&&!Object.keys(changes).length){setFormError('Add an evidence URL, quotation, or research note, or choose a program value.');return;}
+    let programEvent=null;
+    if(draft.program_status){
+      const statusYear=draft.status_year||draft.reference_year;
+      if(statusYear>draft.reference_year){setFormError('The status year cannot be later than the review year.');return;}
+      if(draft.program_status==='moved'&&draft.destination_url){try{const u=new URL(draft.destination_url);if(!['http:','https:'].includes(u.protocol)||u.username||u.password)throw Error();}catch{setFormError('Use an http(s) destination school URL.');return;}}
+      const destination=(data.destination_schools||[]).find(s=>s.school_id===draft.destination_id);
+      programEvent={kind:draft.program_status,first_school_year:statusYear,site_ids:targetsForDraft(draft,'program_event',site,current),
+        destination_school_id:draft.program_status==='moved'?(draft.destination_id||null):null,
+        destination_school_name:draft.program_status==='moved'?(destination?.school_name||draft.destination_name.trim()):'',
+        destination_url:draft.program_status==='moved'?draft.destination_url.trim():''};
+    }
+    if(!hasCoding&&(hasEvidence||editingReview?.disposition==='needs_review'))park=true;
+    if(park&&hasCoding){setFormError('Use the save button to record your finding. Clear coding choices before parking this case.');return;}
+    if(!park&&!hasCoding){setFormError('Add an evidence URL, quotation, or research note, or choose a program value.');return;}
     if(!store.reviewer.trim()){setFormError('Add your reviewer name in the profile menu.');setModal('profile');return;}
     if(!park||draft.evidence_url){try{const u=new URL(draft.evidence_url);if(!['http:','https:'].includes(u.protocol)||u.username||u.password)throw Error();}catch{setFormError('Add the website URL where you found the evidence.');return;}}
     if(draft.source_school_year&&draft.source_school_year>draft.reference_year){setFormError('The year described by the source is later than the review year. Check those years.');return;}
     if(draft.delivery==='mixed'&&!draft.notes.trim()){setFormError('Add a note explaining how delivery varies by grade or program.');return;}
     const earnsWater=!park||hasEvidence;
     const editable=store.saved.find(r=>r.review_id===draft.editing_review_id&&!accepted.has(r.review_id)&&!preparedIds.has(r.review_id));
-    const record={review_id:editable?editable.review_id:crypto.randomUUID(),supersedes_review_id:editingReview&&accepted.has(editingReview.review_id)?editingReview.review_id:draft.supersedes_review_id||null,school_id:current.school_id,school_name:current.school_name,selected_site_id:site.site_id,reviewer:store.reviewer.trim(),coded_at:new Date().toISOString(),reference_year:draft.reference_year,source_school_year:draft.source_school_year||null,coding_method:draft.coding_method||'not_recorded',grade_scope:draft.grade_scope.trim(),evidence_url:draft.evidence_url.trim()?new URL(draft.evidence_url.trim()).href:'',source_locator:draft.source_locator.trim(),source_quote:draft.source_quote.trim(),notes:draft.notes.trim(),disposition:park?'needs_review':'coded',changes};
+    const record={review_id:editable?editable.review_id:crypto.randomUUID(),supersedes_review_id:editingReview&&accepted.has(editingReview.review_id)?editingReview.review_id:draft.supersedes_review_id||null,school_id:current.school_id,school_name:current.school_name,selected_site_id:site.site_id,reviewer:store.reviewer.trim(),coded_at:new Date().toISOString(),reference_year:draft.reference_year,source_school_year:draft.source_school_year||null,coding_method:draft.coding_method||'not_recorded',grade_scope:draft.grade_scope.trim(),evidence_url:draft.evidence_url.trim()?new URL(draft.evidence_url.trim()).href:'',source_locator:draft.source_locator.trim(),source_quote:draft.source_quote.trim(),notes:draft.notes.trim(),disposition:park?'needs_review':'coded',changes,...(programEvent?{program_event:programEvent}:{})};
     setStore(s=>{const drafts={...s.drafts};delete drafts[draftKey];return {...s,drafts,saved:[...s.saved.filter(r=>r.review_id!==record.review_id),record],garden:!earnsWater?s.garden:waterGarden(s.garden,record.review_id+(editable?':'+record.coded_at:''))};});
     if(earnsWater){setWatering(true);setTimeout(()=>setWatering(false),2200);}setToast(park?hasEvidence?'Evidence saved on this device.':'Case parked for another look.':editingReview?'Changes saved on this device.':'Review saved on this device.');if(editingReview){setEditingId('');setView('saved');}else goNext();
   };
@@ -153,8 +174,8 @@ function App(){
     }catch{setHandoffError('The batch could not be saved locally. Export a backup before leaving this page.');setModal('publish');}
     finally{setHandoffBusy(false);}
   };
-  const allocationCases=cases.filter(c=>c.allocation_known);
-  const needingDelivery=allocationCases.filter(c=>missingFor(c,store.saved,accepted,true).includes('delivery_structure')).length;
+  const allocationCases=cases.filter(c=>c.allocation_known&&!c.retired);
+  const needingDelivery=allocationCases.filter(c=>missingFor(c,store.saved,accepted,true,data?.reference_year).includes('delivery_structure')).length;
   const completed=allocationCases.length-needingDelivery;
   const activeIndex=filtered.findIndex(c=>c.school_id===current?.school_id);
   useEffect(()=>{if(activeIndex>=listLimit)setListLimit(activeIndex+50);},[activeIndex,listLimit]);
@@ -162,29 +183,30 @@ function App(){
 
   return <div className="app-shell">
     <aside className="rail">
-      <a className="brand" href="#" onClick={e=>{e.preventDefault();setView('queue');}}><span className="brand-mark"><BookOpen size={20}/></span><span>fieldnotes<span className="brand-dot">.</span></span></a>
+      <a className="brand" href="#" onClick={e=>{e.preventDefault();setEditingId('');setView('queue');}}><span className="brand-mark"><BookOpen size={20}/></span><span>fieldnotes<span className="brand-dot">.</span></span></a>
       <div className="rail-label">DUAL-LANGUAGE RESEARCH</div>
-      <nav><button className={view==='queue'?'nav-item selected':'nav-item'} onClick={()=>setView('queue')}><ClipboardList size={18}/>Review queue<span className="nav-count">{needingDelivery.toLocaleString()}</span></button><button className={view==='saved'?'nav-item selected':'nav-item'} onClick={()=>setView('saved')}><History size={18}/>My reviews{store.saved.length>0&&<span className="nav-count">{store.saved.length}</span>}</button></nav>
+      <nav><button className={view==='queue'?'nav-item selected':'nav-item'} onClick={()=>{setEditingId('');setView('queue');}}><ClipboardList size={18}/>Review queue<span className="nav-count">{filtered.length.toLocaleString()}</span></button><button className={view==='saved'?'nav-item selected':'nav-item'} onClick={()=>setView('saved')}><History size={18}/>My reviews{store.saved.length>0&&<span className="nav-count">{store.saved.length}</span>}</button><button className={view==='leaderboard'?'nav-item selected':'nav-item'} onClick={()=>setView('leaderboard')}><Trophy size={18}/>Leaderboard</button></nav>
       <div className="rail-progress"><div className="progress-label"><span>Delivery model coverage</span><strong>{(completed/Math.max(1,allocationCases.length)*100).toFixed(1)}%</strong></div><p><strong>{completed.toLocaleString()}</strong> of <strong>{allocationCases.length.toLocaleString()}</strong> have a documented delivery model.</p><p>All {allocationCases.length.toLocaleString()} already have allocation data.</p></div>
       <div className="rail-spacer"/><Plant garden={store.garden} watering={watering} now={now}/>
       <button className="rail-help" onClick={()=>setModal('help')}><CircleHelp size={16}/>How this works</button>
       <button className="profile" aria-label={store.reviewer?'Reviewer: '+store.reviewer:'Set reviewer name'} onClick={()=>setModal('profile')}><span className="avatar">{store.reviewer.slice(0,2).toUpperCase()||'?'}</span><span><strong>{store.reviewer||'Set reviewer name'}</strong><small>Researcher</small></span><ChevronDown size={15}/></button>
     </aside>
     <div className="workspace">
-      <header className="topbar"><div className="breadcrumb"><BookOpen size={15}/><span>National DL inventory</span><ChevronRight size={13}/><strong>{view==='queue'?'School review':'My reviews'}</strong></div><div className="top-actions"><span className="inventory-year">Inventory {data.reference_year.replace('-','–')}</span><a className="github-link" href={'https://github.com/'+data.repository} target="_blank" rel="noreferrer"><Github size={17}/><span>Dataset</span><ExternalLink size={12}/></a><button className="primary publish-button" onClick={openPublish}><Send size={15}/>Publish{pending.length>0&&<span>{pending.length}</span>}</button></div></header>
+      <header className="topbar"><div className="breadcrumb"><BookOpen size={15}/><span>National DL inventory</span><ChevronRight size={13}/><strong>{view==='queue'?'School review':view==='leaderboard'?'Leaderboard':'My reviews'}</strong></div><div className="top-actions"><span className="inventory-year">Inventory {data.reference_year.replace('-','–')}</span><a className="github-link" href={'https://github.com/'+data.repository} target="_blank" rel="noreferrer"><Github size={17}/><span>Dataset</span><ExternalLink size={12}/></a><button className="primary publish-button" onClick={openPublish}><Send size={15}/>Publish{pending.length>0&&<span>{pending.length}</span>}</button></div></header>
       {storageError&&<div className="error-banner">Browser storage is full or unavailable. Export a backup before closing this tab.<button onClick={backup}>Export backup</button></div>}
-      {view==='saved'?<SavedReviews store={store} cases={cases} accepted={accepted} pending={pending} awaiting={awaiting} inventoryYear={data.reference_year}
+      {view==='leaderboard'?<Leaderboard rows={data.leaderboard||[]} reviewer={store.reviewer} updatedAt={data.updated_at} onRefresh={refresh} refreshing={refreshing}/>:view==='saved'?<SavedReviews store={store} cases={cases} accepted={accepted} pending={pending} awaiting={awaiting} inventoryYear={data.reference_year}
         filters={reviewFilters} setFilters={setReviewFilters} refreshing={refreshing} onRefresh={refresh} onBackup={backup} onPublish={openPublish}
-        onQueue={()=>setView('queue')} onEdit={editReview} onCopySubmission={copySubmission} handoffBusy={handoffBusy} onRevisit={r=>{const c=cases.find(c=>c.school_id===r.school_id);if(c)openCase(c);}} onRemove={removeReview}/>:
+        onQueue={()=>{setEditingId('');setView('queue');}} onEdit={editReview} onCopySubmission={copySubmission} handoffBusy={handoffBusy} onRevisit={r=>{const c=cases.find(c=>c.school_id===r.school_id);if(c)openCase(c);}} onRemove={removeReview}/>:
       <div className="desk-layout">
-        <aside className={'queue-panel '+(mobileQueue?'queue-open':'')}><div className="queue-title"><h2>Review queue</h2><span>{filtered.length.toLocaleString()}</span><button className="icon-button mobile-only" onClick={()=>setMobileQueue(false)} aria-label="Close school list"><X size={18}/></button></div><p className="queue-caption">Schools with missing structural data</p><div className="search-box"><Search size={17}/><input aria-label="Search schools or districts" placeholder="Search schools or districts" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button className="icon-button" onClick={()=>setQuery('')} aria-label="Clear search"><X size={13}/></button>}</div><div className="filter-row"><label><span className="sr-only">State</span><select aria-label="State" value={state} onChange={e=>{setState(e.target.value);setDistrict('all');}}><option value="all">All states</option>{Object.keys(data.state_names).sort((a,b)=>data.state_names[a].localeCompare(data.state_names[b])).map(c=><option key={c} value={c}>{data.state_names[c]}</option>)}</select></label><label><span className="sr-only">Missing variable</span><select aria-label="Missing variable" value={variable} onChange={e=>setVariable(e.target.value)}><option value="delivery_structure">Delivery model</option><option value="population_model">One-way / two-way</option><option value="elementary_allocation_model">Allocation</option><option value="instruction_languages">Languages</option><option value="">All schools</option></select></label></div><label className="district-select"><select aria-label="District" value={district} onChange={e=>setDistrict(e.target.value)}><option value="all">All districts</option>{[...new Set(cases.filter(c=>state==='all'||c.state_code===state).map(c=>c.district_name))].sort().map(d=><option key={d}>{d}</option>)}</select></label><label className="checkline queue-scope"><input type="checkbox" checked={allocationOnly} onChange={e=>setAllocationOnly(e.target.checked)}/><span>Allocation already recorded</span><CircleHelp size={12}/></label><div className="queue-list">{filtered.slice(0,listLimit).map(c=><button className={'school-row '+(c.school_id===current?.school_id?'active':'')} key={c.school_id} onClick={()=>openCase(c)}><div className="school-row-top"><span className="state-code">{c.state_code}</span>{store.saved.some(r=>r.school_id===c.school_id)&&<span className="tiny-saved"><Check size={11}/>Reviewed</span>}</div><strong>{c.school_name}</strong><span className="school-district">{c.district_name}</span><div className="school-row-bottom"><span>{[...new Set(c.sites.flatMap(s=>s.known.elementary_allocation_model.value))].join(' · ')||'Allocation missing'}</span><span>{c.sites.length>1?c.sites.length+' records':'1 program record'}</span></div></button>)}{filtered.length>listLimit&&<button className="list-end" onClick={()=>setListLimit(n=>n+150)}>Show 150 more schools <ChevronDown size={13}/></button>}{!filtered.length&&<div className="queue-empty"><CheckCheck size={28}/><strong>No schools match these filters.</strong><p>Try another state or variable.</p></div>}</div><div className="queue-footer"><span className="live-dot"/>Research inventory · {data.reference_year.replace('-','–')}</div></aside>
+        <aside className={'queue-panel '+(mobileQueue?'queue-open':'')}><div className="queue-title"><h2>Review queue</h2><span>{filtered.length.toLocaleString()}</span><button className="icon-button mobile-only" onClick={()=>setMobileQueue(false)} aria-label="Close school list"><X size={18}/></button></div><p className="queue-caption">Schools needing delivery or allocation data</p><div className="search-box"><Search size={17}/><input aria-label="Search schools or districts" placeholder="Search schools or districts" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button className="icon-button" onClick={()=>setQuery('')} aria-label="Clear search"><X size={13}/></button>}</div><div className="filter-row"><label><span className="sr-only">State</span><select aria-label="State" value={state} onChange={e=>{setState(e.target.value);setDistrict('all');}}><option value="all">All states</option>{Object.keys(data.state_names).sort((a,b)=>data.state_names[a].localeCompare(data.state_names[b])).map(c=><option key={c} value={c}>{data.state_names[c]}</option>)}</select></label><label><span className="sr-only">Missing variable</span><select aria-label="Missing variable" value={variable} onChange={e=>setVariable(e.target.value)}><option value="delivery_structure">Delivery model</option><option value="population_model">One-way / two-way</option><option value="elementary_allocation_model">Allocation</option><option value="instruction_languages">Languages</option><option value="">All queued schools</option></select></label></div><label className="district-select"><select aria-label="District" value={district} onChange={e=>setDistrict(e.target.value)}><option value="all">All districts</option>{[...new Set(cases.filter(c=>state==='all'||c.state_code===state).map(c=>c.district_name))].sort().map(d=><option key={d}>{d}</option>)}</select></label><label className="checkline queue-scope"><input type="checkbox" checked={allocationOnly} onChange={e=>setAllocationOnly(e.target.checked)}/><span>Allocation already recorded</span><CircleHelp size={12}/></label><div className="queue-list">{filtered.slice(0,listLimit).map(c=><button className={'school-row '+(c.school_id===current?.school_id?'active':'')} key={c.school_id} onClick={()=>openCase(c)}><div className="school-row-top"><span className="state-code">{c.state_code}</span>{store.saved.some(r=>r.school_id===c.school_id)&&<span className="tiny-saved"><Check size={11}/>Reviewed</span>}</div><strong>{c.school_name}</strong><span className="school-district">{c.district_name}</span><div className="school-row-bottom"><span>{[...new Set(c.sites.flatMap(s=>s.known.elementary_allocation_model.value))].join(' · ')||'Allocation missing'}</span><span>{c.sites.length>1?c.sites.length+' records':'1 program record'}</span></div></button>)}{filtered.length>listLimit&&<button className="list-end" onClick={()=>setListLimit(n=>n+150)}>Show 150 more schools <ChevronDown size={13}/></button>}{!filtered.length&&<div className="queue-empty"><CheckCheck size={28}/><strong>No schools match these filters.</strong><p>Try another state or variable.</p></div>}</div><div className="queue-footer"><span className="live-dot"/>Research inventory · {data.reference_year.replace('-','–')}</div></aside>
         <main className="case-workspace" ref={mainRef}>
           <button className="secondary mobile-only school-list-button" onClick={()=>setMobileQueue(true)}><Filter size={15}/>Choose a school</button>
           {current&&site?<><div className="case-page-header"><div><div className="section-eyebrow">SCHOOL REVIEW <span>/</span> {stateLabel(current.state_code,data).toUpperCase()}</div><h1>{current.school_name}</h1><p className="case-district">{current.district_name}<span>·</span>{stateLabel(current.state_code,data)}</p></div><div className="case-position"><span>{activeIndex>=0?activeIndex+1:'—'} <i>/</i> {filtered.length.toLocaleString()}</span><div><button className="icon-button" aria-label="Previous school" disabled={activeIndex<=0} onClick={()=>openCase(filtered[activeIndex-1])}><ArrowLeft size={16}/></button><button className="icon-button" aria-label="Next school" onClick={goNext}><ArrowRight size={16}/></button></div></div></div>
           {editingReview&&<div className="editing-banner"><div><strong>{accepted.has(editingId)?'Correcting a published review':'Editing a saved review'}</strong><p>Save your changes, or return to My reviews and resume later. Each variable keeps its saved program scope.</p></div><div><button className="text-button" onClick={()=>setView('saved')}>Back to My reviews</button><button className="text-button" onClick={discardEdits}>Discard edits</button></div></div>}
           <div className="known-strip"><div className="known-item"><span>INSTRUCTIONAL LANGUAGES</span><strong>{valuesText(site.known.instruction_languages)}</strong></div><div className="known-item"><span>LANGUAGE ALLOCATION</span><strong>{valuesText(site.known.elementary_allocation_model)}</strong></div><div className="known-item"><span>PROGRAM TYPE</span><strong>{valuesText(site.known.population_model)}</strong></div><div className="known-item known-grades"><span>RECORDED GRADES</span><strong>{valuesText(site.known.programme_grade_scope)}</strong></div></div>
           <div className="case-grid"><section className="coding-card"><div className="card-header"><h2>{editingReview?'Revise your finding':'Record a finding'}</h2><span className="hand-coded">Hand-coded</span></div>
-            {current.sites.length>1&&<label className="field program-picker"><span>Program record being reviewed</span><select disabled={Boolean(editingReview)} value={site.site_id} onChange={e=>{setSiteId(e.target.value);setFormError('');}}>{current.sites.map(s=><option key={s.site_id} value={s.site_id}>{s.label} · {s.program_name}</option>)}</select></label>}
+            {current.sites.length>1&&<label className="field program-picker"><span>Program record being reviewed</span><select disabled={Boolean(editingReview)} value={site.site_id} onChange={e=>{setSiteId(e.target.value);setFormError('');}}>{availableSites.map(s=><option key={s.site_id} value={s.site_id}>{s.label} · {s.program_name}</option>)}</select></label>}
+            <ProgramStatus draft={draft} school={current} site={site} destinations={data.destination_schools||data.cases} years={SOURCE_YEARS} patch={patch}/>
             <div className="delivery-label"><div><h3>Delivery model</h3></div><label className="year-control"><span>Applies to</span><select aria-label="Review school year" value={draft.reference_year} onChange={e=>patch('reference_year',e.target.value)}>{YEARS.map(y=><option key={y} value={y}>{y.replace('-','–')}</option>)}</select></label></div>
             <fieldset className="choice-grid"><legend className="sr-only">Delivery model</legend>{[
               ['whole_school','Whole school','All students receive academic DL.'],['strand','Strand','DL runs alongside a non-DL pathway.'],['mixed','Mixed / varies','Participation differs by grade or program.']

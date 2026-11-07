@@ -220,6 +220,8 @@ def programme_rows(selection, tables, schools, target):
             listed = year in config_years
             working = (bool(op['confirmed_qualifying']) if state not in {'TX', 'OR', 'WA'}
                        else (True if state == 'TX' and year == source_year else listed))
+            if op['operation_status'] in {'hand_coded_ended','hand_coded_moved'}:
+                working = False
             row = dict(site_id=site['site_id'], program_id=site['program_id'], school_id=site['school_id'],
                 state_code=state, school_name=school['school_name'], program_name=program['program_name'],
                 target_school_year=target, selection_year=year, source_inventory_reference_year=source_year,

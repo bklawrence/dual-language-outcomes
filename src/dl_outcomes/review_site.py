@@ -32,7 +32,8 @@ def export(root, destination):
     allocated={r['school_id'] for r in programmes if r['elementary_model_labels_normalized'] and r['elementary_model_status'] not in {'conflicting','later_only','not_reported'} and not r['elementary_model_status'].startswith('not_applicable')}
     grouped=defaultdict(list)
     for row in programmes:
-        if (row['school_level']=='elementary' or row['school_id'] in allocated) and (row['school_id'] in allocated or row['in_working_cohort'] or row['in_confirmed_qualifying_cohort']):
+        manual_event=selection.program_events.get(row['site_id'])
+        if (row['school_level']=='elementary' or row['school_id'] in allocated) and (row['school_id'] in allocated or row['in_working_cohort'] or row['in_confirmed_qualifying_cohort'] or manual_event):
             grouped[row['school_id']].append(row)
     manual=[]
     for _,batch in batches(root):
@@ -73,8 +74,10 @@ def export(root, destination):
                         references[url]['locator']=observation.get('source_locator') or ''
                         if excerpt:references[url]['excerpt']=excerpt[:700]
             languages=known['instruction_languages']['value']
+            from .review_events import event_at
+            event=event_at(selection.program_events.get(site['site_id'],[]),reference)
             sites.append(dict(site_id=site['site_id'],program_id=site['program_id'],program_name=row['program_name'],
-                              label=' + '.join(languages) or row['program_name'],known=known,
+                              label=' + '.join(languages) or row['program_name'],known=known,program_event=event,
                               hand_coded_variables=[v for v in known if (site['site_id'],reference,v) in selection.overrides and selection.overrides[(site['site_id'],reference,v)].get('hand_coded')]))
         for r in manual_by_school[sid]:
             add_reference(r.get('evidence_url'),r.get('source_locator',''),r.get('source_quote',''))
@@ -88,9 +91,16 @@ def export(root, destination):
                                              for r in sorted(manual_by_school[sid],key=lambda r:(r['submitted_at'],r['review_id']))[-5:]]))
     state_names={r['state_code']:r['state_name'] for r in tables['states']}
     manifest=json.loads((root/'data/curated/manifest.json').read_text())
+    district_names={}
+    for p in programmes:
+        if p['district_names']:district_names.setdefault(p['school_id'],display_name(p['district_names']))
+    destinations=[dict(school_id=r['school_id'],school_name=display_name(r['school_name']),state_code=r['state_code'],
+                       district_name=district_names.get(r['school_id'],'')) for r in tables['schools']]
+    from .review_leaderboard import leaderboard
     data=dict(version=1,repository=config['repository'],site_url=config['site_url'],reference_year=reference,
               dataset_build_id=manifest['build_id'],updated_at=manifest['built_at'],state_names=state_names,
-              accepted_review_ids=[r['review_id'] for r in manual],accepted_batch_ids=[b['batch_id'] for _,b in batches(root)],cases=cases)
+              accepted_review_ids=[r['review_id'] for r in manual],accepted_batch_ids=[b['batch_id'] for _,b in batches(root)],cases=cases,destination_schools=destinations,
+              leaderboard=leaderboard(manual,{r['school_id']:r for r in tables['schools']}))
     destination.mkdir(parents=True,exist_ok=True)
     (destination/'queue.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n')
     return dict(schools=len(cases),allocation_known=len(allocated),delivery_queue=sum(c['allocation_known'] and any(s['known']['elementary_allocation_model']['value'] and s['known']['elementary_allocation_model']['status'] not in {'conflicting','later_only','not_reported'} and s['known']['delivery_structure']['status']!='documented' for s in c['sites']) for c in cases))

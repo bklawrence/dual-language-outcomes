@@ -15,6 +15,10 @@ export const BASIS_LABELS = {
   researcher_interpretation: 'Researcher interpretation',
   not_recorded: 'Not recorded',
 };
+export const STATUS_LABELS = {ended:'Ended',moved:'Moved to another school',operating:'Operating / reopened'};
+export function destinationLabel(school) {
+  return [school.school_name,school.district_name,school.state_code].filter(Boolean).join(' · ');
+}
 
 export function formatValue(value) {
   if (Array.isArray(value)) return value.map(formatValue).join(' + ') || 'Not recorded';
@@ -26,7 +30,7 @@ export function formatValue(value) {
 export function draftFromReview(record, school, empty) {
   const available = new Set(school.sites.map(s => s.site_id));
   const changes = record.changes || {};
-  for (const change of Object.values(changes)) {
+  for (const change of [...Object.values(changes),...(record.program_event?[record.program_event]:[])]) {
     if (change.site_ids.some(id => !available.has(id))) {
       throw Error('A program in this review is outside the current inventory. Export a backup before revising its scope.');
     }
@@ -34,7 +38,7 @@ export function draftFromReview(record, school, empty) {
   const specific = ['population_model', 'elementary_allocation_model', 'instruction_languages']
     .map(v => changes[v]?.site_ids[0]).find(Boolean);
   const selected = available.has(record.selected_site_id) ? record.selected_site_id
-    : specific || changes.delivery_structure?.site_ids[0] || school.sites[0].site_id;
+    : specific || record.program_event?.site_ids[0] || changes.delivery_structure?.site_ids[0] || school.sites[0].site_id;
   const deliveryIds = changes.delivery_structure?.site_ids || [selected];
   return {
     ...empty,
@@ -53,10 +57,17 @@ export function draftFromReview(record, school, empty) {
     original_targets: Object.fromEntries(Object.entries(changes).map(([v, c]) => [v, [...c.site_ids]])),
     editing_review_id: record.review_id,
     supersedes_review_id: record.supersedes_review_id || null,
+    program_status: record.program_event?.kind || '', status_year: record.program_event?.first_school_year || '',
+    all_status: record.program_event?.site_ids.length===available.size,
+    event_site_ids: record.program_event?.site_ids ? [...record.program_event.site_ids] : [selected],
+    destination_name: record.program_event?.destination_school_name || '',
+    destination_id: record.program_event?.destination_school_id || '',
+    destination_url: record.program_event?.destination_url || '',
   };
 }
 
 export function targetsForDraft(draft, variable, selectedSite, school) {
+  if(variable==='program_event')return [...(draft.all_status?school.sites.map(s=>s.site_id):draft.event_site_ids||[selectedSite.site_id])];
   const ids = variable === 'delivery_structure'
     ? draft.all_delivery ? school.sites.map(s => s.site_id) : draft.delivery_site_ids || [selectedSite.site_id]
     : draft.original_targets?.[variable] || [selectedSite.site_id];
@@ -69,11 +80,14 @@ export function hasReviewEdits(record, draft, school) {
   try {
     const original = draftFromReview(record, school, {});
     const fields = ['delivery', 'population', 'allocation', 'languages', 'evidence_url', 'notes',
-      'source_quote', 'source_locator', 'grade_scope', 'source_school_year', 'reference_year', 'coding_method'];
+      'source_quote', 'source_locator', 'grade_scope', 'source_school_year', 'reference_year', 'coding_method',
+      'program_status','status_year','destination_name','destination_id','destination_url'];
     if (fields.some(key => (draft[key] || '').trim() !== (original[key] || '').trim())) return true;
     const selected = school.sites.find(s => s.site_id === draft.site_id);
     if (!selected) return true;
-    return Object.entries(record.changes || {}).some(([variable, change]) =>
+    const scoped=Object.entries(record.changes || {});
+    if(record.program_event)scoped.push(['program_event',record.program_event]);
+    return scoped.some(([variable, change]) =>
       JSON.stringify(targetsForDraft(draft, variable, selected, school).sort()) !== JSON.stringify([...change.site_ids].sort()));
   } catch { return true; }
 }

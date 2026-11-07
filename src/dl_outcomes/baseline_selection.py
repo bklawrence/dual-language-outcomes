@@ -202,6 +202,8 @@ class Selection:
         # Manual decisions explicitly select a field for a reference year.
         # Retain prior machine/researcher observations and all previous reviews.
         self.overrides.update(selection_overrides(tables))
+        from .review_events import event_index
+        self.program_events = event_index(tables)
         self.policy_cache = {}
 
     def policy_choices(self, year):
@@ -243,6 +245,16 @@ class Selection:
 
     def operation(self, site, year):
         rows = self.statuses[site['site_id']]
+        from .review_events import event_at
+        event = event_at(self.program_events.get(site['site_id'], []), year)
+        if event and event['kind'] in {'ended','moved'}:
+            selected = [r for r in rows if r['_id']==event['status_id']]
+            return dict(operation_status='hand_coded_'+event['kind'],operation_confirmed=0,confirmed_qualifying=0,
+                        operation_record_ids=joined(r['_id'] for r in selected),operating_statuses=event['kind'],
+                        eligibility_statuses='not_operating_at_this_site',public_funding_statuses='',selected=selected)
+        # Event corrections choose the selected current event; historical rows
+        # remain in the canonical table without competing with original reviews.
+        rows = [r for r in rows if not r['confirmation_method'].startswith('researcher_hand_coding_')]
         exact = [r for r in rows if evidence_year(r) == year]
         confirmed = [r for r in exact if r['operating_status'] == 'confirmed_' + year.replace('-', '_')]
         documented = [r for r in confirmed if (r['eligibility_status'] or '').startswith('documented_')]

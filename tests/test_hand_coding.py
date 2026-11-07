@@ -151,5 +151,50 @@ class HandCodingTests(unittest.TestCase):
         self.assertEqual(tables['program_configurations'],self.tables['program_configurations'])
         self.assertEqual(tables['allocation_schedules'],self.tables['allocation_schedules'])
 
+    def event_record(self,kind='ended',first='2024-25',**changes):
+        return self.record(changes={},program_event=dict(kind=kind,first_school_year=first,site_ids=[self.site['site_id']],
+            destination_school_id=None,destination_school_name='',destination_url=''),**changes)
+
+    def test_ended_program_is_dated_and_does_not_erase_earlier_history(self):
+        record=self.event_record();tables,_=self.reviewed_tables([record]);selection=Selection(tables,self.rules)
+        before=Selection(self.tables,self.rules)
+        self.assertEqual(selection.operation(self.site,'2023-24'),before.operation(self.site,'2023-24'))
+        self.assertEqual(selection.operation(self.site,'2024-25')['operation_status'],'hand_coded_ended')
+        self.assertEqual(selection.operation(self.site,'2025-26')['confirmed_qualifying'],0)
+        self.assertEqual(len(tables['program_status_history']),len(self.tables['program_status_history'])+1)
+        for name in ['program_sites','program_languages','allocation_schedules','program_configurations']:
+            self.assertEqual(tables[name],self.tables[name])
+        self.assertEqual(validate_tables(tables,self.schema),[])
+
+    def test_move_keeps_destination_identity_and_does_not_copy_configuration(self):
+        record=self.event_record('moved');other=next(s for s in self.schools.values() if s['school_id']!=self.site['school_id'])
+        record['program_event'].update(destination_school_id=other['school_id'],destination_school_name=other['school_name'])
+        tables,_=self.reviewed_tables([record]);selection=Selection(tables,self.rules)
+        self.assertEqual(selection.operation(self.site,'2025-26')['operation_status'],'hand_coded_moved')
+        claim=next(c for c in tables['evidence_claims'] if c['attribute']=='hand_coded_program_event')
+        self.assertEqual(json.loads(claim['reported_value'])['destination_school_id'],other['school_id'])
+        self.assertEqual(tables['program_sites'],self.tables['program_sites'])
+        self.assertEqual(tables['allocation_schedules'],self.tables['allocation_schedules'])
+        self.assertEqual(validate_tables(tables,self.schema),[])
+
+    def test_program_events_require_a_source_and_cannot_cross_campuses_or_backfill_future_status(self):
+        other=next(s for s in self.sites.values() if s['school_id']!=self.site['school_id'])
+        invalid=[self.event_record(evidence_url=''),self.event_record(first='2026-27'),self.event_record(kind=['ended'])]
+        cross=self.event_record();cross['program_event']['site_ids']=[other['site_id']];invalid.append(cross)
+        destination=self.event_record('moved');destination['program_event']['destination_school_id']=self.site['school_id'];invalid.append(destination)
+        for record in invalid:
+            with self.assertRaises(ValueError):validate_record(record,self.sites,self.schools)
+
+    def test_status_correction_and_reopening_have_separate_temporal_effects(self):
+        old=self.event_record(first='2024-25')
+        corrected=self.event_record(first='2025-26',supersedes_review_id=old['review_id'])
+        tables,_=self.reviewed_tables([old,corrected]);selection=Selection(tables,self.rules)
+        self.assertEqual(selection.operation(self.site,'2024-25'),Selection(self.tables,self.rules).operation(self.site,'2024-25'))
+        reopening=self.event_record('operating',first='2025-26')
+        tables,_=self.reviewed_tables([old,reopening]);selection=Selection(tables,self.rules)
+        self.assertEqual(selection.operation(self.site,'2024-25')['operation_status'],'hand_coded_ended')
+        self.assertNotEqual(selection.operation(self.site,'2025-26')['operation_status'],'hand_coded_ended')
+        self.assertEqual(validate_tables(tables,self.schema),[])
+
 
 if __name__=='__main__':unittest.main()

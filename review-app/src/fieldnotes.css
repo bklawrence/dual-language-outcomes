@@ -225,6 +225,23 @@ h1, h2, h3 { font-weight: 550; }
 .pending-submission .copy-submission { margin-top: 0; }
 .manual-submission { margin-top: 20px; }
 .manual-submission textarea { font-family: monospace; font-size: 11px; overflow-wrap: anywhere; }
+.program-status-fields { border-bottom: 1px solid var(--border); margin-bottom: 20px; }
+.program-event-summary { margin: 15px 0; border-left: 1px solid var(--accent); padding-left: 14px; }
+.program-event-summary>p { font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.leaderboard-scroll { overflow-x: auto; }
+.leaderboard-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.7; }
+.leaderboard-table th,.leaderboard-table td { padding: 13px 12px 13px 0; border-bottom: 1px solid var(--border); text-align: right; font-variant-numeric: tabular-nums; }
+.leaderboard-table thead th { font-size: 10px; color: var(--muted); font-weight: 400; border-top: 1px solid var(--border); }
+.leaderboard-table th:nth-child(2) { text-align: left; font-weight: 500; }
+.leaderboard-table th:first-child,.leaderboard-table td:first-child { text-align: left; color: var(--muted); }
+.your-ranking th { color: var(--accent); }
+.earned-badges { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; min-width: 42px; color: var(--accent); }
+.leaderboard-note { font-size: 11px; line-height: 1.8; color: var(--muted); margin-top: 18px; }
+.badges-heading { font-family: Georgia,serif; font-size: 25px; font-weight: 400; margin-top: 38px; }
+.badge-key { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 18px 28px; margin-top: 22px; }
+.badge-key>div { display: grid; grid-template-columns: 22px 1fr; gap: 4px 8px; font-size: 12px; }
+.badge-key svg { grid-row: span 2; color: var(--accent); }
+.badge-key dd { margin: 0; font-size: 11px; color: var(--muted); }
 .form-error { color: #8d3829; border-left: 2px solid #8d3829; padding: 8px 12px; font-size: 12px; line-height: 1.65; margin: 12px 0 18px; }
 .saved-view { max-width: 1050px; padding: 38px 40px 60px; margin: auto; }
 .saved-view h1 { font-size: 44px; }

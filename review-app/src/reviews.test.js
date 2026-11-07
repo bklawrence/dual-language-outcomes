@@ -84,3 +84,15 @@ test('review previews link only to ordinary web sources',()=>{
   assert.equal(sourceLink('https://example.edu/page?q=1'),'https://example.edu/page?q=1');
   for(const value of ['javascript:alert(1)','https://name:secret@example.edu','file:///tmp/test','bad url'])assert.equal(sourceLink(value),'');
 });
+
+test('status-only reviews preserve the date, destination and selected-program scope when edited',()=>{
+  const moved={...record,changes:{},program_event:{kind:'moved',first_school_year:'2024-25',site_ids:['mandarin'],
+    destination_school_id:'other',destination_school_name:'New Campus',destination_url:'https://example.edu/new'}};
+  const draft=draftFromReview(moved,school,empty);
+  assert.equal(draft.site_id,'mandarin');assert.equal(draft.program_status,'moved');
+  assert.equal(draft.status_year,'2024-25');assert.equal(draft.destination_id,'other');
+  assert.equal(hasReviewEdits(moved,draft,school),false);
+  assert.deepEqual(targetsForDraft(draft,'program_event',school.sites[1],school),['mandarin']);
+  draft.all_status=true;assert.equal(hasReviewEdits(moved,draft,school),true);
+  assert.deepEqual(targetsForDraft(draft,'program_event',school.sites[1],school),['spanish','mandarin','french']);
+});

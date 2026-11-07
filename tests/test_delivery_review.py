@@ -5,7 +5,7 @@ import unittest
 
 from dl_outcomes.baseline_selection import Selection, select_rows
 from dl_outcomes.delivery_review import (
-    added_ids, audit_errors, inputs, prior_tables, render_reports,
+    added_ids, audit_errors, inputs, prior_tables, render_reports, review_projection,
 )
 from dl_outcomes.validation import load
 
@@ -15,8 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 class DeliveryReviewTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.schema, cls.tables = load(ROOT)
+        cls.schema, cls.live_tables = load(ROOT)
         cls.config, cls.files = inputs(ROOT)
+        # This regression checks the 35-school research pass, independently of
+        # later Fieldnotes submissions. Keep auditing the full live data below.
+        cls.tables = review_projection(cls.live_tables, cls.files, cls.schema)
         cls.rules = json.loads((ROOT/'data/baselines/national_structural_v1/rules.json').read_text())
         cls.selection = Selection(cls.tables, cls.rules)
         cls.prior = prior_tables(cls.tables, cls.files, cls.schema)
@@ -36,7 +39,7 @@ class DeliveryReviewTests(unittest.TestCase):
             select_rows([row], '2026-27', override_ids=['review'])
 
     def test_original_evidence_identities_assessments_and_frozen_outputs_survive(self):
-        self.assertEqual(audit_errors(ROOT, self.tables), [])
+        self.assertEqual(audit_errors(ROOT, self.live_tables), [])
         added = added_ids(self.files)
         self.assertEqual(set(added) - {'datasets', 'sources', 'program_configurations', 'evidence_claims'}, set())
         for name in ['schools', 'programs', 'program_sites', 'allocation_schedules',
