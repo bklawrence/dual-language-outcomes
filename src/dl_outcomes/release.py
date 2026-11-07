@@ -21,6 +21,14 @@ def release(root: Path, release_id: str):
     paths = set(build_manifest["inputs"]) | set(build_manifest["pipeline_files"]) | set(build_manifest["outputs"])
     paths.update(build_manifest.get("reports", {}))
     paths.update(["data/curated/manifest.json", "pyproject.toml", "requirements-lock.txt"])
+    baseline_index = root / 'data/baselines/index.json'
+    if baseline_index.exists():
+        paths.add('data/baselines/index.json')
+        for baseline_id in json.loads(baseline_index.read_text()):
+            prefix = 'data/baselines/' + baseline_id + '/'
+            frozen = json.loads((root / prefix / 'manifest.json').read_text())
+            paths.update(prefix + name for name in frozen['files'])
+            paths.add(prefix + 'manifest.json')
     bundle = destination / "research_bundle.zip"
     with zipfile.ZipFile(bundle, "w", compression=zipfile.ZIP_DEFLATED) as archive:
         for relative in sorted(paths):

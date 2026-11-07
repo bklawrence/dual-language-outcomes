@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:dual-language-outcomes:catalog:1.4.0",
+  "$id": "urn:dual-language-outcomes:catalog:1.5.0",
   "title": "National longitudinal DL research contracts",
-  "x-schema-version": "1.4.0",
+  "x-schema-version": "1.5.0",
   "$defs": {
     "states": {
       "type": "object",
@@ -171,6 +171,7 @@
           "minLength": 1,
           "enum": [
             "saved_public_source",
+            "saved_source_extract",
             "legacy_snapshot",
             "metadata_only"
           ]

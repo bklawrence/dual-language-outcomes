@@ -1,0 +1,1017 @@
+[
+  {
+    "adapter": "alaska",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "AK",
+    "state_fips": "02",
+    "state_name": "Alaska",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/ak_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/ak_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "alabama",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state south-central structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "AL",
+    "state_fips": "01",
+    "state_name": "Alabama",
+    "structural_inputs": {
+      "grade_context_decisions": "data/registry/south_central_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/south_central_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/south_central_2026_11_05/al_programmes.json",
+      "retrievals": "data/registry/south_central_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/south_central_2026_11_05/reviews.json",
+      "screening": "data/registry/south_central_2026_11_05/al_screening.json",
+      "selection_summary": "data/registry/south_central_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/south_central_2026_11_05/extractions/index.json",
+      "sources": "data/registry/south_central_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "arkansas",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state south-central structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "AR",
+    "state_fips": "05",
+    "state_name": "Arkansas",
+    "structural_inputs": {
+      "grade_context_decisions": "data/registry/south_central_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/south_central_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/south_central_2026_11_05/ar_programmes.json",
+      "retrievals": "data/registry/south_central_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/south_central_2026_11_05/reviews.json",
+      "screening": "data/registry/south_central_2026_11_05/ar_screening.json",
+      "selection_summary": "data/registry/south_central_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/south_central_2026_11_05/extractions/index.json",
+      "sources": "data/registry/south_central_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "arizona",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "AZ",
+    "state_fips": "04",
+    "state_name": "Arizona",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/az_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/az_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "california",
+    "collection_status": "integrated_partial",
+    "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+    "state_code": "CA",
+    "state_fips": "06",
+    "state_name": "California",
+    "structural_inputs": {
+      "change_events": "data/registry/five_state_2025_26/change_events.csv",
+      "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+      "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+      "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+      "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+      "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+      "inventory": "data/registry/state_dl_programs_california_2025_26.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+      "prior_inventory": "data/registry/state_dl_programs_california_2026_27.csv",
+      "school_leads": "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv",
+      "sources": "data/registry/five_state_2025_26/sources.csv"
+    }
+  },
+  {
+    "adapter": "colorado",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "CO",
+    "state_fips": "08",
+    "state_name": "Colorado",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/co_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/co_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "connecticut",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "CT",
+    "state_fips": "09",
+    "state_name": "Connecticut",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/ct_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/ct_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "delaware",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "DE",
+    "state_fips": "10",
+    "state_name": "Delaware",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/de_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/de_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "florida",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "FL",
+    "state_fips": "12",
+    "state_name": "Florida",
+    "structural_inputs": {
+      "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/southeast_2026_11_05/fl_programmes.json",
+      "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/southeast_2026_11_05/fl_screening.json",
+      "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+      "sources": "data/registry/southeast_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "georgia",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "GA",
+    "state_fips": "13",
+    "state_name": "Georgia",
+    "structural_inputs": {
+      "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/southeast_2026_11_05/ga_programmes.json",
+      "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/southeast_2026_11_05/ga_screening.json",
+      "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+      "sources": "data/registry/southeast_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "hawaii",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "HI",
+    "state_fips": "15",
+    "state_name": "Hawaii",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/hi_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/hi_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "iowa",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "IA",
+    "state_fips": "19",
+    "state_name": "Iowa",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/ia_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/ia_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "idaho",
+    "collection_status": "integrated_partial",
+    "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+    "state_code": "ID",
+    "state_fips": "16",
+    "state_name": "Idaho",
+    "structural_inputs": {
+      "change_events": "data/registry/five_state_2025_26/change_events.csv",
+      "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+      "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+      "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+      "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+      "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+      "inventory": "data/registry/state_dl_programs_idaho_2025_26.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+      "prior_inventory": "data/registry/state_dl_programs_idaho_2026_27.csv",
+      "sources": "data/registry/five_state_2025_26/sources.csv"
+    }
+  },
+  {
+    "adapter": "illinois",
+    "collection_status": "integrated_partial",
+    "historical_research_inputs": {
+      "codebook": "data/registry/illinois_2021_22_user_2026_11_05/codebook.json",
+      "config": "config/research_migrations/illinois_2021_22_user_2026_11_05.json",
+      "new_programmes": "data/registry/illinois_2021_22_user_2026_11_05/new_programmes.json",
+      "new_schools": "data/registry/illinois_2021_22_user_2026_11_05/new_schools.json",
+      "policy_decisions": "data/registry/illinois_2021_22_user_2026_11_05/policy_decisions.json",
+      "records": "data/registry/illinois_2021_22_user_2026_11_05/records.json"
+    },
+    "notes": "Four-state Great Lakes structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "IL",
+    "state_fips": "17",
+    "state_name": "Illinois",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/great_lakes_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/great_lakes_2026_11_05/il_programmes.json",
+      "retrievals": "data/registry/great_lakes_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/great_lakes_2026_11_05/reviews.json",
+      "screening": "data/registry/great_lakes_2026_11_05/il_screening.json",
+      "selection_summary": "data/registry/great_lakes_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/great_lakes_2026_11_05/extractions/index.json",
+      "sources": "data/registry/great_lakes_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "indiana",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state Great Lakes structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "IN",
+    "state_fips": "18",
+    "state_name": "Indiana",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/great_lakes_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/great_lakes_2026_11_05/in_programmes.json",
+      "retrievals": "data/registry/great_lakes_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/great_lakes_2026_11_05/reviews.json",
+      "screening": "data/registry/great_lakes_2026_11_05/in_screening.json",
+      "selection_summary": "data/registry/great_lakes_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/great_lakes_2026_11_05/extractions/index.json",
+      "sources": "data/registry/great_lakes_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "kansas",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "KS",
+    "state_fips": "20",
+    "state_name": "Kansas",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/ks_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/ks_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "kentucky",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state OH/KY/WV/VA structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "KY",
+    "state_fips": "21",
+    "state_name": "Kentucky",
+    "structural_inputs": {
+      "grade_context": "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/oh_ky_wv_va_2026_11_05/ky_programmes.json",
+      "retrievals": "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/oh_ky_wv_va_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/oh_ky_wv_va_2026_11_05/ky_screening.json",
+      "selection_summary": "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json",
+      "sources": "data/registry/oh_ky_wv_va_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "louisiana",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state south-central structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "LA",
+    "state_fips": "22",
+    "state_name": "Louisiana",
+    "structural_inputs": {
+      "grade_context_decisions": "data/registry/south_central_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/south_central_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/south_central_2026_11_05/la_programmes.json",
+      "retrievals": "data/registry/south_central_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/south_central_2026_11_05/reviews.json",
+      "screening": "data/registry/south_central_2026_11_05/la_screening.json",
+      "selection_summary": "data/registry/south_central_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/south_central_2026_11_05/extractions/index.json",
+      "sources": "data/registry/south_central_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "massachusetts",
+    "collection_status": "integrated_partial",
+    "notes": "Final five-state New England structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MA",
+    "state_fips": "25",
+    "state_name": "Massachusetts",
+    "structural_inputs": {
+      "grade_context": "data/registry/new_england_2026_11_06/grade_context_decisions.json",
+      "identity_decisions": "data/registry/new_england_2026_11_06/identity_decisions.json",
+      "programmes": "data/registry/new_england_2026_11_06/ma_programmes.json",
+      "retrievals": "data/registry/new_england_2026_11_06/retrieval_log.csv",
+      "reviews": "data/registry/new_england_2026_11_06/reviews.json",
+      "roster_reconciliation": "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/new_england_2026_11_06/school_grade_updates.json",
+      "screening": "data/registry/new_england_2026_11_06/ma_screening.json",
+      "selection_summary": "data/registry/new_england_2026_11_06/selection_summary.json",
+      "source_extractions": "data/registry/new_england_2026_11_06/extractions/index.json",
+      "source_redactions": "data/registry/new_england_2026_11_06/source_redactions.json",
+      "sources": "data/registry/new_england_2026_11_06/sources.json"
+    }
+  },
+  {
+    "adapter": "maryland",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MD",
+    "state_fips": "24",
+    "state_name": "Maryland",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/md_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/md_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "maine",
+    "collection_status": "integrated_partial",
+    "notes": "Final five-state New England structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "ME",
+    "state_fips": "23",
+    "state_name": "Maine",
+    "structural_inputs": {
+      "grade_context": "data/registry/new_england_2026_11_06/grade_context_decisions.json",
+      "identity_decisions": "data/registry/new_england_2026_11_06/identity_decisions.json",
+      "programmes": "data/registry/new_england_2026_11_06/me_programmes.json",
+      "retrievals": "data/registry/new_england_2026_11_06/retrieval_log.csv",
+      "reviews": "data/registry/new_england_2026_11_06/reviews.json",
+      "roster_reconciliation": "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/new_england_2026_11_06/school_grade_updates.json",
+      "screening": "data/registry/new_england_2026_11_06/me_screening.json",
+      "selection_summary": "data/registry/new_england_2026_11_06/selection_summary.json",
+      "source_extractions": "data/registry/new_england_2026_11_06/extractions/index.json",
+      "source_redactions": "data/registry/new_england_2026_11_06/source_redactions.json",
+      "sources": "data/registry/new_england_2026_11_06/sources.json"
+    }
+  },
+  {
+    "adapter": "michigan",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state Great Lakes structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MI",
+    "state_fips": "26",
+    "state_name": "Michigan",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/great_lakes_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/great_lakes_2026_11_05/mi_programmes.json",
+      "retrievals": "data/registry/great_lakes_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/great_lakes_2026_11_05/reviews.json",
+      "screening": "data/registry/great_lakes_2026_11_05/mi_screening.json",
+      "selection_summary": "data/registry/great_lakes_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/great_lakes_2026_11_05/extractions/index.json",
+      "sources": "data/registry/great_lakes_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "minnesota",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MN",
+    "state_fips": "27",
+    "state_name": "Minnesota",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/mn_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/mn_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "missouri",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MO",
+    "state_fips": "29",
+    "state_name": "Missouri",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/mo_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/mo_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "mississippi",
+    "collection_status": "screened_no_verified_programme",
+    "notes": "Five-state south-central structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "MS",
+    "state_fips": "28",
+    "state_name": "Mississippi",
+    "structural_inputs": {
+      "grade_context_decisions": "data/registry/south_central_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/south_central_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/south_central_2026_11_05/ms_programmes.json",
+      "retrievals": "data/registry/south_central_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/south_central_2026_11_05/reviews.json",
+      "screening": "data/registry/south_central_2026_11_05/ms_screening.json",
+      "selection_summary": "data/registry/south_central_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/south_central_2026_11_05/extractions/index.json",
+      "sources": "data/registry/south_central_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "montana",
+    "collection_status": "integrated_partial",
+    "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+    "state_code": "MT",
+    "state_fips": "30",
+    "state_name": "Montana",
+    "structural_inputs": {
+      "change_events": "data/registry/five_state_2025_26/change_events.csv",
+      "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+      "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+      "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+      "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+      "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+      "inventory": "data/registry/state_dl_programs_montana_2025_26.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+      "prior_inventory": "data/registry/state_dl_programs_montana_2026_27.csv",
+      "sources": "data/registry/five_state_2025_26/sources.csv"
+    }
+  },
+  {
+    "adapter": "north_carolina",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "NC",
+    "state_fips": "37",
+    "state_name": "North Carolina",
+    "structural_inputs": {
+      "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/southeast_2026_11_05/nc_programmes.json",
+      "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/southeast_2026_11_05/nc_screening.json",
+      "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+      "sources": "data/registry/southeast_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "north_dakota",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "ND",
+    "state_fips": "38",
+    "state_name": "North Dakota",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/nd_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/nd_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "nebraska",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "NE",
+    "state_fips": "31",
+    "state_name": "Nebraska",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/ne_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/ne_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "new_hampshire",
+    "collection_status": "integrated_partial",
+    "notes": "Final five-state New England structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "NH",
+    "state_fips": "33",
+    "state_name": "New Hampshire",
+    "structural_inputs": {
+      "grade_context": "data/registry/new_england_2026_11_06/grade_context_decisions.json",
+      "identity_decisions": "data/registry/new_england_2026_11_06/identity_decisions.json",
+      "programmes": "data/registry/new_england_2026_11_06/nh_programmes.json",
+      "retrievals": "data/registry/new_england_2026_11_06/retrieval_log.csv",
+      "reviews": "data/registry/new_england_2026_11_06/reviews.json",
+      "roster_reconciliation": "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/new_england_2026_11_06/school_grade_updates.json",
+      "screening": "data/registry/new_england_2026_11_06/nh_screening.json",
+      "selection_summary": "data/registry/new_england_2026_11_06/selection_summary.json",
+      "source_extractions": "data/registry/new_england_2026_11_06/extractions/index.json",
+      "source_redactions": "data/registry/new_england_2026_11_06/source_redactions.json",
+      "sources": "data/registry/new_england_2026_11_06/sources.json"
+    }
+  },
+  {
+    "adapter": "new_jersey",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "NJ",
+    "state_fips": "34",
+    "state_name": "New Jersey",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/nj_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/nj_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "new_mexico",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "NM",
+    "state_fips": "35",
+    "state_name": "New Mexico",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/nm_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/nm_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "nevada",
+    "collection_status": "integrated_partial",
+    "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+    "state_code": "NV",
+    "state_fips": "32",
+    "state_name": "Nevada",
+    "structural_inputs": {
+      "change_events": "data/registry/five_state_2025_26/change_events.csv",
+      "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+      "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+      "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+      "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+      "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+      "inventory": "data/registry/state_dl_programs_nevada_2025_26.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+      "prior_inventory": "data/registry/state_dl_programs_nevada_2026_27.csv",
+      "sources": "data/registry/five_state_2025_26/sources.csv"
+    }
+  },
+  {
+    "adapter": "new_york",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural review with a New York allocation follow-up on 2026-11-06. All 200 original elementary-containing hosts reviewed. Explicit models, researcher inferences and later policies remain separate. Partial inventory; proficiency collection deferred.",
+    "state_code": "NY",
+    "state_fips": "36",
+    "state_name": "New York",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "ny_allocation_followup": "config/research_migrations/ny_allocation_followup_2026_11_06.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/ny_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/ny_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "ohio",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state OH/KY/WV/VA structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "OH",
+    "state_fips": "39",
+    "state_name": "Ohio",
+    "structural_inputs": {
+      "grade_context": "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/oh_ky_wv_va_2026_11_05/oh_programmes.json",
+      "retrievals": "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/oh_ky_wv_va_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/oh_ky_wv_va_2026_11_05/oh_screening.json",
+      "selection_summary": "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json",
+      "sources": "data/registry/oh_ky_wv_va_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "oklahoma",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state south-central structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "OK",
+    "state_fips": "40",
+    "state_name": "Oklahoma",
+    "structural_inputs": {
+      "grade_context_decisions": "data/registry/south_central_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/south_central_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/south_central_2026_11_05/ok_programmes.json",
+      "retrievals": "data/registry/south_central_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/south_central_2026_11_05/reviews.json",
+      "screening": "data/registry/south_central_2026_11_05/ok_screening.json",
+      "selection_summary": "data/registry/south_central_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/south_central_2026_11_05/extractions/index.json",
+      "sources": "data/registry/south_central_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "oregon",
+    "collection_status": "integrated_partial",
+    "notes": "Reconciled 2026-27 structural directory observations; NCES identity reference remains 2024-25. Composite language cells and non-DLI screening rows remain explicit. No new proficiency collection.",
+    "state_code": "OR",
+    "state_fips": "41",
+    "state_name": "Oregon",
+    "structural_inputs": {
+      "extraction_audit": "data/registry/oregon_2026_27_extraction_audit.csv",
+      "inventory": "data/registry/oregon_nces/reconciled/oregon_program_observations_with_nces_reconciled.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "original_inventory": "data/registry/state_dl_programs_oregon.csv",
+      "reconciliation_audit": "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_audit.csv",
+      "reconciliation_summary": "data/registry/oregon_nces/reconciled/oregon_nces_reconciliation_summary.json",
+      "school_crosswalk": "data/registry/oregon_nces/reconciled/oregon_nces_school_crosswalk_reconciled.csv",
+      "source_summary": "data/registry/oregon_2026_27_summary.json"
+    }
+  },
+  {
+    "adapter": "pennsylvania",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state PA/MD/DE/NJ/NY/CT structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "PA",
+    "state_fips": "42",
+    "state_name": "Pennsylvania",
+    "structural_inputs": {
+      "grade_context": "data/registry/mid_atlantic_ct_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/mid_atlantic_ct_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/mid_atlantic_ct_2026_11_05/pa_programmes.json",
+      "retrievals": "data/registry/mid_atlantic_ct_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/mid_atlantic_ct_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/mid_atlantic_ct_2026_11_05/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/mid_atlantic_ct_2026_11_05/school_grade_updates.json",
+      "screening": "data/registry/mid_atlantic_ct_2026_11_05/pa_screening.json",
+      "selection_summary": "data/registry/mid_atlantic_ct_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/mid_atlantic_ct_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/mid_atlantic_ct_2026_11_05/source_redactions.json",
+      "sources": "data/registry/mid_atlantic_ct_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "rhode_island",
+    "collection_status": "integrated_partial",
+    "notes": "Final five-state New England structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "RI",
+    "state_fips": "44",
+    "state_name": "Rhode Island",
+    "structural_inputs": {
+      "grade_context": "data/registry/new_england_2026_11_06/grade_context_decisions.json",
+      "identity_decisions": "data/registry/new_england_2026_11_06/identity_decisions.json",
+      "programmes": "data/registry/new_england_2026_11_06/ri_programmes.json",
+      "retrievals": "data/registry/new_england_2026_11_06/retrieval_log.csv",
+      "reviews": "data/registry/new_england_2026_11_06/reviews.json",
+      "roster_reconciliation": "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/new_england_2026_11_06/school_grade_updates.json",
+      "screening": "data/registry/new_england_2026_11_06/ri_screening.json",
+      "selection_summary": "data/registry/new_england_2026_11_06/selection_summary.json",
+      "source_extractions": "data/registry/new_england_2026_11_06/extractions/index.json",
+      "source_redactions": "data/registry/new_england_2026_11_06/source_redactions.json",
+      "sources": "data/registry/new_england_2026_11_06/sources.json"
+    }
+  },
+  {
+    "adapter": "south_carolina",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "SC",
+    "state_fips": "45",
+    "state_name": "South Carolina",
+    "structural_inputs": {
+      "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/southeast_2026_11_05/sc_programmes.json",
+      "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/southeast_2026_11_05/sc_screening.json",
+      "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+      "sources": "data/registry/southeast_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "south_dakota",
+    "collection_status": "integrated_partial",
+    "notes": "Seven-state structural first pass; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "SD",
+    "state_fips": "46",
+    "state_name": "South Dakota",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/northern_central_ak_hi_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/northern_central_ak_hi_2026_11_05/sd_programmes.json",
+      "retrievals": "data/registry/northern_central_ak_hi_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/northern_central_ak_hi_2026_11_05/reviews.json",
+      "screening": "data/registry/northern_central_ak_hi_2026_11_05/sd_screening.json",
+      "selection_summary": "data/registry/northern_central_ak_hi_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/northern_central_ak_hi_2026_11_05/extractions/index.json",
+      "sources": "data/registry/northern_central_ak_hi_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "tennessee",
+    "collection_status": "integrated_partial",
+    "notes": "Five-state southeast structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "TN",
+    "state_fips": "47",
+    "state_name": "Tennessee",
+    "structural_inputs": {
+      "grade_context": "data/registry/southeast_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/southeast_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/southeast_2026_11_05/tn_programmes.json",
+      "retrievals": "data/registry/southeast_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/southeast_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/southeast_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/southeast_2026_11_05/tn_screening.json",
+      "selection_summary": "data/registry/southeast_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/southeast_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/southeast_2026_11_05/source_redactions.json",
+      "sources": "data/registry/southeast_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "texas",
+    "campus_grade_context": {
+      "expected_directory_rows": 9739,
+      "raw_directory": "data/raw/tx/grade_context_2024_25_captured_2026_11_04",
+      "school_year": "2024-25",
+      "scope": "Directory grade-range screening only; neither DL-programme grades nor a 2023-24 historical grade assignment."
+    },
+    "collection_status": "pilot",
+    "notes": "Existing state research files remain available; not_migrated does not mean no data exist.",
+    "pilot": {
+      "allocations": "data/registry/texas/texas_k_allocation_evidence_pass51.csv",
+      "dl_outcomes": "data/registry/texas/tprs_verified_observations_pass45.csv",
+      "notes": "Four published school/district current-EL one-way DL groups; all tested grades, 2023–24. No track-specific or grade-specific disaggregation.",
+      "research_version": "Pass 51",
+      "review_manifest": "data/registry/texas/manifest_pass51.json",
+      "source_register": "data/registry/texas/pass51/source_register.csv",
+      "tracks": "data/registry/texas/texas_language_program_tracks_pass51.csv"
+    },
+    "state_code": "TX",
+    "state_fips": "48",
+    "state_name": "Texas"
+  },
+  {
+    "adapter": "utah",
+    "collection_status": "integrated_partial",
+    "notes": "Six-state structural first pass: 2025–26 reference assessments with source-specific earlier/undated/later evidence. Not a statewide census; unresolved history and models remain flagged. New proficiency collection deferred.",
+    "state_code": "UT",
+    "state_fips": "49",
+    "state_name": "Utah",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/western_plains_2026_11_04/identity_decisions.csv",
+      "programmes": "data/registry/western_plains_2026_11_04/ut_programmes.json",
+      "retrievals": "data/registry/western_plains_2026_11_04/retrieval_log.csv",
+      "reviews": "data/registry/western_plains_2026_11_04/reviews.json",
+      "screening": "data/registry/western_plains_2026_11_04/ut_screening.json",
+      "search_results": "data/registry/western_plains_2026_11_04/search_results.json",
+      "selection_summary": "data/registry/western_plains_2026_11_04/selection_summary.json",
+      "source_extractions": "data/registry/western_plains_2026_11_04/extractions/index.json",
+      "sources": "data/registry/western_plains_2026_11_04/sources.json"
+    }
+  },
+  {
+    "adapter": "virginia",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state OH/KY/WV/VA structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "VA",
+    "state_fips": "51",
+    "state_name": "Virginia",
+    "structural_inputs": {
+      "grade_context": "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/oh_ky_wv_va_2026_11_05/va_programmes.json",
+      "retrievals": "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/oh_ky_wv_va_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/oh_ky_wv_va_2026_11_05/va_screening.json",
+      "selection_summary": "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json",
+      "sources": "data/registry/oh_ky_wv_va_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "vermont",
+    "collection_status": "integrated_partial",
+    "notes": "Final five-state New England structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "VT",
+    "state_fips": "50",
+    "state_name": "Vermont",
+    "structural_inputs": {
+      "grade_context": "data/registry/new_england_2026_11_06/grade_context_decisions.json",
+      "identity_decisions": "data/registry/new_england_2026_11_06/identity_decisions.json",
+      "programmes": "data/registry/new_england_2026_11_06/vt_programmes.json",
+      "retrievals": "data/registry/new_england_2026_11_06/retrieval_log.csv",
+      "reviews": "data/registry/new_england_2026_11_06/reviews.json",
+      "roster_reconciliation": "data/registry/new_england_2026_11_06/extractions/roster_reconciliation.json",
+      "school_grade_updates": "data/registry/new_england_2026_11_06/school_grade_updates.json",
+      "screening": "data/registry/new_england_2026_11_06/vt_screening.json",
+      "selection_summary": "data/registry/new_england_2026_11_06/selection_summary.json",
+      "source_extractions": "data/registry/new_england_2026_11_06/extractions/index.json",
+      "source_redactions": "data/registry/new_england_2026_11_06/source_redactions.json",
+      "sources": "data/registry/new_england_2026_11_06/sources.json"
+    }
+  },
+  {
+    "adapter": "washington",
+    "collection_status": "pilot",
+    "notes": "Existing state research files remain available; not_migrated does not mean no data exist.",
+    "pilot": {
+      "outcome_school_ids": [
+        "101039",
+        "101042"
+      ],
+      "outcome_selection": "Two multilingual elementary schools; grades 3–5 SBAC academic results and available enrollment grades. Statewide program metadata retained separately.",
+      "raw_directory": "data/raw/wa/pilot_2026_11_04",
+      "school_years": [
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "state_code": "WA",
+    "state_fips": "53",
+    "state_name": "Washington"
+  },
+  {
+    "adapter": "wisconsin",
+    "collection_status": "integrated_partial",
+    "notes": "Four-state Great Lakes structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "WI",
+    "state_fips": "55",
+    "state_name": "Wisconsin",
+    "structural_inputs": {
+      "identity_decisions": "data/registry/great_lakes_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/great_lakes_2026_11_05/wi_programmes.json",
+      "retrievals": "data/registry/great_lakes_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/great_lakes_2026_11_05/reviews.json",
+      "screening": "data/registry/great_lakes_2026_11_05/wi_screening.json",
+      "selection_summary": "data/registry/great_lakes_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/great_lakes_2026_11_05/extractions/index.json",
+      "sources": "data/registry/great_lakes_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "west_virginia",
+    "collection_status": "screened_no_verified_programme",
+    "notes": "Four-state OH/KY/WV/VA structural review; 2025–26 reference assessments remain separate from source vintages. Partial inventory; absence of a verified programme is not evidence of statewide absence. Proficiency collection deferred.",
+    "state_code": "WV",
+    "state_fips": "54",
+    "state_name": "West Virginia",
+    "structural_inputs": {
+      "grade_context": "data/registry/oh_ky_wv_va_2026_11_05/grade_context_decisions.json",
+      "identity_decisions": "data/registry/oh_ky_wv_va_2026_11_05/identity_decisions.json",
+      "programmes": "data/registry/oh_ky_wv_va_2026_11_05/wv_programmes.json",
+      "retrievals": "data/registry/oh_ky_wv_va_2026_11_05/retrieval_log.csv",
+      "reviews": "data/registry/oh_ky_wv_va_2026_11_05/reviews.json",
+      "roster_reconciliation": "data/registry/oh_ky_wv_va_2026_11_05/extractions/roster_reconciliation.json",
+      "screening": "data/registry/oh_ky_wv_va_2026_11_05/wv_screening.json",
+      "selection_summary": "data/registry/oh_ky_wv_va_2026_11_05/selection_summary.json",
+      "source_extractions": "data/registry/oh_ky_wv_va_2026_11_05/extractions/index.json",
+      "source_redactions": "data/registry/oh_ky_wv_va_2026_11_05/source_redactions.json",
+      "sources": "data/registry/oh_ky_wv_va_2026_11_05/sources.json"
+    }
+  },
+  {
+    "adapter": "wyoming",
+    "collection_status": "integrated_partial",
+    "notes": "Existing structural research integrated with source-specific dates, status/eligibility and unresolved claims. No statewide completeness or new proficiency collection is asserted.",
+    "state_code": "WY",
+    "state_fips": "56",
+    "state_name": "Wyoming",
+    "structural_inputs": {
+      "change_events": "data/registry/five_state_2025_26/change_events.csv",
+      "change_events_json": "data/registry/five_state_2025_26/change_events.json",
+      "continuity_reviews": "data/registry/five_state_2025_26/continuity_reviews.csv",
+      "continuity_reviews_json": "data/registry/five_state_2025_26/continuity_reviews.json",
+      "curated_claims": "data/registry/five_state_2025_26/curated_claims.json",
+      "evidence_ledger": "data/registry/five_state_2025_26/evidence_ledger.csv",
+      "inventory": "data/registry/state_dl_programs_wyoming_2025_26.csv",
+      "migration_audit": "config/research_migrations/structural_integration_2026_11_04.json",
+      "prior_evidence_ledger": "data/registry/five_state_2026_27/evidence_ledger.csv",
+      "prior_inventory": "data/registry/state_dl_programs_wyoming_2026_27.csv",
+      "sources": "data/registry/five_state_2025_26/sources.csv"
+    }
+  }
+]

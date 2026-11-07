@@ -1,0 +1,741 @@
+{
+  "baseline_id": "national_structural_v1",
+  "canonical_build_id": "build-519c693562325951b48fc6006e561e53",
+  "canonical_data_base_git_revision": "a646d4debb4b9de4ac23c7664d32f0f9921a8978",
+  "completeness": "partial_inventory_not_a_national_census",
+  "evidence_tables": {
+    "allocation_schedules": {
+      "original_path": "data/curated/program_history/allocation_schedules.csv",
+      "rows": 2823,
+      "sha256": "6ae06364284ab877063999a0c3e4d3b24ac59ccf1213304fc9588f70467a13e6",
+      "snapshot_path": "evidence/allocation_schedules.csv"
+    },
+    "datasets": {
+      "original_path": "data/curated/sources/datasets.csv",
+      "rows": 66,
+      "sha256": "0a8e5c31cbaab25bb5413e4be374e86eb455aa3b6004d4969d1ae74144bf0280",
+      "snapshot_path": "evidence/datasets.csv"
+    },
+    "districts": {
+      "original_path": "data/curated/registry/districts.csv",
+      "rows": 1119,
+      "sha256": "7495001e66619babff4bc92b8428ed0c147db59dc118984128ad65c9ecd68fad",
+      "snapshot_path": "evidence/districts.csv"
+    },
+    "evidence_claims": {
+      "original_path": "data/curated/sources/evidence_claims.csv",
+      "rows": 28280,
+      "sha256": "6fa4078aeff693c359bc41ca8ae936df880b69e6a0cfa3b0de658e288719e523",
+      "snapshot_path": "evidence/evidence_claims.csv"
+    },
+    "identifiers": {
+      "original_path": "data/curated/registry/identifier_crosswalk.csv",
+      "rows": 15840,
+      "sha256": "144beda50101d1d2bcf30bb3c8eb26cde3b371debf9ffff26b8137fdea11a3e2",
+      "snapshot_path": "evidence/identifiers.csv"
+    },
+    "instructional_allocations": {
+      "original_path": "data/curated/program_history/instructional_allocations.csv",
+      "rows": 1986,
+      "sha256": "e6d28fea43621a046337a88721f33af95f08f401bb8014f531ef4129e7623779",
+      "snapshot_path": "evidence/instructional_allocations.csv"
+    },
+    "program_configurations": {
+      "original_path": "data/curated/program_history/program_configurations.csv",
+      "rows": 7300,
+      "sha256": "dd8ae08927d108951683f9e1d77cb0d48d6f6326fe50351b320fad6a4306f453",
+      "snapshot_path": "evidence/program_configurations.csv"
+    },
+    "program_languages": {
+      "original_path": "data/curated/program_history/program_languages.csv",
+      "rows": 9643,
+      "sha256": "e51a92c8e8d93565ccd0b8e02791b49a86366c3cb22240e16c6d113a961069a6",
+      "snapshot_path": "evidence/program_languages.csv"
+    },
+    "program_sites": {
+      "original_path": "data/curated/registry/program_sites.csv",
+      "rows": 5131,
+      "sha256": "38f5443f1ec111e8658384bfffd263c3dc070c0aa1146e64a2673c71f3df26e9",
+      "snapshot_path": "evidence/program_sites.csv"
+    },
+    "program_status_history": {
+      "original_path": "data/curated/program_history/program_status_history.csv",
+      "rows": 4062,
+      "sha256": "4048ebaf931ad393ada765b574998ed53fabf074138449e00347192a9be7b103",
+      "snapshot_path": "evidence/program_status_history.csv"
+    },
+    "programs": {
+      "original_path": "data/curated/registry/programs.csv",
+      "rows": 5131,
+      "sha256": "57dd3c52dee75e1d96f198ffd3d6d84ffbbadeedf0999cf47b14a346024f8182",
+      "snapshot_path": "evidence/programs.csv"
+    },
+    "school_district_history": {
+      "original_path": "data/curated/registry/school_district_history.csv",
+      "rows": 6999,
+      "sha256": "dc4df2cabbba45e1ea6b160c332adba7fced17b604f0977e9a015fb99c626aab",
+      "snapshot_path": "evidence/school_district_history.csv"
+    },
+    "schools": {
+      "original_path": "data/curated/registry/schools.csv",
+      "rows": 6220,
+      "sha256": "a6e184b160c105537bccb6aa044b67a554b395e91c857e918c2519e89bb47277",
+      "snapshot_path": "evidence/schools.csv"
+    },
+    "sources": {
+      "original_path": "data/curated/sources/source_releases.csv",
+      "rows": 1906,
+      "sha256": "b8c4b79fffa10203333a81142a053a5b2202d2e6c7b24fe857dc65bd76a0dfd3",
+      "snapshot_path": "evidence/sources.csv"
+    },
+    "states": {
+      "original_path": "data/curated/registry/states.csv",
+      "rows": 50,
+      "sha256": "2c92ad4b11fd8ef80441160e41a22522686fb82d6f79d2e07ab792af143a2401",
+      "snapshot_path": "evidence/states.csv"
+    }
+  },
+  "files": {
+    "README.md": {
+      "bytes": 6486,
+      "sha256": "33bb31cc87575ce362021b4d61b21c05f2a70f8ae838190fed6ee37782f400c8"
+    },
+    "allocation_coverage_by_state.csv": {
+      "bytes": 46976,
+      "sha256": "e0e788f9fa714941cf933300b15ccaff46869fe860a20e835545f08dc64eb788"
+    },
+    "allocation_school_units.csv": {
+      "bytes": 1755176,
+      "sha256": "9fb8c912fa9e1bcf859678cb1ef49caf1cdf1203a3c768ca815217b7fd5574b1"
+    },
+    "allocations.csv": {
+      "bytes": 3398749,
+      "sha256": "70331b9a87cb10bafc4d37b7f930915d4c15c1b1202f230d4a92efe7a96bfa62"
+    },
+    "completeness_by_language.csv": {
+      "bytes": 743507,
+      "sha256": "2d808a33fda4a5ff0f1d11b85a3ededbb9db027c0783197a60cf5ff034e81213"
+    },
+    "completeness_by_school_level.csv": {
+      "bytes": 300268,
+      "sha256": "c401087947efa38b8a3b50005efa97c76827394c9fbf7e65e7848000bfa14322"
+    },
+    "completeness_by_state.csv": {
+      "bytes": 162160,
+      "sha256": "f2510b6c5107c36e6de7c230cf16c1274ca22727f504018d649d11903328ce6f"
+    },
+    "coverage_changes.csv": {
+      "bytes": 10574,
+      "sha256": "943407a612d787d23f0f002c1acfbf38c14d380a1bc3386a6a7a637195f0c7e8"
+    },
+    "coverage_reconciliation.csv": {
+      "bytes": 10833,
+      "sha256": "285176b39ace0e9933eea2b12c66eba3aa9be8dedf3de7d53b62fdcae43fdbfe"
+    },
+    "evidence/allocation_schedules.csv": {
+      "bytes": 2124501,
+      "sha256": "6ae06364284ab877063999a0c3e4d3b24ac59ccf1213304fc9588f70467a13e6"
+    },
+    "evidence/build_manifest.json": {
+      "bytes": 665907,
+      "sha256": "3f1f95a7a360e67c196dc725992c4c19d5643756c688fbc4547021ff58418c39"
+    },
+    "evidence/datasets.csv": {
+      "bytes": 20253,
+      "sha256": "0a8e5c31cbaab25bb5413e4be374e86eb455aa3b6004d4969d1ae74144bf0280"
+    },
+    "evidence/districts.csv": {
+      "bytes": 79442,
+      "sha256": "7495001e66619babff4bc92b8428ed0c147db59dc118984128ad65c9ecd68fad"
+    },
+    "evidence/evidence_claims.csv": {
+      "bytes": 28514318,
+      "sha256": "6fa4078aeff693c359bc41ca8ae936df880b69e6a0cfa3b0de658e288719e523"
+    },
+    "evidence/identifiers.csv": {
+      "bytes": 3147387,
+      "sha256": "144beda50101d1d2bcf30bb3c8eb26cde3b371debf9ffff26b8137fdea11a3e2"
+    },
+    "evidence/instructional_allocations.csv": {
+      "bytes": 498646,
+      "sha256": "e6d28fea43621a046337a88721f33af95f08f401bb8014f531ef4129e7623779"
+    },
+    "evidence/previous_allocation_coverage.csv": {
+      "bytes": 23950,
+      "sha256": "82e8d3ede603cc11f56126745ac68216c21423fce203743ee141adb863228153"
+    },
+    "evidence/previous_allocation_school_units.csv": {
+      "bytes": 313531,
+      "sha256": "ca8fe1fddd0d616cd3ad87d8650658ac30fc82e2e0a2e284722b40325c71a2f2"
+    },
+    "evidence/program_configurations.csv": {
+      "bytes": 3589696,
+      "sha256": "dd8ae08927d108951683f9e1d77cb0d48d6f6326fe50351b320fad6a4306f453"
+    },
+    "evidence/program_languages.csv": {
+      "bytes": 4557403,
+      "sha256": "e51a92c8e8d93565ccd0b8e02791b49a86366c3cb22240e16c6d113a961069a6"
+    },
+    "evidence/program_sites.csv": {
+      "bytes": 752288,
+      "sha256": "38f5443f1ec111e8658384bfffd263c3dc070c0aa1146e64a2673c71f3df26e9"
+    },
+    "evidence/program_status_history.csv": {
+      "bytes": 2362408,
+      "sha256": "4048ebaf931ad393ada765b574998ed53fabf074138449e00347192a9be7b103"
+    },
+    "evidence/programs.csv": {
+      "bytes": 1890244,
+      "sha256": "57dd3c52dee75e1d96f198ffd3d6d84ffbbadeedf0999cf47b14a346024f8182"
+    },
+    "evidence/schema.json": {
+      "bytes": 86527,
+      "sha256": "9c20dd61b402ee977af52a5a49aefc47809d90a3fc3f4d3a6c42ff418b868edd"
+    },
+    "evidence/school_district_history.csv": {
+      "bytes": 1189282,
+      "sha256": "dc4df2cabbba45e1ea6b160c332adba7fced17b604f0977e9a015fb99c626aab"
+    },
+    "evidence/schools.csv": {
+      "bytes": 682709,
+      "sha256": "a6e184b160c105537bccb6aa044b67a554b395e91c857e918c2519e89bb47277"
+    },
+    "evidence/sources.csv": {
+      "bytes": 944494,
+      "sha256": "b8c4b79fffa10203333a81142a053a5b2202d2e6c7b24fe857dc65bd76a0dfd3"
+    },
+    "evidence/states.csv": {
+      "bytes": 805,
+      "sha256": "2c92ad4b11fd8ef80441160e41a22522686fb82d6f79d2e07ab792af143a2401"
+    },
+    "field_evidence.csv": {
+      "bytes": 12221054,
+      "sha256": "e37110a3e998dea0e2c749e7c2fb33c1dd8a3d4739fe2758c84f7845d7c546c4"
+    },
+    "gaps_by_district.csv": {
+      "bytes": 2652088,
+      "sha256": "c94f9bc8722db286666b04407d8bb7954c52f262a3feb643b7458f9ae0c2428c"
+    },
+    "identity_review_queue.csv": {
+      "bytes": 385,
+      "sha256": "3c1039f7c7b5163253469da5a481e99e656458e0f2c5bc710c15b88fc391b90b"
+    },
+    "pipeline/dl_outcomes/__init__.py": {
+      "bytes": 104,
+      "sha256": "b310f6761beee32701b6642d147df8a2eb530ba461065e0041670e45645d3fb7"
+    },
+    "pipeline/dl_outcomes/__main__.py": {
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    "pipeline/dl_outcomes/allocation_coverage.py": {
+      "bytes": 19548,
+      "sha256": "9c3aaf18b627961d734915bfbbb71e4ed4cb6cfa7ce4ee4d1aeac2e8fde47d9a"
+    },
+    "pipeline/dl_outcomes/allocation_enrichment.py": {
+      "bytes": 18956,
+      "sha256": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43"
+    },
+    "pipeline/dl_outcomes/allocation_review.py": {
+      "bytes": 17699,
+      "sha256": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be"
+    },
+    "pipeline/dl_outcomes/analytics.py": {
+      "bytes": 1675,
+      "sha256": "13d8d7a20e082dd5bf44c1cc33be9926b2000af4814789ca762a6ea51bfe8beb"
+    },
+    "pipeline/dl_outcomes/baseline.py": {
+      "bytes": 54921,
+      "sha256": "93206e1ce32e1b33580e8c99580bb9902abb88d4606ea204cd3c46e9e7cf88b7"
+    },
+    "pipeline/dl_outcomes/baseline_selection.py": {
+      "bytes": 22178,
+      "sha256": "82a3781f672b676cfc27355e586cb3a508051ca989bf06d2366e94ce9da89301"
+    },
+    "pipeline/dl_outcomes/build.py": {
+      "bytes": 14459,
+      "sha256": "73b8b6c6600f41edd26217987cf414304c53f1d30b083aceef11bb5eaf655daf"
+    },
+    "pipeline/dl_outcomes/cli.py": {
+      "bytes": 3575,
+      "sha256": "f0c1c4405cdd1b646422854f552a7045d791dc61b4498136bf1348c897182a25"
+    },
+    "pipeline/dl_outcomes/collectors/__init__.py": {
+      "bytes": 79,
+      "sha256": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d"
+    },
+    "pipeline/dl_outcomes/collectors/elementary_grades.py": {
+      "bytes": 4822,
+      "sha256": "5669af7a3b35acdc4c2a648b2a1e2fbf16fadd38df3b8af9b5b004e4157862ea"
+    },
+    "pipeline/dl_outcomes/collectors/texas_grades.py": {
+      "bytes": 2887,
+      "sha256": "a165d345b2cafc2bd2da1658ecd32392bf96340386305085232e73dc8c5b27ce"
+    },
+    "pipeline/dl_outcomes/collectors/washington.py": {
+      "bytes": 3784,
+      "sha256": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718"
+    },
+    "pipeline/dl_outcomes/contracts.py": {
+      "bytes": 1187,
+      "sha256": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674"
+    },
+    "pipeline/dl_outcomes/coverage.py": {
+      "bytes": 6386,
+      "sha256": "57535a690737596d86c8845533fa099fba5a9c38dbf7f333622802160b52054a"
+    },
+    "pipeline/dl_outcomes/elementary_audit.py": {
+      "bytes": 26389,
+      "sha256": "c19c4ca45ea27b6c9b5db7353c3c07af393159315b686a24bfff9e78d94aa2a9"
+    },
+    "pipeline/dl_outcomes/great_lakes_review.py": {
+      "bytes": 6215,
+      "sha256": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123"
+    },
+    "pipeline/dl_outcomes/identity_audit.py": {
+      "bytes": 1048,
+      "sha256": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8"
+    },
+    "pipeline/dl_outcomes/illinois_history.py": {
+      "bytes": 28936,
+      "sha256": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676"
+    },
+    "pipeline/dl_outcomes/io.py": {
+      "bytes": 2883,
+      "sha256": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902"
+    },
+    "pipeline/dl_outcomes/measurements.py": {
+      "bytes": 2362,
+      "sha256": "b85288eac1743956257a9a439f1e827a55c70776830b99cac684158b412d45c6"
+    },
+    "pipeline/dl_outcomes/mid_atlantic_ct_review.py": {
+      "bytes": 14515,
+      "sha256": "8fb40fcdc8ec3591ff67c982fa6b58b8eb80a36bd2ffbc62888e726bdfd07ff1"
+    },
+    "pipeline/dl_outcomes/new_england_review.py": {
+      "bytes": 8064,
+      "sha256": "de51d18c73214d482ef64f7f0c1d411afabd7ff3c586403577f28800b2ef3ea5"
+    },
+    "pipeline/dl_outcomes/northern_central_review.py": {
+      "bytes": 17377,
+      "sha256": "82d89b198b573aacb5ba525c893d1bb04b353fe74a2b24fc64f1a115140616c6"
+    },
+    "pipeline/dl_outcomes/ny_allocation_followup.py": {
+      "bytes": 11259,
+      "sha256": "1de59d7dfd341d348cc460040d4f54a654d55966b3c45f49e6c75dbf16c13fdc"
+    },
+    "pipeline/dl_outcomes/oh_ky_wv_va_review.py": {
+      "bytes": 9702,
+      "sha256": "4d0d4d2ec6630a7688ae40009c9b3bc2aae3cf1ccfd89245198c8cb0fe88abcb"
+    },
+    "pipeline/dl_outcomes/page_payloads.py": {
+      "bytes": 2852,
+      "sha256": "677e15508921f4c9d77918d783634e0b9ab7d30d11eb01769d8b99e4410b1742"
+    },
+    "pipeline/dl_outcomes/policy_selection.py": {
+      "bytes": 1621,
+      "sha256": "5eec28e66014f0ee56a5157f7b35d5f61c4ad97697284425790efcecd10db631"
+    },
+    "pipeline/dl_outcomes/registry.py": {
+      "bytes": 1608,
+      "sha256": "62d280fb7142e3ccc64f91edb944633e2c67575f2d82581b3344ed5055ce7fb3"
+    },
+    "pipeline/dl_outcomes/release.py": {
+      "bytes": 3084,
+      "sha256": "2c8428636fa5217b606024021a0f70e1a5c214b1c0df4bbf38c6ff04dbf33ece"
+    },
+    "pipeline/dl_outcomes/schemas/catalog.json": {
+      "bytes": 86527,
+      "sha256": "9f6c9ab7a0954bafd0e22e6407c41ace3c14d0442d5e102438e4d8c365a371c8"
+    },
+    "pipeline/dl_outcomes/south_central_review.py": {
+      "bytes": 8190,
+      "sha256": "ca6bfd090273a99623d392d9afa18a151ba64b23df8f39a477732c8c1cbf1fe1"
+    },
+    "pipeline/dl_outcomes/southeast_review.py": {
+      "bytes": 8798,
+      "sha256": "3186589878744a7743db4488923663168108d77b250d37f2d47624912e48e965"
+    },
+    "pipeline/dl_outcomes/states/__init__.py": {
+      "bytes": 92,
+      "sha256": "0c9d52140859c1fb2edb7881a486c3336a597ffca0fe34aa39ba8cd9ce83a832"
+    },
+    "pipeline/dl_outcomes/states/alabama.py": {
+      "bytes": 155,
+      "sha256": "0c80c7ac2040bf7143d3410e74b286b69b73cea42c1ff5c45ab3452a819cd027"
+    },
+    "pipeline/dl_outcomes/states/alaska.py": {
+      "bytes": 157,
+      "sha256": "5f02112e692ca52e5aee5a789c485c2cf69a5941357383725bbd9eeb3dab969d"
+    },
+    "pipeline/dl_outcomes/states/arizona.py": {
+      "bytes": 138,
+      "sha256": "9be855f0322feb97304e2b86872b27b9d90eaf875c6a9fc857873127385c3446"
+    },
+    "pipeline/dl_outcomes/states/arkansas.py": {
+      "bytes": 156,
+      "sha256": "119caf26a038f4ebd03b8d43f9706b80d64a1bb560f3e3bd83c28f73f9b0ded1"
+    },
+    "pipeline/dl_outcomes/states/california.py": {
+      "bytes": 161,
+      "sha256": "30db9113e4f0bb2700198b08f24c5e8c569bd56273c8f426449741e81b669536"
+    },
+    "pipeline/dl_outcomes/states/colorado.py": {
+      "bytes": 139,
+      "sha256": "3318001fc31fbf21909074a7affb78176bb30ba9aafb101fd2c53fa58948f0b7"
+    },
+    "pipeline/dl_outcomes/states/connecticut.py": {
+      "bytes": 161,
+      "sha256": "3deed5b07015f9e7f307ce4d0c971c0e801735d792cc18f23a0768a6b3389258"
+    },
+    "pipeline/dl_outcomes/states/delaware.py": {
+      "bytes": 158,
+      "sha256": "f111a39e1895067d50eb26abd7604d36c5644a05be3c322ab3653a6af659146c"
+    },
+    "pipeline/dl_outcomes/states/five_state.py": {
+      "bytes": 19454,
+      "sha256": "d12a720bea2fb02749e9196fdcc225a75d95a3e3de60b11598f57d99e98caa9e"
+    },
+    "pipeline/dl_outcomes/states/florida.py": {
+      "bytes": 151,
+      "sha256": "b3bb0ea2c56d97607e3cba4e343c7da3a939dae7176b2e85d096e35983ea6373"
+    },
+    "pipeline/dl_outcomes/states/georgia.py": {
+      "bytes": 151,
+      "sha256": "366b5c9e791669e1bdab21de513dfc20f620bcd669c7d16d44fcd473733a6fe5"
+    },
+    "pipeline/dl_outcomes/states/great_lakes.py": {
+      "bytes": 2560,
+      "sha256": "55da5bd97a2f85e89c940649d0e124d02425c8853bc567bb601dba3fa5e5a3df"
+    },
+    "pipeline/dl_outcomes/states/hawaii.py": {
+      "bytes": 157,
+      "sha256": "9df847ed21f47c94471de653cac2d6f4b545979f22e932545578e21043a60c5e"
+    },
+    "pipeline/dl_outcomes/states/idaho.py": {
+      "bytes": 125,
+      "sha256": "8a911bc76cd242a9acfa25390e356ce0fa2c528d34c6d91f15c75a496f3251bc"
+    },
+    "pipeline/dl_outcomes/states/illinois.py": {
+      "bytes": 5258,
+      "sha256": "49541814b4c337ce661f0f685e871dea0a7526a5357c23707e50810b492a1981"
+    },
+    "pipeline/dl_outcomes/states/indiana.py": {
+      "bytes": 153,
+      "sha256": "0410952d2d8827549cff355e65786dcafbbad249bda56fc1c3baf6e028c20e64"
+    },
+    "pipeline/dl_outcomes/states/iowa.py": {
+      "bytes": 155,
+      "sha256": "8fb282dc976135b65086abb419bcb19b2175e6f55639615a1b351aebc24933ef"
+    },
+    "pipeline/dl_outcomes/states/kansas.py": {
+      "bytes": 137,
+      "sha256": "9abc6979878adedc35423d78463d38500926c944d4ce4650f74bb678446f534d"
+    },
+    "pipeline/dl_outcomes/states/kentucky.py": {
+      "bytes": 154,
+      "sha256": "156ac5619779d45823500380a3bf435067ca37a7a3b6e83f0eea026235cf5e61"
+    },
+    "pipeline/dl_outcomes/states/louisiana.py": {
+      "bytes": 157,
+      "sha256": "a697a3d942514581ee2b5afd6b58dbc31c967cc7d4a8a56500de69a8254e2fc4"
+    },
+    "pipeline/dl_outcomes/states/maine.py": {
+      "bytes": 151,
+      "sha256": "e255cd2604a73fb70871519c761599542e813d713bc39999ebb8abc2f85cc34e"
+    },
+    "pipeline/dl_outcomes/states/maryland.py": {
+      "bytes": 158,
+      "sha256": "999fc7290f4dd4791edaa8aeca44e8da1886c42a27663d85d8e04587d13d2e12"
+    },
+    "pipeline/dl_outcomes/states/massachusetts.py": {
+      "bytes": 159,
+      "sha256": "cacfa38aa9289d78b1ee087c9f00e18e73090202db52c064ff01cce87182e7dc"
+    },
+    "pipeline/dl_outcomes/states/michigan.py": {
+      "bytes": 154,
+      "sha256": "7d33c5d4f319259b66d159718d6e919e1fe7b0ce5a473f1ca83f26a53335818a"
+    },
+    "pipeline/dl_outcomes/states/mid_atlantic_ct.py": {
+      "bytes": 5126,
+      "sha256": "7b2a8ecad3e40361c4f3e47660a0e5307bf5e02611b7dc3a71c63febca2a8727"
+    },
+    "pipeline/dl_outcomes/states/minnesota.py": {
+      "bytes": 160,
+      "sha256": "451c9bf54cf6d481e2bd830a24426c9d61b4c03ac4d9036bfbe3810d089683c5"
+    },
+    "pipeline/dl_outcomes/states/mississippi.py": {
+      "bytes": 159,
+      "sha256": "f9f7768a104796f84f78270ec36c7b35f80579b5fbb55374b8438788b6d6dce2"
+    },
+    "pipeline/dl_outcomes/states/missouri.py": {
+      "bytes": 159,
+      "sha256": "3d0c36120c458b86c7e619abbe17348d88b292b07c8f8444e373a3edbf7c0cfb"
+    },
+    "pipeline/dl_outcomes/states/montana.py": {
+      "bytes": 166,
+      "sha256": "3cb8d0c92effcdc0594fcd52fd8d66510b25deac17f3ce14f44200f96201942b"
+    },
+    "pipeline/dl_outcomes/states/nebraska.py": {
+      "bytes": 139,
+      "sha256": "c1674ca2f0f3455a2a66eb3c5959552b4669f6d8c551e7d4ff52ffec8d77a88d"
+    },
+    "pipeline/dl_outcomes/states/nevada.py": {
+      "bytes": 126,
+      "sha256": "8815357def593f7ee33aaa77b56ffaae35c53362ee84e5eb208d9e562c1ada00"
+    },
+    "pipeline/dl_outcomes/states/new_england.py": {
+      "bytes": 4837,
+      "sha256": "e010d9bc1199f373813ecf72dc04b2980eacf9d706c40a9147683f7e12bedba3"
+    },
+    "pipeline/dl_outcomes/states/new_hampshire.py": {
+      "bytes": 159,
+      "sha256": "c8325190c17199e221951f2495f60721739c7d33ab495c50a9280d2708b42d47"
+    },
+    "pipeline/dl_outcomes/states/new_jersey.py": {
+      "bytes": 160,
+      "sha256": "9b94c812312d9702f07aefca75dce86a1df45005309e7ef5460ab6e7fc216443"
+    },
+    "pipeline/dl_outcomes/states/new_mexico.py": {
+      "bytes": 141,
+      "sha256": "708940dfdd08e908408d71328fba6cd6a600348a6ccbcc1ff65a037a8de32737"
+    },
+    "pipeline/dl_outcomes/states/new_york.py": {
+      "bytes": 158,
+      "sha256": "4ea99319733853e98cfa2a119a9535e88de6a5e4be18936887556c007949bc45"
+    },
+    "pipeline/dl_outcomes/states/north_carolina.py": {
+      "bytes": 158,
+      "sha256": "780e9e57a03909a973b5b16e72dea1c2fbffe05dc672bc77b76d5e4c839f91c9"
+    },
+    "pipeline/dl_outcomes/states/north_dakota.py": {
+      "bytes": 163,
+      "sha256": "13e96295482a862f6c278b5ced5584d3519f6275a00c70fc14e107c824c2494a"
+    },
+    "pipeline/dl_outcomes/states/northern_central.py": {
+      "bytes": 1760,
+      "sha256": "9a888a76db9cf653a9d1cf6b92af466fed60d5ed1faeadb0e0d2f34c1525ff95"
+    },
+    "pipeline/dl_outcomes/states/oh_ky_wv_va.py": {
+      "bytes": 3251,
+      "sha256": "15f8586e4749259233f0704bb434d86240cff93bc672c10be916f87c523ee92e"
+    },
+    "pipeline/dl_outcomes/states/ohio.py": {
+      "bytes": 150,
+      "sha256": "72c37d21b2a324dd54815a6665da70fe07d27edb46036cca5e0d64b3794215df"
+    },
+    "pipeline/dl_outcomes/states/oklahoma.py": {
+      "bytes": 156,
+      "sha256": "b1f3cadabdb203f3e913adc87b69889d822f84bb806e68059ceb8cd6ef7d4b0a"
+    },
+    "pipeline/dl_outcomes/states/oregon.py": {
+      "bytes": 9824,
+      "sha256": "2a2f15e6c20388d5f7d8331885031ef513cc9bcfd863501336e582300db208a8"
+    },
+    "pipeline/dl_outcomes/states/pennsylvania.py": {
+      "bytes": 162,
+      "sha256": "4ebbe39f643113f8f8250c77aed88d001600e6704e51edbbdf8ba24d480d179c"
+    },
+    "pipeline/dl_outcomes/states/rhode_island.py": {
+      "bytes": 158,
+      "sha256": "5ba1cc71b90e26feb3870fc5e16fd50945c8e9267e9c9f5b19bb4138e5b0dd49"
+    },
+    "pipeline/dl_outcomes/states/south_carolina.py": {
+      "bytes": 158,
+      "sha256": "f0e224b5e3524a9d58137792defc66075b0e196688df37b620fc00242dded392"
+    },
+    "pipeline/dl_outcomes/states/south_central.py": {
+      "bytes": 2840,
+      "sha256": "31e6e3bc972d4fbac9416cf57b9033302fd716af2336c2dad13f56d574b74c22"
+    },
+    "pipeline/dl_outcomes/states/south_dakota.py": {
+      "bytes": 163,
+      "sha256": "edd759f3919cb659702c8c862648e0ecf93f25da1a100366fd93a1f20856ab4f"
+    },
+    "pipeline/dl_outcomes/states/southeast.py": {
+      "bytes": 3224,
+      "sha256": "5d1ef7e11177072e68b9408c9d747ef7d8ec9fcaf24adf18801630bcd8d96de6"
+    },
+    "pipeline/dl_outcomes/states/tennessee.py": {
+      "bytes": 153,
+      "sha256": "dcf3d8f25680dadbdc624f377986f3bec0538a416cfc315321f0bdee0ca2d090"
+    },
+    "pipeline/dl_outcomes/states/texas.py": {
+      "bytes": 16823,
+      "sha256": "e13c77a4ab6ae8a871b6e2834aaef3e34209df43099c039b5b0267e86b0c4241"
+    },
+    "pipeline/dl_outcomes/states/utah.py": {
+      "bytes": 135,
+      "sha256": "097581f857c92bab984f2bb8f025b506ed653a04b18f9b6d7cbb0b3f46edac4c"
+    },
+    "pipeline/dl_outcomes/states/vermont.py": {
+      "bytes": 153,
+      "sha256": "74df92b57a8cb1f140402ae8176262b9351855fda3baa0cfdabd3cf2d304990c"
+    },
+    "pipeline/dl_outcomes/states/virginia.py": {
+      "bytes": 154,
+      "sha256": "a7415c0932d7262deb15d235eebb799a5b053758c5602cb55596d28f84a3970c"
+    },
+    "pipeline/dl_outcomes/states/washington.py": {
+      "bytes": 15664,
+      "sha256": "f63aecb7b7c6e959d95cbb878422956bff2048d1ed00e3ed20311d3704d25835"
+    },
+    "pipeline/dl_outcomes/states/west_virginia.py": {
+      "bytes": 159,
+      "sha256": "6c9e5252f319e409cad99b49eab0c794a12aee493bef50350cab4473d844d9a0"
+    },
+    "pipeline/dl_outcomes/states/western_plains.py": {
+      "bytes": 15405,
+      "sha256": "05549fe8486e31ed65f55e79badebe374d37cd80e9cf243720799cb3871b66b9"
+    },
+    "pipeline/dl_outcomes/states/wisconsin.py": {
+      "bytes": 155,
+      "sha256": "fbd91cbfbe9021bed9c05df506bafe731065e0e23da5b2d090979549724a952b"
+    },
+    "pipeline/dl_outcomes/states/wyoming.py": {
+      "bytes": 127,
+      "sha256": "c1888ded11fe6057a865ab881d4bf361dc1cac83070f4702ab630cc9e8d14252"
+    },
+    "pipeline/dl_outcomes/structural.py": {
+      "bytes": 29849,
+      "sha256": "ce06be03dff8fb928cbbc30214c8e79a49d25d7d60e99be4f0bdc1d77e7f17ac"
+    },
+    "pipeline/dl_outcomes/validation.py": {
+      "bytes": 19505,
+      "sha256": "0904729bb327bf938f52b3484907385a1a1af9bb9d2fc8f5b399964441fc6463"
+    },
+    "pipeline/dl_outcomes/western_plains_review.py": {
+      "bytes": 14871,
+      "sha256": "e84de190de68c775b8a1a6574505105f937b0b7de0b2a6644dab392ae7f86c99"
+    },
+    "programme_fields.csv": {
+      "bytes": 19008708,
+      "sha256": "64f9b6177a284ec833ad5fffcf84763cd842fa23830e233749df21156be770b1"
+    },
+    "programmes.csv": {
+      "bytes": 4207451,
+      "sha256": "df8e83775017919bf1977c590ff0ea3226dc9a9e2c022c0f8810fa0addc44e97"
+    },
+    "requirements-lock.txt": {
+      "bytes": 227,
+      "sha256": "6b5b1fb3eba0da0f4fb1bfa68b592173e3abd8e1dd9771fc4de2f4540c8b7e57"
+    },
+    "research_priorities.csv": {
+      "bytes": 59936,
+      "sha256": "ca455c5f3aa67176f77e12781fb0a3054f1c003d1a636f081b346353a22cc413"
+    },
+    "review_queue.csv": {
+      "bytes": 5915362,
+      "sha256": "cf753fad88d21adc2ec49fee0ef816d32f909de9d28123a251560ffc87dd10d2"
+    },
+    "rules.json": {
+      "bytes": 2132,
+      "sha256": "6ef78c45684e8c9f9741389a9347993489e0a4a20fb22883a447403f036f267d"
+    },
+    "schools.csv": {
+      "bytes": 2443095,
+      "sha256": "680334d12010c37ca652d0c0dbef2ebda98a0462cbbb75608a7e549ce4916d5a"
+    },
+    "screening_school_candidates.csv": {
+      "bytes": 171103,
+      "sha256": "cc4c0497e262a919c611fa436129cf8abda9ad93f695e5bb51cb7d65007a707c"
+    },
+    "source_vintage_programmes.csv": {
+      "bytes": 1475386,
+      "sha256": "f7a3c9815f05670b8c34cfda012a4511881b70424b749f9a768c6e33357776fc"
+    },
+    "source_vintage_schools.csv": {
+      "bytes": 985762,
+      "sha256": "5a19b567a376882506329cf0ebf615a24a11588ed87653ff4b830d7b1a5c0ec4"
+    },
+    "state_profiles.json": {
+      "bytes": 65005,
+      "sha256": "0821b9d4d20670dd97d5eecf6d07e0bd268a2da1edc4762df3751bebbd36946a"
+    },
+    "state_summary.csv": {
+      "bytes": 10742,
+      "sha256": "fb21fa1fe79fcbfaa9fc1f76e7d45df523786f0735480d313c6b3764eace248c"
+    },
+    "summary.json": {
+      "bytes": 476,
+      "sha256": "53341bd1cd1c1baf59cf3528018ad6b523b4d0ec4722e8afd6e675f9f4a631b2"
+    },
+    "table_contracts.json": {
+      "bytes": 18766,
+      "sha256": "7c06f6257f2c7fc084ae8d81e11d679627322a03cc1cba6a94192b056ea82a2d"
+    },
+    "working_programmes_2025_26.csv": {
+      "bytes": 2152675,
+      "sha256": "9411c12c82ad9b037bc4a1f6890cb44aa5303e2dbc05e5d517d4cfb86ba56ec3"
+    }
+  },
+  "preserved_assessment_context_output_receipts": {
+    "data/curated/assessments/assessment_definitions.csv": {
+      "rows": 2,
+      "sha256": "d4527b364dfb87e3126de7080b04ce3846340e992e60aa150373e0576a702e2a"
+    },
+    "data/curated/assessments/metric_definitions.csv": {
+      "rows": 34,
+      "sha256": "991b400ba489382226c242149ece287514bba51b4a20624805d2db72c573b538"
+    },
+    "data/curated/assessments/population_definitions.csv": {
+      "rows": 5,
+      "sha256": "48c5235ff868041ad5e9af2a6c694294b5005587fa0c291615f89977c40da4d0"
+    },
+    "data/curated/demographics/observations.csv": {
+      "rows": 840,
+      "sha256": "41bfbcb6625d2274941108826e934f9c078f7f0d1a037867825a7ce2167d9b45"
+    },
+    "data/curated/dl_participant_outcomes/observations.csv": {
+      "rows": 8,
+      "sha256": "fdba8c134bd5c4763722867c94cf99484eea544a5ce59a93b5e4823e55cd0b9d"
+    },
+    "data/curated/el_exit/exit_policies.csv": {
+      "rows": 0,
+      "sha256": "322f42f4d5fdf1b742b15ab3e6100bdb0d0042ce362a6538c42c3f41aaeeb643"
+    },
+    "data/curated/el_exit_outcomes/observations.csv": {
+      "rows": 0,
+      "sha256": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0"
+    },
+    "data/curated/el_proficiency/observations.csv": {
+      "rows": 0,
+      "sha256": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0"
+    },
+    "data/curated/links/observation_program_links.csv": {
+      "rows": 4492,
+      "sha256": "482ba8c17a50d23eeaa20bde809b8b7f348294c76191e3003ce1640b609652c4"
+    },
+    "data/curated/registry/reporting_units.csv": {
+      "rows": 6,
+      "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9"
+    },
+    "data/curated/seda/observations.csv": {
+      "rows": 0,
+      "sha256": "7f084c460070b991de4edf86ee07e7be77664c5601b2d2b7c63b81853a8747f0"
+    },
+    "data/curated/state_assessments/observations.csv": {
+      "rows": 1404,
+      "sha256": "422fb4a99e0f6cfe79a543bd5087f479999111bc3a1e19e2e68f5e8316755eec"
+    }
+  },
+  "rules_version": "1.0.0",
+  "snapshot_date": "2026-11-06",
+  "summary": {
+    "allocation_coverage_changed_school_units": 57,
+    "allocation_coverage_changes_by_state": {
+      "TX": 57
+    },
+    "confirmed_qualifying_reference_sites": 2194,
+    "field_selection_rows": 43218,
+    "identity_groups_needing_review": 2,
+    "new_proficiency_collection": false,
+    "new_source_collection": false,
+    "programme_site_records": 5131,
+    "school_research_identities": 4617,
+    "source_vintage_supplement_records": 2072,
+    "states": 50,
+    "working_reference_sites": 2383
+  },
+  "target_school_year": "2025-26"
+}

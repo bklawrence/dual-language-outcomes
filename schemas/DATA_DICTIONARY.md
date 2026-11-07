@@ -1,6 +1,6 @@
 # National data dictionary
 
-Schema version: **1.3.0**. Generated from `src/dl_outcomes/schemas/catalog.json`.
+Schema version: **1.5.0**. Shared table definitions come from `src/dl_outcomes/schemas/catalog.json`; the partitioned EDC collection is described below and in its own saved table contracts.
 
 Empty CSV cells are null. IDs and school years remain strings. All listed headers are required, including in zero-row tables.
 
@@ -50,7 +50,7 @@ Path: `data/curated/sources/source_releases.csv`. Primary key: `source_id`.
 | `data_as_of_raw` | string / null |  |
 | `snapshot_path` | string / null |  |
 | `sha256` | string / null | pattern: ^[0-9a-f]{64}$ |
-| `snapshot_kind` | string | saved_public_source, legacy_snapshot, metadata_only |
+| `snapshot_kind` | string | saved_public_source, saved_source_extract, legacy_snapshot, metadata_only |
 | `notes` | string / null |  |
 | `evidence_period_raw` | string / null |  |
 
@@ -709,3 +709,11 @@ Path: `data/curated/coverage/state_year_layer_coverage.csv`. Primary key: `cover
 Additional unique keys:
 
 - `state_code, school_year, layer`
+
+## Partitioned EDC school/grade assessment collection
+
+The [EDC collection](../data/assessments/edc_v3_1_2022_2025/README.md) is separate from the six legacy observation CSVs. Its [table contracts](../data/assessments/edc_v3_1_2022_2025/table_contracts.json) list all native and analysis-ready fields; its manifest pins the files, identity evidence and code.
+
+`edc_result_id` is the result key. `edc_unit_id` identifies the source school reporting unit, independently of research aliases and language strands. School matches have the unique key `school_id × school_year`; several research identities may associate with the same source unit. `edc_measurement_id` identifies the native measurement grain, and conflicting source rows at that grain require review rather than averaging.
+
+Each numeric EDC field has `_raw`, `_numeric`, `_status`, `_lower_bound`, `_upper_bound`, `_lower_inclusive` and `_upper_inclusive` columns. Percentages use 0–100 in numeric/bound columns and source fractions in raw columns. Point, bounded, suppressed, missing and inapplicable values are distinct. `count_basis` and the proxy-source-year/note fields preserve EDC's documented substitutions. Counts are not automatically total grade enrollment. See [methods](../docs/methods/EDC_ASSESSMENTS.md) for subgroup definitions, source scope, identity checks and comparability.

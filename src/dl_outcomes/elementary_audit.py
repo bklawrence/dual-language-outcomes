@@ -195,6 +195,9 @@ def numeric_model(label):
 
 
 def report_rows(tables):
+    from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
+    bounds=reference_bounds(tables)
+    ceilings=reference_bounds(tables,latest=True)
     choices_by_year = {}
     k_details,_,_ = k_report(tables)
     current_sites = {r['site_id'] for r in k_details if r['in_reference_working_set']}
@@ -206,9 +209,9 @@ def report_rows(tables):
     contexts = {}
     plans = defaultdict(list)
     for row in tables['instructional_allocations']:plans[row['schedule_id']].append(row)
-    for row in tables['program_configurations']:configs[row['site_id']].append(row)
+    for row in tables['program_configurations']:configs[row['site_id']].append(scoped_row('program_configurations','configuration_id',row,bounds,ceilings))
     for row in tables['program_sites']:sites_by_school[row['school_id']].append(row)
-    for row in tables['allocation_schedules']:schedules[row['school_id']].append(row)
+    for row in tables['allocation_schedules']:schedules[row['school_id']].append(scoped_row('allocation_schedules','schedule_id',row,bounds,ceilings))
     for row in tables['evidence_claims']:
         if row['attribute']=='elementary_audit_school_grade_context':
             contexts[row['entity_id']] = (row,json.loads(row['reported_value']))
@@ -255,6 +258,7 @@ def report_rows(tables):
                 for row in configs[site['site_id']]:
                     if choice:continue
                     year=reference_year(state)
+                    if scope=='reference_working_set' and not within_reviewed_reference(row,year):continue
                     if state=='WA' and row['school_year']!='2025-26':continue
                     if scope=='reference_working_set' and year and row['school_year'] and row['school_year']>year:continue
                     if numeric_model(row['reported_model_label']) and elementary_scope(row['grade_scope']) not in {'secondary_6_plus','preschool_only'}:
@@ -263,6 +267,7 @@ def report_rows(tables):
             for row in schedules[sid]:
                 if row['site_id'] and row['site_id'] not in site_ids:continue
                 year=reference_year(state)
+                if scope=='reference_working_set' and not within_reviewed_reference(row,year):continue
                 choice = choices_by_year[year].get(row['site_id']) if scope=='reference_working_set' else None
                 if choice and row['schedule_id']!=choice['selected_schedule_id']:continue
                 if scope=='reference_working_set' and year and row['school_year'] and row['school_year']>year:continue

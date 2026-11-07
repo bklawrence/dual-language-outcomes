@@ -177,6 +177,15 @@ class Build:
         if (self.root/'config/research_migrations/tx_allocation_review_2026_11_05.json').exists():
             from .allocation_review import migrate as apply_allocation_review
             apply_allocation_review(self)
+        if (self.root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists():
+            from .gap_pilot import migrate as apply_gap_pilot
+            apply_gap_pilot(self)
+        if (self.root/'config/research_migrations/delivery_scope_cleanup_2026_11_06.json').exists():
+            from .delivery_review import migrate as review_delivery
+            review_delivery(self)
+        if (self.root/'config/hand_coding.json').exists():
+            from .hand_coding import migrate as apply_hand_coding
+            apply_hand_coding(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue
@@ -186,6 +195,8 @@ class Build:
                      entity_type=mapping["entity_type"], entity_id=mapping["research_entity_id"], namespace=mapping["namespace"],
                      native_id=mapping["native_id"], valid_from_year=mapping["valid_from_year"] or None,
                      valid_to_year=mapping["valid_to_year"] or None, match_status="reviewed_identity_mapping", source_id=source)
+        from .edc import register as register_edc
+        register_edc(self)
         build_coverage(self)
         for name, definition in self.schema["$defs"].items():
             rows = sorted(self.rows(name), key=lambda r: tuple(str(r[k]) for k in definition["x-primary-key"]))
@@ -214,6 +225,14 @@ class Build:
                     "built_at": datetime.now(timezone.utc).isoformat(), "base_git_revision": git_revision,
                     "inputs": dict(sorted(self.inputs.items())), "pipeline_files": code, "outputs": outputs,
                     "limitations": self.notes, "release_status": "pilot_partial_not_a_national_census"}
+        from .edc import COLLECTION
+        collection_manifest = self.root / COLLECTION / "manifest.json"
+        if collection_manifest.exists():
+            manifest["assessment_collections"] = {"edc_v3_1_2022_2025": {
+                "manifest_path": str(collection_manifest.relative_to(self.root)),
+                "manifest_sha256": digest(collection_manifest),
+                "result_rows": json.loads((collection_manifest.parent / "summary.json").read_text())["result_rows"],
+                "scope": "schoolwide_state_assessment_context_not_DL_participants"}}
         path = self.root / "data/curated/manifest.json"
         path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
         if json.loads((self.root / "config/project.json").read_text()).get("structural_review_report"):

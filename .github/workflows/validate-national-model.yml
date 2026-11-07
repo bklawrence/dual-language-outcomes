@@ -12,7 +12,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +25,8 @@ jobs:
         run: dl-outcomes validate
       - name: Check schema, grain, attribution and deterministic offline rebuilds
         run: python -m unittest discover -s tests -v
+      - name: Reproduce native EDC school-grade assessment values offline
+        run: dl-outcomes edc check --reproduce
       - name: Preserve historical Texas checkpoints
         run: |
           python scripts/validate_texas_pass48.py
@@ -53,6 +55,8 @@ jobs:
         run: python scripts/validate_ny_allocation_followup.py
       - name: Validate Maine, Massachusetts, New Hampshire, Rhode Island and Vermont sources
         run: python scripts/validate_new_england_inventory.py
+      - name: Reproduce frozen national structural baseline from its saved evidence
+        run: dl-outcomes baseline check national_structural_v1 --reproduce
       - name: Validate earlier five-state research
         run: |
           python scripts/validate_five_state_inventory_2025_26.py
@@ -85,6 +89,15 @@ jobs:
           connection = duckdb.connect(str(destination / 'research.duckdb'), read_only=True)
           for name, definition in catalog()['$defs'].items():
               expected = manifest['outputs'][definition['x-path']]['rows']
+              assert connection.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0] == expected
+              assert pq.read_metadata(destination / (name + '.parquet')).num_rows == expected
+          edc = json.loads(Path('data/assessments/edc_v3_1_2022_2025/summary.json').read_text())
+          expected_edc = {
+              'edc_school_grade_results': edc['result_rows'],
+              'edc_school_matches': edc['target_school_research_identities'] * len(edc['spring_years']),
+              'edc_school_year_coverage': edc['target_school_research_identities'] * len(edc['spring_years']),
+          }
+          for name, expected in expected_edc.items():
               assert connection.execute(f'SELECT COUNT(*) FROM "{name}"').fetchone()[0] == expected
               assert pq.read_metadata(destination / (name + '.parquet')).num_rows == expected
           connection.close()

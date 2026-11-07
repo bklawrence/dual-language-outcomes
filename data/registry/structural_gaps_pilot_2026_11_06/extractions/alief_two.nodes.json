@@ -1,0 +1,307 @@
+[
+  {
+    "id": "c79ec26c-99a5-4af1-b3ee-513337e04cbb",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "< Back To Multilingual Programs Dept.",
+          "link": "/o/aisd/page/multilingual-programs-department",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "0d1ee962-317f-4719-b607-85e03a3547b1",
+    "type": "CONTENT_NODE_IMAGE",
+    "content": {
+      "assetUrl": "https://cmsv2-assets.apptegy.net/uploads/20164/file/3109608/f98449f0-7ddf-43ff-833a-9896f0ae5b40.png",
+      "assetId": 3109608,
+      "altText": "Dual Language",
+      "caption": "",
+      "link": ""
+    }
+  },
+  {
+    "id": "97b78a95-7abf-413d-be11-2781529f30ea",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h1 style=\"text-align: center\">Two Way Dual Language Program Information</h1>"
+    }
+  },
+  {
+    "id": "ab72d04b-0be2-4c56-a9ad-4f81866d1330",
+    "type": "CONTENT_NODE_SEPARATOR"
+  },
+  {
+    "id": "2abd8d03-805a-4cf8-aab5-1b4f004a29ff",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p><span style=\"font-size: 24px\">Two Way Dual Language Program provides the opportunity for <strong>English</strong> and <strong>Spanish</strong> dominant students to learn how to speak, read and write in Spanish beginning in Kindergarten via a commitment until completion of Grade 6.</span></p>"
+    }
+  },
+  {
+    "id": "1121d5cc-e6a6-4f5e-ae4d-508714ef70ec",
+    "type": "CONTENT_NODE_IMAGE",
+    "content": {
+      "assetUrl": "https://cmsv2-assets.apptegy.net/uploads/20164/file/5941528/441776d3-ae36-407e-a270-d9b510ac04a7.jpeg",
+      "assetId": 5941528,
+      "altText": "Parent Sessions",
+      "caption": "",
+      "link": ""
+    }
+  },
+  {
+    "id": "406ede1f-740b-4f25-83ac-c409cff6e986",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Click here to apply",
+          "link": "https://registration.powerschool.com/family/gosnap.aspx?action=45906&culture=en",
+          "newTab": true,
+          "mailto": false,
+          "icon": "<svg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 47.9'><path d='M47.7,41.7,36,30l5.7-5.5a1,1,0,0,0,.3-.9,1.06,1.06,0,0,0-.6-.7L25.5,16.8a10.7,10.7,0,0,0,.5-3.7A13,13,0,0,0,13,.1,13,13,0,1,0,13,26a1,1,0,0,0,0-2A11,11,0,1,1,24,13a9.48,9.48,0,0,1-.4,3l-2.8-1.1a6.93,6.93,0,0,0,.3-2,7.9,7.9,0,0,0-8-8,7.9,7.9,0,0,0-8,8A8.13,8.13,0,0,0,11,20.7h.3a1.2,1.2,0,0,0,1-.7,1,1,0,0,0-.7-1.2A6.07,6.07,0,0,1,7,12.9a5.89,5.89,0,0,1,6-6,5.89,5.89,0,0,1,6,6c0,.4-.1.9-.1,1.3l-5.5-2.1a1.09,1.09,0,0,0-1.1.2.91.91,0,0,0-.2,1.1l10.8,28a.86.86,0,0,0,.7.6.81.81,0,0,0,.9-.3L30,36,41.7,47.7a1,1,0,0,0,1.4,0l4.6-4.6A1,1,0,0,0,47.7,41.7Zm-5.3,3.9L30.7,33.9a.91.91,0,0,0-.7-.3h0a.91.91,0,0,0-.7.3l-5.1,5.3L14.8,14.8l24.4,9.4-5.3,5.1a1,1,0,0,0,0,1.4L45.6,42.4Z' transform='translate(0 -0.1)'/></svg>",
+          "iconId": 210
+        },
+        {
+          "title": "Haga clic aqui para aplicar",
+          "link": "https://registration.powerschool.com/family/gosnap.aspx?action=45906&culture=es",
+          "newTab": true,
+          "mailto": false,
+          "icon": "<svg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 47.9'><path d='M47.7,41.7,36,30l5.7-5.5a1,1,0,0,0,.3-.9,1.06,1.06,0,0,0-.6-.7L25.5,16.8a10.7,10.7,0,0,0,.5-3.7A13,13,0,0,0,13,.1,13,13,0,1,0,13,26a1,1,0,0,0,0-2A11,11,0,1,1,24,13a9.48,9.48,0,0,1-.4,3l-2.8-1.1a6.93,6.93,0,0,0,.3-2,7.9,7.9,0,0,0-8-8,7.9,7.9,0,0,0-8,8A8.13,8.13,0,0,0,11,20.7h.3a1.2,1.2,0,0,0,1-.7,1,1,0,0,0-.7-1.2A6.07,6.07,0,0,1,7,12.9a5.89,5.89,0,0,1,6-6,5.89,5.89,0,0,1,6,6c0,.4-.1.9-.1,1.3l-5.5-2.1a1.09,1.09,0,0,0-1.1.2.91.91,0,0,0-.2,1.1l10.8,28a.86.86,0,0,0,.7.6.81.81,0,0,0,.9-.3L30,36,41.7,47.7a1,1,0,0,0,1.4,0l4.6-4.6A1,1,0,0,0,47.7,41.7Zm-5.3,3.9L30.7,33.9a.91.91,0,0,0-.7-.3h0a.91.91,0,0,0-.7.3l-5.1,5.3L14.8,14.8l24.4,9.4-5.3,5.1a1,1,0,0,0,0,1.4L45.6,42.4Z' transform='translate(0 -0.1)'/></svg>",
+          "iconId": 210
+        }
+      ]
+    }
+  },
+  {
+    "id": "4d9ffb18-638c-45b0-a4d0-8907212b7e66",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Already Applied? </h2>"
+    }
+  },
+  {
+    "id": "b2adda55-c2f9-4c0f-9126-a10a1f11f7ac",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p>Upon completion of the online application, participation in the program is dependent on completing the steps that have been explained to consider the student as a possible candidate.</p><p></p>"
+    }
+  },
+  {
+    "id": "6a3a65b9-61e2-491f-a4b0-8f2e05c99d17",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>¿Ya Aplicado?</h2>"
+    }
+  },
+  {
+    "id": "5c427904-9ff2-4842-a4be-8d842d1a6b2c",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p><span style=\"font-size: 16px\">Al completar la solicitud en línea, la participación en el programa depende de completar los pasos que se han explicado para considerar al estudiante como un posible candidato.</span></p><p></p>"
+    }
+  },
+  {
+    "id": "fe09b0a6-423b-4a40-9e6f-d6c61ef6a138",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Have Questions?</h2>"
+    }
+  },
+  {
+    "id": "40e21808-fdd1-497c-aa27-e862b88e5103",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<p>For additional information please contact the Multilingual Programs Department.</p><p>Para información adicional por favor contacte al Departamento <em>de programas plurilingües (Multilingual Programs Department) de Alief ISD</em></p><p>281-498-8110, Ext. 29071</p>"
+    }
+  },
+  {
+    "id": "f96bb2e3-1a0b-4df8-8e75-31b53a3c1065",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "New to Alief? Click here! (In-District)",
+          "link": "https://www.aliefisd.net/enroll",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        },
+        {
+          "title": "Out of District? Click here!",
+          "link": "https://www.aliefisd.net/ood",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "3f64a53e-4f5c-4f42-b86f-f1bb3c0c6525",
+    "type": "CONTENT_NODE_VIDEO",
+    "content": {
+      "rawUrl": "",
+      "embeddableUrl": "https://www.youtube.com/watch?v=iqXQl2JPqro",
+      "isResized": false,
+      "title": "",
+      "videoAlignment": "center",
+      "width": "100%"
+    }
+  },
+  {
+    "id": "b63d9959-17c9-4380-b7e5-2a295950c4f5",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2><span>Dual Language Immersion/Two-Way Dual Language (T.W.D.L.):</span></h2>"
+    }
+  },
+  {
+    "id": "9cf9c313-e2b3-4063-854a-24c9c2600270",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<ul><li><p><span style=\"font-size: 16px\">A bilingual program&nbsp;model that uses two languages, English and Spanish,&nbsp;for literacy and content instruction.</span></p></li><li><p><span style=\"font-size: 16px\">It provides the same academic content and addresses the same standards as other educational programs.</span></p></li><li><p><span style=\"font-size: 16px\">Instruction is provided in the two languages over an extended period of time.</span></p></li><li><p><span style=\"font-size: 16px\">Instruction in the partner language is at least 50% of the time.</span></p></li><li><p><span style=\"font-size: 16px\">All applicants will complete a language and pre-literacy screener that measures their proficiency in their native language.</span></p></li><li><p><span style=\"font-size: 16px\">In the event there is a substantial amount of applicants, then an equitable selection process will be instituted.</span></p><p></p></li></ul>"
+    }
+  },
+  {
+    "id": "0c228b7d-84f3-4db6-a6a1-2b77e745c2a3",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2><span>Programa Bilingüe Doble Vía</span></h2>"
+    }
+  },
+  {
+    "id": "25461dec-19e0-4e13-b132-168a44062aff",
+    "type": "CONTENT_NODE_TEXT",
+    "content": {
+      "html": "<ul><li><p><span style=\"font-size: 16px\">Un modelo del programa bilingüe que usa dos idiomas,&nbsp;inglés y español, para desarrollar la lecto-escritura y enseñanza en las áreas de contenido.</span></p></li><li><p><span style=\"font-size: 16px\">Brinda&nbsp;el mismo contenido académico y cubre los estándares de otros programas de educación.</span></p></li><li><p><span style=\"font-size: 16px\">La instrucción es proporcionada en dos idiomas durante un lapso de tiempo.</span></p></li><li><p><span style=\"font-size: 16px\">La instrucción en el segundo idioma se da al menos durante 50% del tiempo.</span></p></li><li><p>Todos los solicitantes completarán una evaluación de lenguaje y habilidades de alfabetización temprana para medir el dominio de su lengua materna.</p></li><li><p>En caso de que haya una cantidad sustancial de solicitantes, se instituirá un proceso de selección equitativo.</p><p></p></li></ul>"
+    }
+  },
+  {
+    "id": "a0345bdc-b99f-4c9e-882d-d5570e512f58",
+    "type": "CONTENT_NODE_HEADING",
+    "content": {
+      "html": "<h2>Quick Links</h2>"
+    }
+  },
+  {
+    "id": "076d8a35-610a-4174-9c8b-641892e8e445",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": " T.W.D.L. Program Summary",
+          "link": "https://drive.google.com/file/d/1f-OVYgl6iyn5Sc5NllzAGvareePh5VtE/view?usp=drive_link",
+          "newTab": true,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "34a7a4d6-1b9f-447e-b1f2-db288d6e4b59",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Spanish Online Resources  ",
+          "link": "https://docs.google.com/document/d/1gwWhHV3FigfPqueb_WdZh1QySMF3WGZr0hhzVNehDQw/edit?usp=sharing",
+          "newTab": true,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "2142cb88-5a7b-4d5e-ae19-764427530b70",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Resumen del Programa  de Doble Vía",
+          "link": "https://drive.google.com/file/d/1Tx6mmJFRP0QxZowkh6VGK0Fz-9eZlJ82/view?usp=sharing",
+          "newTab": true,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "6e97c7af-373d-4a30-870d-7c6807575fe3",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "T.W.D.L. Application",
+          "link": "https://registration.powerschool.com/family/gosnap.aspx?action=45906&culture=en",
+          "newTab": true,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "118f700a-530d-4723-b58f-2edf77182a20",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "T.W.D.L. Presentation",
+          "link": "https://docs.google.com/presentation/d/18AKMF3cp_uuOotOtLJrZfJmiHqDXs6jN4xssERSRw5g/edit?usp=sharing",
+          "newTab": true,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "194f1fb0-72e2-4e0f-b619-21a779a70936",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Solicitud al Programa de Doble Vía",
+          "link": "https://registration.powerschool.com/family/gosnap.aspx?action=45906&culture=es",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "3fc22532-ebd5-4a40-a702-ef31462f29b2",
+    "type": "CONTENT_NODE_BUTTON",
+    "content": {
+      "buttons": [
+        {
+          "title": "Presentación del Programa de Doble Vía",
+          "link": "https://docs.google.com/presentation/d/1MLl1SuXB84hsaQpn019JRMwREd_mQJXrU3VZgFw_B4w/edit?usp=sharing",
+          "newTab": false,
+          "mailto": false,
+          "icon": null,
+          "iconId": null
+        }
+      ]
+    }
+  }
+]

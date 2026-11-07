@@ -127,11 +127,11 @@ class StructuralIntegrationTests(unittest.TestCase):
         row['schedule_status']='documented_plan'
         self.assertTrue(any('unresolved grade evidence promoted' in e for e in validate_tables(rows,self.definition)))
 
-    def test_proficiency_collection_is_deferred_and_prior_values_preserved(self):
-        self.assertEqual(json.loads((ROOT/'config/project.json').read_text())['collection_phase'],'structural_inventory')
+    def test_edc_collection_is_authorized_and_other_assessment_layers_remain_deferred(self):
+        self.assertEqual(json.loads((ROOT/'config/project.json').read_text())['collection_phase'],'school_assessment_collection')
         rows=copy.deepcopy(self.tables)
         rows['datasets'].append(dict(dataset_id='NEW_PROFICIENCY',state_code='CA',layer='el_proficiency'))
-        self.assertTrue(any('New non-structural dataset' in e for e in migration_errors(ROOT,rows,check_hashes=False)))
+        self.assertTrue(any('New non-EDC assessment dataset' in e for e in migration_errors(ROOT,rows,check_hashes=False)))
 
 
 if __name__=='__main__':

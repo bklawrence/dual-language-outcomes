@@ -1,0 +1,15 @@
+{
+  "key": "cms_sail",
+  "url": "https://sailk8.cmsk12.org/our-school/about-us/about-our-school",
+  "retrieved_at": "2026-11-06T17:51:18.931935+00:00",
+  "http_status": 200,
+  "final_url": "https://sailk8.cmsk12.org/our-school/about-us/about-our-school",
+  "content_type": "text/html; charset=utf-8",
+  "content_encoding": "",
+  "sha256": "0b2edbfafdb9dfc7cd475301ec6cbe057557a91b5f7aea6196a767aaed846041",
+  "bytes": 61218,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "About Our School",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/cms_sail.html"
+}

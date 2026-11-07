@@ -1,0 +1,188 @@
+[
+  {
+    "district_key": "tx_austin",
+    "state": "TX",
+    "district": "Austin ISD",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 116,
+    "baseline_school_identities": 78,
+    "checked_archived_source_keys": [
+      "austin_cook",
+      "austin_dl",
+      "austin_doss",
+      "austin_es",
+      "austin_finder",
+      "austin_menchaca",
+      "austin_reilly2025"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Campus policies and 2026-27 transition documents; no numerical Spanish model copied district-wide."
+  },
+  {
+    "district_key": "tx_garland",
+    "state": "TX",
+    "district": "Garland ISD",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 46,
+    "baseline_school_identities": 44,
+    "checked_archived_source_keys": [
+      "garland_archive_metadata",
+      "garland_dl",
+      "garland_eb",
+      "garland_story",
+      "garland_vial"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Dated September 2025 Vietnamese evidence; Vial conflicting descriptions; Spanish roster is explicitly 2026-27."
+  },
+  {
+    "district_key": "tx_alief",
+    "state": "TX",
+    "district": "Alief ISD",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 27,
+    "baseline_school_identities": 22,
+    "checked_archived_source_keys": [
+      "alief_choice",
+      "alief_multilingual",
+      "alief_one",
+      "alief_slides",
+      "alief_summary",
+      "alief_two"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Campus-button roster and explicit one-way 50/50 model. Two-way sample timetable is 2026 and conditional on native language."
+  },
+  {
+    "district_key": "nc_union",
+    "state": "NC",
+    "district": "Union County Public Schools",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 31,
+    "baseline_school_identities": 30,
+    "checked_archived_source_keys": [
+      "nc_marvin",
+      "union_dl",
+      "union_lottery"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Core-only 100/0 phases and later 50/50 phases retain school-specific English-start grades. Mandarin remains separate."
+  },
+  {
+    "district_key": "nc_buncombe",
+    "state": "NC",
+    "district": "Buncombe County Schools",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 19,
+    "baseline_school_identities": 19,
+    "checked_archived_source_keys": [
+      "buncombe_dl",
+      "buncombe_faq",
+      "nc_buncombe_2024",
+      "nc_candler",
+      "nc_north_buncombe",
+      "nc_wd_williams"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Model types confirmed; no uniform kindergarten allocation follows from student-composition percentages or variable-model FAQ."
+  },
+  {
+    "district_key": "nc_cms",
+    "state": "NC",
+    "district": "Charlotte-Mecklenburg Schools",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 21,
+    "baseline_school_identities": 9,
+    "checked_archived_source_keys": [
+      "cms_dl",
+      "cms_north",
+      "cms_north_about",
+      "cms_oaklawn",
+      "cms_sail",
+      "cms_sail_chinese",
+      "cms_sail_elementary",
+      "cms_sail_faq",
+      "cms_sail_french",
+      "cms_sail_german",
+      "cms_sail_japanese",
+      "cms_sail_parenthandbook"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Oaklawn has explicit core-subject kindergarten 100% Spanish. SAIL language-specific English periods are untimed."
+  },
+  {
+    "district_key": "nm_aps",
+    "state": "NM",
+    "district": "Albuquerque Public Schools",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 53,
+    "baseline_school_identities": 53,
+    "checked_archived_source_keys": [
+      "aps_als",
+      "aps_coronado",
+      "aps_coronado_dir",
+      "aps_coronado_handbook",
+      "aps_dl",
+      "aps_longfellow",
+      "aps_longfellow_dir",
+      "aps_longfellow_handbook",
+      "aps_longfellow_home",
+      "aps_models",
+      "aps_tvcc",
+      "prior_nm_state"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Coronado has an explicit sole-option 80/20 programme; dated state Spanish DL flags linked to explicit district English/partner-language definition; independent charter models excluded."
+  },
+  {
+    "district_key": "nm_lcps",
+    "state": "NM",
+    "district": "Las Cruces Public Schools",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 22,
+    "baseline_school_identities": 22,
+    "checked_archived_source_keys": [
+      "lcps_bilingual",
+      "lcps_central",
+      "lcps_donaana",
+      "lcps_donaana_model",
+      "lcps_faq",
+      "lcps_report2025",
+      "lcps_roadmap",
+      "lcps_roadmap_b",
+      "lcps_roadmap_c",
+      "lcps_spanish_faq",
+      "lcps_thinktank"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "Central and Doña Ana 50/50 labels and grade-2/5 schedules; native-language K-1 literacy exceptions retained. No district-wide allocation extrapolation."
+  },
+  {
+    "district_key": "nm_gadsden",
+    "state": "NM",
+    "district": "Gadsden Independent School District",
+    "reference_year": "2025-26",
+    "baseline_programme_site_records": 13,
+    "baseline_school_identities": 13,
+    "checked_archived_source_keys": [
+      "gadsden_cosecha",
+      "gadsden_departments",
+      "gadsden_home",
+      "gadsden_leca",
+      "gadsden_plan_pdf",
+      "gadsden_strategic",
+      "prior_nm_state"
+    ],
+    "review_status": "completed_bounded_pilot",
+    "effort_measure": "Count of checked archived sources; no researcher-hours estimate fabricated.",
+    "notes": "2025 district activity confirms a DL initiative but does not establish each campus model. State-report/map discrepancies remain pending; Gadsden Elementary District 32 in Arizona excluded."
+  }
+]

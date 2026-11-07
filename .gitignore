@@ -14,3 +14,6 @@ data/releases/*.parquet
 data/releases/**/*.duckdb
 data/releases/**/*.parquet
 data/releases/**/*.zip
+review-app/node_modules/
+review-app/dist/
+review-app/public/data/

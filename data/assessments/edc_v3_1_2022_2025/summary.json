@@ -1,0 +1,34 @@
+{
+  "version": "3.1",
+  "spring_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "target_school_research_identities": 4617,
+  "school_year_match_status": {
+    "matched": 15377,
+    "no_school_result_found": 3087,
+    "review_needed": 4
+  },
+  "research_identities_with_any_match": 3891,
+  "unique_source_units_with_any_match": 3889,
+  "result_rows": 1538145,
+  "attribution": "Data sourced from the Education Data Center (www.eddatacenter.org), a partner project of the National Center for Civic Innovation, Inc.",
+  "source_grain_conflicts": 0,
+  "value_anomalies": 0,
+  "norming": "none",
+  "population_scope": "schoolwide_context_not_DL_participants",
+  "source_years_are_not_DL_operating_years": true,
+  "research_identities_with_grade_specific_rows": 3890,
+  "research_identities_with_all_students_ELA_grade_proficiency": 3872,
+  "research_identities_with_all_students_math_grade_proficiency": 3872,
+  "research_identities_with_all_four_years_matched": 3779,
+  "school_research_identities_without_any_match": 726,
+  "saved_grade_context_among_never_matched": {
+    "identity_or_source_coverage_unresolved": 431,
+    "saved_grade_context_suggests_grade_9_plus_only": 249,
+    "saved_grade_context_suggests_before_grade_3_only": 46
+  }
+}

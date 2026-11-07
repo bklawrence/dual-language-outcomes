@@ -273,6 +273,18 @@ def validate(root: Path, *, verify_manifest=True):
             path = root / source["snapshot_path"]
             if not path.is_file() or digest(path) != source["sha256"]:
                 errors.append(f"Source snapshot differs from archived bytes: {source['snapshot_path']}")
+    if (root / 'data/baselines/index.json').exists():
+        from .baseline import check_registered
+        try:
+            check_registered(root)
+        except (OSError, ValueError) as error:
+            errors.append('National baseline: ' + str(error))
+    if (root / 'data/assessments/edc_v3_1_2022_2025/manifest.json').exists():
+        from .edc import check as check_edc
+        try:
+            check_edc(root)
+        except (OSError, ValueError) as error:
+            errors.append('EDC assessment collection: ' + str(error))
     if errors:
         raise ValueError("\n".join(errors[:80]) + (f"\n... {len(errors)} total errors" if len(errors) > 80 else ""))
     return {"status": "PASS", "schema_version": definition["x-schema-version"], "tables": len(tables), "rows": {name: len(rows) for name, rows in tables.items()}}

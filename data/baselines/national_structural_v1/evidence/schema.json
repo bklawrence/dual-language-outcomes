@@ -1,0 +1,3712 @@
+{
+  "$defs": {
+    "allocation_schedules": {
+      "additionalProperties": false,
+      "description": "Preserve a policy even when language-specific numeric shares cannot safely be attributed.",
+      "properties": {
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_review_status": {
+          "description": "Source-specific review decision. Null means this qualifier was not collected; it does not affirm the policy.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "grade_support_status": {
+          "description": "Machine-readable distinction between a grade schedule, model label, earlier-grade proxy and unsupported source. This does not verify tested-cohort exposure.",
+          "enum": [
+            null,
+            "NOT_REVIEWED",
+            "DISTRICT_GRADE_BAND_MODEL",
+            "CAMPUS_GRADE_BAND_MODEL",
+            "EXPLICIT_GRADE",
+            "DISTRICT_ENTRY_GRADE_MODEL",
+            "MODEL_LABEL_MINUTES_DIFFER",
+            "EARLIER_GRADE_PROXY_NOT_TARGET_QUANTIFIED",
+            "SOURCE_DOES_NOT_SUPPORT_PROGRAM_GRADE_PERIOD",
+            "UNRECOVERED",
+            "PUBLISHED_MODEL_ONLY",
+            "CONFLICTING_SOURCE_CLAIMS",
+            "SOURCE_GRADE_SCOPE_NOT_REPORTED",
+            "COMPOSITE_TRACK_SCOPE_UNRESOLVED"
+          ],
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "percentage_basis": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reported_model_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "schedule_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "schedule_status": {
+          "enum": [
+            "reported_policy_requires_review",
+            "documented_plan",
+            "inferred_plan",
+            "conflicting_documented_plan",
+            "observed_schedule"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "site_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_cohort_exposure": {
+          "enum": [
+            "not_established",
+            "verified"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "schedule_id",
+        "school_id",
+        "site_id",
+        "school_year",
+        "entry_cohort_year",
+        "grade_scope",
+        "reported_model_label",
+        "percentage_basis",
+        "schedule_status",
+        "evidence_review_status",
+        "grade_support_status",
+        "evidence_period_raw",
+        "tested_cohort_exposure",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "school_id": {
+          "column": "school_id",
+          "table": "schools"
+        },
+        "site_id": {
+          "column": "site_id",
+          "table": "program_sites"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/program_history/allocation_schedules.csv",
+      "x-primary-key": [
+        "schedule_id"
+      ],
+      "x-unique": []
+    },
+    "assessments": {
+      "additionalProperties": false,
+      "description": "Instrument and scoring definitions; source-release vintage is recorded separately.",
+      "properties": {
+        "assessment_family": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_version": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "construct": {
+          "enum": [
+            "academic_achievement",
+            "english_language_proficiency",
+            "partner_language_proficiency",
+            "derived_standardized_achievement",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "scale_description": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "assessment_id",
+        "state_code",
+        "assessment_name",
+        "assessment_family",
+        "construct",
+        "assessment_version",
+        "scale_description",
+        "valid_from_year",
+        "valid_to_year",
+        "source_id"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/assessments/assessment_definitions.csv",
+      "x-primary-key": [
+        "assessment_id"
+      ],
+      "x-unique": []
+    },
+    "coverage": {
+      "additionalProperties": false,
+      "description": "State/year/layer collection status; absence in the pilot never means no public data exist.",
+      "properties": {
+        "availability_basis": {
+          "enum": [
+            "collected_source_scope",
+            "source_availability_review",
+            "not_established"
+          ],
+          "type": "string"
+        },
+        "collection_status": {
+          "enum": [
+            "not_collected",
+            "source_identified",
+            "pilot_partial",
+            "collected",
+            "searched_not_found",
+            "not_publicly_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "coverage_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "last_reviewed_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "layer": {
+          "enum": [
+            "inventory",
+            "dl_participants",
+            "state_assessments",
+            "demographics",
+            "el_proficiency",
+            "el_exit_policy",
+            "el_exit_outcomes",
+            "seda"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "minLength": 1,
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": "string"
+        },
+        "smallest_available_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "coverage_id",
+        "state_code",
+        "school_year",
+        "layer",
+        "collection_status",
+        "smallest_available_unit",
+        "grade_scope",
+        "population_scope",
+        "source_id",
+        "last_reviewed_date",
+        "notes",
+        "availability_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/coverage/state_year_layer_coverage.csv",
+      "x-primary-key": [
+        "coverage_id"
+      ],
+      "x-unique": [
+        [
+          "state_code",
+          "school_year",
+          "layer"
+        ]
+      ]
+    },
+    "datasets": {
+      "additionalProperties": false,
+      "description": "Source dataset identity, distinct from a particular release.",
+      "properties": {
+        "dataset_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "dataset_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "layer": {
+          "enum": [
+            "inventory",
+            "dl_participants",
+            "state_assessments",
+            "demographics",
+            "el_proficiency",
+            "el_exit_policy",
+            "el_exit_outcomes",
+            "seda"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "native_dataset_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "dataset_id",
+        "state_code",
+        "layer",
+        "dataset_name",
+        "publisher",
+        "source_url",
+        "native_dataset_id",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/sources/datasets.csv",
+      "x-primary-key": [
+        "dataset_id"
+      ],
+      "x-unique": []
+    },
+    "demographics": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/demographics/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "districts": {
+      "additionalProperties": false,
+      "description": "Research district identity; native IDs live in the dated crosswalk.",
+      "properties": {
+        "district_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "district_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "identity_status": {
+          "enum": [
+            "state_identifier",
+            "provisional_name_group",
+            "legacy_provisional"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "district_id",
+        "state_code",
+        "district_name",
+        "identity_status"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/registry/districts.csv",
+      "x-primary-key": [
+        "district_id"
+      ],
+      "x-unique": []
+    },
+    "dl_participant_outcomes": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/dl_participant_outcomes/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "el_exit_outcomes": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/el_exit_outcomes/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "el_exit_policies": {
+      "additionalProperties": false,
+      "description": "Dated exit rules, including domain and non-test requirements; not actual exit outcomes.",
+      "properties": {
+        "additional_requirements_json": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "domain_cut_scores_json": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "overall_cut_score": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "policy_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "policy_status": {
+          "enum": [
+            "documented",
+            "provisional"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "policy_id",
+        "state_code",
+        "assessment_id",
+        "valid_from_year",
+        "valid_to_year",
+        "grade_scope",
+        "overall_cut_score",
+        "domain_cut_scores_json",
+        "additional_requirements_json",
+        "policy_status",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/el_exit/exit_policies.csv",
+      "x-primary-key": [
+        "policy_id"
+      ],
+      "x-unique": []
+    },
+    "el_proficiency": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/el_proficiency/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "evidence_claims": {
+      "additionalProperties": false,
+      "description": "Attribute-specific evidence; a confirmed school does not confirm its language allocation.",
+      "properties": {
+        "attribute": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "claim_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "confirmation_method": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entity_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entity_type": {
+          "enum": [
+            "school",
+            "district",
+            "program",
+            "site",
+            "schedule",
+            "state"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_period_raw": {
+          "description": "Source applicability exactly as reported, including undated, fiscal-year, multi-year and change-period descriptions. It is separate from source publication date and a study reference year.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "import_source_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reported_value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "documented",
+            "inferred",
+            "district_policy_only",
+            "provisional",
+            "unverified",
+            "continuity_review",
+            "published_plan_not_observed",
+            "metadata_only",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim_id",
+        "entity_type",
+        "entity_id",
+        "attribute",
+        "reported_value",
+        "valid_from_year",
+        "valid_to_year",
+        "grade_scope",
+        "entry_cohort_year",
+        "verification_status",
+        "confirmation_method",
+        "source_id",
+        "source_locator",
+        "import_source_id",
+        "notes",
+        "evidence_period_raw"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "import_source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/sources/evidence_claims.csv",
+      "x-primary-key": [
+        "claim_id"
+      ],
+      "x-unique": []
+    },
+    "identifiers": {
+      "additionalProperties": false,
+      "description": "Native identifier aliases; time validity is unknown unless explicitly documented.",
+      "properties": {
+        "entity_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entity_type": {
+          "enum": [
+            "school",
+            "district",
+            "program"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "identifier_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "match_status": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "namespace": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "native_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "identifier_id",
+        "entity_type",
+        "entity_id",
+        "namespace",
+        "native_id",
+        "valid_from_year",
+        "valid_to_year",
+        "match_status",
+        "source_id"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/registry/identifier_crosswalk.csv",
+      "x-primary-key": [
+        "identifier_id"
+      ],
+      "x-unique": [
+        [
+          "namespace",
+          "native_id",
+          "valid_from_year",
+          "valid_to_year",
+          "source_id"
+        ]
+      ]
+    },
+    "instructional_allocations": {
+      "additionalProperties": false,
+      "description": "One row per named language in a documented schedule; no fixed Spanish/English columns.",
+      "properties": {
+        "allocation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evidence_type": {
+          "enum": [
+            "documented_plan",
+            "researcher_inference",
+            "observed_schedule"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "instruction_share_pct": {
+          "maximum": 100,
+          "minimum": 0,
+          "type": "number"
+        },
+        "language_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "schedule_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "allocation_id",
+        "schedule_id",
+        "language_name",
+        "language_code",
+        "instruction_share_pct",
+        "evidence_type",
+        "source_id",
+        "source_locator"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "schedule_id": {
+          "column": "schedule_id",
+          "table": "allocation_schedules"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/program_history/instructional_allocations.csv",
+      "x-primary-key": [
+        "allocation_id"
+      ],
+      "x-unique": [
+        [
+          "schedule_id",
+          "language_name"
+        ]
+      ]
+    },
+    "metrics": {
+      "additionalProperties": false,
+      "description": "Metric units and population/denominator meaning; proficiency percentages are not interchangeable across states.",
+      "properties": {
+        "comparability_group": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator_definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_family": {
+          "enum": [
+            "academic_proficiency",
+            "assessment_count",
+            "demographic_count",
+            "demographic_rate",
+            "english_proficiency",
+            "el_exit_rate",
+            "el_exit_count",
+            "seda_achievement",
+            "seda_growth",
+            "partner_proficiency"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_unit": {
+          "enum": [
+            "percent",
+            "count",
+            "scale_score",
+            "standard_deviation",
+            "grade_equivalent",
+            "other"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "metric_id",
+        "metric_name",
+        "metric_family",
+        "value_unit",
+        "denominator_definition",
+        "comparability_group",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {},
+      "x-path": "data/curated/assessments/metric_definitions.csv",
+      "x-primary-key": [
+        "metric_id"
+      ],
+      "x-unique": []
+    },
+    "observation_program_links": {
+      "additionalProperties": false,
+      "description": "Separate associations never duplicate or allocate an observation to a language track.",
+      "properties": {
+        "attribution_basis": {
+          "enum": [
+            "explicit_program_identifier",
+            "explicit_single_track_population",
+            "context_only",
+            "combined_source_group",
+            "unresolved"
+          ],
+          "type": "string"
+        },
+        "attribution_status": {
+          "enum": [
+            "direct_program",
+            "combined_reporting_group",
+            "schoolwide_context",
+            "unresolved"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "evidence_source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "link_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "observation_table": {
+          "enum": [
+            "dl_participant_outcomes",
+            "state_assessments",
+            "demographics",
+            "el_proficiency",
+            "el_exit_outcomes",
+            "seda"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "site_id": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "link_id",
+        "observation_table",
+        "observation_id",
+        "site_id",
+        "attribution_status",
+        "evidence_source_id",
+        "notes",
+        "attribution_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "evidence_source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "site_id": {
+          "column": "site_id",
+          "table": "program_sites"
+        }
+      },
+      "x-path": "data/curated/links/observation_program_links.csv",
+      "x-primary-key": [
+        "link_id"
+      ],
+      "x-unique": []
+    },
+    "populations": {
+      "additionalProperties": false,
+      "description": "Preserve source subgroup definitions and the DL/EL distinction.",
+      "properties": {
+        "definition": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "native_group_label": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "native_group_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "population_label": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "population_scope": {
+          "enum": [
+            "all_students",
+            "current_el",
+            "former_el",
+            "dl_all_participants",
+            "dl_current_el_only",
+            "dl_non_el",
+            "mixed_bilingual_services",
+            "not_reported",
+            "non_el"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "population_id",
+        "state_code",
+        "population_label",
+        "population_scope",
+        "native_group_type",
+        "native_group_label",
+        "definition",
+        "source_id"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        },
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/assessments/population_definitions.csv",
+      "x-primary-key": [
+        "population_id"
+      ],
+      "x-unique": []
+    },
+    "program_configurations": {
+      "additionalProperties": false,
+      "description": "Program design and model history at the actual documented grade/year/cohort scope.",
+      "properties": {
+        "configuration_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "delivery_structure": {
+          "enum": [
+            "strand",
+            "whole_school",
+            "mixed",
+            "unknown"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_model": {
+          "enum": [
+            "one_way",
+            "two_way",
+            "unknown"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "program_kind": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reported_model_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "site_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "verification_status": {
+          "enum": [
+            "documented",
+            "district_policy_only",
+            "provisional",
+            "unverified",
+            "continuity_review",
+            "published_plan_not_observed",
+            "metadata_only",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "configuration_id",
+        "site_id",
+        "school_year",
+        "entry_cohort_year",
+        "grade_scope",
+        "population_model",
+        "delivery_structure",
+        "program_kind",
+        "reported_model_label",
+        "evidence_period_raw",
+        "verification_status",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "site_id": {
+          "column": "site_id",
+          "table": "program_sites"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/program_history/program_configurations.csv",
+      "x-primary-key": [
+        "configuration_id"
+      ],
+      "x-unique": []
+    },
+    "program_languages": {
+      "additionalProperties": false,
+      "description": "Language-specific claims; an unreported partner language is never filled with English.",
+      "properties": {
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language_code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "language_record_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "language_role": {
+          "enum": [
+            "instruction_language",
+            "additional_language",
+            "elective",
+            "reported_instruction_language"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "site_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "documented",
+            "district_policy_only",
+            "provisional",
+            "unverified",
+            "continuity_review",
+            "published_plan_not_observed",
+            "metadata_only",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "language_record_id",
+        "site_id",
+        "language_code",
+        "language_name",
+        "language_role",
+        "valid_from_year",
+        "valid_to_year",
+        "evidence_period_raw",
+        "verification_status",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "site_id": {
+          "column": "site_id",
+          "table": "program_sites"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/program_history/program_languages.csv",
+      "x-primary-key": [
+        "language_record_id"
+      ],
+      "x-unique": []
+    },
+    "program_sites": {
+      "additionalProperties": false,
+      "description": "Program-to-school association with separately documented time validity.",
+      "properties": {
+        "link_status": {
+          "enum": [
+            "documented",
+            "provisional",
+            "legacy_provisional"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "program_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "site_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "valid_from_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_to_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "site_id",
+        "program_id",
+        "school_id",
+        "valid_from_year",
+        "valid_to_year",
+        "link_status",
+        "source_id"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "program_id": {
+          "column": "program_id",
+          "table": "programs"
+        },
+        "school_id": {
+          "column": "school_id",
+          "table": "schools"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/registry/program_sites.csv",
+      "x-primary-key": [
+        "site_id"
+      ],
+      "x-unique": []
+    },
+    "program_status_history": {
+      "additionalProperties": false,
+      "description": "Dated research assessments of program operation and eligibility, kept separate from the dates of language, design and allocation evidence. Retains closures, future plans and continuity reviews.",
+      "properties": {
+        "confirmation_method": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "eligibility_status": {
+          "description": "Separate content-instruction/public-program screening status; confirmed operation alone does not establish study eligibility.",
+          "minLength": 1,
+          "type": "string"
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "instructional_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operating_status": {
+          "description": "Source/review operating or listing status for this reference year; a listing is not observed implementation.",
+          "minLength": 1,
+          "type": "string"
+        },
+        "public_funding_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "site_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "status_id": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "status_id",
+        "site_id",
+        "school_year",
+        "operating_status",
+        "eligibility_status",
+        "instructional_scope",
+        "public_funding_status",
+        "confirmation_method",
+        "evidence_period_raw",
+        "source_id",
+        "source_locator",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "site_id": {
+          "column": "site_id",
+          "table": "program_sites"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/program_history/program_status_history.csv",
+      "x-primary-key": [
+        "status_id"
+      ],
+      "x-unique": [
+        [
+          "site_id",
+          "school_year",
+          "source_id"
+        ]
+      ]
+    },
+    "programs": {
+      "additionalProperties": false,
+      "description": "Research program records. Provisional evidence groups are not verified distinct program counts.",
+      "properties": {
+        "identity_status": {
+          "enum": [
+            "verified_program",
+            "provisional_evidence_group",
+            "legacy_provisional"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "program_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "program_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "screening_status": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "program_id",
+        "state_code",
+        "program_name",
+        "identity_status",
+        "screening_status",
+        "notes"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/registry/programs.csv",
+      "x-primary-key": [
+        "program_id"
+      ],
+      "x-unique": []
+    },
+    "reporting_units": {
+      "additionalProperties": false,
+      "description": "The actual source aggregation unit, not an inferred instructional track.",
+      "properties": {
+        "entity_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entity_type": {
+          "enum": [
+            "school",
+            "district",
+            "state"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "program_reporting_group": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reporting_scope": {
+          "enum": [
+            "entity_wide",
+            "program_reporting_group"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_unit_label": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "reporting_unit_id",
+        "state_code",
+        "entity_type",
+        "entity_id",
+        "program_reporting_group",
+        "source_unit_label",
+        "reporting_scope"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/registry/reporting_units.csv",
+      "x-primary-key": [
+        "reporting_unit_id"
+      ],
+      "x-unique": []
+    },
+    "school_district_history": {
+      "additionalProperties": false,
+      "description": "Dated affiliation observations, not inferred continuous district membership.",
+      "properties": {
+        "district_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "membership_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "validity_status": {
+          "enum": [
+            "source_year",
+            "snapshot_only",
+            "legacy_undated"
+          ],
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "membership_id",
+        "school_id",
+        "district_id",
+        "school_year",
+        "validity_status",
+        "source_id",
+        "source_locator"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "district_id": {
+          "column": "district_id",
+          "table": "districts"
+        },
+        "school_id": {
+          "column": "school_id",
+          "table": "schools"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/registry/school_district_history.csv",
+      "x-primary-key": [
+        "membership_id"
+      ],
+      "x-unique": []
+    },
+    "schools": {
+      "additionalProperties": false,
+      "description": "Research school identity, independent of current district or program.",
+      "properties": {
+        "identity_status": {
+          "enum": [
+            "state_identifier",
+            "provisional",
+            "legacy_provisional"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "screening_status": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "state_code": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "school_id",
+        "state_code",
+        "school_name",
+        "identity_status",
+        "screening_status"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "state_code": {
+          "column": "state_code",
+          "table": "states"
+        }
+      },
+      "x-path": "data/curated/registry/schools.csv",
+      "x-primary-key": [
+        "school_id"
+      ],
+      "x-unique": []
+    },
+    "seda": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/seda/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "sources": {
+      "additionalProperties": false,
+      "description": "Immutable source vintage; sha256 describes snapshot_path when saved, or remote bytes for metadata-only records.",
+      "properties": {
+        "data_as_of_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dataset_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "evidence_period_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "snapshot_kind": {
+          "enum": [
+            "saved_public_source",
+            "legacy_snapshot",
+            "metadata_only"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "snapshot_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_url": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "version_label": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "dataset_id",
+        "source_url",
+        "version_label",
+        "publication_date",
+        "retrieved_at",
+        "data_as_of_raw",
+        "snapshot_path",
+        "sha256",
+        "snapshot_kind",
+        "notes",
+        "evidence_period_raw"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "dataset_id": {
+          "column": "dataset_id",
+          "table": "datasets"
+        }
+      },
+      "x-path": "data/curated/sources/source_releases.csv",
+      "x-primary-key": [
+        "source_id"
+      ],
+      "x-unique": []
+    },
+    "state_assessments": {
+      "additionalProperties": false,
+      "description": "One observation per published unit/period/grade/population/instrument/administration/language/metric/source vintage.",
+      "properties": {
+        "administration": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessed_language": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assessment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cohort_status": {
+          "enum": [
+            "repeated_cross_section",
+            "identified_cohort",
+            "not_reported"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "denominator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "denominator_status": {
+          "enum": [
+            "reported",
+            "derived_matching_population",
+            "not_reported",
+            "suppressed",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "derivation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "domain": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "entry_cohort_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "grade_scope": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "metric_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "numerator": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "observation_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "period_basis": {
+          "enum": [
+            "school_year",
+            "calendar_year",
+            "calendar_date",
+            "not_reported"
+          ],
+          "type": "string"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "reporting_unit_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "school_year": {
+          "pattern": "^\\d{4}-\\d{2}$",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_grade_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_locator": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_population_raw": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "source_value_unit": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "standard_error": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "subject": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "tested_n": {
+          "minimum": 0,
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_lower_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_numeric": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "value_raw": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value_status": {
+          "enum": [
+            "observed",
+            "derived",
+            "bounded",
+            "suppressed",
+            "not_reported",
+            "not_applicable"
+          ],
+          "minLength": 1,
+          "type": "string"
+        },
+        "value_upper_bound": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "observation_id",
+        "reporting_unit_id",
+        "school_year",
+        "period_start",
+        "period_end",
+        "grade_scope",
+        "entry_cohort_year",
+        "cohort_status",
+        "population_id",
+        "assessment_id",
+        "administration",
+        "subject",
+        "domain",
+        "assessed_language",
+        "metric_id",
+        "value_raw",
+        "value_numeric",
+        "value_status",
+        "value_lower_bound",
+        "value_upper_bound",
+        "source_value_unit",
+        "numerator",
+        "denominator",
+        "denominator_status",
+        "tested_n",
+        "expected_n",
+        "standard_error",
+        "source_population_raw",
+        "source_grade_raw",
+        "source_id",
+        "source_locator",
+        "derivation_method",
+        "notes",
+        "cohort_label",
+        "period_basis"
+      ],
+      "type": "object",
+      "x-foreign-keys": {
+        "assessment_id": {
+          "column": "assessment_id",
+          "table": "assessments"
+        },
+        "metric_id": {
+          "column": "metric_id",
+          "table": "metrics"
+        },
+        "population_id": {
+          "column": "population_id",
+          "table": "populations"
+        },
+        "reporting_unit_id": {
+          "column": "reporting_unit_id",
+          "table": "reporting_units"
+        },
+        "source_id": {
+          "column": "source_id",
+          "table": "sources"
+        }
+      },
+      "x-path": "data/curated/state_assessments/observations.csv",
+      "x-primary-key": [
+        "observation_id"
+      ],
+      "x-unique": [
+        [
+          "reporting_unit_id",
+          "school_year",
+          "period_start",
+          "period_end",
+          "grade_scope",
+          "entry_cohort_year",
+          "population_id",
+          "assessment_id",
+          "administration",
+          "subject",
+          "domain",
+          "assessed_language",
+          "metric_id",
+          "source_id",
+          "cohort_status",
+          "cohort_label",
+          "period_basis"
+        ]
+      ]
+    },
+    "states": {
+      "additionalProperties": false,
+      "description": "The 50 US states; codes and FIPS remain strings.",
+      "properties": {
+        "state_code": {
+          "minLength": 1,
+          "pattern": "^[A-Z]{2}$",
+          "type": "string"
+        },
+        "state_fips": {
+          "minLength": 1,
+          "pattern": "^\\d{2}$",
+          "type": "string"
+        },
+        "state_name": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "state_code",
+        "state_name",
+        "state_fips"
+      ],
+      "type": "object",
+      "x-foreign-keys": {},
+      "x-path": "data/curated/registry/states.csv",
+      "x-primary-key": [
+        "state_code"
+      ],
+      "x-unique": []
+    }
+  },
+  "$id": "urn:dual-language-outcomes:catalog:1.4.0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "National longitudinal DL research contracts",
+  "x-schema-version": "1.4.0"
+}

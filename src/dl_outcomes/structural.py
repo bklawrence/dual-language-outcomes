@@ -17,6 +17,9 @@ REFERENCE_REVIEW_STATES = set(FIVE) | {'UT', 'CO', 'NM', 'AZ', 'NE', 'KS', 'ND',
 
 
 def report_prefix(root):
+    explicit = json.loads((root / 'config/project.json').read_text()).get('national_review_report_prefix')
+    if explicit:
+        return explicit
     new_england=root/'config/research_migrations/new_england_2026_11_06.json'
     if new_england.exists():return json.loads(new_england.read_text())['national_report_prefix']
     followup=root/'config/research_migrations/ny_allocation_followup_2026_11_06.json'
@@ -132,6 +135,9 @@ def migration_errors(root, tables, *, check_hashes=True):
     if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='structural_inventory':
         if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments for r in tables['datasets']):
             errors.append('New non-structural dataset collected before the structural phase is finished')
+    if json.loads((root/'config/project.json').read_text()).get('collection_phase')=='school_assessment_collection':
+        if any(r['layer']!='inventory' and r['dataset_id'] not in baseline_assessments | {'EDC_SADR_V3_1_SCHOOL_GRADES'} for r in tables['datasets']):
+            errors.append('New non-EDC assessment dataset outside the currently authorized collection')
     batch_audit = root / 'config/research_migrations/western_plains_2026_11_04.json'
     if batch_audit.exists():
         from .western_plains_review import audit_errors
@@ -231,8 +237,8 @@ def report_rows(root, tables):
             registry_school_units_including_screening=len(registry), program_site_school_units=len({r['school_id'] for r in current}),
             provisional_program_evidence_groups=len({r['program_id'] for r in current}),
             status_history_rows=len(state_status),
-            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES else None,
-            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES else None,
+            confirmed_qualifying_2025_26_program_records=len(qualifying) if code in REFERENCE_REVIEW_STATES or (code=='TX' and (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists()) else None,
+            confirmed_qualifying_2025_26_school_units=len({sites[r['site_id']]['school_id'] for r in qualifying}) if code in REFERENCE_REVIEW_STATES or (code=='TX' and (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists()) else None,
             program_groups_with_some_population_model=len({r['program_id'] for r in current if r['population_models_all_source_periods']}),
             program_groups_with_some_delivery_structure=len({r['program_id'] for r in current if r['delivery_structures_all_source_periods']}),
             k_allocation_denominator_school_units=allocation_by_state[code]['k_denominator_school_units'],
@@ -385,6 +391,27 @@ def generate_report(root, *, check=False):
         audit['states_with_structural_research'] = sorted(reviewed)
         audit['other_states_without_structural_research'] = [r['state_code'] for r in tables['states'] if r['state_code'] not in reviewed]
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
+    if (root/'config/research_migrations/structural_gaps_pilot_2026_11_06.json').exists():
+        from .gap_pilot import render_reports as pilot_reports, revise_report_paths
+        new_contents,new_summary=pilot_reports(root,tables)
+        contents.update(new_contents)
+        contents,aliases=revise_report_paths(root,contents)
+        audit['structural_gaps_pilot']=new_summary
+        audit['preserved_prior_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
+    if (root/'config/research_migrations/delivery_scope_cleanup_2026_11_06.json').exists():
+        from .delivery_review import render_reports as delivery_reports, revise_report_paths as delivery_paths
+        new_contents,new_summary=delivery_reports(root,tables)
+        contents.update(new_contents)
+        contents,aliases=delivery_paths(root,contents)
+        audit['delivery_scope_cleanup']=new_summary
+        audit['delivery_review_preserved_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
+    if (root/'config/hand_coding.json').exists():
+        from .hand_coding import revise_report_paths as manual_paths
+        contents,aliases=manual_paths(root,contents,tables)
+        audit['hand_coding_preserved_report_versions']=aliases
+        audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

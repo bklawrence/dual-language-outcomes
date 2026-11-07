@@ -1,0 +1,138 @@
+[
+  {
+    "case_id": "garland_vial_allocation",
+    "state": "TX",
+    "district": "Garland ISD",
+    "schools": "Classical Center at Vial",
+    "source_keys": [
+      "garland_vial",
+      "garland_dl",
+      "garland_eb"
+    ],
+    "issue": "Campus and magnet pages explicitly say 50/50; the EB page says two-way time follows the one-way model, whose entry allocation is 80/20.",
+    "recorded_decision": "Retain campus-published 50/50 for the 2025-26 continuity review and flag the conflicting description. A dated guide or board-approved model is needed to establish whether/when allocation changed.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "austin_doss_model",
+    "state": "TX",
+    "district": "Austin ISD",
+    "schools": "Doss Elementary",
+    "source_keys": [
+      "austin_doss",
+      "austin_es"
+    ],
+    "issue": "Doss describes a 50/50 immersion start in 2013 and a change to dual language in 2021; current district Mandarin description permits 80/20 or 50/50 without assigning each campus.",
+    "recorded_decision": "Keep the historical 50/50 evidence; do not resolve current grade-specific allocation or one-way/two-way classification from the historical start alone.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "tx_reporting_category_hosts",
+    "state": "TX",
+    "district": "Austin/Garland/Alief",
+    "schools": "Cook; Vial; former Alief two-way candidates",
+    "source_keys": [
+      "austin_cook",
+      "garland_vial",
+      "alief_summary",
+      "alief_one"
+    ],
+    "issue": "Some TAPR reporting-category associations have no matching campus instructional programme in the checked sources. Current Alief two-way summary names Martin and Rees; the older roster contains other candidates.",
+    "recorded_decision": "Preserve the original reporting groups and unresolved candidates. Roster omission alone is not a dated closure or proof of historical non-operation.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "union_kensington_mandarin",
+    "state": "NC",
+    "district": "Union County Public Schools",
+    "schools": "Kensington Mandarin pathway",
+    "source_keys": [
+      "union_dl",
+      "nc_union_mandarin",
+      "nc_marvin"
+    ],
+    "issue": "The baseline has a Kensington Chinese pathway; the checked district Mandarin description identifies Marvin. No dated closure or relocation evidence was found in this bounded pass.",
+    "recorded_decision": "Keep the earlier listing and the discrepancy. Do not assign Marvin’s model to Kensington or interpret omission as programme closure.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "buncombe_variable_allocations",
+    "state": "NC",
+    "district": "Buncombe County Schools",
+    "schools": "Eight elementary hosts and grade-5 continuations",
+    "source_keys": [
+      "buncombe_faq",
+      "buncombe_dl",
+      "nc_candler"
+    ],
+    "issue": "The FAQ allows allocations to vary by school and grade. Its 50%/50% student-language composition is separate from instructional time.",
+    "recorded_decision": "Leave unquantified allocations missing. Obtain campus grade-specific guides or schedules rather than label all two-way programmes 50/50.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "cms_sail_language_schedules",
+    "state": "NC",
+    "district": "Charlotte-Mecklenburg Schools",
+    "schools": "South Academy of International Languages",
+    "source_keys": [
+      "cms_sail",
+      "cms_sail_faq",
+      "cms_sail_elementary"
+    ],
+    "issue": "The kindergarten sample says Chinese and Japanese have English lessons, without specifying their duration. French/German and Chinese/Japanese cannot receive one shared inferred ratio.",
+    "recorded_decision": "Retain full-immersion descriptions and language differences; exact grade/language allocation needs a campus schedule.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "lcps_k_literacy_exception",
+    "state": "NM",
+    "district": "Las Cruces Public Schools",
+    "schools": "Central and Doña Ana elementary schools",
+    "source_keys": [
+      "lcps_central",
+      "lcps_donaana",
+      "lcps_donaana_model"
+    ],
+    "issue": "Both publish 50/50 models, but K-1 literacy follows the student’s native language. Doña Ana also separates 120 minutes of non-core time with no language assignment.",
+    "recorded_decision": "Keep the published label with its limitation and grade-2/5 schedules. Do not treat it as verified equal whole-day language time for every kindergarten student.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "gadsden_primary_plans",
+    "state": "NM",
+    "district": "Gadsden Independent School District",
+    "schools": "Baseline Gadsden programme evidence groups",
+    "source_keys": [
+      "gadsden_leca",
+      "gadsden_cosecha",
+      "gadsden_plan_pdf",
+      "prior_nm_state"
+    ],
+    "issue": "District sources describe DL activity; they do not provide campus-specific ratios or resolve the state BMEP report versus university-map model differences.",
+    "recorded_decision": "Next source target: approved campus BMEP applications, implementation plans and board attachments. No campus allocation or closure is inferred.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  },
+  {
+    "case_id": "aps_navajo_scope",
+    "state": "NM",
+    "district": "Albuquerque Public Schools",
+    "schools": "Tres Volcanes Navajo candidate",
+    "source_keys": [
+      "aps_tvcc",
+      "aps_models",
+      "prior_nm_state"
+    ],
+    "issue": "A language-programme listing and a general bilingual-school list do not establish Navajo academic immersion or a kindergarten ratio.",
+    "recorded_decision": "Preserve the candidate and seek a primary campus implementation plan distinguishing heritage-language instruction from academic-content immersion.",
+    "status": "open_documentation_review",
+    "question_for_reviewer": "A dated primary-source clarification would resolve this case; no inference approval is required to retain the current conservative classification."
+  }
+]

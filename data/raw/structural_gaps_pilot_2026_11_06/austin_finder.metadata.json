@@ -1,0 +1,15 @@
+{
+  "key": "austin_finder",
+  "url": "https://www.austinisd.org/dual-language/program-finder",
+  "retrieved_at": "2026-11-06T17:51:16.244009+00:00",
+  "http_status": 200,
+  "final_url": "https://www.austinisd.org/dual-language/program-finder",
+  "content_type": "text/html; charset=UTF-8",
+  "content_encoding": "",
+  "sha256": "4f1a512d9fe15389f76812e39a8d47aa0e95110afb5c731ba1e33b4cc6492784",
+  "bytes": 39720,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "complete_original_HTTP_response",
+  "title": "Dual Language Campuses | Austin ISD",
+  "snapshot_path": "data/raw/structural_gaps_pilot_2026_11_06/austin_finder.html"
+}
