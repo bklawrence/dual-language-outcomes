@@ -1,0 +1,40 @@
+{
+  "batch_id": "aaaa8adc-0ad2-461d-8d20-9c869fd80265",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-29da8b4d5d3c5809a91f6373578e9f9c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:13:58.873Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://jefferson.gusd.net/enrollment",
+      "grade_scope": "",
+      "notes": "Note: \"In addition to our traditional academic program, Jefferson Elementary offers an Armenian dual language immersion program which is open to students living in and outside Glendale Unified School District boundaries.\" The language makes clear that the Armenian DL is a strand in the school and not the sole program.",
+      "reference_year": "2025-26",
+      "review_id": "0aa5c92b-3dd8-44ae-8037-34e1c259c64c",
+      "reviewer": "Brian",
+      "school_id": "CA-S-6c7d8c22bc84",
+      "school_name": "Thomas Jefferson Elementary School",
+      "selected_site_id": "site-29da8b4d5d3c5809a91f6373578e9f9c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bjgaines11",
+    "hand_coded": true,
+    "issue_number": 19,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/19",
+    "received_at": "2026-11-07T18:17:18.860773+00:00",
+    "submitted_at": "2026-11-07T18:16:59Z"
+  },
+  "version": 1
+}
