@@ -1,5 +1,4 @@
 import React from 'react';
-import { Droplets } from 'lucide-react';
 import { gardenState } from './garden';
 
 export default function Plant({garden, watering, now}) {
@@ -23,11 +22,6 @@ export default function Plant({garden, watering, now}) {
       <path d="M79 150 V166 M88 151 V169 M99 151 V170 M110 150 V166" stroke="#bd795e" opacity=".3" strokeWidth="1.3"/>
       <g opacity={state.webs} stroke="#8d9991" strokeWidth=".8" fill="none"><path d="M130 10 L130 85 M130 10 L180 10 M130 10 L170 65 M130 10 L182 38 M130 30 Q140 32 146 29 Q155 27 159 10 M130 47 Q147 49 157 43 Q171 35 175 10 M130 65 Q155 68 170 56 Q182 45 183 24"/><path d="M161 62 v13"/><ellipse cx="161" cy="78" rx="2" ry="3" fill="#7d8a80"/></g>
       <g className="water-drops" fill="#75a6b5"><path d="M91 9 Q82 21 91 22 Q100 21 91 9"/><path d="M109 30 Q102 39 109 40 Q116 39 109 30"/></g>
-      {watering&&<text x="141" y="109" className="water-plus" fill="#3c7165" fontSize="12">+ water</text>}
     </svg>
-    <div className="plant-name">Research fern</div><p className="plant-mood" aria-live="polite">{state.label}</p>
-    <div className="moisture-line"><Droplets size={13}/><span className="moisture-track"><span style={{width:state.moisture+'%'}}/></span></div>
-    <p className="plant-help">Saved reviews and notes water the fern.</p>
-    <span className="plant-tooltip">Small saves help it grow. After a few days without water it gets thirsty; longer breaks bring fallen leaves and cobwebs. It can always recover.</span>
   </section>;
 }

@@ -63,7 +63,7 @@ async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resol
   const agedContext=await browser.newContext({viewport:{width:1500,height:1000},storageState:restoredState,timezoneId:'America/Chicago'});
   const aged=await agedContext.newPage();await aged.clock.install({time:new Date(Date.now()+14*86400000)});
   await aged.goto(url,{waitUntil:'networkidle'});await aged.getByRole('heading',{name:'Review queue',exact:true}).waitFor();
-  await aged.getByText('A little neglected',{exact:true}).waitFor();
+  await aged.getByRole('img',{name:/Your plant: A little neglected/}).waitFor();
   assert.ok(await aged.locator('.plant-art').getAttribute('aria-label').then(s=>s.includes('0 leaves')));
   await aged.locator('.plant-card').screenshot({path:path.join(output,'neglected-plant.png')});
   await aged.getByRole('radio',{name:/Whole school All students/}).check();await aged.getByLabel('Evidence website URL').fill('https://example.edu/whole-school');
