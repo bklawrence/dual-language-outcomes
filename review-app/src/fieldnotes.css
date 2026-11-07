@@ -176,7 +176,10 @@ h1, h2, h3 { font-weight: 550; }
 .search-lead>span { flex: 1; }
 .search-lead small { display: block; font-size: 10px; color: var(--muted); margin-top: 5px; }
 .research-tip { font-family: Georgia, serif; margin-top: 20px; font-size: 12px; line-height: 1.7; }
-.research-tip strong { font-style: italic; font-weight: 400; }
+.research-tip h3 { font-size: 15px; font-weight: 400; }
+.research-tip dl { margin: 12px 0 0; }
+.research-tip dt { font-family: 'DM Sans Variable', Arial, sans-serif; font-size: 11px; font-weight: 550; }
+.research-tip dd { margin: 3px 0 12px; }
 .research-tip p { margin-top: 6px; }
 .research-tip p+p { margin-top: 9px; }
 .inventory-note { font-size: 10px; color: var(--muted); line-height: 1.7; margin-top: 19px; }
