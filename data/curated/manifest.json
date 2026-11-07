@@ -1,13 +1,13 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-c39b244f7c07518d93d655bc526bd0cd",
-  "built_at": "2026-11-07T17:58:58.163343+00:00",
-  "base_git_revision": "6843a66a68a4f29ff640c2e6f262532ab869d147",
+  "build_id": "build-e7d90806ead15816a769ab9ff6ea5c83",
+  "built_at": "2026-11-07T18:08:32.499726+00:00",
+  "base_git_revision": "8dc5fba07ff63dad8ce0b082118f616833b31368",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
     "config/edc_identity_reviews.csv": "4f59a39fcc9cd22e07f16b2161a41a4c53a311988dd9759ad8a2c883c8416c15",
-    "config/hand_coding.json": "5dcce5ae79e93133b13205c7af9264619cf0ee6090b79ebe7aef3df46c8b55dd",
+    "config/hand_coding.json": "c6d8183004a4ebf473e30fbd69a5c85519a8bfc546abc68f71698a7225e1b774",
     "config/identity_mappings.csv": "1ad8560a7cee3eedad32dce13431861772ee9e013a1833e7e7f93bb90598ec41",
     "config/project.json": "64e57f114505b9b8da401f11f4179467a98551de7422366efeb574ae41b6ffac",
     "config/research_migrations/delivery_scope_cleanup_2026_11_06.json": "d16c5800acffee2fc571f2381a01d5c4bcad6e1643a10dbbeaae2976d8723fba",
@@ -6416,7 +6416,7 @@
       "sha256": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "0bbf858a235d443d8b3de7eb156fb0038560910a5e25d855b9ee87b79efbf18e"
+      "sha256": "bb969fc4c41854134c0b11fc35c6284a7600c4fad483327e7448cd446cc8aa3c"
     }
   }
 }
