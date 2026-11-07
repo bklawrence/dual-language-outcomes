@@ -1,0 +1,8 @@
+{
+  "research_date": "2026-11-07",
+  "reference_year": "2025-26",
+  "base": "data/registry/named_school_delivery_review_2026_11_07",
+  "scope": "Targeted delivery review prompted by specialized school names. School names identify research leads, not automatic whole-school assignments. Corrects language-pathway versus campus participation classification; preserves school/program identities, separate language records, allocations, population models, assessments and original observations.",
+  "temporal_policy": "New delivery adjudications apply to 2025-26 only. The source retains its original undated description and actual 2026 capture date. No historical allocation, operation or tested-cohort exposure is inferred.",
+  "delivery_definition": "A campus can be a whole-school DL model with multiple partner-language pathways. Strand delivery requires participation by only part of the campus; separate language pathways alone do not establish an English-only general education pathway."
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-b1e86347c70f5f8eb934664b61b65763",
-  "built_at": "2026-11-07T20:03:39.384847+00:00",
-  "base_git_revision": "1c123b5363573177accd204ec76725afcdf3d4a8",
+  "build_id": "build-39b7c05a50895f9c9f05c678cbd938ea",
+  "built_at": "2026-11-07T20:14:05.362374+00:00",
+  "base_git_revision": "cb61795af688a5eee846cedd7b1b39b451aae15a",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
@@ -15,6 +15,7 @@
     "config/research_migrations/great_lakes_2026_11_05.json": "07aa183ae16716a0d1147b892e5abe5193dc9ce9d5a0de67d60572c4edac24e0",
     "config/research_migrations/illinois_2021_22_user_2026_11_05.json": "7d4742169f58db1e5232b88e659180909faac3272f7fe1e21343ed5103161aec",
     "config/research_migrations/mid_atlantic_ct_2026_11_05.json": "4d5058f7779f8d14e9c9465d5d7391a2d65f233cd03ca97e1af021e212ea9904",
+    "config/research_migrations/named_school_delivery_review_2026_11_07.json": "ffac49671193dc19d7cb3f11ac2f442e14ca03ab91b14f03633ffc3aaacb8af9",
     "config/research_migrations/new_england_2026_11_06.json": "20084f35f07b2eca84155607903ffa245df91ac4b0d4fd15cc683683073e5614",
     "config/research_migrations/northern_central_ak_hi_2026_11_05.json": "2e0bdaa2f69db527b7d7ef0e29ae7988dc0c5b5c50d6ebcf4fdf62b5c5c0ed70",
     "config/research_migrations/ny_allocation_followup_2026_11_06.json": "f16336449aebcf67268a32ee735448a396ea536dd0c9998088c3f84236a2ae29",
@@ -4192,6 +4193,12 @@
     "data/registry/mid_atlantic_ct_2026_11_05/sources.csv": "6272847c60f3858912921f5fb1ef3796ae3b41a8525de36c50a16a0011158831",
     "data/registry/mid_atlantic_ct_2026_11_05/sources.json": "3d91bc4d5465c061ff8c939e933bdeff922e0014e065ccb985391f6e4e86a818",
     "data/registry/mid_atlantic_ct_2026_11_05/unmatched_grade_context.json": "82f9de4faf00f028f215fa101b31d96c5ee82254121b9e9bc0830248b20fbfab",
+    "data/registry/named_school_delivery_review_2026_11_07/README.md": "644251a98c3045cc100f36caeb1c5878985c8241d5cf4794d127cb651cf18250",
+    "data/registry/named_school_delivery_review_2026_11_07/name_screen.csv": "5b3e5f3f1a1d90317db8d4bbc841904f79a58abc823a878984804ad498d4e885",
+    "data/registry/named_school_delivery_review_2026_11_07/observations.json": "ce1a187481f81fea059a687a1bbd3e2026dff37b1af8952ee33fa92c60d8360b",
+    "data/registry/named_school_delivery_review_2026_11_07/priority_cases.csv": "b0663adadcc3e86901608b609e21c0e73be2d7da87fbdca0ccc48d98e9030462",
+    "data/registry/named_school_delivery_review_2026_11_07/sllis_official_program_excerpts.txt": "545332e6502ffa3b56140fecfc4a259ff3fee72703471c2cbda1573cf86e5266",
+    "data/registry/named_school_delivery_review_2026_11_07/sources.json": "4cb66d50b85382efeb918270cbb7d9b0239f54f4950786dd4e0a11d29aa728de",
     "data/registry/new_england_2026_11_06/extractions/index.json": "b8adb8d7dbeea27148cb4b16690ba2cbbd3cc709cbb9d0ce7c6ba5f753d9bba1",
     "data/registry/new_england_2026_11_06/extractions/massachusetts_directory_paragraphs.json": "0bb64842af44ba23171037ddb58438a7307078c1d350df57001b3fc465b5dd2e",
     "data/registry/new_england_2026_11_06/extractions/massachusetts_directory_reconciliation.csv": "8aef4739e206a61fbe49fefe7e6cb68b93e191d5a9bbdf419ee579e7d8703457",
@@ -5465,7 +5472,7 @@
     "src/dl_outcomes/analytics.py": "4482aaf8ecefb73759bd9d09b4fcb8f71d5057879a10ee63bf05be82132f4fbb",
     "src/dl_outcomes/baseline.py": "59d57ddfd1ca505a5b5ae5ec19bb5a6d55dbe4c159e649306b7d6bf202c9ab57",
     "src/dl_outcomes/baseline_selection.py": "4632021b21bf95c3ba5128959e8ece01b2f7b7f158de0fce122361f5f1570437",
-    "src/dl_outcomes/build.py": "30ef1185dd1ce25420290c40d0bfc6fd3d9e17046647ea2fe1f3c5a6255c470b",
+    "src/dl_outcomes/build.py": "d12117d56b8f64eed4711045bdb0e78b806e2517ecc1ac9f6d3e3fecdda3be8a",
     "src/dl_outcomes/cli.py": "2ff6b94601b372125d0a85bfddbb72e9f8dbee51a709e6b6dea53a5fbec3ddd9",
     "src/dl_outcomes/collection_provenance.py": "ccf5181dbea3c1d9dd3a97ebccd98a0cdc89abf0bb30e223563f101e7918ae90",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
@@ -5475,7 +5482,7 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "8179c6c522f984d17f6078d58819915f2c0ca38c842f4ef9be4f245a2dd2c49d",
-    "src/dl_outcomes/delivery_review.py": "acb741305d1e4dca4d82b95cf1c52d730b71585ca5f30bc7538027b803cc884b",
+    "src/dl_outcomes/delivery_review.py": "aeb7b33af5bcb49b1ac262fefe16afed7c68f26d6bfcc382e51a41b0118e9c2c",
     "src/dl_outcomes/edc.py": "428a8388f7db3cd8fd86d1e94e07ea66374917670b0c1095126f27f364661ec4",
     "src/dl_outcomes/elementary_audit.py": "ba3aa7679b15b42a5ba33113cde55d14e184f3a4b55e67e36114df7d1b664782",
     "src/dl_outcomes/evidence_scope.py": "2bafa862ebec9a700d4ced74b5b9ce88279fb8ec82a1241c7e90921822c31c4d",
@@ -5571,8 +5578,8 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "5404f1927c260bcd9fb158de015db8935aee08f3f1bb4de44be4b0d20c41cfa8",
-      "rows": 70
+      "sha256": "a98cb67fa345608b1e5d0f122779b8f86388230769bab9d06a71385cbbd8d9fd",
+      "rows": 71
     },
     "data/curated/sources/source_releases.csv": {
       "sha256": "0c2e77b902aed71d70cf742b6de3bd828cc729c8704cb650b953d01ce9f56c59",
@@ -5611,8 +5618,8 @@
       "rows": 9797
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "4bf246cc1ef1f10decc2a0f36c39ba4bc9b3ee4ff01e07d7393c8ccb1df0a118",
-      "rows": 7450
+      "sha256": "5405700c929888284abbf46ac1425a23cab71181bd48657d88da88de00d7ac29",
+      "rows": 7453
     },
     "data/curated/program_history/allocation_schedules.csv": {
       "sha256": "94123fde478542c1e4e1b66c33058b9f5603ec2c4394fca19e99a8e0bcee815e",
@@ -5623,8 +5630,8 @@
       "rows": 2104
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "4735e9abf3b55ed960e25d4b7041976016b5e8b2cde417a2113b12435f7778d4",
-      "rows": 29216
+      "sha256": "715203ac4d5e36ce935b7f55549c35baa97179fb6cdc005ca7532330bd665ced",
+      "rows": 29225
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -5675,7 +5682,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "77aa0f2e7fb1291a1b5935dffeb248c0c68213454eff22523fb4702e840871ff",
+      "sha256": "3e612f95804bd81f4158bdb2fb660bb9465a4949fa0802feaf693f1a8e2aadf6",
       "rows": 13200
     }
   },
@@ -5734,6 +5741,7 @@
     "Wyoming: reviewed structural records, original research IDs, 2025–26 operation/eligibility and source-dated claims integrated. Historical/undated choices, candidates and prior vintages are not new confirmed annual programs. No assessment collection in this integration.",
     "Nine-district pilot; existing identities only; no assessment/proficiency/EL-exit/SEDA collection. Source-year bounds and field review claims are not policy start dates or student exposure.",
     "Delivery-structure cleanup among existing elementary allocation-bearing programme sites; fixed live pre-pass cohort, append-only source evidence; no assessment, identity, language-allocation or population-model changes. New decisions are reviewed for 2025-26 only. Source years and undated standing descriptions retain their actual dates. No new fact is eligible for spring 2025 (2024-25) or earlier analyses.",
+    "Targeted delivery review prompted by specialized school names. School names identify research leads, not automatic whole-school assignments. Corrects language-pathway versus campus participation classification; preserves school/program identities, separate language records, allocations, population models, assessments and original observations. New delivery adjudications apply to 2025-26 only. The source retains its original undated description and actual 2026 capture date. No historical allocation, operation or tested-cohort exposure is inferred.",
     "Researcher hand-coded structural decisions are separately marked, cited and bounded to their reviewed school year; original observations and assessment data are retained.",
     "EDC native school/grade results are in data/assessments/edc_v3_1_2022_2025; original assessment pilot tables remain separate. Public EDC data cover grades 3–8 only, with source-defined subgroups, suppression and documented count substitutions."
   ],
@@ -5748,7 +5756,7 @@
   },
   "reports": {
     "data/reports/hand_coding/current/national_inventory_program_view.csv": {
-      "sha256": "813d0dd3122be1dd34249b0b14a60448c05d18aedcf9ff2c88a83e2e21c7c2a1"
+      "sha256": "9d7fe48ef46c56e6ad597a317e8f6acd86c3f787f8ec51c05dd2e1bb3a777e8d"
     },
     "data/reports/hand_coding/current/national_inventory_by_state.csv": {
       "sha256": "29b54045e1e1280b5420b18e7dae1835bfd2520624d47fdfa1a5a24003672024"
@@ -6420,13 +6428,13 @@
       "sha256": "4847c9f94ee34051cb0598b90d075df5ab50592ada8907a07b736b21291904ea"
     },
     "data/reports/hand_coding/current/programs.csv": {
-      "sha256": "87479a3d2c8ef445abe3013236802ae334d930b1bd0d352369b1a4651607abd0"
+      "sha256": "04206ec9d6d4f599288a188eee9d24db629a1b3a7484b9b14972f12e8b94963b"
     },
     "data/reports/hand_coding/current/README.md": {
       "sha256": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "dadf2293be65c2d9b0a74949d6a346cb5c6cdb8ea63fd1e458ca0234c9a1c0d3"
+      "sha256": "0205ca6599370f8e5c063381d45ac6007d5599710143e42c3079d8c6c0afd136"
     }
   }
 }

@@ -183,6 +183,10 @@ class Build:
         if (self.root/'config/research_migrations/delivery_scope_cleanup_2026_11_06.json').exists():
             from .delivery_review import migrate as review_delivery
             review_delivery(self)
+        delivery_followup = 'config/research_migrations/named_school_delivery_review_2026_11_07.json'
+        if (self.root/delivery_followup).exists():
+            from .delivery_review import migrate as review_delivery
+            review_delivery(self, config_path=delivery_followup, dataset_id='NAMED_SCHOOL_DELIVERY_REVIEW_2026_11_07')
         if (self.root/'config/hand_coding.json').exists():
             from .hand_coding import migrate as apply_hand_coding
             apply_hand_coding(self)

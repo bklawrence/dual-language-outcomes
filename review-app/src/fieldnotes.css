@@ -115,6 +115,8 @@ h1, h2, h3 { font-weight: 550; }
 .known-item { min-width: 0; }
 .known-item>span { display: block; font-size: 9px; letter-spacing: .5px; color: var(--muted); margin-bottom: 7px; }
 .known-item strong { display: block; font-size: 13px; font-weight: 500; line-height: 1.5; overflow-wrap: anywhere; }
+.recorded-delivery { margin: 0 0 14px; font-size: 11px; line-height: 1.6; color: var(--muted); }
+.recorded-delivery strong { font-weight: 500; color: var(--ink); }
 .case-grid { display: grid; grid-template-columns: minmax(330px, 1fr) minmax(210px, .51fr); gap: 36px; align-items: start; }
 .coding-card { min-width: 0; }
 .card-header { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 20px; }

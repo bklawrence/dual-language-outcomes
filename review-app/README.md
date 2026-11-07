@@ -71,6 +71,10 @@ that variable for its reviewed year only. Earlier evidence remains in the histor
 The sidebar's delivery-model coverage counts schools with a documented whole
 school, strand, or mixed classification within the allocation-known review
 cohort. Every school in that denominator already has allocation data.
+The coding form also displays the recorded delivery value and its provisional
+or conflicting evidence status. Unselected radio buttons mean no new finding
+has been entered; they do not erase or hide the recorded model. Saving a source
+without selecting a new value keeps the existing classification.
 
 The active queue omits schools whose relevant elementary program records all
 have allocation and delivery values. A recorded interpretation counts as filled

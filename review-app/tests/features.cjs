@@ -21,6 +21,12 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
   }
   fixture.cases=[school('complete','Already Complete',1,true),school('finish','Complete After Coding'),
     school('multi','Multiple Programs',2),school('end','Program Ended'),school('move','Program Moved')];
+  const known=school('known','Recorded Whole School',1,true);
+  known.allocation_known=false;known.missing=['elementary_allocation_model','population_model'];
+  known.sites[0].known.elementary_allocation_model={value:[],status:'not_reported'};
+  known.sites[0].known.delivery_structure.status='provisional';
+  known.sites[0].known.delivery_structure.value=['whole_school'];
+  fixture.cases.push(known);
   fixture.accepted_review_ids=[];fixture.accepted_batch_ids=[];
   fixture.destination_schools=[{school_id:'destination',school_name:'New Campus',district_name:'Test District',state_code:'TX'}];
   fixture.leaderboard=[{reviewer:'Researcher',reviews:12,schools:10,submissions:3,states:3,evidence_only:5},
@@ -136,6 +142,18 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
     const revised=(await workspace(page)).saved.find(r=>r.school_id==='move');
     assert.equal(revised.program_event.destination_school_id,'destination');
     await page.locator('.log-card').filter({hasText:'Program Moved'}).locator('.program-event-summary').waitFor();
+    // A blank new finding must not conceal or automatically re-save an
+    // existing delivery value while another variable is still missing.
+    await page.getByRole('button',{name:/Review queue/}).click();
+    await page.getByRole('checkbox',{name:'Allocation already recorded',exact:true}).uncheck();
+    await choose('Recorded Whole School');
+    const recorded=page.getByLabel('Recorded delivery model',{exact:true});
+    assert.ok((await recorded.innerText()).includes('Whole school'));
+    assert.ok((await recorded.innerText()).includes('Provisional'));
+    assert.equal(await page.getByRole('radio',{name:/Whole school All students/}).isChecked(),false);
+    await page.getByLabel('Evidence website URL').fill('https://example.edu/research-only');
+    await page.getByRole('button',{name:'Save evidence & next',exact:true}).click();await waitSaved(page,6);
+    assert.deepEqual((await workspace(page)).saved.at(-1).changes,{});
     assert.deepEqual(errors,[]);
     console.log('PASS: completed-school removal after save and publication, history editing, multi-program scope, dated ended/moved findings, leaderboard credit and badges, responsive layout.');
   }finally{await otherContext.close();await context.close();}

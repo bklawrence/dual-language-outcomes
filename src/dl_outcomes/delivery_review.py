@@ -15,12 +15,14 @@ DATASET = 'DELIVERY_SCOPE_CLEANUP_2026_11_06'
 REVIEW = 'delivery_scope_review_observation'
 
 
-def inputs(root):
-    config = json.loads((root / CONFIG).read_text())
+def inputs(root, config_path=CONFIG):
+    config = json.loads((root / config_path).read_text())
     base = root / config['base']
     files = {p.stem: json.loads(p.read_text()) for p in base.glob('*.json')}
-    with gzip.open(base / 'original_keys.json.gz', 'rt') as stream:
-        files['original_keys'] = json.load(stream)
+    keys = base / 'original_keys.json.gz'
+    if keys.exists() or config_path == CONFIG:
+        with gzip.open(keys, 'rt') as stream:
+            files['original_keys'] = json.load(stream)
     return config, files
 
 
@@ -49,15 +51,15 @@ def added_ids(files):
     return result
 
 
-def migrate(build):
-    config, files = inputs(build.root)
-    build.track_input(CONFIG)
+def migrate(build, *, config_path=CONFIG, dataset_id=DATASET):
+    config, files = inputs(build.root, config_path)
+    build.track_input(config_path)
     for path in sorted((build.root / config['base']).rglob('*')):
         if path.is_file():
             build.track_input(path)
-    for path in files['preservation']['preserved_files']:
+    for path in files.get('preservation', {}).get('preserved_files', {}):
         build.track_input(path)
-    build.dataset(DATASET, None, 'inventory', 'Reviewed whole-school versus strand delivery',
+    build.dataset(dataset_id, None, 'inventory', 'Reviewed whole-school versus strand delivery',
                   'repo:' + config['base'], notes=config['scope'])
     sources = {}
     existing = {r['source_id']: r for r in build.rows('sources')}
@@ -70,16 +72,23 @@ def migrate(build):
                 raise ValueError('Delivery source bytes changed: ' + source['key'])
             sources[source['key']] = row['source_id']
         else:
-            sources[source['key']] = build.source_file(DATASET, source['path'], metadata=source['metadata_path'])
+            sources[source['key']] = build.source_file(dataset_id, source['path'], metadata=source['metadata_path'])
     sites = {r['site_id']: r for r in build.rows('program_sites')}
     schools = {r['school_id']: r for r in build.rows('schools')}
     for fact in files['observations']:
+        if (fact['variable'] != 'delivery_structure' or fact['value'] not in {'whole_school','strand','mixed'}
+                or fact.get('verification_status','documented') not in {'documented','provisional'}):
+            raise ValueError('Unsupported delivery review value or evidence status')
+        if (fact['source_school_year'] and fact['source_school_year'] > fact['reference_year']
+                or fact['earliest_reviewed_selection_year'] != fact['reference_year']
+                or fact['latest_reviewed_selection_year'] != fact['reference_year']):
+            raise ValueError('Delivery reviews require a separate source date and a single reviewed school year')
         site = sites[fact['site_id']]
         if (site['school_id'] != fact['school_id'] or site['program_id'] != fact['program_id']
                 or schools[fact['school_id']]['state_code'] != fact['state']):
             raise ValueError('Delivery review crosses an existing school/programme identity')
         source = sources[fact['source_keys'][0]]
-        cid = record_id('configuration', DATASET, fact['fact_id'])
+        cid = record_id('configuration', dataset_id, fact['fact_id'])
         period = fact['evidence_period_raw']
         note = (fact['notes'] + ' Delivery scope: ' + fact['delivery_grade_scope']
                 + '. Source locator: ' + fact['source_locator'] + '. Source quote: ' + fact['source_quote'])
@@ -89,7 +98,7 @@ def migrate(build):
                   school_year=fact['source_school_year'], grade_scope='not_reported',
                   population_model='unknown', delivery_structure=fact['value'],
                   program_kind='reviewed_structural_selection_with_separate_source_dates',
-                  evidence_period_raw=period, verification_status='documented', source_id=source,
+                  evidence_period_raw=period, verification_status=fact.get('verification_status','documented'), source_id=source,
                   source_locator=fact['fact_id'], notes=note)
         add_scope(build, fact, 'program_configurations', [cid], source)
         metadata = dict(fact, canonical_evidence_ids=[cid],
