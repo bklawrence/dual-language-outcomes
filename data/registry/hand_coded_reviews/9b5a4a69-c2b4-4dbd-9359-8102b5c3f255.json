@@ -1,0 +1,40 @@
+{
+  "batch_id": "9b5a4a69-c2b4-4dbd-9359-8102b5c3f255",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-64ed6e1d583e548b96d67e2c09863e38"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T22:26:50.375Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://irving.siouxcityschools.org/o/irving/page/dual-language",
+      "grade_scope": "",
+      "notes": "Calls itself a DL school.",
+      "reference_year": "2025-26",
+      "review_id": "10a716f4-0228-4083-9f59-0f0e7592fe98",
+      "reviewer": "bklawrence",
+      "school_id": "NC-IA-S-6c1de643d918",
+      "school_name": "Irving Dual Language Elementary School",
+      "selected_site_id": "site-64ed6e1d583e548b96d67e2c09863e38",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 29,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/29",
+    "received_at": "2026-11-07T22:27:55.675371+00:00",
+    "submitted_at": "2026-11-07T22:27:09Z"
+  },
+  "version": 1
+}
