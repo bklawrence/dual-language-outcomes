@@ -23,7 +23,12 @@ their source wording.
 
 The app requires no embedded credentials. A researcher saves reviews locally,
 then publishes a small batch through a prepared GitHub submission using their
-normal GitHub sign-in. The trusted workflow accepts only accounts listed in
+normal GitHub sign-in. **Continue on GitHub** saves the exact batch to browser
+storage, then opens the prepared submission in the same tab, without a popup.
+After submitting, use Back to return to Fieldnotes and check publishing status.
+Prepared-batch retry links also use the same tab. **Copy submission link** offers
+a manual route; if clipboard access is denied, the complete URL is selectable.
+The trusted workflow accepts only accounts listed in
 `config/hand_coding.json`, validates identities and values, creates an immutable
 journal, rebuilds the canonical data, commits the journal and derived outputs
 together, and refreshes the Pages website. Until the refreshed dataset confirms
@@ -56,6 +61,10 @@ A batch already handed to GitHub retains its submitted version while awaiting
 acknowledgement. For a published decision, **Add a correction** creates another
 journal record linked to the original; the latest authenticated decision selects
 that variable for its reviewed year only. Earlier evidence remains in the history.
+
+The sidebar's delivery-model coverage counts schools with a documented whole
+school, strand, or mixed classification within the allocation-known review
+cohort. Every school in that denominator already has allocation data.
 
 To invite a contributor, share the Pages URL, add their GitHub username to
 `authorized_reviewers` in `config/hand_coding.json`, and commit that configuration.

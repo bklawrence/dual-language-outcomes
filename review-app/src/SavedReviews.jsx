@@ -3,7 +3,7 @@ import {ArrowDownToLine, ArrowRight, Check, CheckCheck, ExternalLink, Search} fr
 import ReviewDetails from './ReviewDetails';
 
 export default function SavedReviews({store, cases, accepted, pending, awaiting, inventoryYear,
-  filters, setFilters, refreshing, onRefresh, onBackup, onQueue, onEdit, onRevisit, onRemove}) {
+  filters, setFilters, refreshing, onRefresh, onBackup, onQueue, onEdit, onRevisit, onRemove, onCopySubmission, handoffBusy}) {
   const schools = new Map(cases.map(c => [c.school_id, c]));
   const districtOf = r => schools.get(r.school_id)?.district_name || 'District unavailable';
   const districts = [...new Set(store.saved.map(districtOf))].sort();
@@ -37,7 +37,7 @@ export default function SavedReviews({store, cases, accepted, pending, awaiting,
           <div className="log-heading"><div><h3>{r.school_name}</h3><span>{districtOf(r)} · {r.reviewer} · {new Date(r.coded_at).toLocaleDateString(undefined, {month: 'short', day: 'numeric'})}</span></div><span className={'status-pill ' + (published ? 'green' : '')}><Check size={12}/>{published ? 'Published' : batch ? 'Confirm on GitHub' : draft ? 'Unsaved edits' : 'Saved on this device'}</span></div>
           <ReviewDetails record={r} school={schools.get(r.school_id)} inventoryYear={inventoryYear}/>
           <div className="log-bottom"><span className="hand-coded">Hand-coded</span>
-            {batch && !published && <a href={batch.url} target="_blank" rel="noreferrer">Confirm batch <ExternalLink size={12}/></a>}
+            {batch && !published && <><a href={batch.url}>Confirm batch <ExternalLink size={12}/></a><button className="text-button" disabled={handoffBusy} onClick={()=>onCopySubmission(batch)}>Copy submission link</button></>}
             {!batch && !published && <button className="text-button" onClick={() => onRemove(r)}>Remove unpublished review</button>}
             <button className="secondary small review-edit" onClick={() => batch && !published ? onRevisit(r) : onEdit(r)}>{batch && !published ? 'Revisit school' : draft ? 'Resume editing' : published ? 'Add a correction' : 'Edit review'}<ArrowRight size={13}/></button>
           </div>

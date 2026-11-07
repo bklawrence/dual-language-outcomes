@@ -59,6 +59,7 @@ function App(){
   const [store,setStore]=useState(()=>{const old=readStore();return {reviewer:'',drafts:{},saved:[],batches:[],garden:freshGarden(),...old};});
   const [data,setData]=useState(null),[loadError,setLoadError]=useState(''),[active,setActive]=useState(store.lastSchoolId||''),[siteId,setSiteId]=useState('');
   const [editingId,setEditingId]=useState(store.editingReviewId||'');
+  const [handoffBusy,setHandoffBusy]=useState(false),[handoffError,setHandoffError]=useState(''),[manualLink,setManualLink]=useState('');
   const [reviewFilters,setReviewFilters]=useState({query:'',district:'all',status:'all'});
   const [hydrated,setHydrated]=useState(false),[savingDraft,setSavingDraft]=useState(false);
   const [query,setQuery]=useState(''),[state,setState]=useState('all'),[district,setDistrict]=useState('all'),[variable,setVariable]=useState('delivery_structure'),[allocationOnly,setAllocationOnly]=useState(true),[view,setView]=useState('queue');
@@ -125,8 +126,30 @@ function App(){
   const restore=async file=>{try{const b=JSON.parse(await file.text());if(b.version!==1||!Array.isArray(b.saved)||typeof b.drafts!=='object')throw Error();const ids=new Set(store.saved.map(r=>r.review_id));setStore(s=>({...s,drafts:{...b.drafts,...s.drafts},saved:[...s.saved,...b.saved.filter(r=>!ids.has(r.review_id))],garden:b.garden&&b.garden.reviews>s.garden.reviews?b.garden:s.garden,batches:[...s.batches,...(b.batches||[]).filter(v=>!s.batches.some(o=>o.batch_id===v.batch_id))]}));setToast('Backup restored. Existing reviews were kept.');}catch{setToast('That file is not a valid Fieldnotes backup.');}};
   useEffect(()=>{if(modal!=='publish')return;setBatch(null);setBatchError('');if(!pending.length)return;let valid=true;prepareBatch(pending,data).then(b=>valid&&setBatch(b)).catch(e=>valid&&setBatchError(e.message));return()=>{valid=false;};},[modal,pending,data]);
   const unfinishedBatchEdits=batch?.records.some(r=>store.drafts['review:'+r.review_id]);
-  const openPublish=()=>{setBatch(null);setBatchError('');setModal('publish');};
-  const handoff=()=>{if(!batch||unfinishedBatchEdits)return;window.open(batch.url,'_blank','noopener,noreferrer');setStore(s=>({...s,batches:[...s.batches,{batch_id:batch.batch_id,review_ids:batch.records.map(r=>r.review_id),url:batch.url,created_at:batch.created_at}]}));setModal('');setToast('Confirm the batch on GitHub. Your reviews stay saved here while the dataset updates.');};
+  const openPublish=()=>{setBatch(null);setBatchError('');setHandoffError('');setManualLink('');setModal('publish');};
+  const rememberBatch=async b=>{
+    const next=store.batches.some(old=>old.batch_id===b.batch_id)?store:{...store,batches:[...store.batches,
+      {batch_id:b.batch_id,review_ids:b.records.map(r=>r.review_id),url:b.url,created_at:b.created_at}]};
+    // Finish the browser write before leaving the page. GitHub sign-in and
+    // submission may take time, and Back must recover this exact batch.
+    await saveWorkspace({...next,lastSchoolId:active,editingReviewId:editingId});
+    setStore(next);
+  };
+  const handoff=async e=>{
+    e.preventDefault();if(!batch||unfinishedBatchEdits||handoffBusy)return;
+    setHandoffBusy(true);setHandoffError('');
+    try{await rememberBatch(batch);window.location.assign(batch.url);setModal('');setView('saved');}
+    catch{setHandoffError('GitHub could not be opened. Your reviews are still here. Try the saved submission link, or export a backup if browser storage is unavailable.');}
+    finally{setHandoffBusy(false);}
+  };
+  const copySubmission=async b=>{
+    if(handoffBusy)return;setHandoffBusy(true);setHandoffError('');
+    try{await rememberBatch(b);
+      try{await navigator.clipboard.writeText(b.url);setToast('Submission link copied. Paste it into your browser, then sign in and submit on GitHub.');}
+      catch{setManualLink(b.url);setModal('publish');}
+    }catch{setHandoffError('The batch could not be saved locally. Export a backup before leaving this page.');setModal('publish');}
+    finally{setHandoffBusy(false);}
+  };
   const allocationCases=cases.filter(c=>c.allocation_known);
   const needingDelivery=allocationCases.filter(c=>missingFor(c,store.saved,accepted,true).includes('delivery_structure')).length;
   const completed=allocationCases.length-needingDelivery;
@@ -139,7 +162,7 @@ function App(){
       <a className="brand" href="#" onClick={e=>{e.preventDefault();setView('queue');}}><span className="brand-mark"><BookOpen size={20}/></span><span>fieldnotes<span className="brand-dot">.</span></span></a>
       <div className="rail-label">DUAL-LANGUAGE RESEARCH</div>
       <nav><button className={view==='queue'?'nav-item selected':'nav-item'} onClick={()=>setView('queue')}><ClipboardList size={18}/>Review queue<span className="nav-count">{needingDelivery.toLocaleString()}</span></button><button className={view==='saved'?'nav-item selected':'nav-item'} onClick={()=>setView('saved')}><History size={18}/>My reviews{store.saved.length>0&&<span className="nav-count">{store.saved.length}</span>}</button></nav>
-      <div className="rail-progress"><div className="progress-label"><span>Delivery documented</span><strong>{(completed/Math.max(1,allocationCases.length)*100).toFixed(1)}%</strong></div><p><strong>{completed.toLocaleString()}</strong> / {allocationCases.length.toLocaleString()} schools with allocation data</p></div>
+      <div className="rail-progress"><div className="progress-label"><span>Delivery model coverage</span><strong>{(completed/Math.max(1,allocationCases.length)*100).toFixed(1)}%</strong></div><p><strong>{completed.toLocaleString()}</strong> of <strong>{allocationCases.length.toLocaleString()}</strong> have a documented delivery model.</p><p>All {allocationCases.length.toLocaleString()} already have allocation data.</p></div>
       <div className="rail-spacer"/><Plant garden={store.garden} watering={watering} now={now}/>
       <button className="rail-help" onClick={()=>setModal('help')}><CircleHelp size={16}/>How this works</button>
       <button className="profile" aria-label={store.reviewer?'Reviewer: '+store.reviewer:'Set reviewer name'} onClick={()=>setModal('profile')}><span className="avatar">{store.reviewer.slice(0,2).toUpperCase()||'?'}</span><span><strong>{store.reviewer||'Set reviewer name'}</strong><small>Researcher</small></span><ChevronDown size={15}/></button>
@@ -149,7 +172,7 @@ function App(){
       {storageError&&<div className="error-banner">Browser storage is full or unavailable. Export a backup before closing this tab.<button onClick={backup}>Export backup</button></div>}
       {view==='saved'?<SavedReviews store={store} cases={cases} accepted={accepted} pending={pending} awaiting={awaiting} inventoryYear={data.reference_year}
         filters={reviewFilters} setFilters={setReviewFilters} refreshing={refreshing} onRefresh={refresh} onBackup={backup}
-        onQueue={()=>setView('queue')} onEdit={editReview} onRevisit={r=>{const c=cases.find(c=>c.school_id===r.school_id);if(c)openCase(c);}} onRemove={removeReview}/>:
+        onQueue={()=>setView('queue')} onEdit={editReview} onCopySubmission={copySubmission} handoffBusy={handoffBusy} onRevisit={r=>{const c=cases.find(c=>c.school_id===r.school_id);if(c)openCase(c);}} onRemove={removeReview}/>:
       <div className="desk-layout">
         <aside className={'queue-panel '+(mobileQueue?'queue-open':'')}><div className="queue-title"><h2>Review queue</h2><span>{filtered.length.toLocaleString()}</span><button className="icon-button mobile-only" onClick={()=>setMobileQueue(false)} aria-label="Close school list"><X size={18}/></button></div><p className="queue-caption">Schools with missing structural data</p><div className="search-box"><Search size={17}/><input aria-label="Search schools or districts" placeholder="Search schools or districts" value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button className="icon-button" onClick={()=>setQuery('')} aria-label="Clear search"><X size={13}/></button>}</div><div className="filter-row"><label><span className="sr-only">State</span><select aria-label="State" value={state} onChange={e=>{setState(e.target.value);setDistrict('all');}}><option value="all">All states</option>{Object.keys(data.state_names).sort((a,b)=>data.state_names[a].localeCompare(data.state_names[b])).map(c=><option key={c} value={c}>{data.state_names[c]}</option>)}</select></label><label><span className="sr-only">Missing variable</span><select aria-label="Missing variable" value={variable} onChange={e=>setVariable(e.target.value)}><option value="delivery_structure">Delivery model</option><option value="population_model">One-way / two-way</option><option value="elementary_allocation_model">Allocation</option><option value="instruction_languages">Languages</option><option value="">All schools</option></select></label></div><label className="district-select"><select aria-label="District" value={district} onChange={e=>setDistrict(e.target.value)}><option value="all">All districts</option>{[...new Set(cases.filter(c=>state==='all'||c.state_code===state).map(c=>c.district_name))].sort().map(d=><option key={d}>{d}</option>)}</select></label><label className="checkline queue-scope"><input type="checkbox" checked={allocationOnly} onChange={e=>setAllocationOnly(e.target.checked)}/><span>Allocation already recorded</span><CircleHelp size={12}/></label><div className="queue-list">{filtered.slice(0,listLimit).map(c=><button className={'school-row '+(c.school_id===current?.school_id?'active':'')} key={c.school_id} onClick={()=>openCase(c)}><div className="school-row-top"><span className="state-code">{c.state_code}</span>{store.saved.some(r=>r.school_id===c.school_id)&&<span className="tiny-saved"><Check size={11}/>Reviewed</span>}</div><strong>{c.school_name}</strong><span className="school-district">{c.district_name}</span><div className="school-row-bottom"><span>{[...new Set(c.sites.flatMap(s=>s.known.elementary_allocation_model.value))].join(' · ')||'Allocation missing'}</span><span>{c.sites.length>1?c.sites.length+' records':'1 program record'}</span></div></button>)}{filtered.length>listLimit&&<button className="list-end" onClick={()=>setListLimit(n=>n+150)}>Show 150 more schools <ChevronDown size={13}/></button>}{!filtered.length&&<div className="queue-empty"><CheckCheck size={28}/><strong>No schools match these filters.</strong><p>Try another state or variable.</p></div>}</div><div className="queue-footer"><span className="live-dot"/>Research inventory · {data.reference_year.replace('-','–')}</div></aside>
         <main className="case-workspace" ref={mainRef}>
@@ -191,12 +214,15 @@ function App(){
           {store.drafts['review:'+r.review_id]&&<p className="form-error">This review has unsaved edits. Resume editing and save or discard them before publishing.</p>}
         </article>)}</div>
         {pending.length>batch.records.length&&<p className="modal-note">The remaining {pending.length-batch.records.length} reviews will stay saved for your next batch.</p>}
-        <div className="github-explainer"><Github size={23}/><p>Confirm on GitHub.<span>Sign in with an approved GitHub account and select Submit new issue. The dataset updates after validation.</span></p></div>
-        <button className="primary full-width" disabled={unfinishedBatchEdits} onClick={handoff}>Continue on GitHub <ExternalLink size={15}/></button>
-      </>:<><div className="empty-publish"><CheckCheck size={30}/><h3>{awaiting.length?'Your prepared reviews are waiting for confirmation.':'No unpublished reviews yet.'}</h3><p>{awaiting.length?'Confirm the batch on GitHub, then refresh the publishing status here.':'Save a review from the school queue, then publish it here.'}</p></div>
-        {awaiting.length>0&&store.batches.filter(b=>b.review_ids.some(id=>!accepted.has(id))).map(b=><a className="secondary full-width batch-link" key={b.batch_id} href={b.url} target="_blank" rel="noreferrer">Confirm {b.review_ids.length} reviews on GitHub <ExternalLink size={14}/></a>)}
+        <div className="github-explainer"><Github size={23}/><p>Confirm on GitHub.<span>GitHub opens in this tab after your work is saved. Sign in if prompted and select Submit new issue. Use Back to return here and check publishing status.</span></p></div>
+        {unfinishedBatchEdits||handoffBusy?<button className="primary full-width" disabled>{handoffBusy?'Saving your submission…':'Continue on GitHub'}</button>:<a className="primary full-width" href={batch.url} onClick={handoff}>Continue on GitHub <ArrowRight size={15}/></a>}
+        <button className="text-button copy-submission" disabled={unfinishedBatchEdits||handoffBusy} onClick={()=>copySubmission(batch)}><Link2 size={13}/>Copy submission link</button>
+      </>:<><div className="empty-publish"><CheckCheck size={30}/><h3>{awaiting.length?'Your prepared reviews are waiting for confirmation.':'No unpublished reviews yet.'}</h3><p>{awaiting.length?'Open the saved submission below in this tab. Sign in and select Submit new issue, then use Back to check publishing status here.':'Save a review from the school queue, then publish it here.'}</p></div>
+        {awaiting.length>0&&store.batches.filter(b=>b.review_ids.some(id=>!accepted.has(id))).map(b=><div className="pending-submission" key={b.batch_id}><a className="secondary full-width batch-link" href={b.url}>Confirm {b.review_ids.length} reviews on GitHub <ArrowRight size={14}/></a><button className="text-button copy-submission" disabled={handoffBusy} onClick={()=>copySubmission(b)}><Link2 size={13}/>Copy submission link</button></div>)}
         <button className="secondary full-width" onClick={()=>{refresh();setModal('');setView('saved');}}>Check publishing status</button>
       </>}
+      {handoffError&&<div role="alert" className="form-error">{handoffError}</div>}
+      {manualLink&&<label className="field manual-submission"><span>Copy this submission link into your browser’s address bar</span><textarea aria-label="Prepared GitHub submission URL" readOnly rows={3} value={manualLink} onFocus={e=>e.target.select()}/></label>}
     </Modal>}
   </div>;
 }

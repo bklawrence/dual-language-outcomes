@@ -11,6 +11,15 @@ const pause=ms=>new Promise(r=>setTimeout(r,ms));
 async function workspace(page){return page.evaluate(()=>new Promise((resolve,reject)=>{const request=indexedDB.open('fieldnotes-research-v1',1);request.onsuccess=()=>{const db=request.result;const r=db.transaction('workspace').objectStore('workspace').get('current');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);};request.onerror=()=>reject(request.error);}));}
 async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resolve=>{const req=indexedDB.open('fieldnotes-research-v1',1);req.onsuccess=()=>{const q=req.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(q.result?.saved?.length===n);};}),n);}
 async function waitDraft(page,key,value){await page.waitForFunction(({key,value})=>new Promise(resolve=>{const req=indexedDB.open('fieldnotes-research-v1',1);req.onsuccess=()=>{const q=req.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(Object.values(q.result?.drafts||{}).some(d=>d[key]===value));};}),{key,value});}
+async function mockGitHub(context){
+ const navigations=[];
+ await context.route('https://github.com/**',route=>{
+  assert.equal(route.request().method(),'GET');
+  navigations.push(route.request().url());
+  return route.fulfill({contentType:'text/html',body:'<!doctype html><h1>Prepared GitHub submission</h1><p>Browser test: nothing is submitted.</p>'});
+ });
+ return navigations;
+}
 (async()=>{
  const child=process.env.FIELDNOTES_TEST_URL?null:spawn(process.execPath,[path.join(root,'node_modules/vite/bin/vite.js'),'preview','--host','127.0.0.1','--port','4175','--strictPort'],{cwd:root,stdio:'ignore'});
  const url=process.env.FIELDNOTES_TEST_URL||'http://127.0.0.1:4175/';
@@ -21,6 +30,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   browser=await chromium.launch({executablePath:executable,headless:true,args:['--no-sandbox']});
   const context=await browser.newContext({viewport:{width:1500,height:1000},timezoneId:'America/Chicago'});
   await context.addInitScript(()=>{window.__opened=[];window.open=url=>{window.__opened.push(url);return null;};});
+  const githubNavigations=await mockGitHub(context);
   const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(url,{waitUntil:'networkidle'});
   await page.getByRole('heading',{name:'Review queue',exact:true}).waitFor();
@@ -30,6 +40,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   if(!expected)await page.getByLabel('Missing variable',{exact:true}).selectOption('');
   const initial=await workspace(page);assert.equal(initial.saved.length,0);assert.equal(initial.reviewer,'');
   const starterPlantHeight=(await page.locator('.plant-art').boundingBox()).height;
+  assert.ok((await page.locator('.rail-progress').innerText()).includes('already have allocation data'));
   await page.getByRole('button',{name:'Set reviewer name',exact:true}).click();
   await page.getByLabel('Reviewer name',{exact:true}).fill('bklawrence');
   await page.getByRole('button',{name:'Back to the research',exact:false}).click();
@@ -111,9 +122,12 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   await page.getByRole('heading',{name:'Review and revise',exact:true}).waitFor();
   await page.screenshot({path:path.join(output,'saved-review.png'),fullPage:true});
   await page.getByRole('button',{name:/^Publish/}).click();
-  const publish=page.getByRole('button',{name:'Continue on GitHub',exact:true});await publish.waitFor();
+  const publish=page.getByRole('link',{name:'Continue on GitHub',exact:true});await publish.waitFor();
+  assert.equal(await publish.getAttribute('target'),null);
   const readyState=await context.storageState({indexedDB:true});await publish.click();
-  const handoff=new URL((await page.evaluate(()=>window.__opened))[0]);
+  await page.waitForURL('https://github.com/**');
+  assert.equal(context.pages().length,1);
+  const handoff=new URL(page.url());assert.equal(githubNavigations[0],handoff.href);
   assert.equal(handoff.hostname,'github.com');assert.equal(handoff.pathname,'/bklawrence/dual-language-outcomes/issues/new');assert.ok(handoff.href.length<=7000);
   const marker=handoff.searchParams.get('body').match(/DL_REVIEW_V1:([A-Za-z0-9_-]+)/)[1];
   const payload=JSON.parse(zlib.gunzipSync(Buffer.from(marker,'base64url')).toString('utf8'));
@@ -123,10 +137,29 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.equal(payload.records[0].source_quote,'All students participate in the immersion program.');
   assert.equal(payload.records[0].source_school_year,'2024-25');
   assert.equal(payload.records[0].coding_method,'not_recorded');
+  await page.goBack({waitUntil:'networkidle'});
+  await page.getByRole('button',{name:/My reviews/}).click();
+  const remembered=await workspace(page);
+  assert.equal(remembered.batches.length,1);assert.equal(remembered.batches[0].url,handoff.href);
+  assert.equal(remembered.saved[0].notes,finalNote);
+  // Previously prepared batches must work even when popups are blocked.
+  const retry=page.getByRole('link',{name:'Confirm batch',exact:true});
+  assert.equal(await retry.getAttribute('target'),null);
+  await retry.click();await page.waitForURL('https://github.com/**');
+  assert.equal(page.url(),handoff.href);assert.equal(context.pages().length,1);
+  await page.goBack({waitUntil:'networkidle'});
+  await page.getByRole('button',{name:/My reviews/}).click();
+  // If clipboard access is denied, the complete link remains selectable.
+  await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async()=>{throw Error('Clipboard unavailable');}}}));
+  await page.getByRole('button',{name:'Copy submission link',exact:true}).click();
+  await page.getByLabel('Prepared GitHub submission URL',{exact:true}).waitFor();
+  assert.equal(await page.getByLabel('Prepared GitHub submission URL',{exact:true}).inputValue(),handoff.href);
+  await page.getByRole('button',{name:'Close dialog',exact:true}).click();
   // Editing a saved review must permit evidence without assigning a value,
   // even though this editor has no Park case button.
   const evidenceContext=await browser.newContext({viewport:{width:1500,height:1000},storageState:readyState});
   await evidenceContext.addInitScript(()=>{window.__opened=[];window.open=u=>{window.__opened.push(u);return null;};});
+  const evidenceNavigations=await mockGitHub(evidenceContext);
   const evidencePage=await evidenceContext.newPage();
   await evidencePage.goto(url,{waitUntil:'networkidle'});
   await evidencePage.getByRole('button',{name:/My reviews/}).click();
@@ -160,8 +193,9 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   assert.ok(await evidencePage.locator('.school-row').filter({hasText:original.school_name}).count()>0);
   await evidencePage.getByRole('button',{name:/^Publish/}).click();
   await evidencePage.locator('.batch-review .parked-note').waitFor();
-  await evidencePage.getByRole('button',{name:'Continue on GitHub',exact:true}).click();
-  const evidenceHandoff=new URL((await evidencePage.evaluate(()=>window.__opened))[0]);
+  await evidencePage.getByRole('link',{name:'Continue on GitHub',exact:true}).click();
+  await evidencePage.waitForURL('https://github.com/**');
+  const evidenceHandoff=new URL(evidenceNavigations[0]);
   const evidenceToken=evidenceHandoff.searchParams.get('body').match(/DL_REVIEW_V1:([A-Za-z0-9_-]+)/)[1];
   const evidencePayload=JSON.parse(zlib.gunzipSync(Buffer.from(evidenceToken,'base64url')).toString('utf8'));
   assert.deepEqual(evidencePayload.records[0].changes,{});
@@ -254,7 +288,7 @@ async function waitDraft(page,key,value){await page.waitForFunction(({key,value}
   await mobile.locator('.batch-review').waitFor();
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true);
   await mobile.screenshot({path:path.join(output,'mobile-preview.png'),fullPage:true});
-  assert.deepEqual(errors,[]);console.log('PASS: evidence-only links and notes, editing without Park, reload and submission, coding basis, published corrections, plant growth and decay, mobile layout.');
+  assert.deepEqual(errors,[]);console.log('PASS: same-tab GitHub navigation with popups blocked, saved batch after Back, retry and clipboard fallback, coverage label, evidence-only saves, corrections, plant and mobile layout.');
   await browser.close();browser=null;
  }finally{if(browser)await browser.close();if(child)child.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

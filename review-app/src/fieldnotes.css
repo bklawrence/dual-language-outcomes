@@ -220,6 +220,11 @@ h1, h2, h3 { font-weight: 550; }
 .empty-publish h3 { font-size: 14px; margin: 14px 0; }
 .empty-publish p { font-size: 12px; line-height: 1.75; color: var(--muted); }
 .batch-link { margin-bottom: 10px; }
+.copy-submission { margin: 12px 0 18px; }
+.pending-submission { margin-bottom: 16px; }
+.pending-submission .copy-submission { margin-top: 0; }
+.manual-submission { margin-top: 20px; }
+.manual-submission textarea { font-family: monospace; font-size: 11px; overflow-wrap: anywhere; }
 .form-error { color: #8d3829; border-left: 2px solid #8d3829; padding: 8px 12px; font-size: 12px; line-height: 1.65; margin: 12px 0 18px; }
 .saved-view { max-width: 1050px; padding: 38px 40px 60px; margin: auto; }
 .saved-view h1 { font-size: 44px; }
