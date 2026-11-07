@@ -24,8 +24,26 @@ notes without filling unknown structural values. Original observations remain.
 The journal and the explicit `hand_coded_review` claims identify manual coding,
 reviewer, authenticated submitting account, timestamp, evidence URL, note,
 quotation, method and school year. Explicit statements and interpretations remain
-distinct. Editing a coding decision creates another journal record; the latest
-authenticated decision selects that variable for its reviewed year only.
+distinct. Before submission, **My reviews** offers school/district search,
+district and status filters, complete evidence, and **Edit review**. Edits reuse
+the local review ID, keep each variable's program scope, and resume after a
+reload without overwriting an unrelated school draft. **Publish** opens a full
+preview with another edit action; unsaved edits must be saved or discarded
+before that review can be handed off to GitHub.
+
+A batch already handed to GitHub retains its submitted version while awaiting
+acknowledgement. For a published decision, **Add a correction** creates another
+journal record linked to the original; the latest authenticated decision selects
+that variable for its reviewed year only. Earlier evidence remains in the history.
+
+To invite a contributor, share the Pages URL, add their GitHub username to
+`authorized_reviewers` in `config/hand_coding.json`, and commit that configuration.
+They need a GitHub account and should enter their own reviewer name in the app's
+profile menu. Repository write access, access tokens, and software installation
+are not required. Anyone can research and save local drafts, but only approved
+GitHub accounts can publish accepted batches. Drafts, unpublished reviews, and
+plant state are personal to each browser; published coding is shared. Assigning
+districts to contributors can help avoid overlapping work.
 
 Development:
 
