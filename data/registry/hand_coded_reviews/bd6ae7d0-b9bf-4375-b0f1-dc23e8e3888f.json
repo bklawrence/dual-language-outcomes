@@ -1,0 +1,95 @@
+{
+  "batch_id": "bd6ae7d0-b9bf-4375-b0f1-dc23e8e3888f",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1d0d9446d14c58b59be54d7a29553f01",
+            "site-7f4c03706688574089e1c14902d2f224"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:55:42.472Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.bilingualglobalcitizens.org/Language-Immersion/Index.html",
+      "grade_scope": "",
+      "notes": "It's in the name of the school.",
+      "reference_year": "2025-26",
+      "review_id": "2b070b09-46ce-4754-a7ee-17df73a15c85",
+      "reviewer": "bklawrence",
+      "school_id": "M6-MD-S-250435c084a2",
+      "school_name": "Bilingual Global Citizens Public Charter School",
+      "selected_site_id": "site-7f4c03706688574089e1c14902d2f224",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-e65c4b3a52845ac0bfe7d272c990a27a"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:56:07.622Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.pgcps.org/about-pgcps/applications/spanish-immersion",
+      "grade_scope": "",
+      "notes": "It's in the name of the school.",
+      "reference_year": "2025-26",
+      "review_id": "0a60bef0-f958-4861-9c8a-84e9bd347204",
+      "reviewer": "bklawrence",
+      "school_id": "M6-MD-S-1f04d9e03259",
+      "school_name": "Cesar Chavez Dual Spanish Immersion School",
+      "selected_site_id": "site-e65c4b3a52845ac0bfe7d272c990a27a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-72322f8e428352589ad914e4d3e79893",
+            "site-918742500ba85c428cd0015a6e8552bb",
+            "site-b0e2768b38c750bcb0c5ced872b8e0e1"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:57:01.756Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.bpsma.org/apps/pages/index.jsp?uREC_ID=4408283&type=d&pREC_ID=2652087",
+      "grade_scope": "",
+      "notes": "Magnet school.",
+      "reference_year": "2025-26",
+      "review_id": "5b52beea-4453-4cd3-9975-096efded3cff",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-c6fbf410d64f",
+      "school_name": "Manthala George Jr. Global Studies School",
+      "selected_site_id": "site-72322f8e428352589ad914e4d3e79893",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 22,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/22",
+    "received_at": "2026-11-07T19:15:54.326626+00:00",
+    "submitted_at": "2026-11-07T18:57:40Z"
+  },
+  "version": 1
+}

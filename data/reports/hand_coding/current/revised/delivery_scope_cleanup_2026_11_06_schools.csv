@@ -431,8 +431,8 @@ M6-DE-S-d9ad9e5d8e1c,DE,Townsend Early Childhood Center,Appoquinimink School Dis
 M6-DE-S-ecc4a747fba7,DE,Linden Hill Elementary School,Red Clay Consolidated School District,1,1,1,0,strand
 M6-DE-S-ff9d1e502cac,DE,Rehoboth Elementary School,Cape Henlopen School District,1,1,1,0,strand
 M6-MD-S-07e72cdd041a,MD,Rolling Terrace Elementary School,Montgomery County Public Schools,1,1,1,0,whole_school
-M6-MD-S-1f04d9e03259,MD,Cesar Chavez Dual Spanish Immersion School,Prince George’s County Public Schools,1,0,0,0,
-M6-MD-S-250435c084a2,MD,Bilingual Global Citizens Public Charter School,,2,0,0,0,
+M6-MD-S-1f04d9e03259,MD,Cesar Chavez Dual Spanish Immersion School,Prince George’s County Public Schools,1,0,1,0,whole_school
+M6-MD-S-250435c084a2,MD,Bilingual Global Citizens Public Charter School,,2,0,1,0,whole_school
 M6-MD-S-324590d04a99,MD,Baltimore International Academy East,,5,1,1,0,whole_school
 M6-MD-S-33a0b8615d56,MD,Gaithersburg Elementary School,Montgomery County Public Schools,1,1,1,0,whole_school
 M6-MD-S-78fe98d61e3a,MD,Oakland Terrace Elementary School,Montgomery County Public Schools,1,1,1,0,whole_school
@@ -703,7 +703,7 @@ NE5-MA-S-ae391328c126,MA,Memorial Elementary School,Milford,1,1,1,0,strand
 NE5-MA-S-b0878b94e3fe,MA,Rafael Hernández Dual Language School,Boston,1,1,1,0,whole_school
 NE5-MA-S-bd724e06a6b1,MA,William S. Greene Elementary School,Fall River,1,0,0,0,
 NE5-MA-S-c0af5f2247f4,MA,Green Meadow School,Maynard,1,1,1,0,strand
-NE5-MA-S-c6fbf410d64f,MA,Manthala George Jr. Global Studies School,Brockton,3,0,0,0,
+NE5-MA-S-c6fbf410d64f,MA,Manthala George Jr. Global Studies School,Brockton,3,0,1,0,whole_school
 NE5-MA-S-c7cf93db6bc0,MA,E.N. White Elementary School,Holyoke,1,0,0,0,
 NE5-MA-S-ccba26f51ef7,MA,Miller Elementary School,Holliston,1,1,1,0,strand
 NE5-MA-S-ef74e7cd73c7,MA,Waltham Dual Language School,Waltham,1,1,1,0,whole_school
