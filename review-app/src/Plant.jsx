@@ -10,7 +10,7 @@ export default function Plant({garden, watering, now}) {
   ];
   return <section className={'plant-card '+(watering?'is-watering':'')} aria-label="Your research plant">
 
-    <svg viewBox="0 0 190 190" className="plant-art" role="img" aria-label={`Your plant: ${state.label}. ${state.leaves} leaves remaining.`}>
+    <svg viewBox="0 0 190 190" className="plant-art" role="img" aria-label={`Your plant: ${state.label}. ${state.leaves} ${state.leaves===1?'leaf':'leaves'} remaining.`}>
       <defs><linearGradient id="pot" x1="0" x2="1"><stop stopColor="#c88465"/><stop offset="1" stopColor="#d99b79"/></linearGradient><linearGradient id="leaf" x2="1" y2="1"><stop stopColor="#6e9b65"/><stop offset="1" stopColor="#38684b"/></linearGradient></defs>
       <ellipse cx="95" cy="176" rx="52" ry="6" fill="#48644a" opacity=".08"/>
       <path d={`M95 144 Q${89+state.droop*10} 99 ${93+state.droop*9} 24`} fill="none" stroke={state.moisture>20?'#64815a':'#929066'} strokeWidth="3.6" strokeLinecap="round"/>

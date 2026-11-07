@@ -3,8 +3,11 @@
 A GitHub-hosted research desk for the dual-language inventory. School and district
 filters, source leads, program-specific coding, local draft recovery, notes,
 source URLs and year context support frequent research sessions. A persistent
-houseplant receives a little water on each saved decision or research note, gradually loses
-leaves and gathers cobwebs during long breaks, and recovers with renewed work.
+houseplant receives a little water on each saved decision or research note, loses
+leaves and gathers cobwebs over idle hours, and recovers with renewed work. After
+three hours without a saved entry, even a fully watered plant has one faded leaf
+and full cobwebs. The open page updates it every minute; elapsed time also counts
+while the site is closed. Saving adds a little water and clears some webs.
 Plant state is a personal interface feature, separate from research data.
 
 The interface uses a restrained, paper-like layout: compact school rows,

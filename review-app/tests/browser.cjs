@@ -134,16 +134,19 @@ async function waitSaved(page,n){await page.waitForFunction(n=>new Promise(resol
   assert.equal(corrected.saved[1].changes.delivery_structure.value,'strand');
   await correctionContext.close();
   const agedContext=await browser.newContext({viewport:{width:1500,height:1000},storageState:restoredState,timezoneId:'America/Chicago'});
-  const aged=await agedContext.newPage();await aged.clock.install({time:new Date(Date.now()+14*86400000)});
+  const aged=await agedContext.newPage();await aged.clock.install({time:new Date()});
   await aged.goto(url,{waitUntil:'networkidle'});await aged.getByRole('heading',{name:'Review queue',exact:true}).waitFor();
+  await aged.getByRole('img',{name:/Your plant: Looking lovely/}).waitFor();
+  // Keep the page open: its minute timer must update the plant without reload.
+  await aged.clock.fastForward(3*3600000);
   await aged.getByRole('img',{name:/Your plant: A little neglected/}).waitFor();
-  assert.ok(await aged.locator('.plant-art').getAttribute('aria-label').then(s=>s.includes('0 leaves')));
+  assert.ok(await aged.locator('.plant-art').getAttribute('aria-label').then(s=>s.includes('1 leaf')));
   await aged.locator('.plant-card').screenshot({path:path.join(output,'neglected-plant.png')});
   await aged.getByRole('radio',{name:/Whole school All students/}).check();await aged.getByLabel('Evidence website URL').fill('https://example.edu/whole-school');
   await aged.getByRole('button',{name:'Save & next',exact:true}).click();await waitSaved(aged,2);
   const revived=await workspace(aged);
   const agedNow=await aged.evaluate(()=>Date.now());
-  const expectedMoisture=Math.max(0,gardenBeforeAging.moisture-(agedNow-gardenBeforeAging.updatedAt)/86400000*7)+12;
+  const expectedMoisture=Math.max(0,gardenBeforeAging.moisture-(agedNow-gardenBeforeAging.updatedAt)/3600000*30)+12;
   assert.ok(Math.abs(revived.garden.moisture-expectedMoisture)<.01);assert.ok(revived.garden.webs<1);
   assert.equal(revived.garden.reviews,gardenBeforeAging.reviews+1);
   await aged.locator('.plant-card').screenshot({path:path.join(output,'reviving-plant.png')});
