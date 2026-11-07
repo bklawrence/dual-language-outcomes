@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-2f97f38d53175e40bb2b4d15f860b3f5",
-  "built_at": "2026-11-07T22:28:09.668524+00:00",
-  "base_git_revision": "eed5657e472d038097769907840d58f826241e9a",
+  "build_id": "build-1eeb9dc724d25ddc8c43911a602ef73a",
+  "built_at": "2026-11-07T23:14:37.615025+00:00",
+  "base_git_revision": "a1c2254cb2bde58dcdc0f0fc868a8cfabe74c3dd",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
@@ -5564,9 +5564,10 @@
     "src/dl_outcomes/allocation_coverage.py": "8330fd5ee37e763a08dd5b4a9ce085e234708221f96e2bb2214357334e68b581",
     "src/dl_outcomes/allocation_enrichment.py": "4fdfad11c509b0d1b803be40c413c23857b1eb98b921c3bf0c6cf71324c47e43",
     "src/dl_outcomes/allocation_review.py": "c55aa7404a2e01a8d44ce9ec55b25197548009ce51c6084bac46d5eb1dd199be",
+    "src/dl_outcomes/allocation_selection.py": "8f0ad938a23af9f999bb657607bfe30792082f44ba8e3d4608e4d6e77c397f2f",
     "src/dl_outcomes/analytics.py": "4482aaf8ecefb73759bd9d09b4fcb8f71d5057879a10ee63bf05be82132f4fbb",
     "src/dl_outcomes/baseline.py": "59d57ddfd1ca505a5b5ae5ec19bb5a6d55dbe4c159e649306b7d6bf202c9ab57",
-    "src/dl_outcomes/baseline_selection.py": "4632021b21bf95c3ba5128959e8ece01b2f7b7f158de0fce122361f5f1570437",
+    "src/dl_outcomes/baseline_selection.py": "5a070eaa9413ea10cb1a4fd1d3a82273779409e3b8c11dd1d05e7195dc9b689c",
     "src/dl_outcomes/build.py": "daa5f59e959051a0ba5976045fbcdec450e82d21311a5c155503b6188bc50849",
     "src/dl_outcomes/cli.py": "2ff6b94601b372125d0a85bfddbb72e9f8dbee51a709e6b6dea53a5fbec3ddd9",
     "src/dl_outcomes/collection_provenance.py": "ccf5181dbea3c1d9dd3a97ebccd98a0cdc89abf0bb30e223563f101e7918ae90",
@@ -5583,7 +5584,7 @@
     "src/dl_outcomes/evidence_scope.py": "2bafa862ebec9a700d4ced74b5b9ce88279fb8ec82a1241c7e90921822c31c4d",
     "src/dl_outcomes/gap_pilot.py": "23a367d46491eb5b776b316ea9007187934f4cc21c6689b82b35bbfee68a9f62",
     "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
-    "src/dl_outcomes/hand_coding.py": "fc2865614b324da5d9cbf71f7eaddbece564758f017126cd86e1dfcd1e78192d",
+    "src/dl_outcomes/hand_coding.py": "3fa245f1a970994dc65eb10fe45ddff6041d17ca83c392431096e4842f80b6b4",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
@@ -5599,7 +5600,7 @@
     "src/dl_outcomes/release.py": "2c8428636fa5217b606024021a0f70e1a5c214b1c0df4bbf38c6ff04dbf33ece",
     "src/dl_outcomes/review_events.py": "b23e4164c97d97c67af47dbfe405abeb80dec0a2731bc33f205c224ed8733605",
     "src/dl_outcomes/review_leaderboard.py": "40bebf1526adcda6e097a74fec8fa0dcda5faff125a013c15c91c061382d1ca4",
-    "src/dl_outcomes/review_site.py": "f1dba5566352f92f9c00300ea3718f4b0b7aa4f80e7acfbba0df244b55df579c",
+    "src/dl_outcomes/review_site.py": "2a87682b750d8f700b2923cb6a6e366ed42da0104d624dd971f081c05599c55f",
     "src/dl_outcomes/schemas/catalog.json": "3baa2beb21335dda3d16939af9eb499aecd41a15a2c18f76afb865b9be3abf1b",
     "src/dl_outcomes/south_central_review.py": "ca6bfd090273a99623d392d9afa18a151ba64b23df8f39a477732c8c1cbf1fe1",
     "src/dl_outcomes/southeast_review.py": "3186589878744a7743db4488923663168108d77b250d37f2d47624912e48e965",
@@ -6530,7 +6531,7 @@
       "sha256": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "042b15f3c789a254fb4ea8159be29a30462df2e1a37529a30662277af9d87a1c"
+      "sha256": "a36d3eaee04c78f9c26139ff3ceea5fa48d6bb15af24cd13823bbab66a57667c"
     }
   }
 }

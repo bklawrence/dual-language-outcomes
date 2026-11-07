@@ -131,6 +131,44 @@ class HandCodingTests(unittest.TestCase):
         self.assertIn('language_order',new['percentage_basis'])
         self.assertEqual(validate_tables(tables,self.schema),[])
 
+    def test_allocation_corrections_keep_other_grades_and_earlier_years(self):
+        from dl_outcomes.baseline_selection import grade_set
+        site=next(s for s in self.sites.values() if s['school_id']=='NE5-MA-S-c7cf93db6bc0')
+        reviews=[self.record(school_id=site['school_id'],grade_scope=grades,changes={
+            'elementary_allocation_model':dict(value=value,site_ids=[site['site_id']])})
+            for grades,value in [('K','90/10'),('1','60/40'),('Kindergarten','85/15')]]
+        tables,_=self.reviewed_tables(reviews)
+        before,after=Selection(self.tables,self.rules),Selection(tables,self.rules)
+        field,_=after.select_allocations(site,'2025-26','elementary',['PK-5'])
+        values=json.loads(field['value_json'])
+        self.assertEqual({tuple(sorted(grade_set(v['grade_scope']))):v['model_label_normalized'] for v in values},
+                         {(0,):'85/15',(1,):'60/40',(2,3,4,5):'50/50'})
+        self.assertEqual(tables['instructional_allocations'],self.tables['instructional_allocations'])
+        original={r['schedule_id']:r for r in tables['allocation_schedules']}
+        self.assertTrue(all(original[r['schedule_id']]==r for r in self.tables['allocation_schedules']))
+        for year in ['2024-25','2026-27']:
+            old,_=before.select_allocations(site,year,'elementary',['PK-5'])
+            new,_=after.select_allocations(site,year,'elementary',['PK-5'])
+            for key in ['value_json','selected_evidence_ids','selected_source_ids']:
+                self.assertEqual(old[key],new[key],(year,key))
+
+    def test_grade_correction_can_replace_part_of_a_broader_source_scope(self):
+        from dl_outcomes.allocation_selection import apply_grade_reviews
+        source=dict(_id='source-plan',_table='allocation_schedules',grade_scope='K-5',
+                    school_year=None,evidence_period_raw='undated',_value='50/50')
+        new=dict(_id='review-k',_table='allocation_schedules',grade_scope='K',
+                 school_year=None,evidence_period_raw='undated',_value='80/20')
+        selected=apply_grade_reviews([source,new],[dict(evidence_ids=['review-k'])],[source],'2025-26')
+        self.assertEqual([(r['grade_scope'],r['_value']) for r in selected],[('K','80/20'),('1-5','50/50')])
+        self.assertEqual(selected[1]['_source_grade_scope'],'K-5')
+        self.assertEqual(source['grade_scope'],'K-5')
+        # A newer broad correction also supersedes only the overlapping grades
+        # of an older manual review, preserving the remaining original source.
+        older=dict(new,_id='review-older',grade_scope='K-2',_value='90/10')
+        selected=apply_grade_reviews([source,new,older],[dict(evidence_ids=['review-k']),dict(evidence_ids=['review-older'])],[source],'2025-26')
+        self.assertEqual([(r['grade_scope'],r['_value']) for r in selected],
+                         [('K','80/20'),('1-2','90/10'),('3-5','50/50')])
+
     def test_cleared_basis_is_retained_without_asserting_interpretation_or_documentation(self):
         original=self.record()
         cleared=self.record(coding_method='not_recorded',supersedes_review_id=original['review_id'])

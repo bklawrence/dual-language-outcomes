@@ -45,6 +45,13 @@ def web_url(value):
         return False
 
 
+def allocation_grade_scope(value):
+    """Normalize unambiguous grade names; preserve the verbatim journal text."""
+    value=re.sub(r'\bPRE[ -]?KINDERGARTEN\b','PK',value,flags=re.I)
+    value=re.sub(r'\bKINDERGARTEN\b','K',value,flags=re.I)
+    return re.sub(r'\bPRE[ -]?K\b','PK',value,flags=re.I)
+
+
 def validate_record(record, sites, schools):
     """No name matching, inferred identities, blank-value overwrites or future-year backfill."""
     if not isinstance(record, dict) or not identifier(record.get('review_id')):
@@ -118,7 +125,7 @@ def validate_record(record, sites, schools):
                 raise ValueError('The two allocation percentages must total 100.')
             if not record.get('grade_scope', '').strip():
                 raise ValueError('Record the grades to which the allocation applies.')
-            if elementary_scope(record['grade_scope']) in {'secondary_6_plus','preschool_only'}:
+            if elementary_scope(allocation_grade_scope(record['grade_scope'])) in {'secondary_6_plus','preschool_only'}:
                 raise ValueError('This variable records elementary allocation models; retain secondary program details in the research notes.')
         if variable == 'instruction_languages':
             if not isinstance(value, list) or not 1 <= len(value) <= 8 or any(not isinstance(v, str) or not v.strip() or len(v)>80 for v in value):
@@ -274,11 +281,12 @@ def migrate(build):
                     else:
                         from .baseline_selection import grade_set
                         table='allocation_schedules'
+                        allocation_grades=allocation_grade_scope(record['grade_scope'])
                         build.add(table,schedule_id=cid,site_id=site_id,school_id=record['school_id'],school_year=record.get('source_school_year'),
-                                  grade_scope=record['grade_scope'],reported_model_label=change['value'],
+                                  grade_scope=allocation_grades,reported_model_label=change['value'],
                                   percentage_basis='hand_coded_source_reported_model_label_language_order_and_instructional_denominator_not_established',
                                   schedule_status='reported_policy_requires_review',evidence_review_status='HAND_CODED_SOURCE_LABEL',
-                                  grade_support_status='EXPLICIT_GRADE' if grade_set(record['grade_scope']) else 'PUBLISHED_MODEL_ONLY',tested_cohort_exposure='not_established',
+                                  grade_support_status='EXPLICIT_GRADE' if grade_set(allocation_grades) else 'PUBLISHED_MODEL_ONLY',tested_cohort_exposure='not_established',
                                   evidence_period_raw=period,source_id=source,source_locator=locator,notes=notes)
                     scope=dict(site_id=site_id,program_id=site['program_id'],school_id=record['school_id'],fact_id=locator,
                                reference_year=record['reference_year'],earliest_reviewed_selection_year=record['reference_year'],
@@ -301,6 +309,19 @@ def selection_overrides(tables):
             value=json.loads(claim['reported_value'])
             decisions[(value['site_id'],value['selection_year'],value['variable'])].append(value)
     return {key:max(values,key=lambda v:(v['submitted_at'],v.get('issue_number',0),v.get('batch_record_index',0),v['review_id'])) for key,values in decisions.items()}
+
+
+def allocation_overrides(tables):
+    """All grade-specific reviews, newest first; latest-per-field loses grades."""
+    decisions=defaultdict(list)
+    for claim in tables['evidence_claims']:
+        if claim['attribute']==SELECTION_ATTRIBUTE:
+            value=json.loads(claim['reported_value'])
+            if value['variable']=='elementary_allocation_model':
+                decisions[(value['site_id'],value['selection_year'])].append(value)
+    return {key:sorted(values,key=lambda v:(v['submitted_at'],v.get('issue_number',0),
+                    v.get('batch_record_index',0),v['review_id']),reverse=True)
+            for key,values in decisions.items()}
 
 
 def revise_report_paths(root, contents, tables):

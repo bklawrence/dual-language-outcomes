@@ -286,7 +286,7 @@ async function mockGitHub(context){
   await matureContext.close();
   const mobileContext=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,timezoneId:'America/Chicago',storageState:readyState});const mobile=await mobileContext.newPage();
   await mobile.goto(url,{waitUntil:'networkidle'});await mobile.getByRole('button',{name:'Choose a school',exact:true}).waitFor();
-  await mobile.getByRole('button',{name:'Choose a school',exact:true}).click();await mobile.getByLabel('Missing variable',{exact:true}).selectOption('');await mobile.getByLabel('State',{exact:true}).selectOption('TX');await mobile.locator('.school-row').first().click();
+  await mobile.getByRole('button',{name:'Choose a school',exact:true}).click();await mobile.getByLabel('Review task',{exact:true}).selectOption('');await mobile.getByLabel('State',{exact:true}).selectOption('TX');await mobile.locator('.school-row').first().click();
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),true);
   await mobile.screenshot({path:path.join(output,'mobile.png'),fullPage:true});
   await mobile.getByRole('button',{name:/My reviews/}).click();

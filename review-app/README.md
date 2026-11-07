@@ -45,6 +45,32 @@ reload without overwriting an unrelated school draft. **Publish** opens a full
 preview with another edit action; unsaved edits must be saved or discarded
 before that review can be handed off to GitHub.
 
+**Review task** switches between delivery gaps, **Missing allocation**, and
+**Find & correct data**. Choosing Missing allocation includes schools without
+an allocation; the default delivery queue still prioritizes schools with an
+allocation already recorded. **Include unconfirmed DL leads** adds existing
+elementary research candidates, labeled **DL status needs confirmation**.
+Adding a structural value does not certify their DL operation, public funding
+or eligibility. Explicit future, closed and non-DL records are excluded from
+that candidate expansion. No new school identities are created.
+
+**Language allocation** is a visible section of the coding form, placed first
+when reviewing allocation gaps or corrections. Record a ratio, its grades,
+review year and evidence URL; delivery and other variables can be left blank.
+The recorded schedule is displayed by grade, with kindergarten identified in
+the compact summary. E.N. White's K 80/20, grade 1 70/30 and grades 2–5 50/50
+are a progression rather than competing schoolwide models. Named language
+shares are shown only when already supported by the source.
+
+Allocation corrections apply to the described grades. A kindergarten change
+keeps independently documented upper-grade ratios, other programs and other
+school years. Multiple grade-specific reviews can coexist; the latest decision
+for overlapping grades wins. A partial correction of a broad K–5 source retains
+its remaining grades with the original source scope identified separately.
+The canonical source observations and earlier reviews are never overwritten.
+Labels without named language shares remain labels; the app does not invent
+the language order or measured instructional exposure.
+
 Opening an entry for inspection does not count as an unsaved change and does
 not block submission. If values, evidence, source context, or scope actually
 change, the preview offers **Review unsaved changes** to reopen that entry for
@@ -68,9 +94,10 @@ acknowledgement. For a published decision, **Add a correction** creates another
 journal record linked to the original; the latest authenticated decision selects
 that variable for its reviewed year only. Earlier evidence remains in the history.
 
-The sidebar's delivery-model coverage counts schools with a documented whole
+The sidebar's delivery-model coverage counts schools with a recorded whole
 school, strand, or mixed classification within the allocation-known review
-cohort. Every school in that denominator already has allocation data.
+cohort, including explicitly marked provisional interpretations. Every school
+in that denominator already has allocation data.
 The coding form also displays the recorded delivery value and its provisional
 or conflicting evidence status. Unselected radio buttons mean no new finding
 has been entered; they do not erase or hide the recorded model. Saving a source
@@ -80,8 +107,10 @@ The active queue omits schools whose relevant elementary program records all
 have allocation and delivery values. A recorded interpretation counts as filled
 for this purpose while retaining its provisional evidence status. Conflicting,
 later-only and unreported values do not complete a case. Secondary-only records
-do not require an elementary allocation. Completed schools stay available when
-editing personal review history.
+do not require an elementary allocation. Completed schools stay available in
+**Find & correct data** for every reviewer, as well as when editing personal
+review history. Correction search does not return completed cases to normal
+missing-data queues. The review task and research-lead setting persist on the device.
 Every browser reads the shared published inventory on load, when returning to
 the tab, and every two minutes while visible. Publication therefore removes
 completed cases for other researchers too; browser-only drafts are not shared.

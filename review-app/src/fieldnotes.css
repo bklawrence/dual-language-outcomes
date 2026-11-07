@@ -80,7 +80,10 @@ h1, h2, h3 { font-weight: 550; }
 .search-box input { border: 0; background: none; width: 100%; min-width: 0; height: 100%; font-size: 11px; }
 .search-box:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
 .search-box input:focus { outline: none; }
-.filter-row { display: flex; gap: 7px; margin: 8px 16px; }
+.filter-row { display: flex; gap: 7px; margin: 8px 16px; align-items: flex-end; }
+.filter-label { display: block; color: var(--muted); font-size: 10px; margin: 3px 0 5px; }
+.task-select { display: block; margin: 10px 16px 0; }
+.task-select select { width: 100%; font-size: 11px; height: 32px; padding: 0 5px; }
 .filter-row label { flex: 1; min-width: 0; }
 .filter-row select, .district-select select { width: 100%; font-size: 11px; height: 32px; padding: 0 4px; }
 .district-select { display: block; margin: 0 16px; }
@@ -117,6 +120,20 @@ h1, h2, h3 { font-weight: 550; }
 .known-item strong { display: block; font-size: 13px; font-weight: 500; line-height: 1.5; overflow-wrap: anywhere; }
 .recorded-delivery { margin: 0 0 14px; font-size: 11px; line-height: 1.6; color: var(--muted); }
 .recorded-delivery strong { font-weight: 500; color: var(--ink); }
+.case-status-note p { font-size: 11px; line-height: 1.65; color: var(--muted); margin: -7px 0 16px; max-width: 70em; }
+.candidate-label { display: block; font-size: 10px; color: var(--muted); margin-top: 3px; }
+.allocation-editor { margin: 22px 0; padding: 17px 0 0; border-top: 1px solid var(--border); }
+.allocation-editor h3 { font-size: 12px; margin-bottom: 12px; }
+.review-period { display: flex; justify-content: flex-end; margin: -9px 0 16px; }
+.allocation-schedule { margin: 0 0 16px; font-size: 11px; }
+.allocation-schedule>div { display: grid; grid-template-columns: minmax(94px, .75fr) minmax(0, 1.6fr); gap: 15px; padding: 5px 0; }
+.allocation-schedule dt { color: var(--muted); }
+.allocation-schedule dd { margin: 0; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.allocation-schedule dd strong { font-weight: 550; display: inline-block; min-width: 49px; margin-right: 12px; }
+.allocation-schedule dd span, .allocation-schedule dd small { color: var(--muted); }
+.allocation-schedule dd small { display: block; font-size: 10px; }
+.allocation-inputs .field { margin-bottom: 9px; min-width: 0; }
+.allocation-editor>.field-help { margin-bottom: 12px; }
 .case-grid { display: grid; grid-template-columns: minmax(330px, 1fr) minmax(210px, .51fr); gap: 36px; align-items: start; }
 .coding-card { min-width: 0; }
 .card-header { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 20px; }

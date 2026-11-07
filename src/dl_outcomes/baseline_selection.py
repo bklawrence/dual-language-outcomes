@@ -198,10 +198,13 @@ class Selection:
                 if key in self.overrides and set(self.overrides[key]['evidence_ids']) != set(review['evidence_ids']):
                     raise ValueError('Conflicting explicit field adjudications')
                 self.overrides[key] = review
-        from .hand_coding import selection_overrides
+        from .hand_coding import selection_overrides, allocation_overrides
         # Manual decisions explicitly select a field for a reference year.
         # Retain prior machine/researcher observations and all previous reviews.
         self.overrides.update(selection_overrides(tables))
+        self.allocation_reviews = allocation_overrides(tables)
+        self.manual_allocation_ids = {i for reviews in self.allocation_reviews.values()
+                                      for review in reviews for i in review['evidence_ids']}
         from .review_events import event_index
         self.program_events = event_index(tables)
         self.policy_cache = {}
@@ -345,6 +348,21 @@ class Selection:
                 grades = grade_set(r['grade_scope'])
                 if r not in selected and not later_period_mention(r, year) and grades and not grades & occupied:
                     selected.append(r); occupied.update(grades)
+        if override.get('hand_coded'):
+            from .allocation_selection import apply_grade_reviews
+            base_rows = [r for r in rows if r['_id'] not in self.manual_allocation_ids]
+            base, _ = select_rows(base_rows, year)
+            if choice:
+                base = [r for r in base_rows if r['_id']==choice['selected_schedule_id']
+                        and not later_period_mention(r,year) and within_reviewed_reference(r,year)]
+            elif base:
+                covered = set().union(*(grade_set(r['grade_scope']) or set() for r in base))
+                for row in base_rows:
+                    grades = grade_set(row['grade_scope'])
+                    if (row not in base and grades and not grades & covered
+                            and not later_period_mention(row,year) and within_reviewed_reference(row,year)):
+                        base.append(row); covered.update(grades)
+            selected = apply_grade_reviews(rows,self.allocation_reviews[(site['site_id'],year)],base,year)
         # Published annual model labels (especially WA) remain model evidence,
         # but cannot override a grade-specific schedule or create named shares.
         model_rows = [dict(r, _value=r['reported_model_label'],
@@ -396,6 +414,7 @@ class Selection:
         values = [dict(evidence_table=r['_table'], evidence_record_id=r['_id'],
             schedule_id=r['_id'] if r['_table'] == 'allocation_schedules' else None,
             grade_scope=r['grade_scope'], model_label=r['_value'],
+            **({'source_grade_scope':r['_source_grade_scope']} if '_source_grade_scope' in r else {}),
             **model_description(r, self.shares[r['_id']], self.rules['language_aliases']),
             service_scope=self.allocation_claims.get(r['_id'], {}).get('service_scope'),
             percentage_basis=r['percentage_basis'], source_year=evidence_year(r)) for r in selected]

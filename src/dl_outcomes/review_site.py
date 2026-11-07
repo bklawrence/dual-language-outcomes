@@ -20,6 +20,17 @@ def display_name(name):
     return ' '.join(acronyms.get(w.lower(),w.capitalize()) for w in name.split())
 
 
+def reviewable_candidate(row):
+    """Expose existing elementary research leads without certifying DL status."""
+    if row['school_level'] != 'elementary' or row['operation_status'] == 'later_status_only':
+        return False
+    status = ' '.join(row.get(k, '') for k in (
+        'operating_statuses', 'eligibility_statuses', 'programme_screening_status'))
+    return not re.search(
+        r'planned|proposed|started_after|not_offered|not_operating|ended|closed|ceased|discontinued|'
+        r'historical_relocated|not_qualifying|not_a_dual|related_language|screening_only', status, re.I)
+
+
 def export(root, destination):
     config=json.loads((root/CONFIG).read_text());_,tables=load(root)
     rules=json.loads((root/'data/baselines/national_structural_v1/rules.json').read_text());selection=Selection(tables,rules)
@@ -33,7 +44,7 @@ def export(root, destination):
     grouped=defaultdict(list)
     for row in programmes:
         manual_event=selection.program_events.get(row['site_id'])
-        if (row['school_level']=='elementary' or row['school_id'] in allocated) and (row['school_id'] in allocated or row['in_working_cohort'] or row['in_confirmed_qualifying_cohort'] or manual_event):
+        if (row['school_level']=='elementary' or row['school_id'] in allocated) and (row['school_id'] in allocated or row['in_working_cohort'] or row['in_confirmed_qualifying_cohort'] or manual_event or reviewable_candidate(row)):
             grouped[row['school_id']].append(row)
     manual=[]
     for _,batch in batches(root):
@@ -71,7 +82,7 @@ def export(root, destination):
             grade=known['programme_grade_scope']['value']
             allocation,_=selection.select_allocations(site,reference,row['school_level'],grade)
             values=json.loads(allocation['value_json'])
-            known['elementary_allocation_model']=dict(value=sorted({v['model_label_normalized'] for v in values if v.get('model_label_normalized')}),status=allocation['value_status'])
+            known['elementary_allocation_model']=dict(value=sorted({v['model_label_normalized'] for v in values if v.get('model_label_normalized')}),status=allocation['value_status'],schedules=values)
             source_ids.update(allocation['selected_source_ids'].split(' | '))
             for source_id in sorted(source_ids):
                 if source_id in sources:add_reference(sources[source_id]['source_url'])
@@ -100,6 +111,8 @@ def export(root, destination):
             if any(not s['known'][variable]['value'] or (variable!='elementary_allocation_model' and s['known'][variable]['status']!='documented') for s in sites):missing.append(variable)
         cases.append(dict(school_id=sid,school_name=school_name,canonical_school_name=first['school_name'],state_code=first['state_code'],
                           district_name=display_name(first['district_names']),allocation_known=sid in allocated,
+                          dl_status='confirmed' if any(r['in_confirmed_qualifying_cohort'] and r['selection_year']==reference for r in rows) else 'needs_confirmation',
+                          research_lead=not any(sid in allocated or r['in_working_cohort'] or r['in_confirmed_qualifying_cohort'] or selection.program_events.get(r['site_id']) for r in rows),
                           sites=sites,missing=missing,references=sorted(references.values(),key=lambda r:(-r['score'],r['url']))[:6],
                           hand_coded_reviews=[{k:r.get(k) for k in ['review_id','reviewer','github_actor','submitted_at','reference_year','coding_method','issue_url']}
                                              for r in sorted(manual_by_school[sid],key=lambda r:(r['submitted_at'],r['review_id']))[-5:]]))

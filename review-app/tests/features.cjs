@@ -8,7 +8,7 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
   const template=data.cases.find(c=>c.sites.length===1);
   function school(id,name,count=1,complete=false){
     const c=structuredClone(template);
-    Object.assign(c,{school_id:id,school_name:name,district_name:'Test District',allocation_known:true,
+    Object.assign(c,{school_id:id,school_name:name,district_name:'Test District',allocation_known:true,research_lead:false,dl_status:'confirmed',
       missing:['delivery_structure','population_model']});
     c.sites=Array.from({length:count},(_,i)=>{
       const s=structuredClone(template.sites[0]);
@@ -41,7 +41,7 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
   const otherPage=await otherContext.newPage();
   try{
     await otherPage.goto(url,{waitUntil:'networkidle'});
-    await otherPage.getByLabel('Missing variable',{exact:true}).selectOption('');
+    await otherPage.getByLabel('Review task',{exact:true}).selectOption('');
     await otherPage.getByLabel('Search schools or districts').fill('Complete After Coding');
     assert.equal(await otherPage.locator('.school-row').count(),1);
     await page.goto(url,{waitUntil:'networkidle'});
@@ -49,13 +49,13 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
     const rows=()=>page.locator('.school-row');
     async function choose(name){
       await page.getByRole('button',{name:/Review queue/}).click();
-      await page.getByLabel('Missing variable',{exact:true}).selectOption('');
+      await page.getByLabel('Review task',{exact:true}).selectOption('');
       await page.getByLabel('Search schools or districts').fill(name);
       await rows().filter({hasText:name}).click();
       await page.locator('.case-page-header h1').filter({hasText:name}).waitFor();
     }
-    await page.getByLabel('Missing variable',{exact:true}).selectOption('');
-    assert.equal(await rows().count(),4);
+    await page.getByLabel('Review task',{exact:true}).selectOption('');
+    assert.equal(await rows().count(),5);
     await page.getByLabel('Search schools or districts').fill('Already Complete');
     assert.equal(await rows().count(),0);
     await choose('Complete After Coding');
@@ -145,7 +145,6 @@ module.exports=async function({browser,url,data,output,workspace,waitSaved}){
     // A blank new finding must not conceal or automatically re-save an
     // existing delivery value while another variable is still missing.
     await page.getByRole('button',{name:/Review queue/}).click();
-    await page.getByRole('checkbox',{name:'Allocation already recorded',exact:true}).uncheck();
     await choose('Recorded Whole School');
     const recorded=page.getByLabel('Recorded delivery model',{exact:true});
     assert.ok((await recorded.innerText()).includes('Whole school'));

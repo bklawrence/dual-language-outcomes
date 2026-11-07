@@ -1,14 +1,25 @@
+import {allocationWithReviews} from './allocation.js';
+
 const UNRESOLVED = new Set(['conflicting', 'later_only', 'not_reported']);
 const DELIVERY_MODELS = new Set(['whole_school', 'strand', 'mixed']);
 
 export function fieldWithReviews(school, site, variable, saved = [], accepted = new Set(), year = '2025-26') {
-  const review = [...saved].reverse().find(r => !accepted.has(r.review_id)
+  const reviews = saved.filter(r => !accepted.has(r.review_id)
     && r.school_id === school.school_id && r.reference_year === year
     && r.changes?.[variable]?.site_ids.includes(site.site_id));
+  if(variable==='elementary_allocation_model')return allocationWithReviews(site.known[variable],reviews);
+  const review = reviews.at(-1);
   if (!review) return site.known[variable] || {value: [], status: 'not_reported'};
   const value = review.changes[variable].value;
   return {value: Array.isArray(value) ? value : [value],
     status: review.coding_method === 'explicit_source_statement' ? 'documented' : 'provisional'};
+}
+
+export function matchesReviewTask(school, task, allocationOnly=false, includeResearchLeads=false) {
+  if(task==='corrections')return true;
+  if(task==='elementary_allocation_model'&&school.priority_site_ids?.length===0)return false;
+  return (!school.research_lead||includeResearchLeads)&&!school.priorityComplete&&!school.retired&&(!allocationOnly||school.allocation_known)
+    &&(!task||school.effectiveMissing.includes(task));
 }
 
 export function allocationRecorded(field) {
