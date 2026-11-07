@@ -1,0 +1,196 @@
+{
+  "batch_id": "69b80ed4-5ffe-4ca3-a6ea-1060df35548d",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-404c567576cb5401822d66999ff3e373"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:03:41.454Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.idahoreportcard.org/about-us/school?schoolId=0636",
+      "grade_scope": "",
+      "notes": "It's described on the website as the district's DL school and the school is 40%+ ELL students.",
+      "reference_year": "2025-26",
+      "review_id": "0eda9415-cfb9-4166-81d1-06fa9d687c29",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-012a3bd22d74",
+      "school_name": "Alturas Elementary School",
+      "selected_site_id": "site-404c567576cb5401822d66999ff3e373",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a056bade177b599cbee6789252a1294a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:10:26.043Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://des.tsd401.org/apps/pages/index.jsp?uREC_ID=593058&type=d&termREC_ID=&pREC_ID=staff",
+      "grade_scope": "",
+      "notes": "There are teachers listed as grade level teachers at the school who are not DL staff members.",
+      "reference_year": "2025-26",
+      "review_id": "2bc55829-4ede-4936-84d3-df31f607c121",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-a62f5abe92ae",
+      "school_name": "Driggs Elementary School",
+      "selected_site_id": "site-a056bade177b599cbee6789252a1294a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-23448b802bcd5e49918bbd024fe813ff"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:14:21.196Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://harwood.jeffersonsd251.org/wp-content/uploads/2026/09/HE-Universal-Handbook-2026-2027.pdf",
+      "grade_scope": "",
+      "notes": "In the handbook, some staff are listed explicitly as DL teachers while others are not.",
+      "reference_year": "2025-26",
+      "review_id": "c48800ac-0043-4e90-b3a1-1641851b5741",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-9e0401d294aa",
+      "school_name": "Harwood Elementary School",
+      "selected_site_id": "site-23448b802bcd5e49918bbd024fe813ff",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-4aaf13df324452cc9a6e8ed9923b0a0a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:22:27.386Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "20ea8631-6f37-4290-9c30-1262e4eb3955",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-eb30ff3d7152",
+      "school_name": "Jefferson Elementary School",
+      "selected_site_id": "site-4aaf13df324452cc9a6e8ed9923b0a0a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9db131a7ca19513f90c9693d6666436f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:22:36.652Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0377cdff-893f-4265-a770-04dc0306d7a0",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-5c26fd257b08",
+      "school_name": "Roberts Elementary School",
+      "selected_site_id": "site-9db131a7ca19513f90c9693d6666436f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-047db159410c508bb8267855102f1ab7"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:22:46.319Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.youtube.com/watch?v=8klbtLPX2sM&t=24s",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3f8931fd-bb2e-4ecf-9598-1af2a77d1f33",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-5aba0472fa70",
+      "school_name": "South Fork Elementary School",
+      "selected_site_id": "site-047db159410c508bb8267855102f1ab7",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f50dc7501fa45f4b8b836e9dd1020465"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:25:33.967Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.facebook.com/jeffersonJSD/",
+      "grade_scope": "",
+      "notes": "Described as DL school. Around 40% ELL students.",
+      "reference_year": "2025-26",
+      "review_id": "3600a7f7-5be4-4698-9530-98c2914134b0",
+      "reviewer": "bklawrence",
+      "school_id": "ID-S-906622f202d8",
+      "school_name": "Jefferson Elementary School",
+      "selected_site_id": "site-f50dc7501fa45f4b8b836e9dd1020465",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 20,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/20",
+    "received_at": "2026-11-07T18:26:37.582569+00:00",
+    "submitted_at": "2026-11-07T18:25:50Z"
+  },
+  "version": 1
+}

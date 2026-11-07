@@ -356,12 +356,12 @@ GL-WI-S-daf559cb5f96,WI,H. W. Longfellow School,Milwaukee Public Schools,1,0,0,0
 GL-WI-S-dff7e2b2f881,WI,Verona Area International School,Verona Area School District,1,1,1,0,whole_school
 GL-WI-S-ff7f8bc15db0,WI,Lincoln Avenue School,Milwaukee Public Schools,1,0,0,0,
 ID-S-012a3bd22d74,ID,Alturas Elementary School,Blaine County School District,1,0,0,0,whole_school
-ID-S-5aba0472fa70,ID,South Fork Elementary School,Jefferson Joint School District 251,1,0,0,0,
-ID-S-5c26fd257b08,ID,Roberts Elementary School,Jefferson Joint School District 251,1,0,0,0,
-ID-S-906622f202d8,ID,Jefferson Elementary School,Jerome School District 261,1,0,0,0,
-ID-S-9e0401d294aa,ID,Harwood Elementary School,Jefferson Joint School District 251,1,0,0,0,
-ID-S-a62f5abe92ae,ID,Driggs Elementary School,Teton School District 401,1,0,0,0,
-ID-S-eb30ff3d7152,ID,Jefferson Elementary School,Jefferson Joint School District 251,1,0,0,0,
+ID-S-5aba0472fa70,ID,South Fork Elementary School,Jefferson Joint School District 251,1,0,0,0,strand
+ID-S-5c26fd257b08,ID,Roberts Elementary School,Jefferson Joint School District 251,1,0,0,0,strand
+ID-S-906622f202d8,ID,Jefferson Elementary School,Jerome School District 261,1,0,0,0,whole_school
+ID-S-9e0401d294aa,ID,Harwood Elementary School,Jefferson Joint School District 251,1,0,1,0,strand
+ID-S-a62f5abe92ae,ID,Driggs Elementary School,Teton School District 401,1,0,0,0,strand
+ID-S-eb30ff3d7152,ID,Jefferson Elementary School,Jefferson Joint School District 251,1,0,0,0,strand
 IL-S001,IL,Academy for Global Citizenship,Chicago Public Schools 299,1,0,1,1,whole_school
 IL-S002,IL,Barbour Two-Way Language Immersion,Rockford SD 205,1,0,1,0,whole_school
 IL-S004,IL,Darwin Elementary School,Chicago Public Schools 299,1,0,0,0,strand
