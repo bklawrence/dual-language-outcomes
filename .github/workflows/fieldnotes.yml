@@ -26,7 +26,8 @@ concurrency:
 jobs:
   build:
     if: github.event_name != 'issues' || startsWith(github.event.issue.title, '[DL Review]')
-    runs-on: ubuntu-latest
+    # Match the operating systems supported by the locked Playwright version.
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -106,7 +107,7 @@ jobs:
               body: `This batch could not be completed. No unvalidated coding is applied to the dataset. Your local reviews remain in Fieldnotes. An authorized researcher can inspect the [validation run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}), correct the submission, or reopen this issue to retry.`});
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     environment:
       name: github-pages
