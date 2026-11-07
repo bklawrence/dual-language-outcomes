@@ -1,9 +1,10 @@
 import React from 'react';
 import {ArrowDownToLine, ArrowRight, Check, CheckCheck, ExternalLink, Search} from 'lucide-react';
 import ReviewDetails from './ReviewDetails';
+import {hasReviewEdits} from './reviews';
 
 export default function SavedReviews({store, cases, accepted, pending, awaiting, inventoryYear,
-  filters, setFilters, refreshing, onRefresh, onBackup, onQueue, onEdit, onRevisit, onRemove, onCopySubmission, handoffBusy}) {
+  filters, setFilters, refreshing, onRefresh, onBackup, onQueue, onEdit, onRevisit, onRemove, onCopySubmission, handoffBusy, onPublish}) {
   const schools = new Map(cases.map(c => [c.school_id, c]));
   const districtOf = r => schools.get(r.school_id)?.district_name || 'District unavailable';
   const districts = [...new Set(store.saved.map(districtOf))].sort();
@@ -20,7 +21,7 @@ export default function SavedReviews({store, cases, accepted, pending, awaiting,
     <div className="section-eyebrow">SAVED WORK</div><h1>Review and revise</h1>
     <p className="section-intro">Keep researching, then return to any saved review. Edit your coding, source, or notes before publishing a batch.</p>
     <div className="saved-toolbar"><span>{pending.length} saved locally · {awaiting.length} awaiting GitHub · {store.saved.filter(r => accepted.has(r.review_id)).length} published</span>
-      <div><button className="text-button" onClick={onRefresh}><CheckCheck size={15}/>{refreshing ? 'Checking…' : 'Check publishing status'}</button><button className="secondary small" onClick={onBackup}><ArrowDownToLine size={14}/>Export backup</button></div>
+      <div>{pending.length>0&&<button className="primary small" onClick={onPublish}>Review &amp; submit <ArrowRight size={14}/></button>}<button className="text-button" onClick={onRefresh}><CheckCheck size={15}/>{refreshing ? 'Checking…' : 'Check publishing status'}</button><button className="secondary small" onClick={onBackup}><ArrowDownToLine size={14}/>Export backup</button></div>
     </div>
     {store.saved.length > 0 && <div className="review-filters">
       <label className="review-search"><Search size={15}/><input aria-label="Search saved reviews" placeholder="School, district, state, or notes" value={filters.query} onChange={e => filter('query', e.target.value)}/></label>
@@ -33,8 +34,9 @@ export default function SavedReviews({store, cases, accepted, pending, awaiting,
         const published = accepted.has(r.review_id);
         const batch = store.batches.find(b => b.review_ids.includes(r.review_id));
         const draft = store.drafts['review:' + r.review_id];
+        const dirty = hasReviewEdits(r,draft,schools.get(r.school_id));
         return <article key={r.review_id} className="log-card">
-          <div className="log-heading"><div><h3>{r.school_name}</h3><span>{districtOf(r)} · {r.reviewer} · {new Date(r.coded_at).toLocaleDateString(undefined, {month: 'short', day: 'numeric'})}</span></div><span className={'status-pill ' + (published ? 'green' : '')}><Check size={12}/>{published ? 'Published' : batch ? 'Confirm on GitHub' : draft ? 'Unsaved edits' : 'Saved on this device'}</span></div>
+          <div className="log-heading"><div><h3>{r.school_name}</h3><span>{districtOf(r)} · {r.reviewer} · {new Date(r.coded_at).toLocaleDateString(undefined, {month: 'short', day: 'numeric'})}</span></div><span className={'status-pill ' + (published ? 'green' : '')}><Check size={12}/>{published ? 'Published' : batch ? 'Confirm on GitHub' : dirty ? 'Unsaved edits' : 'Saved on this device'}</span></div>
           <ReviewDetails record={r} school={schools.get(r.school_id)} inventoryYear={inventoryYear}/>
           <div className="log-bottom"><span className="hand-coded">Hand-coded</span>
             {batch && !published && <><a href={batch.url}>Confirm batch <ExternalLink size={12}/></a><button className="text-button" disabled={handoffBusy} onClick={()=>onCopySubmission(batch)}>Copy submission link</button></>}

@@ -63,6 +63,21 @@ export function targetsForDraft(draft, variable, selectedSite, school) {
   return [...ids];
 }
 
+export function hasReviewEdits(record, draft, school) {
+  if (!draft) return false;
+  if (!school) return true;
+  try {
+    const original = draftFromReview(record, school, {});
+    const fields = ['delivery', 'population', 'allocation', 'languages', 'evidence_url', 'notes',
+      'source_quote', 'source_locator', 'grade_scope', 'source_school_year', 'reference_year', 'coding_method'];
+    if (fields.some(key => (draft[key] || '').trim() !== (original[key] || '').trim())) return true;
+    const selected = school.sites.find(s => s.site_id === draft.site_id);
+    if (!selected) return true;
+    return Object.entries(record.changes || {}).some(([variable, change]) =>
+      JSON.stringify(targetsForDraft(draft, variable, selected, school).sort()) !== JSON.stringify([...change.site_ids].sort()));
+  } catch { return true; }
+}
+
 export function sourceLink(value) {
   try {
     const url = new URL(value);

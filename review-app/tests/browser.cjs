@@ -61,11 +61,19 @@ async function mockGitHub(context){
   await page.getByLabel('Research notes',{exact:true}).fill('An unrelated draft stays intact.');
   await page.getByRole('button',{name:/My reviews/}).click();
   assert.equal(await page.locator('.log-card .status-pill').innerText(),'Saved on this device');
+  await page.getByRole('button',{name:'Review & submit',exact:true}).click();
+  await page.getByRole('link',{name:'Continue on GitHub',exact:true}).waitFor();
+  await page.getByRole('button',{name:'Close dialog',exact:true}).click();
   const originalSchool=initialData.cases.find(c=>c.school_id===original.school_id);
   await page.getByLabel('Saved review district',{exact:true}).selectOption(originalSchool.district_name);
   await page.getByLabel('Search saved reviews',{exact:true}).fill(original.school_name);
   await page.getByRole('button',{name:'Edit review',exact:true}).click();
   assert.equal(await page.locator('.case-page-header h1').innerText(),original.school_name);
+  // Merely opening an editor must not make an unchanged entry unpublishable.
+  await page.getByRole('button',{name:/^Publish/}).click();
+  await page.getByRole('link',{name:'Continue on GitHub',exact:true}).waitFor();
+  assert.equal(await page.getByRole('button',{name:'Review unsaved changes',exact:true}).count(),0);
+  await page.getByRole('button',{name:'Close dialog',exact:true}).click();
   assert.ok(await page.getByRole('radio',{name:'Explicitly stated',exact:true}).isChecked());
   await page.getByRole('radio',{name:'My interpretation',exact:true}).check();
   await page.getByRole('button',{name:'Clear coding basis',exact:true}).click();
@@ -90,8 +98,8 @@ async function mockGitHub(context){
   await page.getByRole('button',{name:/^Publish/}).click();
   const preview=page.getByRole('dialog',{name:'Review before publishing',exact:true});
   await preview.locator('.batch-review').waitFor();
-  assert.equal(await preview.getByRole('button',{name:'Continue on GitHub',exact:true}).isDisabled(),true);
-  await preview.getByRole('button',{name:'Resume editing',exact:true}).click();
+  assert.equal(await preview.getByRole('link',{name:'Continue on GitHub',exact:true}).count(),0);
+  await preview.getByRole('button',{name:'Review unsaved changes',exact:true}).click();
   await page.getByRole('button',{name:'Save changes',exact:true}).click();
   await page.getByRole('heading',{name:'Review and revise',exact:true}).waitFor();
   await page.waitForFunction(id=>new Promise(resolve=>{const r=indexedDB.open('fieldnotes-research-v1',1);r.onsuccess=()=>{const q=r.result.transaction('workspace').objectStore('workspace').get('current');q.onsuccess=()=>resolve(q.result?.saved?.find(v=>v.review_id===id)?.changes.delivery_structure.value==='whole_school');};}),original.review_id);

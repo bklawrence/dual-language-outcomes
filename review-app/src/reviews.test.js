@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {draftFromReview, targetsForDraft, sourceLink} from './reviews.js';
+import {draftFromReview, targetsForDraft, sourceLink, hasReviewEdits} from './reviews.js';
 
 const school={sites:[{site_id:'spanish'},{site_id:'mandarin'},{site_id:'french'}]};
 const empty={all_delivery:true};
@@ -51,6 +51,27 @@ test('parked reviews can be resumed without inventing structural values',()=>{
 test('a cleared coding basis stays unselected when an entry is edited again',()=>{
   assert.equal(draftFromReview({...record,coding_method:'not_recorded'},school,empty).coding_method,'');
   assert.equal(draftFromReview({...record,coding_method:'researcher_interpretation'},school,empty).coding_method,'researcher_interpretation');
+});
+
+test('opening a saved review without changing it does not block submission',()=>{
+  assert.equal(hasReviewEdits(record,undefined,school),false);
+  assert.equal(hasReviewEdits(record,draftFromReview(record,school,empty),school),false);
+  const cleared={...record,coding_method:'not_recorded'};
+  assert.equal(hasReviewEdits(cleared,draftFromReview(cleared,school,empty),school),false);
+  const note={...cleared,changes:{},disposition:'needs_review'};
+  assert.equal(hasReviewEdits(note,draftFromReview(note,school,empty),school),false);
+});
+
+test('edited evidence, values, year, or program scope must be saved or discarded',()=>{
+  for(const [key,value] of [['notes','Revised evidence'],['delivery','whole_school'],['reference_year','2024-25'],['coding_method','']]){
+    const draft=draftFromReview(record,school,empty);draft[key]=value;
+    assert.equal(hasReviewEdits(record,draft,school),true,key);
+  }
+  const scope=draftFromReview(record,school,empty);scope.all_delivery=false;scope.delivery_site_ids=['mandarin'];
+  assert.equal(hasReviewEdits(record,scope,school),true);
+  const draft=draftFromReview(record,school,empty);draft.original_targets.population_model=['french'];
+  assert.equal(hasReviewEdits(record,draft,school),true);
+  assert.equal(hasReviewEdits(record,draft,undefined),true);
 });
 
 test('a review outside the campus inventory cannot silently be retargeted',()=>{

@@ -45,6 +45,12 @@ reload without overwriting an unrelated school draft. **Publish** opens a full
 preview with another edit action; unsaved edits must be saved or discarded
 before that review can be handed off to GitHub.
 
+Opening an entry for inspection does not count as an unsaved change and does
+not block submission. If values, evidence, source context, or scope actually
+change, the preview offers **Review unsaved changes** to reopen that entry for
+saving or discarding. In **My reviews**, locally saved work has a **Review &
+submit** action; **Confirm batch** appears only for an already prepared batch.
+
 When program choices are blank, the main button becomes **Save evidence & next**
 (**Save evidence** while editing). A source URL, quotation, or research note is
 enough; no program value is required. These entries use the existing
