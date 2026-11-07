@@ -187,6 +187,10 @@ class Build:
         if (self.root/delivery_followup).exists():
             from .delivery_review import migrate as review_delivery
             review_delivery(self, config_path=delivery_followup, dataset_id='NAMED_SCHOOL_DELIVERY_REVIEW_2026_11_07')
+        texas_staff_review = 'config/research_migrations/tx_staff_delivery_review_2026_11_07.json'
+        if (self.root/texas_staff_review).exists():
+            from .delivery_review import migrate as review_delivery
+            review_delivery(self, config_path=texas_staff_review, dataset_id='TX_STAFF_DELIVERY_REVIEW_2026_11_07')
         if (self.root/'config/hand_coding.json').exists():
             from .hand_coding import migrate as apply_hand_coding
             apply_hand_coding(self)

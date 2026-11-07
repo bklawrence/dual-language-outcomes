@@ -1,0 +1,19 @@
+{
+  "key": "tx_web_directory_2",
+  "url": "https://services2.arcgis.com/5MVN2jsqIrNZD4tP/ArcGIS/rest/services/Schools_2024_to_2025/FeatureServer/0/query?where=1%3D1&outFields=ObjectID%2CUSER_School_Number%2CUSER_District_Name%2CUSER_School_Web_Page_Address&returnGeometry=false&orderByFields=ObjectID&resultRecordCount=2000&resultOffset=2000&f=json",
+  "retrieved_at": "2026-11-05T14:29:29.544209+00:00",
+  "http_status": 200,
+  "final_url": "https://services2.arcgis.com/5MVN2jsqIrNZD4tP/ArcGIS/rest/services/Schools_2024_to_2025/FeatureServer/0/query?where=1%3D1&outFields=ObjectID%2CUSER_School_Number%2CUSER_District_Name%2CUSER_School_Web_Page_Address&returnGeometry=false&orderByFields=ObjectID&resultRecordCount=2000&resultOffset=2000&f=json",
+  "content_type": "application/json; charset=utf-8",
+  "sha256": "d5ed53d3060988d181123e12511d4dfa6a7bb80ae45b93d777e7b33a09f810a1",
+  "bytes": 312011,
+  "capture_method": "original_public_HTTP_response",
+  "archive_kind": "gzip_complete_original_HTTP_response_body",
+  "title": "TEA school web directory 2024-25, page 2",
+  "links": [],
+  "status": "retrieved",
+  "original_response_sha256": "a462ec2a74d53bdf0c1acb7c347d4d558c1a6a7f48304c785c54cc8ececb3225",
+  "body_sha256": "a462ec2a74d53bdf0c1acb7c347d4d558c1a6a7f48304c785c54cc8ececb3225",
+  "body_file": "tx_web_directory_2.body.gz",
+  "research_use": "campus_URL_discovery_only_not_program_evidence"
+}

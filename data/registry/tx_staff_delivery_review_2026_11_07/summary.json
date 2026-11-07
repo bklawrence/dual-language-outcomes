@@ -1,0 +1,35 @@
+{
+  "research_date": "2026-11-07",
+  "reference_year": "2025-26",
+  "inventory_campuses": 1610,
+  "inventory_districts": 196,
+  "inventory_program_sites": 1863,
+  "campuses_with_staff_lead_attempts": 850,
+  "campuses_with_retrieved_staff_lead": 585,
+  "campuses_with_automatically_matched_staff_text": 455,
+  "campuses_with_manual_positive_or_ambiguous_review": 22,
+  "newly_inferred_strand_campuses": 14,
+  "newly_inferred_strand_program_sites": 16,
+  "whole_school_assignments": 0,
+  "ambiguous_review_campuses": 8,
+  "campuses_by_outcome": {
+    "accessible_campus_matched_staff_material_no_reviewed_split": 438,
+    "staff_lead_inaccessible": 265,
+    "campus_link_or_access_unresolved": 665,
+    "campus_page_only_no_accessible_staff_lead": 95,
+    "staff_lead_retrieved_scope_or_content_unresolved": 125,
+    "provisional_strand_from_parallel_academic_roles": 14,
+    "ambiguous_followup_no_assignment": 8
+  },
+  "acquisition_captures": 6359,
+  "acquisition_access_outcomes": {
+    "retrieved": 3483,
+    "http_error": 2732,
+    "retrieval_failed": 143,
+    "access_blocked": 1
+  },
+  "archived_review_sources": 22,
+  "archived_discovery_sources": 5,
+  "interpretation": "All campuses received an inventory/discovery screen. Retrieved leads and automated campus matches are not equivalent to a complete staff roster or individual manual review. No uninformative, inaccessible, or ambiguous case is assigned a delivery model.",
+  "temporal_policy": "Reviewed delivery interpretations apply to 2025-26 only. Each source retains its actual capture timestamp and its original publication year or undated status. The user authorized explicitly marked 2025-26 structural inference from 2026-27 directories; the coded sources in this pass are undated, captured in November 2026. Copyright, adopted-budget and general navigation years are not treated as roster dates. These current staff descriptions are provisional retrospective structural evidence, not observed 2025-26 staffing or evidence of annual policy continuity. Earlier and later selected values and evidence remain unchanged. An empty earlier period can now be flagged later_only rather than not_reported; that is a missingness explanation, not a historical model assignment."
+}

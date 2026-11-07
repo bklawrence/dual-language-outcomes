@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-0ab9e005e549529cb5da72b2bc1c683d",
-  "built_at": "2026-11-07T22:04:35.973382+00:00",
-  "base_git_revision": "d1039dfd33bbfcde3941ca6e0f2c66b36d8b4f75",
+  "build_id": "build-360195f711435415aba605d0068135fe",
+  "built_at": "2026-11-07T22:09:33.343463+00:00",
+  "base_git_revision": "ad702ed09d4b6f0d496e041b5a901bb1c08f8a39",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
@@ -25,6 +25,7 @@
     "config/research_migrations/structural_gaps_pilot_2026_11_06.json": "c67b80730b395f8f4589d265a7d9d53bb92d3cc4ea4c7cf1190459742153d66f",
     "config/research_migrations/structural_integration_2026_11_04.json": "a2db964694c008f5b40d85769b70b23e3c97edbedf560bc7e576690759781b44",
     "config/research_migrations/tx_allocation_review_2026_11_05.json": "182e0f8b209c8f47383845cf06c13b9ea2ec7e548c4efb083e82dcf16ccf11a9",
+    "config/research_migrations/tx_staff_delivery_review_2026_11_07.json": "d2563661b943d8f58f23cebeb73314efa67bb4c7c22c0311c809762475f5b5c5",
     "config/research_migrations/ut_tx_allocations_2026_11_05.json": "1405f312de921fc74d1dbeced9e7a421c6b275ef20beeacb0afa61f5c9257d12",
     "config/research_migrations/western_plains_2026_11_04.json": "d2cac451a9d64008336dc47bd63f7870d525f03d2c216dfd34ad8ac844a8aa4d",
     "config/states/ak.json": "bee0416f06616ae3803ecdceab455f7e88a33b1123e45c28d179512e085773a8",
@@ -5141,6 +5142,94 @@
     "data/registry/tx_allocation_review_2026_11_05/decisions.json": "5dfd90f6b7fa4740f8dfae5afed4847dbf48a9e7b5a07245da5fba84bc263f86",
     "data/registry/tx_allocation_review_2026_11_05/retrieval_receipts.json": "628d1c623ad01d1db7c80b92d5f25b441b1de9ac4fb06c92166e2ac94877417b",
     "data/registry/tx_allocation_review_2026_11_05/sources.json": "e243de98a8fd3251fad4da3c3669b5d2ca64c4598913d47cb1eb1555618b9eae",
+    "data/registry/tx_staff_delivery_review_2026_11_07/README.md": "0104f89984e5516170cb920e1f8d859a5a25fd667f911099c0de5cff096620fe",
+    "data/registry/tx_staff_delivery_review_2026_11_07/access_log.csv": "fbc138a8c2c77aedcc3d5466b05a0b92898c863ce5bcbc220022f4ae4f5c4065",
+    "data/registry/tx_staff_delivery_review_2026_11_07/campus_audit.csv": "e094f9dae5b01f395d58003adc93393348472487d77a094e107975285ab8727c",
+    "data/registry/tx_staff_delivery_review_2026_11_07/campus_targets.json": "c2db45921f2b485f570ce069b6f112d4f00e9284fee589e6d5ad9958dde22411",
+    "data/registry/tx_staff_delivery_review_2026_11_07/decisions.csv": "5988e380d738289b21009017be3005d0e79176e719825c39cfbe02248735f863",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_01d16dd30705d56002d4d6.body.gz": "64c99800ee4c1200a59f2438a8dc0edc62619c6181e3fac02d2029e2bc2ab1bf",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_01d16dd30705d56002d4d6.metadata.json": "ade1deac477b86295dc40f174e7cdc5ed79244499adcfbd9a0a5af2d2a4e2f02",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_01d16dd30705d56002d4d6.txt": "3bc9b8b5ed5be69cc8fbcf45dccc218fbb7f7cf9f3f01ded91fb78832da8739a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_02a0a4daa54c3a8361ebc7.body.gz": "6b97353e1d9f3a2cffc0f59716e5f420d4394ac0f6a066a23d1f81d332653b8d",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_02a0a4daa54c3a8361ebc7.metadata.json": "2527636123e5a1af1be07df6274f7a6c2edbc4dcbf405b6f32e078402c433d68",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_02a0a4daa54c3a8361ebc7.txt": "cf881656bb9eed6cb35b0ff51363962fe33d266b013f1c1f5355dd8e509b4b2e",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_0450966ccc323bb9ca8fb0.body.gz": "dedf3dd3f9da02e34144e63106c3e9700daee2f04c773a9ca4b3063f38a5420c",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_0450966ccc323bb9ca8fb0.metadata.json": "c63fe2fd794848dafbd5066df1cabb939e23331f14158919e4d7c75bbdcac08d",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_0450966ccc323bb9ca8fb0.txt": "54e41750852587fba666a8dbbbbe27452ebc31498b3f5c5a6292e54f0ee39eda",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_08c670af27b728096c85a3.body.gz": "d9b2c956102b67c63bb7d53ed994a864f6b004bb8a4b9fbbc49c81642b7d7c2a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_08c670af27b728096c85a3.metadata.json": "5afce2976053892f2f224bd45f47b5f37eb3548698ab62781da0600ad3641d69",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_08c670af27b728096c85a3.txt": "b920280fcad23b2ad60cf5ce22e74bfcc8abf0e34cf01b3738995baad59a1717",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_17ea17538909dee3ab334f.body.gz": "af40cceb8aebfceeefa4d4a796e250e8eadbd1cc22190cbe981533818ced1e6e",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_17ea17538909dee3ab334f.metadata.json": "8ce5b16888f312b095eeda2387f5ffeb7a1e75415914c4240bd3583753820cc5",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_17ea17538909dee3ab334f.txt": "730b4974eeea39accd5eaf8b12745fe8f28054aefd5b117f1c13e3383c30fd21",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_1c6330ac41d8d0f803232d.body.gz": "62eaa421594c5dd4c101be873f9742e83ef9e3df4c3afafe4f56756d3809e9b1",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_1c6330ac41d8d0f803232d.metadata.json": "349df491ca74a63c3668e49e03616fc36e12c63325646155903e7e7632c9366e",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_1c6330ac41d8d0f803232d.txt": "a945125e015ddf3c6a9e1521bbdd58a5f994aee046b03602665cdcb318f0bb3a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_313eef310fbbc0003b4b83.body.gz": "41c634b7677a1d95a0d90757d7e0dc0c0dc307fd95acdd384a5f22d172737363",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_313eef310fbbc0003b4b83.metadata.json": "1ee63d7ef20ffae18eedaebbbae8f99807424ab83e2e7d55d58bbeb54d9d43ec",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_313eef310fbbc0003b4b83.txt": "6069259bbd41ce9eead708f758dcc703eb9a145fe4420eb70c62a5e2d15c1301",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_3a869bb646972593f29544.body.gz": "22381934b4d04a52a161b906e9ce46d9d0c9a55b0e8a00f16e82a2a04bc24cb5",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_3a869bb646972593f29544.metadata.json": "ceea3bf594ab94c32708e690aa5181c01c27e7b20ab59f180ac1ac80a2d93791",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_3a869bb646972593f29544.txt": "7f57c384f3c65e17bef098d413c7c4c53057ba6a819dae07dcb73dbb830e0735",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_43328bc2e3d0f6207e72b5.body.gz": "43b89d80bf421fb1e30264f4cb0da977d5956635fdb731d8c92f2e3d40761b54",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_43328bc2e3d0f6207e72b5.metadata.json": "970c2a21578f48bce7e5a7d7ac0b36dae41dcde7a2e5e48886f991322e7e95a4",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_43328bc2e3d0f6207e72b5.txt": "a944b4b1427f0cd38141765a23ed0adc81789a16341cc22cafdef0c8a98920be",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_482f30fdb376f566ca1e30.body.gz": "60a52befbb8e073d0612715e7b083247ef25d84bb78387bd65ff4dd76dbcbcaf",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_482f30fdb376f566ca1e30.metadata.json": "d84639559f0132151da76155d92146149ceae1f393c166f9f68ccef38fcfde5c",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_482f30fdb376f566ca1e30.txt": "09cbc2ca9d3274efc619bd4a4cf1def4a515270114820d68145460c97da5f8b4",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_55b67e630d1ebf64f370b8.body.gz": "0b9db5b3272345817192304016137886291a3801343a75ba3b43185cbd6a87f9",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_55b67e630d1ebf64f370b8.metadata.json": "a1c44ba6948ae27ad9fd267bf732f074773cd8b75469f8c23f294c22f34daf3f",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_55b67e630d1ebf64f370b8.txt": "69ca77d1a622c01afdee85a34789f5ac4976785f2f1b5eef35762f83ed54f6b6",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_5c4b1ca998b98f28f9a8c8.body.gz": "1898f1d8d9e4dca9b1ab6a350b8a00e03ed588c3c98a14df7e05a6765f177543",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_5c4b1ca998b98f28f9a8c8.metadata.json": "704210dd16084edcefc00dbbe661d857ed8261db24555e80b8cdc09303b6a420",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_5c4b1ca998b98f28f9a8c8.txt": "509115cd4f19c744433a0fb0a965f1ef51cb539d2d07c1a5a29e8406798afb11",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_73f3d5059a885e6ff43bb3.body.gz": "5870bd5184fc36e366f2cf1126d450851445b48fe6b349896022fef78abcde8e",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_73f3d5059a885e6ff43bb3.metadata.json": "5b215fff83fb9e2cb4d97f8f32c0e018b650644e4dd471269200b6af62c28136",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_73f3d5059a885e6ff43bb3.txt": "988fc797f69efbfa9c1d0a003798f143b3db028d15c9d20bab908c906318533a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_876e01348385e43bdc69ac.body.gz": "8174cd859735785690ab9e2e6bafcb90fbe1f6531ad782b3c53ac90a2dd832bd",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_876e01348385e43bdc69ac.metadata.json": "b98eead8db312878afa279c79f750216c8d873ba5fad445aef7676cd37a670c2",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_876e01348385e43bdc69ac.txt": "f2b50473944632a5142ebc189ab2b01957ed8a109c0f1528204eb6a9b8fa8db9",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_8bd6210a2082ba98a5e1ff.body.gz": "19a79e43c4feb99276892198122185581fb403c857107d6d44960ae85fef1971",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_8bd6210a2082ba98a5e1ff.metadata.json": "48d02497a6f0eceda23f39e81262d130e141a63df7d40bdb618c22157486e231",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_8bd6210a2082ba98a5e1ff.txt": "81126a8f71faca2e3b1082bfec480097e2fbb22c14fe794ee0f01bb7d7a848e1",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_91e4aaad25d67d20eab107.body.gz": "9375b46435cf0b138992fc13b19a3405308e1041cd20134a16e7ac5eeaaa08fc",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_91e4aaad25d67d20eab107.metadata.json": "2cb267e7b0691593edd73dd9a57bbd30e4dfda4da94837fd4555194b52ced465",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_91e4aaad25d67d20eab107.txt": "1d2b32d4526b6dc27b8f0956ce7a0a4b5c9f21884663bff223f40eda91aeb3a3",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_972cbe15b52dc05609f771.body.gz": "a02f982a69b882a56d87e553a52d2281b6ff8e0c31dcc031bec399d47e748355",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_972cbe15b52dc05609f771.metadata.json": "5de5847ac576f1fd6b78267695b612a8f88e091bf88cbe4ed666658e91e78572",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_972cbe15b52dc05609f771.txt": "2a0f58fe666a031b677d5695dabb304a093d72650b2dec1bd102303b6fc32978",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_9aaecf13c49ded06752992.body.gz": "2aaeeaa6309ff9edd48d08748c9d4542671598299bedc3f231b5926bb46a5d98",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_9aaecf13c49ded06752992.metadata.json": "049304a8c6cfeeff87e2cc1cbfd84125be24125fded6ad90d45e86d6aea7e335",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_9aaecf13c49ded06752992.txt": "23db62802088a05c858b955be005f0060cdbe9555b6c355337a9e08e0b9df5b0",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_c0969cf5e9d10937f7f7ed.body.gz": "8e36213dc6643ba235848439ac3c064f8ff44c648d6e7006c5a8d1c5551e76d8",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_c0969cf5e9d10937f7f7ed.metadata.json": "c366444c1ee7a248671d93a3fd0a5a2933b099cef351b0aaf86de1351e971cdb",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_c0969cf5e9d10937f7f7ed.txt": "c89fb14663aef58c956e1f2079d3d7d94218a8499373dd64c043c910440eec0a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_df637dad9cd880fd878706.body.gz": "23d085bec75d9791a39240f50d43b485ab00186642bda4e020b3527ab0804d25",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_df637dad9cd880fd878706.metadata.json": "f0231f2556bd8a84ddaaaf0fd3514d2c686530234257cc0bf8d72d7f26acedd8",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_df637dad9cd880fd878706.txt": "f5eb1e6299c516dd049c5922c6b07a89317ef35a9a7624521bf66428c0e6092a",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_e253e971f11b0e46a31692.body.gz": "c9995d76297347a13717e6932b087e8a2919c5ffacfec943344139f2704dbbd6",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_e253e971f11b0e46a31692.metadata.json": "3e3afc92af0bd0157f1d49f5b5c724c7cc12d72fcdfe1b079f9070f3d365fa41",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_e253e971f11b0e46a31692.txt": "8e335ec4d20fbe41eff4906625beda29250f4e785bd526222c70b1ee7ca6f5ba",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_ef99a7a9b6d76286821912.body.gz": "3a8dd42e8d36e0947570f2dbf0be7e52ecb3f6a26699e64f5b413eeb3315e095",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_ef99a7a9b6d76286821912.metadata.json": "5c157799490947700e9698992aacfafe0d5d720990a029081ed1474defe108de",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_staff_ef99a7a9b6d76286821912.txt": "a713c7327259effc034556feb2d0869afee06a8fd55b60563f49045affabafca",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_1.body.gz": "248aaca340b16075f60e412653b39a00d7faa3c94dbad5c474dc0c4c633cbf1c",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_1.metadata.json": "95acf0d8363cc4d568bd3dea47c114b58b6ce20d6b36e93b6f2a114a6b936951",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_2.body.gz": "d5ed53d3060988d181123e12511d4dfa6a7bb80ae45b93d777e7b33a09f810a1",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_2.metadata.json": "e0b76a9831184f2bd13041615f2255802ccb534939be3502e45ce0f36c3304e5",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_3.body.gz": "aa342cd9e851875f677186d5edbd6a356ef361e97f42787c6dd4b04e01cd0ca4",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_3.metadata.json": "59ade60c2719d0992dab870487d558e80b5ddb41029eabfc09f0dd486838ea45",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_4.body.gz": "4d4da09a39c3a6e54f83c17d2d4bd0905d79f1bf341cd54ad885a311ff1f1032",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_4.metadata.json": "d95315d453c017eb726f95fa9b54fecb2d5e7052a4d3a95fc7a62fa13281d732",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_5.body.gz": "1b1c5457b915add43db0c760c290d7c04c2c52306b6f002c1850c5ba21dda5d2",
+    "data/registry/tx_staff_delivery_review_2026_11_07/evidence/tx_web_directory_5.metadata.json": "bf95802565bcccf2fdf848152db4aca85e2b038845f2aa9f48c5acb0345b2f57",
+    "data/registry/tx_staff_delivery_review_2026_11_07/mapped_campus_leads.json.gz": "02e906bb383b68557dd6fcc60171075334b1b9756f604abe28502979e89cf32c",
+    "data/registry/tx_staff_delivery_review_2026_11_07/observations.json": "1b9d230d5cac6d3451e91fad470ebf63cf0b8b5a0e452babf7643a6398771827",
+    "data/registry/tx_staff_delivery_review_2026_11_07/review_cases.csv": "55a9575f247ebeae343875f33a29007abc5a3369dd054eaf269e4f2e5ff917d8",
+    "data/registry/tx_staff_delivery_review_2026_11_07/review_cases.json": "e79957a97f20a4365c3d2896942476a08b023862611732f4f3fc82f553b7f2fe",
+    "data/registry/tx_staff_delivery_review_2026_11_07/sources.json": "41dd46ef3dbdeb3e2f6435d7c695a1867a8ad591851264274d0b34d370e0dd85",
+    "data/registry/tx_staff_delivery_review_2026_11_07/summary.json": "7e863aad28e0791657950275271b94b24e19b93a282301ae0e582e8072b79428",
+    "data/registry/tx_staff_delivery_review_2026_11_07/vetted_staff_leads.json": "86841b5bf03fd582463d423187ca0fe201beb7cda43d43aba13db0e34bab2a91",
     "data/registry/ut_tx_allocation_2026_11_05/README.md": "8b8651725cab1085e21674704a574655e8e5934fbc377e4d4ab8236dcd9bd56b",
     "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_003903_c5ce1860.embedded.txt": "91c4eabae36278bbd8b7885c78650801c9e43fe6a83ffc954333c65319d0453d",
     "data/registry/ut_tx_allocation_2026_11_05/extractions/tx_follow_015901_c4f5060a.embedded.txt": "71d985230732570600e575b28ef765821b9a9180c471c9c9d18ae0795d434114",
@@ -5477,7 +5566,7 @@
     "src/dl_outcomes/analytics.py": "4482aaf8ecefb73759bd9d09b4fcb8f71d5057879a10ee63bf05be82132f4fbb",
     "src/dl_outcomes/baseline.py": "59d57ddfd1ca505a5b5ae5ec19bb5a6d55dbe4c159e649306b7d6bf202c9ab57",
     "src/dl_outcomes/baseline_selection.py": "4632021b21bf95c3ba5128959e8ece01b2f7b7f158de0fce122361f5f1570437",
-    "src/dl_outcomes/build.py": "d12117d56b8f64eed4711045bdb0e78b806e2517ecc1ac9f6d3e3fecdda3be8a",
+    "src/dl_outcomes/build.py": "daa5f59e959051a0ba5976045fbcdec450e82d21311a5c155503b6188bc50849",
     "src/dl_outcomes/cli.py": "2ff6b94601b372125d0a85bfddbb72e9f8dbee51a709e6b6dea53a5fbec3ddd9",
     "src/dl_outcomes/collection_provenance.py": "ccf5181dbea3c1d9dd3a97ebccd98a0cdc89abf0bb30e223563f101e7918ae90",
     "src/dl_outcomes/collectors/__init__.py": "3f8241fd6e6926badd47554d10f4c9c0edca9d554687b85d5a8d90cdce442f4d",
@@ -5487,7 +5576,7 @@
     "src/dl_outcomes/collectors/washington.py": "18eeb14cfc7a45598c5fc8c54bdb381939f5f36e75ef3877ecffd7f07cde8718",
     "src/dl_outcomes/contracts.py": "a3e808156fba4e313aed56638cf9c8212fdf3a0a01a249ef26dae66058846674",
     "src/dl_outcomes/coverage.py": "8179c6c522f984d17f6078d58819915f2c0ca38c842f4ef9be4f245a2dd2c49d",
-    "src/dl_outcomes/delivery_review.py": "aeb7b33af5bcb49b1ac262fefe16afed7c68f26d6bfcc382e51a41b0118e9c2c",
+    "src/dl_outcomes/delivery_review.py": "53f6f5f1f180a703ee823e709f1747bed3e0d7141bc331f42e5ceb1f74f2db13",
     "src/dl_outcomes/edc.py": "428a8388f7db3cd8fd86d1e94e07ea66374917670b0c1095126f27f364661ec4",
     "src/dl_outcomes/elementary_audit.py": "ba3aa7679b15b42a5ba33113cde55d14e184f3a4b55e67e36114df7d1b664782",
     "src/dl_outcomes/evidence_scope.py": "2bafa862ebec9a700d4ced74b5b9ce88279fb8ec82a1241c7e90921822c31c4d",
@@ -5509,7 +5598,7 @@
     "src/dl_outcomes/release.py": "2c8428636fa5217b606024021a0f70e1a5c214b1c0df4bbf38c6ff04dbf33ece",
     "src/dl_outcomes/review_events.py": "b23e4164c97d97c67af47dbfe405abeb80dec0a2731bc33f205c224ed8733605",
     "src/dl_outcomes/review_leaderboard.py": "40bebf1526adcda6e097a74fec8fa0dcda5faff125a013c15c91c061382d1ca4",
-    "src/dl_outcomes/review_site.py": "891c960d7cf0005efd3bd34ff17ae225ed4c4b5497a7f94ad8c0a1f0a0fb4c35",
+    "src/dl_outcomes/review_site.py": "f1dba5566352f92f9c00300ea3718f4b0b7aa4f80e7acfbba0df244b55df579c",
     "src/dl_outcomes/schemas/catalog.json": "3baa2beb21335dda3d16939af9eb499aecd41a15a2c18f76afb865b9be3abf1b",
     "src/dl_outcomes/south_central_review.py": "ca6bfd090273a99623d392d9afa18a151ba64b23df8f39a477732c8c1cbf1fe1",
     "src/dl_outcomes/southeast_review.py": "3186589878744a7743db4488923663168108d77b250d37f2d47624912e48e965",
@@ -5583,12 +5672,12 @@
       "rows": 50
     },
     "data/curated/sources/datasets.csv": {
-      "sha256": "a98cb67fa345608b1e5d0f122779b8f86388230769bab9d06a71385cbbd8d9fd",
-      "rows": 71
+      "sha256": "9165d25a844e63b8a6ee903e99676383c83a0e783228b27fc5fcd3d6c66ebe10",
+      "rows": 72
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "c0d43fe6d94ffd953a70c0a7da9b77034368200b4a1ac11961d770e856c349a4",
-      "rows": 2199
+      "sha256": "198ed41c7ec1432293e1e320a528af60080dd088464b1a3f7ebe8f96e313b496",
+      "rows": 2226
     },
     "data/curated/registry/districts.csv": {
       "sha256": "7495001e66619babff4bc92b8428ed0c147db59dc118984128ad65c9ecd68fad",
@@ -5623,8 +5712,8 @@
       "rows": 9797
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "b6bb8845c1a891517ee5ba595287b84894dc354aeb1965cade8885e2707d1612",
-      "rows": 7494
+      "sha256": "8d9927c874b12bbd14ce3bb6d7100498fa885d61b4a2e4ac60dc12541fc620eb",
+      "rows": 7510
     },
     "data/curated/program_history/allocation_schedules.csv": {
       "sha256": "94123fde478542c1e4e1b66c33058b9f5603ec2c4394fca19e99a8e0bcee815e",
@@ -5635,8 +5724,8 @@
       "rows": 2104
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "eaa0eb72e44307093738d830b41885831319dc1e4d142e7a35903b8e9a3eb77d",
-      "rows": 29347
+      "sha256": "ef9eb75d0cce3acfd0b6f8820a65b4ab43d678b1ba35237c7fd08373e1a139a1",
+      "rows": 29395
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -5687,7 +5776,7 @@
       "rows": 0
     },
     "data/curated/coverage/state_year_layer_coverage.csv": {
-      "sha256": "cebf7c539f3a3cf57ac465d61b7b075c1af58915409a52a067d8f8f2578e0864",
+      "sha256": "0fa7bebca8debc8c7facd1f6439bf036d0799e433a644bfea3058afa6ea5ecc2",
       "rows": 13200
     }
   },
@@ -5747,6 +5836,7 @@
     "Nine-district pilot; existing identities only; no assessment/proficiency/EL-exit/SEDA collection. Source-year bounds and field review claims are not policy start dates or student exposure.",
     "Delivery-structure cleanup among existing elementary allocation-bearing programme sites; fixed live pre-pass cohort, append-only source evidence; no assessment, identity, language-allocation or population-model changes. New decisions are reviewed for 2025-26 only. Source years and undated standing descriptions retain their actual dates. No new fact is eligible for spring 2025 (2024-25) or earlier analyses.",
     "Targeted delivery review prompted by specialized school names. School names identify research leads, not automatic whole-school assignments. Corrects language-pathway versus campus participation classification; preserves school/program identities, separate language records, allocations, population models, assessments and original observations. New delivery adjudications apply to 2025-26 only. The source retains its original undated description and actual 2026 capture date. No historical allocation, operation or tested-cohort exposure is inferred.",
+    "Screen the existing 1,610-campus Texas inventory across 196 districts for public staff directories distinguishing monolingual/general-education/regular-program and bilingual/dual-language academic classroom assignments. Manually adjudicated role evidence appends provisional strand interpretations only. This is an inventory-wide discovery and accessible-material screening pass, not a claim to have read every directory entry. All access failures, uninformative pages and ambiguous leads remain explicit. AI research observations are separate from human Fieldnotes submissions and do not earn reviewer credits. No school/program identity, allocation, language, population model, operation, DL eligibility or assessment observation is changed. Reviewed delivery interpretations apply to 2025-26 only. Each source retains its actual capture timestamp and its original publication year or undated status. The user authorized explicitly marked 2025-26 structural inference from 2026-27 directories; the coded sources in this pass are undated, captured in November 2026. Copyright, adopted-budget and general navigation years are not treated as roster dates. These current staff descriptions are provisional retrospective structural evidence, not observed 2025-26 staffing or evidence of annual policy continuity. Earlier and later selected values and evidence remain unchanged. An empty earlier period can now be flagged later_only rather than not_reported; that is a missingness explanation, not a historical model assignment.",
     "Researcher hand-coded structural decisions are separately marked, cited and bounded to their reviewed school year; original observations and assessment data are retained.",
     "EDC native school/grade results are in data/assessments/edc_v3_1_2022_2025; original assessment pilot tables remain separate. Public EDC data cover grades 3–8 only, with source-defined subgroups, suppression and documented count substitutions."
   ],
@@ -5761,10 +5851,10 @@
   },
   "reports": {
     "data/reports/hand_coding/current/national_inventory_program_view.csv": {
-      "sha256": "44c3520a3fac3bcb396a50be1337f1d2ee5db89a96e77961c925a9d8175ccf18"
+      "sha256": "1dba99e1cb272da974fd50d33f6480b42c96cbbb8e17a046dd5bd1ca5aa491f9"
     },
     "data/reports/hand_coding/current/national_inventory_by_state.csv": {
-      "sha256": "1ffb8d61a12a54829ad2feb90b1e4d1101fa6824876f4a8d54ccf3be9e35953c"
+      "sha256": "7cde7d522e8d9e5b1d7c4a17af6ff0164c1bcf39d300a449ea2d1a79a979580a"
     },
     "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": {
       "sha256": "6d537d855c8b482dd905eb3fc8527a4703ee1e7ae26be6a6bd5555ff0646a295"
@@ -6409,16 +6499,16 @@
       "sha256": "00d1db853f1f0fad2ca62fc8b2228f239addaab2eeccd61ea2259552b23505f9"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_allocated_programmes.csv": {
-      "sha256": "33a856c4a044a67fa916be99caf446112aec45ba9423fe637d3c9dd264ff1268"
+      "sha256": "b1201152be65178fcb9082dfad5b06d561324349839bbfd29519988f81b32f52"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_schools.csv": {
-      "sha256": "e8f4115f8e4a15690134b8104b8380bef6947c0f3faf363b6768de2f82b3d557"
+      "sha256": "420c5113959a42c7f065db0d58aa9582deea87622bec3010b1063ccd10f3b89d"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_by_state.csv": {
       "sha256": "4de190e2457ea52cc13741547b91e2990b7b0dca29aa288164e28a7262cf7658"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_remaining_queue.csv": {
-      "sha256": "680bd5563b9d157a4b22a63c2abb44f251af47616f00e90b35c872ecbdd3191b"
+      "sha256": "7a5390f7e5000fcfb53779d6ceaa38fd745f4b28931b692c7c390bb3711ff64c"
     },
     "data/reports/delivery_scope_cleanup_2026_11_06_review_cases.csv": {
       "sha256": "2305c95313ed86e4da13b8ba0bd7a32ff9a4d581ce27e0d8eab2784441b1e523"
@@ -6433,13 +6523,13 @@
       "sha256": "4847c9f94ee34051cb0598b90d075df5ab50592ada8907a07b736b21291904ea"
     },
     "data/reports/hand_coding/current/programs.csv": {
-      "sha256": "cebf030439498a243e451d9e4a360de8034036649f4c4eff8b21b1327a65addc"
+      "sha256": "6a623fffb2be931d73bf8534edceee0f6a69e421a95872d5885ebe94b4f009f5"
     },
     "data/reports/hand_coding/current/README.md": {
       "sha256": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "ce4cda5548ad0e876d12da89ea20bc24ded0601eec5d95430dff9e39cf01509b"
+      "sha256": "dca8c48eef6eee234dd4885f1394a812953e990d0ce46b10622edc1c7e106c06"
     }
   }
 }

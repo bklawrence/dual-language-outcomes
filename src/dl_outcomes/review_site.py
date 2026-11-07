@@ -42,6 +42,15 @@ def export(root, destination):
                                submitted_at=batch['submission']['submitted_at'],issue_url=batch['submission']['issue_url']))
     manual_by_school=defaultdict(list)
     for r in manual:manual_by_school[r['school_id']].append(r)
+    # These are individually checked campus links, including unresolved role
+    # interpretations. Broad crawler name matches are never exported as vetted
+    # evidence, and research leads do not become human review submissions.
+    staff_leads=defaultdict(list)
+    staff_lead_path=root/'data/registry/tx_staff_delivery_review_2026_11_07/vetted_staff_leads.json'
+    if staff_lead_path.exists():
+        for lead in json.loads(staff_lead_path.read_text()):
+            if lead.get('manually_checked_campus_identity'):
+                staff_leads[lead['school_id']].append(lead)
     cases=[]
     for sid,rows in sorted(grouped.items()):
         first=rows[0];sites=[];references={}
@@ -81,6 +90,11 @@ def export(root, destination):
                               hand_coded_variables=[v for v in known if (site['site_id'],reference,v) in selection.overrides and selection.overrides[(site['site_id'],reference,v)].get('hand_coded')]))
         for r in manual_by_school[sid]:
             add_reference(r.get('evidence_url'),r.get('source_locator',''),r.get('source_quote',''))
+        for lead in staff_leads[sid]:
+            add_reference(lead['url'],lead['locator'],lead['excerpt'])
+            if lead['url'] in references:
+                references[lead['url']]['label']='Staff directory'
+                references[lead['url']]['score']+=3
         missing=[]
         for variable in ['delivery_structure','population_model','elementary_allocation_model','instruction_languages']:
             if any(not s['known'][variable]['value'] or (variable!='elementary_allocation_model' and s['known'][variable]['status']!='documented') for s in sites):missing.append(variable)

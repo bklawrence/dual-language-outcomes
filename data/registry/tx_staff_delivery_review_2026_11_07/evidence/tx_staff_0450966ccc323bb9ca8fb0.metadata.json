@@ -1,0 +1,813 @@
+{
+  "key": "0450966ccc323bb9ca8fb0",
+  "url": "https://manueljara.fwisd.org/faculty/2nd-grade",
+  "retrieved_at": "2026-11-07T21:30:02.152122+00:00",
+  "http_status": 200,
+  "final_url": "https://manueljara.fwisd.org/faculty/2nd-grade",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 69913,
+  "sha256": "dedf3dd3f9da02e34144e63106c3e9700daee2f04c773a9ca4b3063f38a5420c",
+  "body_sha256": "669cdf0111c84355dc02b0757edb72fb33a0f83675ad97605b746d41a3c07c2b",
+  "body_file": "tx_staff_0450966ccc323bb9ca8fb0.body.gz",
+  "status": "retrieved",
+  "archive_kind": "gzip_complete_decoded_HTTP_response_body",
+  "title": "2nd Grade",
+  "headings": [
+    "2nd Grade",
+    "SEARCH",
+    "POPULAR LINKS",
+    "Find it Fast",
+    "SEARCH",
+    "POPULAR LINKS",
+    "Our Schools",
+    "In This Section",
+    "Ms. Booth",
+    "Ms. Jones",
+    "Ms. Rivas",
+    "Ms. Rodriguez",
+    "CONTACT US",
+    "EXPLORE"
+  ],
+  "links": [
+    {
+      "url": "https://manueljara.fwisd.org/faculty/2nd-grade",
+      "text": "Skip To Main Content"
+    },
+    {
+      "url": "https://www.fwisd.org/families/register",
+      "text": "Student Registration"
+    },
+    {
+      "url": "https://launchpad.classlink.com/fortworth",
+      "text": "My FWISD Classlink (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/about/about-fort-worth-isd/video-on-demand",
+      "text": "Video On Demand"
+    },
+    {
+      "url": "https://www.fwisd.org/departments/cns",
+      "text": "Lunch Menus (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.infofinderi.com/ifi/?cid=FWI18M6GE5V4",
+      "text": "Bus Information (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "Photo Galleries"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/popular-page-link",
+      "text": "Popular Page Link"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/popular-page-link2",
+      "text": "Popular Page Link2"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/popular-page-link3",
+      "text": "Popular Page Link"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/popular-page-link4",
+      "text": "Popular Page Link4"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/popular-page-link5",
+      "text": "Popular Page Link5"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/fs/pages/2",
+      "text": "District Home"
+    },
+    {
+      "url": "https://www.fwisd.org/elementary-schools",
+      "text": "Elementary Schools"
+    },
+    {
+      "url": "https://harleanbeal.fwisd.org/",
+      "text": "Beal, Harlean"
+    },
+    {
+      "url": "https://benbrookelementary.fwisd.org/",
+      "text": "Benbrook"
+    },
+    {
+      "url": "https://bonniebrae.fwisd.org/",
+      "text": "Bonnie Brae"
+    },
+    {
+      "url": "https://burtonhill.fwisd.org/",
+      "text": "Burton Hill"
+    },
+    {
+      "url": "https://alicecarlson.fwisd.org/",
+      "text": "Carlson, Alice"
+    },
+    {
+      "url": "https://carterpark.fwisd.org/",
+      "text": "Carter Park"
+    },
+    {
+      "url": "https://georgecclarke.fwisd.org/",
+      "text": "Clarke, George C."
+    },
+    {
+      "url": "https://lilybclayton.fwisd.org/",
+      "text": "Clayton, Lily B."
+    },
+    {
+      "url": "https://comoelementary.fwisd.org/",
+      "text": "Como"
+    },
+    {
+      "url": "https://alicecontreras.fwisd.org/",
+      "text": "Contreras, Alice"
+    },
+    {
+      "url": "https://daggettmontessori.fwisd.org/",
+      "text": "Daggett Montessori"
+    },
+    {
+      "url": "https://daggettelementary.fwisd.org/",
+      "text": "Daggett"
+    },
+    {
+      "url": "https://clifforddavis.fwisd.org/",
+      "text": "Davis, Clifford"
+    },
+    {
+      "url": "https://diamondhill.fwisd.org/",
+      "text": "Diamond Hill"
+    },
+    {
+      "url": "https://easthandley.fwisd.org/",
+      "text": "East Handley"
+    },
+    {
+      "url": "https://easternhillselementary.fwisd.org/",
+      "text": "Eastern Hills-West Handley"
+    },
+    {
+      "url": "https://billjelliott.fwisd.org/",
+      "text": "Elliot, Bill J."
+    },
+    {
+      "url": "https://esperanza.fwisd.org/",
+      "text": "Esperanza"
+    },
+    {
+      "url": "https://glenpark.fwisd.org/",
+      "text": "Glen Park"
+    },
+    {
+      "url": "https://wmgreen.fwisd.org/",
+      "text": "Green, W.M."
+    },
+    {
+      "url": "https://greenbriar.fwisd.org/",
+      "text": "Greenbriar"
+    },
+    {
+      "url": "https://hvhelbing.fwisd.org/",
+      "text": "Helbing, H.V."
+    },
+    {
+      "url": "https://nathahowell.fwisd.org/",
+      "text": "Howell, Natha"
+    },
+    {
+      "url": "https://hubbardheights.fwisd.org/",
+      "text": "Hubbard Heights"
+    },
+    {
+      "url": "https://doloreshuerta.fwisd.org/",
+      "text": "Huerta, Dolores"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "Jara, Manuel"
+    },
+    {
+      "url": "https://maudelogan.fwisd.org/",
+      "text": "Logan, Maude"
+    },
+    {
+      "url": "https://loweryroad.fwisd.org/",
+      "text": "Lowery Road"
+    },
+    {
+      "url": "https://atwoodmcdonald.fwisd.org/",
+      "text": "McDonald, Atwood"
+    },
+    {
+      "url": "https://dmcrae.fwisd.org/",
+      "text": "McRae, D."
+    },
+    {
+      "url": "https://meadowbrookelementary.fwisd.org/",
+      "text": "Meadowbrook"
+    },
+    {
+      "url": "https://rufinomendoza.fwisd.org/",
+      "text": "Mendoza, Rufino"
+    },
+    {
+      "url": "https://luellamerrett.fwisd.org/",
+      "text": "Merrett, Luella"
+    },
+    {
+      "url": "https://mitchellblvd.fwisd.org/",
+      "text": "Mitchell Boulevard"
+    },
+    {
+      "url": "https://mhmoore.fwisd.org/",
+      "text": "Moore, M.H."
+    },
+    {
+      "url": "https://morningsideelementary.fwisd.org/",
+      "text": "Morningside"
+    },
+    {
+      "url": "https://christenecmoss.fwisd.org/",
+      "text": "Moss, Christene C."
+    },
+    {
+      "url": "https://northhimount.fwisd.org/",
+      "text": "North Hi Mount"
+    },
+    {
+      "url": "https://oakhurst.fwisd.org/",
+      "text": "Oakhurst"
+    },
+    {
+      "url": "https://oaklawn.fwisd.org/",
+      "text": "Oaklawn"
+    },
+    {
+      "url": "https://overtonpark.fwisd.org/",
+      "text": "Overton Park"
+    },
+    {
+      "url": "https://ampate.fwisd.org/",
+      "text": "Pate, A.M."
+    },
+    {
+      "url": "https://hazelharveypeace.fwisd.org/",
+      "text": "Peace, Hazel Harvey"
+    },
+    {
+      "url": "https://carrollpeak.fwisd.org/",
+      "text": "Peak Carroll"
+    },
+    {
+      "url": "https://mlphilips.fwisd.org/",
+      "text": "Phillips, Mary Louise"
+    },
+    {
+      "url": "https://ridgleahills.fwisd.org/",
+      "text": "Ridglea Hills"
+    },
+    {
+      "url": "https://rollinghills.fwisd.org/",
+      "text": "Rolling Hills"
+    },
+    {
+      "url": "https://samrosen.fwisd.org/",
+      "text": "Rosen, Sam"
+    },
+    {
+      "url": "https://sagamorehill.fwisd.org/",
+      "text": "Sagamore Hill"
+    },
+    {
+      "url": "https://davidksellars.fwisd.org/",
+      "text": "Sellars, David K."
+    },
+    {
+      "url": "https://seminaryhills.fwisd.org/",
+      "text": "Seminary Hills Park"
+    },
+    {
+      "url": "https://bruceshulkey.fwisd.org/",
+      "text": "Shulkey, Bruce"
+    },
+    {
+      "url": "https://tasims.fwisd.org/",
+      "text": "Sims, T.A."
+    },
+    {
+      "url": "https://southhimount.fwisd.org/",
+      "text": "South Hi Mount"
+    },
+    {
+      "url": "https://southhillselementary.fwisd.org/",
+      "text": "South Hills"
+    },
+    {
+      "url": "https://springdale.fwisd.org/",
+      "text": "Springdale"
+    },
+    {
+      "url": "https://jtstevens.fwisd.org/",
+      "text": "Stevens, J.T."
+    },
+    {
+      "url": "https://sunrisemcmillan.fwisd.org/",
+      "text": "Sunrise-McMillan"
+    },
+    {
+      "url": "https://tanglewood.fwisd.org/",
+      "text": "Tanglewood"
+    },
+    {
+      "url": "https://wjturner.fwisd.org/",
+      "text": "Turner, W.J."
+    },
+    {
+      "url": "https://vanzandtguinn.fwisd.org/",
+      "text": "Van Zandt-Guinn"
+    },
+    {
+      "url": "https://maudriewalton.fwisd.org/",
+      "text": "Walton, Maudrie M."
+    },
+    {
+      "url": "https://washingtonheights.fwisd.org/",
+      "text": "Washington Heights"
+    },
+    {
+      "url": "https://waverlypark.fwisd.org/",
+      "text": "Waverly Park"
+    },
+    {
+      "url": "https://westcliff.fwisd.org/",
+      "text": "Westcliff"
+    },
+    {
+      "url": "https://westcreek.fwisd.org/",
+      "text": "Westcreek"
+    },
+    {
+      "url": "https://westernhillselementary.fwisd.org/",
+      "text": "Western Hills"
+    },
+    {
+      "url": "https://westpark.fwisd.org/",
+      "text": "Westpark"
+    },
+    {
+      "url": "https://johntwhite.fwisd.org/",
+      "text": "White, John T."
+    },
+    {
+      "url": "https://versiawilliams.fwisd.org/",
+      "text": "Williams, Versia"
+    },
+    {
+      "url": "https://richardjwilson.fwisd.org/",
+      "text": "Wilson, Richard J."
+    },
+    {
+      "url": "https://woodway.fwisd.org/",
+      "text": "Woodway"
+    },
+    {
+      "url": "https://worthheights.fwisd.org/",
+      "text": "Worth Heights"
+    },
+    {
+      "url": "https://www.fwisd.org/middle-schools",
+      "text": "Middle Schools"
+    },
+    {
+      "url": "https://ala.fwisd.org/",
+      "text": "Applied Learning Academy (opens in new window/tab)"
+    },
+    {
+      "url": "https://benbrook.fwisd.org/",
+      "text": "Benbrook Middle-High (opens in new window/tab)"
+    },
+    {
+      "url": "https://daggettmiddle.fwisd.org/",
+      "text": "Daggett (opens in new window/tab)"
+    },
+    {
+      "url": "https://daggettmontessori.fwisd.org/",
+      "text": "Daggett Montessori (opens in new window/tab)"
+    },
+    {
+      "url": "https://jpelder.fwisd.org/",
+      "text": "Elder, J.P. (opens in new window/tab)"
+    },
+    {
+      "url": "https://forestoakmiddle.fwisd.org/",
+      "text": "Forest Oak (opens in new window/tab)"
+    },
+    {
+      "url": "https://jacquet.fwisd.org/",
+      "text": "Jacquet (opens in new window/tab)"
+    },
+    {
+      "url": "https://williamjames.fwisd.org/",
+      "text": "James, William (opens in new window/tab)"
+    },
+    {
+      "url": "https://kirkpatrickmiddle.fwisd.org/",
+      "text": "Kirkpatrick (opens in new window/tab)"
+    },
+    {
+      "url": "https://leonard.fwisd.org/",
+      "text": "Leonard (opens in new window/tab)"
+    },
+    {
+      "url": "https://mcclung.fwisd.org/",
+      "text": "McClung, Jean (opens in new window/tab)"
+    },
+    {
+      "url": "https://mcleanmiddle.fwisd.org/",
+      "text": "McLean (opens in new window/tab)"
+    },
+    {
+      "url": "https://mclean6.fwisd.org/",
+      "text": "McLean 6th Grade (opens in new window/tab)"
+    },
+    {
+      "url": "https://meacham.fwisd.org/",
+      "text": "Meacham (opens in new window/tab)"
+    },
+    {
+      "url": "https://meadowbrookmiddle.fwisd.org/",
+      "text": "Meadowbrook (opens in new window/tab)"
+    },
+    {
+      "url": "https://monnig.fwisd.org/",
+      "text": "Monnig (opens in new window/tab)"
+    },
+    {
+      "url": "https://morningsidemiddle.fwisd.org/",
+      "text": "Morningside (opens in new window/tab)"
+    },
+    {
+      "url": "https://riverside.fwisd.org/",
+      "text": "Riverside (opens in new window/tab)"
+    },
+    {
+      "url": "https://rosemontmiddle.fwisd.org/",
+      "text": "Rosemont (opens in new window/tab)"
+    },
+    {
+      "url": "https://stripling.fwisd.org/",
+      "text": "Stripling (opens in new window/tab)"
+    },
+    {
+      "url": "https://wedgwoodmiddle.fwisd.org/",
+      "text": "Wedgwood (opens in new window/tab)"
+    },
+    {
+      "url": "https://wli.fwisd.org/",
+      "text": "World Languages Institute (opens in new window/tab)"
+    },
+    {
+      "url": "https://ymla.fwisd.org/",
+      "text": "Young Men's Leadership Academy (opens in new window/tab)"
+    },
+    {
+      "url": "https://ywla.fwisd.org/",
+      "text": "Young Women's Leadership Academy (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/high-schools",
+      "text": "High Schools"
+    },
+    {
+      "url": "https://carterriverside.fwisd.org/",
+      "text": "Amon Carter-Riverside"
+    },
+    {
+      "url": "https://arlingtonheights.fwisd.org/",
+      "text": "Arlington Heights"
+    },
+    {
+      "url": "https://benbrook.fwisd.org/",
+      "text": "Benbrook Middle-High"
+    },
+    {
+      "url": "https://diamondhilljarvis.fwisd.org/",
+      "text": "Diamond Hill-Jarvis (opens in new window/tab)"
+    },
+    {
+      "url": "https://dunbar.fwisd.org/",
+      "text": "Dunbar (opens in new window/tab)"
+    },
+    {
+      "url": "https://easternhills.fwisd.org/",
+      "text": "Eastern Hills (opens in new window/tab)"
+    },
+    {
+      "url": "https://marinecreek.fwisd.org/",
+      "text": "Marine Creek Collegiate (opens in new window/tab)"
+    },
+    {
+      "url": "https://northside.fwisd.org/",
+      "text": "North Side (opens in new window/tab)"
+    },
+    {
+      "url": "https://paschal.fwisd.org/",
+      "text": "Paschal (opens in new window/tab)"
+    },
+    {
+      "url": "https://polytechnic.fwisd.org/",
+      "text": "Polytechnic (opens in new window/tab)"
+    },
+    {
+      "url": "https://southhills.fwisd.org/",
+      "text": "South Hills (opens in new window/tab)"
+    },
+    {
+      "url": "https://southwest.fwisd.org/",
+      "text": "Southwest (opens in new window/tab)"
+    },
+    {
+      "url": "https://tabs.fwisd.org/",
+      "text": "Texas Academy of Biomedical Sciences (opens in new window/tab)"
+    },
+    {
+      "url": "https://imterrell.fwisd.org/",
+      "text": "I.M. Terrell Academy (opens in new window/tab)"
+    },
+    {
+      "url": "https://tccsouth.fwisd.org/",
+      "text": "TCC South/FWISD Collegiate (opens in new window/tab)"
+    },
+    {
+      "url": "https://trimbletech.fwisd.org/",
+      "text": "Trimble Tech (opens in new window/tab)"
+    },
+    {
+      "url": "https://westernhills.fwisd.org/",
+      "text": "Western Hills (opens in new window/tab)"
+    },
+    {
+      "url": "https://odwyatt.fwisd.org/",
+      "text": "Wyatt, O.D. (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/other-schools",
+      "text": "Other Schools"
+    },
+    {
+      "url": "https://boulevardheights.fwisd.org/",
+      "text": "Boulevard Heights (opens in new window/tab)"
+    },
+    {
+      "url": "https://jokelly.fwisd.org/",
+      "text": "Jo Kelly School (opens in new window/tab)"
+    },
+    {
+      "url": "https://metro.fwisd.org/",
+      "text": "Metro Opportunity High School (opens in new window/tab)"
+    },
+    {
+      "url": "https://success.fwisd.org/",
+      "text": "Como Success Academy (opens in new window/tab)"
+    },
+    {
+      "url": "https://transitioncenter.fwisd.org/",
+      "text": "Transition Center (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/about-our-school",
+      "text": "About Our School"
+    },
+    {
+      "url": "https://www.fwisd.org/families/register",
+      "text": "Register (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/about/accountability",
+      "text": "Accountability & Reports (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "Uniforms (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/families/tools-for-success",
+      "text": "Supply List (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/about-our-school/drop-off-pick-up",
+      "text": "Arrival / Dismissal Procedures"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/about-our-school/submitting-an-absence-note",
+      "text": "Submitting an Absence Note"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty",
+      "text": "Faculty"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/meet-our-leadership-team",
+      "text": "Meet our Leadership Team"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/pre-kindergarten",
+      "text": "Pre-Kindergarten"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/kindergarten",
+      "text": "Kindergarten"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/1st-grade",
+      "text": "1st Grade"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/2nd-grade",
+      "text": "2nd Grade"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/3rd-grade",
+      "text": "3rd Grade"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/4th-grade",
+      "text": "4th Grade"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/5th-grade",
+      "text": "5th Grade"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/special-education",
+      "text": "Special Education"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/amps",
+      "text": "AMPs"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/support-staff",
+      "text": "Support Staff"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/custodial-staff",
+      "text": "Custodial Staff"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/faculty/cafeteria-staff",
+      "text": "Cafeteria Staff"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/nursecampus-health",
+      "text": "Nurse"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/clubsprograms",
+      "text": "Clubs/Programs"
+    },
+    {
+      "url": "https://academy4.org/manuel-jara-elementary",
+      "text": "Academy 4 (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.academy4.org/manuel-jara-elementary-fort-worth-tx.html",
+      "text": "Academy 4 (opens in new window/tab)"
+    },
+    {
+      "url": "https://allprodadchapters.com/chapters/13068",
+      "text": "All Pro Dad (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/clubsprograms/rca-house-system",
+      "text": "RCA House System"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/clubsprograms/running-club",
+      "text": "Running Club"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/families",
+      "text": "Families"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/families/join-our-pto",
+      "text": "Join Our PTO"
+    },
+    {
+      "url": "https://www.fwisd.org/families/parent-portal",
+      "text": "Parent Portal (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.fwisd.org/community/volunteers",
+      "text": "We Need You- Volunteers (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/nursecampus-health",
+      "text": "Nurse/Campus Health"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/counseling",
+      "text": "Counselor"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/calendar",
+      "text": "Calendar"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "Manuel Jara Elementary School"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/fs/pages/50534",
+      "text": "Enroll Now"
+    },
+    {
+      "url": "https://www.fwisd.org/calendars",
+      "text": "Academic Calendars"
+    },
+    {
+      "url": "https://www.fwisd.org/calendars/employees",
+      "text": "Employee Calendars"
+    },
+    {
+      "url": "https://www.fwisd.org/calendars/district",
+      "text": "District and Community Events"
+    },
+    {
+      "url": "https://www.fwisd.org/calendars/visual-and-performing-arts-calendar",
+      "text": "Visual and Performing Arts Calendar"
+    },
+    {
+      "url": "https://www.fwisdathletics.com/",
+      "text": "Athletics Calendar (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "Home"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/",
+      "text": "A stylized jaguar's head with yellow fur and black spots is centered within a blue, wavy border adorned with diamond patterns."
+    },
+    {
+      "url": "https://www.fwisd.org/fs/admin",
+      "text": "Admin Login Admin Login"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/fs/pages/8",
+      "text": "Employee Login"
+    },
+    {
+      "url": "https://twitter.com/ManuelJaraFWISD",
+      "text": "Twitter (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.facebook.com/ManuelJaraFWISD/",
+      "text": "Facebook (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.instagram.com/manueljarafwisd/",
+      "text": "Instagram (opens in new window/tab)"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/site-map",
+      "text": "Site Map"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/accessibility-statement",
+      "text": "Accessibility"
+    },
+    {
+      "url": "https://manueljara.fwisd.org/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "url": "https://www.fwisd.org/fs/resource-manager/view/bb4beb93-57f8-4d0e-b299-2be12b4613c1",
+      "text": "2026-2027 Adopted Budget"
+    },
+    {
+      "url": "https://www.fwisd.org/about/title-ix-compliance",
+      "text": "Non-Discrimination Policy"
+    },
+    {
+      "url": "https://www.fwisd.org/about/title-ix-compliance",
+      "text": "Sexual Harassment Reporting Policy"
+    },
+    {
+      "url": "https://www.finalsite.com/districts",
+      "text": "Powered by Finalsite opens in a new window Powered by Finalsite"
+    }
+  ],
+  "monolingual_contexts": [],
+  "bilingual_contexts": [
+    "s and achieve new goals for a successful year! Email: melissa.rivas@fwisd.org Phone: (817) 814-4500 Ms. Rivas 2nd Grade Dual Language Teacher Hello. My name is Ms. Rivas and this is my first year teaching. i have been a teacher assistant for two years and a substitute for half a year. I graduated with my bachelo",
+    "years and a substitute for half a year. I graduated with my bachelors degree from Texas Wesleyan University in 2024 in Bilingual Education. This is going to be a great year! Email: esmeralda.rodriguez@fwisd.org Phone: (817) 814-4500 Ms. Rodriguez 2nd Grade Dual Language Teacher Hi! My name is Esmeralda Rodr",
+    "n. This is going to be a great year! Email: esmeralda.rodriguez@fwisd.org Phone: (817) 814-4500 Ms. Rodriguez 2nd Grade Dual Language Teacher Hi! My name is Esmeralda Rodriguez. I’m very excited to be your 2nd Grade teacher for this upcoming school year. I have been teaching at Manuel Jara Elementary since Augus"
+  ],
+  "has_both_language_labels": false,
+  "research_use": "reviewed_staff_role_evidence"
+}

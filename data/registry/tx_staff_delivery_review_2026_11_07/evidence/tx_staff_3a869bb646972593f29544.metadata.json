@@ -1,0 +1,648 @@
+{
+  "key": "3a869bb646972593f29544",
+  "url": "https://dhe.clintweb.net/staff-directory",
+  "retrieved_at": "2026-11-07T21:28:26.442751+00:00",
+  "http_status": 200,
+  "final_url": "https://dhe.clintweb.net/staff-directory",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 69985,
+  "sha256": "22381934b4d04a52a161b906e9ce46d9d0c9a55b0e8a00f16e82a2a04bc24cb5",
+  "body_sha256": "4f3d02efe9ee19af691075fd8744095cfbe22fad2b6db1bffc640352e40a23ca",
+  "body_file": "tx_staff_3a869bb646972593f29544.body.gz",
+  "status": "retrieved",
+  "archive_kind": "gzip_complete_decoded_HTTP_response_body",
+  "title": "Staff Directory",
+  "headings": [
+    "Staff Directory",
+    "Logo Title",
+    "In This Section",
+    "Staff Directory",
+    "Faculty & Staff",
+    "Nancy Alba",
+    "Martha Alvarado Hernandez",
+    "Brenda Alvarez",
+    "Sarah Alvidrez",
+    "Nicole Amezaga",
+    "Yvonne Angel",
+    "Norma Anguiano",
+    "Bianca Avalos",
+    "Griselda Avila",
+    "Claudia Barrera Martinez",
+    "Get In Touch",
+    "Links & Resources",
+    "Connect With Us"
+  ],
+  "links": [
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Skip To Main Content"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school",
+      "text": "Our School"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/about-us",
+      "text": "About Us"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/administration",
+      "text": "Administration"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/school-schedules",
+      "text": "School Schedules"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/pbis-expectations",
+      "text": "PBIS Expectations"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/student-code-of-conduct",
+      "text": "Student Code of Conduct"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/cip-campus-improvement-plan",
+      "text": "CIP Campus Improvement Plan"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school/title-1-presentation",
+      "text": "Title 1 Presentation"
+    },
+    {
+      "url": "https://www.clintweb.net/departments/accountability-and-testing/report-cards-state-federal",
+      "text": "Federal and School Report Card Information and Reports"
+    },
+    {
+      "url": "https://www.clintweb.net/departments/secondary-curriculum-and-instruction/student-handbook-manual-estudiantil",
+      "text": "Student Handbook"
+    },
+    {
+      "url": "https://dhe.clintweb.net/",
+      "text": "Mission and Vision Statement"
+    },
+    {
+      "url": "https://dhe.clintweb.net/calendar",
+      "text": "DHE Calendar"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents",
+      "text": "Parents"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/dads-of-great-students",
+      "text": "Dads of Great Students"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/attendance-documentation-email",
+      "text": "Attendance Documentation Email"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/davids-law",
+      "text": "David's Law"
+    },
+    {
+      "url": "https://dhe.clintweb.net/",
+      "text": "Device Agreement Form"
+    },
+    {
+      "url": "https://www.clintweb.net/school-wellness/hotspot-information",
+      "text": "Hotspots"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/how-to-use-all-things-google",
+      "text": "How To Use All Things Google"
+    },
+    {
+      "url": "https://players.brightcove.net/3887645559001/hybxkxr8w_default/index.html?videoid=5978804382001",
+      "text": "How To Use HMH (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.clintweb.net/departments/federal-programs/mckinney-vento-homeless-assistance-act",
+      "text": "Information For Highly Mobile Families"
+    },
+    {
+      "url": "https://clint.nutrislice.com/menu/desert-hills-elementary",
+      "text": "Lunch Menus (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/military-strong",
+      "text": "Military Strong"
+    },
+    {
+      "url": "https://www.clintweb.net/departments/nurses",
+      "text": "Nurse's Information (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/parent-and-family-engagement",
+      "text": "Parent and Family Engagement"
+    },
+    {
+      "url": "https://smartsocial.com/app-guide-parents-teachers/",
+      "text": "Parent App Guide: Keeping Students Safe Online (opens in new window/tab)"
+    },
+    {
+      "url": "https://skyweb.clint.net/scripts/wsisa.dll/wservice=wssky/seplog01.w",
+      "text": "Parent Portal (Skyward) (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.applitrack.com/clintweb/onlineapp/default.aspx?category=volunteers",
+      "text": "Parent Volunteer Application (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/pbissel",
+      "text": "PBIS/SEL"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/registration",
+      "text": "Registration"
+    },
+    {
+      "url": "https://www.clintweb.net/registration/online-registration",
+      "text": "Online Registration - DHE"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/registration/registration-support-contacts",
+      "text": "Registration Support Contacts"
+    },
+    {
+      "url": "https://www.clintweb.net/students/tec-37105-unauthorized-persons-refusal-of-entry-ejection-identification/texas-education-code-sec-37105",
+      "text": "TEC 37.105 Unauthorized Persons: Refusal of Entry, Ejection, Identification"
+    },
+    {
+      "url": "https://dhe.clintweb.net/parents/campus-improvement-plan",
+      "text": "Campus Improvement Plan"
+    },
+    {
+      "url": "https://dhe.clintweb.net/students",
+      "text": "Students"
+    },
+    {
+      "url": "https://www.abcya.com/",
+      "text": "ABCya.com (opens in new window/tab)"
+    },
+    {
+      "url": "https://global-zone51.renaissance-go.com/welcomeportal/243498",
+      "text": "Accelerated Reader (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.amiratutor.com/",
+      "text": "Amira (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.arbookfind.com/default.aspx?client=homeconnect",
+      "text": "AR bookfinder (opens in new window/tab)"
+    },
+    {
+      "url": "https://bookflix.scholastic.com/",
+      "text": "Bookflix (opens in new window/tab)"
+    },
+    {
+      "url": "https://clever.com/oauth/authorize?response_type=code&state=b02c5875b737883a3c131153fd6fe0a43d29ed7db572da6a34d9a02cb93d72f3&redirect_uri=https%253a%252f%252fclever.com%252fin%252fauth_callback&client_id=4c63c1cf623dce82caac&confirmed=true&channel=clever&district_id=5ad78aadaa7e8a00010ce3a3",
+      "text": "Clever (opens in new window/tab)"
+    },
+    {
+      "url": "https://search.follettsoftware.com/metasearch/ui/57846/",
+      "text": "Destiny Discovery (opens in new window/tab)"
+    },
+    {
+      "url": "https://tinyurl.com/yd483t7b",
+      "text": "Digital Citizenship (opens in new window/tab)"
+    },
+    {
+      "url": "https://lms.edusmart.com/edusmart/logon.aspx",
+      "text": "Edusmart (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.emailsanta.com/",
+      "text": "Email Santa (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.google.com/",
+      "text": "Google (opens in new window/tab)"
+    },
+    {
+      "url": "https://classroom.google.com/",
+      "text": "Google Classroom (opens in new window/tab)"
+    },
+    {
+      "url": "https://api.imaginelearning.com/signin?returnurl=/connect/authorize/callback?client_id=directloginclient&redirect_uri=https%253a%252f%252fapi.imaginelearning.com%252fproductselection&response_type=id_token%2520token&scope=api.transfer%2520api.assessment%2520api.manager%2520api.permissions%2520openid&state=18ad6c006e9f4913ab37f7bac68587d0&nonce=37ecd83dd3864ed099b41946c413d2ec",
+      "text": "Imagine Learning Login (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.clintweb.net/departments/federal-programs/mckinney-vento-homeless-assistance-act",
+      "text": "Information for Highly Mobile Families"
+    },
+    {
+      "url": "https://h100005165.education.scholastic.com/",
+      "text": "iRead (opens in new window/tab)"
+    },
+    {
+      "url": "https://isip.istation.com/",
+      "text": "ISIP iStation Oral Fluency (opens in new window/tab)"
+    },
+    {
+      "url": "https://kahoot.it/",
+      "text": "kahoot (opens in new window/tab)"
+    },
+    {
+      "url": "https://sso.rumba.pearsoncmg.com/sso/login?profile=realize&k12int=true&service=https%253a%252f%252fwww.pearsonrealize.com%252fcommunity%252fj_spring_cas_security_check",
+      "text": "Math online textbooks (opens in new window/tab)"
+    },
+    {
+      "url": "https://nearpod.com/student/",
+      "text": "Nearpod (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.netsmartzkids.org/",
+      "text": "Netsmartz (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.schoolobjects.com/aware/onlinetesting/login.aspx?returnurl=/aware/onlinetesting?org=cli-1f018053-4ee&org=cli-1f018053-4ee",
+      "text": "Online Testing (opens in new window/tab)"
+    },
+    {
+      "url": "https://padlet.com/auth/signup?referrer=https%253a%252f%252fpadlet.com%252fdashboard",
+      "text": "padlet (opens in new window/tab)"
+    },
+    {
+      "url": "https://quizizz.com/login",
+      "text": "Quizziz (opens in new window/tab)"
+    },
+    {
+      "url": "https://b.socrative.com/login/student/",
+      "text": "Socrative (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.starfall.com/",
+      "text": "Starfall (opens in new window/tab)"
+    },
+    {
+      "url": "https://n11093d41302.acceleratelearning.com/login",
+      "text": "Stemscopes (opens in new window/tab)"
+    },
+    {
+      "url": "https://h100005165.education.scholastic.com/",
+      "text": "System 44 (opens in new window/tab)"
+    },
+    {
+      "url": "https://digital.scholastic.com/site/launch/tfx?ucn=600120693",
+      "text": "Trueflix (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/faculty-staff",
+      "text": "Faculty & Staff"
+    },
+    {
+      "url": "https://login.frontlineeducation.com/login?signin=86189f55b251b24ad4462f264ceee80c&productid=absmgmt&clientid=absmgmt%23/login",
+      "text": "AESOP (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/faculty-staff/aesop/section-document",
+      "text": "Section Document"
+    },
+    {
+      "url": "https://dhe.clintweb.net/faculty-staff/aesop/documents",
+      "text": "Documents"
+    },
+    {
+      "url": "https://digital.scholastic.com/site/launch/bkflix?ucn=600120693",
+      "text": "Bookflix (opens in new window/tab)"
+    },
+    {
+      "url": "https://clever.com/oauth/authorize?response_type=code&state=fa6b8d508b1562cf1eb987a38d249cff606926b22ba4ab3bf226744c1332e59a&redirect_uri=https%253a%252f%252fclever.com%252fin%252fauth_callback&client_id=4c63c1cf623dce82caac&confirmed=true&channel=clever&district_id=5ad78aadaa7e8a00010ce3a3",
+      "text": "Clever (opens in new window/tab)"
+    },
+    {
+      "url": "https://sites.google.com/clint.net/22-23schoolyear/home",
+      "text": "Curriculum Website (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.txabusehotline.org/login/default.aspx",
+      "text": "CPS Report Site (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/faculty-staff/dhe-sped-referral",
+      "text": "DHE SPED REFERRAL"
+    },
+    {
+      "url": "https://clint.schoolobjects.com/eduphoria_webcontrols/login.aspx?returnurl=/eduphoria_webcontrols/applications.aspx",
+      "text": "Eduphoria (opens in new window/tab)"
+    },
+    {
+      "url": "https://outlook.office.com/owa/",
+      "text": "Email (opens in new window/tab)"
+    },
+    {
+      "url": "https://my.imaginelearning.com/login/form",
+      "text": "Imagine Learning (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.istation.com/",
+      "text": "iStation (opens in new window/tab)"
+    },
+    {
+      "url": "https://nearpod.com/login/",
+      "text": "Nearpod (opens in new window/tab)"
+    },
+    {
+      "url": "https://global-zone51.renaissance-go.com/welcomeportal/243498",
+      "text": "Renaissance Place (opens in new window/tab)"
+    },
+    {
+      "url": "https://skyweb.clint.net/scripts/wsisa.dll/wservice=wssky/seplog01.w",
+      "text": "Skyward (opens in new window/tab)"
+    },
+    {
+      "url": "https://n11093d41302.acceleratelearning.com/login",
+      "text": "STEMscopes (opens in new window/tab)"
+    },
+    {
+      "url": "https://sites.google.com/clint.net/cisdteachertools/home",
+      "text": "Teacher Tech Tools (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/faculty-staff/teacher-tech-tools/class-calendar",
+      "text": "Class Calendar"
+    },
+    {
+      "url": "https://www.teksresourcesystem.net/module/profile/account/logon",
+      "text": "TEKS resource system (opens in new window/tab)"
+    },
+    {
+      "url": "https://sdm-tfx.digital.scholastic.com/?authctx=u.600120693",
+      "text": "Trueflix (opens in new window/tab)"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Staff Directory"
+    },
+    {
+      "url": "https://dhe.clintweb.net/activities",
+      "text": "Activities"
+    },
+    {
+      "url": "https://dhe.clintweb.net/activities/robotics",
+      "text": "Robotics"
+    },
+    {
+      "url": "https://dhe.clintweb.net/activities/uil",
+      "text": "UIL"
+    },
+    {
+      "url": "https://dhe.clintweb.net/activities/student-council",
+      "text": "Student Council"
+    },
+    {
+      "url": "https://dhe.clintweb.net/pre-k-registration",
+      "text": "Pre-K Registration"
+    },
+    {
+      "url": "https://www.clintweb.net/registration/online-registration",
+      "text": "Online Registration"
+    },
+    {
+      "url": "https://dhe.clintweb.net/library",
+      "text": "Library"
+    },
+    {
+      "url": "https://clintisd.revtrak.net/es/dhe/",
+      "text": "Library Fees (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.clintweb.net/careers",
+      "text": "Careers"
+    },
+    {
+      "url": "https://www.clintweb.net/careers/job-openings",
+      "text": "Job Openings"
+    },
+    {
+      "url": "https://dhe.clintweb.net/calendar",
+      "text": "Calendar"
+    },
+    {
+      "url": "https://dhe.clintweb.net/our-school",
+      "text": "Contact Us"
+    },
+    {
+      "url": "https://x.com/DHE_Bobcats",
+      "text": "Twitter (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.youtube.com/@DHEbobcatsCISD",
+      "text": "YouTube (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.clintweb.net/",
+      "text": "District Home"
+    },
+    {
+      "url": "https://www.clintweb.net/our-schools",
+      "text": "Schools"
+    },
+    {
+      "url": "https://ctw.clintweb.net/",
+      "text": "Carroll T. Welch Elementary"
+    },
+    {
+      "url": "https://chs.clintweb.net/",
+      "text": "Clint High School"
+    },
+    {
+      "url": "https://ceca.clintweb.net/",
+      "text": "Clint ISD Early College Academy"
+    },
+    {
+      "url": "https://grad.clintweb.net/",
+      "text": "Clint ISD Graduation"
+    },
+    {
+      "url": "https://cjhs.clintweb.net/",
+      "text": "Clint Junior High School"
+    },
+    {
+      "url": "https://dhe.clintweb.net/",
+      "text": "Desert Hills Elementary"
+    },
+    {
+      "url": "https://emms.clintweb.net/",
+      "text": "East Montana Middle School"
+    },
+    {
+      "url": "https://fme.clintweb.net/",
+      "text": "Frank Macias Elementary"
+    },
+    {
+      "url": "https://hhs.clintweb.net/",
+      "text": "Horizon High School"
+    },
+    {
+      "url": "https://hms.clintweb.net/",
+      "text": "Horizon Middle School"
+    },
+    {
+      "url": "https://mve.clintweb.net/",
+      "text": "Montana Vista Elementary"
+    },
+    {
+      "url": "https://mvhs.clintweb.net/",
+      "text": "Mountain View High School"
+    },
+    {
+      "url": "https://rse.clintweb.net/",
+      "text": "Red Sands Elementary"
+    },
+    {
+      "url": "https://rems.clintweb.net/",
+      "text": "Ricardo Estrada Middle School"
+    },
+    {
+      "url": "https://wds.clintweb.net/",
+      "text": "W. D. Surratt Elementary"
+    },
+    {
+      "url": "https://dhe.clintweb.net/",
+      "text": "Home"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=1&",
+      "text": "1"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=2&",
+      "text": "2"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=3&",
+      "text": "3"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=6&",
+      "text": "… next set of pages"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=13&",
+      "text": "13"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory?const_page=2&",
+      "text": "> next page"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Nancy Alba"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Martha Alvarado Hernandez"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Brenda Alvarez"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Sarah Alvidrez"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Nicole Amezaga"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Yvonne Angel"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Norma Anguiano"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Bianca Avalos"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Griselda Avila"
+    },
+    {
+      "url": "https://dhe.clintweb.net/staff-directory",
+      "text": "Claudia Barrera Martinez"
+    },
+    {
+      "url": "https://sites.google.com/clint.net/busroutes/home",
+      "text": "Bus Routes (opens in new window/tab)"
+    },
+    {
+      "url": "https://www.clintweb.net/about-us/calendars",
+      "text": "District Calendars"
+    },
+    {
+      "url": "https://www.clintweb.net/faculty-staff-directory1",
+      "text": "Faculty & Staff Directory"
+    },
+    {
+      "url": "https://clint.nutrislice.com/menu",
+      "text": "Lunch Menu (opens in new window/tab)"
+    },
+    {
+      "url": "https://elpaso.countytaxrates.com/tax",
+      "text": "https://elpaso.countytaxrates.com/tax https://elpaso.countytaxrates.com/tax"
+    },
+    {
+      "url": "https://resources.finalsite.net/images/v1786832933/clintwebnet/tlzxbttculysx0dmfegf/2026PublicMeetingtoDiscussProposedBudgetandTaxRate.pdf",
+      "text": "https://resources.finalsite.net/images/v1786832933/clintwebnet/tlzxbttculysx0dmfegf/2026PublicMeetingtoDiscussProposedBudgetandTaxRate.pdf Notice of Estimated Taxes Form 50-313"
+    },
+    {
+      "url": "https://www.epcc.edu/",
+      "text": "El Paso Community College"
+    },
+    {
+      "url": "https://www.esc19.net/",
+      "text": ""
+    },
+    {
+      "url": "https://tea.texas.gov/",
+      "text": ""
+    },
+    {
+      "url": "https://www.pvida.net/",
+      "text": ""
+    },
+    {
+      "url": "https://www.utep.edu/",
+      "text": ""
+    },
+    {
+      "url": "https://apps.apple.com/us/developer/clint-independent-school-district/id1005180342",
+      "text": ""
+    },
+    {
+      "url": "https://dhe.clintweb.net/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "url": "https://dhe.clintweb.net/site-map",
+      "text": "Site Map"
+    },
+    {
+      "url": "https://dhe.clintweb.net/accessibility-statement",
+      "text": "Accessibility"
+    },
+    {
+      "url": "https://www.finalsite.com/districts",
+      "text": "Powered by Finalsite opens in a new window Powered by Finalsite"
+    }
+  ],
+  "monolingual_contexts": [
+    "tles: CUSTODIAN Roles: Faculty & Staff Email: Brenda Alvarez Titles: SPED (SPED TCH) Roles: Faculty & Staff Departments: Special ED Department Email: Sarah Alvidrez Titles: KINDER MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Nicole Amezaga Titles: FOURTH MONOLINGUAL TEACHER LDF Roles: Faculty & Staff Email: Yvonne Angel Titles: FIRST MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Norma Anguiano Title",
+    "TCH) Roles: Faculty & Staff Departments: Special ED Department Email: Sarah Alvidrez Titles: KINDER MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Nicole Amezaga Titles: FOURTH MONOLINGUAL TEACHER LDF Roles: Faculty & Staff Email: Yvonne Angel Titles: FIRST MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Norma Anguiano Titles: FIFTH MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Bianca Avalos Titles:",
+    "rez Titles: KINDER MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Nicole Amezaga Titles: FOURTH MONOLINGUAL TEACHER LDF Roles: Faculty & Staff Email: Yvonne Angel Titles: FIRST MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Norma Anguiano Titles: FIFTH MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Bianca Avalos Titles: MONITOR CROSSING GUARD Roles: Faculty & Staff Email: Griselda Avila Titles: SECO",
+    "zaga Titles: FOURTH MONOLINGUAL TEACHER LDF Roles: Faculty & Staff Email: Yvonne Angel Titles: FIRST MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Norma Anguiano Titles: FIFTH MONOLINGUAL TEACHER Roles: Faculty & Staff Email: Bianca Avalos Titles: MONITOR CROSSING GUARD Roles: Faculty & Staff Email: Griselda Avila Titles: SECOND BILINGUAL TEACHER LDF Roles: Faculty & Staff Email: Claudia Barrera Martinez"
+  ],
+  "bilingual_contexts": [
+    "& Staff Email: Bianca Avalos Titles: MONITOR CROSSING GUARD Roles: Faculty & Staff Email: Griselda Avila Titles: SECOND BILINGUAL TEACHER LDF Roles: Faculty & Staff Email: Claudia Barrera Martinez Titles: CUSTODIAN Roles: Faculty & Staff Email: 1 2 3 …next set of pages 13 >next page showing 1 - 10 of 128 con"
+  ],
+  "has_both_language_labels": true,
+  "research_use": "reviewed_staff_role_evidence"
+}

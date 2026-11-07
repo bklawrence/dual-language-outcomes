@@ -1,0 +1,106 @@
+[
+  {
+    "school_id": "TX-S220907103",
+    "school_name": "PARKVIEW EL",
+    "district_name": "KELLER ISD",
+    "source_keys": [
+      "tx_staff_df637dad9cd880fd878706"
+    ],
+    "source_url": "https://pes.kellerisd.net/academics/grade-level-teams/pre-k-kindergarten",
+    "source_quote": "Monolingual",
+    "review_reason": "monolingual_label_limited_to_preschool",
+    "notes": "The page explicitly distinguishes monolingual and Vietnamese bilingual teachers in preschool. Kindergarten has a Vietnamese BIL label and otherwise unlabelled teachers; it does not explicitly establish parallel monolingual K-5 classroom assignments.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S246906103",
+    "school_name": "COTTONWOOD CREEK EL",
+    "district_name": "HUTTO ISD",
+    "source_keys": [
+      "tx_staff_43328bc2e3d0f6207e72b5"
+    ],
+    "source_url": "https://cces.hipponation.org/cces-staff0",
+    "source_quote": "Teacher - Kinder - DL Support (Mono)",
+    "review_reason": "ambiguous_english_partner_within_DL",
+    "notes": "DL Support (Mono) may denote the English-side partner inside DL; it does not establish a separate non-DL program.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S071901105",
+    "school_name": "FRANK MACIAS EL",
+    "district_name": "CLINT ISD",
+    "source_keys": [
+      "tx_staff_17ea17538909dee3ab334f"
+    ],
+    "source_url": "https://fme.clintweb.net/staff-directory",
+    "source_quote": "PRE K BILINGUAL",
+    "review_reason": "preschool_only_bilingual_evidence",
+    "notes": "Accessible first page lists K/grade-3 monolingual teachers, but the only bilingual assignment shown is preschool. K-5 bilingual classroom evidence is still needed.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S220905151",
+    "school_name": "NATHA HOWELL EL",
+    "district_name": "FORT WORTH ISD",
+    "source_keys": [
+      "tx_staff_9aaecf13c49ded06752992"
+    ],
+    "source_url": "https://nathahowell.fwisd.org/faculty/faculty/3rd-grade",
+    "source_quote": "Regular Program Teacher",
+    "review_reason": "missing_matching_bilingual_academic_role",
+    "notes": "A Regular Program classroom role is explicit, but the accessible page does not explicitly label a bilingual classroom role. The Bilingual Program navigation link alone is insufficient.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S057905239",
+    "school_name": "ARTURO SALAZAR EL",
+    "district_name": "DALLAS ISD",
+    "source_keys": [
+      "tx_staff_8bd6210a2082ba98a5e1ff"
+    ],
+    "source_url": "https://salazar.dallasisd.org/team-dallas-isd/teachers/pre-k-teachers",
+    "source_quote": "Pre-K General Education",
+    "review_reason": "preschool_only_parallel_staff_roles",
+    "notes": "General Education and Bilingual Education are explicit for preschool. This alone does not establish separate K-5 programs.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S057905230",
+    "school_name": "HARRY C WITHERS EL",
+    "district_name": "DALLAS ISD",
+    "source_keys": [
+      "tx_staff_972cbe15b52dc05609f771"
+    ],
+    "source_url": "https://withers.dallasisd.org/faculty-team/faculty-staff",
+    "source_quote": "General Education Program",
+    "review_reason": "parallel_program_navigation_only",
+    "notes": "Campus navigation lists both general education and TWDL, but linked program pages failed to load. Retain as a lead for substantive program confirmation.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S057905206",
+    "school_name": "ALEX SANGER PREPARATORY SCHOOL",
+    "district_name": "DALLAS ISD",
+    "source_keys": [
+      "tx_staff_e253e971f11b0e46a31692"
+    ],
+    "source_url": "https://sanger.dallasisd.org/faculty-team/staff-directory",
+    "source_quote": "General Education Program",
+    "review_reason": "parallel_program_navigation_only",
+    "notes": "Campus navigation lists Spanish DL and general education, but linked program pages failed to load. Retain as a lead for substantive program confirmation.",
+    "assigned_delivery_structure": null
+  },
+  {
+    "school_id": "TX-S139909108",
+    "school_name": "JUSTISS EL",
+    "district_name": "PARIS ISD",
+    "source_keys": [
+      "tx_staff_55b67e630d1ebf64f370b8"
+    ],
+    "source_url": "https://jes.parisisd.net/elementary-faculty",
+    "source_quote": "Regular Education Programs",
+    "review_reason": "parallel_program_navigation_only",
+    "notes": "Campus navigation lists bilingual and regular education pages. The linked content failed to load, so template navigation is not used to assign strand.",
+    "assigned_delivery_structure": null
+  }
+]

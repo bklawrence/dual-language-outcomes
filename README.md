@@ -9,6 +9,7 @@ A longitudinal research dataset for dual-language programs across all **50 US st
 ## Start here
 
 - [Fieldnotes school-review website](https://bklawrence.github.io/dual-language-outcomes/), [current selected program data](data/reports/hand_coding/current/programs.csv), [hand-coded review log](data/reports/hand_coding/current/reviews.csv), and [website guide](review-app/README.md). Saved decisions retain the reviewer, source URL, notes, coding method and school year.
+- [Texas staff-directory delivery review](data/registry/tx_staff_delivery_review_2026_11_07/README.md): all 1,610 inventory campuses screened, with 14 provisional strand classifications across 16 program records, separate access limitations and eight cases for review. Source dates and the 2025–26 inference are recorded explicitly.
 
 - [LAUSD report supplement and extracted participant tables](data/registry/literature/lausd_twdl_2026_11_07/README.md): 2019–20 through 2021–22 study-cohort aggregates, source snapshots, suppression flags and eight campus research leads. [Palm Beach admissions-label review](data/registry/palm_beach_admissions_2026_11_07/README.md): 40 linked school records, source definitions and the distinction between admissions access and whole-school/strand delivery. These evidence packages do not assign unverified campus classifications.
 

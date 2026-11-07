@@ -1,0 +1,654 @@
+[
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-619cf8997b7c5ff48642edc0086ef617",
+    "state": "TX",
+    "school_id": "TX-S071901104",
+    "school_name": "MONTANA VISTA EL",
+    "district_names": "CLINT ISD",
+    "site_id": "site_candidate-619cf8997b7c5ff48642edc0086ef617",
+    "program_id": "program_candidate-e11d260397c05ff0b33cc1c7f13c9bf9",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_73f3d5059a885e6ff43bb3"
+    ],
+    "source_quote": "KINDER MONOLINGUAL TEACHER",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_73f3d5059a885e6ff43bb3",
+        "quote": "KINDER MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_73f3d5059a885e6ff43bb3",
+        "quote": "SECOND MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_73f3d5059a885e6ff43bb3",
+        "quote": "THIRD BILINGUAL TEACHER"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "K and grades 2-3; academic monolingual and bilingual classroom roles",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:24:17.985113+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The public first page contains both types of academic classroom assignment; preschool roles are not the basis of this decision. Role labels: “KINDER MONOLINGUAL TEACHER”; “SECOND MONOLINGUAL TEACHER”; “THIRD BILINGUAL TEACHER”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-6865f233b3ea514697bf81e667f68470",
+    "state": "TX",
+    "school_id": "TX-S071901102",
+    "school_name": "RED SANDS EL",
+    "district_names": "CLINT ISD",
+    "site_id": "site_candidate-6865f233b3ea514697bf81e667f68470",
+    "program_id": "program_candidate-6c432dcaa9d259cf8e3a9a2841fffae4",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_02a0a4daa54c3a8361ebc7"
+    ],
+    "source_quote": "FIRST MONOLINGUAL TEACHER",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_02a0a4daa54c3a8361ebc7",
+        "quote": "FIRST MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_02a0a4daa54c3a8361ebc7",
+        "quote": "SECOND MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_02a0a4daa54c3a8361ebc7",
+        "quote": "FIFTH BILINGUAL TEACHER"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grades 1-2 and 5; academic monolingual and bilingual classroom roles",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:24:17.984062+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The first page supplies both types of elementary academic assignment. Pagination requests repeated the first page; the full staff list was not obtained. Role labels: “FIRST MONOLINGUAL TEACHER”; “SECOND MONOLINGUAL TEACHER”; “FIFTH BILINGUAL TEACHER”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-bb36f1d6cf3155cfba4f0f978fbf07b3",
+    "state": "TX",
+    "school_id": "TX-S071901106",
+    "school_name": "CARROLL T WELCH EL",
+    "district_names": "CLINT ISD",
+    "site_id": "site_candidate-bb36f1d6cf3155cfba4f0f978fbf07b3",
+    "program_id": "program_candidate-887b7fb8a8bd51429922d7b6a4147843",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_1c6330ac41d8d0f803232d"
+    ],
+    "source_quote": "THIRD MONOLINGUAL TEACHER LDF",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_1c6330ac41d8d0f803232d",
+        "quote": "THIRD MONOLINGUAL TEACHER LDF"
+      },
+      {
+        "source_key": "tx_staff_1c6330ac41d8d0f803232d",
+        "quote": "FOURTH MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_1c6330ac41d8d0f803232d",
+        "quote": "FIFTH BILINGUAL TEACHER"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grades 3-5; academic monolingual and bilingual classroom roles",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:24:18.784037+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The first page supplies both types of elementary academic assignment. Pagination requests repeated the first page; the full staff list was not obtained. Role labels: “THIRD MONOLINGUAL TEACHER LDF”; “FOURTH MONOLINGUAL TEACHER”; “FIFTH BILINGUAL TEACHER”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-6ee0799c615d583285588f1a86e693c3",
+    "state": "TX",
+    "school_id": "TX-S071901103",
+    "school_name": "DESERT HILLS EL",
+    "district_names": "CLINT ISD",
+    "site_id": "site_candidate-6ee0799c615d583285588f1a86e693c3",
+    "program_id": "program_candidate-85e67fe1907b50dba0e272c963c84ea9",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_3a869bb646972593f29544"
+    ],
+    "source_quote": "KINDER MONOLINGUAL TEACHER",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_3a869bb646972593f29544",
+        "quote": "KINDER MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_3a869bb646972593f29544",
+        "quote": "FIRST MONOLINGUAL TEACHER"
+      },
+      {
+        "source_key": "tx_staff_3a869bb646972593f29544",
+        "quote": "SECOND BILINGUAL TEACHER LDF"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "K and grades 1-2; academic monolingual and bilingual classroom roles",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:28:26.442751+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The public first page contains both types of academic classroom assignment. Role labels: “KINDER MONOLINGUAL TEACHER”; “FIRST MONOLINGUAL TEACHER”; “SECOND BILINGUAL TEACHER LDF”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-4ed99b362c1e5122b5f2db3ecc1d0ce0",
+    "state": "TX",
+    "school_id": "TX-S057905109",
+    "school_name": "W A BLAIR EL",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-4ed99b362c1e5122b5f2db3ecc1d0ce0",
+    "program_id": "program_candidate-e82aa6c95172520c9e48d846d9e9db54",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_313eef310fbbc0003b4b83"
+    ],
+    "source_quote": "4th Grade Bilingual",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_313eef310fbbc0003b4b83",
+        "quote": "4th Grade Bilingual"
+      },
+      {
+        "source_key": "tx_staff_313eef310fbbc0003b4b83",
+        "quote": "4th General Education"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 4; distinct general-education and bilingual classroom assignments",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:23:05.289244+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The same grade explicitly has general-education and bilingual assignments, rather than merely unnamed teachers beside a bilingual-certified teacher. Role labels: “4th Grade Bilingual”; “4th General Education”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-773a7df8b0a95b40a776b1275b2f332b",
+    "state": "TX",
+    "school_id": "TX-S057905121",
+    "school_name": "JOHN W CARPENTER EL",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-773a7df8b0a95b40a776b1275b2f332b",
+    "program_id": "program_candidate-838e18973216583a8726bda6914f19e8",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_01d16dd30705d56002d4d6"
+    ],
+    "source_quote": "1st Grade General Education",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_01d16dd30705d56002d4d6",
+        "quote": "1st Grade General Education"
+      },
+      {
+        "source_key": "tx_staff_01d16dd30705d56002d4d6",
+        "quote": "1st Grade Bilingual"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 1; separately numbered general-education and bilingual classrooms",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:29:19.962968+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The page labels class 1A General Education and class 1B Bilingual, with separate classroom assignments. Role labels: “1st Grade General Education”; “1st Grade Bilingual”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-9e1c5d1628825c1395d0137aa91110f0",
+    "state": "TX",
+    "school_id": "TX-S057905103",
+    "school_name": "GABE P ALLEN NEW TECH ACADEMY",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-9e1c5d1628825c1395d0137aa91110f0",
+    "program_id": "program_candidate-d5026efb558a5ad993fb3cf58116fe19",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_08c670af27b728096c85a3"
+    ],
+    "source_quote": "KA BIL",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_08c670af27b728096c85a3",
+        "quote": "KA BIL"
+      },
+      {
+        "source_key": "tx_staff_08c670af27b728096c85a3",
+        "quote": "KB GenEd"
+      },
+      {
+        "source_key": "tx_staff_08c670af27b728096c85a3",
+        "quote": "Self Contained"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "kindergarten; separately labeled BIL and GenEd self-contained classrooms",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:30:37.307694+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The kindergarten team distinguishes KA BIL and KB GenEd, each Self Contained. This is a classroom-program distinction, not a language certification or English partner assignment. Role labels: “KA BIL”; “KB GenEd”; “Self Contained”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-560e18d9026b5fd6be078bae2a4266a4",
+    "state": "TX",
+    "school_id": "TX-S220905161",
+    "school_name": "SAM ROSEN EL",
+    "district_names": "FORT WORTH ISD",
+    "site_id": "site_candidate-560e18d9026b5fd6be078bae2a4266a4",
+    "program_id": "program_candidate-e125c216fc13563db6c93a9003f245ee",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_ef99a7a9b6d76286821912"
+    ],
+    "source_quote": "1st Grade Dual Language Teacher",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_ef99a7a9b6d76286821912",
+        "quote": "1st Grade Dual Language Teacher"
+      },
+      {
+        "source_key": "tx_staff_ef99a7a9b6d76286821912",
+        "quote": "1st grade General Education Teacher"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 1; general-education and dual-language classroom teachers",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:30:29.622218+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The first-grade staff page explicitly distinguishes dual-language and general-education teachers. Role labels: “1st Grade Dual Language Teacher”; “1st grade General Education Teacher”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-015d8672f2805e19bf3c565e35f6f88d",
+    "state": "TX",
+    "school_id": "TX-S220905114",
+    "school_name": "MANUEL JARA EL",
+    "district_names": "FORT WORTH ISD",
+    "site_id": "site_candidate-015d8672f2805e19bf3c565e35f6f88d",
+    "program_id": "program_candidate-75588249ebbb5f0bb83d59a6bdb6b11f",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_0450966ccc323bb9ca8fb0"
+    ],
+    "source_quote": "2nd Grade Regular Program Teacher",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_0450966ccc323bb9ca8fb0",
+        "quote": "2nd Grade Regular Program Teacher"
+      },
+      {
+        "source_key": "tx_staff_0450966ccc323bb9ca8fb0",
+        "quote": "2nd Grade Dual Language Teacher"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 2; regular-program and dual-language classroom teachers",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:30:02.152122+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The second-grade staff page explicitly distinguishes Regular Program and Dual Language classroom teachers. Role labels: “2nd Grade Regular Program Teacher”; “2nd Grade Dual Language Teacher”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-5efa31c5651d5911b238c1f95f3d41d2",
+    "state": "TX",
+    "school_id": "TX-S101917137",
+    "school_name": "LAURA WELCH BUSH EL",
+    "district_names": "PASADENA ISD",
+    "site_id": "site_candidate-5efa31c5651d5911b238c1f95f3d41d2",
+    "program_id": "program_candidate-b0f36f338efb515faa5011efab4250ed",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_482f30fdb376f566ca1e30"
+    ],
+    "source_quote": "Kinder Regular Ed. Teacher",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_482f30fdb376f566ca1e30",
+        "quote": "Kinder Regular Ed. Teacher"
+      },
+      {
+        "source_key": "tx_staff_482f30fdb376f566ca1e30",
+        "quote": "Kinder Dual Language Teacher"
+      },
+      {
+        "source_key": "tx_staff_482f30fdb376f566ca1e30",
+        "quote": "1st Grade Regular Ed. Teacher"
+      },
+      {
+        "source_key": "tx_staff_482f30fdb376f566ca1e30",
+        "quote": "1st Grade Dual Language Teacher"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "K-4; regular-education and dual-language classroom teachers across the listed grades",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:21:36.236501+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The campus staff directory separately labels regular-education and dual-language teachers within K and grades 1-4. Laura Bush Elementary is the unique Pasadena campus recorded as Laura Welch Bush Elementary; the campus page identifies 9100 Blackhawk Blvd., Houston 77075. Role labels: “Kinder Regular Ed. Teacher”; “Kinder Dual Language Teacher”; “1st Grade Regular Ed. Teacher”; “1st Grade Dual Language Teacher”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-c9d79b928e33584282bf0f8e8c95815f",
+    "state": "TX",
+    "school_id": "TX-S057905173",
+    "school_name": "JESUS MOROLES EXPRESSIVE ARTS VANGUARD",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-c9d79b928e33584282bf0f8e8c95815f",
+    "program_id": "program_candidate-6f38eab17579535fb91d52fa5820e20d",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_5c4b1ca998b98f28f9a8c8"
+    ],
+    "source_quote": "Kindergarten Dual Language",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_5c4b1ca998b98f28f9a8c8",
+        "quote": "Kindergarten Dual Language"
+      },
+      {
+        "source_key": "tx_staff_5c4b1ca998b98f28f9a8c8",
+        "quote": "Kindergarten GenEd."
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "kindergarten; dual-language and general-education classroom assignments",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:59:42.282029+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The combined preschool/kindergarten staff page explicitly distinguishes Kindergarten Dual Language from Kindergarten GenEd. The decision uses kindergarten roles, not the preschool bilingual assignments. The page identifies Jesus Moroles Expressive Arts Vanguard at 1400 Walmsley Ave., Dallas 75208. Role labels: “Kindergarten Dual Language”; “Kindergarten GenEd.”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-e31a161fca8853df9221290bec194018",
+    "state": "TX",
+    "school_id": "TX-S057905173",
+    "school_name": "JESUS MOROLES EXPRESSIVE ARTS VANGUARD",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-e31a161fca8853df9221290bec194018",
+    "program_id": "program_candidate-77a0aa2fdb435ea08fef3be39e2ab0ed",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_5c4b1ca998b98f28f9a8c8"
+    ],
+    "source_quote": "Kindergarten Dual Language",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_5c4b1ca998b98f28f9a8c8",
+        "quote": "Kindergarten Dual Language"
+      },
+      {
+        "source_key": "tx_staff_5c4b1ca998b98f28f9a8c8",
+        "quote": "Kindergarten GenEd."
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "kindergarten; dual-language and general-education classroom assignments",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:59:42.282029+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The combined preschool/kindergarten staff page explicitly distinguishes Kindergarten Dual Language from Kindergarten GenEd. The decision uses kindergarten roles, not the preschool bilingual assignments. The page identifies Jesus Moroles Expressive Arts Vanguard at 1400 Walmsley Ave., Dallas 75208. Role labels: “Kindergarten Dual Language”; “Kindergarten GenEd.”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-cc0fa72a091b5e57a3ef4e49ef3bafaa",
+    "state": "TX",
+    "school_id": "TX-S057905199",
+    "school_name": "REINHARDT EL",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-cc0fa72a091b5e57a3ef4e49ef3bafaa",
+    "program_id": "program_candidate-8677c1b84fc65dac99725d3884e1ab62",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_876e01348385e43bdc69ac"
+    ],
+    "source_quote": "1st Grade GenEd",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_876e01348385e43bdc69ac",
+        "quote": "1st Grade GenEd"
+      },
+      {
+        "source_key": "tx_staff_876e01348385e43bdc69ac",
+        "quote": "1st Grade Bilingual"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 1; general-education and bilingual classroom assignments",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:59:52.759960+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The first-grade team separately labels GenEd and Bilingual academic classroom assignments. The page identifies Reinhardt Elementary at 10122 Losa Dr., Dallas 75218. Role labels: “1st Grade GenEd”; “1st Grade Bilingual”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-abfd6d315ff85c9f87e6503e078ae330",
+    "state": "TX",
+    "school_id": "TX-S057905126",
+    "school_name": "CENTRAL EL",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-abfd6d315ff85c9f87e6503e078ae330",
+    "program_id": "program_candidate-48fcab076450521db1b33a8f075e69c9",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_91e4aaad25d67d20eab107"
+    ],
+    "source_quote": "Self Contained Bilingual",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_91e4aaad25d67d20eab107",
+        "quote": "Self Contained Bilingual"
+      },
+      {
+        "source_key": "tx_staff_91e4aaad25d67d20eab107",
+        "quote": "Self Contained General Education"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 4; separate self-contained bilingual and general-education classrooms",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:59:40.682003+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "Class 4A is labeled Self Contained Bilingual and class 4B Self Contained General Education. The page identifies Central Elementary at 902 Shady Ln., Seagoville 75159, within Dallas ISD; it is not a different district’s Central Elementary. Role labels: “Self Contained Bilingual”; “Self Contained General Education”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-b2ab5d19460c5c5b9f56ab1da219af57",
+    "state": "TX",
+    "school_id": "TX-S057905126",
+    "school_name": "CENTRAL EL",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-b2ab5d19460c5c5b9f56ab1da219af57",
+    "program_id": "program_candidate-8c9051ca2fec5e45895aad2593ad7aa9",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_91e4aaad25d67d20eab107"
+    ],
+    "source_quote": "Self Contained Bilingual",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_91e4aaad25d67d20eab107",
+        "quote": "Self Contained Bilingual"
+      },
+      {
+        "source_key": "tx_staff_91e4aaad25d67d20eab107",
+        "quote": "Self Contained General Education"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 4; separate self-contained bilingual and general-education classrooms",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T21:59:40.682003+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "Class 4A is labeled Self Contained Bilingual and class 4B Self Contained General Education. The page identifies Central Elementary at 902 Shady Ln., Seagoville 75159, within Dallas ISD; it is not a different district’s Central Elementary. Role labels: “Self Contained Bilingual”; “Self Contained General Education”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  },
+  {
+    "fact_id": "tx-staff-delivery-2026-11-07-site_candidate-74dc699ba594539abcd316d27c655a49",
+    "state": "TX",
+    "school_id": "TX-S057905284",
+    "school_name": "PERSONALIZED LEARNING ACADEMY AT HIGHLAND MEADOWS",
+    "district_names": "DALLAS ISD",
+    "site_id": "site_candidate-74dc699ba594539abcd316d27c655a49",
+    "program_id": "program_candidate-15844b0ba73157be9dd5ae82901e4b82",
+    "variable": "delivery_structure",
+    "value": "strand",
+    "verification_status": "provisional",
+    "source_keys": [
+      "tx_staff_c0969cf5e9d10937f7f7ed"
+    ],
+    "source_quote": "3A ESL Teacher (Bilingual Group)",
+    "source_quote_fragments": [
+      {
+        "source_key": "tx_staff_c0969cf5e9d10937f7f7ed",
+        "quote": "3A ESL Teacher (Bilingual Group)"
+      },
+      {
+        "source_key": "tx_staff_c0969cf5e9d10937f7f7ed",
+        "quote": "3D Teacher (General Ed)"
+      }
+    ],
+    "source_locator": "Public campus staff directory / grade team: explicit classroom-program role labels",
+    "delivery_grade_scope": "grade 3; separately numbered bilingual-group and general-education classrooms",
+    "source_school_year": null,
+    "source_publication_date": null,
+    "source_capture_date": "2026-11-07T22:00:38.080684+00:00",
+    "reference_year": "2025-26",
+    "earliest_reviewed_selection_year": "2025-26",
+    "latest_reviewed_selection_year": "2025-26",
+    "method": "researcher_interpretation_of_parallel_academic_staff_roles",
+    "review_date": "2026-11-07",
+    "evidence_period_raw": "Undated public staff directory; captured 2026-11-07; provisional structural inference for 2025-26 only",
+    "campus_identity_basis": "Manually checked unique campus name within the recorded district, official campus navigation/URL and campus contact address; no student or teacher identity linkage.",
+    "notes": "The third-grade team identifies a 3A Bilingual Group and a separate 3D General Ed classroom assignment. The decision uses the explicit classroom-group distinction, not the presence of an ESL service provider. The page identifies Personalized Learning Academy at Highland Meadows at 8939 Whitewing Ln., Dallas 75238. Role labels: “3A ESL Teacher (Bilingual Group)”; “3D Teacher (General Ed)”. These parallel academic assignments support strand delivery under the staff-directory rule supplied by the researcher. The source does not literally label the campus strand; this is a researcher interpretation. The roster itself is undated: site copyright, adopted budget and general navigation years are not assigned to the roster. Current staffing is used only as a marked provisional inference for 2025-26, as authorized; no older-year or continuing annual status is inferred. Existing language, allocation, population-model, operation and DL-eligibility evidence is unchanged. Bilingual staff titles alone do not newly establish a qualifying DL program."
+  }
+]

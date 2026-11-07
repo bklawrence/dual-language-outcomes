@@ -59,7 +59,8 @@ def migrate(build, *, config_path=CONFIG, dataset_id=DATASET):
             build.track_input(path)
     for path in files.get('preservation', {}).get('preserved_files', {}):
         build.track_input(path)
-    build.dataset(dataset_id, None, 'inventory', 'Reviewed whole-school versus strand delivery',
+    build.dataset(dataset_id, config.get('state_code'), 'inventory',
+                  config.get('dataset_name', 'Reviewed whole-school versus strand delivery'),
                   'repo:' + config['base'], notes=config['scope'])
     sources = {}
     existing = {r['source_id']: r for r in build.rows('sources')}
