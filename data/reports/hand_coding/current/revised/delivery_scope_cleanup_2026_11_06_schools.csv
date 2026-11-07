@@ -328,20 +328,20 @@ GL-MI-S-6317144c10b0,MI,El Sol Elementary School,Kalamazoo Public Schools,1,1,1,
 GL-MI-S-7db90f88b0ab,MI,Los Lagos Bilingual Academy,West Ottawa Public Schools,1,1,1,0,whole_school
 GL-MI-S-7f209573475c,MI,Meadow Brook Elementary School,Forest Hills Public Schools,1,1,1,0,strand
 GL-MI-S-ebe2ac3bcc20,MI,Academy of the Americas,Detroit Public Schools Community District,1,1,1,0,whole_school
-GL-WI-S-066e692518a8,WI,Greenfield Bilingual School,Milwaukee Public Schools,1,0,0,0,
+GL-WI-S-066e692518a8,WI,Greenfield Bilingual School,Milwaukee Public Schools,1,0,1,0,whole_school
 GL-WI-S-09d79621eb58,WI,Sugar Creek Elementary School,Verona Area School District,1,1,1,0,strand
 GL-WI-S-1126db68bc76,WI,Wadewitz Elementary School,Racine Unified School District,1,1,1,0,strand
 GL-WI-S-119de3de15eb,WI,Glacier Edge Elementary School,Verona Area School District,1,1,1,0,strand
 GL-WI-S-145ff6e50e14,WI,Heyer Elementary School,School District of Waukesha,1,1,1,0,strand
 GL-WI-S-1bc6dae60298,WI,La Escuela Fratney,Milwaukee Public Schools,1,0,1,0,whole_school
 GL-WI-S-2a2ff29f6598,WI,Banta Bilingual School,Menasha Joint School District,1,1,1,0,whole_school
-GL-WI-S-2cc925b26648,WI,Albert E. Kagel School,Milwaukee Public Schools,1,0,0,0,
+GL-WI-S-2cc925b26648,WI,Albert E. Kagel School,Milwaukee Public Schools,1,0,0,0,whole_school
 GL-WI-S-3131ce217bda,WI,James Whitcomb Riley Dual Language Montessori School,Milwaukee Public Schools,1,0,1,0,whole_school
 GL-WI-S-6015a328e460,WI,Academia de Lenguaje y Bellas Artes (ALBA),Milwaukee Public Schools,1,0,1,1,whole_school
-GL-WI-S-698f159033e0,WI,Forest Home Avenue School,Milwaukee Public Schools,1,0,0,0,
-GL-WI-S-6bb014783b26,WI,Alexander Mitchell Integrated Arts School,Milwaukee Public Schools,1,0,0,0,
+GL-WI-S-698f159033e0,WI,Forest Home Avenue School,Milwaukee Public Schools,1,0,1,0,strand
+GL-WI-S-6bb014783b26,WI,Alexander Mitchell Integrated Arts School,Milwaukee Public Schools,1,0,1,0,strand
 GL-WI-S-772da1726ce3,WI,Julian Thomas Elementary School,Racine Unified School District,1,1,1,0,strand
-GL-WI-S-8aaad773a97f,WI,Escuela Vieau,Milwaukee Public Schools,1,0,0,0,
+GL-WI-S-8aaad773a97f,WI,Escuela Vieau,Milwaukee Public Schools,1,0,0,0,whole_school
 GL-WI-S-8ac03e3ddf04,WI,Milwaukee French Immersion School,Milwaukee Public Schools,1,1,1,0,whole_school
 GL-WI-S-8daa91bbf6a8,WI,Mitchell School,Racine Unified School District,1,1,1,0,strand
 GL-WI-S-90381b167c13,WI,Wilder Elementary School,Green Bay Area Public School District,1,1,1,0,strand
@@ -350,9 +350,9 @@ GL-WI-S-a500c7481b57,WI,Rogers Street Academy,Milwaukee Public Schools,1,0,1,0,s
 GL-WI-S-af3a6ddcff72,WI,Hayes Bilingual School,Milwaukee Public Schools,1,0,1,0,whole_school
 GL-WI-S-b497290345f1,WI,Lowell Elementary School,School District of Waukesha,1,1,1,0,strand
 GL-WI-S-b62dc62ae12b,WI,S.C. Johnson Elementary School,Racine Unified School District,1,1,1,0,strand
-GL-WI-S-c1016c3b3261,WI,Anna F. Doerfler School,Milwaukee Public Schools,1,0,0,0,
-GL-WI-S-d0a27db11720,WI,Allen-Field School,Milwaukee Public Schools,1,0,0,0,
-GL-WI-S-daf559cb5f96,WI,H. W. Longfellow School,Milwaukee Public Schools,1,0,0,0,
+GL-WI-S-c1016c3b3261,WI,Anna F. Doerfler School,Milwaukee Public Schools,1,0,0,0,whole_school
+GL-WI-S-d0a27db11720,WI,Allen-Field School,Milwaukee Public Schools,1,0,1,0,strand
+GL-WI-S-daf559cb5f96,WI,H. W. Longfellow School,Milwaukee Public Schools,1,0,0,0,strand
 GL-WI-S-dff7e2b2f881,WI,Verona Area International School,Verona Area School District,1,1,1,0,whole_school
 GL-WI-S-ff7f8bc15db0,WI,Lincoln Avenue School,Milwaukee Public Schools,1,0,0,0,whole_school
 ID-S-012a3bd22d74,ID,Alturas Elementary School,Blaine County School District,1,0,0,0,whole_school
@@ -1610,8 +1610,8 @@ WA-S105770,WA,Rosalind Franklin STEM Elementary,Pasco School District,1,0,0,0,
 WA-S105888,WA,John Campbell Primary School,Selah School District,1,0,0,0,
 WA-S105889,WA,Selah Intermediate School,Selah School District,1,0,0,0,
 WA-S105893,WA,Four Heroes Elementary,Clover Park School District,1,0,0,0,
-WA-S105897,WA,Barbara McClintock STEM Elementary,Pasco School District,1,0,0,0,
-WA-S105898,WA,Captain Gray STEM Elementary,Pasco School District,1,0,0,0,
+WA-S105897,WA,Barbara McClintock STEM Elementary,Pasco School District,1,0,0,0,strand
+WA-S105898,WA,Captain Gray STEM Elementary,Pasco School District,1,0,1,0,strand
 WA-S105900,WA,Marie Curie STEM Elementary,Pasco School District,1,0,0,0,
 WA-S106152,WA,Fuerza Elementary,Kennewick School District,1,0,0,0,
 WA-S106174,WA,Simcoe Elementary School,Wapato School District,1,0,0,0,

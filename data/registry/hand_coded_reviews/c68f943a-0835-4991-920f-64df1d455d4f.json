@@ -1,0 +1,274 @@
+{
+  "batch_id": "c68f943a-0835-4991-920f-64df1d455d4f",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a8dbb7cb2b255ed6871170d459140d10"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:16:05.318Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/longfellow/about/staff-directory/",
+      "grade_scope": "",
+      "notes": "Staff directory only marks some teachers as bilingual.",
+      "reference_year": "2025-26",
+      "review_id": "42d8be78-ce65-4f8a-9cb3-8badd6af2cb1",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-daf559cb5f96",
+      "school_name": "H. W. Longfellow School",
+      "selected_site_id": "site-a8dbb7cb2b255ed6871170d459140d10",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ed91cd7336485a57a20cfc5befb47aef"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:17:28.866Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/allenfield/about/staff-directory/",
+      "grade_scope": "",
+      "notes": "Staff directory lists monolingual and bilingual program.",
+      "reference_year": "2025-26",
+      "review_id": "0e8c287a-31fa-4572-8861-1e0cda306681",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-d0a27db11720",
+      "school_name": "Allen-Field School",
+      "selected_site_id": "site-ed91cd7336485a57a20cfc5befb47aef",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2feb29006ade5f79a233cafff80fa154"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T20:21:31.218Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/doerfler/about/",
+      "grade_scope": "",
+      "notes": "Described as bilingual. High number of ELL students.",
+      "reference_year": "2025-26",
+      "review_id": "1b3fe53b-7a4c-468c-8e54-056f1c9f1fae",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-c1016c3b3261",
+      "school_name": "Anna F. Doerfler School",
+      "selected_site_id": "site-2feb29006ade5f79a233cafff80fa154",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1d4715106b165f98a295c583f54e0400"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T20:22:16.866Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://k12.mps.school/greenfield/",
+      "grade_scope": "",
+      "notes": "Name and website indicate.",
+      "reference_year": "2025-26",
+      "review_id": "f6ea6542-b103-45a6-9da9-91bac9d53895",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-066e692518a8",
+      "school_name": "Greenfield Bilingual School",
+      "selected_site_id": "site-1d4715106b165f98a295c583f54e0400",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-53dfb5b103965baf9a31aac2dde07b0a"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T20:23:43.683Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/kagel/academics/programs/",
+      "grade_scope": "",
+      "notes": "WS implies.",
+      "reference_year": "2025-26",
+      "review_id": "a1453a09-5d35-4323-93c8-4e800a6f6d41",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-2cc925b26648",
+      "school_name": "Albert E. Kagel School",
+      "selected_site_id": "site-53dfb5b103965baf9a31aac2dde07b0a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-26077338da9c5d30b380db6afeccacda"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:25:29.667Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/mitchell/about/principals-message/",
+      "grade_scope": "",
+      "notes": "Principal's message says they offer bilingual and English only classes.",
+      "reference_year": "2025-26",
+      "review_id": "5b33197d-f71f-4654-b1fc-7c4918cc5e1d",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-6bb014783b26",
+      "school_name": "Alexander Mitchell Integrated Arts School",
+      "selected_site_id": "site-26077338da9c5d30b380db6afeccacda",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3326dbf4e23c5140922436a7fdc98ecd"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T20:26:19.396Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/vieau/about/",
+      "grade_scope": "",
+      "notes": "Describes all students as bilingual learners",
+      "reference_year": "2025-26",
+      "review_id": "ed38c7f8-360e-4649-9c9c-2a4346cb6240",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-8aaad773a97f",
+      "school_name": "Escuela Vieau",
+      "selected_site_id": "site-3326dbf4e23c5140922436a7fdc98ecd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ea9c3b2f395a5ba6ad47651bd207c6f1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:27:21.768Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://mps.school/foresthome/about/staff-directory/",
+      "grade_scope": "",
+      "notes": "Staff directory lists both bilingual and monolingual staff.",
+      "reference_year": "2025-26",
+      "review_id": "effe5631-1f4a-4006-aa02-a607e11912d1",
+      "reviewer": "bklawrence",
+      "school_id": "GL-WI-S-698f159033e0",
+      "school_name": "Forest Home Avenue School",
+      "selected_site_id": "site-ea9c3b2f395a5ba6ad47651bd207c6f1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-417db18f7f3d5d4f9041fe769a79b9c4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:30:26.501Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "894d004f-efb0-429f-8052-b17fd238a54e",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105897",
+      "school_name": "Barbara McClintock STEM Elementary",
+      "selected_site_id": "site_candidate-417db18f7f3d5d4f9041fe769a79b9c4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-e22189d938305fbca07678f3a31e3c40"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T20:30:48.265Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.psd1.org/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "School description does not focus on DL.",
+      "reference_year": "2025-26",
+      "review_id": "0e1c1609-9dac-4377-aa43-09425b52c6d4",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105898",
+      "school_name": "Captain Gray STEM Elementary",
+      "selected_site_id": "site_candidate-e22189d938305fbca07678f3a31e3c40",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 24,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/24",
+    "received_at": "2026-11-07T20:43:34.685841+00:00",
+    "submitted_at": "2026-11-07T20:43:01Z"
+  },
+  "version": 1
+}

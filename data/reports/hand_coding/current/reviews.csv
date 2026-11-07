@@ -160,6 +160,96 @@ e9cddf47-c93f-4437-be67-129a21d9c35e,IL-S018,2025-26,True,bklawrence,bklawrence,
   }
 }
 ",,coded
+42d8be78-ce65-4f8a-9cb3-8badd6af2cb1,GL-WI-S-daf559cb5f96,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://mps.school/longfellow/about/staff-directory/,Staff directory only marks some teachers as bilingual.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-a8dbb7cb2b255ed6871170d459140d10""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+0e8c287a-31fa-4572-8861-1e0cda306681,GL-WI-S-d0a27db11720,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,explicit_source_statement,https://mps.school/allenfield/about/staff-directory/,Staff directory lists monolingual and bilingual program.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ed91cd7336485a57a20cfc5befb47aef""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+1b3fe53b-7a4c-468c-8e54-056f1c9f1fae,GL-WI-S-c1016c3b3261,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://mps.school/doerfler/about/,Described as bilingual. High number of ELL students.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-2feb29006ade5f79a233cafff80fa154""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+f6ea6542-b103-45a6-9da9-91bac9d53895,GL-WI-S-066e692518a8,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,explicit_source_statement,https://k12.mps.school/greenfield/,Name and website indicate.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-1d4715106b165f98a295c583f54e0400""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+a1453a09-5d35-4323-93c8-4e800a6f6d41,GL-WI-S-2cc925b26648,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://mps.school/kagel/academics/programs/,WS implies.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-53dfb5b103965baf9a31aac2dde07b0a""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+5b33197d-f71f-4654-b1fc-7c4918cc5e1d,GL-WI-S-6bb014783b26,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,explicit_source_statement,https://mps.school/mitchell/about/principals-message/,Principal's message says they offer bilingual and English only classes.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-26077338da9c5d30b380db6afeccacda""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+ed38c7f8-360e-4649-9c9c-2a4346cb6240,GL-WI-S-8aaad773a97f,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://mps.school/vieau/about/,Describes all students as bilingual learners,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-3326dbf4e23c5140922436a7fdc98ecd""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+effe5631-1f4a-4006-aa02-a607e11912d1,GL-WI-S-698f159033e0,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,explicit_source_statement,https://mps.school/foresthome/about/staff-directory/,Staff directory lists both bilingual and monolingual staff.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ea9c3b2f395a5ba6ad47651bd207c6f1""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+894d004f-efb0-429f-8052-b17fd238a54e,WA-S105897,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://www.psd1.org/academic-programs/dual-language,School description does not focus on DL.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-417db18f7f3d5d4f9041fe769a79b9c4""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+0e1c1609-9dac-4377-aa43-09425b52c6d4,WA-S105898,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,explicit_source_statement,https://www.psd1.org/academic-programs/dual-language,School description does not focus on DL.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-e22189d938305fbca07678f3a31e3c40""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 e3d2c34e-9042-44d7-b042-dc08bbf12d21,WY-S-8c10fd0fc81c,2025-26,True,bklawrence,bklawrence,2026-11-07T20:02:42Z,researcher_interpretation,https://hobbs.laramie1.org/dual-language-immersion-pilot-progr,The welcome to K notice indicates that it is a strand.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
