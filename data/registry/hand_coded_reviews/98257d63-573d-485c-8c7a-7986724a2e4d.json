@@ -1,0 +1,93 @@
+{
+  "batch_id": "98257d63-573d-485c-8c7a-7986724a2e4d",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-62efdef027ba557abd732a438ddfcec4",
+            "site-e7c94871eca556cf9c0b1d7d252da788"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:36:28.806Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://yridge.usd116.org/346114_2",
+      "grade_scope": "",
+      "notes": "Whole school but language allocation varies depending on program.",
+      "reference_year": "2025-26",
+      "review_id": "e9cddf47-c93f-4437-be67-129a21d9c35e",
+      "reviewer": "bklawrence",
+      "school_id": "IL-S018",
+      "school_name": "Yankee Ridge Multilingual School",
+      "selected_site_id": "site-62efdef027ba557abd732a438ddfcec4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5160143944425fed9293e18b5a188107"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-07T18:37:53.004Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://stratton.champaignschools.org/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "41e817cc-eef2-4ad2-b543-63405ded5f7f",
+      "reviewer": "bklawrence",
+      "school_id": "GL-IL-S-5c970a51046b",
+      "school_name": "Stratton Academy of the Arts",
+      "selected_site_id": "site-5160143944425fed9293e18b5a188107",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "IL-PS008"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-07T18:38:06.310Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://stratton.champaignschools.org/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3464c15e-2be4-4ee9-9b9e-53a8395ab497",
+      "reviewer": "bklawrence",
+      "school_id": "IL-S008",
+      "school_name": "International Prep Academy",
+      "selected_site_id": "IL-PS008",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 21,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/21",
+    "received_at": "2026-11-07T18:52:33.608796+00:00",
+    "submitted_at": "2026-11-07T18:51:54Z"
+  },
+  "version": 1
+}

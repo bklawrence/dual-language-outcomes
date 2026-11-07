@@ -275,7 +275,7 @@ GL-IL-S-48980608dbe3,IL,Laurel Hill Elementary School,School District U-46,1,1,1
 GL-IL-S-494066e1fa2c,IL,Barbara B. Rose Elementary School,Barrington Community Unit School District 220,1,1,1,0,strand
 GL-IL-S-4bedfbba610c,IL,Coventry Elementary School,Crystal Lake Elementary District 47,1,0,0,0,strand
 GL-IL-S-4fa02c7c3aea,IL,Grove Avenue Elementary School,Barrington Community Unit School District 220,1,1,1,0,strand
-GL-IL-S-5c970a51046b,IL,Stratton Academy of the Arts,Champaign CUSD 4,1,0,0,0,strand
+GL-IL-S-5c970a51046b,IL,Stratton Academy of the Arts,Champaign CUSD 4,1,0,1,0,strand
 GL-IL-S-5ec983ae8e5b,IL,Sunny Hill Elementary School,Barrington Community Unit School District 220,1,1,1,0,strand
 GL-IL-S-64a97623c6a5,IL,Washington Elementary School,Evanston/Skokie School District 65,1,0,0,0,strand
 GL-IL-S-64f3b1752b96,IL,Otter Creek Elementary School,School District U-46,1,1,1,0,strand
@@ -367,12 +367,12 @@ IL-S002,IL,Barbour Two-Way Language Immersion,Rockford SD 205,1,0,1,0,whole_scho
 IL-S004,IL,Darwin Elementary School,Chicago Public Schools 299,1,0,0,0,strand
 IL-S006,IL,Hawthorn School of Dual Language,Hawthorn CCSD 73,1,0,0,0,strand | whole_school
 IL-S007,IL,Inter-American Elementary Magnet School,Chicago Public Schools 299,1,0,0,0,whole_school
-IL-S008,IL,International Prep Academy,Champaign CUSD 4,1,0,0,0,whole_school
+IL-S008,IL,International Prep Academy,Champaign CUSD 4,1,0,1,0,whole_school
 IL-S009,IL,Lincoln-Irving Elementary School,Moline-Coal Valley CUSD 40,1,1,1,0,strand
 IL-S011,IL,MacArthur International Spanish Academy,Schaumburg CCSD 54,1,0,0,0,strand | whole_school
 IL-S013,IL,Oak Terrace Elementary School,North Shore SD 112,1,0,0,0,strand
 IL-S015,IL,Sabin Dual Language Magnet School,Chicago Public Schools | Chicago Public Schools 299,1,0,0,0,strand
-IL-S018,IL,Yankee Ridge Multilingual School,Urbana SD 116,2,0,0,0,strand | whole_school | whole_school
+IL-S018,IL,Yankee Ridge Multilingual School,Urbana SD 116,2,0,1,0,whole_school
 M6-CT-S-021f81149075,CT,Fair Haven School,New Haven Public Schools,1,1,1,0,strand
 M6-CT-S-0c660407e0ac,CT,Luis Muñoz Marín School,Bridgeport Public Schools,1,1,1,0,strand
 M6-CT-S-152368a62dc0,CT,Second Hill Lane Elementary School,Stratford Public Schools,1,1,1,0,strand
