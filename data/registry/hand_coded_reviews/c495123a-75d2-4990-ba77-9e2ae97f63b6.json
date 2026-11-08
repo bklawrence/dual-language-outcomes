@@ -1,0 +1,138 @@
+{
+  "batch_id": "c495123a-75d2-4990-ba77-9e2ae97f63b6",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-e0a6869f4a065273875da99c9188a492"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:12:13.839Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://annasmithelementary.tooeleschools.org/about-us/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory indicated DLI designated teachers.",
+      "reference_year": "2025-26",
+      "review_id": "8cf72a76-d419-4ef4-b701-d589c9f50d06",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-7dd36b6d3ec5",
+      "school_name": "Anna Smith School",
+      "selected_site_id": "site-e0a6869f4a065273875da99c9188a492",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-82bb8ccc1483575d88c88df11c00ddc1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:13:21.721Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://grantsvilleelementary.tooeleschools.org/our-school/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory has some people specifically listed as DLI.",
+      "reference_year": "2025-26",
+      "review_id": "27e02a6b-1b43-421f-9893-10360d1df9c1",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-969969549747",
+      "school_name": "Grantsville School",
+      "selected_site_id": "site-82bb8ccc1483575d88c88df11c00ddc1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {},
+      "coded_at": "2026-11-08T02:14:53.400Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "needs_review",
+      "evidence_url": "https://middlecanyonelementary.tooeleschools.org/our-school/staff-directory",
+      "grade_scope": "",
+      "notes": "DLI staff alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "ef63ee46-c405-40d4-b3cb-92587592e0d0",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-38be9d091412",
+      "school_name": "Middle Canyon School",
+      "selected_site_id": "site-4d8ee8a75c625fceb409664d48e7255a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-4d8ee8a75c625fceb409664d48e7255a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:15:23.416Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://middlecanyonelementary.tooeleschools.org/our-school/staff-directory",
+      "grade_scope": "",
+      "notes": "DLI staff alongside non-DLI",
+      "reference_year": "2025-26",
+      "review_id": "9d35ed6b-75fa-4e66-a078-5eccbfea66e6",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-38be9d091412",
+      "school_name": "Middle Canyon School",
+      "selected_site_id": "site-4d8ee8a75c625fceb409664d48e7255a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-144a6640e4045e56b552dd8ac02912a4",
+            "site-82489f54a4de591cafa0a38590ee6d10"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:15:58.849Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tooeleschools.org/schools/elementary-schools",
+      "grade_scope": "",
+      "notes": "Staff directory.",
+      "reference_year": "2025-26",
+      "review_id": "56239b75-62c6-4841-bfbe-f01f6ded70a1",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-59e8eb093160",
+      "school_name": "Northlake School",
+      "selected_site_id": "site-144a6640e4045e56b552dd8ac02912a4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 30,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/30",
+    "received_at": "2026-11-08T02:16:40.093828+00:00",
+    "submitted_at": "2026-11-08T02:16:16Z"
+  },
+  "version": 1
+}

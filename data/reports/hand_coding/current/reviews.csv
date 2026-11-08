@@ -352,6 +352,45 @@ ca7c40be-9c9c-44da-9218-ff2f953549b0,WP-UT-S-0652b31a0de9,2025-26,True,bklawrenc
   }
 }
 ",,coded
+8cf72a76-d419-4ef4-b701-d589c9f50d06,WP-UT-S-7dd36b6d3ec5,2025-26,True,bklawrence,bklawrence,2026-11-08T02:16:16Z,researcher_interpretation,https://annasmithelementary.tooeleschools.org/about-us/staff-directory,Staff directory indicated DLI designated teachers.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-e0a6869f4a065273875da99c9188a492""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+27e02a6b-1b43-421f-9893-10360d1df9c1,WP-UT-S-969969549747,2025-26,True,bklawrence,bklawrence,2026-11-08T02:16:16Z,researcher_interpretation,https://grantsvilleelementary.tooeleschools.org/our-school/staff-directory,Staff directory has some people specifically listed as DLI.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-82bb8ccc1483575d88c88df11c00ddc1""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+ef63ee46-c405-40d4-b3cb-92587592e0d0,WP-UT-S-38be9d091412,2025-26,True,bklawrence,bklawrence,2026-11-08T02:16:16Z,researcher_interpretation,https://middlecanyonelementary.tooeleschools.org/our-school/staff-directory,DLI staff alongside non-DLI,,"{}
+",,needs_review
+9d35ed6b-75fa-4e66-a078-5eccbfea66e6,WP-UT-S-38be9d091412,2025-26,True,bklawrence,bklawrence,2026-11-08T02:16:16Z,explicit_source_statement,https://middlecanyonelementary.tooeleschools.org/our-school/staff-directory,DLI staff alongside non-DLI,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-4d8ee8a75c625fceb409664d48e7255a""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+56239b75-62c6-4841-bfbe-f01f6ded70a1,WP-UT-S-59e8eb093160,2025-26,True,bklawrence,bklawrence,2026-11-08T02:16:16Z,researcher_interpretation,https://www.tooeleschools.org/schools/elementary-schools,Staff directory.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-144a6640e4045e56b552dd8ac02912a4"",
+      ""site-82489f54a4de591cafa0a38590ee6d10""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 42d8be78-ce65-4f8a-9cb3-8badd6af2cb1,GL-WI-S-daf559cb5f96,2025-26,True,bklawrence,bklawrence,2026-11-07T20:43:01Z,researcher_interpretation,https://mps.school/longfellow/about/staff-directory/,Staff directory only marks some teachers as bilingual.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
