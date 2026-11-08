@@ -1,0 +1,40 @@
+{
+  "batch_id": "c53b3664-4f56-4f30-89f5-d8464cc6f66d",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1aaadef9b679592684c0f1fd1c22e27c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:30:25.277Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.aspiraacademy.org/staff",
+      "grade_scope": "",
+      "notes": "Staff listed as DL and non-DL",
+      "reference_year": "2025-26",
+      "review_id": "b05880c3-44d4-4774-b5eb-11291c22f823",
+      "reviewer": "bklawrence",
+      "school_id": "M6-DE-S-4165809dc073",
+      "school_name": "Las Américas ASPIRA Academy",
+      "selected_site_id": "site-1aaadef9b679592684c0f1fd1c22e27c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 31,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/31",
+    "received_at": "2026-11-08T02:36:33.571355+00:00",
+    "submitted_at": "2026-11-08T02:35:59Z"
+  },
+  "version": 1
+}
