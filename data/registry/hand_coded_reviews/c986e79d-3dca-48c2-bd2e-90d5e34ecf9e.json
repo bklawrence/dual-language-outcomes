@@ -1,0 +1,40 @@
+{
+  "batch_id": "c986e79d-3dca-48c2-bd2e-90d5e34ecf9e",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f9adaaf236945007ac5c1065fe3afcd4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:45:35.385Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://cpes.tsd.org/about/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "6d777c99-b69b-4931-a1de-d928ee991156",
+      "reviewer": "bklawrence",
+      "school_id": "WP-CO-S-f14637bba11e",
+      "school_name": "Cottonwood Plains Dual Language Elementary",
+      "selected_site_id": "site-f9adaaf236945007ac5c1065fe3afcd4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 32,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/32",
+    "received_at": "2026-11-08T02:46:34.206423+00:00",
+    "submitted_at": "2026-11-08T02:46:00Z"
+  },
+  "version": 1
+}
