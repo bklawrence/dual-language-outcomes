@@ -1,0 +1,249 @@
+{
+  "batch_id": "d0ce4e6d-c994-4969-b575-ead3fbe35846",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1f98ac8338505a49821870c5eb74a37f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:55:43.257Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.d187.org/page/multilingual",
+      "grade_scope": "",
+      "notes": "All students go through this school",
+      "reference_year": "2025-26",
+      "review_id": "67c80880-02ec-4533-a8e6-c28affcde15c",
+      "reviewer": "bklawrence",
+      "school_id": "school-fc1997c463b353d5a2e3494a68d262fc",
+      "school_name": "A J Katzenmaier Academy",
+      "selected_site_id": "site-1f98ac8338505a49821870c5eb74a37f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1bd2b6c67eb85e749ebd1af83c8390d2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:56:02.356Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.d187.org/page/multilingual",
+      "grade_scope": "",
+      "notes": "All students go through this school",
+      "reference_year": "2025-26",
+      "review_id": "8e8bdddb-40b0-46f1-afc9-bfced19541c2",
+      "reviewer": "bklawrence",
+      "school_id": "school-54716311cd8f599ba38f0388e6ba6732",
+      "school_name": "Evelyn Alexander",
+      "selected_site_id": "site-1bd2b6c67eb85e749ebd1af83c8390d2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c477a1b7185e5c79b523db4065b81c23"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:56:15.638Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.d187.org/page/multilingual",
+      "grade_scope": "",
+      "notes": "All students go through this school",
+      "reference_year": "2025-26",
+      "review_id": "314bb7f6-f801-44be-9323-561fc1635f0f",
+      "reviewer": "bklawrence",
+      "school_id": "school-556299f9d325567eafaaeae09160bd52",
+      "school_name": "Forrestal",
+      "selected_site_id": "site-c477a1b7185e5c79b523db4065b81c23",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-506822e7426e538c8710e4c3bbf44a75"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:01:19.121Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://yis.y115.org/",
+      "grade_scope": "",
+      "notes": "Multiple programs at the same campus",
+      "reference_year": "2025-26",
+      "review_id": "64863f9b-0658-4c53-8b24-f861266aecbd",
+      "reviewer": "bklawrence",
+      "school_id": "school-9c131696d43f52128ff647437dcd4d33",
+      "school_name": "Autumn Creek Elementary",
+      "selected_site_id": "site-506822e7426e538c8710e4c3bbf44a75",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-313299d0e35655cea07d9cabddd29e6c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:01:48.171Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://yis.y115.org/",
+      "grade_scope": "",
+      "notes": "Multiple programs at the same campus",
+      "reference_year": "2025-26",
+      "review_id": "07f0234f-fc51-4159-8af8-0da7c65d5254",
+      "reviewer": "bklawrence",
+      "school_id": "school-3777f9cadf125a10944913717e07bcb7",
+      "school_name": "Yorkville Intermediate School",
+      "selected_site_id": "site-313299d0e35655cea07d9cabddd29e6c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a6519b422a555e53abeadf5804213208"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:02:28.855Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cps.edu/schools/profiles/school-overview/hibbard",
+      "grade_scope": "",
+      "notes": "Describes gen ed program alongside",
+      "reference_year": "2025-26",
+      "review_id": "8881aaf4-8ad9-4150-b140-fc2aa608b52e",
+      "reviewer": "bklawrence",
+      "school_id": "GL-IL-S-0eed5be186c5",
+      "school_name": "Hibbard",
+      "selected_site_id": "site-a6519b422a555e53abeadf5804213208",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "IL-PS011"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T15:03:22.954Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.sd54.org/o/macarthur",
+      "grade_scope": "",
+      "notes": "Name and description",
+      "reference_year": "2025-26",
+      "review_id": "4bad53c6-bd49-4aed-996d-994ae019a802",
+      "reviewer": "bklawrence",
+      "school_id": "IL-S011",
+      "school_name": "MacArthur International Spanish Academy",
+      "selected_site_id": "IL-PS011",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-365e885d039156cc9152e39b0f707cbc",
+            "site-f189391d362059d48225166f39aeddc1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:05:33.120Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.barrington220.org/directory?const_search_group_ids=&const_search_role_ids=&const_search_first_name=&const_search_last_name=&const_search_location=58&const_search_department=",
+      "grade_scope": "",
+      "notes": "Some staff listed as DLI",
+      "reference_year": "2025-26",
+      "review_id": "726573e3-626d-4c0d-88d7-4ac2cdcb8509",
+      "reviewer": "bklawrence",
+      "school_id": "GL-IL-S-15966bb7e90a",
+      "school_name": "Countryside Elementary School",
+      "selected_site_id": "site-365e885d039156cc9152e39b0f707cbc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "IL-PS006"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T15:07:30.702Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://dl.hawthorn73.org/discover/about-dl",
+      "grade_scope": "",
+      "notes": "Name and description",
+      "reference_year": "2025-26",
+      "review_id": "dcf0ac77-026c-4a79-9e91-ff91f1703590",
+      "reviewer": "bklawrence",
+      "school_id": "IL-S006",
+      "school_name": "Hawthorn School of Dual Language",
+      "selected_site_id": "IL-PS006",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 42,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/42",
+    "received_at": "2026-11-08T15:09:54.773554+00:00",
+    "submitted_at": "2026-11-08T15:09:15Z"
+  },
+  "version": 1
+}

@@ -256,7 +256,7 @@ GL-IL-S-0488f3be6569,IL,Washington Elementary School,School District U-46,1,1,1,
 GL-IL-S-070bba1c5d50,IL,Creekside Elementary School,School District U-46,1,1,1,0,strand
 GL-IL-S-094e97070b7c,IL,Sunnydale Elementary School,School District U-46,1,1,1,0,strand
 GL-IL-S-0d6f2ce522bf,IL,Oakhill Elementary School,School District U-46,1,1,1,0,strand
-GL-IL-S-0eed5be186c5,IL,Hibbard,Chicago Public Schools 299,1,0,0,0,
+GL-IL-S-0eed5be186c5,IL,Hibbard,Chicago Public Schools 299,1,0,0,0,strand
 GL-IL-S-15966bb7e90a,IL,Countryside Elementary School,Barrington Community Unit School District 220,2,0,0,0,strand
 GL-IL-S-17a8ae1eac34,IL,Lincoln Elementary School,School District U-46,1,1,1,0,strand
 GL-IL-S-1871b8760d64,IL,Enders-Salk Elementary School,Schaumburg CCSD 54,1,0,0,0,strand
@@ -365,11 +365,11 @@ ID-S-eb30ff3d7152,ID,Jefferson Elementary School,Jefferson Joint School District
 IL-S001,IL,Academy for Global Citizenship,Chicago Public Schools 299,1,0,1,1,whole_school
 IL-S002,IL,Barbour Two-Way Language Immersion,Rockford SD 205,1,0,1,0,whole_school
 IL-S004,IL,Darwin Elementary School,Chicago Public Schools 299,1,0,0,0,strand
-IL-S006,IL,Hawthorn School of Dual Language,Hawthorn CCSD 73,1,0,0,0,strand | whole_school
+IL-S006,IL,Hawthorn School of Dual Language,Hawthorn CCSD 73,1,0,1,0,whole_school
 IL-S007,IL,Inter-American Elementary Magnet School,Chicago Public Schools 299,1,0,0,0,whole_school
 IL-S008,IL,International Prep Academy,Champaign CUSD 4,1,0,1,0,whole_school
 IL-S009,IL,Lincoln-Irving Elementary School,Moline-Coal Valley CUSD 40,1,1,1,0,strand
-IL-S011,IL,MacArthur International Spanish Academy,Schaumburg CCSD 54,1,0,0,0,strand | whole_school
+IL-S011,IL,MacArthur International Spanish Academy,Schaumburg CCSD 54,1,0,1,0,whole_school
 IL-S013,IL,Oak Terrace Elementary School,North Shore SD 112,1,0,0,0,strand
 IL-S015,IL,Sabin Dual Language Magnet School,Chicago Public Schools | Chicago Public Schools 299,1,0,0,0,strand
 IL-S018,IL,Yankee Ridge Multilingual School,Urbana SD 116,2,0,1,0,whole_school
@@ -1717,12 +1717,12 @@ school-2211d37c90195bdebc81459e223d982b,IL,Dean Elementary,Woodstock Community U
 school-242e19f04c165004961fbca4d1071426,IL,Gary School,Chicago Public Schools 299,1,0,0,0,strand
 school-34aea3e73aeb51b79084993b52e48f64,IL,Creekside Middle,Woodstock Community Unit School District 200,1,0,0,0,strand
 school-35be0f8178155f11915cfc7d30b7f516,IL,Parrish Elementary,Carbondale Elementary District 95,1,0,0,0,strand
-school-3777f9cadf125a10944913717e07bcb7,IL,Yorkville Intermediate School,,1,0,0,0,
+school-3777f9cadf125a10944913717e07bcb7,IL,Yorkville Intermediate School,,1,0,0,0,strand
 school-393a0f2384d15ae6a802d68b5c7496b4,IL,French American School of Chicago,,1,0,0,0,whole_school
 school-3d757ed2aca657c9b753011bc4338260,IL,Woodland Primary,Woodland SD 50,1,0,0,0,strand
 school-534e272e014354e59e0fd94c0a6493a9,IL,Whittier Intermediate,Cook County SD 130,1,0,0,0,strand
-school-54716311cd8f599ba38f0388e6ba6732,IL,Evelyn Alexander,North Chicago SD 187,1,0,0,0,
-school-556299f9d325567eafaaeae09160bd52,IL,Forrestal,North Chicago SD 187,1,0,0,0,
+school-54716311cd8f599ba38f0388e6ba6732,IL,Evelyn Alexander,North Chicago SD 187,1,0,0,0,strand
+school-556299f9d325567eafaaeae09160bd52,IL,Forrestal,North Chicago SD 187,1,0,0,0,strand
 school-5efa7316bb2658fd94bac30ff4ff0f40,IL,Littlejohn Elementary,DeKalb SD 428,1,0,0,0,strand
 school-71c452b6773150298ed2598d4dd6fe88,IL,Willard Elementary,Evanston/Skokie School District 65,1,0,0,0,strand
 school-75ba7c6a3e195d779bbefe198cfa5470,IL,Gard Elemenrary,Beardstown CUSD 15,1,0,0,0,strand
@@ -1730,7 +1730,7 @@ school-7700afef874554bab5f46d4276081597,IL,Woodland Middle,Woodland SD 50,1,0,0,
 school-7ccae0b1a92d52af8ac288eed4973e09,IL,St. Procopius Dual Language School,,1,0,0,0,whole_school
 school-910a6ff38d1156b696b0ae3c3cce8401,IL,Nathan Hale Primary,Cook County SD 130,1,0,0,0,strand
 school-940dc4e4859259e1b14b95c786c1d568,IL,Cortland Elementary,DeKalb SD 428,1,0,0,0,strand
-school-9c131696d43f52128ff647437dcd4d33,IL,Autumn Creek Elementary,,1,0,0,0,
+school-9c131696d43f52128ff647437dcd4d33,IL,Autumn Creek Elementary,,1,0,0,0,strand
 school-9d87b3b1cfd85a90811a73c0ebe1bb86,IL,Lincoln Elementary,Cook County SD 130,1,0,0,0,strand
 school-a8ae1ee6650b5a3db83e775fdfa38672,IL,Sherwood School,North Shore SD 112,1,0,0,0,strand
 school-c006e0140b93530f9e91daae40d37597,IL,Woodland Elementary East,Woodland SD 50,1,0,0,0,strand
@@ -1741,4 +1741,4 @@ school-d7f0a93e290b57fb91081cbda5c679e1,IL,Founders Elementary,DeKalb SD 428,1,0
 school-d8c7f4ed2c705d93973d96391c200c56,IL,Paul Revere Primary,Cook County SD 130,1,0,0,0,strand
 school-e696754fd6a75640a0855093be3a3d8a,IL,Miller Elementary,Community Unit Schools 201,1,0,0,0,strand
 school-e7089d68c9b95866a7b0b093918dd3cb,IL,Westwood Elementary School,Woodstock Community Unit School District 200,1,0,0,0,strand
-school-fc1997c463b353d5a2e3494a68d262fc,IL,A J Katzenmaier Academy,North Chicago SD 187,1,0,0,0,
+school-fc1997c463b353d5a2e3494a68d262fc,IL,A J Katzenmaier Academy,North Chicago SD 187,1,0,1,0,strand
