@@ -14,7 +14,10 @@ export default function ReviewDetails({record, school, inventoryYear}) {
         const before = [...new Set(sites.map(s => formatValue(s.known[variable]?.value)))];
         const all = school && sites.length === school.sites.length && sites.length > 1;
         const scope = all ? `All ${sites.length} program records` : sites.map(s => s.label).join('; ') || 'Program scope unavailable';
-        return <tr key={variable}><th>{FIELD_LABELS[variable] || variable}<small>{scope}</small></th><td>{before.join(' / ') || 'Not recorded'}</td><td>{formatValue(change.value)}</td></tr>;
+        const percentage=change.kindergarten_partner_language_pct;
+        const entry=variable==='elementary_allocation_model'&&Number.isInteger(percentage)
+          ? `${percentage}% partner language · ${100-percentage}% English (kindergarten)` : formatValue(change.value);
+        return <tr key={variable}><th>{FIELD_LABELS[variable] || variable}<small>{scope}</small></th><td>{before.join(' / ') || 'Not recorded'}</td><td>{entry}</td></tr>;
       })}</tbody>
     </table> : !record.program_event&&<p className="parked-note">Evidence and research notes only. No program values have been assigned; this school remains available for coding.</p>}
     {record.program_event&&<div className="program-event-summary">

@@ -56,11 +56,20 @@ class HandCodingTests(unittest.TestCase):
         (root/'config/hand_coding.json').write_text(json.dumps(dict(authorized_reviewers=['bklawrence'],repository='bklawrence/dual-language-outcomes',preserved_reports={})))
         shutil.copyfile(ROOT/'config/identity_mappings.csv',root/'config/identity_mappings.csv')
 
-    def reviewed_tables(self,records):
+    def reviewed_tables(self,records,*,legacy=False):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp);self.setup_root(root);payload=self.payload(records);event=self.event(payload)
-            with patch('dl_outcomes.validation.load',return_value=(self.schema,self.tables)):
-                receipt=accept_issue(root,event)
+            if legacy:
+                # Simulate an immutable journal accepted before the K-only menu.
+                path=root/'data/registry/hand_coded_reviews'/(payload['batch_id']+'.json')
+                payload['submission']=dict(github_actor='bklawrence',issue_number=12,
+                    issue_url=event['issue']['html_url'],submitted_at=event['issue']['created_at'],
+                    received_at=event['issue']['created_at'],hand_coded=True)
+                path.write_text(json.dumps(payload))
+                receipt=dict(status='saved',path=str(path.relative_to(root)))
+            else:
+                with patch('dl_outcomes.validation.load',return_value=(self.schema,self.tables)):
+                    receipt=accept_issue(root,event)
             b=Build(root)
             for name,rows in self.tables.items():
                 for row in rows:b.add(name,**row)
@@ -131,13 +140,60 @@ class HandCodingTests(unittest.TestCase):
         self.assertIn('language_order',new['percentage_basis'])
         self.assertEqual(validate_tables(tables,self.schema),[])
 
+    def test_new_allocation_intake_requires_kindergarten_whole_percentages(self):
+        def allocation(scope,value,**extra):
+            return self.record(grade_scope=scope,changes={'elementary_allocation_model':
+                dict(value=value,site_ids=[self.site['site_id']],**extra)})
+        for scope,value in [('1','50/50'),('K-5','80/20'),('K','80.5/19.5'),('K','80/30')]:
+            with self.subTest(scope=scope,value=value),self.assertRaises(ValueError):
+                validate_record(allocation(scope,value),self.sites,self.schools,kindergarten_only=True)
+        for percentage in [0,50,85,100]:
+            record=allocation('K',f'{percentage}/{100-percentage}',kindergarten_partner_language_pct=percentage)
+            self.assertEqual(validate_record(record,self.sites,self.schools,kindergarten_only=True),record)
+        for percentage in [True,'80',80.5,101,20,None]:
+            with self.subTest(percentage=percentage),self.assertRaisesRegex(ValueError,'kindergarten percentage'):
+                validate_record(allocation('K','80/20',kindergarten_partner_language_pct=percentage),self.sites,self.schools)
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);self.setup_root(root)
+            payload=self.payload([allocation('K-5','80/20')])
+            with patch('dl_outcomes.validation.load',return_value=(self.schema,self.tables)):
+                with self.assertRaisesRegex(ValueError,'kindergarten only'):
+                    accept_issue(root,self.event(payload))
+            self.assertEqual(list((root/'data/registry/hand_coded_reviews').glob('*.json')),[])
+
+    def test_kindergarten_menu_preserves_explicit_direction_without_inventing_named_shares(self):
+        record=self.record(grade_scope='K',changes={'elementary_allocation_model':
+            dict(value='80/20',kindergarten_partner_language_pct=80,site_ids=[self.site['site_id']])})
+        tables,_=self.reviewed_tables([record])
+        field,_=Selection(tables,self.rules).select_allocations(self.site,'2025-26','elementary',['K-5'])
+        kindergarten=next(v for v in json.loads(field['value_json']) if v['grade_scope']=='K')
+        self.assertEqual(kindergarten['model_label_normalized'],'80/20')
+        self.assertEqual(kindergarten['model_label_language_order'],'partner_then_English_from_kindergarten_menu')
+        self.assertEqual(kindergarten['named_language_shares'],{})
+        self.assertEqual(tables['instructional_allocations'],self.tables['instructional_allocations'])
+        claim=next(c for c in tables['evidence_claims'] if c['attribute']=='hand_coded_review')
+        self.assertEqual(json.loads(claim['reported_value'])['changes']['elementary_allocation_model']['kindergarten_partner_language_pct'],80)
+        self.assertEqual(validate_tables(tables,self.schema),[])
+
+    def test_existing_upper_grade_batch_remains_valid_and_idempotent(self):
+        record=self.record(grade_scope='1-5',changes={'elementary_allocation_model':
+            dict(value='50/50',site_ids=[self.site['site_id']])})
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);self.setup_root(root);payload=self.payload([record]);event=self.event(payload)
+            archived=payload|{'submission':{'github_actor':'bklawrence'}}
+            (root/'data/registry/hand_coded_reviews'/(payload['batch_id']+'.json')).write_text(json.dumps(archived))
+            with patch('dl_outcomes.validation.load',return_value=(self.schema,self.tables)):
+                self.assertEqual(accept_issue(root,event)['status'],'already_saved')
+                with self.assertRaisesRegex(ValueError,'kindergarten only'):
+                    accept_issue(root,self.event(self.payload([record])))
+
     def test_allocation_corrections_keep_other_grades_and_earlier_years(self):
         from dl_outcomes.baseline_selection import grade_set
         site=next(s for s in self.sites.values() if s['school_id']=='NE5-MA-S-c7cf93db6bc0')
         reviews=[self.record(school_id=site['school_id'],grade_scope=grades,changes={
             'elementary_allocation_model':dict(value=value,site_ids=[site['site_id']])})
             for grades,value in [('K','90/10'),('1','60/40'),('Kindergarten','85/15')]]
-        tables,_=self.reviewed_tables(reviews)
+        tables,_=self.reviewed_tables(reviews,legacy=True)
         before,after=Selection(self.tables,self.rules),Selection(tables,self.rules)
         field,_=after.select_allocations(site,'2025-26','elementary',['PK-5'])
         values=json.loads(field['value_json'])

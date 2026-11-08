@@ -55,21 +55,32 @@ or eligibility. Explicit future, closed and non-DL records are excluded from
 that candidate expansion. No new school identities are created.
 
 **Language allocation** is a visible section of the coding form, placed first
-when reviewing allocation gaps or corrections. Record a ratio, its grades,
-review year and evidence URL; delivery and other variables can be left blank.
+when reviewing allocation gaps or corrections. Choose the **partner-language
+percentage in kindergarten** from the menu. Common models appear first, followed
+by other whole percentages from 0 to 100; English is the remainder. The grade is
+fixed to K, and the saved change includes the numeric percentage and its explicit
+partner-language / English ordering. Record a review year and evidence URL;
+delivery and other variables can be left blank. Exceptional schedules and
+fractional percentages belong in the evidence notes rather than a free-text
+allocation field.
 The recorded schedule is displayed by grade, with kindergarten identified in
 the compact summary. E.N. White's K 80/20, grade 1 70/30 and grades 2–5 50/50
 are a progression rather than competing schoolwide models. Named language
 shares are shown only when already supported by the source.
 
-Allocation corrections apply to the described grades. A kindergarten change
+New allocation corrections apply only to kindergarten. A kindergarten change
 keeps independently documented upper-grade ratios, other programs and other
-school years. Multiple grade-specific reviews can coexist; the latest decision
+school years. Historical grade-specific reviews coexist; the latest decision
 for overlapping grades wins. A partial correction of a broad K–5 source retains
 its remaining grades with the original source scope identified separately.
 The canonical source observations and earlier reviews are never overwritten.
-Labels without named language shares remain labels; the app does not invent
-the language order or measured instructional exposure.
+Historical labels without named language shares keep their original language
+ordering status. The kindergarten menu establishes partner-language / English
+ordering without inventing a named language or measured instructional exposure.
+New GitHub submissions are checked for kindergarten-only whole percentages.
+Previously accepted journals remain valid, including upper-grade observations;
+an older local allocation draft requires an explicit kindergarten selection or
+clearing its allocation change before it can be revised.
 
 Opening an entry for inspection does not count as an unsaved change and does
 not block submission. If values, evidence, source context, or scope actually

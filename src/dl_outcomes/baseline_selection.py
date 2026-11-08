@@ -130,6 +130,8 @@ def model_description(row, shares, aliases):
         normalized = '/'.join(f'{float(v):g}' for v in re.findall(r'\d+(?:\.\d+)?', raw))
         order = 'source_order_without_inferred_language_assignment'
     basis = (row.get('percentage_basis') or '').casefold()
+    if not named and normalized and 'hand_coded_kindergarten_partner_then_english' in basis:
+        order = 'partner_then_English_from_kindergarten_menu'
     if 'annual_programme_model_label' in basis:
         basis_class = 'annual_programme_model_label'
     elif 'classroom' in basis:

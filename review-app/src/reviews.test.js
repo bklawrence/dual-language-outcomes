@@ -48,6 +48,24 @@ test('parked reviews can be resumed without inventing structural values',()=>{
   assert.equal(draft.notes,'Source context');
 });
 
+test('kindergarten percentages restore exactly, including zero, while old scopes remain explicit',()=>{
+  for(const percentage of [0,80,100]){
+    const current={...record,grade_scope:'K',changes:{elementary_allocation_model:{value:`${percentage}/${100-percentage}`,kindergarten_partner_language_pct:percentage,site_ids:['mandarin']}}};
+    const draft=draftFromReview(current,school,empty);
+    assert.equal(draft.kindergarten_partner_language_pct,percentage);
+    assert.equal(hasReviewEdits(current,draft,school),false);
+    draft.kindergarten_partner_language_pct='';
+    assert.equal(hasReviewEdits(current,draft,school),true);
+  }
+  const legacy={...record,grade_scope:'1-5',changes:{elementary_allocation_model:{value:'50/50',site_ids:['mandarin']}}};
+  const draft=draftFromReview(legacy,school,empty);
+  assert.equal(draft.allocation,'50/50');
+  assert.equal(draft.grade_scope,'1-5');
+  assert.equal(draft.kindergarten_partner_language_pct,'');
+  assert.equal(draft.notes,'Source context');
+  assert.equal(hasReviewEdits(legacy,draft,school),false);
+});
+
 test('a cleared coding basis stays unselected when an entry is edited again',()=>{
   assert.equal(draftFromReview({...record,coding_method:'not_recorded'},school,empty).coding_method,'');
   assert.equal(draftFromReview({...record,coding_method:'researcher_interpretation'},school,empty).coding_method,'researcher_interpretation');

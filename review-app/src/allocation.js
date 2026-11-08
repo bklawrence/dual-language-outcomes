@@ -1,3 +1,30 @@
+export const COMMON_KINDERGARTEN_PERCENTAGES=[90,80,70,60,50];
+export const OTHER_KINDERGARTEN_PERCENTAGES=Array.from({length:101},(_,i)=>100-i)
+  .filter(p=>!COMMON_KINDERGARTEN_PERCENTAGES.includes(p));
+
+export function kindergartenChoice(draft) {
+  const raw=draft.kindergarten_partner_language_pct;
+  if(raw===''||raw===null||raw===undefined||!/^\d{1,3}$/.test(String(raw)))return null;
+  const percentage=Number(raw);
+  if(!Number.isInteger(percentage)||percentage<0||percentage>100)return null;
+  const grades=allocationGrades(draft.grade_scope);
+  if(!grades||grades.length!==1||grades[0]!==0)return null;
+  const value=`${percentage}/${100-percentage}`;
+  return draft.allocation===value?{percentage,value}:null;
+}
+
+export function kindergartenReviewError(record) {
+  const change=record.changes?.elementary_allocation_model;
+  if(!change)return '';
+  const grades=allocationGrades(record.grade_scope),pieces=String(change.value).match(/^(\d{1,3})\/(\d{1,3})$/);
+  if(!grades||grades.length!==1||grades[0]!==0||!pieces||Number(pieces[1])+Number(pieces[2])!==100)
+    return 'Allocation edits now apply to kindergarten only. Open this review in My reviews and choose a kindergarten percentage, or clear its allocation change.';
+  const percentage=change.kindergarten_partner_language_pct;
+  if(percentage!==undefined&&(!Number.isInteger(percentage)||percentage<0||percentage>100||change.value!==`${percentage}/${100-percentage}`))
+    return 'Choose a valid kindergarten percentage from the menu before publishing.';
+  return '';
+}
+
 export function allocationGrades(scope) {
   const match=String(scope||'').toUpperCase().replace(/\bPRE[ -]?KINDERGARTEN\b/g,'PK')
     .replace(/\bKINDERGARTEN\b/g,'K').replace(/\bPRE[ -]?K\b/g,'PK').replace(/[–—]/g,'-').trim()

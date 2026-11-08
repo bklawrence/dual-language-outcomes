@@ -133,6 +133,8 @@ h1, h2, h3 { font-weight: 550; }
 .allocation-schedule dd span, .allocation-schedule dd small { color: var(--muted); }
 .allocation-schedule dd small { display: block; font-size: 10px; }
 .allocation-inputs .field { margin-bottom: 9px; min-width: 0; }
+.kindergarten-allocation { margin-bottom: 9px; }
+.clear-allocation { font-size: 10px; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; margin: 0 0 12px; padding: 0; }
 .allocation-editor>.field-help { margin-bottom: 12px; }
 .case-grid { display: grid; grid-template-columns: minmax(330px, 1fr) minmax(210px, .51fr); gap: 36px; align-items: start; }
 .coding-card { min-width: 0; }

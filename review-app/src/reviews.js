@@ -46,6 +46,7 @@ export function draftFromReview(record, school, empty) {
     delivery: changes.delivery_structure?.value || '',
     population: changes.population_model?.value || '',
     allocation: changes.elementary_allocation_model?.value || '',
+    kindergarten_partner_language_pct: changes.elementary_allocation_model?.kindergarten_partner_language_pct??'',
     languages: changes.instruction_languages?.value.join(', ') || '',
     evidence_url: record.evidence_url || '', notes: record.notes || '',
     source_quote: record.source_quote || '', source_locator: record.source_locator || '',
@@ -79,10 +80,10 @@ export function hasReviewEdits(record, draft, school) {
   if (!school) return true;
   try {
     const original = draftFromReview(record, school, {});
-    const fields = ['delivery', 'population', 'allocation', 'languages', 'evidence_url', 'notes',
+    const fields = ['delivery', 'population', 'allocation', 'kindergarten_partner_language_pct', 'languages', 'evidence_url', 'notes',
       'source_quote', 'source_locator', 'grade_scope', 'source_school_year', 'reference_year', 'coding_method',
       'program_status','status_year','destination_name','destination_id','destination_url'];
-    if (fields.some(key => (draft[key] || '').trim() !== (original[key] || '').trim())) return true;
+    if (fields.some(key => String(draft[key]??'').trim() !== String(original[key]??'').trim())) return true;
     const selected = school.sites.find(s => s.site_id === draft.site_id);
     if (!selected) return true;
     const scoped=Object.entries(record.changes || {});

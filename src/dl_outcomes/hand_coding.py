@@ -52,7 +52,7 @@ def allocation_grade_scope(value):
     return re.sub(r'\bPRE[ -]?K\b','PK',value,flags=re.I)
 
 
-def validate_record(record, sites, schools):
+def validate_record(record, sites, schools, *, kindergarten_only=False):
     """No name matching, inferred identities, blank-value overwrites or future-year backfill."""
     if not isinstance(record, dict) or not identifier(record.get('review_id')):
         raise ValueError('Every review needs a valid unique review ID.')
@@ -117,6 +117,7 @@ def validate_record(record, sites, schools):
         if variable in CHOICES and (not isinstance(value,str) or value not in CHOICES[variable]):
             raise ValueError('Unsupported value for ' + variable)
         if variable == 'elementary_allocation_model':
+            from .baseline_selection import grade_set
             from .elementary_audit import elementary_scope
             if not isinstance(value, str) or not re.fullmatch(r'\d{1,3}(?:\.\d+)?/\d{1,3}(?:\.\d+)?', value):
                 raise ValueError('Use an allocation label such as 90/10 or 50/50.')
@@ -127,6 +128,14 @@ def validate_record(record, sites, schools):
                 raise ValueError('Record the grades to which the allocation applies.')
             if elementary_scope(allocation_grade_scope(record['grade_scope'])) in {'secondary_6_plus','preschool_only'}:
                 raise ValueError('This variable records elementary allocation models; retain secondary program details in the research notes.')
+            kindergarten = grade_set(allocation_grade_scope(record['grade_scope'])) == {0}
+            if kindergarten_only and (not kindergarten or not re.fullmatch(r'\d{1,3}/\d{1,3}', value)):
+                raise ValueError('New allocation edits require a whole-number partner-language percentage in kindergarten only; choose it from the Fieldnotes menu.')
+            if 'kindergarten_partner_language_pct' in change:
+                percentage = change['kindergarten_partner_language_pct']
+                if (type(percentage) is not int or not 0 <= percentage <= 100 or not kindergarten
+                        or value != f'{percentage}/{100-percentage}'):
+                    raise ValueError('The kindergarten percentage must match the partner-language / English allocation selected from the menu.')
         if variable == 'instruction_languages':
             if not isinstance(value, list) or not 1 <= len(value) <= 8 or any(not isinstance(v, str) or not v.strip() or len(v)>80 for v in value):
                 raise ValueError('List the explicitly documented instructional languages.')
@@ -181,6 +190,8 @@ def accept_issue(root, event):
         if old['records'] != payload['records'] or old['submission']['github_actor'].lower() != actor.lower():
             raise ValueError('This batch ID already exists with different content.')
         return {'status': 'already_saved', 'path': str(path.relative_to(root)), 'batch_id': payload['batch_id']}
+    for record in payload['records']:
+        validate_record(record, sites, schools, kindergarten_only=True)
     existing_ids = {r['review_id'] for p in (root/JOURNAL).glob('*.json') for r in json.loads(p.read_text())['records']}
     if existing_ids & {r['review_id'] for r in payload['records']}:
         raise ValueError('A review in this batch was already submitted; refresh the website before republishing.')
@@ -282,10 +293,13 @@ def migrate(build):
                         from .baseline_selection import grade_set
                         table='allocation_schedules'
                         allocation_grades=allocation_grade_scope(record['grade_scope'])
+                        kindergarten_menu = 'kindergarten_partner_language_pct' in change
                         build.add(table,schedule_id=cid,site_id=site_id,school_id=record['school_id'],school_year=record.get('source_school_year'),
                                   grade_scope=allocation_grades,reported_model_label=change['value'],
-                                  percentage_basis='hand_coded_source_reported_model_label_language_order_and_instructional_denominator_not_established',
-                                  schedule_status='reported_policy_requires_review',evidence_review_status='HAND_CODED_SOURCE_LABEL',
+                                  percentage_basis=('hand_coded_kindergarten_partner_then_English_model_label_instructional_denominator_not_established' if kindergarten_menu else
+                                                    'hand_coded_source_reported_model_label_language_order_and_instructional_denominator_not_established'),
+                                  schedule_status='reported_policy_requires_review',
+                                  evidence_review_status='HAND_CODED_KINDERGARTEN_PERCENTAGE' if kindergarten_menu else 'HAND_CODED_SOURCE_LABEL',
                                   grade_support_status='EXPLICIT_GRADE' if grade_set(allocation_grades) else 'PUBLISHED_MODEL_ONLY',tested_cohort_exposure='not_established',
                                   evidence_period_raw=period,source_id=source,source_locator=locator,notes=notes)
                     scope=dict(site_id=site_id,program_id=site['program_id'],school_id=record['school_id'],fact_id=locator,

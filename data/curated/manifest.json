@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-1eeb9dc724d25ddc8c43911a602ef73a",
-  "built_at": "2026-11-07T23:25:35.133298+00:00",
-  "base_git_revision": "842a76c08edf743a18eabde877f33698108f1e78",
+  "build_id": "build-65334c19e5e75b549055a6226995c736",
+  "built_at": "2026-11-08T00:03:08.505615+00:00",
+  "base_git_revision": "d42cbc6fbf5ec994135796df757f54b6b5c2e1fa",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
@@ -5567,7 +5567,7 @@
     "src/dl_outcomes/allocation_selection.py": "8f0ad938a23af9f999bb657607bfe30792082f44ba8e3d4608e4d6e77c397f2f",
     "src/dl_outcomes/analytics.py": "4482aaf8ecefb73759bd9d09b4fcb8f71d5057879a10ee63bf05be82132f4fbb",
     "src/dl_outcomes/baseline.py": "59d57ddfd1ca505a5b5ae5ec19bb5a6d55dbe4c159e649306b7d6bf202c9ab57",
-    "src/dl_outcomes/baseline_selection.py": "5a070eaa9413ea10cb1a4fd1d3a82273779409e3b8c11dd1d05e7195dc9b689c",
+    "src/dl_outcomes/baseline_selection.py": "5675a545cba2ce10d77568848c0d35c6410b6f512176dfa5c8a6dd7f88f4f653",
     "src/dl_outcomes/build.py": "daa5f59e959051a0ba5976045fbcdec450e82d21311a5c155503b6188bc50849",
     "src/dl_outcomes/cli.py": "2ff6b94601b372125d0a85bfddbb72e9f8dbee51a709e6b6dea53a5fbec3ddd9",
     "src/dl_outcomes/collection_provenance.py": "ccf5181dbea3c1d9dd3a97ebccd98a0cdc89abf0bb30e223563f101e7918ae90",
@@ -5584,7 +5584,7 @@
     "src/dl_outcomes/evidence_scope.py": "2bafa862ebec9a700d4ced74b5b9ce88279fb8ec82a1241c7e90921822c31c4d",
     "src/dl_outcomes/gap_pilot.py": "23a367d46491eb5b776b316ea9007187934f4cc21c6689b82b35bbfee68a9f62",
     "src/dl_outcomes/great_lakes_review.py": "f6d2ce797ce08ec9e7758f3f294e61d09dff17d97d06fece764278e3968c4123",
-    "src/dl_outcomes/hand_coding.py": "3fa245f1a970994dc65eb10fe45ddff6041d17ca83c392431096e4842f80b6b4",
+    "src/dl_outcomes/hand_coding.py": "6c756f1e642b5e3485d2260f3c05ada702e8b559bbe743fbc82f533a7c51f097",
     "src/dl_outcomes/identity_audit.py": "73f978fa8799a8d6023fff56999376d786800c5e7b82ba6ccf383c677bc5e4a8",
     "src/dl_outcomes/illinois_history.py": "fbd2b14aaaf625ee1d6c699dd71df757b6ae92c6fed3faf92bc02f291a97e676",
     "src/dl_outcomes/io.py": "f81afe19783954cd9dff3c845c1e74a93168be8f1226584de960c80298c33902",
@@ -6531,7 +6531,7 @@
       "sha256": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "a36d3eaee04c78f9c26139ff3ceea5fa48d6bb15af24cd13823bbab66a57667c"
+      "sha256": "daa15f3dad8e3ecce050b1ee1ebcd3991b878590702156066bde98a30caa00cb"
     }
   }
 }

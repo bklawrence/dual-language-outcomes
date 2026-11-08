@@ -1,12 +1,37 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {allocationWithReviews,allocationSummary,allocationRows} from './allocation.js';
+import {allocationWithReviews,allocationSummary,allocationRows,kindergartenChoice,kindergartenReviewError,COMMON_KINDERGARTEN_PERCENTAGES,OTHER_KINDERGARTEN_PERCENTAGES} from './allocation.js';
 import {matchesReviewTask,schoolPriorityStatus,fieldWithReviews} from './queue.js';
 
 const schedule=(grade,model,shares={})=>({grade_scope:grade,model_label_normalized:model,named_language_shares:shares});
 const original={value:['50/50','70/30','80/20'],status:'documented',schedules:[schedule('K','80/20',{Spanish:80,English:20}),schedule('1','70/30'),schedule('2-5','50/50')]};
 const review=(grades,value,id)=>({review_id:id,school_id:'school',reference_year:'2025-26',grade_scope:grades,
   coding_method:'explicit_source_statement',changes:{elementary_allocation_model:{value,site_ids:['site']}}});
+
+test('kindergarten menu offers each whole percentage once and checks the language ordering',()=>{
+  const options=[...COMMON_KINDERGARTEN_PERCENTAGES,...OTHER_KINDERGARTEN_PERCENTAGES];
+  assert.equal(options.length,101);
+  assert.equal(new Set(options).size,101);
+  assert.deepEqual([...options].sort((a,b)=>a-b),Array.from({length:101},(_,i)=>i));
+  for(const percentage of [0,50,85,100]){
+    const value=`${percentage}/${100-percentage}`;
+    assert.deepEqual(kindergartenChoice({grade_scope:'K',allocation:value,kindergarten_partner_language_pct:String(percentage)}),{percentage,value});
+  }
+  for(const [percentage,allocation,grade_scope] of [['','80/20','K'],['80.5','80.5/19.5','K'],['101','101/0','K'],['80','20/80','K'],['80','80/20','1'],['80','80/20','K-5']]){
+    assert.equal(kindergartenChoice({grade_scope,allocation,kindergarten_partner_language_pct:percentage}),null);
+  }
+});
+test('new submission batches reject non-kindergarten and malformed allocation drafts',()=>{
+  for(const [scope,value] of [['1','50/50'],['K-5','80/20'],['K','80.5/19.5'],['K','80/30']]){
+    assert.match(kindergartenReviewError(review(scope,value,'a')),/kindergarten only/);
+  }
+  const current=review('K','80/20','a');current.changes.elementary_allocation_model.kindergarten_partner_language_pct=80;
+  assert.equal(kindergartenReviewError(current),'');
+  assert.equal(kindergartenReviewError(review('Kindergarten','80/20','legacy')),'');
+  current.changes.elementary_allocation_model.kindergarten_partner_language_pct='80';
+  assert.match(kindergartenReviewError(current),/valid kindergarten percentage/);
+  assert.equal(kindergartenReviewError({changes:{delivery_structure:{value:'strand'}}}),'');
+});
 
 test('grade progression is displayed by grade with kindergarten as the summary',()=>{
   assert.equal(allocationSummary(original),'K: 80/20');
