@@ -47,6 +47,7 @@ export function draftFromReview(record, school, empty) {
     population: changes.population_model?.value || '',
     allocation: changes.elementary_allocation_model?.value || '',
     kindergarten_partner_language_pct: changes.elementary_allocation_model?.kindergarten_partner_language_pct??'',
+    allocation_other: Boolean(record.allocation_other),
     languages: changes.instruction_languages?.value.join(', ') || '',
     evidence_url: record.evidence_url || '', notes: record.notes || '',
     source_quote: record.source_quote || '', source_locator: record.source_locator || '',
@@ -80,6 +81,7 @@ export function hasReviewEdits(record, draft, school) {
   if (!school) return true;
   try {
     const original = draftFromReview(record, school, {});
+    if(Boolean(draft.allocation_other)!==Boolean(original.allocation_other))return true;
     const fields = ['delivery', 'population', 'allocation', 'kindergarten_partner_language_pct', 'languages', 'evidence_url', 'notes',
       'source_quote', 'source_locator', 'grade_scope', 'source_school_year', 'reference_year', 'coding_method',
       'program_status','status_year','destination_name','destination_id','destination_url'];

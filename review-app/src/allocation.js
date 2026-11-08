@@ -1,6 +1,4 @@
 export const COMMON_KINDERGARTEN_PERCENTAGES=[90,80,70,60,50];
-export const OTHER_KINDERGARTEN_PERCENTAGES=Array.from({length:101},(_,i)=>100-i)
-  .filter(p=>!COMMON_KINDERGARTEN_PERCENTAGES.includes(p));
 
 export function kindergartenChoice(draft) {
   const raw=draft.kindergarten_partner_language_pct;

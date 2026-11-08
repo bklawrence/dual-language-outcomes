@@ -66,6 +66,15 @@ test('kindergarten percentages restore exactly, including zero, while old scopes
   assert.equal(hasReviewEdits(legacy,draft,school),false);
 });
 
+test('Other allocation notes reopen with their choice and do not invent a numeric model',()=>{
+  const other={...record,grade_scope:'K',changes:{},allocation_other:true,disposition:'needs_review'};
+  const draft=draftFromReview(other,school,empty);
+  assert.equal(draft.allocation_other,true);assert.equal(draft.allocation,'');
+  assert.equal(draft.notes,'Source context');assert.equal(hasReviewEdits(other,draft,school),false);
+  draft.allocation_other=false;
+  assert.equal(hasReviewEdits(other,draft,school),true);
+});
+
 test('a cleared coding basis stays unselected when an entry is edited again',()=>{
   assert.equal(draftFromReview({...record,coding_method:'not_recorded'},school,empty).coding_method,'');
   assert.equal(draftFromReview({...record,coding_method:'researcher_interpretation'},school,empty).coding_method,'researcher_interpretation');

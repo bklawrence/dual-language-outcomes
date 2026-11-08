@@ -56,8 +56,11 @@ that candidate expansion. No new school identities are created.
 
 **Language allocation** is a visible section of the coding form, placed first
 when reviewing allocation gaps or corrections. Choose the **partner-language
-percentage in kindergarten** from the menu. Common models appear first, followed
-by other whole percentages from 0 to 100; English is the remainder. The grade is
+percentage in kindergarten** from the menu: 90%, 80%, 70%, 60%, 50%, or
+**Other**. English is the remainder. Other opens a prompt to describe the model
+in Research notes; it saves that evidence for review without assigning an
+allocation percentage. Existing uncommon numeric reviews retain their values
+when reopened under Other. The grade is
 fixed to K, and the saved change includes the numeric percentage and its explicit
 partner-language / English ordering. Record a review year and evidence URL;
 delivery and other variables can be left blank. Exceptional schedules and

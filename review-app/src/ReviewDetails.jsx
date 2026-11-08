@@ -20,6 +20,7 @@ export default function ReviewDetails({record, school, inventoryYear}) {
         return <tr key={variable}><th>{FIELD_LABELS[variable] || variable}<small>{scope}</small></th><td>{before.join(' / ') || 'Not recorded'}</td><td>{entry}</td></tr>;
       })}</tbody>
     </table> : !record.program_event&&<p className="parked-note">Evidence and research notes only. No program values have been assigned; this school remains available for coding.</p>}
+    {record.allocation_other&&<p className="parked-note">Other kindergarten allocation — see Research notes. Saved for review; no percentage has been assigned.</p>}
     {record.program_event&&<div className="program-event-summary">
       <dl className="review-context"><div><dt>Program status</dt><dd>{STATUS_LABELS[record.program_event.kind]}</dd></div><div><dt>First supported school year</dt><dd>{record.program_event.first_school_year}</dd></div><div><dt>Program scope</dt><dd>{record.program_event.site_ids.map(id=>school?.sites.find(s=>s.site_id===id)?.label||id).join('; ')}</dd></div></dl>
       {record.program_event.kind==='moved'&&<p>Destination: {record.program_event.destination_school_name||'Not stated / needs follow-up'}{sourceLink(record.program_event.destination_url)&&<> · <a href={record.program_event.destination_url} target="_blank" rel="noreferrer">School website <ExternalLink size={11}/></a></>}</p>}

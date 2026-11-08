@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {allocationWithReviews,allocationSummary,allocationRows,kindergartenChoice,kindergartenReviewError,COMMON_KINDERGARTEN_PERCENTAGES,OTHER_KINDERGARTEN_PERCENTAGES} from './allocation.js';
+import {allocationWithReviews,allocationSummary,allocationRows,kindergartenChoice,kindergartenReviewError,COMMON_KINDERGARTEN_PERCENTAGES} from './allocation.js';
 import {matchesReviewTask,schoolPriorityStatus,fieldWithReviews} from './queue.js';
 
 const schedule=(grade,model,shares={})=>({grade_scope:grade,model_label_normalized:model,named_language_shares:shares});
@@ -8,11 +8,8 @@ const original={value:['50/50','70/30','80/20'],status:'documented',schedules:[s
 const review=(grades,value,id)=>({review_id:id,school_id:'school',reference_year:'2025-26',grade_scope:grades,
   coding_method:'explicit_source_statement',changes:{elementary_allocation_model:{value,site_ids:['site']}}});
 
-test('kindergarten menu offers each whole percentage once and checks the language ordering',()=>{
-  const options=[...COMMON_KINDERGARTEN_PERCENTAGES,...OTHER_KINDERGARTEN_PERCENTAGES];
-  assert.equal(options.length,101);
-  assert.equal(new Set(options).size,101);
-  assert.deepEqual([...options].sort((a,b)=>a-b),Array.from({length:101},(_,i)=>i));
+test('kindergarten menu offers the common models while historical percentages stay valid',()=>{
+  assert.deepEqual(COMMON_KINDERGARTEN_PERCENTAGES,[90,80,70,60,50]);
   for(const percentage of [0,50,85,100]){
     const value=`${percentage}/${100-percentage}`;
     assert.deepEqual(kindergartenChoice({grade_scope:'K',allocation:value,kindergarten_partner_language_pct:String(percentage)}),{percentage,value});
