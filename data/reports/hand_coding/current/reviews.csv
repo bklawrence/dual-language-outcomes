@@ -30,6 +30,60 @@ df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,
 ",,coded
 016b079c-fef8-4fc6-8906-66b4bf462fab,SE-FL-S-ff1ffa31cd44,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,not_recorded,https://www.youtube.com/watch?v=HjLpc0APtPM&t=26s,The school is described as a language academy and describes itself as the largest DL program in the district. It explicitly states that it is supported by an exchange program from Spain. Still not sure if it is a strand or whole.,,"{}
 ",,needs_review
+d68b7669-c36c-4aea-8d60-b5efe1a5da41,SE-GA-S-9a70b4dcb033,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://www.gcpsk12.org/schools/school-profiles-and-lspi/school-profiles/elementary-schools/level-creek-elementary-school,Says 2 DLI classes per grade,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-dd33b6acb50a513884640a9879e1836e""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+935d6354-a41b-4c4d-ab52-1f4a31722f19,SE-GA-S-dd79e1e7bac0,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://mulberryes.gcpsk12.org/about-us/staff-directory,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-b25184e8119450b68812ef7463088474""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+d09b67bb-2aec-4f43-99da-5a07659210e8,SE-GA-S-d7ab8f929109,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://parsonses.gcpsk12.org/staff/departments,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-b51488e43fce52d58d18f3ded1629a98""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+043b9552-e469-4751-87d4-390e6c4c7604,SE-GA-S-1f3b5aa2256d,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://www.gcpsk12.org/programs-and-services/dual-language-immersion,French teacher bios,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-babd2adbba7c5d5d914f501c40645fba""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+eebc0a6c-d108-4269-82c9-ac23ff04ca1b,SE-GA-S-fdc68182e50e,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://parkstreet.marietta-city.org/steam/park-street-programs/dual-language-immersion-program,May be phasing out program in the future.,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-5e021fdbf2f8587e8e7fb0d850f8c715""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+aa0f923d-b283-415f-b8d6-ec24b03f85dd,SE-GA-S-e2d4fbd7399e,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:24Z,researcher_interpretation,https://www.marietta-city.org/departments1/academic-achievement-and-programs/multilingual-learners,School also offers gifted program,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-7960e4e63376561997a4ce032bf108b0""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 e96709c4-4c59-4fb9-9553-7eeae6c3991c,WP-AZ-S-0c510192dc9b,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,researcher_interpretation,https://tarwater.cusd80.com/about/our-staff,Staff directory,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -257,6 +311,99 @@ da4bda93-7f6c-4159-a783-0756d480632a,CA-S-277fecde8631,2025-26,True,bklawrence,b
   }
 }
 ",,coded
+805d87df-5f26-4010-b6e4-95c42ec068ca,SE-FL-S-121a8c275e82,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,explicit_source_statement,https://www.coralwayk8center.com/bilingual-program/,School description,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-9c252755976d5de2b14996038e9e9e40""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+2b328333-7539-4c1b-893e-8e2e03db0c2d,SE-FL-S-16168963cb92,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,explicit_source_statement,https://adamerrittk-8center.org/,Website description,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ae7009f973e354cfbba0dae3158999dc"",
+      ""site-b1b1f2d0a9ee5a25a60e916d24ea199b""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+ea26433c-d09b-4a36-8768-127799c86536,SE-FL-S-3d7c0cb142ef,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://coconutgroveschool.org/,Some teachers labeled as Spanish or French and some as neither,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-c5fa21b5f173542f9dccd6886b19441d""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+1122975b-2ddb-4b5b-8797-f3269d9cb868,SE-FL-S-488fa358928f,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://sunsetinternationalschool.com/faculty-and-staff-directory/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-212fc410ffe35ffe993d086156c40bac"",
+      ""site-362ba4faa950567498dd7901e0e14909"",
+      ""site-bf5c367ebe5b5ea4bb74d57577d8e631""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+d40533c8-8dbf-4f94-9067-02cbc97945e2,SE-GA-S-7317ffb73e7e,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://benteen.atlantapublicschools.us/our-school/staff-directory,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-56eda4f4bfef546eb2e95660c804dfb2""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+5f1437d8-143b-4013-903a-f52338170a55,SE-GA-S-bb30d86e0717,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,explicit_source_statement,https://bolton.atlantapublicschools.us/teaching-and-learning/language-policy,School distinguishes DL and non-DL students,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-b5c178c512a65752b08d7309650c87ab""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+fb87569b-022a-413e-8ed8-4c13d12306b0,SE-GA-S-1d6507a4c985,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://rivers.atlantapublicschools.us/teaching-and-learning/dual-language-immersion,Describes as opt-in,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-720e08ed7ebc5251b4800f41b8007fda""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+3e96c514-691e-418b-8183-6b7557347713,SE-GA-S-74e79a79c1d4,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://www.atlantapublicschools.us/about/departments/teaching-learning/multilingual-programs-services/dual-language-immersion/dli-program-articulation,Opt-in strand,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-0667672bf8a15504b257b48417eabfee""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+19333884-c5be-4025-956d-1633794eceef,SE-GA-S-997abb71bace,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,explicit_source_statement,https://www.atlantapublicschools.us/about/departments/teaching-learning/multilingual-programs-services/dual-language-immersion/dli-program-articulation,Separate DL program contact,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-d88b68641cf757e3b4dd1a16214b1795""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+d5e43853-85ff-4ad6-9633-799da3344735,SE-GA-S-a5d37fb98027,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:01Z,researcher_interpretation,https://sarahsmith.atlantapublicschools.us/families/communication-guide,Separate DL contact,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-fc167ff1e11452caa9f880acf3f31504""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 0eda9415-cfb9-4166-81d1-06fa9d687c29,ID-S-012a3bd22d74,2025-26,True,bklawrence,bklawrence,2026-11-07T18:25:50Z,researcher_interpretation,https://www.idahoreportcard.org/about-us/school?schoolId=0636,It's described on the website as the district's DL school and the school is 40%+ ELL students.,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -360,6 +507,96 @@ b6ef4f61-a821-42c1-b5ce-1ba2682d9763,WA-S100535,2025-26,True,bklawrence,bklawren
   ""delivery_structure"": {
     ""site_ids"": [
       ""site-d531966c5b955a60b4d3375e09d19302""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+8f366d71-d260-4cc3-b63a-1064e6838fcd,SE-GA-S-1634918860f2,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.cobbk12.org/dowell/faculty-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-49378509c2805b69a258c00f398f3192""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+80721008-de47-429a-ae4b-5d3892af8680,SE-GA-S-94be7bbbe8e2,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.cobbk12.org/mableton/faculty-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-efc4569cbf4d5fb78facaae6617605cc""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+82759e8f-a1a0-47a9-bbfd-1a490d7ba3a0,SE-GA-S-f6dda34322d5,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.cobbk12.org/nickajack/faculty-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-1d0175ce0e2254b6a7b14621ac830060""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+46d0e651-de98-49f2-b96f-46e519e8490e,SE-GA-S-757328130bc2,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.cobbk12.org/smyrna/faculty-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-515730ae04a758e59992bde9a77111c6""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+3b77242c-39ba-4562-9a7a-6dfd2e4b1180,SE-GA-S-b9f7aa58f706,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.cobbk12.org/russell/faculty-staff,Every other school in district is a strand model,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ed92e2b7f95e5e1894a56031cf1d343d""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+fcd883f6-f33a-4944-8867-59f2cb348651,SE-GA-S-7b6945382345,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://ccps.crispschools.org/o/ccps/staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-f199b53abc3e51f3a6ff0fee66ced69c""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+4cc4d433-3fd3-4b21-811f-0af7fafc60f9,SE-GA-S-97737211ca45,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://www.ashfordparkes.dekalb.k12.ga.us/STEM.aspx,School distinguishes DL/non-DL classrooms,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-bd4a98800fd85f77a18aac234724f8bc""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+46363eda-d993-4e22-979a-6f3203cd414e,SE-GA-S-1a6aa4605da3,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://annistownes.gcpsk12.org/staff/staff-directory,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-09b504334ff9522abc6b0cc1aa5e74c8""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+8aa0299c-9778-4660-bdae-b3e20f65449f,SE-GA-S-d79e247fda75,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://baldwines.gcpsk12.org/academics/kindergarten-registration-and-dual-language-immersion,Application language on WS,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-587af3d30d2d5de2ac1178661ec758ac""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+ddc1b7f6-47fe-463b-bc67-5eea8111b267,SE-GA-S-555aa529417f,2025-26,True,bklawrence,bklawrence,2026-11-08T14:21:14Z,researcher_interpretation,https://ivycreekes.gcpsk12.org/general-information/staff-directory,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-bfe23ff84c9d50a296e1fd9c6b35d819""
     ],
     ""value"": ""strand""
   }

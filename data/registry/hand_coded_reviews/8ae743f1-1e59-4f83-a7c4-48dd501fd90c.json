@@ -1,0 +1,274 @@
+{
+  "batch_id": "8ae743f1-1e59-4f83-a7c4-48dd501fd90c",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-49378509c2805b69a258c00f398f3192"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:05:41.212Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cobbk12.org/dowell/faculty-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "8f366d71-d260-4cc3-b63a-1064e6838fcd",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-1634918860f2",
+      "school_name": "Dowell Elementary School",
+      "selected_site_id": "site-49378509c2805b69a258c00f398f3192",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-efc4569cbf4d5fb78facaae6617605cc"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:06:20.626Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cobbk12.org/mableton/faculty-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "80721008-de47-429a-ae4b-5d3892af8680",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-94be7bbbe8e2",
+      "school_name": "Mableton Elementary School",
+      "selected_site_id": "site-efc4569cbf4d5fb78facaae6617605cc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1d0175ce0e2254b6a7b14621ac830060"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:07:03.461Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cobbk12.org/nickajack/faculty-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "82759e8f-a1a0-47a9-bbfd-1a490d7ba3a0",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-f6dda34322d5",
+      "school_name": "Nickajack Elementary School",
+      "selected_site_id": "site-1d0175ce0e2254b6a7b14621ac830060",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-515730ae04a758e59992bde9a77111c6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:07:52.877Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cobbk12.org/smyrna/faculty-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "46d0e651-de98-49f2-b96f-46e519e8490e",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-757328130bc2",
+      "school_name": "Smyrna Elementary School",
+      "selected_site_id": "site-515730ae04a758e59992bde9a77111c6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ed92e2b7f95e5e1894a56031cf1d343d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:08:31.059Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.cobbk12.org/russell/faculty-staff",
+      "grade_scope": "",
+      "notes": "Every other school in district is a strand model",
+      "reference_year": "2025-26",
+      "review_id": "3b77242c-39ba-4562-9a7a-6dfd2e4b1180",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-b9f7aa58f706",
+      "school_name": "Russell Elementary School",
+      "selected_site_id": "site-ed92e2b7f95e5e1894a56031cf1d343d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f199b53abc3e51f3a6ff0fee66ced69c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:09:13.710Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://ccps.crispschools.org/o/ccps/staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "fcd883f6-f33a-4944-8867-59f2cb348651",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-7b6945382345",
+      "school_name": "Crisp County Primary School",
+      "selected_site_id": "site-f199b53abc3e51f3a6ff0fee66ced69c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-bd4a98800fd85f77a18aac234724f8bc"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:10:20.125Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.ashfordparkes.dekalb.k12.ga.us/STEM.aspx",
+      "grade_scope": "",
+      "notes": "School distinguishes DL/non-DL classrooms",
+      "reference_year": "2025-26",
+      "review_id": "4cc4d433-3fd3-4b21-811f-0af7fafc60f9",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-97737211ca45",
+      "school_name": "Ashford Park Elementary School",
+      "selected_site_id": "site-bd4a98800fd85f77a18aac234724f8bc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-09b504334ff9522abc6b0cc1aa5e74c8"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:11:27.742Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://annistownes.gcpsk12.org/staff/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "46363eda-d993-4e22-979a-6f3203cd414e",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-1a6aa4605da3",
+      "school_name": "Annistown Elementary School",
+      "selected_site_id": "site-09b504334ff9522abc6b0cc1aa5e74c8",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-587af3d30d2d5de2ac1178661ec758ac"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:12:00.675Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://baldwines.gcpsk12.org/academics/kindergarten-registration-and-dual-language-immersion",
+      "grade_scope": "",
+      "notes": "Application language on WS",
+      "reference_year": "2025-26",
+      "review_id": "8aa0299c-9778-4660-bdae-b3e20f65449f",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-d79e247fda75",
+      "school_name": "Baldwin Elementary School",
+      "selected_site_id": "site-587af3d30d2d5de2ac1178661ec758ac",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-bfe23ff84c9d50a296e1fd9c6b35d819"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:14:31.357Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://ivycreekes.gcpsk12.org/general-information/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "ddc1b7f6-47fe-463b-bc67-5eea8111b267",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-555aa529417f",
+      "school_name": "Ivy Creek Elementary School",
+      "selected_site_id": "site-bfe23ff84c9d50a296e1fd9c6b35d819",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 39,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/39",
+    "received_at": "2026-11-08T14:21:37.634276+00:00",
+    "submitted_at": "2026-11-08T14:21:14Z"
+  },
+  "version": 1
+}

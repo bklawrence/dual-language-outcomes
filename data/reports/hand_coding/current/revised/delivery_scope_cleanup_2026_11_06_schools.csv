@@ -735,8 +735,8 @@ SC-OK-S-e9735ef06078,OK,Truman Primary School,Norman Public Schools,1,1,1,0,stra
 SC-OK-S-f07caf105ed5,OK,John Glenn Elementary School,Western Heights Public Schools,1,1,1,0,strand
 SE-FL-S-016eb297a8a9,FL,Highland Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-084d0a879935,FL,Hagen Road Elementary School,School District of Palm Beach County,1,0,0,0,
-SE-FL-S-121a8c275e82,FL,Coral Way K-8 Center,Miami-Dade County Public Schools,1,0,0,0,strand | whole_school
-SE-FL-S-16168963cb92,FL,Ada Merritt K-8 Center,Miami-Dade County Public Schools,2,0,0,0,strand | whole_school
+SE-FL-S-121a8c275e82,FL,Coral Way K-8 Center,Miami-Dade County Public Schools,1,0,1,0,whole_school
+SE-FL-S-16168963cb92,FL,Ada Merritt K-8 Center,Miami-Dade County Public Schools,2,0,1,0,whole_school
 SE-FL-S-20ba5c53be6b,FL,West Gate Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-279c7829094e,FL,Rolling Green Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-2b977fd504c2,FL,New Horizons Elementary School,School District of Palm Beach County,1,0,0,0,
@@ -744,12 +744,12 @@ SE-FL-S-2c5306a1613f,FL,Southside Preparatory Academy,Miami-Dade County Public S
 SE-FL-S-2dce3e9c2708,FL,San Jose Elementary School,Duval County Public Schools,1,1,1,0,strand
 SE-FL-S-2fd86004fe01,FL,Crestwood Elementary School,Hillsborough County Public Schools,1,1,1,0,strand
 SE-FL-S-30be89a21091,FL,South Grade Elementary School,School District of Palm Beach County,1,0,0,0,
-SE-FL-S-3d7c0cb142ef,FL,Coconut Grove Elementary School,Miami-Dade County Public Schools,1,0,0,0,strand | whole_school
+SE-FL-S-3d7c0cb142ef,FL,Coconut Grove Elementary School,Miami-Dade County Public Schools,1,0,0,0,strand
 SE-FL-S-3e995e443a11,FL,Deer Park Elementary School,Hillsborough County Public Schools,1,1,1,0,strand
 SE-FL-S-43240933c632,FL,George Marks Elementary School,Volusia County Schools,1,1,1,0,strand
 SE-FL-S-467addfe2372,FL,Liberty Park Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-47b9cb3decf2,FL,Beauclerc Elementary School,Duval County Public Schools,1,1,1,0,strand
-SE-FL-S-488fa358928f,FL,Sunset Elementary School,Miami-Dade County Public Schools,3,0,0,0,strand | whole_school
+SE-FL-S-488fa358928f,FL,Sunset Elementary School,Miami-Dade County Public Schools,3,0,0,0,strand
 SE-FL-S-4a03ca69c397,FL,Freedom Shores Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-4f566e6e06b3,FL,Jupiter Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-FL-S-54d9f6e7a230,FL,Cholee Lake Elementary School,School District of Palm Beach County,1,0,0,0,
@@ -790,43 +790,43 @@ SE-FL-S-fd7a0d4fe03b,FL,Greenacres Elementary School,School District of Palm Bea
 SE-FL-S-ff1ffa31cd44,FL,Berkshire Elementary School,School District of Palm Beach County,1,0,0,0,
 SE-GA-S-0ad389217d93,GA,Yi Hwang Academy of Language Excellence,,2,1,1,0,whole_school
 SE-GA-S-0b9e24238752,GA,The GLOBE Academy,,3,1,1,0,whole_school
-SE-GA-S-1634918860f2,GA,Dowell Elementary School,Cobb County Schools,1,0,0,0,
-SE-GA-S-1a6aa4605da3,GA,Annistown Elementary School,Gwinnett County Schools,1,0,0,0,
+SE-GA-S-1634918860f2,GA,Dowell Elementary School,Cobb County Schools,1,0,0,0,strand
+SE-GA-S-1a6aa4605da3,GA,Annistown Elementary School,Gwinnett County Schools,1,0,0,0,strand
 SE-GA-S-1c1a8edef3a3,GA,Westwood Elementary School,Dalton Public Schools,1,1,1,0,strand
 SE-GA-S-1c620a1819ad,GA,Camp Creek Elementary School,Gwinnett County Schools,1,0,0,0,
 SE-GA-S-1d1653a6d646,GA,Hopkins Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-1d6507a4c985,GA,E. Rivers Elementary School,Atlanta Public Schools,1,0,0,0,
-SE-GA-S-1f3b5aa2256d,GA,Trip Elementary School,Gwinnett County Schools,1,0,0,0,
+SE-GA-S-1d6507a4c985,GA,E. Rivers Elementary School,Atlanta Public Schools,1,0,0,0,strand
+SE-GA-S-1f3b5aa2256d,GA,Trip Elementary School,Gwinnett County Schools,1,0,0,0,strand
 SE-GA-S-4adc9260ec1f,GA,Lake Forest Elementary School,Fulton County Schools,1,1,1,0,strand
-SE-GA-S-555aa529417f,GA,Ivy Creek Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-7317ffb73e7e,GA,Benteen Elementary School,Atlanta Public Schools,1,0,0,0,
-SE-GA-S-74e79a79c1d4,GA,Garden Hills Elementary School,Atlanta Public Schools,1,0,0,0,
-SE-GA-S-757328130bc2,GA,Smyrna Elementary School,Cobb County Schools,1,0,0,0,
-SE-GA-S-7b6945382345,GA,Crisp County Primary School,Crisp County Schools,1,0,0,0,
+SE-GA-S-555aa529417f,GA,Ivy Creek Elementary School,Gwinnett County Schools,1,0,0,0,strand
+SE-GA-S-7317ffb73e7e,GA,Benteen Elementary School,Atlanta Public Schools,1,0,0,0,strand
+SE-GA-S-74e79a79c1d4,GA,Garden Hills Elementary School,Atlanta Public Schools,1,0,0,0,strand
+SE-GA-S-757328130bc2,GA,Smyrna Elementary School,Cobb County Schools,1,0,0,0,strand
+SE-GA-S-7b6945382345,GA,Crisp County Primary School,Crisp County Schools,1,0,0,0,strand
 SE-GA-S-80ab87061408,GA,Evansdale Elementary School,DeKalb County Schools,1,0,0,0,
 SE-GA-S-8604791325fc,GA,Rockbridge Elementary School,DeKalb County Schools,1,0,0,0,
 SE-GA-S-91daefb7331f,GA,Bethesda Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-94be7bbbe8e2,GA,Mableton Elementary School,Cobb County Schools,1,0,0,0,
-SE-GA-S-97737211ca45,GA,Ashford Park Elementary School,DeKalb County Schools,1,0,0,0,
-SE-GA-S-997abb71bace,GA,Morris Brandon Elementary School,Atlanta Public Schools,1,0,0,0,
-SE-GA-S-9a70b4dcb033,GA,Level Creek Elementary School,Gwinnett County Schools,1,0,0,0,
+SE-GA-S-94be7bbbe8e2,GA,Mableton Elementary School,Cobb County Schools,1,0,0,0,strand
+SE-GA-S-97737211ca45,GA,Ashford Park Elementary School,DeKalb County Schools,1,0,0,0,strand
+SE-GA-S-997abb71bace,GA,Morris Brandon Elementary School,Atlanta Public Schools,1,0,1,0,strand
+SE-GA-S-9a70b4dcb033,GA,Level Creek Elementary School,Gwinnett County Schools,1,0,0,0,strand
 SE-GA-S-a05fd2aa4748,GA,Meadowcreek Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-a5d37fb98027,GA,Sarah Smith Elementary School,Atlanta Public Schools,1,0,0,0,
+SE-GA-S-a5d37fb98027,GA,Sarah Smith Elementary School,Atlanta Public Schools,1,0,0,0,strand
 SE-GA-S-ae5c37d43403,GA,Brookwood Elementary School,Dalton Public Schools,1,1,1,0,strand
 SE-GA-S-b78f78bff7dc,GA,Pleasantdale Elementary School,DeKalb County Schools,1,0,0,0,
-SE-GA-S-b9f7aa58f706,GA,Russell Elementary School,Cobb County Schools,1,0,0,0,
-SE-GA-S-bb30d86e0717,GA,Bolton Academy,Atlanta Public Schools,1,0,0,0,
+SE-GA-S-b9f7aa58f706,GA,Russell Elementary School,Cobb County Schools,1,0,0,0,strand
+SE-GA-S-bb30d86e0717,GA,Bolton Academy,Atlanta Public Schools,1,0,1,0,strand
 SE-GA-S-be5b97969280,GA,Hapeville Elementary School,Fulton County Schools,1,1,1,0,strand
 SE-GA-S-d2974e6752a3,GA,Mimosa Elementary School,Fulton County Schools,1,1,1,0,strand
 SE-GA-S-d52e52b6cc03,GA,Oglethorpe Avenue Elementary School,Clarke County Schools,1,1,1,0,strand
-SE-GA-S-d79e247fda75,GA,Baldwin Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-d7ab8f929109,GA,Parsons Elementary School,Gwinnett County Schools,1,0,0,0,
-SE-GA-S-dd79e1e7bac0,GA,Mulberry Elementary School,Gwinnett County Schools,1,0,0,0,
+SE-GA-S-d79e247fda75,GA,Baldwin Elementary School,Gwinnett County Schools,1,0,0,0,strand
+SE-GA-S-d7ab8f929109,GA,Parsons Elementary School,Gwinnett County Schools,1,0,0,0,strand
+SE-GA-S-dd79e1e7bac0,GA,Mulberry Elementary School,Gwinnett County Schools,1,0,0,0,strand
 SE-GA-S-e0fb8b1910b2,GA,Barack Obama Elementary School,DeKalb County Schools,1,0,0,0,
-SE-GA-S-e2d4fbd7399e,GA,Dunleith Elementary School,Marietta City Schools,1,0,0,0,
+SE-GA-S-e2d4fbd7399e,GA,Dunleith Elementary School,Marietta City Schools,1,0,0,0,strand
 SE-GA-S-f2582e3e9324,GA,International Charter School of Atlanta,,4,1,1,0,whole_school
-SE-GA-S-f6dda34322d5,GA,Nickajack Elementary School,Cobb County Schools,1,0,0,0,
-SE-GA-S-fdc68182e50e,GA,Park Street Elementary School,Marietta City Schools,1,0,0,0,
+SE-GA-S-f6dda34322d5,GA,Nickajack Elementary School,Cobb County Schools,1,0,0,0,strand
+SE-GA-S-fdc68182e50e,GA,Park Street Elementary School,Marietta City Schools,1,0,0,0,strand
 SE-NC-S-022889bd5a20,NC,Club Boulevard Elementary,Durham Public Schools,1,1,1,0,strand
 SE-NC-S-041a6d4df218,NC,Mooresville Intermediate,Mooresville Graded School District,1,1,1,0,strand
 SE-NC-S-065f17b1772d,NC,Manteo Elementary,Dare County Schools,1,1,1,0,strand

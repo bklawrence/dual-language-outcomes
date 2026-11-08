@@ -1,0 +1,170 @@
+{
+  "batch_id": "1ec1e236-ea48-42f4-9f4a-0f0d9a8e98ce",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-dd33b6acb50a513884640a9879e1836e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:15:05.590Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.gcpsk12.org/schools/school-profiles-and-lspi/school-profiles/elementary-schools/level-creek-elementary-school",
+      "grade_scope": "",
+      "notes": "Says 2 DLI classes per grade",
+      "reference_year": "2025-26",
+      "review_id": "d68b7669-c36c-4aea-8d60-b5efe1a5da41",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-9a70b4dcb033",
+      "school_name": "Level Creek Elementary School",
+      "selected_site_id": "site-dd33b6acb50a513884640a9879e1836e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b25184e8119450b68812ef7463088474"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:15:42.590Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mulberryes.gcpsk12.org/about-us/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "935d6354-a41b-4c4d-ab52-1f4a31722f19",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-dd79e1e7bac0",
+      "school_name": "Mulberry Elementary School",
+      "selected_site_id": "site-b25184e8119450b68812ef7463088474",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b51488e43fce52d58d18f3ded1629a98"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:16:07.907Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://parsonses.gcpsk12.org/staff/departments",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "d09b67bb-2aec-4f43-99da-5a07659210e8",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-d7ab8f929109",
+      "school_name": "Parsons Elementary School",
+      "selected_site_id": "site-b51488e43fce52d58d18f3ded1629a98",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-babd2adbba7c5d5d914f501c40645fba"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:16:50.656Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.gcpsk12.org/programs-and-services/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "French teacher bios",
+      "reference_year": "2025-26",
+      "review_id": "043b9552-e469-4751-87d4-390e6c4c7604",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-1f3b5aa2256d",
+      "school_name": "Trip Elementary School",
+      "selected_site_id": "site-babd2adbba7c5d5d914f501c40645fba",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5e021fdbf2f8587e8e7fb0d850f8c715"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:18:16.890Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://parkstreet.marietta-city.org/steam/park-street-programs/dual-language-immersion-program",
+      "grade_scope": "",
+      "notes": "May be phasing out program in the future.",
+      "reference_year": "2025-26",
+      "review_id": "eebc0a6c-d108-4269-82c9-ac23ff04ca1b",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-fdc68182e50e",
+      "school_name": "Park Street Elementary School",
+      "selected_site_id": "site-5e021fdbf2f8587e8e7fb0d850f8c715",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7960e4e63376561997a4ce032bf108b0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:20:39.522Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.marietta-city.org/departments1/academic-achievement-and-programs/multilingual-learners",
+      "grade_scope": "",
+      "notes": "School also offers gifted program",
+      "reference_year": "2025-26",
+      "review_id": "aa0f923d-b283-415f-b8d6-ec24b03f85dd",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-e2d4fbd7399e",
+      "school_name": "Dunleith Elementary School",
+      "selected_site_id": "site-7960e4e63376561997a4ce032bf108b0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 40,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/40",
+    "received_at": "2026-11-08T14:21:36.305800+00:00",
+    "submitted_at": "2026-11-08T14:21:24Z"
+  },
+  "version": 1
+}

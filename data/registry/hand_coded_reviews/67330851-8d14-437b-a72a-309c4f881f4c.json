@@ -1,0 +1,277 @@
+{
+  "batch_id": "67330851-8d14-437b-a72a-309c4f881f4c",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9c252755976d5de2b14996038e9e9e40"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T13:22:50.537Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.coralwayk8center.com/bilingual-program/",
+      "grade_scope": "",
+      "notes": "School description",
+      "reference_year": "2025-26",
+      "review_id": "805d87df-5f26-4010-b6e4-95c42ec068ca",
+      "reviewer": "bklawrence",
+      "school_id": "SE-FL-S-121a8c275e82",
+      "school_name": "Coral Way K-8 Center",
+      "selected_site_id": "site-9c252755976d5de2b14996038e9e9e40",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ae7009f973e354cfbba0dae3158999dc",
+            "site-b1b1f2d0a9ee5a25a60e916d24ea199b"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T13:23:42.218Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://adamerrittk-8center.org/",
+      "grade_scope": "",
+      "notes": "Website description",
+      "reference_year": "2025-26",
+      "review_id": "2b328333-7539-4c1b-893e-8e2e03db0c2d",
+      "reviewer": "bklawrence",
+      "school_id": "SE-FL-S-16168963cb92",
+      "school_name": "Ada Merritt K-8 Center",
+      "selected_site_id": "site-ae7009f973e354cfbba0dae3158999dc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c5fa21b5f173542f9dccd6886b19441d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T13:32:43.153Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://coconutgroveschool.org/",
+      "grade_scope": "",
+      "notes": "Some teachers labeled as Spanish or French and some as neither",
+      "reference_year": "2025-26",
+      "review_id": "ea26433c-d09b-4a36-8768-127799c86536",
+      "reviewer": "bklawrence",
+      "school_id": "SE-FL-S-3d7c0cb142ef",
+      "school_name": "Coconut Grove Elementary School",
+      "selected_site_id": "site-c5fa21b5f173542f9dccd6886b19441d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-212fc410ffe35ffe993d086156c40bac",
+            "site-362ba4faa950567498dd7901e0e14909",
+            "site-bf5c367ebe5b5ea4bb74d57577d8e631"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T13:47:01.317Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sunsetinternationalschool.com/faculty-and-staff-directory/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "1122975b-2ddb-4b5b-8797-f3269d9cb868",
+      "reviewer": "bklawrence",
+      "school_id": "SE-FL-S-488fa358928f",
+      "school_name": "Sunset Elementary School",
+      "selected_site_id": "site-212fc410ffe35ffe993d086156c40bac",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-56eda4f4bfef546eb2e95660c804dfb2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:01:50.846Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://benteen.atlantapublicschools.us/our-school/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "d40533c8-8dbf-4f94-9067-02cbc97945e2",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-7317ffb73e7e",
+      "school_name": "Benteen Elementary School",
+      "selected_site_id": "site-56eda4f4bfef546eb2e95660c804dfb2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b5c178c512a65752b08d7309650c87ab"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:02:27.461Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://bolton.atlantapublicschools.us/teaching-and-learning/language-policy",
+      "grade_scope": "",
+      "notes": "School distinguishes DL and non-DL students",
+      "reference_year": "2025-26",
+      "review_id": "5f1437d8-143b-4013-903a-f52338170a55",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-bb30d86e0717",
+      "school_name": "Bolton Academy",
+      "selected_site_id": "site-b5c178c512a65752b08d7309650c87ab",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-720e08ed7ebc5251b4800f41b8007fda"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:02:57.360Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://rivers.atlantapublicschools.us/teaching-and-learning/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "Describes as opt-in",
+      "reference_year": "2025-26",
+      "review_id": "fb87569b-022a-413e-8ed8-4c13d12306b0",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-1d6507a4c985",
+      "school_name": "E. Rivers Elementary School",
+      "selected_site_id": "site-720e08ed7ebc5251b4800f41b8007fda",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-0667672bf8a15504b257b48417eabfee"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:03:22.776Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.atlantapublicschools.us/about/departments/teaching-learning/multilingual-programs-services/dual-language-immersion/dli-program-articulation",
+      "grade_scope": "",
+      "notes": "Opt-in strand",
+      "reference_year": "2025-26",
+      "review_id": "3e96c514-691e-418b-8183-6b7557347713",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-74e79a79c1d4",
+      "school_name": "Garden Hills Elementary School",
+      "selected_site_id": "site-0667672bf8a15504b257b48417eabfee",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-d88b68641cf757e3b4dd1a16214b1795"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:04:06.261Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.atlantapublicschools.us/about/departments/teaching-learning/multilingual-programs-services/dual-language-immersion/dli-program-articulation",
+      "grade_scope": "",
+      "notes": "Separate DL program contact",
+      "reference_year": "2025-26",
+      "review_id": "19333884-c5be-4025-956d-1633794eceef",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-997abb71bace",
+      "school_name": "Morris Brandon Elementary School",
+      "selected_site_id": "site-d88b68641cf757e3b4dd1a16214b1795",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-fc167ff1e11452caa9f880acf3f31504"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:04:43.494Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sarahsmith.atlantapublicschools.us/families/communication-guide",
+      "grade_scope": "",
+      "notes": "Separate DL contact",
+      "reference_year": "2025-26",
+      "review_id": "d5e43853-85ff-4ad6-9633-799da3344735",
+      "reviewer": "bklawrence",
+      "school_id": "SE-GA-S-a5d37fb98027",
+      "school_name": "Sarah Smith Elementary School",
+      "selected_site_id": "site-fc167ff1e11452caa9f880acf3f31504",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 38,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/38",
+    "received_at": "2026-11-08T14:21:38.938845+00:00",
+    "submitted_at": "2026-11-08T14:21:01Z"
+  },
+  "version": 1
+}
