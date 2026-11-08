@@ -1,0 +1,274 @@
+{
+  "batch_id": "ef2db064-3ac5-4ea6-9529-e223e223f633",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-066e1cb482ef5fa193a3cf9586e38912"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:17:58.056Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://hooperavees.lausd.org/apps/staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "122db133-884e-4d44-8608-fb03f2ad5f69",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-366d5d1e549a",
+      "school_name": "Hooper Ave. PC",
+      "selected_site_id": "site-066e1cb482ef5fa193a3cf9586e38912",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a4eaae56927c5e6cba3fce3f22684f8f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:19:04.855Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://limerickavees.lausd.org/apps/staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "752c5771-e280-4feb-b217-6a254b8daa83",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-1bd819ee042c",
+      "school_name": "Limerick Ave. ES",
+      "selected_site_id": "site-a4eaae56927c5e6cba3fce3f22684f8f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-aec613df695450d68031f47bb357dc4f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:20:01.120Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://porterranch.lausd.org/apps/staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "2184c4d6-4fcc-4464-9719-e0af8a970855",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-6881d78d9571",
+      "school_name": "Porter Ranch School (K-8) ES",
+      "selected_site_id": "site-aec613df695450d68031f47bb357dc4f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-eefd5c557b0e5940992e64e7e3476793"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:21:15.204Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://statestes.lausd.org/apps/staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "9633010e-491b-4c61-b6f7-207e69a3996f",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-10b61f379589",
+      "school_name": "State St. ES",
+      "selected_site_id": "site-eefd5c557b0e5940992e64e7e3476793",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1eb42650148d58aa82d2b4443d350927"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:24:36.637Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://docs.google.com/spreadsheets/d/1XaHSV1ERU4yYY2o3ctgEuhmdX9sHcXQPU6Lm11zcsds/edit?usp=sharing",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "a6a7c37d-e03f-4d98-a470-7814e87b2854",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100598",
+      "school_name": "Marrion Elementary School",
+      "selected_site_id": "site_candidate-1eb42650148d58aa82d2b4443d350927",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-19f186ea099154b482fee7c2f70bf416"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:25:02.787Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://docs.google.com/spreadsheets/d/1XuPdcduOPrh_ngjAUbtZbyaq5sLqXFbn4y_jzgcG9I0/edit?usp=sharing",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "77565fe5-a835-409d-86af-26395d9a643a",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100615",
+      "school_name": "Pioneer Elementary School",
+      "selected_site_id": "site_candidate-19f186ea099154b482fee7c2f70bf416",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-9d7f725949025e77b1b7a96b017f9acc"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:26:09.403Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://blix.tacomaschools.org/contact",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "4067c04e-1bfc-4fad-a2d5-5f1d7af79bf8",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102102",
+      "school_name": "Blix Elementary School",
+      "selected_site_id": "site_candidate-9d7f725949025e77b1b7a96b017f9acc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-2cb52a37e29853528acac5e4350987fc"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:26:44.470Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sheridan.tacomaschools.org/contact",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "68121133-cff0-4693-9ab9-3cf2f3626bbc",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102107",
+      "school_name": "Sheridan Elementary School",
+      "selected_site_id": "site_candidate-2cb52a37e29853528acac5e4350987fc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a9e65ded83c953d383b39593dfe1ac70"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:27:25.453Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://franklin.vansd.org/our-staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "b67dd5c6-292e-41f4-b1dc-1d793d7ff2b4",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100537",
+      "school_name": "Benjamin Franklin Elementary",
+      "selected_site_id": "site_candidate-a9e65ded83c953d383b39593dfe1ac70",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-20cbc68d0a77587baa7825aea586657e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:27:50.587Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://edgewood.vansd.org/our-staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "ac38cfb4-30a3-4acc-a0f8-2257ace32201",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100527",
+      "school_name": "Edgewood Elementary School",
+      "selected_site_id": "site_candidate-20cbc68d0a77587baa7825aea586657e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 35,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/35",
+    "received_at": "2026-11-08T03:30:41.070322+00:00",
+    "submitted_at": "2026-11-08T03:29:43Z"
+  },
+  "version": 1
+}

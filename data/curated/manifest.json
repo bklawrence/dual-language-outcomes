@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
-  "build_id": "build-12da0611f2b856aeb6a62e55b186000b",
-  "built_at": "2026-11-08T03:17:01.768854+00:00",
-  "base_git_revision": "91383d930bcc08a59de0fdac2979e112f38bac4c",
+  "build_id": "build-2e443c991af35190943bd227788eb097",
+  "built_at": "2026-11-08T03:30:59.747901+00:00",
+  "base_git_revision": "b6310915683670952d7b8eab76fb4f9c7482e4fb",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
@@ -3798,6 +3798,7 @@
     "data/registry/hand_coded_reviews/41abf6d5-5189-4a4a-9674-925bbbbc93f2.json": "17b49d32751c244061cac870b06a822eb280ba1f8e94d436f23b4be8c88493c7",
     "data/registry/hand_coded_reviews/5fe8082e-74fa-4159-9553-bb3f95266653.json": "ebfa27005d966318ff90b5565cb5d56b0a7393419f8244411d6f7dedc1fbd646",
     "data/registry/hand_coded_reviews/69b80ed4-5ffe-4ca3-a6ea-1060df35548d.json": "e8915e61180580c53763a43ed6eaacc6fac84138424ec678de65e684dcaaeb69",
+    "data/registry/hand_coded_reviews/82684f29-ce10-45f8-89eb-a9779ebcff25.json": "c103cff29f010564a6ffb270660d1b494c4603a6df9373850cae6d3df6cfc86f",
     "data/registry/hand_coded_reviews/837d892c-abd5-4a99-ad6e-1e5927d6ddc7.json": "dd5ffb681ec19a642f9b812ebdb7f7834b013b9cee01e1769f219fc4752eb28c",
     "data/registry/hand_coded_reviews/98257d63-573d-485c-8c7a-7986724a2e4d.json": "711e5d0cb9da777d1847ce9ffebb26e6ec5c574e7f99c9edcbb90f6f6cc103e3",
     "data/registry/hand_coded_reviews/9b5a4a69-c2b4-4dbd-9359-8102b5c3f255.json": "3819c4bd2a1e9debf5c0d7a83ef049fb0e1c8e634c9762b3b655a574a3c05ff9",
@@ -3812,6 +3813,7 @@
     "data/registry/hand_coded_reviews/c986e79d-3dca-48c2-bd2e-90d5e34ecf9e.json": "cf2b9de41082fe5042f5eb9228323502550f3c5d8d5d70ea6f62674938b29700",
     "data/registry/hand_coded_reviews/d4825914-a839-46d1-9766-97e95908e395.json": "06131f8035f17602600fc3d1b6358c9a1e8fba8471e744c01e5aecd0c8fd0c54",
     "data/registry/hand_coded_reviews/d7d9b6ae-9262-49ff-bdaf-3ae2a9a4448c.json": "122034f6e4cc62296741bb4f48604fc8512de27d63467b6e7058261fd352ba2e",
+    "data/registry/hand_coded_reviews/ef2db064-3ac5-4ea6-9529-e223e223f633.json": "496e8be6f275635f117e0c35aa11489cec92e90ffc0ceb235aa936483d29b31f",
     "data/registry/illinois_2021_22_user_2026_11_05/README.md": "e0c1ba4d6f5474f36222561d69c564ed5347262b28abf3dd55a99b2950a23632",
     "data/registry/illinois_2021_22_user_2026_11_05/codebook.json": "edcf7d62edf905bdbe2b94d2daffef8eb257e63fae59681d11fcc14211ba4e8c",
     "data/registry/illinois_2021_22_user_2026_11_05/historical_models.csv": "5cba10bda0e8ada236b656ee0e32c2be893f1f30e3bdf842c3b69668b2e37bfa",
@@ -5685,8 +5687,8 @@
       "rows": 73
     },
     "data/curated/sources/source_releases.csv": {
-      "sha256": "61f711b0ae2b507ce9ae8450bff125c974460ebada04d6b77c64f458cf6df317",
-      "rows": 2233
+      "sha256": "b5a7f807a6f292c84b8621ad5a5b015398acadbd9d15a251a4b9ff71b213a8dc",
+      "rows": 2235
     },
     "data/curated/registry/districts.csv": {
       "sha256": "7495001e66619babff4bc92b8428ed0c147db59dc118984128ad65c9ecd68fad",
@@ -5721,8 +5723,8 @@
       "rows": 9797
     },
     "data/curated/program_history/program_configurations.csv": {
-      "sha256": "29681949acf9bf357cae88f43c13ebf08376a0ac91424d98035849b9e78f190b",
-      "rows": 7536
+      "sha256": "bc12bfa892e04c8cdd55a653861abb4e5471bc611aec39b263c7e7ae6282750b",
+      "rows": 7549
     },
     "data/curated/program_history/allocation_schedules.csv": {
       "sha256": "94123fde478542c1e4e1b66c33058b9f5603ec2c4394fca19e99a8e0bcee815e",
@@ -5733,8 +5735,8 @@
       "rows": 2104
     },
     "data/curated/sources/evidence_claims.csv": {
-      "sha256": "28da70fdf67af4450a0a439827bc5f47d2299bd692b2bf2bfbfb04dfa91d25ec",
-      "rows": 29479
+      "sha256": "82aec659f81d0f70c2e1a50bb092b9059cfdc09540dd72940701bc162f5d17bb",
+      "rows": 29518
     },
     "data/curated/registry/reporting_units.csv": {
       "sha256": "d1d2830718381b5ee79a8875b9964fa7303aff8780001e635bbcab9aaf0e60c9",
@@ -5861,10 +5863,10 @@
   },
   "reports": {
     "data/reports/hand_coding/current/national_inventory_program_view.csv": {
-      "sha256": "c9a34f5e35944d3d8bbbfaffb736d3549073a25637f734c8a2dd2e060b5395b4"
+      "sha256": "1f7b1c8206dd38eca2d6048bac08fb230df51aa1053a1d38f199499e25fb8faf"
     },
     "data/reports/hand_coding/current/national_inventory_by_state.csv": {
-      "sha256": "5649919029e4a6eacf2dc80f12e21c2e26284f9d1882cd8591d4ccd13aa59058"
+      "sha256": "d9ce7fab6639378c0fc139b40b5fb2e0f2f6d55564e699abed43fc8b70d8ca59"
     },
     "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": {
       "sha256": "d647072a95bb9f266c9540cfd146727d8ff9a783db2dad481da06851d3f87891"
@@ -6503,22 +6505,22 @@
       "sha256": "34fbfbd766d22dfac57482153d300a91cee3f30e5b62920ea4a756a5dcc59eb5"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06.json": {
-      "sha256": "a057b5dc1bf8e45b3e120f6a1187cf29dffaff95d8e6332c50c2701f2303ef1f"
+      "sha256": "787228a814963116fbaaebadaebec54404deb1ab7164b1ad4c5150fa7ac85ff1"
     },
     "data/reports/delivery_scope_cleanup_2026_11_06_decisions.csv": {
       "sha256": "00d1db853f1f0fad2ca62fc8b2228f239addaab2eeccd61ea2259552b23505f9"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_allocated_programmes.csv": {
-      "sha256": "008e5d5fbe0be8b281d98e6507a03c8b18ea47a78e48ed91e2840ec6cc55391e"
+      "sha256": "9d6a27c380a258bd02fb929c14d8c57614a5d3f7d90c86bc089d0db36222f4c4"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_schools.csv": {
-      "sha256": "69e74f52f9085f2d80e462fc9cf8d16bf8c7b964496b779a46d99049af807f0d"
+      "sha256": "e638f5bf928c9efa68f7596f0d089f9b7aadbe5e94644d53e01476bff256cbd3"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_by_state.csv": {
-      "sha256": "e5a9970ea783934eee3e73177e41aad0b458e05b8fe31c0ef0b36e334c26da26"
+      "sha256": "bf45228207d3ba4405fdd8a7f82ae05530ba5ed06c306c4c86d715298a6496b1"
     },
     "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_remaining_queue.csv": {
-      "sha256": "17b03986212a19534c58f7193e3853571268587f9c843dbbc3c6f3bc30377f97"
+      "sha256": "f46470dbc0ba6b5cac3bcbf2a064590f4212db6c2d1f8bd4fec88bc659df4c53"
     },
     "data/reports/delivery_scope_cleanup_2026_11_06_review_cases.csv": {
       "sha256": "2305c95313ed86e4da13b8ba0bd7a32ff9a4d581ce27e0d8eab2784441b1e523"
@@ -6527,13 +6529,13 @@
       "sha256": "fd90490983e0e7232ccaa0364eeff7a79ffe2e1a2a9c0261959e5bb6ac1ca2ea"
     },
     "data/reports/hand_coding/current/reviews.csv": {
-      "sha256": "a534c856952b204c7b0cd2053b468774d655a70a188ed4067f9b3ede0a6c1a68"
+      "sha256": "44fd0fb2df0bb6cd0d4c784dac3795ddd07f3e3ede7eb6a0cdaaf230a883058e"
     },
     "data/reports/hand_coding/current/program_events.csv": {
       "sha256": "4847c9f94ee34051cb0598b90d075df5ab50592ada8907a07b736b21291904ea"
     },
     "data/reports/hand_coding/current/programs.csv": {
-      "sha256": "a67b950c2b029d73571c1ade31ffea2890d28000c7ccf1d5d13663a2153bf78e"
+      "sha256": "b2f121bd73f69e53130effff4c0ea39e2ba7e7134920633c90c4694860d0e0d1"
     },
     "data/reports/hand_coding/current/README.md": {
       "sha256": "22c85a2213950d3563560e9e19c31e0bb73ab2d7a2977acfab7912dfc34a3455"
@@ -6542,7 +6544,7 @@
       "sha256": "104856eac89ec203ee6ef2d9ad7a98c8fdeaa98d25711a6ccfe421de9536aaf5"
     },
     "data/reports/hand_coding/current/national_inventory.json": {
-      "sha256": "8aee173adefb65e4d6ea030b6aa8889f145576ce56aa3573b1c1c95c5adecc09"
+      "sha256": "5f9f86f4f7313bc984ad3becc26b7f4a62656f97d861f9df0765eae755c4ce33"
     }
   }
 }

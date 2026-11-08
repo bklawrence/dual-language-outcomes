@@ -255,6 +255,33 @@ c48800ac-0043-4e90-b3a1-1641851b5741,ID-S-9e0401d294aa,2025-26,True,bklawrence,b
   }
 }
 ",,coded
+4bcb139b-9eb6-4f52-b126-13a5c9493f8a,WA-S100546,2025-26,True,bklawrence,bklawrence,2026-11-08T03:30:02Z,explicit_source_statement,https://king.vansd.org/our-staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-42d262606b5b5284b598fe1ce9d9f841""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+e06d05e3-78c1-442e-bb70-36b885422b90,WA-S100559,2025-26,True,bklawrence,bklawrence,2026-11-08T03:30:02Z,researcher_interpretation,https://roosevelt.vansd.org/our-staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-424f04bb364550f1b639e397acda1dcb""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+b6ef4f61-a821-42c1-b5ce-1ba2682d9763,WA-S100535,2025-26,True,bklawrence,bklawrence,2026-11-08T03:30:02Z,explicit_source_statement,https://anderson.vansd.org/our-staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-15ea30a6e1c45bc3b3d80f8910b81831""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 7d4a950c-0320-4f23-8410-7b98939abe4e,WP-UT-S-397035e6f2dc,2025-26,True,bklawrence,bklawrence,2026-11-07T22:01:00Z,researcher_interpretation,https://stewart.davis.k12.ut.us/o/stes/staff?page_no=2,DLI staff listed alongside non-DLI,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -789,6 +816,96 @@ e478ef4b-4872-450a-b3b3-5528432d5ec5,GL-WI-S-3131ce217bda,2025-26,True,bklawrenc
   ""delivery_structure"": {
     ""site_ids"": [
       ""site-dcaa6c2f12bd567d88f57a88375aa4c7""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+122db133-884e-4d44-8608-fb03f2ad5f69,CA-S-366d5d1e549a,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://hooperavees.lausd.org/apps/staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-066e1cb482ef5fa193a3cf9586e38912""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+752c5771-e280-4feb-b217-6a254b8daa83,CA-S-1bd819ee042c,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,explicit_source_statement,https://limerickavees.lausd.org/apps/staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-a4eaae56927c5e6cba3fce3f22684f8f""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+2184c4d6-4fcc-4464-9719-e0af8a970855,CA-S-6881d78d9571,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,explicit_source_statement,https://porterranch.lausd.org/apps/staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-aec613df695450d68031f47bb357dc4f""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+9633010e-491b-4c61-b6f7-207e69a3996f,CA-S-10b61f379589,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://statestes.lausd.org/apps/staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-eefd5c557b0e5940992e64e7e3476793""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+a6a7c37d-e03f-4d98-a470-7814e87b2854,WA-S100598,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://docs.google.com/spreadsheets/d/1XaHSV1ERU4yYY2o3ctgEuhmdX9sHcXQPU6Lm11zcsds/edit?usp=sharing,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-1eb42650148d58aa82d2b4443d350927""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+77565fe5-a835-409d-86af-26395d9a643a,WA-S100615,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://docs.google.com/spreadsheets/d/1XuPdcduOPrh_ngjAUbtZbyaq5sLqXFbn4y_jzgcG9I0/edit?usp=sharing,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-19f186ea099154b482fee7c2f70bf416""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+4067c04e-1bfc-4fad-a2d5-5f1d7af79bf8,WA-S102102,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://blix.tacomaschools.org/contact,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-9d7f725949025e77b1b7a96b017f9acc""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+68121133-cff0-4693-9ab9-3cf2f3626bbc,WA-S102107,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://sheridan.tacomaschools.org/contact,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-2cb52a37e29853528acac5e4350987fc""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+b67dd5c6-292e-41f4-b1dc-1d793d7ff2b4,WA-S100537,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,researcher_interpretation,https://franklin.vansd.org/our-staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-a9e65ded83c953d383b39593dfe1ac70""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+ac38cfb4-30a3-4acc-a0f8-2257ace32201,WA-S100527,2025-26,True,bklawrence,bklawrence,2026-11-08T03:29:43Z,explicit_source_statement,https://edgewood.vansd.org/our-staff/,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site_candidate-20cbc68d0a77587baa7825aea586657e""
     ],
     ""value"": ""strand""
   }

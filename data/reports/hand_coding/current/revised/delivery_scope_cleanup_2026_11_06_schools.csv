@@ -8,7 +8,7 @@ CA-S-047cbb10c0b2,CA,Ewing Elementary School,Fresno Unified School District,1,0,
 CA-S-091331730d0c,CA,Bandini ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-0badef1821df,CA,Martin Luther King Jr.,Los Angeles Unified School District,1,0,0,0,
 CA-S-0d73447e85ce,CA,Thomas Edison Elementary School,Glendale Unified School District,1,0,0,0,strand
-CA-S-10b61f379589,CA,State St. ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-10b61f379589,CA,State St. ES,Los Angeles Unified School District,1,0,0,0,strand
 CA-S-1215d9d70231,CA,Monroe Elementary School,San Francisco Unified School District,1,0,0,0,
 CA-S-12471cb7fb37,CA,Miles ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-128dbe30d54e,CA,Buena Vista Horace Mann K-8 Community School,San Francisco Unified School District,1,0,0,0,
@@ -21,7 +21,7 @@ CA-S-16a174a59848,CA,Dunsmore Elementary School,Glendale Unified School District
 CA-S-16c35e0d995d,CA,Alice Fong Yu Alternative School,San Francisco Unified School District,1,0,0,0,
 CA-S-1b541369c6a0,CA,Dominguez ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1bc28b951a9b,CA,Knox ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-1bd819ee042c,CA,Limerick Ave. ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-1bd819ee042c,CA,Limerick Ave. ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-1c828e6a2bd0,CA,Stoner Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1d1ea39aa7f4,CA,Sunny Brae Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1e93118e7d96,CA,4th Street ES,Los Angeles Unified School District,1,0,0,0,
@@ -48,7 +48,7 @@ CA-S-33b2c11cda65,CA,San Gabriel Ave. ES,Los Angeles Unified School District,1,0
 CA-S-3413eff25e34,CA,Alvarado Elementary School,San Francisco Unified School District,1,0,0,0,
 CA-S-3487eaa246b8,CA,Aldama ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-35e57f0d6729,CA,Chapman ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-366d5d1e549a,CA,Hooper Ave. PC,Los Angeles Unified School District,1,0,0,0,
+CA-S-366d5d1e549a,CA,Hooper Ave. PC,Los Angeles Unified School District,1,0,0,0,strand
 CA-S-3f767444b7dd,CA,Benjamin Franklin Elementary School,Glendale Unified School District,4,0,0,0,strand
 CA-S-3faa0ced1114,CA,96th St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-3fcd395176fe,CA,Garfield Elementary School,San Francisco Unified School District,1,0,0,0,
@@ -85,7 +85,7 @@ CA-S-667553ef8f1f,CA,Florence Ave. ES,Los Angeles Unified School District,1,0,0,
 CA-S-668d1ca1706d,CA,Queen Anne ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-6701b8871b2a,CA,Bret Harte Elementary School,San Francisco Unified School District,1,0,0,0,
 CA-S-685c0ca2af78,CA,MacArthur Park VPA ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-6881d78d9571,CA,Porter Ranch School (K-8) ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-6881d78d9571,CA,Porter Ranch School (K-8) ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-6926a60e003c,CA,Verdugo Woodlands Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-6b542c79a437,CA,Hooper Ave. ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-6c7d8c22bc84,CA,Thomas Jefferson Elementary School,Glendale Unified School District,1,0,1,0,strand
@@ -1503,14 +1503,14 @@ WA-S100398,WA,Keene-Riverview Elementary,Prosser School District,1,0,0,0,
 WA-S100400,WA,Whitstran Elementary,Prosser School District,1,0,0,0,
 WA-S100402,WA,Prosser Heights Elementary,Prosser School District,1,0,0,0,
 WA-S100460,WA,Lewis And Clark Elementary Sch,Wenatchee School District,1,0,0,0,
-WA-S100527,WA,Edgewood Elementary School,Vancouver School District,1,0,0,0,
-WA-S100535,WA,Sarah J Anderson Elementary,Vancouver School District,1,0,0,0,
-WA-S100537,WA,Benjamin Franklin Elementary,Vancouver School District,1,0,0,0,
-WA-S100546,WA,Martin Luther King Elementary,Vancouver School District,1,0,0,0,
-WA-S100559,WA,Roosevelt Elementary School,Vancouver School District,1,0,0,0,
+WA-S100527,WA,Edgewood Elementary School,Vancouver School District,1,0,1,0,strand
+WA-S100535,WA,Sarah J Anderson Elementary,Vancouver School District,1,0,1,0,strand
+WA-S100537,WA,Benjamin Franklin Elementary,Vancouver School District,1,0,0,0,strand
+WA-S100546,WA,Martin Luther King Elementary,Vancouver School District,1,0,1,0,strand
+WA-S100559,WA,Roosevelt Elementary School,Vancouver School District,1,0,0,0,strand
 WA-S100579,WA,Hathaway Elementary,Washougal School District,1,0,0,0,
-WA-S100598,WA,Marrion Elementary School,Evergreen School District (Clark),1,0,0,0,
-WA-S100615,WA,Pioneer Elementary School,Evergreen School District (Clark),1,0,0,0,
+WA-S100598,WA,Marrion Elementary School,Evergreen School District (Clark),1,0,0,0,strand
+WA-S100615,WA,Pioneer Elementary School,Evergreen School District (Clark),1,0,0,0,strand
 WA-S100761,WA,Longfellow Elementary,Pasco School District,2,0,0,0,strand
 WA-S100763,WA,Emerson Elementary,Pasco School District,1,0,0,0,strand
 WA-S100764,WA,Mark Twain Elementary,Pasco School District,1,0,0,0,strand
@@ -1557,8 +1557,8 @@ WA-S101712,WA,Vinland Elementary,North Kitsap School District,1,0,0,0,
 WA-S101870,WA,Oakview Elementary School,Centralia School District,1,0,0,0,
 WA-S101912,WA,Evergreen Elementary School,Shelton School District,1,0,0,0,
 WA-S102047,WA,Karshner Elementary,Puyallup School District,1,0,0,0,
-WA-S102102,WA,Blix Elementary School,Tacoma School District,1,0,0,0,
-WA-S102107,WA,Sheridan Elementary School,Tacoma School District,1,0,0,0,
+WA-S102102,WA,Blix Elementary School,Tacoma School District,1,0,0,0,strand
+WA-S102107,WA,Sheridan Elementary School,Tacoma School District,1,0,0,0,strand
 WA-S102229,WA,Hillside Elementary School,Clover Park School District,1,0,0,0,
 WA-S102236,WA,Carter Lake Elementary School,Clover Park School District,1,0,0,0,
 WA-S102273,WA,Harvard Elementary,Franklin Pierce School District,1,0,0,0,

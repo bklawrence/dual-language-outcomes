@@ -1,0 +1,92 @@
+{
+  "batch_id": "82684f29-ce10-45f8-89eb-a9779ebcff25",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-42d262606b5b5284b598fe1ce9d9f841"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:28:14.837Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://king.vansd.org/our-staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "4bcb139b-9eb6-4f52-b126-13a5c9493f8a",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100546",
+      "school_name": "Martin Luther King Elementary",
+      "selected_site_id": "site_candidate-42d262606b5b5284b598fe1ce9d9f841",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-424f04bb364550f1b639e397acda1dcb"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:28:52.469Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://roosevelt.vansd.org/our-staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "e06d05e3-78c1-442e-bb70-36b885422b90",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100559",
+      "school_name": "Roosevelt Elementary School",
+      "selected_site_id": "site_candidate-424f04bb364550f1b639e397acda1dcb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-15ea30a6e1c45bc3b3d80f8910b81831"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:29:13.987Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://anderson.vansd.org/our-staff/",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "b6ef4f61-a821-42c1-b5ce-1ba2682d9763",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100535",
+      "school_name": "Sarah J Anderson Elementary",
+      "selected_site_id": "site_candidate-15ea30a6e1c45bc3b3d80f8910b81831",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 36,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/36",
+    "received_at": "2026-11-08T03:30:39.394141+00:00",
+    "submitted_at": "2026-11-08T03:30:02Z"
+  },
+  "version": 1
+}
