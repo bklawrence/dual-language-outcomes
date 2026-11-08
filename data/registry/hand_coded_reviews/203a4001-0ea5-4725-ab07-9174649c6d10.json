@@ -1,0 +1,215 @@
+{
+  "batch_id": "203a4001-0ea5-4725-ab07-9174649c6d10",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-44b1866aa383555fb2db2dd592aa442b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:48:20.109Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://tarwater.cusd80.com/about/our-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "e96709c4-4c59-4fb9-9553-7eeae6c3991c",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-0c510192dc9b",
+      "school_name": "Tarwater Elementary School",
+      "selected_site_id": "site-44b1866aa383555fb2db2dd592aa442b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7d140e000a0659758d4bf96387bf1441"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T03:49:20.708Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://davises.tusd1.org/staff-25-26",
+      "grade_scope": "",
+      "notes": "Explicitly called whole school",
+      "reference_year": "2025-26",
+      "review_id": "06556d67-c404-44f1-93e7-ef566694fd3d",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-2b6d2214e16e",
+      "school_name": "Davis Bilingual Elementary School",
+      "selected_site_id": "site-7d140e000a0659758d4bf96387bf1441",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-6473fcead3275b16b70e2f13278665c6"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T03:50:47.677Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://lag.kyrene.org/about-us/classrooms",
+      "grade_scope": "",
+      "notes": "Name, staff",
+      "reference_year": "2025-26",
+      "review_id": "290ced21-14f7-4131-8d88-094ace6faa66",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-38fdf8b4080e",
+      "school_name": "Kyrene de los Lagos Dual Language Academy",
+      "selected_site_id": "site-6473fcead3275b16b70e2f13278665c6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-d60da15454b35e41996510e0ac6a674c"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-08T03:51:10.444Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://nor.kyrene.org/about-us/classrooms",
+      "grade_scope": "",
+      "notes": "Name",
+      "reference_year": "2025-26",
+      "review_id": "d465b65c-b3b7-49d9-a215-83d03882e591",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-76e299234847",
+      "school_name": "Kyrene del Norte Dual Language Academy",
+      "selected_site_id": "site-d60da15454b35e41996510e0ac6a674c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-0b9492723e215b76b7c685cd30b0c7e9"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:52:04.343Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://desertcanyones.susd.org/our-school/our-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "f84e21c0-2c33-431e-a4cd-2f57867eef86",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-9a2fc626e556",
+      "school_name": "Desert Canyon Elementary School",
+      "selected_site_id": "site-0b9492723e215b76b7c685cd30b0c7e9",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a5719b91dcf958288614532ca6baa647"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:52:30.943Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://pueblo.susd.org/our-school/our-staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "9cb01748-9604-472b-95db-1045d67cd7bf",
+      "reviewer": "bklawrence",
+      "school_id": "WP-AZ-S-b68eb6726f89",
+      "school_name": "Pueblo Elementary School",
+      "selected_site_id": "site-a5719b91dcf958288614532ca6baa647",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {},
+      "coded_at": "2026-11-08T03:53:37.528Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "needs_review",
+      "evidence_url": "https://donaana.lcps.net/o/daes/staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "8468df3f-dd46-4db9-b483-f51e41ef5016",
+      "reviewer": "bklawrence",
+      "school_id": "WP-NM-S-e91a0276bd82",
+      "school_name": "Doña Ana Elementary School",
+      "selected_site_id": "site-c2f352aaadb55f8f9fbd81a4297ab8ef",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-df52f3a7c95c5884b115e915959aa27a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:54:08.726Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://central.lcps.net/staff?page_no=1",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "4925b7e5-47eb-41ec-b968-648db9c6b7ff",
+      "reviewer": "bklawrence",
+      "school_id": "WP-NM-S-f1594481e835",
+      "school_name": "Central Elementary School",
+      "selected_site_id": "site-df52f3a7c95c5884b115e915959aa27a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 37,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/37",
+    "received_at": "2026-11-08T03:55:38.983375+00:00",
+    "submitted_at": "2026-11-08T03:55:02Z"
+  },
+  "version": 1
+}

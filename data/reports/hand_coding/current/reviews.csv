@@ -30,6 +30,71 @@ df184dc7-1352-4d3c-ae3c-395c2dd553dd,IL-S002,2025-26,True,bklawrence,bklawrence,
 ",,coded
 016b079c-fef8-4fc6-8906-66b4bf462fab,SE-FL-S-ff1ffa31cd44,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,not_recorded,https://www.youtube.com/watch?v=HjLpc0APtPM&t=26s,The school is described as a language academy and describes itself as the largest DL program in the district. It explicitly states that it is supported by an exchange program from Spain. Still not sure if it is a strand or whole.,,"{}
 ",,needs_review
+e96709c4-4c59-4fb9-9553-7eeae6c3991c,WP-AZ-S-0c510192dc9b,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,researcher_interpretation,https://tarwater.cusd80.com/about/our-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-44b1866aa383555fb2db2dd592aa442b""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+06556d67-c404-44f1-93e7-ef566694fd3d,WP-AZ-S-2b6d2214e16e,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,explicit_source_statement,https://davises.tusd1.org/staff-25-26,Explicitly called whole school,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-7d140e000a0659758d4bf96387bf1441""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+290ced21-14f7-4131-8d88-094ace6faa66,WP-AZ-S-38fdf8b4080e,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,researcher_interpretation,https://lag.kyrene.org/about-us/classrooms,"Name, staff",,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-6473fcead3275b16b70e2f13278665c6""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+d465b65c-b3b7-49d9-a215-83d03882e591,WP-AZ-S-76e299234847,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,explicit_source_statement,https://nor.kyrene.org/about-us/classrooms,Name,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-d60da15454b35e41996510e0ac6a674c""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+f84e21c0-2c33-431e-a4cd-2f57867eef86,WP-AZ-S-9a2fc626e556,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,researcher_interpretation,https://desertcanyones.susd.org/our-school/our-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-0b9492723e215b76b7c685cd30b0c7e9""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+9cb01748-9604-472b-95db-1045d67cd7bf,WP-AZ-S-b68eb6726f89,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,explicit_source_statement,https://pueblo.susd.org/our-school/our-staff,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-a5719b91dcf958288614532ca6baa647""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+8468df3f-dd46-4db9-b483-f51e41ef5016,WP-NM-S-e91a0276bd82,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,explicit_source_statement,https://donaana.lcps.net/o/daes/staff,Staff directory,,"{}
+",,needs_review
+4925b7e5-47eb-41ec-b968-648db9c6b7ff,WP-NM-S-f1594481e835,2025-26,True,bklawrence,bklawrence,2026-11-08T03:55:02Z,researcher_interpretation,https://central.lcps.net/staff?page_no=1,Staff directory,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-df52f3a7c95c5884b115e915959aa27a""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 6e23e8b2-c5d2-48f1-a75e-1fb0faa05278,CA-S-16a174a59848,2025-26,True,bklawrence,bklawrence,2026-11-08T03:11:31Z,researcher_interpretation,https://dunsmore.gusd.net/51562_2,Staff directory,,"{
   ""delivery_structure"": {
     ""site_ids"": [
