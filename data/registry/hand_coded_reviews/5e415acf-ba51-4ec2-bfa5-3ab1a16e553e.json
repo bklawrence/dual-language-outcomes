@@ -1,0 +1,50 @@
+{
+  "batch_id": "5e415acf-ba51-4ec2-bfa5-3ab1a16e553e",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3c0eb857713a5ceaa6c7c6f113d3e1ac"
+          ],
+          "value": "mixed"
+        }
+      },
+      "coded_at": "2026-11-08T15:30:21.768Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://montanafreepress.org/2022/07/01/paxson-elementary-spanish-immersion/",
+      "grade_scope": "",
+      "notes": "It looks like they ended the program because students were behind and the district transitioned to ESL. The article suggests Spanish as a specials class in 2022. Cannot find evidence that it has continued at this school.",
+      "program_event": {
+        "destination_school_id": null,
+        "destination_school_name": "",
+        "destination_url": "",
+        "first_school_year": "2022-23",
+        "kind": "ended",
+        "site_ids": [
+          "site-3c0eb857713a5ceaa6c7c6f113d3e1ac"
+        ]
+      },
+      "reference_year": "2025-26",
+      "review_id": "b9962a2e-7d63-4e8b-8623-73fd22c8f952",
+      "reviewer": "bklawrence",
+      "school_id": "MT-S-f6a73b388044",
+      "school_name": "Paxson Elementary School",
+      "selected_site_id": "site-3c0eb857713a5ceaa6c7c6f113d3e1ac",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 43,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/43",
+    "received_at": "2026-11-08T15:31:17.886762+00:00",
+    "submitted_at": "2026-11-08T15:30:31Z"
+  },
+  "version": 1
+}
