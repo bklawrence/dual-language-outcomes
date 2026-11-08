@@ -1,8 +1,8 @@
 {
   "schema_version": "1.5.0",
   "build_id": "build-0ebb4abb91d0518c90c5c3a4ab28a963",
-  "built_at": "2026-11-08T03:01:03.707924+00:00",
-  "base_git_revision": "c758ac7fd80d53c65078344f31a251fdd4ec0d63",
+  "built_at": "2026-11-08T03:04:28.782518+00:00",
+  "base_git_revision": "f43f8aeafad6ce51359cc3ff5a9e1a451e6964ff",
   "inputs": {
     "config/baselines/national_structural_v1.json": "15b487bea4ac10dee1ff2530e7fc551f83b457039ea1a682745fb05631feba46",
     "config/edc_district_identity_reviews.csv": "1307f3faac5980b2dd97bc0eea2ac0b393c91befc3699171d61317d762843792",
