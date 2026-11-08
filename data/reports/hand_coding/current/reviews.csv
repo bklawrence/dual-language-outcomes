@@ -1,4 +1,49 @@
 review_id,school_id,reference_year,hand_coded,reviewer,github_actor,submitted_at,coding_method,evidence_url,notes,source_quote,changes_json,program_event_json,disposition
+221d585f-9a9f-4df1-9a8f-523e14759a07,NE5-MA-S-73a1a429017a,2025-26,True,bklawrence,bklawrence,2026-11-08T15:35:39Z,researcher_interpretation,https://www.amherstindy.org/2025/10/24/parents-decry-chaotic-classroom-at-fort-river/,Other programs in the school,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-10a4a6c3693a5ee49ea97c8d4cb55242""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+8c220e19-4d6e-454a-bc88-dd68ae4f6cb9,NE5-MA-S-bd724e06a6b1,2025-26,True,bklawrence,bklawrence,2026-11-08T15:35:39Z,researcher_interpretation,https://www.applitrack.com/fallriverschools/onlineapp/default.aspx?AppliTrackPostingSearch=location%3A%22William+S.+Greene+Elementary+School%22,Application suggests strand,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-796398ff93ef54448e3602c426700708""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+2806a89b-be02-4800-85c0-584db4554031,NE5-MA-S-c7cf93db6bc0,2025-26,True,bklawrence,bklawrence,2026-11-08T15:35:39Z,researcher_interpretation,https://www.hps.holyoke.ma.us/o/enwhite,Application suggests strand,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-c118da96524d5c60b0044e110254c4c4""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+4db34cb9-3c6b-423c-89c5-b32c1f1cf9e3,NE5-MA-S-3e794c48492c,2025-26,True,bklawrence,bklawrence,2026-11-08T15:35:39Z,researcher_interpretation,https://www.hps.holyoke.ma.us/article/2656897,Application suggests strand,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-cf65ab8c63385a13b75e2a4536448ac6""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+7eef5304-4919-412f-84ab-d628ad6739d2,NE5-MA-S-6aea9d5a4b69,2025-26,True,bklawrence,bklawrence,2026-11-08T15:35:39Z,explicit_source_statement,https://spsbentley.salemk12.org/about/,Job listings refer to DL strand,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-8bb22eb5115b5d9cac97358a0fa4d412""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 ca19608e-a4dc-402e-bd64-7c24485fa5a9,M6-CT-S-3af6e30ccd67,2025-26,True,bklawrence,bklawrence,2026-11-07T17:58:02Z,researcher_interpretation,https://www.dwightbellizziacademy.org/o/dwightbellizzi/page/about-us,"It calls itself a language academy and is described as a magnet school, so there is evidence it is a whole school. It began in 2023.",,"{
   ""delivery_structure"": {
     ""site_ids"": [

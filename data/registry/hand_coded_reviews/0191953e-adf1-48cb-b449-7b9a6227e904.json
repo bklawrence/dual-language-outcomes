@@ -1,0 +1,144 @@
+{
+  "batch_id": "0191953e-adf1-48cb-b449-7b9a6227e904",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-10a4a6c3693a5ee49ea97c8d4cb55242"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:32:31.258Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.amherstindy.org/2025/10/24/parents-decry-chaotic-classroom-at-fort-river/",
+      "grade_scope": "",
+      "notes": "Other programs in the school",
+      "reference_year": "2025-26",
+      "review_id": "221d585f-9a9f-4df1-9a8f-523e14759a07",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-73a1a429017a",
+      "school_name": "Fort River Elementary School",
+      "selected_site_id": "site-10a4a6c3693a5ee49ea97c8d4cb55242",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-796398ff93ef54448e3602c426700708"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:33:19.606Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.applitrack.com/fallriverschools/onlineapp/default.aspx?AppliTrackPostingSearch=location%3A%22William+S.+Greene+Elementary+School%22",
+      "grade_scope": "",
+      "notes": "Application suggests strand",
+      "reference_year": "2025-26",
+      "review_id": "8c220e19-4d6e-454a-bc88-dd68ae4f6cb9",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-bd724e06a6b1",
+      "school_name": "William S. Greene Elementary School",
+      "selected_site_id": "site-796398ff93ef54448e3602c426700708",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c118da96524d5c60b0044e110254c4c4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:33:51.039Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.hps.holyoke.ma.us/o/enwhite",
+      "grade_scope": "",
+      "notes": "Application suggests strand",
+      "reference_year": "2025-26",
+      "review_id": "2806a89b-be02-4800-85c0-584db4554031",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-c7cf93db6bc0",
+      "school_name": "E.N. White Elementary School",
+      "selected_site_id": "site-c118da96524d5c60b0044e110254c4c4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-cf65ab8c63385a13b75e2a4536448ac6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:34:17.339Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.hps.holyoke.ma.us/article/2656897",
+      "grade_scope": "",
+      "notes": "Application suggests strand",
+      "reference_year": "2025-26",
+      "review_id": "4db34cb9-3c6b-423c-89c5-b32c1f1cf9e3",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-3e794c48492c",
+      "school_name": "Kelly Elementary School",
+      "selected_site_id": "site-cf65ab8c63385a13b75e2a4536448ac6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-8bb22eb5115b5d9cac97358a0fa4d412"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T15:34:54.138Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://spsbentley.salemk12.org/about/",
+      "grade_scope": "",
+      "notes": "Job listings refer to DL strand",
+      "reference_year": "2025-26",
+      "review_id": "7eef5304-4919-412f-84ab-d628ad6739d2",
+      "reviewer": "bklawrence",
+      "school_id": "NE5-MA-S-6aea9d5a4b69",
+      "school_name": "Bentley Academy Innovation School",
+      "selected_site_id": "site-8bb22eb5115b5d9cac97358a0fa4d412",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 44,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/44",
+    "received_at": "2026-11-08T15:36:30.089914+00:00",
+    "submitted_at": "2026-11-08T15:35:39Z"
+  },
+  "version": 1
+}
