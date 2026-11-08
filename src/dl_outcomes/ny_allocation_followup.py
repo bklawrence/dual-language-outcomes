@@ -89,6 +89,8 @@ def audit_errors(root, tables, *, check_hashes=True):
 
 
 def render_reports(root, tables):
+    from .study_scope import source_history_tables
+    tables=source_history_tables(tables)
     programmes, sources, reviews = inputs(root)
     audit = json.loads((root / AUDIT).read_text())
     details, summaries = report_rows(tables)

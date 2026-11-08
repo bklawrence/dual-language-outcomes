@@ -122,7 +122,7 @@ def export(root, destination):
     for p in programmes:
         if p['district_names']:district_names.setdefault(p['school_id'],display_name(p['district_names']))
     destinations=[dict(school_id=r['school_id'],school_name=display_name(r['school_name']),state_code=r['state_code'],
-                       district_name=district_names.get(r['school_id'],'')) for r in tables['schools']]
+                       district_name=district_names.get(r['school_id'],'')) for r in tables['schools'] if r['school_id'] not in selection.excluded_schools]
     from .review_leaderboard import leaderboard
     data=dict(version=1,repository=config['repository'],site_url=config['site_url'],reference_year=reference,
               dataset_build_id=manifest['build_id'],updated_at=manifest['built_at'],state_names=state_names,

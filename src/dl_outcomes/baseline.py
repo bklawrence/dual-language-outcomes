@@ -130,7 +130,8 @@ def official_identifiers(selection, sid, year):
 
 def school_rows(selection, tables, target, *, states=None):
     hosts = {r['school_id'] for r in tables['program_sites']
-             if states is None or selection.schools[r['school_id']]['state_code'] in states}
+             if r['school_id'] not in selection.excluded_schools
+             and (states is None or selection.schools[r['school_id']]['state_code'] in states)}
     by_school = defaultdict(list)
     for site in tables['program_sites']:
         by_school[site['school_id']].append(site)
@@ -200,6 +201,8 @@ def programme_rows(selection, tables, schools, target):
     school_index = {(r['school_id'], r['selection_year']): r for r in schools}
     rows, supplement, fields, evidence = [], [], [], []
     for site in sorted(tables['program_sites'], key=lambda r: r['site_id']):
+        if site['school_id'] in selection.excluded_schools:
+            continue
         program = selection.programs[site['program_id']]
         state = program['state_code']
         source_year = selection.rules['source_vintage_exceptions'].get(state, target)
@@ -421,6 +424,8 @@ def render(tables, rules, profiles, prior_coverage=(), prior_school_units=()):
                 selected_schedules[schedule_id].add(f['site_id'])
     allocated = []
     for a in tables['allocation_schedules']:
+        if a['school_id'] in selection.excluded_schools:
+            continue
         metadata = selection.allocation_claims.get(a['schedule_id'], {})
         allocated.append(dict(a, attributed_unit='programme_site' if a['site_id'] else 'campus_only_not_a_strand_assignment',
             source_url=source_ids[a['source_id']]['source_url'],
@@ -440,7 +445,7 @@ def render(tables, rules, profiles, prior_coverage=(), prior_school_units=()):
             research_status=profiles[code]['collection_status'], programme_site_evidence_records=len(ps),
             research_school_identities=len(ss), confirmed_qualifying_reference_sites=sum(p['in_confirmed_qualifying_cohort'] for p in ps),
             working_reference_sites=sum(p['in_working_cohort'] for p in ps),
-            screening_school_candidates=sum(s['state_code'] == code and s['school_id'] not in {s['school_id'] for s in ss} for s in tables['schools']),
+            screening_school_candidates=sum(s['state_code'] == code and s['school_id'] not in selection.excluded_schools and s['school_id'] not in {s['school_id'] for s in ss} for s in tables['schools']),
             historical_school_grade_context_only=sum(bool(s['grade_context_nces_candidate']) for s in ss),
             schools_with_official_native_identifier=sum(bool(s['official_identifier_record_ids']) for s in ss),
             statewide_school_list_completeness='not_established',
@@ -509,7 +514,7 @@ def render(tables, rules, profiles, prior_coverage=(), prior_school_units=()):
             'prior_elementary_denominator', 'baseline_elementary_denominator', 'prior_has_model', 'baseline_has_model',
             'excluded_later_model_record_ids', 'reason']),
         'identity_review_queue.csv': csv_text(aliases, ['state_code', 'grade_context_nces_candidate', 'school_ids', 'school_names', 'review_status', 'outcome_join_authorized']),
-        'screening_school_candidates.csv': csv_text([r for r in tables['schools'] if r['school_id'] not in {s['school_id'] for s in schools}], list(tables['schools'][0]))}
+        'screening_school_candidates.csv': csv_text([r for r in tables['schools'] if r['school_id'] not in selection.excluded_schools and r['school_id'] not in {s['school_id'] for s in schools}], list(tables['schools'][0]))}
     summary = dict(states=len(state_rows), programme_site_records=len(programmes), school_research_identities=len(schools),
         working_reference_sites=sum(p['in_working_cohort'] for p in programmes),
         confirmed_qualifying_reference_sites=sum(p['in_confirmed_qualifying_cohort'] for p in programmes),
@@ -536,8 +541,10 @@ def audit_rendered(contents, tables, rules):
             if key in seen:
                 raise ValueError('Duplicate national baseline grain: ' + name + '/' + str(key))
             seen.add(key)
-    sites = {r['site_id']: r for r in tables['program_sites']}
-    schools = {r['school_id'] for r in tables['program_sites']}
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids(tables)
+    sites = {r['site_id']: r for r in tables['program_sites'] if r['school_id'] not in excluded}
+    schools = {r['school_id'] for r in sites.values()}
     if {r['site_id'] for r in parsed['programmes.csv']} != set(sites):
         raise ValueError('National baseline lost or invented programme sites')
     if {r['school_id'] for r in parsed['schools.csv']} != schools:

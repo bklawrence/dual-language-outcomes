@@ -80,6 +80,8 @@ tests/                     Schema, population, time, missingness and provenance 
 
 The frozen structural baseline provides field-specific selections and missingness audits alongside the unchanged canonical histories. Its 2025–26 reference selections and the Texas 2023–24/Oregon 2026–27 source-vintage supplements are separate. Model notation, language ordering, grade scope, inference, conflicting sources and unknown applicability remain explicit.
 
+The live research inventory and Fieldnotes exclude specialized deaf/blind education schools under the researcher’s [study-scope policy](config/study_scope.json). The [exclusion register](data/reports/hand_coding/current/study_scope_exclusions.csv) records the schools, reasons and supporting sources. Canonical source-history tables, original observations and frozen releases retain those identities for audit; use the current program-school cohort when joining archived assessment data. These exclusions describe research scope, not program closures or a filter on individual students’ disability status.
+
 ```bash
 .venv/bin/dl-outcomes baseline check national_structural_v1 --reproduce
 ```

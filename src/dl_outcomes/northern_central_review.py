@@ -121,6 +121,9 @@ def audit_errors(root, tables, *, check_hashes=True, batch=None):
 
 
 def render_reports(root, tables, *, batch=None):
+    # State-batch CSVs are archived research vintages, not the live cohort.
+    from .study_scope import source_history_tables
+    tables=source_history_tables(tables)
     settings = dict(base=BASE, states=STATES, report=REPORT)
     settings.update(batch or {})
     programmes, sources = inputs(root, base=settings['base'], states=settings['states'])

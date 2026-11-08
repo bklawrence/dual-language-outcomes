@@ -7,6 +7,11 @@ from .io import read_csv, record_id
 
 
 def build_coverage(b):
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids({'evidence_claims':b.rows('evidence_claims')})
+    excluded_sites={r['site_id'] for r in b.rows('program_sites') if r['school_id'] in excluded}
+    active_programs={r['program_id'] for r in b.rows('program_sites') if r['site_id'] not in excluded_sites}
+    excluded_programs={r['program_id'] for r in b.rows('program_sites')}-active_programs
     config = json.loads((b.root / "config/project.json").read_text())
     years = {f"{year}-{(year+1) % 100:02d}" for year in range(config["coverage_start_year"], config["coverage_end_year"] + 1)}
     found = defaultdict(list)
@@ -20,25 +25,25 @@ def build_coverage(b):
                 years.add(row["school_year"])
                 found[(unit["state_code"], row["school_year"], layer)].append((unit["entity_type"], row["grade_scope"], population["population_scope"], row["source_id"]))
     for row in b.rows("program_configurations"):
-        if row["school_year"]:
+        if row["school_year"] and row['site_id'] not in excluded_sites:
             site = b.tables["program_sites"][(row["site_id"],)]
             state = b.tables["schools"][(site["school_id"],)]["state_code"]
             years.add(row["school_year"])
             found[(state, row["school_year"], "inventory")].append(("school", row["grade_scope"], "program_metadata_only", row["source_id"]))
     for row in b.rows("program_status_history"):
-        if row["school_year"]:
+        if row["school_year"] and row['site_id'] not in excluded_sites:
             site = b.tables["program_sites"][(row["site_id"],)]
             state = b.tables["schools"][(site["school_id"],)]["state_code"]
             years.add(row["school_year"])
             found[(state, row["school_year"], "inventory")].append(("school", "not_reported", "program_status_and_eligibility_review", row["source_id"]))
     for row in b.rows("evidence_claims"):
-        if row["valid_from_year"] and row["entity_type"] == "program":
+        if row["valid_from_year"] and row["entity_type"] == "program" and row['entity_id'] not in excluded_programs:
             state = b.tables["programs"][(row["entity_id"],)]["state_code"]
             year = row["valid_from_year"]
             years.add(year)
             found[(state, year, "inventory")].append(("school", row["grade_scope"], "provisional_evidence_only", row["source_id"]))
     for row in b.rows("allocation_schedules"):
-        if row["school_year"]:
+        if row["school_year"] and row['school_id'] not in excluded and row['site_id'] not in excluded_sites:
             state = b.tables["schools"][(row["school_id"],)]["state_code"]
             years.add(row["school_year"])
             found[(state, row["school_year"], "inventory")].append(("school", row["grade_scope"], "allocation_plan_only", row["source_id"]))

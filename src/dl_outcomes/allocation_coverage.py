@@ -109,6 +109,8 @@ def merge_eligibility(values):
 
 
 def report_rows(tables):
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids(tables)
     from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
     bounds=reference_bounds(tables)
     ceilings=reference_bounds(tables,latest=True)
@@ -130,6 +132,8 @@ def report_rows(tables):
     policy_cache = {}
     for site in sorted(tables['program_sites'], key=lambda r:r['site_id']):
         pid, sid = site['program_id'], site['school_id']
+        if sid in excluded:
+            continue
         program, school = programs[pid], schools[sid]
         state = program['state_code']
         configs = configurations[site['site_id']]

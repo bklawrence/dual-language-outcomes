@@ -1,6 +1,6 @@
 {
   "migration_date": "2026-11-05",
-  "build_id": "build-16911e3215395f66a8fe7045307873ab",
+  "build_id": "build-0ebb4abb91d0518c90c5c3a4ab28a963",
   "schema_version": "1.5.0",
   "collection_phase": "structural_inventory",
   "proficiency_collection": "deferred_until_50_state_structural_inventories_finished",
@@ -58,8 +58,8 @@
     "MS",
     "WV"
   ],
-  "program_evidence_groups": 5131,
-  "program_site_school_units": 4617,
+  "program_evidence_groups": 5127,
+  "program_site_school_units": 4613,
   "imported_five_state_program_records": 338,
   "original_five_state_attribute_claims": 3480,
   "oregon_source_observations": 223,
@@ -70,19 +70,19 @@
   "statewide_completeness": "not_established",
   "view_interpretation": "Source-period unions for review, not a current operating census or assumed historically stable configurations. The earlier nine-state integration report is a preserved milestone; this is the current inventory view.",
   "reports": {
-    "data/reports/hand_coding/current/national_inventory_program_view.csv": "4509a3005b07f224849ef61ca7f612e6c00993a8b8d3277fef92c8de0320579c",
-    "data/reports/hand_coding/current/national_inventory_by_state.csv": "5442347c32dd61c44c05a71799e4a58469e331e93a42fab649599afb9bf6505e",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": "6d537d855c8b482dd905eb3fc8527a4703ee1e7ae26be6a6bd5555ff0646a295",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv": "1f32a5a140b02b8931cb82b7ef9b0da9dc9de3ae9ff39419456db0e9c0ddc380",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv": "6d2ba4c354c063d0d7d899250571c3837c08187237b116a94a38eb6a6b59385a",
+    "data/reports/hand_coding/current/national_inventory_program_view.csv": "bcaf3e851921c1409bb55e9ae0a0307327e12db778b51cddd54d870438512947",
+    "data/reports/hand_coding/current/national_inventory_by_state.csv": "2dd0676da688cf5303d8c54f876a514fca7b9cad129303533af47aeace27cd5a",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": "d647072a95bb9f266c9540cfd146727d8ff9a783db2dad481da06851d3f87891",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv": "99742230f413df177e8a5c150e8de1cd201c791bdfbb95909c804ffec72c5d5b",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv": "a4d77683e3252a98efeba83969cfc74865614438c9a49de686bb4379b10fa7f8",
     "data/registry/washington/wa_programs.csv": "2eacd2c613b5f1c45115397e0c6a2d32514cebd0774e3fa8b82684dff66261d8",
     "data/registry/washington/wa_dl_programs_2025_26.csv": "c95dce95f293640e2f68e735b3c24a36b4d64c42f66b78cd0880dce6e027ca00",
     "data/reports/texas_kindergarten_allocation_coverage_2026_11_06_new_england.csv": "4e303b9f72ff274988146c1d822e79114531648230b7160a7f4645120657c2b6",
     "data/reports/washington_kindergarten_allocation_coverage_2026_11_06_new_england.csv": "930f337ce84dc5def5a035fb8ed52a835be57d759f42913656464c203a47432f",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv": "e031e5f1a611e3cfa27c2db7e6f1953cb9d5b507d54def988fee12b6e49d516e",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_state.csv": "6538cb934b5f13e9cf206501772f44c436fa09afc886aa699e4290709ef5e2f2",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv": "a7e428812f434f6cfd89fbf5cba39c460d434d57c52b57f69a8582b2e0cd1cd7",
-    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv": "75a3687e4fb79e45336ce9c99b219f46f8a93d113e1752cdb4c6b354f10215f6",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv": "b522a28fe6d6b0183b987314a69d3da1e95c14fe2deb54d40287765a8a003976",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_state.csv": "239b396f35ea40841edb56aff5a717c9a8031eae3e0b03157d8473841619ec69",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv": "546463f2d41b5adde2d596ed1e120f058e36ab278637fab54faf64c27b2b167c",
+    "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv": "b8a0dac00e3a610154f7bf1f07542a0b0d63f325a3bc664a85c522230d97fb59",
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_models.csv": "a7b69f9d7b713b0ac076ff374e2539d3d83f75024226e0a12a3fa44f046fa2c4",
     "data/reports/ut_tx_allocation_followup_2026_11_05_utah_roster_reconciliation.csv": "61af3ffd73e5fc1a816b0302ce5515cf1a835cc842f4ace94dce1f980d56f646",
     "data/reports/ut_tx_allocation_followup_2026_11_05_texas_598_status.csv": "954a8edef5e25d8ee89f1b0744a3dd2cd7e471d281d322579b29b052d93060d9",
@@ -294,8 +294,9 @@
     "data/reports/delivery_scope_cleanup_2026_11_06_sources.csv": "fd90490983e0e7232ccaa0364eeff7a79ffe2e1a2a9c0261959e5bb6ac1ca2ea",
     "data/reports/hand_coding/current/reviews.csv": "06383cb9a1f00efdcaf7377a0723ae9badbc9b474636cc9bd5d85c26241bb5f8",
     "data/reports/hand_coding/current/program_events.csv": "4847c9f94ee34051cb0598b90d075df5ab50592ada8907a07b736b21291904ea",
-    "data/reports/hand_coding/current/programs.csv": "b814616916720d13ad3da3a8eb3d8a484e438fb485e1a1a88998fb64136d141d",
-    "data/reports/hand_coding/current/README.md": "e3ee712e711a879dd8a18cd27a65b7eb28177e2ca4b5673897be26b358ee6853"
+    "data/reports/hand_coding/current/programs.csv": "0713768661c4651984c4196f38433dc603acc8be019ae9435b6191d4f1923ed5",
+    "data/reports/hand_coding/current/README.md": "22c85a2213950d3563560e9e19c31e0bb73ab2d7a2977acfab7912dfc34a3455",
+    "data/reports/hand_coding/current/study_scope_exclusions.csv": "104856eac89ec203ee6ef2d9ad7a98c8fdeaa98d25711a6ccfe421de9536aaf5"
   },
   "western_plains_batch": {
     "programme_evidence_groups": 650,
@@ -1159,6 +1160,13 @@
     "audit_status": "PASS"
   },
   "delivery_review_preserved_report_versions": {
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_program.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_school.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/kindergarten_allocation_coverage_2026_11_06_new_england_by_state.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_school.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_state.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_by_state.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_reference_by_state.csv",
+    "data/reports/structural_gaps_pilot_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/elementary_allocation_coverage_2026_11_06_new_england_all_records_by_state.csv",
     "data/reports/structural_gaps_pilot_2026_11_06_field_comparison.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/structural_gaps_pilot_2026_11_06_field_comparison.csv",
     "data/reports/structural_gaps_pilot_2026_11_06_completeness.csv": "data/reports/delivery_scope_cleanup_2026_11_06/revised/structural_gaps_pilot_2026_11_06_completeness.csv"
   },
@@ -1168,5 +1176,8 @@
     "data/reports/delivery_scope_cleanup_2026_11_06_schools.csv": "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_schools.csv",
     "data/reports/delivery_scope_cleanup_2026_11_06_by_state.csv": "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_by_state.csv",
     "data/reports/delivery_scope_cleanup_2026_11_06_remaining_queue.csv": "data/reports/hand_coding/current/revised/delivery_scope_cleanup_2026_11_06_remaining_queue.csv"
-  }
+  },
+  "study_scope_excluded_school_units": 6,
+  "study_scope_excluded_program_school_units": 4,
+  "archived_source_program_evidence_groups": 5131
 }

@@ -152,6 +152,8 @@ def model_description(row, shares, aliases):
 class Selection:
     def __init__(self, tables, rules):
         self.tables, self.rules = tables, rules
+        from .study_scope import excluded_school_ids
+        self.excluded_schools = excluded_school_ids(tables)
         self.target = rules['target_school_year']
         self.sources = {r['source_id']: r for r in tables['sources']}
         self.programs = {r['program_id']: r for r in tables['programs']}

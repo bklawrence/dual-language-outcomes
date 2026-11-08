@@ -173,13 +173,15 @@ def migration_errors(root, tables, *, check_hashes=True):
 
 
 def report_rows(root, tables):
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids(tables)
     from .allocation_coverage import report_rows as allocation_rows
     allocation_details, _, allocation_summary = allocation_rows(tables)
     allocation_by_site = {r['site_id']:r for r in allocation_details}
     allocation_by_state = {r['state_code']:r for r in allocation_summary}
-    schools = {r['school_id']: r for r in tables['schools']}
+    schools = {r['school_id']: r for r in tables['schools'] if r['school_id'] not in excluded}
     programs = {r['program_id']: r for r in tables['programs']}
-    sites = {r['site_id']: r for r in tables['program_sites']}
+    sites = {r['site_id']: r for r in tables['program_sites'] if r['school_id'] not in excluded}
     statuses, configurations, languages, allocations = [defaultdict(list) for _ in range(4)]
     campus_allocations=defaultdict(list)
     for row in tables['allocation_schedules']:
@@ -227,11 +229,11 @@ def report_rows(root, tables):
     for state in tables['states']:
         code = state['state_code']
         current = [r for r in inventory if r['state_code']==code]
-        registry = [r for r in tables['schools'] if r['state_code']==code]
+        registry = [r for r in schools.values() if r['state_code']==code]
         if not current and not registry:
             continue
         config = json.loads((root/f'config/states/{code.lower()}.json').read_text())
-        state_status = [r for r in tables['program_status_history'] if programs[sites[r['site_id']]['program_id']]['state_code']==code]
+        state_status = [r for r in tables['program_status_history'] if r['site_id'] in sites and programs[sites[r['site_id']]['program_id']]['state_code']==code]
         qualifying = [r for r in state_status if r['operating_status']=='confirmed_2025_26' and r['eligibility_status'].startswith('documented_')]
         summary.append(dict(state_code=code,state_name=state['state_name'],integration_status=config['collection_status'],
             registry_school_units_including_screening=len(registry), program_site_school_units=len({r['school_id'] for r in current}),
@@ -263,6 +265,8 @@ def generate_report(root, *, check=False):
     errors = migration_errors(root,tables)
     if errors:
         raise ValueError('\n'.join(errors))
+    from .study_scope import source_history_tables
+    historical_tables=source_history_tables(tables)
     inventory, summary = report_rows(root,tables)
     manifest = json.loads((root/'data/curated/manifest.json').read_text())
     prefix=report_prefix(root)
@@ -284,7 +288,7 @@ def generate_report(root, *, check=False):
     batch_summary = None
     if (root / 'config/research_migrations/western_plains_2026_11_04.json').exists():
         from .western_plains_review import render_reports
-        batch_contents, batch_summary = render_reports(root, tables)
+        batch_contents, batch_summary = render_reports(root, historical_tables)
         contents.update(batch_contents)
     followup=root/'config/research_migrations/ut_tx_allocations_2026_11_05.json'
     report_date=json.loads(followup.read_text())['date'] if followup.exists() else '2026-11-04'
@@ -292,7 +296,7 @@ def generate_report(root, *, check=False):
         collection_phase='structural_inventory', proficiency_collection='deferred_until_50_state_structural_inventories_finished',
         states_with_integrated_program_evidence=[r['state_code'] for r in summary],
         other_states_without_program_evidence=[r['state_code'] for r in tables['states'] if r['state_code'] not in {x['state_code'] for x in summary}],
-        program_evidence_groups=len(tables['programs']),program_site_school_units=len({r['school_id'] for r in tables['program_sites']}),
+        program_evidence_groups=len({r['program_id'] for r in inventory}),program_site_school_units=len({r['school_id'] for r in inventory}),
         imported_five_state_program_records=338, original_five_state_attribute_claims=3480,
         oregon_source_observations=223,oregon_directory_program_evidence_groups=209,
         historical_CDE_screening_school_leads=1310,oregon_separate_language_screening_rows=12,
@@ -303,7 +307,7 @@ def generate_report(root, *, check=False):
         audit['western_plains_batch'] = {k: batch_summary[k] for k in ['programme_evidence_groups', 'school_units_with_programme_evidence', 'public_source_documents', 'source_extraction_counts']}
     if (root/'config/research_migrations/northern_central_ak_hi_2026_11_05.json').exists():
         from .northern_central_review import render_reports as northern_reports
-        northern_contents, northern_summary = northern_reports(root, tables)
+        northern_contents, northern_summary = northern_reports(root, historical_tables)
         contents.update(northern_contents)
         audit['northern_central_ak_hi_batch'] = northern_summary
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in northern_contents.items()})
@@ -313,19 +317,19 @@ def generate_report(root, *, check=False):
             batch_contents, batch_report = frozen_great_lakes_reports(root)
         else:
             from .great_lakes_review import render_reports as great_lakes_reports
-            batch_contents, batch_report = great_lakes_reports(root, tables)
+            batch_contents, batch_report = great_lakes_reports(root, historical_tables)
         contents.update(batch_contents)
         audit['great_lakes_batch'] = batch_report
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in batch_contents.items()})
     if (root/'config/research_migrations/illinois_2021_22_user_2026_11_05.json').exists():
         from .illinois_history import render_reports as historical_reports
-        historical_contents, historical_report = historical_reports(root, tables, inventory)
+        historical_contents, historical_report = historical_reports(root, historical_tables, inventory)
         contents.update(historical_contents)
         audit['illinois_user_2021_22_history'] = historical_report
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in historical_contents.items()})
     if (root/'config/research_migrations/south_central_2026_11_05.json').exists():
         from .south_central_review import render_reports as south_central_reports
-        new_contents, new_summary = south_central_reports(root, tables)
+        new_contents, new_summary = south_central_reports(root, historical_tables)
         contents.update(new_contents)
         audit['south_central_batch'] = new_summary
         audit['states_with_screening_only_research'] = [r['state'] for r in new_summary['state_summary']
@@ -337,7 +341,7 @@ def generate_report(root, *, check=False):
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     if (root/'config/research_migrations/southeast_2026_11_05.json').exists():
         from .southeast_review import render_reports as southeast_reports
-        new_contents, new_summary = southeast_reports(root, tables)
+        new_contents, new_summary = southeast_reports(root, historical_tables)
         contents.update(new_contents)
         audit['southeast_batch'] = new_summary
         screened = set(audit.get('states_with_screening_only_research', []))
@@ -350,7 +354,7 @@ def generate_report(root, *, check=False):
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     if (root/'config/research_migrations/oh_ky_wv_va_2026_11_05.json').exists():
         from .oh_ky_wv_va_review import render_reports as eastern_reports
-        new_contents, new_summary = eastern_reports(root, tables)
+        new_contents, new_summary = eastern_reports(root, historical_tables)
         contents.update(new_contents)
         audit['oh_ky_wv_va_batch'] = new_summary
         screened = set(audit.get('states_with_screening_only_research', []))
@@ -363,7 +367,7 @@ def generate_report(root, *, check=False):
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     if (root/'config/research_migrations/mid_atlantic_ct_2026_11_05.json').exists():
         from .mid_atlantic_ct_review import render_reports as atlantic_reports
-        new_contents, new_summary = atlantic_reports(root, tables)
+        new_contents, new_summary = atlantic_reports(root, historical_tables)
         contents.update(new_contents)
         audit['mid_atlantic_ct_batch'] = new_summary
         screened = set(audit.get('states_with_screening_only_research', []))
@@ -375,13 +379,13 @@ def generate_report(root, *, check=False):
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     if (root/'config/research_migrations/ny_allocation_followup_2026_11_06.json').exists():
         from .ny_allocation_followup import render_reports as ny_reports
-        new_contents, new_summary = ny_reports(root, tables)
+        new_contents, new_summary = ny_reports(root, historical_tables)
         contents.update(new_contents)
         audit['new_york_allocation_followup'] = new_summary
         audit['reports'].update({rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in new_contents.items()})
     if (root/'config/research_migrations/new_england_2026_11_06.json').exists():
         from .new_england_review import render_reports as new_england_reports
-        new_contents, new_summary = new_england_reports(root, tables)
+        new_contents, new_summary = new_england_reports(root, historical_tables)
         contents.update(new_contents)
         audit['new_england_batch'] = new_summary
         screened = set(audit.get('states_with_screening_only_research', []))
@@ -412,6 +416,14 @@ def generate_report(root, *, check=False):
         contents,aliases=manual_paths(root,contents,tables)
         audit['hand_coding_preserved_report_versions']=aliases
         audit['reports']={rel:hashlib.sha256(text.encode()).hexdigest() for rel,text in contents.items()}
+    from .study_scope import excluded_school_ids, report as scope_report, REPORT as scope_path
+    excluded=excluded_school_ids(tables)
+    if excluded:
+        contents[scope_path]=scope_report(tables)
+        audit['study_scope_excluded_school_units']=len(excluded)
+        audit['study_scope_excluded_program_school_units']=len({r['school_id'] for r in tables['program_sites'] if r['school_id'] in excluded})
+        audit['archived_source_program_evidence_groups']=len(tables['programs'])
+        audit['reports'][scope_path]=hashlib.sha256(contents[scope_path].encode()).hexdigest()
     contents[prefix+'.json'] = json.dumps(audit,indent=2,ensure_ascii=False)+'\n'
     for rel, text in contents.items():
         path=root/rel

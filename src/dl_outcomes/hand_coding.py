@@ -190,7 +190,11 @@ def accept_issue(root, event):
         if old['records'] != payload['records'] or old['submission']['github_actor'].lower() != actor.lower():
             raise ValueError('This batch ID already exists with different content.')
         return {'status': 'already_saved', 'path': str(path.relative_to(root)), 'batch_id': payload['batch_id']}
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids(tables)
     for record in payload['records']:
+        if record['school_id'] in excluded:
+            raise ValueError('This school is excluded from the research cohort. Refresh Fieldnotes; previously accepted evidence remains archived.')
         validate_record(record, sites, schools, kindergarten_only=True)
     existing_ids = {r['review_id'] for p in (root/JOURNAL).glob('*.json') for r in json.loads(p.read_text())['records']}
     if existing_ids & {r['review_id'] for r in payload['records']}:
@@ -389,5 +393,9 @@ def revise_report_paths(root, contents, tables):
         '`reviews.csv` contains all published hand-coded reviews, including other reference years, '
         'researcher and authenticated GitHub account, timestamps, sources, notes, quotations and coding method. '
         'Immutable journal files are in `data/registry/hand_coded_reviews/`. Original observations and the '
-        'frozen national baseline are retained. Reviewed-year bounds are not program start or end dates.\n')
+        'frozen national baseline are retained. Reviewed-year bounds are not program start or end dates.\n\n'
+        '`study_scope_exclusions.csv` documents schools removed from active research views and Fieldnotes '
+        'under `config/study_scope.json`, including the reason and supporting sources. Source-history '
+        'tables and frozen releases retain those identities for audit. Apply the current program-school '
+        'cohort when joining archived assessment data. Scope exclusions are not program closures.\n')
     return result,aliases

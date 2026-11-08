@@ -195,6 +195,8 @@ def numeric_model(label):
 
 
 def report_rows(tables):
+    from .study_scope import excluded_school_ids
+    excluded=excluded_school_ids(tables)
     from .evidence_scope import reference_bounds, scoped_row, within_reviewed_reference
     bounds=reference_bounds(tables)
     ceilings=reference_bounds(tables,latest=True)
@@ -217,6 +219,8 @@ def report_rows(tables):
             contexts[row['entity_id']] = (row,json.loads(row['reported_value']))
     details = []
     for sid, sites in sorted(sites_by_school.items()):
+        if sid in excluded:
+            continue
         school = schools[sid];state = school['state_code']
         selected_grades = [r for site in sites for r in select_grade_rows(configs[site['site_id']],state)]
         context = contexts.get(sid)

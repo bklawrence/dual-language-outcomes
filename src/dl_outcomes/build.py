@@ -194,6 +194,8 @@ class Build:
         if (self.root/'config/hand_coding.json').exists():
             from .hand_coding import migrate as apply_hand_coding
             apply_hand_coding(self)
+        from .study_scope import migrate as apply_study_scope
+        apply_study_scope(self)
         for mapping in self.identity.rows:
             if mapping["review_status"] != "accepted":
                 continue

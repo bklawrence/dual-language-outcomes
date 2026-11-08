@@ -1,0 +1,57 @@
+{
+  "decision_date": "2026-11-07",
+  "decision_authority": "Researcher instruction in the project conversation",
+  "reason_code": "specialized_deaf_or_blind_school",
+  "policy": "Exclude schools specifically organized for deaf, hard-of-hearing and/or blind students from the active dual-language research cohort. This includes deaf-education schools with hearing peers. ASL instruction, disability services or inclusion of deaf students alone do not exclude a general school. This is a study-scope decision, not a claim that the school or program closed.",
+  "applies_to": "All school years in live research views; frozen research releases and source observations remain archived.",
+  "schools": [
+    {
+      "school_id": "NC-HI-S-554eb837cc2e",
+      "state_code": "HI",
+      "school_name": "Hawaiʻi School for the Deaf and the Blind",
+      "evidence_url": "https://www.hsdb.k12.hi.us/apps/pages/index.jsp?uREC_ID=580696&type=d",
+      "evidence_snapshot": "data/registry/northern_central_ak_hi_2026_11_05/extractions/nc_hi_deaf_about.txt",
+      "basis": "Official school identity and institutional deaf/blind education mission."
+    },
+    {
+      "school_id": "NE5-MA-S-9dcc3a155191",
+      "state_code": "MA",
+      "school_name": "Horace Mann School for the Deaf and Hard of Hearing",
+      "evidence_url": "https://www.doe.mass.edu/ele/programs/dle-list.docx",
+      "evidence_snapshot": "data/registry/new_england_2026_11_06/ma_programmes.json",
+      "basis": "Massachusetts directory explicitly identifies the institution as a school for the Deaf and Hard of Hearing."
+    },
+    {
+      "school_id": "WP-NM-S-2016ce56dbd9",
+      "state_code": "NM",
+      "school_name": "Albuquerque Sign Language Academy",
+      "evidence_url": "https://www.aslacademy.com/our-story/",
+      "evidence_snapshot": "data/raw/western_plains_2026_11_04/wp_nm_asla_story.html",
+      "basis": "School describes itself as a national leader in deaf education and an inclusive ASL/English school serving deaf, hard-of-hearing and hearing students together."
+    },
+    {
+      "school_id": "M6-NY-S-c6693c90a1cb",
+      "state_code": "NY",
+      "school_name": "The 47 American Sign Language & English Lower School",
+      "evidence_url": "https://www.nycenet.edu/documents/oaosi/cep/2025-26/cep_M347.pdf",
+      "evidence_snapshot": "data/registry/mid_atlantic_ct_2026_11_05/extractions/nyf_cep_02M347.txt",
+      "basis": "2025–26 school plan identifies PS 347 as a school for Deaf and Hard of Hearing students, Children of Deaf Adults and neighborhood children; its mission centers this deaf-education community."
+    },
+    {
+      "school_id": "CA-S01316170131763",
+      "state_code": "CA",
+      "school_name": "California School for the Deaf-Fremont",
+      "evidence_url": "https://www.cde.ca.gov/sp/ml/documents/mlprograms2425.xlsx",
+      "evidence_snapshot": "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv",
+      "basis": "Explicitly identified state school for the Deaf; previously a historical CDE screening lead, not an active curated program."
+    },
+    {
+      "school_id": "CA-S33316253330834",
+      "state_code": "CA",
+      "school_name": "California School for the Deaf-Riverside",
+      "evidence_url": "https://www.cde.ca.gov/sp/ml/documents/mlprograms2425.xlsx",
+      "evidence_snapshot": "data/registry/five_state_2026_27/california_school_candidates_2024_25.csv",
+      "basis": "Explicitly identified state school for the Deaf; previously a historical CDE screening lead, not an active curated program."
+    }
+  ]
+}
