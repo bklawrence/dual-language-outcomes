@@ -1,0 +1,274 @@
+{
+  "batch_id": "41abf6d5-5189-4a4a-9674-925bbbbc93f2",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c88dac60bea65f13a0e1da16d071cb54"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:56:13.403Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://dunsmore.gusd.net/51562_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "6e23e8b2-c5d2-48f1-a75e-1fb0faa05278",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-16a174a59848",
+      "school_name": "Dunsmore Elementary School",
+      "selected_site_id": "site-c88dac60bea65f13a0e1da16d071cb54",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5b1581c94b81574b83f8e5c027762400"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:57:49.834Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://muir.gusd.net/30988_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "2da53a54-4213-44c5-bb2d-ab4657c768f0",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-43f1ef715228",
+      "school_name": "John Muir Elementary School",
+      "selected_site_id": "site-5b1581c94b81574b83f8e5c027762400",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-cc4fe335d4d15377a39a0617e4bce2d4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:58:20.284Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://keppel.gusd.net/49805_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "ef05d194-9707-4824-bfe9-48305ce39f93",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-94b3a42257c7",
+      "school_name": "Mark Keppel Elementary School",
+      "selected_site_id": "site-cc4fe335d4d15377a39a0617e4bce2d4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-14543c3ca0515fa990dfcae04e07bb93"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:59:03.367Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://montevista.gusd.net/31127_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "a0373961-c02a-4c27-ae25-327799fb65e8",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-a4bd61a3409f",
+      "school_name": "Monte Vista Elementary School",
+      "selected_site_id": "site-14543c3ca0515fa990dfcae04e07bb93",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-83b9d1c1c9c55cbfa80ef64a6fb3d2ad"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T02:59:30.534Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://rdwhite.gusd.net/29667_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "344486c2-0d5b-4c79-a09e-0deabfb512f2",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-8305c52721b1",
+      "school_name": "R. D. White Elementary School",
+      "selected_site_id": "site-83b9d1c1c9c55cbfa80ef64a6fb3d2ad",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-6927d30c1d175060a36a1e194c0e87b1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:00:13.634Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://edison.gusd.net/25825_2?offset=0&ppl=1",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "cd9fd7a3-00bd-4744-83e3-19dfc717ec46",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-0d73447e85ce",
+      "school_name": "Thomas Edison Elementary School",
+      "selected_site_id": "site-6927d30c1d175060a36a1e194c0e87b1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-42b9fb783bf8521fbe143fb58c962430"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:00:38.200Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://verdugowoodlands.gusd.net/86552_2",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "e9321e22-c5db-4d45-85aa-914c216179f2",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-6926a60e003c",
+      "school_name": "Verdugo Woodlands Elementary School",
+      "selected_site_id": "site-42b9fb783bf8521fbe143fb58c962430",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-91f90cce0d0d5c2aa9c5794b276400e9"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:01:49.966Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://centennial.fresnounified.org/about/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "6ea8d6f8-f458-4f8a-945e-467e3c66469d",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-b8023561283c",
+      "school_name": "Centennial Elementary School",
+      "selected_site_id": "site-91f90cce0d0d5c2aa9c5794b276400e9",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-70890f4113f557cf9fd23dae7aec090b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:02:18.665Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://ewing.fresnounified.org/about/staff",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "8e7982f0-f9be-4288-9567-224a89ee33a2",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-047cbb10c0b2",
+      "school_name": "Ewing Elementary School",
+      "selected_site_id": "site-70890f4113f557cf9fd23dae7aec090b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c284523a4dfe532687e794231c1f1f1f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T03:02:56.349Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://roeding.fresnounified.org/about/staff-directory",
+      "grade_scope": "",
+      "notes": "Staff directory",
+      "reference_year": "2025-26",
+      "review_id": "54c46238-bf78-4615-a105-502e35a3692a",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-a764c080f026",
+      "school_name": "Roeding Elementary School",
+      "selected_site_id": "site-c284523a4dfe532687e794231c1f1f1f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 33,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/33",
+    "received_at": "2026-11-08T03:12:25.658746+00:00",
+    "submitted_at": "2026-11-08T03:11:31Z"
+  },
+  "version": 1
+}

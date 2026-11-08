@@ -1,13 +1,13 @@
 school_id,state_code,school_name,district_names,allocation_bearing_programme_sites,before_all_allocated_sites_documented,after_all_allocated_sites_documented,reviewed_in_this_pass,delivery_values
 CA-S-005654f953b0,CA,Wilshire Crest ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-008630b6f453,CA,Winchell Elementary School,Fresno Unified School District,1,0,0,0,
-CA-S-015d5199c7dc,CA,Castle Heights ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-015d5199c7dc,CA,Castle Heights ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-0372d6f72f27,CA,Loreto St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-0398ff849acf,CA,Denker Ave ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-047cbb10c0b2,CA,Ewing Elementary School,Fresno Unified School District,1,0,0,0,
+CA-S-047cbb10c0b2,CA,Ewing Elementary School,Fresno Unified School District,1,0,0,0,strand
 CA-S-091331730d0c,CA,Bandini ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-0badef1821df,CA,Martin Luther King Jr.,Los Angeles Unified School District,1,0,0,0,
-CA-S-0d73447e85ce,CA,Thomas Edison Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-0d73447e85ce,CA,Thomas Edison Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-10b61f379589,CA,State St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1215d9d70231,CA,Monroe Elementary School,San Francisco Unified School District,1,0,0,0,
 CA-S-12471cb7fb37,CA,Miles ES,Los Angeles Unified School District,1,0,0,0,
@@ -17,7 +17,7 @@ CA-S-137ddb196c3e,CA,122nd St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-14507c46de69,CA,4th St. PC,Los Angeles Unified School District,1,0,0,0,
 CA-S-162f2fae416f,CA,Micheltorena ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1658049ba06e,CA,Calwa Elementary School,Fresno Unified School District,1,0,0,0,
-CA-S-16a174a59848,CA,Dunsmore Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-16a174a59848,CA,Dunsmore Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-16c35e0d995d,CA,Alice Fong Yu Alternative School,San Francisco Unified School District,1,0,0,0,
 CA-S-1b541369c6a0,CA,Dominguez ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-1bc28b951a9b,CA,Knox ES,Los Angeles Unified School District,1,0,0,0,
@@ -31,16 +31,16 @@ CA-S-2161aad42f4d,CA,"Alexander
 Science Center ES",Los Angeles Unified School District,1,0,0,0,
 CA-S-22ea85309c27,CA,Broadway ES,Los Angeles Unified School District,2,0,0,0,strand
 CA-S-231c53229269,CA,Maple PC,Los Angeles Unified School District,1,0,0,0,
-CA-S-236e826c5e0e,CA,Aurora ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-236e826c5e0e,CA,Aurora ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-252c4ccc774b,CA,Cahuenga ES,Los Angeles Unified School District,2,0,0,0,strand
 CA-S-25a20bd651f9,CA,Elizabeth LC,Los Angeles Unified School District,1,0,0,0,
 CA-S-25c14ae1aa03,CA,Camellia Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-262d184706ea,CA,Ford Blvd. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-27725718c398,CA,Windmill Springs School,Franklin-McKinley School District,1,0,0,0,
-CA-S-277fecde8631,CA,Carson-Gore Academy ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-277fecde8631,CA,Carson-Gore Academy ES,Los Angeles Unified School District,1,0,0,0,strand
 CA-S-27d0307c1f75,CA,Altadena Arts Magnet,Pasadena Unified School District,1,0,0,0,strand
 CA-S-2b45dae02c6b,CA,Santana Arts Academy ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-2d80ba0ae650,CA,Gridley ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-2d80ba0ae650,CA,Gridley ES,Los Angeles Unified School District,1,0,0,0,strand
 CA-S-2e9ad684fece,CA,Lane Elementary School,Fresno Unified School District,1,0,0,0,
 CA-S-314d8d42578a,CA,Jackson Elementary School,Fresno Unified School District,1,0,0,0,
 CA-S-31b471a2bd99,CA,Gardena ES,Los Angeles Unified School District,1,0,0,0,
@@ -52,7 +52,7 @@ CA-S-366d5d1e549a,CA,Hooper Ave. PC,Los Angeles Unified School District,1,0,0,0,
 CA-S-3f767444b7dd,CA,Benjamin Franklin Elementary School,Glendale Unified School District,4,0,0,0,strand
 CA-S-3faa0ced1114,CA,96th St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-3fcd395176fe,CA,Garfield Elementary School,San Francisco Unified School District,1,0,0,0,
-CA-S-43f1ef715228,CA,John Muir Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-43f1ef715228,CA,John Muir Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-44fc3064a1b2,CA,3rd St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-45807924ea36,CA,Virginia RD,Los Angeles Unified School District,1,0,0,0,
 CA-S-463768cbb36e,CA,San Miguel ES,Los Angeles Unified School District,2,0,0,0,strand
@@ -86,8 +86,8 @@ CA-S-668d1ca1706d,CA,Queen Anne ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-6701b8871b2a,CA,Bret Harte Elementary School,San Francisco Unified School District,1,0,0,0,
 CA-S-685c0ca2af78,CA,MacArthur Park VPA ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-6881d78d9571,CA,Porter Ranch School (K-8) ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-6926a60e003c,CA,Verdugo Woodlands Elementary School,Glendale Unified School District,1,0,0,0,
-CA-S-6b542c79a437,CA,Hooper Ave. ES,Los Angeles Unified School District,1,0,0,0,
+CA-S-6926a60e003c,CA,Verdugo Woodlands Elementary School,Glendale Unified School District,1,0,0,0,strand
+CA-S-6b542c79a437,CA,Hooper Ave. ES,Los Angeles Unified School District,1,0,1,0,strand
 CA-S-6c7d8c22bc84,CA,Thomas Jefferson Elementary School,Glendale Unified School District,1,0,1,0,strand
 CA-S-6d36e1638f00,CA,President Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-6ea73b6f72f9,CA,Buchanan St. ES,Los Angeles Unified School District,1,0,0,0,
@@ -101,7 +101,7 @@ CA-S-7f12c95fa359,CA,Catskill ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-7ff165befd67,CA,Gates St. ES,Los Angeles Unified School District,2,0,0,0,strand
 CA-S-80f5ee13d196,CA,Roybal-Allard ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-82c869a395af,CA,Mack ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-8305c52721b1,CA,R. D. White Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-8305c52721b1,CA,R. D. White Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-854531753d5f,CA,City Terrace ES,Los Angeles Unified School District,1,0,1,1,strand
 CA-S-86a5a62abcd8,CA,Baca Arts Academy,Los Angeles Unified School District,1,0,0,0,
 CA-S-87208174db88,CA,Sheridan ES,Los Angeles Unified School District,1,0,0,0,
@@ -111,12 +111,12 @@ CA-S-88a228b5c3af,CA,Bassett St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-8cf72b0daf20,CA,153rd St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-8d73f63905b8,CA,Richland ES,Los Angeles Unified School District,1,0,1,1,strand
 CA-S-8fbaa9ef789f,CA,Coldwater Canyon ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-912400cdfb39,CA,Longfellow Elementary School,Pasadena Unified School District,1,0,0,0,strand
+CA-S-912400cdfb39,CA,Longfellow Elementary School,Pasadena Unified School District,1,0,1,0,strand
 CA-S-91254058f565,CA,Claire Lilienthal School,San Francisco Unified School District,1,0,0,0,strand
 CA-S-92601376d72e,CA,Menlo Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-927756a66a45,CA,42nd St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-93e3231d5891,CA,Saticoy ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-94b3a42257c7,CA,Mark Keppel Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-94b3a42257c7,CA,Mark Keppel Elementary School,Glendale Unified School District,1,0,0,0,strand
 CA-S-94d929d8c58d,CA,Fullbright Ave. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-94dd95c0d9c7,CA,Grand View ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-9569aa39f8c7,CA,Park Ave. ES,Los Angeles Unified School District,1,0,0,0,
@@ -131,9 +131,9 @@ CA-S-9e386b085be3,CA,Starr King Elementary School,San Francisco Unified School D
 CA-S-a01754d52260,CA,Farmdale ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-a0e74d46f40e,CA,28th St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-a2abb185e8bf,CA,Humphreys ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-a4bd61a3409f,CA,Monte Vista Elementary School,Glendale Unified School District,1,0,0,0,
+CA-S-a4bd61a3409f,CA,Monte Vista Elementary School,Glendale Unified School District,1,0,1,0,strand
 CA-S-a7427f2f7ccf,CA,Lassen ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-a764c080f026,CA,Roeding Elementary School,Fresno Unified School District,1,0,0,0,
+CA-S-a764c080f026,CA,Roeding Elementary School,Fresno Unified School District,1,0,1,0,strand
 CA-S-a78e3a346352,CA,Cowan ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-a895053f36c1,CA,Ambler ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-a990845e2830,CA,San Fernando ES,Los Angeles Unified School District,1,0,0,0,
@@ -151,7 +151,7 @@ CA-S-b48b795d2dc7,CA,San Rafael Elementary School,Pasadena Unified School Distri
 CA-S-b505e92ebb3b,CA,Eastman ES,Los Angeles Unified School District,2,0,0,0,
 CA-S-b71c8ed5ee74,CA,Alta Loma ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-b7e4551ec3c6,CA,Flournoy ES,Los Angeles Unified School District,1,0,0,0,
-CA-S-b8023561283c,CA,Centennial Elementary School,Fresno Unified School District,1,0,0,0,
+CA-S-b8023561283c,CA,Centennial Elementary School,Fresno Unified School District,1,0,1,0,strand
 CA-S-b8c8dfd03373,CA,Gratts Learning Academy,Los Angeles Unified School District,2,0,0,0,
 CA-S-b94066ab367d,CA,Sunrise ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-bde24fde50d8,CA,Woodlawn ES,Los Angeles Unified School District,1,0,0,0,
@@ -165,7 +165,7 @@ CA-S-cdab5074a296,CA,Jeanne R. Meadows Elementary School,Franklin-McKinley Schoo
 CA-S-cee6aba1035e,CA,Normandie Avenue ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-d0d4635364a3,CA,Montara ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-d24b0ad72953,CA,Paul Revere K-8 School,San Francisco Unified School District,1,0,0,0,
-CA-S-d4b10dc74877,CA,Wawona K–8 School,Fresno Unified School District,1,0,0,0,
+CA-S-d4b10dc74877,CA,Wawona K–8 School,Fresno Unified School District,1,0,1,0,strand
 CA-S-d8bba5fca726,CA,135th St. ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-d92627612295,CA,Amestoy ES,Los Angeles Unified School District,1,0,0,0,
 CA-S-dd1145c04b5b,CA,Trinity St. ES,Los Angeles Unified School District,1,0,0,0,
