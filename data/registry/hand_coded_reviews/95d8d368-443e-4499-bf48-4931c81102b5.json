@@ -1,0 +1,67 @@
+{
+  "batch_id": "95d8d368-443e-4499-bf48-4931c81102b5",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-cbcfadfe2ac157b39abdbb58c0713b81",
+            "site_candidate-d9207d003a7d5985a3aa69f35fd902bf"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:12:34.624Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://jacksonkeller.neisd.net/staff-directory/",
+      "grade_scope": "",
+      "notes": "from staff directory labels",
+      "reference_year": "2025-26",
+      "review_id": "1fb6b8b6-2357-43cb-838c-79712dad2bfe",
+      "reviewer": "Brian",
+      "school_id": "TX-S015910107",
+      "school_name": "Jackson-keller Elementary",
+      "selected_site_id": "site_candidate-cbcfadfe2ac157b39abdbb58c0713b81",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-6e9e880178a45216bfc9aa25b1698a83"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-08T14:30:43.713Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.fresnobee.com/news/local/education-lab/article297076579.html",
+      "grade_scope": "",
+      "notes": "referred to as strand program in 2025 Fresno Bee article. \"Half of Jackson’s students are in the dual-immersion program.\"",
+      "reference_year": "2025-26",
+      "review_id": "a7f8f559-de1f-47fc-89ff-2f6c07803f47",
+      "reviewer": "Brian",
+      "school_id": "CA-S-314d8d42578a",
+      "school_name": "Jackson Elementary School",
+      "selected_site_id": "site-6e9e880178a45216bfc9aa25b1698a83",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bjgaines11",
+    "hand_coded": true,
+    "issue_number": 41,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/41",
+    "received_at": "2026-11-08T14:31:42.918439+00:00",
+    "submitted_at": "2026-11-08T14:31:00Z"
+  },
+  "version": 1
+}
