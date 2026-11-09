@@ -1,0 +1,41 @@
+{
+  "batch_id": "c4fef6ed-5804-4037-9d5e-b7c65a4babc6",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-f6d2eeec62935be5b4e968a66f9e78bf",
+            "site_candidate-fc1bcd68506f5010bb3bd89ff803c91e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:51:37.649Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "db0d6f39-792d-4c17-904a-e72301ff8462",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905195",
+      "school_name": "Preston Hollow Elementary",
+      "selected_site_id": "site_candidate-f6d2eeec62935be5b4e968a66f9e78bf",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 57,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/57",
+    "received_at": "2026-11-09T01:55:28.558199+00:00",
+    "submitted_at": "2026-11-09T01:52:40Z"
+  },
+  "version": 1
+}
