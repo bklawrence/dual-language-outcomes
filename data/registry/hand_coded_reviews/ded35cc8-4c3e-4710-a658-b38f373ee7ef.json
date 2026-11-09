@@ -1,0 +1,199 @@
+{
+  "batch_id": "ded35cc8-4c3e-4710-a658-b38f373ee7ef",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b0fbf46e730f5994ac9f263173df7e4a"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T21:41:23.378Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "cde3ab95-cec6-437f-a072-d8b40c06499f",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912170",
+      "school_name": "Helms Elementary",
+      "selected_site_id": "site_candidate-b0fbf46e730f5994ac9f263173df7e4a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1649f055394e508e9c4a1a2728bead11"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T22:32:31.385Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://burnet.houstonisd.org/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "44e0e74c-7651-4f67-ad5f-4a185d54faa1",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912124",
+      "school_name": "Burnet Elementary",
+      "selected_site_id": "site_candidate-1649f055394e508e9c4a1a2728bead11",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c7ef4081a5dc51e3b26b20e783ca8bb0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T22:33:36.869Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1749059354/houstonisdorg/nwdljttnyngt5zivsthu/DL_ListofCampuses_SY2425_updated22525_ML.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0bf11d0e-e963-4d72-b9f7-6de7b5d540c4",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912175",
+      "school_name": "Hobby Elementary",
+      "selected_site_id": "site_candidate-c7ef4081a5dc51e3b26b20e783ca8bb0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b8d8356822525c88acfbb81ea0919c0f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T22:34:34.316Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1749059354/houstonisdorg/nwdljttnyngt5zivsthu/DL_ListofCampuses_SY2425_updated22525_ML.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5c13e36c-5763-4666-8ccd-560ffbc9e759",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912233",
+      "school_name": "Rucker Elementary",
+      "selected_site_id": "site_candidate-b8d8356822525c88acfbb81ea0919c0f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-325c2b3396b7522eb75dba4f6fda037a",
+            "site_candidate-d54956d3739357eebd0ff275d2fd3745"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T22:35:10.043Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1749059354/houstonisdorg/nwdljttnyngt5zivsthu/DL_ListofCampuses_SY2425_updated22525_ML.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "940492a0-e703-4e15-af6b-51dbd5904340",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912257",
+      "school_name": "Whidby Elementary",
+      "selected_site_id": "site_candidate-325c2b3396b7522eb75dba4f6fda037a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-0042f37cffa859aab174de86cf28b964",
+            "site_candidate-cc7ab1bcc24c513192ea2dcb62174563"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T22:35:42.983Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1749059354/houstonisdorg/nwdljttnyngt5zivsthu/DL_ListofCampuses_SY2425_updated22525_ML.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d956ab38-b964-43b5-9989-975b8a9cff67",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912286",
+      "school_name": "Herrera Elementary",
+      "selected_site_id": "site_candidate-0042f37cffa859aab174de86cf28b964",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-48a90b07cb7e52689cd0303893c11f7a",
+            "site_candidate-f38dcbd6e3fa5975946f199066ce6672"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T22:36:08.055Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1749059354/houstonisdorg/nwdljttnyngt5zivsthu/DL_ListofCampuses_SY2425_updated22525_ML.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "36b8ffd8-e0f1-45c4-8e61-c377817df21c",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912382",
+      "school_name": "Reagan K–8 Educational Ctr",
+      "selected_site_id": "site_candidate-48a90b07cb7e52689cd0303893c11f7a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 83,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/83",
+    "received_at": "2026-11-09T22:37:49.585052+00:00",
+    "submitted_at": "2026-11-09T22:37:08Z"
+  },
+  "version": 1
+}
