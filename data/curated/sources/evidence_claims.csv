@@ -40059,6 +40059,23 @@ claim-97e2e0358eba52c49d87c157b5654879,school,CA-S43696666048763,historical_CDE_
 claim-97e78c3c1ff45338ae0afa86a047f9a1,program,CA-P-9f0d438d4fd4,operating_status_2025_26,confirmed_2025_26,2025-26,2025-26,not_reported,,continuity_review,continuity_review,citation-09cee9cc3cea51889612e7049ee7be04,CA-P-9f0d438d4fd4-25-E-9,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""user_authorized_continuity_assessment"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""The cited program description establishes prior academic immersion. Targeted district/campus change searches and selected source review found no applicable indication that this program ended; identified changes are retained in the review. Confirmed for 2025–26 under the user-requested continuity rule; this is an assessment, not an independent current-year source statement."", ""source_date"": """"}",2025-26
 claim-97e8054bace95ca2a2054e35c5dbf166,program,CA-P-3b0d5c2e0a9a,district_id,1964733,2024-25,2024-25,not_reported,,documented,source_record,source-8a5ada9f396d51a69d94124b6bb65545,CA-P-3b0d5c2e0a9a-25-E-9,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""official_historical_identifier_crosswalk"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""CDE 2024–25 row: Los Angeles Unified; Buchanan Street Elementary; grade span K-5; CDS 19647336016166. Unique normalized name/district match preserving middle/high school labels."", ""source_date"": ""2025-07""}",2024-25
 claim-97ec4c3e204a59d2b77d95eafe5a15ab,school,TX-S108912112,campus_grade_range_context,"{""ObjectID"": 5846, ""USER_District_Number"": ""'108912"", ""USER_Grade_Range"": ""'EE-05"", ""USER_School_Name"": ""NARCISO CAVAZOS"", ""USER_School_Number"": ""'108912112""}",2024-25,2024-25,not_reported,,documented,source_record,source-8520202afdc55207986820b543345b3a,ObjectID=5846,,"Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.",
+claim-97ec8b9951005de784c9514c6c0cae2c,program,M6-NY-P-42d354ad86db,hand_coded_structural_field_selection,"{
+  ""batch_record_index"": 0,
+  ""evidence_ids"": [
+    ""hand_coded_evidence-a5ad7293b3725de1b7271b31fc1aea14""
+  ],
+  ""hand_coded"": true,
+  ""issue_number"": 61,
+  ""program_id"": ""M6-NY-P-42d354ad86db"",
+  ""reason"": ""Hand-coded field selection by bklawrence; researcher_interpretation. Review 2f156c4c-55c5-41de-8f84-bccb730bc600"",
+  ""review_id"": ""2f156c4c-55c5-41de-8f84-bccb730bc600"",
+  ""school_id"": ""M6-NY-S-74296b2ab1da"",
+  ""selection_year"": ""2025-26"",
+  ""site_id"": ""site-5c6cfd58bf54593d9e16eb63919f6ab2"",
+  ""submitted_at"": ""2026-11-09T02:01:52Z"",
+  ""variable"": ""delivery_structure""
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-e373d05a33975fbfa3a9ada8d0aa5e9b,2f156c4c-55c5-41de-8f84-bccb730bc600:site-5c6cfd58bf54593d9e16eb63919f6ab2:delivery_structure:selection,,HAND-CODED by bklawrence. Review 2f156c4c-55c5-41de-8f84-bccb730bc600. Evidence: https://www.myschools.nyc/en/schools/kindergarten/24Q089/. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
 claim-97f07c34063155d99d5e83999c218bcf,program,GL-WI-P-92ffa7ae5f87,reviewed_reference_year_assessment,"{""eligibility"": ""documented_public_academic_immersion"", ""funding"": ""public_district_programme"", ""locator"": ""Savanna Oaks Middle School / Spanish immersion"", ""method"": ""explicit_2026_27_secondary_start"", ""notes"": ""Reference-year research assessment is distinct from the source date. Established programme is still listed by its operator; no ending/change indication found in the saved programme/pathway sources. Not annual certification or statewide completeness."", ""period"": ""2026-27"", ""scope"": ""secondary_language_continuation"", ""source"": ""gl_wi_verona_p_8d0c755"", ""status"": ""planned_future"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-ebc4de08b8825c70b34a7e7e8b1b7ba3,GL-WI-P-92ffa7ae5f87:reference,,,2025-26 research assessment; evidence periods remain separate
 claim-97f622be40f25a5a861eeaf0f36fe60d,program,CA-P-caab10a625d9,instruction_languages,Spanish | English,,,not_reported,,documented,source_record,source-c5fcd698e1c2504f88c1d7cd34b1aa9c,CA-P-caab10a625d9-25-E-4,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""undated_official_district_explicit_campus"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""LAUSD public Dual Language Schools Online Directory row(s) recHXzpMD1OJ8UjS9: school Harmony  ES; program Spanish Dual Language Two-Way Immersion Program; Elementary Model 50/50; source grade span K-3; campus configuration ES."", ""source_date"": """"}",
 claim-97f68dbf6c4a56e58a8725dc5e4d2ea1,program,M6-MD-P-f6d065c5f35f,source_structural_observation,"{""delivery"": ""strand"", ""grade"": ""6-8"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""Spanish"", ""English""], ""locator"": ""Silver Spring International Middle School / Spanish immersion"", ""notes"": ""Official established formal immersion continuation; secondary courses retained without assigning elementary allocation. Current future hub changes are separately dated."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""population"": ""unknown"", ""source"": ""m6_md_montgomery_immersion"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-e12534e60d3b50a5b4b018f73275c3aa,M6-MD-P-f6d065c5f35f:observation:0; Silver Spring International Middle School / Spanish immersion,source-97a3bc0bc76e52abac2465eba5e32dad,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated public programme page; retrieved 2026-11-05
@@ -59028,6 +59045,19 @@ claim-dbd085c39fee5f6dbbde330c70ad9499,program,CA-P-109f4d792efb,hand_coded_stru
 ",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-41011c1dbf255dff9226e24c77641cad,5334b867-bc59-42e6-ac89-9619decba08d:site-87a3006dbf18523eb6d1dcae0369c69f:delivery_structure:selection,,HAND-CODED by bklawrence. Review 5334b867-bc59-42e6-ac89-9619decba08d. Evidence: https://gridleystes.lausd.org/apps/staff/. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
 claim-dbd310d69994506cbdb1f7fc76dd517b,program,CA-P-85a5bc0d7190,program_name,Spanish Dual Language Two-Way Immersion Program,,,not_reported,,documented,source_record,source-c5fcd698e1c2504f88c1d7cd34b1aa9c,CA-P-85a5bc0d7190-25-E-5,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""undated_official_district_explicit_campus"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""LAUSD public Dual Language Schools Online Directory row(s) recdCS2NjQNPz3Bok: school Bandini ES; program Spanish Dual Language Two-Way Immersion Program; Elementary Model 50/50; source grade span K-1; campus configuration ES."", ""source_date"": """"}",
 claim-dbda2cd94fdc5b6389d15b94ca03de18,school,M6-NJ-S-faa12b59f3b1,elementary_audit_school_grade_context,"{""highest_grade_offered"": 5, ""lowest_grade_offered"": 0, ""match_method"": ""unique_normalized_school_or_reviewed_name_alias_and_district"", ""ncessch"": ""340735000065"", ""snapshot_path"": ""data/raw/mid_atlantic_ct_2026_11_05/m6_ccd2024_NJ.json"", ""source_lea_name"": ""Hoboken Public School District"", ""source_school_name"": ""Thomas G. Connors Elementary School""}",2024-25,2024-25,not_reported,,documented,source_record,source-2873083985425231b465fed2b9055da3,ncessch=340735000065,,"School-grade context only; not evidence of programme operation, an official NCES programme crosswalk or individual/cohort exposure.",2024-25 NCES CCD school directory
+claim-dbda3b0653575ba8a1f5e89191258449,program,M6-NY-P-42d354ad86db,reviewed_record_reference_scope,"{
+  ""earliest_reviewed_selection_year"": ""2025-26"",
+  ""evidence_ids"": [
+    ""hand_coded_evidence-a5ad7293b3725de1b7271b31fc1aea14""
+  ],
+  ""evidence_table"": ""program_configurations"",
+  ""interpretation"": ""Reference-use bound, not a source date or a policy start date. The upper review bound does not establish a programme or policy end date."",
+  ""latest_reviewed_selection_year"": ""2025-26"",
+  ""program_id"": ""M6-NY-P-42d354ad86db"",
+  ""school_id"": ""M6-NY-S-74296b2ab1da"",
+  ""site_id"": ""site-5c6cfd58bf54593d9e16eb63919f6ab2""
+}
+",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-e373d05a33975fbfa3a9ada8d0aa5e9b,2f156c4c-55c5-41de-8f84-bccb730bc600:site-5c6cfd58bf54593d9e16eb63919f6ab2:delivery_structure:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-dbdd949c3cd65e918ea97d4626ec0f7b,school,WP-UT-S-99c372112f42,elementary_audit_school_grade_context,"{""fips"": 49, ""highest_grade_offered"": 9, ""lea_name"": ""Ogden City District"", ""lowest_grade_offered"": 7, ""match_method"": ""exact_normalized_school_and_district"", ""ncessch"": ""490072001288"", ""school_level"": 2, ""school_name"": ""Mount Ogden Junior High"", ""school_status"": 1, ""seasch"": ""37-37415"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_ut.json"", ""state_leaid"": ""UT-37"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-7e74397245805f7fad95a055dacd4dc8,ncessch=490072001288,,Dated school-grade context only. Match method: exact_normalized_school_and_district. No new official identity crosswalk or DL programme confirmation inferred.,
 claim-dbe430d7eaf857a9b46d48cce2ccb9cb,school,WP-UT-S-d43b5d60eff1,assigned_elementary_allocation_model,50/50,,,not_reported,,provisional,user_authorized_statewide_model_assignment,source-2d3b0a79e85f51dea3d331f158800d6e,schedule-89c28046bb625e53b7c713df5157aecf,source-8c4d6e0475d057f6bf84b7c88aabc19f,"Statewide model assignment, not an observed campus timetable, exact entering-cohort allocation or confirmation of 2025-26 operation. Secondary-only and unresolved-grade campuses do not inherit elementary models.",
 claim-dbe44ff7cde5591cb3021b70090cb5a6,program,program_candidate-b8ba2a6c47ef5683b96ea437280b7ef9,reviewed_record_reference_scope,"{
@@ -61797,6 +61827,41 @@ claim-e699c0bf64915951b522082823953f8f,school,SC-LA-S-0b4c4e90a4e1,elementary_au
 claim-e69ad2f74a4c56678f9fe29289bfb853,program,program_candidate-55895751a6b35ef8ad7abc2a97d520dc,TAPR_reporting_category,one_way,2023-24,2023-24,not_reported,,provisional,source_record,source-e125597b05015146845b99314f2d0771,101910106:2023-24:one_way|language_track_01:category,,"Reporting-category association, not independent proof that this campus hosted that instructional model.",
 claim-e69d53be7f3d5e0ca1967b4ab29c3f43,school,SE-NC-S-10614a5b3bd8,elementary_audit_school_grade_context,"{""highest_grade_offered"": 12, ""lowest_grade_offered"": 9, ""match_method"": ""exact_normalized_school_and_reviewed_district_alias"", ""ncessch"": ""370192000774"", ""snapshot_path"": ""data/raw/southeast_2026_11_05/se_ccd2024_NC.json"", ""source_lea_name"": ""Guilford County Schools"", ""source_school_name"": ""Grimsley High""}",2024-25,2024-25,not_reported,,documented,source_record,source-33db62c14e1551f780731667bcc1cb22,ncessch=370192000774,,"Dated school grade/funding context only, matched by school and reviewed district-name alias. Does not establish programme operation, annual grade rollout, a durable NCES programme crosswalk or cohort exposure.",2024-25 NCES CCD school directory
 claim-e69f827e35ce5a52be67674f1c4e4f5a,program,WP-NE-P-ffdbe866113b,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""middle"", ""label"": null, ""language_role"": ""reported_instruction_language"", ""languages"": [""Spanish""], ""locator"": ""Marrs Middle"", ""notes"": ""Roster date is later than reference year."", ""period"": ""July 2026 state roster"", ""population"": ""unknown"", ""source"": ""wp_ne_state"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-16ab312bfa3b5ecc9a0d88e49cbeda4c,WP-NE-P-ffdbe866113b:observation:1; Marrs Middle,source-400d6c6047425d66bd23b063cb87a845,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",July 2026 state roster
+claim-e69fd7718d92506f9c88cc97d7261cf4,school,M6-NY-S-74296b2ab1da,hand_coded_review,"{
+  ""batch_id"": ""9fd9a52e-b141-4d78-83c2-1fea63edc154"",
+  ""changes"": {
+    ""delivery_structure"": {
+      ""site_ids"": [
+        ""site-5c6cfd58bf54593d9e16eb63919f6ab2""
+      ],
+      ""value"": ""strand""
+    }
+  },
+  ""coded_at"": ""2026-11-09T02:01:38.807Z"",
+  ""coding_method"": ""researcher_interpretation"",
+  ""disposition"": ""coded"",
+  ""entry_method"": ""hand_coded"",
+  ""evidence_url"": ""https://www.myschools.nyc/en/schools/kindergarten/24Q089/"",
+  ""github_actor"": ""bklawrence"",
+  ""grade_scope"": """",
+  ""hand_coded"": true,
+  ""issue_number"": 61,
+  ""issue_url"": ""https://github.com/bklawrence/dual-language-outcomes/issues/61"",
+  ""notes"": ""STEM program alongside DL"",
+  ""received_at"": ""2026-11-09T02:03:45.741609+00:00"",
+  ""reference_year"": ""2025-26"",
+  ""review_id"": ""2f156c4c-55c5-41de-8f84-bccb730bc600"",
+  ""reviewer"": ""bklawrence"",
+  ""school_id"": ""M6-NY-S-74296b2ab1da"",
+  ""school_name"": ""P.S. 89Q: The Jose Peralta School of Dreamers"",
+  ""selected_site_id"": ""site-5c6cfd58bf54593d9e16eb63919f6ab2"",
+  ""source_locator"": """",
+  ""source_quote"": """",
+  ""source_school_year"": null,
+  ""submitted_at"": ""2026-11-09T02:01:52Z"",
+  ""supersedes_review_id"": null
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-e373d05a33975fbfa3a9ada8d0aa5e9b,2f156c4c-55c5-41de-8f84-bccb730bc600,,"Human-authored coding. Reference year, source year, reviewer, authenticated author, evidence URL, notes and inference status are separate.",
 claim-e6a19091e7b454d6b0eeec35f049885f,schedule,schedule-4852ec4137b75b008aabea8490e1f362,allocation_source_selection,"{""basis"": ""instructional_policy_not_observed_exposure"", ""grade"": ""elementary"", ""grade_support"": ""EXPLICIT_GRADE"", ""label"": ""50/50"", ""locator"": ""Central Elementary School / elementary instructional model"", ""notes"": ""State initiative elementary policy applied to current same-district Spanish immersion host. Does not date the host opening or programme rollout."", ""period"": ""September 2021 state initiative model"", ""review_status"": ""STATE_INITIATIVE_ELEMENTARY_POLICY_NOT_OBSERVED_EXPOSURE"", ""shares"": {""English"": 50, ""Spanish"": 50}, ""source"": ""m6_de_model""}",,,not_reported,,documented,source_record,source-5a448cf5b067569a949dc79bb4b3275f,M6-DE-P-7625ca5ba385:allocation:0; Central Elementary School / elementary instructional model,source-2a422343d26c575cafded296de7e1642,State initiative elementary policy applied to current same-district Spanish immersion host. Does not date the host opening or programme rollout.,September 2021 state initiative model
 claim-e6a2db0c91435c4ab5effd1f4b175326,school,TX-S068901129,campus_grade_range_context,"{""ObjectID"": 3177, ""USER_District_Number"": ""'068901"", ""USER_Grade_Range"": ""'KG-05"", ""USER_School_Name"": ""BARBARA JORDAN EL"", ""USER_School_Number"": ""'068901129""}",2024-25,2024-25,not_reported,,documented,source_record,source-ac779a10d9bc5a929ed71688f9a9aa6c,ObjectID=3177,,"Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.",
 claim-e6a44b10570e5d67b50236aa7bc91b49,school,SE-NC-S-515bf49f8fbc,elementary_audit_school_grade_context,"{""highest_grade_offered"": 8, ""lowest_grade_offered"": 6, ""match_method"": ""exact_normalized_school_and_reviewed_district_alias"", ""ncessch"": ""370462001790"", ""snapshot_path"": ""data/raw/southeast_2026_11_05/se_ccd2024_NC.json"", ""source_lea_name"": ""Union County Public Schools"", ""source_school_name"": ""East Union Middle""}",2024-25,2024-25,not_reported,,documented,source_record,source-33db62c14e1551f780731667bcc1cb22,ncessch=370462001790,,"Dated school grade/funding context only, matched by school and reviewed district-name alias. Does not establish programme operation, annual grade rollout, a durable NCES programme crosswalk or cohort exposure.",2024-25 NCES CCD school directory

@@ -1,0 +1,40 @@
+{
+  "batch_id": "9fd9a52e-b141-4d78-83c2-1fea63edc154",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5c6cfd58bf54593d9e16eb63919f6ab2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T02:01:38.807Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/24Q089/",
+      "grade_scope": "",
+      "notes": "STEM program alongside DL",
+      "reference_year": "2025-26",
+      "review_id": "2f156c4c-55c5-41de-8f84-bccb730bc600",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-74296b2ab1da",
+      "school_name": "P.S. 89Q: The Jose Peralta School of Dreamers",
+      "selected_site_id": "site-5c6cfd58bf54593d9e16eb63919f6ab2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 61,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/61",
+    "received_at": "2026-11-09T02:03:45.741609+00:00",
+    "submitted_at": "2026-11-09T02:01:52Z"
+  },
+  "version": 1
+}
