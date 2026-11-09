@@ -44,6 +44,87 @@ review_id,school_id,reference_year,hand_coded,reviewer,github_actor,submitted_at
   }
 }
 ",,coded
+71b7d528-809f-4e3b-8c6d-da460c5ce73c,CA-S-1215d9d70231,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-2985412a9967589c93424315eef8eac1""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+d28c7c5e-018e-4be7-9265-c7109a529307,CA-S-d24b0ad72953,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-ae0b4876db425ece833496bfb7e9bf62""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+16c50008-1301-4e3b-8d31-ac6272c6d1d3,CA-S-9e386b085be3,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-57f87480b5cc542f81805fcd22e8b82c""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+985d60a9-a9c4-4189-b0da-128110c75e2d,CA-S-f92bc02fa8cb,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-b65d24ee34645c2f9a90eb2307a1dddf""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+8040b282-b133-4e46-b3c4-df0a5ae6311e,CA-S-16c35e0d995d,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-81881b6fecde595bbf45580db93725e2""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+e07195e3-2dce-4880-98ef-2a9c8ee55a45,CA-S-ee1933c558ab,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-41842fa801d95b6198c6f1afa0f789b9""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+e2904169-b2e8-4f57-b670-295ae9336713,CA-S-b48b795d2dc7,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-0ef655dd4f325b4b8958433975bb9b99""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+ede63b63-7ea1-49bb-a61c-7cef0c272688,CA-S-cdab5074a296,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,researcher_interpretation,https://meadows.fmsd.org/our-school/spanish-dual-language-immersion-program,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-6b73103340a75998bbd3c52996e3de18""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+d79b3f8f-a30e-4e59-acd4-7b608598bb1e,CA-S-27725718c398,2025-26,True,bklawrence,bklawrence,2026-11-09T16:05:31Z,researcher_interpretation,https://windmillsprings.fmsd.org/academics/grade-levels/2nd-grade,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-d880ee00f41955cf91fe2b94e225aee1""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
 bc9c611d-39ec-488b-bf3d-44c142c009f5,TX-S057905181,2025-26,True,bklawrence,bklawrence,2026-11-09T01:52:19Z,researcher_interpretation,https://sites.google.com/dallasisd.org/dual-language/elementary,,,"{
   ""delivery_structure"": {
     ""site_ids"": [
@@ -3076,6 +3157,96 @@ eaac272c-cb8d-4822-ae9e-de1d8d37116f,TX-S057905135,2025-26,True,bklawrence,bklaw
       ""site_candidate-6445f47e7afb5a23ae35eb54c8ed1de2""
     ],
     ""value"": ""strand""
+  }
+}
+",,coded
+57bfc82e-ad04-454e-a160-06587b0d5a0c,CA-S-3413eff25e34,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-65dba799fe8f5b84bad0218ef5c15ed5""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+2476f8bc-edc6-4cf4-947d-daebfcfd7265,CA-S-6701b8871b2a,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,researcher_interpretation,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-be7a29b15b2b5c95bcd3f8474ccc4395""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+4b95659f-ba0b-4dac-a0f3-07b12aab5793,CA-S-128dbe30d54e,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-c91997e7d3215b3d9d5155dc64e9d7d8""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+424e77bb-1853-419d-93f6-2b415f88feda,CA-S-bed6fcf1a1b8,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-cd6ea792866755c4a1587bebfd13239d""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+4eef806a-65e4-42ec-9f8b-4aa2c46deb27,CA-S-e75b1b53f20f,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-4d434d866dbc5acd9474b1f0e9ac0bf1""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+4495867e-4698-47b1-9b4e-58ef45b44e76,CA-S-60f0f37aa78c,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-5135b03b32a1537dae69d1ecceb8b6b3""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
+8fcd9fdb-1433-4589-85a6-154cee2d8654,CA-S-3fcd395176fe,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-376b86b302a55f3a8b6b34d32520069e""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+3ba7fba9-fe47-4c9b-b360-60daef3e3fd4,CA-S-f3185c93340e,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-41da8c5f3d3655249bf95bc788aa8cab""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+bd1304cb-243a-45bd-9b28-734cf7274593,CA-S-513f48602e18,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-a44a82660df958a4bb7f0e0431de3fc3""
+    ],
+    ""value"": ""strand""
+  }
+}
+",,coded
+f6d61bf7-d7e3-4101-932e-9d1ddc9d020c,CA-S-4e184c09d5b8,2025-26,True,bklawrence,bklawrence,2026-11-09T16:04:54Z,explicit_source_statement,https://www.sfusd.edu/sites/default/files/2021-01/Filllable-2021-22%20Enrollment%20application_ENGLISH_%20with%20no%20pg%201%20SH%20edited.pdf,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-93869a801b9b515986ed1eabac63f0d9""
+    ],
+    ""value"": ""whole_school""
   }
 }
 ",,coded
