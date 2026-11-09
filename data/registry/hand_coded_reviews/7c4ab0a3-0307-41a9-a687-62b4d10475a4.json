@@ -1,0 +1,274 @@
+{
+  "batch_id": "7c4ab0a3-0307-41a9-a687-62b4d10475a4",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-22285c297643577f8586302510c167d1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:24:38.692Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "23bb99bd-0d1f-481c-80e7-61d529d0df1d",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-33b2c11cda65",
+      "school_name": "San Gabriel Ave. ES",
+      "selected_site_id": "site-22285c297643577f8586302510c167d1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-23ace33bd7a457128567d1e1568793a8"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:24:58.280Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "bad7d6b0-8172-46ab-9a98-8583a8df76fe",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-6d36e1638f00",
+      "school_name": "President Ave. ES",
+      "selected_site_id": "site-23ace33bd7a457128567d1e1568793a8",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-23d745280f265799b787c403dca55d52"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:25:23.954Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "0627ecba-0ffc-45c9-a6dc-1f96ba06683e",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-3487eaa246b8",
+      "school_name": "Aldama ES",
+      "selected_site_id": "site-23d745280f265799b787c403dca55d52",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-285edfea70de5fffa54f82e3ba8d31f6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:25:42.861Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "df2fedb2-e2cd-4718-b1b4-90877e2ab50c",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-88a228b5c3af",
+      "school_name": "Bassett St. ES",
+      "selected_site_id": "site-285edfea70de5fffa54f82e3ba8d31f6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2970bcbc89a950628dc4ffedf6c8b52c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:27:38.962Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "bfdeb322-32ad-4dee-958f-e54becc63cda",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-091331730d0c",
+      "school_name": "Bandini ES",
+      "selected_site_id": "site-2970bcbc89a950628dc4ffedf6c8b52c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-29ee611eb0fb531f83aa038e73498d0c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:28:04.587Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "a162b9da-6777-435b-a7c8-eb14e11e415e",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-f91c0238fb90",
+      "school_name": "Harrison St. ES",
+      "selected_site_id": "site-29ee611eb0fb531f83aa038e73498d0c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2a9486fea1ed5cebb1c517b3644fe167"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:28:25.294Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "42ccc40d-ab5e-413c-94eb-8302138f931c",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-82c869a395af",
+      "school_name": "Mack ES",
+      "selected_site_id": "site-2a9486fea1ed5cebb1c517b3644fe167",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2d7c6f8f19df5d5bba5cfb6b29cb6346"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:28:38.714Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "f305bbee-6e00-4439-9588-1592442a4f97",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-b94066ab367d",
+      "school_name": "Sunrise ES",
+      "selected_site_id": "site-2d7c6f8f19df5d5bba5cfb6b29cb6346",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2f11da61a6675fd691595dfd2ba8278a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:28:51.334Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "fd59263d-df5b-47e1-b8de-322c5a670378",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-fc43e0befba2",
+      "school_name": "Telfair Ave. ES",
+      "selected_site_id": "site-2f11da61a6675fd691595dfd2ba8278a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-39d43cd6aeed5b30baefb40f5618e157"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T20:29:09.357Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "http://www.lausd.k12.ca.us/lausd/offices/bulletins/lausdk12.tab",
+      "grade_scope": "",
+      "notes": "Funding",
+      "reference_year": "2025-26",
+      "review_id": "6fb8b8aa-45d4-4e71-a638-63de94996112",
+      "reviewer": "bklawrence",
+      "school_id": "CA-S-25a20bd651f9",
+      "school_name": "Elizabeth LC",
+      "selected_site_id": "site-39d43cd6aeed5b30baefb40f5618e157",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 72,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/72",
+    "received_at": "2026-11-09T20:47:28.877023+00:00",
+    "submitted_at": "2026-11-09T20:42:04Z"
+  },
+  "version": 1
+}
