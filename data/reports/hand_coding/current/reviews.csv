@@ -517,6 +517,41 @@ f84e21c0-2c33-431e-a4cd-2f57867eef86,WP-AZ-S-9a2fc626e556,2025-26,True,bklawrenc
   }
 }
 ",,coded
+7e89916a-1dc1-4741-932c-608ab476fe25,WP-NM-S-37490147a0d0,2025-26,True,bklawrence,bklawrence,2026-11-09T02:15:50Z,explicit_source_statement,https://www.lpelc.com/departments/academics/bilingual-multicultural-education-program,,,"{
+  ""elementary_allocation_model"": {
+    ""kindergarten_partner_language_pct"": 50,
+    ""site_ids"": [
+      ""site-dacec40d46bf50c29f01d9b759deb144""
+    ],
+    ""value"": ""50/50""
+  }
+}
+",,coded
+0a2d10d6-0e76-4cd2-8c88-166f2771a628,WP-NM-S-3612f80f961f,2025-26,True,bklawrence,bklawrence,2026-11-09T02:15:50Z,explicit_source_statement,https://nmsabe.org/about/educational-model/,,,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-4735110204db5690b72855280bcfa5dd""
+    ],
+    ""value"": ""whole_school""
+  },
+  ""elementary_allocation_model"": {
+    ""kindergarten_partner_language_pct"": 50,
+    ""site_ids"": [
+      ""site-4735110204db5690b72855280bcfa5dd""
+    ],
+    ""value"": ""50/50""
+  }
+}
+",,coded
+26b4b07b-68ae-4e47-8b28-b8340f95dc28,NC-MN-S-a0dab2cef0f0,2025-26,True,bklawrence,bklawrence,2026-11-09T02:15:50Z,explicit_source_statement,https://www.tcgis.org/uploads/6/6/1/3/66130259/grade4_curriculum_overview_26_27.docx.pdf,"German seems to be treated as a subject, making it not greater than 50 percent of the day for any grade.",,"{
+  ""delivery_structure"": {
+    ""site_ids"": [
+      ""site-9b7ea9e5fe1c592188c4490087c1b91d""
+    ],
+    ""value"": ""whole_school""
+  }
+}
+",,coded
 b18e546c-47b8-4527-93da-998a90afe581,TX-S057905322,2025-26,True,bklawrence,bklawrence,2026-11-09T01:56:46Z,researcher_interpretation,https://sites.google.com/dallasisd.org/dual-language/elementary,,,"{
   ""delivery_structure"": {
     ""site_ids"": [

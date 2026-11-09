@@ -1,0 +1,101 @@
+{
+  "batch_id": "31b75d36-14fc-4ea2-bfdc-68e823cfac10",
+  "records": [
+    {
+      "changes": {
+        "elementary_allocation_model": {
+          "kindergarten_partner_language_pct": 50,
+          "site_ids": [
+            "site-dacec40d46bf50c29f01d9b759deb144"
+          ],
+          "value": "50/50"
+        }
+      },
+      "coded_at": "2026-11-09T02:03:49.422Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.lpelc.com/departments/academics/bilingual-multicultural-education-program",
+      "grade_scope": "K",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "7e89916a-1dc1-4741-932c-608ab476fe25",
+      "reviewer": "bklawrence",
+      "school_id": "WP-NM-S-37490147a0d0",
+      "school_name": "Albuquerque Bilingual Academy",
+      "selected_site_id": "site-dacec40d46bf50c29f01d9b759deb144",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-4735110204db5690b72855280bcfa5dd"
+          ],
+          "value": "whole_school"
+        },
+        "elementary_allocation_model": {
+          "kindergarten_partner_language_pct": 50,
+          "site_ids": [
+            "site-4735110204db5690b72855280bcfa5dd"
+          ],
+          "value": "50/50"
+        }
+      },
+      "coded_at": "2026-11-09T02:11:33.305Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://nmsabe.org/about/educational-model/",
+      "grade_scope": "K",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0a2d10d6-0e76-4cd2-8c88-166f2771a628",
+      "reviewer": "bklawrence",
+      "school_id": "WP-NM-S-3612f80f961f",
+      "school_name": "Sandoval Academy of Bilingual Education",
+      "selected_site_id": "site-4735110204db5690b72855280bcfa5dd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "allocation_other": true,
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9b7ea9e5fe1c592188c4490087c1b91d"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T02:15:42.438Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.tcgis.org/uploads/6/6/1/3/66130259/grade4_curriculum_overview_26_27.docx.pdf",
+      "grade_scope": "K",
+      "notes": "German seems to be treated as a subject, making it not greater than 50 percent of the day for any grade.",
+      "reference_year": "2025-26",
+      "review_id": "26b4b07b-68ae-4e47-8b28-b8340f95dc28",
+      "reviewer": "bklawrence",
+      "school_id": "NC-MN-S-a0dab2cef0f0",
+      "school_name": "Twin Cities German Immersion School",
+      "selected_site_id": "site-9b7ea9e5fe1c592188c4490087c1b91d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 62,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/62",
+    "received_at": "2026-11-09T02:16:24.554693+00:00",
+    "submitted_at": "2026-11-09T02:15:50Z"
+  },
+  "version": 1
+}
