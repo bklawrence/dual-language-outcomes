@@ -1,0 +1,274 @@
+{
+  "batch_id": "b9bad3f4-0573-4e64-8382-c56a07a73475",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-d88cc2f4ac7f5d58b165404a7d447076"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T14:44:51.728Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.ysd7.org/learning/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "4d391926-bf79-494d-8204-45198c4de290",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103196",
+      "school_name": "Whitney Elementary",
+      "selected_site_id": "site_candidate-d88cc2f4ac7f5d58b165404a7d447076",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-81c11d97f4365c06816c7e7a1d867066"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T14:47:47.382Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tukwilaschools.org/about-our-district/enrollment/elementary-enrollment",
+      "grade_scope": "",
+      "notes": "Still has enrollment boundaries.",
+      "reference_year": "2025-26",
+      "review_id": "762b1520-713e-4a88-b9f1-6a5b4326604f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101399",
+      "school_name": "Cascade View Elementary",
+      "selected_site_id": "site_candidate-81c11d97f4365c06816c7e7a1d867066",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-731b8aac47825bedbc8918132c238079"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T14:52:55.661Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1747143911/auburnwednetedu/zmoyyawsba6xqk3u6qvg/pioneermap_fall_detailed.pdf",
+      "grade_scope": "",
+      "notes": "Still has an attendance map",
+      "reference_year": "2025-26",
+      "review_id": "58da1d76-bd29-42c7-8792-3e4bb6b1a7d8",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101420",
+      "school_name": "Pioneer Elementary School",
+      "selected_site_id": "site_candidate-731b8aac47825bedbc8918132c238079",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-83a3be1d37c955a588677dae352c794a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:00:23.901Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://ordway.bisd303.org/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1ffcf796-02d0-48b1-9d9e-a84001b2373a",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101694",
+      "school_name": "Ordway Elementary",
+      "selected_site_id": "site_candidate-83a3be1d37c955a588677dae352c794a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-bd1b89e5be15581fa74aa2f790e265cb"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T15:04:21.608Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.bsd405.org/academics/language-programs/mandarin-dual-language-program/model",
+      "grade_scope": "",
+      "notes": "Described as a choice school",
+      "reference_year": "2025-26",
+      "review_id": "a2712a24-0941-4aa1-a35f-0e19816041f2",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105623",
+      "school_name": "Jing Mei Elementary School",
+      "selected_site_id": "site_candidate-bd1b89e5be15581fa74aa2f790e265cb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-56a92827bf60506dbfb655d8954f22a6"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T15:05:12.940Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://puestadelsol.bsd405.org/",
+      "grade_scope": "",
+      "notes": "Described as a choice school",
+      "reference_year": "2025-26",
+      "review_id": "2b87f2ad-8079-4770-9ec6-7f9fbf38bf16",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101365",
+      "school_name": "Puesta del Sol Elementary School",
+      "selected_site_id": "site_candidate-56a92827bf60506dbfb655d8954f22a6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-462c15c462585331ae75982bc6117ae2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:06:04.173Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://bennett.bsd405.org/",
+      "grade_scope": "",
+      "notes": "Japanese strand",
+      "reference_year": "2025-26",
+      "review_id": "cfc2241b-fb88-4bbb-a0a2-91760b839836",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101388",
+      "school_name": "Bennett Elementary School",
+      "selected_site_id": "site_candidate-462c15c462585331ae75982bc6117ae2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c2585f7da6445880b81e7cb4685871d0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:09:40.256Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://lakehills.bsd405.org/",
+      "grade_scope": "",
+      "notes": "May also have extensive ESL",
+      "reference_year": "2025-26",
+      "review_id": "11c22971-07a3-4d4e-9126-5ed980e5af40",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101366",
+      "school_name": "Lake Hills Elementary",
+      "selected_site_id": "site_candidate-c2585f7da6445880b81e7cb4685871d0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-41e8d492fd1a51acad7f0b189da890ad"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:10:23.471Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sherwoodforest.bsd405.org/",
+      "grade_scope": "",
+      "notes": "STEAM program alongside DL",
+      "reference_year": "2025-26",
+      "review_id": "907899ab-4d28-4f86-a6a0-f5c5ebc33b86",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101372",
+      "school_name": "Sherwood Forest Elementary",
+      "selected_site_id": "site_candidate-41e8d492fd1a51acad7f0b189da890ad",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-9b2f7d86ef345f6198e8e0dd36b620bd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:11:07.516Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://stevenson.bsd405.org/",
+      "grade_scope": "",
+      "notes": "Computer science alongside DL",
+      "reference_year": "2025-26",
+      "review_id": "3ca3c78a-de9d-4ebe-8ecd-da1697f75324",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101361",
+      "school_name": "Stevenson Elementary",
+      "selected_site_id": "site_candidate-9b2f7d86ef345f6198e8e0dd36b620bd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 64,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/64",
+    "received_at": "2026-11-09T15:42:40.098277+00:00",
+    "submitted_at": "2026-11-09T15:42:11Z"
+  },
+  "version": 1
+}

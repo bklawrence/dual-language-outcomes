@@ -1,0 +1,170 @@
+{
+  "batch_id": "e667aeae-cb38-43fd-becf-a76c5d8a7bfd",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3d179fe2eed9538f973cece34676eff0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:36:52.813Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.cpps.org/o/elementary",
+      "grade_scope": "",
+      "notes": "Only elem in the district",
+      "reference_year": "2025-26",
+      "review_id": "38cbc957-3968-4fd4-8481-c3d0fe4ca6bd",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103025",
+      "school_name": "Davis Elementary",
+      "selected_site_id": "site_candidate-3d179fe2eed9538f973cece34676eff0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-331ca3aca3d05929aceca49ab17a1a78"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:38:33.594Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://evsd90.org/dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d80035e0-9229-45cb-8154-5c8bb1571c5a",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103209",
+      "school_name": "Moxee Elementary",
+      "selected_site_id": "site_candidate-331ca3aca3d05929aceca49ab17a1a78",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-8c9bea32c75d543198a5436572e602bd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:40:45.437Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://esdfinder.site/WalkZones/xElemBoundaries.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ef6f0a8b-d849-48a3-b5eb-507eaea2c0d6",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102531",
+      "school_name": "Cedar Valley Elementary",
+      "selected_site_id": "site_candidate-8c9bea32c75d543198a5436572e602bd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-ff8eed08e7e353b2aab0048c66836f7b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:41:04.008Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://esdfinder.site/WalkZones/xElemBoundaries.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c6487bc1-161a-447a-a9e5-b437f29e0c2e",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102552",
+      "school_name": "College Place Elementary",
+      "selected_site_id": "site_candidate-ff8eed08e7e353b2aab0048c66836f7b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c50f4bee2af657e0acc88e95c48473fd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:41:11.494Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://esdfinder.site/WalkZones/xElemBoundaries.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "4272b99a-3975-4453-bcbf-973bce5c315e",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102526",
+      "school_name": "Mountlake Terrace Elementary",
+      "selected_site_id": "site_candidate-c50f4bee2af657e0acc88e95c48473fd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c6231b9de50a5132942ebde210e92526"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:41:17.245Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://esdfinder.site/WalkZones/xElemBoundaries.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "aacabf6e-dd76-4ab6-8094-98ba1fddc177",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102532",
+      "school_name": "Spruce Elementary",
+      "selected_site_id": "site_candidate-c6231b9de50a5132942ebde210e92526",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 66,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/66",
+    "received_at": "2026-11-09T15:42:38.153388+00:00",
+    "submitted_at": "2026-11-09T15:42:34Z"
+  },
+  "version": 1
+}

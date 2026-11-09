@@ -1,0 +1,275 @@
+{
+  "batch_id": "52c5b90d-758f-4578-926d-a43b2e24399a",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a9a6260a362454c3bec712f2d682d3da"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:12:21.356Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.bethelsd.org/programs/spanish-dual-language-immersion",
+      "grade_scope": "",
+      "notes": "Neighborhood pref. first in enrollment",
+      "reference_year": "2025-26",
+      "review_id": "251d196d-9b95-49d4-beb7-a2c202d43fa7",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102296",
+      "school_name": "Chester H Thompson Elementary",
+      "selected_site_id": "site_candidate-a9a6260a362454c3bec712f2d682d3da",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-6c9461ca4f665864ba3f00483e3c7c7c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:16:58.626Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.google.com/maps/d/u/0/viewer?ll=47.58631247498685%2C-122.6257995&z=14&mid=15XfrjZ7xPvWFNOwzHiayBCn_ieQ",
+      "grade_scope": "",
+      "notes": "Still has a neighborhood boundary map",
+      "reference_year": "2025-26",
+      "review_id": "879c9c73-f004-414b-a5f6-7f8100d752ff",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101676",
+      "school_name": "Armin Jahr Elementary",
+      "selected_site_id": "site_candidate-6c9461ca4f665864ba3f00483e3c7c7c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4b317ffca58856bb9e0567d71f79d157"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:17:32.019Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.google.com/maps/d/u/0/viewer?mid=1CyqiwE5kUiEyk928erPR7b4yYC5UkDA&ll=47.564537691470115%2C-122.63402150000002&z=15",
+      "grade_scope": "",
+      "notes": "Still has a neighborhood boundary map",
+      "reference_year": "2025-26",
+      "review_id": "92c0da31-4961-4259-a61f-939bdf15292d",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101675",
+      "school_name": "Naval Avenue Elementary School",
+      "selected_site_id": "site_candidate-4b317ffca58856bb9e0567d71f79d157",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3162a8ec2fc6558294bfcf4015fc44ea"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-09T15:19:57.915Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.google.com/maps/d/viewer?mid=1vN2FLR-8ZLEOs7rSORyYY8_arYJC1vM&femb=1&ll=48.545375642710596%2C-122.42001985&z=12",
+      "grade_scope": "",
+      "notes": "DL magnet",
+      "reference_year": "2025-26",
+      "review_id": "f0923d9c-b093-485b-93f5-fc4e1a2e7643",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102371",
+      "school_name": "Allen Elementary",
+      "selected_site_id": "site_candidate-3162a8ec2fc6558294bfcf4015fc44ea",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "allocation_other": true,
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b3606bbd026c544ca42965b787a0ea24"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:21:48.933Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.google.com/maps/d/viewer?mid=1vN2FLR-8ZLEOs7rSORyYY8_arYJC1vM&femb=1&ll=48.545375642710596%2C-122.42001985&z=12",
+      "grade_scope": "K",
+      "notes": "Middle school serves whole district",
+      "reference_year": "2025-26",
+      "review_id": "937b92b5-0cd1-4feb-9ab9-52dbd9182c6e",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102370",
+      "school_name": "Lucille Umbarger Elementary",
+      "selected_site_id": "site_candidate-b3606bbd026c544ca42965b787a0ea24",
+      "source_locator": "",
+      "source_quote": "School appears to be the district wide 6-8 school. Not elementary",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-423b8e160d61548aa1a66724344b3790"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:22:50.136Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.google.com/maps/d/viewer?mid=1vN2FLR-8ZLEOs7rSORyYY8_arYJC1vM&femb=1&ll=48.545375642710596%2C-122.42001985&z=12",
+      "grade_scope": "Pre-K",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c22aa8df-71e2-4b6c-a21d-52c867cf46af",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102369",
+      "school_name": "West View Elementary",
+      "selected_site_id": "site_candidate-423b8e160d61548aa1a66724344b3790",
+      "source_locator": "",
+      "source_quote": "Early learning center",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-93470349b2b45702b98baca34c940c89"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:30:01.152Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://oes.centraliaschooldistrict.org/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "a8404f3b-7777-4b78-b521-68261fc1d7da",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101870",
+      "school_name": "Oakview Elementary School",
+      "selected_site_id": "site_candidate-93470349b2b45702b98baca34c940c89",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-ef5ab8c12a0f57f8b75f14d896ca5390"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:33:45.672Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.schoolsitelocator.com/apps/cloverpark/?data_id=dataSource_1-182a72130d4-layer-9%3A1%2CdataSource_1-ssl_test_mapImageService_4376%3A7",
+      "grade_scope": "",
+      "notes": "Still has a neighborhood boundary",
+      "reference_year": "2025-26",
+      "review_id": "9a7210a6-5c4a-416a-a1e8-3c8b16813a78",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102236",
+      "school_name": "Carter Lake Elementary School",
+      "selected_site_id": "site_candidate-ef5ab8c12a0f57f8b75f14d896ca5390",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b3adfb9dd6f757c9804f9ed898d85dc7"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:34:24.866Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.schoolsitelocator.com/apps/cloverpark/?data_id=dataSource_1-182a72130d4-layer-9%3A1%2CdataSource_1-ssl_test_mapImageService_4376%3A7",
+      "grade_scope": "",
+      "notes": "Still has a neighborhood boundary",
+      "reference_year": "2025-26",
+      "review_id": "d61ebd4b-280e-493a-8185-c5208149fc8d",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S105893",
+      "school_name": "Four Heroes Elementary",
+      "selected_site_id": "site_candidate-b3adfb9dd6f757c9804f9ed898d85dc7",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1bf8758e66625e78bc2eca1840816ceb"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T15:34:38.922Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.schoolsitelocator.com/apps/cloverpark/?data_id=dataSource_1-182a72130d4-layer-9%3A1%2CdataSource_1-ssl_test_mapImageService_4376%3A7",
+      "grade_scope": "",
+      "notes": "Still has a neighborhood boundary",
+      "reference_year": "2025-26",
+      "review_id": "66c74a24-3a6b-4090-b441-365dfa61e3ec",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102229",
+      "school_name": "Hillside Elementary School",
+      "selected_site_id": "site_candidate-1bf8758e66625e78bc2eca1840816ceb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 65,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/65",
+    "received_at": "2026-11-09T15:42:39.123918+00:00",
+    "submitted_at": "2026-11-09T15:42:22Z"
+  },
+  "version": 1
+}
