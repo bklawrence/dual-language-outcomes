@@ -1,0 +1,92 @@
+{
+  "batch_id": "c38b9062-a1fc-4241-88f6-048b30ccdc6c",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-8d0b4c82b95a5391be8b3a80ee2c535c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T23:14:06.789Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://allenmarkel.com/schools/houston-isd/shearn-elementary/",
+      "grade_scope": "",
+      "notes": "Zone inference",
+      "reference_year": "2025-26",
+      "review_id": "e0f85b7a-b1e9-4699-bb7b-a2d873854ae2",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912239",
+      "school_name": "Shearn Elementary",
+      "selected_site_id": "site_candidate-8d0b4c82b95a5391be8b3a80ee2c535c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-bc38841700b156b6828edae7bed763ea"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T23:14:31.080Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.scribd.com/document/840188131/the-pyp-and-bilingual-education",
+      "grade_scope": "",
+      "notes": "historical profile",
+      "reference_year": "2025-26",
+      "review_id": "44aca740-3c09-435b-ac6d-1cf5d48ca888",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912251",
+      "school_name": "Twain Elementary",
+      "selected_site_id": "site_candidate-bc38841700b156b6828edae7bed763ea",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-19a08eb00a9f5d79b9f39dcd64f53c4b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T23:14:58.989Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.houstontx.gov/council/committees/housing/20260205/housing-tax-credits-support-solutions.pdf",
+      "grade_scope": "",
+      "notes": "Zone inference",
+      "reference_year": "2025-26",
+      "review_id": "5ae4a85c-28ee-4946-bc87-e3aa37c896f9",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101912252",
+      "school_name": "Wainwright Elementary",
+      "selected_site_id": "site_candidate-19a08eb00a9f5d79b9f39dcd64f53c4b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 85,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/85",
+    "received_at": "2026-11-09T23:15:48.455068+00:00",
+    "submitted_at": "2026-11-09T23:15:26Z"
+  },
+  "version": 1
+}
