@@ -1,0 +1,277 @@
+{
+  "batch_id": "40f6c10b-512c-4498-ba1c-a7cb8f2fa55f",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3bacbf07b7045cb385924d27f66c2b7b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:13.131Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b18e546c-47b8-4527-93da-998a90afe581",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905322",
+      "school_name": "Prestonwood Montessori At E D Walker",
+      "selected_site_id": "site_candidate-3bacbf07b7045cb385924d27f66c2b7b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3986d7b65c965fc28f1cf059f34ee38b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:19.966Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5645af95-59e4-4536-a217-9ca1dee3b703",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905170",
+      "school_name": "Richard Lagow Elementary",
+      "selected_site_id": "site_candidate-3986d7b65c965fc28f1cf059f34ee38b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-e7661242e822545493778cb03d429fd5"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:27.815Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9ec46e1b-2ffe-46e7-85e9-1cc42e09469b",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905264",
+      "school_name": "Ronald E Mcnair Elementary",
+      "selected_site_id": "site_candidate-e7661242e822545493778cb03d429fd5",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-459fb27992ac5910a61ed49d99197d73",
+            "site_candidate-a9d918eb77c85c7e9176147f77908a99"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:35.381Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3f4e9400-7fae-42ae-8941-d07055a5782c",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905117",
+      "school_name": "Rufus C Burleson Elementary",
+      "selected_site_id": "site_candidate-459fb27992ac5910a61ed49d99197d73",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-39b60135f8e4531e860fff6153dd540b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:42.365Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5391b734-5570-4bb7-8446-ef5a99395b97",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905129",
+      "school_name": "S S Conner Elementary",
+      "selected_site_id": "site_candidate-39b60135f8e4531e860fff6153dd540b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a49624789d205d73b93251feae56071f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:49.298Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "20f23fa8-a553-4520-bd56-d14d4d0ee318",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905207",
+      "school_name": "San Jacinto Elementary",
+      "selected_site_id": "site_candidate-a49624789d205d73b93251feae56071f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-99683905a9f458d6940ebf36c94ca121"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:53:56.165Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "bdfb6cd0-d304-4377-a4de-b2c604c5a77a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905208",
+      "school_name": "Seagoville Elementary",
+      "selected_site_id": "site_candidate-99683905a9f458d6940ebf36c94ca121",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-66324d3ed02155f9ab74654cb05a7012",
+            "site_candidate-6f5b707acc6151fdbe46c1d7af54dc0d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:54:03.965Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "15af5086-ce1d-4d3e-9d21-44be4e88facb",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905244",
+      "school_name": "Seagoville North Elementary",
+      "selected_site_id": "site_candidate-66324d3ed02155f9ab74654cb05a7012",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-978b624b45885e71aa729220397f5bdc",
+            "site_candidate-f22b8cb8518759e09999ac0eccdb84d0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:54:11.681Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9a45111d-b6f6-48fc-9f0e-aef4c4439660",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905386",
+      "school_name": "Solar Prep For Boys At John F Kennedy",
+      "selected_site_id": "site_candidate-978b624b45885e71aa729220397f5bdc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b39dd00a95cf5b0caaaf0aef5a247c5e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:54:17.581Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "abd1401f-68e3-40ce-b239-3f18d8adee06",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905306",
+      "school_name": "Solar Preparatory School For Girls At Bonham",
+      "selected_site_id": "site_candidate-b39dd00a95cf5b0caaaf0aef5a247c5e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 58,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/58",
+    "received_at": "2026-11-09T01:59:53.962260+00:00",
+    "submitted_at": "2026-11-09T01:56:46Z"
+  },
+  "version": 1
+}
