@@ -1,0 +1,119 @@
+{
+  "batch_id": "1945950e-36b1-4571-87cc-21048a6f1070",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-2b72b9024d4d51d69455d09f63bdfbe8"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:42:37.120Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9c6c3682-1d08-4cd2-a05b-aaa00c808908",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905149",
+      "school_name": "Hall Personalized Learning Academy At Oak Cliff",
+      "selected_site_id": "site_candidate-2b72b9024d4d51d69455d09f63bdfbe8",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4ebb75254c395329a6c6fc0887a1d50c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:42:45.319Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "26d64aa5-6cc9-42aa-a213-bdb729c55744",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905115",
+      "school_name": "Harrell Budd Elementary",
+      "selected_site_id": "site_candidate-4ebb75254c395329a6c6fc0887a1d50c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-cddfa42fce8b59c6a934fb032f9b763f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:42:54.620Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b3250991-429b-4b68-852a-97273fb50896",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905230",
+      "school_name": "Harry C Withers Elementary",
+      "selected_site_id": "site_candidate-cddfa42fce8b59c6a934fb032f9b763f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-16b317d09ad65683b174ae53f52fff67",
+            "site_candidate-8aa770dcba215e16b5fb7e933108d9fd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:43:02.420Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "72a3f7b0-fd04-47b4-83a6-0cfb598e10f8",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905234",
+      "school_name": "Henry B Gonzalez Personalized Learning Academy",
+      "selected_site_id": "site_candidate-16b317d09ad65683b174ae53f52fff67",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 51,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/51",
+    "received_at": "2026-11-09T01:48:22.575778+00:00",
+    "submitted_at": "2026-11-09T01:44:03Z"
+  },
+  "version": 1
+}
