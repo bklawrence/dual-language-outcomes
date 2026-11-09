@@ -1,0 +1,282 @@
+{
+  "batch_id": "1f1cc714-3450-4fff-82e5-3f9f2eb13a03",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-016327b97f2f5d2ea0a542264feaf1f4",
+            "site_candidate-c817de01250955ed925b9dd126f69e43"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:34:06.169Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "All Dallas schools described as strands",
+      "reference_year": "2025-26",
+      "review_id": "641e14ba-c1ce-431f-87c9-a40069370d62",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905247",
+      "school_name": "Adelfa Botello Callejo Elementary",
+      "selected_site_id": "site_candidate-016327b97f2f5d2ea0a542264feaf1f4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-07ae5c3e06925dff8cabe832d77c1ad4",
+            "site_candidate-5bb06412978e53518743f3c2d9802e4e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:34:36.317Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "All Dallas schools described as strands",
+      "reference_year": "2025-26",
+      "review_id": "70bb0541-c129-424f-9d99-fa744ee5415e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905206",
+      "school_name": "Alex Sanger Preparatory School",
+      "selected_site_id": "site_candidate-07ae5c3e06925dff8cabe832d77c1ad4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-069c2c95d1bb59c1af2370a9eb48a8e4",
+            "site_candidate-7ab5dfb5c3f35acdaeda2fae8c5096f8"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:34:46.883Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "63ac47ed-bc6b-4462-b951-ff573b80326e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905280",
+      "school_name": "Anne Frank Elementary",
+      "selected_site_id": "site_candidate-069c2c95d1bb59c1af2370a9eb48a8e4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-297e47898d4c5de982528af2b906553e",
+            "site_candidate-4181c9abc866599aaf099dafd8df38bd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:34:56.801Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2d49d82b-a52b-4a42-80d7-9a2cc4434f2d",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905110",
+      "school_name": "Annie Webb Blanton Elementary",
+      "selected_site_id": "site_candidate-297e47898d4c5de982528af2b906553e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-814439355cbe5687b3e626180a2c5575",
+            "site_candidate-f718aa9d69825350873b46d7a141c09d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:04.983Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e70ae527-b776-4859-9e71-9a687201665a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905164",
+      "school_name": "Anson Jones Elementary",
+      "selected_site_id": "site_candidate-814439355cbe5687b3e626180a2c5575",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-ac7ae3bf11d15e0d8beb24fa6a56fbeb"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:15.033Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "78a35e45-6f37-465a-9a97-1077508588e9",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905105",
+      "school_name": "Arcadia Park Elementary",
+      "selected_site_id": "site_candidate-ac7ae3bf11d15e0d8beb24fa6a56fbeb",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-7fb809c881dc5b3cacbc6a05921a8cfc",
+            "site_candidate-9516d6a317fa5738b40b038b08ce6542"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:24.800Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "47cea2ef-0e10-44d1-a619-d55fdd1a7f08",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905169",
+      "school_name": "Arthur Kramer Elementary",
+      "selected_site_id": "site_candidate-7fb809c881dc5b3cacbc6a05921a8cfc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4287ec44c8205510afbd614dc346ca88",
+            "site_candidate-d57d5a8a89365f4d9de96be6eaa1ea25"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:35.300Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "36353fa6-499e-4392-b5fc-63aec0068c9a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905239",
+      "school_name": "Arturo Salazar Elementary",
+      "selected_site_id": "site_candidate-4287ec44c8205510afbd614dc346ca88",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c963d14926415d37ba8536c18a4bea33"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:46.283Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1d5ab705-767f-4839-8027-97b5d4957f12",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905209",
+      "school_name": "Ascher Silberstein Elementary",
+      "selected_site_id": "site_candidate-c963d14926415d37ba8536c18a4bea33",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-0e990edaaa755938888cd704bbb8bb89",
+            "site_candidate-16498efb6f6853989107481a63638ed2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:35:56.965Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d1a36d0b-dcfc-4e73-8857-003c2f17404b",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905180",
+      "school_name": "B H Macon Elementary",
+      "selected_site_id": "site_candidate-0e990edaaa755938888cd704bbb8bb89",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 46,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/46",
+    "received_at": "2026-11-09T01:43:53.890171+00:00",
+    "submitted_at": "2026-11-09T01:43:11Z"
+  },
+  "version": 1
+}

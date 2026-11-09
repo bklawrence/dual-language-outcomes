@@ -1,0 +1,277 @@
+{
+  "batch_id": "e33b28d4-9937-4b5c-b96b-0fef097cf822",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a442aa48fda7595c9dde0cc753d140ce"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:04.482Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "6cf7a917-e82b-4842-99a6-d859c3da435b",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905133",
+      "school_name": "Barbara Jordan Elementary",
+      "selected_site_id": "site_candidate-a442aa48fda7595c9dde0cc753d140ce",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-5c9f180a6a275721b535125513afd6cd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:12.348Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3d37d437-4820-4c31-8c8e-53babf5853ee",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905108",
+      "school_name": "Bayles Elementary",
+      "selected_site_id": "site_candidate-5c9f180a6a275721b535125513afd6cd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-ec454ad9aee25495a669092be3815e0e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:21.000Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "65f55c9b-3497-4a90-9f70-97ffebc9d70e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905184",
+      "school_name": "Ben Milam Elementary",
+      "selected_site_id": "site_candidate-ec454ad9aee25495a669092be3815e0e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-120742fb5d8e5a47a4672c386d2b379a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:29.199Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e0565c71-c83d-445e-a1d8-e41a8fa9032f",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905235",
+      "school_name": "Birdie Alexander Elementary",
+      "selected_site_id": "site_candidate-120742fb5d8e5a47a4672c386d2b379a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a854289625125259b62ec10c69192754",
+            "site_candidate-c45d1a63ea9f55f6b25479911b20c4b4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:42.082Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "781cf7fa-922f-48fb-9963-efd3b38ba1db",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905232",
+      "school_name": "Buckner Terrace Montessori",
+      "selected_site_id": "site_candidate-a854289625125259b62ec10c69192754",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-d19c2ba1986a5cdf8fe8312a870104c8",
+            "site_candidate-f9f4523fd9125013af3abbcdc028969d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:36:58.098Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5b0545df-8b70-4ba9-9129-135ecb92a238",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905155",
+      "school_name": "C A Tatum Jr Elementary",
+      "selected_site_id": "site_candidate-d19c2ba1986a5cdf8fe8312a870104c8",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-e33dcc64fa8d569cb661d8435aadd355"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:37:07.098Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5c3e335c-b2c4-4139-b1c1-3dee48e4cced",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905122",
+      "school_name": "C F Carr Elementary",
+      "selected_site_id": "site_candidate-e33dcc64fa8d569cb661d8435aadd355",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-acb4aa0fa9865c5f8cb1d2a4e084b4a2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:37:15.149Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e18484ac-59f6-4f9d-b7cf-2ede9f366df2",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905125",
+      "school_name": "Casa View Elementary",
+      "selected_site_id": "site_candidate-acb4aa0fa9865c5f8cb1d2a4e084b4a2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4d893c2b9e3452ca8bfb70bc931f3d77",
+            "site_candidate-deb2ef54a86c5d91a7e513c054c6de61"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:37:24.831Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1a4ecc4a-ad23-441f-b9da-c3f1c0c2732f",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905163",
+      "school_name": "Cedar Crest Elementary",
+      "selected_site_id": "site_candidate-4d893c2b9e3452ca8bfb70bc931f3d77",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-5fdc833f7fff537795dfeab92e07a9cd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-09T01:37:32.065Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sites.google.com/dallasisd.org/dual-language/elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "12cee380-354d-4d6e-8aab-80d215d4ec11",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057905287",
+      "school_name": "Celestino Mauricio Soto Jr Elementary",
+      "selected_site_id": "site_candidate-5fdc833f7fff537795dfeab92e07a9cd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 47,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/47",
+    "received_at": "2026-11-09T01:43:52.225577+00:00",
+    "submitted_at": "2026-11-09T01:43:23Z"
+  },
+  "version": 1
+}
