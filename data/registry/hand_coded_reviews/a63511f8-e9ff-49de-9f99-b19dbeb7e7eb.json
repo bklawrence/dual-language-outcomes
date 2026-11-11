@@ -1,0 +1,147 @@
+{
+  "batch_id": "a63511f8-e9ff-49de-9f99-b19dbeb7e7eb",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-162e78179644526f873d1e054ebec0dd",
+            "site_candidate-cdfd044e983753deb0143f5c3d3d3a43"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:55:01.135Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://colonialhills.neisd.net/Discover-Our-Campus/About-Us/Our-Campus/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "be15286e-6b36-4cc0-a01d-7f6677ce4fee",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S015910103",
+      "school_name": "Colonial Hills Elementary",
+      "selected_site_id": "site_candidate-162e78179644526f873d1e054ebec0dd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-9c17019803aa5f4b9a4ce696760e0aff",
+            "site_candidate-d448b8d6c6d85ccda0311ac033e30199"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:55:18.240Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://eastterrellhills.neisd.net/Parent-Resources/Helpful-Pages/Library/Library-Mission-and-Vision/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "942fc6c3-da6d-4341-b600-cce4aa3745c7",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S015910105",
+      "school_name": "East Terrell Hills Elementary",
+      "selected_site_id": "site_candidate-9c17019803aa5f4b9a4ce696760e0aff",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-77ec467e75e25d5e844371092779c85e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:55:33.112Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://eldorado.neisd.net/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "58a8a056-dd9f-4079-891b-1e4ca1f36cdc",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S015910121",
+      "school_name": "Elementary Dorado Elementary",
+      "selected_site_id": "site_candidate-77ec467e75e25d5e844371092779c85e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1e6e6cc2a47b5d82bb2ad634fb6c3e6a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:56:19.509Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://sanantonioreport.org/san-antonio-schools-staar-test-improvement/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ca1e54f0-3a09-4c65-a45e-4a0a1634811a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S015910111",
+      "school_name": "Olmos Elementary",
+      "selected_site_id": "site_candidate-1e6e6cc2a47b5d82bb2ad634fb6c3e6a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4ba8daed7e6e55ec983a4ad0a6237830",
+            "site_candidate-a1af8d6db18c5198ab2e581b5a655f4f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:56:32.380Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://regencyplace.neisd.net/index.html",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "34d4ecc6-d4b8-4564-998b-179c3d79237a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S015910120",
+      "school_name": "Regency Place Elementary",
+      "selected_site_id": "site_candidate-4ba8daed7e6e55ec983a4ad0a6237830",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 101,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/101",
+    "received_at": "2026-11-11T17:57:29.815663+00:00",
+    "submitted_at": "2026-11-11T17:56:48Z"
+  },
+  "version": 1
+}
