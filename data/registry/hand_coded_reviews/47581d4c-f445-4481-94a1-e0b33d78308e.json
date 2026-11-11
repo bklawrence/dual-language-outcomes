@@ -1,0 +1,275 @@
+{
+  "batch_id": "47581d4c-f445-4481-94a1-e0b33d78308e",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-16dd3e0b4efc546ba6f6ad574e51a91d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:10:46.739Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/24Q153",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "30d9b437-6d4b-491b-b7b5-b10193993cb8",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-677051a6df44",
+      "school_name": "P.S. 153 Maspeth Elem",
+      "selected_site_id": "site-16dd3e0b4efc546ba6f6ad574e51a91d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-80e67a4449f45a148567b208b318ca6a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:10:59.293Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "735776ca-444c-4e4a-ab1a-27185807b74d",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-10cc0054f879",
+      "school_name": "P.S. Q016 The Nancy DeBenedittis School",
+      "selected_site_id": "site-80e67a4449f45a148567b208b318ca6a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-43e889460de356808039173fcf4f43dc",
+            "site-6963445e87df5e459c15ef74d830909b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:16:57.138Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/25Q021",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b6427262-4f5c-4b5a-81b6-3578a885390a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-02f605cecc77",
+      "school_name": "P.S. 021 Edward Hart",
+      "selected_site_id": "site-43e889460de356808039173fcf4f43dc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-4b18bded088b5151951cc6a8af1e8edd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:17:10.492Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/25Q032",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "fd415fa2-0aa1-4d24-ab99-81ec5f527abd",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-e1631fef4811",
+      "school_name": "P.S. 032 State Street",
+      "selected_site_id": "site-4b18bded088b5151951cc6a8af1e8edd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-283295eccd9a5fb6a1aa89f9b73de962"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:17:27.697Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "259edd1a-3e9f-459f-ac13-c1fb6007615a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-1d6e4db5ce05",
+      "school_name": "P.S. 107 Thomas A Dooley",
+      "selected_site_id": "site-283295eccd9a5fb6a1aa89f9b73de962",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9b3ef57877ea56968e7c7dcb6d5c2606"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:17:46.888Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2130c6e4-ea97-45f9-954f-71ac7ce0e06a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-0037654b6aa6",
+      "school_name": "P.S. 020 John Bowne",
+      "selected_site_id": "site-9b3ef57877ea56968e7c7dcb6d5c2606",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a9df2833ec9554788d3098823926b355"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:17:57.057Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/25Q163",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "7b0e752b-ab1f-4c8e-b136-a8f672771545",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-6b7a1d69dd13",
+      "school_name": "P.S. 163 Flushing Heights",
+      "selected_site_id": "site-a9df2833ec9554788d3098823926b355",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-e1e7d944c1255cd480e37e6c49cb8a78"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:18:25.649Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/29Q116",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c37b553d-0d30-4d2f-816c-3b7f82e658c5",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-01cc1ac88a52",
+      "school_name": "P.S./I.S. 116 William C. Hughley",
+      "selected_site_id": "site-e1e7d944c1255cd480e37e6c49cb8a78",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3bc2311fd9595984869e6a1a404ab1c2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:29:26.316Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/30Q112",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "615cb418-f32d-4eba-a708-8df7b9243341",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-b8e4940a4690",
+      "school_name": "P.S. 112 Dutch Kills",
+      "selected_site_id": "site-3bc2311fd9595984869e6a1a404ab1c2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-11955252f9e350bd8b99eb5ac79522c5"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:29:44.805Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/30Q092/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c738411b-dcc0-4536-9388-77c71d284317",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-a5ec4abb54f0",
+      "school_name": "P.S. 092 Harry T. Stewart Sr.",
+      "selected_site_id": "site-11955252f9e350bd8b99eb5ac79522c5",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 95,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/95",
+    "received_at": "2026-11-11T16:45:14.068981+00:00",
+    "submitted_at": "2026-11-11T16:40:01Z"
+  },
+  "version": 1
+}

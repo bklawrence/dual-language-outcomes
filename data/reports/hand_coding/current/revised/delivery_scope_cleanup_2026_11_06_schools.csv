@@ -452,10 +452,10 @@ M6-NJ-S-ac68896c75cd,NJ,Dutch Neck Elementary School,West Windsor-Plainsboro Reg
 M6-NJ-S-f5953dc1c751,NJ,West End Elementary School,North Plainfield Borough School District,1,1,1,0,strand
 M6-NJ-S-faa12b59f3b1,NJ,Thomas G. Connors Elementary School,Hoboken Public School District,1,1,1,0,strand
 M6-NJ-S-fb95ef002f0d,NJ,Village Elementary School,West Windsor-Plainsboro Regional School District,2,1,1,0,strand
-M6-NY-S-0037654b6aa6,NY,P.S. 020 John Bowne,New York City Geographic District # 25,1,0,0,0,
-M6-NY-S-01cc1ac88a52,NY,P.S./I.S. 116 William C. Hughley,New York City Geographic District # 29,1,0,0,0,
+M6-NY-S-0037654b6aa6,NY,P.S. 020 John Bowne,New York City Geographic District # 25,1,0,0,0,strand
+M6-NY-S-01cc1ac88a52,NY,P.S./I.S. 116 William C. Hughley,New York City Geographic District # 29,1,0,0,0,strand
 M6-NY-S-023699d9884b,NY,P.S. 124 Silas B. Dutcher,New York City Geographic District # 15,1,0,0,0,
-M6-NY-S-02f605cecc77,NY,P.S. 021 Edward Hart,New York City Geographic District # 25,2,0,0,0,
+M6-NY-S-02f605cecc77,NY,P.S. 021 Edward Hart,New York City Geographic District # 25,2,0,0,0,strand
 M6-NY-S-03296bdcf6be,NY,P.S. 110,New York City Geographic District # 24,1,0,0,0,strand
 M6-NY-S-034a4d2aabc8,NY,Elm Tree Elementary School,New York City Geographic District # 24,1,0,1,1,strand
 M6-NY-S-047d3b4af0c9,NY,P.S. 152 Evergreen,New York City Geographic District # 8,1,0,0,0,strand
@@ -464,20 +464,20 @@ M6-NY-S-0595254c0d7c,NY,P.S. 007 Louis F. Simeone,New York City Geographic Distr
 M6-NY-S-078dafd118d9,NY,P.S. 018 John Peter Zenger,New York City Geographic District # 7,1,0,0,0,strand
 M6-NY-S-09ec53aeda1d,NY,P.S. 053 Basheer Quisim,New York City Geographic District # 9,1,0,0,0,strand
 M6-NY-S-103ab62a0b2c,NY,P.S. 106 Edward Everett Hale,New York City Geographic District # 32,1,0,0,0,
-M6-NY-S-10cc0054f879,NY,P.S. Q016 The Nancy DeBenedittis School,New York City Geographic District # 24,1,0,0,0,
+M6-NY-S-10cc0054f879,NY,P.S. Q016 The Nancy DeBenedittis School,New York City Geographic District # 24,1,0,0,0,strand
 M6-NY-S-110ad3991026,NY,Sunset School of Cultural Learning,New York City Geographic District # 20,1,0,0,0,
 M6-NY-S-12914b4f010c,NY,P.S. 075 Emily Dickinson,New York City Geographic District # 3,1,0,1,1,strand
 M6-NY-S-15355e72ce1f,NY,East Elmhurst Community School,New York City Geographic District # 30,1,0,0,0,
 M6-NY-S-162354188c14,NY,P.S. 098 Shorac Kappock,New York City Geographic District # 6,1,0,0,0,
 M6-NY-S-162678832daf,NY,Helen M. Marshall School,New York City Geographic District # 24,1,0,0,0,
-M6-NY-S-16f139beb0fc,NY,P.S. 166 Henry Gradstein,New York City Geographic District # 30,1,0,0,0,
+M6-NY-S-16f139beb0fc,NY,P.S. 166 Henry Gradstein,New York City Geographic District # 30,1,0,0,0,strand
 M6-NY-S-17af19e9f276,NY,The Hector Figueroa School,New York City Geographic District # 30,1,0,0,0,
-M6-NY-S-1932c4a18827,NY,The Waverly Academy of Empowered Learners,New York City Geographic District # 31,1,0,0,0,
+M6-NY-S-1932c4a18827,NY,The Waverly Academy of Empowered Learners,New York City Geographic District # 31,1,0,0,0,strand
 M6-NY-S-19d4165eb2f7,NY,P.S. 059 The Dawn Best School,New York City Geographic District # 14,1,0,0,0,strand
 M6-NY-S-1be5994fe931,NY,Urban Scholars Community School,New York City Geographic District # 12,1,0,0,0,
 M6-NY-S-1d0215ac927f,NY,P.S. 084 Jose De Diego,New York City Geographic District # 14,1,1,1,0,strand
 M6-NY-S-1d46e3ed7203,NY,P.S. 001 Alfred E. Smith,New York City Geographic District # 2,2,0,0,0,
-M6-NY-S-1d6e4db5ce05,NY,P.S. 107 Thomas A Dooley,New York City Geographic District # 25,1,0,0,0,
+M6-NY-S-1d6e4db5ce05,NY,P.S. 107 Thomas A Dooley,New York City Geographic District # 25,1,0,0,0,strand
 M6-NY-S-1d9166e4b6f8,NY,P.S. 165 Robert E. Simon,New York City Geographic District # 3,1,0,1,1,strand
 M6-NY-S-1da397d2743a,NY,P.S. 017 Henry David Thoreau,New York City Geographic District # 30,1,0,0,0,
 M6-NY-S-20ab2303cd35,NY,P.S. 102 Bayview,New York City Geographic District # 24,1,0,0,0,strand
@@ -496,10 +496,10 @@ M6-NY-S-315f31435fe2,NY,Dos Puentes Elementary School,New York City Geographic D
 M6-NY-S-397cff390d5a,NY,P.S. 173 Fresh Meadows,New York City Geographic District # 26,1,0,0,0,
 M6-NY-S-3a7350119cd9,NY,P.S. 019 Marino Jeantet,New York City Geographic District # 24,1,0,0,0,
 M6-NY-S-3ae2b030a4f4,NY,Thomas A. Edison School,Port Chester-Rye Union Free School District,1,1,1,0,strand
-M6-NY-S-3d8e245cb951,NY,P.S. 116 Elizabeth L Farrell,New York City Geographic District # 32,1,0,0,0,
+M6-NY-S-3d8e245cb951,NY,P.S. 116 Elizabeth L Farrell,New York City Geographic District # 32,1,0,0,0,strand
 M6-NY-S-3f6d8e4d7561,NY,P.S. 189 The Bilingual Center,New York City Geographic District # 17,2,0,1,1,strand
 M6-NY-S-426455c4de90,NY,P.S. 151 Lyndon B. Johnson,New York City Geographic District # 32,1,0,1,1,strand
-M6-NY-S-4580412c9ad7,NY,P.S. 019 The Curtis School,New York City Geographic District # 31,1,0,0,0,
+M6-NY-S-4580412c9ad7,NY,P.S. 019 The Curtis School,New York City Geographic District # 31,1,0,0,0,strand
 M6-NY-S-45eb32afa878,NY,P.S. 007 Abraham Lincoln,New York City Geographic District # 19,1,0,1,1,strand
 M6-NY-S-462c175e3f99,NY,P.S. X643,New York City District 75,1,0,0,0,
 M6-NY-S-494e3be89261,NY,P.S. 129 John H. Finley,New York City Geographic District # 5,1,0,0,0,
@@ -518,14 +518,14 @@ M6-NY-S-5f24facde6d9,NY,P.S. 112 Jose Celso Barbosa,New York City Geographic Dis
 M6-NY-S-621fbc35c53f,NY,P.S. 044 Thomas C. Brown,New York City Geographic District # 31,1,0,0,0,
 M6-NY-S-6293e6bcc22d,NY,The Jermaine L. Green STEM Institute of Queens,New York City Geographic District # 28,1,0,0,0,
 M6-NY-S-63e7e2ead51b,NY,P.S. Q222 - Fire Fighter Christopher A. Santora School,New York City Geographic District # 30,1,0,0,0,
-M6-NY-S-6414fb21d2fc,NY,P.S. 123 Suydam,New York City Geographic District # 32,1,0,0,0,
+M6-NY-S-6414fb21d2fc,NY,P.S. 123 Suydam,New York City Geographic District # 32,1,0,0,0,strand
 M6-NY-S-652ecac9c5cb,NY,P.S. 376,New York City Geographic District # 32,1,0,0,0,
 M6-NY-S-661de517f35d,NY,P.S. 005 Ellen Lurie,New York City Geographic District # 6,1,0,0,0,
 M6-NY-S-672cd3d122f6,NY,The Longwood Academy of Discovery,New York City Geographic District # 8,1,0,0,0,
-M6-NY-S-677051a6df44,NY,P.S. 153 Maspeth Elem,New York City Geographic District # 24,1,0,0,0,
-M6-NY-S-6b436b814b06,NY,P.S. 022 Graniteville,New York City Geographic District # 31,1,0,0,0,
+M6-NY-S-677051a6df44,NY,P.S. 153 Maspeth Elem,New York City Geographic District # 24,1,0,0,0,strand
+M6-NY-S-6b436b814b06,NY,P.S. 022 Graniteville,New York City Geographic District # 31,1,0,0,0,strand
 M6-NY-S-6b761abb0caf,NY,P.S. 506: The School of Journalism & Technology,New York City Geographic District # 20,1,0,0,0,strand
-M6-NY-S-6b7a1d69dd13,NY,P.S. 163 Flushing Heights,New York City Geographic District # 25,1,0,0,0,
+M6-NY-S-6b7a1d69dd13,NY,P.S. 163 Flushing Heights,New York City Geographic District # 25,1,0,0,0,strand
 M6-NY-S-6c24d6c8adbc,NY,Park Avenue School,Port Chester-Rye Union Free School District,1,1,1,0,strand
 M6-NY-S-6df679707ee8,NY,P.S. 169 Sunset Park,New York City Geographic District # 15,2,0,1,1,strand
 M6-NY-S-6f49ae50b248,NY,P.S. 020 Anna Silver,New York City Geographic District # 1,2,0,1,0,strand
@@ -545,8 +545,8 @@ M6-NY-S-83f5f2c81ad1,NY,P.S./I.S. 218 Rafael Hernandez Dual Language Magnet Scho
 M6-NY-S-83f9e8b6a576,NY,P.S. 046 Edward C. Blum,New York City Geographic District # 13,1,0,0,0,strand
 M6-NY-S-8416ffdc4167,NY,The Elizabeth Jennings School for Bold Explorers,New York City Geographic District # 15,1,0,0,0,strand
 M6-NY-S-85b2450d9424,NY,P.S. 070 Max Schoenfeld,New York City Geographic District # 9,1,0,0,0,strand
-M6-NY-S-88ae5eff46ff,NY,P.S. 086 The Irvington,New York City Geographic District # 32,1,0,0,0,
-M6-NY-S-8955a5e3544f,NY,P.S. 212,New York City Geographic District # 30,1,0,0,0,
+M6-NY-S-88ae5eff46ff,NY,P.S. 086 The Irvington,New York City Geographic District # 32,1,0,0,0,strand
+M6-NY-S-8955a5e3544f,NY,P.S. 212,New York City Geographic District # 30,1,0,0,0,strand
 M6-NY-S-8a4e3cca95e0,NY,John F. Kennedy School,Port Chester-Rye Union Free School District,1,1,1,0,strand
 M6-NY-S-8a635ddde09c,NY,P.S./I.S. 54,New York City Geographic District # 10,1,0,0,0,strand
 M6-NY-S-8b2160c3d5fe,NY,P.S. 5 Port Morris,New York City Geographic District # 7,1,0,1,1,strand
@@ -566,10 +566,10 @@ M6-NY-S-9e99e8d718aa,NY,P.S. 69 Vincent D. Grippo School,New York City Geographi
 M6-NY-S-9eeebd06cb61,NY,P.S. 084 Lillian Weber,New York City Geographic District # 3,2,0,1,1,strand
 M6-NY-S-a0cad262f233,NY,P.S. 206 Jose Celso Barbosa,New York City Geographic District # 4,1,0,0,0,
 M6-NY-S-a2c44706ce6f,NY,King Street School,Port Chester-Rye Union Free School District,1,1,1,0,strand
-M6-NY-S-a5ec4abb54f0,NY,P.S. 092 Harry T. Stewart Sr.,New York City Geographic District # 30,1,0,0,0,
+M6-NY-S-a5ec4abb54f0,NY,P.S. 092 Harry T. Stewart Sr.,New York City Geographic District # 30,1,0,0,0,strand
 M6-NY-S-a5f9763e4465,NY,P.S. 015 Patrick F. Daly,New York City Geographic District # 15,1,0,0,0,
 M6-NY-S-a65002735a2f,NY,P.S. 214 Michael Friedsam,New York City Geographic District # 19,1,0,0,0,
-M6-NY-S-a67ddae4bdc4,NY,P.S. 150 Queens,New York City Geographic District # 30,1,0,0,0,
+M6-NY-S-a67ddae4bdc4,NY,P.S. 150 Queens,New York City Geographic District # 30,1,0,0,0,strand
 M6-NY-S-a7542adfd549,NY,The Bilingual Bicultural School,New York City Geographic District # 4,1,0,0,0,whole_school
 M6-NY-S-ad1ddbbea222,NY,P.S. 013 Clement C. Moore,New York City Geographic District # 24,2,0,0,0,
 M6-NY-S-adaf307978c6,NY,P.S. 345 Patrolman Robert Bolden,New York City Geographic District # 19,1,0,0,0,strand
@@ -580,7 +580,7 @@ M6-NY-S-b0cabcef7794,NY,PS 033 Bilingual Center,Buffalo City School District,1,1
 M6-NY-S-b4f5b3790c4c,NY,John M. Marshall Elementary School,East Hampton Union Free School District,1,1,1,0,strand
 M6-NY-S-b59742ba3788,NY,"P.S. 145, The Bloomingdale School",New York City Geographic District # 3,2,0,1,1,strand
 M6-NY-S-b88f7cd2689c,NY,P.S. 139 Alexine A. Fenty,New York City Geographic District # 22,1,0,0,0,strand
-M6-NY-S-b8e4940a4690,NY,P.S. 112 Dutch Kills,New York City Geographic District # 30,1,0,0,0,
+M6-NY-S-b8e4940a4690,NY,P.S. 112 Dutch Kills,New York City Geographic District # 30,1,0,0,0,strand
 M6-NY-S-bb16aa7799c3,NY,Denton Avenue Elementary School,Herricks Union Free School District,1,1,1,0,strand
 M6-NY-S-c26e4bb4f9cb,NY,Southampton Elementary School,Southampton Union Free School District,1,1,1,0,strand
 M6-NY-S-c35471a47236,NY,P.S. 274 Kosciusko,New York City Geographic District # 32,1,0,0,0,
@@ -599,7 +599,7 @@ M6-NY-S-de1090a26dd5,NY,P.S. /I.S. 384 Frances E. Carter,New York City Geographi
 M6-NY-S-de46c103ef25,NY,The Ivan Lafayette Early Childhood School of the Arts,New York City Geographic District # 30,1,0,1,1,strand
 M6-NY-S-df5bfcfb0f19,NY,P.S. 073 Bronx,New York City Geographic District # 9,1,0,0,0,
 M6-NY-S-dfc813e7fbf4,NY,P.S./I.S. 210 - Twenty-first Century Academy for Community Leadership,New York City Geographic District # 6,1,0,0,0,strand
-M6-NY-S-e1631fef4811,NY,P.S. 032 State Street,New York City Geographic District # 25,1,0,0,0,
+M6-NY-S-e1631fef4811,NY,P.S. 032 State Street,New York City Geographic District # 25,1,0,0,0,strand
 M6-NY-S-e54a21a02d4c,NY,The Family School,New York City Geographic District # 9,1,0,0,0,
 M6-NY-S-e6fa5dfa1d42,NY,The Randolph Holder School for Social Justice,New York City Geographic District # 27,1,0,0,0,
 M6-NY-S-e8181afa21f1,NY,P.S. 094 The Henry Longfellow,New York City Geographic District # 15,2,0,0,0,strand
@@ -614,9 +614,9 @@ M6-NY-S-f3ceb81d2f6a,NY,P.S. 024,New York City Geographic District # 15,1,0,1,1,
 M6-NY-S-f4ab8d6253c0,NY,P.S. 184m Shuang Wen,New York City Geographic District # 1,1,0,1,0,whole_school
 M6-NY-S-f7eecb40ecc0,NY,P.S. 155 William Paca,New York City Geographic District # 4,1,0,1,1,strand
 M6-NY-S-f7f41957b850,NY,P.S. 200 Benson School,New York City Geographic District # 20,1,0,0,0,
-M6-NY-S-f9f968796210,NY,P.S. 016 John J. Driscoll,New York City Geographic District # 31,1,0,0,0,
+M6-NY-S-f9f968796210,NY,P.S. 016 John J. Driscoll,New York City Geographic District # 31,1,0,0,0,strand
 M6-NY-S-fa09d2cba113,NY,Brooklyn Arbor Elementary School,New York City Geographic District # 14,1,0,0,0,strand
-M6-NY-S-fa3880a680de,NY,P.S. 145 Andrew Jackson,New York City Geographic District # 32,1,0,0,0,
+M6-NY-S-fa3880a680de,NY,P.S. 145 Andrew Jackson,New York City Geographic District # 32,1,0,0,0,strand
 M6-NY-S-fa828b5ffeee,NY,P.S. 230 Doris L. Cohen,New York City Geographic District # 15,1,0,0,0,strand
 M6-NY-S-fd43da2c92ab,NY,P.S. 163 Alfred E. Smith,New York City Geographic District # 3,1,1,1,0,strand
 M6-NY-S-fe02ca9dd871,NY,P.S. 082 Hammond,New York City Geographic District # 28,1,0,0,0,

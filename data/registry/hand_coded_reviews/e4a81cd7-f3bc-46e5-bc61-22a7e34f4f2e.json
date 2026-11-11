@@ -1,0 +1,40 @@
+{
+  "batch_id": "e4a81cd7-f3bc-46e5-bc61-22a7e34f4f2e",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3350ce9c525c51a78158bbbeca1bdab0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:38:34.136Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/32K145",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "23dfa10e-e92a-4c99-ad02-ae9b33999f6c",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-fa3880a680de",
+      "school_name": "P.S. 145 Andrew Jackson",
+      "selected_site_id": "site-3350ce9c525c51a78158bbbeca1bdab0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 97,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/97",
+    "received_at": "2026-11-11T16:45:10.640691+00:00",
+    "submitted_at": "2026-11-11T16:40:19Z"
+  },
+  "version": 1
+}
