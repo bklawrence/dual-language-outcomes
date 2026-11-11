@@ -1496,19 +1496,19 @@ TX-S227901138,TX,SUMMITT EL,AUSTIN ISD,1,0,0,0,
 TX-S227901147,TX,MENCHACA EL,AUSTIN ISD,1,0,0,0,
 TX-S227901154,TX,DOSS EL,AUSTIN ISD,2,0,0,0,
 TX-S227901158,TX,SUNSET VALLEY EL,AUSTIN ISD,1,0,0,0,
-WA-S100331,WA,Lutacaga Elementary,Othello School District,1,0,0,0,
+WA-S100331,WA,Lutacaga Elementary,Othello School District,1,0,0,0,whole_school
 WA-S100361,WA,Eastgate Elementary School,Kennewick School District,1,0,0,0,
 WA-S100381,WA,Amistad Elementary School,Kennewick School District,1,0,0,0,
-WA-S100398,WA,Keene-Riverview Elementary,Prosser School District,1,0,0,0,
-WA-S100400,WA,Whitstran Elementary,Prosser School District,1,0,0,0,
-WA-S100402,WA,Prosser Heights Elementary,Prosser School District,1,0,0,0,
+WA-S100398,WA,Keene-Riverview Elementary,Prosser School District,1,0,0,0,strand
+WA-S100400,WA,Whitstran Elementary,Prosser School District,1,0,0,0,strand
+WA-S100402,WA,Prosser Heights Elementary,Prosser School District,1,0,0,0,strand
 WA-S100460,WA,Lewis And Clark Elementary Sch,Wenatchee School District,1,0,0,0,
 WA-S100527,WA,Edgewood Elementary School,Vancouver School District,1,0,1,0,strand
 WA-S100535,WA,Sarah J Anderson Elementary,Vancouver School District,1,0,1,0,strand
 WA-S100537,WA,Benjamin Franklin Elementary,Vancouver School District,1,0,0,0,strand
 WA-S100546,WA,Martin Luther King Elementary,Vancouver School District,1,0,1,0,strand
 WA-S100559,WA,Roosevelt Elementary School,Vancouver School District,1,0,0,0,strand
-WA-S100579,WA,Hathaway Elementary,Washougal School District,1,0,0,0,
+WA-S100579,WA,Hathaway Elementary,Washougal School District,1,0,0,0,strand
 WA-S100598,WA,Marrion Elementary School,Evergreen School District (Clark),1,0,0,0,strand
 WA-S100615,WA,Pioneer Elementary School,Evergreen School District (Clark),1,0,0,0,strand
 WA-S100761,WA,Longfellow Elementary,Pasco School District,2,0,0,0,strand
@@ -1523,19 +1523,19 @@ WA-S100774,WA,Rowena Chess Elementary,Pasco School District,2,0,0,0,strand
 WA-S100794,WA,Mattawa Elementary,Wahluke School District,1,0,0,0,
 WA-S100795,WA,Morris Schott Elementary,Wahluke School District,1,0,0,0,
 WA-S100797,WA,Saddle Mountain Elementary,Wahluke School District,1,0,0,0,
-WA-S101039,WA,Beacon Hill International School,Seattle School District No. 1,2,0,0,0,
+WA-S101039,WA,Beacon Hill International School,Seattle School District No. 1,2,0,0,0,strand
 WA-S101042,WA,John Stanford International School,Seattle School District No. 1,2,0,1,1,whole_school
-WA-S101064,WA,Concord International School,Seattle School District No. 1,1,0,0,0,
-WA-S101145,WA,Dearborn Park International School,Seattle School District No. 1,2,0,0,0,
-WA-S101194,WA,Olympic View Elementary School,Federal Way School District,2,0,0,0,
+WA-S101064,WA,Concord International School,Seattle School District No. 1,1,0,0,0,strand
+WA-S101145,WA,Dearborn Park International School,Seattle School District No. 1,2,0,0,0,strand
+WA-S101194,WA,Olympic View Elementary School,Federal Way School District,2,0,1,0,strand
 WA-S101197,WA,Sunnycrest Elementary School,Federal Way School District,1,0,0,0,
-WA-S101254,WA,Mount View Elementary,Highline School District,1,0,0,0,
-WA-S101260,WA,White Center Heights Elementary,Highline School District,2,0,0,0,
-WA-S101261,WA,Hazel Valley Elementary,Highline School District,1,0,0,0,
-WA-S101274,WA,Midway Elementary,Highline School District,1,0,0,0,
-WA-S101285,WA,Hilltop Elementary,Highline School District,1,0,0,0,
-WA-S101290,WA,Madrona Elementary,Highline School District,1,0,0,0,
-WA-S101345,WA,Talbot Hill Elementary School,Renton School District,1,0,0,0,
+WA-S101254,WA,Mount View Elementary,Highline School District,1,0,1,0,whole_school
+WA-S101260,WA,White Center Heights Elementary,Highline School District,2,0,1,0,strand
+WA-S101261,WA,Hazel Valley Elementary,Highline School District,1,0,1,0,whole_school
+WA-S101274,WA,Midway Elementary,Highline School District,1,0,1,0,whole_school
+WA-S101285,WA,Hilltop Elementary,Highline School District,1,0,1,0,whole_school
+WA-S101290,WA,Madrona Elementary,Highline School District,1,0,1,0,whole_school
+WA-S101345,WA,Talbot Hill Elementary School,Renton School District,1,0,0,0,strand
 WA-S101361,WA,Stevenson Elementary,Bellevue School District,1,0,0,0,strand
 WA-S101365,WA,Puesta del Sol Elementary School,Bellevue School District,1,0,1,0,whole_school
 WA-S101366,WA,Lake Hills Elementary,Bellevue School District,1,0,0,0,strand
@@ -1543,9 +1543,9 @@ WA-S101372,WA,Sherwood Forest Elementary,Bellevue School District,1,0,0,0,strand
 WA-S101388,WA,Bennett Elementary School,Bellevue School District,1,0,1,0,strand
 WA-S101399,WA,Cascade View Elementary,Tukwila School District,1,0,0,0,strand
 WA-S101420,WA,Pioneer Elementary School,Auburn School District,1,0,0,0,strand
-WA-S101469,WA,Issaquah Valley Elementary,Issaquah School District,1,0,0,0,
-WA-S101491,WA,Briarcrest Elementary,Shoreline School District,1,0,0,0,
-WA-S101564,WA,Albert Einstein Elementary,Lake Washington School District,1,0,0,0,
+WA-S101469,WA,Issaquah Valley Elementary,Issaquah School District,1,0,1,0,strand
+WA-S101491,WA,Briarcrest Elementary,Shoreline School District,1,0,0,0,strand
+WA-S101564,WA,Albert Einstein Elementary,Lake Washington School District,1,0,0,0,strand
 WA-S101580,WA,Scenic Hill Elementary School,Kent School District,1,0,0,0,
 WA-S101607,WA,Neely O Brien Elementary School,Kent School District,1,0,0,0,
 WA-S101616,WA,Kent Elementary School,Kent School District,1,0,0,0,
@@ -1553,35 +1553,35 @@ WA-S101642,WA,Woodin Elementary,Northshore School District,1,0,0,0,
 WA-S101675,WA,Naval Avenue Elementary School,Bremerton School District,1,0,0,0,strand
 WA-S101676,WA,Armin Jahr Elementary,Bremerton School District,1,0,0,0,strand
 WA-S101694,WA,Ordway Elementary,Bainbridge Island School District,1,0,0,0,strand
-WA-S101712,WA,Vinland Elementary,North Kitsap School District,1,0,0,0,
+WA-S101712,WA,Vinland Elementary,North Kitsap School District,1,0,0,0,strand
 WA-S101870,WA,Oakview Elementary School,Centralia School District,1,0,0,0,strand
 WA-S101912,WA,Evergreen Elementary School,Shelton School District,1,0,0,0,
-WA-S102047,WA,Karshner Elementary,Puyallup School District,1,0,0,0,
+WA-S102047,WA,Karshner Elementary,Puyallup School District,1,0,0,0,strand
 WA-S102102,WA,Blix Elementary School,Tacoma School District,1,0,0,0,strand
 WA-S102107,WA,Sheridan Elementary School,Tacoma School District,1,0,0,0,strand
 WA-S102229,WA,Hillside Elementary School,Clover Park School District,1,0,0,0,strand
 WA-S102236,WA,Carter Lake Elementary School,Clover Park School District,1,0,0,0,strand
-WA-S102273,WA,Harvard Elementary,Franklin Pierce School District,1,0,0,0,
+WA-S102273,WA,Harvard Elementary,Franklin Pierce School District,1,0,0,0,strand
 WA-S102296,WA,Chester H Thompson Elementary,Bethel School District,1,0,0,0,strand
 WA-S102369,WA,West View Elementary,Burlington-Edison School District,1,0,1,0,strand
 WA-S102370,WA,Lucille Umbarger Elementary,Burlington-Edison School District,1,0,1,0,strand
 WA-S102371,WA,Allen Elementary,Burlington-Edison School District,1,0,1,0,whole_school
 WA-S102408,WA,Madison Elementary,Mount Vernon School District,1,0,0,0,
-WA-S102440,WA,Silver Lake Elementary,Everett School District,1,0,0,0,
-WA-S102448,WA,Emerson Elementary School,Everett School District,1,0,0,0,
-WA-S102503,WA,Horizon Elementary,Mukilteo School District,1,0,0,0,
+WA-S102440,WA,Silver Lake Elementary,Everett School District,1,0,0,0,strand
+WA-S102448,WA,Emerson Elementary School,Everett School District,1,0,0,0,strand
+WA-S102503,WA,Horizon Elementary,Mukilteo School District,1,0,0,0,strand
 WA-S102526,WA,Mountlake Terrace Elementary,Edmonds School District,1,0,0,0,strand
 WA-S102531,WA,Cedar Valley Elementary,Edmonds School District,1,0,0,0,strand
 WA-S102532,WA,Spruce Elementary,Edmonds School District,1,0,0,0,strand
 WA-S102552,WA,College Place Elementary,Edmonds School District,1,0,0,0,strand
-WA-S102607,WA,Frank Wagner Elementary,Monroe School District,1,0,0,0,
-WA-S102779,WA,Midway Elementary,Mead School District,1,0,0,0,
-WA-S102926,WA,Mountain View Elementary,North Thurston Public Schools,1,0,0,0,
-WA-S102927,WA,Lydia Hawk Elementary,North Thurston Public Schools,1,0,0,0,
-WA-S102938,WA,Pleasant Glade Elementary,North Thurston Public Schools,1,0,0,0,
-WA-S102993,WA,Rochester Primary School,Rochester School District,1,0,0,0,
+WA-S102607,WA,Frank Wagner Elementary,Monroe School District,1,0,0,0,strand
+WA-S102779,WA,Midway Elementary,Mead School District,1,0,0,0,strand
+WA-S102926,WA,Mountain View Elementary,North Thurston Public Schools,1,0,0,0,strand
+WA-S102927,WA,Lydia Hawk Elementary,North Thurston Public Schools,1,0,0,0,strand
+WA-S102938,WA,Pleasant Glade Elementary,North Thurston Public Schools,1,0,0,0,strand
+WA-S102993,WA,Rochester Primary School,Rochester School District,1,0,0,0,strand
 WA-S103013,WA,Green Park Elementary School,Walla Walla Public Schools,1,0,0,0,
-WA-S103016,WA,Edison Elementary School,Walla Walla Public Schools,1,0,0,0,
+WA-S103016,WA,Edison Elementary School,Walla Walla Public Schools,1,0,1,0,whole_school
 WA-S103025,WA,Davis Elementary,College Place School District,1,0,1,0,strand
 WA-S103176,WA,Garfield Elementary School,Yakima School District,1,0,0,0,strand
 WA-S103177,WA,Mckinley Elementary School,Yakima School District,1,0,0,0,strand
@@ -1596,9 +1596,9 @@ WA-S103196,WA,Whitney Elementary,Yakima School District,1,0,0,0,strand
 WA-S103200,WA,Martin Luther King Jr Elementary,Yakima School District,1,0,0,0,strand
 WA-S103209,WA,Moxee Elementary,East Valley School District (Yakima),1,0,0,0,strand
 WA-S103225,WA,Artz Fox Elementary,Mabton School District,1,0,0,0,
-WA-S103230,WA,Mcclure Elementary School,Grandview School District,1,0,0,0,
-WA-S103232,WA,Thompson Elementary School,Grandview School District,1,0,0,0,
-WA-S103233,WA,Smith Elementary School,Grandview School District,1,0,0,0,
+WA-S103230,WA,Mcclure Elementary School,Grandview School District,1,0,0,0,strand
+WA-S103232,WA,Thompson Elementary School,Grandview School District,1,0,0,0,strand
+WA-S103233,WA,Smith Elementary School,Grandview School District,1,0,0,0,strand
 WA-S103263,WA,Granger Middle School,Granger School District,1,0,0,0,
 WA-S103265,WA,Roosevelt Elementary,Granger School District,1,0,0,0,
 WA-S103956,WA,Maya Angelou Elementary,Pasco School District,1,0,0,0,strand
@@ -1613,15 +1613,15 @@ WA-S105893,WA,Four Heroes Elementary,Clover Park School District,1,0,0,0,strand
 WA-S105897,WA,Barbara McClintock STEM Elementary,Pasco School District,1,0,0,0,strand
 WA-S105898,WA,Captain Gray STEM Elementary,Pasco School District,1,0,1,0,strand
 WA-S105900,WA,Marie Curie STEM Elementary,Pasco School District,1,0,0,0,strand
-WA-S106152,WA,Fuerza Elementary,Kennewick School District,1,0,0,0,
+WA-S106152,WA,Fuerza Elementary,Kennewick School District,1,0,1,0,whole_school
 WA-S106174,WA,Simcoe Elementary School,Wapato School District,1,0,0,0,
 WA-S106175,WA,Camas Elementary,Wapato School District,1,0,0,0,
 WA-S106205,WA,Three Rivers Elementary,Pasco School District,2,0,0,0,strand
-WA-S106206,WA,Dessie F Evans Elementary,Puyallup School District,1,0,0,0,
+WA-S106206,WA,Dessie F Evans Elementary,Puyallup School District,1,0,0,0,strand
 WA-S106405,WA,Columbia River Elementary,Pasco School District,1,0,1,0,strand
 WA-S106902,WA,Kiona-Benton City Elementary,Kiona-Benton City School District,1,0,0,0,
-WA-S106981,WA,Ruben Trejo Dual Language Academy,Spokane School District,1,0,0,0,
-WA-S106982,WA,Ruth Bader Ginsburg Elementary School,Vancouver School District,1,0,0,0,
+WA-S106981,WA,Ruben Trejo Dual Language Academy,Spokane School District,1,0,1,0,whole_school
+WA-S106982,WA,Ruth Bader Ginsburg Elementary School,Vancouver School District,1,0,0,0,whole_school
 WP-AZ-S-0c510192dc9b,AZ,Tarwater Elementary School,Chandler Unified School District 80,1,0,0,0,strand
 WP-AZ-S-23963179dc6a,AZ,Chandler Traditional Academy Liberty Campus,Chandler Unified School District 80,1,0,0,0,
 WP-AZ-S-2b6d2214e16e,AZ,Davis Bilingual Elementary School,Tucson Unified School District,1,0,1,0,whole_school

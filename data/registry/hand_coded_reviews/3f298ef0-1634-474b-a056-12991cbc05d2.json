@@ -1,0 +1,250 @@
+{
+  "batch_id": "3f298ef0-1634-474b-a056-12991cbc05d2",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-97aba3c16205556ba916590c8d51d904"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:38:22.732Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.rochester.wednet.edu/page/dual-language-program/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "acbe5c33-b07e-41d8-8e6f-70dc5c8ae9d6",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102993",
+      "school_name": "Rochester Primary School",
+      "selected_site_id": "site_candidate-97aba3c16205556ba916590c8d51d904",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-469c3298286b55e0b61927fca8fa851c",
+            "site_candidate-78c77ce5fadd5382afd9274beeba567f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:39:40.019Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.seattleschools.org/wp-content/uploads/2025/03/Intl-DLI_Task_Force_Recommendations_Part1.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "234f4913-390d-42ce-871a-dd96debc054d",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101039",
+      "school_name": "Beacon Hill International School",
+      "selected_site_id": "site_candidate-469c3298286b55e0b61927fca8fa851c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-39f8ae796aed5db8bf624eac9912116c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:39:45.904Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.seattleschools.org/wp-content/uploads/2025/03/Intl-DLI_Task_Force_Recommendations_Part1.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "52c82962-4f08-4624-b325-fd7c017f74db",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101064",
+      "school_name": "Concord International School",
+      "selected_site_id": "site_candidate-39f8ae796aed5db8bf624eac9912116c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-6d3dd83d0d6f5201a62648691d3c980d",
+            "site_candidate-df4eed361327582b80f78e5e115c9ac6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:39:52.508Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.seattleschools.org/wp-content/uploads/2025/03/Intl-DLI_Task_Force_Recommendations_Part1.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "47528084-f6e0-48c4-915a-928d17f8e427",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101145",
+      "school_name": "Dearborn Park International School",
+      "selected_site_id": "site_candidate-6d3dd83d0d6f5201a62648691d3c980d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-7ce00139129755d9a97a2a6f08b0af83"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:40:40.088Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.ssd412.org/academics/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c21af125-71f7-4875-8b3e-c5cf37c551ff",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101491",
+      "school_name": "Briarcrest Elementary",
+      "selected_site_id": "site_candidate-7ce00139129755d9a97a2a6f08b0af83",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-23ef9b8a343355219bde1de162574636"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:40:59.428Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.spokaneschools.org/o/language/page/our-school",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "f45b95b3-66b7-4dbb-8022-1e363c2799db",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S106981",
+      "school_name": "Ruben Trejo Dual Language Academy",
+      "selected_site_id": "site_candidate-23ef9b8a343355219bde1de162574636",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-cfac808331c75f5ca25c08815cc8f3ca"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:41:24.901Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.vansd.org/page/elementary-options",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "a1347c29-92c5-4721-bc76-b0b480a63954",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S106982",
+      "school_name": "Ruth Bader Ginsburg Elementary School",
+      "selected_site_id": "site_candidate-cfac808331c75f5ca25c08815cc8f3ca",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-dd687edab3e657578491d7f18f371832"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:41:55.261Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.wwps.org/district/school-board/policies/3000-series-students/policy/~board/series-3000/post/3130-p-district-attendance-areas-open-enrollment-and-employees-student-placement",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "64d72bd8-8f81-4da1-898d-482acdbdba84",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103016",
+      "school_name": "Edison Elementary School",
+      "selected_site_id": "site_candidate-dd687edab3e657578491d7f18f371832",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-acdf860c2c3c5f07afea9cdfaef7eeb4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:42:23.953Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.wwps.org/district/school-board/policies/3000-series-students/policy/~board/series-3000/post/3130-p-district-attendance-areas-open-enrollment-and-employees-student-placement",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9a6a47e9-324a-453e-be7c-1c4fb3e6751b",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S100579",
+      "school_name": "Hathaway Elementary",
+      "selected_site_id": "site_candidate-acdf860c2c3c5f07afea9cdfaef7eeb4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 89,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/89",
+    "received_at": "2026-11-11T14:43:41.733534+00:00",
+    "submitted_at": "2026-11-11T14:43:27Z"
+  },
+  "version": 1
+}

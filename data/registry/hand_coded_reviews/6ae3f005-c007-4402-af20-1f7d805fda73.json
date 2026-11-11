@@ -1,0 +1,275 @@
+{
+  "batch_id": "6ae3f005-c007-4402-af20-1f7d805fda73",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-0041467e23915753a6dbe74e309cdd42"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:23:46.870Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.everettsd.org/cms/lib/WA01920133/Centricity/Domain/1730/MAR2021.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2432077b-69be-4bd2-9ed9-d2daa7a0e640",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102448",
+      "school_name": "Emerson Elementary School",
+      "selected_site_id": "site_candidate-0041467e23915753a6dbe74e309cdd42",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4d42e930e47754b3b7f1f6c384d90d36"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:24:02.290Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.everettsd.org/cms/lib/WA01920133/Centricity/Domain/1730/MAR2021.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1c1c07cc-52d7-44f2-80c4-af31f2b0b00f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102440",
+      "school_name": "Silver Lake Elementary",
+      "selected_site_id": "site_candidate-4d42e930e47754b3b7f1f6c384d90d36",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-38ccd075d00550028143309dd380984d",
+            "site_candidate-78935d90bff7552697df9135d99259e3"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:24:37.869Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.fwps.org/academics/multilingual-servicesbiliteracy/dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "99d07464-8a37-41c0-912d-925f76e30156",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101194",
+      "school_name": "Olympic View Elementary School",
+      "selected_site_id": "site_candidate-38ccd075d00550028143309dd380984d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3f1d71d0ecda550e8de7681912d8f777"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:25:13.729Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.fpschools.org/departments/teaching-and-learning/enrichment-programs/dual-language-immersion-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0eb4ad73-df32-441a-ac0b-007fec9e7588",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102273",
+      "school_name": "Harvard Elementary",
+      "selected_site_id": "site_candidate-3f1d71d0ecda550e8de7681912d8f777",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-099bad9025a9540a9f231bdb93908f99"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:25:40.638Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.gsd200.org/curriculum/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "69509525-2cea-4b86-90b9-894214e42655",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103230",
+      "school_name": "Mcclure Elementary School",
+      "selected_site_id": "site_candidate-099bad9025a9540a9f231bdb93908f99",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-0b7dc487f96a5309b6cace0959e3e50f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:25:54.592Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.gsd200.org/curriculum/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ecf7353d-1652-4166-a3c2-80df776240cb",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103233",
+      "school_name": "Smith Elementary School",
+      "selected_site_id": "site_candidate-0b7dc487f96a5309b6cace0959e3e50f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-fc64c451aa1e54c68c5df9fdc1b73871"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:26:00.710Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.gsd200.org/curriculum/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e3ba171e-f8bd-47f9-8ff5-e3c32a205ff7",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S103232",
+      "school_name": "Thompson Elementary School",
+      "selected_site_id": "site_candidate-fc64c451aa1e54c68c5df9fdc1b73871",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b1a67e25c1685f5687ff694ba6799cef"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:26:48.629Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3743166a-6f28-4073-85dc-d5214a03fc09",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101261",
+      "school_name": "Hazel Valley Elementary",
+      "selected_site_id": "site_candidate-b1a67e25c1685f5687ff694ba6799cef",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b4ce291ab62d5725bb50999213173d9e"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:27:04.032Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e6e15277-87e1-4990-a86a-60a960afbbec",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101285",
+      "school_name": "Hilltop Elementary",
+      "selected_site_id": "site_candidate-b4ce291ab62d5725bb50999213173d9e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-be4d9befbb8256578a0ca9dca084f228"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:27:22.621Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c5421c58-f92f-4309-a57f-6ee9353723da",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101290",
+      "school_name": "Madrona Elementary",
+      "selected_site_id": "site_candidate-be4d9befbb8256578a0ca9dca084f228",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 86,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/86",
+    "received_at": "2026-11-11T14:43:46.800415+00:00",
+    "submitted_at": "2026-11-11T14:42:57Z"
+  },
+  "version": 1
+}

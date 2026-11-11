@@ -1,0 +1,275 @@
+{
+  "batch_id": "9ce41b16-2ae4-46f6-9e6f-4bf99c305a38",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b8972cbee1ac5539ab916d0a6c4e60b3"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:27:28.656Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c9bcefa2-cc78-4d6d-accd-b8c2a69c8cf3",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101254",
+      "school_name": "Mount View Elementary",
+      "selected_site_id": "site_candidate-b8972cbee1ac5539ab916d0a6c4e60b3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-9d5ac0800fd7544b918141276e18da42"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:27:43.428Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5acc5300-7a4c-4758-808c-e9671122bb5d",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101274",
+      "school_name": "Midway Elementary",
+      "selected_site_id": "site_candidate-9d5ac0800fd7544b918141276e18da42",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-590d2645c6c956a0b8e88f212d038482",
+            "site_candidate-e90fa04fbf305f6195946859e4b09d85"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:28:00.727Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.highlineschools.org/about/board-policies/policy-details/~board/board-policies/post/procedure-3132-student-assignment-and-transfer",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9a38e64b-b91a-4299-b2ca-1495b4d82ef4",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101260",
+      "school_name": "White Center Heights Elementary",
+      "selected_site_id": "site_candidate-590d2645c6c956a0b8e88f212d038482",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4e44013561c359cf893793493e183c42"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:28:26.601Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.isd411.org/programs-services/elementary-programs/dlip",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "8082f269-dbf9-4681-8329-8659eb4e5adf",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101469",
+      "school_name": "Issaquah Valley Elementary",
+      "selected_site_id": "site_candidate-4e44013561c359cf893793493e183c42",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-467cbb62a71d5ad0b447448e04e05738"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T14:29:22.102Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1693283079/ksdorg/w8qezhspo1kcj99ogdut/23-24FuerzaElementarySchoolParent-StudentHandbookENGLISH.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ea3dc0f4-cf25-480d-93c7-7718d34d8b57",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S106152",
+      "school_name": "Fuerza Elementary",
+      "selected_site_id": "site_candidate-467cbb62a71d5ad0b447448e04e05738",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-cc1cdb898fde532e8a5eb3d601dae255"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:30:02.265Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://einstein.lwsd.org/academics/dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "4ef11010-506c-403b-96a3-fb8240c9e359",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101564",
+      "school_name": "Albert Einstein Elementary",
+      "selected_site_id": "site_candidate-cc1cdb898fde532e8a5eb3d601dae255",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-2bb689505d1e50b0a55ae5ce5bddfcfd"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:30:35.390Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://resources.finalsite.net/images/v1742334282/mead354org/ggi5mta4ojranjpmjbe8/PVNewsletterMarch2025Vol331425.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "7eb7d0fe-9b50-4c3c-b991-ade2f31b250f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102779",
+      "school_name": "Midway Elementary",
+      "selected_site_id": "site_candidate-2bb689505d1e50b0a55ae5ce5bddfcfd",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-f6fb138715e25b478863fee6e6a62704"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:31:03.551Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.monroe.wednet.edu/academic-programs/dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "96a57fd5-7e50-47f3-a9fb-640ad6b92452",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102607",
+      "school_name": "Frank Wagner Elementary",
+      "selected_site_id": "site_candidate-f6fb138715e25b478863fee6e6a62704",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-7a116cb20694594ab4e7201777643315"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:31:56.348Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.mukilteoschools.org/15954_4",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "38f40791-3048-4aa1-84b6-1e75538e607f",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S102503",
+      "school_name": "Horizon Elementary",
+      "selected_site_id": "site_candidate-7a116cb20694594ab4e7201777643315",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-8e4dc54a904057a6a6ead72e1e5614e3"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T14:32:20.772Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.nkschools.org/programs-and-services/elementary-programs/spanish-dual-language",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1bf4e552-48d0-4c04-8f6f-e661b2a05330",
+      "reviewer": "bklawrence",
+      "school_id": "WA-S101712",
+      "school_name": "Vinland Elementary",
+      "selected_site_id": "site_candidate-8e4dc54a904057a6a6ead72e1e5614e3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 87,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/87",
+    "received_at": "2026-11-11T14:43:45.116752+00:00",
+    "submitted_at": "2026-11-11T14:43:08Z"
+  },
+  "version": 1
+}
