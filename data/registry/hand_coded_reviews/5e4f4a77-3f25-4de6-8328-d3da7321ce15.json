@@ -1,0 +1,274 @@
+{
+  "batch_id": "5e4f4a77-3f25-4de6-8328-d3da7321ce15",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7197125c3f575f328250aced3e399250"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:59:35.045Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/15K230",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "061681b2-fea2-443c-b1b4-92a7643d9670",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-fa828b5ffeee",
+      "school_name": "P.S. 230 Doris L. Cohen",
+      "selected_site_id": "site-7197125c3f575f328250aced3e399250",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-4fa9323ead0f5ef4aaf6ebde188b9bf6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:59:48.031Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/15K516",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d0f21606-8245-460c-9535-b05e479e8e6c",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-d3950da6fa5b",
+      "school_name": "Sunset Park Avenues Elementary School",
+      "selected_site_id": "site-4fa9323ead0f5ef4aaf6ebde188b9bf6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-cb2a0d158f8056eb926bf5d44a549538"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:00:03.721Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c9d1d405-fc73-447a-9419-0a5624b4b102",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8416ffdc4167",
+      "school_name": "The Elizabeth Jennings School for Bold Explorers",
+      "selected_site_id": "site-cb2a0d158f8056eb926bf5d44a549538",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c6fcd6cee27b5771906b2d142901ced6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:00:24.293Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/16K627/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "7c332996-313f-45c6-833e-7737637a6bde",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-9b276b69e386",
+      "school_name": "Brighter Choice Community School",
+      "selected_site_id": "site-c6fcd6cee27b5771906b2d142901ced6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-58854b2abb13537197c949b3b855f129"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:00:48.300Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "39392a5c-7832-4a3a-a5ea-b6491b07fa96",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-ceb1feb90b6a",
+      "school_name": "P.S. 770 New American Academy",
+      "selected_site_id": "site-58854b2abb13537197c949b3b855f129",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-94e95e1a4d015a5da30413c3e3fae833"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:01:08.173Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/19K108",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ba4d6821-6f87-4607-94fe-5b2a67134d4a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-2dbf26fd2153",
+      "school_name": "P.S. 108 Sal Abbracciamento",
+      "selected_site_id": "site-94e95e1a4d015a5da30413c3e3fae833",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9c2ced9051185be1864d7d6623804958"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:01:23.913Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/19K345",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9c704ba4-924f-4622-b7d2-04e3f84bf3e3",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-adaf307978c6",
+      "school_name": "P.S. 345 Patrolman Robert Bolden",
+      "selected_site_id": "site-9c2ced9051185be1864d7d6623804958",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-27b2a7a542c45b71b6c7a13d927ae829"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:01:59.309Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/20K112/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "f8dbed24-e959-4058-a92d-03a7495f90a6",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-290751bbfe6a",
+      "school_name": "P.S. 112 Lefferts Park",
+      "selected_site_id": "site-27b2a7a542c45b71b6c7a13d927ae829",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-858467651e195c878470ef8edafea4bf"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:02:22.181Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/20K506",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "de52454c-21b1-4193-b32c-19b33a52a68e",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-6b761abb0caf",
+      "school_name": "P.S. 506: The School of Journalism & Technology",
+      "selected_site_id": "site-858467651e195c878470ef8edafea4bf",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f90f8ff459f35bd98d18a4076536065e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:02:39.186Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d74ee1cf-113b-40be-8465-013130c19e09",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-9e99e8d718aa",
+      "school_name": "P.S. 69 Vincent D. Grippo School",
+      "selected_site_id": "site-f90f8ff459f35bd98d18a4076536065e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 93,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/93",
+    "received_at": "2026-11-11T16:39:57.945376+00:00",
+    "submitted_at": "2026-11-11T16:39:34Z"
+  },
+  "version": 1
+}

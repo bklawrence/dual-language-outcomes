@@ -1,0 +1,274 @@
+{
+  "batch_id": "e242ea58-8739-466f-8121-1ca0cd908bb9",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-07cc29c2f4c4506b9678a88c35c4bcfc"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:02:50.356Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/20K030/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "525223e2-0d86-4309-9f41-931b012bcc9a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-4e7e1155b3cf",
+      "school_name": "P.S./I.S. 30 Mary White Ovington",
+      "selected_site_id": "site-07cc29c2f4c4506b9678a88c35c4bcfc",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7a8e162b7ff354e88c81629e9fd3ae00"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:03:04.711Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/20K170",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "e568056b-f6f5-4b4c-9698-a4c8023e25b6",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-9e97da7914b1",
+      "school_name": "Ralph A. Fabrizio School",
+      "selected_site_id": "site-7a8e162b7ff354e88c81629e9fd3ae00",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-15cbbb8d17945fac869f942840d513b0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:08:13.507Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/21K090/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ed64eb6c-130f-4e48-86b1-13d08e496511",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-edfaa341b0ae",
+      "school_name": "P.S. 90 Edna Cohen School",
+      "selected_site_id": "site-15cbbb8d17945fac869f942840d513b0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7c780c4224a650baa57464f456dfabb6"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:08:38.765Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/22K139",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "9daa3354-14e7-496a-af4a-453c1dc35efb",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-b88f7cd2689c",
+      "school_name": "P.S. 139 Alexine A. Fenty",
+      "selected_site_id": "site-7c780c4224a650baa57464f456dfabb6",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-75af608321db5674b0bbbbdcce56f91f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:08:56.088Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "603a29c6-9bb1-4971-84d9-f0112acf14f5",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8c47a40b39d0",
+      "school_name": "P.S./ I.S. 155 Nicholas Herkimer",
+      "selected_site_id": "site-75af608321db5674b0bbbbdcce56f91f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-036da0b2284f5ae68de9fc64371cbc16"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:09:20.813Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5fd6c030-69a5-4085-b710-73c559cb057e",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-f18c0e0407b8",
+      "school_name": "P.S. 014 Fairview",
+      "selected_site_id": "site-036da0b2284f5ae68de9fc64371cbc16",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-9c4d29872c0c58dcb221909f833912d3"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:09:37.734Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/24Q088",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ce1c9275-698e-4164-b177-d1f094269134",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-feb7c2c7361d",
+      "school_name": "P.S. 088 Seneca",
+      "selected_site_id": "site-9c4d29872c0c58dcb221909f833912d3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-548f883619e55ae6972c4e7a1792d76c"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:09:55.356Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/24Q102",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b44ecb34-d494-45fd-ae3b-b9210dce64ef",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-20ab2303cd35",
+      "school_name": "P.S. 102 Bayview",
+      "selected_site_id": "site-548f883619e55ae6972c4e7a1792d76c",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1b3fe8ee0e255f61ba0f6cb2535ee867"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:10:16.779Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "8ba0f378-ed66-46e2-baf1-0f099f55eee3",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-03296bdcf6be",
+      "school_name": "P.S. 110",
+      "selected_site_id": "site-1b3fe8ee0e255f61ba0f6cb2535ee867",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-da13c24a6e465745ae07a292eb0ba20b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T16:10:33.520Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "45f85725-0ff3-4349-9fd0-991a38fb7763",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-7728e848c5ff",
+      "school_name": "P.S. 143 Louis Armstrong",
+      "selected_site_id": "site-da13c24a6e465745ae07a292eb0ba20b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 94,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/94",
+    "received_at": "2026-11-11T16:39:56.240676+00:00",
+    "submitted_at": "2026-11-11T16:39:47Z"
+  },
+  "version": 1
+}

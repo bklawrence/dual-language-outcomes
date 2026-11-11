@@ -1,0 +1,275 @@
+{
+  "batch_id": "a67e8845-b6e4-4f55-bdab-3211e93d3768",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3eff67a0a3bc533eb46b3a2e7b112918"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:54:54.852Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "4f350d80-6910-47b7-b096-b15385cef5ca",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8cad330b48d3",
+      "school_name": "P.S. 046 Edgar Allan Poe",
+      "selected_site_id": "site-3eff67a0a3bc533eb46b3a2e7b112918",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-0df750c11f0c561cb976fc6a67108dd7"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:55:14.640Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/10X054/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "21e5d7c9-e153-4375-9f2c-2c6abdf49fda",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8a635ddde09c",
+      "school_name": "P.s./i.s. 54",
+      "selected_site_id": "site-0df750c11f0c561cb976fc6a67108dd7",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-16f0f180d39e59ff853e9c51c11ff346"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:55:48.233Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "7d1579a9-79df-422e-99ea-972be338b06c",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-728ce7dbf580",
+      "school_name": "Samara Community School",
+      "selected_site_id": "site-16f0f180d39e59ff853e9c51c11ff346",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-2e8546b1c0195f9095c9206328c211ae"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:56:11.392Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/13K020",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "f0e8df8b-f2d4-426d-b8a7-2524f30664b9",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-819409812066",
+      "school_name": "P.S. 020 Clinton Hill",
+      "selected_site_id": "site-2e8546b1c0195f9095c9206328c211ae",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-410859f9bede509d9e39f17b3c074f28"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:56:33.381Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/13K046",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "8524f3f8-fccf-44a4-bee5-e603e171f000",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-83f9e8b6a576",
+      "school_name": "P.S. 046 Edward C. Blum",
+      "selected_site_id": "site-410859f9bede509d9e39f17b3c074f28",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c2c160c6d4aa599ca33fcf02f603599a"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:57:04.591Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/14K414/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2fc924a7-ff80-440e-a80d-e8a328f2e609",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-fa09d2cba113",
+      "school_name": "Brooklyn Arbor Elementary School",
+      "selected_site_id": "site-c2c160c6d4aa599ca33fcf02f603599a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-35c13cd0a78654dcb514e1bc3d005094"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:57:18.758Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/14K059",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "36489d76-79f6-4781-beac-81be000a4e50",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-19d4165eb2f7",
+      "school_name": "P.S. 059 The Dawn Best School",
+      "selected_site_id": "site-35c13cd0a78654dcb514e1bc3d005094",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-3064244aaf82508fb6555d28b82bc21e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:57:35.038Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/14K110",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b472e65c-34bd-42fc-900a-1a25f1af3c4a",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-d3bde2c65723",
+      "school_name": "P.S. 110 The Monitor",
+      "selected_site_id": "site-3064244aaf82508fb6555d28b82bc21e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-d9cd19a3e6a65510a231d27547ea4987"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:57:52.361Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/14K380",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1a0d26c7-2f6f-421b-8e68-58e3f65ab0c9",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-f37ececce09f",
+      "school_name": "P.S. 380 John Wayne Elementary",
+      "selected_site_id": "site-d9cd19a3e6a65510a231d27547ea4987",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-1dcbdd60949956e09cc126dcac306282",
+            "site-9d48df3654485a41a2e81f983b794468"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:59:19.324Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/15K094",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "955950a4-fc7a-4e9a-a138-701837dc9999",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-e8181afa21f1",
+      "school_name": "P.S. 094 The Henry Longfellow",
+      "selected_site_id": "site-1dcbdd60949956e09cc126dcac306282",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 92,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/92",
+    "received_at": "2026-11-11T16:39:59.618595+00:00",
+    "submitted_at": "2026-11-11T16:39:24Z"
+  },
+  "version": 1
+}

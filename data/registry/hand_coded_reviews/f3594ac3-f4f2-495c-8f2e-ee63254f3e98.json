@@ -1,0 +1,275 @@
+{
+  "batch_id": "f3594ac3-f4f2-495c-8f2e-ee63254f3e98",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-57a5edb83e565432b51cd1443ce0dc08",
+            "site-dfc09e7a74075b6b9a9e43785c2470e5"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:38:10.476Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "16afae55-85a7-465e-882d-9ac2a64ad705",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-6f49ae50b248",
+      "school_name": "P.S. 020 Anna Silver",
+      "selected_site_id": "site-57a5edb83e565432b51cd1443ce0dc08",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-36732fa0f01754a39dde5bffe79aaa8f"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T15:38:29.365Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/01M184/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "48ec46b9-04b1-495a-99d9-118b000f336c",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-f4ab8d6253c0",
+      "school_name": "P.S. 184m Shuang Wen",
+      "selected_site_id": "site-36732fa0f01754a39dde5bffe79aaa8f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-dc0d9d47a9e2565ba4c2e1ede48b868d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:39:22.130Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/04M096",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "4aa902d1-6559-4049-b825-bfe8206545dd",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-28a9b5de59c8",
+      "school_name": "P.S. 096 Joseph Lanzetta",
+      "selected_site_id": "site-dc0d9d47a9e2565ba4c2e1ede48b868d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5742f203861056debc2eb37044ea2ba0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:39:41.804Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/04M112",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "a9fd8ee5-ea67-47d1-aab0-5db81fa1ef81",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-5f24facde6d9",
+      "school_name": "P.S. 112 Jose Celso Barbosa",
+      "selected_site_id": "site-5742f203861056debc2eb37044ea2ba0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-47d26d30a63d54bcb5c28ddb17185548"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T15:42:58.648Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.mbbms.org/apps/pages/index.jsp?uREC_ID=4467543&type=d&pREC_ID=2740765",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "6551096e-fb76-41c4-82ec-fe4cc3e38fba",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-a7542adfd549",
+      "school_name": "The Bilingual Bicultural School",
+      "selected_site_id": "site-47d26d30a63d54bcb5c28ddb17185548",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b1de29f213c7535bb15ab266c215899b"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T15:43:39.043Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/06M311/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2080b928-967c-4bf8-9a43-cbc311615f18",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-4c7aa90d57a7",
+      "school_name": "Amistad Dual Language School",
+      "selected_site_id": "site-b1de29f213c7535bb15ab266c215899b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b6050dbe06f45348b7cf10d827cd25b0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:44:10.820Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "a9395b8d-1e98-44a9-bfed-b479a18763a3",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-dfc813e7fbf4",
+      "school_name": "P.S./I.S. 210 - Twenty-first Century Academy for Community Leadership",
+      "selected_site_id": "site-b6050dbe06f45348b7cf10d827cd25b0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-859aa890d2f15f4998e3b5cff0c6853e"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:44:29.242Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "cd12072b-febd-4ff5-90ce-e51db5a731e2",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-4aad68be477b",
+      "school_name": "Professor Juan Bosch Public School",
+      "selected_site_id": "site-859aa890d2f15f4998e3b5cff0c6853e",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-c17b1315d64a5a40a6deceaa812f1a47"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:44:42.030Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "8b6a28cc-1820-4b19-a261-b94f5efb8ed3",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8fe2d6256932",
+      "school_name": "Washington Heights Expeditionary Learning School",
+      "selected_site_id": "site-c17b1315d64a5a40a6deceaa812f1a47",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-51a3be5bd0465dada907c14de1673353"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:46:01.705Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "5fea1ca5-cd9b-4dad-a109-d4dbcc8faa4d",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-078dafd118d9",
+      "school_name": "P.S. 018 John Peter Zenger",
+      "selected_site_id": "site-51a3be5bd0465dada907c14de1673353",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 90,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/90",
+    "received_at": "2026-11-11T16:40:02.953642+00:00",
+    "submitted_at": "2026-11-11T16:39:01Z"
+  },
+  "version": 1
+}

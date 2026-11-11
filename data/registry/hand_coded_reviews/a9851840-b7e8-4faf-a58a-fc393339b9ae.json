@@ -1,0 +1,274 @@
+{
+  "batch_id": "a9851840-b7e8-4faf-a58a-fc393339b9ae",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5fe2bc4557a35a649d974cd00b81f81f"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T15:48:02.924Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.instagram.com/ps25bx/?hl=en",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "3f78ff50-6c18-4b16-9300-f7cf1cbeb7bd",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-8e37f536c690",
+      "school_name": "P.S. 025 Bilingual School",
+      "selected_site_id": "site-5fe2bc4557a35a649d974cd00b81f81f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-d0ddafc87cb955618a0ed08fa197f0fa"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:48:48.556Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1daffb1c-53f7-4a4b-a731-9d3660b1c568",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-78e5fa7bdafc",
+      "school_name": "P.S. 049 Willis Avenue",
+      "selected_site_id": "site-d0ddafc87cb955618a0ed08fa197f0fa",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-966e573b03c15b56ae40d6089e7a81f1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:49:36.287Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://github.com/nycschoolzones/nycschoolzones/blob/main/data/nonzoned_k.json",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "ff80c2ae-aff0-48f0-9d25-79bdd5e7a2c0",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-ec873aa63b63",
+      "school_name": "P.S. 161 Juan Ponce De Leon School",
+      "selected_site_id": "site-966e573b03c15b56ae40d6089e7a81f1",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-ccd43c9d41f6501492dd682fec6f287d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:52:23.838Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.publicschoolmatch.com/en/schools/08X048",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1a6389d1-719f-463a-b552-93bead6fe920",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-984a3bf500b5",
+      "school_name": "P.S. 048 Joseph R. Drake",
+      "selected_site_id": "site-ccd43c9d41f6501492dd682fec6f287d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f277b6e52236512b9f1f6a7169df0a51"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:52:41.593Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/08X333/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "bf415ed2-bb47-4800-a259-e4b1096c41d6",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-047d3b4af0c9",
+      "school_name": "P.S. 152 Evergreen",
+      "selected_site_id": "site-f277b6e52236512b9f1f6a7169df0a51",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f8039e85643956cb85a298c1638a693d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:53:11.369Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "56778d3f-5a67-496d-8449-31654ce37f39",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-09ec53aeda1d",
+      "school_name": "P.S. 053 Basheer Quisim",
+      "selected_site_id": "site-f8039e85643956cb85a298c1638a693d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-7377bc859200590b8fe26865a8f63960"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:53:26.225Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://infohub.nyced.org/docs/default-source/default-document-library/bilingual-program-list.csv?download=true",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c96d7ce6-2ab9-4fbb-8b91-1fa0f06d868d",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-85b2450d9424",
+      "school_name": "P.S. 070 Max Schoenfeld",
+      "selected_site_id": "site-7377bc859200590b8fe26865a8f63960",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-0f672e7c14a85820a0eea8c54e8569e3"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:53:44.630Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/09X109/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "f20d45b4-75a6-4292-884c-de09aa7d39e4",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-ae8f17bdac98",
+      "school_name": "P.S. 109 Sedgwick",
+      "selected_site_id": "site-0f672e7c14a85820a0eea8c54e8569e3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-e32f115eb7a1566e8b0819d99b7aa566"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T15:54:07.053Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.psis218.org/history.html",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c75ec1bf-9533-43e2-a1a8-5485b3344083",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-83f5f2c81ad1",
+      "school_name": "P.S./I.S. 218 Rafael Hernandez Dual Language Magnet School",
+      "selected_site_id": "site-e32f115eb7a1566e8b0819d99b7aa566",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-5de7d99855cb57a297748af2e5df1095"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T15:54:36.379Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.myschools.nyc/en/schools/kindergarten/10X077/",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0efb9a41-1c00-4a1d-939d-b24dc32755b1",
+      "reviewer": "bklawrence",
+      "school_id": "M6-NY-S-24f1ceb1ee14",
+      "school_name": "Bedford Park Elementary School",
+      "selected_site_id": "site-5de7d99855cb57a297748af2e5df1095",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 91,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/91",
+    "received_at": "2026-11-11T16:40:01.285798+00:00",
+    "submitted_at": "2026-11-11T16:39:13Z"
+  },
+  "version": 1
+}
