@@ -1,0 +1,198 @@
+{
+  "batch_id": "36a50379-db38-4e90-adf2-8f5ad8492d47",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-22c6c830c8fb538db6cc4cf794246107"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-11T17:40:29.596Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.yisd.net/o/aliciarchacon/page/points-of-pride",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "f09569c3-ad05-4270-83e9-87672353aa04",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905138",
+      "school_name": "Alicia R Chacon International",
+      "selected_site_id": "site_candidate-22c6c830c8fb538db6cc4cf794246107",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-1c8d8391a7a350869e497f403ebe3989"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:40:52.220Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://eastwoodmiddle.yisd.net/o/eastwoodknolls/page/points-of-pride",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c0a5af37-561c-425b-866d-820b2dac56a6",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905106",
+      "school_name": "Eastwood Knolls International",
+      "selected_site_id": "site_candidate-1c8d8391a7a350869e497f403ebe3989",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b594759327335f7797ef50db9724939a",
+            "site_candidate-e3d39516fcdb5f4a8defafea5bd57f95"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:41:13.276Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://eastwoodmiddle.yisd.net/o/edgemere/page/points-of-pride",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "63ac18c7-0fff-4cc2-97d1-b2503f80f5f1",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905107",
+      "school_name": "Edgemere International School",
+      "selected_site_id": "site_candidate-b594759327335f7797ef50db9724939a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-d2b855686dbe5dcea2b261987cf6fb90"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:41:32.225Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.yisd.net/o/lomaterrace/page/points-of-pride",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "daeb6ca9-98e5-41d4-9091-0fb5e47129d7",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905109",
+      "school_name": "Loma Terrace Elementary",
+      "selected_site_id": "site_candidate-d2b855686dbe5dcea2b261987cf6fb90",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-5b0614167603523d9b2148704ab65e6b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:41:55.604Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://delvallehigh.yisd.net/o/ramona/article/1757162",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "67bc6562-1c5d-4b11-b62e-f83a9b146a20",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905114",
+      "school_name": "Ramona Elementary Stem Academy",
+      "selected_site_id": "site_candidate-5b0614167603523d9b2148704ab65e6b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c970d33e5fa457f7a49f2808dc4b0cbf"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:42:10.642Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4731/Yisd/3efab174-03d9-4752-afce-b4eebb800272/REL-Washington-International-School.pdf?",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "913bea2a-418f-4e6b-b5b8-527ef7b72403",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905141",
+      "school_name": "Robbin E L Washington International Elementary",
+      "selected_site_id": "site_candidate-c970d33e5fa457f7a49f2808dc4b0cbf",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-2aff6f04a93a592f99f3fc2ac08db388",
+            "site_candidate-38e88d8f2eff501da89231a55f854e09"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:42:28.632Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://secure.smore.com/n/ya5td-sageland-microsociety-elementary",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "21814396-3d0f-41ea-9d38-112fb7b05214",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S071905116",
+      "school_name": "Sageland Elementary",
+      "selected_site_id": "site_candidate-2aff6f04a93a592f99f3fc2ac08db388",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 100,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/100",
+    "received_at": "2026-11-11T17:43:25.419537+00:00",
+    "submitted_at": "2026-11-11T17:42:44Z"
+  },
+  "version": 1
+}
