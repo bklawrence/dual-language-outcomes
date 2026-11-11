@@ -1,0 +1,144 @@
+{
+  "batch_id": "90cff1c8-d05a-4749-853b-32612ead24f8",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-f1a99e7105dd5d50a6fa9dbbf36bb669"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:22:53.753Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.slcschools.org/dual-immersion",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "bb0bd59f-d711-42dd-bdfc-d5d0b680ae03",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-ba56cd1e6399",
+      "school_name": "Nibley Park School",
+      "selected_site_id": "site-f1a99e7105dd5d50a6fa9dbbf36bb669",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-b0d5c88e646b5dc2bba28dff47da7d9f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:26:26.434Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tooeleschools.org/departments/teaching-learning-2/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b42f038f-a721-4293-be2a-ff08d20b25ba",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-00bab6f5bbc5",
+      "school_name": "Overlake School",
+      "selected_site_id": "site-b0d5c88e646b5dc2bba28dff47da7d9f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-867918c211b053bfb9dc5bd5148fc558"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:26:32.286Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tooeleschools.org/departments/teaching-learning-2/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "1585cd19-b0b1-4484-9523-2e667b358cae",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-1af897d6a50a",
+      "school_name": "Rose Springs School",
+      "selected_site_id": "site-867918c211b053bfb9dc5bd5148fc558",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-79e1c36cf91f51d3b1eda119bde11951"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:26:37.255Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tooeleschools.org/departments/teaching-learning-2/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "61888a22-d49a-46e6-86a4-83704aea53dc",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-9cce01008c51",
+      "school_name": "Sterling School",
+      "selected_site_id": "site-79e1c36cf91f51d3b1eda119bde11951",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site-a7bcbeec2318509b85a019246e6bdf01"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-11T17:26:42.806Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.tooeleschools.org/departments/teaching-learning-2/dual-language-immersion",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "bb641696-16ee-48f6-bcd2-124b09f45095",
+      "reviewer": "bklawrence",
+      "school_id": "WP-UT-S-82d1110b0bc6",
+      "school_name": "West Elementary",
+      "selected_site_id": "site-a7bcbeec2318509b85a019246e6bdf01",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 99,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/99",
+    "received_at": "2026-11-11T17:27:44.493833+00:00",
+    "submitted_at": "2026-11-11T17:27:08Z"
+  },
+  "version": 1
+}
