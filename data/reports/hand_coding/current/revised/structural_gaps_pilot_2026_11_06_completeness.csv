@@ -1,13 +1,13 @@
 district_key,variable,programme_site_records,before_applicable,before_with_evidence,before_resolved,after_applicable,after_with_evidence,after_resolved,newly_resolved
 ALL,instruction_languages,348,348,214,94,348,217,157,63
 ALL,population_model,348,348,267,72,348,268,98,26
-ALL,delivery_structure,348,348,72,72,348,98,74,2
+ALL,delivery_structure,348,348,72,72,348,103,77,5
 ALL,programme_grade_scope,348,348,159,83,348,183,108,25
 ALL,elementary_allocation_model,348,264,37,0,264,60,42,42
 ALL,reference_operation,348,348,144,144,348,170,170,26
 tx_austin,instruction_languages,116,116,28,9,116,30,11,2
 tx_austin,population_model,116,116,116,0,116,116,2,2
-tx_austin,delivery_structure,116,116,0,0,116,1,1,1
+tx_austin,delivery_structure,116,116,0,0,116,6,4,4
 tx_austin,programme_grade_scope,116,116,0,0,116,3,3,3
 tx_austin,elementary_allocation_model,116,85,5,0,85,6,2,2
 tx_austin,reference_operation,116,116,0,0,116,3,3,3

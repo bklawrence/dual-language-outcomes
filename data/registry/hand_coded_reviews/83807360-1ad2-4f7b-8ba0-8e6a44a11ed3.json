@@ -1,0 +1,119 @@
+{
+  "batch_id": "83807360-1ad2-4f7b-8ba0-8e6a44a11ed3",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-dc74d1fcada85179a74fe1b56cbd164a",
+            "site_candidate-e8035ad4c8005d8eb06979b939182ee1"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:26:46.400Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://nwaca.org/wp-content/uploads/2026/02/2026-03-March-NWACA-Newsletter.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0b7349e8-60e0-47be-804a-7e0d4ec7c09a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S227901154",
+      "school_name": "Doss Elementary",
+      "selected_site_id": "site_candidate-dc74d1fcada85179a74fe1b56cbd164a",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-b8d07704cdac51f694fbb9a5a3c0dbc0"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:27:03.388Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://menchaca.austinschools.org/about-us/contact",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "0857a47a-50d8-46a5-926c-f8fb76d6142c",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S227901147",
+      "school_name": "Menchaca Elementary",
+      "selected_site_id": "site_candidate-b8d07704cdac51f694fbb9a5a3c0dbc0",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-46c22d8b606e56f49a065902c974550f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:27:20.629Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://summitt.austinschools.org/sites/summitt.austinschools.org/files/inline-files/2024-Summitt-Elementary-Parent-Manual-2023-2024.pdf",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "832e78de-1347-46d6-b3cd-7b24117e7812",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S227901138",
+      "school_name": "Summitt Elementary",
+      "selected_site_id": "site_candidate-46c22d8b606e56f49a065902c974550f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-a5707126831454d7b7787828c38c3666"
+          ],
+          "value": "whole_school"
+        }
+      },
+      "coded_at": "2026-11-12T23:27:39.684Z",
+      "coding_method": "explicit_source_statement",
+      "disposition": "coded",
+      "evidence_url": "https://www.austinisd.org/schools/sunsetvalley",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "d4b4fd73-805a-40bd-8a0d-aa37c5cba975",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S227901158",
+      "school_name": "Sunset Valley Elementary",
+      "selected_site_id": "site_candidate-a5707126831454d7b7787828c38c3666",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 105,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/105",
+    "received_at": "2026-11-12T23:28:32.677801+00:00",
+    "submitted_at": "2026-11-12T23:27:47Z"
+  },
+  "version": 1
+}
