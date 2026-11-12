@@ -1,7 +1,7 @@
 district_key,variable,programme_site_records,before_applicable,before_with_evidence,before_resolved,after_applicable,after_with_evidence,after_resolved,newly_resolved
 ALL,instruction_languages,348,348,214,94,348,217,157,63
 ALL,population_model,348,348,267,72,348,268,98,26
-ALL,delivery_structure,348,348,72,72,348,88,74,2
+ALL,delivery_structure,348,348,72,72,348,98,74,2
 ALL,programme_grade_scope,348,348,159,83,348,183,108,25
 ALL,elementary_allocation_model,348,264,37,0,264,60,42,42
 ALL,reference_operation,348,348,144,144,348,170,170,26
@@ -19,7 +19,7 @@ tx_garland,elementary_allocation_model,46,43,1,0,43,3,3,3
 tx_garland,reference_operation,46,46,0,0,46,3,3,3
 tx_alief,instruction_languages,27,27,27,0,27,27,20,20
 tx_alief,population_model,27,27,27,0,27,27,20,20
-tx_alief,delivery_structure,27,27,0,0,27,13,0,0
+tx_alief,delivery_structure,27,27,0,0,27,23,0,0
 tx_alief,programme_grade_scope,27,27,0,0,27,18,18,18
 tx_alief,elementary_allocation_model,27,27,23,0,27,23,18,18
 tx_alief,reference_operation,27,27,0,0,27,20,20,20
