@@ -1,0 +1,92 @@
+{
+  "batch_id": "cd419867-df5e-4b3d-b74b-6ccaac5d6c63",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:28:36.853Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://mckamy.cfbisd.edu/campus-information/staff-directory",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "c43cfc07-90ae-4f0a-9962-c4cc3fd2175e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057903124",
+      "school_name": "Mckamy Elementary",
+      "selected_site_id": "site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-7cd906f9d5995e20a68d410734a55d2d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:28:50.458Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://stark.cfbisd.edu/campus-information/staff-directory",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "362fdcf8-d7b1-4460-81bf-d6947c27010d",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057903106",
+      "school_name": "Stark Elementary",
+      "selected_site_id": "site_candidate-7cd906f9d5995e20a68d410734a55d2d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:29:01.879Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://thompson.cfbisd.edu/campus-information/staff-directory",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "6a9647e2-9f6c-4be6-821f-e0358d4de9e3",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S057903111",
+      "school_name": "Thompson Elementary",
+      "selected_site_id": "site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 106,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/106",
+    "received_at": "2026-11-12T23:31:38.321229+00:00",
+    "submitted_at": "2026-11-12T23:29:09Z"
+  },
+  "version": 1
+}

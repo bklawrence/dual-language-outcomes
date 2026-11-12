@@ -13,6 +13,19 @@ claim-000449b899de5b2c9de38a3249dbd7b5,program,CA-P-2b612fc1a791,reviewed_record
 }
 ",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-022e39da386e571ba062adc9384d390f,7b7d8caf-13ba-4d20-955e-d1dd48d2f493:site-904786bdc1e35c84a3f83ceab409c531:delivery_structure:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-0005ce15749651e2b54357368d78750b,program,SE-FL-P-73a9342cbd1a,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""6-8"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""Italian"", ""English""], ""locator"": ""programme description"", ""notes"": ""District requires additional academic content subjects in partner language, not only language arts."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""population"": ""unknown"", ""source"": ""se_fl_miami_is"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-5fc60558fa2b574cad6efc94148a5e10,SE-FL-P-73a9342cbd1a:observation:1; programme description,source-48b8dd722790582e83c3e190352911a2,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated public programme page; retrieved 2026-11-05
+claim-00062a3d945a5403a4da2383942adfb2,program,program_candidate-2ef11d9644ce5063bbcf1f40150d8b58,reviewed_record_reference_scope,"{
+  ""earliest_reviewed_selection_year"": ""2025-26"",
+  ""evidence_ids"": [
+    ""hand_coded_evidence-5a3d3a151eb4564a8c234f7e476f6e1b""
+  ],
+  ""evidence_table"": ""program_configurations"",
+  ""interpretation"": ""Reference-use bound, not a source date or a policy start date. The upper review bound does not establish a programme or policy end date."",
+  ""latest_reviewed_selection_year"": ""2025-26"",
+  ""program_id"": ""program_candidate-2ef11d9644ce5063bbcf1f40150d8b58"",
+  ""school_id"": ""TX-S057903106"",
+  ""site_id"": ""site_candidate-7cd906f9d5995e20a68d410734a55d2d""
+}
+",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-b7bf1403062b5aa183280da535535626,362fdcf8-d7b1-4460-81bf-d6947c27010d:site_candidate-7cd906f9d5995e20a68d410734a55d2d:delivery_structure:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-000a23565b04578c8b2ec7c870eb749a,program,GL-MI-P-8f96dc5700f2,source_structural_observation,"{""delivery"": ""strand"", ""grade"": ""6-8"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""Spanish"", ""English""], ""locator"": ""Harbor Lights Middle School / Spanish immersion"", ""notes"": ""District explicitly identifies this immersion continuation host and contact. No elementary entry ratio assigned to secondary students."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""population"": ""unknown"", ""source"": ""gl_mi_wo_dual"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-ca6f9418110b5713a1b9e7b55b7f46ef,GL-MI-P-8f96dc5700f2:observation:0; Harbor Lights Middle School / Spanish immersion,source-74eb96f0a6805a528717e75b2a281699,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated public programme page; retrieved 2026-11-05
 claim-000d5102662d5e1a952d7e940c8bb13e,school,GL-WI-S-7639c4ed0a73,reviewed_source_school_name,Milwaukee School of Languages,,,not_reported,,documented,source_record,source-ebc4de08b8825c70b34a7e7e8b1b7ba3,GL-WI-P-9a2bad53c378:school_name,,Reviewed name match reuses the existing identity; original registry fields and source claims remain.,
 claim-0013d73d9e2552dfa9d7e1e31d6c170d,program,program_candidate-f4e199df0e8e5528b269403bac3e0a29,language_pair,Spanish–English,,,not_reported,,district_policy_only,source_record,citation-3f039be43f8c5955af5f3b1f0a6d0552,071902111:2023-24:one_way|language_track_01,source-e125597b05015146845b99314f2d0771,Existing explicit Spanish label corroborated by a district instructional-language definition. This is not fresh campus/year confirmation. Mesita third-language role checked separately; district policy is not a secondary-campus confirmation. Source scope: DISTRICT_POLICY_ONLY,
@@ -3364,6 +3377,19 @@ claim-094279d43812581fa26c3d324fa02ea3,program,SE-NC-P-33963b6c8f7d,source_struc
 claim-09494afcb05253ad8d506484dd04c0a5,school,WP-UT-S-af4de91c387e,elementary_audit_school_grade_context,"{""fips"": 49, ""highest_grade_offered"": 12, ""lea_name"": ""Box Elder District"", ""lowest_grade_offered"": 10, ""match_method"": ""exact_normalized_school_and_district"", ""ncessch"": ""490009000043"", ""school_level"": 3, ""school_name"": ""Bear River High"", ""school_status"": 1, ""seasch"": ""03-03704"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_ut.json"", ""state_leaid"": ""UT-03"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-7e74397245805f7fad95a055dacd4dc8,ncessch=490009000043,,Dated school-grade context only. Match method: exact_normalized_school_and_district. No new official identity crosswalk or DL programme confirmation inferred.,
 claim-094a0d74ee5e55e18d5cdb987c881ad8,school,TX-S227901145,campus_grade_range_context,"{""ObjectID"": 8802, ""USER_District_Number"": ""'227901"", ""USER_Grade_Range"": ""'EE-06"", ""USER_School_Name"": ""ZAVALA EL"", ""USER_School_Number"": ""'227901145""}",2024-25,2024-25,not_reported,,documented,source_record,source-177cc68387ce5e01ac23ffece3679a8c,ObjectID=8802,,"Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.",
 claim-094c3b98354d5ef09685579180f43713,program,SE-FL-P-fa102d55805a,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""K-5"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""Spanish"", ""English""], ""locator"": ""Melaleuca Elementary School / Spanish immersion"", ""notes"": ""Named district programme row and programme-grade scope. Page headline says 24 elementary/8 middle/5 high schools; named list contains 27 elementary/K-8 +8 middle +5 high. Named rows are conserved rather than forcing the headline total."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""population"": ""two_way"", ""source"": ""se_fl_palm"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-27d6cc1a944a51cf94da113ef76ff58e,SE-FL-P-fa102d55805a:observation:0; Melaleuca Elementary School / Spanish immersion,source-48b8dd722790582e83c3e190352911a2,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated public programme page; retrieved 2026-11-05
+claim-094f0efc310a5ffdbc805fb73e348dd1,program,program_candidate-713c88bbc96358f98d042f12acf4cc31,reviewed_record_reference_scope,"{
+  ""earliest_reviewed_selection_year"": ""2025-26"",
+  ""evidence_ids"": [
+    ""hand_coded_evidence-90a005b6b1aa5367b620b92b00d00def""
+  ],
+  ""evidence_table"": ""program_configurations"",
+  ""interpretation"": ""Reference-use bound, not a source date or a policy start date. The upper review bound does not establish a programme or policy end date."",
+  ""latest_reviewed_selection_year"": ""2025-26"",
+  ""program_id"": ""program_candidate-713c88bbc96358f98d042f12acf4cc31"",
+  ""school_id"": ""TX-S057903124"",
+  ""site_id"": ""site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678""
+}
+",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-b7bf1403062b5aa183280da535535626,c43cfc07-90ae-4f0a-9962-c4cc3fd2175e:site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678:delivery_structure:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-094fe4c5f71c5e86a0d00d5a0b3f6f06,program,program_candidate-72a589601dc458e1aa45a4a8c23b6379,language_pair,UNVERIFIED,,,not_reported,,unverified,source_record,source-e125597b05015146845b99314f2d0771,057903046:2023-24:two_way|language_track_01,source-e125597b05015146845b99314f2d0771,No affirmative campus/group language-pair evidence; no Spanish default applied. Source scope: UNVERIFIED,
 claim-09505d8af5f65988bc48d47f08e4964c,school,GL-MI-S-e6b747217293,reviewed_source_school_name,Forest Hills Northern High School,,,not_reported,,documented,source_record,source-74eb96f0a6805a528717e75b2a281699,GL-MI-P-b54e7949a09a:school_name,,Reviewed name match reuses the existing identity; original registry fields and source claims remain.,
 claim-095276b0f9225fa0866d577eddaa3681,program,program_candidate-78cc6f39aebb588aaeaf269a91a2615b,language_pair,UNVERIFIED,,,not_reported,,unverified,source_record,source-e125597b05015146845b99314f2d0771,227901150:2023-24:one_way|language_track_01,source-e125597b05015146845b99314f2d0771,No affirmative campus/group language-pair evidence; no Spanish default applied. Source scope: UNVERIFIED,
@@ -28293,6 +28319,41 @@ claim-4d260f57336f57909bcd9ac06acacfd2,school,WA-S101145,hand_coded_review,"{
 claim-4d2635636efa520cb842271d0a9908b9,program,SE-NC-P-04813caeb427,continuity_review,"{""checked_source_types"": [""official programme/pathway page"", ""historical directory or dated report/news""], ""decision"": ""no_end_indication_in_checked_sources"", ""limitations"": ""Bounded source review. No claim to a complete district-board or news archive search; named source periods are not backdated."", ""program_ids"": [""SE-NC-P-04813caeb427""], ""rationale"": ""Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."", ""reference_year"": ""2025-26"", ""review_date"": ""2026-11-05"", ""review_id"": ""SE-NC-P-04813caeb427-CONTINUITY-2025-26"", ""source_keys"": [""se_nc_csv"", ""se_nc_district_35""], ""state"": ""NC""}",2025-26,2025-26,not_reported,,continuity_review,continuity_review,source-94dbf5a6b14f56be800f9b6e6236409e,SE-NC-P-04813caeb427:SE-NC-P-04813caeb427-CONTINUITY-2025-26,source-d4afd699458454538d882b017544119a,"User-authorized continuity assessment, not government certification or a newly observed annual configuration.",2025-26
 claim-4d27277028a651ebac36dfd8e0587f0b,program,WP-NM-P-e719fc945109,reviewed_reference_year_assessment,"{""eligibility"": ""documented_public_academic_immersion"", ""funding"": ""public_program_directory_listing"", ""locator"": ""Feature ObjectId 218"", ""method"": ""continuity_no_end_indication"", ""notes"": ""Prior-year government DL flag and matched DLI listing in December 2025. Grade and language-model discrepancies remain source-specific; no new annual allocation is inferred."", ""period"": ""2024-25 report; December 2025 map"", ""scope"": ""state_report_DL_flag; campus_model_scope_requires_review"", ""source"": ""wp_nm_features"", ""status"": ""confirmed_2025_26"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-3aa9c9d2cb695552b7bbac8c60ae9441,WP-NM-P-e719fc945109:reference,,,2025-26 research assessment; evidence periods remain separate
 claim-4d275009295e5d688cf3de117c2ef812,program,program_candidate-8839003701bd559da192cc4b60b81b35,TAPR_reporting_category,one_way,2023-24,2023-24,not_reported,,provisional,source_record,source-e125597b05015146845b99314f2d0771,188901111:2023-24:one_way|language_track_01:category,,"Reporting-category association, not independent proof that this campus hosted that instructional model.",
+claim-4d2d2b7311a85c3f9ca834198e3a0c5d,school,TX-S057903124,hand_coded_review,"{
+  ""batch_id"": ""cd419867-df5e-4b3d-b74b-6ccaac5d6c63"",
+  ""changes"": {
+    ""delivery_structure"": {
+      ""site_ids"": [
+        ""site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678""
+      ],
+      ""value"": ""strand""
+    }
+  },
+  ""coded_at"": ""2026-11-12T23:28:36.853Z"",
+  ""coding_method"": ""researcher_interpretation"",
+  ""disposition"": ""coded"",
+  ""entry_method"": ""hand_coded"",
+  ""evidence_url"": ""https://mckamy.cfbisd.edu/campus-information/staff-directory"",
+  ""github_actor"": ""bklawrence"",
+  ""grade_scope"": """",
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""issue_url"": ""https://github.com/bklawrence/dual-language-outcomes/issues/106"",
+  ""notes"": """",
+  ""received_at"": ""2026-11-12T23:31:38.321229+00:00"",
+  ""reference_year"": ""2025-26"",
+  ""review_id"": ""c43cfc07-90ae-4f0a-9962-c4cc3fd2175e"",
+  ""reviewer"": ""bklawrence"",
+  ""school_id"": ""TX-S057903124"",
+  ""school_name"": ""Mckamy Elementary"",
+  ""selected_site_id"": ""site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678"",
+  ""source_locator"": """",
+  ""source_quote"": """",
+  ""source_school_year"": null,
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""supersedes_review_id"": null
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,c43cfc07-90ae-4f0a-9962-c4cc3fd2175e,,"Human-authored coding. Reference year, source year, reviewer, authenticated author, evidence URL, notes and inference status are separate.",
 claim-4d2fcc658b4b53e681a77ba883210c19,program,WP-UT-P-806aa92a09fd,reviewed_reference_year_assessment,"{""eligibility"": ""candidate_directory_scope_requires_review"", ""funding"": ""public_program_directory_listing"", ""locator"": ""PDF page 2; text block 2"", ""method"": ""source_year_does_not_establish_reference_year"", ""notes"": ""Source listing retained at its own period; target status requires temporal evidence or a reviewed continuity assessment."", ""period"": ""2026-27"", ""scope"": ""academic_content_scope_requires_review"", ""source"": ""wp_ut_roster26"", ""status"": ""unconfirmed_reference_year"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-4b58be2a81c65883b2452c9dd618333a,WP-UT-P-806aa92a09fd:reference,,,2025-26 research assessment; evidence periods remain separate
 claim-4d32d8601ad65ed790002034e04c97ae,school,GL-IL-S-f422b29161f2,elementary_audit_school_grade_context,"{""fips"": 17, ""highest_grade_offered"": 12, ""lea_name"": ""Naperville CUSD 203"", ""lowest_grade_offered"": 9, ""match_method"": ""exact_normalized_school_and_district"", ""ncessch"": ""172771002940"", ""school_level"": 3, ""school_name"": ""Naperville North High School"", ""school_status"": 1, ""seasch"": ""0222030260013"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_il.json"", ""state_leaid"": ""IL-19-022-2030-26"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-aadd47f0b4b851ca95a688a13d1e4656,ncessch=172771002940,,Dated school-grade context only. Match method: exact_normalized_school_and_district. No new official identity crosswalk or DL programme confirmation inferred.,
 claim-4d34f4e542e953ddae572a7b0ed23adf,program,program_candidate-887b7fb8a8bd51429922d7b6a4147843,reviewed_record_reference_scope,"{
@@ -34788,6 +34849,41 @@ claim-6008bdaec4b659428a565f4cbce574b4,school,TX-S015917105,campus_grade_range_c
 claim-6008c795fb3b562497eb1e7909556d3e,school,GL-IL-S-0d6f2ce522bf,illinois_user_2021_22_source_row,"{""delivery_structure"": ""unknown"", ""disposition"": ""matched_existing_programme"", ""district_name"": ""School District U-46"", ""languages_as_reported"": [""Spanish""], ""level_label"": ""elementary"", ""match_method"": ""reviewed_historical_name_alias_and_district"", ""model_label"": ""80/20"", ""program_id"": ""GL-IL-P-2686be089307"", ""programme_grade_proxy"": ""elementary; exact grades not supplied"", ""raw"": {""Contiguous Boundary"": """", ""District"": ""Elgin Area SD U46"", ""Language"": ""Spanish"", ""Level (Pre 1, Elem 2, Middle 3, High 4, Elem + Middle 5)"": ""2"", ""Location"": ""Elgin"", ""Model"": ""80/20"", ""Name"": ""Oak Hill Elementary"", ""Neighborhood School"": """", ""Private 0/Public1/Charter 2"": ""1"", ""Strand 0/Whole 1"": """", ""Year Started"": """"}, ""reported_start_calendar_year"": null, ""review_notes"": [], ""row_id"": ""IL22-R0080"", ""school_id"": ""GL-IL-S-0d6f2ce522bf"", ""school_name"": ""Oakhill Elementary School"", ""school_year"": ""2021-22"", ""sector_label"": ""public"", ""site_id"": ""site-f84d9e571d155afba3882829fa511fce"", ""source_row_number"": 80}",2021-22,2021-22,not_reported,,provisional,user_district_website_research,source-0ec51ba97403561bbb671af10a70041e,IL22-R0080,source-1181e4f325225750a9c865ec69e5cb3b,"All original fields, blanks, codes and source spelling retained. No 2025–26 confirmation implied.",2021-22
 claim-600e179094c9584f9001ab2fec3dd9c1,program,CA-P-5cbeb00be49f,school_name,Eleanor J. Toll Middle School,,,not_reported,,documented,source_record,citation-6fbba0428f7859d5a7b87f1035b53603,CA-P-5cbeb00be49f-25-E-2,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""undated_official_district_explicit_campus"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""In middle school, Spanish DLI includes a Spanish elective and history/social science in Spanish; the district names Roosevelt and Toll as Spanish DLI middle-school sites."", ""source_date"": """"}",
 claim-600f3d29cb5d5d94bb4c68a856f761c0,school,SE-NC-S-a952b3ba07cb,elementary_audit_school_grade_context,"{""highest_grade_offered"": 5, ""lowest_grade_offered"": -1, ""match_method"": ""exact_normalized_school_and_reviewed_district_alias"", ""ncessch"": ""370474001919"", ""snapshot_path"": ""data/raw/southeast_2026_11_05/se_ccd2024_NC.json"", ""source_lea_name"": ""Warren County Schools"", ""source_school_name"": ""Northside Elementary""}",2024-25,2024-25,not_reported,,documented,source_record,source-33db62c14e1551f780731667bcc1cb22,ncessch=370474001919,,"Dated school grade/funding context only, matched by school and reviewed district-name alias. Does not establish programme operation, annual grade rollout, a durable NCES programme crosswalk or cohort exposure.",2024-25 NCES CCD school directory
+claim-601087b3bd705b3d88ec0d3682230393,school,TX-S057903106,hand_coded_review,"{
+  ""batch_id"": ""cd419867-df5e-4b3d-b74b-6ccaac5d6c63"",
+  ""changes"": {
+    ""delivery_structure"": {
+      ""site_ids"": [
+        ""site_candidate-7cd906f9d5995e20a68d410734a55d2d""
+      ],
+      ""value"": ""strand""
+    }
+  },
+  ""coded_at"": ""2026-11-12T23:28:50.458Z"",
+  ""coding_method"": ""researcher_interpretation"",
+  ""disposition"": ""coded"",
+  ""entry_method"": ""hand_coded"",
+  ""evidence_url"": ""https://stark.cfbisd.edu/campus-information/staff-directory"",
+  ""github_actor"": ""bklawrence"",
+  ""grade_scope"": """",
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""issue_url"": ""https://github.com/bklawrence/dual-language-outcomes/issues/106"",
+  ""notes"": """",
+  ""received_at"": ""2026-11-12T23:31:38.321229+00:00"",
+  ""reference_year"": ""2025-26"",
+  ""review_id"": ""362fdcf8-d7b1-4460-81bf-d6947c27010d"",
+  ""reviewer"": ""bklawrence"",
+  ""school_id"": ""TX-S057903106"",
+  ""school_name"": ""Stark Elementary"",
+  ""selected_site_id"": ""site_candidate-7cd906f9d5995e20a68d410734a55d2d"",
+  ""source_locator"": """",
+  ""source_quote"": """",
+  ""source_school_year"": null,
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""supersedes_review_id"": null
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,362fdcf8-d7b1-4460-81bf-d6947c27010d,,"Human-authored coding. Reference year, source year, reviewer, authenticated author, evidence URL, notes and inference status are separate.",
 claim-6011dfa7fb6f512c840b4fe0e30dfa9c,program,CA-P-e3a7686efb1d,partner_language,Spanish,,,not_reported,,documented,source_record,source-c5fcd698e1c2504f88c1d7cd34b1aa9c,CA-P-e3a7686efb1d-25-E-3,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""undated_official_district_explicit_campus"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""LAUSD public Dual Language Schools Online Directory row(s) recb1c0DymqYysiUw: school Fullbright Ave. ES; program Spanish Dual Language Two-Way Immersion Program; Elementary Model 50/50; source grade span K-2; campus configuration ES."", ""source_date"": """"}",
 claim-60131dd26aa6510a82ea309b86ca4d2e,state,NM,western_plains_screening_observation,"{""decision"": ""university_screening_lead_not_independent_program"", ""district"": ""Eddy"", ""locator"": ""Feature ObjectId 297"", ""period"": ""December 2025 compilation"", ""raw"": {""City"": ""Artesia"", ""Grades_Ages"": ""Grades 6-7"", ""Language"": ""Spanish"", ""Level_of_Immersion_Immersion_Model"": ""Transitional"", ""Name"": ""Artesia Zia Intermediate School"", ""Notes"": ""BMEP"", ""ObjectId"": 297, ""Type"": ""Public School"", ""Website"": ""https://www.bulldogs.org/o/aies/""}, ""school"": ""Artesia Zia Intermediate School"", ""source"": ""wp_nm_features""}",,,not_reported,,metadata_only,source_record,source-6a5b1e06e76b52789f0efdfe5765054b,NM:screening:715; Feature ObjectId 297,source-090493c7489c5fe28b253471b7182940,"Screening observation only. This row does not create a DL programme, assign a language pair or establish reference-year operation.",December 2025 compilation
 claim-60198cf800aa54d4b563b449f562f264,program,GL-IN-P-4414445ac762,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""K-3"", ""label"": null, ""language_role"": ""reported_instruction_language"", ""languages"": [""Spanish""], ""locator"": ""Eastbrook South Elementary / Spanish immersion"", ""notes"": ""Official state roster language/type and programme grades preserved as reported: Spanish, One-Way Dual Language; K-3. This is an older/undated roster, not an observed 2025–26 grade census. Target language only in this observation; an English role or numerical allocation is added only with separate programme evidence."", ""period"": ""undated state programme directory; includes 2023-24 enrolment notes"", ""population"": ""one_way"", ""raw"": {""grade_cell"": ""K-3"", ""language_and_type"": ""Spanish, One-Way Dual Language"", ""reported_district"": ""Eastbrook Community Schools"", ""reported_school"": ""Eastbrook South Elementary""}, ""source"": ""gl_in_state"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-737f3dbe2fb35901844fac6b3ed092f9,GL-IN-P-4414445ac762:observation:0; Eastbrook South Elementary / Spanish immersion,source-901e97472a135aeebdb197d83e6bcc3f,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated state programme directory; includes 2023-24 enrolment notes
@@ -41452,6 +41548,23 @@ claim-7343a3b8f3be55b594a475cf1f83bf70,program,NC-AK-P-3c9855fb2d50,continuity_r
 claim-7343e6be8cc1556992228cfccce6e424,school,school-4b7e5b1e04cc565f875a943406340a44,historical_reported_district_name,Community Consolidated SD 93,2021-22,2021-22,not_reported,,provisional,source_record,source-0ec51ba97403561bbb671af10a70041e,IL22-R0012:district,,"Source reporting label, not a new official LEA crosswalk.",2021-22
 claim-734b25ab47d858e3ae30ad3366d27912,program,program_candidate-a3189c6de7a352988c117de02ee0fd12,language_pair,UNVERIFIED,,,not_reported,,unverified,source_record,source-e125597b05015146845b99314f2d0771,015916110:2023-24:one_way|language_track_01,source-e125597b05015146845b99314f2d0771,No affirmative campus/group language-pair evidence; no Spanish default applied. Source scope: UNVERIFIED,
 claim-734d7ac827d956f7a648cdae3963036d,school,TX-S246909121,elementary_audit_school_grade_context,"{""fips"": 48, ""highest_grade_offered"": 5, ""lea_name"": ""ROUND ROCK ISD"", ""lowest_grade_offered"": -1, ""match_method"": ""exact_state_school_id"", ""ncessch"": ""483808001326"", ""school_level"": 1, ""school_name"": ""GATTIS EL"", ""school_status"": 1, ""seasch"": ""246909-246909121"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_tx.json"", ""state_leaid"": ""TX-246909"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-02971d0ea56655cdbfe90cb0b7289f10,ncessch=483808001326,,Dated school-grade context only. Match method: exact_state_school_id. No new official identity crosswalk or DL programme confirmation inferred.,
+claim-734df7b6a5a851818d7755ef6ebd3c55,program,program_candidate-10ec9c8fb384564d8a72d2227e4866e9,hand_coded_structural_field_selection,"{
+  ""batch_record_index"": 2,
+  ""evidence_ids"": [
+    ""hand_coded_evidence-f826eb5b8abd5d478c18dcbbd2e5a533""
+  ],
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""program_id"": ""program_candidate-10ec9c8fb384564d8a72d2227e4866e9"",
+  ""reason"": ""Hand-coded field selection by bklawrence; researcher_interpretation. Review 6a9647e2-9f6c-4be6-821f-e0358d4de9e3"",
+  ""review_id"": ""6a9647e2-9f6c-4be6-821f-e0358d4de9e3"",
+  ""school_id"": ""TX-S057903111"",
+  ""selection_year"": ""2025-26"",
+  ""site_id"": ""site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f"",
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""variable"": ""delivery_structure""
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,6a9647e2-9f6c-4be6-821f-e0358d4de9e3:site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f:delivery_structure:selection,,HAND-CODED by bklawrence. Review 6a9647e2-9f6c-4be6-821f-e0358d4de9e3. Evidence: https://thompson.cfbisd.edu/campus-information/staff-directory. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
 claim-734f92f389ed5e4c8c20b87a4d432e09,program,program_candidate-31059f3f7d0f5efa9aa06720cdca0c65,TAPR_reporting_category,two_way,2023-24,2023-24,not_reported,,provisional,source_record,source-e125597b05015146845b99314f2d0771,057905303:2023-24:two_way|language_track_01:category,,"Reporting-category association, not independent proof that this campus hosted that instructional model.",
 claim-734fc3ac7ee95fc5b137cd0ed037c655,program,NC-HI-P-3e094cf099e1,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""7-7"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""English""], ""locator"": ""directory introduction / English introduced as a subject from Grade 5"", ""notes"": ""English subject instruction in grades 5+ only, intersected with this host’s reported programme grades. Not evidence of English instruction in K–4."", ""period"": ""undated statewide Kaiapuni policy; retrieved 2026-11-05"", ""population"": ""unknown"", ""source"": ""nc_hi_directory"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-0a4d977e76b4544ea449458ef5e847e3,NC-HI-P-3e094cf099e1:observation:1; directory introduction / English introduced as a subject from Grade 5,source-f7927ad0d12f51dcab8bddcfa7607208,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated statewide Kaiapuni policy; retrieved 2026-11-05
 claim-7354c207fbbb5052a5c14e9b7f68b395,program,SE-NC-P-1541ab9044e3,reviewed_structural_field_selection,"{
@@ -42525,6 +42638,19 @@ claim-7704c0d68f0958e49efaac6a5c3b7c2f,school,WA-S100855,related_language_progra
 claim-77073ed53df75c2ba78ee4f2171ddff1,school,TX-S101920124,elementary_audit_school_grade_context,"{""fips"": 48, ""highest_grade_offered"": 5, ""lea_name"": ""SPRING BRANCH ISD"", ""lowest_grade_offered"": -1, ""match_method"": ""exact_state_school_id"", ""ncessch"": ""484110004702"", ""school_level"": 1, ""school_name"": ""CEDAR BROOK EL"", ""school_status"": 1, ""seasch"": ""101920-101920124"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_tx.json"", ""state_leaid"": ""TX-101920"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-02971d0ea56655cdbfe90cb0b7289f10,ncessch=484110004702,,Dated school-grade context only. Match method: exact_state_school_id. No new official identity crosswalk or DL programme confirmation inferred.,
 claim-77085e664f27547a8e0096262975852f,program,WP-KS-P-8f8e2e52b7d5,source_structural_observation,"{""delivery"": ""strand"", ""grade"": ""K-5"", ""label"": null, ""language_role"": ""instruction_language"", ""languages"": [""English"", ""Spanish""], ""locator"": ""Manchester Park Elementary School"", ""notes"": ""District describes two programme classrooms within a school and a lottery; majority of students enter with no Spanish background. Population model not forced to two-way."", ""period"": ""undated"", ""population"": ""unknown"", ""source"": ""wp_ks_olathe"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-147af31abe115c52b4a65785f56abfdd,WP-KS-P-8f8e2e52b7d5:observation:0; Manchester Park Elementary School,source-f976afa5b66f5ec5896d4b70ccf9aa41,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated
 claim-77086a83e0525f6fa9afefe9783526f7,program,M6-DE-P-82e78c41e859,reviewed_reference_year_assessment,"{""eligibility"": ""documented_public_academic_immersion"", ""funding"": ""public_district_programme"", ""locator"": ""Seaford Central Elementary School / Spanish immersion"", ""method"": ""continuity_no_end_indication"", ""notes"": ""Reference-year research assessment is distinct from the source date. Established programme sources and bounded change review supply no confirmed ending before the reference year in checked sources; later events remain separate. Not annual certification or statewide completeness."", ""period"": ""2021-22"", ""scope"": ""academic_content_immersion"", ""source"": ""m6_de_map21"", ""status"": ""confirmed_2025_26"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-2a422343d26c575cafded296de7e1642,M6-DE-P-82e78c41e859:reference,,,2025-26 research assessment; evidence periods remain separate
+claim-770a8ce55b3f52b3bd6b98ec7886bc1d,program,program_candidate-10ec9c8fb384564d8a72d2227e4866e9,reviewed_record_reference_scope,"{
+  ""earliest_reviewed_selection_year"": ""2025-26"",
+  ""evidence_ids"": [
+    ""hand_coded_evidence-f826eb5b8abd5d478c18dcbbd2e5a533""
+  ],
+  ""evidence_table"": ""program_configurations"",
+  ""interpretation"": ""Reference-use bound, not a source date or a policy start date. The upper review bound does not establish a programme or policy end date."",
+  ""latest_reviewed_selection_year"": ""2025-26"",
+  ""program_id"": ""program_candidate-10ec9c8fb384564d8a72d2227e4866e9"",
+  ""school_id"": ""TX-S057903111"",
+  ""site_id"": ""site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f""
+}
+",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-b7bf1403062b5aa183280da535535626,6a9647e2-9f6c-4be6-821f-e0358d4de9e3:site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f:delivery_structure:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-770d6160f6bb514b8fe8c8d3a0884ec5,program,program_candidate-3d8be3c1484d5bc4a696144839416cf0,hand_coded_structural_field_selection,"{
   ""batch_record_index"": 1,
   ""evidence_ids"": [
@@ -58716,6 +58842,23 @@ claim-a1dbbe0e311f593fafd1276ef0a6af68,program,program_candidate-b14244591626545
 }
 ",2025-26,2025-26,not_reported,,metadata_only,reference_applicability_review,source-8dded7e7d47751109afd89ef02660179,gap_pilot-2acabd4c923c5a6ba0cbd944800b9b14:reference_scope,,The source observation retains its actual year/undated status. This review does not authorize use before the reviewed reference.,
 claim-a1dc59776dad55499a2a7d5d604d9be8,program,CA-P-2627d774a3c6,district_id,1964733,2024-25,2024-25,not_reported,,documented,source_record,source-8a5ada9f396d51a69d94124b6bb65545,CA-P-2627d774a3c6-25-E-9,source-6ec4360156295981bb8407b21f1e6fb3,"{""classification"": ""official_historical_identifier_crosswalk"", ""conflicting_or_unresolved"": """", ""excerpt_or_paraphrase"": ""CDE 2024–25 row: Los Angeles Unified; Catskill Avenue Elementary; grade span K-5; CDS 19647336016406. Unique normalized name/district match preserving middle/high school labels."", ""source_date"": ""2025-07""}",2024-25
+claim-a1dca924e453560594b4c1ffbb816daf,program,program_candidate-713c88bbc96358f98d042f12acf4cc31,hand_coded_structural_field_selection,"{
+  ""batch_record_index"": 0,
+  ""evidence_ids"": [
+    ""hand_coded_evidence-90a005b6b1aa5367b620b92b00d00def""
+  ],
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""program_id"": ""program_candidate-713c88bbc96358f98d042f12acf4cc31"",
+  ""reason"": ""Hand-coded field selection by bklawrence; researcher_interpretation. Review c43cfc07-90ae-4f0a-9962-c4cc3fd2175e"",
+  ""review_id"": ""c43cfc07-90ae-4f0a-9962-c4cc3fd2175e"",
+  ""school_id"": ""TX-S057903124"",
+  ""selection_year"": ""2025-26"",
+  ""site_id"": ""site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678"",
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""variable"": ""delivery_structure""
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,c43cfc07-90ae-4f0a-9962-c4cc3fd2175e:site_candidate-4b1ab3d7f9cf52be9252f8e15ee93678:delivery_structure:selection,,HAND-CODED by bklawrence. Review c43cfc07-90ae-4f0a-9962-c4cc3fd2175e. Evidence: https://mckamy.cfbisd.edu/campus-information/staff-directory. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
 claim-a1df37b566c758cfa8fd2189da8b7586,school,CA-S30664236027429,historical_CDE_school_screening,"{""district_id"": ""3066423"", ""district_name"": ""Anaheim Elementary"", ""grade_span_in_source"": ""K-6"", ""lip_offered_indicator_in_source"": ""Y"", ""notes"": ""School-level category indicators do not identify instructional languages, campus-specific kindergarten models, school structure, distinct language tracks, or current-year operation."", ""operating_status_2026_27"": ""historical_status_unknown"", ""reference_school_year"": ""2026-27"", ""reported_program_categories"": ""dual_language_immersion"", ""school_id"": ""30664236027429"", ""school_id_namespace"": ""CA_CDS"", ""school_name"": ""Edison (Thomas) Elementary"", ""screening_status"": ""historical_school_candidate_not_resolved_program_tracks"", ""source_publication_date"": ""2025-07"", ""source_school_year"": ""2024-25"", ""source_sha256"": ""f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215"", ""source_title"": ""CDE List of Schools Offering Multilingual Programs 2024–25"", ""source_url"": ""https://www.cde.ca.gov/sp/ml/documents/mlprograms2425.xlsx"", ""state"": ""CA""}",2024-25,2024-25,not_reported,,metadata_only,source_record,source-8a5ada9f396d51a69d94124b6bb65545,30664236027429,source-693a6f43d64c5fb2b704b49f31b551a3,"Historical school lead only. No language track, K schedule, structure or current program identity is created; transitional-only rows remain screening evidence.",2024-25 school-category listing; published 2025-07
 claim-a1e0e4e706225705995f55168b66b5a9,program,SE-SC-P-493ba4df90fc,reviewed_reference_year_assessment,"{""eligibility"": ""documented_public_academic_immersion"", ""funding"": ""public_district_programme"", ""locator"": ""Broad River Elementary School / Mandarin Chinese immersion"", ""method"": ""continuity_no_end_indication"", ""notes"": ""Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""scope"": ""academic_content_immersion"", ""source"": ""se_sc_broad"", ""status"": ""confirmed_2025_26"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-0eda3984f30953698884004047733ec8,SE-SC-P-493ba4df90fc:reference,,,2025-26 research assessment; evidence periods remain separate
 claim-a1e15fbb98ed5f3da79d1f82fb6cf30d,program,SE-NC-P-17b62a0a105d,reviewed_reference_year_assessment,"{""eligibility"": ""documented_public_academic_immersion"", ""funding"": ""public_district_programme"", ""locator"": ""Merrick-Moore Elementary / Spanish immersion"", ""method"": ""continuity_no_end_indication"", ""notes"": ""Reference-year continuity assessment from cited established-programme sources and bounded programme/change review. No confirmed ending before the reference year was found in the checked sources. Actual source periods and later changes remain separate; not annual certification or statewide completeness."", ""period"": ""live state directory; school row launch 2024-2025; retrieved 2026-11-05"", ""scope"": ""academic_content_immersion"", ""source"": ""se_nc_csv"", ""status"": ""confirmed_2025_26"", ""year"": ""2025-26""}",2025-26,2025-26,not_reported,,metadata_only,source_record,source-d4afd699458454538d882b017544119a,SE-NC-P-17b62a0a105d:reference,,,2025-26 research assessment; evidence periods remain separate
@@ -86344,6 +86487,23 @@ claim-ec301e28f9a15b24816c6a0293430958,program,WP-AZ-P-ee5b52b865dc,hand_coded_s
   ""variable"": ""delivery_structure""
 }
 ",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-d38c4a6782cf5a7e82e9cdfe19ffbb5c,9cb01748-9604-472b-95db-1045d67cd7bf:site-a5719b91dcf958288614532ca6baa647:delivery_structure:selection,,HAND-CODED by bklawrence. Review 9cb01748-9604-472b-95db-1045d67cd7bf. Evidence: https://pueblo.susd.org/our-school/our-staff. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
+claim-ec3304e14ada558c9ce48de759ea7625,program,program_candidate-2ef11d9644ce5063bbcf1f40150d8b58,hand_coded_structural_field_selection,"{
+  ""batch_record_index"": 1,
+  ""evidence_ids"": [
+    ""hand_coded_evidence-5a3d3a151eb4564a8c234f7e476f6e1b""
+  ],
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""program_id"": ""program_candidate-2ef11d9644ce5063bbcf1f40150d8b58"",
+  ""reason"": ""Hand-coded field selection by bklawrence; researcher_interpretation. Review 362fdcf8-d7b1-4460-81bf-d6947c27010d"",
+  ""review_id"": ""362fdcf8-d7b1-4460-81bf-d6947c27010d"",
+  ""school_id"": ""TX-S057903106"",
+  ""selection_year"": ""2025-26"",
+  ""site_id"": ""site_candidate-7cd906f9d5995e20a68d410734a55d2d"",
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""variable"": ""delivery_structure""
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,362fdcf8-d7b1-4460-81bf-d6947c27010d:site_candidate-7cd906f9d5995e20a68d410734a55d2d:delivery_structure:selection,,HAND-CODED by bklawrence. Review 362fdcf8-d7b1-4460-81bf-d6947c27010d. Evidence: https://stark.cfbisd.edu/campus-information/staff-directory. Reviewed grades: . Full notes and quotation retained in the hand_coded_review claim and source journal.,
 claim-ec33727adc5651c79bbeb4b818ac9910,school,TX-S101910105,elementary_audit_school_grade_context,"{""fips"": 48, ""highest_grade_offered"": 5, ""lea_name"": ""GALENA PARK ISD"", ""lowest_grade_offered"": -1, ""match_method"": ""exact_state_school_id"", ""ncessch"": ""482025001985"", ""school_level"": 1, ""school_name"": ""GREEN VALLEY EL"", ""school_status"": 1, ""seasch"": ""101910-101910105"", ""snapshot_path"": ""data/raw/elementary_audit_2026_11_04/ccd_2024_tx.json"", ""state_leaid"": ""TX-101910"", ""year"": 2024}",2024-25,2024-25,not_reported,,documented,source_record,source-02971d0ea56655cdbfe90cb0b7289f10,ncessch=482025001985,,Dated school-grade context only. Match method: exact_state_school_id. No new official identity crosswalk or DL programme confirmation inferred.,
 claim-ec36ce0bc7f058d284b16f56a6ed01a9,school,CA-S27661426026603,historical_CDE_school_screening,"{""district_id"": ""2766142"", ""district_name"": ""Salinas City Elementary"", ""grade_span_in_source"": ""K-6"", ""lip_offered_indicator_in_source"": ""Y"", ""notes"": ""School-level category indicators do not identify instructional languages, campus-specific kindergarten models, school structure, distinct language tracks, or current-year operation."", ""operating_status_2026_27"": ""historical_status_unknown"", ""reference_school_year"": ""2026-27"", ""reported_program_categories"": ""dual_language_immersion | transitional_bilingual"", ""school_id"": ""27661426026603"", ""school_id_namespace"": ""CA_CDS"", ""school_name"": ""Roosevelt Elementary"", ""screening_status"": ""historical_school_candidate_not_resolved_program_tracks"", ""source_publication_date"": ""2025-07"", ""source_school_year"": ""2024-25"", ""source_sha256"": ""f221b2d3266ef3aecbfc6ccc9bdbd49a9cb75196778f9f7733d4b049cdd75215"", ""source_title"": ""CDE List of Schools Offering Multilingual Programs 2024–25"", ""source_url"": ""https://www.cde.ca.gov/sp/ml/documents/mlprograms2425.xlsx"", ""state"": ""CA""}",2024-25,2024-25,not_reported,,metadata_only,source_record,source-8a5ada9f396d51a69d94124b6bb65545,27661426026603,source-693a6f43d64c5fb2b704b49f31b551a3,"Historical school lead only. No language track, K schedule, structure or current program identity is created; transitional-only rows remain screening evidence.",2024-25 school-category listing; published 2025-07
 claim-ec38d7bd2cac5d07a09c9acf920fdd40,school,TX-S057905234,hand_coded_review,"{
@@ -90823,6 +90983,41 @@ claim-f812452d3f89582da7e08519ec4c93e2,program,WP-NM-P-072b3a4366a4,structural_g
 }
 ",2025-26,2025-26,not_reported,,metadata_only,field_specific_research_review,source-d0bf785d247b53e1bdc205b9427ae5a4,gap_pilot-432c37ec77a55720a68cdf27670c096d:review,,"Reference review, evidence dates, source chain, scope and inference method retained separately.",
 claim-f8169306fe115672a4cd649b8aaad597,state,MS,south_central_screening_observation,"{""disposition"": ""language_and_culture_classes_not_verified_academic_immersion"", ""district"": ""Tribal operator: Mississippi Band of Choctaw Indians"", ""locator"": ""Tucker Elementary School"", ""notes"": """", ""period"": ""undated source retrieved 2026-11-05"", ""reason"": ""Tribal school system describes dedicated Choctaw language/culture periods, usually 30–60 minutes daily, plus integration and after-school activities. This does not establish content immersion or a DL time model."", ""school"": ""Tucker Elementary School"", ""source"": ""sc_ms_choctaw""}",,,not_reported,,metadata_only,source_record,source-04af655289f65a61b08116cd1cb29c3a,MS:screening:6; Tucker Elementary School,source-e7c297a54477510487de11c16f662d75,"Screening observation only. This row does not create a DL programme, assign a language pair or establish reference-year operation.",undated source retrieved 2026-11-05
+claim-f8175a853ab1573ca2880a6c0f780aac,school,TX-S057903111,hand_coded_review,"{
+  ""batch_id"": ""cd419867-df5e-4b3d-b74b-6ccaac5d6c63"",
+  ""changes"": {
+    ""delivery_structure"": {
+      ""site_ids"": [
+        ""site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f""
+      ],
+      ""value"": ""strand""
+    }
+  },
+  ""coded_at"": ""2026-11-12T23:29:01.879Z"",
+  ""coding_method"": ""researcher_interpretation"",
+  ""disposition"": ""coded"",
+  ""entry_method"": ""hand_coded"",
+  ""evidence_url"": ""https://thompson.cfbisd.edu/campus-information/staff-directory"",
+  ""github_actor"": ""bklawrence"",
+  ""grade_scope"": """",
+  ""hand_coded"": true,
+  ""issue_number"": 106,
+  ""issue_url"": ""https://github.com/bklawrence/dual-language-outcomes/issues/106"",
+  ""notes"": """",
+  ""received_at"": ""2026-11-12T23:31:38.321229+00:00"",
+  ""reference_year"": ""2025-26"",
+  ""review_id"": ""6a9647e2-9f6c-4be6-821f-e0358d4de9e3"",
+  ""reviewer"": ""bklawrence"",
+  ""school_id"": ""TX-S057903111"",
+  ""school_name"": ""Thompson Elementary"",
+  ""selected_site_id"": ""site_candidate-bb3a00de9e55523ea9fd5d9dcb08496f"",
+  ""source_locator"": """",
+  ""source_quote"": """",
+  ""source_school_year"": null,
+  ""submitted_at"": ""2026-11-12T23:29:09Z"",
+  ""supersedes_review_id"": null
+}
+",2025-26,2025-26,not_reported,,metadata_only,researcher_hand_coding,source-b7bf1403062b5aa183280da535535626,6a9647e2-9f6c-4be6-821f-e0358d4de9e3,,"Human-authored coding. Reference year, source year, reviewer, authenticated author, evidence URL, notes and inference status are separate.",
 claim-f817a87bcd615e59b8f28d9da65ea075,school,TX-S057905185,campus_grade_range_context,"{""ObjectID"": 2389, ""USER_District_Number"": ""'057905"", ""USER_Grade_Range"": ""'PK-06"", ""USER_School_Name"": ""WILLIAM B MILLER EL"", ""USER_School_Number"": ""'057905185""}",2024-25,2024-25,not_reported,,documented,source_record,source-ac779a10d9bc5a929ed71688f9a9aa6c,ObjectID=2389,,"Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.",
 claim-f8180c5fc52a5f0e9b274eb4b1834e35,program,SC-LA-P-c86459d1fc17,source_structural_observation,"{""delivery"": ""unknown"", ""grade"": ""not_reported"", ""label"": null, ""language_role"": ""reported_instruction_language"", ""languages"": [""French""], ""locator"": ""programme description"", ""notes"": ""Original government map object retained, including source ID, name, website and address; map-object ID is not an NCES school ID."", ""period"": ""undated public programme page; retrieved 2026-11-05"", ""population"": ""unknown"", ""raw"": {""address_line_1"": ""610 E Butcher Switch Rd"", ""address_line_2"": """", ""city"": ""Lafayette"", ""id"": ""18"", ""link"": ""https://www.lpssonline.com/schools/ees"", ""location"": {""address"": {""administrative_area_level_1"": ""Louisiana"", ""administrative_area_level_1_short"": ""LA"", ""administrative_area_level_2"": ""Lafayette Parish"", ""country"": ""United States"", ""country_short"": ""US"", ""county"": ""Lafayette Parish"", ""formatted"": ""610 E Butcher Switch Rd, Lafayette, LA 70507, USA"", ""locality"": ""Lafayette"", ""postal_code"": ""70507"", ""postal_code_suffix"": ""3624"", ""route"": ""East Butcher Switch Road"", ""route_short"": ""E Butcher Switch Rd"", ""state"": ""Louisiana"", ""state_short"": ""LA"", ""street_number"": ""610"", ""zip"": ""70507""}, ""geoPoint"": {""lat"": 30.2838173, ""lng"": -92.0103683}, ""img"": ""pin1_red.png""}, ""phone"": ""337-521-7670"", ""title"": ""Evangeline Elementary School"", ""zip_code"": ""70507""}, ""source"": ""sc_la_codofil_objects5"", ""verification"": ""documented""}",,,not_reported,,documented,source_record,source-103894ccbcf0507bb786b2053303f110,SC-LA-P-c86459d1fc17:observation:1; programme description,source-8f12ec35a52a5085b29f4bf604868be7,"Raw composite cells, language/model caveats and differing grade scopes are retained; not every listed language is an immersion track.",undated public programme page; retrieved 2026-11-05
 claim-f81d4dbc27415b5284b186f3c259bba9,school,TX-S057912106,campus_grade_range_context,"{""ObjectID"": 2661, ""USER_District_Number"": ""'057912"", ""USER_Grade_Range"": ""'EE-05"", ""USER_School_Name"": ""HALEY J EL"", ""USER_School_Number"": ""'057912106""}",2024-25,2024-25,not_reported,,documented,source_record,source-ac779a10d9bc5a929ed71688f9a9aa6c,ObjectID=2661,,"Campus directory range only. A K-serving campus is an eligibility proxy, not proof of a kindergarten DL programme. The 2024–25 range is not assigned to the 2023–24 TAPR reporting group.",
