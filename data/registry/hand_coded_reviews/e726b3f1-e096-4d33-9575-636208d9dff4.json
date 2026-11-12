@@ -1,0 +1,145 @@
+{
+  "batch_id": "e726b3f1-e096-4d33-9575-636208d9dff4",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3645bd4bd492567d8e6f1e7f57bd87e2"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:15:16.480Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.aliefisd.net/o/aisd/page/one-way-dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "00b3bf0e-ec4c-428e-b1ab-c26468001057",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101903115",
+      "school_name": "Hearne Elementary",
+      "selected_site_id": "site_candidate-3645bd4bd492567d8e6f1e7f57bd87e2",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-10efc9e628ba58ca8abd6548d57943ad"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:15:24.199Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.aliefisd.net/o/aisd/page/one-way-dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2f89d302-b34c-4074-ac15-9dc0951a19e7",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101903120",
+      "school_name": "Hicks Elementary",
+      "selected_site_id": "site_candidate-10efc9e628ba58ca8abd6548d57943ad",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-40deda4b78ef5ff3887d0ae601388581",
+            "site_candidate-59920705714f5a1ca9bc3dc7fc663831"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:15:47.106Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4448/Aisd/437cb0ac-ef9c-4fef-9bfc-00b1ae85ea9b/LRP_Final_WebPosting_2025_Revised.pdf?disposition=inline",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "b2a5508b-0ff4-444d-9584-270bf5e4520a",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101903124",
+      "school_name": "Holmquist Elementary",
+      "selected_site_id": "site_candidate-40deda4b78ef5ff3887d0ae601388581",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-3fcc2bf152b95192b7a29618e9b22d07"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:15:58.461Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4448/Aisd/437cb0ac-ef9c-4fef-9bfc-00b1ae85ea9b/LRP_Final_WebPosting_2025_Revised.pdf?disposition=inline",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "92f3fb16-3933-4dce-8c13-1ec40582950f",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101903123",
+      "school_name": "Horn Elementary",
+      "selected_site_id": "site_candidate-3fcc2bf152b95192b7a29618e9b22d07",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-c6d280b057085a7ea02d9ae0d39dc470"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-12T23:16:13.248Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.aliefisd.net/o/aisd/page/one-way-dual-language-program",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "84cc43a7-e843-481d-b4be-1ab42530c381",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S101903107",
+      "school_name": "Kennedy Elementary",
+      "selected_site_id": "site_candidate-c6d280b057085a7ea02d9ae0d39dc470",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 103,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/103",
+    "received_at": "2026-11-12T23:17:18.263264+00:00",
+    "submitted_at": "2026-11-12T23:16:33Z"
+  },
+  "version": 1
+}
