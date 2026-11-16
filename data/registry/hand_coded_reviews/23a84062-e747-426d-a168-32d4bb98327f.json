@@ -1,0 +1,145 @@
+{
+  "batch_id": "23a84062-e747-426d-a168-32d4bb98327f",
+  "records": [
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-660d297d1493587ca6cb0f6b965f4b3b"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-16T15:35:27.045Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.conroeisd.net/page/bilingual-esl",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "65852f64-2d76-4b07-b915-1b5f8557f55e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S170902115",
+      "school_name": "San Jacinto Elementary",
+      "selected_site_id": "site_candidate-660d297d1493587ca6cb0f6b965f4b3b",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-69d939b6759f53c7990b3cd77380d4e3",
+            "site_candidate-913eb5e6b0745d82988de947b96a3390"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-16T15:35:31.797Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.conroeisd.net/page/bilingual-esl",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "28342fbf-8dc0-44f0-9528-fc484d4ad4e3",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S170902070",
+      "school_name": "Travis Int",
+      "selected_site_id": "site_candidate-69d939b6759f53c7990b3cd77380d4e3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-506ca5fcc47c5eb781d0eb645e5aead3"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-16T15:35:35.749Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.conroeisd.net/page/bilingual-esl",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "038ffca4-4705-4d29-b8ea-49a2086fcb13",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S170902056",
+      "school_name": "Veteran's Memorial Int",
+      "selected_site_id": "site_candidate-506ca5fcc47c5eb781d0eb645e5aead3",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-19c0a7da0d9e537abbeb80fb96fda7d4"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-16T15:35:40.533Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.conroeisd.net/page/bilingual-esl",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "09d86704-3b81-4f60-8a15-e395350c663e",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S170902069",
+      "school_name": "Vogel Int",
+      "selected_site_id": "site_candidate-19c0a7da0d9e537abbeb80fb96fda7d4",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    },
+    {
+      "changes": {
+        "delivery_structure": {
+          "site_ids": [
+            "site_candidate-8ca7968c03d75625ad52225ff0d3ef5d"
+          ],
+          "value": "strand"
+        }
+      },
+      "coded_at": "2026-11-16T15:35:45.768Z",
+      "coding_method": "researcher_interpretation",
+      "disposition": "coded",
+      "evidence_url": "https://www.conroeisd.net/page/bilingual-esl",
+      "grade_scope": "",
+      "notes": "",
+      "reference_year": "2025-26",
+      "review_id": "2fc14dbb-e196-42a4-a688-d1d077611826",
+      "reviewer": "bklawrence",
+      "school_id": "TX-S170902045",
+      "school_name": "Wilkerson Int",
+      "selected_site_id": "site_candidate-8ca7968c03d75625ad52225ff0d3ef5d",
+      "source_locator": "",
+      "source_quote": "",
+      "source_school_year": null,
+      "supersedes_review_id": null
+    }
+  ],
+  "submission": {
+    "github_actor": "bklawrence",
+    "hand_coded": true,
+    "issue_number": 109,
+    "issue_url": "https://github.com/bklawrence/dual-language-outcomes/issues/109",
+    "received_at": "2026-11-16T15:36:48.425810+00:00",
+    "submitted_at": "2026-11-16T15:36:15Z"
+  },
+  "version": 1
+}
